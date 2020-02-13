@@ -1,206 +1,206 @@
-100	Bolt Rag	Bolt Rag (1) Linen Cloth,Larva Egg
-101	Fire Rag	Fire Rag (1) Linen Cloth,Thick Oil
-102	Ice Rag	Ice Rag (1) Linen Cloth,Seaweed
-103	Poison Varnish	Poison Varnish (1) Gaberry Wine,Occult Remains,Miasmapod,Grilled Crabeye Seed
-104	Bolt Varnish	Bolt Varnish (1) Gaberry Wine,Firefly powder,Mana Stone
-105	Fire Varnish	Fire Varnish (1) Gaberry Wine,Seared Root,Fire Stone
-106	Ice Varnish	Ice Varnish (1) Gaberry Wine,Livweedi,Cold Stone
-107	Spiritual Varnish	Spiritual Varnish (1) Gaberry Wine,Ghost's Eye,Mana Stone
-108	Astral Potion	Astral Potion (3) Water,Star Mushroom,Turmmip
-109	Endurance Potion	Endurance Potion (3) Water,Krimp Nut,Egg
-110	Life Potion	Life Potion (3) Water,Blood Mushroom,Gravel Beetle
-111	Antidote	Antidote (1) Water,Common Mushroom,Thick Oil
-112	Rage Potion	Rage Potion (3) Water,Gravel Beetle,Smoke Root
-113	Discipline Potion	Discipline Potion (3) Water,Ochre Spice Beetle,Livweedi
-114	Warm Potion	Warm Potion (3) Water,Thick Oil
-115	Cool Potion	Cool Potion (3) Water,Gravel Beetle
-116	Mist Potion	Mist Potion (3) Water,Ghost's Eye
-117	Blessed Potion	Blessed Potion (3) Water,Firefly powder
-118	Possessed Potion	Possessed Potion (3) Water,Occult Remains
-119	Stealth Potion	Stealth Potion (3) Water,Woolshroom,Ghost's Eye
-11	Bitter Spicy Tea	Bitter Spicy Tea (1) Water,Ochre Spice Beetle
-120	Coralhorn Bow	Coralhorn Bow (1) Coralhorn Antler,Coralhorn Antler,Recurve Bow,Crystal Powder
-121	Elemental Immunity Potion	Elemental Immunity Potion (1) Thick Oil,Azure Shrimp,Firefly powder,Occult Remains
-122	Elemental Resistance Potion	Elemental Resistance Potion (1) Smoke Root,Occult Remains,Crystal Powder
-123	Weather Defense Potion	Weather Defense Potion (1) Water,Greasy Fern,Crystal Powder
-124	Stability Potion	Stability Potion (1) Water,Insect Husk,Livweedi
-125	Assassin Elixir	Assassin Elixir (1) Water,Raw Jewel Meat,Firefly powder,Crystal Powder
-126	Hex Cleaner	Hex Cleaner (1) Water,Greasy Fern,Livweedi,Salt
-127	Stoneflesh Elixir	Stoneflesh Elixir (1) Water,Gravel Beetle,Insect Husk,Crystal Powder
-128	Warrior Elixir	Warrior Elixir (1) Water,Larva Egg,Krimp Nut,Crystal Powder
-129	Survivor Elixir	Survivor Elixir (1) Water,Livweedi,Ochre Spice Beetle,Crystal Powder
-12	Clean Water	Clean Water (1) Rancid Water
-130	Golem Elixir	Golem Elixir (1) Water,Occult Remains,Blue Sand,Crystal Powder
-131	Campfire Kit	Campfire Kit (1) Wood,Wood,Wood
-132	Dark Varnish	Dark Varnish (1) Gaberry Wine,Occult Remains,Mana Stone,Grilled Crabeye Seed
-133	Travel Ration	Travel Ration (3) Ration Ingredient,Ration Ingredient,Salt
-134	Explorer Lantern	Explorer Lantern (1) Explorer Lantern,Thick Oil
-135	Old Lantern	Old Lantern (1) Old Lantern,Thick Oil
-136	Firefly Lantern	Firefly Lantern (1) Firefly Lantern,Firefly powder
-137	Ice-Flame Torch	Ice-Flame Torch (1) Makeshift Torch,Cold Stone,Iron Scrap
-138	Golem Rapier	Golem Rapier (1) Broken Golem Rapier,Broken Golem Rapier,Palladium Scrap,Crystal Powder
-139	Bullet	Bullet (3) Thick Oil,Iron Scrap
-13	Ocean Fricassee	Ocean Fricassee (3) Larva Egg,Fish,Seaweed
-140	Life Potion	Life Potion (1) Phytosaur Horn,Marshmelon
-141	Astral Potion	Astral Potion (1) Shark Cartilage,Thick Oil
-142	Endurance Potion	Endurance Potion (1) Assassin Tongue,Cactus Fruit
-143	Life Potion	Life Potion (1) Coralhorn Antler,Woolshroom
-144	Astral Potion	Astral Potion (1) Mantis Granite,Gaberries
-145	Endurance Potion	Endurance Potion (1) Occult Remains,Turmmip
-146	Great Life Potion	Great Life Potion (1) Life Potion,Greasy Fern
-147	Great Astral Potion	Great Astral Potion (1) Astral Potion,Ghost's Eye
-148	Great Endurance Potion	Great Endurance Potion (1) Endurance Potion,Krimp Nut
-149	Great Astral Potion	Great Astral Potion (3) Water,Manticore Tail,Blood Mushroom
-14	Meat Stew	Meat Stew (3) Meat,Vegetable,Salt
-150	Great Astral Potion	Great Astral Potion (3) Water,Alpha Tuanosaur Tail,Star Mushroom
-151	Great Life Potion	Great Life Potion (3) Water,Horror Chitin,Krimp Nut
-152	Bouillon du Predateur	Bouillon du Predateur (3) Predator Bones,Predator Bones,Predator Bones,Water
-153	Scavenger Mask	Scavenger Mask (1) Scavenger Scarf,Scavenger Hood
-154	Linen Cloth	Linen Cloth (3) Basic Armor
-155	Linen Cloth	Linen Cloth (1) Basic Helmet
-156	Linen Cloth	Linen Cloth (1) Basic Boots
-157	Obsidian Mace	Obsidian Mace (1) Obsidian Shard,Obsidian Shard,Palladium Scrap
-158	Obsidian Greatmace	Obsidian Greatmace (1) Obsidian Shard,Obsidian Shard,Palladium Scrap,Palladium Scrap
-159	Obsidian Pistol	Obsidian Pistol (1) Flintlock Pistol,Obsidian Shard,Palladium Scrap,Crystal Powder
-15	Miner’s Omelet	Miner’s Omelet (3) Egg,Egg,Common Mushroom
-160	Great Endurance Potion	Great Endurance Potion (1) Obsidian Shard,Common Mushroom,Water
-161	Manticore Dagger	Manticore Dagger (1) Manticore Tail,Palladium Scrap
-162	Shiv Dagger	Shiv Dagger (1) Iron Scrap,Linen Cloth
-163	Bone Pistol	Bone Pistol (1) Flintlock Pistol,Occult Remains,Occult Remains,Crystal Powder
-164	Antidote	Antidote (5) Firefly powder,Marshmelon,Ochre Spice Beetle,Water
-165	Palladium Scrap	Palladium Scrap (5) Beast Golem Scraps,Beast Golem Scraps,Beast Golem Scraps,Beast Golem Scraps
-166	Gold-Lich Claymore	Gold-Lich Claymore (1) Gold-Lich Mechanism,Gold-Lich Mechanism,Iron Claymore,Firefly powder
-167	Gold-Lich Spear	Gold-Lich Spear (1) Gold-Lich Mechanism,Gold-Lich Mechanism,Iron Spear,Firefly powder
-168	Gold-Lich Sword	Gold-Lich Sword (1) Gold-Lich Mechanism,Iron Sword,Firefly powder
-169	Gold-Lich Mace	Gold-Lich Mace (1) Gold-Lich Mechanism,Iron Mace,Firefly powder
-16	Pungent Paste	Pungent Paste (1) Egg,Ochre Spice Beetle,Fish
-170	Gold-Lich Shield	Gold-Lich Shield (1) Gold-Lich Mechanism,Round Shield,Firefly powder
-171	Spikes – Iron	Spikes – Iron (3) Iron Scrap,Iron Scrap,Iron Scrap,Iron Scrap
-172	Spikes – Palladium	Spikes – Palladium (3) Palladium Scrap,Palladium Scrap,Palladium Scrap,Palladium Scrap
-173	Charge – Incendiary	Charge – Incendiary (3) Thick Oil,Iron Scrap,Salt
-174	Charge – Toxic	Charge – Toxic (3) Grilled Crabeye Seed,Grilled Crabeye Seed,Salt
-175	Charge – Nerve Gas	Charge – Nerve Gas (3) Blood Mushroom,Livweedi,Salt
-176	Grilled Crabeye Seed	Grilled Crabeye Seed (1) Crabeye Seed
-177	Spikes – Wood	Spikes – Wood (3) Wood,Wood,Wood,Wood
-178	Cold Stone	Cold Stone (3) Mana Stone,Blue Sand
-179	Travel Ration	Travel Ration (1) Ration Ingredient,Ration Ingredient,Salt
-17	Gaberry Jam	Gaberry Jam (1) Gaberries,Gaberries,Gaberries,Gaberries
-180	Scaled Satchel	Scaled Satchel (1) Primitive Satchel,Scaled Leather,Scaled Leather,Scaled Leather
-181	Primitive Club	Primitive Club (1) Wood,Wood
-182	Ammolite Armor	Ammolite Armor (1) Ammolite,Padded Armor,Palladium Scrap
-183	Ammolite Helm	Ammolite Helm (1) Ammolite,Padded Helm,Palladium Scrap
-184	Ammolite Boots	Ammolite Boots (1) Ammolite,Padded Boots,Palladium Scrap
-185	Brand	Brand (1) Strange Rusted Sword,Blacksmith's Vintage Hammer,Mage’s Poking Stick,Chemist’s Broken Flask
-186	Rotwood Staff	Rotwood Staff (1) Compasswood Staff,Blue Sand,Crystal Powder
-187	Old Lantern	Old Lantern (1) Iron Scrap,Iron Scrap,Thick Oil,Linen Cloth
-188	Mana Stone	Mana Stone (3) Troglodyte Staff
-189	Chitin Desert Tunic	Chitin Desert Tunic (1) Desert Tunic,Insect Husk
-18	Jerky	Jerky (5) Meat,Meat,Salt,Salt
-190	Cooking Pot	Cooking Pot (1) Cauldron Helm
-191	Cauldron Helm	Cauldron Helm (1) Cooking Pot
-192	Coil Lantern	Coil Lantern (1) Coil Lantern,Power Coil
-193	Thermal Claymore	Thermal Claymore (1) Pearlbird’s Courage,Haunted Memory,Leyline Figment,Vendavel's Hospitality
-194	Griigmerk kÄramerk	Griigmerk kÄramerk (1) Gep’s Generosity,Scourge’s Tears,Haunted Memory,Calixa’s Relic
-195	Maelstrom Blade	Maelstrom Blade (1) Pearlbird’s Courage,Elatt’s Relic,Calixa’s Relic,Vendavel's Hospitality
-196	Kelvin’s Greataxe	Kelvin’s Greataxe (1) Gep’s Generosity,Elatt’s Relic,Scourge’s Tears,Leyline Figment
-197	Challenger Greathammer	Challenger Greathammer (1) Gep’s Generosity,Pearlbird’s Courage,Haunted Memory,Calixa’s Relic
-198	Ghost Reaper	Ghost Reaper (1) Scourge’s Tears,Haunted Memory,Leyline Figment,Vendavel's Hospitality
-199	Pain in the Axe	Pain in the Axe (1) Elatt’s Relic,Scourge’s Tears,Calixa’s Relic,Vendavel's Hospitality
-19	Alpha Jerky	Alpha Jerky (5) Raw Alpha Meat,Raw Alpha Meat,Salt,Salt
-1	Clean Water	Clean Water (1),Salt (1) Salt Water
-200	Mace of Seasons	Mace of Seasons (1) Gep’s Generosity,Pearlbird’s Courage,Elatt’s Relic,Leyline Figment
-201	Squire Attire	Squire Attire (1) Pearlbird’s Courage,Elatt’s Relic,Calixa’s Relic,Haunted Memory
-202	Squire Boots	Squire Boots (1) Gep’s Generosity,Elatt’s Relic,Haunted Memory,Leyline Figment
-203	Squire Headband	Squire Headband (1) Gep’s Generosity,Elatt’s Relic,Scourge’s Tears,Haunted Memory
-204	Pilgrim Armor	Pilgrim Armor (1) Pearlbird’s Courage,Scourge’s Tears,Leyline Figment,Vendavel's Hospitality
-205	Pilgrim Boots	Pilgrim Boots (1) Elatt’s Relic,Haunted Memory,Calixa’s Relic,Vendavel's Hospitality
-206	Pilgrim Helmet	Pilgrim Helmet (1) Gep’s Generosity,Pearlbird’s Courage,Elatt’s Relic,Haunted Memory
-207	Shock Armor	Shock Armor (1) Pearlbird’s Courage,Scourge’s Tears,Calixa’s Relic,Vendavel's Hospitality
-208	Shock Boots	Shock Boots (1) Gep’s Generosity,Calixa’s Relic,Leyline Figment,Vendavel's Hospitality
-209	Shock Helmet	Shock Helmet (1) Gep’s Generosity,Scourge’s Tears,Leyline Figment,Vendavel's Hospitality
-20	Dry Mushroom Bar	Dry Mushroom Bar (5) Common Mushroom,Common Mushroom,Common Mushroom,Common Mushroom
-21	Turmmip Potage	Turmmip Potage (3) Turmmip,Turmmip,Turmmip,Salt
-22	Fang Axe	Fang Axe (1) Iron Axe,Predator Bones,Linen Cloth
-23	Fang Sword	Fang Sword (1) Iron Sword,Predator Bones,Linen Cloth
-24	Fang Club	Fang Club (1) Iron Mace,Predator Bones,Linen Cloth
-25	Fang Trident	Fang Trident (1) Iron Spear,Predator Bones,Predator Bones,Linen Cloth
-26	Fang Greataxe	Fang Greataxe (1) Iron Greataxe,Predator Bones,Predator Bones,Linen Cloth
-27	Fang Greatsword	Fang Greatsword (1) Iron Claymore,Predator Bones,Predator Bones,Linen Cloth
-28	Fang Greatclub	Fang Greatclub (1) Iron Greathammer,Predator Bones,Predator Bones,Linen Cloth
-29	Fang Halberd	Fang Halberd (1) Iron Halberd,Predator Bones,Predator Bones,Linen Cloth
-2	Clean Water	Clean Water (1) River Water
-30	Fang Shield	Fang Shield (1) Round Shield,Predator Bones,Linen Cloth
-31	Improvised Bedroll	Improvised Bedroll (1) Hide,Hide
-32	Bandages	Bandages (1) Linen Cloth,Linen Cloth
-33	Quarterstaff	Quarterstaff (1) Wood,Wood,Linen Cloth
-34	Makeshift Torch	Makeshift Torch (1) Wood,Linen Cloth
-35	Primitive Satchel	Primitive Satchel (1) Hide,Hide,Linen Cloth
-36	Arrow	Arrow (3) Wood,Iron Scrap
-37	Plank Shield	Plank Shield (1) Wood,Linen Cloth,Linen Cloth
-38	Tripwire Trap	Tripwire Trap (2) Wood,Linen Cloth,Iron Scrap,Iron Scrap
-39	Iron Scrap	Iron Scrap (1) DecraftIron_Small
-3	Cooked Meat	Cooked Meat (1) Raw Meat
-40	Iron Scrap	Iron Scrap (2) DecraftIron_Large
-41	Palladium Scrap	Palladium Scrap (1) DecraftPalladium_Small
-42	Palladium Scrap	Palladium Scrap (2) DecraftPalladium_Large
-43	Linen Cloth	Linen Cloth (1) DecraftHide_Small
-44	Linen Cloth	Linen Cloth (2) DecraftHide_Large
-45	Crystal Powder	Crystal Powder (1) Mana Stone,Mana Stone,Mana Stone,Mana Stone
-46	Cierzo Ceviche	Cierzo Ceviche (3) Raw Rainbow Trout,Seaweed,Salt
-47	Luxe Lichette	Luxe Lichette (3) Larva Egg,Azure Shrimp,Raw Rainbow Trout,Seaweed
-48	Pot-au-Feu du Pirate	Pot-au-Feu du Pirate (3) Fish,Fish,Fish,Salt
-49	Alpha Sandwich	Alpha Sandwich (3) Raw Alpha Meat,Bread
-4	Cooked Alpha Meat	Cooked Alpha Meat (1) Raw Alpha Meat
-50	Gaberry Tartine	Gaberry Tartine (3) Bread,Gaberry Jam
-51	Boiled Gaberries	Boiled Gaberries (1) Gaberries
-52	Boiled Turmmip	Boiled Turmmip (1) Turmmip
-53	Grilled Mushroom	Grilled Mushroom (1) Common Mushroom
-54	Cooked Jewel Meat	Cooked Jewel Meat (1) Raw Jewel Meat
-55	Boiled Miasmapod	Boiled Miasmapod (1) Miasmapod
-56	Grilled Marshmelon	Grilled Marshmelon (1) Marshmelon
-57	Boiled Cactus Fruit	Boiled Cactus Fruit (1) Cactus Fruit
-58	Ragoût du Marais	Ragoût du Marais (3) Miasmapod,Meat,Marshmelon,Salt
-59	Savage Stew	Savage Stew (3) Raw Alpha Meat,Marshmelon,Gravel Beetle
-5	Grilled Salmon	Grilled Salmon (1) Raw Salmon
-60	Marshmelon Jelly	Marshmelon Jelly (1) Marshmelon,Marshmelon,Marshmelon,Gaberry Jam
-61	Marshmelon Tartine	Marshmelon Tartine (3) Marshmelon Jelly,Bread
-62	Seared Root	Seared Root (1) Smoke Root
-63	Grilled Woolshroom	Grilled Woolshroom (1) Woolshroom
-64	Toast	Toast (1) Bread
-65	Diadème de Gibier	Diadème de Gibier (3) Raw Jewel Meat,Meat,Cactus Fruit,Salt
-66	Spiny Meringue	Spiny Meringue (3) Cactus Fruit,Cactus Fruit,Larva Egg,Egg
-67	Cactus Pie	Cactus Pie (3) Cactus Fruit,Cactus Fruit,Bread
-68	Bread Of The Wild	Bread Of The Wild (3) Smoke Root,Raw Alpha Meat,Woolshroom,Bread
-69	Fungal Cleanser	Fungal Cleanser (3) Woolshroom,Mushroom,Ochre Spice Beetle
-6	Grilled Rainbow Trout	Grilled Rainbow Trout (1) Raw Rainbow Trout
-70	Stringy Salad	Stringy Salad (3) Woolshroom,Woolshroom,Vegetable,Vegetable
-72	Boiled Azure Shrimp	Boiled Azure Shrimp (1) Azure Shrimp
-73	Soothing Tea	Soothing Tea (1) Water,Seaweed
-74	Needle Tea	Needle Tea (1) Water,Cactus Fruit
-75	Mineral Tea	Mineral Tea (1) Water,Gravel Beetle
-76	Fire Stone	Fire Stone (1) Mana Stone,Thick Oil
-77	Horror Bow	Horror Bow (1) Horror Chitin,Horror Chitin,War Bow,Occult Remains
-78	Horror Axe	Horror Axe (1) Horror Chitin,Fang Axe,Palladium Scrap,Occult Remains
-79	Horror Shield	Horror Shield (1) Horror Chitin,Fang Shield,Palladium Scrap,Occult Remains
-7	Cooked Bird Egg	Cooked Bird Egg (1) Bird Egg
-80	Manticore Greatmace	Manticore Greatmace (1) Manticore Tail,Manticore Tail,Mantis Greatpick,Palladium Scrap
-81	Assassin Sword	Assassin Sword (1) Assassin Tongue,Steel Sabre,Palladium Scrap
-82	Assassin Claymore	Assassin Claymore (1) Assassin Tongue,Assassin Tongue,Fang Greatsword,Palladium Scrap
-83	Mantis Greatpick	Mantis Greatpick (1) Mantis Granite,Mantis Granite,Palladium Scrap,Mining Pick
-84	Crescent Greataxe	Crescent Greataxe (1) Shark Cartilage,Shark Cartilage,Palladium Scrap,Felling Greataxe
-85	Crescent Scythe	Crescent Scythe (1) Shark Cartilage,Shark Cartilage,Palladium Scrap,Pitchfork
-86	Thorny Spear	Thorny Spear (1) Thorny Cartilage,Thorny Cartilage,Iron Spear,Palladium Scrap
-87	Thorny Claymore	Thorny Claymore (1) Thorny Cartilage,Thorny Cartilage,Iron Claymore,Palladium Scrap
-88	Beast Golem Axe	Beast Golem Axe (1) Beast Golem Scraps,Iron Axe,Spikes – Palladium
-89	Beast Golem Halberd	Beast Golem Halberd (1) Beast Golem Scraps,Beast Golem Scraps,Iron Halberd,Spikes – Palladium
-8	Cooked Larva Egg	Cooked Larva Egg (1) Larva Egg
-90	Tuanosaur Axe	Tuanosaur Axe (1) Alpha Tuanosaur Tail,Brutal Axe,Palladium Scrap
-91	Tuanosaur Greataxe	Tuanosaur Greataxe (1) Alpha Tuanosaur Tail,Alpha Tuanosaur Tail,Brutal Greataxe,Palladium Scrap
-92	Phytosaur Spear	Phytosaur Spear (1) Phytosaur Horn,Fishing Harpoon,Miasmapod
-93	Makeshift Leather Hat	Makeshift Leather Hat (1) Basic Helmet,Hide
-94	Makeshift Leather Attire	Makeshift Leather Attire (1) Basic Armor,Hide,Hide
-95	Makeshift Leather Boots	Makeshift Leather Boots (1) Basic Boots,Hide
-96	Scaled Leather Hat	Scaled Leather Hat (1) Basic Helmet,Scaled Leather,Scaled Leather,Predator Bones
-97	Scaled Leather Attire	Scaled Leather Attire (1) Basic Armor,Scaled Leather,Scaled Leather,Predator Bones
-98	Scaled Leather Boots	Scaled Leather Boots (1) Basic Boots,Scaled Leather,Scaled Leather,Predator Bones
-99	Poison Rag	Poison Rag (1) Linen Cloth,Grilled Crabeye Seed
+100	Survival	Bolt Rag (1)	Linen Cloth,Larva Egg
+101	Survival	Fire Rag (1)	Linen Cloth,Thick Oil
+102	Survival	Ice Rag (1)	Linen Cloth,Seaweed
+103	Alchemy	Poison Varnish (1)	Gaberry Wine,Occult Remains,Miasmapod,Grilled Crabeye Seed
+104	Alchemy	Bolt Varnish (1)	Gaberry Wine,Firefly powder,Mana Stone
+105	Alchemy	Fire Varnish (1)	Gaberry Wine,Seared Root,Fire Stone
+106	Alchemy	Ice Varnish (1)	Gaberry Wine,Livweedi,Cold Stone
+107	Alchemy	Spiritual Varnish (1)	Gaberry Wine,Ghost's Eye,Mana Stone
+108	Alchemy	Astral Potion (3)	Water,Star Mushroom,Turmmip
+109	Alchemy	Endurance Potion (3)	Water,Krimp Nut,Egg
+110	Alchemy	Life Potion (3)	Water,Blood Mushroom,Gravel Beetle
+111	Alchemy	Antidote (1)	Water,Common Mushroom,Thick Oil
+112	Alchemy	Rage Potion (3)	Water,Gravel Beetle,Smoke Root
+113	Alchemy	Discipline Potion (3)	Water,Ochre Spice Beetle,Livweedi
+114	Alchemy	Warm Potion (3)	Water,Thick Oil
+115	Alchemy	Cool Potion (3)	Water,Gravel Beetle
+116	Alchemy	Mist Potion (3)	Water,Ghost's Eye
+117	Alchemy	Blessed Potion (3)	Water,Firefly powder
+118	Alchemy	Possessed Potion (3)	Water,Occult Remains
+119	Alchemy	Stealth Potion (3)	Water,Woolshroom,Ghost's Eye
+11	Cooking	Bitter Spicy Tea (1)	Water,Ochre Spice Beetle
+120	Survival	Coralhorn Bow (1)	Coralhorn Antler,Coralhorn Antler,Recurve Bow,Crystal Powder
+121	Alchemy	Elemental Immunity Potion (1)	Thick Oil,Azure Shrimp,Firefly powder,Occult Remains
+122	Alchemy	Elemental Resistance Potion (1)	Smoke Root,Occult Remains,Crystal Powder
+123	Alchemy	Weather Defense Potion (1)	Water,Greasy Fern,Crystal Powder
+124	Alchemy	Stability Potion (1)	Water,Insect Husk,Livweedi
+125	Alchemy	Assassin Elixir (1)	Water,Raw Jewel Meat,Firefly powder,Crystal Powder
+126	Alchemy	Hex Cleaner (1)	Water,Greasy Fern,Livweedi,Salt
+127	Alchemy	Stoneflesh Elixir (1)	Water,Gravel Beetle,Insect Husk,Crystal Powder
+128	Alchemy	Warrior Elixir (1)	Water,Larva Egg,Krimp Nut,Crystal Powder
+129	Alchemy	Survivor Elixir (1)	Water,Livweedi,Ochre Spice Beetle,Crystal Powder
+12	Cooking	Clean Water (1)	Rancid Water
+130	Alchemy	Golem Elixir (1)	Water,Occult Remains,Blue Sand,Crystal Powder
+131	Survival	Campfire Kit (1)	Wood,Wood,Wood
+132	Alchemy	Dark Varnish (1)	Gaberry Wine,Occult Remains,Mana Stone,Grilled Crabeye Seed
+133	Cooking	Travel Ration (3)	Ration Ingredient,Ration Ingredient,Salt
+134	Survival	Explorer Lantern (1)	Explorer Lantern,Thick Oil
+135	Survival	Old Lantern (1)	Old Lantern,Thick Oil
+136	Survival	Firefly Lantern (1)	Firefly Lantern,Firefly powder
+137	Survival	Ice-Flame Torch (1)	Makeshift Torch,Cold Stone,Iron Scrap
+138	Survival	Golem Rapier (1)	Broken Golem Rapier,Broken Golem Rapier,Palladium Scrap,Crystal Powder
+139	Survival	Bullet (3)	Thick Oil,Iron Scrap
+13	Cooking	Ocean Fricassee (3)	Larva Egg,Fish,Seaweed
+140	Alchemy	Life Potion (1)	Phytosaur Horn,Marshmelon
+141	Alchemy	Astral Potion (1)	Shark Cartilage,Thick Oil
+142	Alchemy	Endurance Potion (1)	Assassin Tongue,Cactus Fruit
+143	Alchemy	Life Potion (1)	Coralhorn Antler,Woolshroom
+144	Alchemy	Astral Potion (1)	Mantis Granite,Gaberries
+145	Alchemy	Endurance Potion (1)	Occult Remains,Turmmip
+146	Alchemy	Great Life Potion (1)	Life Potion,Greasy Fern
+147	Alchemy	Great Astral Potion (1)	Astral Potion,Ghost's Eye
+148	Alchemy	Great Endurance Potion (1)	Endurance Potion,Krimp Nut
+149	Alchemy	Great Astral Potion (3)	Water,Manticore Tail,Blood Mushroom
+14	Cooking	Meat Stew (3)	Meat,Vegetable,Salt
+150	Alchemy	Great Astral Potion (3)	Water,Alpha Tuanosaur Tail,Star Mushroom
+151	Alchemy	Great Life Potion (3)	Water,Horror Chitin,Krimp Nut
+152	Cooking	Bouillon du Predateur (3)	Predator Bones,Predator Bones,Predator Bones,Water
+153	Survival	Scavenger Mask (1)	Scavenger Scarf,Scavenger Hood
+154	Survival	Linen Cloth (3)	Basic Armor
+155	Survival	Linen Cloth (1)	Basic Helmet
+156	Survival	Linen Cloth (1)	Basic Boots
+157	Survival	Obsidian Mace (1)	Obsidian Shard,Obsidian Shard,Palladium Scrap
+158	Survival	Obsidian Greatmace (1)	Obsidian Shard,Obsidian Shard,Palladium Scrap,Palladium Scrap
+159	Survival	Obsidian Pistol (1)	Flintlock Pistol,Obsidian Shard,Palladium Scrap,Crystal Powder
+15	Cooking	Miner’s Omelet (3)	Egg,Egg,Common Mushroom
+160	Alchemy	Great Endurance Potion (1)	Obsidian Shard,Common Mushroom,Water
+161	Survival	Manticore Dagger (1)	Manticore Tail,Palladium Scrap
+162	Survival	Shiv Dagger (1)	Iron Scrap,Linen Cloth
+163	Survival	Bone Pistol (1)	Flintlock Pistol,Occult Remains,Occult Remains,Crystal Powder
+164	Alchemy	Antidote (5)	Firefly powder,Marshmelon,Ochre Spice Beetle,Water
+165	Survival	Palladium Scrap (5)	Beast Golem Scraps,Beast Golem Scraps,Beast Golem Scraps,Beast Golem Scraps
+166	Survival	Gold-Lich Claymore (1)	Gold-Lich Mechanism,Gold-Lich Mechanism,Iron Claymore,Firefly powder
+167	Survival	Gold-Lich Spear (1)	Gold-Lich Mechanism,Gold-Lich Mechanism,Iron Spear,Firefly powder
+168	Survival	Gold-Lich Sword (1)	Gold-Lich Mechanism,Iron Sword,Firefly powder
+169	Survival	Gold-Lich Mace (1)	Gold-Lich Mechanism,Iron Mace,Firefly powder
+16	Cooking	Pungent Paste (1)	Egg,Ochre Spice Beetle,Fish
+170	Survival	Gold-Lich Shield (1)	Gold-Lich Mechanism,Round Shield,Firefly powder
+171	Survival	Spikes – Iron (3)	Iron Scrap,Iron Scrap,Iron Scrap,Iron Scrap
+172	Survival	Spikes – Palladium (3)	Palladium Scrap,Palladium Scrap,Palladium Scrap,Palladium Scrap
+173	Alchemy	Charge – Incendiary (3)	Thick Oil,Iron Scrap,Salt
+174	Alchemy	Charge – Toxic (3)	Grilled Crabeye Seed,Grilled Crabeye Seed,Salt
+175	Alchemy	Charge – Nerve Gas (3)	Blood Mushroom,Livweedi,Salt
+176	Cooking	Grilled Crabeye Seed (1)	Crabeye Seed
+177	Survival	Spikes – Wood (3)	Wood,Wood,Wood,Wood
+178	Alchemy	Cold Stone (3)	Mana Stone,Blue Sand
+179	Survival	Travel Ration (1)	Ration Ingredient,Ration Ingredient,Salt
+17	Cooking	Gaberry Jam (1)	Gaberries,Gaberries,Gaberries,Gaberries
+180	Survival	Scaled Satchel (1)	Primitive Satchel,Scaled Leather,Scaled Leather,Scaled Leather
+181	Survival	Primitive Club (1)	Wood,Wood
+182	Survival	Ammolite Armor (1)	Ammolite,Padded Armor,Palladium Scrap
+183	Survival	Ammolite Helm (1)	Ammolite,Padded Helm,Palladium Scrap
+184	Survival	Ammolite Boots (1)	Ammolite,Padded Boots,Palladium Scrap
+185	Survival	Brand (1)	Strange Rusted Sword,Blacksmith's Vintage Hammer,Mage’s Poking Stick,Chemist’s Broken Flask
+186	Survival	Rotwood Staff (1)	Compasswood Staff,Blue Sand,Crystal Powder
+187	Survival	Old Lantern (1)	Iron Scrap,Iron Scrap,Thick Oil,Linen Cloth
+188	Survival	Mana Stone (3)	Troglodyte Staff
+189	Survival	Chitin Desert Tunic (1)	Desert Tunic,Insect Husk
+18	Cooking	Jerky (5)	Meat,Meat,Salt,Salt
+190	Survival	Cooking Pot (1)	Cauldron Helm
+191	Survival	Cauldron Helm (1)	Cooking Pot
+192	Survival	Coil Lantern (1)	Coil Lantern,Power Coil
+193	Survival	Thermal Claymore (1)	Pearlbird’s Courage,Haunted Memory,Leyline Figment,Vendavel's Hospitality
+194	Survival	Griigmerk kÄramerk (1)	Gep’s Generosity,Scourge’s Tears,Haunted Memory,Calixa’s Relic
+195	Survival	Maelstrom Blade (1)	Pearlbird’s Courage,Elatt’s Relic,Calixa’s Relic,Vendavel's Hospitality
+196	Survival	Kelvin’s Greataxe (1)	Gep’s Generosity,Elatt’s Relic,Scourge’s Tears,Leyline Figment
+197	Survival	Challenger Greathammer (1)	Gep’s Generosity,Pearlbird’s Courage,Haunted Memory,Calixa’s Relic
+198	Survival	Ghost Reaper (1)	Scourge’s Tears,Haunted Memory,Leyline Figment,Vendavel's Hospitality
+199	Survival	Pain in the Axe (1)	Elatt’s Relic,Scourge’s Tears,Calixa’s Relic,Vendavel's Hospitality
+19	Cooking	Alpha Jerky (5)	Raw Alpha Meat,Raw Alpha Meat,Salt,Salt
+1	Cooking	Clean Water (1),Salt (1)	Salt Water
+200	Survival	Mace of Seasons (1)	Gep’s Generosity,Pearlbird’s Courage,Elatt’s Relic,Leyline Figment
+201	Survival	Squire Attire (1)	Pearlbird’s Courage,Elatt’s Relic,Calixa’s Relic,Haunted Memory
+202	Survival	Squire Boots (1)	Gep’s Generosity,Elatt’s Relic,Haunted Memory,Leyline Figment
+203	Survival	Squire Headband (1)	Gep’s Generosity,Elatt’s Relic,Scourge’s Tears,Haunted Memory
+204	Survival	Pilgrim Armor (1)	Pearlbird’s Courage,Scourge’s Tears,Leyline Figment,Vendavel's Hospitality
+205	Survival	Pilgrim Boots (1)	Elatt’s Relic,Haunted Memory,Calixa’s Relic,Vendavel's Hospitality
+206	Survival	Pilgrim Helmet (1)	Gep’s Generosity,Pearlbird’s Courage,Elatt’s Relic,Haunted Memory
+207	Survival	Shock Armor (1)	Pearlbird’s Courage,Scourge’s Tears,Calixa’s Relic,Vendavel's Hospitality
+208	Survival	Shock Boots (1)	Gep’s Generosity,Calixa’s Relic,Leyline Figment,Vendavel's Hospitality
+209	Survival	Shock Helmet (1)	Gep’s Generosity,Scourge’s Tears,Leyline Figment,Vendavel's Hospitality
+20	Cooking	Dry Mushroom Bar (5)	Common Mushroom,Common Mushroom,Common Mushroom,Common Mushroom
+21	Cooking	Turmmip Potage (3)	Turmmip,Turmmip,Turmmip,Salt
+22	Survival	Fang Axe (1)	Iron Axe,Predator Bones,Linen Cloth
+23	Survival	Fang Sword (1)	Iron Sword,Predator Bones,Linen Cloth
+24	Survival	Fang Club (1)	Iron Mace,Predator Bones,Linen Cloth
+25	Survival	Fang Trident (1)	Iron Spear,Predator Bones,Predator Bones,Linen Cloth
+26	Survival	Fang Greataxe (1)	Iron Greataxe,Predator Bones,Predator Bones,Linen Cloth
+27	Survival	Fang Greatsword (1)	Iron Claymore,Predator Bones,Predator Bones,Linen Cloth
+28	Survival	Fang Greatclub (1)	Iron Greathammer,Predator Bones,Predator Bones,Linen Cloth
+29	Survival	Fang Halberd (1)	Iron Halberd,Predator Bones,Predator Bones,Linen Cloth
+2	Cooking	Clean Water (1)	River Water
+30	Survival	Fang Shield (1)	Round Shield,Predator Bones,Linen Cloth
+31	Survival	Improvised Bedroll (1)	Hide,Hide
+32	Survival	Bandages (1)	Linen Cloth,Linen Cloth
+33	Survival	Quarterstaff (1)	Wood,Wood,Linen Cloth
+34	Survival	Makeshift Torch (1)	Wood,Linen Cloth
+35	Survival	Primitive Satchel (1)	Hide,Hide,Linen Cloth
+36	Survival	Arrow (3)	Wood,Iron Scrap
+37	Survival	Plank Shield (1)	Wood,Linen Cloth,Linen Cloth
+38	Survival	Tripwire Trap (2)	Wood,Linen Cloth,Iron Scrap,Iron Scrap
+39	Survival	Iron Scrap (1)	DecraftIron_Small
+3	Cooking	Cooked Meat (1)	Raw Meat
+40	Survival	Iron Scrap (2)	DecraftIron_Large
+41	Survival	Palladium Scrap (1)	DecraftPalladium_Small
+42	Survival	Palladium Scrap (2)	DecraftPalladium_Large
+43	Survival	Linen Cloth (1)	DecraftHide_Small
+44	Survival	Linen Cloth (2)	DecraftHide_Large
+45	Alchemy	Crystal Powder (1)	Mana Stone,Mana Stone,Mana Stone,Mana Stone
+46	Cooking	Cierzo Ceviche (3)	Raw Rainbow Trout,Seaweed,Salt
+47	Cooking	Luxe Lichette (3)	Larva Egg,Azure Shrimp,Raw Rainbow Trout,Seaweed
+48	Cooking	Pot-au-Feu du Pirate (3)	Fish,Fish,Fish,Salt
+49	Cooking	Alpha Sandwich (3)	Raw Alpha Meat,Bread
+4	Cooking	Cooked Alpha Meat (1)	Raw Alpha Meat
+50	Cooking	Gaberry Tartine (3)	Bread,Gaberry Jam
+51	Cooking	Boiled Gaberries (1)	Gaberries
+52	Cooking	Boiled Turmmip (1)	Turmmip
+53	Cooking	Grilled Mushroom (1)	Common Mushroom
+54	Cooking	Cooked Jewel Meat (1)	Raw Jewel Meat
+55	Cooking	Boiled Miasmapod (1)	Miasmapod
+56	Cooking	Grilled Marshmelon (1)	Marshmelon
+57	Cooking	Boiled Cactus Fruit (1)	Cactus Fruit
+58	Cooking	Ragoût du Marais (3)	Miasmapod,Meat,Marshmelon,Salt
+59	Cooking	Savage Stew (3)	Raw Alpha Meat,Marshmelon,Gravel Beetle
+5	Cooking	Grilled Salmon (1)	Raw Salmon
+60	Cooking	Marshmelon Jelly (1)	Marshmelon,Marshmelon,Marshmelon,Gaberry Jam
+61	Cooking	Marshmelon Tartine (3)	Marshmelon Jelly,Bread
+62	Cooking	Seared Root (1)	Smoke Root
+63	Cooking	Grilled Woolshroom (1)	Woolshroom
+64	Cooking	Toast (1)	Bread
+65	Cooking	Diadème de Gibier (3)	Raw Jewel Meat,Meat,Cactus Fruit,Salt
+66	Cooking	Spiny Meringue (3)	Cactus Fruit,Cactus Fruit,Larva Egg,Egg
+67	Cooking	Cactus Pie (3)	Cactus Fruit,Cactus Fruit,Bread
+68	Cooking	Bread Of The Wild (3)	Smoke Root,Raw Alpha Meat,Woolshroom,Bread
+69	Cooking	Fungal Cleanser (3)	Woolshroom,Mushroom,Ochre Spice Beetle
+6	Cooking	Grilled Rainbow Trout (1)	Raw Rainbow Trout
+70	Cooking	Stringy Salad (3)	Woolshroom,Woolshroom,Vegetable,Vegetable
+72	Cooking	Boiled Azure Shrimp (1)	Azure Shrimp
+73	Cooking	Soothing Tea (1)	Water,Seaweed
+74	Cooking	Needle Tea (1)	Water,Cactus Fruit
+75	Cooking	Mineral Tea (1)	Water,Gravel Beetle
+76	Alchemy	Fire Stone (1)	Mana Stone,Thick Oil
+77	Survival	Horror Bow (1)	Horror Chitin,Horror Chitin,War Bow,Occult Remains
+78	Survival	Horror Axe (1)	Horror Chitin,Fang Axe,Palladium Scrap,Occult Remains
+79	Survival	Horror Shield (1)	Horror Chitin,Fang Shield,Palladium Scrap,Occult Remains
+7	Cooking	Cooked Bird Egg (1)	Bird Egg
+80	Survival	Manticore Greatmace (1)	Manticore Tail,Manticore Tail,Mantis Greatpick,Palladium Scrap
+81	Survival	Assassin Sword (1)	Assassin Tongue,Steel Sabre,Palladium Scrap
+82	Survival	Assassin Claymore (1)	Assassin Tongue,Assassin Tongue,Fang Greatsword,Palladium Scrap
+83	Survival	Mantis Greatpick (1)	Mantis Granite,Mantis Granite,Palladium Scrap,Mining Pick
+84	Survival	Crescent Greataxe (1)	Shark Cartilage,Shark Cartilage,Palladium Scrap,Felling Greataxe
+85	Survival	Crescent Scythe (1)	Shark Cartilage,Shark Cartilage,Palladium Scrap,Pitchfork
+86	Survival	Thorny Spear (1)	Thorny Cartilage,Thorny Cartilage,Iron Spear,Palladium Scrap
+87	Survival	Thorny Claymore (1)	Thorny Cartilage,Thorny Cartilage,Iron Claymore,Palladium Scrap
+88	Survival	Beast Golem Axe (1)	Beast Golem Scraps,Iron Axe,Spikes – Palladium
+89	Survival	Beast Golem Halberd (1)	Beast Golem Scraps,Beast Golem Scraps,Iron Halberd,Spikes – Palladium
+8	Cooking	Cooked Larva Egg (1)	Larva Egg
+90	Survival	Tuanosaur Axe (1)	Alpha Tuanosaur Tail,Brutal Axe,Palladium Scrap
+91	Survival	Tuanosaur Greataxe (1)	Alpha Tuanosaur Tail,Alpha Tuanosaur Tail,Brutal Greataxe,Palladium Scrap
+92	Survival	Phytosaur Spear (1)	Phytosaur Horn,Fishing Harpoon,Miasmapod
+93	Survival	Makeshift Leather Hat (1)	Basic Helmet,Hide
+94	Survival	Makeshift Leather Attire (1)	Basic Armor,Hide,Hide
+95	Survival	Makeshift Leather Boots (1)	Basic Boots,Hide
+96	Survival	Scaled Leather Hat (1)	Basic Helmet,Scaled Leather,Scaled Leather,Predator Bones
+97	Survival	Scaled Leather Attire (1)	Basic Armor,Scaled Leather,Scaled Leather,Predator Bones
+98	Survival	Scaled Leather Boots (1)	Basic Boots,Scaled Leather,Scaled Leather,Predator Bones
+99	Survival	Poison Rag (1)	Linen Cloth,Grilled Crabeye Seed
