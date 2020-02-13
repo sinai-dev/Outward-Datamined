@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ItemHolder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="SkillHolder">
+  <ItemID>900001</ItemID>
+  <Name>Test Passive Skill</Name>
+  <gameObjectName>0900001_TestPassive</gameObjectName>
+  <saveDir>/Skill/PassiveSkill</saveDir>
+  <Description />
+  <LegacyItemID>-1</LegacyItemID>
+  <Tags />
+  <EffectTransforms>
+    <EffectTransformHolder>
+      <TransformName>Passive</TransformName>
+      <Effects>
+        <EffectHolder xsi:type="AffectStatHolder">
+          <AffectedStat>StaminaUse</AffectedStat>
+          <AffectedStat_TagUID>81</AffectedStat_TagUID>
+          <AffectQuantity>-15</AffectQuantity>
+          <IsModifier>true</IsModifier>
+        </EffectHolder>
+      </Effects>
+      <EffectConditions />
+      <ChildEffects />
+    </EffectTransformHolder>
+  </EffectTransforms>
+  <Cooldown>0</Cooldown>
+  <StaminaCost>0</StaminaCost>
+  <ManaCost>0</ManaCost>
+  <DurabilityCost>0</DurabilityCost>
+  <DurabilityCostPercent>0</DurabilityCostPercent>
+  <IsDLCSkill>true</IsDLCSkill>
+  <RequiredItems />
+</ItemHolder>

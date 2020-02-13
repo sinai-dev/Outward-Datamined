@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RecipeHolder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <StationType>Cooking</StationType>
+  <Name>Gaberry Tartine</Name>
+  <RecipeID>50</RecipeID>
+  <Ingredients>
+    <string>Bread</string>
+    <string>Gaberry Jam</string>
+  </Ingredients>
+  <Results>
+    <ItemQuantityHolder>
+      <ItemName>Gaberry Tartine</ItemName>
+      <Quantity>3</Quantity>
+    </ItemQuantityHolder>
+  </Results>
+</RecipeHolder>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<EnemyHolder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>Molten Forge Golem</Name>
+  <GameObject_Name>ForgeGolemRedHot</GameObject_Name>
+  <Unique_ID>2</Unique_ID>
+  <Locations_Found>
+    <string>Hallowed Marsh:Dark Ziggurat Interior</string>
+    <string>Abrassar:Electric Lab</string>
+    <string>Enmerkar Forest:Vigil Pylon</string>
+  </Locations_Found>
+  <Max_Health>225</Max_Health>
+  <Health_Regen_Per_Second>0</Health_Regen_Per_Second>
+  <Impact_Resistance>30</Impact_Resistance>
+  <Protection>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+  </Protection>
+  <Damage_Resistances>
+    <float>0.299999982</float>
+    <float>-0.399999976</float>
+    <float>0.399999976</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0.399999976</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+  </Damage_Resistances>
+  <Damage_Bonuses>
+    <float>1</float>
+    <float>1</float>
+    <float>1</float>
+    <float>1</float>
+    <float>1</float>
+    <float>1</float>
+    <float>1</float>
+    <float>1</float>
+    <float>1</float>
+  </Damage_Bonuses>
+  <Collider_Radius>0.64</Collider_Radius>
+  <True_WeaponDamage>
+    <Damages>
+      <Damage>18</Damage>
+      <Damage_Type>Physical</Damage_Type>
+    </Damages>
+    <Damages>
+      <Damage>6</Damage>
+      <Damage_Type>Fire</Damage_Type>
+    </Damages>
+  </True_WeaponDamage>
+  <Weapon_Impact>50</Weapon_Impact>
+  <Status_Immunities>
+    <string>Bleeding</string>
+    <string>Poison</string>
+    <string>Burning</string>
+  </Status_Immunities>
+  <Starting_Equipment>
+    <string>- (2400201)</string>
+  </Starting_Equipment>
+  <Skill_Knowledge>
+    <string>Forge Golem Light Shot</string>
+  </Skill_Knowledge>
+  <Faction>Bandits</Faction>
+  <Allied_To_Same_Faction>true</Allied_To_Same_Faction>
+  <Guaranteed_Drops />
+  <DropTable_Names>
+    <string>DropTable_GolemForgeHelperRedHot</string>
+  </DropTable_Names>
+</EnemyHolder>

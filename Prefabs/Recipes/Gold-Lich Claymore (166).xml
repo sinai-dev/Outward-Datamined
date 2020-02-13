@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RecipeHolder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <StationType>Survival</StationType>
+  <Name>Gold-Lich Claymore</Name>
+  <RecipeID>166</RecipeID>
+  <Ingredients>
+    <string>Gold-Lich Mechanism</string>
+    <string>Gold-Lich Mechanism</string>
+    <string>Iron Claymore</string>
+    <string>Firefly powder</string>
+  </Ingredients>
+  <Results>
+    <ItemQuantityHolder>
+      <ItemName>Gold-Lich Claymore</ItemName>
+      <Quantity>1</Quantity>
+    </ItemQuantityHolder>
+  </Results>
+</RecipeHolder>

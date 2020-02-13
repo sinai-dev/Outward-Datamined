@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RecipeHolder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <StationType>Alchemy</StationType>
+  <Name>Fire Varnish</Name>
+  <RecipeID>105</RecipeID>
+  <Ingredients>
+    <string>Gaberry Wine</string>
+    <string>Seared Root</string>
+    <string>Fire Stone</string>
+  </Ingredients>
+  <Results>
+    <ItemQuantityHolder>
+      <ItemName>Fire Varnish</ItemName>
+      <Quantity>1</Quantity>
+    </ItemQuantityHolder>
+  </Results>
+</RecipeHolder>

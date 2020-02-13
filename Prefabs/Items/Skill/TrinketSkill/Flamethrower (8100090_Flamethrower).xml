@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ItemHolder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="SkillHolder">
+  <ItemID>8100090</ItemID>
+  <Name>Flamethrower</Name>
+  <gameObjectName>8100090_Flamethrower</gameObjectName>
+  <saveDir>/Skill/TrinketSkill</saveDir>
+  <Description>Required: Torch or Lantern
+
+Shoots fire from the torch or lantern, which also inflicts the Burning status effect.
+
+This skill lowers the durability of the torch or lantern used.</Description>
+  <LegacyItemID>-1</LegacyItemID>
+  <Tags />
+  <EffectTransforms>
+    <EffectTransformHolder>
+      <TransformName>Effects</TransformName>
+      <Effects>
+        <EffectHolder xsi:type="ShootBlastHolder">
+          <BlastLifespan>2.5</BlastLifespan>
+          <RefreshTime>0.1</RefreshTime>
+          <EffectTransforms>
+            <EffectTransformHolder>
+              <TransformName>Effects</TransformName>
+              <Effects>
+                <EffectHolder xsi:type="PunctualDamageHolder">
+                  <Damage>
+                    <Damages>
+                      <Damage>2.75</Damage>
+                      <Damage_Type>Fire</Damage_Type>
+                    </Damages>
+                  </Damage>
+                  <Damages_AI />
+                  <Knockback>2.65</Knockback>
+                  <HitInventory>true</HitInventory>
+                </EffectHolder>
+                <EffectHolder xsi:type="AddStatusEffectBuildupHolder">
+                  <StatusEffect>Burning</StatusEffect>
+                  <Buildup>15</Buildup>
+                </EffectHolder>
+              </Effects>
+              <EffectConditions />
+              <ChildEffects />
+            </EffectTransformHolder>
+          </EffectTransforms>
+        </EffectHolder>
+        <EffectHolder xsi:type="ReduceDurabilityHolder">
+          <EquipmentSlot>LeftHand</EquipmentSlot>
+          <DurabilityLoss>20</DurabilityLoss>
+        </EffectHolder>
+      </Effects>
+      <EffectConditions />
+      <ChildEffects />
+    </EffectTransformHolder>
+    <EffectTransformHolder>
+      <TransformName>AdditionalActivationConditions</TransformName>
+      <Effects />
+      <EffectConditions />
+      <ChildEffects>
+        <EffectTransformHolder>
+          <TransformName>Fuel</TransformName>
+          <Effects />
+          <EffectConditions>
+            <EffectConditionHolder>
+              <Conditions>
+                <ConditionHolder>
+                  <Condition_Type>EquipDurabilityCondition</Condition_Type>
+                  <Invert>false</Invert>
+                </ConditionHolder>
+              </Conditions>
+            </EffectConditionHolder>
+          </EffectConditions>
+          <ChildEffects />
+        </EffectTransformHolder>
+      </ChildEffects>
+    </EffectTransformHolder>
+  </EffectTransforms>
+  <Cooldown>5</Cooldown>
+  <StaminaCost>0</StaminaCost>
+  <ManaCost>15</ManaCost>
+  <DurabilityCost>20</DurabilityCost>
+  <DurabilityCostPercent>20</DurabilityCostPercent>
+  <IsDLCSkill>true</IsDLCSkill>
+  <RequiredItems />
+</ItemHolder>

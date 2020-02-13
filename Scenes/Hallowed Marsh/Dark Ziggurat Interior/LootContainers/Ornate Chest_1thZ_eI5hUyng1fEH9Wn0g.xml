@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LootContainerHolder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>Ornate Chest</Name>
+  <ItemID>1000040</ItemID>
+  <UID>1thZ_eI5hUyng1fEH9Wn0g</UID>
+  <DropTables>
+    <string>DropTable_HallowedMarsh_Equipment_High_1</string>
+    <string>DropTable_HallowedMarsh_Equipment_HighDungeon_1</string>
+    <string>DropTable_Neutral_Alchemy_High_1</string>
+    <string>DropTable_Neutral_Consumable_High_1</string>
+    <string>DropTable_Neutral_Recipe_Dungeon_1</string>
+    <string>DropTable_Neutral_Valuable_High_1</string>
+  </DropTables>
+</LootContainerHolder>

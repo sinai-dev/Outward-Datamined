@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ItemHolder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ItemID>4200040</ItemID>
+  <Name>Waterskin</Name>
+  <gameObjectName>4200040_WaterSkin</gameObjectName>
+  <saveDir>/WaterContainer</saveDir>
+  <Description>Drinking water restores stamina over time and removes the Burning status.
+
+It can be filled at fountains or in natural bodies of water.</Description>
+  <LegacyItemID>-1</LegacyItemID>
+  <StatsHolder>
+    <BaseValue>6</BaseValue>
+    <RawWeight>0.3</RawWeight>
+    <MaxDurability>-1</MaxDurability>
+  </StatsHolder>
+  <Tags>
+    <string>Drink</string>
+    <string>Consummable</string>
+    <string>Item</string>
+    <string>Water</string>
+    <string>Misc</string>
+    <string>Ingredient Cook</string>
+    <string>Ingredient</string>
+  </Tags>
+  <EffectTransforms />
+</ItemHolder>

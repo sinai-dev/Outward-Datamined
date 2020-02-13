@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<StatusEffectHolder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>Food Speed Up</Name>
+  <PresetID>537</PresetID>
+  <Lifespan>900</Lifespan>
+  <LengthType>Short</LengthType>
+  <Tags />
+  <CanBeHealedBySleeping>false</CanBeHealedBySleeping>
+  <StraightSleepHealTime>-1</StraightSleepHealTime>
+  <Effects>
+    <EffectHolder xsi:type="AffectStatHolder">
+      <AffectedStat>MovementSpeed</AffectedStat>
+      <AffectedStat_TagUID>86</AffectedStat_TagUID>
+      <AffectQuantity>15</AffectQuantity>
+      <IsModifier>true</IsModifier>
+    </EffectHolder>
+  </Effects>
+</StatusEffectHolder>

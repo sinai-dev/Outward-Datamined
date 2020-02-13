@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ItemHolder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ItemID>6400130</ItemID>
+  <Name>Mana Stone</Name>
+  <gameObjectName>6400130_ManaStone</gameObjectName>
+  <saveDir />
+  <Description>Unrefined mineral that radiates raw magic, used in many alchemical recipes.</Description>
+  <LegacyItemID>-1</LegacyItemID>
+  <StatsHolder>
+    <BaseValue>20</BaseValue>
+    <RawWeight>0.5</RawWeight>
+    <MaxDurability>-1</MaxDurability>
+  </StatsHolder>
+  <Tags>
+    <string>Fuel</string>
+    <string>Material</string>
+    <string>Ingredient</string>
+    <string>Item</string>
+    <string>Misc</string>
+    <string>Valuable</string>
+  </Tags>
+  <EffectTransforms />
+</ItemHolder>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RecipeHolder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <StationType>Survival</StationType>
+  <Name>Beast Golem Axe</Name>
+  <RecipeID>88</RecipeID>
+  <Ingredients>
+    <string>Beast Golem Scraps</string>
+    <string>Iron Axe</string>
+    <string>Spikes – Palladium</string>
+  </Ingredients>
+  <Results>
+    <ItemQuantityHolder>
+      <ItemName>Beast Golem Axe</ItemName>
+      <Quantity>1</Quantity>
+    </ItemQuantityHolder>
+  </Results>
+</RecipeHolder>

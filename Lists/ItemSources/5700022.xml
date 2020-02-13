@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ItemSource xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ItemName>Crafting: Fang Axe</ItemName>
+  <ItemID>5700022</ItemID>
+  <Container_Sources>
+    <string>Chest (Chersonese:Cierzo (Destroyed))</string>
+    <string>Chest (Chersonese:Cierzo (Destroyed))</string>
+    <string>Hollowed Trunk (Chersonese:Chersonese)</string>
+    <string>Chest (Chersonese:Chersonese)</string>
+    <string>Hollowed Trunk (Chersonese:Chersonese)</string>
+    <string>Soldier’s Corpse (Chersonese:Chersonese)</string>
+    <string>Hollowed Trunk (Chersonese:Chersonese)</string>
+    <string>Chest (Chersonese:Chersonese)</string>
+    <string>Junk Pile (Chersonese:Vendavel Fortress)</string>
+    <string>Looter’s Corpse (Chersonese:Blister Burrow)</string>
+    <string>Scavenger’s Corpse (Chersonese:Blue Chamber’s Conflux Path)</string>
+    <string>Chest (Chersonese:Holy Mission’s Conflux Path)</string>
+    <string>Junk Pile (Chersonese:Holy Mission’s Conflux Path)</string>
+    <string>Junk Pile (Chersonese:Heroic Kingdom’s Conflux Path)</string>
+    <string>Broken Tent (Chersonese:Corrupted Tombs)</string>
+    <string>Knight’s Corpse (Chersonese:Corrupted Tombs)</string>
+    <string>Junk Pile (Chersonese:Montcalm Clan Fort)</string>
+    <string>Junk Pile (Chersonese:Montcalm Clan Fort)</string>
+    <string>Junk Pile (Chersonese:Starfish Cave)</string>
+  </Container_Sources>
+  <Spawn_Sources />
+</ItemSource>

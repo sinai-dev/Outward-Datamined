@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SceneSummary xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <SceneName>Worn Hunter's Cabin</SceneName>
+  <Enemies>
+    <QuantityHolder>
+      <Name>Ghost (2)</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+  </Enemies>
+  <Merchants />
+  <Loot_Containers>
+    <QuantityHolder>
+      <Name>Worker’s Corpse</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Junk Pile</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+  </Loot_Containers>
+  <Gatherables />
+  <Item_Spawns>
+    <ItemSpawnHolder>
+      <Name>Fire Varnish</Name>
+      <Item_ID>4400041</Item_ID>
+      <Quantity>1</Quantity>
+      <positions>
+        <Vector3>
+          <x>304.175</x>
+          <y>1.684</y>
+          <z>6.636</z>
+        </Vector3>
+      </positions>
+    </ItemSpawnHolder>
+    <ItemSpawnHolder>
+      <Name>Mana Stone</Name>
+      <Item_ID>6400130</Item_ID>
+      <Quantity>3</Quantity>
+      <positions>
+        <Vector3>
+          <x>302.521</x>
+          <y>0.845</y>
+          <z>3.214</z>
+        </Vector3>
+        <Vector3>
+          <x>303.316</x>
+          <y>1.735609</y>
+          <z>3.397</z>
+        </Vector3>
+        <Vector3>
+          <x>303.175</x>
+          <y>1.735609</y>
+          <z>3.77</z>
+        </Vector3>
+      </positions>
+    </ItemSpawnHolder>
+    <ItemSpawnHolder>
+      <Name>Explorer Lantern</Name>
+      <Item_ID>5100000</Item_ID>
+      <Quantity>1</Quantity>
+      <positions>
+        <Vector3>
+          <x>300.282562</x>
+          <y>1.239</y>
+          <z>8.698246</z>
+        </Vector3>
+      </positions>
+    </ItemSpawnHolder>
+    <ItemSpawnHolder>
+      <Name>Spiritual Varnish</Name>
+      <Item_ID>4400060</Item_ID>
+      <Quantity>1</Quantity>
+      <positions>
+        <Vector3>
+          <x>304.187347</x>
+          <y>1.7542</y>
+          <z>6.934738</z>
+        </Vector3>
+      </positions>
+    </ItemSpawnHolder>
+  </Item_Spawns>
+</SceneSummary>

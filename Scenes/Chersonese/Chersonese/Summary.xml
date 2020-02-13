@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SceneSummary xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <SceneName>Chersonese</SceneName>
+  <Enemies>
+    <QuantityHolder>
+      <Name>Bandit Lieutenant (1)</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Bandit (1)</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Pearlbird (1)</Name>
+      <Quantity>11</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Bandit (2)</Name>
+      <Quantity>10</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Bandit (3)</Name>
+      <Quantity>5</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Bandit Archer (1)</Name>
+      <Quantity>6</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Mantis Shrimp (1)</Name>
+      <Quantity>9</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Ghost of Vanasse (1)</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Molten Forge Golem (1)</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Hyena (1)</Name>
+      <Quantity>16</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Illuminator Horror (1)</Name>
+      <Quantity>3</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Forge Golem (1)</Name>
+      <Quantity>2</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Bandit Defender (1)</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Wendigo (1)</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Bandit Archer (2)</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Pearlbird Cutthroat (1)</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Shell Horror (1)</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Armored Hyena (1)</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Bandit Lieutenant (2)</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Pearlbird (2)</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Rock Mantis (1)</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Immaculate (1)</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+  </Enemies>
+  <Merchants>
+    <string>Soroborean Caravanner (VcY0z85RMkOIGFD3FVaBEQ)</string>
+  </Merchants>
+  <Loot_Containers>
+    <QuantityHolder>
+      <Name>Supply Cache</Name>
+      <Quantity>20</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Chest</Name>
+      <Quantity>5</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Hollowed Trunk</Name>
+      <Quantity>9</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Ornate Chest</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Junk Pile</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Broken Tent</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Adventurer’s Corpse</Name>
+      <Quantity>2</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Soldier’s Corpse</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Worker’s Corpse</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+  </Loot_Containers>
+  <Gatherables>
+    <QuantityHolder>
+      <Name>Tree</Name>
+      <Quantity>3</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Turmmip</Name>
+      <Quantity>23</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Gaberries</Name>
+      <Quantity>119</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Fishing Spot (DropTable_FishingSpotChersoneseRiver)</Name>
+      <Quantity>36</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Mana Stone</Name>
+      <Quantity>14</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Iron vein</Name>
+      <Quantity>17</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Fishing Spot (DropTable_FishingSpotChersoneseBeach)</Name>
+      <Quantity>15</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Seaweed</Name>
+      <Quantity>44</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Salt Crystal</Name>
+      <Quantity>16</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Pearlbird Nest</Name>
+      <Quantity>17</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Oil</Name>
+      <Quantity>8</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Crabeye</Name>
+      <Quantity>42</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Blue Sand</Name>
+      <Quantity>5</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Ammolite</Name>
+      <Quantity>4</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Rich Iron vein</Name>
+      <Quantity>6</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Ghost Plant</Name>
+      <Quantity>10</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Greasy Fern</Name>
+      <Quantity>3</Quantity>
+    </QuantityHolder>
+  </Gatherables>
+  <Item_Spawns>
+    <ItemSpawnHolder>
+      <Name>Cooking Pot</Name>
+      <Item_ID>5010100</Item_ID>
+      <Quantity>1</Quantity>
+      <positions>
+        <Vector3>
+          <x>1294.843</x>
+          <y>19.277</y>
+          <z>659.057</z>
+        </Vector3>
+      </positions>
+    </ItemSpawnHolder>
+  </Item_Spawns>
+</SceneSummary>

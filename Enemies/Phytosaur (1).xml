@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<EnemyHolder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>Phytosaur</Name>
+  <GameObject_Name>Phytosaur</GameObject_Name>
+  <Unique_ID>1</Unique_ID>
+  <Locations_Found>
+    <string>Hallowed Marsh:Hallowed Marsh</string>
+    <string>Hallowed Marsh:Reptilian Lair</string>
+    <string>Hallowed Marsh:Ziggurat Passage</string>
+  </Locations_Found>
+  <Max_Health>350</Max_Health>
+  <Health_Regen_Per_Second>0</Health_Regen_Per_Second>
+  <Impact_Resistance>40</Impact_Resistance>
+  <Protection>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+  </Protection>
+  <Damage_Resistances>
+    <float>10</float>
+    <float>0</float>
+    <float>40</float>
+    <float>0</float>
+    <float>0</float>
+    <float>-40</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+  </Damage_Resistances>
+  <Damage_Bonuses>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+  </Damage_Bonuses>
+  <Collider_Radius>0.8</Collider_Radius>
+  <True_WeaponDamage>
+    <Damages>
+      <Damage>31</Damage>
+      <Damage_Type>Physical</Damage_Type>
+    </Damages>
+  </True_WeaponDamage>
+  <Weapon_Impact>86</Weapon_Impact>
+  <Status_Immunities>
+    <string>Poison</string>
+  </Status_Immunities>
+  <Starting_Equipment>
+    <string>- (2400010)</string>
+  </Starting_Equipment>
+  <Skill_Knowledge>
+    <string>PhytoPollen</string>
+    <string>threaten</string>
+  </Skill_Knowledge>
+  <Faction>Deer</Faction>
+  <Allied_To_Same_Faction>true</Allied_To_Same_Faction>
+  <Guaranteed_Drops />
+  <DropTable_Names>
+    <string>DropTable_Phytosaur</string>
+  </DropTable_Names>
+</EnemyHolder>

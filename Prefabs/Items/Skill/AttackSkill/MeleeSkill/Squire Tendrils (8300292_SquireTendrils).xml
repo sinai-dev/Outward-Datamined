@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ItemHolder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="SkillHolder">
+  <ItemID>8300292</ItemID>
+  <Name>Squire Tendrils</Name>
+  <gameObjectName>8300292_SquireTendrils</gameObjectName>
+  <saveDir>/Skill/AttackSkill/MeleeSkill</saveDir>
+  <Description />
+  <LegacyItemID>-1</LegacyItemID>
+  <Tags />
+  <EffectTransforms>
+    <EffectTransformHolder>
+      <TransformName>Effects</TransformName>
+      <Effects>
+        <EffectHolder xsi:type="ShootProjectileHolder">
+          <TargetingMode>NONE</TargetingMode>
+          <AutoTarget>false</AutoTarget>
+          <EffectTransforms>
+            <EffectTransformHolder>
+              <TransformName>HitEffects</TransformName>
+              <Effects>
+                <EffectHolder xsi:type="PunctualDamageHolder">
+                  <Damage>
+                    <Damages>
+                      <Damage>5</Damage>
+                      <Damage_Type>Decay</Damage_Type>
+                    </Damages>
+                  </Damage>
+                  <Damages_AI />
+                  <Knockback>0</Knockback>
+                  <HitInventory>false</HitInventory>
+                </EffectHolder>
+                <EffectHolder xsi:type="AffectHealthParentOwnerHolder">
+                  <AffectQuantity>50</AffectQuantity>
+                  <Requires_AffectedChar>true</Requires_AffectedChar>
+                  <IsModifier>false</IsModifier>
+                </EffectHolder>
+              </Effects>
+              <EffectConditions />
+              <ChildEffects />
+            </EffectTransformHolder>
+          </EffectTransforms>
+        </EffectHolder>
+      </Effects>
+      <EffectConditions />
+      <ChildEffects />
+    </EffectTransformHolder>
+  </EffectTransforms>
+  <Cooldown>5</Cooldown>
+  <StaminaCost>10</StaminaCost>
+  <ManaCost>0</ManaCost>
+  <DurabilityCost>0</DurabilityCost>
+  <DurabilityCostPercent>0</DurabilityCostPercent>
+  <IsDLCSkill>true</IsDLCSkill>
+  <RequiredItems />
+</ItemHolder>

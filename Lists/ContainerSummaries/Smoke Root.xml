@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContainerSummary xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>Smoke Root</Name>
+  <ItemID>0</ItemID>
+  <Locations_Found>
+    <string>Abrassar:Abrassar</string>
+    <string>Abrassar:Abrassar</string>
+    <string>Enmerkar Forest:Ancestor’s Resting Place</string>
+    <string>Enmerkar Forest:Ancestor’s Resting Place</string>
+    <string>Enmerkar Forest:Berg</string>
+    <string>Enmerkar Forest:Berg</string>
+    <string>Enmerkar Forest:Enmerkar Forest</string>
+    <string>Enmerkar Forest:Enmerkar Forest</string>
+    <string>Enmerkar Forest:Enmerkar Forest</string>
+    <string>Enmerkar Forest:Enmerkar Forest</string>
+    <string>Enmerkar Forest:Enmerkar Forest</string>
+    <string>Enmerkar Forest:Enmerkar Forest</string>
+    <string>Enmerkar Forest:Enmerkar Forest</string>
+    <string>Enmerkar Forest:Enmerkar Forest</string>
+    <string>Enmerkar Forest:Enmerkar Forest</string>
+    <string>Enmerkar Forest:Enmerkar Forest</string>
+    <string>Enmerkar Forest:Enmerkar Forest</string>
+    <string>Enmerkar Forest:Enmerkar Forest</string>
+    <string>Enmerkar Forest:Enmerkar Forest</string>
+    <string>Enmerkar Forest:Enmerkar Forest</string>
+    <string>Enmerkar Forest:Enmerkar Forest</string>
+    <string>Enmerkar Forest:Enmerkar Forest</string>
+    <string>Enmerkar Forest:Enmerkar Forest</string>
+    <string>Enmerkar Forest:Enmerkar Forest</string>
+    <string>Enmerkar Forest:Enmerkar Forest</string>
+    <string>Enmerkar Forest:Enmerkar Forest</string>
+    <string>Enmerkar Forest:Enmerkar Forest</string>
+    <string>Enmerkar Forest:Enmerkar Forest</string>
+    <string>Enmerkar Forest:Enmerkar Forest</string>
+    <string>Enmerkar Forest:Enmerkar Forest</string>
+    <string>Enmerkar Forest:Face of the Ancients</string>
+    <string>Enmerkar Forest:Face of the Ancients</string>
+    <string>Enmerkar Forest:Face of the Ancients</string>
+    <string>Enmerkar Forest:Forest Hives</string>
+    <string>Enmerkar Forest:Forest Hives</string>
+    <string>Enmerkar Forest:Forest Hives</string>
+    <string>Enmerkar Forest:Forest Hives</string>
+    <string>Enmerkar Forest:Forest Hives</string>
+    <string>Enmerkar Forest:Hive Trap</string>
+    <string>Enmerkar Forest:Hive Trap</string>
+    <string>Enmerkar Forest:Hive Trap</string>
+    <string>Enmerkar Forest:Royal Manticore’s Lair</string>
+    <string>Enmerkar Forest:Royal Manticore’s Lair</string>
+    <string>Enmerkar Forest:Royal Manticore’s Lair</string>
+    <string>Enmerkar Forest:Royal Manticore’s Lair</string>
+  </Locations_Found>
+  <All_DropTables>
+    <string>DropTable_Smokeroot</string>
+  </All_DropTables>
+</ContainerSummary>

@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MerchantHolder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>Fourth Watcher</Name>
+  <UID>9Qi1PDHnIUKf-eNT8Y3FJQ</UID>
+  <DropTable>
+    <Name>Conflux Chambers - Fourth Watcher</Name>
+    <Guaranteed_Drops>
+      <DropTableEntry>
+        <Item_Name>Gold Ingot</Item_Name>
+        <Item_ID>6300030</Item_ID>
+        <Min_Quantity>3</Min_Quantity>
+        <Max_Quantity>4</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Alchemy: Astral Potion</Item_Name>
+        <Item_ID>5700108</Item_ID>
+        <Min_Quantity>1</Min_Quantity>
+        <Max_Quantity>1</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Alchemy: Life Potion</Item_Name>
+        <Item_ID>5700110</Item_ID>
+        <Min_Quantity>1</Min_Quantity>
+        <Max_Quantity>1</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Alchemy: Endurance Potion</Item_Name>
+        <Item_ID>5700109</Item_ID>
+        <Min_Quantity>1</Min_Quantity>
+        <Max_Quantity>1</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Alchemy: Cold Stone</Item_Name>
+        <Item_ID>5700178</Item_ID>
+        <Min_Quantity>1</Min_Quantity>
+        <Max_Quantity>1</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Alchemy: Fire Stone</Item_Name>
+        <Item_ID>5700076</Item_ID>
+        <Min_Quantity>1</Min_Quantity>
+        <Max_Quantity>1</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Alchemy: Hex Cleaner</Item_Name>
+        <Item_ID>5700126</Item_ID>
+        <Min_Quantity>1</Min_Quantity>
+        <Max_Quantity>1</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Cooking: Turmmip Potage</Item_Name>
+        <Item_ID>5700021</Item_ID>
+        <Min_Quantity>1</Min_Quantity>
+        <Max_Quantity>1</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Bandages</Item_Name>
+        <Item_ID>4400010</Item_ID>
+        <Min_Quantity>2</Min_Quantity>
+        <Max_Quantity>4</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Astral Potion</Item_Name>
+        <Item_ID>4300020</Item_ID>
+        <Min_Quantity>1</Min_Quantity>
+        <Max_Quantity>2</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Life Potion</Item_Name>
+        <Item_ID>4300010</Item_ID>
+        <Min_Quantity>1</Min_Quantity>
+        <Max_Quantity>2</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Endurance Potion</Item_Name>
+        <Item_ID>4300030</Item_ID>
+        <Min_Quantity>1</Min_Quantity>
+        <Max_Quantity>2</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Alchemy Kit</Item_Name>
+        <Item_ID>5010200</Item_ID>
+        <Min_Quantity>1</Min_Quantity>
+        <Max_Quantity>1</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Lexicon</Item_Name>
+        <Item_ID>5100500</Item_ID>
+        <Min_Quantity>1</Min_Quantity>
+        <Max_Quantity>1</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Chakram</Item_Name>
+        <Item_ID>5110030</Item_ID>
+        <Min_Quantity>1</Min_Quantity>
+        <Max_Quantity>1</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Linen Cloth</Item_Name>
+        <Item_ID>6500090</Item_ID>
+        <Min_Quantity>1</Min_Quantity>
+        <Max_Quantity>3</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Scholar Attire</Item_Name>
+        <Item_ID>3000190</Item_ID>
+        <Min_Quantity>1</Min_Quantity>
+        <Max_Quantity>1</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Scholar Circlet</Item_Name>
+        <Item_ID>3000191</Item_ID>
+        <Min_Quantity>1</Min_Quantity>
+        <Max_Quantity>1</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Scholar Boots</Item_Name>
+        <Item_ID>3000192</Item_ID>
+        <Min_Quantity>1</Min_Quantity>
+        <Max_Quantity>1</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Scholar’s Staff</Item_Name>
+        <Item_ID>2150000</Item_ID>
+        <Min_Quantity>1</Min_Quantity>
+        <Max_Quantity>1</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Master’s Staff</Item_Name>
+        <Item_ID>2150050</Item_ID>
+        <Min_Quantity>1</Min_Quantity>
+        <Max_Quantity>1</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Mana Stone</Item_Name>
+        <Item_ID>6400130</Item_ID>
+        <Min_Quantity>1</Min_Quantity>
+        <Max_Quantity>3</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Turmmip</Item_Name>
+        <Item_ID>4000030</Item_ID>
+        <Min_Quantity>1</Min_Quantity>
+        <Max_Quantity>3</Max_Quantity>
+      </DropTableEntry>
+    </Guaranteed_Drops>
+    <Random_Tables>
+      <DropGeneratorHolder>
+        <MinNumberOfDrops>3</MinNumberOfDrops>
+        <MaxNumberOfDrops>6</MaxNumberOfDrops>
+        <MaxDiceValue>140</MaxDiceValue>
+        <EmptyDrop>0</EmptyDrop>
+        <Item_Drops>
+          <DropTableChanceEntry>
+            <Item_Name>Mana Stone</Item_Name>
+            <Item_ID>6400130</Item_ID>
+            <Min_Quantity>1</Min_Quantity>
+            <Max_Quantity>3</Max_Quantity>
+            <Drop_Chance>7.14285755</Drop_Chance>
+            <Dice_Range>9</Dice_Range>
+          </DropTableChanceEntry>
+          <DropTableChanceEntry>
+            <Item_Name>Fire Stone</Item_Name>
+            <Item_ID>6500010</Item_ID>
+            <Min_Quantity>1</Min_Quantity>
+            <Max_Quantity>2</Max_Quantity>
+            <Drop_Chance>7.14285755</Drop_Chance>
+            <Dice_Range>9</Dice_Range>
+          </DropTableChanceEntry>
+          <DropTableChanceEntry>
+            <Item_Name>Cold Stone</Item_Name>
+            <Item_ID>6500020</Item_ID>
+            <Min_Quantity>1</Min_Quantity>
+            <Max_Quantity>2</Max_Quantity>
+            <Drop_Chance>7.14285755</Drop_Chance>
+            <Dice_Range>9</Dice_Range>
+          </DropTableChanceEntry>
+          <DropTableChanceEntry>
+            <Item_Name>Turmmip</Item_Name>
+            <Item_ID>4000030</Item_ID>
+            <Min_Quantity>2</Min_Quantity>
+            <Max_Quantity>3</Max_Quantity>
+            <Drop_Chance>7.14285755</Drop_Chance>
+            <Dice_Range>9</Dice_Range>
+          </DropTableChanceEntry>
+          <DropTableChanceEntry>
+            <Item_Name>Boiled Turmmip</Item_Name>
+            <Item_ID>4100330</Item_ID>
+            <Min_Quantity>1</Min_Quantity>
+            <Max_Quantity>3</Max_Quantity>
+            <Drop_Chance>7.14285755</Drop_Chance>
+            <Dice_Range>9</Dice_Range>
+          </DropTableChanceEntry>
+          <DropTableChanceEntry>
+            <Item_Name>Firefly powder</Item_Name>
+            <Item_ID>6000010</Item_ID>
+            <Min_Quantity>1</Min_Quantity>
+            <Max_Quantity>3</Max_Quantity>
+            <Drop_Chance>7.14285755</Drop_Chance>
+            <Dice_Range>9</Dice_Range>
+          </DropTableChanceEntry>
+          <DropTableChanceEntry>
+            <Item_Name>Blood Mushroom</Item_Name>
+            <Item_ID>4000150</Item_ID>
+            <Min_Quantity>1</Min_Quantity>
+            <Max_Quantity>3</Max_Quantity>
+            <Drop_Chance>7.14285755</Drop_Chance>
+            <Dice_Range>9</Dice_Range>
+          </DropTableChanceEntry>
+          <DropTableChanceEntry>
+            <Item_Name>Star Mushroom</Item_Name>
+            <Item_ID>4000180</Item_ID>
+            <Min_Quantity>1</Min_Quantity>
+            <Max_Quantity>3</Max_Quantity>
+            <Drop_Chance>7.14285755</Drop_Chance>
+            <Dice_Range>9</Dice_Range>
+          </DropTableChanceEntry>
+          <DropTableChanceEntry>
+            <Item_Name>Ochre Spice Beetle</Item_Name>
+            <Item_ID>4000210</Item_ID>
+            <Min_Quantity>1</Min_Quantity>
+            <Max_Quantity>2</Max_Quantity>
+            <Drop_Chance>7.14285755</Drop_Chance>
+            <Dice_Range>9</Dice_Range>
+          </DropTableChanceEntry>
+          <DropTableChanceEntry>
+            <Item_Name>Gravel Beetle</Item_Name>
+            <Item_ID>4000211</Item_ID>
+            <Min_Quantity>1</Min_Quantity>
+            <Max_Quantity>2</Max_Quantity>
+            <Drop_Chance>7.14285755</Drop_Chance>
+            <Dice_Range>9</Dice_Range>
+          </DropTableChanceEntry>
+          <DropTableChanceEntry>
+            <Item_Name>Krimp Nut</Item_Name>
+            <Item_ID>4000280</Item_ID>
+            <Min_Quantity>1</Min_Quantity>
+            <Max_Quantity>3</Max_Quantity>
+            <Drop_Chance>7.14285755</Drop_Chance>
+            <Dice_Range>9</Dice_Range>
+          </DropTableChanceEntry>
+          <DropTableChanceEntry>
+            <Item_Name>Raw Salmon</Item_Name>
+            <Item_ID>4000130</Item_ID>
+            <Min_Quantity>1</Min_Quantity>
+            <Max_Quantity>2</Max_Quantity>
+            <Drop_Chance>7.14285755</Drop_Chance>
+            <Dice_Range>9</Dice_Range>
+          </DropTableChanceEntry>
+          <DropTableChanceEntry>
+            <Item_Name>Raw Rainbow Trout</Item_Name>
+            <Item_ID>4000110</Item_ID>
+            <Min_Quantity>1</Min_Quantity>
+            <Max_Quantity>2</Max_Quantity>
+            <Drop_Chance>7.14285755</Drop_Chance>
+            <Dice_Range>9</Dice_Range>
+          </DropTableChanceEntry>
+          <DropTableChanceEntry>
+            <Item_Name>Greasy Fern</Item_Name>
+            <Item_ID>6000020</Item_ID>
+            <Min_Quantity>1</Min_Quantity>
+            <Max_Quantity>3</Max_Quantity>
+            <Drop_Chance>7.14285755</Drop_Chance>
+            <Dice_Range>9</Dice_Range>
+          </DropTableChanceEntry>
+        </Item_Drops>
+      </DropGeneratorHolder>
+    </Random_Tables>
+  </DropTable>
+</MerchantHolder>

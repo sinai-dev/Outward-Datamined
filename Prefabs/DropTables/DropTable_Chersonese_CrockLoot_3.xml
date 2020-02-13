@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DroptableHolder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>DropTable_Chersonese_CrockLoot_3</Name>
+  <Guaranteed_Drops>
+    <DropTableEntry>
+      <Item_Name>Power Coil</Item_Name>
+      <Item_ID>6200150</Item_ID>
+      <Min_Quantity>1</Min_Quantity>
+      <Max_Quantity>1</Max_Quantity>
+    </DropTableEntry>
+    <DropTableEntry>
+      <Item_Name>Fur Tent</Item_Name>
+      <Item_ID>5000040</Item_ID>
+      <Min_Quantity>1</Min_Quantity>
+      <Max_Quantity>1</Max_Quantity>
+    </DropTableEntry>
+    <DropTableEntry>
+      <Item_Name>Warrior Elixir</Item_Name>
+      <Item_ID>4300210</Item_ID>
+      <Min_Quantity>2</Min_Quantity>
+      <Max_Quantity>2</Max_Quantity>
+    </DropTableEntry>
+  </Guaranteed_Drops>
+  <Random_Tables />
+</DroptableHolder>

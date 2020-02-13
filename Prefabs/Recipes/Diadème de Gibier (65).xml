@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RecipeHolder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <StationType>Cooking</StationType>
+  <Name>Diadème de Gibier</Name>
+  <RecipeID>65</RecipeID>
+  <Ingredients>
+    <string>Raw Jewel Meat</string>
+    <string>Meat</string>
+    <string>Cactus Fruit</string>
+    <string>Salt</string>
+  </Ingredients>
+  <Results>
+    <ItemQuantityHolder>
+      <ItemName>Diadème de Gibier</ItemName>
+      <Quantity>3</Quantity>
+    </ItemQuantityHolder>
+  </Results>
+</RecipeHolder>

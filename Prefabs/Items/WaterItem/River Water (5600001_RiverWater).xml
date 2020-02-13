@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ItemHolder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ItemID>5600001</ItemID>
+  <Name>River Water</Name>
+  <gameObjectName>5600001_RiverWater</gameObjectName>
+  <saveDir>/WaterItem</saveDir>
+  <Description>Drink that carries a risk of Indigestion, a serious disease.
+
+It should be boiled over a campfire to produce Clean Water.</Description>
+  <LegacyItemID>-1</LegacyItemID>
+  <StatsHolder>
+    <BaseValue>0</BaseValue>
+    <RawWeight>0</RawWeight>
+    <MaxDurability>-1</MaxDurability>
+  </StatsHolder>
+  <Tags>
+    <string>Water</string>
+    <string>Drink</string>
+    <string>Consummable</string>
+    <string>Item</string>
+    <string>Ingredient Cook</string>
+    <string>Ingredient</string>
+  </Tags>
+  <EffectTransforms>
+    <EffectTransformHolder>
+      <TransformName>Effects</TransformName>
+      <Effects>
+        <EffectHolder xsi:type="AffectNeedHolder">
+          <Need>AffectDrink</Need>
+          <AffectQuantity>150</AffectQuantity>
+        </EffectHolder>
+        <EffectHolder xsi:type="AddStatusEffectHolder">
+          <StatusEffect>Stamina Recovery Small</StatusEffect>
+          <ChanceToContract>100</ChanceToContract>
+        </EffectHolder>
+        <EffectHolder xsi:type="AddStatusEffectHolder">
+          <StatusEffect>Indigestion1</StatusEffect>
+          <ChanceToContract>25</ChanceToContract>
+        </EffectHolder>
+      </Effects>
+      <EffectConditions />
+      <ChildEffects />
+    </EffectTransformHolder>
+  </EffectTransforms>
+</ItemHolder>

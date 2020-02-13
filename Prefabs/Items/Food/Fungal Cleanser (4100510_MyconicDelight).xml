@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ItemHolder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ItemID>4100510</ItemID>
+  <Name>Fungal Cleanser</Name>
+  <gameObjectName>4100510_MyconicDelight</gameObjectName>
+  <saveDir>/Food</saveDir>
+  <Description>Medicinal mushroom dish that removes poison and diseases.</Description>
+  <LegacyItemID>-1</LegacyItemID>
+  <StatsHolder>
+    <BaseValue>15</BaseValue>
+    <RawWeight>0.5</RawWeight>
+    <MaxDurability>100</MaxDurability>
+  </StatsHolder>
+  <Tags>
+    <string>Dish</string>
+    <string>Food</string>
+    <string>Consummable</string>
+    <string>Item</string>
+    <string>Ration Ingredient</string>
+    <string>Ingredient Cook</string>
+    <string>Ingredient</string>
+  </Tags>
+  <EffectTransforms>
+    <EffectTransformHolder>
+      <TransformName>Effects</TransformName>
+      <Effects>
+        <EffectHolder xsi:type="AffectNeedHolder">
+          <Need>AffectFood</Need>
+          <AffectQuantity>175</AffectQuantity>
+        </EffectHolder>
+        <EffectHolder xsi:type="RemoveStatusEffectHolder">
+          <StatusEffect_ByTag>None</StatusEffect_ByTag>
+          <StatusEffect_Family>Cold</StatusEffect_Family>
+          <StatusEffect_ByName />
+        </EffectHolder>
+        <EffectHolder xsi:type="RemoveStatusEffectHolder">
+          <StatusEffect_ByTag>None</StatusEffect_ByTag>
+          <StatusEffect_Family>Indigestion</StatusEffect_Family>
+          <StatusEffect_ByName />
+        </EffectHolder>
+        <EffectHolder xsi:type="RemoveStatusEffectHolder">
+          <StatusEffect_ByTag>None</StatusEffect_ByTag>
+          <StatusEffect_Family>Infection</StatusEffect_Family>
+          <StatusEffect_ByName />
+        </EffectHolder>
+        <EffectHolder xsi:type="RemoveStatusEffectHolder">
+          <StatusEffect_ByTag>Poison</StatusEffect_ByTag>
+          <StatusEffect_Family>PoisonHex</StatusEffect_Family>
+          <StatusEffect_ByName />
+        </EffectHolder>
+      </Effects>
+      <EffectConditions />
+      <ChildEffects />
+    </EffectTransformHolder>
+  </EffectTransforms>
+</ItemHolder>

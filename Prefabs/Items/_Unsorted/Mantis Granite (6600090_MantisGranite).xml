@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ItemHolder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ItemID>6600090</ItemID>
+  <Name>Mantis Granite</Name>
+  <gameObjectName>6600090_MantisGranite</gameObjectName>
+  <saveDir />
+  <Description>Massive claw of a rock mantis, used to craft weapons.</Description>
+  <LegacyItemID>-1</LegacyItemID>
+  <StatsHolder>
+    <BaseValue>60</BaseValue>
+    <RawWeight>3</RawWeight>
+    <MaxDurability>-1</MaxDurability>
+  </StatsHolder>
+  <Tags>
+    <string>Ingredient</string>
+    <string>Item</string>
+    <string>Misc</string>
+  </Tags>
+  <EffectTransforms />
+</ItemHolder>

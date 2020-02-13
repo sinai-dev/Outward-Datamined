@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ItemHolder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ItemID>4300110</ItemID>
+  <Name>Antidote</Name>
+  <gameObjectName>4300110_UniversalAntidote</gameObjectName>
+  <saveDir />
+  <Description>Brew that neutralizes most poisons.
+
+Notably, the toxic effect of the Hallowed Marsh’s waters cannot be cured by this potion.</Description>
+  <LegacyItemID>-1</LegacyItemID>
+  <StatsHolder>
+    <BaseValue>8</BaseValue>
+    <RawWeight>0.5</RawWeight>
+    <MaxDurability>-1</MaxDurability>
+  </StatsHolder>
+  <Tags>
+    <string>Drink</string>
+    <string>Consummable</string>
+    <string>Item</string>
+  </Tags>
+  <EffectTransforms>
+    <EffectTransformHolder>
+      <TransformName>Effects</TransformName>
+      <Effects>
+        <EffectHolder xsi:type="RemoveStatusEffectHolder">
+          <StatusEffect_ByTag>Poison</StatusEffect_ByTag>
+          <StatusEffect_Family>PoisonHex</StatusEffect_Family>
+          <StatusEffect_ByName />
+        </EffectHolder>
+      </Effects>
+      <EffectConditions />
+      <ChildEffects />
+    </EffectTransformHolder>
+  </EffectTransforms>
+</ItemHolder>

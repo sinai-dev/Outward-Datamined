@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContainerSummary xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>Corpse</Name>
+  <ItemID>0</ItemID>
+  <Locations_Found>
+    <string>Abrassar:Abrassar</string>
+    <string>Abrassar:Abrassar</string>
+    <string>Abrassar:Abrassar</string>
+    <string>Abrassar:Abrassar</string>
+    <string>Abrassar:Abrassar</string>
+    <string>Abrassar:Abrassar</string>
+    <string>Abrassar:Abrassar</string>
+    <string>Abrassar:Abrassar</string>
+    <string>Abrassar:Abrassar</string>
+    <string>Abrassar:Abrassar</string>
+    <string>Abrassar:Hive Prison</string>
+    <string>Abrassar:Hive Prison</string>
+    <string>Abrassar:Hive Prison</string>
+    <string>Abrassar:Hive Prison</string>
+    <string>Chersonese:Blister Burrow</string>
+    <string>Chersonese:Blister Burrow</string>
+    <string>Chersonese:Trog Infiltration</string>
+    <string>Chersonese:Trog Infiltration</string>
+  </Locations_Found>
+  <All_DropTables>
+    <string>DropTable_Neutral_Magic_Low_2</string>
+    <string>DropTable_Neutral_Consumable_Low_2</string>
+    <string>DropTable_Neutral_Survival_Medium_1</string>
+    <string>DropTable_Neutral_Magic_High_1</string>
+    <string>DropTable_Neutral_Survival_Low_2</string>
+    <string>DropTable_Neutral_Alchemy_Low_2</string>
+    <string>DropTable_Neutral_Valuable_Low_1</string>
+    <string>DropTable_Neutral_Survival_High_1</string>
+  </All_DropTables>
+</ContainerSummary>

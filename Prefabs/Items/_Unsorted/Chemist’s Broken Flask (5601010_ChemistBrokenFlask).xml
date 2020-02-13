@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ItemHolder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ItemID>5601010</ItemID>
+  <Name>Chemist’s Broken Flask</Name>
+  <gameObjectName>5601010_ChemistBrokenFlask</gameObjectName>
+  <saveDir />
+  <Description>“Only the Chemist knew how to mix poison, sun dust and demon blood.”</Description>
+  <LegacyItemID>-1</LegacyItemID>
+  <StatsHolder>
+    <BaseValue>400</BaseValue>
+    <RawWeight>0.5</RawWeight>
+    <MaxDurability>-1</MaxDurability>
+  </StatsHolder>
+  <Tags>
+    <string>Misc</string>
+    <string>Item</string>
+  </Tags>
+  <EffectTransforms />
+</ItemHolder>

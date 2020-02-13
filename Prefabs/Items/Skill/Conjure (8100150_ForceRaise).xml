@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ItemHolder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="SkillHolder">
+  <ItemID>8100150</ItemID>
+  <Name>Conjure</Name>
+  <gameObjectName>8100150_ForceRaise</gameObjectName>
+  <saveDir>/Skill</saveDir>
+  <Description>Spell which does nothing on its own, but can be combined with other abilities.</Description>
+  <LegacyItemID>-1</LegacyItemID>
+  <Tags />
+  <EffectTransforms>
+    <EffectTransformHolder>
+      <TransformName>Lightning</TransformName>
+      <Effects />
+      <EffectConditions />
+      <ChildEffects>
+        <EffectTransformHolder>
+          <TransformName>ExtraEffects</TransformName>
+          <Effects>
+            <EffectHolder xsi:type="ShootBlastHolder">
+              <BlastLifespan>0</BlastLifespan>
+              <RefreshTime>0.1</RefreshTime>
+              <EffectTransforms>
+                <EffectTransformHolder>
+                  <TransformName>Effects</TransformName>
+                  <Effects>
+                    <EffectHolder xsi:type="PunctualDamageHolder">
+                      <Damage>
+                        <Damages>
+                          <Damage>150</Damage>
+                          <Damage_Type>Electric</Damage_Type>
+                        </Damages>
+                      </Damage>
+                      <Damages_AI />
+                      <Knockback>200</Knockback>
+                      <HitInventory>true</HitInventory>
+                    </EffectHolder>
+                  </Effects>
+                  <EffectConditions />
+                  <ChildEffects />
+                </EffectTransformHolder>
+              </EffectTransforms>
+            </EffectHolder>
+          </Effects>
+          <EffectConditions>
+            <EffectConditionHolder>
+              <Conditions>
+                <ConditionHolder>
+                  <Requirement>Activated Air Sigil</Requirement>
+                  <Condition_Type>Item Proximity</Condition_Type>
+                  <Invert>false</Invert>
+                </ConditionHolder>
+              </Conditions>
+            </EffectConditionHolder>
+          </EffectConditions>
+          <ChildEffects />
+        </EffectTransformHolder>
+      </ChildEffects>
+    </EffectTransformHolder>
+    <EffectTransformHolder>
+      <TransformName>SummonSoul</TransformName>
+      <Effects />
+      <EffectConditions />
+      <ChildEffects>
+        <EffectTransformHolder>
+          <TransformName>ExtraEffects</TransformName>
+          <Effects />
+          <EffectConditions>
+            <EffectConditionHolder>
+              <Conditions>
+                <ConditionHolder>
+                  <Requirement>Soul</Requirement>
+                  <Condition_Type>Item Proximity</Condition_Type>
+                  <Invert>false</Invert>
+                </ConditionHolder>
+              </Conditions>
+            </EffectConditionHolder>
+          </EffectConditions>
+          <ChildEffects />
+        </EffectTransformHolder>
+      </ChildEffects>
+    </EffectTransformHolder>
+  </EffectTransforms>
+  <Cooldown>8</Cooldown>
+  <StaminaCost>0</StaminaCost>
+  <ManaCost>10</ManaCost>
+  <DurabilityCost>0</DurabilityCost>
+  <DurabilityCostPercent>0</DurabilityCostPercent>
+  <IsDLCSkill>true</IsDLCSkill>
+  <RequiredItems />
+</ItemHolder>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ItemHolder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="BagHolder">
+  <ItemID>5300160</ItemID>
+  <Name>Preservation Backpack</Name>
+  <gameObjectName>5300160_PreservationBackpack</gameObjectName>
+  <saveDir>/Equipment/Bag</saveDir>
+  <Description>Elite bag that strongly slows down the decay of the food it contains.
+
+&lt;color=#ff5043&gt;Equipping this backpack slows your dodge and removes your dodge invincibility.&lt;/color&gt;</Description>
+  <LegacyItemID>-1</LegacyItemID>
+  <StatsHolder xsi:type="EquipmentStatsHolder">
+    <BaseValue>200</BaseValue>
+    <RawWeight>3</RawWeight>
+    <MaxDurability>-1</MaxDurability>
+    <Damage_Resistance>
+      <float>0</float>
+      <float>0</float>
+      <float>0</float>
+      <float>0</float>
+      <float>0</float>
+      <float>0</float>
+      <float>0</float>
+      <float>0</float>
+      <float>0</float>
+    </Damage_Resistance>
+    <Impact_Resistance>0</Impact_Resistance>
+    <Damage_Protection>0</Damage_Protection>
+    <Damage_Bonus>
+      <float>0</float>
+      <float>0</float>
+      <float>0</float>
+      <float>0</float>
+      <float>0</float>
+      <float>0</float>
+      <float>0</float>
+      <float>0</float>
+      <float>0</float>
+    </Damage_Bonus>
+    <Stamina_Use_Penalty>0</Stamina_Use_Penalty>
+    <Mana_Use_Modifier>0</Mana_Use_Modifier>
+    <Movement_Penalty>0</Movement_Penalty>
+    <Pouch_Bonus>0</Pouch_Bonus>
+    <Heat_Protection>0</Heat_Protection>
+    <Cold_Protection>0</Cold_Protection>
+    <Corruption_Protection>0</Corruption_Protection>
+  </StatsHolder>
+  <Tags>
+    <string>Backpack</string>
+    <string>Item</string>
+  </Tags>
+  <EffectTransforms />
+  <EquipmentSlot>Back</EquipmentSlot>
+  <IKType>None</IKType>
+  <TwoHandType>None</TwoHandType>
+  <VisualDetectabilityAdd>0</VisualDetectabilityAdd>
+  <Capacity>75</Capacity>
+  <HasLanternSlot>false</HasLanternSlot>
+  <Restrict_Dodge>true</Restrict_Dodge>
+  <InventoryProtection>2</InventoryProtection>
+  <Preserver_Amount>75</Preserver_Amount>
+  <Nullify_Perish>false</Nullify_Perish>
+</ItemHolder>

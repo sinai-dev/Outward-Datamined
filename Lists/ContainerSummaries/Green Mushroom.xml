@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContainerSummary xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>Green Mushroom</Name>
+  <ItemID>0</ItemID>
+  <Locations_Found>
+    <string>Abrassar:Ancient Hive</string>
+    <string>Abrassar:Ancient Hive</string>
+    <string>Abrassar:Sand Rose Cave</string>
+    <string>Abrassar:Stone Titan Caves</string>
+    <string>Abrassar:Stone Titan Caves</string>
+    <string>Abrassar:The Slide</string>
+    <string>Abrassar:The Slide</string>
+    <string>Abrassar:The Slide</string>
+    <string>Abrassar:Undercity Passage</string>
+    <string>Abrassar:Undercity Passage</string>
+    <string>Chersonese:Blister Burrow</string>
+    <string>Chersonese:Blister Burrow</string>
+    <string>Chersonese:Blue Chamber’s Conflux Path</string>
+    <string>Chersonese:Blue Chamber’s Conflux Path</string>
+    <string>Chersonese:Cierzo Storage</string>
+    <string>Chersonese:Conflux Chambers</string>
+    <string>Chersonese:Conflux Chambers</string>
+    <string>Chersonese:Corrupted Tombs</string>
+    <string>Chersonese:Corrupted Tombs</string>
+    <string>Chersonese:Corrupted Tombs</string>
+    <string>Chersonese:Corrupted Tombs</string>
+    <string>Chersonese:Ghost Pass</string>
+    <string>Chersonese:Ghost Pass</string>
+    <string>Chersonese:Ghost Pass</string>
+    <string>Chersonese:Ghost Pass</string>
+    <string>Chersonese:Ghost Pass</string>
+    <string>Chersonese:Heroic Kingdom’s Conflux Path</string>
+    <string>Chersonese:Heroic Kingdom’s Conflux Path</string>
+    <string>Chersonese:Holy Mission’s Conflux Path</string>
+    <string>Chersonese:Trog Infiltration</string>
+    <string>Chersonese:Trog Infiltration</string>
+    <string>Chersonese:Vendavel Fortress</string>
+    <string>Chersonese:Vendavel Fortress</string>
+    <string>Chersonese:Voltaic Hatchery</string>
+    <string>Chersonese:Voltaic Hatchery</string>
+    <string>Chersonese:Voltaic Hatchery</string>
+    <string>Chersonese:Voltaic Hatchery</string>
+    <string>Chersonese:Voltaic Hatchery</string>
+    <string>Enmerkar Forest:Ancestor’s Resting Place</string>
+    <string>Enmerkar Forest:Ancestor’s Resting Place</string>
+    <string>Enmerkar Forest:Berg</string>
+    <string>Enmerkar Forest:Berg</string>
+    <string>Enmerkar Forest:Berg</string>
+    <string>Enmerkar Forest:Enmerkar Forest</string>
+    <string>Enmerkar Forest:Enmerkar Forest</string>
+    <string>Enmerkar Forest:Enmerkar Forest</string>
+    <string>Enmerkar Forest:Enmerkar Forest</string>
+    <string>Enmerkar Forest:Enmerkar Forest</string>
+    <string>Enmerkar Forest:Enmerkar Forest</string>
+    <string>Enmerkar Forest:Enmerkar Forest</string>
+    <string>Enmerkar Forest:Enmerkar Forest</string>
+    <string>Enmerkar Forest:Enmerkar Forest</string>
+    <string>Enmerkar Forest:Enmerkar Forest</string>
+    <string>Enmerkar Forest:Enmerkar Forest</string>
+    <string>Enmerkar Forest:Enmerkar Forest</string>
+    <string>Enmerkar Forest:Enmerkar Forest</string>
+    <string>Enmerkar Forest:Enmerkar Forest</string>
+    <string>Enmerkar Forest:Enmerkar Forest</string>
+    <string>Enmerkar Forest:Enmerkar Forest</string>
+    <string>Enmerkar Forest:Enmerkar Forest</string>
+    <string>Enmerkar Forest:Enmerkar Forest</string>
+    <string>Enmerkar Forest:Enmerkar Forest</string>
+    <string>Enmerkar Forest:Enmerkar Forest</string>
+    <string>Enmerkar Forest:Face of the Ancients</string>
+    <string>Enmerkar Forest:Necropolis</string>
+    <string>Enmerkar Forest:Necropolis</string>
+    <string>Hallowed Marsh:Dead Roots</string>
+    <string>Hallowed Marsh:Dead Roots</string>
+    <string>Hallowed Marsh:Giants’ Village</string>
+    <string>Hallowed Marsh:Jade Quarry</string>
+    <string>Hallowed Marsh:Jade Quarry</string>
+    <string>Hallowed Marsh:Reptilian Lair</string>
+    <string>Hallowed Marsh:Reptilian Lair</string>
+  </Locations_Found>
+  <All_DropTables>
+    <string>DropTable_GreenMushroom</string>
+  </All_DropTables>
+</ContainerSummary>

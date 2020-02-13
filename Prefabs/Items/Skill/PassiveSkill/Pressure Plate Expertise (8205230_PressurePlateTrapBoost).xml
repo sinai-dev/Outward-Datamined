@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ItemHolder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="SkillHolder">
+  <ItemID>8205230</ItemID>
+  <Name>Pressure Plate Expertise</Name>
+  <gameObjectName>8205230_PressurePlateTrapBoost</gameObjectName>
+  <saveDir>/Skill/PassiveSkill</saveDir>
+  <Description>Increases the power of your Pressure Plate Traps.
+
+Allows the reuse of Pressure Plates after they have been triggered, though they must be re-armed with another charge or compatible item.</Description>
+  <LegacyItemID>-1</LegacyItemID>
+  <Tags />
+  <EffectTransforms />
+  <Cooldown>0</Cooldown>
+  <StaminaCost>0</StaminaCost>
+  <ManaCost>0</ManaCost>
+  <DurabilityCost>0</DurabilityCost>
+  <DurabilityCostPercent>0</DurabilityCostPercent>
+  <IsDLCSkill>true</IsDLCSkill>
+  <RequiredItems />
+</ItemHolder>

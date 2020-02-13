@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ItemHolder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ItemID>5020010</ItemID>
+  <Name>Tripwire Trap</Name>
+  <gameObjectName>5020010_TripWireTrapKit</gameObjectName>
+  <saveDir />
+  <Description>Device that must be armed with a compatible item, then triggered by an enemy.
+
+After deployment, traps can be disassembled to retake the trigger and the item inside.</Description>
+  <LegacyItemID>-1</LegacyItemID>
+  <StatsHolder>
+    <BaseValue>4</BaseValue>
+    <RawWeight>0.2</RawWeight>
+    <MaxDurability>-1</MaxDurability>
+  </StatsHolder>
+  <Tags>
+    <string>Deployable</string>
+    <string>Item</string>
+    <string>Trap</string>
+    <string>Kit</string>
+  </Tags>
+  <EffectTransforms />
+</ItemHolder>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RecipeHolder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <StationType>Survival</StationType>
+  <Name>Golem Rapier</Name>
+  <RecipeID>138</RecipeID>
+  <Ingredients>
+    <string>Broken Golem Rapier</string>
+    <string>Broken Golem Rapier</string>
+    <string>Palladium Scrap</string>
+    <string>Crystal Powder</string>
+  </Ingredients>
+  <Results>
+    <ItemQuantityHolder>
+      <ItemName>Golem Rapier</ItemName>
+      <Quantity>1</Quantity>
+    </ItemQuantityHolder>
+  </Results>
+</RecipeHolder>

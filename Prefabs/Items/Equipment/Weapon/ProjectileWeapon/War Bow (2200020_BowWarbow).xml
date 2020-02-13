@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ItemHolder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="WeaponHolder">
+  <ItemID>2200020</ItemID>
+  <Name>War Bow</Name>
+  <gameObjectName>2200020_BowWarbow</gameObjectName>
+  <saveDir>/Equipment/Weapon/ProjectileWeapon</saveDir>
+  <Description>Immense bow which inflicts Confusion on enemies, making them more vulnerable to Impact.</Description>
+  <LegacyItemID>-1</LegacyItemID>
+  <StatsHolder xsi:type="WeaponStatsHolder">
+    <BaseValue>1000</BaseValue>
+    <RawWeight>5</RawWeight>
+    <MaxDurability>350</MaxDurability>
+    <Damage_Resistance>
+      <float>0</float>
+      <float>0</float>
+      <float>0</float>
+      <float>0</float>
+      <float>0</float>
+      <float>0</float>
+      <float>0</float>
+      <float>0</float>
+      <float>0</float>
+    </Damage_Resistance>
+    <Impact_Resistance>0</Impact_Resistance>
+    <Damage_Protection>0</Damage_Protection>
+    <Damage_Bonus>
+      <float>0</float>
+      <float>0</float>
+      <float>0</float>
+      <float>0</float>
+      <float>0</float>
+      <float>0</float>
+      <float>0</float>
+      <float>0</float>
+      <float>0</float>
+    </Damage_Bonus>
+    <Stamina_Use_Penalty>0</Stamina_Use_Penalty>
+    <Mana_Use_Modifier>0</Mana_Use_Modifier>
+    <Movement_Penalty>0</Movement_Penalty>
+    <Pouch_Bonus>0</Pouch_Bonus>
+    <Heat_Protection>0</Heat_Protection>
+    <Cold_Protection>0</Cold_Protection>
+    <Corruption_Protection>0</Corruption_Protection>
+    <AttackSpeed>0</AttackSpeed>
+    <BaseDamage>
+      <Damages>
+        <Damage>32</Damage>
+        <Damage_Type>Physical</Damage_Type>
+      </Damages>
+    </BaseDamage>
+    <Impact>30</Impact>
+    <AttackCount>5</AttackCount>
+    <Attacks>
+      <AttackData>
+        <StamCost>4.99</StamCost>
+        <Knockback>30</Knockback>
+        <AttackSpeed>0</AttackSpeed>
+        <Damage>
+          <float>32</float>
+        </Damage>
+      </AttackData>
+      <AttackData>
+        <StamCost>4.99</StamCost>
+        <Knockback>30</Knockback>
+        <AttackSpeed>0</AttackSpeed>
+        <Damage>
+          <float>32</float>
+        </Damage>
+      </AttackData>
+      <AttackData>
+        <StamCost>4.99</StamCost>
+        <Knockback>30</Knockback>
+        <AttackSpeed>0</AttackSpeed>
+        <Damage>
+          <float>32</float>
+        </Damage>
+      </AttackData>
+      <AttackData>
+        <StamCost>4.99</StamCost>
+        <Knockback>30</Knockback>
+        <AttackSpeed>0</AttackSpeed>
+        <Damage>
+          <float>32</float>
+        </Damage>
+      </AttackData>
+      <AttackData>
+        <StamCost>4.99</StamCost>
+        <Knockback>30</Knockback>
+        <AttackSpeed>0</AttackSpeed>
+        <Damage>
+          <float>32</float>
+        </Damage>
+      </AttackData>
+    </Attacks>
+  </StatsHolder>
+  <Tags>
+    <string>Bow</string>
+    <string>Weapon</string>
+    <string>Item</string>
+  </Tags>
+  <EffectTransforms>
+    <EffectTransformHolder>
+      <TransformName>Effects</TransformName>
+      <Effects>
+        <EffectHolder xsi:type="ShootProjectileHolder">
+          <TargetingMode>NONE</TargetingMode>
+          <AutoTarget>false</AutoTarget>
+          <EffectTransforms />
+        </EffectHolder>
+      </Effects>
+      <EffectConditions />
+      <ChildEffects />
+    </EffectTransformHolder>
+    <EffectTransformHolder>
+      <TransformName>HitEffects</TransformName>
+      <Effects>
+        <EffectHolder xsi:type="AddStatusEffectBuildupHolder">
+          <StatusEffect>Confusion</StatusEffect>
+          <Buildup>60</Buildup>
+        </EffectHolder>
+      </Effects>
+      <EffectConditions />
+      <ChildEffects />
+    </EffectTransformHolder>
+  </EffectTransforms>
+  <EquipmentSlot>RightHand</EquipmentSlot>
+  <IKType>None</IKType>
+  <TwoHandType>TwoHandedLeft</TwoHandType>
+  <VisualDetectabilityAdd>0</VisualDetectabilityAdd>
+  <WeaponType>Bow</WeaponType>
+</ItemHolder>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ItemSource xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ItemName>Adventurer Armor</ItemName>
+  <ItemID>3000020</ItemID>
+  <Container_Sources>
+    <string>Trog Chest (Hallowed Marsh:Under Island)</string>
+    <string>Chest (Abrassar:Levant)</string>
+    <string>Chest (Abrassar:Levant)</string>
+    <string>Junk Pile (Abrassar:Levant)</string>
+    <string>Chest (Abrassar:Levant)</string>
+    <string>Chest (Abrassar:Levant)</string>
+    <string>Chest (Abrassar:Levant)</string>
+    <string>Junk Pile (Abrassar:Abrassar)</string>
+    <string>Junk Pile (Abrassar:Abrassar)</string>
+  </Container_Sources>
+  <Spawn_Sources />
+</ItemSource>

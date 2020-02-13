@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RecipeHolder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <StationType>Alchemy</StationType>
+  <Name>Discipline Potion</Name>
+  <RecipeID>113</RecipeID>
+  <Ingredients>
+    <string>Water</string>
+    <string>Ochre Spice Beetle</string>
+    <string>Livweedi</string>
+  </Ingredients>
+  <Results>
+    <ItemQuantityHolder>
+      <ItemName>Discipline Potion</ItemName>
+      <Quantity>3</Quantity>
+    </ItemQuantityHolder>
+  </Results>
+</RecipeHolder>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ItemHolder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ItemID>6200010</ItemID>
+  <Name>Tsar Stone</Name>
+  <gameObjectName>6200010_Tsar</gameObjectName>
+  <saveDir />
+  <Description>Shimmering gem that glimmers with shining power.</Description>
+  <LegacyItemID>-1</LegacyItemID>
+  <StatsHolder>
+    <BaseValue>200</BaseValue>
+    <RawWeight>0.1</RawWeight>
+    <MaxDurability>-1</MaxDurability>
+  </StatsHolder>
+  <Tags>
+    <string>Stone</string>
+    <string>Material</string>
+    <string>Ingredient</string>
+    <string>Item</string>
+    <string>Valuable</string>
+  </Tags>
+  <EffectTransforms />
+</ItemHolder>

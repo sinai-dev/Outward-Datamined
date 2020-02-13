@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ItemHolder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="SkillHolder">
+  <ItemID>8100210</ItemID>
+  <Name>Rune: Dez</Name>
+  <gameObjectName>8100210_DezRunes</gameObjectName>
+  <saveDir>/Skill/AttackSkill</saveDir>
+  <Description>Required: Lexicon
+
+Blue rune that does nothing on its own, but can produce combo effects by casting other runes, in the correct order.</Description>
+  <LegacyItemID>-1</LegacyItemID>
+  <Tags />
+  <EffectTransforms>
+    <EffectTransformHolder>
+      <TransformName>Effects</TransformName>
+      <Effects>
+        <EffectHolder xsi:type="AddStatusEffectHolder">
+          <StatusEffect>Dez Runes</StatusEffect>
+          <ChanceToContract>100</ChanceToContract>
+        </EffectHolder>
+      </Effects>
+      <EffectConditions />
+      <ChildEffects />
+    </EffectTransformHolder>
+    <EffectTransformHolder>
+      <TransformName>RunicLantern</TransformName>
+      <Effects />
+      <EffectConditions />
+      <ChildEffects>
+        <EffectTransformHolder>
+          <TransformName>ExtraEffects</TransformName>
+          <Effects>
+            <EffectHolder xsi:type="RemoveStatusEffectHolder">
+              <StatusEffect>Dez Runes</StatusEffect>
+              <StatusEffect_ByTag>None</StatusEffect_ByTag>
+              <StatusEffect_Family>Dez Runes</StatusEffect_Family>
+              <StatusEffect_ByName />
+            </EffectHolder>
+            <EffectHolder xsi:type="RemoveStatusEffectHolder">
+              <StatusEffect>Fal Runes</StatusEffect>
+              <StatusEffect_ByTag>None</StatusEffect_ByTag>
+              <StatusEffect_Family>Fal Runes</StatusEffect_Family>
+              <StatusEffect_ByName />
+            </EffectHolder>
+            <EffectHolder xsi:type="AddStatusEffectHolder">
+              <StatusEffect>Runic Lantern</StatusEffect>
+              <ChanceToContract>100</ChanceToContract>
+            </EffectHolder>
+          </Effects>
+          <EffectConditions>
+            <EffectConditionHolder>
+              <Conditions>
+                <ConditionHolder>
+                  <Requirement>Runic Prefix</Requirement>
+                  <Condition_Type>Passive Skill</Condition_Type>
+                  <Invert>true</Invert>
+                </ConditionHolder>
+              </Conditions>
+            </EffectConditionHolder>
+            <EffectConditionHolder>
+              <Conditions>
+                <ConditionHolder>
+                  <Requirement>Fal Runes</Requirement>
+                  <Condition_Type>Status Effect</Condition_Type>
+                  <Invert>false</Invert>
+                </ConditionHolder>
+              </Conditions>
+            </EffectConditionHolder>
+            <EffectConditionHolder>
+              <Conditions>
+                <ConditionHolder>
+                  <Condition_Type>MostRecentCondition</Condition_Type>
+                  <Invert>false</Invert>
+                </ConditionHolder>
+              </Conditions>
+            </EffectConditionHolder>
+          </EffectConditions>
+          <ChildEffects />
+        </EffectTransformHolder>
+        <EffectTransformHolder>
+          <TransformName>ExtraEffects</TransformName>
+          <Effects>
+            <EffectHolder xsi:type="RemoveStatusEffectHolder">
+              <StatusEffect>Dez Runes</StatusEffect>
+              <StatusEffect_ByTag>None</StatusEffect_ByTag>
+              <StatusEffect_Family>Dez Runes</StatusEffect_Family>
+              <StatusEffect_ByName />
+            </EffectHolder>
+            <EffectHolder xsi:type="RemoveStatusEffectHolder">
+              <StatusEffect>Fal Runes</StatusEffect>
+              <StatusEffect_ByTag>None</StatusEffect_ByTag>
+              <StatusEffect_Family>Fal Runes</StatusEffect_Family>
+              <StatusEffect_ByName />
+            </EffectHolder>
+            <EffectHolder xsi:type="AddStatusEffectHolder">
+              <StatusEffect>Runic Lantern Amplified</StatusEffect>
+              <ChanceToContract>100</ChanceToContract>
+            </EffectHolder>
+          </Effects>
+          <EffectConditions>
+            <EffectConditionHolder>
+              <Conditions>
+                <ConditionHolder>
+                  <Requirement>Runic Prefix</Requirement>
+                  <Condition_Type>Passive Skill</Condition_Type>
+                  <Invert>false</Invert>
+                </ConditionHolder>
+              </Conditions>
+            </EffectConditionHolder>
+            <EffectConditionHolder>
+              <Conditions>
+                <ConditionHolder>
+                  <Requirement>Fal Runes</Requirement>
+                  <Condition_Type>Status Effect</Condition_Type>
+                  <Invert>false</Invert>
+                </ConditionHolder>
+              </Conditions>
+            </EffectConditionHolder>
+            <EffectConditionHolder>
+              <Conditions>
+                <ConditionHolder>
+                  <Condition_Type>MostRecentCondition</Condition_Type>
+                  <Invert>false</Invert>
+                </ConditionHolder>
+              </Conditions>
+            </EffectConditionHolder>
+          </EffectConditions>
+          <ChildEffects />
+        </EffectTransformHolder>
+      </ChildEffects>
+    </EffectTransformHolder>
+    <EffectTransformHolder>
+      <TransformName>RunicHeal</TransformName>
+      <Effects />
+      <EffectConditions />
+      <ChildEffects>
+        <EffectTransformHolder>
+          <TransformName>ExtraEffects</TransformName>
+          <Effects>
+            <EffectHolder xsi:type="RemoveStatusEffectHolder">
+              <StatusEffect>Dez Runes</StatusEffect>
+              <StatusEffect_ByTag>None</StatusEffect_ByTag>
+              <StatusEffect_Family>Dez Runes</StatusEffect_Family>
+              <StatusEffect_ByName />
+            </EffectHolder>
+            <EffectHolder xsi:type="RemoveStatusEffectHolder">
+              <StatusEffect>Egoth Runes</StatusEffect>
+              <StatusEffect_ByTag>None</StatusEffect_ByTag>
+              <StatusEffect_Family>Fal Runes</StatusEffect_Family>
+              <StatusEffect_ByName />
+            </EffectHolder>
+            <EffectHolder xsi:type="RemoveStatusEffectHolder">
+              <StatusEffect>Runic Protection</StatusEffect>
+              <StatusEffect_ByTag>None</StatusEffect_ByTag>
+              <StatusEffect_Family>Unique</StatusEffect_Family>
+              <StatusEffect_ByName />
+            </EffectHolder>
+            <EffectHolder xsi:type="AffectHealthHolder">
+              <AffectQuantity>40</AffectQuantity>
+              <IsModifier>false</IsModifier>
+              <AffectQuanityAI>-99999</AffectQuanityAI>
+            </EffectHolder>
+          </Effects>
+          <EffectConditions>
+            <EffectConditionHolder>
+              <Conditions>
+                <ConditionHolder>
+                  <Requirement>Runic Prefix</Requirement>
+                  <Condition_Type>Passive Skill</Condition_Type>
+                  <Invert>true</Invert>
+                </ConditionHolder>
+              </Conditions>
+            </EffectConditionHolder>
+            <EffectConditionHolder>
+              <Conditions>
+                <ConditionHolder>
+                  <Requirement>Arcane Syntax</Requirement>
+                  <Condition_Type>Passive Skill</Condition_Type>
+                  <Invert>false</Invert>
+                </ConditionHolder>
+              </Conditions>
+            </EffectConditionHolder>
+            <EffectConditionHolder>
+              <Conditions>
+                <ConditionHolder>
+                  <Requirement>Egoth Runes</Requirement>
+                  <Condition_Type>Status Effect</Condition_Type>
+                  <Invert>false</Invert>
+                </ConditionHolder>
+              </Conditions>
+            </EffectConditionHolder>
+            <EffectConditionHolder>
+              <Conditions>
+                <ConditionHolder>
+                  <Requirement>Runic Protection</Requirement>
+                  <Condition_Type>Status Effect</Condition_Type>
+                  <Invert>false</Invert>
+                </ConditionHolder>
+              </Conditions>
+            </EffectConditionHolder>
+            <EffectConditionHolder>
+              <Conditions>
+                <ConditionHolder>
+                  <Condition_Type>MostRecentCondition</Condition_Type>
+                  <Invert>false</Invert>
+                </ConditionHolder>
+              </Conditions>
+            </EffectConditionHolder>
+          </EffectConditions>
+          <ChildEffects />
+        </EffectTransformHolder>
+        <EffectTransformHolder>
+          <TransformName>ExtraEffects</TransformName>
+          <Effects>
+            <EffectHolder xsi:type="RemoveStatusEffectHolder">
+              <StatusEffect>Dez Runes</StatusEffect>
+              <StatusEffect_ByTag>None</StatusEffect_ByTag>
+              <StatusEffect_Family>Dez Runes</StatusEffect_Family>
+              <StatusEffect_ByName />
+            </EffectHolder>
+            <EffectHolder xsi:type="RemoveStatusEffectHolder">
+              <StatusEffect>Egoth Runes</StatusEffect>
+              <StatusEffect_ByTag>None</StatusEffect_ByTag>
+              <StatusEffect_Family>Fal Runes</StatusEffect_Family>
+              <StatusEffect_ByName />
+            </EffectHolder>
+            <EffectHolder xsi:type="RemoveStatusEffectHolder">
+              <StatusEffect>Runic Protection Amplified</StatusEffect>
+              <StatusEffect_ByTag>None</StatusEffect_ByTag>
+              <StatusEffect_Family>Unique</StatusEffect_Family>
+              <StatusEffect_ByName />
+            </EffectHolder>
+            <EffectHolder xsi:type="AffectHealthHolder">
+              <AffectQuantity>40</AffectQuantity>
+              <IsModifier>false</IsModifier>
+              <AffectQuanityAI>-99999</AffectQuanityAI>
+            </EffectHolder>
+            <EffectHolder xsi:type="AddStatusEffectHolder">
+              <StatusEffect>Runic Heal Amplified</StatusEffect>
+              <ChanceToContract>100</ChanceToContract>
+            </EffectHolder>
+          </Effects>
+          <EffectConditions>
+            <EffectConditionHolder>
+              <Conditions>
+                <ConditionHolder>
+                  <Requirement>Runic Prefix</Requirement>
+                  <Condition_Type>Passive Skill</Condition_Type>
+                  <Invert>false</Invert>
+                </ConditionHolder>
+              </Conditions>
+            </EffectConditionHolder>
+            <EffectConditionHolder>
+              <Conditions>
+                <ConditionHolder>
+                  <Requirement>Arcane Syntax</Requirement>
+                  <Condition_Type>Passive Skill</Condition_Type>
+                  <Invert>false</Invert>
+                </ConditionHolder>
+              </Conditions>
+            </EffectConditionHolder>
+            <EffectConditionHolder>
+              <Conditions>
+                <ConditionHolder>
+                  <Requirement>Egoth Runes</Requirement>
+                  <Condition_Type>Status Effect</Condition_Type>
+                  <Invert>false</Invert>
+                </ConditionHolder>
+              </Conditions>
+            </EffectConditionHolder>
+            <EffectConditionHolder>
+              <Conditions>
+                <ConditionHolder>
+                  <Requirement>Runic Protection Amplified</Requirement>
+                  <Condition_Type>Status Effect</Condition_Type>
+                  <Invert>false</Invert>
+                </ConditionHolder>
+              </Conditions>
+            </EffectConditionHolder>
+            <EffectConditionHolder>
+              <Conditions>
+                <ConditionHolder>
+                  <Condition_Type>MostRecentCondition</Condition_Type>
+                  <Invert>false</Invert>
+                </ConditionHolder>
+              </Conditions>
+            </EffectConditionHolder>
+          </EffectConditions>
+          <ChildEffects />
+        </EffectTransformHolder>
+      </ChildEffects>
+    </EffectTransformHolder>
+  </EffectTransforms>
+  <Cooldown>2</Cooldown>
+  <StaminaCost>0</StaminaCost>
+  <ManaCost>8</ManaCost>
+  <DurabilityCost>0</DurabilityCost>
+  <DurabilityCostPercent>0</DurabilityCostPercent>
+  <IsDLCSkill>true</IsDLCSkill>
+  <RequiredItems />
+</ItemHolder>

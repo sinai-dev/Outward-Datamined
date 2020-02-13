@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ItemHolder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="SkillHolder">
+  <ItemID>8200602</ItemID>
+  <Name>Blood Bullet</Name>
+  <gameObjectName>8200602_LoadBloodBullet</gameObjectName>
+  <saveDir>/Skill/AttackSkill/PistolSkill</saveDir>
+  <Description>Required: Pistol, Possessed Boon
+
+Absorb the enemy’s life into your pistol as a blood bullet, healing yourself.
+
+Shooting it requires the use of the Fire/Reload skill.</Description>
+  <LegacyItemID>-1</LegacyItemID>
+  <Tags />
+  <EffectTransforms>
+    <EffectTransformHolder>
+      <TransformName>Effects</TransformName>
+      <Effects>
+        <EffectHolder xsi:type="ShootBlastHolder">
+          <BlastLifespan>0</BlastLifespan>
+          <RefreshTime>0.1</RefreshTime>
+          <EffectTransforms>
+            <EffectTransformHolder>
+              <TransformName>Effects</TransformName>
+              <Effects>
+                <EffectHolder xsi:type="WeaponDamageHolder">
+                  <Damage>
+                    <Damages>
+                      <Damage>40</Damage>
+                      <Damage_Type>Decay</Damage_Type>
+                    </Damages>
+                  </Damage>
+                  <Damages_AI />
+                  <Knockback>0</Knockback>
+                  <HitInventory>true</HitInventory>
+                  <OverrideType>Decay</OverrideType>
+                  <Damage_Multiplier>0</Damage_Multiplier>
+                  <Damage_Multiplier_Kback>-1</Damage_Multiplier_Kback>
+                  <Damage_Multiplier_Kdown>-1</Damage_Multiplier_Kdown>
+                  <Impact_Multiplier>0</Impact_Multiplier>
+                  <Impact_Multiplier_Kback>-1</Impact_Multiplier_Kback>
+                  <Impact_Multiplier_Kdown>-1</Impact_Multiplier_Kdown>
+                </EffectHolder>
+                <EffectHolder xsi:type="ShootProjectileHolder">
+                  <TargetingMode>Owner</TargetingMode>
+                  <AutoTarget>true</AutoTarget>
+                  <EffectTransforms>
+                    <EffectTransformHolder>
+                      <TransformName>HitEffects</TransformName>
+                      <Effects>
+                        <EffectHolder xsi:type="ImbueWeaponHolder">
+                          <Lifespan>-1</Lifespan>
+                          <ImbueEffect_Preset_Name>Blood Bullet Imbue</ImbueEffect_Preset_Name>
+                          <ImbueEffect_Preset_ID>251</ImbueEffect_Preset_ID>
+                          <Imbue_Slot>OffHand</Imbue_Slot>
+                        </EffectHolder>
+                        <EffectHolder xsi:type="AffectHealthHolder">
+                          <AffectQuantity>40</AffectQuantity>
+                          <IsModifier>false</IsModifier>
+                          <AffectQuanityAI>-99999</AffectQuanityAI>
+                        </EffectHolder>
+                      </Effects>
+                      <EffectConditions />
+                      <ChildEffects />
+                    </EffectTransformHolder>
+                  </EffectTransforms>
+                </EffectHolder>
+              </Effects>
+              <EffectConditions />
+              <ChildEffects />
+            </EffectTransformHolder>
+          </EffectTransforms>
+        </EffectHolder>
+      </Effects>
+      <EffectConditions>
+        <EffectConditionHolder>
+          <Conditions>
+            <ConditionHolder>
+              <Requirement>Possessed</Requirement>
+              <Condition_Type>Target has status</Condition_Type>
+              <Invert>false</Invert>
+            </ConditionHolder>
+          </Conditions>
+        </EffectConditionHolder>
+        <EffectConditionHolder>
+          <Conditions>
+            <ConditionHolder>
+              <Condition_Type>ImbueEffectCondition</Condition_Type>
+              <Invert>true</Invert>
+            </ConditionHolder>
+          </Conditions>
+        </EffectConditionHolder>
+      </EffectConditions>
+      <ChildEffects />
+    </EffectTransformHolder>
+    <EffectTransformHolder>
+      <TransformName>AdditionalActivationConditions</TransformName>
+      <Effects />
+      <EffectConditions />
+      <ChildEffects>
+        <EffectTransformHolder>
+          <TransformName>HasPossessedBoon</TransformName>
+          <Effects />
+          <EffectConditions>
+            <EffectConditionHolder>
+              <Conditions>
+                <ConditionHolder>
+                  <Requirement>Unique</Requirement>
+                  <Condition_Type>Target has status</Condition_Type>
+                  <Invert>false</Invert>
+                </ConditionHolder>
+              </Conditions>
+            </EffectConditionHolder>
+          </EffectConditions>
+          <ChildEffects />
+        </EffectTransformHolder>
+        <EffectTransformHolder>
+          <TransformName>NotImbued</TransformName>
+          <Effects />
+          <EffectConditions>
+            <EffectConditionHolder>
+              <Conditions>
+                <ConditionHolder>
+                  <Condition_Type>ImbueEffectCondition</Condition_Type>
+                  <Invert>true</Invert>
+                </ConditionHolder>
+              </Conditions>
+            </EffectConditionHolder>
+          </EffectConditions>
+          <ChildEffects />
+        </EffectTransformHolder>
+      </ChildEffects>
+    </EffectTransformHolder>
+  </EffectTransforms>
+  <Cooldown>30</Cooldown>
+  <StaminaCost>0</StaminaCost>
+  <ManaCost>12</ManaCost>
+  <DurabilityCost>0</DurabilityCost>
+  <DurabilityCostPercent>0</DurabilityCostPercent>
+  <IsDLCSkill>true</IsDLCSkill>
+  <RequiredItems />
+</ItemHolder>

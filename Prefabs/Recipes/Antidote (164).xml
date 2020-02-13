@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RecipeHolder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <StationType>Alchemy</StationType>
+  <Name>Antidote</Name>
+  <RecipeID>164</RecipeID>
+  <Ingredients>
+    <string>Firefly powder</string>
+    <string>Marshmelon</string>
+    <string>Ochre Spice Beetle</string>
+    <string>Water</string>
+  </Ingredients>
+  <Results>
+    <ItemQuantityHolder>
+      <ItemName>Antidote</ItemName>
+      <Quantity>5</Quantity>
+    </ItemQuantityHolder>
+  </Results>
+</RecipeHolder>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<StatusEffectHolder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>Lightning Shield Imbue</Name>
+  <PresetID>216</PresetID>
+  <Lifespan>0</Lifespan>
+  <Tags />
+  <CanBeHealedBySleeping>false</CanBeHealedBySleeping>
+  <StraightSleepHealTime>-1</StraightSleepHealTime>
+  <Effects>
+    <EffectHolder xsi:type="ShootBlastHolder">
+      <BlastLifespan>0</BlastLifespan>
+      <RefreshTime>0.1</RefreshTime>
+      <EffectTransforms>
+        <EffectTransformHolder>
+          <TransformName>Effects</TransformName>
+          <Effects>
+            <EffectHolder xsi:type="WeaponDamageHolder">
+              <Damage />
+              <Damages_AI />
+              <Knockback>0</Knockback>
+              <HitInventory>true</HitInventory>
+              <OverrideType>Electric</OverrideType>
+              <Damage_Multiplier>2</Damage_Multiplier>
+              <Damage_Multiplier_Kback>-1</Damage_Multiplier_Kback>
+              <Damage_Multiplier_Kdown>-1</Damage_Multiplier_Kdown>
+              <Impact_Multiplier>2</Impact_Multiplier>
+              <Impact_Multiplier_Kback>-1</Impact_Multiplier_Kback>
+              <Impact_Multiplier_Kdown>-1</Impact_Multiplier_Kdown>
+            </EffectHolder>
+            <EffectHolder xsi:type="WeaponDamageHolder">
+              <Damage />
+              <Damages_AI />
+              <Knockback>0</Knockback>
+              <HitInventory>true</HitInventory>
+              <OverrideType>Ethereal</OverrideType>
+              <Damage_Multiplier>1.3</Damage_Multiplier>
+              <Damage_Multiplier_Kback>-1</Damage_Multiplier_Kback>
+              <Damage_Multiplier_Kdown>-1</Damage_Multiplier_Kdown>
+              <Impact_Multiplier>0</Impact_Multiplier>
+              <Impact_Multiplier_Kback>-1</Impact_Multiplier_Kback>
+              <Impact_Multiplier_Kdown>-1</Impact_Multiplier_Kdown>
+            </EffectHolder>
+          </Effects>
+          <EffectConditions />
+          <ChildEffects />
+        </EffectTransformHolder>
+      </EffectTransforms>
+    </EffectHolder>
+  </Effects>
+</StatusEffectHolder>

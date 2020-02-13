@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ItemHolder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="SkillHolder">
+  <ItemID>8200103</ItemID>
+  <Name>Infuse Fire</Name>
+  <gameObjectName>8200103_SpellBindFire</gameObjectName>
+  <saveDir>/Skill/AttackSkill/MeleeSkill</saveDir>
+  <Description>Required: Warm Boon
+
+Temporarily adds Fire damage to your melee weapon and inflicts Burning on enemies. Consumes your Warm boon.</Description>
+  <LegacyItemID>-1</LegacyItemID>
+  <Tags />
+  <EffectTransforms>
+    <EffectTransformHolder>
+      <TransformName>Effects</TransformName>
+      <Effects>
+        <EffectHolder xsi:type="RemoveStatusEffectHolder">
+          <StatusEffect>Warm</StatusEffect>
+          <StatusEffect_ByTag>None</StatusEffect_ByTag>
+          <StatusEffect_Family>WarmBoon</StatusEffect_Family>
+          <StatusEffect_ByName>WarmBoon</StatusEffect_ByName>
+        </EffectHolder>
+        <EffectHolder xsi:type="ImbueWeaponHolder">
+          <Lifespan>180</Lifespan>
+          <ImbueEffect_Preset_Name>Mystic Fire Imbue</ImbueEffect_Preset_Name>
+          <ImbueEffect_Preset_ID>217</ImbueEffect_Preset_ID>
+          <Imbue_Slot>MainHand</Imbue_Slot>
+        </EffectHolder>
+      </Effects>
+      <EffectConditions />
+      <ChildEffects />
+    </EffectTransformHolder>
+    <EffectTransformHolder>
+      <TransformName>AdditionalActivationConditions</TransformName>
+      <Effects />
+      <EffectConditions />
+      <ChildEffects>
+        <EffectTransformHolder>
+          <TransformName>Boon</TransformName>
+          <Effects />
+          <EffectConditions>
+            <EffectConditionHolder>
+              <Conditions>
+                <ConditionHolder>
+                  <Requirement>Warm</Requirement>
+                  <Condition_Type>Target has status</Condition_Type>
+                  <Invert>false</Invert>
+                </ConditionHolder>
+              </Conditions>
+            </EffectConditionHolder>
+          </EffectConditions>
+          <ChildEffects />
+        </EffectTransformHolder>
+      </ChildEffects>
+    </EffectTransformHolder>
+  </EffectTransforms>
+  <Cooldown>0</Cooldown>
+  <StaminaCost>0</StaminaCost>
+  <ManaCost>15</ManaCost>
+  <DurabilityCost>0</DurabilityCost>
+  <DurabilityCostPercent>0</DurabilityCostPercent>
+  <IsDLCSkill>true</IsDLCSkill>
+  <RequiredItems />
+</ItemHolder>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ItemHolder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ItemID>5000030</ItemID>
+  <Name>Camouflaged Tent</Name>
+  <gameObjectName>5000030_TentCamoKit</gameObjectName>
+  <saveDir />
+  <Description>Minimalist tent that conceals the user, reducing the chances of being ambushed.
+
+Sleeping in this tent gives a medium bonus to stamina use.</Description>
+  <LegacyItemID>-1</LegacyItemID>
+  <StatsHolder>
+    <BaseValue>50</BaseValue>
+    <RawWeight>4</RawWeight>
+    <MaxDurability>500</MaxDurability>
+  </StatsHolder>
+  <Tags>
+    <string>Deployable</string>
+    <string>Item</string>
+    <string>Kit</string>
+  </Tags>
+  <EffectTransforms />
+</ItemHolder>

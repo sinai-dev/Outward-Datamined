@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ItemHolder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ItemID>5010211</ItemID>
+  <Name>Alchemy Kit</Name>
+  <gameObjectName>5010211_AlchemySetAddOn</gameObjectName>
+  <saveDir>/CraftingStation</saveDir>
+  <Description>-</Description>
+  <LegacyItemID>-1</LegacyItemID>
+  <Tags>
+    <string>Deployable</string>
+    <string>Item</string>
+  </Tags>
+  <EffectTransforms />
+</ItemHolder>

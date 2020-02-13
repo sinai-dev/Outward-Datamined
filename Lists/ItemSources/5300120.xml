@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ItemSource xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ItemName>Primitive Satchel</ItemName>
+  <ItemID>5300120</ItemID>
+  <Container_Sources>
+    <string>Junk Pile (Abrassar:Levant)</string>
+    <string>Junk Pile (Abrassar:Levant)</string>
+    <string>Junk Pile (Abrassar:Levant)</string>
+  </Container_Sources>
+  <Spawn_Sources>
+    <string>Chersonese:Shipwreck Beach</string>
+    <string>Chersonese:Cierzo</string>
+    <string>Chersonese:Holy Mission’s Conflux Path</string>
+    <string>Hallowed Marsh:Hallowed Marsh</string>
+  </Spawn_Sources>
+</ItemSource>

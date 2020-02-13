@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ItemHolder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ItemID>6600190</ItemID>
+  <Name>Alpha Tuanosaur Tail</Name>
+  <gameObjectName>6600190_AlphaTuanosaurTail</gameObjectName>
+  <saveDir />
+  <Description>Circular tail bone of an apex predator, used to craft powerful axes.</Description>
+  <LegacyItemID>-1</LegacyItemID>
+  <StatsHolder>
+    <BaseValue>130</BaseValue>
+    <RawWeight>2</RawWeight>
+    <MaxDurability>-1</MaxDurability>
+  </StatsHolder>
+  <Tags>
+    <string>Ingredient</string>
+    <string>Item</string>
+    <string>Misc</string>
+  </Tags>
+  <EffectTransforms />
+</ItemHolder>

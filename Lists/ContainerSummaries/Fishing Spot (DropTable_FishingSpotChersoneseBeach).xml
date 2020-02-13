@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContainerSummary xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>Fishing Spot (DropTable_FishingSpotChersoneseBeach)</Name>
+  <ItemID>0</ItemID>
+  <Locations_Found>
+    <string>Abrassar:Abrassar</string>
+    <string>Abrassar:Abrassar</string>
+    <string>Abrassar:Abrassar</string>
+    <string>Abrassar:Abrassar</string>
+    <string>Abrassar:Abrassar</string>
+    <string>Abrassar:Abrassar</string>
+    <string>Chersonese:Chersonese</string>
+    <string>Chersonese:Chersonese</string>
+    <string>Chersonese:Chersonese</string>
+    <string>Chersonese:Chersonese</string>
+    <string>Chersonese:Chersonese</string>
+    <string>Chersonese:Chersonese</string>
+    <string>Chersonese:Chersonese</string>
+    <string>Chersonese:Chersonese</string>
+    <string>Chersonese:Chersonese</string>
+    <string>Chersonese:Chersonese</string>
+    <string>Chersonese:Chersonese</string>
+    <string>Chersonese:Chersonese</string>
+    <string>Chersonese:Chersonese</string>
+    <string>Chersonese:Chersonese</string>
+    <string>Chersonese:Chersonese</string>
+    <string>Chersonese:Cierzo</string>
+    <string>Chersonese:Cierzo</string>
+    <string>Chersonese:Cierzo</string>
+    <string>Chersonese:Cierzo (Destroyed)</string>
+    <string>Chersonese:Cierzo (Destroyed)</string>
+    <string>Chersonese:Cierzo (Destroyed)</string>
+  </Locations_Found>
+  <All_DropTables>
+    <string>DropTable_FishingSpotChersoneseBeach</string>
+  </All_DropTables>
+</ContainerSummary>

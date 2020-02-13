@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LootContainerHolder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>Worker’s Corpse</Name>
+  <ItemID>1000090</ItemID>
+  <UID>n-qCcYzP7kuQw2r0ZosMyw</UID>
+  <DropTables>
+    <string>DropTable_Neutral_Consumable_Low_2</string>
+    <string>DropTable_Neutral_Survival_Low_2</string>
+    <string>DropTable_Neutral_StandardRecipe_Low_1</string>
+  </DropTables>
+</LootContainerHolder>

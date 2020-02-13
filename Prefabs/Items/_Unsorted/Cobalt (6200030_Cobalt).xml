@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ItemHolder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ItemID>6200030</ItemID>
+  <Name>Cobalt</Name>
+  <gameObjectName>6200030_Cobalt</gameObjectName>
+  <saveDir />
+  <Description />
+  <LegacyItemID>-1</LegacyItemID>
+  <StatsHolder>
+    <BaseValue>1</BaseValue>
+    <RawWeight>0.4</RawWeight>
+    <MaxDurability>100</MaxDurability>
+  </StatsHolder>
+  <Tags>
+    <string>Stone</string>
+    <string>Material</string>
+    <string>Ingredient</string>
+    <string>Item</string>
+    <string>Valuable</string>
+  </Tags>
+  <EffectTransforms>
+    <EffectTransformHolder>
+      <TransformName>Effects</TransformName>
+      <Effects>
+        <EffectHolder xsi:type="AffectNeedHolder">
+          <Need>AffectFood</Need>
+          <AffectQuantity>30</AffectQuantity>
+        </EffectHolder>
+      </Effects>
+      <EffectConditions />
+      <ChildEffects />
+    </EffectTransformHolder>
+  </EffectTransforms>
+</ItemHolder>

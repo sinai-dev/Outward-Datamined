@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ItemHolder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ItemID>4100530</ItemID>
+  <Name>Poutine</Name>
+  <gameObjectName>4100530_Poutine</gameObjectName>
+  <saveDir>/Food</saveDir>
+  <Description>A famous traditional comfort food of the northern tribes, invented completely by accident. Hot, filling, and delicious. Increases attack and impact, and protects against the cold.</Description>
+  <LegacyItemID>-1</LegacyItemID>
+  <StatsHolder>
+    <BaseValue>30</BaseValue>
+    <RawWeight>0.5</RawWeight>
+    <MaxDurability>100</MaxDurability>
+  </StatsHolder>
+  <Tags>
+    <string>Consummable</string>
+    <string>Item</string>
+  </Tags>
+  <EffectTransforms>
+    <EffectTransformHolder>
+      <TransformName>Effects</TransformName>
+      <Effects>
+        <EffectHolder xsi:type="AffectNeedHolder">
+          <Need>AffectFood</Need>
+          <AffectQuantity>325</AffectQuantity>
+        </EffectHolder>
+        <EffectHolder xsi:type="AddStatusEffectHolder">
+          <StatusEffect>Warm</StatusEffect>
+          <ChanceToContract>100</ChanceToContract>
+        </EffectHolder>
+        <EffectHolder xsi:type="AddStatusEffectHolder">
+          <StatusEffect>Impact Up</StatusEffect>
+          <ChanceToContract>100</ChanceToContract>
+        </EffectHolder>
+        <EffectHolder xsi:type="AddStatusEffectHolder">
+          <StatusEffect>Attack Up</StatusEffect>
+          <ChanceToContract>100</ChanceToContract>
+        </EffectHolder>
+      </Effects>
+      <EffectConditions />
+      <ChildEffects />
+    </EffectTransformHolder>
+  </EffectTransforms>
+</ItemHolder>

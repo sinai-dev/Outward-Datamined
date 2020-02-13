@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ItemSource xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ItemName>Bed</ItemName>
+  <ItemID>5000003</ItemID>
+  <Container_Sources />
+  <Spawn_Sources>
+    <string>Hallowed Marsh:Monsoon</string>
+    <string>Hallowed Marsh:Monsoon</string>
+    <string>Hallowed Marsh:Monsoon</string>
+    <string>Hallowed Marsh:Monsoon</string>
+    <string>Hallowed Marsh:Monsoon</string>
+    <string>Hallowed Marsh:Monsoon</string>
+    <string>Hallowed Marsh:Monsoon</string>
+    <string>Hallowed Marsh:Monsoon</string>
+    <string>Hallowed Marsh:Monsoon</string>
+    <string>Hallowed Marsh:Monsoon</string>
+    <string>Hallowed Marsh:Monsoon</string>
+    <string>Hallowed Marsh:Monsoon</string>
+    <string>Hallowed Marsh:Monsoon</string>
+    <string>Hallowed Marsh:Monsoon</string>
+    <string>Hallowed Marsh:Monsoon</string>
+    <string>Hallowed Marsh:Monsoon</string>
+    <string>Hallowed Marsh:Monsoon</string>
+    <string>Hallowed Marsh:Monsoon</string>
+    <string>Hallowed Marsh:Monsoon</string>
+    <string>Hallowed Marsh:Monsoon</string>
+  </Spawn_Sources>
+</ItemSource>

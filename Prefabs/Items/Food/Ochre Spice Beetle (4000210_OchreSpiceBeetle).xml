@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ItemHolder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ItemID>4000210</ItemID>
+  <Name>Ochre Spice Beetle</Name>
+  <gameObjectName>4000210_OchreSpiceBeetle</gameObjectName>
+  <saveDir>/Food</saveDir>
+  <Description>Uncommon reinvigorating insect that lives in plants and is used in advanced recipes.
+
+Eating this insect protects from the cold.</Description>
+  <LegacyItemID>-1</LegacyItemID>
+  <StatsHolder>
+    <BaseValue>15</BaseValue>
+    <RawWeight>0.1</RawWeight>
+    <MaxDurability>100</MaxDurability>
+  </StatsHolder>
+  <Tags>
+    <string>Spice</string>
+    <string>Food</string>
+    <string>Consummable</string>
+    <string>Item</string>
+  </Tags>
+  <EffectTransforms>
+    <EffectTransformHolder>
+      <TransformName>Effects</TransformName>
+      <Effects>
+        <EffectHolder xsi:type="AffectNeedHolder">
+          <Need>AffectFood</Need>
+          <AffectQuantity>50</AffectQuantity>
+        </EffectHolder>
+        <EffectHolder xsi:type="AddStatusEffectHolder">
+          <StatusEffect>Environment Cold Resistance</StatusEffect>
+          <ChanceToContract>100</ChanceToContract>
+        </EffectHolder>
+      </Effects>
+      <EffectConditions />
+      <ChildEffects />
+    </EffectTransformHolder>
+  </EffectTransforms>
+</ItemHolder>

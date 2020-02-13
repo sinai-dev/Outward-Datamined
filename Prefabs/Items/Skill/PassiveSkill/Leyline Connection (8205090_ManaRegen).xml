@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ItemHolder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="SkillHolder">
+  <ItemID>8205090</ItemID>
+  <Name>Leyline Connection</Name>
+  <gameObjectName>8205090_ManaRegen</gameObjectName>
+  <saveDir>/Skill/PassiveSkill</saveDir>
+  <Description>You regain 0.34 mana per second.
+
+This is a constant effect.</Description>
+  <LegacyItemID>-1</LegacyItemID>
+  <Tags />
+  <EffectTransforms>
+    <EffectTransformHolder>
+      <TransformName>Passive</TransformName>
+      <Effects>
+        <EffectHolder xsi:type="AffectStatHolder">
+          <AffectedStat>ManaRegen</AffectedStat>
+          <AffectedStat_TagUID>159</AffectedStat_TagUID>
+          <AffectQuantity>0.34</AffectQuantity>
+          <IsModifier>false</IsModifier>
+        </EffectHolder>
+      </Effects>
+      <EffectConditions />
+      <ChildEffects />
+    </EffectTransformHolder>
+  </EffectTransforms>
+  <Cooldown>0</Cooldown>
+  <StaminaCost>0</StaminaCost>
+  <ManaCost>0</ManaCost>
+  <DurabilityCost>0</DurabilityCost>
+  <DurabilityCostPercent>0</DurabilityCostPercent>
+  <IsDLCSkill>true</IsDLCSkill>
+  <RequiredItems />
+</ItemHolder>

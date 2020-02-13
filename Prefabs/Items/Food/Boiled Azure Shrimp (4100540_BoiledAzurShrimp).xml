@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ItemHolder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ItemID>4100540</ItemID>
+  <Name>Boiled Azure Shrimp</Name>
+  <gameObjectName>4100540_BoiledAzurShrimp</gameObjectName>
+  <saveDir>/Food</saveDir>
+  <Description>Cooked crustacean coveted for its mana-restoring qualities.</Description>
+  <LegacyItemID>-1</LegacyItemID>
+  <StatsHolder>
+    <BaseValue>30</BaseValue>
+    <RawWeight>0.1</RawWeight>
+    <MaxDurability>100</MaxDurability>
+  </StatsHolder>
+  <Tags>
+    <string>Dish</string>
+    <string>Food</string>
+    <string>Consummable</string>
+    <string>Item</string>
+    <string>Ration Ingredient</string>
+    <string>Ingredient Cook</string>
+    <string>Ingredient</string>
+  </Tags>
+  <EffectTransforms>
+    <EffectTransformHolder>
+      <TransformName>Effects</TransformName>
+      <Effects>
+        <EffectHolder xsi:type="AffectNeedHolder">
+          <Need>AffectFood</Need>
+          <AffectQuantity>75</AffectQuantity>
+        </EffectHolder>
+        <EffectHolder xsi:type="AffectHealthHolder">
+          <AffectQuantity>50</AffectQuantity>
+          <IsModifier>false</IsModifier>
+          <AffectQuanityAI>-99999</AffectQuanityAI>
+        </EffectHolder>
+        <EffectHolder xsi:type="AddStatusEffectHolder">
+          <StatusEffect>Mana Ratio Recovery 3</StatusEffect>
+          <ChanceToContract>100</ChanceToContract>
+        </EffectHolder>
+        <EffectHolder xsi:type="AffectBurntManaHolder">
+          <AffectQuantity>20</AffectQuantity>
+          <IsModifier>false</IsModifier>
+        </EffectHolder>
+      </Effects>
+      <EffectConditions />
+      <ChildEffects />
+    </EffectTransformHolder>
+  </EffectTransforms>
+</ItemHolder>

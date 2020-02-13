@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<EnemyHolder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>Baron Montgomery</Name>
+  <GameObject_Name>BossBaron</GameObject_Name>
+  <Unique_ID>1</Unique_ID>
+  <Locations_Found>
+    <string>Abrassar:Undercity Passage</string>
+  </Locations_Found>
+  <Max_Health>90</Max_Health>
+  <Health_Regen_Per_Second>0</Health_Regen_Per_Second>
+  <Impact_Resistance>44</Impact_Resistance>
+  <Protection>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+  </Protection>
+  <Damage_Resistances>
+    <float>43</float>
+    <float>0</float>
+    <float>10</float>
+    <float>45</float>
+    <float>0</float>
+    <float>20</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+  </Damage_Resistances>
+  <Damage_Bonuses>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+  </Damage_Bonuses>
+  <Collider_Radius>0.4</Collider_Radius>
+  <True_WeaponDamage>
+    <Damages>
+      <Damage>24</Damage>
+      <Damage_Type>Physical</Damage_Type>
+    </Damages>
+  </True_WeaponDamage>
+  <Weapon_Impact>24</Weapon_Impact>
+  <Status_Immunities />
+  <Starting_Equipment>
+    <string>Scarab Mask (3000101)</string>
+    <string>Entomber Armor (3000112)</string>
+    <string>Entomber Boots (3000118)</string>
+    <string>Brutal Axe (2010030)</string>
+    <string>Marble Shield (2300090)</string>
+  </Starting_Equipment>
+  <Skill_Knowledge />
+  <Faction>Bandits</Faction>
+  <Allied_To_Same_Faction>true</Allied_To_Same_Faction>
+  <Guaranteed_Drops>
+    <DropTableEntry>
+      <Item_Name>Brutal Axe</Item_Name>
+      <Item_ID>2010030</Item_ID>
+      <Min_Quantity>1</Min_Quantity>
+      <Max_Quantity>1</Max_Quantity>
+    </DropTableEntry>
+    <DropTableEntry>
+      <Item_Name>Brutal Axe</Item_Name>
+      <Item_ID>2010030</Item_ID>
+      <Min_Quantity>1</Min_Quantity>
+      <Max_Quantity>1</Max_Quantity>
+    </DropTableEntry>
+    <DropTableEntry>
+      <Item_Name>Marble Shield</Item_Name>
+      <Item_ID>2300090</Item_ID>
+      <Min_Quantity>1</Min_Quantity>
+      <Max_Quantity>1</Max_Quantity>
+    </DropTableEntry>
+  </Guaranteed_Drops>
+  <DropTable_Names>
+    <string>DropTable_BanditMelee_Chersonese_Low</string>
+  </DropTable_Names>
+</EnemyHolder>

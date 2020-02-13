@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ItemHolder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="WeaponHolder">
+  <ItemID>2120140</ItemID>
+  <Name>Challenger Greathammer</Name>
+  <gameObjectName>2120140_BossReward_ChallengerGreatHammer</gameObjectName>
+  <saveDir>/Equipment/Weapon/MeleeWeapon</saveDir>
+  <Description>A two-handed greathammer traditionally used to incite a duel to the death against a rival. It grants rage boon and discipline boon on enemies.</Description>
+  <LegacyItemID>-1</LegacyItemID>
+  <StatsHolder xsi:type="WeaponStatsHolder">
+    <BaseValue>2500</BaseValue>
+    <RawWeight>7</RawWeight>
+    <MaxDurability>600</MaxDurability>
+    <Damage_Resistance>
+      <float>0</float>
+      <float>0</float>
+      <float>0</float>
+      <float>0</float>
+      <float>0</float>
+      <float>0</float>
+      <float>0</float>
+      <float>0</float>
+      <float>0</float>
+    </Damage_Resistance>
+    <Impact_Resistance>9.6</Impact_Resistance>
+    <Damage_Protection>0</Damage_Protection>
+    <Damage_Bonus>
+      <float>0</float>
+      <float>0</float>
+      <float>0</float>
+      <float>0</float>
+      <float>0</float>
+      <float>0</float>
+      <float>0</float>
+      <float>0</float>
+      <float>0</float>
+    </Damage_Bonus>
+    <Stamina_Use_Penalty>0</Stamina_Use_Penalty>
+    <Mana_Use_Modifier>0</Mana_Use_Modifier>
+    <Movement_Penalty>0</Movement_Penalty>
+    <Pouch_Bonus>0</Pouch_Bonus>
+    <Heat_Protection>0</Heat_Protection>
+    <Cold_Protection>0</Cold_Protection>
+    <Corruption_Protection>0</Corruption_Protection>
+    <AttackSpeed>1</AttackSpeed>
+    <BaseDamage>
+      <Damages>
+        <Damage>65</Damage>
+        <Damage_Type>Physical</Damage_Type>
+      </Damages>
+    </BaseDamage>
+    <Impact>65</Impact>
+    <AttackCount>5</AttackCount>
+    <Attacks>
+      <AttackData>
+        <StamCost>7.7</StamCost>
+        <Knockback>65</Knockback>
+        <AttackSpeed>1</AttackSpeed>
+        <Damage>
+          <float>65</float>
+        </Damage>
+      </AttackData>
+      <AttackData>
+        <StamCost>7.7</StamCost>
+        <Knockback>65</Knockback>
+        <AttackSpeed>1</AttackSpeed>
+        <Damage>
+          <float>65</float>
+        </Damage>
+      </AttackData>
+      <AttackData>
+        <StamCost>9.24</StamCost>
+        <Knockback>130</Knockback>
+        <AttackSpeed>1</AttackSpeed>
+        <Damage>
+          <float>48.75</float>
+        </Damage>
+      </AttackData>
+      <AttackData>
+        <StamCost>9.24</StamCost>
+        <Knockback>91</Knockback>
+        <AttackSpeed>1.2</AttackSpeed>
+        <Damage>
+          <float>91</float>
+        </Damage>
+      </AttackData>
+      <AttackData>
+        <StamCost>9.24</StamCost>
+        <Knockback>91</Knockback>
+        <AttackSpeed>1.2</AttackSpeed>
+        <Damage>
+          <float>91</float>
+        </Damage>
+      </AttackData>
+    </Attacks>
+  </StatsHolder>
+  <Tags>
+    <string>2 Handed</string>
+    <string>Weapon</string>
+    <string>Item</string>
+    <string>Bludgeon</string>
+  </Tags>
+  <EffectTransforms>
+    <EffectTransformHolder>
+      <TransformName>HitEffects</TransformName>
+      <Effects>
+        <EffectHolder xsi:type="AddStatusEffectBuildupHolder">
+          <StatusEffect>Rage</StatusEffect>
+          <Buildup>60</Buildup>
+        </EffectHolder>
+        <EffectHolder xsi:type="AddStatusEffectBuildupHolder">
+          <StatusEffect>Discipline</StatusEffect>
+          <Buildup>60</Buildup>
+        </EffectHolder>
+      </Effects>
+      <EffectConditions />
+      <ChildEffects />
+    </EffectTransformHolder>
+  </EffectTransforms>
+  <EquipmentSlot>RightHand</EquipmentSlot>
+  <IKType>None</IKType>
+  <TwoHandType>TwoHandedRight</TwoHandType>
+  <VisualDetectabilityAdd>0</VisualDetectabilityAdd>
+  <WeaponType>Mace_2H</WeaponType>
+</ItemHolder>

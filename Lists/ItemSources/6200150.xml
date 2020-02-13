@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ItemSource xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ItemName>Power Coil</ItemName>
+  <ItemID>6200150</ItemID>
+  <Container_Sources>
+    <string>Junk Pile (Chersonese:Cierzo)</string>
+    <string>Supply Cache (Chersonese:Chersonese)</string>
+    <string>Supply Cache (Chersonese:Chersonese)</string>
+    <string>Supply Cache (Chersonese:Chersonese)</string>
+    <string>Supply Cache (Chersonese:Chersonese)</string>
+    <string>Supply Cache (Chersonese:Chersonese)</string>
+    <string>Supply Cache (Chersonese:Chersonese)</string>
+    <string>Supply Cache (Chersonese:Chersonese)</string>
+    <string>Supply Cache (Chersonese:Chersonese)</string>
+    <string>Supply Cache (Chersonese:Chersonese)</string>
+    <string>Supply Cache (Chersonese:Chersonese)</string>
+    <string>Supply Cache (Chersonese:Chersonese)</string>
+    <string>Supply Cache (Chersonese:Chersonese)</string>
+    <string>Supply Cache (Chersonese:Chersonese)</string>
+    <string>Supply Cache (Chersonese:Chersonese)</string>
+    <string>Supply Cache (Chersonese:Chersonese)</string>
+    <string>Supply Cache (Chersonese:Chersonese)</string>
+    <string>Supply Cache (Chersonese:Chersonese)</string>
+    <string>Supply Cache (Chersonese:Chersonese)</string>
+    <string>Supply Cache (Chersonese:Chersonese)</string>
+    <string>Supply Cache (Chersonese:Chersonese)</string>
+    <string>Supply Cache (Hallowed Marsh:Hallowed Marsh)</string>
+    <string>Supply Cache (Hallowed Marsh:Hallowed Marsh)</string>
+    <string>Supply Cache (Hallowed Marsh:Hallowed Marsh)</string>
+    <string>Supply Cache (Hallowed Marsh:Hallowed Marsh)</string>
+    <string>Supply Cache (Hallowed Marsh:Hallowed Marsh)</string>
+    <string>Supply Cache (Hallowed Marsh:Hallowed Marsh)</string>
+    <string>Supply Cache (Hallowed Marsh:Hallowed Marsh)</string>
+    <string>Supply Cache (Hallowed Marsh:Hallowed Marsh)</string>
+    <string>Supply Cache (Hallowed Marsh:Hallowed Marsh)</string>
+    <string>Supply Cache (Hallowed Marsh:Hallowed Marsh)</string>
+    <string>Supply Cache (Hallowed Marsh:Hallowed Marsh)</string>
+    <string>Supply Cache (Hallowed Marsh:Hallowed Marsh)</string>
+    <string>Supply Cache (Hallowed Marsh:Hallowed Marsh)</string>
+    <string>Supply Cache (Hallowed Marsh:Hallowed Marsh)</string>
+    <string>Supply Cache (Hallowed Marsh:Hallowed Marsh)</string>
+    <string>Supply Cache (Hallowed Marsh:Hallowed Marsh)</string>
+    <string>Supply Cache (Hallowed Marsh:Hallowed Marsh)</string>
+    <string>Supply Cache (Hallowed Marsh:Hallowed Marsh)</string>
+    <string>Supply Cache (Hallowed Marsh:Hallowed Marsh)</string>
+    <string>Supply Cache (Hallowed Marsh:Hallowed Marsh)</string>
+    <string>Supply Cache (Abrassar:Abrassar)</string>
+    <string>Supply Cache (Abrassar:Abrassar)</string>
+    <string>Supply Cache (Abrassar:Abrassar)</string>
+    <string>Supply Cache (Abrassar:Abrassar)</string>
+    <string>Supply Cache (Abrassar:Abrassar)</string>
+    <string>Supply Cache (Abrassar:Abrassar)</string>
+    <string>Supply Cache (Abrassar:Abrassar)</string>
+    <string>Supply Cache (Abrassar:Abrassar)</string>
+    <string>Supply Cache (Abrassar:Abrassar)</string>
+    <string>Supply Cache (Abrassar:Abrassar)</string>
+    <string>Supply Cache (Abrassar:Abrassar)</string>
+    <string>Supply Cache (Abrassar:Abrassar)</string>
+    <string>Supply Cache (Abrassar:Abrassar)</string>
+    <string>Supply Cache (Abrassar:Abrassar)</string>
+    <string>Supply Cache (Abrassar:Abrassar)</string>
+    <string>Supply Cache (Abrassar:Abrassar)</string>
+    <string>Supply Cache (Abrassar:Abrassar)</string>
+    <string>Supply Cache (Abrassar:Abrassar)</string>
+    <string>Supply Cache (Abrassar:Abrassar)</string>
+    <string>Supply Cache (Abrassar:Abrassar)</string>
+    <string>Supply Cache (Enmerkar Forest:Enmerkar Forest)</string>
+    <string>Supply Cache (Enmerkar Forest:Enmerkar Forest)</string>
+    <string>Supply Cache (Enmerkar Forest:Enmerkar Forest)</string>
+    <string>Supply Cache (Enmerkar Forest:Enmerkar Forest)</string>
+    <string>Supply Cache (Enmerkar Forest:Enmerkar Forest)</string>
+    <string>Supply Cache (Enmerkar Forest:Enmerkar Forest)</string>
+    <string>Supply Cache (Enmerkar Forest:Enmerkar Forest)</string>
+    <string>Supply Cache (Enmerkar Forest:Enmerkar Forest)</string>
+    <string>Supply Cache (Enmerkar Forest:Enmerkar Forest)</string>
+    <string>Supply Cache (Enmerkar Forest:Enmerkar Forest)</string>
+    <string>Supply Cache (Enmerkar Forest:Enmerkar Forest)</string>
+    <string>Supply Cache (Enmerkar Forest:Enmerkar Forest)</string>
+    <string>Supply Cache (Enmerkar Forest:Enmerkar Forest)</string>
+    <string>Supply Cache (Enmerkar Forest:Enmerkar Forest)</string>
+    <string>Supply Cache (Enmerkar Forest:Enmerkar Forest)</string>
+    <string>Supply Cache (Enmerkar Forest:Enmerkar Forest)</string>
+    <string>Supply Cache (Enmerkar Forest:Enmerkar Forest)</string>
+    <string>Supply Cache (Enmerkar Forest:Enmerkar Forest)</string>
+    <string>Supply Cache (Enmerkar Forest:Enmerkar Forest)</string>
+    <string>Supply Cache (Enmerkar Forest:Enmerkar Forest)</string>
+  </Container_Sources>
+  <Spawn_Sources />
+</ItemSource>

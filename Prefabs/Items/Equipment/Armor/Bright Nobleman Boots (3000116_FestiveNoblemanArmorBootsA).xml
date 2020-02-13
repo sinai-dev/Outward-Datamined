@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ItemHolder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="EquipmentHolder">
+  <ItemID>3000116</ItemID>
+  <Name>Bright Nobleman Boots</Name>
+  <gameObjectName>3000116_FestiveNoblemanArmorBootsA</gameObjectName>
+  <saveDir>/Equipment/Armor</saveDir>
+  <Description />
+  <LegacyItemID>-1</LegacyItemID>
+  <StatsHolder xsi:type="EquipmentStatsHolder">
+    <BaseValue>50</BaseValue>
+    <RawWeight>2</RawWeight>
+    <MaxDurability>165</MaxDurability>
+    <Damage_Resistance>
+      <float>2</float>
+      <float>0</float>
+      <float>0</float>
+      <float>0</float>
+      <float>0</float>
+      <float>0</float>
+      <float>0</float>
+      <float>0</float>
+      <float>0</float>
+    </Damage_Resistance>
+    <Impact_Resistance>3</Impact_Resistance>
+    <Damage_Protection>0</Damage_Protection>
+    <Damage_Bonus>
+      <float>0</float>
+      <float>0</float>
+      <float>0</float>
+      <float>0</float>
+      <float>0</float>
+      <float>0</float>
+      <float>0</float>
+      <float>0</float>
+      <float>0</float>
+    </Damage_Bonus>
+    <Stamina_Use_Penalty>-5</Stamina_Use_Penalty>
+    <Mana_Use_Modifier>0</Mana_Use_Modifier>
+    <Movement_Penalty>0</Movement_Penalty>
+    <Pouch_Bonus>0</Pouch_Bonus>
+    <Heat_Protection>7</Heat_Protection>
+    <Cold_Protection>0</Cold_Protection>
+    <Corruption_Protection>0</Corruption_Protection>
+  </StatsHolder>
+  <Tags>
+    <string>Boots</string>
+    <string>Equipment</string>
+    <string>Item</string>
+    <string>DecraftHide_Small</string>
+  </Tags>
+  <EffectTransforms />
+  <EquipmentSlot>Foot</EquipmentSlot>
+  <IKType>None</IKType>
+  <TwoHandType>None</TwoHandType>
+  <VisualDetectabilityAdd>0</VisualDetectabilityAdd>
+  <ArmorClass>Cloth</ArmorClass>
+</ItemHolder>

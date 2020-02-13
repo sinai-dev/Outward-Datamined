@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RecipeHolder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <StationType>Alchemy</StationType>
+  <Name>Survivor Elixir</Name>
+  <RecipeID>129</RecipeID>
+  <Ingredients>
+    <string>Water</string>
+    <string>Livweedi</string>
+    <string>Ochre Spice Beetle</string>
+    <string>Crystal Powder</string>
+  </Ingredients>
+  <Results>
+    <ItemQuantityHolder>
+      <ItemName>Survivor Elixir</ItemName>
+      <Quantity>1</Quantity>
+    </ItemQuantityHolder>
+  </Results>
+</RecipeHolder>

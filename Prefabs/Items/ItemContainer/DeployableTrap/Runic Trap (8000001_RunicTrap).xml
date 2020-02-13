@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ItemHolder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="TrapHolder">
+  <ItemID>8000001</ItemID>
+  <Name>Runic Trap</Name>
+  <gameObjectName>8000001_RunicTrap</gameObjectName>
+  <saveDir>/ItemContainer/DeployableTrap</saveDir>
+  <Description />
+  <LegacyItemID>-1</LegacyItemID>
+  <Tags />
+  <EffectTransforms>
+    <EffectTransformHolder>
+      <TransformName>Effects</TransformName>
+      <Effects>
+        <EffectHolder xsi:type="ShootBlastHolder">
+          <BlastLifespan>0</BlastLifespan>
+          <RefreshTime>0.1</RefreshTime>
+          <EffectTransforms>
+            <EffectTransformHolder>
+              <TransformName>Effects</TransformName>
+              <Effects>
+                <EffectHolder xsi:type="PunctualDamageHolder">
+                  <Damage>
+                    <Damages>
+                      <Damage>70</Damage>
+                      <Damage_Type>Ethereal</Damage_Type>
+                    </Damages>
+                  </Damage>
+                  <Damages_AI />
+                  <Knockback>100</Knockback>
+                  <HitInventory>true</HitInventory>
+                </EffectHolder>
+              </Effects>
+              <EffectConditions />
+              <ChildEffects />
+            </EffectTransformHolder>
+          </EffectTransforms>
+        </EffectHolder>
+      </Effects>
+      <EffectConditions />
+      <ChildEffects />
+    </EffectTransformHolder>
+  </EffectTransforms>
+  <TrapEffects />
+</ItemHolder>

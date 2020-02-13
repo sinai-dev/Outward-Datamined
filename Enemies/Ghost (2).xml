@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<EnemyHolder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>Ghost</Name>
+  <GameObject_Name>NewGhostTwoHanded</GameObject_Name>
+  <Unique_ID>2</Unique_ID>
+  <Locations_Found>
+    <string>Chersonese:Ghost Pass</string>
+    <string>Abrassar:Electric Lab</string>
+    <string>Enmerkar Forest:Enmerkar Forest</string>
+    <string>Enmerkar Forest:Necropolis</string>
+    <string>Enmerkar Forest:Worn Hunter's Cabin</string>
+  </Locations_Found>
+  <Max_Health>270</Max_Health>
+  <Health_Regen_Per_Second>0</Health_Regen_Per_Second>
+  <Impact_Resistance>40</Impact_Resistance>
+  <Protection>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+  </Protection>
+  <Damage_Resistances>
+    <float>0.799999952</float>
+    <float>-1</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+  </Damage_Resistances>
+  <Damage_Bonuses>
+    <float>1</float>
+    <float>1</float>
+    <float>1</float>
+    <float>1</float>
+    <float>1</float>
+    <float>1</float>
+    <float>1</float>
+    <float>1</float>
+    <float>1</float>
+  </Damage_Bonuses>
+  <Collider_Radius>0.64</Collider_Radius>
+  <True_WeaponDamage>
+    <Damages>
+      <Damage>27</Damage>
+      <Damage_Type>Ethereal</Damage_Type>
+    </Damages>
+  </True_WeaponDamage>
+  <Weapon_Impact>60</Weapon_Impact>
+  <Status_Immunities>
+    <string>Bleeding</string>
+    <string>Poison</string>
+  </Status_Immunities>
+  <Starting_Equipment>
+    <string>- (2400280)</string>
+  </Starting_Equipment>
+  <Skill_Knowledge>
+    <string>GhostSoulSyphon</string>
+  </Skill_Knowledge>
+  <Faction>Deer</Faction>
+  <Allied_To_Same_Faction>true</Allied_To_Same_Faction>
+  <Guaranteed_Drops />
+  <DropTable_Names>
+    <string>DropTable_GhostHigh</string>
+  </DropTable_Names>
+</EnemyHolder>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ItemHolder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="SkillHolder">
+  <ItemID>8100362</ItemID>
+  <Name>Pommel Counter</Name>
+  <gameObjectName>8100362_PommelCounter</gameObjectName>
+  <saveDir>/Skill/AttackSkill/MeleeSkill/CounterSkill</saveDir>
+  <Description>Required: 2-Handed Sword
+
+Counter an attack with a high Impact strike using the sword’s pommel. Inflicts Confusion and can chain into melee attacks.</Description>
+  <LegacyItemID>-1</LegacyItemID>
+  <Tags />
+  <EffectTransforms>
+    <EffectTransformHolder>
+      <TransformName>HitEffects</TransformName>
+      <Effects>
+        <EffectHolder xsi:type="WeaponDamageHolder">
+          <Damage>
+            <Damages>
+              <Damage>0</Damage>
+              <Damage_Type>Physical</Damage_Type>
+            </Damages>
+          </Damage>
+          <Damages_AI />
+          <Knockback>0</Knockback>
+          <HitInventory>true</HitInventory>
+          <OverrideType>Count</OverrideType>
+          <Damage_Multiplier>1.25</Damage_Multiplier>
+          <Damage_Multiplier_Kback>-1</Damage_Multiplier_Kback>
+          <Damage_Multiplier_Kdown>-1</Damage_Multiplier_Kdown>
+          <Impact_Multiplier>3.5</Impact_Multiplier>
+          <Impact_Multiplier_Kback>-1</Impact_Multiplier_Kback>
+          <Impact_Multiplier_Kdown>-1</Impact_Multiplier_Kdown>
+        </EffectHolder>
+        <EffectHolder xsi:type="AddStatusEffectHolder">
+          <StatusEffect>Confusion</StatusEffect>
+          <ChanceToContract>100</ChanceToContract>
+        </EffectHolder>
+      </Effects>
+      <EffectConditions />
+      <ChildEffects />
+    </EffectTransformHolder>
+  </EffectTransforms>
+  <Cooldown>100</Cooldown>
+  <StaminaCost>10</StaminaCost>
+  <ManaCost>0</ManaCost>
+  <DurabilityCost>0</DurabilityCost>
+  <DurabilityCostPercent>0</DurabilityCostPercent>
+  <IsDLCSkill>true</IsDLCSkill>
+  <RequiredItems />
+</ItemHolder>

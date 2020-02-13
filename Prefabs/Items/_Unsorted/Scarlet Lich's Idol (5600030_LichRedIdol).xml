@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ItemHolder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ItemID>5600030</ItemID>
+  <Name>Scarlet Lich's Idol</Name>
+  <gameObjectName>5600030_LichRedIdol</gameObjectName>
+  <saveDir />
+  <Description>Ominous effigy of an undead ruler.
+
+Used as an offering, this could garner the favor of an ancient power, and with it, unique rewards.</Description>
+  <LegacyItemID>-1</LegacyItemID>
+  <StatsHolder>
+    <BaseValue>1</BaseValue>
+    <RawWeight>0.1</RawWeight>
+    <MaxDurability>-1</MaxDurability>
+  </StatsHolder>
+  <Tags>
+    <string>Dungeon</string>
+    <string>Item</string>
+  </Tags>
+  <EffectTransforms />
+</ItemHolder>

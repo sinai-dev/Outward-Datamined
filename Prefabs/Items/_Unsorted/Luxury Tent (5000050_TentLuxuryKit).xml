@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ItemHolder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ItemID>5000050</ItemID>
+  <Name>Luxury Tent</Name>
+  <gameObjectName>5000050_TentLuxuryKit</gameObjectName>
+  <saveDir />
+  <Description>Highly visible silk tent that offers high sleep quality, quickly healing the user.
+
+Sleeping in this tent gives a huge bonus to stamina use.</Description>
+  <LegacyItemID>-1</LegacyItemID>
+  <StatsHolder>
+    <BaseValue>200</BaseValue>
+    <RawWeight>6</RawWeight>
+    <MaxDurability>-1</MaxDurability>
+  </StatsHolder>
+  <Tags>
+    <string>Deployable</string>
+    <string>Item</string>
+    <string>Kit</string>
+  </Tags>
+  <EffectTransforms />
+</ItemHolder>

@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ItemHolder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="WeaponHolder">
+  <ItemID>2140070</ItemID>
+  <Name>Crescent Scythe</Name>
+  <gameObjectName>2140070_CrescentSharkScytheHalberd</gameObjectName>
+  <saveDir>/Equipment/Weapon/MeleeWeapon</saveDir>
+  <Description>Inflicts Vulnerability to all non-physical elements on enemies.</Description>
+  <LegacyItemID>-1</LegacyItemID>
+  <StatsHolder xsi:type="WeaponStatsHolder">
+    <BaseValue>200</BaseValue>
+    <RawWeight>4</RawWeight>
+    <MaxDurability>250</MaxDurability>
+    <Damage_Resistance>
+      <float>0</float>
+      <float>0</float>
+      <float>0</float>
+      <float>0</float>
+      <float>0</float>
+      <float>0</float>
+      <float>0</float>
+      <float>0</float>
+      <float>0</float>
+    </Damage_Resistance>
+    <Impact_Resistance>7.8</Impact_Resistance>
+    <Damage_Protection>0</Damage_Protection>
+    <Damage_Bonus>
+      <float>0</float>
+      <float>0</float>
+      <float>0</float>
+      <float>0</float>
+      <float>0</float>
+      <float>0</float>
+      <float>0</float>
+      <float>0</float>
+      <float>0</float>
+    </Damage_Bonus>
+    <Stamina_Use_Penalty>0</Stamina_Use_Penalty>
+    <Mana_Use_Modifier>0</Mana_Use_Modifier>
+    <Movement_Penalty>0</Movement_Penalty>
+    <Pouch_Bonus>0</Pouch_Bonus>
+    <Heat_Protection>0</Heat_Protection>
+    <Cold_Protection>0</Cold_Protection>
+    <Corruption_Protection>0</Corruption_Protection>
+    <AttackSpeed>1.2</AttackSpeed>
+    <BaseDamage>
+      <Damages>
+        <Damage>23.25</Damage>
+        <Damage_Type>Physical</Damage_Type>
+      </Damages>
+      <Damages>
+        <Damage>7.75</Damage>
+        <Damage_Type>Ethereal</Damage_Type>
+      </Damages>
+    </BaseDamage>
+    <Impact>41</Impact>
+    <AttackCount>5</AttackCount>
+    <Attacks>
+      <AttackData>
+        <StamCost>6.25</StamCost>
+        <Knockback>41</Knockback>
+        <AttackSpeed>1.2</AttackSpeed>
+        <Damage>
+          <float>23.25</float>
+          <float>7.75</float>
+        </Damage>
+      </AttackData>
+      <AttackData>
+        <StamCost>6.25</StamCost>
+        <Knockback>41</Knockback>
+        <AttackSpeed>1.2</AttackSpeed>
+        <Damage>
+          <float>23.25</float>
+          <float>7.75</float>
+        </Damage>
+      </AttackData>
+      <AttackData>
+        <StamCost>7.8125</StamCost>
+        <Knockback>53.3</Knockback>
+        <AttackSpeed>1.32</AttackSpeed>
+        <Damage>
+          <float>30.2249985</float>
+          <float>10.075</float>
+        </Damage>
+      </AttackData>
+      <AttackData>
+        <StamCost>7.8125</StamCost>
+        <Knockback>53.3</Knockback>
+        <AttackSpeed>1.32</AttackSpeed>
+        <Damage>
+          <float>30.2249985</float>
+          <float>10.075</float>
+        </Damage>
+      </AttackData>
+      <AttackData>
+        <StamCost>10.9375</StamCost>
+        <Knockback>69.7</Knockback>
+        <AttackSpeed>1.56</AttackSpeed>
+        <Damage>
+          <float>39.525</float>
+          <float>13.175</float>
+        </Damage>
+      </AttackData>
+    </Attacks>
+  </StatsHolder>
+  <Tags>
+    <string>2 Handed</string>
+    <string>Weapon</string>
+    <string>Item</string>
+    <string>Pole Arm</string>
+    <string>DecraftPalladium_Small</string>
+  </Tags>
+  <EffectTransforms>
+    <EffectTransformHolder>
+      <TransformName>HitEffects</TransformName>
+      <Effects>
+        <EffectHolder xsi:type="AddStatusEffectBuildupHolder">
+          <StatusEffect>Elemental Vulnerability</StatusEffect>
+          <Buildup>60</Buildup>
+        </EffectHolder>
+      </Effects>
+      <EffectConditions />
+      <ChildEffects />
+    </EffectTransformHolder>
+  </EffectTransforms>
+  <EquipmentSlot>RightHand</EquipmentSlot>
+  <IKType>None</IKType>
+  <TwoHandType>TwoHandedRight</TwoHandType>
+  <VisualDetectabilityAdd>0</VisualDetectabilityAdd>
+  <WeaponType>Halberd_2H</WeaponType>
+</ItemHolder>

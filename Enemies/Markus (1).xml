@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<EnemyHolder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>Markus</Name>
+  <GameObject_Name>UNPC_MarkusA_fighting</GameObject_Name>
+  <Unique_ID>1</Unique_ID>
+  <Locations_Found>
+    <string>Abrassar:Undercity Passage</string>
+  </Locations_Found>
+  <Max_Health>90</Max_Health>
+  <Health_Regen_Per_Second>0</Health_Regen_Per_Second>
+  <Impact_Resistance>13</Impact_Resistance>
+  <Protection>
+    <float>2</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+  </Protection>
+  <Damage_Resistances>
+    <float>25</float>
+    <float>0</float>
+    <float>-100</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+  </Damage_Resistances>
+  <Damage_Bonuses>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+  </Damage_Bonuses>
+  <Collider_Radius>0.4</Collider_Radius>
+  <True_WeaponDamage>
+    <Damages>
+      <Damage>17</Damage>
+      <Damage_Type>Physical</Damage_Type>
+    </Damages>
+  </True_WeaponDamage>
+  <Weapon_Impact>18</Weapon_Impact>
+  <Status_Immunities />
+  <Starting_Equipment>
+    <string>Tenebrous Helm (3000141)</string>
+    <string>Brigand Coat (3000035)</string>
+    <string>Desert Boots (3000205)</string>
+    <string>Palladium Sword (2000140)</string>
+    <string>Steel Shield (2300140)</string>
+  </Starting_Equipment>
+  <Skill_Knowledge />
+  <Faction>Bandits</Faction>
+  <Allied_To_Same_Faction>true</Allied_To_Same_Faction>
+  <Guaranteed_Drops>
+    <DropTableEntry>
+      <Item_Name>Palladium Sword</Item_Name>
+      <Item_ID>2000140</Item_ID>
+      <Min_Quantity>1</Min_Quantity>
+      <Max_Quantity>1</Max_Quantity>
+    </DropTableEntry>
+    <DropTableEntry>
+      <Item_Name>Steel Shield</Item_Name>
+      <Item_ID>2300140</Item_ID>
+      <Min_Quantity>1</Min_Quantity>
+      <Max_Quantity>1</Max_Quantity>
+    </DropTableEntry>
+  </Guaranteed_Drops>
+  <DropTable_Names />
+</EnemyHolder>

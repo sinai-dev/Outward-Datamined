@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RecipeHolder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <StationType>Survival</StationType>
+  <Name>Ammolite Armor</Name>
+  <RecipeID>182</RecipeID>
+  <Ingredients>
+    <string>Ammolite</string>
+    <string>Padded Armor</string>
+    <string>Palladium Scrap</string>
+  </Ingredients>
+  <Results>
+    <ItemQuantityHolder>
+      <ItemName>Ammolite Armor</ItemName>
+      <Quantity>1</Quantity>
+    </ItemQuantityHolder>
+  </Results>
+</RecipeHolder>

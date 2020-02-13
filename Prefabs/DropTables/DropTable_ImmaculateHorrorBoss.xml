@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DroptableHolder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>DropTable_ImmaculateHorrorBoss</Name>
+  <Guaranteed_Drops>
+    <DropTableEntry>
+      <Item_Name>Thorny Cartilage</Item_Name>
+      <Item_ID>6600140</Item_ID>
+      <Min_Quantity>1</Min_Quantity>
+      <Max_Quantity>1</Max_Quantity>
+    </DropTableEntry>
+    <DropTableEntry>
+      <Item_Name>Butcher’s Amethyst</Item_Name>
+      <Item_ID>6200040</Item_ID>
+      <Min_Quantity>1</Min_Quantity>
+      <Max_Quantity>1</Max_Quantity>
+    </DropTableEntry>
+    <DropTableEntry>
+      <Item_Name>Occult Remains</Item_Name>
+      <Item_ID>6600110</Item_ID>
+      <Min_Quantity>1</Min_Quantity>
+      <Max_Quantity>1</Max_Quantity>
+    </DropTableEntry>
+    <DropTableEntry>
+      <Item_Name>Spiritual Varnish</Item_Name>
+      <Item_ID>4400060</Item_ID>
+      <Min_Quantity>1</Min_Quantity>
+      <Max_Quantity>1</Max_Quantity>
+    </DropTableEntry>
+  </Guaranteed_Drops>
+  <Random_Tables />
+</DroptableHolder>

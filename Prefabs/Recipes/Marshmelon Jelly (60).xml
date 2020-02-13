@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RecipeHolder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <StationType>Cooking</StationType>
+  <Name>Marshmelon Jelly</Name>
+  <RecipeID>60</RecipeID>
+  <Ingredients>
+    <string>Marshmelon</string>
+    <string>Marshmelon</string>
+    <string>Marshmelon</string>
+    <string>Gaberry Jam</string>
+  </Ingredients>
+  <Results>
+    <ItemQuantityHolder>
+      <ItemName>Marshmelon Jelly</ItemName>
+      <Quantity>1</Quantity>
+    </ItemQuantityHolder>
+  </Results>
+</RecipeHolder>

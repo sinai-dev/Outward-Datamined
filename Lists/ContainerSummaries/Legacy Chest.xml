@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContainerSummary xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>Legacy Chest</Name>
+  <ItemID>0</ItemID>
+  <Locations_Found>
+    <string>Abrassar:The Slide</string>
+    <string>Abrassar:The Slide</string>
+    <string>Chersonese:Cierzo Storage</string>
+    <string>Chersonese:Cierzo Storage</string>
+    <string>Enmerkar Forest:Vigil Pylon</string>
+    <string>Enmerkar Forest:Vigil Pylon</string>
+    <string>Hallowed Marsh:Spire of Light</string>
+    <string>Hallowed Marsh:Spire of Light</string>
+  </Locations_Found>
+  <All_DropTables />
+</ContainerSummary>

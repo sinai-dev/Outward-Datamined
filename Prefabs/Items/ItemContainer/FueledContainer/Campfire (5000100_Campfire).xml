@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ItemHolder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ItemID>5000100</ItemID>
+  <Name>Campfire</Name>
+  <gameObjectName>5000100_Campfire</gameObjectName>
+  <saveDir>/ItemContainer/FueledContainer</saveDir>
+  <Description>-</Description>
+  <LegacyItemID>-1</LegacyItemID>
+  <Tags>
+    <string>Deployable</string>
+    <string>Item</string>
+  </Tags>
+  <EffectTransforms />
+</ItemHolder>

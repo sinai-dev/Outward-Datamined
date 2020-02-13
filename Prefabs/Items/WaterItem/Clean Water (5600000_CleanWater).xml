@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ItemHolder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ItemID>5600000</ItemID>
+  <Name>Clean Water</Name>
+  <gameObjectName>5600000_CleanWater</gameObjectName>
+  <saveDir>/WaterItem</saveDir>
+  <Description>Refreshing drink that carries no risk of disease.
+
+This pristine water was most likely boiled over a campfire or gathered at a fountain.</Description>
+  <LegacyItemID>-1</LegacyItemID>
+  <StatsHolder>
+    <BaseValue>0</BaseValue>
+    <RawWeight>0</RawWeight>
+    <MaxDurability>-1</MaxDurability>
+  </StatsHolder>
+  <Tags>
+    <string>Water</string>
+    <string>Drink</string>
+    <string>Consummable</string>
+    <string>Item</string>
+    <string>Ingredient Cook</string>
+    <string>Ingredient</string>
+  </Tags>
+  <EffectTransforms>
+    <EffectTransformHolder>
+      <TransformName>Effects</TransformName>
+      <Effects>
+        <EffectHolder xsi:type="AffectNeedHolder">
+          <Need>AffectDrink</Need>
+          <AffectQuantity>150</AffectQuantity>
+        </EffectHolder>
+        <EffectHolder xsi:type="AddStatusEffectHolder">
+          <StatusEffect>Stamina Recovery Small</StatusEffect>
+          <ChanceToContract>100</ChanceToContract>
+        </EffectHolder>
+      </Effects>
+      <EffectConditions />
+      <ChildEffects />
+    </EffectTransformHolder>
+  </EffectTransforms>
+</ItemHolder>

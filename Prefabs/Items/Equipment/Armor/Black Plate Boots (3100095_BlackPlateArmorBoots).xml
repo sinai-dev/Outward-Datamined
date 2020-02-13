@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ItemHolder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="EquipmentHolder">
+  <ItemID>3100095</ItemID>
+  <Name>Black Plate Boots</Name>
+  <gameObjectName>3100095_BlackPlateArmorBoots</gameObjectName>
+  <saveDir>/Equipment/Armor</saveDir>
+  <Description />
+  <LegacyItemID>3100182</LegacyItemID>
+  <StatsHolder xsi:type="EquipmentStatsHolder">
+    <BaseValue>280</BaseValue>
+    <RawWeight>13</RawWeight>
+    <MaxDurability>325</MaxDurability>
+    <Damage_Resistance>
+      <float>16</float>
+      <float>0</float>
+      <float>0</float>
+      <float>0</float>
+      <float>0</float>
+      <float>0</float>
+      <float>0</float>
+      <float>0</float>
+      <float>0</float>
+    </Damage_Resistance>
+    <Impact_Resistance>11</Impact_Resistance>
+    <Damage_Protection>2</Damage_Protection>
+    <Damage_Bonus>
+      <float>0</float>
+      <float>0</float>
+      <float>0</float>
+      <float>0</float>
+      <float>0</float>
+      <float>0</float>
+      <float>0</float>
+      <float>0</float>
+      <float>0</float>
+    </Damage_Bonus>
+    <Stamina_Use_Penalty>4</Stamina_Use_Penalty>
+    <Mana_Use_Modifier>0</Mana_Use_Modifier>
+    <Movement_Penalty>4</Movement_Penalty>
+    <Pouch_Bonus>0</Pouch_Bonus>
+    <Heat_Protection>0</Heat_Protection>
+    <Cold_Protection>5</Cold_Protection>
+    <Corruption_Protection>0</Corruption_Protection>
+  </StatsHolder>
+  <Tags>
+    <string>Boots</string>
+    <string>Equipment</string>
+    <string>Item</string>
+    <string>DecraftPalladium_Small</string>
+  </Tags>
+  <EffectTransforms />
+  <EquipmentSlot>Foot</EquipmentSlot>
+  <IKType>None</IKType>
+  <TwoHandType>None</TwoHandType>
+  <VisualDetectabilityAdd>0</VisualDetectabilityAdd>
+  <ArmorClass>Heavy</ArmorClass>
+</ItemHolder>

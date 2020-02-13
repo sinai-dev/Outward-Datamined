@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ItemHolder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="SkillHolder">
+  <ItemID>8100320</ItemID>
+  <Name>Moon Swipe</Name>
+  <gameObjectName>8100320_MoonSwipe</gameObjectName>
+  <saveDir>/Skill/AttackSkill/MeleeSkill</saveDir>
+  <Description>Required: Halberd, Staff
+
+Double attack that deals high damage, and that increases in power if you have the Rage or Discipline boons.</Description>
+  <LegacyItemID>-1</LegacyItemID>
+  <Tags />
+  <EffectTransforms>
+    <EffectTransformHolder>
+      <TransformName>HitEffects</TransformName>
+      <Effects>
+        <EffectHolder xsi:type="WeaponDamageHolder">
+          <Damage>
+            <Damages>
+              <Damage>0</Damage>
+              <Damage_Type>Physical</Damage_Type>
+            </Damages>
+          </Damage>
+          <Damages_AI />
+          <Knockback>0</Knockback>
+          <HitInventory>true</HitInventory>
+          <OverrideType>Count</OverrideType>
+          <Damage_Multiplier>0.8</Damage_Multiplier>
+          <Damage_Multiplier_Kback>-1</Damage_Multiplier_Kback>
+          <Damage_Multiplier_Kdown>-1</Damage_Multiplier_Kdown>
+          <Impact_Multiplier>1.5</Impact_Multiplier>
+          <Impact_Multiplier_Kback>-1</Impact_Multiplier_Kback>
+          <Impact_Multiplier_Kdown>-1</Impact_Multiplier_Kdown>
+        </EffectHolder>
+      </Effects>
+      <EffectConditions />
+      <ChildEffects />
+    </EffectTransformHolder>
+    <EffectTransformHolder>
+      <TransformName>HitEffects_Rage</TransformName>
+      <Effects>
+        <EffectHolder xsi:type="WeaponDamageHolder">
+          <Damage>
+            <Damages>
+              <Damage>0</Damage>
+              <Damage_Type>Physical</Damage_Type>
+            </Damages>
+          </Damage>
+          <Damages_AI />
+          <Knockback>0</Knockback>
+          <HitInventory>true</HitInventory>
+          <OverrideType>Count</OverrideType>
+          <Damage_Multiplier>0.5</Damage_Multiplier>
+          <Damage_Multiplier_Kback>-1</Damage_Multiplier_Kback>
+          <Damage_Multiplier_Kdown>-1</Damage_Multiplier_Kdown>
+          <Impact_Multiplier>0</Impact_Multiplier>
+          <Impact_Multiplier_Kback>-1</Impact_Multiplier_Kback>
+          <Impact_Multiplier_Kdown>-1</Impact_Multiplier_Kdown>
+        </EffectHolder>
+      </Effects>
+      <EffectConditions>
+        <EffectConditionHolder>
+          <Conditions>
+            <ConditionHolder>
+              <Requirement>RageBoon</Requirement>
+              <Condition_Type>Target has status</Condition_Type>
+              <Invert>false</Invert>
+            </ConditionHolder>
+          </Conditions>
+        </EffectConditionHolder>
+      </EffectConditions>
+      <ChildEffects />
+    </EffectTransformHolder>
+    <EffectTransformHolder>
+      <TransformName>HitEffects_Discipline</TransformName>
+      <Effects>
+        <EffectHolder xsi:type="WeaponDamageHolder">
+          <Damage>
+            <Damages>
+              <Damage>0</Damage>
+              <Damage_Type>Physical</Damage_Type>
+            </Damages>
+          </Damage>
+          <Damages_AI />
+          <Knockback>0</Knockback>
+          <HitInventory>true</HitInventory>
+          <OverrideType>Count</OverrideType>
+          <Damage_Multiplier>0.5</Damage_Multiplier>
+          <Damage_Multiplier_Kback>-1</Damage_Multiplier_Kback>
+          <Damage_Multiplier_Kdown>-1</Damage_Multiplier_Kdown>
+          <Impact_Multiplier>0</Impact_Multiplier>
+          <Impact_Multiplier_Kback>-1</Impact_Multiplier_Kback>
+          <Impact_Multiplier_Kdown>-1</Impact_Multiplier_Kdown>
+        </EffectHolder>
+      </Effects>
+      <EffectConditions>
+        <EffectConditionHolder>
+          <Conditions>
+            <ConditionHolder>
+              <Requirement>DisciplineBoon</Requirement>
+              <Condition_Type>Target has status</Condition_Type>
+              <Invert>false</Invert>
+            </ConditionHolder>
+          </Conditions>
+        </EffectConditionHolder>
+      </EffectConditions>
+      <ChildEffects />
+    </EffectTransformHolder>
+  </EffectTransforms>
+  <Cooldown>30</Cooldown>
+  <StaminaCost>15</StaminaCost>
+  <ManaCost>0</ManaCost>
+  <DurabilityCost>0</DurabilityCost>
+  <DurabilityCostPercent>0</DurabilityCostPercent>
+  <IsDLCSkill>true</IsDLCSkill>
+  <RequiredItems />
+</ItemHolder>

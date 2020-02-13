@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DroptableHolder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>DropTable_Abrassar_UniqueWeaponsStash_Poor</Name>
+  <Guaranteed_Drops>
+    <DropTableEntry>
+      <Item_Name>Arrow</Item_Name>
+      <Item_ID>5200001</Item_ID>
+      <Min_Quantity>10</Min_Quantity>
+      <Max_Quantity>20</Max_Quantity>
+    </DropTableEntry>
+    <DropTableEntry>
+      <Item_Name>Iron Spear</Item_Name>
+      <Item_ID>2130110</Item_ID>
+      <Min_Quantity>1</Min_Quantity>
+      <Max_Quantity>1</Max_Quantity>
+    </DropTableEntry>
+    <DropTableEntry>
+      <Item_Name>Desert Khopesh</Item_Name>
+      <Item_ID>2000110</Item_ID>
+      <Min_Quantity>1</Min_Quantity>
+      <Max_Quantity>1</Max_Quantity>
+    </DropTableEntry>
+    <DropTableEntry>
+      <Item_Name>Cannon Pistol</Item_Name>
+      <Item_ID>5110110</Item_ID>
+      <Min_Quantity>1</Min_Quantity>
+      <Max_Quantity>1</Max_Quantity>
+    </DropTableEntry>
+    <DropTableEntry>
+      <Item_Name>Bullet</Item_Name>
+      <Item_ID>4400080</Item_ID>
+      <Min_Quantity>3</Min_Quantity>
+      <Max_Quantity>6</Max_Quantity>
+    </DropTableEntry>
+    <DropTableEntry>
+      <Item_Name>Bandages</Item_Name>
+      <Item_ID>4400010</Item_ID>
+      <Min_Quantity>2</Min_Quantity>
+      <Max_Quantity>4</Max_Quantity>
+    </DropTableEntry>
+    <DropTableEntry>
+      <Item_Name>Iron Scrap</Item_Name>
+      <Item_ID>6400140</Item_ID>
+      <Min_Quantity>2</Min_Quantity>
+      <Max_Quantity>4</Max_Quantity>
+    </DropTableEntry>
+  </Guaranteed_Drops>
+  <Random_Tables />
+</DroptableHolder>

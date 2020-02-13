@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RecipeHolder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <StationType>Cooking</StationType>
+  <Name>Jerky</Name>
+  <RecipeID>18</RecipeID>
+  <Ingredients>
+    <string>Meat</string>
+    <string>Meat</string>
+    <string>Salt</string>
+    <string>Salt</string>
+  </Ingredients>
+  <Results>
+    <ItemQuantityHolder>
+      <ItemName>Jerky</ItemName>
+      <Quantity>5</Quantity>
+    </ItemQuantityHolder>
+  </Results>
+</RecipeHolder>

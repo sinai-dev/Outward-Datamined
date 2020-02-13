@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MerchantHolder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>Engineer Orsten</Name>
+  <UID>J8OmsJUfxEys5t5wxYSXeA</UID>
+  <DropTable>
+    <Name>Levant - Engineer Orsten</Name>
+    <Guaranteed_Drops>
+      <DropTableEntry>
+        <Item_Name>Gold Ingot</Item_Name>
+        <Item_ID>6300030</Item_ID>
+        <Min_Quantity>4</Min_Quantity>
+        <Max_Quantity>10</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Crafting: Tripwire Trap</Item_Name>
+        <Item_ID>5700038</Item_ID>
+        <Min_Quantity>1</Min_Quantity>
+        <Max_Quantity>1</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Crafting: Bone Pistol</Item_Name>
+        <Item_ID>5700163</Item_ID>
+        <Min_Quantity>1</Min_Quantity>
+        <Max_Quantity>1</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Crafting: Obsidian Pistol</Item_Name>
+        <Item_ID>5700159</Item_ID>
+        <Min_Quantity>1</Min_Quantity>
+        <Max_Quantity>1</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Crafting: Spikes – Palladium</Item_Name>
+        <Item_ID>5700172</Item_ID>
+        <Min_Quantity>1</Min_Quantity>
+        <Max_Quantity>1</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Crafting: Spikes – Iron</Item_Name>
+        <Item_ID>5700171</Item_ID>
+        <Min_Quantity>1</Min_Quantity>
+        <Max_Quantity>1</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Alchemy: Charge – Toxic</Item_Name>
+        <Item_ID>5700174</Item_ID>
+        <Min_Quantity>1</Min_Quantity>
+        <Max_Quantity>1</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Alchemy: Charge – Nerve Gas</Item_Name>
+        <Item_ID>5700175</Item_ID>
+        <Min_Quantity>1</Min_Quantity>
+        <Max_Quantity>1</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Alchemy: Charge – Incendiary</Item_Name>
+        <Item_ID>5700173</Item_ID>
+        <Min_Quantity>1</Min_Quantity>
+        <Max_Quantity>1</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Power Coil</Item_Name>
+        <Item_ID>6200150</Item_ID>
+        <Min_Quantity>3</Min_Quantity>
+        <Max_Quantity>4</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Coil Lantern</Item_Name>
+        <Item_ID>5100090</Item_ID>
+        <Min_Quantity>1</Min_Quantity>
+        <Max_Quantity>1</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Tripwire Trap</Item_Name>
+        <Item_ID>5020010</Item_ID>
+        <Min_Quantity>15</Min_Quantity>
+        <Max_Quantity>15</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Pressure Plate Trap</Item_Name>
+        <Item_ID>5020020</Item_ID>
+        <Min_Quantity>15</Min_Quantity>
+        <Max_Quantity>15</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Flintlock Pistol</Item_Name>
+        <Item_ID>5110100</Item_ID>
+        <Min_Quantity>1</Min_Quantity>
+        <Max_Quantity>1</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Cannon Pistol</Item_Name>
+        <Item_ID>5110110</Item_ID>
+        <Min_Quantity>1</Min_Quantity>
+        <Max_Quantity>1</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Ornate Pistol</Item_Name>
+        <Item_ID>5110120</Item_ID>
+        <Min_Quantity>1</Min_Quantity>
+        <Max_Quantity>1</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Spikes – Iron</Item_Name>
+        <Item_ID>6500100</Item_ID>
+        <Min_Quantity>7</Min_Quantity>
+        <Max_Quantity>7</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Spikes – Palladium</Item_Name>
+        <Item_ID>6500110</Item_ID>
+        <Min_Quantity>3</Min_Quantity>
+        <Max_Quantity>3</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Bullet</Item_Name>
+        <Item_ID>4400080</Item_ID>
+        <Min_Quantity>24</Min_Quantity>
+        <Max_Quantity>24</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Charge – Incendiary</Item_Name>
+        <Item_ID>6500120</Item_ID>
+        <Min_Quantity>9</Min_Quantity>
+        <Max_Quantity>9</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Charge – Toxic</Item_Name>
+        <Item_ID>6500130</Item_ID>
+        <Min_Quantity>9</Min_Quantity>
+        <Max_Quantity>9</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Charge – Nerve Gas</Item_Name>
+        <Item_ID>6500140</Item_ID>
+        <Min_Quantity>9</Min_Quantity>
+        <Max_Quantity>9</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Crafting: Bullets</Item_Name>
+        <Item_ID>5700139</Item_ID>
+        <Min_Quantity>1</Min_Quantity>
+        <Max_Quantity>1</Max_Quantity>
+      </DropTableEntry>
+    </Guaranteed_Drops>
+    <Random_Tables />
+  </DropTable>
+</MerchantHolder>

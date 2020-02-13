@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RecipeHolder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <StationType>Cooking</StationType>
+  <Name>Meat Stew</Name>
+  <RecipeID>14</RecipeID>
+  <Ingredients>
+    <string>Meat</string>
+    <string>Vegetable</string>
+    <string>Salt</string>
+  </Ingredients>
+  <Results>
+    <ItemQuantityHolder>
+      <ItemName>Meat Stew</ItemName>
+      <Quantity>3</Quantity>
+    </ItemQuantityHolder>
+  </Results>
+</RecipeHolder>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ItemHolder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="SkillHolder">
+  <ItemID>8205999</ItemID>
+  <Name>Exalted</Name>
+  <gameObjectName>8205999_Exalted</gameObjectName>
+  <saveDir>/Skill/PassiveSkill</saveDir>
+  <Description>Double all the Damage you deal. Reduce the Stamina and Mana costs of your actions by 30%. Increase all Damage Resistances by 10. 
+
+You are inflicted with the incurable “Life Drain” sickness.</Description>
+  <LegacyItemID>-1</LegacyItemID>
+  <Tags />
+  <EffectTransforms>
+    <EffectTransformHolder>
+      <TransformName>PassiveBonus</TransformName>
+      <Effects>
+        <EffectHolder xsi:type="AffectStatHolder">
+          <AffectedStat>AllDamages</AffectedStat>
+          <AffectedStat_TagUID>96</AffectedStat_TagUID>
+          <AffectQuantity>100</AffectQuantity>
+          <IsModifier>true</IsModifier>
+        </EffectHolder>
+        <EffectHolder xsi:type="AffectStatHolder">
+          <AffectedStat>StaminaUse</AffectedStat>
+          <AffectedStat_TagUID>81</AffectedStat_TagUID>
+          <AffectQuantity>-30</AffectQuantity>
+          <IsModifier>true</IsModifier>
+        </EffectHolder>
+        <EffectHolder xsi:type="AffectStatHolder">
+          <AffectedStat>ManaUse</AffectedStat>
+          <AffectedStat_TagUID>151</AffectedStat_TagUID>
+          <AffectQuantity>-30</AffectQuantity>
+          <IsModifier>true</IsModifier>
+        </EffectHolder>
+        <EffectHolder xsi:type="AffectStatHolder">
+          <AffectedStat>AllResistances</AffectedStat>
+          <AffectedStat_TagUID>197</AffectedStat_TagUID>
+          <AffectQuantity>10</AffectQuantity>
+          <IsModifier>false</IsModifier>
+        </EffectHolder>
+      </Effects>
+      <EffectConditions>
+        <EffectConditionHolder>
+          <Conditions>
+            <ConditionHolder>
+              <Condition_Type>IsWorldHostCondition</Condition_Type>
+              <Invert>false</Invert>
+            </ConditionHolder>
+          </Conditions>
+        </EffectConditionHolder>
+      </EffectConditions>
+      <ChildEffects />
+    </EffectTransformHolder>
+    <EffectTransformHolder>
+      <TransformName>PassiveLifeDrain</TransformName>
+      <Effects>
+        <EffectHolder xsi:type="AddStatusEffectHolder">
+          <StatusEffect>Exalted</StatusEffect>
+          <ChanceToContract>100</ChanceToContract>
+        </EffectHolder>
+      </Effects>
+      <EffectConditions>
+        <EffectConditionHolder>
+          <Conditions>
+            <ConditionHolder>
+              <Condition_Type>IsWorldHostCondition</Condition_Type>
+              <Invert>false</Invert>
+            </ConditionHolder>
+          </Conditions>
+        </EffectConditionHolder>
+        <EffectConditionHolder>
+          <Conditions>
+            <ConditionHolder>
+              <Requirement>Life Drain</Requirement>
+              <Condition_Type>Target does not have status</Condition_Type>
+              <Invert>true</Invert>
+            </ConditionHolder>
+          </Conditions>
+        </EffectConditionHolder>
+      </EffectConditions>
+      <ChildEffects />
+    </EffectTransformHolder>
+  </EffectTransforms>
+  <Cooldown>0</Cooldown>
+  <StaminaCost>0</StaminaCost>
+  <ManaCost>0</ManaCost>
+  <DurabilityCost>0</DurabilityCost>
+  <DurabilityCostPercent>0</DurabilityCostPercent>
+  <IsDLCSkill>true</IsDLCSkill>
+  <RequiredItems />
+</ItemHolder>

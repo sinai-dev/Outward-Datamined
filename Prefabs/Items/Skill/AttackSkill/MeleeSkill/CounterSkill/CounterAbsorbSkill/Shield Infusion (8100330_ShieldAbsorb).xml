@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ItemHolder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="SkillHolder">
+  <ItemID>8100330</ItemID>
+  <Name>Shield Infusion</Name>
+  <gameObjectName>8100330_ShieldAbsorb</gameObjectName>
+  <saveDir>/Skill/AttackSkill/MeleeSkill/CounterSkill/CounterAbsorbSkill</saveDir>
+  <Description>Required: Shield
+
+Block an elemental attack. When you next block, an elemental explosion will burst from you.</Description>
+  <LegacyItemID>-1</LegacyItemID>
+  <Tags />
+  <EffectTransforms>
+    <EffectTransformHolder>
+      <TransformName>HitEffectsBolt</TransformName>
+      <Effects>
+        <EffectHolder xsi:type="ImbueWeaponHolder">
+          <Lifespan>600</Lifespan>
+          <ImbueEffect_Preset_Name>Lightning Shield Imbue</ImbueEffect_Preset_Name>
+          <ImbueEffect_Preset_ID>216</ImbueEffect_Preset_ID>
+          <Imbue_Slot>OffHand</Imbue_Slot>
+        </EffectHolder>
+      </Effects>
+      <EffectConditions>
+        <EffectConditionHolder>
+          <Conditions>
+            <ConditionHolder>
+              <Condition_Type>BooleanCondition</Condition_Type>
+              <Invert>false</Invert>
+            </ConditionHolder>
+          </Conditions>
+        </EffectConditionHolder>
+      </EffectConditions>
+      <ChildEffects />
+    </EffectTransformHolder>
+    <EffectTransformHolder>
+      <TransformName>HitEffectsFire</TransformName>
+      <Effects>
+        <EffectHolder xsi:type="ImbueWeaponHolder">
+          <Lifespan>600</Lifespan>
+          <ImbueEffect_Preset_Name>Fire Shield Imbue</ImbueEffect_Preset_Name>
+          <ImbueEffect_Preset_ID>214</ImbueEffect_Preset_ID>
+          <Imbue_Slot>OffHand</Imbue_Slot>
+        </EffectHolder>
+      </Effects>
+      <EffectConditions>
+        <EffectConditionHolder>
+          <Conditions>
+            <ConditionHolder>
+              <Condition_Type>BooleanCondition</Condition_Type>
+              <Invert>false</Invert>
+            </ConditionHolder>
+          </Conditions>
+        </EffectConditionHolder>
+      </EffectConditions>
+      <ChildEffects />
+    </EffectTransformHolder>
+    <EffectTransformHolder>
+      <TransformName>HitEffectsIce</TransformName>
+      <Effects>
+        <EffectHolder xsi:type="ImbueWeaponHolder">
+          <Lifespan>600</Lifespan>
+          <ImbueEffect_Preset_Name>Frost Shield Imbue</ImbueEffect_Preset_Name>
+          <ImbueEffect_Preset_ID>215</ImbueEffect_Preset_ID>
+          <Imbue_Slot>OffHand</Imbue_Slot>
+        </EffectHolder>
+      </Effects>
+      <EffectConditions>
+        <EffectConditionHolder>
+          <Conditions>
+            <ConditionHolder>
+              <Condition_Type>BooleanCondition</Condition_Type>
+              <Invert>false</Invert>
+            </ConditionHolder>
+          </Conditions>
+        </EffectConditionHolder>
+      </EffectConditions>
+      <ChildEffects />
+    </EffectTransformHolder>
+    <EffectTransformHolder>
+      <TransformName>HitEffectsEthereal</TransformName>
+      <Effects>
+        <EffectHolder xsi:type="ImbueWeaponHolder">
+          <Lifespan>600</Lifespan>
+          <ImbueEffect_Preset_Name>Ethereal Shield Imbue</ImbueEffect_Preset_Name>
+          <ImbueEffect_Preset_ID>213</ImbueEffect_Preset_ID>
+          <Imbue_Slot>OffHand</Imbue_Slot>
+        </EffectHolder>
+      </Effects>
+      <EffectConditions>
+        <EffectConditionHolder>
+          <Conditions>
+            <ConditionHolder>
+              <Condition_Type>BooleanCondition</Condition_Type>
+              <Invert>false</Invert>
+            </ConditionHolder>
+          </Conditions>
+        </EffectConditionHolder>
+      </EffectConditions>
+      <ChildEffects />
+    </EffectTransformHolder>
+    <EffectTransformHolder>
+      <TransformName>HitEffectsDecay</TransformName>
+      <Effects>
+        <EffectHolder xsi:type="ImbueWeaponHolder">
+          <Lifespan>600</Lifespan>
+          <ImbueEffect_Preset_Name>Decay Shield Imbue</ImbueEffect_Preset_Name>
+          <ImbueEffect_Preset_ID>212</ImbueEffect_Preset_ID>
+          <Imbue_Slot>OffHand</Imbue_Slot>
+        </EffectHolder>
+      </Effects>
+      <EffectConditions>
+        <EffectConditionHolder>
+          <Conditions>
+            <ConditionHolder>
+              <Condition_Type>BooleanCondition</Condition_Type>
+              <Invert>false</Invert>
+            </ConditionHolder>
+          </Conditions>
+        </EffectConditionHolder>
+      </EffectConditions>
+      <ChildEffects />
+    </EffectTransformHolder>
+  </EffectTransforms>
+  <Cooldown>60</Cooldown>
+  <StaminaCost>5</StaminaCost>
+  <ManaCost>0</ManaCost>
+  <DurabilityCost>10</DurabilityCost>
+  <DurabilityCostPercent>0</DurabilityCostPercent>
+  <IsDLCSkill>true</IsDLCSkill>
+  <RequiredItems />
+</ItemHolder>

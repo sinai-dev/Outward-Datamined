@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RecipeHolder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <StationType>Cooking</StationType>
+  <Name>Miner’s Omelet</Name>
+  <RecipeID>15</RecipeID>
+  <Ingredients>
+    <string>Egg</string>
+    <string>Egg</string>
+    <string>Common Mushroom</string>
+  </Ingredients>
+  <Results>
+    <ItemQuantityHolder>
+      <ItemName>Miner’s Omelet</ItemName>
+      <Quantity>3</Quantity>
+    </ItemQuantityHolder>
+  </Results>
+</RecipeHolder>

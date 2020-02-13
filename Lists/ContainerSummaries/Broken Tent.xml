@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContainerSummary xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>Broken Tent</Name>
+  <ItemID>0</ItemID>
+  <Locations_Found>
+    <string>Chersonese:Chersonese</string>
+    <string>Chersonese:Chersonese</string>
+    <string>Chersonese:Corrupted Tombs</string>
+    <string>Chersonese:Corrupted Tombs</string>
+    <string>Hallowed Marsh:Hallowed Marsh</string>
+    <string>Hallowed Marsh:Hallowed Marsh</string>
+    <string>Hallowed Marsh:Hallowed Marsh</string>
+    <string>Hallowed Marsh:Hallowed Marsh</string>
+  </Locations_Found>
+  <All_DropTables>
+    <string>DropTable_Neutral_Consumable_Low_2</string>
+    <string>DropTable_Neutral_Survival_Low_2</string>
+    <string>DropTable_Neutral_Alchemy_Low_2</string>
+    <string>DropTable_Neutral_StandardRecipe_Low_1</string>
+    <string>DropTable_Chersonese_Recipe_Weapon_1</string>
+    <string>DropTable_JunkPile_Low</string>
+    <string>DropTable_HallowedMarshChest_B_6</string>
+  </All_DropTables>
+</ContainerSummary>

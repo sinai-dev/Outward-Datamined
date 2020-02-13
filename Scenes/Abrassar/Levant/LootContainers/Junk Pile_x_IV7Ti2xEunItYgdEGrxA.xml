@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LootContainerHolder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>Junk Pile</Name>
+  <ItemID>1001000</ItemID>
+  <UID>x_IV7Ti2xEunItYgdEGrxA</UID>
+  <DropTables>
+    <string>DropTable_LevantJunkTraps_C</string>
+    <string>DropTable_Neutral_Survival_Low_2</string>
+  </DropTables>
+</LootContainerHolder>

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ItemHolder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="SkillHolder">
+  <ItemID>8100140</ItemID>
+  <Name>Mana Ward</Name>
+  <gameObjectName>8100140_ForceBubble</gameObjectName>
+  <saveDir>/Skill</saveDir>
+  <Description>Envelops you in Mana and, for an instant, you become immune to Damage.
+
+Can be combined with other spells for powerful effects.</Description>
+  <LegacyItemID>-1</LegacyItemID>
+  <Tags />
+  <EffectTransforms>
+    <EffectTransformHolder>
+      <TransformName>Effect</TransformName>
+      <Effects>
+        <EffectHolder xsi:type="AddStatusEffectHolder">
+          <StatusEffect>Force Bubble</StatusEffect>
+          <ChanceToContract>100</ChanceToContract>
+        </EffectHolder>
+      </Effects>
+      <EffectConditions />
+      <ChildEffects />
+    </EffectTransformHolder>
+    <EffectTransformHolder>
+      <TransformName>SelfImmolate</TransformName>
+      <Effects />
+      <EffectConditions />
+      <ChildEffects>
+        <EffectTransformHolder>
+          <TransformName>ExtraEffects</TransformName>
+          <Effects>
+            <EffectHolder xsi:type="AddStatusEffectHolder">
+              <StatusEffect>Immolate</StatusEffect>
+              <ChanceToContract>100</ChanceToContract>
+            </EffectHolder>
+          </Effects>
+          <EffectConditions>
+            <EffectConditionHolder>
+              <Conditions>
+                <ConditionHolder>
+                  <Requirement>Activated Firestone</Requirement>
+                  <Condition_Type>Item Proximity</Condition_Type>
+                  <Invert>false</Invert>
+                </ConditionHolder>
+              </Conditions>
+            </EffectConditionHolder>
+          </EffectConditions>
+          <ChildEffects />
+        </EffectTransformHolder>
+      </ChildEffects>
+    </EffectTransformHolder>
+    <EffectTransformHolder>
+      <TransformName>FrostWave</TransformName>
+      <Effects />
+      <EffectConditions />
+      <ChildEffects>
+        <EffectTransformHolder>
+          <TransformName>ExtraEffects</TransformName>
+          <Effects>
+            <EffectHolder xsi:type="ShootBlastHolder">
+              <BlastLifespan>0</BlastLifespan>
+              <RefreshTime>0.1</RefreshTime>
+              <EffectTransforms>
+                <EffectTransformHolder>
+                  <TransformName>Effects</TransformName>
+                  <Effects>
+                    <EffectHolder xsi:type="PunctualDamageHolder">
+                      <Damage>
+                        <Damages>
+                          <Damage>65</Damage>
+                          <Damage_Type>Frost</Damage_Type>
+                        </Damages>
+                      </Damage>
+                      <Damages_AI />
+                      <Knockback>60</Knockback>
+                      <HitInventory>true</HitInventory>
+                    </EffectHolder>
+                    <EffectHolder xsi:type="AddStatusEffectHolder">
+                      <StatusEffect>Slow Down</StatusEffect>
+                      <ChanceToContract>100</ChanceToContract>
+                    </EffectHolder>
+                  </Effects>
+                  <EffectConditions />
+                  <ChildEffects />
+                </EffectTransformHolder>
+              </EffectTransforms>
+            </EffectHolder>
+          </Effects>
+          <EffectConditions>
+            <EffectConditionHolder>
+              <Conditions>
+                <ConditionHolder>
+                  <Requirement>Activated Ice Sigil</Requirement>
+                  <Condition_Type>Item Proximity</Condition_Type>
+                  <Invert>false</Invert>
+                </ConditionHolder>
+              </Conditions>
+            </EffectConditionHolder>
+          </EffectConditions>
+          <ChildEffects />
+        </EffectTransformHolder>
+      </ChildEffects>
+    </EffectTransformHolder>
+  </EffectTransforms>
+  <Cooldown>20</Cooldown>
+  <StaminaCost>0</StaminaCost>
+  <ManaCost>7</ManaCost>
+  <DurabilityCost>0</DurabilityCost>
+  <DurabilityCostPercent>0</DurabilityCostPercent>
+  <IsDLCSkill>true</IsDLCSkill>
+  <RequiredItems />
+</ItemHolder>

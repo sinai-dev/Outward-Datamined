@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContainerSummary xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>Turmmip</Name>
+  <ItemID>0</ItemID>
+  <Locations_Found>
+    <string>Chersonese:Blue Chamber’s Conflux Path</string>
+    <string>Chersonese:Chersonese</string>
+    <string>Chersonese:Chersonese</string>
+    <string>Chersonese:Chersonese</string>
+    <string>Chersonese:Chersonese</string>
+    <string>Chersonese:Chersonese</string>
+    <string>Chersonese:Chersonese</string>
+    <string>Chersonese:Chersonese</string>
+    <string>Chersonese:Chersonese</string>
+    <string>Chersonese:Chersonese</string>
+    <string>Chersonese:Chersonese</string>
+    <string>Chersonese:Chersonese</string>
+    <string>Chersonese:Chersonese</string>
+    <string>Chersonese:Chersonese</string>
+    <string>Chersonese:Chersonese</string>
+    <string>Chersonese:Chersonese</string>
+    <string>Chersonese:Chersonese</string>
+    <string>Chersonese:Chersonese</string>
+    <string>Chersonese:Chersonese</string>
+    <string>Chersonese:Chersonese</string>
+    <string>Chersonese:Chersonese</string>
+    <string>Chersonese:Chersonese</string>
+    <string>Chersonese:Chersonese</string>
+    <string>Chersonese:Chersonese</string>
+    <string>Chersonese:Conflux Chambers</string>
+    <string>Chersonese:Holy Mission’s Conflux Path</string>
+  </Locations_Found>
+  <All_DropTables>
+    <string>DropTable_Turmmip</string>
+  </All_DropTables>
+</ContainerSummary>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ItemHolder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="SkillHolder">
+  <ItemID>8205210</ItemID>
+  <Name>Pressure Plate Training</Name>
+  <gameObjectName>8205210_PressurePlate</gameObjectName>
+  <saveDir>/Skill/PassiveSkill</saveDir>
+  <Description>Enables you to deploy the complex Pressure Plate Traps.
+
+These traps are primarily armed with charges, which shoot poison, fire and more.</Description>
+  <LegacyItemID>-1</LegacyItemID>
+  <Tags />
+  <EffectTransforms />
+  <Cooldown>0</Cooldown>
+  <StaminaCost>0</StaminaCost>
+  <ManaCost>0</ManaCost>
+  <DurabilityCost>0</DurabilityCost>
+  <DurabilityCostPercent>0</DurabilityCostPercent>
+  <IsDLCSkill>true</IsDLCSkill>
+  <RequiredItems />
+</ItemHolder>

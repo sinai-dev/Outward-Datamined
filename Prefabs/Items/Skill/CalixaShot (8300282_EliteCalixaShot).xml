@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ItemHolder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="SkillHolder">
+  <ItemID>8300282</ItemID>
+  <Name>CalixaShot</Name>
+  <gameObjectName>8300282_EliteCalixaShot</gameObjectName>
+  <saveDir>/Skill</saveDir>
+  <Description />
+  <LegacyItemID>-1</LegacyItemID>
+  <Tags />
+  <EffectTransforms>
+    <EffectTransformHolder>
+      <TransformName>Effects</TransformName>
+      <Effects>
+        <EffectHolder xsi:type="ShootProjectileHolder">
+          <TargetingMode>FindEnemies</TargetingMode>
+          <AutoTarget>false</AutoTarget>
+          <EffectTransforms>
+            <EffectTransformHolder>
+              <TransformName>HitEffects</TransformName>
+              <Effects>
+                <EffectHolder xsi:type="PunctualDamageHolder">
+                  <Damage>
+                    <Damages>
+                      <Damage>8</Damage>
+                      <Damage_Type>Ethereal</Damage_Type>
+                    </Damages>
+                    <Damages>
+                      <Damage>8</Damage>
+                      <Damage_Type>Decay</Damage_Type>
+                    </Damages>
+                    <Damages>
+                      <Damage>8</Damage>
+                      <Damage_Type>Electric</Damage_Type>
+                    </Damages>
+                    <Damages>
+                      <Damage>8</Damage>
+                      <Damage_Type>Frost</Damage_Type>
+                    </Damages>
+                    <Damages>
+                      <Damage>8</Damage>
+                      <Damage_Type>Fire</Damage_Type>
+                    </Damages>
+                  </Damage>
+                  <Damages_AI />
+                  <Knockback>85</Knockback>
+                  <HitInventory>true</HitInventory>
+                </EffectHolder>
+              </Effects>
+              <EffectConditions />
+              <ChildEffects />
+            </EffectTransformHolder>
+          </EffectTransforms>
+        </EffectHolder>
+      </Effects>
+      <EffectConditions />
+      <ChildEffects />
+    </EffectTransformHolder>
+  </EffectTransforms>
+  <Cooldown>5</Cooldown>
+  <StaminaCost>0</StaminaCost>
+  <ManaCost>0</ManaCost>
+  <DurabilityCost>0</DurabilityCost>
+  <DurabilityCostPercent>0</DurabilityCostPercent>
+  <IsDLCSkill>true</IsDLCSkill>
+  <RequiredItems />
+</ItemHolder>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<StatusEffectHolder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>Cold1</Name>
+  <PresetID>500</PresetID>
+  <Lifespan>-1</Lifespan>
+  <LengthType>Long</LengthType>
+  <Tags>
+    <string>Disease</string>
+    <string>Status Type</string>
+  </Tags>
+  <CanBeHealedBySleeping>true</CanBeHealedBySleeping>
+  <StraightSleepHealTime>10</StraightSleepHealTime>
+  <Effects>
+    <EffectHolder xsi:type="AffectStatHolder">
+      <AffectedStat>StaminaRegen</AffectedStat>
+      <AffectedStat_TagUID>80</AffectedStat_TagUID>
+      <AffectQuantity>-15</AffectQuantity>
+      <IsModifier>true</IsModifier>
+    </EffectHolder>
+  </Effects>
+</StatusEffectHolder>

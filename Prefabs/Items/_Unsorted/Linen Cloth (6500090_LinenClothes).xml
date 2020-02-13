@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ItemHolder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ItemID>6500090</ItemID>
+  <Name>Linen Cloth</Name>
+  <gameObjectName>6500090_LinenClothes</gameObjectName>
+  <saveDir />
+  <Description>Roll of fabric commonly used in basic crafting recipes, such as bandages.
+
+Basic clothes can be decrafted, using the Survival Crafting menu, into linen.</Description>
+  <LegacyItemID>-1</LegacyItemID>
+  <StatsHolder>
+    <BaseValue>1</BaseValue>
+    <RawWeight>0.1</RawWeight>
+    <MaxDurability>-1</MaxDurability>
+  </StatsHolder>
+  <Tags>
+    <string>Ingredient</string>
+    <string>Item</string>
+    <string>Misc</string>
+  </Tags>
+  <EffectTransforms />
+</ItemHolder>

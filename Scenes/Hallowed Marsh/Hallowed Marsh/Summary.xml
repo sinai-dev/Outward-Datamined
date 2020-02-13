@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SceneSummary xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <SceneName>Hallowed Marsh</SceneName>
+  <Enemies>
+    <QuantityHolder>
+      <Name>Blade Dancer (1)</Name>
+      <Quantity>7</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Phytosaur (1)</Name>
+      <Quantity>12</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Stekosaur (1)</Name>
+      <Quantity>13</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Phytoflora (1)</Name>
+      <Quantity>2</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Tuanosaur (1)</Name>
+      <Quantity>7</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Bandit (3)</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Golden Specter (2)</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Marsh Archer (1)</Name>
+      <Quantity>2</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Golden Specter (1)</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Marsh Bandit (1)</Name>
+      <Quantity>5</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Marsh Bandit (2)</Name>
+      <Quantity>3</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Alpha Tuanosaur (1)</Name>
+      <Quantity>2</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Immaculate (1)</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Ice Witch (1)</Name>
+      <Quantity>3</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Bandit (2)</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Golden Minion (1)</Name>
+      <Quantity>2</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Ash Giant (1)</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Marsh Archer Captain (1)</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+  </Enemies>
+  <Merchants>
+    <string>Soroborean Caravanner (G_GyAVjRWkq8e2L8WP4TgA)</string>
+    <string>Silver-Nose the Trader (YMvgNzX7JEG6PnQdK1Z-Dg)</string>
+  </Merchants>
+  <Loot_Containers>
+    <QuantityHolder>
+      <Name>Hollowed Trunk</Name>
+      <Quantity>9</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Broken Tent</Name>
+      <Quantity>2</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Supply Cache</Name>
+      <Quantity>20</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Soldier’s Corpse</Name>
+      <Quantity>2</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Chest</Name>
+      <Quantity>11</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Looter’s Corpse</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Adventurer’s Corpse</Name>
+      <Quantity>2</Quantity>
+    </QuantityHolder>
+  </Loot_Containers>
+  <Gatherables>
+    <QuantityHolder>
+      <Name>Tree</Name>
+      <Quantity>3</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Firefly Powder</Name>
+      <Quantity>20</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Gaberries</Name>
+      <Quantity>35</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Salt Crystal</Name>
+      <Quantity>8</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Iron vein</Name>
+      <Quantity>27</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Marshmelon</Name>
+      <Quantity>43</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Livweedi</Name>
+      <Quantity>25</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Palladium vein</Name>
+      <Quantity>14</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Star Mushroom</Name>
+      <Quantity>15</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Fishing Spot (DropTable_FishingSpotHallowedMarsh)</Name>
+      <Quantity>23</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Blood Mushroom</Name>
+      <Quantity>15</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Oil</Name>
+      <Quantity>10</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Crabeye</Name>
+      <Quantity>28</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Mana Stone</Name>
+      <Quantity>6</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Rich Iron vein</Name>
+      <Quantity>9</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Greasy Fern</Name>
+      <Quantity>2</Quantity>
+    </QuantityHolder>
+  </Gatherables>
+  <Item_Spawns>
+    <ItemSpawnHolder>
+      <Name>Primitive Satchel</Name>
+      <Item_ID>5300120</Item_ID>
+      <Quantity>1</Quantity>
+      <positions>
+        <Vector3>
+          <x>949.337769</x>
+          <y>-57.99611</y>
+          <z>497.3289</z>
+        </Vector3>
+      </positions>
+    </ItemSpawnHolder>
+    <ItemSpawnHolder>
+      <Name>Iron Spear</Name>
+      <Item_ID>2130110</Item_ID>
+      <Quantity>2</Quantity>
+      <positions>
+        <Vector3>
+          <x>871.71</x>
+          <y>-58.498764</y>
+          <z>749.66</z>
+        </Vector3>
+        <Vector3>
+          <x>948.92</x>
+          <y>-57.99611</y>
+          <z>498.28</z>
+        </Vector3>
+      </positions>
+    </ItemSpawnHolder>
+    <ItemSpawnHolder>
+      <Name>Shiv Dagger</Name>
+      <Item_ID>5110003</Item_ID>
+      <Quantity>1</Quantity>
+      <positions>
+        <Vector3>
+          <x>1326.199</x>
+          <y>-62.11</y>
+          <z>572.697</z>
+        </Vector3>
+      </positions>
+    </ItemSpawnHolder>
+  </Item_Spawns>
+</SceneSummary>

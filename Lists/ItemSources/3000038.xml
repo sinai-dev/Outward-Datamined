@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ItemSource xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ItemName>Looter Armor</ItemName>
+  <ItemID>3000038</ItemID>
+  <Container_Sources>
+    <string>Junk Pile (Chersonese:Cierzo (Destroyed))</string>
+    <string>Hollowed Trunk (Chersonese:Chersonese)</string>
+    <string>Hollowed Trunk (Chersonese:Chersonese)</string>
+    <string>Hollowed Trunk (Chersonese:Chersonese)</string>
+    <string>Hollowed Trunk (Chersonese:Chersonese)</string>
+    <string>Adventurer’s Corpse (Chersonese:Chersonese)</string>
+    <string>Hollowed Trunk (Chersonese:Chersonese)</string>
+    <string>Adventurer’s Corpse (Chersonese:Chersonese)</string>
+    <string>Hollowed Trunk (Chersonese:Chersonese)</string>
+    <string>Hollowed Trunk (Chersonese:Chersonese)</string>
+    <string>Soldier’s Corpse (Chersonese:Chersonese)</string>
+    <string>Hollowed Trunk (Chersonese:Chersonese)</string>
+    <string>Junk Pile (Chersonese:Vendavel Fortress)</string>
+    <string>Looter’s Corpse (Chersonese:Blister Burrow)</string>
+    <string>Junk Pile (Chersonese:Blister Burrow)</string>
+    <string>Junk Pile (Chersonese:Blister Burrow)</string>
+    <string>Trog Chest (Chersonese:Blister Burrow)</string>
+    <string>Junk Pile (Chersonese:Blue Chamber’s Conflux Path)</string>
+    <string>Junk Pile (Chersonese:Blue Chamber’s Conflux Path)</string>
+    <string>Soldier’s Corpse (Chersonese:Heroic Kingdom’s Conflux Path)</string>
+    <string>Junk Pile (Chersonese:Cierzo Storage)</string>
+  </Container_Sources>
+  <Spawn_Sources />
+</ItemSource>

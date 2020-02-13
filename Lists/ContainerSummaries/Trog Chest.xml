@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContainerSummary xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>Trog Chest</Name>
+  <ItemID>0</ItemID>
+  <Locations_Found>
+    <string>Chersonese:Blister Burrow</string>
+    <string>Chersonese:Blister Burrow</string>
+    <string>Chersonese:Blue Chamber’s Conflux Path</string>
+    <string>Chersonese:Blue Chamber’s Conflux Path</string>
+    <string>Chersonese:Trog Infiltration</string>
+    <string>Chersonese:Trog Infiltration</string>
+    <string>Enmerkar Forest:Royal Manticore’s Lair</string>
+    <string>Enmerkar Forest:Royal Manticore’s Lair</string>
+    <string>Hallowed Marsh:Jade Quarry</string>
+    <string>Hallowed Marsh:Jade Quarry</string>
+    <string>Hallowed Marsh:Under Island</string>
+    <string>Hallowed Marsh:Under Island</string>
+  </Locations_Found>
+  <All_DropTables>
+    <string>DropTable_Neutral_Troglodyte_2</string>
+    <string>DropTable_Neutral_Troglodyte_2</string>
+    <string>DropTable_Chersonese_Equipment_Low_1</string>
+    <string>DropTable_Neutral_StandardRecipe_Low_1</string>
+    <string>DropTable_Neutral_Survival_Medium_1</string>
+    <string>DropTable_Neutral_StandardRecipe_High_1</string>
+    <string>DropTable_Neutral_Magic_High_1</string>
+    <string>DropTable_Neutral_Valuable_Low_1</string>
+    <string>DropTable_HallowedMarsh_Recipe_Basic_1</string>
+    <string>DropTable_Trog_Med</string>
+    <string>DropTable_Neutral_Survival_Low_2</string>
+    <string>DropTable_Neutral_Consumable_Low_2</string>
+    <string>DropTable_Enmerkar_Recipe_Basic_1</string>
+  </All_DropTables>
+</ContainerSummary>

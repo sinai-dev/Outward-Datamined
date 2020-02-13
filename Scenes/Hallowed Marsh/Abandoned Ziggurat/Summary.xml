@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SceneSummary xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <SceneName>Abandoned Ziggurat</SceneName>
+  <Enemies>
+    <QuantityHolder>
+      <Name>Blade Dancer (1)</Name>
+      <Quantity>2</Quantity>
+    </QuantityHolder>
+  </Enemies>
+  <Merchants />
+  <Loot_Containers>
+    <QuantityHolder>
+      <Name>Ornate Chest</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+  </Loot_Containers>
+  <Gatherables />
+  <Item_Spawns>
+    <ItemSpawnHolder>
+      <Name>Fang Trident</Name>
+      <Item_ID>2130020</Item_ID>
+      <Quantity>1</Quantity>
+      <positions>
+        <Vector3>
+          <x>1.00365853</x>
+          <y>0.206850991</y>
+          <z>0.5798645</z>
+        </Vector3>
+      </positions>
+    </ItemSpawnHolder>
+  </Item_Spawns>
+</SceneSummary>

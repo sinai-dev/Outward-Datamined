@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<EnemyHolder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>Desert Lieutenant</Name>
+  <GameObject_Name>NewBanditEquip_DesertLieutenant1_C</GameObject_Name>
+  <Unique_ID>1</Unique_ID>
+  <Locations_Found>
+    <string>Abrassar:Abrassar</string>
+    <string>Abrassar:Undercity Passage</string>
+    <string>Abrassar:The Slide</string>
+    <string>Abrassar:Stone Titan Caves</string>
+    <string>Abrassar:Sand Rose Cave</string>
+  </Locations_Found>
+  <Max_Health>150</Max_Health>
+  <Health_Regen_Per_Second>0</Health_Regen_Per_Second>
+  <Impact_Resistance>48</Impact_Resistance>
+  <Protection>
+    <float>10</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+  </Protection>
+  <Damage_Resistances>
+    <float>47</float>
+    <float>20</float>
+    <float>-20</float>
+    <float>20</float>
+    <float>20</float>
+    <float>20</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+  </Damage_Resistances>
+  <Damage_Bonuses>
+    <float>15</float>
+    <float>15</float>
+    <float>15</float>
+    <float>15</float>
+    <float>15</float>
+    <float>15</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+  </Damage_Bonuses>
+  <Collider_Radius>0.4</Collider_Radius>
+  <True_WeaponDamage>
+    <Damages>
+      <Damage>26.45</Damage>
+      <Damage_Type>Physical</Damage_Type>
+    </Damages>
+  </True_WeaponDamage>
+  <Weapon_Impact>19</Weapon_Impact>
+  <Status_Immunities />
+  <Starting_Equipment>
+    <string>Elite Desert Veil (3000204)</string>
+    <string>Elite Desert Tunic (3000202)</string>
+    <string>Plate Boots (3100005)</string>
+    <string>Steel Sabre (2000020)</string>
+    <string>Steel Shield (2300140)</string>
+    <string>Stat Booster 1 (5400000)</string>
+  </Starting_Equipment>
+  <Skill_Knowledge />
+  <Faction>Bandits</Faction>
+  <Allied_To_Same_Faction>true</Allied_To_Same_Faction>
+  <Guaranteed_Drops>
+    <DropTableEntry>
+      <Item_Name>Steel Sabre</Item_Name>
+      <Item_ID>2000020</Item_ID>
+      <Min_Quantity>1</Min_Quantity>
+      <Max_Quantity>1</Max_Quantity>
+    </DropTableEntry>
+    <DropTableEntry>
+      <Item_Name>Steel Sabre</Item_Name>
+      <Item_ID>2000020</Item_ID>
+      <Min_Quantity>1</Min_Quantity>
+      <Max_Quantity>1</Max_Quantity>
+    </DropTableEntry>
+    <DropTableEntry>
+      <Item_Name>Steel Shield</Item_Name>
+      <Item_ID>2300140</Item_ID>
+      <Min_Quantity>1</Min_Quantity>
+      <Max_Quantity>1</Max_Quantity>
+    </DropTableEntry>
+  </Guaranteed_Drops>
+  <DropTable_Names>
+    <string>DropTable_BanditMelee_Abrassar_Med</string>
+  </DropTable_Names>
+</EnemyHolder>

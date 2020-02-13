@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ItemSource xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ItemName>Savage Stew</ItemName>
+  <ItemID>4100410</ItemID>
+  <Container_Sources>
+    <string>Junk Pile (Enmerkar Forest:Berg)</string>
+    <string>Stash (Enmerkar Forest:Berg)</string>
+    <string>Knight’s Corpse (Enmerkar Forest:Cabal of Wind Temple)</string>
+    <string>Worker’s Corpse (Enmerkar Forest:Cabal of Wind Temple)</string>
+    <string>Worker’s Corpse (Enmerkar Forest:Face of the Ancients)</string>
+    <string>Knight’s Corpse (Enmerkar Forest:Damp Hunter's Cabin)</string>
+    <string>Chest (Enmerkar Forest:Old Hunter's Cabin)</string>
+  </Container_Sources>
+  <Spawn_Sources />
+</ItemSource>

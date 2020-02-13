@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RecipeHolder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <StationType>Survival</StationType>
+  <Name>Horror Bow</Name>
+  <RecipeID>77</RecipeID>
+  <Ingredients>
+    <string>Horror Chitin</string>
+    <string>Horror Chitin</string>
+    <string>War Bow</string>
+    <string>Occult Remains</string>
+  </Ingredients>
+  <Results>
+    <ItemQuantityHolder>
+      <ItemName>Horror Bow</ItemName>
+      <Quantity>1</Quantity>
+    </ItemQuantityHolder>
+  </Results>
+</RecipeHolder>

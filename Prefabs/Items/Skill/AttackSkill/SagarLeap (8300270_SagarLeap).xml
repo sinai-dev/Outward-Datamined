@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ItemHolder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="SkillHolder">
+  <ItemID>8300270</ItemID>
+  <Name>SagarLeap</Name>
+  <gameObjectName>8300270_SagarLeap</gameObjectName>
+  <saveDir>/Skill/AttackSkill</saveDir>
+  <Description />
+  <LegacyItemID>-1</LegacyItemID>
+  <Tags />
+  <EffectTransforms>
+    <EffectTransformHolder>
+      <TransformName>Effects</TransformName>
+      <Effects>
+        <EffectHolder xsi:type="ShootBlastHolder">
+          <BlastLifespan>0</BlastLifespan>
+          <RefreshTime>0.1</RefreshTime>
+          <EffectTransforms>
+            <EffectTransformHolder>
+              <TransformName>Effects</TransformName>
+              <Effects>
+                <EffectHolder xsi:type="WeaponDamageHolder">
+                  <Damage>
+                    <Damages>
+                      <Damage>40</Damage>
+                      <Damage_Type>Physical</Damage_Type>
+                    </Damages>
+                  </Damage>
+                  <Damages_AI />
+                  <Knockback>95</Knockback>
+                  <HitInventory>true</HitInventory>
+                  <OverrideType>Count</OverrideType>
+                  <Damage_Multiplier>0</Damage_Multiplier>
+                  <Damage_Multiplier_Kback>-1</Damage_Multiplier_Kback>
+                  <Damage_Multiplier_Kdown>-1</Damage_Multiplier_Kdown>
+                  <Impact_Multiplier>0</Impact_Multiplier>
+                  <Impact_Multiplier_Kback>-1</Impact_Multiplier_Kback>
+                  <Impact_Multiplier_Kdown>-1</Impact_Multiplier_Kdown>
+                </EffectHolder>
+              </Effects>
+              <EffectConditions />
+              <ChildEffects />
+            </EffectTransformHolder>
+          </EffectTransforms>
+        </EffectHolder>
+      </Effects>
+      <EffectConditions />
+      <ChildEffects />
+    </EffectTransformHolder>
+  </EffectTransforms>
+  <Cooldown>7</Cooldown>
+  <StaminaCost>0</StaminaCost>
+  <ManaCost>0</ManaCost>
+  <DurabilityCost>0</DurabilityCost>
+  <DurabilityCostPercent>0</DurabilityCostPercent>
+  <IsDLCSkill>true</IsDLCSkill>
+  <RequiredItems />
+</ItemHolder>

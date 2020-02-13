@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ItemSource xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ItemName>Cactus Fruit</ItemName>
+  <ItemID>4000200</ItemID>
+  <Container_Sources>
+    <string>Chest (Abrassar:Levant)</string>
+    <string>Chest (Abrassar:Levant)</string>
+    <string>Chest (Abrassar:Levant)</string>
+    <string>Chest (Abrassar:Abrassar)</string>
+    <string>Chest (Abrassar:Abrassar)</string>
+    <string>Chest (Abrassar:Abrassar)</string>
+    <string>Chest (Abrassar:Abrassar)</string>
+    <string>Scavenger’s Corpse (Abrassar:The Slide)</string>
+    <string>Worker’s Corpse (Abrassar:The Slide)</string>
+    <string>Worker’s Corpse (Abrassar:Stone Titan Caves)</string>
+    <string>Knight’s Corpse (Abrassar:Stone Titan Caves)</string>
+    <string>Knight’s Corpse (Abrassar:Ancient Hive)</string>
+    <string>Adventurer’s Corpse (Abrassar:Ancient Hive)</string>
+    <string>Knight’s Corpse (Abrassar:Ancient Hive)</string>
+    <string>Adventurer’s Corpse (Abrassar:Sand Rose Cave)</string>
+  </Container_Sources>
+  <Spawn_Sources />
+</ItemSource>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ItemHolder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ItemID>5600010</ItemID>
+  <Name>Flint and Steel</Name>
+  <gameObjectName>5600010_FlintAndSteel</gameObjectName>
+  <saveDir />
+  <Description>Basic survival tool used to light campfires.
+
+It might have other uses, however.</Description>
+  <LegacyItemID>-1</LegacyItemID>
+  <StatsHolder>
+    <BaseValue>3</BaseValue>
+    <RawWeight>0.5</RawWeight>
+    <MaxDurability>-1</MaxDurability>
+  </StatsHolder>
+  <Tags>
+    <string>Misc</string>
+    <string>Item</string>
+    <string>Deployable</string>
+  </Tags>
+  <EffectTransforms>
+    <EffectTransformHolder>
+      <TransformName>Effects</TransformName>
+      <Effects>
+        <EffectHolder xsi:type="ShootBlastHolder">
+          <BlastLifespan>0</BlastLifespan>
+          <RefreshTime>0.1</RefreshTime>
+          <EffectTransforms />
+        </EffectHolder>
+      </Effects>
+      <EffectConditions />
+      <ChildEffects />
+    </EffectTransformHolder>
+    <EffectTransformHolder>
+      <TransformName>ExtraEffects</TransformName>
+      <Effects>
+        <EffectHolder xsi:type="ShootBlastHolder">
+          <BlastLifespan>25</BlastLifespan>
+          <RefreshTime>0.25</RefreshTime>
+          <EffectTransforms>
+            <EffectTransformHolder>
+              <TransformName>Effects</TransformName>
+              <Effects>
+                <EffectHolder xsi:type="PunctualDamageHolder">
+                  <Damage>
+                    <Damages>
+                      <Damage>6</Damage>
+                      <Damage_Type>Fire</Damage_Type>
+                    </Damages>
+                  </Damage>
+                  <Damages_AI />
+                  <Knockback>0</Knockback>
+                  <HitInventory>true</HitInventory>
+                </EffectHolder>
+                <EffectHolder xsi:type="AddStatusEffectHolder">
+                  <StatusEffect>Burning</StatusEffect>
+                  <ChanceToContract>100</ChanceToContract>
+                </EffectHolder>
+              </Effects>
+              <EffectConditions />
+              <ChildEffects />
+            </EffectTransformHolder>
+          </EffectTransforms>
+        </EffectHolder>
+      </Effects>
+      <EffectConditions>
+        <EffectConditionHolder>
+          <Conditions>
+            <ConditionHolder>
+              <Requirement>Activated Firestone</Requirement>
+              <Condition_Type>Item Proximity</Condition_Type>
+              <Invert>false</Invert>
+            </ConditionHolder>
+          </Conditions>
+        </EffectConditionHolder>
+      </EffectConditions>
+      <ChildEffects />
+    </EffectTransformHolder>
+  </EffectTransforms>
+</ItemHolder>

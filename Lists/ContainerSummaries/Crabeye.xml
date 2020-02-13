@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContainerSummary xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>Crabeye</Name>
+  <ItemID>0</ItemID>
+  <Locations_Found>
+    <string>Abrassar:Abrassar</string>
+    <string>Abrassar:Abrassar</string>
+    <string>Chersonese:Chersonese</string>
+    <string>Chersonese:Chersonese</string>
+    <string>Chersonese:Chersonese</string>
+    <string>Chersonese:Chersonese</string>
+    <string>Chersonese:Chersonese</string>
+    <string>Chersonese:Chersonese</string>
+    <string>Chersonese:Chersonese</string>
+    <string>Chersonese:Chersonese</string>
+    <string>Chersonese:Chersonese</string>
+    <string>Chersonese:Chersonese</string>
+    <string>Chersonese:Chersonese</string>
+    <string>Chersonese:Chersonese</string>
+    <string>Chersonese:Chersonese</string>
+    <string>Chersonese:Chersonese</string>
+    <string>Chersonese:Chersonese</string>
+    <string>Chersonese:Chersonese</string>
+    <string>Chersonese:Chersonese</string>
+    <string>Chersonese:Chersonese</string>
+    <string>Chersonese:Chersonese</string>
+    <string>Chersonese:Chersonese</string>
+    <string>Chersonese:Chersonese</string>
+    <string>Chersonese:Chersonese</string>
+    <string>Chersonese:Chersonese</string>
+    <string>Chersonese:Chersonese</string>
+    <string>Chersonese:Chersonese</string>
+    <string>Chersonese:Chersonese</string>
+    <string>Chersonese:Chersonese</string>
+    <string>Chersonese:Chersonese</string>
+    <string>Chersonese:Chersonese</string>
+    <string>Chersonese:Chersonese</string>
+    <string>Chersonese:Chersonese</string>
+    <string>Chersonese:Chersonese</string>
+    <string>Chersonese:Chersonese</string>
+    <string>Chersonese:Chersonese</string>
+    <string>Chersonese:Chersonese</string>
+    <string>Chersonese:Chersonese</string>
+    <string>Chersonese:Chersonese</string>
+    <string>Chersonese:Chersonese</string>
+    <string>Chersonese:Chersonese</string>
+    <string>Chersonese:Chersonese</string>
+    <string>Chersonese:Chersonese</string>
+    <string>Chersonese:Chersonese</string>
+    <string>Chersonese:Cierzo</string>
+    <string>Chersonese:Cierzo</string>
+    <string>Chersonese:Cierzo</string>
+    <string>Chersonese:Cierzo (Destroyed)</string>
+    <string>Chersonese:Cierzo (Destroyed)</string>
+    <string>Chersonese:Cierzo (Destroyed)</string>
+    <string>Enmerkar Forest:Berg</string>
+    <string>Enmerkar Forest:Berg</string>
+    <string>Enmerkar Forest:Berg</string>
+    <string>Enmerkar Forest:Berg</string>
+    <string>Enmerkar Forest:Enmerkar Forest</string>
+    <string>Enmerkar Forest:Enmerkar Forest</string>
+    <string>Enmerkar Forest:Enmerkar Forest</string>
+    <string>Enmerkar Forest:Enmerkar Forest</string>
+    <string>Enmerkar Forest:Enmerkar Forest</string>
+    <string>Enmerkar Forest:Enmerkar Forest</string>
+    <string>Enmerkar Forest:Enmerkar Forest</string>
+    <string>Enmerkar Forest:Enmerkar Forest</string>
+    <string>Enmerkar Forest:Enmerkar Forest</string>
+    <string>Enmerkar Forest:Enmerkar Forest</string>
+    <string>Enmerkar Forest:Enmerkar Forest</string>
+    <string>Enmerkar Forest:Enmerkar Forest</string>
+    <string>Enmerkar Forest:Enmerkar Forest</string>
+    <string>Enmerkar Forest:Enmerkar Forest</string>
+    <string>Enmerkar Forest:Enmerkar Forest</string>
+    <string>Enmerkar Forest:Enmerkar Forest</string>
+    <string>Enmerkar Forest:Enmerkar Forest</string>
+    <string>Enmerkar Forest:Enmerkar Forest</string>
+    <string>Enmerkar Forest:Enmerkar Forest</string>
+    <string>Enmerkar Forest:Enmerkar Forest</string>
+    <string>Enmerkar Forest:Enmerkar Forest</string>
+    <string>Enmerkar Forest:Enmerkar Forest</string>
+    <string>Enmerkar Forest:Enmerkar Forest</string>
+    <string>Enmerkar Forest:Enmerkar Forest</string>
+    <string>Enmerkar Forest:Enmerkar Forest</string>
+    <string>Enmerkar Forest:Enmerkar Forest</string>
+    <string>Hallowed Marsh:Hallowed Marsh</string>
+    <string>Hallowed Marsh:Hallowed Marsh</string>
+    <string>Hallowed Marsh:Hallowed Marsh</string>
+    <string>Hallowed Marsh:Hallowed Marsh</string>
+    <string>Hallowed Marsh:Hallowed Marsh</string>
+    <string>Hallowed Marsh:Hallowed Marsh</string>
+    <string>Hallowed Marsh:Hallowed Marsh</string>
+    <string>Hallowed Marsh:Hallowed Marsh</string>
+    <string>Hallowed Marsh:Hallowed Marsh</string>
+    <string>Hallowed Marsh:Hallowed Marsh</string>
+    <string>Hallowed Marsh:Hallowed Marsh</string>
+    <string>Hallowed Marsh:Hallowed Marsh</string>
+    <string>Hallowed Marsh:Hallowed Marsh</string>
+    <string>Hallowed Marsh:Hallowed Marsh</string>
+    <string>Hallowed Marsh:Hallowed Marsh</string>
+    <string>Hallowed Marsh:Hallowed Marsh</string>
+    <string>Hallowed Marsh:Hallowed Marsh</string>
+    <string>Hallowed Marsh:Hallowed Marsh</string>
+    <string>Hallowed Marsh:Hallowed Marsh</string>
+    <string>Hallowed Marsh:Hallowed Marsh</string>
+    <string>Hallowed Marsh:Hallowed Marsh</string>
+    <string>Hallowed Marsh:Hallowed Marsh</string>
+    <string>Hallowed Marsh:Hallowed Marsh</string>
+    <string>Hallowed Marsh:Hallowed Marsh</string>
+    <string>Hallowed Marsh:Hallowed Marsh</string>
+    <string>Hallowed Marsh:Hallowed Marsh</string>
+    <string>Hallowed Marsh:Hallowed Marsh</string>
+    <string>Hallowed Marsh:Hallowed Marsh</string>
+    <string>Hallowed Marsh:Monsoon</string>
+    <string>Hallowed Marsh:Monsoon</string>
+    <string>Hallowed Marsh:Monsoon</string>
+  </Locations_Found>
+  <All_DropTables>
+    <string>DropTable_Crabeye</string>
+  </All_DropTables>
+</ContainerSummary>

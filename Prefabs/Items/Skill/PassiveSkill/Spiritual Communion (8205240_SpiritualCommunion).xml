@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ItemHolder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="SkillHolder">
+  <ItemID>8205240</ItemID>
+  <Name>Spiritual Communion</Name>
+  <gameObjectName>8205240_SpiritualCommunion</gameObjectName>
+  <saveDir>/Skill/PassiveSkill</saveDir>
+  <Description>Increases the Etheral, Lightning and Decay damage you deal by 10%.</Description>
+  <LegacyItemID>-1</LegacyItemID>
+  <Tags />
+  <EffectTransforms>
+    <EffectTransformHolder>
+      <TransformName>Passive</TransformName>
+      <Effects>
+        <EffectHolder xsi:type="AffectStatHolder">
+          <AffectedStat>LightDamage</AffectedStat>
+          <AffectedStat_TagUID>104</AffectedStat_TagUID>
+          <AffectQuantity>10</AffectQuantity>
+          <IsModifier>true</IsModifier>
+        </EffectHolder>
+        <EffectHolder xsi:type="AffectStatHolder">
+          <AffectedStat>EtherealDamage</AffectedStat>
+          <AffectedStat_TagUID>98</AffectedStat_TagUID>
+          <AffectQuantity>10</AffectQuantity>
+          <IsModifier>true</IsModifier>
+        </EffectHolder>
+        <EffectHolder xsi:type="AffectStatHolder">
+          <AffectedStat>DecayDamage</AffectedStat>
+          <AffectedStat_TagUID>99</AffectedStat_TagUID>
+          <AffectQuantity>10</AffectQuantity>
+          <IsModifier>true</IsModifier>
+        </EffectHolder>
+      </Effects>
+      <EffectConditions />
+      <ChildEffects />
+    </EffectTransformHolder>
+  </EffectTransforms>
+  <Cooldown>0</Cooldown>
+  <StaminaCost>0</StaminaCost>
+  <ManaCost>0</ManaCost>
+  <DurabilityCost>0</DurabilityCost>
+  <DurabilityCostPercent>0</DurabilityCostPercent>
+  <IsDLCSkill>true</IsDLCSkill>
+  <RequiredItems />
+</ItemHolder>

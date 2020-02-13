@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<StatusEffectHolder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>Elemental Immunity</Name>
+  <PresetID>50</PresetID>
+  <Lifespan>15</Lifespan>
+  <LengthType>Short</LengthType>
+  <Tags />
+  <CanBeHealedBySleeping>false</CanBeHealedBySleeping>
+  <StraightSleepHealTime>-1</StraightSleepHealTime>
+  <Effects>
+    <EffectHolder xsi:type="AffectStatHolder">
+      <AffectedStat>FrostProtection</AffectedStat>
+      <AffectedStat_TagUID>109</AffectedStat_TagUID>
+      <AffectQuantity>1000</AffectQuantity>
+      <IsModifier>false</IsModifier>
+    </EffectHolder>
+    <EffectHolder xsi:type="AffectStatHolder">
+      <AffectedStat>FireProtection</AffectedStat>
+      <AffectedStat_TagUID>110</AffectedStat_TagUID>
+      <AffectQuantity>1000</AffectQuantity>
+      <IsModifier>false</IsModifier>
+    </EffectHolder>
+    <EffectHolder xsi:type="AffectStatHolder">
+      <AffectedStat>ElectricProtection</AffectedStat>
+      <AffectedStat_TagUID>108</AffectedStat_TagUID>
+      <AffectQuantity>1000</AffectQuantity>
+      <IsModifier>false</IsModifier>
+    </EffectHolder>
+    <EffectHolder xsi:type="AffectStatHolder">
+      <AffectedStat>DecayProtection</AffectedStat>
+      <AffectedStat_TagUID>107</AffectedStat_TagUID>
+      <AffectQuantity>1000</AffectQuantity>
+      <IsModifier>false</IsModifier>
+    </EffectHolder>
+    <EffectHolder xsi:type="AffectStatHolder">
+      <AffectedStat>EtherealProtection</AffectedStat>
+      <AffectedStat_TagUID>106</AffectedStat_TagUID>
+      <AffectQuantity>1000</AffectQuantity>
+      <IsModifier>false</IsModifier>
+    </EffectHolder>
+  </Effects>
+</StatusEffectHolder>

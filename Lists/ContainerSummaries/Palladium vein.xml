@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContainerSummary xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>Palladium vein</Name>
+  <ItemID>0</ItemID>
+  <Locations_Found>
+    <string>Abrassar:Abrassar</string>
+    <string>Abrassar:Abrassar</string>
+    <string>Abrassar:Abrassar</string>
+    <string>Abrassar:Abrassar</string>
+    <string>Abrassar:Abrassar</string>
+    <string>Abrassar:Abrassar</string>
+    <string>Abrassar:Ancient Hive</string>
+    <string>Abrassar:Electric Lab</string>
+    <string>Abrassar:Electric Lab</string>
+    <string>Abrassar:Electric Lab</string>
+    <string>Abrassar:Sand Rose Cave</string>
+    <string>Abrassar:Sand Rose Cave</string>
+    <string>Abrassar:Stone Titan Caves</string>
+    <string>Abrassar:The Slide</string>
+    <string>Chersonese:Blue Chamber’s Conflux Path</string>
+    <string>Chersonese:Conflux Chambers</string>
+    <string>Chersonese:Ghost Pass</string>
+    <string>Enmerkar Forest:Ancestor’s Resting Place</string>
+    <string>Enmerkar Forest:Ancestor’s Resting Place</string>
+    <string>Enmerkar Forest:Enmerkar Forest</string>
+    <string>Enmerkar Forest:Enmerkar Forest</string>
+    <string>Enmerkar Forest:Enmerkar Forest</string>
+    <string>Enmerkar Forest:Enmerkar Forest</string>
+    <string>Enmerkar Forest:Enmerkar Forest</string>
+    <string>Enmerkar Forest:Face of the Ancients</string>
+    <string>Enmerkar Forest:Necropolis</string>
+    <string>Enmerkar Forest:Royal Manticore’s Lair</string>
+    <string>Enmerkar Forest:Royal Manticore’s Lair</string>
+    <string>Hallowed Marsh:Hallowed Marsh</string>
+    <string>Hallowed Marsh:Hallowed Marsh</string>
+    <string>Hallowed Marsh:Hallowed Marsh</string>
+    <string>Hallowed Marsh:Hallowed Marsh</string>
+    <string>Hallowed Marsh:Hallowed Marsh</string>
+    <string>Hallowed Marsh:Hallowed Marsh</string>
+    <string>Hallowed Marsh:Hallowed Marsh</string>
+    <string>Hallowed Marsh:Hallowed Marsh</string>
+    <string>Hallowed Marsh:Hallowed Marsh</string>
+    <string>Hallowed Marsh:Hallowed Marsh</string>
+    <string>Hallowed Marsh:Hallowed Marsh</string>
+    <string>Hallowed Marsh:Hallowed Marsh</string>
+    <string>Hallowed Marsh:Hallowed Marsh</string>
+    <string>Hallowed Marsh:Hallowed Marsh</string>
+    <string>Hallowed Marsh:Jade Quarry</string>
+    <string>Hallowed Marsh:Jade Quarry</string>
+    <string>Hallowed Marsh:Jade Quarry</string>
+    <string>Hallowed Marsh:Jade Quarry</string>
+    <string>Hallowed Marsh:Jade Quarry</string>
+    <string>Hallowed Marsh:Jade Quarry</string>
+    <string>Hallowed Marsh:Reptilian Lair</string>
+    <string>Hallowed Marsh:Ziggurat Passage</string>
+  </Locations_Found>
+  <All_DropTables>
+    <string>DropTable_PalladiumOre</string>
+  </All_DropTables>
+</ContainerSummary>

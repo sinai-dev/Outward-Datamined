@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ItemHolder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="SkillHolder">
+  <ItemID>8300010</ItemID>
+  <Name>HoundPounce</Name>
+  <gameObjectName>8300010_HoundPounce</gameObjectName>
+  <saveDir>/Skill/AttackSkill/MeleeSkill</saveDir>
+  <Description />
+  <LegacyItemID>-1</LegacyItemID>
+  <Tags />
+  <EffectTransforms>
+    <EffectTransformHolder>
+      <TransformName>HitEffects</TransformName>
+      <Effects>
+        <EffectHolder xsi:type="PunctualDamageHolder">
+          <Damage>
+            <Damages>
+              <Damage>250</Damage>
+              <Damage_Type>Physical</Damage_Type>
+            </Damages>
+          </Damage>
+          <Damages_AI />
+          <Knockback>80</Knockback>
+          <HitInventory>true</HitInventory>
+        </EffectHolder>
+      </Effects>
+      <EffectConditions />
+      <ChildEffects />
+    </EffectTransformHolder>
+  </EffectTransforms>
+  <Cooldown>1</Cooldown>
+  <StaminaCost>40</StaminaCost>
+  <ManaCost>0</ManaCost>
+  <DurabilityCost>0</DurabilityCost>
+  <DurabilityCostPercent>0</DurabilityCostPercent>
+  <IsDLCSkill>true</IsDLCSkill>
+  <RequiredItems />
+</ItemHolder>

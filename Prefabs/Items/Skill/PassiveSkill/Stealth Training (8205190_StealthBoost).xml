@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ItemHolder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="SkillHolder">
+  <ItemID>8205190</ItemID>
+  <Name>Stealth Training</Name>
+  <gameObjectName>8205190_StealthBoost</gameObjectName>
+  <saveDir>/Skill/PassiveSkill</saveDir>
+  <Description>Enemies will have a harder time spotting you.
+
+Sprinting and having a light source will still easily alert them, though.</Description>
+  <LegacyItemID>-1</LegacyItemID>
+  <Tags />
+  <EffectTransforms>
+    <EffectTransformHolder>
+      <TransformName>Passive</TransformName>
+      <Effects>
+        <EffectHolder xsi:type="AffectStatHolder">
+          <AffectedStat>Detectability</AffectedStat>
+          <AffectedStat_TagUID>121</AffectedStat_TagUID>
+          <AffectQuantity>-20</AffectQuantity>
+          <IsModifier>true</IsModifier>
+        </EffectHolder>
+        <EffectHolder xsi:type="AffectStatHolder">
+          <AffectedStat>VisualDetectability</AffectedStat>
+          <AffectedStat_TagUID>122</AffectedStat_TagUID>
+          <AffectQuantity>-18</AffectQuantity>
+          <IsModifier>true</IsModifier>
+        </EffectHolder>
+      </Effects>
+      <EffectConditions />
+      <ChildEffects />
+    </EffectTransformHolder>
+  </EffectTransforms>
+  <Cooldown>0</Cooldown>
+  <StaminaCost>0</StaminaCost>
+  <ManaCost>0</ManaCost>
+  <DurabilityCost>0</DurabilityCost>
+  <DurabilityCostPercent>0</DurabilityCostPercent>
+  <IsDLCSkill>true</IsDLCSkill>
+  <RequiredItems />
+</ItemHolder>

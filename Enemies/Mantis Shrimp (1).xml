@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<EnemyHolder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>Mantis Shrimp</Name>
+  <GameObject_Name>MantisShrimp</GameObject_Name>
+  <Unique_ID>1</Unique_ID>
+  <Locations_Found>
+    <string>Chersonese:Chersonese</string>
+    <string>Chersonese:Voltaic Hatchery</string>
+    <string>Chersonese:Starfish Cave</string>
+    <string>Abrassar:Electric Lab</string>
+    <string>Abrassar:The Slide</string>
+    <string>Abrassar:River's End</string>
+    <string>Enmerkar Forest:Enmerkar Forest</string>
+  </Locations_Found>
+  <Max_Health>250</Max_Health>
+  <Health_Regen_Per_Second>0</Health_Regen_Per_Second>
+  <Impact_Resistance>30</Impact_Resistance>
+  <Protection>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+  </Protection>
+  <Damage_Resistances>
+    <float>20</float>
+    <float>0</float>
+    <float>-40</float>
+    <float>40</float>
+    <float>-40</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+  </Damage_Resistances>
+  <Damage_Bonuses>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+  </Damage_Bonuses>
+  <Collider_Radius>0.7</Collider_Radius>
+  <True_WeaponDamage>
+    <Damages>
+      <Damage>27</Damage>
+      <Damage_Type>Physical</Damage_Type>
+    </Damages>
+  </True_WeaponDamage>
+  <Weapon_Impact>56</Weapon_Impact>
+  <Status_Immunities />
+  <Starting_Equipment>
+    <string>- (2400090)</string>
+  </Starting_Equipment>
+  <Skill_Knowledge>
+    <string>LightningBolt</string>
+    <string>ShrimpExplosion</string>
+  </Skill_Knowledge>
+  <Faction>Tuanosaurs</Faction>
+  <Allied_To_Same_Faction>true</Allied_To_Same_Faction>
+  <Guaranteed_Drops />
+  <DropTable_Names>
+    <string>DropTable_MantisShrimp</string>
+  </DropTable_Names>
+</EnemyHolder>

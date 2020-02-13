@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContainerSummary xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>Fishing Spot (DropTable_FishingSpotChersoneseRiver)</Name>
+  <ItemID>0</ItemID>
+  <Locations_Found>
+    <string>Chersonese:Chersonese</string>
+    <string>Chersonese:Chersonese</string>
+    <string>Chersonese:Chersonese</string>
+    <string>Chersonese:Chersonese</string>
+    <string>Chersonese:Chersonese</string>
+    <string>Chersonese:Chersonese</string>
+    <string>Chersonese:Chersonese</string>
+    <string>Chersonese:Chersonese</string>
+    <string>Chersonese:Chersonese</string>
+    <string>Chersonese:Chersonese</string>
+    <string>Chersonese:Chersonese</string>
+    <string>Chersonese:Chersonese</string>
+    <string>Chersonese:Chersonese</string>
+    <string>Chersonese:Chersonese</string>
+    <string>Chersonese:Chersonese</string>
+    <string>Chersonese:Chersonese</string>
+    <string>Chersonese:Chersonese</string>
+    <string>Chersonese:Chersonese</string>
+    <string>Chersonese:Chersonese</string>
+    <string>Chersonese:Chersonese</string>
+    <string>Chersonese:Chersonese</string>
+    <string>Chersonese:Chersonese</string>
+    <string>Chersonese:Chersonese</string>
+    <string>Chersonese:Chersonese</string>
+    <string>Chersonese:Chersonese</string>
+    <string>Chersonese:Chersonese</string>
+    <string>Chersonese:Chersonese</string>
+    <string>Chersonese:Chersonese</string>
+    <string>Chersonese:Chersonese</string>
+    <string>Chersonese:Chersonese</string>
+    <string>Chersonese:Chersonese</string>
+    <string>Chersonese:Chersonese</string>
+    <string>Chersonese:Chersonese</string>
+    <string>Chersonese:Chersonese</string>
+    <string>Chersonese:Chersonese</string>
+    <string>Chersonese:Chersonese</string>
+  </Locations_Found>
+  <All_DropTables>
+    <string>DropTable_FishingSpotChersoneseRiver</string>
+  </All_DropTables>
+</ContainerSummary>

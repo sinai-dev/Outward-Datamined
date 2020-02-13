@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<StatusEffectHolder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>Gaberry Wine</Name>
+  <PresetID>539</PresetID>
+  <Lifespan>300</Lifespan>
+  <LengthType>Short</LengthType>
+  <Tags />
+  <CanBeHealedBySleeping>false</CanBeHealedBySleeping>
+  <StraightSleepHealTime>-1</StraightSleepHealTime>
+  <Effects>
+    <EffectHolder xsi:type="AffectStatHolder">
+      <AffectedStat>ManaUse</AffectedStat>
+      <AffectedStat_TagUID>151</AffectedStat_TagUID>
+      <AffectQuantity>-20</AffectQuantity>
+      <IsModifier>true</IsModifier>
+    </EffectHolder>
+    <EffectHolder xsi:type="AffectStatHolder">
+      <AffectedStat>PhysicalResistance</AffectedStat>
+      <AffectedStat_TagUID>113</AffectedStat_TagUID>
+      <AffectQuantity>15</AffectQuantity>
+      <IsModifier>false</IsModifier>
+    </EffectHolder>
+    <EffectHolder xsi:type="AffectStatHolder">
+      <AffectedStat>ImpactResistance</AffectedStat>
+      <AffectedStat_TagUID>84</AffectedStat_TagUID>
+      <AffectQuantity>-15</AffectQuantity>
+      <IsModifier>false</IsModifier>
+    </EffectHolder>
+  </Effects>
+</StatusEffectHolder>

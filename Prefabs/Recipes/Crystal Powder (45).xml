@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RecipeHolder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <StationType>Alchemy</StationType>
+  <Name>Crystal Powder</Name>
+  <RecipeID>45</RecipeID>
+  <Ingredients>
+    <string>Mana Stone</string>
+    <string>Mana Stone</string>
+    <string>Mana Stone</string>
+    <string>Mana Stone</string>
+  </Ingredients>
+  <Results>
+    <ItemQuantityHolder>
+      <ItemName>Crystal Powder</ItemName>
+      <Quantity>1</Quantity>
+    </ItemQuantityHolder>
+  </Results>
+</RecipeHolder>

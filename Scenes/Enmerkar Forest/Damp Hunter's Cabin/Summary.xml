@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SceneSummary xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <SceneName>Damp Hunter's Cabin</SceneName>
+  <Enemies />
+  <Merchants />
+  <Loot_Containers>
+    <QuantityHolder>
+      <Name>Knight’s Corpse</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+  </Loot_Containers>
+  <Gatherables>
+    <QuantityHolder>
+      <Name>Tree</Name>
+      <Quantity>3</Quantity>
+    </QuantityHolder>
+  </Gatherables>
+  <Item_Spawns>
+    <ItemSpawnHolder>
+      <Name>Brutal Greataxe</Name>
+      <Item_ID>2110000</Item_ID>
+      <Quantity>1</Quantity>
+      <positions>
+        <Vector3>
+          <x>0.881</x>
+          <y>2.132</y>
+          <z>6.748</z>
+        </Vector3>
+      </positions>
+    </ItemSpawnHolder>
+    <ItemSpawnHolder>
+      <Name>Predator Bones</Name>
+      <Item_ID>6600050</Item_ID>
+      <Quantity>3</Quantity>
+      <positions>
+        <Vector3>
+          <x>-3.712</x>
+          <y>1.753</y>
+          <z>3.7</z>
+        </Vector3>
+        <Vector3>
+          <x>-4.036756</x>
+          <y>0.802</y>
+          <z>5.042796</z>
+        </Vector3>
+        <Vector3>
+          <x>-3.921</x>
+          <y>0.8007406</y>
+          <z>4.158</z>
+        </Vector3>
+      </positions>
+    </ItemSpawnHolder>
+    <ItemSpawnHolder>
+      <Name>Hide</Name>
+      <Item_ID>6600020</Item_ID>
+      <Quantity>2</Quantity>
+      <positions>
+        <Vector3>
+          <x>-3.538</x>
+          <y>1.763</y>
+          <z>3.485</z>
+        </Vector3>
+        <Vector3>
+          <x>-3.447</x>
+          <y>1.763</y>
+          <z>3.22343</z>
+        </Vector3>
+      </positions>
+    </ItemSpawnHolder>
+  </Item_Spawns>
+</SceneSummary>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ItemHolder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ItemID>4300240</ItemID>
+  <Name>Great Life Potion</Name>
+  <gameObjectName>4300240_MegaHealthPotion</gameObjectName>
+  <saveDir />
+  <Description>Concoction which instantly restores health and max health.
+
+It also closes Bleeding wounds.</Description>
+  <LegacyItemID>-1</LegacyItemID>
+  <StatsHolder>
+    <BaseValue>60</BaseValue>
+    <RawWeight>0.5</RawWeight>
+    <MaxDurability>-1</MaxDurability>
+  </StatsHolder>
+  <Tags>
+    <string>Drink</string>
+    <string>Consummable</string>
+    <string>Item</string>
+  </Tags>
+  <EffectTransforms>
+    <EffectTransformHolder>
+      <TransformName>Effects</TransformName>
+      <Effects>
+        <EffectHolder xsi:type="AffectBurntHealthHolder">
+          <AffectQuantity>20</AffectQuantity>
+          <IsModifier>false</IsModifier>
+        </EffectHolder>
+        <EffectHolder xsi:type="AffectHealthHolder">
+          <AffectQuantity>300</AffectQuantity>
+          <IsModifier>false</IsModifier>
+          <AffectQuanityAI>-99999</AffectQuanityAI>
+        </EffectHolder>
+        <EffectHolder xsi:type="RemoveStatusEffectHolder">
+          <StatusEffect_ByTag>Bleeding</StatusEffect_ByTag>
+          <StatusEffect_Family>Bleeding</StatusEffect_Family>
+          <StatusEffect_ByName />
+        </EffectHolder>
+      </Effects>
+      <EffectConditions />
+      <ChildEffects />
+    </EffectTransformHolder>
+  </EffectTransforms>
+</ItemHolder>

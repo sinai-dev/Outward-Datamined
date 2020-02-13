@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<StatusEffectHolder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>Life Drain 2</Name>
+  <PresetID>542</PresetID>
+  <Lifespan>-1</Lifespan>
+  <LengthType>Long</LengthType>
+  <Tags />
+  <CanBeHealedBySleeping>false</CanBeHealedBySleeping>
+  <StraightSleepHealTime>-1</StraightSleepHealTime>
+  <Effects>
+    <EffectHolder xsi:type="AffectStatHolder">
+      <AffectedStat>MaxHealth</AffectedStat>
+      <AffectedStat_TagUID>77</AffectedStat_TagUID>
+      <AffectQuantity>-60</AffectQuantity>
+      <IsModifier>true</IsModifier>
+    </EffectHolder>
+  </Effects>
+</StatusEffectHolder>

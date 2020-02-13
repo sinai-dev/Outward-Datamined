@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ItemHolder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ItemID>6500140</ItemID>
+  <Name>Charge – Nerve Gas</Name>
+  <gameObjectName>6500140_ChargeTrapNerveGas</gameObjectName>
+  <saveDir />
+  <Description>Gas bladder that, when placed in a Pressure Plate, inflicts Ethereal Damage and Pain to enemies that step on it.</Description>
+  <LegacyItemID>-1</LegacyItemID>
+  <StatsHolder>
+    <BaseValue>10</BaseValue>
+    <RawWeight>0.2</RawWeight>
+    <MaxDurability>-1</MaxDurability>
+  </StatsHolder>
+  <Tags>
+    <string>Misc</string>
+    <string>Item</string>
+    <string>PressurePlateTrapComponent</string>
+  </Tags>
+  <EffectTransforms />
+</ItemHolder>

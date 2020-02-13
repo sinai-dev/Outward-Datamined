@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MerchantHolder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>Tamara the Smuggler</Name>
+  <UID>OjRsqb0O4E2ACtSIFLgTPg</UID>
+  <DropTable>
+    <Name>Levant - Tamara the Smuggler</Name>
+    <Guaranteed_Drops />
+    <Random_Tables>
+      <DropGeneratorHolder>
+        <MinNumberOfDrops>15</MinNumberOfDrops>
+        <MaxNumberOfDrops>15</MaxNumberOfDrops>
+        <MaxDiceValue>340</MaxDiceValue>
+        <EmptyDrop>2.94117641</EmptyDrop>
+        <Item_Drops>
+          <DropTableChanceEntry>
+            <Item_Name>Poison Varnish</Item_Name>
+            <Item_ID>4400021</Item_ID>
+            <Min_Quantity>1</Min_Quantity>
+            <Max_Quantity>1</Max_Quantity>
+            <Drop_Chance>2.94117641</Drop_Chance>
+            <Dice_Range>9</Dice_Range>
+          </DropTableChanceEntry>
+          <DropTableChanceEntry>
+            <Item_Name>Mana Stone</Item_Name>
+            <Item_ID>6400130</Item_ID>
+            <Min_Quantity>1</Min_Quantity>
+            <Max_Quantity>1</Max_Quantity>
+            <Drop_Chance>2.94117641</Drop_Chance>
+            <Dice_Range>9</Dice_Range>
+          </DropTableChanceEntry>
+          <DropTableChanceEntry>
+            <Item_Name>Firefly powder</Item_Name>
+            <Item_ID>6000010</Item_ID>
+            <Min_Quantity>1</Min_Quantity>
+            <Max_Quantity>1</Max_Quantity>
+            <Drop_Chance>2.94117641</Drop_Chance>
+            <Dice_Range>9</Dice_Range>
+          </DropTableChanceEntry>
+          <DropTableChanceEntry>
+            <Item_Name>Pathfinder Armor</Item_Name>
+            <Item_ID>3000224</Item_ID>
+            <Min_Quantity>1</Min_Quantity>
+            <Max_Quantity>1</Max_Quantity>
+            <Drop_Chance>2.94117641</Drop_Chance>
+            <Dice_Range>9</Dice_Range>
+          </DropTableChanceEntry>
+          <DropTableChanceEntry>
+            <Item_Name>Pathfinder Mask</Item_Name>
+            <Item_ID>3000225</Item_ID>
+            <Min_Quantity>1</Min_Quantity>
+            <Max_Quantity>1</Max_Quantity>
+            <Drop_Chance>2.94117641</Drop_Chance>
+            <Dice_Range>9</Dice_Range>
+          </DropTableChanceEntry>
+          <DropTableChanceEntry>
+            <Item_Name>Pathfinder Boots</Item_Name>
+            <Item_ID>3000226</Item_ID>
+            <Min_Quantity>1</Min_Quantity>
+            <Max_Quantity>1</Max_Quantity>
+            <Drop_Chance>2.94117641</Drop_Chance>
+            <Dice_Range>9</Dice_Range>
+          </DropTableChanceEntry>
+          <DropTableChanceEntry>
+            <Item_Name>Manticore Tail</Item_Name>
+            <Item_ID>6600150</Item_ID>
+            <Min_Quantity>1</Min_Quantity>
+            <Max_Quantity>1</Max_Quantity>
+            <Drop_Chance>2.94117641</Drop_Chance>
+            <Dice_Range>9</Dice_Range>
+          </DropTableChanceEntry>
+          <DropTableChanceEntry>
+            <Item_Name>Gold-Lich Mechanism</Item_Name>
+            <Item_ID>6600210</Item_ID>
+            <Min_Quantity>1</Min_Quantity>
+            <Max_Quantity>1</Max_Quantity>
+            <Drop_Chance>2.94117641</Drop_Chance>
+            <Dice_Range>9</Dice_Range>
+          </DropTableChanceEntry>
+          <DropTableChanceEntry>
+            <Item_Name>Horror Chitin</Item_Name>
+            <Item_ID>6600120</Item_ID>
+            <Min_Quantity>1</Min_Quantity>
+            <Max_Quantity>1</Max_Quantity>
+            <Drop_Chance>2.94117641</Drop_Chance>
+            <Dice_Range>9</Dice_Range>
+          </DropTableChanceEntry>
+          <DropTableChanceEntry>
+            <Item_Name>Crystal Powder</Item_Name>
+            <Item_ID>6600040</Item_ID>
+            <Min_Quantity>1</Min_Quantity>
+            <Max_Quantity>1</Max_Quantity>
+            <Drop_Chance>2.94117641</Drop_Chance>
+            <Dice_Range>9</Dice_Range>
+          </DropTableChanceEntry>
+          <DropTableChanceEntry>
+            <Item_Name>Alpha Tuanosaur Tail</Item_Name>
+            <Item_ID>6600190</Item_ID>
+            <Min_Quantity>1</Min_Quantity>
+            <Max_Quantity>1</Max_Quantity>
+            <Drop_Chance>2.94117641</Drop_Chance>
+            <Dice_Range>9</Dice_Range>
+          </DropTableChanceEntry>
+          <DropTableChanceEntry>
+            <Item_Name>Great Life Potion</Item_Name>
+            <Item_ID>4300240</Item_ID>
+            <Min_Quantity>1</Min_Quantity>
+            <Max_Quantity>1</Max_Quantity>
+            <Drop_Chance>2.94117641</Drop_Chance>
+            <Dice_Range>9</Dice_Range>
+          </DropTableChanceEntry>
+          <DropTableChanceEntry>
+            <Item_Name>Great Astral Potion</Item_Name>
+            <Item_ID>4300250</Item_ID>
+            <Min_Quantity>1</Min_Quantity>
+            <Max_Quantity>1</Max_Quantity>
+            <Drop_Chance>2.94117641</Drop_Chance>
+            <Dice_Range>9</Dice_Range>
+          </DropTableChanceEntry>
+          <DropTableChanceEntry>
+            <Item_Name>Great Endurance Potion</Item_Name>
+            <Item_ID>4300260</Item_ID>
+            <Min_Quantity>1</Min_Quantity>
+            <Max_Quantity>1</Max_Quantity>
+            <Drop_Chance>2.94117641</Drop_Chance>
+            <Dice_Range>9</Dice_Range>
+          </DropTableChanceEntry>
+          <DropTableChanceEntry>
+            <Item_Name>Stoneflesh Elixir</Item_Name>
+            <Item_ID>4300200</Item_ID>
+            <Min_Quantity>1</Min_Quantity>
+            <Max_Quantity>1</Max_Quantity>
+            <Drop_Chance>2.94117641</Drop_Chance>
+            <Dice_Range>9</Dice_Range>
+          </DropTableChanceEntry>
+          <DropTableChanceEntry>
+            <Item_Name>Warrior Elixir</Item_Name>
+            <Item_ID>4300210</Item_ID>
+            <Min_Quantity>1</Min_Quantity>
+            <Max_Quantity>1</Max_Quantity>
+            <Drop_Chance>2.94117641</Drop_Chance>
+            <Dice_Range>9</Dice_Range>
+          </DropTableChanceEntry>
+          <DropTableChanceEntry>
+            <Item_Name>Survivor Elixir</Item_Name>
+            <Item_ID>4300220</Item_ID>
+            <Min_Quantity>1</Min_Quantity>
+            <Max_Quantity>1</Max_Quantity>
+            <Drop_Chance>2.94117641</Drop_Chance>
+            <Dice_Range>9</Dice_Range>
+          </DropTableChanceEntry>
+          <DropTableChanceEntry>
+            <Item_Name>Golem Elixir</Item_Name>
+            <Item_ID>4300230</Item_ID>
+            <Min_Quantity>1</Min_Quantity>
+            <Max_Quantity>1</Max_Quantity>
+            <Drop_Chance>2.94117641</Drop_Chance>
+            <Dice_Range>9</Dice_Range>
+          </DropTableChanceEntry>
+          <DropTableChanceEntry>
+            <Item_Name>Pathfinder Claymore</Item_Name>
+            <Item_ID>2100130</Item_ID>
+            <Min_Quantity>1</Min_Quantity>
+            <Max_Quantity>1</Max_Quantity>
+            <Drop_Chance>2.94117641</Drop_Chance>
+            <Dice_Range>9</Dice_Range>
+          </DropTableChanceEntry>
+          <DropTableChanceEntry>
+            <Item_Name>Wolf Sword</Item_Name>
+            <Item_ID>2000030</Item_ID>
+            <Min_Quantity>1</Min_Quantity>
+            <Max_Quantity>1</Max_Quantity>
+            <Drop_Chance>4.41176462</Drop_Chance>
+            <Dice_Range>14</Dice_Range>
+          </DropTableChanceEntry>
+          <DropTableChanceEntry>
+            <Item_Name>Wolf Claymore</Item_Name>
+            <Item_ID>2100010</Item_ID>
+            <Min_Quantity>1</Min_Quantity>
+            <Max_Quantity>1</Max_Quantity>
+            <Drop_Chance>4.41176462</Drop_Chance>
+            <Dice_Range>14</Dice_Range>
+          </DropTableChanceEntry>
+          <DropTableChanceEntry>
+            <Item_Name>Wolf Shield</Item_Name>
+            <Item_ID>2300050</Item_ID>
+            <Min_Quantity>1</Min_Quantity>
+            <Max_Quantity>1</Max_Quantity>
+            <Drop_Chance>4.41176462</Drop_Chance>
+            <Dice_Range>14</Dice_Range>
+          </DropTableChanceEntry>
+          <DropTableChanceEntry>
+            <Item_Name>Wolf Plate Full-Helm</Item_Name>
+            <Item_ID>3100012</Item_ID>
+            <Min_Quantity>1</Min_Quantity>
+            <Max_Quantity>1</Max_Quantity>
+            <Drop_Chance>4.41176462</Drop_Chance>
+            <Dice_Range>14</Dice_Range>
+          </DropTableChanceEntry>
+          <DropTableChanceEntry>
+            <Item_Name>Wolf Plate Boots</Item_Name>
+            <Item_ID>3100013</Item_ID>
+            <Min_Quantity>1</Min_Quantity>
+            <Max_Quantity>1</Max_Quantity>
+            <Drop_Chance>4.41176462</Drop_Chance>
+            <Dice_Range>14</Dice_Range>
+          </DropTableChanceEntry>
+          <DropTableChanceEntry>
+            <Item_Name>Wolf Plate Armor</Item_Name>
+            <Item_ID>3100010</Item_ID>
+            <Min_Quantity>1</Min_Quantity>
+            <Max_Quantity>1</Max_Quantity>
+            <Drop_Chance>4.41176462</Drop_Chance>
+            <Dice_Range>14</Dice_Range>
+          </DropTableChanceEntry>
+          <DropTableChanceEntry>
+            <Item_Name>Giantkind Greataxe</Item_Name>
+            <Item_ID>2110070</Item_ID>
+            <Min_Quantity>1</Min_Quantity>
+            <Max_Quantity>1</Max_Quantity>
+            <Drop_Chance>2.94117641</Drop_Chance>
+            <Dice_Range>9</Dice_Range>
+          </DropTableChanceEntry>
+          <DropTableChanceEntry>
+            <Item_Name>Giantkind Halberd</Item_Name>
+            <Item_ID>2140090</Item_ID>
+            <Min_Quantity>1</Min_Quantity>
+            <Max_Quantity>1</Max_Quantity>
+            <Drop_Chance>2.94117641</Drop_Chance>
+            <Dice_Range>9</Dice_Range>
+          </DropTableChanceEntry>
+          <DropTableChanceEntry>
+            <Item_Name>Occult Remains</Item_Name>
+            <Item_ID>6600110</Item_ID>
+            <Min_Quantity>1</Min_Quantity>
+            <Max_Quantity>1</Max_Quantity>
+            <Drop_Chance>2.94117641</Drop_Chance>
+            <Dice_Range>9</Dice_Range>
+          </DropTableChanceEntry>
+          <DropTableChanceEntry>
+            <Item_Name>Firefly powder</Item_Name>
+            <Item_ID>6000010</Item_ID>
+            <Min_Quantity>1</Min_Quantity>
+            <Max_Quantity>1</Max_Quantity>
+            <Drop_Chance>2.94117641</Drop_Chance>
+            <Dice_Range>9</Dice_Range>
+          </DropTableChanceEntry>
+          <DropTableChanceEntry>
+            <Item_Name>Blue Sand</Item_Name>
+            <Item_ID>6400110</Item_ID>
+            <Min_Quantity>1</Min_Quantity>
+            <Max_Quantity>1</Max_Quantity>
+            <Drop_Chance>2.94117641</Drop_Chance>
+            <Dice_Range>9</Dice_Range>
+          </DropTableChanceEntry>
+        </Item_Drops>
+      </DropGeneratorHolder>
+    </Random_Tables>
+  </DropTable>
+</MerchantHolder>

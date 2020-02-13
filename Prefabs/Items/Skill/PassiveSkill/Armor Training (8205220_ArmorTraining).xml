@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ItemHolder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="SkillHolder">
+  <ItemID>8205220</ItemID>
+  <Name>Armor Training</Name>
+  <gameObjectName>8205220_ArmorTraining</gameObjectName>
+  <saveDir>/Skill/PassiveSkill</saveDir>
+  <Description>Decreases the stamina and movement penalties from wearing armor by 50%</Description>
+  <LegacyItemID>-1</LegacyItemID>
+  <Tags />
+  <EffectTransforms>
+    <EffectTransformHolder>
+      <TransformName>Passive</TransformName>
+      <Effects>
+        <EffectHolder xsi:type="AffectStatHolder">
+          <AffectedStat>MovementSpeed</AffectedStat>
+          <AffectedStat_TagUID>86</AffectedStat_TagUID>
+          <AffectQuantity>50</AffectQuantity>
+          <IsModifier>true</IsModifier>
+        </EffectHolder>
+        <EffectHolder xsi:type="AffectStatHolder">
+          <AffectedStat>StaminaCostReduction</AffectedStat>
+          <AffectedStat_TagUID>150</AffectedStat_TagUID>
+          <AffectQuantity>10</AffectQuantity>
+          <IsModifier>true</IsModifier>
+        </EffectHolder>
+        <EffectHolder xsi:type="AffectStatHolder">
+          <AffectedStat>HeatRegen</AffectedStat>
+          <AffectedStat_TagUID>149</AffectedStat_TagUID>
+          <AffectQuantity>50</AffectQuantity>
+          <IsModifier>true</IsModifier>
+        </EffectHolder>
+      </Effects>
+      <EffectConditions />
+      <ChildEffects />
+    </EffectTransformHolder>
+  </EffectTransforms>
+  <Cooldown>0</Cooldown>
+  <StaminaCost>0</StaminaCost>
+  <ManaCost>0</ManaCost>
+  <DurabilityCost>0</DurabilityCost>
+  <DurabilityCostPercent>0</DurabilityCostPercent>
+  <IsDLCSkill>true</IsDLCSkill>
+  <RequiredItems />
+</ItemHolder>

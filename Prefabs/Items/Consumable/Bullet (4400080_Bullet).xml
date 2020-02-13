@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ItemHolder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ItemID>4400080</ItemID>
+  <Name>Bullet</Name>
+  <gameObjectName>4400080_Bullet</gameObjectName>
+  <saveDir />
+  <Description>Ammunition for pistols, crafted from iron and oil.
+
+Pistol skills often still require bullets.</Description>
+  <LegacyItemID>-1</LegacyItemID>
+  <StatsHolder>
+    <BaseValue>3</BaseValue>
+    <RawWeight>0.1</RawWeight>
+    <MaxDurability>-1</MaxDurability>
+  </StatsHolder>
+  <Tags>
+    <string>Misc</string>
+    <string>Item</string>
+    <string>Fuel</string>
+    <string>Material</string>
+    <string>Ingredient</string>
+    <string>Ammo</string>
+    <string>Consummable</string>
+  </Tags>
+  <EffectTransforms />
+</ItemHolder>

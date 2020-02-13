@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<EnemyHolder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>Jade-Lich Acolyte</Name>
+  <GameObject_Name>NewBanditEquip_JadeLichAcolyteLieutenant_B</GameObject_Name>
+  <Unique_ID>1</Unique_ID>
+  <Locations_Found>
+    <string>Hallowed Marsh:Dark Ziggurat Interior</string>
+  </Locations_Found>
+  <Max_Health>150</Max_Health>
+  <Health_Regen_Per_Second>0</Health_Regen_Per_Second>
+  <Impact_Resistance>45</Impact_Resistance>
+  <Protection>
+    <float>15</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+  </Protection>
+  <Damage_Resistances>
+    <float>24</float>
+    <float>65</float>
+    <float>100</float>
+    <float>25</float>
+    <float>65</float>
+    <float>65</float>
+    <float>20</float>
+    <float>0</float>
+    <float>0</float>
+  </Damage_Resistances>
+  <Damage_Bonuses>
+    <float>145</float>
+    <float>45</float>
+    <float>45</float>
+    <float>45</float>
+    <float>45</float>
+    <float>45</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+  </Damage_Bonuses>
+  <Collider_Radius>0.4</Collider_Radius>
+  <True_WeaponDamage>
+    <Damages>
+      <Damage>53.2875</Damage>
+      <Damage_Type>Physical</Damage_Type>
+    </Damages>
+    <Damages>
+      <Damage>10.5125</Damage>
+      <Damage_Type>Decay</Damage_Type>
+    </Damages>
+  </True_WeaponDamage>
+  <Weapon_Impact>32</Weapon_Impact>
+  <Status_Immunities />
+  <Starting_Equipment>
+    <string>Jade Acolyte Cowl (3000045)</string>
+    <string>Jade Acolyte Robes (3000044)</string>
+    <string>Jade Acolyte Boots (3000046)</string>
+    <string>Jade-Lich Mace  (2020030)</string>
+    <string>Stat Booster 3 (5400020)</string>
+  </Starting_Equipment>
+  <Skill_Knowledge />
+  <Faction>Bandits</Faction>
+  <Allied_To_Same_Faction>true</Allied_To_Same_Faction>
+  <Guaranteed_Drops>
+    <DropTableEntry>
+      <Item_Name>Jade-Lich Mace </Item_Name>
+      <Item_ID>2020030</Item_ID>
+      <Min_Quantity>1</Min_Quantity>
+      <Max_Quantity>1</Max_Quantity>
+    </DropTableEntry>
+    <DropTableEntry>
+      <Item_Name>Jade-Lich Mace </Item_Name>
+      <Item_ID>2020030</Item_ID>
+      <Min_Quantity>1</Min_Quantity>
+      <Max_Quantity>1</Max_Quantity>
+    </DropTableEntry>
+  </Guaranteed_Drops>
+  <DropTable_Names>
+    <string>DropTable_JadeLichAcolyte</string>
+  </DropTable_Names>
+</EnemyHolder>

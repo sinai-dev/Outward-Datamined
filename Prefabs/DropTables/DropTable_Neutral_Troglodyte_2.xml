@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DroptableHolder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>DropTable_Neutral_Troglodyte_2</Name>
+  <Guaranteed_Drops />
+  <Random_Tables>
+    <DropGeneratorHolder>
+      <MinNumberOfDrops>2</MinNumberOfDrops>
+      <MaxNumberOfDrops>2</MaxNumberOfDrops>
+      <MaxDiceValue>155</MaxDiceValue>
+      <EmptyDrop>0</EmptyDrop>
+      <Item_Drops>
+        <DropTableChanceEntry>
+          <Item_Name>Star Mushroom</Item_Name>
+          <Item_ID>4000180</Item_ID>
+          <Min_Quantity>1</Min_Quantity>
+          <Max_Quantity>2</Max_Quantity>
+          <Drop_Chance>6.45161247</Drop_Chance>
+          <Dice_Range>9</Dice_Range>
+        </DropTableChanceEntry>
+        <DropTableChanceEntry>
+          <Item_Name>Common Mushroom</Item_Name>
+          <Item_ID>4000220</Item_ID>
+          <Min_Quantity>1</Min_Quantity>
+          <Max_Quantity>2</Max_Quantity>
+          <Drop_Chance>6.45161247</Drop_Chance>
+          <Dice_Range>9</Dice_Range>
+        </DropTableChanceEntry>
+        <DropTableChanceEntry>
+          <Item_Name>Blood Mushroom</Item_Name>
+          <Item_ID>4000150</Item_ID>
+          <Min_Quantity>1</Min_Quantity>
+          <Max_Quantity>2</Max_Quantity>
+          <Drop_Chance>6.45161247</Drop_Chance>
+          <Dice_Range>9</Dice_Range>
+        </DropTableChanceEntry>
+        <DropTableChanceEntry>
+          <Item_Name>Mushroom Shield</Item_Name>
+          <Item_ID>2300150</Item_ID>
+          <Min_Quantity>1</Min_Quantity>
+          <Max_Quantity>1</Max_Quantity>
+          <Drop_Chance>3.22580624</Drop_Chance>
+          <Dice_Range>4</Dice_Range>
+        </DropTableChanceEntry>
+        <DropTableChanceEntry>
+          <Item_Name>Wood</Item_Name>
+          <Item_ID>6100010</Item_ID>
+          <Min_Quantity>1</Min_Quantity>
+          <Max_Quantity>3</Max_Quantity>
+          <Drop_Chance>6.45161247</Drop_Chance>
+          <Dice_Range>9</Dice_Range>
+        </DropTableChanceEntry>
+        <DropTableChanceEntry>
+          <Item_Name>Thick Oil</Item_Name>
+          <Item_ID>6600070</Item_ID>
+          <Min_Quantity>1</Min_Quantity>
+          <Max_Quantity>2</Max_Quantity>
+          <Drop_Chance>6.45161247</Drop_Chance>
+          <Dice_Range>9</Dice_Range>
+        </DropTableChanceEntry>
+        <DropTableChanceEntry>
+          <Item_Name>Fungal Cleanser</Item_Name>
+          <Item_ID>4100510</Item_ID>
+          <Min_Quantity>1</Min_Quantity>
+          <Max_Quantity>2</Max_Quantity>
+          <Drop_Chance>6.45161247</Drop_Chance>
+          <Dice_Range>9</Dice_Range>
+        </DropTableChanceEntry>
+        <DropTableChanceEntry>
+          <Item_Name>Miner’s Omelet</Item_Name>
+          <Item_ID>4100280</Item_ID>
+          <Min_Quantity>1</Min_Quantity>
+          <Max_Quantity>2</Max_Quantity>
+          <Drop_Chance>6.45161247</Drop_Chance>
+          <Dice_Range>9</Dice_Range>
+        </DropTableChanceEntry>
+        <DropTableChanceEntry>
+          <Item_Name>Hex Cleaner</Item_Name>
+          <Item_ID>4300190</Item_ID>
+          <Min_Quantity>1</Min_Quantity>
+          <Max_Quantity>2</Max_Quantity>
+          <Drop_Chance>6.45161247</Drop_Chance>
+          <Dice_Range>9</Dice_Range>
+        </DropTableChanceEntry>
+        <DropTableChanceEntry>
+          <Item_Name>Iron Scrap</Item_Name>
+          <Item_ID>6400140</Item_ID>
+          <Min_Quantity>1</Min_Quantity>
+          <Max_Quantity>3</Max_Quantity>
+          <Drop_Chance>6.45161247</Drop_Chance>
+          <Dice_Range>9</Dice_Range>
+        </DropTableChanceEntry>
+        <DropTableChanceEntry>
+          <Item_Name>Poison Rag</Item_Name>
+          <Item_ID>4400020</Item_ID>
+          <Min_Quantity>1</Min_Quantity>
+          <Max_Quantity>2</Max_Quantity>
+          <Drop_Chance>6.45161247</Drop_Chance>
+          <Dice_Range>9</Dice_Range>
+        </DropTableChanceEntry>
+        <DropTableChanceEntry>
+          <Item_Name>Bolt Rag</Item_Name>
+          <Item_ID>4400030</Item_ID>
+          <Min_Quantity>1</Min_Quantity>
+          <Max_Quantity>2</Max_Quantity>
+          <Drop_Chance>6.45161247</Drop_Chance>
+          <Dice_Range>9</Dice_Range>
+        </DropTableChanceEntry>
+        <DropTableChanceEntry>
+          <Item_Name>Fire Rag</Item_Name>
+          <Item_ID>4400040</Item_ID>
+          <Min_Quantity>1</Min_Quantity>
+          <Max_Quantity>2</Max_Quantity>
+          <Drop_Chance>6.45161247</Drop_Chance>
+          <Dice_Range>9</Dice_Range>
+        </DropTableChanceEntry>
+        <DropTableChanceEntry>
+          <Item_Name>Ice Rag</Item_Name>
+          <Item_ID>4400050</Item_ID>
+          <Min_Quantity>1</Min_Quantity>
+          <Max_Quantity>2</Max_Quantity>
+          <Drop_Chance>6.45161247</Drop_Chance>
+          <Dice_Range>9</Dice_Range>
+        </DropTableChanceEntry>
+        <DropTableChanceEntry>
+          <Item_Name>Linen Cloth</Item_Name>
+          <Item_ID>6500090</Item_ID>
+          <Min_Quantity>1</Min_Quantity>
+          <Max_Quantity>3</Max_Quantity>
+          <Drop_Chance>6.45161247</Drop_Chance>
+          <Dice_Range>9</Dice_Range>
+        </DropTableChanceEntry>
+        <DropTableChanceEntry>
+          <Item_Name>Silver</Item_Name>
+          <Item_ID>9000010</Item_ID>
+          <Min_Quantity>3</Min_Quantity>
+          <Max_Quantity>10</Max_Quantity>
+          <Drop_Chance>6.45161247</Drop_Chance>
+          <Dice_Range>9</Dice_Range>
+        </DropTableChanceEntry>
+      </Item_Drops>
+    </DropGeneratorHolder>
+  </Random_Tables>
+</DroptableHolder>

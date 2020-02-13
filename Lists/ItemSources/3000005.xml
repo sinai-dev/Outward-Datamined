@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ItemSource xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ItemName>Dark Green Garb</ItemName>
+  <ItemID>3000005</ItemID>
+  <Container_Sources>
+    <string>Hollowed Trunk (Chersonese:Shipwreck Beach)</string>
+    <string>Stash (Chersonese:Cierzo)</string>
+    <string>Junk Pile (Chersonese:Cierzo)</string>
+    <string>Junk Pile (Chersonese:Cierzo)</string>
+    <string>Junk Pile (Chersonese:Cierzo (Destroyed))</string>
+    <string>Junk Pile (Chersonese:Cierzo (Destroyed))</string>
+    <string>Junk Pile (Chersonese:Cierzo (Destroyed))</string>
+    <string>Worker’s Corpse (Chersonese:Chersonese)</string>
+    <string>Looter’s Corpse (Chersonese:Vendavel Fortress)</string>
+    <string>Junk Pile (Chersonese:Holy Mission’s Conflux Path)</string>
+    <string>Junk Pile (Chersonese:Holy Mission’s Conflux Path)</string>
+    <string>Junk Pile (Chersonese:Corrupted Tombs)</string>
+    <string>Looter’s Corpse (Chersonese:Corrupted Tombs)</string>
+    <string>Junk Pile (Chersonese:Montcalm Clan Fort)</string>
+    <string>Junk Pile (Hallowed Marsh:Monsoon)</string>
+    <string>Junk Pile (Hallowed Marsh:Monsoon)</string>
+    <string>Junk Pile (Hallowed Marsh:Monsoon)</string>
+    <string>Junk Pile (Hallowed Marsh:Monsoon)</string>
+    <string>Looter’s Corpse (Hallowed Marsh:Hallowed Marsh)</string>
+    <string>Junk Pile (Abrassar:Levant)</string>
+    <string>Junk Pile (Abrassar:Levant)</string>
+    <string>Junk Pile (Abrassar:Levant)</string>
+    <string>Worker’s Corpse (Abrassar:Levant)</string>
+    <string>Junk Pile (Abrassar:Levant)</string>
+    <string>Junk Pile (Abrassar:Levant)</string>
+    <string>Worker’s Corpse (Abrassar:Levant)</string>
+    <string>Worker’s Corpse (Abrassar:Stone Titan Caves)</string>
+    <string>Worker’s Corpse (Abrassar:Sand Rose Cave)</string>
+    <string>Chest (Enmerkar Forest:Berg)</string>
+    <string>Junk Pile (Enmerkar Forest:Berg)</string>
+    <string>Junk Pile (Enmerkar Forest:Berg)</string>
+    <string>Junk Pile (Enmerkar Forest:Berg)</string>
+    <string>Chest (Enmerkar Forest:Enmerkar Forest)</string>
+    <string>Worker’s Corpse (Enmerkar Forest:Royal Manticore’s Lair)</string>
+  </Container_Sources>
+  <Spawn_Sources />
+</ItemSource>

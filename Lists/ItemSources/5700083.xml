@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ItemSource xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ItemName>Crafting: Mantis Greatpick</ItemName>
+  <ItemID>5700083</ItemID>
+  <Container_Sources>
+    <string>Ornate Chest (Abrassar:Abrassar)</string>
+    <string>Ornate Chest (Abrassar:Abrassar)</string>
+    <string>Ornate Chest (Abrassar:Abrassar)</string>
+    <string>Ornate Chest (Abrassar:Abrassar)</string>
+    <string>Ornate Chest (Abrassar:Abrassar)</string>
+    <string>Ornate Chest (Abrassar:Abrassar)</string>
+    <string>Ornate Chest (Abrassar:Abrassar)</string>
+    <string>Chest (Abrassar:Undercity Passage)</string>
+    <string>Ornate Chest (Abrassar:Undercity Passage)</string>
+    <string>Chest (Abrassar:The Slide)</string>
+    <string>Junk Pile (Abrassar:Stone Titan Caves)</string>
+    <string>Chest (Abrassar:Stone Titan Caves)</string>
+    <string>Knight’s Corpse (Abrassar:Ancient Hive)</string>
+    <string>Ornate Chest (Abrassar:Sand Rose Cave)</string>
+    <string>Chest (Abrassar:Corsair's Headquarters)</string>
+    <string>Chest (Abrassar:Ruined Outpost)</string>
+    <string>Chest (Abrassar:Immaculate's Camp)</string>
+    <string>Chest (Abrassar:Hive Prison)</string>
+    <string>Chest (Abrassar:River's End)</string>
+    <string>Chest (Abrassar:Captain's Cabin)</string>
+  </Container_Sources>
+  <Spawn_Sources />
+</ItemSource>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<EnemyHolder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>Marsh Captain</Name>
+  <GameObject_Name>NewBanditEquip_MarshCaptain1_B</GameObject_Name>
+  <Unique_ID>2</Unique_ID>
+  <Locations_Found>
+    <string>Enmerkar Forest:Enmerkar Forest</string>
+  </Locations_Found>
+  <Max_Health>200</Max_Health>
+  <Health_Regen_Per_Second>0</Health_Regen_Per_Second>
+  <Impact_Resistance>56</Impact_Resistance>
+  <Protection>
+    <float>14</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+  </Protection>
+  <Damage_Resistances>
+    <float>46</float>
+    <float>40</float>
+    <float>45</float>
+    <float>40</float>
+    <float>40</float>
+    <float>40</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+  </Damage_Resistances>
+  <Damage_Bonuses>
+    <float>30</float>
+    <float>30</float>
+    <float>30</float>
+    <float>30</float>
+    <float>30</float>
+    <float>30</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+  </Damage_Bonuses>
+  <Collider_Radius>0.4</Collider_Radius>
+  <True_WeaponDamage>
+    <Damages>
+      <Damage>41.6</Damage>
+      <Damage_Type>Physical</Damage_Type>
+    </Damages>
+  </True_WeaponDamage>
+  <Weapon_Impact>33</Weapon_Impact>
+  <Status_Immunities />
+  <Starting_Equipment>
+    <string>Pathfinder Mask (3000225)</string>
+    <string>Pathfinder Armor (3000224)</string>
+    <string>Pathfinder Boots (3000226)</string>
+    <string>Prayer Claymore (2100000)</string>
+    <string>Stat Booster 2 (5400010)</string>
+  </Starting_Equipment>
+  <Skill_Knowledge>
+    <string>Push Kick</string>
+  </Skill_Knowledge>
+  <Faction>Bandits</Faction>
+  <Allied_To_Same_Faction>true</Allied_To_Same_Faction>
+  <Guaranteed_Drops>
+    <DropTableEntry>
+      <Item_Name>Prayer Claymore</Item_Name>
+      <Item_ID>2100000</Item_ID>
+      <Min_Quantity>1</Min_Quantity>
+      <Max_Quantity>1</Max_Quantity>
+    </DropTableEntry>
+    <DropTableEntry>
+      <Item_Name>Stringy Salad</Item_Name>
+      <Item_ID>4100520</Item_ID>
+      <Min_Quantity>2</Min_Quantity>
+      <Max_Quantity>2</Max_Quantity>
+    </DropTableEntry>
+    <DropTableEntry>
+      <Item_Name>Cooking: Stringy Salad</Item_Name>
+      <Item_ID>5700070</Item_ID>
+      <Min_Quantity>1</Min_Quantity>
+      <Max_Quantity>1</Max_Quantity>
+    </DropTableEntry>
+  </Guaranteed_Drops>
+  <DropTable_Names>
+    <string>DropTable_BanditMelee_HallowedMarsh_High</string>
+  </DropTable_Names>
+</EnemyHolder>

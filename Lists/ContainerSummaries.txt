@@ -1,0 +1,50 @@
+Tree
+Junk Pile
+Hollowed Trunk
+Gaberries
+Seaweed
+Stash
+Ornate Chest
+Chest
+Fishing Spot (DropTable_FishingSpotChersoneseBeach)
+Crabeye
+Supply Cache
+Broken Tent
+Adventurer’s Corpse
+Soldier’s Corpse
+Worker’s Corpse
+Turmmip
+Fishing Spot (DropTable_FishingSpotChersoneseRiver)
+Mana Stone
+Iron vein
+Salt Crystal
+Pearlbird Nest
+Oil
+Blue Sand
+Ammolite
+Rich Iron vein
+Ghost Plant
+Greasy Fern
+Looter’s Corpse
+Star Mushroom
+Blood Mushroom
+Green Mushroom
+Corpse
+Trog Chest
+Palladium vein
+Fishing Spot (DropTable_FishingSpotChersoneseCave)
+Scavenger’s Corpse
+Knight’s Corpse
+Legacy Chest
+Livweedi
+Krimp
+Firefly Powder
+Marshmelon
+Fishing Spot (DropTable_FishingSpotHallowedMarsh)
+Cactus
+Smoke Root
+Woolshroom
+Yellow Copal
+Petrified Wood
+Fishing Spot (DropTable_FishingSpotEmercarA)
+Fishing Spot (DropTable_FishingSpotEmercarB)

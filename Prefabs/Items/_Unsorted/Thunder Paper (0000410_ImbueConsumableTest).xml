@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ItemHolder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ItemID>410</ItemID>
+  <Name>Thunder Paper</Name>
+  <gameObjectName>0000410_ImbueConsumableTest</gameObjectName>
+  <saveDir />
+  <Description />
+  <LegacyItemID>-1</LegacyItemID>
+  <Tags />
+  <EffectTransforms>
+    <EffectTransformHolder>
+      <TransformName>Effect</TransformName>
+      <Effects>
+        <EffectHolder xsi:type="ImbueWeaponHolder">
+          <Lifespan>10</Lifespan>
+          <ImbueEffect_Preset_Name>StatusEffect_Imbue_BlessedWeaponTest_Name</ImbueEffect_Preset_Name>
+          <ImbueEffect_Preset_ID>999</ImbueEffect_Preset_ID>
+          <Imbue_Slot>MainHand</Imbue_Slot>
+        </EffectHolder>
+      </Effects>
+      <EffectConditions />
+      <ChildEffects />
+    </EffectTransformHolder>
+  </EffectTransforms>
+</ItemHolder>

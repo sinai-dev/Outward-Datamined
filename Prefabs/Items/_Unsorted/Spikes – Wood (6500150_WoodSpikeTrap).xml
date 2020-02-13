@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ItemHolder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ItemID>6500150</ItemID>
+  <Name>Spikes – Wood</Name>
+  <gameObjectName>6500150_WoodSpikeTrap</gameObjectName>
+  <saveDir />
+  <Description>Spikes that must be placed in a Tripwire Trap, inflicting low damage to enemies that step on it.</Description>
+  <LegacyItemID>-1</LegacyItemID>
+  <StatsHolder>
+    <BaseValue>0</BaseValue>
+    <RawWeight>0.1</RawWeight>
+    <MaxDurability>-1</MaxDurability>
+  </StatsHolder>
+  <Tags>
+    <string>Misc</string>
+    <string>Item</string>
+    <string>TripWireTrapComponent</string>
+  </Tags>
+  <EffectTransforms />
+</ItemHolder>

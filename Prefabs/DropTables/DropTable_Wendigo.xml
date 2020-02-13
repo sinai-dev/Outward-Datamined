@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DroptableHolder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>DropTable_Wendigo</Name>
+  <Guaranteed_Drops>
+    <DropTableEntry>
+      <Item_Name>Predator Bones</Item_Name>
+      <Item_ID>6600050</Item_ID>
+      <Min_Quantity>1</Min_Quantity>
+      <Max_Quantity>1</Max_Quantity>
+    </DropTableEntry>
+    <DropTableEntry>
+      <Item_Name>Occult Remains</Item_Name>
+      <Item_ID>6600110</Item_ID>
+      <Min_Quantity>1</Min_Quantity>
+      <Max_Quantity>1</Max_Quantity>
+    </DropTableEntry>
+    <DropTableEntry>
+      <Item_Name>Cold Stone</Item_Name>
+      <Item_ID>6500020</Item_ID>
+      <Min_Quantity>1</Min_Quantity>
+      <Max_Quantity>3</Max_Quantity>
+    </DropTableEntry>
+    <DropTableEntry>
+      <Item_Name>Small Sapphire</Item_Name>
+      <Item_ID>6200100</Item_ID>
+      <Min_Quantity>1</Min_Quantity>
+      <Max_Quantity>1</Max_Quantity>
+    </DropTableEntry>
+  </Guaranteed_Drops>
+  <Random_Tables />
+</DroptableHolder>

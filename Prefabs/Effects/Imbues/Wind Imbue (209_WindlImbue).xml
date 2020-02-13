@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<StatusEffectHolder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>Wind Imbue</Name>
+  <PresetID>209</PresetID>
+  <Lifespan>0</Lifespan>
+  <Tags />
+  <CanBeHealedBySleeping>false</CanBeHealedBySleeping>
+  <StraightSleepHealTime>-1</StraightSleepHealTime>
+  <Effects>
+    <EffectHolder xsi:type="AffectStatHolder">
+      <AffectedStat>AttackSpeed</AffectedStat>
+      <AffectedStat_TagUID>232</AffectedStat_TagUID>
+      <AffectQuantity>20</AffectQuantity>
+      <IsModifier>true</IsModifier>
+    </EffectHolder>
+    <EffectHolder xsi:type="AffectStatHolder">
+      <AffectedStat>Impact</AffectedStat>
+      <AffectedStat_TagUID>95</AffectedStat_TagUID>
+      <AffectQuantity>50</AffectQuantity>
+      <IsModifier>true</IsModifier>
+    </EffectHolder>
+    <EffectHolder xsi:type="AffectStatHolder">
+      <AffectedStat>StaminaBurn</AffectedStat>
+      <AffectedStat_TagUID>162</AffectedStat_TagUID>
+      <AffectQuantity>100</AffectQuantity>
+      <IsModifier>true</IsModifier>
+    </EffectHolder>
+  </Effects>
+</StatusEffectHolder>

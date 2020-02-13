@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ItemHolder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="SkillHolder">
+  <ItemID>8100121</ItemID>
+  <Name>Sweep Kick</Name>
+  <gameObjectName>8100121_SweepKick</gameObjectName>
+  <saveDir>/Skill/AttackSkill/MeleeSkill</saveDir>
+  <Description>Weak attack with a wide arc of effect and high Impact. Will knock down a target afflicted by the Confusion status effect.</Description>
+  <LegacyItemID>-1</LegacyItemID>
+  <Tags />
+  <EffectTransforms>
+    <EffectTransformHolder>
+      <TransformName>HitEffects</TransformName>
+      <Effects>
+        <EffectHolder xsi:type="PunctualDamageHolder">
+          <Damage>
+            <Damages>
+              <Damage>10</Damage>
+              <Damage_Type>Physical</Damage_Type>
+            </Damages>
+          </Damage>
+          <Damages_AI />
+          <Knockback>85</Knockback>
+          <HitInventory>true</HitInventory>
+        </EffectHolder>
+      </Effects>
+      <EffectConditions />
+      <ChildEffects />
+    </EffectTransformHolder>
+    <EffectTransformHolder>
+      <TransformName>HitEffectsConfusion</TransformName>
+      <Effects>
+        <EffectHolder xsi:type="PunctualDamageHolder">
+          <Damage>
+            <Damages>
+              <Damage>10</Damage>
+              <Damage_Type>Physical</Damage_Type>
+            </Damages>
+          </Damage>
+          <Damages_AI />
+          <Knockback>99999</Knockback>
+          <HitInventory>true</HitInventory>
+        </EffectHolder>
+      </Effects>
+      <EffectConditions>
+        <EffectConditionHolder>
+          <Conditions>
+            <ConditionHolder>
+              <Requirement>Confusion</Requirement>
+              <Condition_Type>Status Effect</Condition_Type>
+              <Invert>false</Invert>
+            </ConditionHolder>
+          </Conditions>
+        </EffectConditionHolder>
+      </EffectConditions>
+      <ChildEffects />
+    </EffectTransformHolder>
+  </EffectTransforms>
+  <Cooldown>15</Cooldown>
+  <StaminaCost>12</StaminaCost>
+  <ManaCost>0</ManaCost>
+  <DurabilityCost>0</DurabilityCost>
+  <DurabilityCostPercent>0</DurabilityCostPercent>
+  <IsDLCSkill>true</IsDLCSkill>
+  <RequiredItems />
+</ItemHolder>

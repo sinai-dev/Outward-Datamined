@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ItemHolder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="EquipmentHolder">
+  <ItemID>3100193</ItemID>
+  <Name>Master Kazite Cat Mask</Name>
+  <gameObjectName>3100193_KaziteArmorHelmBLegacy</gameObjectName>
+  <saveDir>/Equipment/Armor</saveDir>
+  <Description />
+  <LegacyItemID>-1</LegacyItemID>
+  <StatsHolder xsi:type="EquipmentStatsHolder">
+    <BaseValue>300</BaseValue>
+    <RawWeight>3</RawWeight>
+    <MaxDurability>345</MaxDurability>
+    <Damage_Resistance>
+      <float>12</float>
+      <float>0</float>
+      <float>5</float>
+      <float>0</float>
+      <float>0</float>
+      <float>0</float>
+      <float>0</float>
+      <float>0</float>
+      <float>0</float>
+    </Damage_Resistance>
+    <Impact_Resistance>12</Impact_Resistance>
+    <Damage_Protection>1</Damage_Protection>
+    <Damage_Bonus>
+      <float>0</float>
+      <float>0</float>
+      <float>0</float>
+      <float>0</float>
+      <float>0</float>
+      <float>0</float>
+      <float>0</float>
+      <float>0</float>
+      <float>0</float>
+    </Damage_Bonus>
+    <Stamina_Use_Penalty>-6</Stamina_Use_Penalty>
+    <Mana_Use_Modifier>10</Mana_Use_Modifier>
+    <Movement_Penalty>0</Movement_Penalty>
+    <Pouch_Bonus>0</Pouch_Bonus>
+    <Heat_Protection>0</Heat_Protection>
+    <Cold_Protection>0</Cold_Protection>
+    <Corruption_Protection>0</Corruption_Protection>
+  </StatsHolder>
+  <Tags>
+    <string>Helmet</string>
+    <string>Equipment</string>
+    <string>Item</string>
+  </Tags>
+  <EffectTransforms />
+  <EquipmentSlot>Helmet</EquipmentSlot>
+  <IKType>None</IKType>
+  <TwoHandType>None</TwoHandType>
+  <VisualDetectabilityAdd>0</VisualDetectabilityAdd>
+  <ArmorClass>Medium</ArmorClass>
+</ItemHolder>

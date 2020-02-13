@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ItemHolder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ItemID>6600040</ItemID>
+  <Name>Crystal Powder</Name>
+  <gameObjectName>6600040_CrystalPowder</gameObjectName>
+  <saveDir>/Food</saveDir>
+  <Description>Refined mana crystal used to craft powerful equipment.
+
+Consuming this powder restores mana, burnt mana and burnt stamina. However, it burns maximum health until one sleeps again.</Description>
+  <LegacyItemID>-1</LegacyItemID>
+  <StatsHolder>
+    <BaseValue>47</BaseValue>
+    <RawWeight>0.1</RawWeight>
+    <MaxDurability>-1</MaxDurability>
+  </StatsHolder>
+  <Tags>
+    <string>Ingredient</string>
+    <string>Item</string>
+    <string>Misc</string>
+  </Tags>
+  <EffectTransforms>
+    <EffectTransformHolder>
+      <TransformName>Effects</TransformName>
+      <Effects>
+        <EffectHolder xsi:type="AffectBurntHealthHolder">
+          <AffectQuantity>-10</AffectQuantity>
+          <IsModifier>false</IsModifier>
+        </EffectHolder>
+        <EffectHolder xsi:type="AffectBurntStaminaHolder">
+          <AffectQuantity>20</AffectQuantity>
+          <IsModifier>false</IsModifier>
+        </EffectHolder>
+        <EffectHolder xsi:type="AffectBurntManaHolder">
+          <AffectQuantity>50</AffectQuantity>
+          <IsModifier>false</IsModifier>
+        </EffectHolder>
+        <EffectHolder xsi:type="AffectManaHolder">
+          <AffectQuantity>25</AffectQuantity>
+          <IsModifier>false</IsModifier>
+        </EffectHolder>
+      </Effects>
+      <EffectConditions />
+      <ChildEffects />
+    </EffectTransformHolder>
+  </EffectTransforms>
+</ItemHolder>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ItemHolder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="EquipmentHolder">
+  <ItemID>3100020</ItemID>
+  <Name>Petrified Wood Armor</Name>
+  <gameObjectName>3100020_PetrifiedArmor</gameObjectName>
+  <saveDir>/Equipment/Armor</saveDir>
+  <Description />
+  <LegacyItemID>-1</LegacyItemID>
+  <StatsHolder xsi:type="EquipmentStatsHolder">
+    <BaseValue>440</BaseValue>
+    <RawWeight>10</RawWeight>
+    <MaxDurability>235</MaxDurability>
+    <Damage_Resistance>
+      <float>18</float>
+      <float>0</float>
+      <float>0</float>
+      <float>0</float>
+      <float>0</float>
+      <float>30</float>
+      <float>0</float>
+      <float>0</float>
+      <float>0</float>
+    </Damage_Resistance>
+    <Impact_Resistance>17</Impact_Resistance>
+    <Damage_Protection>2</Damage_Protection>
+    <Damage_Bonus>
+      <float>0</float>
+      <float>0</float>
+      <float>0</float>
+      <float>0</float>
+      <float>0</float>
+      <float>0</float>
+      <float>0</float>
+      <float>0</float>
+      <float>0</float>
+    </Damage_Bonus>
+    <Stamina_Use_Penalty>3</Stamina_Use_Penalty>
+    <Mana_Use_Modifier>0</Mana_Use_Modifier>
+    <Movement_Penalty>3</Movement_Penalty>
+    <Pouch_Bonus>0</Pouch_Bonus>
+    <Heat_Protection>10</Heat_Protection>
+    <Cold_Protection>0</Cold_Protection>
+    <Corruption_Protection>0</Corruption_Protection>
+  </StatsHolder>
+  <Tags>
+    <string>Armor</string>
+    <string>Equipment</string>
+    <string>Item</string>
+  </Tags>
+  <EffectTransforms />
+  <EquipmentSlot>Chest</EquipmentSlot>
+  <IKType>None</IKType>
+  <TwoHandType>None</TwoHandType>
+  <VisualDetectabilityAdd>0</VisualDetectabilityAdd>
+  <ArmorClass>Medium</ArmorClass>
+</ItemHolder>

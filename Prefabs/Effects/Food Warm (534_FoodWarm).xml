@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<StatusEffectHolder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>Food Warm</Name>
+  <PresetID>534</PresetID>
+  <Lifespan>900</Lifespan>
+  <LengthType>Short</LengthType>
+  <Tags>
+    <string>Warm</string>
+    <string>Boon</string>
+    <string>Status Type</string>
+  </Tags>
+  <CanBeHealedBySleeping>false</CanBeHealedBySleeping>
+  <StraightSleepHealTime>-1</StraightSleepHealTime>
+  <Effects>
+    <EffectHolder xsi:type="AffectStatHolder">
+      <AffectedStat>FireDamage</AffectedStat>
+      <AffectedStat_TagUID>102</AffectedStat_TagUID>
+      <AffectQuantity>10</AffectQuantity>
+      <IsModifier>true</IsModifier>
+    </EffectHolder>
+    <EffectHolder xsi:type="AffectStatHolder">
+      <AffectedStat>EnvColdProtection</AffectedStat>
+      <AffectedStat_TagUID>123</AffectedStat_TagUID>
+      <AffectQuantity>1</AffectQuantity>
+      <IsModifier>false</IsModifier>
+    </EffectHolder>
+    <EffectHolder xsi:type="AffectStatHolder">
+      <AffectedStat>FireResistance</AffectedStat>
+      <AffectedStat_TagUID>118</AffectedStat_TagUID>
+      <AffectQuantity>10</AffectQuantity>
+      <IsModifier>false</IsModifier>
+    </EffectHolder>
+  </Effects>
+</StatusEffectHolder>

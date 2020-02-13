@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DroptableHolder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>DropTable_Woolshroom</Name>
+  <Guaranteed_Drops>
+    <DropTableEntry>
+      <Item_Name>Woolshroom</Item_Name>
+      <Item_ID>4000240</Item_ID>
+      <Min_Quantity>1</Min_Quantity>
+      <Max_Quantity>1</Max_Quantity>
+    </DropTableEntry>
+  </Guaranteed_Drops>
+  <Random_Tables>
+    <DropGeneratorHolder>
+      <MinNumberOfDrops>1</MinNumberOfDrops>
+      <MaxNumberOfDrops>1</MaxNumberOfDrops>
+      <MaxDiceValue>1</MaxDiceValue>
+      <EmptyDrop>0</EmptyDrop>
+      <Item_Drops />
+    </DropGeneratorHolder>
+    <DropGeneratorHolder>
+      <MinNumberOfDrops>1</MinNumberOfDrops>
+      <MaxNumberOfDrops>1</MaxNumberOfDrops>
+      <MaxDiceValue>15</MaxDiceValue>
+      <EmptyDrop>66.66667</EmptyDrop>
+      <Item_Drops>
+        <DropTableChanceEntry>
+          <Item_Name>Ochre Spice Beetle</Item_Name>
+          <Item_ID>4000210</Item_ID>
+          <Min_Quantity>1</Min_Quantity>
+          <Max_Quantity>1</Max_Quantity>
+          <Drop_Chance>33.3333359</Drop_Chance>
+          <Dice_Range>4</Dice_Range>
+        </DropTableChanceEntry>
+      </Item_Drops>
+    </DropGeneratorHolder>
+  </Random_Tables>
+</DroptableHolder>

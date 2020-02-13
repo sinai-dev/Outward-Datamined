@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SceneSummary xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <SceneName>Berg</SceneName>
+  <Enemies>
+    <QuantityHolder>
+      <Name>Marsh Bandit (6)</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Marsh Bandit (1)</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Bandit_Sagar (1)</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+  </Enemies>
+  <Merchants>
+    <string>Chef Iasu (tU2CKVUfS0So5X5HNinAIg)</string>
+    <string>Mathias (BMRFmPBziUucIOqhpr679A)</string>
+    <string>Vay the Alchemist (VM81kCzv2kaK7feq8DyncA)</string>
+    <string>Ogoi, Kazite Assassin (YMvgNzX7JEG6PnQdK1Z-Dg)</string>
+    <string>Soroborean Caravanner (-MSrkT502k63y3CV2j98TQ)</string>
+    <string>Shopkeeper Pleel (FU5328pcz025ME9tVRYP7g)</string>
+    <string>Quikiza the Blacksmith (3Rx_R0XDLUmYaNWm66SVCQ)</string>
+    <string>Mathias (mDmEj260MkO1wSg3vlzoqA)</string>
+  </Merchants>
+  <Loot_Containers>
+    <QuantityHolder>
+      <Name>Chest</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Junk Pile</Name>
+      <Quantity>6</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Stash</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+  </Loot_Containers>
+  <Gatherables>
+    <QuantityHolder>
+      <Name>Tree</Name>
+      <Quantity>3</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Woolshroom</Name>
+      <Quantity>3</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Crabeye</Name>
+      <Quantity>4</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Gaberries</Name>
+      <Quantity>2</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Green Mushroom</Name>
+      <Quantity>3</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Smoke Root</Name>
+      <Quantity>2</Quantity>
+    </QuantityHolder>
+  </Gatherables>
+  <Item_Spawns>
+    <ItemSpawnHolder>
+      <Name>Spikes – Iron</Name>
+      <Item_ID>6500100</Item_ID>
+      <Quantity>2</Quantity>
+      <positions>
+        <Vector3>
+          <x>-382.222</x>
+          <y>-1495.53137</y>
+          <z>563.636</z>
+        </Vector3>
+        <Vector3>
+          <x>-382.224</x>
+          <y>-1495.53137</y>
+          <z>563.232</z>
+        </Vector3>
+      </positions>
+    </ItemSpawnHolder>
+    <ItemSpawnHolder>
+      <Name>Bed</Name>
+      <Item_ID>5000004</Item_ID>
+      <Quantity>6</Quantity>
+      <positions>
+        <Vector3>
+          <x>-380.926178</x>
+          <y>-1495.53137</y>
+          <z>567.264832</z>
+        </Vector3>
+        <Vector3>
+          <x>-391.418182</x>
+          <y>-1493.81311</y>
+          <z>766.0808</z>
+        </Vector3>
+        <Vector3>
+          <x>-380.792175</x>
+          <y>-1495.53137</y>
+          <z>561.612854</z>
+        </Vector3>
+        <Vector3>
+          <x>-391.3462</x>
+          <y>-1493.81311</y>
+          <z>771.62384</z>
+        </Vector3>
+        <Vector3>
+          <x>-377.687256</x>
+          <y>-1493.81311</y>
+          <z>771.6806</z>
+        </Vector3>
+        <Vector3>
+          <x>-377.7552</x>
+          <y>-1493.81311</y>
+          <z>765.9689</z>
+        </Vector3>
+      </positions>
+    </ItemSpawnHolder>
+    <ItemSpawnHolder>
+      <Name>Mining Pick</Name>
+      <Item_ID>2120050</Item_ID>
+      <Quantity>1</Quantity>
+      <positions>
+        <Vector3>
+          <x>1235.796</x>
+          <y>-12.883</y>
+          <z>1456.872</z>
+        </Vector3>
+      </positions>
+    </ItemSpawnHolder>
+    <ItemSpawnHolder>
+      <Name>Iron Axe</Name>
+      <Item_ID>2010000</Item_ID>
+      <Quantity>1</Quantity>
+      <positions>
+        <Vector3>
+          <x>1155.043</x>
+          <y>-18.1860466</y>
+          <z>1358.895</z>
+        </Vector3>
+      </positions>
+    </ItemSpawnHolder>
+    <ItemSpawnHolder>
+      <Name>Fishing Harpoon</Name>
+      <Item_ID>2130130</Item_ID>
+      <Quantity>1</Quantity>
+      <positions>
+        <Vector3>
+          <x>1276.093</x>
+          <y>-1.707</y>
+          <z>1590.438</z>
+        </Vector3>
+      </positions>
+    </ItemSpawnHolder>
+    <ItemSpawnHolder>
+      <Name>Cooking: Bread of the Wild</Name>
+      <Item_ID>5700068</Item_ID>
+      <Quantity>1</Quantity>
+      <positions>
+        <Vector3>
+          <x>-377.036</x>
+          <y>-1499.008</y>
+          <z>560.18</z>
+        </Vector3>
+      </positions>
+    </ItemSpawnHolder>
+    <ItemSpawnHolder>
+      <Name>Recurve Bow</Name>
+      <Item_ID>2200010</Item_ID>
+      <Quantity>1</Quantity>
+      <positions>
+        <Vector3>
+          <x>-382.678</x>
+          <y>-1494.836</y>
+          <z>564.512</z>
+        </Vector3>
+      </positions>
+    </ItemSpawnHolder>
+    <ItemSpawnHolder>
+      <Name>Bed</Name>
+      <Item_ID>5000001</Item_ID>
+      <Quantity>2</Quantity>
+      <positions>
+        <Vector3>
+          <x>-381.0067</x>
+          <y>-1495.53137</y>
+          <z>567.476868</z>
+        </Vector3>
+        <Vector3>
+          <x>-380.957184</x>
+          <y>-1495.53137</y>
+          <z>561.443848</z>
+        </Vector3>
+      </positions>
+    </ItemSpawnHolder>
+    <ItemSpawnHolder>
+      <Name>Pitchfork</Name>
+      <Item_ID>2130040</Item_ID>
+      <Quantity>1</Quantity>
+      <positions>
+        <Vector3>
+          <x>1130.658</x>
+          <y>2.029</y>
+          <z>1449.866</z>
+        </Vector3>
+      </positions>
+    </ItemSpawnHolder>
+    <ItemSpawnHolder>
+      <Name>Tripwire Trap</Name>
+      <Item_ID>5020010</Item_ID>
+      <Quantity>3</Quantity>
+      <positions>
+        <Vector3>
+          <x>-382.714</x>
+          <y>-1495.38623</y>
+          <z>565.026</z>
+        </Vector3>
+        <Vector3>
+          <x>-382.724</x>
+          <y>-1495.38623</y>
+          <z>565.570862</z>
+        </Vector3>
+        <Vector3>
+          <x>-382.371</x>
+          <y>-1495.542</y>
+          <z>565.4176</z>
+        </Vector3>
+      </positions>
+    </ItemSpawnHolder>
+    <ItemSpawnHolder>
+      <Name>Cooking: Fungal Cleanser</Name>
+      <Item_ID>5700069</Item_ID>
+      <Quantity>1</Quantity>
+      <positions>
+        <Vector3>
+          <x>-381.731</x>
+          <y>-1499.068</y>
+          <z>565.09</z>
+        </Vector3>
+      </positions>
+    </ItemSpawnHolder>
+    <ItemSpawnHolder>
+      <Name>Bread Of The Wild</Name>
+      <Item_ID>4100500</Item_ID>
+      <Quantity>2</Quantity>
+      <positions>
+        <Vector3>
+          <x>-377.1709</x>
+          <y>-1498.953</y>
+          <z>560.67</z>
+        </Vector3>
+        <Vector3>
+          <x>-377.607</x>
+          <y>-1498.953</y>
+          <z>560.558</z>
+        </Vector3>
+      </positions>
+    </ItemSpawnHolder>
+    <ItemSpawnHolder>
+      <Name>Cooking: Stringy Salad</Name>
+      <Item_ID>5700070</Item_ID>
+      <Quantity>1</Quantity>
+      <positions>
+        <Vector3>
+          <x>-381.657</x>
+          <y>-1499.01</y>
+          <z>565.262</z>
+        </Vector3>
+      </positions>
+    </ItemSpawnHolder>
+    <ItemSpawnHolder>
+      <Name>Spikes – Palladium</Name>
+      <Item_ID>6500110</Item_ID>
+      <Quantity>1</Quantity>
+      <positions>
+        <Vector3>
+          <x>-382.681</x>
+          <y>-1495.38623</y>
+          <z>563.628</z>
+        </Vector3>
+      </positions>
+    </ItemSpawnHolder>
+  </Item_Spawns>
+</SceneSummary>

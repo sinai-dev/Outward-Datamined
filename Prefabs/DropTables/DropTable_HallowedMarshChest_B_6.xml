@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DroptableHolder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>DropTable_HallowedMarshChest_B_6</Name>
+  <Guaranteed_Drops>
+    <DropTableEntry>
+      <Item_Name>Ochre Spice Beetle</Item_Name>
+      <Item_ID>4000210</Item_ID>
+      <Min_Quantity>1</Min_Quantity>
+      <Max_Quantity>1</Max_Quantity>
+    </DropTableEntry>
+    <DropTableEntry>
+      <Item_Name>Alchemy: Survivor Elixir</Item_Name>
+      <Item_ID>5700129</Item_ID>
+      <Min_Quantity>1</Min_Quantity>
+      <Max_Quantity>1</Max_Quantity>
+    </DropTableEntry>
+  </Guaranteed_Drops>
+  <Random_Tables />
+</DroptableHolder>

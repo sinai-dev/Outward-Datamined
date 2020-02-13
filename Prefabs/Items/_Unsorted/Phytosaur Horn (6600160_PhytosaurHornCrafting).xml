@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ItemHolder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ItemID>6600160</ItemID>
+  <Name>Phytosaur Horn</Name>
+  <gameObjectName>6600160_PhytosaurHornCrafting</gameObjectName>
+  <saveDir />
+  <Description>Poisonous bones of large herbivores, used to craft spears.</Description>
+  <LegacyItemID>-1</LegacyItemID>
+  <StatsHolder>
+    <BaseValue>60</BaseValue>
+    <RawWeight>1</RawWeight>
+    <MaxDurability>-1</MaxDurability>
+  </StatsHolder>
+  <Tags>
+    <string>Ingredient</string>
+    <string>Item</string>
+    <string>Misc</string>
+    <string>PressurePlateTrapComponent</string>
+  </Tags>
+  <EffectTransforms />
+</ItemHolder>

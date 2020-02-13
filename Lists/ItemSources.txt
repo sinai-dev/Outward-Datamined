@@ -1,0 +1,474 @@
+5600010	Flint and Steel
+6100010	Wood
+6500090	Linen Cloth
+3000080	Dark Worker Attire
+3000081	Patterned Worker Attire
+3000082	Green Worker Attire
+3000083	Worker Boots
+3000084	Black Worker Boots
+3000085	Dark Worker Hood
+3000086	Patterned Worker Hood
+3000087	Pale Worker's Hood
+3000130	Tattered Attire
+3000131	Tattered Attire
+3000132	Tattered Attire
+3000133	Tattered Hood
+3000134	Tattered Hood
+3000135	Tattered Hood
+3000136	Tattered Boots
+3000000	Trader Garb
+3000001	Straw Hat
+3000002	Trader Boots
+3000003	Beige Garb
+3000005	Dark Green Garb
+3000004	Simple Shoes
+3000006	Gray Garb
+3000007	Dark Red Garb
+3000008	Green Garb
+3000009	Striped Garb
+3000174	Sandals
+6400140	Iron Scrap
+2120050	Mining Pick
+2130130	Fishing Harpoon
+5200001	Arrow
+6000070	Salt
+5100010	Old Lantern
+6600020	Hide
+5100060	Makeshift Torch
+5010100	Cooking Pot
+5000020	Improvised Bedroll
+4200040	Waterskin
+6500150	Spikes – Wood
+4100250	Dry Mushroom Bar
+9000010	Silver
+5110003	Shiv Dagger
+5300120	Primitive Satchel
+5000021	Improvised Bedroll
+2000060	Machete
+5000100	Campfire
+4100170	Bread
+4400010	Bandages
+6200150	Power Coil
+5000040	Fur Tent
+4300210	Warrior Elixir
+3100006	Halfplate Armor
+3100007	Halfplate Helm
+3100008	Halfplate Boots
+2000020	Steel Sabre
+2010030	Brutal Axe
+2020020	Brutal Club
+2110000	Brutal Greataxe
+2120000	Brutal Greatmace
+2130000	Brutal Spear
+2140010	Cleaver Halberd
+2100000	Prayer Claymore
+2300140	Steel Shield
+5110100	Flintlock Pistol
+2200010	Recurve Bow
+5110001	Broad Dagger
+4300150	Elemental Immunity Potion
+4300240	Great Life Potion
+4300250	Great Astral Potion
+4300260	Great Endurance Potion
+4300180	Assassin Elixir
+4300200	Stoneflesh Elixir
+4300220	Survivor Elixir
+4300230	Golem Elixir
+4400021	Poison Varnish
+4400031	Bolt Varnish
+4400041	Fire Varnish
+4400051	Ice Varnish
+4400060	Spiritual Varnish
+4400070	Dark Varnish
+6600040	Crystal Powder
+6200110	Medium Ruby
+6200090	Large Emerald
+6200130	Hackmanite
+5700086	Crafting: Thorny Spear
+5700087	Crafting: Thorny Claymore
+5700077	Crafting: Horror Bow
+5700078	Crafting: Horror Axe
+5700079	Crafting: Horror Shield
+5700084	Crafting: Crescent Greataxe
+5700085	Crafting: Crescent Scythe
+5700159	Crafting: Obsidian Pistol
+5700163	Crafting: Bone Pistol
+5700157	Crafting: Obsidian Mace
+5700158	Crafting: Obsidian Greatmace
+3000170	Blue Light Clothes
+3000171	Red Light Clothes
+3000172	Pale Light Clothes
+3000120	Bright Rich Attire
+3000121	Dark Rich Attire
+3000122	Bright Rich Hat
+3000123	Dark Rich Hat
+3000110	Bright Nobleman Attire
+3000111	Dark Nobleman Attire
+3000113	Bright Nobleman Hat
+3000114	Dark Nobleman Hat
+3000116	Bright Nobleman Boots
+3000117	Dark Nobleman Boots
+4300010	Life Potion
+4300020	Astral Potion
+4300030	Endurance Potion
+4300130	Stealth Potion
+4300060	Discipline Potion
+4300140	Elemental Resistance Potion
+4300160	Weather Defense Potion
+4300170	Stability Potion
+4400020	Poison Rag
+4400030	Bolt Rag
+4400040	Fire Rag
+4400050	Ice Rag
+4200050	Bitter Spicy Tea
+4200060	Soothing Tea
+4200070	Needle Tea
+4200080	Mineral Tea
+4300050	Rage Potion
+4300110	Antidote
+4300190	Hex Cleaner
+5000002	Bed
+5700093	Crafting: Makeshift Leather Hat
+4100012	Jerky
+2110040	Felling Greataxe
+4000010	Gaberries
+2010050	Hatchet
+5700095	Crafting: Makeshift Leather Boots
+2300080	Plank Shield
+2130040	Pitchfork
+2130030	Quarterstaff
+5700094	Crafting: Makeshift Leather Attire
+5700046	Cooking: Cierzo Ceviche
+4100030	Gaberry Jam
+5700011	Cooking: Bitter Spicy Tea
+5700073	Cooking: Soothing Tea
+5700074	Cooking: Needle Tea
+5700075	Cooking: Mineral Tea
+5700015	Cooking: Miner’s Omelet
+5700016	Cooking: Pungent Paste
+5700018	Cooking: Jerky
+5700019	Cooking: Alpha Jerky
+5700020	Cooking: Dry Mushroom Bar
+5700050	Cooking: Gaberry Tartine
+5700178	Alchemy: Cold Stone
+5700076	Alchemy: Fire Stone
+5700108	Alchemy: Astral Potion
+5700109	Alchemy: Endurance Potion
+5700110	Alchemy: Life Potion
+5700112	Alchemy: Rage Potion
+5700113	Alchemy: Discipline Potion
+5700114	Alchemy: Warm Potion
+5700115	Alchemy: Cool Potion
+5700116	Alchemy: Mist Potion
+5700117	Alchemy: Blessed Potion
+5700118	Alchemy: Possessed Potion
+5700119	Alchemy: Stealth Potion
+5700122	Alchemy: Elemental Res. Potion
+5700123	Alchemy: Weather Def. Potion
+5700124	Alchemy: Stability Potion
+5700126	Alchemy: Hex Cleaner
+5700171	Crafting: Spikes – Iron
+5700172	Crafting: Spikes – Palladium
+5700162	Crafting: Shiv Dagger
+5700111	Alchemy: Antidote
+5700099	Crafting: Poison Rag
+5700100	Crafting: Bolt Rag
+5700101	Crafting: Fire Rag
+5700102	Crafting: Ice Rag
+5700038	Crafting: Tripwire Trap
+5700139	Crafting: Bullets
+5700187	Crafting: Old Lantern
+6400130	Mana Stone
+5100000	Explorer Lantern
+5010200	Alchemy Kit
+4400080	Bullet
+6500100	Spikes – Iron
+5020010	Tripwire Trap
+5000010	Simple Tent
+3000038	Looter Armor
+3000039	Looter Mask
+2130010	Worn Guisarme
+5700137	Crafting: Ice-Flame Torch
+5700146	Alchemy: Great Life Potion
+5700147	Alchemy: Great Astral Potion
+5700148	Alchemy: Great Endurance Potion
+5700125	Alchemy: Assassin’s Elixir
+5700127	Alchemy: Stoneflesh Elixir
+5700128	Alchemy: Warrior Elixir
+5700129	Alchemy: Survivor Elixir
+5700130	Alchemy: Golem Elixir
+5700103	Alchemy: Poison Varnish
+5700104	Alchemy: Bolt Varnish
+5700105	Alchemy: Fire Varnish
+5700106	Alchemy: Ice Varnish
+5700107	Alchemy: Spiritual Varnish
+5700132	Alchemy: Dark Varnish
+5700121	Alchemy: Elemental Immunity Potion
+5700173	Alchemy: Charge – Incendiary
+5700174	Alchemy: Charge – Toxic
+5700175	Alchemy: Charge – Nerve Gas
+6400070	Palladium Scrap
+6500110	Spikes – Palladium
+5020020	Pressure Plate Trap
+6500120	Charge – Incendiary
+6500130	Charge – Toxic
+6500140	Charge – Nerve Gas
+6500010	Fire Stone
+6500020	Cold Stone
+5100070	Ice-Flame Torch
+4100013	Alpha Jerky
+5700022	Crafting: Fang Axe
+5700023	Crafting: Fang Sword
+5700024	Crafting: Fang Club
+5700026	Crafting: Fang Greataxe
+5700027	Crafting: Fang Greatsword
+5700028	Crafting: Fang Greatclub
+5700029	Crafting: Fang Halberd
+5700030	Crafting: Fang Shield
+5700025	Crafting: Fang Trident
+4000030	Turmmip
+4100270	Turmmip Potage
+4000180	Star Mushroom
+4100590	Gaberry Wine
+6000010	Firefly powder
+6000030	Livweedi
+6000040	Ghost's Eye
+6000020	Greasy Fern
+4000090	Azure Shrimp
+4000110	Raw Rainbow Trout
+4100180	Cierzo Ceviche
+4100230	Ocean Fricassee
+4100240	Luxe Lichette
+4100260	Pot-au-Feu du Pirate
+3000010	Padded Armor
+3000011	Padded Helm
+3000012	Padded Boots
+3000240	Fur Armor
+3000241	Fur Helm
+3000242	Fur Boots
+2000010	Iron Sword
+2010000	Iron Axe
+2020010	Iron Mace
+2100080	Iron Claymore
+2110030	Iron Greataxe
+2120080	Iron Greathammer
+2130110	Iron Spear
+2140000	Iron Halberd
+2200000	Simple Bow
+2300000	Round Shield
+5110000	Rondel Dagger
+6600110	Occult Remains
+4300070	Warm Potion
+4300080	Cool Potion
+4300090	Mist Potion
+4300100	Blessed Potion
+4300120	Possessed Potion
+5000070	Plant Tent
+4000020	Crabeye Seed
+4000150	Blood Mushroom
+4000250	Miasmapod
+4000240	Woolshroom
+4000070	Larva Egg
+4000210	Ochre Spice Beetle
+4000211	Gravel Beetle
+4000280	Krimp Nut
+4000270	Smoke Root
+6000060	Seaweed
+6600070	Thick Oil
+6600050	Predator Bones
+4100310	Gaberry Tartine
+4000050	Raw Meat
+4000060	Raw Alpha Meat
+4100220	Meat Stew
+4100020	Alpha Sandwich
+4000230	Bird Egg
+4000220	Common Mushroom
+4000130	Raw Salmon
+4100190	Pungent Paste
+4100580	Bouillon du Predateur
+4100550	Travel Ration
+4100280	Miner’s Omelet
+5700013	Cooking: Ocean Fricassee
+5700048	Cooking: Pot-au-Feu du Pirate
+5700182	Crafting: Ammolite Armor
+5700183	Crafting: Ammolite Helm
+5700184	Crafting: Ammolite Boots
+3100093	Black Plate Armor
+3100094	Black Plate Helm
+3100095	Black Plate Boots
+2150000	Scholar’s Staff
+6600140	Thorny Cartilage
+6600030	Scaled Leather
+6600060	Coralhorn Antler
+6600080	Insect Husk
+6600090	Mantis Granite
+6600170	Shark Cartilage
+6600180	Assassin Tongue
+6600160	Phytosaur Horn
+2100061	Broken Golem Rapier
+6600130	Beast Golem Scraps
+6600190	Alpha Tuanosaur Tail
+6200050	Ammolite
+6400080	Petrified Wood
+6200060	Copal
+6400110	Blue Sand
+6200070	Tiny Aquamarine
+6200100	Small Sapphire
+5000001	Bed
+2300150	Mushroom Shield
+4100510	Fungal Cleanser
+3000030	Scavenger Coat
+3000034	Scavenger Boots
+5600020	Hangman's Key
+5700021	Cooking: Turmmip Potage
+5700017	Cooking: Gaberries Jam
+5300030	Mefino’s Trade Backpack
+3000190	Scholar Attire
+6600221	Pearlbird’s Courage
+6600222	Elatt’s Relic
+6600226	Leyline Figment
+6600227	Vendavel's Hospitality
+6600220	Gep’s Generosity
+6600223	Scourge’s Tears
+6600224	Haunted Memory
+6600225	Calixa’s Relic
+3000070	Novice Robe
+3000071	Novice Hat
+4000190	Marshmelon
+4100400	Ragoût du Marais
+4100420	Marshmelon Jelly
+4100430	Marshmelon Tartine
+5000003	Bed
+3100100	Silver Armor
+3100101	Silver Helm
+3100102	Silver Boots
+3000232	Master Trader Boots
+5700090	Crafting: Tuanosaur Axe
+5700091	Crafting: Tuanosaur Greataxe
+5700092	Crafting: Phytosaur Spear
+5700058	Cooking: Ragout du Marais 
+5700060	Cooking: Marshmelon Jelly
+5700061	Cooking: Marshmelon Tartine
+5700180	Crafting: Scaled Satchel
+5700096	Crafting: Scaled Leather Hat
+5700097	Crafting: Scaled Leather Attire
+5700098	Crafting: Scaled Leather Boots
+2300070	Old Legion Shield
+3000220	Ash Armor
+3000221	Ash-Filter Mask
+3000222	Ash Boots
+3000224	Pathfinder Armor
+3000225	Pathfinder Mask
+3000226	Pathfinder Boots
+2000140	Palladium Sword
+2010110	Palladium Axe
+2020100	Palladium Mace
+2100120	Palladium Claymore
+2110080	Palladium Greataxe
+2120110	Palladium Greathammer
+2130140	Palladium Spear
+2140100	Palladium Halberd
+2300170	Palladium Shield
+2200020	War Bow
+5000050	Luxury Tent
+3000020	Adventurer Armor
+5300000	Adventurer Backpack
+2140050	Mushroom Halberd
+5300050	Glowstone Backpack
+2130020	Fang Trident
+2300171	Fabulous Palladium Shield
+3000021	Adventurer's Helm
+3000022	Adventurer Boots
+3000090	Red Festive Attire
+3000092	Red Festive Hat
+3000091	Purple Festive Attire
+3000093	Purple Festive Hat
+3000200	Desert Tunic
+3000203	Desert Veil
+3000205	Desert Boots
+2020130	Primitive Club
+4000200	Cactus Fruit
+4100490	Cactus Pie
+4100480	Spiny Meringue
+4100470	Diadème de Gibier
+4000260	Raw Jewel Meat
+5700065	Cooking: Diademe de Gibier
+5700066	Cooking: Spiny Meringue
+5700067	Cooking: Cactus Pie
+2000110	Desert Khopesh
+5110110	Cannon Pistol
+3000231	Master Trader Hat
+3000100	Coralhorn Mask
+3000101	Scarab Mask
+3000102	Tuanosaur Mask
+3000103	Hound Mask
+5000005	Bed
+2300120	Dragon Shield
+3000112	Entomber Armor
+3000115	Entomber Hat
+3000118	Entomber Boots
+3000202	Elite Desert Tunic
+3000204	Elite Desert Veil
+5700081	Crafting: Assassin Sword
+5700082	Crafting: Assassin Claymore
+5700083	Crafting: Mantis Greatpick
+5700138	Crafting: Golem Rapier
+3100010	Wolf Plate Armor
+3100011	Wolf Plate Helm
+3100012	Wolf Plate Full-Helm
+3100013	Wolf Plate Boots
+2000030	Wolf Sword
+2100010	Wolf Claymore
+2120010	Wolf Greathammer
+2300050	Wolf Shield
+2130070	Old Legion Spear
+2120060	Pyrite Greathammer
+5600021	Old Levant's Key
+5300130	Strongbox Backpack
+5300070	Brass-Wolf Backpack
+3000031	Scavenger Mask
+3000191	Scholar Circlet
+3000192	Scholar Boots
+4100410	Savage Stew
+4100520	Stringy Salad
+4100500	Bread Of The Wild
+3000035	Brigand Coat
+3000033	Scavenger Scarf
+3000036	Brigand’s Hat
+3000230	Master Trader Garb
+5000004	Bed
+5700068	Cooking: Bread of the Wild
+5700069	Cooking: Fungal Cleanser
+5700070	Cooking: Stringy Salad
+2300040	Tower Shield
+2010020	Living Wood Axe
+3100003	Plate Armor
+3100004	Plate Helm
+3100005	Plate Boots
+3000260	Arcane Robe
+3000261	Arcane Hood
+5700120	Crafting: Coralhorn Bow
+5700088	Crafting: Beast Golem Axe
+5700089	Crafting: Beast Golem Halberd
+5700080	Crafting: Manticore Greatmace
+5700161	Crafting: Manticore Dagger
+3100000	Elite Plate Armor
+3100001	Elite Plate Helm
+3100002	Elite Plate Boots
+3000037	Elite Hood
+2000070	Marble Sword
+2010060	Marble Axe
+2020040	Marble Morningstar
+2100040	Marble Claymore
+2110020	Marble Greataxe
+2120030	Marble Greathammer
+2130050	Marble Spear
+2140030	Marble Halberd
+2300090	Marble Shield
+5110090	Thorn Chakram
+2300091	Inner Marble Shield
+5000011	Simple Tent
+5300180	Zhorn’s Hunting Backpack
+5000030	Camouflaged Tent
+4100010	Cooked Meat
+4100011	Cooked Alpha Meat

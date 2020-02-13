@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<EnemyHolder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>Concealed Knight</Name>
+  <GameObject_Name>NewBandit</GameObject_Name>
+  <Unique_ID>1</Unique_ID>
+  <Locations_Found>
+    <string>Chersonese:Shipwreck Beach</string>
+  </Locations_Found>
+  <Max_Health>1000</Max_Health>
+  <Health_Regen_Per_Second>0</Health_Regen_Per_Second>
+  <Impact_Resistance>49</Impact_Resistance>
+  <Protection>
+    <float>10</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+  </Protection>
+  <Damage_Resistances>
+    <float>68</float>
+    <float>20</float>
+    <float>20</float>
+    <float>20</float>
+    <float>20</float>
+    <float>100</float>
+    <float>20</float>
+    <float>20</float>
+    <float>20</float>
+  </Damage_Resistances>
+  <Damage_Bonuses>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+  </Damage_Bonuses>
+  <Collider_Radius>0.4</Collider_Radius>
+  <True_WeaponDamage>
+    <Damages>
+      <Damage>54</Damage>
+      <Damage_Type>Physical</Damage_Type>
+    </Damages>
+  </True_WeaponDamage>
+  <Weapon_Impact>35</Weapon_Impact>
+  <Status_Immunities />
+  <Starting_Equipment>
+    <string>Tsar Helm (3100141)</string>
+    <string>Tsar Armor (3100140)</string>
+    <string>Tsar Boots (3100142)</string>
+    <string>Tsar Sword (2000160)</string>
+    <string>Tsar Shield (2300190)</string>
+  </Starting_Equipment>
+  <Skill_Knowledge />
+  <Faction>Bandits</Faction>
+  <Allied_To_Same_Faction>true</Allied_To_Same_Faction>
+  <Guaranteed_Drops>
+    <DropTableEntry>
+      <Item_Name>Tsar Sword</Item_Name>
+      <Item_ID>2000160</Item_ID>
+      <Min_Quantity>1</Min_Quantity>
+      <Max_Quantity>1</Max_Quantity>
+    </DropTableEntry>
+    <DropTableEntry>
+      <Item_Name>Tsar Shield</Item_Name>
+      <Item_ID>2300190</Item_ID>
+      <Min_Quantity>1</Min_Quantity>
+      <Max_Quantity>1</Max_Quantity>
+    </DropTableEntry>
+    <DropTableEntry>
+      <Item_Name>Gold Ingot</Item_Name>
+      <Item_ID>6300030</Item_ID>
+      <Min_Quantity>5</Min_Quantity>
+      <Max_Quantity>5</Max_Quantity>
+    </DropTableEntry>
+  </Guaranteed_Drops>
+  <DropTable_Names>
+    <string>DropTable_Neutral_SecretBoss_6</string>
+  </DropTable_Names>
+</EnemyHolder>

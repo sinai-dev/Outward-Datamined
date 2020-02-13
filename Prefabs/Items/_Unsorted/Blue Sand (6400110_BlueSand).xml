@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ItemHolder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ItemID>6400110</ItemID>
+  <Name>Blue Sand</Name>
+  <gameObjectName>6400110_BlueSand</gameObjectName>
+  <saveDir />
+  <Description>Glittering powder used by blacksmiths to craft armors made of blue steel alloy.  
+
+It is also highly prized as a alchemical ingredient.</Description>
+  <LegacyItemID>-1</LegacyItemID>
+  <StatsHolder>
+    <BaseValue>47</BaseValue>
+    <RawWeight>0.2</RawWeight>
+    <MaxDurability>-1</MaxDurability>
+  </StatsHolder>
+  <Tags>
+    <string>Fuel</string>
+    <string>Material</string>
+    <string>Ingredient</string>
+    <string>Item</string>
+    <string>Misc</string>
+    <string>Valuable</string>
+    <string>PressurePlateTrapComponent</string>
+  </Tags>
+  <EffectTransforms />
+</ItemHolder>

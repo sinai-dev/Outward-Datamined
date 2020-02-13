@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DroptableHolder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>DropTable_IceWitch</Name>
+  <Guaranteed_Drops>
+    <DropTableEntry>
+      <Item_Name>Mana Stone</Item_Name>
+      <Item_ID>6400130</Item_ID>
+      <Min_Quantity>1</Min_Quantity>
+      <Max_Quantity>1</Max_Quantity>
+    </DropTableEntry>
+  </Guaranteed_Drops>
+  <Random_Tables>
+    <DropGeneratorHolder>
+      <MinNumberOfDrops>2</MinNumberOfDrops>
+      <MaxNumberOfDrops>3</MaxNumberOfDrops>
+      <MaxDiceValue>98</MaxDiceValue>
+      <EmptyDrop>30.6122456</EmptyDrop>
+      <Item_Drops>
+        <DropTableChanceEntry>
+          <Item_Name>Blood Mushroom</Item_Name>
+          <Item_ID>4000150</Item_ID>
+          <Min_Quantity>2</Min_Quantity>
+          <Max_Quantity>3</Max_Quantity>
+          <Drop_Chance>5.102041</Drop_Chance>
+          <Dice_Range>4</Dice_Range>
+        </DropTableChanceEntry>
+        <DropTableChanceEntry>
+          <Item_Name>Star Mushroom</Item_Name>
+          <Item_ID>4000180</Item_ID>
+          <Min_Quantity>2</Min_Quantity>
+          <Max_Quantity>3</Max_Quantity>
+          <Drop_Chance>5.102041</Drop_Chance>
+          <Dice_Range>4</Dice_Range>
+        </DropTableChanceEntry>
+        <DropTableChanceEntry>
+          <Item_Name>Thick Oil</Item_Name>
+          <Item_ID>6600070</Item_ID>
+          <Min_Quantity>2</Min_Quantity>
+          <Max_Quantity>3</Max_Quantity>
+          <Drop_Chance>5.102041</Drop_Chance>
+          <Dice_Range>4</Dice_Range>
+        </DropTableChanceEntry>
+        <DropTableChanceEntry>
+          <Item_Name>Fire Stone</Item_Name>
+          <Item_ID>6500010</Item_ID>
+          <Min_Quantity>1</Min_Quantity>
+          <Max_Quantity>1</Max_Quantity>
+          <Drop_Chance>5.102041</Drop_Chance>
+          <Dice_Range>4</Dice_Range>
+        </DropTableChanceEntry>
+        <DropTableChanceEntry>
+          <Item_Name>Cold Stone</Item_Name>
+          <Item_ID>6500020</Item_ID>
+          <Min_Quantity>1</Min_Quantity>
+          <Max_Quantity>1</Max_Quantity>
+          <Drop_Chance>25.5102043</Drop_Chance>
+          <Dice_Range>24</Dice_Range>
+        </DropTableChanceEntry>
+        <DropTableChanceEntry>
+          <Item_Name>Arcane Robe</Item_Name>
+          <Item_ID>3000260</Item_ID>
+          <Min_Quantity>1</Min_Quantity>
+          <Max_Quantity>1</Max_Quantity>
+          <Drop_Chance>2.04081631</Drop_Chance>
+          <Dice_Range>1</Dice_Range>
+        </DropTableChanceEntry>
+        <DropTableChanceEntry>
+          <Item_Name>Wide Blue Hat</Item_Name>
+          <Item_ID>3000300</Item_ID>
+          <Min_Quantity>1</Min_Quantity>
+          <Max_Quantity>1</Max_Quantity>
+          <Drop_Chance>3.06122446</Drop_Chance>
+          <Dice_Range>2</Dice_Range>
+        </DropTableChanceEntry>
+        <DropTableChanceEntry>
+          <Item_Name>Turmmip Potage</Item_Name>
+          <Item_ID>4100270</Item_ID>
+          <Min_Quantity>1</Min_Quantity>
+          <Max_Quantity>1</Max_Quantity>
+          <Drop_Chance>8.163265</Drop_Chance>
+          <Dice_Range>7</Dice_Range>
+        </DropTableChanceEntry>
+        <DropTableChanceEntry>
+          <Item_Name>Turmmip</Item_Name>
+          <Item_ID>4000030</Item_ID>
+          <Min_Quantity>2</Min_Quantity>
+          <Max_Quantity>3</Max_Quantity>
+          <Drop_Chance>10.2040815</Drop_Chance>
+          <Dice_Range>9</Dice_Range>
+        </DropTableChanceEntry>
+      </Item_Drops>
+    </DropGeneratorHolder>
+  </Random_Tables>
+</DroptableHolder>

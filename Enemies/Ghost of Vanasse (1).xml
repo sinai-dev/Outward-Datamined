@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<EnemyHolder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>Ghost of Vanasse</Name>
+  <GameObject_Name>GhostOfVanasse</GameObject_Name>
+  <Unique_ID>1</Unique_ID>
+  <Locations_Found>
+    <string>Chersonese:Chersonese</string>
+  </Locations_Found>
+  <Max_Health>75</Max_Health>
+  <Health_Regen_Per_Second>0</Health_Regen_Per_Second>
+  <Impact_Resistance>0</Impact_Resistance>
+  <Protection>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+  </Protection>
+  <Damage_Resistances>
+    <float>80</float>
+    <float>-100</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+  </Damage_Resistances>
+  <Damage_Bonuses>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+  </Damage_Bonuses>
+  <Collider_Radius>0.64</Collider_Radius>
+  <True_WeaponDamage>
+    <Damages>
+      <Damage>15</Damage>
+      <Damage_Type>Ethereal</Damage_Type>
+    </Damages>
+  </True_WeaponDamage>
+  <Weapon_Impact>50</Weapon_Impact>
+  <Status_Immunities>
+    <string>Bleeding</string>
+  </Status_Immunities>
+  <Starting_Equipment>
+    <string>- (2400280)</string>
+  </Starting_Equipment>
+  <Skill_Knowledge>
+    <string>GhostSoulSyphon</string>
+  </Skill_Knowledge>
+  <Faction>Bandits</Faction>
+  <Allied_To_Same_Faction>true</Allied_To_Same_Faction>
+  <Guaranteed_Drops>
+    <DropTableEntry>
+      <Item_Name>Tsar Stone</Item_Name>
+      <Item_ID>6200010</Item_ID>
+      <Min_Quantity>1</Min_Quantity>
+      <Max_Quantity>1</Max_Quantity>
+    </DropTableEntry>
+  </Guaranteed_Drops>
+  <DropTable_Names>
+    <string>DropTable_ChersonezeGhost</string>
+  </DropTable_Names>
+</EnemyHolder>

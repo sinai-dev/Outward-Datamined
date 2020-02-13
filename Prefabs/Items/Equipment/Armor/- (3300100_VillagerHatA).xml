@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ItemHolder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="EquipmentHolder">
+  <ItemID>3300100</ItemID>
+  <Name>-</Name>
+  <gameObjectName>3300100_VillagerHatA</gameObjectName>
+  <saveDir>/Equipment/Armor</saveDir>
+  <Description />
+  <LegacyItemID>-1</LegacyItemID>
+  <StatsHolder xsi:type="EquipmentStatsHolder">
+    <BaseValue>0</BaseValue>
+    <RawWeight>0</RawWeight>
+    <MaxDurability>0</MaxDurability>
+    <Impact_Resistance>0</Impact_Resistance>
+    <Damage_Protection>0</Damage_Protection>
+    <Stamina_Use_Penalty>0</Stamina_Use_Penalty>
+    <Mana_Use_Modifier>0</Mana_Use_Modifier>
+    <Movement_Penalty>0</Movement_Penalty>
+    <Pouch_Bonus>0</Pouch_Bonus>
+    <Heat_Protection>0</Heat_Protection>
+    <Cold_Protection>0</Cold_Protection>
+    <Corruption_Protection>0</Corruption_Protection>
+  </StatsHolder>
+  <Tags>
+    <string>Helmet</string>
+    <string>Equipment</string>
+    <string>Item</string>
+    <string>NPC</string>
+  </Tags>
+  <EffectTransforms />
+  <EquipmentSlot>Helmet</EquipmentSlot>
+  <IKType>None</IKType>
+  <TwoHandType>None</TwoHandType>
+  <VisualDetectabilityAdd>0</VisualDetectabilityAdd>
+  <ArmorClass>Medium</ArmorClass>
+</ItemHolder>

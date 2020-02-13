@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ItemHolder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="SkillHolder">
+  <ItemID>8200603</ItemID>
+  <Name>Shatter Bullet</Name>
+  <gameObjectName>8200603_LoadShatterBullet</gameObjectName>
+  <saveDir>/Skill/AttackSkill/PistolSkill</saveDir>
+  <Description>Required: Pistol, Iron Scraps
+
+Load a bullet with high Impact which also inflicts Pain.
+
+Shooting it requires the use of the Fire/Reload skill.</Description>
+  <LegacyItemID>-1</LegacyItemID>
+  <Tags />
+  <EffectTransforms>
+    <EffectTransformHolder>
+      <TransformName>Effects</TransformName>
+      <Effects>
+        <EffectHolder xsi:type="ImbueWeaponHolder">
+          <Lifespan>-1</Lifespan>
+          <ImbueEffect_Preset_Name>Shatter Bullet Imbue</ImbueEffect_Preset_Name>
+          <ImbueEffect_Preset_ID>252</ImbueEffect_Preset_ID>
+          <Imbue_Slot>OffHand</Imbue_Slot>
+        </EffectHolder>
+      </Effects>
+      <EffectConditions>
+        <EffectConditionHolder>
+          <Conditions>
+            <ConditionHolder>
+              <Condition_Type>ImbueEffectCondition</Condition_Type>
+              <Invert>true</Invert>
+            </ConditionHolder>
+          </Conditions>
+        </EffectConditionHolder>
+      </EffectConditions>
+      <ChildEffects />
+    </EffectTransformHolder>
+    <EffectTransformHolder>
+      <TransformName>AdditionalActivationConditions</TransformName>
+      <Effects />
+      <EffectConditions />
+      <ChildEffects>
+        <EffectTransformHolder>
+          <TransformName>NotImbued</TransformName>
+          <Effects />
+          <EffectConditions>
+            <EffectConditionHolder>
+              <Conditions>
+                <ConditionHolder>
+                  <Condition_Type>ImbueEffectCondition</Condition_Type>
+                  <Invert>true</Invert>
+                </ConditionHolder>
+              </Conditions>
+            </EffectConditionHolder>
+          </EffectConditions>
+          <ChildEffects />
+        </EffectTransformHolder>
+      </ChildEffects>
+    </EffectTransformHolder>
+  </EffectTransforms>
+  <Cooldown>5</Cooldown>
+  <StaminaCost>0</StaminaCost>
+  <ManaCost>0</ManaCost>
+  <DurabilityCost>0</DurabilityCost>
+  <DurabilityCostPercent>0</DurabilityCostPercent>
+  <IsDLCSkill>true</IsDLCSkill>
+  <RequiredItems>
+    <SkillItemReq>
+      <ItemName>Iron Scrap</ItemName>
+      <ItemID>6400140</ItemID>
+      <Quantity>1</Quantity>
+      <Consume>true</Consume>
+    </SkillItemReq>
+  </RequiredItems>
+</ItemHolder>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DroptableHolder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>DropTable_Phytoflora</Name>
+  <Guaranteed_Drops>
+    <DropTableEntry>
+      <Item_Name>Scaled Leather</Item_Name>
+      <Item_ID>6600030</Item_ID>
+      <Min_Quantity>1</Min_Quantity>
+      <Max_Quantity>1</Max_Quantity>
+    </DropTableEntry>
+    <DropTableEntry>
+      <Item_Name>Phytosaur Horn</Item_Name>
+      <Item_ID>6600160</Item_ID>
+      <Min_Quantity>1</Min_Quantity>
+      <Max_Quantity>1</Max_Quantity>
+    </DropTableEntry>
+  </Guaranteed_Drops>
+  <Random_Tables>
+    <DropGeneratorHolder>
+      <MinNumberOfDrops>4</MinNumberOfDrops>
+      <MaxNumberOfDrops>4</MaxNumberOfDrops>
+      <MaxDiceValue>90</MaxDiceValue>
+      <EmptyDrop>22.2222233</EmptyDrop>
+      <Item_Drops>
+        <DropTableChanceEntry>
+          <Item_Name>Livweedi</Item_Name>
+          <Item_ID>6000030</Item_ID>
+          <Min_Quantity>2</Min_Quantity>
+          <Max_Quantity>1</Max_Quantity>
+          <Drop_Chance>11.1111116</Drop_Chance>
+          <Dice_Range>9</Dice_Range>
+        </DropTableChanceEntry>
+        <DropTableChanceEntry>
+          <Item_Name>Krimp Nut</Item_Name>
+          <Item_ID>4000280</Item_ID>
+          <Min_Quantity>2</Min_Quantity>
+          <Max_Quantity>1</Max_Quantity>
+          <Drop_Chance>11.1111116</Drop_Chance>
+          <Dice_Range>9</Dice_Range>
+        </DropTableChanceEntry>
+        <DropTableChanceEntry>
+          <Item_Name>Crabeye Seed</Item_Name>
+          <Item_ID>4000020</Item_ID>
+          <Min_Quantity>2</Min_Quantity>
+          <Max_Quantity>1</Max_Quantity>
+          <Drop_Chance>11.1111116</Drop_Chance>
+          <Dice_Range>9</Dice_Range>
+        </DropTableChanceEntry>
+        <DropTableChanceEntry>
+          <Item_Name>Turmmip</Item_Name>
+          <Item_ID>4000030</Item_ID>
+          <Min_Quantity>2</Min_Quantity>
+          <Max_Quantity>1</Max_Quantity>
+          <Drop_Chance>11.1111116</Drop_Chance>
+          <Dice_Range>9</Dice_Range>
+        </DropTableChanceEntry>
+        <DropTableChanceEntry>
+          <Item_Name>Star Mushroom</Item_Name>
+          <Item_ID>4000180</Item_ID>
+          <Min_Quantity>2</Min_Quantity>
+          <Max_Quantity>1</Max_Quantity>
+          <Drop_Chance>11.1111116</Drop_Chance>
+          <Dice_Range>9</Dice_Range>
+        </DropTableChanceEntry>
+        <DropTableChanceEntry>
+          <Item_Name>Blood Mushroom</Item_Name>
+          <Item_ID>4000150</Item_ID>
+          <Min_Quantity>2</Min_Quantity>
+          <Max_Quantity>1</Max_Quantity>
+          <Drop_Chance>11.1111116</Drop_Chance>
+          <Dice_Range>9</Dice_Range>
+        </DropTableChanceEntry>
+        <DropTableChanceEntry>
+          <Item_Name>Ochre Spice Beetle</Item_Name>
+          <Item_ID>4000210</Item_ID>
+          <Min_Quantity>2</Min_Quantity>
+          <Max_Quantity>1</Max_Quantity>
+          <Drop_Chance>11.1111116</Drop_Chance>
+          <Dice_Range>9</Dice_Range>
+        </DropTableChanceEntry>
+      </Item_Drops>
+    </DropGeneratorHolder>
+  </Random_Tables>
+</DroptableHolder>

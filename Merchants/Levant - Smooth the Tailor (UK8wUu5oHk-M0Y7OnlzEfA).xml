@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MerchantHolder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>Smooth the Tailor</Name>
+  <UID>UK8wUu5oHk-M0Y7OnlzEfA</UID>
+  <DropTable>
+    <Name>Levant - Smooth the Tailor</Name>
+    <Guaranteed_Drops>
+      <DropTableEntry>
+        <Item_Name>Gold Ingot</Item_Name>
+        <Item_ID>6300030</Item_ID>
+        <Min_Quantity>3</Min_Quantity>
+        <Max_Quantity>5</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Purple Dancer Clothes</Item_Name>
+        <Item_ID>3000180</Item_ID>
+        <Min_Quantity>1</Min_Quantity>
+        <Max_Quantity>1</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Dancer Leggings</Item_Name>
+        <Item_ID>3000184</Item_ID>
+        <Min_Quantity>1</Min_Quantity>
+        <Max_Quantity>1</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Dancer Mask</Item_Name>
+        <Item_ID>3000183</Item_ID>
+        <Min_Quantity>1</Min_Quantity>
+        <Max_Quantity>1</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Red Festive Attire</Item_Name>
+        <Item_ID>3000090</Item_ID>
+        <Min_Quantity>1</Min_Quantity>
+        <Max_Quantity>1</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Red Festive Hat</Item_Name>
+        <Item_ID>3000092</Item_ID>
+        <Min_Quantity>1</Min_Quantity>
+        <Max_Quantity>1</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Coralhorn Mask</Item_Name>
+        <Item_ID>3000100</Item_ID>
+        <Min_Quantity>1</Min_Quantity>
+        <Max_Quantity>1</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Scarab Mask</Item_Name>
+        <Item_ID>3000101</Item_ID>
+        <Min_Quantity>1</Min_Quantity>
+        <Max_Quantity>1</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Tuanosaur Mask</Item_Name>
+        <Item_ID>3000102</Item_ID>
+        <Min_Quantity>1</Min_Quantity>
+        <Max_Quantity>1</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Hound Mask</Item_Name>
+        <Item_ID>3000103</Item_ID>
+        <Min_Quantity>1</Min_Quantity>
+        <Max_Quantity>1</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Bright Nobleman Attire</Item_Name>
+        <Item_ID>3000110</Item_ID>
+        <Min_Quantity>1</Min_Quantity>
+        <Max_Quantity>1</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Bright Nobleman Hat</Item_Name>
+        <Item_ID>3000113</Item_ID>
+        <Min_Quantity>1</Min_Quantity>
+        <Max_Quantity>1</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Bright Nobleman Boots</Item_Name>
+        <Item_ID>3000116</Item_ID>
+        <Min_Quantity>1</Min_Quantity>
+        <Max_Quantity>1</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Entomber Armor</Item_Name>
+        <Item_ID>3000112</Item_ID>
+        <Min_Quantity>1</Min_Quantity>
+        <Max_Quantity>1</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Entomber Hat</Item_Name>
+        <Item_ID>3000115</Item_ID>
+        <Min_Quantity>1</Min_Quantity>
+        <Max_Quantity>1</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Entomber Boots</Item_Name>
+        <Item_ID>3000118</Item_ID>
+        <Min_Quantity>1</Min_Quantity>
+        <Max_Quantity>1</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Wide Blue Hat</Item_Name>
+        <Item_ID>3000300</Item_ID>
+        <Min_Quantity>1</Min_Quantity>
+        <Max_Quantity>1</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Wide Black Hat</Item_Name>
+        <Item_ID>3000301</Item_ID>
+        <Min_Quantity>1</Min_Quantity>
+        <Max_Quantity>1</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Clansage Robe</Item_Name>
+        <Item_ID>3000270</Item_ID>
+        <Min_Quantity>1</Min_Quantity>
+        <Max_Quantity>1</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Arcane Robe</Item_Name>
+        <Item_ID>3000260</Item_ID>
+        <Min_Quantity>1</Min_Quantity>
+        <Max_Quantity>1</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Arcane Hood</Item_Name>
+        <Item_ID>3000261</Item_ID>
+        <Min_Quantity>1</Min_Quantity>
+        <Max_Quantity>1</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Scholar’s Staff</Item_Name>
+        <Item_ID>2150000</Item_ID>
+        <Min_Quantity>1</Min_Quantity>
+        <Max_Quantity>1</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Master’s Staff</Item_Name>
+        <Item_ID>2150050</Item_ID>
+        <Min_Quantity>1</Min_Quantity>
+        <Max_Quantity>1</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Desert Tunic</Item_Name>
+        <Item_ID>3000200</Item_ID>
+        <Min_Quantity>1</Min_Quantity>
+        <Max_Quantity>1</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Desert Veil</Item_Name>
+        <Item_ID>3000203</Item_ID>
+        <Min_Quantity>1</Min_Quantity>
+        <Max_Quantity>1</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Desert Boots</Item_Name>
+        <Item_ID>3000205</Item_ID>
+        <Min_Quantity>1</Min_Quantity>
+        <Max_Quantity>1</Max_Quantity>
+      </DropTableEntry>
+    </Guaranteed_Drops>
+    <Random_Tables />
+  </DropTable>
+</MerchantHolder>

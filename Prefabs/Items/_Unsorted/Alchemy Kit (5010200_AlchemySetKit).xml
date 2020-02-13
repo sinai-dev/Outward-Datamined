@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ItemHolder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ItemID>5010200</ItemID>
+  <Name>Alchemy Kit</Name>
+  <gameObjectName>5010200_AlchemySetKit</gameObjectName>
+  <saveDir />
+  <Description>Tools used to distill ingredients into potions, to be used on a lit campfire.</Description>
+  <LegacyItemID>-1</LegacyItemID>
+  <StatsHolder>
+    <BaseValue>60</BaseValue>
+    <RawWeight>5</RawWeight>
+    <MaxDurability>-1</MaxDurability>
+  </StatsHolder>
+  <Tags>
+    <string>Deployable</string>
+    <string>Item</string>
+    <string>Kit</string>
+  </Tags>
+  <EffectTransforms />
+</ItemHolder>

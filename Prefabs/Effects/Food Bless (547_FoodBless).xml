@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<StatusEffectHolder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>Food Bless</Name>
+  <PresetID>547</PresetID>
+  <Lifespan>900</Lifespan>
+  <LengthType>Short</LengthType>
+  <Tags>
+    <string>Bless</string>
+    <string>Boon</string>
+    <string>Status Type</string>
+  </Tags>
+  <CanBeHealedBySleeping>false</CanBeHealedBySleeping>
+  <StraightSleepHealTime>-1</StraightSleepHealTime>
+  <Effects>
+    <EffectHolder xsi:type="AffectStatHolder">
+      <AffectedStat>ElectricDamage</AffectedStat>
+      <AffectedStat_TagUID>100</AffectedStat_TagUID>
+      <AffectQuantity>10</AffectQuantity>
+      <IsModifier>true</IsModifier>
+    </EffectHolder>
+    <EffectHolder xsi:type="AffectStatHolder">
+      <AffectedStat>ElectricResistance</AffectedStat>
+      <AffectedStat_TagUID>116</AffectedStat_TagUID>
+      <AffectQuantity>10</AffectQuantity>
+      <IsModifier>false</IsModifier>
+    </EffectHolder>
+  </Effects>
+</StatusEffectHolder>

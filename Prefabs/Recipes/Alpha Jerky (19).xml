@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RecipeHolder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <StationType>Cooking</StationType>
+  <Name>Alpha Jerky</Name>
+  <RecipeID>19</RecipeID>
+  <Ingredients>
+    <string>Raw Alpha Meat</string>
+    <string>Raw Alpha Meat</string>
+    <string>Salt</string>
+    <string>Salt</string>
+  </Ingredients>
+  <Results>
+    <ItemQuantityHolder>
+      <ItemName>Alpha Jerky</ItemName>
+      <Quantity>5</Quantity>
+    </ItemQuantityHolder>
+  </Results>
+</RecipeHolder>

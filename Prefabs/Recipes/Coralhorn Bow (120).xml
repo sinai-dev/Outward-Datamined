@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RecipeHolder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <StationType>Survival</StationType>
+  <Name>Coralhorn Bow</Name>
+  <RecipeID>120</RecipeID>
+  <Ingredients>
+    <string>Coralhorn Antler</string>
+    <string>Coralhorn Antler</string>
+    <string>Recurve Bow</string>
+    <string>Crystal Powder</string>
+  </Ingredients>
+  <Results>
+    <ItemQuantityHolder>
+      <ItemName>Coralhorn Bow</ItemName>
+      <Quantity>1</Quantity>
+    </ItemQuantityHolder>
+  </Results>
+</RecipeHolder>

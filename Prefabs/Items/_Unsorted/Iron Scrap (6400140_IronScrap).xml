@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ItemHolder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ItemID>6400140</ItemID>
+  <Name>Iron Scrap</Name>
+  <gameObjectName>6400140_IronScrap</gameObjectName>
+  <saveDir />
+  <Description>Pieces of iron, obtained by mining or decrafting metal objects. 
+
+Decrafting using the “Manual Recipe” of the Survival Crafting menu.</Description>
+  <LegacyItemID>-1</LegacyItemID>
+  <StatsHolder>
+    <BaseValue>3</BaseValue>
+    <RawWeight>0.2</RawWeight>
+    <MaxDurability>-1</MaxDurability>
+  </StatsHolder>
+  <Tags>
+    <string>Ore</string>
+    <string>Material</string>
+    <string>Ingredient</string>
+    <string>Item</string>
+    <string>Misc</string>
+    <string>DecraftIron_Small</string>
+  </Tags>
+  <EffectTransforms />
+</ItemHolder>

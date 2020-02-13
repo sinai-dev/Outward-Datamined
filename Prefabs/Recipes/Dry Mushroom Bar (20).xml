@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RecipeHolder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <StationType>Cooking</StationType>
+  <Name>Dry Mushroom Bar</Name>
+  <RecipeID>20</RecipeID>
+  <Ingredients>
+    <string>Common Mushroom</string>
+    <string>Common Mushroom</string>
+    <string>Common Mushroom</string>
+    <string>Common Mushroom</string>
+  </Ingredients>
+  <Results>
+    <ItemQuantityHolder>
+      <ItemName>Dry Mushroom Bar</ItemName>
+      <Quantity>5</Quantity>
+    </ItemQuantityHolder>
+  </Results>
+</RecipeHolder>

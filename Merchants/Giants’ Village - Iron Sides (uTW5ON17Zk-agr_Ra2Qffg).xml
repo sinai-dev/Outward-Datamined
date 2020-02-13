@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MerchantHolder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>Iron Sides</Name>
+  <UID>uTW5ON17Zk-agr_Ra2Qffg</UID>
+  <DropTable>
+    <Name>Giants’ Village - Iron Sides</Name>
+    <Guaranteed_Drops>
+      <DropTableEntry>
+        <Item_Name>Gold Ingot</Item_Name>
+        <Item_ID>6300030</Item_ID>
+        <Min_Quantity>6</Min_Quantity>
+        <Max_Quantity>8</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Crafting: Scaled Satchel</Item_Name>
+        <Item_ID>5700180</Item_ID>
+        <Min_Quantity>1</Min_Quantity>
+        <Max_Quantity>1</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Crafting: Mantis Greatpick</Item_Name>
+        <Item_ID>5700083</Item_ID>
+        <Min_Quantity>1</Min_Quantity>
+        <Max_Quantity>1</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Crafting: Tuanosaur Axe</Item_Name>
+        <Item_ID>5700090</Item_ID>
+        <Min_Quantity>1</Min_Quantity>
+        <Max_Quantity>1</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Crafting: Tuanosaur Greataxe</Item_Name>
+        <Item_ID>5700091</Item_ID>
+        <Min_Quantity>1</Min_Quantity>
+        <Max_Quantity>1</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Crafting: Phytosaur Spear</Item_Name>
+        <Item_ID>5700092</Item_ID>
+        <Min_Quantity>1</Min_Quantity>
+        <Max_Quantity>1</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Crafting: Spikes – Palladium</Item_Name>
+        <Item_ID>5700172</Item_ID>
+        <Min_Quantity>1</Min_Quantity>
+        <Max_Quantity>1</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Crafting: Bone Pistol</Item_Name>
+        <Item_ID>5700163</Item_ID>
+        <Min_Quantity>1</Min_Quantity>
+        <Max_Quantity>1</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Crafting: Obsidian Pistol</Item_Name>
+        <Item_ID>5700159</Item_ID>
+        <Min_Quantity>1</Min_Quantity>
+        <Max_Quantity>1</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Arrow</Item_Name>
+        <Item_ID>5200001</Item_ID>
+        <Min_Quantity>60</Min_Quantity>
+        <Max_Quantity>60</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Iron Scrap</Item_Name>
+        <Item_ID>6400140</Item_ID>
+        <Min_Quantity>3</Min_Quantity>
+        <Max_Quantity>5</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Palladium Scrap</Item_Name>
+        <Item_ID>6400070</Item_ID>
+        <Min_Quantity>1</Min_Quantity>
+        <Max_Quantity>2</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Bullet</Item_Name>
+        <Item_ID>4400080</Item_ID>
+        <Min_Quantity>24</Min_Quantity>
+        <Max_Quantity>24</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Flint and Steel</Item_Name>
+        <Item_ID>5600010</Item_ID>
+        <Min_Quantity>1</Min_Quantity>
+        <Max_Quantity>2</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Giantkind Greataxe</Item_Name>
+        <Item_ID>2110070</Item_ID>
+        <Min_Quantity>1</Min_Quantity>
+        <Max_Quantity>1</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Giantkind Halberd</Item_Name>
+        <Item_ID>2140090</Item_ID>
+        <Min_Quantity>1</Min_Quantity>
+        <Max_Quantity>1</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Crafting: Scaled Leather Boots</Item_Name>
+        <Item_ID>5700098</Item_ID>
+        <Min_Quantity>1</Min_Quantity>
+        <Max_Quantity>1</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Rondel Dagger</Item_Name>
+        <Item_ID>5110000</Item_ID>
+        <Min_Quantity>1</Min_Quantity>
+        <Max_Quantity>1</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Broad Dagger</Item_Name>
+        <Item_ID>5110001</Item_ID>
+        <Min_Quantity>1</Min_Quantity>
+        <Max_Quantity>1</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Kintsugi Helm</Item_Name>
+        <Item_ID>3100071</Item_ID>
+        <Min_Quantity>1</Min_Quantity>
+        <Max_Quantity>1</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Kintsugi Armor</Item_Name>
+        <Item_ID>3100070</Item_ID>
+        <Min_Quantity>1</Min_Quantity>
+        <Max_Quantity>1</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Kintsugi Boots</Item_Name>
+        <Item_ID>3100072</Item_ID>
+        <Min_Quantity>1</Min_Quantity>
+        <Max_Quantity>1</Max_Quantity>
+      </DropTableEntry>
+    </Guaranteed_Drops>
+    <Random_Tables />
+  </DropTable>
+</MerchantHolder>

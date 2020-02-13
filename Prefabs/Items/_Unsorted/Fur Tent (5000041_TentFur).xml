@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ItemHolder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ItemID>5000041</ItemID>
+  <Name>Fur Tent</Name>
+  <gameObjectName>5000041_TentFur</gameObjectName>
+  <saveDir />
+  <Description>-</Description>
+  <LegacyItemID>-1</LegacyItemID>
+  <Tags>
+    <string>Deployable</string>
+    <string>Item</string>
+  </Tags>
+  <EffectTransforms />
+</ItemHolder>

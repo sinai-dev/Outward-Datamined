@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ItemHolder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ItemID>9999999</ItemID>
+  <Name>TestGatherable</Name>
+  <gameObjectName>9999999_TestGatherable</gameObjectName>
+  <saveDir>/ItemContainer/SelfFilledItemContainer/Gatherable</saveDir>
+  <Description />
+  <LegacyItemID>-1</LegacyItemID>
+  <Tags />
+  <EffectTransforms>
+    <EffectTransformHolder>
+      <TransformName>4300110_UniversalAntidote</TransformName>
+      <Effects />
+      <EffectConditions />
+      <ChildEffects>
+        <EffectTransformHolder>
+          <TransformName>Effects</TransformName>
+          <Effects>
+            <EffectHolder xsi:type="RemoveStatusEffectHolder">
+              <StatusEffect_ByTag>None</StatusEffect_ByTag>
+              <StatusEffect_Family>PoisonHex</StatusEffect_Family>
+              <StatusEffect_ByName />
+            </EffectHolder>
+          </Effects>
+          <EffectConditions />
+          <ChildEffects />
+        </EffectTransformHolder>
+      </ChildEffects>
+    </EffectTransformHolder>
+    <EffectTransformHolder>
+      <TransformName>5600010_FlintAndSteel</TransformName>
+      <Effects />
+      <EffectConditions />
+      <ChildEffects>
+        <EffectTransformHolder>
+          <TransformName>Effects</TransformName>
+          <Effects>
+            <EffectHolder xsi:type="ShootBlastHolder">
+              <BlastLifespan>0</BlastLifespan>
+              <RefreshTime>0.1</RefreshTime>
+              <EffectTransforms />
+            </EffectHolder>
+          </Effects>
+          <EffectConditions />
+          <ChildEffects />
+        </EffectTransformHolder>
+      </ChildEffects>
+    </EffectTransformHolder>
+  </EffectTransforms>
+</ItemHolder>

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MerchantHolder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>Ogoi, Kazite Assassin</Name>
+  <UID>YMvgNzX7JEG6PnQdK1Z-Dg</UID>
+  <DropTable>
+    <Name>Berg - Ogoi, Kazite Assassin</Name>
+    <Guaranteed_Drops>
+      <DropTableEntry>
+        <Item_Name>Gold Ingot</Item_Name>
+        <Item_ID>6300030</Item_ID>
+        <Min_Quantity>3</Min_Quantity>
+        <Max_Quantity>6</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Rondel Dagger</Item_Name>
+        <Item_ID>5110000</Item_ID>
+        <Min_Quantity>1</Min_Quantity>
+        <Max_Quantity>1</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Broad Dagger</Item_Name>
+        <Item_ID>5110001</Item_ID>
+        <Min_Quantity>1</Min_Quantity>
+        <Max_Quantity>1</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Poison Rag</Item_Name>
+        <Item_ID>4400020</Item_ID>
+        <Min_Quantity>1</Min_Quantity>
+        <Max_Quantity>1</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Crafting: Poison Rag</Item_Name>
+        <Item_ID>5700099</Item_ID>
+        <Min_Quantity>1</Min_Quantity>
+        <Max_Quantity>1</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Dark Varnish</Item_Name>
+        <Item_ID>4400070</Item_ID>
+        <Min_Quantity>3</Min_Quantity>
+        <Max_Quantity>5</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Alchemy: Poison Varnish</Item_Name>
+        <Item_ID>5700103</Item_ID>
+        <Min_Quantity>2</Min_Quantity>
+        <Max_Quantity>3</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Poison Varnish</Item_Name>
+        <Item_ID>4400021</Item_ID>
+        <Min_Quantity>1</Min_Quantity>
+        <Max_Quantity>1</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Arrow</Item_Name>
+        <Item_ID>5200001</Item_ID>
+        <Min_Quantity>30</Min_Quantity>
+        <Max_Quantity>30</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Charge – Toxic</Item_Name>
+        <Item_ID>6500130</Item_ID>
+        <Min_Quantity>3</Min_Quantity>
+        <Max_Quantity>3</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Alchemy: Charge – Toxic</Item_Name>
+        <Item_ID>5700174</Item_ID>
+        <Min_Quantity>2</Min_Quantity>
+        <Max_Quantity>4</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Kazite Armor</Item_Name>
+        <Item_ID>3100110</Item_ID>
+        <Min_Quantity>1</Min_Quantity>
+        <Max_Quantity>1</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Kazite Mask</Item_Name>
+        <Item_ID>3100111</Item_ID>
+        <Min_Quantity>1</Min_Quantity>
+        <Max_Quantity>1</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Kazite Cat Mask</Item_Name>
+        <Item_ID>3100112</Item_ID>
+        <Min_Quantity>1</Min_Quantity>
+        <Max_Quantity>1</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Kazite Oni Mask</Item_Name>
+        <Item_ID>3100113</Item_ID>
+        <Min_Quantity>1</Min_Quantity>
+        <Max_Quantity>1</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Kazite Boots</Item_Name>
+        <Item_ID>3100114</Item_ID>
+        <Min_Quantity>1</Min_Quantity>
+        <Max_Quantity>1</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Kazite Chakram</Item_Name>
+        <Item_ID>5110050</Item_ID>
+        <Min_Quantity>1</Min_Quantity>
+        <Max_Quantity>1</Max_Quantity>
+      </DropTableEntry>
+    </Guaranteed_Drops>
+    <Random_Tables />
+  </DropTable>
+</MerchantHolder>

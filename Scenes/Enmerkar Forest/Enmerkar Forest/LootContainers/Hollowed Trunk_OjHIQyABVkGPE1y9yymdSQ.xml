@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LootContainerHolder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>Hollowed Trunk</Name>
+  <ItemID>1000070</ItemID>
+  <UID>OjHIQyABVkGPE1y9yymdSQ</UID>
+  <DropTables>
+    <string>DropTable_Enmerkar_Equipment_Medium_1</string>
+    <string>DropTable_Neutral_Alchemy_Low_2</string>
+    <string>DropTable_Neutral_StandardRecipe_Low_1</string>
+  </DropTables>
+</LootContainerHolder>

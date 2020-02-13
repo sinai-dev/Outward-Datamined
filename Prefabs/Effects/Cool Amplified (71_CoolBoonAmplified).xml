@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<StatusEffectHolder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>Cool Amplified</Name>
+  <PresetID>71</PresetID>
+  <Lifespan>240</Lifespan>
+  <LengthType>Short</LengthType>
+  <Tags>
+    <string>Cool</string>
+    <string>Boon</string>
+    <string>Status Type</string>
+  </Tags>
+  <CanBeHealedBySleeping>false</CanBeHealedBySleeping>
+  <StraightSleepHealTime>-1</StraightSleepHealTime>
+  <Effects>
+    <EffectHolder xsi:type="AffectStatHolder">
+      <AffectedStat>FrostDamage</AffectedStat>
+      <AffectedStat_TagUID>101</AffectedStat_TagUID>
+      <AffectQuantity>30</AffectQuantity>
+      <IsModifier>true</IsModifier>
+    </EffectHolder>
+    <EffectHolder xsi:type="AffectStatHolder">
+      <AffectedStat>EnvHeatProtection</AffectedStat>
+      <AffectedStat_TagUID>124</AffectedStat_TagUID>
+      <AffectQuantity>16</AffectQuantity>
+      <IsModifier>false</IsModifier>
+    </EffectHolder>
+    <EffectHolder xsi:type="AffectStatHolder">
+      <AffectedStat>FrostResistance</AffectedStat>
+      <AffectedStat_TagUID>117</AffectedStat_TagUID>
+      <AffectQuantity>30</AffectQuantity>
+      <IsModifier>false</IsModifier>
+    </EffectHolder>
+  </Effects>
+</StatusEffectHolder>

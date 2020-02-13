@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ItemSource xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ItemName>Elemental Immunity Potion</ItemName>
+  <ItemID>4300150</ItemID>
+  <Container_Sources>
+    <string>Ornate Chest (Chersonese:Cierzo)</string>
+    <string>Ornate Chest (Chersonese:Vendavel Fortress)</string>
+    <string>Ornate Chest (Chersonese:Ghost Pass)</string>
+    <string>Junk Pile (Chersonese:Ghost Pass)</string>
+    <string>Ornate Chest (Chersonese:Voltaic Hatchery)</string>
+    <string>Ornate Chest (Chersonese:Mansion's Cellar)</string>
+    <string>Ornate Chest (Chersonese:Bandits' Prison)</string>
+    <string>Junk Pile (Chersonese:Hermit's House)</string>
+    <string>Chest (Hallowed Marsh:Reptilian Lair)</string>
+    <string>Ornate Chest (Hallowed Marsh:Dark Ziggurat Interior)</string>
+    <string>Ornate Chest (Hallowed Marsh:Spire of Light)</string>
+    <string>Ornate Chest (Hallowed Marsh:Ziggurat Passage)</string>
+    <string>Ornate Chest (Hallowed Marsh:Abandoned Ziggurat)</string>
+    <string>Chest (Hallowed Marsh:Abandoned Shed)</string>
+    <string>Chest (Hallowed Marsh:Abandoned Shed)</string>
+    <string>Ornate Chest (Abrassar:Abrassar)</string>
+    <string>Ornate Chest (Abrassar:Abrassar)</string>
+    <string>Ornate Chest (Abrassar:Abrassar)</string>
+    <string>Ornate Chest (Abrassar:Abrassar)</string>
+    <string>Ornate Chest (Abrassar:Abrassar)</string>
+    <string>Ornate Chest (Abrassar:Abrassar)</string>
+    <string>Ornate Chest (Abrassar:Abrassar)</string>
+    <string>Ornate Chest (Abrassar:Undercity Passage)</string>
+    <string>Ornate Chest (Abrassar:The Slide)</string>
+    <string>Ornate Chest (Abrassar:Sand Rose Cave)</string>
+    <string>Ornate Chest (Abrassar:Cabal of Wind Outpost)</string>
+    <string>Ornate Chest (Enmerkar Forest:Enmerkar Forest)</string>
+    <string>Worker’s Corpse (Enmerkar Forest:Enmerkar Forest)</string>
+    <string>Ornate Chest (Enmerkar Forest:Royal Manticore’s Lair)</string>
+    <string>Junk Pile (Enmerkar Forest:Cabal of Wind Temple)</string>
+    <string>Chest (Enmerkar Forest:Face of the Ancients)</string>
+    <string>Chest (Enmerkar Forest:Immaculate's Camp)</string>
+    <string>Chest (Enmerkar Forest:Dolmen Crypt)</string>
+    <string>Adventurer’s Corpse (Enmerkar Forest:Dolmen Crypt)</string>
+    <string>Junk Pile (Enmerkar Forest:Worn Hunter's Cabin)</string>
+  </Container_Sources>
+  <Spawn_Sources />
+</ItemSource>

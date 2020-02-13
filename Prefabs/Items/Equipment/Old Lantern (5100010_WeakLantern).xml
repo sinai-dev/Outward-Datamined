@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ItemHolder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="EquipmentHolder">
+  <ItemID>5100010</ItemID>
+  <Name>Old Lantern</Name>
+  <gameObjectName>5100010_WeakLantern</gameObjectName>
+  <saveDir>/Equipment</saveDir>
+  <Description>Rusty oil lantern with a weak flame.</Description>
+  <LegacyItemID>-1</LegacyItemID>
+  <StatsHolder xsi:type="EquipmentStatsHolder">
+    <BaseValue>15</BaseValue>
+    <RawWeight>0.6</RawWeight>
+    <MaxDurability>160</MaxDurability>
+    <Damage_Resistance>
+      <float>0</float>
+      <float>0</float>
+      <float>0</float>
+      <float>0</float>
+      <float>0</float>
+      <float>0</float>
+      <float>0</float>
+      <float>0</float>
+      <float>0</float>
+    </Damage_Resistance>
+    <Impact_Resistance>0</Impact_Resistance>
+    <Damage_Protection>0</Damage_Protection>
+    <Damage_Bonus>
+      <float>0</float>
+      <float>0</float>
+      <float>0</float>
+      <float>0</float>
+      <float>0</float>
+      <float>0</float>
+      <float>0</float>
+      <float>0</float>
+      <float>0</float>
+    </Damage_Bonus>
+    <Stamina_Use_Penalty>0</Stamina_Use_Penalty>
+    <Mana_Use_Modifier>0</Mana_Use_Modifier>
+    <Movement_Penalty>0</Movement_Penalty>
+    <Pouch_Bonus>0</Pouch_Bonus>
+    <Heat_Protection>0</Heat_Protection>
+    <Cold_Protection>0</Cold_Protection>
+    <Corruption_Protection>0</Corruption_Protection>
+  </StatsHolder>
+  <Tags>
+    <string>Lantern</string>
+    <string>Trinket</string>
+    <string>Item</string>
+    <string>PressurePlateTrapComponent</string>
+    <string>DecraftIron_Small</string>
+  </Tags>
+  <EffectTransforms />
+  <EquipmentSlot>LeftHand</EquipmentSlot>
+  <IKType>Lantern</IKType>
+  <TwoHandType>None</TwoHandType>
+  <VisualDetectabilityAdd>15</VisualDetectabilityAdd>
+</ItemHolder>

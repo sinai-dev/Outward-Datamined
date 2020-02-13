@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ItemHolder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ItemID>5000040</ItemID>
+  <Name>Fur Tent</Name>
+  <gameObjectName>5000040_TentFurKit</gameObjectName>
+  <saveDir />
+  <Description>Layered tent of thick furs that grant high resistance to the cold weather.
+
+Sleeping in this tent gives a large bonus to stamina use.</Description>
+  <LegacyItemID>-1</LegacyItemID>
+  <StatsHolder>
+    <BaseValue>65</BaseValue>
+    <RawWeight>6</RawWeight>
+    <MaxDurability>-1</MaxDurability>
+  </StatsHolder>
+  <Tags>
+    <string>Deployable</string>
+    <string>Item</string>
+    <string>Kit</string>
+  </Tags>
+  <EffectTransforms />
+</ItemHolder>

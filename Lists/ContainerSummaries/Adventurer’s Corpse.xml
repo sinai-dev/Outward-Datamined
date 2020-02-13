@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContainerSummary xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>Adventurer’s Corpse</Name>
+  <ItemID>0</ItemID>
+  <Locations_Found>
+    <string>Abrassar:Ancient Hive</string>
+    <string>Abrassar:Ancient Hive</string>
+    <string>Abrassar:Sand Rose Cave</string>
+    <string>Abrassar:Sand Rose Cave</string>
+    <string>Abrassar:Stone Titan Caves</string>
+    <string>Abrassar:Stone Titan Caves</string>
+    <string>Abrassar:The Slide</string>
+    <string>Abrassar:The Slide</string>
+    <string>Chersonese:Blister Burrow</string>
+    <string>Chersonese:Blister Burrow</string>
+    <string>Chersonese:Chersonese</string>
+    <string>Chersonese:Chersonese</string>
+    <string>Chersonese:Chersonese</string>
+    <string>Chersonese:Chersonese</string>
+    <string>Chersonese:Conflux Chambers</string>
+    <string>Chersonese:Conflux Chambers</string>
+    <string>Chersonese:Pirates' Hideout</string>
+    <string>Chersonese:Pirates' Hideout</string>
+    <string>Enmerkar Forest:Dolmen Crypt</string>
+    <string>Enmerkar Forest:Dolmen Crypt</string>
+    <string>Hallowed Marsh:Hallowed Marsh</string>
+    <string>Hallowed Marsh:Hallowed Marsh</string>
+    <string>Hallowed Marsh:Hallowed Marsh</string>
+    <string>Hallowed Marsh:Hallowed Marsh</string>
+    <string>Hallowed Marsh:Reptilian Lair</string>
+    <string>Hallowed Marsh:Reptilian Lair</string>
+    <string>Hallowed Marsh:Ziggurat Passage</string>
+    <string>Hallowed Marsh:Ziggurat Passage</string>
+  </Locations_Found>
+  <All_DropTables>
+    <string>DropTable_Chersonese_Equipment_Low_1</string>
+    <string>DropTable_Neutral_Food_1</string>
+    <string>DropTable_Neutral_Magic_Low_2</string>
+    <string>DropTable_Chersonese_Recipe_Basic_1</string>
+    <string>DropTable_Chersonese_Equipment_Medium_1</string>
+    <string>DropTable_Neutral_Consumable_Low_2</string>
+    <string>DropTable_Chersonese_Food_1</string>
+    <string>DropTable_Neutral_Survival_Low_2</string>
+    <string>DropTable_HallowedMarsh_Equipment_Low_1</string>
+    <string>DropTable_HallowedMarsh_Food_1</string>
+    <string>DropTable_Neutral_Alchemy_Low_2</string>
+    <string>DropTable_HallowedMarsh_Recipe_Weapon_1</string>
+    <string>DropTable_HallowedMarsh_Equipment_Medium_1</string>
+    <string>DropTable_HallowedMarsh_Recipe_Basic_1</string>
+    <string>DropTable_Neutral_Survival_Medium_1</string>
+    <string>DropTable_Neutral_StandardRecipe_Low_1</string>
+    <string>DropTable_Abrassar_Equipment_Medium_1</string>
+    <string>DropTable_Neutral_Valuable_Low_1</string>
+    <string>DropTable_Abrassar_Recipe_Basic_1</string>
+    <string>DropTable_Abrassar_Food_1</string>
+    <string>DropTable_Neutral_StandardRecipe_High_1</string>
+    <string>DropTable_Enmerkar_Equipment_Medium_1</string>
+    <string>DropTable_Neutral_Consumable_High_1</string>
+  </All_DropTables>
+</ContainerSummary>

@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ItemHolder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="SkillHolder">
+  <ItemID>8100130</ItemID>
+  <Name>Mana Push</Name>
+  <gameObjectName>8100130_ForcePush</gameObjectName>
+  <saveDir>/Skill/AttackSkill</saveDir>
+  <Description>Spell which inflicts no damage but has high Impact in a wide area in front of the caster. 
+
+Can be combined with other spells for powerful effects.</Description>
+  <LegacyItemID>-1</LegacyItemID>
+  <Tags />
+  <EffectTransforms>
+    <EffectTransformHolder>
+      <TransformName>Effects</TransformName>
+      <Effects>
+        <EffectHolder xsi:type="ShootBlastHolder">
+          <BlastLifespan>0</BlastLifespan>
+          <RefreshTime>0.1</RefreshTime>
+          <EffectTransforms>
+            <EffectTransformHolder>
+              <TransformName>Effects</TransformName>
+              <Effects>
+                <EffectHolder xsi:type="PunctualDamageHolder">
+                  <Damage>
+                    <Damages>
+                      <Damage>1</Damage>
+                      <Damage_Type>Physical</Damage_Type>
+                    </Damages>
+                  </Damage>
+                  <Damages_AI />
+                  <Knockback>100</Knockback>
+                  <HitInventory>true</HitInventory>
+                </EffectHolder>
+              </Effects>
+              <EffectConditions />
+              <ChildEffects />
+            </EffectTransformHolder>
+          </EffectTransforms>
+        </EffectHolder>
+      </Effects>
+      <EffectConditions />
+      <ChildEffects />
+    </EffectTransformHolder>
+    <EffectTransformHolder>
+      <TransformName>IcicleProjectile</TransformName>
+      <Effects />
+      <EffectConditions />
+      <ChildEffects>
+        <EffectTransformHolder>
+          <TransformName>ExtraEffects</TransformName>
+          <Effects>
+            <EffectHolder xsi:type="ShootProjectileHolder">
+              <TargetingMode>NONE</TargetingMode>
+              <AutoTarget>false</AutoTarget>
+              <EffectTransforms>
+                <EffectTransformHolder>
+                  <TransformName>HitEffects</TransformName>
+                  <Effects>
+                    <EffectHolder xsi:type="PunctualDamageHolder">
+                      <Damage>
+                        <Damages>
+                          <Damage>85</Damage>
+                          <Damage_Type>Frost</Damage_Type>
+                        </Damages>
+                      </Damage>
+                      <Damages_AI />
+                      <Knockback>60</Knockback>
+                      <HitInventory>true</HitInventory>
+                    </EffectHolder>
+                    <EffectHolder xsi:type="AddStatusEffectHolder">
+                      <StatusEffect>Slow Down</StatusEffect>
+                      <ChanceToContract>100</ChanceToContract>
+                    </EffectHolder>
+                  </Effects>
+                  <EffectConditions />
+                  <ChildEffects />
+                </EffectTransformHolder>
+              </EffectTransforms>
+            </EffectHolder>
+          </Effects>
+          <EffectConditions>
+            <EffectConditionHolder>
+              <Conditions>
+                <ConditionHolder>
+                  <Requirement>Activated Ice Sigil</Requirement>
+                  <Condition_Type>Item Proximity</Condition_Type>
+                  <Invert>false</Invert>
+                </ConditionHolder>
+              </Conditions>
+            </EffectConditionHolder>
+          </EffectConditions>
+          <ChildEffects />
+        </EffectTransformHolder>
+      </ChildEffects>
+    </EffectTransformHolder>
+    <EffectTransformHolder>
+      <TransformName>WindGust</TransformName>
+      <Effects />
+      <EffectConditions />
+      <ChildEffects>
+        <EffectTransformHolder>
+          <TransformName>ExtraEffects</TransformName>
+          <Effects>
+            <EffectHolder xsi:type="ShootProjectileHolder">
+              <TargetingMode>NONE</TargetingMode>
+              <AutoTarget>false</AutoTarget>
+              <EffectTransforms>
+                <EffectTransformHolder>
+                  <TransformName>HitEffects</TransformName>
+                  <Effects>
+                    <EffectHolder xsi:type="PunctualDamageHolder">
+                      <Damage>
+                        <Damages>
+                          <Damage>16</Damage>
+                          <Damage_Type>Ethereal</Damage_Type>
+                        </Damages>
+                      </Damage>
+                      <Damages_AI />
+                      <Knockback>100</Knockback>
+                      <HitInventory>true</HitInventory>
+                    </EffectHolder>
+                  </Effects>
+                  <EffectConditions />
+                  <ChildEffects />
+                </EffectTransformHolder>
+              </EffectTransforms>
+            </EffectHolder>
+          </Effects>
+          <EffectConditions>
+            <EffectConditionHolder>
+              <Conditions>
+                <ConditionHolder>
+                  <Requirement>Activated Air Sigil</Requirement>
+                  <Condition_Type>Item Proximity</Condition_Type>
+                  <Invert>false</Invert>
+                </ConditionHolder>
+              </Conditions>
+            </EffectConditionHolder>
+          </EffectConditions>
+          <ChildEffects />
+        </EffectTransformHolder>
+      </ChildEffects>
+    </EffectTransformHolder>
+  </EffectTransforms>
+  <Cooldown>15</Cooldown>
+  <StaminaCost>0</StaminaCost>
+  <ManaCost>5</ManaCost>
+  <DurabilityCost>0</DurabilityCost>
+  <DurabilityCostPercent>0</DurabilityCostPercent>
+  <IsDLCSkill>true</IsDLCSkill>
+  <RequiredItems />
+</ItemHolder>

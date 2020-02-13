@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LootContainerHolder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>Chest</Name>
+  <ItemID>1000000</ItemID>
+  <UID>9PneVS44iUiwikLqd_k1Vw</UID>
+  <DropTables>
+    <string>DropTable_HallowedMarsh_Equipment_Medium_1</string>
+    <string>DropTable_Neutral_Consumable_Low_2</string>
+    <string>DropTable_Neutral_Survival_High_1</string>
+    <string>DropTable_HallowedMarsh_Recipe_Basic_1</string>
+  </DropTables>
+</LootContainerHolder>

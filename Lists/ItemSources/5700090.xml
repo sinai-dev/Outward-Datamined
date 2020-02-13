@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ItemSource xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ItemName>Crafting: Tuanosaur Axe</ItemName>
+  <ItemID>5700090</ItemID>
+  <Container_Sources>
+    <string>Hollowed Trunk (Hallowed Marsh:Hallowed Marsh)</string>
+    <string>Hollowed Trunk (Hallowed Marsh:Hallowed Marsh)</string>
+    <string>Chest (Hallowed Marsh:Hallowed Marsh)</string>
+    <string>Chest (Hallowed Marsh:Hallowed Marsh)</string>
+    <string>Hollowed Trunk (Hallowed Marsh:Hallowed Marsh)</string>
+    <string>Adventurer’s Corpse (Hallowed Marsh:Hallowed Marsh)</string>
+    <string>Ornate Chest (Hallowed Marsh:Jade Quarry)</string>
+    <string>Junk Pile (Hallowed Marsh:Reptilian Lair)</string>
+    <string>Chest (Hallowed Marsh:Reptilian Lair)</string>
+    <string>Chest (Hallowed Marsh:Dark Ziggurat Interior)</string>
+    <string>Junk Pile (Hallowed Marsh:Dark Ziggurat Interior)</string>
+    <string>Junk Pile (Hallowed Marsh:Dark Ziggurat Interior)</string>
+    <string>Chest (Hallowed Marsh:Spire of Light)</string>
+    <string>Junk Pile (Hallowed Marsh:Spire of Light)</string>
+    <string>Chest (Hallowed Marsh:Dead Roots)</string>
+    <string>Chest (Hallowed Marsh:Dead Roots)</string>
+    <string>Ornate Chest (Hallowed Marsh:Abandoned Ziggurat)</string>
+    <string>Chest (Hallowed Marsh:Abandoned Shed)</string>
+  </Container_Sources>
+  <Spawn_Sources />
+</ItemSource>

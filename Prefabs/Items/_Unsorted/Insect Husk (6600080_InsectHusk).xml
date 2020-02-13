@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ItemHolder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ItemID>6600080</ItemID>
+  <Name>Insect Husk</Name>
+  <gameObjectName>6600080_InsectHusk</gameObjectName>
+  <saveDir />
+  <Description>Dried shell with few uses but that can be sold at a good price.</Description>
+  <LegacyItemID>-1</LegacyItemID>
+  <StatsHolder>
+    <BaseValue>30</BaseValue>
+    <RawWeight>1</RawWeight>
+    <MaxDurability>-1</MaxDurability>
+  </StatsHolder>
+  <Tags>
+    <string>Ingredient</string>
+    <string>Item</string>
+    <string>Misc</string>
+    <string>TripWireTrapComponent</string>
+  </Tags>
+  <EffectTransforms />
+</ItemHolder>

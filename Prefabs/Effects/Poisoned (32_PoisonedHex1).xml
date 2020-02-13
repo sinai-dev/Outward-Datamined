@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<StatusEffectHolder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>Poisoned</Name>
+  <PresetID>32</PresetID>
+  <Lifespan>90</Lifespan>
+  <LengthType>Short</LengthType>
+  <Tags>
+    <string>Poison</string>
+    <string>Status Type</string>
+  </Tags>
+  <CanBeHealedBySleeping>false</CanBeHealedBySleeping>
+  <StraightSleepHealTime>-1</StraightSleepHealTime>
+  <Effects>
+    <EffectHolder xsi:type="PunctualDamageHolder">
+      <Damage>
+        <Damages>
+          <Damage>1</Damage>
+          <Damage_Type>Physical</Damage_Type>
+        </Damages>
+      </Damage>
+      <Damages_AI>
+        <Damages>
+          <Damage>1.5</Damage>
+          <Damage_Type>Decay</Damage_Type>
+        </Damages>
+      </Damages_AI>
+      <Knockback>10</Knockback>
+      <HitInventory>false</HitInventory>
+    </EffectHolder>
+  </Effects>
+</StatusEffectHolder>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ItemSource xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ItemName>Fungal Cleanser</ItemName>
+  <ItemID>4100510</ItemID>
+  <Container_Sources>
+    <string>Junk Pile (Chersonese:Blister Burrow)</string>
+    <string>Junk Pile (Chersonese:Blister Burrow)</string>
+    <string>Trog Chest (Chersonese:Blister Burrow)</string>
+    <string>Trog Chest (Chersonese:Blister Burrow)</string>
+    <string>Junk Pile (Chersonese:Blue Chamber’s Conflux Path)</string>
+    <string>Trog Chest (Chersonese:Blue Chamber’s Conflux Path)</string>
+    <string>Trog Chest (Chersonese:Blue Chamber’s Conflux Path)</string>
+    <string>Junk Pile (Chersonese:Holy Mission’s Conflux Path)</string>
+    <string>Junk Pile (Chersonese:Holy Mission’s Conflux Path)</string>
+    <string>Junk Pile (Chersonese:Heroic Kingdom’s Conflux Path)</string>
+    <string>Trog Chest (Chersonese:Trog Infiltration)</string>
+    <string>Trog Chest (Chersonese:Trog Infiltration)</string>
+    <string>Trog Chest (Hallowed Marsh:Jade Quarry)</string>
+    <string>Trog Chest (Hallowed Marsh:Jade Quarry)</string>
+    <string>Junk Pile (Hallowed Marsh:Jade Quarry)</string>
+    <string>Junk Pile (Hallowed Marsh:Jade Quarry)</string>
+    <string>Trog Chest (Hallowed Marsh:Under Island)</string>
+    <string>Trog Chest (Hallowed Marsh:Under Island)</string>
+    <string>Junk Pile (Enmerkar Forest:Berg)</string>
+    <string>Stash (Enmerkar Forest:Berg)</string>
+    <string>Scavenger’s Corpse (Enmerkar Forest:Royal Manticore’s Lair)</string>
+    <string>Trog Chest (Enmerkar Forest:Royal Manticore’s Lair)</string>
+    <string>Trog Chest (Enmerkar Forest:Royal Manticore’s Lair)</string>
+    <string>Knight’s Corpse (Enmerkar Forest:Cabal of Wind Temple)</string>
+    <string>Worker’s Corpse (Enmerkar Forest:Cabal of Wind Temple)</string>
+    <string>Worker’s Corpse (Enmerkar Forest:Face of the Ancients)</string>
+    <string>Knight’s Corpse (Enmerkar Forest:Damp Hunter's Cabin)</string>
+    <string>Chest (Enmerkar Forest:Old Hunter's Cabin)</string>
+  </Container_Sources>
+  <Spawn_Sources />
+</ItemSource>

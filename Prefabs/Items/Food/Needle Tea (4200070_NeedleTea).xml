@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ItemHolder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ItemID>4200070</ItemID>
+  <Name>Needle Tea</Name>
+  <gameObjectName>4200070_NeedleTea</gameObjectName>
+  <saveDir>/Food</saveDir>
+  <Description>Concoction that helps with the heat and indigestion. It also restores burnt Stamina.
+
+It takes hours, after drinking this, to fully recover from an indigestion.</Description>
+  <LegacyItemID>-1</LegacyItemID>
+  <StatsHolder>
+    <BaseValue>8</BaseValue>
+    <RawWeight>0.5</RawWeight>
+    <MaxDurability>-1</MaxDurability>
+  </StatsHolder>
+  <Tags>
+    <string>Drink</string>
+    <string>Consummable</string>
+    <string>Item</string>
+  </Tags>
+  <EffectTransforms>
+    <EffectTransformHolder>
+      <TransformName>Effects</TransformName>
+      <Effects>
+        <EffectHolder xsi:type="AffectNeedHolder">
+          <Need>AffectDrink</Need>
+          <AffectQuantity>70</AffectQuantity>
+        </EffectHolder>
+        <EffectHolder xsi:type="RemoveStatusEffectHolder">
+          <StatusEffect_ByTag>None</StatusEffect_ByTag>
+          <StatusEffect_Family>Indigestion</StatusEffect_Family>
+          <StatusEffect_ByName />
+        </EffectHolder>
+        <EffectHolder xsi:type="AddStatusEffectHolder">
+          <StatusEffect>Environment Heat Resistance</StatusEffect>
+          <ChanceToContract>100</ChanceToContract>
+        </EffectHolder>
+        <EffectHolder xsi:type="AffectBurntStaminaHolder">
+          <AffectQuantity>15</AffectQuantity>
+          <IsModifier>false</IsModifier>
+        </EffectHolder>
+      </Effects>
+      <EffectConditions />
+      <ChildEffects />
+    </EffectTransformHolder>
+  </EffectTransforms>
+</ItemHolder>

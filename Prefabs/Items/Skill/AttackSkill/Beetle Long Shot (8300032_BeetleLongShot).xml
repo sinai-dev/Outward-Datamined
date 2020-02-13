@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ItemHolder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="SkillHolder">
+  <ItemID>8300032</ItemID>
+  <Name>Beetle Long Shot</Name>
+  <gameObjectName>8300032_BeetleLongShot</gameObjectName>
+  <saveDir>/Skill/AttackSkill</saveDir>
+  <Description />
+  <LegacyItemID>-1</LegacyItemID>
+  <Tags />
+  <EffectTransforms>
+    <EffectTransformHolder>
+      <TransformName>Effects</TransformName>
+      <Effects>
+        <EffectHolder xsi:type="ShootProjectileHolder">
+          <TargetingMode>NONE</TargetingMode>
+          <AutoTarget>false</AutoTarget>
+          <EffectTransforms>
+            <EffectTransformHolder>
+              <TransformName>HitEffects</TransformName>
+              <Effects>
+                <EffectHolder xsi:type="PunctualDamageHolder">
+                  <Damage>
+                    <Damages>
+                      <Damage>8</Damage>
+                      <Damage_Type>Fire</Damage_Type>
+                    </Damages>
+                  </Damage>
+                  <Damages_AI />
+                  <Knockback>80</Knockback>
+                  <HitInventory>true</HitInventory>
+                </EffectHolder>
+                <EffectHolder xsi:type="ShootBlastHolder">
+                  <BlastLifespan>0.01</BlastLifespan>
+                  <RefreshTime>0.1</RefreshTime>
+                  <EffectTransforms>
+                    <EffectTransformHolder>
+                      <TransformName>Effects</TransformName>
+                      <Effects>
+                        <EffectHolder xsi:type="PunctualDamageHolder">
+                          <Damage>
+                            <Damages>
+                              <Damage>15</Damage>
+                              <Damage_Type>Fire</Damage_Type>
+                            </Damages>
+                          </Damage>
+                          <Damages_AI />
+                          <Knockback>30</Knockback>
+                          <HitInventory>true</HitInventory>
+                        </EffectHolder>
+                        <EffectHolder xsi:type="AddStatusEffectHolder">
+                          <StatusEffect>Burning</StatusEffect>
+                          <ChanceToContract>100</ChanceToContract>
+                        </EffectHolder>
+                      </Effects>
+                      <EffectConditions />
+                      <ChildEffects />
+                    </EffectTransformHolder>
+                  </EffectTransforms>
+                </EffectHolder>
+                <EffectHolder xsi:type="ShootBlastHolder">
+                  <BlastLifespan>0</BlastLifespan>
+                  <RefreshTime>0.1</RefreshTime>
+                  <EffectTransforms />
+                </EffectHolder>
+              </Effects>
+              <EffectConditions />
+              <ChildEffects />
+            </EffectTransformHolder>
+          </EffectTransforms>
+        </EffectHolder>
+      </Effects>
+      <EffectConditions />
+      <ChildEffects />
+    </EffectTransformHolder>
+  </EffectTransforms>
+  <Cooldown>6</Cooldown>
+  <StaminaCost>0</StaminaCost>
+  <ManaCost>0</ManaCost>
+  <DurabilityCost>0</DurabilityCost>
+  <DurabilityCostPercent>0</DurabilityCostPercent>
+  <IsDLCSkill>true</IsDLCSkill>
+  <RequiredItems />
+</ItemHolder>

@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MerchantHolder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>Master-Smith Tokuga</Name>
+  <UID>EYhBqM653UGhDd5kcdMFXg</UID>
+  <DropTable>
+    <Name>Levant - Master-Smith Tokuga</Name>
+    <Guaranteed_Drops>
+      <DropTableEntry>
+        <Item_Name>Gold Ingot</Item_Name>
+        <Item_ID>6300030</Item_ID>
+        <Min_Quantity>5</Min_Quantity>
+        <Max_Quantity>10</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Crafting: Manticore Greatmace</Item_Name>
+        <Item_ID>5700080</Item_ID>
+        <Min_Quantity>1</Min_Quantity>
+        <Max_Quantity>1</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Crafting: Assassin Sword</Item_Name>
+        <Item_ID>5700081</Item_ID>
+        <Min_Quantity>1</Min_Quantity>
+        <Max_Quantity>1</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Crafting: Assassin Claymore</Item_Name>
+        <Item_ID>5700082</Item_ID>
+        <Min_Quantity>1</Min_Quantity>
+        <Max_Quantity>1</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Crafting: Mantis Greatpick</Item_Name>
+        <Item_ID>5700083</Item_ID>
+        <Min_Quantity>1</Min_Quantity>
+        <Max_Quantity>1</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Crafting: Crescent Greataxe</Item_Name>
+        <Item_ID>5700084</Item_ID>
+        <Min_Quantity>1</Min_Quantity>
+        <Max_Quantity>1</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Crafting: Crescent Scythe</Item_Name>
+        <Item_ID>5700085</Item_ID>
+        <Min_Quantity>1</Min_Quantity>
+        <Max_Quantity>1</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Crafting: Thorny Spear</Item_Name>
+        <Item_ID>5700086</Item_ID>
+        <Min_Quantity>1</Min_Quantity>
+        <Max_Quantity>1</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Crafting: Thorny Claymore</Item_Name>
+        <Item_ID>5700087</Item_ID>
+        <Min_Quantity>1</Min_Quantity>
+        <Max_Quantity>1</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Crafting: Beast Golem Axe</Item_Name>
+        <Item_ID>5700088</Item_ID>
+        <Min_Quantity>1</Min_Quantity>
+        <Max_Quantity>1</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Crafting: Beast Golem Halberd</Item_Name>
+        <Item_ID>5700089</Item_ID>
+        <Min_Quantity>1</Min_Quantity>
+        <Max_Quantity>1</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Crafting: Golem Rapier</Item_Name>
+        <Item_ID>5700138</Item_ID>
+        <Min_Quantity>1</Min_Quantity>
+        <Max_Quantity>1</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Crafting: Obsidian Mace</Item_Name>
+        <Item_ID>5700157</Item_ID>
+        <Min_Quantity>1</Min_Quantity>
+        <Max_Quantity>1</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Crafting: Obsidian Greatmace</Item_Name>
+        <Item_ID>5700158</Item_ID>
+        <Min_Quantity>1</Min_Quantity>
+        <Max_Quantity>1</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Crafting: Manticore Dagger</Item_Name>
+        <Item_ID>5700161</Item_ID>
+        <Min_Quantity>1</Min_Quantity>
+        <Max_Quantity>1</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Arrow</Item_Name>
+        <Item_ID>5200001</Item_ID>
+        <Min_Quantity>60</Min_Quantity>
+        <Max_Quantity>60</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Bullet</Item_Name>
+        <Item_ID>4400080</Item_ID>
+        <Min_Quantity>24</Min_Quantity>
+        <Max_Quantity>24</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Spikes – Iron</Item_Name>
+        <Item_ID>6500100</Item_ID>
+        <Min_Quantity>4</Min_Quantity>
+        <Max_Quantity>4</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Tripwire Trap</Item_Name>
+        <Item_ID>5020010</Item_ID>
+        <Min_Quantity>4</Min_Quantity>
+        <Max_Quantity>4</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Coralhorn Mask</Item_Name>
+        <Item_ID>3000100</Item_ID>
+        <Min_Quantity>1</Min_Quantity>
+        <Max_Quantity>1</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Scarab Mask</Item_Name>
+        <Item_ID>3000101</Item_ID>
+        <Min_Quantity>1</Min_Quantity>
+        <Max_Quantity>1</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Tuanosaur Mask</Item_Name>
+        <Item_ID>3000102</Item_ID>
+        <Min_Quantity>1</Min_Quantity>
+        <Max_Quantity>1</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Hound Mask</Item_Name>
+        <Item_ID>3000103</Item_ID>
+        <Min_Quantity>1</Min_Quantity>
+        <Max_Quantity>1</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Mining Pick</Item_Name>
+        <Item_ID>2120050</Item_ID>
+        <Min_Quantity>1</Min_Quantity>
+        <Max_Quantity>1</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Ash Armor</Item_Name>
+        <Item_ID>3000220</Item_ID>
+        <Min_Quantity>1</Min_Quantity>
+        <Max_Quantity>1</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Ash-Filter Mask</Item_Name>
+        <Item_ID>3000221</Item_ID>
+        <Min_Quantity>1</Min_Quantity>
+        <Max_Quantity>1</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Ash Boots</Item_Name>
+        <Item_ID>3000222</Item_ID>
+        <Min_Quantity>1</Min_Quantity>
+        <Max_Quantity>1</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Rondel Dagger</Item_Name>
+        <Item_ID>5110000</Item_ID>
+        <Min_Quantity>1</Min_Quantity>
+        <Max_Quantity>1</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Broad Dagger</Item_Name>
+        <Item_ID>5110001</Item_ID>
+        <Min_Quantity>1</Min_Quantity>
+        <Max_Quantity>1</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Flintlock Pistol</Item_Name>
+        <Item_ID>5110100</Item_ID>
+        <Min_Quantity>1</Min_Quantity>
+        <Max_Quantity>1</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Cannon Pistol</Item_Name>
+        <Item_ID>5110110</Item_ID>
+        <Min_Quantity>1</Min_Quantity>
+        <Max_Quantity>1</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Ornate Pistol</Item_Name>
+        <Item_ID>5110120</Item_ID>
+        <Min_Quantity>1</Min_Quantity>
+        <Max_Quantity>1</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Recurve Bow</Item_Name>
+        <Item_ID>2200010</Item_ID>
+        <Min_Quantity>1</Min_Quantity>
+        <Max_Quantity>1</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>War Bow</Item_Name>
+        <Item_ID>2200020</Item_ID>
+        <Min_Quantity>1</Min_Quantity>
+        <Max_Quantity>1</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Tower Shield</Item_Name>
+        <Item_ID>2300040</Item_ID>
+        <Min_Quantity>1</Min_Quantity>
+        <Max_Quantity>1</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Steel Shield</Item_Name>
+        <Item_ID>2300140</Item_ID>
+        <Min_Quantity>1</Min_Quantity>
+        <Max_Quantity>1</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Steel Sabre</Item_Name>
+        <Item_ID>2000020</Item_ID>
+        <Min_Quantity>1</Min_Quantity>
+        <Max_Quantity>1</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Strongbox Backpack</Item_Name>
+        <Item_ID>5300130</Item_ID>
+        <Min_Quantity>1</Min_Quantity>
+        <Max_Quantity>1</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Pathfinder Armor</Item_Name>
+        <Item_ID>3000224</Item_ID>
+        <Min_Quantity>1</Min_Quantity>
+        <Max_Quantity>1</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Pathfinder Mask</Item_Name>
+        <Item_ID>3000225</Item_ID>
+        <Min_Quantity>1</Min_Quantity>
+        <Max_Quantity>1</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Pathfinder Boots</Item_Name>
+        <Item_ID>3000226</Item_ID>
+        <Min_Quantity>1</Min_Quantity>
+        <Max_Quantity>1</Max_Quantity>
+      </DropTableEntry>
+    </Guaranteed_Drops>
+    <Random_Tables />
+  </DropTable>
+</MerchantHolder>

@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DroptableHolder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>DropTable_LevantJunkTraps_C</Name>
+  <Guaranteed_Drops>
+    <DropTableEntry>
+      <Item_Name>Tripwire Trap</Item_Name>
+      <Item_ID>5020010</Item_ID>
+      <Min_Quantity>1</Min_Quantity>
+      <Max_Quantity>2</Max_Quantity>
+    </DropTableEntry>
+    <DropTableEntry>
+      <Item_Name>Spikes – Iron</Item_Name>
+      <Item_ID>6500100</Item_ID>
+      <Min_Quantity>1</Min_Quantity>
+      <Max_Quantity>2</Max_Quantity>
+    </DropTableEntry>
+  </Guaranteed_Drops>
+  <Random_Tables>
+    <DropGeneratorHolder>
+      <MinNumberOfDrops>1</MinNumberOfDrops>
+      <MaxNumberOfDrops>2</MaxNumberOfDrops>
+      <MaxDiceValue>230</MaxDiceValue>
+      <EmptyDrop>4.347826</EmptyDrop>
+      <Item_Drops>
+        <DropTableChanceEntry>
+          <Item_Name>Tattered Attire</Item_Name>
+          <Item_ID>3000130</Item_ID>
+          <Min_Quantity>1</Min_Quantity>
+          <Max_Quantity>1</Max_Quantity>
+          <Drop_Chance>4.347826</Drop_Chance>
+          <Dice_Range>9</Dice_Range>
+        </DropTableChanceEntry>
+        <DropTableChanceEntry>
+          <Item_Name>Tattered Attire</Item_Name>
+          <Item_ID>3000131</Item_ID>
+          <Min_Quantity>1</Min_Quantity>
+          <Max_Quantity>1</Max_Quantity>
+          <Drop_Chance>4.347826</Drop_Chance>
+          <Dice_Range>9</Dice_Range>
+        </DropTableChanceEntry>
+        <DropTableChanceEntry>
+          <Item_Name>Tattered Attire</Item_Name>
+          <Item_ID>3000132</Item_ID>
+          <Min_Quantity>1</Min_Quantity>
+          <Max_Quantity>1</Max_Quantity>
+          <Drop_Chance>4.347826</Drop_Chance>
+          <Dice_Range>9</Dice_Range>
+        </DropTableChanceEntry>
+        <DropTableChanceEntry>
+          <Item_Name>Tattered Hood</Item_Name>
+          <Item_ID>3000133</Item_ID>
+          <Min_Quantity>1</Min_Quantity>
+          <Max_Quantity>1</Max_Quantity>
+          <Drop_Chance>4.347826</Drop_Chance>
+          <Dice_Range>9</Dice_Range>
+        </DropTableChanceEntry>
+        <DropTableChanceEntry>
+          <Item_Name>Tattered Hood</Item_Name>
+          <Item_ID>3000134</Item_ID>
+          <Min_Quantity>1</Min_Quantity>
+          <Max_Quantity>1</Max_Quantity>
+          <Drop_Chance>4.347826</Drop_Chance>
+          <Dice_Range>9</Dice_Range>
+        </DropTableChanceEntry>
+        <DropTableChanceEntry>
+          <Item_Name>Tattered Hood</Item_Name>
+          <Item_ID>3000135</Item_ID>
+          <Min_Quantity>1</Min_Quantity>
+          <Max_Quantity>1</Max_Quantity>
+          <Drop_Chance>4.347826</Drop_Chance>
+          <Dice_Range>9</Dice_Range>
+        </DropTableChanceEntry>
+        <DropTableChanceEntry>
+          <Item_Name>Tattered Boots</Item_Name>
+          <Item_ID>3000136</Item_ID>
+          <Min_Quantity>1</Min_Quantity>
+          <Max_Quantity>1</Max_Quantity>
+          <Drop_Chance>4.347826</Drop_Chance>
+          <Dice_Range>9</Dice_Range>
+        </DropTableChanceEntry>
+        <DropTableChanceEntry>
+          <Item_Name>Shiv Dagger</Item_Name>
+          <Item_ID>5110003</Item_ID>
+          <Min_Quantity>1</Min_Quantity>
+          <Max_Quantity>1</Max_Quantity>
+          <Drop_Chance>4.347826</Drop_Chance>
+          <Dice_Range>9</Dice_Range>
+        </DropTableChanceEntry>
+        <DropTableChanceEntry>
+          <Item_Name>Rondel Dagger</Item_Name>
+          <Item_ID>5110000</Item_ID>
+          <Min_Quantity>1</Min_Quantity>
+          <Max_Quantity>1</Max_Quantity>
+          <Drop_Chance>4.347826</Drop_Chance>
+          <Dice_Range>9</Dice_Range>
+        </DropTableChanceEntry>
+        <DropTableChanceEntry>
+          <Item_Name>Broad Dagger</Item_Name>
+          <Item_ID>5110001</Item_ID>
+          <Min_Quantity>1</Min_Quantity>
+          <Max_Quantity>1</Max_Quantity>
+          <Drop_Chance>4.347826</Drop_Chance>
+          <Dice_Range>9</Dice_Range>
+        </DropTableChanceEntry>
+        <DropTableChanceEntry>
+          <Item_Name>Silver</Item_Name>
+          <Item_ID>9000010</Item_ID>
+          <Min_Quantity>2</Min_Quantity>
+          <Max_Quantity>10</Max_Quantity>
+          <Drop_Chance>4.347826</Drop_Chance>
+          <Dice_Range>9</Dice_Range>
+        </DropTableChanceEntry>
+        <DropTableChanceEntry>
+          <Item_Name>Linen Cloth</Item_Name>
+          <Item_ID>6500090</Item_ID>
+          <Min_Quantity>1</Min_Quantity>
+          <Max_Quantity>3</Max_Quantity>
+          <Drop_Chance>4.347826</Drop_Chance>
+          <Dice_Range>9</Dice_Range>
+        </DropTableChanceEntry>
+        <DropTableChanceEntry>
+          <Item_Name>Bandages</Item_Name>
+          <Item_ID>4400010</Item_ID>
+          <Min_Quantity>1</Min_Quantity>
+          <Max_Quantity>2</Max_Quantity>
+          <Drop_Chance>4.347826</Drop_Chance>
+          <Dice_Range>9</Dice_Range>
+        </DropTableChanceEntry>
+        <DropTableChanceEntry>
+          <Item_Name>Iron Scrap</Item_Name>
+          <Item_ID>6400140</Item_ID>
+          <Min_Quantity>1</Min_Quantity>
+          <Max_Quantity>1</Max_Quantity>
+          <Drop_Chance>4.347826</Drop_Chance>
+          <Dice_Range>9</Dice_Range>
+        </DropTableChanceEntry>
+        <DropTableChanceEntry>
+          <Item_Name>Iron Sword</Item_Name>
+          <Item_ID>2000010</Item_ID>
+          <Min_Quantity>1</Min_Quantity>
+          <Max_Quantity>1</Max_Quantity>
+          <Drop_Chance>4.347826</Drop_Chance>
+          <Dice_Range>9</Dice_Range>
+        </DropTableChanceEntry>
+        <DropTableChanceEntry>
+          <Item_Name>Plank Shield</Item_Name>
+          <Item_ID>2300080</Item_ID>
+          <Min_Quantity>1</Min_Quantity>
+          <Max_Quantity>1</Max_Quantity>
+          <Drop_Chance>4.347826</Drop_Chance>
+          <Dice_Range>9</Dice_Range>
+        </DropTableChanceEntry>
+        <DropTableChanceEntry>
+          <Item_Name>Improvised Bedroll</Item_Name>
+          <Item_ID>5000020</Item_ID>
+          <Min_Quantity>1</Min_Quantity>
+          <Max_Quantity>1</Max_Quantity>
+          <Drop_Chance>4.347826</Drop_Chance>
+          <Dice_Range>9</Dice_Range>
+        </DropTableChanceEntry>
+        <DropTableChanceEntry>
+          <Item_Name>Wood</Item_Name>
+          <Item_ID>6100010</Item_ID>
+          <Min_Quantity>1</Min_Quantity>
+          <Max_Quantity>1</Max_Quantity>
+          <Drop_Chance>4.347826</Drop_Chance>
+          <Dice_Range>9</Dice_Range>
+        </DropTableChanceEntry>
+        <DropTableChanceEntry>
+          <Item_Name>Primitive Club</Item_Name>
+          <Item_ID>2020130</Item_ID>
+          <Min_Quantity>1</Min_Quantity>
+          <Max_Quantity>1</Max_Quantity>
+          <Drop_Chance>4.347826</Drop_Chance>
+          <Dice_Range>9</Dice_Range>
+        </DropTableChanceEntry>
+        <DropTableChanceEntry>
+          <Item_Name>Primitive Satchel</Item_Name>
+          <Item_ID>5300120</Item_ID>
+          <Min_Quantity>1</Min_Quantity>
+          <Max_Quantity>1</Max_Quantity>
+          <Drop_Chance>4.347826</Drop_Chance>
+          <Dice_Range>9</Dice_Range>
+        </DropTableChanceEntry>
+        <DropTableChanceEntry>
+          <Item_Name>Makeshift Torch</Item_Name>
+          <Item_ID>5100060</Item_ID>
+          <Min_Quantity>1</Min_Quantity>
+          <Max_Quantity>1</Max_Quantity>
+          <Drop_Chance>4.347826</Drop_Chance>
+          <Dice_Range>9</Dice_Range>
+        </DropTableChanceEntry>
+        <DropTableChanceEntry>
+          <Item_Name>Flint and Steel</Item_Name>
+          <Item_ID>5600010</Item_ID>
+          <Min_Quantity>1</Min_Quantity>
+          <Max_Quantity>1</Max_Quantity>
+          <Drop_Chance>4.347826</Drop_Chance>
+          <Dice_Range>9</Dice_Range>
+        </DropTableChanceEntry>
+      </Item_Drops>
+    </DropGeneratorHolder>
+  </Random_Tables>
+</DroptableHolder>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MerchantHolder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>Mathias</Name>
+  <UID>mDmEj260MkO1wSg3vlzoqA</UID>
+  <DropTable>
+    <Name>Berg - Mathias</Name>
+    <Guaranteed_Drops>
+      <DropTableEntry>
+        <Item_Name>Jade Acolyte Robes</Item_Name>
+        <Item_ID>3000044</Item_ID>
+        <Min_Quantity>1</Min_Quantity>
+        <Max_Quantity>1</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Jade Acolyte Cowl</Item_Name>
+        <Item_ID>3000045</Item_ID>
+        <Min_Quantity>1</Min_Quantity>
+        <Max_Quantity>1</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Jade Acolyte Boots</Item_Name>
+        <Item_ID>3000046</Item_ID>
+        <Min_Quantity>1</Min_Quantity>
+        <Max_Quantity>1</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Jade-Lich Mace </Item_Name>
+        <Item_ID>2020030</Item_ID>
+        <Min_Quantity>1</Min_Quantity>
+        <Max_Quantity>1</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Possessed Potion</Item_Name>
+        <Item_ID>4300120</Item_ID>
+        <Min_Quantity>2</Min_Quantity>
+        <Max_Quantity>4</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Jade Scimitar</Item_Name>
+        <Item_ID>2000120</Item_ID>
+        <Min_Quantity>1</Min_Quantity>
+        <Max_Quantity>1</Max_Quantity>
+      </DropTableEntry>
+    </Guaranteed_Drops>
+    <Random_Tables />
+  </DropTable>
+</MerchantHolder>

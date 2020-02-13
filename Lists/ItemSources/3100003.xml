@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ItemSource xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ItemName>Plate Armor</ItemName>
+  <ItemID>3100003</ItemID>
+  <Container_Sources>
+    <string>Chest (Enmerkar Forest:Enmerkar Forest)</string>
+    <string>Ornate Chest (Enmerkar Forest:Enmerkar Forest)</string>
+    <string>Hollowed Trunk (Enmerkar Forest:Enmerkar Forest)</string>
+    <string>Ornate Chest (Enmerkar Forest:Royal Manticore’s Lair)</string>
+    <string>Ornate Chest (Enmerkar Forest:Forest Hives)</string>
+    <string>Chest (Enmerkar Forest:Forest Hives)</string>
+    <string>Chest (Enmerkar Forest:Cabal of Wind Temple)</string>
+    <string>Chest (Enmerkar Forest:Cabal of Wind Temple)</string>
+    <string>Ornate Chest (Enmerkar Forest:Cabal of Wind Temple)</string>
+    <string>Chest (Enmerkar Forest:Face of the Ancients)</string>
+    <string>Chest (Enmerkar Forest:Face of the Ancients)</string>
+    <string>Ornate Chest (Enmerkar Forest:Face of the Ancients)</string>
+    <string>Chest (Enmerkar Forest:Face of the Ancients)</string>
+    <string>Ornate Chest (Enmerkar Forest:Ancestor’s Resting Place)</string>
+    <string>Chest (Enmerkar Forest:Vigil Pylon)</string>
+    <string>Chest (Enmerkar Forest:Burnt Outpost)</string>
+    <string>Chest (Enmerkar Forest:Immaculate's Camp)</string>
+    <string>Chest (Enmerkar Forest:Dolmen Crypt)</string>
+    <string>Chest (Enmerkar Forest:Vigil Pylon)</string>
+    <string>Chest (Enmerkar Forest:Vigil Pylon)</string>
+    <string>Ornate Chest (Enmerkar Forest:Vigil Pylon)</string>
+  </Container_Sources>
+  <Spawn_Sources />
+</ItemSource>

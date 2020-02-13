@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<StatusEffectHolder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>Bleeding</Name>
+  <PresetID>34</PresetID>
+  <Lifespan>120</Lifespan>
+  <LengthType>Short</LengthType>
+  <Tags>
+    <string>Bleeding</string>
+    <string>Status Type</string>
+  </Tags>
+  <CanBeHealedBySleeping>false</CanBeHealedBySleeping>
+  <StraightSleepHealTime>-1</StraightSleepHealTime>
+  <Effects>
+    <EffectHolder xsi:type="AffectHealthHolder">
+      <AffectQuantity>-0.5</AffectQuantity>
+      <IsModifier>true</IsModifier>
+      <AffectQuanityAI>-0.29167</AffectQuanityAI>
+    </EffectHolder>
+  </Effects>
+</StatusEffectHolder>

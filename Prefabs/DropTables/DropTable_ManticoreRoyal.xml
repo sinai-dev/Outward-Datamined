@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DroptableHolder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>DropTable_ManticoreRoyal</Name>
+  <Guaranteed_Drops>
+    <DropTableEntry>
+      <Item_Name>Manticore Tail</Item_Name>
+      <Item_ID>6600150</Item_ID>
+      <Min_Quantity>1</Min_Quantity>
+      <Max_Quantity>1</Max_Quantity>
+    </DropTableEntry>
+    <DropTableEntry>
+      <Item_Name>Raw Alpha Meat</Item_Name>
+      <Item_ID>4000060</Item_ID>
+      <Min_Quantity>5</Min_Quantity>
+      <Max_Quantity>5</Max_Quantity>
+    </DropTableEntry>
+    <DropTableEntry>
+      <Item_Name>Predator Bones</Item_Name>
+      <Item_ID>6600050</Item_ID>
+      <Min_Quantity>5</Min_Quantity>
+      <Max_Quantity>5</Max_Quantity>
+    </DropTableEntry>
+    <DropTableEntry>
+      <Item_Name>Scaled Leather</Item_Name>
+      <Item_ID>6600030</Item_ID>
+      <Min_Quantity>2</Min_Quantity>
+      <Max_Quantity>2</Max_Quantity>
+    </DropTableEntry>
+    <DropTableEntry>
+      <Item_Name>Starchild Claymore</Item_Name>
+      <Item_ID>2100100</Item_ID>
+      <Min_Quantity>1</Min_Quantity>
+      <Max_Quantity>1</Max_Quantity>
+    </DropTableEntry>
+  </Guaranteed_Drops>
+  <Random_Tables />
+</DroptableHolder>

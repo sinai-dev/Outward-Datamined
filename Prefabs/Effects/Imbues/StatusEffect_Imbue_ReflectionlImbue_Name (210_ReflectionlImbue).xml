@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<StatusEffectHolder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>StatusEffect_Imbue_ReflectionlImbue_Name</Name>
+  <PresetID>210</PresetID>
+  <Lifespan>0</Lifespan>
+  <Tags />
+  <CanBeHealedBySleeping>false</CanBeHealedBySleeping>
+  <StraightSleepHealTime>-1</StraightSleepHealTime>
+  <Effects>
+    <EffectHolder xsi:type="PunctualDamageHolder">
+      <Damage>
+        <Damages>
+          <Damage>0</Damage>
+          <Damage_Type>Physical</Damage_Type>
+        </Damages>
+      </Damage>
+      <Damages_AI />
+      <Knockback>25</Knockback>
+      <HitInventory>true</HitInventory>
+    </EffectHolder>
+  </Effects>
+</StatusEffectHolder>

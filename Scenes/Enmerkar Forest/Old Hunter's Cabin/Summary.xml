@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SceneSummary xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <SceneName>Old Hunter's Cabin</SceneName>
+  <Enemies />
+  <Merchants />
+  <Loot_Containers>
+    <QuantityHolder>
+      <Name>Chest</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+  </Loot_Containers>
+  <Gatherables />
+  <Item_Spawns>
+    <ItemSpawnHolder>
+      <Name>Jerky</Name>
+      <Item_ID>4100012</Item_ID>
+      <Quantity>2</Quantity>
+      <positions>
+        <Vector3>
+          <x>602.452</x>
+          <y>1.743</y>
+          <z>8.932</z>
+        </Vector3>
+        <Vector3>
+          <x>602.861</x>
+          <y>1.709</y>
+          <z>8.353</z>
+        </Vector3>
+      </positions>
+    </ItemSpawnHolder>
+    <ItemSpawnHolder>
+      <Name>Bed</Name>
+      <Item_ID>5000001</Item_ID>
+      <Quantity>1</Quantity>
+      <positions>
+        <Vector3>
+          <x>596.666</x>
+          <y>0.789242744</y>
+          <z>5.876808</z>
+        </Vector3>
+      </positions>
+    </ItemSpawnHolder>
+    <ItemSpawnHolder>
+      <Name>Cooked Meat</Name>
+      <Item_ID>4100010</Item_ID>
+      <Quantity>2</Quantity>
+      <positions>
+        <Vector3>
+          <x>603.252</x>
+          <y>1.696</y>
+          <z>8.372659</z>
+        </Vector3>
+        <Vector3>
+          <x>603.115</x>
+          <y>1.696</y>
+          <z>8.53</z>
+        </Vector3>
+      </positions>
+    </ItemSpawnHolder>
+    <ItemSpawnHolder>
+      <Name>Cooked Alpha Meat</Name>
+      <Item_ID>4100011</Item_ID>
+      <Quantity>1</Quantity>
+      <positions>
+        <Vector3>
+          <x>603.138733</x>
+          <y>1.738</y>
+          <z>8.292425</z>
+        </Vector3>
+      </positions>
+    </ItemSpawnHolder>
+  </Item_Spawns>
+</SceneSummary>

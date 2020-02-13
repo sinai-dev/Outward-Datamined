@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ItemHolder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ItemID>4400031</ItemID>
+  <Name>Bolt Varnish</Name>
+  <gameObjectName>4400031_GlowVarnish</gameObjectName>
+  <saveDir>/InfuseConsumable</saveDir>
+  <Description>Thick fluid that confers the Lightning element when applied to a melee weapon.</Description>
+  <LegacyItemID>-1</LegacyItemID>
+  <StatsHolder>
+    <BaseValue>40</BaseValue>
+    <RawWeight>0.5</RawWeight>
+    <MaxDurability>-1</MaxDurability>
+  </StatsHolder>
+  <Tags>
+    <string>Consummable</string>
+    <string>Item</string>
+    <string>PressurePlateTrapComponent</string>
+  </Tags>
+  <EffectTransforms>
+    <EffectTransformHolder>
+      <TransformName>Effects</TransformName>
+      <Effects>
+        <EffectHolder xsi:type="ImbueWeaponHolder">
+          <Lifespan>180</Lifespan>
+          <ImbueEffect_Preset_Name>Greater Lightning Imbue</ImbueEffect_Preset_Name>
+          <ImbueEffect_Preset_ID>207</ImbueEffect_Preset_ID>
+          <Imbue_Slot>MainHand</Imbue_Slot>
+        </EffectHolder>
+      </Effects>
+      <EffectConditions />
+      <ChildEffects />
+    </EffectTransformHolder>
+  </EffectTransforms>
+</ItemHolder>

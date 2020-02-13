@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<StatusEffectHolder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>Stun</Name>
+  <PresetID>56</PresetID>
+  <Lifespan>2</Lifespan>
+  <LengthType>Short</LengthType>
+  <Tags>
+    <string>Stun</string>
+    <string>Status Type</string>
+  </Tags>
+  <CanBeHealedBySleeping>false</CanBeHealedBySleeping>
+  <StraightSleepHealTime>-1</StraightSleepHealTime>
+  <Effects />
+</StatusEffectHolder>

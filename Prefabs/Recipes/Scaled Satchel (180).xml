@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RecipeHolder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <StationType>Survival</StationType>
+  <Name>Scaled Satchel</Name>
+  <RecipeID>180</RecipeID>
+  <Ingredients>
+    <string>Primitive Satchel</string>
+    <string>Scaled Leather</string>
+    <string>Scaled Leather</string>
+    <string>Scaled Leather</string>
+  </Ingredients>
+  <Results>
+    <ItemQuantityHolder>
+      <ItemName>Scaled Satchel</ItemName>
+      <Quantity>1</Quantity>
+    </ItemQuantityHolder>
+  </Results>
+</RecipeHolder>

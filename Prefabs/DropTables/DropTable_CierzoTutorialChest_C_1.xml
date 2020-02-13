@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DroptableHolder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>DropTable_CierzoTutorialChest_C_1</Name>
+  <Guaranteed_Drops>
+    <DropTableEntry>
+      <Item_Name>Flint and Steel</Item_Name>
+      <Item_ID>5600010</Item_ID>
+      <Min_Quantity>1</Min_Quantity>
+      <Max_Quantity>1</Max_Quantity>
+    </DropTableEntry>
+    <DropTableEntry>
+      <Item_Name>Wood</Item_Name>
+      <Item_ID>6100010</Item_ID>
+      <Min_Quantity>3</Min_Quantity>
+      <Max_Quantity>3</Max_Quantity>
+    </DropTableEntry>
+    <DropTableEntry>
+      <Item_Name>Linen Cloth</Item_Name>
+      <Item_ID>6500090</Item_ID>
+      <Min_Quantity>1</Min_Quantity>
+      <Max_Quantity>2</Max_Quantity>
+    </DropTableEntry>
+  </Guaranteed_Drops>
+  <Random_Tables />
+</DroptableHolder>

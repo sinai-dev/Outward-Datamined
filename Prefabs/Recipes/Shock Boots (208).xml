@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RecipeHolder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <StationType>Survival</StationType>
+  <Name>Shock Boots</Name>
+  <RecipeID>208</RecipeID>
+  <Ingredients>
+    <string>Gep’s Generosity</string>
+    <string>Calixa’s Relic</string>
+    <string>Leyline Figment</string>
+    <string>Vendavel's Hospitality</string>
+  </Ingredients>
+  <Results>
+    <ItemQuantityHolder>
+      <ItemName>Shock Boots</ItemName>
+      <Quantity>1</Quantity>
+    </ItemQuantityHolder>
+  </Results>
+</RecipeHolder>

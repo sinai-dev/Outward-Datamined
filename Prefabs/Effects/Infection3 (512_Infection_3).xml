@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<StatusEffectHolder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>Infection3</Name>
+  <PresetID>512</PresetID>
+  <Lifespan>-1</Lifespan>
+  <LengthType>Long</LengthType>
+  <Tags>
+    <string>Disease</string>
+    <string>Status Type</string>
+  </Tags>
+  <CanBeHealedBySleeping>false</CanBeHealedBySleeping>
+  <StraightSleepHealTime>-1</StraightSleepHealTime>
+  <Effects>
+    <EffectHolder xsi:type="AffectStatHolder">
+      <AffectedStat>FoodEffectEfficiency</AffectedStat>
+      <AffectedStat_TagUID>142</AffectedStat_TagUID>
+      <AffectQuantity>1.66</AffectQuantity>
+      <IsModifier>true</IsModifier>
+    </EffectHolder>
+  </Effects>
+</StatusEffectHolder>

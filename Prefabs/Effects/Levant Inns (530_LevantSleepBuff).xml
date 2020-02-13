@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<StatusEffectHolder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>Levant Inns</Name>
+  <PresetID>530</PresetID>
+  <Lifespan>2400</Lifespan>
+  <LengthType>Short</LengthType>
+  <Tags />
+  <CanBeHealedBySleeping>false</CanBeHealedBySleeping>
+  <StraightSleepHealTime>-1</StraightSleepHealTime>
+  <Effects>
+    <EffectHolder xsi:type="AffectNeedHolder">
+      <Need>AffectDrink</Need>
+      <AffectQuantity>0</AffectQuantity>
+    </EffectHolder>
+    <EffectHolder xsi:type="AffectNeedHolder">
+      <Need>AffectFood</Need>
+      <AffectQuantity>0</AffectQuantity>
+    </EffectHolder>
+    <EffectHolder xsi:type="AffectStatHolder">
+      <AffectedStat>StaminaCostReduction</AffectedStat>
+      <AffectedStat_TagUID>150</AffectedStat_TagUID>
+      <AffectQuantity>20</AffectQuantity>
+      <IsModifier>true</IsModifier>
+    </EffectHolder>
+    <EffectHolder xsi:type="AffectStatHolder">
+      <AffectedStat>EnvHeatProtection</AffectedStat>
+      <AffectedStat_TagUID>124</AffectedStat_TagUID>
+      <AffectQuantity>5</AffectQuantity>
+      <IsModifier>false</IsModifier>
+    </EffectHolder>
+  </Effects>
+</StatusEffectHolder>

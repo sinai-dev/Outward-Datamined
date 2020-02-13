@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ItemHolder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ItemID>6200040</ItemID>
+  <Name>Butcher’s Amethyst</Name>
+  <gameObjectName>6200040_Amethyst</gameObjectName>
+  <saveDir />
+  <Description>Beautiful one-of-a-kind gem formed in the heart of a unique horror.
+
+It is a memento from a hard-fought battle to save the city of Monsoon.</Description>
+  <LegacyItemID>2010140</LegacyItemID>
+  <StatsHolder>
+    <BaseValue>250</BaseValue>
+    <RawWeight>0.1</RawWeight>
+    <MaxDurability>-1</MaxDurability>
+  </StatsHolder>
+  <Tags>
+    <string>Stone</string>
+    <string>Material</string>
+    <string>Ingredient</string>
+    <string>Item</string>
+    <string>Valuable</string>
+  </Tags>
+  <EffectTransforms>
+    <EffectTransformHolder>
+      <TransformName>Effects</TransformName>
+      <Effects>
+        <EffectHolder xsi:type="AffectNeedHolder">
+          <Need>AffectFood</Need>
+          <AffectQuantity>30</AffectQuantity>
+        </EffectHolder>
+      </Effects>
+      <EffectConditions />
+      <ChildEffects />
+    </EffectTransformHolder>
+  </EffectTransforms>
+</ItemHolder>

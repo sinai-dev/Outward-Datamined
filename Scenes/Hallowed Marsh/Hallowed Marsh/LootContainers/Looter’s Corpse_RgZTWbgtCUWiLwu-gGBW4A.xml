@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LootContainerHolder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>Looter’s Corpse</Name>
+  <ItemID>1000100</ItemID>
+  <UID>RgZTWbgtCUWiLwu-gGBW4A</UID>
+  <DropTables>
+    <string>DropTable_Neutral_Cloth_Poor_1</string>
+    <string>DropTable_Neutral_Food_1</string>
+    <string>DropTable_Neutral_Survival_Low_2</string>
+    <string>DropTable_Neutral_StandardRecipe_High_1</string>
+  </DropTables>
+</LootContainerHolder>

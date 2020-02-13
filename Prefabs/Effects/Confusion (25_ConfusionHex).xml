@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<StatusEffectHolder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>Confusion</Name>
+  <PresetID>25</PresetID>
+  <Lifespan>240</Lifespan>
+  <LengthType>Short</LengthType>
+  <Tags>
+    <string>Hex</string>
+    <string>Status Type</string>
+  </Tags>
+  <CanBeHealedBySleeping>false</CanBeHealedBySleeping>
+  <StraightSleepHealTime>-1</StraightSleepHealTime>
+  <Effects>
+    <EffectHolder xsi:type="AffectStatHolder">
+      <AffectedStat>ImpactResistance</AffectedStat>
+      <AffectedStat_TagUID>84</AffectedStat_TagUID>
+      <AffectQuantity>-25</AffectQuantity>
+      <IsModifier>false</IsModifier>
+    </EffectHolder>
+  </Effects>
+</StatusEffectHolder>

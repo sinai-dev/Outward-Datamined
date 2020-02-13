@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ItemHolder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="WeaponHolder">
+  <ItemID>100007</ItemID>
+  <Name>Standard Pole Arm</Name>
+  <gameObjectName>100007_StandardPoleArm</gameObjectName>
+  <saveDir>/Equipment/Weapon/MeleeWeapon</saveDir>
+  <Description />
+  <LegacyItemID>-1</LegacyItemID>
+  <StatsHolder xsi:type="WeaponStatsHolder">
+    <BaseValue>0</BaseValue>
+    <RawWeight>2.75</RawWeight>
+    <MaxDurability>250</MaxDurability>
+    <Damage_Resistance>
+      <float>0</float>
+      <float>0</float>
+      <float>0</float>
+      <float>0</float>
+      <float>0</float>
+      <float>0</float>
+      <float>0</float>
+      <float>0</float>
+      <float>0</float>
+    </Damage_Resistance>
+    <Impact_Resistance>20</Impact_Resistance>
+    <Damage_Protection>0</Damage_Protection>
+    <Damage_Bonus>
+      <float>0</float>
+      <float>0</float>
+      <float>0</float>
+      <float>0</float>
+      <float>0</float>
+      <float>0</float>
+      <float>0</float>
+      <float>0</float>
+      <float>0</float>
+    </Damage_Bonus>
+    <Stamina_Use_Penalty>0</Stamina_Use_Penalty>
+    <Mana_Use_Modifier>0</Mana_Use_Modifier>
+    <Movement_Penalty>0</Movement_Penalty>
+    <Pouch_Bonus>0</Pouch_Bonus>
+    <Heat_Protection>0</Heat_Protection>
+    <Cold_Protection>0</Cold_Protection>
+    <Corruption_Protection>0</Corruption_Protection>
+    <AttackSpeed>16.5</AttackSpeed>
+    <BaseDamage>
+      <Damages>
+        <Damage>15.75</Damage>
+        <Damage_Type>Physical</Damage_Type>
+      </Damages>
+    </BaseDamage>
+    <Impact>27.5</Impact>
+    <AttackCount>5</AttackCount>
+    <Attacks>
+      <AttackData>
+        <StamCost>24</StamCost>
+        <Knockback>27.5</Knockback>
+        <AttackSpeed>16.5</AttackSpeed>
+        <Damage>
+          <float>15.75</float>
+        </Damage>
+      </AttackData>
+      <AttackData>
+        <StamCost>24</StamCost>
+        <Knockback>27.5</Knockback>
+        <AttackSpeed>16.5</AttackSpeed>
+        <Damage>
+          <float>15.75</float>
+        </Damage>
+      </AttackData>
+      <AttackData>
+        <StamCost>30</StamCost>
+        <Knockback>34.375</Knockback>
+        <AttackSpeed>20.625</AttackSpeed>
+        <Damage>
+          <float>19.6875</float>
+        </Damage>
+      </AttackData>
+      <AttackData>
+        <StamCost>30</StamCost>
+        <Knockback>34.375</Knockback>
+        <AttackSpeed>20.625</AttackSpeed>
+        <Damage>
+          <float>19.6875</float>
+        </Damage>
+      </AttackData>
+      <AttackData>
+        <StamCost>42</StamCost>
+        <Knockback>48.125</Knockback>
+        <AttackSpeed>28.875</AttackSpeed>
+        <Damage>
+          <float>27.5625</float>
+        </Damage>
+      </AttackData>
+    </Attacks>
+  </StatsHolder>
+  <Tags>
+    <string>2 Handed</string>
+    <string>Weapon</string>
+    <string>Item</string>
+    <string>Pole Arm</string>
+  </Tags>
+  <EffectTransforms>
+    <EffectTransformHolder>
+      <TransformName>HitEffects</TransformName>
+      <Effects>
+        <EffectHolder xsi:type="AddStatusEffectBuildupHolder">
+          <Buildup>0</Buildup>
+        </EffectHolder>
+        <EffectHolder xsi:type="AddStatusEffectBuildupHolder">
+          <StatusEffect>Burn</StatusEffect>
+          <Buildup>22</Buildup>
+        </EffectHolder>
+      </Effects>
+      <EffectConditions />
+      <ChildEffects />
+    </EffectTransformHolder>
+  </EffectTransforms>
+  <EquipmentSlot>RightHand</EquipmentSlot>
+  <IKType>None</IKType>
+  <TwoHandType>TwoHandedRight</TwoHandType>
+  <VisualDetectabilityAdd>0</VisualDetectabilityAdd>
+  <WeaponType>Halberd_2H</WeaponType>
+</ItemHolder>

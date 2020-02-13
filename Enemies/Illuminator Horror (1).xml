@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<EnemyHolder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>Illuminator Horror</Name>
+  <GameObject_Name>IlluminatorHorror</GameObject_Name>
+  <Unique_ID>1</Unique_ID>
+  <Locations_Found>
+    <string>Chersonese:Chersonese</string>
+    <string>Chersonese:Ghost Pass</string>
+    <string>Chersonese:Corrupted Tombs</string>
+    <string>Hallowed Marsh:Monsoon</string>
+    <string>Hallowed Marsh:Dead Tree</string>
+    <string>Abrassar:Abrassar</string>
+    <string>Enmerkar Forest:Enmerkar Forest</string>
+    <string>Enmerkar Forest:Cabal of Wind Temple</string>
+  </Locations_Found>
+  <Max_Health>300</Max_Health>
+  <Health_Regen_Per_Second>0</Health_Regen_Per_Second>
+  <Impact_Resistance>20</Impact_Resistance>
+  <Protection>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+  </Protection>
+  <Damage_Resistances>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+    <float>-40</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+  </Damage_Resistances>
+  <Damage_Bonuses>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+  </Damage_Bonuses>
+  <Collider_Radius>0.5</Collider_Radius>
+  <True_WeaponDamage />
+  <Weapon_Impact>0</Weapon_Impact>
+  <Status_Immunities />
+  <Starting_Equipment />
+  <Skill_Knowledge>
+    <string>IlluminatorHeavy</string>
+    <string>IlluminatorHoming</string>
+    <string>IlluminatorForward</string>
+  </Skill_Knowledge>
+  <Faction>Hounds</Faction>
+  <Allied_To_Same_Faction>true</Allied_To_Same_Faction>
+  <Guaranteed_Drops />
+  <DropTable_Names>
+    <string>DropTable_IlluminatorHorror</string>
+  </DropTable_Names>
+</EnemyHolder>

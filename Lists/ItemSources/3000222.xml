@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ItemSource xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ItemName>Ash Boots</ItemName>
+  <ItemID>3000222</ItemID>
+  <Container_Sources>
+    <string>Chest (Hallowed Marsh:Hallowed Marsh)</string>
+    <string>Ornate Chest (Hallowed Marsh:Jade Quarry)</string>
+    <string>Chest (Hallowed Marsh:Reptilian Lair)</string>
+    <string>Chest (Hallowed Marsh:Dark Ziggurat Interior)</string>
+    <string>Ornate Chest (Hallowed Marsh:Dark Ziggurat Interior)</string>
+    <string>Chest (Hallowed Marsh:Dark Ziggurat Interior)</string>
+    <string>Chest (Hallowed Marsh:Spire of Light)</string>
+    <string>Chest (Hallowed Marsh:Spire of Light)</string>
+    <string>Ornate Chest (Hallowed Marsh:Spire of Light)</string>
+    <string>Ornate Chest (Hallowed Marsh:Ziggurat Passage)</string>
+    <string>Chest (Hallowed Marsh:Dead Roots)</string>
+    <string>Chest (Hallowed Marsh:Dead Roots)</string>
+    <string>Ornate Chest (Hallowed Marsh:Abandoned Ziggurat)</string>
+    <string>Ornate Chest (Hallowed Marsh:Dead Tree)</string>
+  </Container_Sources>
+  <Spawn_Sources />
+</ItemSource>

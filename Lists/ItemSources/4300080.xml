@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ItemSource xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ItemName>Cool Potion</ItemName>
+  <ItemID>4300080</ItemID>
+  <Container_Sources>
+    <string>Junk Pile (Chersonese:Cierzo (Destroyed))</string>
+    <string>Ornate Chest (Chersonese:Chersonese)</string>
+    <string>Ornate Chest (Chersonese:Vendavel Fortress)</string>
+    <string>Ornate Chest (Chersonese:Ghost Pass)</string>
+    <string>Chest (Chersonese:Blue Chamber’s Conflux Path)</string>
+    <string>Chest (Chersonese:Holy Mission’s Conflux Path)</string>
+    <string>Junk Pile (Chersonese:Holy Mission’s Conflux Path)</string>
+    <string>Looter’s Corpse (Chersonese:Voltaic Hatchery)</string>
+    <string>Junk Pile (Chersonese:Corrupted Tombs)</string>
+    <string>Ornate Chest (Chersonese:Montcalm Clan Fort)</string>
+    <string>Trog Chest (Chersonese:Trog Infiltration)</string>
+    <string>Chest (Chersonese:Mansion's Cellar)</string>
+    <string>Corpse (Chersonese:Trog Infiltration)</string>
+    <string>Junk Pile (Chersonese:Hermit's House)</string>
+    <string>Hollowed Trunk (Hallowed Marsh:Hallowed Marsh)</string>
+    <string>Chest (Hallowed Marsh:Hallowed Marsh)</string>
+    <string>Chest (Hallowed Marsh:Hallowed Marsh)</string>
+    <string>Ornate Chest (Hallowed Marsh:Jade Quarry)</string>
+    <string>Junk Pile (Hallowed Marsh:Reptilian Lair)</string>
+    <string>Hollowed Trunk (Hallowed Marsh:Reptilian Lair)</string>
+    <string>Junk Pile (Hallowed Marsh:Dark Ziggurat Interior)</string>
+    <string>Worker’s Corpse (Hallowed Marsh:Ziggurat Passage)</string>
+    <string>Junk Pile (Hallowed Marsh:Ziggurat Passage)</string>
+    <string>Junk Pile (Hallowed Marsh:Dead Roots)</string>
+    <string>Junk Pile (Hallowed Marsh:Abandoned Shed)</string>
+    <string>Ornate Chest (Hallowed Marsh:Abandoned Ziggurat)</string>
+    <string>Ornate Chest (Abrassar:Abrassar)</string>
+    <string>Corpse (Abrassar:Abrassar)</string>
+    <string>Corpse (Abrassar:Abrassar)</string>
+    <string>Ornate Chest (Abrassar:Undercity Passage)</string>
+    <string>Ornate Chest (Abrassar:Undercity Passage)</string>
+    <string>Junk Pile (Abrassar:Stone Titan Caves)</string>
+    <string>Junk Pile (Abrassar:Stone Titan Caves)</string>
+    <string>Ornate Chest (Abrassar:Ancient Hive)</string>
+    <string>Junk Pile (Abrassar:Sand Rose Cave)</string>
+    <string>Chest (Abrassar:Ruined Outpost)</string>
+    <string>Ornate Chest (Abrassar:Cabal of Wind Outpost)</string>
+    <string>Corpse (Abrassar:Hive Prison)</string>
+    <string>Chest (Abrassar:Captain's Cabin)</string>
+    <string>Chest (Enmerkar Forest:Enmerkar Forest)</string>
+    <string>Chest (Enmerkar Forest:Enmerkar Forest)</string>
+    <string>Ornate Chest (Enmerkar Forest:Royal Manticore’s Lair)</string>
+    <string>Chest (Enmerkar Forest:Cabal of Wind Temple)</string>
+    <string>Knight’s Corpse (Enmerkar Forest:Cabal of Wind Temple)</string>
+    <string>Junk Pile (Enmerkar Forest:Face of the Ancients)</string>
+    <string>Junk Pile (Enmerkar Forest:Ancestor’s Resting Place)</string>
+    <string>Chest (Enmerkar Forest:Necropolis)</string>
+    <string>Junk Pile (Enmerkar Forest:Necropolis)</string>
+    <string>Chest (Enmerkar Forest:Burnt Outpost)</string>
+    <string>Junk Pile (Enmerkar Forest:Vigil Pylon)</string>
+    <string>Knight’s Corpse (Enmerkar Forest:Damp Hunter's Cabin)</string>
+    <string>Worker’s Corpse (Enmerkar Forest:Worn Hunter's Cabin)</string>
+    <string>Junk Pile (Enmerkar Forest:Worn Hunter's Cabin)</string>
+  </Container_Sources>
+  <Spawn_Sources />
+</ItemSource>

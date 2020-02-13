@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RecipeHolder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <StationType>Survival</StationType>
+  <Name>Gold-Lich Spear</Name>
+  <RecipeID>167</RecipeID>
+  <Ingredients>
+    <string>Gold-Lich Mechanism</string>
+    <string>Gold-Lich Mechanism</string>
+    <string>Iron Spear</string>
+    <string>Firefly powder</string>
+  </Ingredients>
+  <Results>
+    <ItemQuantityHolder>
+      <ItemName>Gold-Lich Spear</ItemName>
+      <Quantity>1</Quantity>
+    </ItemQuantityHolder>
+  </Results>
+</RecipeHolder>

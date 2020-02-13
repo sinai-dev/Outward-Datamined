@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ItemHolder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ItemID>4200060</ItemID>
+  <Name>Soothing Tea</Name>
+  <gameObjectName>4200060_SoothingTea</gameObjectName>
+  <saveDir>/Food</saveDir>
+  <Description>Concoction that cures the common cold and restores burnt Mana.
+
+It takes hours, after drinking this, to fully recover from the cold.</Description>
+  <LegacyItemID>-1</LegacyItemID>
+  <StatsHolder>
+    <BaseValue>8</BaseValue>
+    <RawWeight>0.5</RawWeight>
+    <MaxDurability>-1</MaxDurability>
+  </StatsHolder>
+  <Tags>
+    <string>Drink</string>
+    <string>Consummable</string>
+    <string>Item</string>
+  </Tags>
+  <EffectTransforms>
+    <EffectTransformHolder>
+      <TransformName>Effects</TransformName>
+      <Effects>
+        <EffectHolder xsi:type="AffectNeedHolder">
+          <Need>AffectDrink</Need>
+          <AffectQuantity>70</AffectQuantity>
+        </EffectHolder>
+        <EffectHolder xsi:type="RemoveStatusEffectHolder">
+          <StatusEffect_ByTag>None</StatusEffect_ByTag>
+          <StatusEffect_Family>Cold</StatusEffect_Family>
+          <StatusEffect_ByName />
+        </EffectHolder>
+        <EffectHolder xsi:type="AffectBurntManaHolder">
+          <AffectQuantity>15</AffectQuantity>
+          <IsModifier>false</IsModifier>
+        </EffectHolder>
+      </Effects>
+      <EffectConditions />
+      <ChildEffects />
+    </EffectTransformHolder>
+  </EffectTransforms>
+</ItemHolder>

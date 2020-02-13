@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DroptableHolder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>DropTable_BanditBoss</Name>
+  <Guaranteed_Drops>
+    <DropTableEntry>
+      <Item_Name>Gaberry Wine</Item_Name>
+      <Item_ID>4100590</Item_ID>
+      <Min_Quantity>5</Min_Quantity>
+      <Max_Quantity>5</Max_Quantity>
+    </DropTableEntry>
+    <DropTableEntry>
+      <Item_Name>Pearlescent Mail</Item_Name>
+      <Item_ID>3000150</Item_ID>
+      <Min_Quantity>1</Min_Quantity>
+      <Max_Quantity>1</Max_Quantity>
+    </DropTableEntry>
+    <DropTableEntry>
+      <Item_Name>Tuanosaur Mask</Item_Name>
+      <Item_ID>3000102</Item_ID>
+      <Min_Quantity>1</Min_Quantity>
+      <Max_Quantity>1</Max_Quantity>
+    </DropTableEntry>
+    <DropTableEntry>
+      <Item_Name>Luxe Lichette</Item_Name>
+      <Item_ID>4100240</Item_ID>
+      <Min_Quantity>1</Min_Quantity>
+      <Max_Quantity>1</Max_Quantity>
+    </DropTableEntry>
+  </Guaranteed_Drops>
+  <Random_Tables />
+</DroptableHolder>

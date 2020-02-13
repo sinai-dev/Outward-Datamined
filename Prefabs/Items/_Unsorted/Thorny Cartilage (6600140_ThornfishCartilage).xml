@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ItemHolder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ItemID>6600140</ItemID>
+  <Name>Thorny Cartilage</Name>
+  <gameObjectName>6600140_ThornfishCartilage</gameObjectName>
+  <saveDir />
+  <Description>Bony spurs harvested from lesser horrors, used to craft weapons.</Description>
+  <LegacyItemID>-1</LegacyItemID>
+  <StatsHolder>
+    <BaseValue>60</BaseValue>
+    <RawWeight>1</RawWeight>
+    <MaxDurability>-1</MaxDurability>
+  </StatsHolder>
+  <Tags>
+    <string>Ingredient</string>
+    <string>Item</string>
+    <string>Misc</string>
+    <string>TripWireTrapComponent</string>
+  </Tags>
+  <EffectTransforms />
+</ItemHolder>

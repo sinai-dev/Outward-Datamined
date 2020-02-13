@@ -1,0 +1,522 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MerchantHolder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>Laine the Alchemist</Name>
+  <UID>VM81kCzv2kaK7feq8DyncA</UID>
+  <DropTable>
+    <Name>Monsoon - Laine the Alchemist</Name>
+    <Guaranteed_Drops>
+      <DropTableEntry>
+        <Item_Name>Gold Ingot</Item_Name>
+        <Item_ID>6300030</Item_ID>
+        <Min_Quantity>5</Min_Quantity>
+        <Max_Quantity>10</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Crafting: Fire Rag</Item_Name>
+        <Item_ID>5700101</Item_ID>
+        <Min_Quantity>1</Min_Quantity>
+        <Max_Quantity>1</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Alchemy: Charge – Incendiary</Item_Name>
+        <Item_ID>5700173</Item_ID>
+        <Min_Quantity>1</Min_Quantity>
+        <Max_Quantity>1</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Alchemy: Charge – Toxic</Item_Name>
+        <Item_ID>5700174</Item_ID>
+        <Min_Quantity>1</Min_Quantity>
+        <Max_Quantity>1</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Alchemy: Charge – Nerve Gas</Item_Name>
+        <Item_ID>5700175</Item_ID>
+        <Min_Quantity>1</Min_Quantity>
+        <Max_Quantity>1</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Alchemy: Astral Potion</Item_Name>
+        <Item_ID>5700108</Item_ID>
+        <Min_Quantity>1</Min_Quantity>
+        <Max_Quantity>1</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Alchemy: Life Potion</Item_Name>
+        <Item_ID>5700110</Item_ID>
+        <Min_Quantity>1</Min_Quantity>
+        <Max_Quantity>1</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Alchemy: Endurance Potion</Item_Name>
+        <Item_ID>5700109</Item_ID>
+        <Min_Quantity>1</Min_Quantity>
+        <Max_Quantity>1</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Alchemy: Antidote</Item_Name>
+        <Item_ID>5700111</Item_ID>
+        <Min_Quantity>1</Min_Quantity>
+        <Max_Quantity>1</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Crafting: Poison Rag</Item_Name>
+        <Item_ID>5700099</Item_ID>
+        <Min_Quantity>1</Min_Quantity>
+        <Max_Quantity>1</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Alchemy: Poison Varnish</Item_Name>
+        <Item_ID>5700103</Item_ID>
+        <Min_Quantity>1</Min_Quantity>
+        <Max_Quantity>1</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Alchemy: Rage Potion</Item_Name>
+        <Item_ID>5700112</Item_ID>
+        <Min_Quantity>1</Min_Quantity>
+        <Max_Quantity>1</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Alchemy: Possessed Potion</Item_Name>
+        <Item_ID>5700118</Item_ID>
+        <Min_Quantity>1</Min_Quantity>
+        <Max_Quantity>1</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Alchemy: Blessed Potion</Item_Name>
+        <Item_ID>5700117</Item_ID>
+        <Min_Quantity>1</Min_Quantity>
+        <Max_Quantity>1</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Alchemy: Survivor Elixir</Item_Name>
+        <Item_ID>5700129</Item_ID>
+        <Min_Quantity>1</Min_Quantity>
+        <Max_Quantity>1</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Alchemy: Fire Stone</Item_Name>
+        <Item_ID>5700076</Item_ID>
+        <Min_Quantity>1</Min_Quantity>
+        <Max_Quantity>1</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Alchemy: Cold Stone</Item_Name>
+        <Item_ID>5700178</Item_ID>
+        <Min_Quantity>1</Min_Quantity>
+        <Max_Quantity>1</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Elemental Resistance Potion</Item_Name>
+        <Item_ID>4300140</Item_ID>
+        <Min_Quantity>3</Min_Quantity>
+        <Max_Quantity>3</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Bandages</Item_Name>
+        <Item_ID>4400010</Item_ID>
+        <Min_Quantity>2</Min_Quantity>
+        <Max_Quantity>4</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Astral Potion</Item_Name>
+        <Item_ID>4300020</Item_ID>
+        <Min_Quantity>1</Min_Quantity>
+        <Max_Quantity>3</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Life Potion</Item_Name>
+        <Item_ID>4300010</Item_ID>
+        <Min_Quantity>1</Min_Quantity>
+        <Max_Quantity>5</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Endurance Potion</Item_Name>
+        <Item_ID>4300030</Item_ID>
+        <Min_Quantity>1</Min_Quantity>
+        <Max_Quantity>5</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Linen Cloth</Item_Name>
+        <Item_ID>6500090</Item_ID>
+        <Min_Quantity>1</Min_Quantity>
+        <Max_Quantity>3</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Alchemy Kit</Item_Name>
+        <Item_ID>5010200</Item_ID>
+        <Min_Quantity>1</Min_Quantity>
+        <Max_Quantity>1</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Greasy Fern</Item_Name>
+        <Item_ID>6000020</Item_ID>
+        <Min_Quantity>2</Min_Quantity>
+        <Max_Quantity>3</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Fire Rag</Item_Name>
+        <Item_ID>4400040</Item_ID>
+        <Min_Quantity>1</Min_Quantity>
+        <Max_Quantity>1</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Lexicon</Item_Name>
+        <Item_ID>5100500</Item_ID>
+        <Min_Quantity>1</Min_Quantity>
+        <Max_Quantity>1</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Turmmip</Item_Name>
+        <Item_ID>4000030</Item_ID>
+        <Min_Quantity>3</Min_Quantity>
+        <Max_Quantity>6</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Mana Stone</Item_Name>
+        <Item_ID>6400130</Item_ID>
+        <Min_Quantity>2</Min_Quantity>
+        <Max_Quantity>3</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Antidote</Item_Name>
+        <Item_ID>4300110</Item_ID>
+        <Min_Quantity>1</Min_Quantity>
+        <Max_Quantity>2</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Mage’s Poking Stick</Item_Name>
+        <Item_ID>2150001</Item_ID>
+        <Min_Quantity>1</Min_Quantity>
+        <Max_Quantity>1</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Blood Mushroom</Item_Name>
+        <Item_ID>4000150</Item_ID>
+        <Min_Quantity>4</Min_Quantity>
+        <Max_Quantity>4</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Star Mushroom</Item_Name>
+        <Item_ID>4000180</Item_ID>
+        <Min_Quantity>3</Min_Quantity>
+        <Max_Quantity>3</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Occult Remains</Item_Name>
+        <Item_ID>6600110</Item_ID>
+        <Min_Quantity>1</Min_Quantity>
+        <Max_Quantity>1</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Discipline Potion</Item_Name>
+        <Item_ID>4300060</Item_ID>
+        <Min_Quantity>4</Min_Quantity>
+        <Max_Quantity>5</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>White Priest Robes</Item_Name>
+        <Item_ID>3000060</Item_ID>
+        <Min_Quantity>1</Min_Quantity>
+        <Max_Quantity>1</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>White Priest Mitre</Item_Name>
+        <Item_ID>3000061</Item_ID>
+        <Min_Quantity>1</Min_Quantity>
+        <Max_Quantity>1</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>White Priest Boots</Item_Name>
+        <Item_ID>3000062</Item_ID>
+        <Min_Quantity>1</Min_Quantity>
+        <Max_Quantity>1</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>White Priest Hood</Item_Name>
+        <Item_ID>3000063</Item_ID>
+        <Min_Quantity>1</Min_Quantity>
+        <Max_Quantity>1</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Novice Robe</Item_Name>
+        <Item_ID>3000070</Item_ID>
+        <Min_Quantity>1</Min_Quantity>
+        <Max_Quantity>1</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Novice Hat</Item_Name>
+        <Item_ID>3000071</Item_ID>
+        <Min_Quantity>1</Min_Quantity>
+        <Max_Quantity>1</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Scholar’s Staff</Item_Name>
+        <Item_ID>2150000</Item_ID>
+        <Min_Quantity>1</Min_Quantity>
+        <Max_Quantity>1</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Master’s Staff</Item_Name>
+        <Item_ID>2150050</Item_ID>
+        <Min_Quantity>1</Min_Quantity>
+        <Max_Quantity>1</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Chakram</Item_Name>
+        <Item_ID>5110030</Item_ID>
+        <Min_Quantity>1</Min_Quantity>
+        <Max_Quantity>1</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Rage Potion</Item_Name>
+        <Item_ID>4300050</Item_ID>
+        <Min_Quantity>3</Min_Quantity>
+        <Max_Quantity>3</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Possessed Potion</Item_Name>
+        <Item_ID>4300120</Item_ID>
+        <Min_Quantity>3</Min_Quantity>
+        <Max_Quantity>3</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Cool Potion</Item_Name>
+        <Item_ID>4300080</Item_ID>
+        <Min_Quantity>3</Min_Quantity>
+        <Max_Quantity>3</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Warm Potion</Item_Name>
+        <Item_ID>4300070</Item_ID>
+        <Min_Quantity>3</Min_Quantity>
+        <Max_Quantity>3</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Blessed Potion</Item_Name>
+        <Item_ID>4300100</Item_ID>
+        <Min_Quantity>3</Min_Quantity>
+        <Max_Quantity>3</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Mist Potion</Item_Name>
+        <Item_ID>4300090</Item_ID>
+        <Min_Quantity>3</Min_Quantity>
+        <Max_Quantity>3</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Soothing Tea</Item_Name>
+        <Item_ID>4200060</Item_ID>
+        <Min_Quantity>6</Min_Quantity>
+        <Max_Quantity>6</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Bitter Spicy Tea</Item_Name>
+        <Item_ID>4200050</Item_ID>
+        <Min_Quantity>6</Min_Quantity>
+        <Max_Quantity>6</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Mineral Tea</Item_Name>
+        <Item_ID>4200080</Item_ID>
+        <Min_Quantity>6</Min_Quantity>
+        <Max_Quantity>6</Max_Quantity>
+      </DropTableEntry>
+    </Guaranteed_Drops>
+    <Random_Tables>
+      <DropGeneratorHolder>
+        <MinNumberOfDrops>10</MinNumberOfDrops>
+        <MaxNumberOfDrops>10</MaxNumberOfDrops>
+        <MaxDiceValue>130</MaxDiceValue>
+        <EmptyDrop>7.692308</EmptyDrop>
+        <Item_Drops>
+          <DropTableChanceEntry>
+            <Item_Name>Firefly powder</Item_Name>
+            <Item_ID>6000010</Item_ID>
+            <Min_Quantity>1</Min_Quantity>
+            <Max_Quantity>1</Max_Quantity>
+            <Drop_Chance>7.692308</Drop_Chance>
+            <Dice_Range>9</Dice_Range>
+          </DropTableChanceEntry>
+          <DropTableChanceEntry>
+            <Item_Name>Mana Stone</Item_Name>
+            <Item_ID>6400130</Item_ID>
+            <Min_Quantity>1</Min_Quantity>
+            <Max_Quantity>1</Max_Quantity>
+            <Drop_Chance>7.692308</Drop_Chance>
+            <Dice_Range>9</Dice_Range>
+          </DropTableChanceEntry>
+          <DropTableChanceEntry>
+            <Item_Name>Blood Mushroom</Item_Name>
+            <Item_ID>4000150</Item_ID>
+            <Min_Quantity>1</Min_Quantity>
+            <Max_Quantity>1</Max_Quantity>
+            <Drop_Chance>7.692308</Drop_Chance>
+            <Dice_Range>9</Dice_Range>
+          </DropTableChanceEntry>
+          <DropTableChanceEntry>
+            <Item_Name>Star Mushroom</Item_Name>
+            <Item_ID>4000180</Item_ID>
+            <Min_Quantity>1</Min_Quantity>
+            <Max_Quantity>1</Max_Quantity>
+            <Drop_Chance>7.692308</Drop_Chance>
+            <Dice_Range>9</Dice_Range>
+          </DropTableChanceEntry>
+          <DropTableChanceEntry>
+            <Item_Name>Ochre Spice Beetle</Item_Name>
+            <Item_ID>4000210</Item_ID>
+            <Min_Quantity>1</Min_Quantity>
+            <Max_Quantity>1</Max_Quantity>
+            <Drop_Chance>7.692308</Drop_Chance>
+            <Dice_Range>9</Dice_Range>
+          </DropTableChanceEntry>
+          <DropTableChanceEntry>
+            <Item_Name>Gravel Beetle</Item_Name>
+            <Item_ID>4000211</Item_ID>
+            <Min_Quantity>1</Min_Quantity>
+            <Max_Quantity>1</Max_Quantity>
+            <Drop_Chance>7.692308</Drop_Chance>
+            <Dice_Range>9</Dice_Range>
+          </DropTableChanceEntry>
+          <DropTableChanceEntry>
+            <Item_Name>Krimp Nut</Item_Name>
+            <Item_ID>4000280</Item_ID>
+            <Min_Quantity>1</Min_Quantity>
+            <Max_Quantity>1</Max_Quantity>
+            <Drop_Chance>7.692308</Drop_Chance>
+            <Dice_Range>9</Dice_Range>
+          </DropTableChanceEntry>
+          <DropTableChanceEntry>
+            <Item_Name>Possessed Potion</Item_Name>
+            <Item_ID>4300120</Item_ID>
+            <Min_Quantity>1</Min_Quantity>
+            <Max_Quantity>1</Max_Quantity>
+            <Drop_Chance>7.692308</Drop_Chance>
+            <Dice_Range>9</Dice_Range>
+          </DropTableChanceEntry>
+          <DropTableChanceEntry>
+            <Item_Name>Discipline Potion</Item_Name>
+            <Item_ID>4300060</Item_ID>
+            <Min_Quantity>1</Min_Quantity>
+            <Max_Quantity>1</Max_Quantity>
+            <Drop_Chance>7.692308</Drop_Chance>
+            <Dice_Range>9</Dice_Range>
+          </DropTableChanceEntry>
+          <DropTableChanceEntry>
+            <Item_Name>Mist Potion</Item_Name>
+            <Item_ID>4300090</Item_ID>
+            <Min_Quantity>1</Min_Quantity>
+            <Max_Quantity>1</Max_Quantity>
+            <Drop_Chance>7.692308</Drop_Chance>
+            <Dice_Range>9</Dice_Range>
+          </DropTableChanceEntry>
+          <DropTableChanceEntry>
+            <Item_Name>Stability Potion</Item_Name>
+            <Item_ID>4300170</Item_ID>
+            <Min_Quantity>1</Min_Quantity>
+            <Max_Quantity>1</Max_Quantity>
+            <Drop_Chance>7.692308</Drop_Chance>
+            <Dice_Range>9</Dice_Range>
+          </DropTableChanceEntry>
+          <DropTableChanceEntry>
+            <Item_Name>Endurance Potion</Item_Name>
+            <Item_ID>4300030</Item_ID>
+            <Min_Quantity>1</Min_Quantity>
+            <Max_Quantity>1</Max_Quantity>
+            <Drop_Chance>7.692308</Drop_Chance>
+            <Dice_Range>9</Dice_Range>
+          </DropTableChanceEntry>
+        </Item_Drops>
+      </DropGeneratorHolder>
+      <DropGeneratorHolder>
+        <MinNumberOfDrops>3</MinNumberOfDrops>
+        <MaxNumberOfDrops>5</MaxNumberOfDrops>
+        <MaxDiceValue>110</MaxDiceValue>
+        <EmptyDrop>9.090909</EmptyDrop>
+        <Item_Drops>
+          <DropTableChanceEntry>
+            <Item_Name>Assassin Elixir</Item_Name>
+            <Item_ID>4300180</Item_ID>
+            <Min_Quantity>1</Min_Quantity>
+            <Max_Quantity>1</Max_Quantity>
+            <Drop_Chance>9.090909</Drop_Chance>
+            <Dice_Range>9</Dice_Range>
+          </DropTableChanceEntry>
+          <DropTableChanceEntry>
+            <Item_Name>Stoneflesh Elixir</Item_Name>
+            <Item_ID>4300200</Item_ID>
+            <Min_Quantity>1</Min_Quantity>
+            <Max_Quantity>1</Max_Quantity>
+            <Drop_Chance>9.090909</Drop_Chance>
+            <Dice_Range>9</Dice_Range>
+          </DropTableChanceEntry>
+          <DropTableChanceEntry>
+            <Item_Name>Warrior Elixir</Item_Name>
+            <Item_ID>4300210</Item_ID>
+            <Min_Quantity>1</Min_Quantity>
+            <Max_Quantity>1</Max_Quantity>
+            <Drop_Chance>9.090909</Drop_Chance>
+            <Dice_Range>9</Dice_Range>
+          </DropTableChanceEntry>
+          <DropTableChanceEntry>
+            <Item_Name>Golem Elixir</Item_Name>
+            <Item_ID>4300230</Item_ID>
+            <Min_Quantity>1</Min_Quantity>
+            <Max_Quantity>1</Max_Quantity>
+            <Drop_Chance>9.090909</Drop_Chance>
+            <Dice_Range>9</Dice_Range>
+          </DropTableChanceEntry>
+          <DropTableChanceEntry>
+            <Item_Name>Great Life Potion</Item_Name>
+            <Item_ID>4300240</Item_ID>
+            <Min_Quantity>1</Min_Quantity>
+            <Max_Quantity>1</Max_Quantity>
+            <Drop_Chance>9.090909</Drop_Chance>
+            <Dice_Range>9</Dice_Range>
+          </DropTableChanceEntry>
+          <DropTableChanceEntry>
+            <Item_Name>Great Astral Potion</Item_Name>
+            <Item_ID>4300250</Item_ID>
+            <Min_Quantity>1</Min_Quantity>
+            <Max_Quantity>1</Max_Quantity>
+            <Drop_Chance>9.090909</Drop_Chance>
+            <Dice_Range>9</Dice_Range>
+          </DropTableChanceEntry>
+          <DropTableChanceEntry>
+            <Item_Name>Great Endurance Potion</Item_Name>
+            <Item_ID>4300260</Item_ID>
+            <Min_Quantity>1</Min_Quantity>
+            <Max_Quantity>1</Max_Quantity>
+            <Drop_Chance>9.090909</Drop_Chance>
+            <Dice_Range>9</Dice_Range>
+          </DropTableChanceEntry>
+          <DropTableChanceEntry>
+            <Item_Name>Discipline Potion</Item_Name>
+            <Item_ID>4300060</Item_ID>
+            <Min_Quantity>1</Min_Quantity>
+            <Max_Quantity>1</Max_Quantity>
+            <Drop_Chance>9.090909</Drop_Chance>
+            <Dice_Range>9</Dice_Range>
+          </DropTableChanceEntry>
+          <DropTableChanceEntry>
+            <Item_Name>Blessed Potion</Item_Name>
+            <Item_ID>4300100</Item_ID>
+            <Min_Quantity>1</Min_Quantity>
+            <Max_Quantity>1</Max_Quantity>
+            <Drop_Chance>9.090909</Drop_Chance>
+            <Dice_Range>9</Dice_Range>
+          </DropTableChanceEntry>
+          <DropTableChanceEntry>
+            <Item_Name>Possessed Potion</Item_Name>
+            <Item_ID>4300120</Item_ID>
+            <Min_Quantity>1</Min_Quantity>
+            <Max_Quantity>1</Max_Quantity>
+            <Drop_Chance>9.090909</Drop_Chance>
+            <Dice_Range>9</Dice_Range>
+          </DropTableChanceEntry>
+        </Item_Drops>
+      </DropGeneratorHolder>
+    </Random_Tables>
+  </DropTable>
+</MerchantHolder>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RecipeHolder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <StationType>Survival</StationType>
+  <Name>Squire Boots</Name>
+  <RecipeID>202</RecipeID>
+  <Ingredients>
+    <string>Gep’s Generosity</string>
+    <string>Elatt’s Relic</string>
+    <string>Haunted Memory</string>
+    <string>Leyline Figment</string>
+  </Ingredients>
+  <Results>
+    <ItemQuantityHolder>
+      <ItemName>Squire Boots</ItemName>
+      <Quantity>1</Quantity>
+    </ItemQuantityHolder>
+  </Results>
+</RecipeHolder>

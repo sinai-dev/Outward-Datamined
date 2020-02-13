@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ItemHolder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ItemID>6200090</ItemID>
+  <Name>Large Emerald</Name>
+  <gameObjectName>6200090_Emerald</gameObjectName>
+  <saveDir />
+  <Description>Hefty precious stone with a lush green color.
+
+It can fetch an enormous price.</Description>
+  <LegacyItemID>-1</LegacyItemID>
+  <StatsHolder>
+    <BaseValue>80</BaseValue>
+    <RawWeight>0.1</RawWeight>
+    <MaxDurability>-1</MaxDurability>
+  </StatsHolder>
+  <Tags>
+    <string>Stone</string>
+    <string>Material</string>
+    <string>Ingredient</string>
+    <string>Item</string>
+    <string>Valuable</string>
+  </Tags>
+  <EffectTransforms />
+</ItemHolder>

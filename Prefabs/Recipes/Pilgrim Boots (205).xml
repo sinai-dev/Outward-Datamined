@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RecipeHolder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <StationType>Survival</StationType>
+  <Name>Pilgrim Boots</Name>
+  <RecipeID>205</RecipeID>
+  <Ingredients>
+    <string>Elatt’s Relic</string>
+    <string>Haunted Memory</string>
+    <string>Calixa’s Relic</string>
+    <string>Vendavel's Hospitality</string>
+  </Ingredients>
+  <Results>
+    <ItemQuantityHolder>
+      <ItemName>Pilgrim Boots</ItemName>
+      <Quantity>1</Quantity>
+    </ItemQuantityHolder>
+  </Results>
+</RecipeHolder>

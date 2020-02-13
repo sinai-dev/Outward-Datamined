@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<StatusEffectHolder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>Burning</Name>
+  <PresetID>36</PresetID>
+  <Lifespan>40</Lifespan>
+  <LengthType>Short</LengthType>
+  <Tags>
+    <string>Burning</string>
+    <string>Status Type</string>
+  </Tags>
+  <CanBeHealedBySleeping>false</CanBeHealedBySleeping>
+  <StraightSleepHealTime>-1</StraightSleepHealTime>
+  <Effects>
+    <EffectHolder xsi:type="PunctualDamageHolder">
+      <Damage>
+        <Damages>
+          <Damage>2</Damage>
+          <Damage_Type>Fire</Damage_Type>
+        </Damages>
+      </Damage>
+      <Damages_AI>
+        <Damages>
+          <Damage>3</Damage>
+          <Damage_Type>Fire</Damage_Type>
+        </Damages>
+      </Damages_AI>
+      <Knockback>10</Knockback>
+      <HitInventory>false</HitInventory>
+    </EffectHolder>
+  </Effects>
+</StatusEffectHolder>

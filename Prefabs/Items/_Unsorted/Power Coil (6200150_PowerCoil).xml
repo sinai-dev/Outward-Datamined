@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ItemHolder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ItemID>6200150</ItemID>
+  <Name>Power Coil</Name>
+  <gameObjectName>6200150_PowerCoil</gameObjectName>
+  <saveDir />
+  <Description>Complex array of metals, made by Levant artisants, to power machines such as the Water Purifier in Cierzo.
+
+A few prototype lanterns were built to use a coil as a power source, but they proved too expensive for mass production.</Description>
+  <LegacyItemID>-1</LegacyItemID>
+  <StatsHolder>
+    <BaseValue>65</BaseValue>
+    <RawWeight>0.4</RawWeight>
+    <MaxDurability>-1</MaxDurability>
+  </StatsHolder>
+  <Tags>
+    <string>Stone</string>
+    <string>Material</string>
+    <string>Ingredient</string>
+    <string>Item</string>
+    <string>Valuable</string>
+  </Tags>
+  <EffectTransforms />
+</ItemHolder>

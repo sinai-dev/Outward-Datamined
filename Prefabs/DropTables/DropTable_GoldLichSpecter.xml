@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DroptableHolder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>DropTable_GoldLichSpecter</Name>
+  <Guaranteed_Drops />
+  <Random_Tables>
+    <DropGeneratorHolder>
+      <MinNumberOfDrops>1</MinNumberOfDrops>
+      <MaxNumberOfDrops>1</MaxNumberOfDrops>
+      <MaxDiceValue>67</MaxDiceValue>
+      <EmptyDrop>0</EmptyDrop>
+      <Item_Drops>
+        <DropTableChanceEntry>
+          <Item_Name>Gold-Lich Mechanism</Item_Name>
+          <Item_ID>6600210</Item_ID>
+          <Min_Quantity>1</Min_Quantity>
+          <Max_Quantity>1</Max_Quantity>
+          <Drop_Chance>89.55224</Drop_Chance>
+          <Dice_Range>59</Dice_Range>
+        </DropTableChanceEntry>
+        <DropTableChanceEntry>
+          <Item_Name>Palladium Scrap</Item_Name>
+          <Item_ID>6400070</Item_ID>
+          <Min_Quantity>1</Min_Quantity>
+          <Max_Quantity>1</Max_Quantity>
+          <Drop_Chance>7.46268654</Drop_Chance>
+          <Dice_Range>4</Dice_Range>
+        </DropTableChanceEntry>
+        <DropTableChanceEntry>
+          <Item_Name>Ghost's Eye</Item_Name>
+          <Item_ID>6000040</Item_ID>
+          <Min_Quantity>1</Min_Quantity>
+          <Max_Quantity>1</Max_Quantity>
+          <Drop_Chance>2.98507452</Drop_Chance>
+          <Dice_Range>1</Dice_Range>
+        </DropTableChanceEntry>
+      </Item_Drops>
+    </DropGeneratorHolder>
+    <DropGeneratorHolder>
+      <MinNumberOfDrops>1</MinNumberOfDrops>
+      <MaxNumberOfDrops>1</MaxNumberOfDrops>
+      <MaxDiceValue>120</MaxDiceValue>
+      <EmptyDrop>41.6666641</EmptyDrop>
+      <Item_Drops>
+        <DropTableChanceEntry>
+          <Item_Name>Bolt Varnish</Item_Name>
+          <Item_ID>4400031</Item_ID>
+          <Min_Quantity>1</Min_Quantity>
+          <Max_Quantity>1</Max_Quantity>
+          <Drop_Chance>25</Drop_Chance>
+          <Dice_Range>29</Dice_Range>
+        </DropTableChanceEntry>
+        <DropTableChanceEntry>
+          <Item_Name>Assassin Elixir</Item_Name>
+          <Item_ID>4300180</Item_ID>
+          <Min_Quantity>1</Min_Quantity>
+          <Max_Quantity>1</Max_Quantity>
+          <Drop_Chance>8.333334</Drop_Chance>
+          <Dice_Range>9</Dice_Range>
+        </DropTableChanceEntry>
+        <DropTableChanceEntry>
+          <Item_Name>Stoneflesh Elixir</Item_Name>
+          <Item_ID>4300200</Item_ID>
+          <Min_Quantity>1</Min_Quantity>
+          <Max_Quantity>1</Max_Quantity>
+          <Drop_Chance>8.333334</Drop_Chance>
+          <Dice_Range>9</Dice_Range>
+        </DropTableChanceEntry>
+        <DropTableChanceEntry>
+          <Item_Name>Warrior Elixir</Item_Name>
+          <Item_ID>4300210</Item_ID>
+          <Min_Quantity>1</Min_Quantity>
+          <Max_Quantity>1</Max_Quantity>
+          <Drop_Chance>8.333334</Drop_Chance>
+          <Dice_Range>9</Dice_Range>
+        </DropTableChanceEntry>
+        <DropTableChanceEntry>
+          <Item_Name>Golem Elixir</Item_Name>
+          <Item_ID>4300230</Item_ID>
+          <Min_Quantity>1</Min_Quantity>
+          <Max_Quantity>1</Max_Quantity>
+          <Drop_Chance>8.333334</Drop_Chance>
+          <Dice_Range>9</Dice_Range>
+        </DropTableChanceEntry>
+      </Item_Drops>
+    </DropGeneratorHolder>
+  </Random_Tables>
+</DroptableHolder>

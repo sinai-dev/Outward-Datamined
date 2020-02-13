@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<StatusEffectHolder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>Divine Light Imbue</Name>
+  <PresetID>219</PresetID>
+  <Lifespan>0</Lifespan>
+  <Tags />
+  <CanBeHealedBySleeping>false</CanBeHealedBySleeping>
+  <StraightSleepHealTime>-1</StraightSleepHealTime>
+  <Effects>
+    <EffectHolder xsi:type="WeaponDamageHolder">
+      <Damage>
+        <Damages>
+          <Damage>6</Damage>
+          <Damage_Type>Electric</Damage_Type>
+        </Damages>
+      </Damage>
+      <Damages_AI />
+      <Knockback>0</Knockback>
+      <HitInventory>true</HitInventory>
+      <OverrideType>Electric</OverrideType>
+      <Damage_Multiplier>1.25</Damage_Multiplier>
+      <Damage_Multiplier_Kback>-1</Damage_Multiplier_Kback>
+      <Damage_Multiplier_Kdown>-1</Damage_Multiplier_Kdown>
+      <Impact_Multiplier>1</Impact_Multiplier>
+      <Impact_Multiplier_Kback>-1</Impact_Multiplier_Kback>
+      <Impact_Multiplier_Kdown>-1</Impact_Multiplier_Kdown>
+    </EffectHolder>
+  </Effects>
+</StatusEffectHolder>

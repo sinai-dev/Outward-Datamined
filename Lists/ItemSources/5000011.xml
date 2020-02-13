@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ItemSource xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ItemName>Simple Tent</ItemName>
+  <ItemID>5000011</ItemID>
+  <Container_Sources />
+  <Spawn_Sources>
+    <string>Enmerkar Forest:Enmerkar Forest</string>
+  </Spawn_Sources>
+</ItemSource>

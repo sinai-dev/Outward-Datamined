@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ItemHolder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ItemID>9000010</ItemID>
+  <Name>Silver</Name>
+  <gameObjectName>9000010_SilverCurrency</gameObjectName>
+  <saveDir>/Currency</saveDir>
+  <Description>Universal currency of the land.
+
+Note that a hundred coins have a combined weight of 1.</Description>
+  <LegacyItemID>-1</LegacyItemID>
+  <Tags />
+  <EffectTransforms />
+</ItemHolder>

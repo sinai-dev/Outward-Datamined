@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RecipeHolder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <StationType>Survival</StationType>
+  <Name>Obsidian Greatmace</Name>
+  <RecipeID>158</RecipeID>
+  <Ingredients>
+    <string>Obsidian Shard</string>
+    <string>Obsidian Shard</string>
+    <string>Palladium Scrap</string>
+    <string>Palladium Scrap</string>
+  </Ingredients>
+  <Results>
+    <ItemQuantityHolder>
+      <ItemName>Obsidian Greatmace</ItemName>
+      <Quantity>1</Quantity>
+    </ItemQuantityHolder>
+  </Results>
+</RecipeHolder>

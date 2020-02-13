@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ItemHolder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ItemID>5600002</ItemID>
+  <Name>Salt Water</Name>
+  <gameObjectName>5600002_SaltedWater</gameObjectName>
+  <saveDir>/WaterItem</saveDir>
+  <Description>Drink that actually makes one more thirsty and is likely to cause Indigestion.
+
+It should be boiled over a campfire to produce Clean Water. This will also provide Salt, which can be used in cooking or alchemy.</Description>
+  <LegacyItemID>-1</LegacyItemID>
+  <StatsHolder>
+    <BaseValue>0</BaseValue>
+    <RawWeight>0</RawWeight>
+    <MaxDurability>-1</MaxDurability>
+  </StatsHolder>
+  <Tags>
+    <string>Water</string>
+    <string>Drink</string>
+    <string>Consummable</string>
+    <string>Item</string>
+    <string>Ingredient Cook</string>
+    <string>Ingredient</string>
+  </Tags>
+  <EffectTransforms>
+    <EffectTransformHolder>
+      <TransformName>Effects</TransformName>
+      <Effects>
+        <EffectHolder xsi:type="AddStatusEffectHolder">
+          <StatusEffect>Stamina Recovery Small</StatusEffect>
+          <ChanceToContract>100</ChanceToContract>
+        </EffectHolder>
+        <EffectHolder xsi:type="AddStatusEffectHolder">
+          <StatusEffect>Indigestion1</StatusEffect>
+          <ChanceToContract>50</ChanceToContract>
+        </EffectHolder>
+      </Effects>
+      <EffectConditions />
+      <ChildEffects />
+    </EffectTransformHolder>
+  </EffectTransforms>
+</ItemHolder>

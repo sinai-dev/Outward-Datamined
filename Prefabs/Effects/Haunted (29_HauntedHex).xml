@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<StatusEffectHolder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>Haunted</Name>
+  <PresetID>29</PresetID>
+  <Lifespan>240</Lifespan>
+  <LengthType>Short</LengthType>
+  <Tags>
+    <string>Hex</string>
+    <string>Status Type</string>
+  </Tags>
+  <CanBeHealedBySleeping>false</CanBeHealedBySleeping>
+  <StraightSleepHealTime>-1</StraightSleepHealTime>
+  <Effects>
+    <EffectHolder xsi:type="AffectStatHolder">
+      <AffectedStat>EtherealResistance</AffectedStat>
+      <AffectedStat_TagUID>114</AffectedStat_TagUID>
+      <AffectQuantity>-25</AffectQuantity>
+      <IsModifier>false</IsModifier>
+    </EffectHolder>
+    <EffectHolder xsi:type="AffectStatHolder">
+      <AffectedStat>EtherealDamage</AffectedStat>
+      <AffectedStat_TagUID>98</AffectedStat_TagUID>
+      <AffectQuantity>-25</AffectQuantity>
+      <IsModifier>true</IsModifier>
+    </EffectHolder>
+  </Effects>
+</StatusEffectHolder>

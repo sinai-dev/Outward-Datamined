@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RecipeHolder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <StationType>Cooking</StationType>
+  <Name>Luxe Lichette</Name>
+  <RecipeID>47</RecipeID>
+  <Ingredients>
+    <string>Larva Egg</string>
+    <string>Azure Shrimp</string>
+    <string>Raw Rainbow Trout</string>
+    <string>Seaweed</string>
+  </Ingredients>
+  <Results>
+    <ItemQuantityHolder>
+      <ItemName>Luxe Lichette</ItemName>
+      <Quantity>3</Quantity>
+    </ItemQuantityHolder>
+  </Results>
+</RecipeHolder>

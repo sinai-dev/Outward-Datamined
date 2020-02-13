@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RecipeHolder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <StationType>Survival</StationType>
+  <Name>Assassin Claymore</Name>
+  <RecipeID>82</RecipeID>
+  <Ingredients>
+    <string>Assassin Tongue</string>
+    <string>Assassin Tongue</string>
+    <string>Fang Greatsword</string>
+    <string>Palladium Scrap</string>
+  </Ingredients>
+  <Results>
+    <ItemQuantityHolder>
+      <ItemName>Assassin Claymore</ItemName>
+      <Quantity>1</Quantity>
+    </ItemQuantityHolder>
+  </Results>
+</RecipeHolder>

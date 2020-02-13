@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ItemHolder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ItemID>9000000</ItemID>
+  <Name>Gold</Name>
+  <gameObjectName>9000000_GoldCurrency</gameObjectName>
+  <saveDir>/Currency</saveDir>
+  <Description />
+  <LegacyItemID>-1</LegacyItemID>
+  <Tags />
+  <EffectTransforms />
+</ItemHolder>

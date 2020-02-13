@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SceneSummary xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <SceneName>Burnt Outpost</SceneName>
+  <Enemies>
+    <QuantityHolder>
+      <Name>Desert Lieutenant (2)</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Marsh Captain (1)</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Desert Lieutenant (3)</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+  </Enemies>
+  <Merchants />
+  <Loot_Containers>
+    <QuantityHolder>
+      <Name>Chest</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+  </Loot_Containers>
+  <Gatherables />
+  <Item_Spawns>
+    <ItemSpawnHolder>
+      <Name>Fire Stone</Name>
+      <Item_ID>6500010</Item_ID>
+      <Quantity>3</Quantity>
+      <positions>
+        <Vector3>
+          <x>1497.23</x>
+          <y>-8.623</y>
+          <z>35.543</z>
+        </Vector3>
+        <Vector3>
+          <x>1497.72</x>
+          <y>-8.628</y>
+          <z>35.554</z>
+        </Vector3>
+        <Vector3>
+          <x>1496.725</x>
+          <y>-8.721</y>
+          <z>35.698</z>
+        </Vector3>
+      </positions>
+    </ItemSpawnHolder>
+    <ItemSpawnHolder>
+      <Name>Explorer Lantern</Name>
+      <Item_ID>5100000</Item_ID>
+      <Quantity>1</Quantity>
+      <positions>
+        <Vector3>
+          <x>1507.665</x>
+          <y>-7.6746</y>
+          <z>40.199</z>
+        </Vector3>
+      </positions>
+    </ItemSpawnHolder>
+    <ItemSpawnHolder>
+      <Name>Petrified Wood</Name>
+      <Item_ID>6400080</Item_ID>
+      <Quantity>1</Quantity>
+      <positions>
+        <Vector3>
+          <x>1509.311</x>
+          <y>-8.04</y>
+          <z>40.475</z>
+        </Vector3>
+      </positions>
+    </ItemSpawnHolder>
+    <ItemSpawnHolder>
+      <Name>Wood</Name>
+      <Item_ID>6100010</Item_ID>
+      <Quantity>3</Quantity>
+      <positions>
+        <Vector3>
+          <x>1509.03784</x>
+          <y>-8</y>
+          <z>40.3973579</z>
+        </Vector3>
+        <Vector3>
+          <x>1509.71863</x>
+          <y>-8</y>
+          <z>40.4651642</z>
+        </Vector3>
+        <Vector3>
+          <x>1508.736</x>
+          <y>-8</y>
+          <z>40.437</z>
+        </Vector3>
+      </positions>
+    </ItemSpawnHolder>
+    <ItemSpawnHolder>
+      <Name>Flint and Steel</Name>
+      <Item_ID>5600010</Item_ID>
+      <Quantity>1</Quantity>
+      <positions>
+        <Vector3>
+          <x>1508.281</x>
+          <y>-8.011</y>
+          <z>40.348</z>
+        </Vector3>
+      </positions>
+    </ItemSpawnHolder>
+  </Item_Spawns>
+</SceneSummary>

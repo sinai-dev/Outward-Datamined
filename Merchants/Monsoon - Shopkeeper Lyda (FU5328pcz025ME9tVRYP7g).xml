@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MerchantHolder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>Shopkeeper Lyda</Name>
+  <UID>FU5328pcz025ME9tVRYP7g</UID>
+  <DropTable>
+    <Name>Monsoon - Shopkeeper Lyda</Name>
+    <Guaranteed_Drops>
+      <DropTableEntry>
+        <Item_Name>Gold Ingot</Item_Name>
+        <Item_ID>6300030</Item_ID>
+        <Min_Quantity>5</Min_Quantity>
+        <Max_Quantity>10</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Cooking: Bitter Spicy Tea</Item_Name>
+        <Item_ID>5700011</Item_ID>
+        <Min_Quantity>1</Min_Quantity>
+        <Max_Quantity>1</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Cooking: Soothing Tea</Item_Name>
+        <Item_ID>5700073</Item_ID>
+        <Min_Quantity>1</Min_Quantity>
+        <Max_Quantity>1</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Old Lantern</Item_Name>
+        <Item_ID>5100010</Item_ID>
+        <Min_Quantity>1</Min_Quantity>
+        <Max_Quantity>1</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Improvised Bedroll</Item_Name>
+        <Item_ID>5000020</Item_ID>
+        <Min_Quantity>1</Min_Quantity>
+        <Max_Quantity>1</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Waterskin</Item_Name>
+        <Item_ID>4200040</Item_ID>
+        <Min_Quantity>1</Min_Quantity>
+        <Max_Quantity>1</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Fishing Harpoon</Item_Name>
+        <Item_ID>2130130</Item_ID>
+        <Min_Quantity>1</Min_Quantity>
+        <Max_Quantity>1</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Nomad Backpack</Item_Name>
+        <Item_ID>5300110</Item_ID>
+        <Min_Quantity>1</Min_Quantity>
+        <Max_Quantity>1</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Bandages</Item_Name>
+        <Item_ID>4400010</Item_ID>
+        <Min_Quantity>8</Min_Quantity>
+        <Max_Quantity>10</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Travel Ration</Item_Name>
+        <Item_ID>4100550</Item_ID>
+        <Min_Quantity>1</Min_Quantity>
+        <Max_Quantity>1</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Flint and Steel</Item_Name>
+        <Item_ID>5600010</Item_ID>
+        <Min_Quantity>1</Min_Quantity>
+        <Max_Quantity>1</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Cooking Pot</Item_Name>
+        <Item_ID>5010100</Item_ID>
+        <Min_Quantity>1</Min_Quantity>
+        <Max_Quantity>1</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Salt</Item_Name>
+        <Item_ID>6000070</Item_ID>
+        <Min_Quantity>1</Min_Quantity>
+        <Max_Quantity>1</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Thick Oil</Item_Name>
+        <Item_ID>6600070</Item_ID>
+        <Min_Quantity>5</Min_Quantity>
+        <Max_Quantity>5</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Adventurer Backpack</Item_Name>
+        <Item_ID>5300000</Item_ID>
+        <Min_Quantity>1</Min_Quantity>
+        <Max_Quantity>1</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Plant Tent</Item_Name>
+        <Item_ID>5000070</Item_ID>
+        <Min_Quantity>1</Min_Quantity>
+        <Max_Quantity>1</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Explorer Lantern</Item_Name>
+        <Item_ID>5100000</Item_ID>
+        <Min_Quantity>1</Min_Quantity>
+        <Max_Quantity>1</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Trader Backpack</Item_Name>
+        <Item_ID>5300140</Item_ID>
+        <Min_Quantity>1</Min_Quantity>
+        <Max_Quantity>1</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Bitter Spicy Tea</Item_Name>
+        <Item_ID>4200050</Item_ID>
+        <Min_Quantity>7</Min_Quantity>
+        <Max_Quantity>7</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Soothing Tea</Item_Name>
+        <Item_ID>4200060</Item_ID>
+        <Min_Quantity>7</Min_Quantity>
+        <Max_Quantity>7</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Simple Tent</Item_Name>
+        <Item_ID>5000010</Item_ID>
+        <Min_Quantity>1</Min_Quantity>
+        <Max_Quantity>1</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Antidote</Item_Name>
+        <Item_ID>4300110</Item_ID>
+        <Min_Quantity>1</Min_Quantity>
+        <Max_Quantity>2</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Dark Worker Attire</Item_Name>
+        <Item_ID>3000080</Item_ID>
+        <Min_Quantity>1</Min_Quantity>
+        <Max_Quantity>1</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Dark Worker Hood</Item_Name>
+        <Item_ID>3000085</Item_ID>
+        <Min_Quantity>1</Min_Quantity>
+        <Max_Quantity>1</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Black Worker Boots</Item_Name>
+        <Item_ID>3000084</Item_ID>
+        <Min_Quantity>1</Min_Quantity>
+        <Max_Quantity>1</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Mineral Tea</Item_Name>
+        <Item_ID>4200080</Item_ID>
+        <Min_Quantity>6</Min_Quantity>
+        <Max_Quantity>6</Max_Quantity>
+      </DropTableEntry>
+    </Guaranteed_Drops>
+    <Random_Tables>
+      <DropGeneratorHolder>
+        <MinNumberOfDrops>2</MinNumberOfDrops>
+        <MaxNumberOfDrops>3</MaxNumberOfDrops>
+        <MaxDiceValue>92</MaxDiceValue>
+        <EmptyDrop>0</EmptyDrop>
+        <Item_Drops>
+          <DropTableChanceEntry>
+            <Item_Name>Ash-Filter Mask</Item_Name>
+            <Item_ID>3000221</Item_ID>
+            <Min_Quantity>1</Min_Quantity>
+            <Max_Quantity>1</Max_Quantity>
+            <Drop_Chance>5.43478251</Drop_Chance>
+            <Dice_Range>4</Dice_Range>
+          </DropTableChanceEntry>
+          <DropTableChanceEntry>
+            <Item_Name>Ash Boots</Item_Name>
+            <Item_ID>3000222</Item_ID>
+            <Min_Quantity>1</Min_Quantity>
+            <Max_Quantity>1</Max_Quantity>
+            <Drop_Chance>7.60869551</Drop_Chance>
+            <Dice_Range>6</Dice_Range>
+          </DropTableChanceEntry>
+          <DropTableChanceEntry>
+            <Item_Name>Brutal Axe</Item_Name>
+            <Item_ID>2010030</Item_ID>
+            <Min_Quantity>1</Min_Quantity>
+            <Max_Quantity>1</Max_Quantity>
+            <Drop_Chance>5.43478251</Drop_Chance>
+            <Dice_Range>4</Dice_Range>
+          </DropTableChanceEntry>
+          <DropTableChanceEntry>
+            <Item_Name>Poison Varnish</Item_Name>
+            <Item_ID>4400021</Item_ID>
+            <Min_Quantity>1</Min_Quantity>
+            <Max_Quantity>1</Max_Quantity>
+            <Drop_Chance>10.869565</Drop_Chance>
+            <Dice_Range>9</Dice_Range>
+          </DropTableChanceEntry>
+          <DropTableChanceEntry>
+            <Item_Name>Fire Varnish</Item_Name>
+            <Item_ID>4400041</Item_ID>
+            <Min_Quantity>1</Min_Quantity>
+            <Max_Quantity>1</Max_Quantity>
+            <Drop_Chance>10.869565</Drop_Chance>
+            <Dice_Range>9</Dice_Range>
+          </DropTableChanceEntry>
+          <DropTableChanceEntry>
+            <Item_Name>Bolt Varnish</Item_Name>
+            <Item_ID>4400031</Item_ID>
+            <Min_Quantity>1</Min_Quantity>
+            <Max_Quantity>1</Max_Quantity>
+            <Drop_Chance>10.869565</Drop_Chance>
+            <Dice_Range>9</Dice_Range>
+          </DropTableChanceEntry>
+          <DropTableChanceEntry>
+            <Item_Name>Bolt Rag</Item_Name>
+            <Item_ID>4400030</Item_ID>
+            <Min_Quantity>1</Min_Quantity>
+            <Max_Quantity>3</Max_Quantity>
+            <Drop_Chance>16.304348</Drop_Chance>
+            <Dice_Range>14</Dice_Range>
+          </DropTableChanceEntry>
+          <DropTableChanceEntry>
+            <Item_Name>Fire Rag</Item_Name>
+            <Item_ID>4400040</Item_ID>
+            <Min_Quantity>1</Min_Quantity>
+            <Max_Quantity>3</Max_Quantity>
+            <Drop_Chance>16.304348</Drop_Chance>
+            <Dice_Range>14</Dice_Range>
+          </DropTableChanceEntry>
+          <DropTableChanceEntry>
+            <Item_Name>Ice Rag</Item_Name>
+            <Item_ID>4400050</Item_ID>
+            <Min_Quantity>1</Min_Quantity>
+            <Max_Quantity>3</Max_Quantity>
+            <Drop_Chance>16.304348</Drop_Chance>
+            <Dice_Range>14</Dice_Range>
+          </DropTableChanceEntry>
+        </Item_Drops>
+      </DropGeneratorHolder>
+    </Random_Tables>
+  </DropTable>
+</MerchantHolder>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LootContainerHolder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>Chest</Name>
+  <ItemID>1000000</ItemID>
+  <UID>XEFCf4ln_0iHm8PEEBiU8g</UID>
+  <DropTables />
+</LootContainerHolder>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ItemHolder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ItemID>1000093</ItemID>
+  <Name>Adventurer’s Corpse</Name>
+  <gameObjectName>1000093_ChestHumanCorpseAdventurerB</gameObjectName>
+  <saveDir>/ItemContainer/SelfFilledItemContainer/TreasureChest</saveDir>
+  <Description />
+  <LegacyItemID>-1</LegacyItemID>
+  <Tags />
+  <EffectTransforms />
+</ItemHolder>

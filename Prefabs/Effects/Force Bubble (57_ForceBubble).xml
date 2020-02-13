@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<StatusEffectHolder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>Force Bubble</Name>
+  <PresetID>57</PresetID>
+  <Lifespan>4</Lifespan>
+  <LengthType>Short</LengthType>
+  <Tags />
+  <CanBeHealedBySleeping>false</CanBeHealedBySleeping>
+  <StraightSleepHealTime>-1</StraightSleepHealTime>
+  <Effects>
+    <EffectHolder xsi:type="AffectStatHolder">
+      <AffectedStat>ImpactResistance</AffectedStat>
+      <AffectedStat_TagUID>84</AffectedStat_TagUID>
+      <AffectQuantity>-50</AffectQuantity>
+      <IsModifier>false</IsModifier>
+    </EffectHolder>
+    <EffectHolder xsi:type="AffectStatHolder">
+      <AffectedStat>PhysicalProtection</AffectedStat>
+      <AffectedStat_TagUID>105</AffectedStat_TagUID>
+      <AffectQuantity>9999</AffectQuantity>
+      <IsModifier>false</IsModifier>
+    </EffectHolder>
+    <EffectHolder xsi:type="AffectStatHolder">
+      <AffectedStat>EtherealProtection</AffectedStat>
+      <AffectedStat_TagUID>106</AffectedStat_TagUID>
+      <AffectQuantity>9999</AffectQuantity>
+      <IsModifier>false</IsModifier>
+    </EffectHolder>
+    <EffectHolder xsi:type="AffectStatHolder">
+      <AffectedStat>DecayProtection</AffectedStat>
+      <AffectedStat_TagUID>107</AffectedStat_TagUID>
+      <AffectQuantity>9999</AffectQuantity>
+      <IsModifier>false</IsModifier>
+    </EffectHolder>
+    <EffectHolder xsi:type="AffectStatHolder">
+      <AffectedStat>ElectricProtection</AffectedStat>
+      <AffectedStat_TagUID>108</AffectedStat_TagUID>
+      <AffectQuantity>9999</AffectQuantity>
+      <IsModifier>false</IsModifier>
+    </EffectHolder>
+    <EffectHolder xsi:type="AffectStatHolder">
+      <AffectedStat>FrostProtection</AffectedStat>
+      <AffectedStat_TagUID>109</AffectedStat_TagUID>
+      <AffectQuantity>9999</AffectQuantity>
+      <IsModifier>false</IsModifier>
+    </EffectHolder>
+    <EffectHolder xsi:type="AffectStatHolder">
+      <AffectedStat>FireProtection</AffectedStat>
+      <AffectedStat_TagUID>110</AffectedStat_TagUID>
+      <AffectQuantity>9999</AffectQuantity>
+      <IsModifier>false</IsModifier>
+    </EffectHolder>
+    <EffectHolder xsi:type="AffectStatHolder">
+      <AffectedStat>DarkProtection</AffectedStat>
+      <AffectedStat_TagUID>111</AffectedStat_TagUID>
+      <AffectQuantity>9999</AffectQuantity>
+      <IsModifier>false</IsModifier>
+    </EffectHolder>
+    <EffectHolder xsi:type="AffectStatHolder">
+      <AffectedStat>LightProtection</AffectedStat>
+      <AffectedStat_TagUID>112</AffectedStat_TagUID>
+      <AffectQuantity>9999</AffectQuantity>
+      <IsModifier>false</IsModifier>
+    </EffectHolder>
+    <EffectHolder xsi:type="AffectStatHolder">
+      <AffectedStat>PhysicalResistance</AffectedStat>
+      <AffectedStat_TagUID>113</AffectedStat_TagUID>
+      <AffectQuantity>9999</AffectQuantity>
+      <IsModifier>false</IsModifier>
+    </EffectHolder>
+    <EffectHolder xsi:type="AffectStatHolder">
+      <AffectedStat>EtherealResistance</AffectedStat>
+      <AffectedStat_TagUID>114</AffectedStat_TagUID>
+      <AffectQuantity>9999</AffectQuantity>
+      <IsModifier>false</IsModifier>
+    </EffectHolder>
+    <EffectHolder xsi:type="AffectStatHolder">
+      <AffectedStat>DecayResistance</AffectedStat>
+      <AffectedStat_TagUID>115</AffectedStat_TagUID>
+      <AffectQuantity>9999</AffectQuantity>
+      <IsModifier>false</IsModifier>
+    </EffectHolder>
+    <EffectHolder xsi:type="AffectStatHolder">
+      <AffectedStat>ElectricResistance</AffectedStat>
+      <AffectedStat_TagUID>116</AffectedStat_TagUID>
+      <AffectQuantity>9999</AffectQuantity>
+      <IsModifier>false</IsModifier>
+    </EffectHolder>
+    <EffectHolder xsi:type="AffectStatHolder">
+      <AffectedStat>FrostResistance</AffectedStat>
+      <AffectedStat_TagUID>117</AffectedStat_TagUID>
+      <AffectQuantity>9999</AffectQuantity>
+      <IsModifier>false</IsModifier>
+    </EffectHolder>
+    <EffectHolder xsi:type="AffectStatHolder">
+      <AffectedStat>FireResistance</AffectedStat>
+      <AffectedStat_TagUID>118</AffectedStat_TagUID>
+      <AffectQuantity>9999</AffectQuantity>
+      <IsModifier>false</IsModifier>
+    </EffectHolder>
+    <EffectHolder xsi:type="AffectStatHolder">
+      <AffectedStat>DarkResistance</AffectedStat>
+      <AffectedStat_TagUID>119</AffectedStat_TagUID>
+      <AffectQuantity>9999</AffectQuantity>
+      <IsModifier>false</IsModifier>
+    </EffectHolder>
+    <EffectHolder xsi:type="AffectStatHolder">
+      <AffectedStat>LightResistance</AffectedStat>
+      <AffectedStat_TagUID>120</AffectedStat_TagUID>
+      <AffectQuantity>9999</AffectQuantity>
+      <IsModifier>false</IsModifier>
+    </EffectHolder>
+  </Effects>
+</StatusEffectHolder>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DroptableHolder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>DropTable_ChersonezeUndeadMiner</Name>
+  <Guaranteed_Drops />
+  <Random_Tables>
+    <DropGeneratorHolder>
+      <MinNumberOfDrops>2</MinNumberOfDrops>
+      <MaxNumberOfDrops>2</MaxNumberOfDrops>
+      <MaxDiceValue>56</MaxDiceValue>
+      <EmptyDrop>0</EmptyDrop>
+      <Item_Drops>
+        <DropTableChanceEntry>
+          <Item_Name>Bandages</Item_Name>
+          <Item_ID>4400010</Item_ID>
+          <Min_Quantity>1</Min_Quantity>
+          <Max_Quantity>1</Max_Quantity>
+          <Drop_Chance>17.8571434</Drop_Chance>
+          <Dice_Range>9</Dice_Range>
+        </DropTableChanceEntry>
+        <DropTableChanceEntry>
+          <Item_Name>Flint and Steel</Item_Name>
+          <Item_ID>5600010</Item_ID>
+          <Min_Quantity>1</Min_Quantity>
+          <Max_Quantity>1</Max_Quantity>
+          <Drop_Chance>8.928572</Drop_Chance>
+          <Dice_Range>4</Dice_Range>
+        </DropTableChanceEntry>
+        <DropTableChanceEntry>
+          <Item_Name>Large Emerald</Item_Name>
+          <Item_ID>6200090</Item_ID>
+          <Min_Quantity>1</Min_Quantity>
+          <Max_Quantity>1</Max_Quantity>
+          <Drop_Chance>1.78571439</Drop_Chance>
+          <Dice_Range>0</Dice_Range>
+        </DropTableChanceEntry>
+        <DropTableChanceEntry>
+          <Item_Name>Silver</Item_Name>
+          <Item_ID>9000010</Item_ID>
+          <Min_Quantity>15</Min_Quantity>
+          <Max_Quantity>25</Max_Quantity>
+          <Drop_Chance>17.8571434</Drop_Chance>
+          <Dice_Range>9</Dice_Range>
+        </DropTableChanceEntry>
+        <DropTableChanceEntry>
+          <Item_Name>Iron Scrap</Item_Name>
+          <Item_ID>6400140</Item_ID>
+          <Min_Quantity>1</Min_Quantity>
+          <Max_Quantity>5</Max_Quantity>
+          <Drop_Chance>17.8571434</Drop_Chance>
+          <Dice_Range>9</Dice_Range>
+        </DropTableChanceEntry>
+        <DropTableChanceEntry>
+          <Item_Name>Medium Ruby</Item_Name>
+          <Item_ID>6200110</Item_ID>
+          <Min_Quantity>1</Min_Quantity>
+          <Max_Quantity>1</Max_Quantity>
+          <Drop_Chance>1.78571439</Drop_Chance>
+          <Dice_Range>0</Dice_Range>
+        </DropTableChanceEntry>
+        <DropTableChanceEntry>
+          <Item_Name>Small Sapphire</Item_Name>
+          <Item_ID>6200100</Item_ID>
+          <Min_Quantity>1</Min_Quantity>
+          <Max_Quantity>1</Max_Quantity>
+          <Drop_Chance>1.78571439</Drop_Chance>
+          <Dice_Range>0</Dice_Range>
+        </DropTableChanceEntry>
+        <DropTableChanceEntry>
+          <Item_Name>Palladium Scrap</Item_Name>
+          <Item_ID>6400070</Item_ID>
+          <Min_Quantity>1</Min_Quantity>
+          <Max_Quantity>1</Max_Quantity>
+          <Drop_Chance>3.57142878</Drop_Chance>
+          <Dice_Range>1</Dice_Range>
+        </DropTableChanceEntry>
+        <DropTableChanceEntry>
+          <Item_Name>Blue Sand</Item_Name>
+          <Item_ID>6400110</Item_ID>
+          <Min_Quantity>1</Min_Quantity>
+          <Max_Quantity>1</Max_Quantity>
+          <Drop_Chance>1.78571439</Drop_Chance>
+          <Dice_Range>0</Dice_Range>
+        </DropTableChanceEntry>
+        <DropTableChanceEntry>
+          <Item_Name>Tiny Aquamarine</Item_Name>
+          <Item_ID>6200070</Item_ID>
+          <Min_Quantity>1</Min_Quantity>
+          <Max_Quantity>3</Max_Quantity>
+          <Drop_Chance>17.8571434</Drop_Chance>
+          <Dice_Range>9</Dice_Range>
+        </DropTableChanceEntry>
+        <DropTableChanceEntry>
+          <Item_Name>Occult Remains</Item_Name>
+          <Item_ID>6600110</Item_ID>
+          <Min_Quantity>1</Min_Quantity>
+          <Max_Quantity>1</Max_Quantity>
+          <Drop_Chance>8.928572</Drop_Chance>
+          <Dice_Range>4</Dice_Range>
+        </DropTableChanceEntry>
+      </Item_Drops>
+    </DropGeneratorHolder>
+  </Random_Tables>
+</DroptableHolder>

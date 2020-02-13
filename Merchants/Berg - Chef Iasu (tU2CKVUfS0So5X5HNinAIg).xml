@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MerchantHolder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>Chef Iasu</Name>
+  <UID>tU2CKVUfS0So5X5HNinAIg</UID>
+  <DropTable>
+    <Name>Berg - Chef Iasu</Name>
+    <Guaranteed_Drops>
+      <DropTableEntry>
+        <Item_Name>Gold Ingot</Item_Name>
+        <Item_ID>6300030</Item_ID>
+        <Min_Quantity>3</Min_Quantity>
+        <Max_Quantity>3</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Cooking: Fungal Cleanser</Item_Name>
+        <Item_ID>5700069</Item_ID>
+        <Min_Quantity>1</Min_Quantity>
+        <Max_Quantity>1</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Cooking: Stringy Salad</Item_Name>
+        <Item_ID>5700070</Item_ID>
+        <Min_Quantity>1</Min_Quantity>
+        <Max_Quantity>1</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Cooking: Turmmip Potage</Item_Name>
+        <Item_ID>5700021</Item_ID>
+        <Min_Quantity>1</Min_Quantity>
+        <Max_Quantity>1</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Cooking: Alpha Jerky</Item_Name>
+        <Item_ID>5700019</Item_ID>
+        <Min_Quantity>1</Min_Quantity>
+        <Max_Quantity>1</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Cooking: Alpha Sandwich</Item_Name>
+        <Item_ID>5700049</Item_ID>
+        <Min_Quantity>1</Min_Quantity>
+        <Max_Quantity>1</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Cooking: Diademe de Gibier</Item_Name>
+        <Item_ID>5700065</Item_ID>
+        <Min_Quantity>1</Min_Quantity>
+        <Max_Quantity>1</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Bread</Item_Name>
+        <Item_ID>4100170</Item_ID>
+        <Min_Quantity>7</Min_Quantity>
+        <Max_Quantity>10</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Jerky</Item_Name>
+        <Item_ID>4100012</Item_ID>
+        <Min_Quantity>7</Min_Quantity>
+        <Max_Quantity>10</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Turmmip</Item_Name>
+        <Item_ID>4000030</Item_ID>
+        <Min_Quantity>4</Min_Quantity>
+        <Max_Quantity>8</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Travel Ration</Item_Name>
+        <Item_ID>4100550</Item_ID>
+        <Min_Quantity>8</Min_Quantity>
+        <Max_Quantity>10</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Fungal Cleanser</Item_Name>
+        <Item_ID>4100510</Item_ID>
+        <Min_Quantity>1</Min_Quantity>
+        <Max_Quantity>1</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Stringy Salad</Item_Name>
+        <Item_ID>4100520</Item_ID>
+        <Min_Quantity>2</Min_Quantity>
+        <Max_Quantity>2</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Savage Stew</Item_Name>
+        <Item_ID>4100410</Item_ID>
+        <Min_Quantity>1</Min_Quantity>
+        <Max_Quantity>1</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Seared Root</Item_Name>
+        <Item_ID>4100440</Item_ID>
+        <Min_Quantity>3</Min_Quantity>
+        <Max_Quantity>6</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Salt</Item_Name>
+        <Item_ID>6000070</Item_ID>
+        <Min_Quantity>5</Min_Quantity>
+        <Max_Quantity>5</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Gaberry Wine</Item_Name>
+        <Item_ID>4100590</Item_ID>
+        <Min_Quantity>4</Min_Quantity>
+        <Max_Quantity>4</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Raw Salmon</Item_Name>
+        <Item_ID>4000130</Item_ID>
+        <Min_Quantity>3</Min_Quantity>
+        <Max_Quantity>6</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Raw Rainbow Trout</Item_Name>
+        <Item_ID>4000110</Item_ID>
+        <Min_Quantity>2</Min_Quantity>
+        <Max_Quantity>4</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Cooking Pot</Item_Name>
+        <Item_ID>5010100</Item_ID>
+        <Min_Quantity>1</Min_Quantity>
+        <Max_Quantity>1</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Gaberry Jam</Item_Name>
+        <Item_ID>4100030</Item_ID>
+        <Min_Quantity>7</Min_Quantity>
+        <Max_Quantity>10</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Turmmip Potage</Item_Name>
+        <Item_ID>4100270</Item_ID>
+        <Min_Quantity>2</Min_Quantity>
+        <Max_Quantity>4</Max_Quantity>
+      </DropTableEntry>
+    </Guaranteed_Drops>
+    <Random_Tables />
+  </DropTable>
+</MerchantHolder>

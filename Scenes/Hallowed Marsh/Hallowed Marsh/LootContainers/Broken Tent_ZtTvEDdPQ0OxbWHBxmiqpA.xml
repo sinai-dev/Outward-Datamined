@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LootContainerHolder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>Broken Tent</Name>
+  <ItemID>1000080</ItemID>
+  <UID>ZtTvEDdPQ0OxbWHBxmiqpA</UID>
+  <DropTables>
+    <string>DropTable_HallowedMarshChest_B_6</string>
+  </DropTables>
+</LootContainerHolder>

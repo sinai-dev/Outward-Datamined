@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ItemHolder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ItemID>4400041</ItemID>
+  <Name>Fire Varnish</Name>
+  <gameObjectName>4400041_FireVarnish</gameObjectName>
+  <saveDir>/InfuseConsumable</saveDir>
+  <Description>Thick fluid that confers the Fire element when applied to a melee weapon.
+
+The weapon will also inflict Burning to enemies.</Description>
+  <LegacyItemID>-1</LegacyItemID>
+  <StatsHolder>
+    <BaseValue>40</BaseValue>
+    <RawWeight>0.5</RawWeight>
+    <MaxDurability>-1</MaxDurability>
+  </StatsHolder>
+  <Tags>
+    <string>Consummable</string>
+    <string>Item</string>
+    <string>PressurePlateTrapComponent</string>
+  </Tags>
+  <EffectTransforms>
+    <EffectTransformHolder>
+      <TransformName>Effects</TransformName>
+      <Effects>
+        <EffectHolder xsi:type="ImbueWeaponHolder">
+          <Lifespan>180</Lifespan>
+          <ImbueEffect_Preset_Name>Greater Fire Imbue</ImbueEffect_Preset_Name>
+          <ImbueEffect_Preset_ID>203</ImbueEffect_Preset_ID>
+          <Imbue_Slot>MainHand</Imbue_Slot>
+        </EffectHolder>
+      </Effects>
+      <EffectConditions />
+      <ChildEffects />
+    </EffectTransformHolder>
+  </EffectTransforms>
+</ItemHolder>

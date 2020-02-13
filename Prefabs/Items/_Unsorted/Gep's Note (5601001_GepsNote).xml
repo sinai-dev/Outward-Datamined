@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ItemHolder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ItemID>5601001</ItemID>
+  <Name>Gep's Note</Name>
+  <gameObjectName>5601001_GepsNote</gameObjectName>
+  <saveDir />
+  <Description>“Hey, you were in trouble and I gave you a hand. I can’t stay to watch over you, but I tried to make sure you were comfortable first.
+
+Have a flask of my own personal brew, on me! You owe me one, pal!
+
+~Gep”</Description>
+  <LegacyItemID>-1</LegacyItemID>
+  <Tags>
+    <string>Misc</string>
+    <string>Item</string>
+  </Tags>
+  <EffectTransforms />
+</ItemHolder>
