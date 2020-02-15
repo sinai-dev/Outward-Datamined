@@ -1,184 +1,144 @@
-Dataminer_2.StatusEffectHolder	Rage
-Dataminer_2.StatusEffectHolder	Discipline
-Dataminer_2.StatusEffectHolder	Warm
-Dataminer_2.StatusEffectHolder	Cool
-Dataminer_2.StatusEffectHolder	Mist
-Dataminer_2.StatusEffectHolder	Bless
-Dataminer_2.StatusEffectHolder	Possessed
-Dataminer_2.StatusEffectHolder	Food Warm
-Dataminer_2.StatusEffectHolder	Food Cool
-Dataminer_2.StatusEffectHolder	Food Mist
-Dataminer_2.StatusEffectHolder	Food Bless
-Dataminer_2.StatusEffectHolder	Food Possessed
-Dataminer_2.StatusEffectHolder	Food Discipline
-Dataminer_2.StatusEffectHolder	Rage Amplified
-Dataminer_2.StatusEffectHolder	Discipline Amplified
-Dataminer_2.StatusEffectHolder	Warm Amplified
-Dataminer_2.StatusEffectHolder	Cool Amplified
-Dataminer_2.StatusEffectHolder	Mist Amplified
-Dataminer_2.StatusEffectHolder	Bless Amplified
-Dataminer_2.StatusEffectHolder	Possessed Amplified
-Dataminer_2.StatusEffectHolder	Cold1
-Dataminer_2.StatusEffectHolder	Cold2
-Dataminer_2.StatusEffectHolder	Infection1
-Dataminer_2.StatusEffectHolder	Infection2
-Dataminer_2.StatusEffectHolder	Infection3
-Dataminer_2.StatusEffectHolder	Indigestion1
-Dataminer_2.StatusEffectHolder	Indigestion2
-Dataminer_2.StatusEffectHolder	Exalted
-Dataminer_2.StatusEffectHolder	Life Drain 1
-Dataminer_2.StatusEffectHolder	Life Drain 2
-Dataminer_2.StatusEffectHolder	Life Drain 3
-Dataminer_2.StatusEffectHolder	
-Dataminer_2.StatusEffectHolder	
-Dataminer_2.StatusEffectHolder	
-Dataminer_2.StatusEffectHolder	Confusion
-Dataminer_2.StatusEffectHolder	Pain
-Dataminer_2.StatusEffectHolder	Burn
-Dataminer_2.StatusEffectHolder	Chill
-Dataminer_2.StatusEffectHolder	Haunted
-Dataminer_2.StatusEffectHolder	Doom
-Dataminer_2.StatusEffectHolder	Curse
-Dataminer_2.StatusEffectHolder	Poison Imbue
-Dataminer_2.StatusEffectHolder	Greater Poison Imbue
-Dataminer_2.StatusEffectHolder	Fire Imbue
-Dataminer_2.StatusEffectHolder	Greater Fire Imbue
-Dataminer_2.StatusEffectHolder	Frost Imbue
-Dataminer_2.StatusEffectHolder	Greater Frost Imbue
-Dataminer_2.StatusEffectHolder	Lightning Imbue
-Dataminer_2.StatusEffectHolder	Greater Lightning Imbue
-Dataminer_2.StatusEffectHolder	Greater Ethereal Imbue
-Dataminer_2.StatusEffectHolder	Wind Imbue
-Dataminer_2.StatusEffectHolder	StatusEffect_Imbue_ReflectionlImbue_Name
-Dataminer_2.StatusEffectHolder	Greater Decay Imbue
-Dataminer_2.StatusEffectHolder	Decay Shield Imbue
-Dataminer_2.StatusEffectHolder	Ethereal Shield Imbue
-Dataminer_2.StatusEffectHolder	Fire Shield Imbue
-Dataminer_2.StatusEffectHolder	Frost Shield Imbue
-Dataminer_2.StatusEffectHolder	Lightning Shield Imbue
-Dataminer_2.StatusEffectHolder	Mystic Fire Imbue
-Dataminer_2.StatusEffectHolder	Mystic Frost Imbue
-Dataminer_2.StatusEffectHolder	Divine Light Imbue
-Dataminer_2.StatusEffectHolder	StatusEffect_Imbue_EtherealImbue_Name
-Dataminer_2.StatusEffectHolder	StatusEffect_Imbue_LightImbue_Name
-Dataminer_2.StatusEffectHolder	Frost Bullet Imbue
-Dataminer_2.StatusEffectHolder	Blood Bullet Imbue
-Dataminer_2.StatusEffectHolder	Shatter Bullet Imbue
-Dataminer_2.StatusEffectHolder	
-Dataminer_2.StatusEffectHolder	
-Dataminer_2.StatusEffectHolder	
-Dataminer_2.StatusEffectHolder	
-Dataminer_2.StatusEffectHolder	
-Dataminer_2.StatusEffectHolder	
-Dataminer_2.StatusEffectHolder	
-Dataminer_2.StatusEffectHolder	
-Dataminer_2.StatusEffectHolder	
-Dataminer_2.StatusEffectHolder	
-Dataminer_2.StatusEffectHolder	
-Dataminer_2.StatusEffectHolder	
-Dataminer_2.StatusEffectHolder	Health Recovery 2
-Dataminer_2.StatusEffectHolder	
-Dataminer_2.StatusEffectHolder	
-Dataminer_2.StatusEffectHolder	
-Dataminer_2.StatusEffectHolder	
-Dataminer_2.StatusEffectHolder	
-Dataminer_2.StatusEffectHolder	
-Dataminer_2.StatusEffectHolder	
-Dataminer_2.StatusEffectHolder	
-Dataminer_2.StatusEffectHolder	Stamina Recovery 2
-Dataminer_2.StatusEffectHolder	Mana Ratio Recovery 2
-Dataminer_2.StatusEffectHolder	Poisoned
-Dataminer_2.StatusEffectHolder	Poisoned +
-Dataminer_2.StatusEffectHolder	Bleeding
-Dataminer_2.StatusEffectHolder	Bleeding +
-Dataminer_2.StatusEffectHolder	Burning
-Dataminer_2.StatusEffectHolder	Wet
-Dataminer_2.StatusEffectHolder	Environment Cold Resistance
-Dataminer_2.StatusEffectHolder	Stamina Cost Reduction
-Dataminer_2.StatusEffectHolder	Health Recovery 3
-Dataminer_2.StatusEffectHolder	Mana Cost Reduction
-Dataminer_2.StatusEffectHolder	Drunk
-Dataminer_2.StatusEffectHolder	Slow Down
-Dataminer_2.StatusEffectHolder	Dizzy
-Dataminer_2.StatusEffectHolder	Speed Up
-Dataminer_2.StatusEffectHolder	Health Recovery Small
-Dataminer_2.StatusEffectHolder	Stamina Recovery Small
-Dataminer_2.StatusEffectHolder	Mana Ratio Recovery Small
-Dataminer_2.StatusEffectHolder	
-Dataminer_2.StatusEffectHolder	Elemental Resistance
-Dataminer_2.StatusEffectHolder	Stamina Recovery 3
-Dataminer_2.StatusEffectHolder	Elemental Immunity
-Dataminer_2.StatusEffectHolder	Environment Resistance
-Dataminer_2.StatusEffectHolder	Camo Tent buff
-Dataminer_2.StatusEffectHolder	Fur Tent buff
-Dataminer_2.StatusEffectHolder	Luxurious Tent buff
-Dataminer_2.StatusEffectHolder	Tent buff
-Dataminer_2.StatusEffectHolder	Cierzo Inns
-Dataminer_2.StatusEffectHolder	Monsoon Inns
-Dataminer_2.StatusEffectHolder	Berg Inns
-Dataminer_2.StatusEffectHolder	Stability Up
-Dataminer_2.StatusEffectHolder	Levant Inns
-Dataminer_2.StatusEffectHolder	Food Dizzy
-Dataminer_2.StatusEffectHolder	Food Environment Heat Resistance
-Dataminer_2.StatusEffectHolder	Food Environment Cold Resistance
-Dataminer_2.StatusEffectHolder	Food Poisoned
-Dataminer_2.StatusEffectHolder	Food Poisoned +
-Dataminer_2.StatusEffectHolder	Food Speed Up
-Dataminer_2.StatusEffectHolder	Food Water Stamina
-Dataminer_2.StatusEffectHolder	Gaberry Wine
-Dataminer_2.StatusEffectHolder	
-Dataminer_2.StatusEffectHolder	Food Stability Up
-Dataminer_2.StatusEffectHolder	
-Dataminer_2.StatusEffectHolder	Food Slow Down
-Dataminer_2.StatusEffectHolder	Food Attack Up
-Dataminer_2.StatusEffectHolder	Food Impact Up
-Dataminer_2.StatusEffectHolder	
-Dataminer_2.StatusEffectHolder	Bandage
-Dataminer_2.StatusEffectHolder	Mage Tent buff
-Dataminer_2.StatusEffectHolder	Plant Tent Buff
-Dataminer_2.StatusEffectHolder	
-Dataminer_2.StatusEffectHolder	Defense Bonus
-Dataminer_2.StatusEffectHolder	Stun
-Dataminer_2.StatusEffectHolder	Force Bubble
-Dataminer_2.StatusEffectHolder	Wind Imbue Stats
-Dataminer_2.StatusEffectHolder	Passive Mana Regen
-Dataminer_2.StatusEffectHolder	Mana Ratio Recovery 3
-Dataminer_2.StatusEffectHolder	Immolate
-Dataminer_2.StatusEffectHolder	Health Recovery 4
-Dataminer_2.StatusEffectHolder	Health Recovery 5
-Dataminer_2.StatusEffectHolder	Stamina Recovery 5
-Dataminer_2.StatusEffectHolder	Mana Ratio Recovery 5
-Dataminer_2.StatusEffectHolder	
-Dataminer_2.StatusEffectHolder	
-Dataminer_2.StatusEffectHolder	Stamina Recovery 4
-Dataminer_2.StatusEffectHolder	
-Dataminer_2.StatusEffectHolder	
-Dataminer_2.StatusEffectHolder	
-Dataminer_2.StatusEffectHolder	
-Dataminer_2.StatusEffectHolder	Environment Heat Resistance
-Dataminer_2.StatusEffectHolder	Stealth Up
-Dataminer_2.StatusEffectHolder	Stability Up 2
-Dataminer_2.StatusEffectHolder	Attack Up
-Dataminer_2.StatusEffectHolder	Impact Up
-Dataminer_2.StatusEffectHolder	
-Dataminer_2.StatusEffectHolder	Mana Ratio Recovery 4
-Dataminer_2.StatusEffectHolder	
-Dataminer_2.StatusEffectHolder	
-Dataminer_2.StatusEffectHolder	
-Dataminer_2.StatusEffectHolder	Armor Penalties Reduction
-Dataminer_2.StatusEffectHolder	Elemental Vulnerability
-Dataminer_2.StatusEffectHolder	Cripple
-Dataminer_2.StatusEffectHolder	Elemental Resistance 2
-Dataminer_2.StatusEffectHolder	
-Dataminer_2.StatusEffectHolder	
-Dataminer_2.StatusEffectHolder	Starving
-Dataminer_2.StatusEffectHolder	Hungry
-Dataminer_2.StatusEffectHolder	Full
-Dataminer_2.StatusEffectHolder	Bloated
-Dataminer_2.StatusEffectHolder	Parched
-Dataminer_2.StatusEffectHolder	Thirsty
-Dataminer_2.StatusEffectHolder	Refreshed
-Dataminer_2.StatusEffectHolder	Drowsy
-Dataminer_2.StatusEffectHolder	Tired
-Dataminer_2.StatusEffectHolder	Energized
-Dataminer_2.StatusEffectHolder	StatusEffect_Imbue_BlessedWeaponTest_Name
+18	Rage
+19	Discipline
+20	Warm
+21	Cool
+22	Mist
+23	Bless
+24	Possessed
+534	Food Warm
+545	Food Cool
+546	Food Mist
+547	Food Bless
+548	Food Possessed
+549	Food Discipline
+68	Rage Amplified
+69	Discipline Amplified
+70	Warm Amplified
+71	Cool Amplified
+72	Mist Amplified
+73	Bless Amplified
+74	Possessed Amplified
+500	Cold1
+501	Cold2
+510	Infection1
+511	Infection2
+512	Infection3
+520	Indigestion1
+521	Indigestion2
+540	Exalted
+541	Life Drain 1
+542	Life Drain 2
+543	Life Drain 3
+25	Confusion
+26	Pain
+27	Burn
+28	Chill
+29	Haunted
+30	Doom
+31	Curse
+200	Poison Imbue
+201	Greater Poison Imbue
+202	Fire Imbue
+203	Greater Fire Imbue
+204	Frost Imbue
+205	Greater Frost Imbue
+206	Lightning Imbue
+207	Greater Lightning Imbue
+208	Greater Ethereal Imbue
+209	Wind Imbue
+210	StatusEffect_Imbue_ReflectionlImbue_Name
+211	Greater Decay Imbue
+212	Decay Shield Imbue
+213	Ethereal Shield Imbue
+214	Fire Shield Imbue
+215	Frost Shield Imbue
+216	Lightning Shield Imbue
+217	Mystic Fire Imbue
+218	Mystic Frost Imbue
+219	Divine Light Imbue
+220	StatusEffect_Imbue_EtherealImbue_Name
+221	StatusEffect_Imbue_LightImbue_Name
+250	Frost Bullet Imbue
+251	Blood Bullet Imbue
+252	Shatter Bullet Imbue
+0	Health Recovery 2
+1	Stamina Recovery 2
+2	Mana Ratio Recovery 2
+32	Poisoned
+33	Poisoned +
+34	Bleeding
+35	Bleeding +
+36	Burning
+37	Wet
+38	Environment Cold Resistance
+39	Stamina Cost Reduction
+3	Health Recovery 3
+40	Mana Cost Reduction
+41	Drunk
+42	Slow Down
+43	Dizzy
+44	Speed Up
+45	Health Recovery Small
+46	Stamina Recovery Small
+47	Mana Ratio Recovery Small
+49	Elemental Resistance
+4	Stamina Recovery 3
+50	Elemental Immunity
+51	Environment Resistance
+523	Camo Tent buff
+524	Fur Tent buff
+525	Luxurious Tent buff
+526	Tent buff
+527	Cierzo Inns
+528	Monsoon Inns
+529	Berg Inns
+52	Stability Up
+530	Levant Inns
+531	Food Dizzy
+532	Food Environment Heat Resistance
+533	Food Environment Cold Resistance
+535	Food Poisoned
+536	Food Poisoned +
+537	Food Speed Up
+538	Food Water Stamina
+539	Gaberry Wine
+544	Food Stability Up
+550	Food Slow Down
+551	Food Attack Up
+552	Food Impact Up
+554	Bandage
+555	Mage Tent buff
+556	Plant Tent Buff
+55	Defense Bonus
+56	Stun
+57	Force Bubble
+58	Wind Imbue Stats
+59	Passive Mana Regen
+5	Mana Ratio Recovery 3
+66	Immolate
+6	Health Recovery 4
+75	Health Recovery 5
+76	Stamina Recovery 5
+77	Mana Ratio Recovery 5
+7	Stamina Recovery 4
+84	Environment Heat Resistance
+85	Stealth Up
+86	Stability Up 2
+87	Attack Up
+88	Impact Up
+8	Mana Ratio Recovery 4
+93	Armor Penalties Reduction
+94	Elemental Vulnerability
+95	Cripple
+96	Elemental Resistance 2
+400	Starving
+401	Hungry
+403	Full
+404	Bloated
+410	Parched
+411	Thirsty
+413	Refreshed
+420	Drowsy
+421	Tired
+424	Energized
+999	StatusEffect_Imbue_BlessedWeaponTest_Name

@@ -16,9 +16,6 @@
     <float>0</float>
     <float>0</float>
     <float>0</float>
-    <float>0</float>
-    <float>0</float>
-    <float>0</float>
   </Protection>
   <Damage_Resistances>
     <float>39</float>
@@ -27,9 +24,6 @@
     <float>40</float>
     <float>40</float>
     <float>40</float>
-    <float>0</float>
-    <float>0</float>
-    <float>0</float>
   </Damage_Resistances>
   <Damage_Bonuses>
     <float>30</float>
@@ -38,9 +32,6 @@
     <float>30</float>
     <float>30</float>
     <float>30</float>
-    <float>0</float>
-    <float>0</float>
-    <float>0</float>
   </Damage_Bonuses>
   <Collider_Radius>0.4</Collider_Radius>
   <True_WeaponDamage>
@@ -59,17 +50,11 @@
     <string>Stat Booster 2 (5400010)</string>
   </Starting_Equipment>
   <Skill_Knowledge>
-    <string>Push Kick</string>
+    <string>Push Kick (8100120)</string>
   </Skill_Knowledge>
   <Faction>Bandits</Faction>
   <Allied_To_Same_Faction>true</Allied_To_Same_Faction>
   <Guaranteed_Drops>
-    <DropTableEntry>
-      <Item_Name>Cleaver Halberd</Item_Name>
-      <Item_ID>2140010</Item_ID>
-      <Min_Quantity>1</Min_Quantity>
-      <Max_Quantity>1</Max_Quantity>
-    </DropTableEntry>
     <DropTableEntry>
       <Item_Name>Tiny Aquamarine</Item_Name>
       <Item_ID>6200070</Item_ID>
@@ -79,6 +64,12 @@
     <DropTableEntry>
       <Item_Name>Montcalm Key</Item_Name>
       <Item_ID>5600060</Item_ID>
+      <Min_Quantity>1</Min_Quantity>
+      <Max_Quantity>1</Max_Quantity>
+    </DropTableEntry>
+    <DropTableEntry>
+      <Item_Name>Cleaver Halberd</Item_Name>
+      <Item_ID>2140010</Item_ID>
       <Min_Quantity>1</Min_Quantity>
       <Max_Quantity>1</Max_Quantity>
     </DropTableEntry>

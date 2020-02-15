@@ -94,7 +94,5 @@
     <string>Adventurer’s Corpse (Enmerkar Forest:Dolmen Crypt)</string>
     <string>Chest (Enmerkar Forest:Tree Husk)</string>
   </Container_Sources>
-  <Spawn_Sources>
-    <string>Hallowed Marsh:Hollowed Lotus</string>
-  </Spawn_Sources>
+  <Spawn_Sources />
 </ItemSource>

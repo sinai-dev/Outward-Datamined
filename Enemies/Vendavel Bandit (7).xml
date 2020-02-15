@@ -16,9 +16,6 @@
     <float>0</float>
     <float>0</float>
     <float>0</float>
-    <float>0</float>
-    <float>0</float>
-    <float>0</float>
   </Protection>
   <Damage_Resistances>
     <float>23</float>
@@ -27,9 +24,6 @@
     <float>40</float>
     <float>40</float>
     <float>40</float>
-    <float>0</float>
-    <float>0</float>
-    <float>0</float>
   </Damage_Resistances>
   <Damage_Bonuses>
     <float>30</float>
@@ -38,18 +32,20 @@
     <float>30</float>
     <float>30</float>
     <float>30</float>
-    <float>0</float>
-    <float>0</float>
-    <float>0</float>
   </Damage_Bonuses>
   <Collider_Radius>0.4</Collider_Radius>
-  <True_WeaponDamage />
-  <Weapon_Impact>0</Weapon_Impact>
+  <True_WeaponDamage>
+    <Damages>
+      <Damage>15.6</Damage>
+      <Damage_Type>Physical</Damage_Type>
+    </Damages>
+  </True_WeaponDamage>
+  <Weapon_Impact>12</Weapon_Impact>
   <Status_Immunities />
   <Starting_Equipment>
     <string>Halfplate Armor (3100006)</string>
     <string>Halfplate Boots (3100008)</string>
-    <string>Halfplate Boots (3100008)</string>
+    <string>Machete (2000060)</string>
     <string>Stat Booster 2 (5400010)</string>
   </Starting_Equipment>
   <Skill_Knowledge />
@@ -59,6 +55,12 @@
     <DropTableEntry>
       <Item_Name>Vendavel Prison Key</Item_Name>
       <Item_ID>5600028</Item_ID>
+      <Min_Quantity>1</Min_Quantity>
+      <Max_Quantity>1</Max_Quantity>
+    </DropTableEntry>
+    <DropTableEntry>
+      <Item_Name>Machete</Item_Name>
+      <Item_ID>2000060</Item_ID>
       <Min_Quantity>1</Min_Quantity>
       <Max_Quantity>1</Max_Quantity>
     </DropTableEntry>

@@ -17,31 +17,22 @@
     <float>0</float>
     <float>0</float>
     <float>0</float>
-    <float>0</float>
-    <float>0</float>
-    <float>0</float>
   </Protection>
   <Damage_Resistances>
-    <float>0.199999988</float>
+    <float>20</float>
     <float>0</float>
-    <float>-0.399999976</float>
+    <float>-40</float>
     <float>0</float>
-    <float>0.399999976</float>
-    <float>-0.399999976</float>
-    <float>0</float>
-    <float>0</float>
-    <float>0</float>
+    <float>40</float>
+    <float>-40</float>
   </Damage_Resistances>
   <Damage_Bonuses>
-    <float>1</float>
-    <float>1</float>
-    <float>1</float>
-    <float>1</float>
-    <float>1</float>
-    <float>1</float>
-    <float>1</float>
-    <float>1</float>
-    <float>1</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
   </Damage_Bonuses>
   <Collider_Radius>0.4</Collider_Radius>
   <True_WeaponDamage>
@@ -56,19 +47,13 @@
     <string>Iron Mace (2020010)</string>
   </Starting_Equipment>
   <Skill_Knowledge>
-    <string>VendavelWitchKick</string>
-    <string>VendavelWitchIceBolt</string>
-    <string>VendavelWitchExplosion</string>
+    <string>VendavelWitchKick (8300242)</string>
+    <string>VendavelWitchIceBolt (8300240)</string>
+    <string>VendavelWitchExplosion (8300241)</string>
   </Skill_Knowledge>
   <Faction>Bandits</Faction>
   <Allied_To_Same_Faction>true</Allied_To_Same_Faction>
   <Guaranteed_Drops>
-    <DropTableEntry>
-      <Item_Name>Iron Mace</Item_Name>
-      <Item_ID>2020010</Item_ID>
-      <Min_Quantity>1</Min_Quantity>
-      <Max_Quantity>1</Max_Quantity>
-    </DropTableEntry>
     <DropTableEntry>
       <Item_Name>Vendavel Key</Item_Name>
       <Item_ID>5600027</Item_ID>

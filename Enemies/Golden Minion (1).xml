@@ -18,31 +18,22 @@
     <float>0</float>
     <float>0</float>
     <float>0</float>
-    <float>0</float>
-    <float>0</float>
-    <float>0</float>
   </Protection>
   <Damage_Resistances>
-    <float>0.299999982</float>
-    <float>-0.399999976</float>
-    <float>-0.399999976</float>
-    <float>0.399999976</float>
-    <float>0</float>
-    <float>0</float>
-    <float>0</float>
+    <float>30</float>
+    <float>-40</float>
+    <float>-40</float>
+    <float>40</float>
     <float>0</float>
     <float>0</float>
   </Damage_Resistances>
   <Damage_Bonuses>
-    <float>1</float>
-    <float>1</float>
-    <float>1</float>
-    <float>1</float>
-    <float>1</float>
-    <float>1</float>
-    <float>1</float>
-    <float>1</float>
-    <float>1</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
   </Damage_Bonuses>
   <Collider_Radius>0.64</Collider_Radius>
   <True_WeaponDamage>
@@ -64,7 +55,7 @@
     <string>Lich Gold TwoHanded Spear (2400290)</string>
   </Starting_Equipment>
   <Skill_Knowledge>
-    <string>MinionBoltSyphon</string>
+    <string>MinionBoltSyphon (8300211)</string>
   </Skill_Knowledge>
   <Faction>Golden</Faction>
   <Allied_To_Same_Faction>true</Allied_To_Same_Faction>

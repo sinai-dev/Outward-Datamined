@@ -16,9 +16,6 @@
     <float>0</float>
     <float>0</float>
     <float>0</float>
-    <float>0</float>
-    <float>0</float>
-    <float>0</float>
   </Protection>
   <Damage_Resistances>
     <float>10</float>
@@ -27,14 +24,8 @@
     <float>0</float>
     <float>0</float>
     <float>-40</float>
-    <float>0</float>
-    <float>0</float>
-    <float>0</float>
   </Damage_Resistances>
   <Damage_Bonuses>
-    <float>0</float>
-    <float>0</float>
-    <float>0</float>
     <float>0</float>
     <float>0</float>
     <float>0</float>
@@ -57,8 +48,8 @@
     <string>- (2400010)</string>
   </Starting_Equipment>
   <Skill_Knowledge>
-    <string>PhytoPollen</string>
-    <string>PhytoTakle</string>
+    <string>PhytoPollen (8300104)</string>
+    <string>PhytoTakle (8300101)</string>
   </Skill_Knowledge>
   <Faction>Deer</Faction>
   <Allied_To_Same_Faction>true</Allied_To_Same_Faction>

@@ -16,9 +16,6 @@
     <float>0</float>
     <float>0</float>
     <float>0</float>
-    <float>0</float>
-    <float>0</float>
-    <float>0</float>
   </Protection>
   <Damage_Resistances>
     <float>29</float>
@@ -27,14 +24,8 @@
     <float>15</float>
     <float>0</float>
     <float>20</float>
-    <float>0</float>
-    <float>0</float>
-    <float>0</float>
   </Damage_Resistances>
   <Damage_Bonuses>
-    <float>0</float>
-    <float>0</float>
-    <float>0</float>
     <float>0</float>
     <float>0</float>
     <float>0</float>
@@ -45,11 +36,11 @@
   <Collider_Radius>0.4</Collider_Radius>
   <True_WeaponDamage>
     <Damages>
-      <Damage>33</Damage>
+      <Damage>35</Damage>
       <Damage_Type>Physical</Damage_Type>
     </Damages>
   </True_WeaponDamage>
-  <Weapon_Impact>36</Weapon_Impact>
+  <Weapon_Impact>34</Weapon_Impact>
   <Status_Immunities />
   <Starting_Equipment>
     <string>Scarab Mask (3000101)</string>

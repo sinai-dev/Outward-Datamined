@@ -19,9 +19,6 @@
     <float>0</float>
     <float>0</float>
     <float>0</float>
-    <float>0</float>
-    <float>0</float>
-    <float>0</float>
   </Protection>
   <Damage_Resistances>
     <float>24</float>
@@ -30,9 +27,6 @@
     <float>20</float>
     <float>20</float>
     <float>20</float>
-    <float>0</float>
-    <float>0</float>
-    <float>0</float>
   </Damage_Resistances>
   <Damage_Bonuses>
     <float>15</float>
@@ -41,9 +35,6 @@
     <float>15</float>
     <float>15</float>
     <float>15</float>
-    <float>0</float>
-    <float>0</float>
-    <float>0</float>
   </Damage_Bonuses>
   <Collider_Radius>0.4</Collider_Radius>
   <True_WeaponDamage>
@@ -66,12 +57,6 @@
   <Faction>Bandits</Faction>
   <Allied_To_Same_Faction>true</Allied_To_Same_Faction>
   <Guaranteed_Drops>
-    <DropTableEntry>
-      <Item_Name>Desert Khopesh</Item_Name>
-      <Item_ID>2000110</Item_ID>
-      <Min_Quantity>1</Min_Quantity>
-      <Max_Quantity>1</Max_Quantity>
-    </DropTableEntry>
     <DropTableEntry>
       <Item_Name>Desert Khopesh</Item_Name>
       <Item_ID>2000110</Item_ID>

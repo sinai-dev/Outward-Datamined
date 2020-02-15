@@ -16,9 +16,6 @@
     <float>0</float>
     <float>0</float>
     <float>0</float>
-    <float>0</float>
-    <float>0</float>
-    <float>0</float>
   </Protection>
   <Damage_Resistances>
     <float>55</float>
@@ -27,14 +24,8 @@
     <float>0</float>
     <float>-40</float>
     <float>70</float>
-    <float>0</float>
-    <float>0</float>
-    <float>0</float>
   </Damage_Resistances>
   <Damage_Bonuses>
-    <float>0</float>
-    <float>0</float>
-    <float>0</float>
     <float>0</float>
     <float>0</float>
     <float>0</float>
@@ -57,9 +48,9 @@
     <string>- (2400001)</string>
   </Starting_Equipment>
   <Skill_Knowledge>
-    <string>ShrimpExplosion</string>
-    <string>ShrimpExplosion</string>
-    <string>EliteTuanProjectile</string>
+    <string>ShrimpExplosion (8300110)</string>
+    <string>ShrimpExplosion (8300111)</string>
+    <string>EliteTuanProjectile (8300112)</string>
   </Skill_Knowledge>
   <Faction>Tuanosaurs</Faction>
   <Allied_To_Same_Faction>true</Allied_To_Same_Faction>

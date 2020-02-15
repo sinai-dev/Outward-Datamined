@@ -17,31 +17,22 @@
     <float>0</float>
     <float>0</float>
     <float>0</float>
-    <float>0</float>
-    <float>0</float>
-    <float>0</float>
   </Protection>
   <Damage_Resistances>
-    <float>0.399999976</float>
+    <float>40</float>
     <float>0</float>
-    <float>1</float>
-    <float>-0.199999988</float>
-    <float>0.199999988</float>
-    <float>0</float>
-    <float>0</float>
-    <float>0</float>
+    <float>100</float>
+    <float>-20</float>
+    <float>20</float>
     <float>0</float>
   </Damage_Resistances>
   <Damage_Bonuses>
-    <float>1</float>
-    <float>1</float>
-    <float>1</float>
-    <float>1</float>
-    <float>1</float>
-    <float>1</float>
-    <float>1</float>
-    <float>1</float>
-    <float>1</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
   </Damage_Bonuses>
   <Collider_Radius>0.7</Collider_Radius>
   <True_WeaponDamage>
@@ -50,7 +41,7 @@
       <Damage_Type>Physical</Damage_Type>
     </Damages>
     <Damages>
-      <Damage>30.1500015</Damage>
+      <Damage>30.15</Damage>
       <Damage_Type>Electric</Damage_Type>
     </Damages>
   </True_WeaponDamage>
@@ -63,10 +54,10 @@
     <string>- (2400270)</string>
   </Starting_Equipment>
   <Skill_Knowledge>
-    <string>LichJadeHoming</string>
-    <string>LichJadeMine</string>
-    <string>LichJadeCircle</string>
-    <string>LichJadeLongShot</string>
+    <string>LichJadeHoming (8300182)</string>
+    <string>LichJadeMine (8300181)</string>
+    <string>LichJadeCircle (8300183)</string>
+    <string>LichJadeLongShot (8300180)</string>
   </Skill_Knowledge>
   <Faction>Merchants</Faction>
   <Allied_To_Same_Faction>true</Allied_To_Same_Faction>

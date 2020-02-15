@@ -1,18 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <EnemyHolder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <Name>Immaculate</Name>
-  <GameObject_Name>EliteImmaculate</GameObject_Name>
-  <Unique_ID>4</Unique_ID>
+  <Name>Sword Golem</Name>
+  <GameObject_Name>Golem</GameObject_Name>
+  <Unique_ID>5</Unique_ID>
   <Locations_Found>
-    <string>Other:Unknown Arena</string>
+    <string>Abrassar:Electric Lab</string>
   </Locations_Found>
-  <Max_Health>4500</Max_Health>
+  <Max_Health>400</Max_Health>
   <Health_Regen_Per_Second>0</Health_Regen_Per_Second>
-  <Impact_Resistance>78</Impact_Resistance>
+  <Impact_Resistance>40</Impact_Resistance>
   <Protection>
-    <float>0</float>
-    <float>0</float>
-    <float>0</float>
     <float>0</float>
     <float>0</float>
     <float>0</float>
@@ -21,12 +18,9 @@
     <float>0</float>
   </Protection>
   <Damage_Resistances>
-    <float>75</float>
-    <float>-50</float>
-    <float>0</float>
-    <float>-30</float>
-    <float>0</float>
-    <float>0</float>
+    <float>40</float>
+    <float>-40</float>
+    <float>40</float>
     <float>0</float>
     <float>0</float>
     <float>0</float>
@@ -38,35 +32,25 @@
     <float>0</float>
     <float>0</float>
     <float>0</float>
-    <float>0</float>
-    <float>0</float>
-    <float>0</float>
   </Damage_Bonuses>
-  <Collider_Radius>0.7</Collider_Radius>
+  <Collider_Radius>0.8</Collider_Radius>
   <True_WeaponDamage>
     <Damages>
-      <Damage>40</Damage>
-      <Damage_Type>Ethereal</Damage_Type>
-    </Damages>
-    <Damages>
-      <Damage>15</Damage>
+      <Damage>25</Damage>
       <Damage_Type>Physical</Damage_Type>
     </Damages>
   </True_WeaponDamage>
-  <Weapon_Impact>90</Weapon_Impact>
+  <Weapon_Impact>71</Weapon_Impact>
   <Status_Immunities>
     <string>Bleeding</string>
     <string>Poison</string>
+    <string>Burning</string>
   </Status_Immunities>
   <Starting_Equipment>
-    <string>ImmaculateBlade (2400251)</string>
+    <string>- (2400140)</string>
   </Starting_Equipment>
-  <Skill_Knowledge>
-    <string>ImmaculateDoubleAttack</string>
-    <string>EliteImmaculateLaser</string>
-    <string>EliteImmaculateBlast</string>
-  </Skill_Knowledge>
-  <Faction>Hounds</Faction>
+  <Skill_Knowledge />
+  <Faction>Tuanosaurs</Faction>
   <Allied_To_Same_Faction>true</Allied_To_Same_Faction>
   <Guaranteed_Drops />
   <DropTable_Names />

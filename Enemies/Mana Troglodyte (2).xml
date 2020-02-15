@@ -16,9 +16,6 @@
     <float>0</float>
     <float>0</float>
     <float>0</float>
-    <float>0</float>
-    <float>0</float>
-    <float>0</float>
   </Protection>
   <Damage_Resistances>
     <float>45</float>
@@ -27,14 +24,8 @@
     <float>-40</float>
     <float>0</float>
     <float>0</float>
-    <float>0</float>
-    <float>0</float>
-    <float>0</float>
   </Damage_Resistances>
   <Damage_Bonuses>
-    <float>0</float>
-    <float>0</float>
-    <float>0</float>
     <float>0</float>
     <float>0</float>
     <float>0</float>
@@ -63,9 +54,9 @@
     <string>Elite Queen Trog Mana Staff (2150042)</string>
   </Starting_Equipment>
   <Skill_Knowledge>
-    <string>EliteTrogBoons</string>
-    <string>EliteTrogProjectile</string>
-    <string>TrogHeal</string>
+    <string>EliteTrogBoons (8300066)</string>
+    <string>EliteTrogProjectile (8300067)</string>
+    <string>TrogHeal (8300063)</string>
   </Skill_Knowledge>
   <Faction>Bandits</Faction>
   <Allied_To_Same_Faction>true</Allied_To_Same_Faction>

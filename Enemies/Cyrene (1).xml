@@ -16,9 +16,6 @@
     <float>0</float>
     <float>0</float>
     <float>0</float>
-    <float>0</float>
-    <float>0</float>
-    <float>0</float>
   </Protection>
   <Damage_Resistances>
     <float>50</float>
@@ -27,14 +24,8 @@
     <float>0</float>
     <float>0</float>
     <float>0</float>
-    <float>0</float>
-    <float>0</float>
-    <float>0</float>
   </Damage_Resistances>
   <Damage_Bonuses>
-    <float>0</float>
-    <float>0</float>
-    <float>0</float>
     <float>0</float>
     <float>0</float>
     <float>0</float>
@@ -63,18 +54,12 @@
     <string>Palladium Sword (2000141)</string>
   </Starting_Equipment>
   <Skill_Knowledge>
-    <string>CyreneSavageStrike</string>
-    <string>CyreneShieldCharge</string>
+    <string>CyreneSavageStrike (8300280)</string>
+    <string>CyreneShieldCharge (8300281)</string>
   </Skill_Knowledge>
   <Faction>Bandits</Faction>
   <Allied_To_Same_Faction>true</Allied_To_Same_Faction>
   <Guaranteed_Drops>
-    <DropTableEntry>
-      <Item_Name>Palladium Sword</Item_Name>
-      <Item_ID>2000141</Item_ID>
-      <Min_Quantity>1</Min_Quantity>
-      <Max_Quantity>1</Max_Quantity>
-    </DropTableEntry>
     <DropTableEntry>
       <Item_Name>Palladium Sword</Item_Name>
       <Item_ID>2000141</Item_ID>

@@ -5,14 +5,17 @@
   <Unique_ID>1</Unique_ID>
   <Locations_Found>
     <string>Chersonese:Chersonese</string>
+    <string>Hallowed Marsh:Monsoon</string>
+    <string>Abrassar:Abrassar</string>
+    <string>Abrassar:The Slide</string>
+    <string>Abrassar:Sand Rose Cave</string>
+    <string>Abrassar:Cabal of Wind Outpost</string>
+    <string>Enmerkar Forest:Cabal of Wind Temple</string>
   </Locations_Found>
   <Max_Health>750</Max_Health>
   <Health_Regen_Per_Second>2.5</Health_Regen_Per_Second>
   <Impact_Resistance>60</Impact_Resistance>
   <Protection>
-    <float>0</float>
-    <float>0</float>
-    <float>0</float>
     <float>0</float>
     <float>0</float>
     <float>0</float>
@@ -27,14 +30,8 @@
     <float>-50</float>
     <float>0</float>
     <float>0</float>
-    <float>0</float>
-    <float>0</float>
-    <float>0</float>
   </Damage_Resistances>
   <Damage_Bonuses>
-    <float>0</float>
-    <float>0</float>
-    <float>0</float>
     <float>0</float>
     <float>0</float>
     <float>0</float>
@@ -61,14 +58,7 @@
   <Skill_Knowledge />
   <Faction>Hounds</Faction>
   <Allied_To_Same_Faction>true</Allied_To_Same_Faction>
-  <Guaranteed_Drops>
-    <DropTableEntry>
-      <Item_Name>Fabulous Palladium Shield</Item_Name>
-      <Item_ID>2300171</Item_ID>
-      <Min_Quantity>0</Min_Quantity>
-      <Max_Quantity>0</Max_Quantity>
-    </DropTableEntry>
-  </Guaranteed_Drops>
+  <Guaranteed_Drops />
   <DropTable_Names>
     <string>DropTable_ShelledHorror</string>
   </DropTable_Names>

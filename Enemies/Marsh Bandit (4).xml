@@ -16,9 +16,6 @@
     <float>0</float>
     <float>0</float>
     <float>0</float>
-    <float>0</float>
-    <float>0</float>
-    <float>0</float>
   </Protection>
   <Damage_Resistances>
     <float>25</float>
@@ -27,9 +24,6 @@
     <float>20</float>
     <float>20</float>
     <float>20</float>
-    <float>0</float>
-    <float>0</float>
-    <float>0</float>
   </Damage_Resistances>
   <Damage_Bonuses>
     <float>40</float>
@@ -38,9 +32,6 @@
     <float>15</float>
     <float>15</float>
     <float>15</float>
-    <float>0</float>
-    <float>0</float>
-    <float>0</float>
   </Damage_Bonuses>
   <Collider_Radius>0.4</Collider_Radius>
   <True_WeaponDamage>
@@ -63,12 +54,6 @@
   <Faction>Bandits</Faction>
   <Allied_To_Same_Faction>true</Allied_To_Same_Faction>
   <Guaranteed_Drops>
-    <DropTableEntry>
-      <Item_Name>Iron Mace</Item_Name>
-      <Item_ID>2020010</Item_ID>
-      <Min_Quantity>1</Min_Quantity>
-      <Max_Quantity>1</Max_Quantity>
-    </DropTableEntry>
     <DropTableEntry>
       <Item_Name>Iron Mace</Item_Name>
       <Item_ID>2020010</Item_ID>

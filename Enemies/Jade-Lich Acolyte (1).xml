@@ -16,20 +16,14 @@
     <float>0</float>
     <float>0</float>
     <float>0</float>
-    <float>0</float>
-    <float>0</float>
-    <float>0</float>
   </Protection>
   <Damage_Resistances>
     <float>24</float>
     <float>65</float>
-    <float>100</float>
+    <float>135</float>
     <float>25</float>
     <float>65</float>
     <float>65</float>
-    <float>20</float>
-    <float>0</float>
-    <float>0</float>
   </Damage_Resistances>
   <Damage_Bonuses>
     <float>145</float>
@@ -38,18 +32,15 @@
     <float>45</float>
     <float>45</float>
     <float>45</float>
-    <float>0</float>
-    <float>0</float>
-    <float>0</float>
   </Damage_Bonuses>
   <Collider_Radius>0.4</Collider_Radius>
   <True_WeaponDamage>
     <Damages>
-      <Damage>53.2875</Damage>
+      <Damage>53.29</Damage>
       <Damage_Type>Physical</Damage_Type>
     </Damages>
     <Damages>
-      <Damage>10.5125</Damage>
+      <Damage>10.51</Damage>
       <Damage_Type>Decay</Damage_Type>
     </Damages>
   </True_WeaponDamage>
@@ -66,12 +57,6 @@
   <Faction>Bandits</Faction>
   <Allied_To_Same_Faction>true</Allied_To_Same_Faction>
   <Guaranteed_Drops>
-    <DropTableEntry>
-      <Item_Name>Jade-Lich Mace </Item_Name>
-      <Item_ID>2020030</Item_ID>
-      <Min_Quantity>1</Min_Quantity>
-      <Max_Quantity>1</Max_Quantity>
-    </DropTableEntry>
     <DropTableEntry>
       <Item_Name>Jade-Lich Mace </Item_Name>
       <Item_ID>2020030</Item_ID>

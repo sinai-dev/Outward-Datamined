@@ -16,9 +16,6 @@
     <float>0</float>
     <float>0</float>
     <float>0</float>
-    <float>0</float>
-    <float>0</float>
-    <float>0</float>
   </Protection>
   <Damage_Resistances>
     <float>29</float>
@@ -27,15 +24,9 @@
     <float>15</float>
     <float>0</float>
     <float>0</float>
-    <float>0</float>
-    <float>0</float>
-    <float>0</float>
   </Damage_Resistances>
   <Damage_Bonuses>
     <float>10</float>
-    <float>0</float>
-    <float>0</float>
-    <float>0</float>
     <float>0</float>
     <float>0</float>
     <float>0</float>
@@ -49,7 +40,7 @@
       <Damage_Type>Physical</Damage_Type>
     </Damages>
   </True_WeaponDamage>
-  <Weapon_Impact>26</Weapon_Impact>
+  <Weapon_Impact>23</Weapon_Impact>
   <Status_Immunities />
   <Starting_Equipment>
     <string>Hound Mask (3000103)</string>

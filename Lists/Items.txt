@@ -1,14 +1,14 @@
-133	Charisma	0000133_Charisma	
-134	Alchemy Skills	0000134_AlchemySkill	
-135	Reputation	0000135_HolyMissionReputation	
+133	Charisma	0000133_Charisma	/_Unsorted
+134	Alchemy Skills	0000134_AlchemySkill	/_Unsorted
+135	Reputation	0000135_HolyMissionReputation	/_Unsorted
 210	WaterShroom	0000210_WaterShroom	/ItemContainer/SelfFilledItemContainer/Gatherable
 220	Tree	0000220_Tree	/ItemContainer/SelfFilledItemContainer/Gatherable
 310	SkinGatherable	0000310_TestSkinGatherable	/ItemContainer/SelfFilledItemContainer/SimpleExternalItemDropper
 320	OnDeathDrop	0000320_TestOnDeathDropper	/ItemContainer/SelfFilledItemContainer/SimpleExternalItemDropper
 330	SkinGatherable	0000330_TuanosaurSkinGatherable	/ItemContainer/SelfFilledItemContainer/SimpleExternalItemDropper
-340	IcePistol	0000340_IcePistol	
+340	IcePistol	0000340_IcePistol	/_Unsorted
 350	Duel Baton	0000350_DuelBaton	/Equipment/Weapon/MeleeWeapon
-410	Thunder Paper	0000410_ImbueConsumableTest	
+410	Thunder Paper	0000410_ImbueConsumableTest	/_Unsorted
 500	Makeshift Leather Attire	0000500_MakeshiftArmorWeakWeatherTest	/Equipment/Armor
 900001	Test Passive Skill	0900001_TestPassive	/Skill/PassiveSkill
 9999999	TestGatherable	9999999_TestGatherable	/ItemContainer/SelfFilledItemContainer/Gatherable
@@ -623,35 +623,35 @@
 4200060	Soothing Tea	4200060_SoothingTea	/Food
 4200070	Needle Tea	4200070_NeedleTea	/Food
 4200080	Mineral Tea	4200080_MineralTea	/Food
-4300010	Life Potion	4300010_HealthPotion	
-4300020	Astral Potion	4300020_ManaPotion	
-4300030	Endurance Potion	4300030_StaminaPotion	
-4300040	Gep's Drink	4300040_GoodluckPotion	
-4300050	Rage Potion	4300050_RagePotion	
-4300060	Discipline Potion	4300060_DisciplinePotion	
-4300070	Warm Potion	4300070_WarmPotion	
-4300080	Cool Potion	4300080_CoolPotion	
-4300090	Mist Potion	4300090_MistPotion	
-4300100	Blessed Potion	4300100_BlessedPotion	
-4300110	Antidote	4300110_UniversalAntidote	
-4300111	Hallowed Marsh Antidote	4300111_HallowedMarshAntidote	
-4300120	Possessed Potion	4300120_PossessedPotion	
-4300130	Stealth Potion	4300130_StealthPotion	
-4300140	Elemental Resistance Potion	4300140_ElementalResistancePotion	
-4300150	Elemental Immunity Potion	4300150_ElementalImmunityPotion	
-4300160	Weather Defense Potion	4300160_EnvironmentalResistancePotion	
-4300170	Stability Potion	4300170_StabilityUpPotion	
-4300180	Assassin Elixir	4300180_SpeedUpElixir	
-4300190	Hex Cleaner	4300190_HexesCleaner	
-4300200	Stoneflesh Elixir	4300200_StonefleshElixir	
-4300210	Warrior Elixir	4300210_WarriorElixir	
-4300220	Survivor Elixir	4300220_SurvivorElixir	
-4300230	Golem Elixir	4300230_GolemElixir	
-4300240	Great Life Potion	4300240_MegaHealthPotion	
-4300250	Great Astral Potion	4300250_MegaManaPotion	
-4300260	Great Endurance Potion	4300260_MegaStaminaPotion	
-4300270	Peacemaker Elixir	4300270_PeaceMakerElixir	
-4400010	Bandages	4400010_Bandages	
+4300010	Life Potion	4300010_HealthPotion	/Consumable
+4300020	Astral Potion	4300020_ManaPotion	/Consumable
+4300030	Endurance Potion	4300030_StaminaPotion	/Consumable
+4300040	Gep's Drink	4300040_GoodluckPotion	/Consumable
+4300050	Rage Potion	4300050_RagePotion	/Consumable
+4300060	Discipline Potion	4300060_DisciplinePotion	/Consumable
+4300070	Warm Potion	4300070_WarmPotion	/Consumable
+4300080	Cool Potion	4300080_CoolPotion	/Consumable
+4300090	Mist Potion	4300090_MistPotion	/Consumable
+4300100	Blessed Potion	4300100_BlessedPotion	/Consumable
+4300110	Antidote	4300110_UniversalAntidote	/Consumable
+4300111	Hallowed Marsh Antidote	4300111_HallowedMarshAntidote	/Consumable
+4300120	Possessed Potion	4300120_PossessedPotion	/Consumable
+4300130	Stealth Potion	4300130_StealthPotion	/Consumable
+4300140	Elemental Resistance Potion	4300140_ElementalResistancePotion	/Consumable
+4300150	Elemental Immunity Potion	4300150_ElementalImmunityPotion	/Consumable
+4300160	Weather Defense Potion	4300160_EnvironmentalResistancePotion	/Consumable
+4300170	Stability Potion	4300170_StabilityUpPotion	/Consumable
+4300180	Assassin Elixir	4300180_SpeedUpElixir	/Consumable
+4300190	Hex Cleaner	4300190_HexesCleaner	/Consumable
+4300200	Stoneflesh Elixir	4300200_StonefleshElixir	/Consumable
+4300210	Warrior Elixir	4300210_WarriorElixir	/Consumable
+4300220	Survivor Elixir	4300220_SurvivorElixir	/Consumable
+4300230	Golem Elixir	4300230_GolemElixir	/Consumable
+4300240	Great Life Potion	4300240_MegaHealthPotion	/Consumable
+4300250	Great Astral Potion	4300250_MegaManaPotion	/Consumable
+4300260	Great Endurance Potion	4300260_MegaStaminaPotion	/Consumable
+4300270	Peacemaker Elixir	4300270_PeaceMakerElixir	/Consumable
+4400010	Bandages	4400010_Bandages	/Consumable
 4400020	Poison Rag	4400020_PoisonRag	/InfuseConsumable
 4400021	Poison Varnish	4400021_PoisonVarnish	/InfuseConsumable
 4400030	Bolt Rag	4400030_GlowRag	/InfuseConsumable
@@ -662,37 +662,37 @@
 4400051	Ice Varnish	4400051_IceVarnish	/InfuseConsumable
 4400060	Spiritual Varnish	4400060_SpiritualVarnish	/InfuseConsumable
 4400070	Dark Varnish	4400070_DarkVarnish	/InfuseConsumable
-4400080	Bullet	4400080_Bullet	
-4500020	Bed	4500020_ThunderPaper	
-5000001	Bed	5000001_InnsBed	
-5000002	Bed	5000002_InnsBedCierzo	
-5000003	Bed	5000003_InnsBedMonsoon	
-5000004	Bed	5000004_InnsBedBerg	
-5000005	Bed	5000005_InnsBedLevant	
-5000010	Simple Tent	5000010_TentKit	
-5000011	Simple Tent	5000011_Tent	
-5000020	Improvised Bedroll	5000020_BedrollKit	
-5000021	Improvised Bedroll	5000021_Bedroll	
-5000030	Camouflaged Tent	5000030_TentCamoKit	
-5000031	Camouflaged Tent	5000031_TentCamo	
-5000040	Fur Tent	5000040_TentFurKit	
-5000041	Fur Tent	5000041_TentFur	
-5000050	Luxury Tent	5000050_TentLuxuryKit	
-5000051	Luxury Tent	5000051_TentLuxury	
-5000060	Mage Tent	5000060_TentMageKit	
-5000061	Mage Tent	5000061_TentMage	
-5000070	Plant Tent	5000070_TentPlantKit	
-5000071	Plant Tent	5000071_TentPlant	
+4400080	Bullet	4400080_Bullet	/Consumable
+4500020	Bed	4500020_ThunderPaper	/_Unsorted
+5000001	Bed	5000001_InnsBed	/_Unsorted
+5000002	Bed	5000002_InnsBedCierzo	/_Unsorted
+5000003	Bed	5000003_InnsBedMonsoon	/_Unsorted
+5000004	Bed	5000004_InnsBedBerg	/_Unsorted
+5000005	Bed	5000005_InnsBedLevant	/_Unsorted
+5000010	Simple Tent	5000010_TentKit	/_Unsorted
+5000011	Simple Tent	5000011_Tent	/_Unsorted
+5000020	Improvised Bedroll	5000020_BedrollKit	/_Unsorted
+5000021	Improvised Bedroll	5000021_Bedroll	/_Unsorted
+5000030	Camouflaged Tent	5000030_TentCamoKit	/_Unsorted
+5000031	Camouflaged Tent	5000031_TentCamo	/_Unsorted
+5000040	Fur Tent	5000040_TentFurKit	/_Unsorted
+5000041	Fur Tent	5000041_TentFur	/_Unsorted
+5000050	Luxury Tent	5000050_TentLuxuryKit	/_Unsorted
+5000051	Luxury Tent	5000051_TentLuxury	/_Unsorted
+5000060	Mage Tent	5000060_TentMageKit	/_Unsorted
+5000061	Mage Tent	5000061_TentMage	/_Unsorted
+5000070	Plant Tent	5000070_TentPlantKit	/_Unsorted
+5000071	Plant Tent	5000071_TentPlant	/_Unsorted
 5000100	Campfire	5000100_Campfire	/ItemContainer/FueledContainer
-5000101	Campfire Kit	5000101_CampfireKit	
+5000101	Campfire Kit	5000101_CampfireKit	/_Unsorted
 5000110	Campfire Kit	5000110_FirepitNPC	/ItemContainer/FueledContainer
-5010100	Cooking Pot	5010100_CookingPotKit	
+5010100	Cooking Pot	5010100_CookingPotKit	/_Unsorted
 5010111	Cooking Pot	5010111_CookingPotAddOn	/CraftingStation
-5010200	Alchemy Kit	5010200_AlchemySetKit	
+5010200	Alchemy Kit	5010200_AlchemySetKit	/_Unsorted
 5010211	Alchemy Kit	5010211_AlchemySetAddOn	/CraftingStation
-5020010	Tripwire Trap	5020010_TripWireTrapKit	
+5020010	Tripwire Trap	5020010_TripWireTrapKit	/_Unsorted
 5020011	Tripwire Trap	5020011_TripWireTrap	/ItemContainer/DeployableTrap
-5020020	Pressure Plate Trap	5020020_PressurePlateTrapKit	
+5020020	Pressure Plate Trap	5020020_PressurePlateTrapKit	/_Unsorted
 5020021	Pressure Plate Trap	5020021_PressurePlateTrap	/ItemContainer/DeployableTrap
 5100000	Explorer Lantern	5100000_Lantern	/Equipment
 5100010	Old Lantern	5100010_WeakLantern	/Equipment
@@ -751,27 +751,27 @@
 5600001	River Water	5600001_RiverWater	/WaterItem
 5600002	Salt Water	5600002_SaltedWater	/WaterItem
 5600003	Rancid Water	5600003_RancidWater	/WaterItem
-5600010	Flint and Steel	5600010_FlintAndSteel	
-5600020	Hangman's Key	5600020_HangmanKey	
-5600021	Old Levant's Key	5600021_OldLevanKey	
-5600022	Jade Lich's Idol	5600022_LichDarkIdol	
-5600023	Bandit Camp Key	5600023_BanditCampKeyA	
-5600024	Enmerkar Tomb Key	5600024_EmercarTombKeyA	
-5600025	Vigil Lock Key	5600025_VigilLockKeyA	
-5600026	Dead Roots Key	5600026_DeadRootsKeyA	
-5600027	Vendavel Key	5600027_VendavelKey	
-5600028	Vendavel Prison Key	5600028_VendavelPrisonKey	
-5600029	Cierzo Town Key	5600029_CierzoTownKey	
-5600030	Scarlet Lich's Idol	5600030_LichRedIdol	
-5600031	Palace Passage Key	5600031_PalaceSecretPassageKey	
-5600032	Krypteia Tomb Key	5600032_KrypteiaTombKey	
-5600040	Skill Storage Tablet	5600040_SkillStorageTablet	
-5600050	Writ of Tribal Favor	5600050_TribalFavor	
-5600060	Montcalm Key	5600060_MontcalmKey	
-5601001	Gep's Note	5601001_GepsNote	
+5600010	Flint and Steel	5600010_FlintAndSteel	/_Unsorted
+5600020	Hangman's Key	5600020_HangmanKey	/_Unsorted
+5600021	Old Levant's Key	5600021_OldLevanKey	/_Unsorted
+5600022	Jade Lich's Idol	5600022_LichDarkIdol	/_Unsorted
+5600023	Bandit Camp Key	5600023_BanditCampKeyA	/_Unsorted
+5600024	Enmerkar Tomb Key	5600024_EmercarTombKeyA	/_Unsorted
+5600025	Vigil Lock Key	5600025_VigilLockKeyA	/_Unsorted
+5600026	Dead Roots Key	5600026_DeadRootsKeyA	/_Unsorted
+5600027	Vendavel Key	5600027_VendavelKey	/_Unsorted
+5600028	Vendavel Prison Key	5600028_VendavelPrisonKey	/_Unsorted
+5600029	Cierzo Town Key	5600029_CierzoTownKey	/_Unsorted
+5600030	Scarlet Lich's Idol	5600030_LichRedIdol	/_Unsorted
+5600031	Palace Passage Key	5600031_PalaceSecretPassageKey	/_Unsorted
+5600032	Krypteia Tomb Key	5600032_KrypteiaTombKey	/_Unsorted
+5600040	Skill Storage Tablet	5600040_SkillStorageTablet	/_Unsorted
+5600050	Writ of Tribal Favor	5600050_TribalFavor	/_Unsorted
+5600060	Montcalm Key	5600060_MontcalmKey	/_Unsorted
+5601001	Gep's Note	5601001_GepsNote	/_Unsorted
 5601002	-	5601002_ClueNoteA	/WrittenNote
 5601003	Watchers' Note	5601003_WatchersNote	/WrittenNote
-5601010	Chemist’s Broken Flask	5601010_ChemistBrokenFlask	
+5601010	Chemist’s Broken Flask	5601010_ChemistBrokenFlask	/_Unsorted
 5602000	-	5602000_BestiaryManticore	/WrittenNote
 5700011	Cooking: Bitter Spicy Tea	5700011_BitterSpicyTea_Recipe	/RecipeItem
 5700013	Cooking: Ocean Fricassee	5700013_OceanFricassee_Recipe	/RecipeItem
@@ -898,85 +898,85 @@
 5700184	Crafting: Ammolite Boots	5700184_AmmoliteBoots_Recipe	/RecipeItem
 5700187	Crafting: Old Lantern	5700187_OldLantern_Recipe	/RecipeItem
 5700189	Crafting: Chitin Desert Tunic	5700189_DesertArmorInsect_RecipeArmor	/RecipeItem
-6000010	Firefly powder	6000010_FireflyPowder	
-6000020	Greasy Fern	6000020_GreasyFern	
-6000030	Livweedi	6000030_Livweedi	
-6000040	Ghost's Eye	6000040_GhostEye	
-6000060	Seaweed	6000060_Seaweed	
-6000070	Salt	6000070_Salt	
-6000080	-	6000080_Rafflampy	
-6000090	-	6000090_Tannin	
-6100000	Everlasting Wood	6100000_EverlastingWood	
-6100010	Wood	6100010_Wood	
-6100020	Coal	6100020_Coal	
-6100030	Black Powder	6100030_BlackPowder	
-6200010	Tsar Stone	6200010_Tsar	
-6200020	-	6200020_Turquoise	
-6200030	Cobalt	6200030_Cobalt	
-6200040	Butcher’s Amethyst	6200040_Amethyst	
-6200050	Ammolite	6200050_Ammolite	
-6200060	Copal	6200060_CopalYellow	
-6200061	-	6200061_CopalGreen	
-6200070	Tiny Aquamarine	6200070_Aquamarine	
-6200080	Diamond	6200080_Diamond	
-6200090	Large Emerald	6200090_Emerald	
-6200100	Small Sapphire	6200100_Sapphire	
-6200110	Medium Ruby	6200110_Ruby	
-6200120	Onyx	6200120_Onyx	
-6200130	Hackmanite	6200130_Hackmanite	
-6200140	Topaz	6200140_Topaz	
-6200150	Power Coil	6200150_PowerCoil	
-6200160	Blue Skull Effigy	6200160_BlueSkull	
-6300030	Gold Ingot	6300030_GoldIngot	
-6400070	Palladium Scrap	6400070_PalladiumScrap	
-6400080	Petrified Wood	6400080_PetrifiedWood	
-6400110	Blue Sand	6400110_BlueSand	
-6400130	Mana Stone	6400130_ManaStone	
-6400140	Iron Scrap	6400140_IronScrap	
-6400150	-	6400150_Jade	
-6500010	Fire Stone	6500010_FireStone	
-6500020	Cold Stone	6500020_ColdStone	
-6500030	-	6500030_DarkStone	
-6500040	-	6500040_LightStone	
-6500050	-	6500050_ElectricStone	
-6500060	-	6500060_NecroStone	
-6500070	-	6500070_DecayStone	
-6500080	-	6500080_SoulCandle	
-6500090	Linen Cloth	6500090_LinenClothes	
-6500100	Spikes – Iron	6500100_IronSpikeTrap	
-6500110	Spikes – Palladium	6500110_PalladiumSpikeTrap	
-6500120	Charge – Incendiary	6500120_ChargeTrapIncendiary	
-6500130	Charge – Toxic	6500130_ChargeTrapToxic	
-6500140	Charge – Nerve Gas	6500140_ChargeTrapNerveGas	
-6500150	Spikes – Wood	6500150_WoodSpikeTrap	
-6600020	Hide	6600020_Hide	
-6600030	Scaled Leather	6600030_ScaledHide	
+6000010	Firefly powder	6000010_FireflyPowder	/_Unsorted
+6000020	Greasy Fern	6000020_GreasyFern	/_Unsorted
+6000030	Livweedi	6000030_Livweedi	/_Unsorted
+6000040	Ghost's Eye	6000040_GhostEye	/_Unsorted
+6000060	Seaweed	6000060_Seaweed	/_Unsorted
+6000070	Salt	6000070_Salt	/_Unsorted
+6000080	-	6000080_Rafflampy	/_Unsorted
+6000090	-	6000090_Tannin	/_Unsorted
+6100000	Everlasting Wood	6100000_EverlastingWood	/_Unsorted
+6100010	Wood	6100010_Wood	/_Unsorted
+6100020	Coal	6100020_Coal	/_Unsorted
+6100030	Black Powder	6100030_BlackPowder	/_Unsorted
+6200010	Tsar Stone	6200010_Tsar	/_Unsorted
+6200020	-	6200020_Turquoise	/_Unsorted
+6200030	Cobalt	6200030_Cobalt	/_Unsorted
+6200040	Butcher’s Amethyst	6200040_Amethyst	/_Unsorted
+6200050	Ammolite	6200050_Ammolite	/_Unsorted
+6200060	Copal	6200060_CopalYellow	/_Unsorted
+6200061	-	6200061_CopalGreen	/_Unsorted
+6200070	Tiny Aquamarine	6200070_Aquamarine	/_Unsorted
+6200080	Diamond	6200080_Diamond	/_Unsorted
+6200090	Large Emerald	6200090_Emerald	/_Unsorted
+6200100	Small Sapphire	6200100_Sapphire	/_Unsorted
+6200110	Medium Ruby	6200110_Ruby	/_Unsorted
+6200120	Onyx	6200120_Onyx	/_Unsorted
+6200130	Hackmanite	6200130_Hackmanite	/_Unsorted
+6200140	Topaz	6200140_Topaz	/_Unsorted
+6200150	Power Coil	6200150_PowerCoil	/_Unsorted
+6200160	Blue Skull Effigy	6200160_BlueSkull	/_Unsorted
+6300030	Gold Ingot	6300030_GoldIngot	/_Unsorted
+6400070	Palladium Scrap	6400070_PalladiumScrap	/_Unsorted
+6400080	Petrified Wood	6400080_PetrifiedWood	/_Unsorted
+6400110	Blue Sand	6400110_BlueSand	/_Unsorted
+6400130	Mana Stone	6400130_ManaStone	/_Unsorted
+6400140	Iron Scrap	6400140_IronScrap	/_Unsorted
+6400150	-	6400150_Jade	/_Unsorted
+6500010	Fire Stone	6500010_FireStone	/_Unsorted
+6500020	Cold Stone	6500020_ColdStone	/_Unsorted
+6500030	-	6500030_DarkStone	/_Unsorted
+6500040	-	6500040_LightStone	/_Unsorted
+6500050	-	6500050_ElectricStone	/_Unsorted
+6500060	-	6500060_NecroStone	/_Unsorted
+6500070	-	6500070_DecayStone	/_Unsorted
+6500080	-	6500080_SoulCandle	/_Unsorted
+6500090	Linen Cloth	6500090_LinenClothes	/_Unsorted
+6500100	Spikes – Iron	6500100_IronSpikeTrap	/_Unsorted
+6500110	Spikes – Palladium	6500110_PalladiumSpikeTrap	/_Unsorted
+6500120	Charge – Incendiary	6500120_ChargeTrapIncendiary	/_Unsorted
+6500130	Charge – Toxic	6500130_ChargeTrapToxic	/_Unsorted
+6500140	Charge – Nerve Gas	6500140_ChargeTrapNerveGas	/_Unsorted
+6500150	Spikes – Wood	6500150_WoodSpikeTrap	/_Unsorted
+6600020	Hide	6600020_Hide	/_Unsorted
+6600030	Scaled Leather	6600030_ScaledHide	/_Unsorted
 6600040	Crystal Powder	6600040_CrystalPowder	/Food
-6600050	Predator Bones	6600050_PredatorBones	
-6600060	Coralhorn Antler	6600060_CoralHornAntlers	
-6600070	Thick Oil	6600070_ThickOil	
-6600080	Insect Husk	6600080_InsectHusk	
-6600090	Mantis Granite	6600090_MantisGranite	
-6600110	Occult Remains	6600110_OccultRemains	
-6600120	Horror Chitin	6600120_HorrorChitin	
-6600121	Green Horror Chitin	6600121_HorrorChitinGreen	
-6600130	Beast Golem Scraps	6600130_BeastGolemScraps	
-6600140	Thorny Cartilage	6600140_ThornfishCartilage	
-6600150	Manticore Tail	6600150_ManticoreTail	
-6600160	Phytosaur Horn	6600160_PhytosaurHornCrafting	
-6600170	Shark Cartilage	6600170_SharkCartilage	
-6600180	Assassin Tongue	6600180_AssassinTongue	
-6600190	Alpha Tuanosaur Tail	6600190_AlphaTuanosaurTail	
-6600200	Obsidian Shard	6600200_ObsidianShard	
-6600210	Gold-Lich Mechanism	6600210_GoldLichMechanismCrafting	
-6600220	Gep’s Generosity	6600220_BossReward_Ing_GepGenerosity	
-6600221	Pearlbird’s Courage	6600221_BossReward_Ing_PearlBirdCourage	
-6600222	Elatt’s Relic	6600222_BossReward_Ing_ElattRelic	
-6600223	Scourge’s Tears	6600223_BossReward_Ing_ScourgeTears	
-6600224	Haunted Memory	6600224_BossReward_Ing_HauntedMemory	
-6600225	Calixa’s Relic	6600225_BossReward_Ing_CalixaRelic	
-6600226	Leyline Figment	6600226_BossReward_Ing_LeylineFigment	
-6600227	Vendavel's Hospitality	6600227_BossReward_Ing_VendavelHospitality	
+6600050	Predator Bones	6600050_PredatorBones	/_Unsorted
+6600060	Coralhorn Antler	6600060_CoralHornAntlers	/_Unsorted
+6600070	Thick Oil	6600070_ThickOil	/_Unsorted
+6600080	Insect Husk	6600080_InsectHusk	/_Unsorted
+6600090	Mantis Granite	6600090_MantisGranite	/_Unsorted
+6600110	Occult Remains	6600110_OccultRemains	/_Unsorted
+6600120	Horror Chitin	6600120_HorrorChitin	/_Unsorted
+6600121	Green Horror Chitin	6600121_HorrorChitinGreen	/_Unsorted
+6600130	Beast Golem Scraps	6600130_BeastGolemScraps	/_Unsorted
+6600140	Thorny Cartilage	6600140_ThornfishCartilage	/_Unsorted
+6600150	Manticore Tail	6600150_ManticoreTail	/_Unsorted
+6600160	Phytosaur Horn	6600160_PhytosaurHornCrafting	/_Unsorted
+6600170	Shark Cartilage	6600170_SharkCartilage	/_Unsorted
+6600180	Assassin Tongue	6600180_AssassinTongue	/_Unsorted
+6600190	Alpha Tuanosaur Tail	6600190_AlphaTuanosaurTail	/_Unsorted
+6600200	Obsidian Shard	6600200_ObsidianShard	/_Unsorted
+6600210	Gold-Lich Mechanism	6600210_GoldLichMechanismCrafting	/_Unsorted
+6600220	Gep’s Generosity	6600220_BossReward_Ing_GepGenerosity	/_Unsorted
+6600221	Pearlbird’s Courage	6600221_BossReward_Ing_PearlBirdCourage	/_Unsorted
+6600222	Elatt’s Relic	6600222_BossReward_Ing_ElattRelic	/_Unsorted
+6600223	Scourge’s Tears	6600223_BossReward_Ing_ScourgeTears	/_Unsorted
+6600224	Haunted Memory	6600224_BossReward_Ing_HauntedMemory	/_Unsorted
+6600225	Calixa’s Relic	6600225_BossReward_Ing_CalixaRelic	/_Unsorted
+6600226	Leyline Figment	6600226_BossReward_Ing_LeylineFigment	/_Unsorted
+6600227	Vendavel's Hospitality	6600227_BossReward_Ing_VendavelHospitality	/_Unsorted
 7000001	Aurelie Test Quest	700000X_AurelieTestQuest	/Quest
 7000010	Test Quest - Find Lantern	7000010_TestQuest	/Quest
 7000011	Test Side Quest - Find Lantern	7000011_TestSideQuest	/Quest
@@ -1046,22 +1046,22 @@
 7091002	TreasureHunt	7091002_TreasureHuntQuestBackup	/Quest
 7091201	Cursed Water Quest - Herman's Meeting 	7091201_Monsoon_WaterQuestBackup	/Quest
 7091202	Monsoon - Find the alchemist	7091202_Monsoon_FindAlchemistQuestBackup	/Quest
-7312001	Karmock's Phylactery (Complete)	7312001_KarmocksPhylactery	
+7312001	Karmock's Phylactery (Complete)	7312001_KarmocksPhylactery	/_Unsorted
 7312002	Karmock's Phylactery (Fragment)	7312002_KarmocksPhylacteryFragment	/ItemFragment
-7400010	Old Levant Coat	7400010_OldLevantCoat	
-7400020	Old Levant Painting	7400020_OldLevantPainting	
-7400030	Soroborean Chest	7400030_SoroboreanChest	
-7400040	Blue Sand Map	7400040_BlueSandMap	
-7400050	Giant-Heart Garnet	7400050_RedStone	
-7400060	Old Levant Banner	7400060_OldLevantBanner	
-7400070	Conflux Supplies	7400070_ConfluxSupplies	
-8000000	Soul	8000000_Soul	
+7400010	Old Levant Coat	7400010_OldLevantCoat	/_Unsorted
+7400020	Old Levant Painting	7400020_OldLevantPainting	/_Unsorted
+7400030	Soroborean Chest	7400030_SoroboreanChest	/_Unsorted
+7400040	Blue Sand Map	7400040_BlueSandMap	/_Unsorted
+7400050	Giant-Heart Garnet	7400050_RedStone	/_Unsorted
+7400060	Old Levant Banner	7400060_OldLevantBanner	/_Unsorted
+7400070	Conflux Supplies	7400070_ConfluxSupplies	/_Unsorted
+8000000	Soul	8000000_Soul	/_Unsorted
 8000001	Runic Trap	8000001_RunicTrap	/ItemContainer/DeployableTrap
 8000002	Runic Trap Amplified	8000002_RunicTrapAmplified	/ItemContainer/DeployableTrap
-8000010	Activated Firestone	8000010_ActivatedFireSigil	
-8000020	Soul candle	8000020_LitCandle	
-8000040	Activated Ice Sigil	8000040_ActivatedIceSigil	
-8000050	Activated Air Sigil	8000050_ActivatedAirSigil	
+8000010	Activated Firestone	8000010_ActivatedFireSigil	/_Unsorted
+8000020	Soul candle	8000020_LitCandle	/_Unsorted
+8000040	Activated Ice Sigil	8000040_ActivatedIceSigil	/_Unsorted
+8000050	Activated Air Sigil	8000050_ActivatedAirSigil	/_Unsorted
 8100010	Throw Lantern	8100010_ThrowLantern	/Skill/AttackSkill/ThrowSkill
 8100020	Predator Leap	8100020_LeapAttack	/Skill/AttackSkill/MeleeSkill
 8100030	-	8100030_FireArrow	/Skill/AttackSkill/MeleeSkill
@@ -1280,9 +1280,9 @@
 8400020	Fireworks	8400020_Fireworks	/Skill
 9000000	Gold	9000000_GoldCurrency	/Currency
 9000010	Silver	9000010_SilverCurrency	/Currency
-9200010	Message	9200010_Message	
-9200020	Goodluck Jim's Note 1 	9200020_Note	
-9200021	Goodluck Jim's Note 2	9200021_Note	
-9200022	Goodluck Jim's Note 3	9200022_Note	
-9200023	Bandit Note, Intruder	9200023_Note	
+9200010	Message	9200010_Message	/_Unsorted
+9200020	Goodluck Jim's Note 1 	9200020_Note	/_Unsorted
+9200021	Goodluck Jim's Note 2	9200021_Note	/_Unsorted
+9200022	Goodluck Jim's Note 3	9200022_Note	/_Unsorted
+9200023	Bandit Note, Intruder	9200023_Note	/_Unsorted
 9300000	Tree	9300000_CentralGatherable_Tree	/ItemContainer/SelfFilledItemContainer/Gatherable/CentralGatherable

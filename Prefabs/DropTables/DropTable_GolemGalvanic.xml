@@ -27,7 +27,7 @@
           <Item_ID>6200150</Item_ID>
           <Min_Quantity>1</Min_Quantity>
           <Max_Quantity>1</Max_Quantity>
-          <Drop_Chance>33.3333359</Drop_Chance>
+          <Drop_Chance>33.33</Drop_Chance>
           <Dice_Range>24</Dice_Range>
         </DropTableChanceEntry>
       </Item_Drops>

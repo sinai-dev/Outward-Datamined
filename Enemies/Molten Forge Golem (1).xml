@@ -16,9 +16,6 @@
     <float>0</float>
     <float>0</float>
     <float>0</float>
-    <float>0</float>
-    <float>0</float>
-    <float>0</float>
   </Protection>
   <Damage_Resistances>
     <float>30</float>
@@ -27,14 +24,8 @@
     <float>0</float>
     <float>0</float>
     <float>40</float>
-    <float>0</float>
-    <float>0</float>
-    <float>0</float>
   </Damage_Resistances>
   <Damage_Bonuses>
-    <float>0</float>
-    <float>0</float>
-    <float>0</float>
     <float>0</float>
     <float>0</float>
     <float>0</float>
@@ -63,7 +54,7 @@
     <string>- (2400201)</string>
   </Starting_Equipment>
   <Skill_Knowledge>
-    <string>Forge Golem Light Shot</string>
+    <string>Forge Golem Light Shot (8300120)</string>
   </Skill_Knowledge>
   <Faction>Mercs</Faction>
   <Allied_To_Same_Faction>true</Allied_To_Same_Faction>

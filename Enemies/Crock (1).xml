@@ -17,31 +17,22 @@
     <float>0</float>
     <float>0</float>
     <float>0</float>
-    <float>0</float>
-    <float>0</float>
-    <float>0</float>
   </Protection>
   <Damage_Resistances>
-    <float>0.53</float>
-    <float>0.399999976</float>
-    <float>0.049999997</float>
-    <float>0.399999976</float>
-    <float>0.399999976</float>
-    <float>0.399999976</float>
-    <float>0</float>
-    <float>0</float>
-    <float>0</float>
+    <float>53</float>
+    <float>40</float>
+    <float>5</float>
+    <float>40</float>
+    <float>40</float>
+    <float>40</float>
   </Damage_Resistances>
   <Damage_Bonuses>
-    <float>1.45</float>
-    <float>1.3</float>
-    <float>1.3</float>
-    <float>1.3</float>
-    <float>1.3</float>
-    <float>1.3</float>
-    <float>1</float>
-    <float>1</float>
-    <float>1</float>
+    <float>45</float>
+    <float>30</float>
+    <float>30</float>
+    <float>30</float>
+    <float>30</float>
+    <float>30</float>
   </Damage_Bonuses>
   <Collider_Radius>0.4</Collider_Radius>
   <True_WeaponDamage>
@@ -64,18 +55,6 @@
   <Allied_To_Same_Faction>true</Allied_To_Same_Faction>
   <Guaranteed_Drops>
     <DropTableEntry>
-      <Item_Name>Brutal Club</Item_Name>
-      <Item_ID>2020020</Item_ID>
-      <Min_Quantity>1</Min_Quantity>
-      <Max_Quantity>1</Max_Quantity>
-    </DropTableEntry>
-    <DropTableEntry>
-      <Item_Name>Brutal Club</Item_Name>
-      <Item_ID>2020020</Item_ID>
-      <Min_Quantity>1</Min_Quantity>
-      <Max_Quantity>1</Max_Quantity>
-    </DropTableEntry>
-    <DropTableEntry>
       <Item_Name>Vendavel Key</Item_Name>
       <Item_ID>5600027</Item_ID>
       <Min_Quantity>1</Min_Quantity>
@@ -92,6 +71,12 @@
       <Item_ID>4300010</Item_ID>
       <Min_Quantity>2</Min_Quantity>
       <Max_Quantity>2</Max_Quantity>
+    </DropTableEntry>
+    <DropTableEntry>
+      <Item_Name>Brutal Club</Item_Name>
+      <Item_ID>2020020</Item_ID>
+      <Min_Quantity>1</Min_Quantity>
+      <Max_Quantity>1</Max_Quantity>
     </DropTableEntry>
   </Guaranteed_Drops>
   <DropTable_Names>

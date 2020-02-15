@@ -16,9 +16,6 @@
     <float>0</float>
     <float>0</float>
     <float>0</float>
-    <float>0</float>
-    <float>0</float>
-    <float>0</float>
   </Protection>
   <Damage_Resistances>
     <float>23</float>
@@ -27,14 +24,8 @@
     <float>0</float>
     <float>0</float>
     <float>0</float>
-    <float>0</float>
-    <float>0</float>
-    <float>0</float>
   </Damage_Resistances>
   <Damage_Bonuses>
-    <float>0</float>
-    <float>0</float>
-    <float>0</float>
     <float>0</float>
     <float>0</float>
     <float>0</float>
@@ -61,18 +52,6 @@
   <Allied_To_Same_Faction>true</Allied_To_Same_Faction>
   <Guaranteed_Drops>
     <DropTableEntry>
-      <Item_Name>Machete</Item_Name>
-      <Item_ID>2000060</Item_ID>
-      <Min_Quantity>1</Min_Quantity>
-      <Max_Quantity>1</Max_Quantity>
-    </DropTableEntry>
-    <DropTableEntry>
-      <Item_Name>Machete</Item_Name>
-      <Item_ID>2000060</Item_ID>
-      <Min_Quantity>1</Min_Quantity>
-      <Max_Quantity>1</Max_Quantity>
-    </DropTableEntry>
-    <DropTableEntry>
       <Item_Name>Vendavel Key</Item_Name>
       <Item_ID>5600027</Item_ID>
       <Min_Quantity>1</Min_Quantity>
@@ -81,6 +60,12 @@
     <DropTableEntry>
       <Item_Name>Vendavel Prison Key</Item_Name>
       <Item_ID>5600028</Item_ID>
+      <Min_Quantity>1</Min_Quantity>
+      <Max_Quantity>1</Max_Quantity>
+    </DropTableEntry>
+    <DropTableEntry>
+      <Item_Name>Machete</Item_Name>
+      <Item_ID>2000060</Item_ID>
       <Min_Quantity>1</Min_Quantity>
       <Max_Quantity>1</Max_Quantity>
     </DropTableEntry>

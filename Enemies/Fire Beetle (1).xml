@@ -17,9 +17,6 @@
     <float>0</float>
     <float>0</float>
     <float>0</float>
-    <float>0</float>
-    <float>0</float>
-    <float>0</float>
   </Protection>
   <Damage_Resistances>
     <float>30</float>
@@ -28,14 +25,8 @@
     <float>0</float>
     <float>-40</float>
     <float>40</float>
-    <float>0</float>
-    <float>0</float>
-    <float>0</float>
   </Damage_Resistances>
   <Damage_Bonuses>
-    <float>0</float>
-    <float>0</float>
-    <float>0</float>
     <float>0</float>
     <float>0</float>
     <float>0</float>
@@ -56,8 +47,8 @@
     <string>- (2400040)</string>
   </Starting_Equipment>
   <Skill_Knowledge>
-    <string>Beetle Light Shot</string>
-    <string>Beetle Heavy Shot</string>
+    <string>Beetle Light Shot (8300030)</string>
+    <string>Beetle Heavy Shot (8300031)</string>
   </Skill_Knowledge>
   <Faction>Mercs</Faction>
   <Allied_To_Same_Faction>true</Allied_To_Same_Faction>

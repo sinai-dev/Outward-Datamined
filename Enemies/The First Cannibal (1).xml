@@ -16,9 +16,6 @@
     <float>0</float>
     <float>0</float>
     <float>0</float>
-    <float>0</float>
-    <float>0</float>
-    <float>0</float>
   </Protection>
   <Damage_Resistances>
     <float>10</float>
@@ -27,9 +24,6 @@
     <float>-40</float>
     <float>80</float>
     <float>-40</float>
-    <float>0</float>
-    <float>0</float>
-    <float>0</float>
   </Damage_Resistances>
   <Damage_Bonuses>
     <float>0</float>
@@ -37,9 +31,6 @@
     <float>0</float>
     <float>0</float>
     <float>150</float>
-    <float>0</float>
-    <float>0</float>
-    <float>0</float>
     <float>0</float>
   </Damage_Bonuses>
   <Collider_Radius>0.8</Collider_Radius>
@@ -59,7 +50,7 @@
     <string>- (2400100)</string>
   </Starting_Equipment>
   <Skill_Knowledge>
-    <string>WendigoSoulSyphon</string>
+    <string>WendigoSoulSyphon (8300140)</string>
   </Skill_Knowledge>
   <Faction>Mercs</Faction>
   <Allied_To_Same_Faction>true</Allied_To_Same_Faction>

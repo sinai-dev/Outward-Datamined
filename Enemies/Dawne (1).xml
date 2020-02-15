@@ -16,9 +16,6 @@
     <float>0</float>
     <float>0</float>
     <float>0</float>
-    <float>0</float>
-    <float>0</float>
-    <float>0</float>
   </Protection>
   <Damage_Resistances>
     <float>26</float>
@@ -27,14 +24,8 @@
     <float>0</float>
     <float>0</float>
     <float>0</float>
-    <float>0</float>
-    <float>0</float>
-    <float>0</float>
   </Damage_Resistances>
   <Damage_Bonuses>
-    <float>0</float>
-    <float>0</float>
-    <float>0</float>
     <float>0</float>
     <float>0</float>
     <float>0</float>
@@ -63,14 +54,8 @@
   <Allied_To_Same_Faction>true</Allied_To_Same_Faction>
   <Guaranteed_Drops>
     <DropTableEntry>
-      <Item_Name>Old Legion Gladius</Item_Name>
-      <Item_ID>2000090</Item_ID>
-      <Min_Quantity>1</Min_Quantity>
-      <Max_Quantity>1</Max_Quantity>
-    </DropTableEntry>
-    <DropTableEntry>
-      <Item_Name>Old Legion Gladius</Item_Name>
-      <Item_ID>2000090</Item_ID>
+      <Item_Name>Palace Passage Key</Item_Name>
+      <Item_ID>5600031</Item_ID>
       <Min_Quantity>1</Min_Quantity>
       <Max_Quantity>1</Max_Quantity>
     </DropTableEntry>
@@ -83,12 +68,6 @@
     <DropTableEntry>
       <Item_Name>Broad Dagger</Item_Name>
       <Item_ID>5110001</Item_ID>
-      <Min_Quantity>1</Min_Quantity>
-      <Max_Quantity>1</Max_Quantity>
-    </DropTableEntry>
-    <DropTableEntry>
-      <Item_Name>Palace Passage Key</Item_Name>
-      <Item_ID>5600031</Item_ID>
       <Min_Quantity>1</Min_Quantity>
       <Max_Quantity>1</Max_Quantity>
     </DropTableEntry>

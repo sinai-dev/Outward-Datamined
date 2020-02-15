@@ -16,9 +16,6 @@
     <float>0</float>
     <float>0</float>
     <float>0</float>
-    <float>0</float>
-    <float>0</float>
-    <float>0</float>
   </Protection>
   <Damage_Resistances>
     <float>11</float>
@@ -27,14 +24,8 @@
     <float>0</float>
     <float>0</float>
     <float>0</float>
-    <float>0</float>
-    <float>0</float>
-    <float>0</float>
   </Damage_Resistances>
   <Damage_Bonuses>
-    <float>0</float>
-    <float>0</float>
-    <float>0</float>
     <float>0</float>
     <float>0</float>
     <float>0</float>
@@ -55,11 +46,18 @@
     <string>Looter Armor (3000038)</string>
     <string>Scavenger Boots (3000034)</string>
     <string>Simple Bow (2200000)</string>
+    <string>Arrow (5200001)</string>
   </Starting_Equipment>
   <Skill_Knowledge />
   <Faction>Bandits</Faction>
   <Allied_To_Same_Faction>true</Allied_To_Same_Faction>
   <Guaranteed_Drops>
+    <DropTableEntry>
+      <Item_Name>Iron Sword</Item_Name>
+      <Item_ID>2000010</Item_ID>
+      <Min_Quantity>1</Min_Quantity>
+      <Max_Quantity>1</Max_Quantity>
+    </DropTableEntry>
     <DropTableEntry>
       <Item_Name>Simple Bow</Item_Name>
       <Item_ID>2200000</Item_ID>
@@ -67,8 +65,8 @@
       <Max_Quantity>1</Max_Quantity>
     </DropTableEntry>
     <DropTableEntry>
-      <Item_Name>Iron Sword</Item_Name>
-      <Item_ID>2000010</Item_ID>
+      <Item_Name>Arrow</Item_Name>
+      <Item_ID>5200001</Item_ID>
       <Min_Quantity>1</Min_Quantity>
       <Max_Quantity>1</Max_Quantity>
     </DropTableEntry>

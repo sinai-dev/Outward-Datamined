@@ -16,9 +16,6 @@
     <float>0</float>
     <float>0</float>
     <float>0</float>
-    <float>0</float>
-    <float>0</float>
-    <float>0</float>
   </Protection>
   <Damage_Resistances>
     <float>25</float>
@@ -27,14 +24,8 @@
     <float>0</float>
     <float>0</float>
     <float>0</float>
-    <float>0</float>
-    <float>0</float>
-    <float>0</float>
   </Damage_Resistances>
   <Damage_Bonuses>
-    <float>0</float>
-    <float>0</float>
-    <float>0</float>
     <float>0</float>
     <float>0</float>
     <float>0</float>
@@ -59,7 +50,7 @@
     <string>EliteCrescentShark Jaw (2400221)</string>
   </Starting_Equipment>
   <Skill_Knowledge>
-    <string>EliteSharkBlast</string>
+    <string>EliteSharkBlast (8300300)</string>
   </Skill_Knowledge>
   <Faction>Tuanosaurs</Faction>
   <Allied_To_Same_Faction>true</Allied_To_Same_Faction>

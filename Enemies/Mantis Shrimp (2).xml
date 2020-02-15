@@ -16,9 +16,6 @@
     <float>0</float>
     <float>0</float>
     <float>0</float>
-    <float>0</float>
-    <float>0</float>
-    <float>0</float>
   </Protection>
   <Damage_Resistances>
     <float>60</float>
@@ -27,14 +24,8 @@
     <float>40</float>
     <float>-40</float>
     <float>0</float>
-    <float>0</float>
-    <float>0</float>
-    <float>0</float>
   </Damage_Resistances>
   <Damage_Bonuses>
-    <float>0</float>
-    <float>0</float>
-    <float>0</float>
     <float>0</float>
     <float>0</float>
     <float>0</float>
@@ -55,10 +46,10 @@
     <string>- (2400090)</string>
   </Starting_Equipment>
   <Skill_Knowledge>
-    <string>ShrimpExplosion</string>
-    <string>LightningBolt</string>
-    <string>ShrimpExplosion</string>
-    <string>LightningBolt</string>
+    <string>ShrimpExplosion (8300072)</string>
+    <string>LightningBolt (8300074)</string>
+    <string>ShrimpExplosion (8300073)</string>
+    <string>LightningBolt (8300075)</string>
   </Skill_Knowledge>
   <Faction>Bandits</Faction>
   <Allied_To_Same_Faction>true</Allied_To_Same_Faction>

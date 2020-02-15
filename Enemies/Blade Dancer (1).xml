@@ -19,9 +19,6 @@
     <float>0</float>
     <float>0</float>
     <float>0</float>
-    <float>0</float>
-    <float>0</float>
-    <float>0</float>
   </Protection>
   <Damage_Resistances>
     <float>30</float>
@@ -30,14 +27,8 @@
     <float>-40</float>
     <float>0</float>
     <float>0</float>
-    <float>0</float>
-    <float>0</float>
-    <float>0</float>
   </Damage_Resistances>
   <Damage_Bonuses>
-    <float>0</float>
-    <float>0</float>
-    <float>0</float>
     <float>0</float>
     <float>0</float>
     <float>0</float>
@@ -65,7 +56,7 @@
     <string>- (2400230)</string>
   </Starting_Equipment>
   <Skill_Knowledge>
-    <string>SideBite</string>
+    <string>SideBite (8300150)</string>
   </Skill_Knowledge>
   <Faction>Merchants</Faction>
   <Allied_To_Same_Faction>true</Allied_To_Same_Faction>

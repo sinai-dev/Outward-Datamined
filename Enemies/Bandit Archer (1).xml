@@ -18,31 +18,22 @@
     <float>0</float>
     <float>0</float>
     <float>0</float>
-    <float>0</float>
-    <float>0</float>
-    <float>0</float>
   </Protection>
   <Damage_Resistances>
-    <float>0.16</float>
+    <float>16</float>
     <float>0</float>
-    <float>-0.399999976</float>
-    <float>0</float>
-    <float>0</float>
-    <float>0</float>
+    <float>-40</float>
     <float>0</float>
     <float>0</float>
     <float>0</float>
   </Damage_Resistances>
   <Damage_Bonuses>
-    <float>1.2</float>
-    <float>1</float>
-    <float>1</float>
-    <float>1</float>
-    <float>1</float>
-    <float>1</float>
-    <float>1</float>
-    <float>1</float>
-    <float>1</float>
+    <float>20</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
   </Damage_Bonuses>
   <Collider_Radius>0.4</Collider_Radius>
   <True_WeaponDamage>
@@ -65,8 +56,8 @@
   <Allied_To_Same_Faction>true</Allied_To_Same_Faction>
   <Guaranteed_Drops>
     <DropTableEntry>
-      <Item_Name>Simple Bow</Item_Name>
-      <Item_ID>2200000</Item_ID>
+      <Item_Name>Iron Sword</Item_Name>
+      <Item_ID>2000010</Item_ID>
       <Min_Quantity>1</Min_Quantity>
       <Max_Quantity>1</Max_Quantity>
     </DropTableEntry>
@@ -79,12 +70,6 @@
     <DropTableEntry>
       <Item_Name>Arrow</Item_Name>
       <Item_ID>5200001</Item_ID>
-      <Min_Quantity>1</Min_Quantity>
-      <Max_Quantity>1</Max_Quantity>
-    </DropTableEntry>
-    <DropTableEntry>
-      <Item_Name>Iron Sword</Item_Name>
-      <Item_ID>2000010</Item_ID>
       <Min_Quantity>1</Min_Quantity>
       <Max_Quantity>1</Max_Quantity>
     </DropTableEntry>

@@ -16,9 +16,6 @@
     <float>0</float>
     <float>0</float>
     <float>0</float>
-    <float>0</float>
-    <float>0</float>
-    <float>0</float>
   </Protection>
   <Damage_Resistances>
     <float>0</float>
@@ -27,14 +24,8 @@
     <float>0</float>
     <float>-40</float>
     <float>100</float>
-    <float>0</float>
-    <float>0</float>
-    <float>0</float>
   </Damage_Resistances>
   <Damage_Bonuses>
-    <float>0</float>
-    <float>0</float>
-    <float>0</float>
     <float>0</float>
     <float>0</float>
     <float>0</float>
@@ -63,11 +54,11 @@
     <string>- (2400210)</string>
   </Starting_Equipment>
   <Skill_Knowledge>
-    <string>BurningManFlamethrower</string>
-    <string>BurningManBlast</string>
-    <string>EliteBurningManBlast</string>
-    <string>EliteBurningManFlamethrower</string>
-    <string>BurningManForwardFlame</string>
+    <string>BurningManFlamethrower (8300190)</string>
+    <string>BurningManBlast (8300191)</string>
+    <string>EliteBurningManBlast (8300192)</string>
+    <string>EliteBurningManFlamethrower (8300193)</string>
+    <string>BurningManForwardFlame (8300194)</string>
   </Skill_Knowledge>
   <Faction>Deer</Faction>
   <Allied_To_Same_Faction>true</Allied_To_Same_Faction>

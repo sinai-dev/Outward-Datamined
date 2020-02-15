@@ -23,9 +23,6 @@
     <float>0</float>
     <float>0</float>
     <float>0</float>
-    <float>0</float>
-    <float>0</float>
-    <float>0</float>
   </Protection>
   <Damage_Resistances>
     <float>0</float>
@@ -34,14 +31,8 @@
     <float>-40</float>
     <float>0</float>
     <float>0</float>
-    <float>0</float>
-    <float>0</float>
-    <float>0</float>
   </Damage_Resistances>
   <Damage_Bonuses>
-    <float>0</float>
-    <float>0</float>
-    <float>0</float>
     <float>0</float>
     <float>0</float>
     <float>0</float>
@@ -55,9 +46,9 @@
   <Status_Immunities />
   <Starting_Equipment />
   <Skill_Knowledge>
-    <string>IlluminatorHeavy</string>
-    <string>IlluminatorHoming</string>
-    <string>IlluminatorForward</string>
+    <string>IlluminatorHeavy (8300170)</string>
+    <string>IlluminatorHoming (8300172)</string>
+    <string>IlluminatorForward (8300171)</string>
   </Skill_Knowledge>
   <Faction>Hounds</Faction>
   <Allied_To_Same_Faction>true</Allied_To_Same_Faction>

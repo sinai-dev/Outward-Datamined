@@ -16,9 +16,6 @@
     <float>0</float>
     <float>0</float>
     <float>0</float>
-    <float>0</float>
-    <float>0</float>
-    <float>0</float>
   </Protection>
   <Damage_Resistances>
     <float>48</float>
@@ -27,9 +24,6 @@
     <float>20</float>
     <float>20</float>
     <float>20</float>
-    <float>0</float>
-    <float>0</float>
-    <float>0</float>
   </Damage_Resistances>
   <Damage_Bonuses>
     <float>15</float>
@@ -38,9 +32,6 @@
     <float>15</float>
     <float>15</float>
     <float>15</float>
-    <float>0</float>
-    <float>0</float>
-    <float>0</float>
   </Damage_Bonuses>
   <Collider_Radius>0.4</Collider_Radius>
   <True_WeaponDamage>
@@ -64,8 +55,8 @@
   <Allied_To_Same_Faction>true</Allied_To_Same_Faction>
   <Guaranteed_Drops>
     <DropTableEntry>
-      <Item_Name>Brutal Club</Item_Name>
-      <Item_ID>2020020</Item_ID>
+      <Item_Name>Small Sapphire</Item_Name>
+      <Item_ID>6200100</Item_ID>
       <Min_Quantity>1</Min_Quantity>
       <Max_Quantity>1</Max_Quantity>
     </DropTableEntry>
@@ -78,12 +69,6 @@
     <DropTableEntry>
       <Item_Name>Tower Shield</Item_Name>
       <Item_ID>2300040</Item_ID>
-      <Min_Quantity>1</Min_Quantity>
-      <Max_Quantity>1</Max_Quantity>
-    </DropTableEntry>
-    <DropTableEntry>
-      <Item_Name>Small Sapphire</Item_Name>
-      <Item_ID>6200100</Item_ID>
       <Min_Quantity>1</Min_Quantity>
       <Max_Quantity>1</Max_Quantity>
     </DropTableEntry>

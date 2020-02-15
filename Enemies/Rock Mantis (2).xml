@@ -16,9 +16,6 @@
     <float>0</float>
     <float>0</float>
     <float>0</float>
-    <float>0</float>
-    <float>0</float>
-    <float>0</float>
   </Protection>
   <Damage_Resistances>
     <float>40</float>
@@ -27,14 +24,8 @@
     <float>0</float>
     <float>-40</float>
     <float>0</float>
-    <float>0</float>
-    <float>0</float>
-    <float>0</float>
   </Damage_Resistances>
   <Damage_Bonuses>
-    <float>0</float>
-    <float>0</float>
-    <float>0</float>
     <float>0</float>
     <float>0</float>
     <float>0</float>
@@ -55,8 +46,8 @@
     <string>- (2400050)</string>
   </Starting_Equipment>
   <Skill_Knowledge>
-    <string>MantisHide</string>
-    <string>MantisUnhide</string>
+    <string>MantisHide (8300040)</string>
+    <string>MantisUnhide (8300041)</string>
   </Skill_Knowledge>
   <Faction>Hounds</Faction>
   <Allied_To_Same_Faction>true</Allied_To_Same_Faction>

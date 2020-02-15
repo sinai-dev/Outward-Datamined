@@ -1,18 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <EnemyHolder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Name>Immaculate</Name>
-  <GameObject_Name>Immaculate</GameObject_Name>
+  <GameObject_Name>Immaculate 1AI A</GameObject_Name>
   <Unique_ID>2</Unique_ID>
   <Locations_Found>
-    <string>Hallowed Marsh:Dead Roots</string>
+    <string>Enmerkar Forest:Enmerkar Forest</string>
   </Locations_Found>
   <Max_Health>775</Max_Health>
   <Health_Regen_Per_Second>1.5</Health_Regen_Per_Second>
   <Impact_Resistance>50</Impact_Resistance>
   <Protection>
-    <float>0</float>
-    <float>0</float>
-    <float>0</float>
     <float>0</float>
     <float>0</float>
     <float>0</float>
@@ -27,14 +24,8 @@
     <float>-50</float>
     <float>0</float>
     <float>0</float>
-    <float>0</float>
-    <float>0</float>
-    <float>0</float>
   </Damage_Resistances>
   <Damage_Bonuses>
-    <float>0</float>
-    <float>0</float>
-    <float>0</float>
     <float>0</float>
     <float>0</float>
     <float>0</float>
@@ -59,18 +50,11 @@
     <string>- (2400250)</string>
   </Starting_Equipment>
   <Skill_Knowledge>
-    <string>ImmaculateDoubleAttack</string>
+    <string>ImmaculateDoubleAttack (8300250)</string>
   </Skill_Knowledge>
   <Faction>Hounds</Faction>
   <Allied_To_Same_Faction>true</Allied_To_Same_Faction>
-  <Guaranteed_Drops>
-    <DropTableEntry>
-      <Item_Name>Dead Roots Key</Item_Name>
-      <Item_ID>5600026</Item_ID>
-      <Min_Quantity>0</Min_Quantity>
-      <Max_Quantity>0</Max_Quantity>
-    </DropTableEntry>
-  </Guaranteed_Drops>
+  <Guaranteed_Drops />
   <DropTable_Names>
     <string>DropTable_ImmaculateHorror</string>
   </DropTable_Names>

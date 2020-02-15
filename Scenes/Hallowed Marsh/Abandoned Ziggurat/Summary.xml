@@ -15,18 +15,5 @@
     </QuantityHolder>
   </Loot_Containers>
   <Gatherables />
-  <Item_Spawns>
-    <ItemSpawnHolder>
-      <Name>Fang Trident</Name>
-      <Item_ID>2130020</Item_ID>
-      <Quantity>1</Quantity>
-      <positions>
-        <Vector3>
-          <x>1.00365853</x>
-          <y>0.206850991</y>
-          <z>0.5798645</z>
-        </Vector3>
-      </positions>
-    </ItemSpawnHolder>
-  </Item_Spawns>
+  <Item_Spawns />
 </SceneSummary>

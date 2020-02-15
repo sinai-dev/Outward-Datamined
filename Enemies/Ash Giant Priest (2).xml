@@ -16,9 +16,6 @@
     <float>0</float>
     <float>0</float>
     <float>0</float>
-    <float>0</float>
-    <float>0</float>
-    <float>0</float>
   </Protection>
   <Damage_Resistances>
     <float>10</float>
@@ -27,14 +24,8 @@
     <float>0</float>
     <float>-40</float>
     <float>0</float>
-    <float>0</float>
-    <float>0</float>
-    <float>0</float>
   </Damage_Resistances>
   <Damage_Bonuses>
-    <float>0</float>
-    <float>0</float>
-    <float>0</float>
     <float>0</float>
     <float>0</float>
     <float>0</float>
@@ -59,9 +50,9 @@
     <string>- (2400121)</string>
   </Starting_Equipment>
   <Skill_Knowledge>
-    <string>AshGiantAsh</string>
-    <string>AshGiantCircle</string>
-    <string>threaten</string>
+    <string>AshGiantAsh (8300200)</string>
+    <string>AshGiantCircle (8300202)</string>
+    <string>threaten (8300201)</string>
   </Skill_Knowledge>
   <Faction>Merchants</Faction>
   <Allied_To_Same_Faction>true</Allied_To_Same_Faction>

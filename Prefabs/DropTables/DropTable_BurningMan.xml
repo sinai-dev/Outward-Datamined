@@ -21,7 +21,7 @@
           <Item_ID>6600110</Item_ID>
           <Min_Quantity>1</Min_Quantity>
           <Max_Quantity>1</Max_Quantity>
-          <Drop_Chance>23.5294113</Drop_Chance>
+          <Drop_Chance>23.53</Drop_Chance>
           <Dice_Range>19</Dice_Range>
         </DropTableChanceEntry>
         <DropTableChanceEntry>
@@ -29,7 +29,7 @@
           <Item_ID>6600200</Item_ID>
           <Min_Quantity>1</Min_Quantity>
           <Max_Quantity>1</Max_Quantity>
-          <Drop_Chance>23.5294113</Drop_Chance>
+          <Drop_Chance>23.53</Drop_Chance>
           <Dice_Range>19</Dice_Range>
         </DropTableChanceEntry>
         <DropTableChanceEntry>
@@ -37,7 +37,7 @@
           <Item_ID>6500010</Item_ID>
           <Min_Quantity>1</Min_Quantity>
           <Max_Quantity>1</Max_Quantity>
-          <Drop_Chance>23.5294113</Drop_Chance>
+          <Drop_Chance>23.53</Drop_Chance>
           <Dice_Range>19</Dice_Range>
         </DropTableChanceEntry>
         <DropTableChanceEntry>
@@ -45,7 +45,7 @@
           <Item_ID>6000040</Item_ID>
           <Min_Quantity>1</Min_Quantity>
           <Max_Quantity>1</Max_Quantity>
-          <Drop_Chance>11.7647057</Drop_Chance>
+          <Drop_Chance>11.76</Drop_Chance>
           <Dice_Range>9</Dice_Range>
         </DropTableChanceEntry>
       </Item_Drops>
@@ -61,7 +61,7 @@
           <Item_ID>4400040</Item_ID>
           <Min_Quantity>1</Min_Quantity>
           <Max_Quantity>1</Max_Quantity>
-          <Drop_Chance>33.3333359</Drop_Chance>
+          <Drop_Chance>33.33</Drop_Chance>
           <Dice_Range>29</Dice_Range>
         </DropTableChanceEntry>
         <DropTableChanceEntry>
@@ -69,7 +69,7 @@
           <Item_ID>4100440</Item_ID>
           <Min_Quantity>1</Min_Quantity>
           <Max_Quantity>1</Max_Quantity>
-          <Drop_Chance>11.1111116</Drop_Chance>
+          <Drop_Chance>11.11</Drop_Chance>
           <Dice_Range>9</Dice_Range>
         </DropTableChanceEntry>
       </Item_Drops>

@@ -375,7 +375,6 @@
 5300000	Adventurer Backpack
 2140050	Mushroom Halberd
 5300050	Glowstone Backpack
-2130020	Fang Trident
 2300171	Fabulous Palladium Shield
 3000021	Adventurer's Helm
 3000022	Adventurer Boots

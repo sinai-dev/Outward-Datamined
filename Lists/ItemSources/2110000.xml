@@ -98,7 +98,6 @@
     <string>Ornate Chest (Enmerkar Forest:Vigil Pylon)</string>
   </Container_Sources>
   <Spawn_Sources>
-    <string>Hallowed Marsh:Hollowed Lotus</string>
     <string>Abrassar:Corsair's Headquarters</string>
     <string>Enmerkar Forest:Damp Hunter's Cabin</string>
   </Spawn_Sources>

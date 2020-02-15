@@ -18,40 +18,31 @@
     <float>0</float>
     <float>0</float>
     <float>0</float>
-    <float>0</float>
-    <float>0</float>
-    <float>0</float>
   </Protection>
   <Damage_Resistances>
-    <float>0.459999979</float>
-    <float>0.399999976</float>
-    <float>0.45</float>
-    <float>0.399999976</float>
-    <float>0.399999976</float>
-    <float>0.399999976</float>
-    <float>0</float>
-    <float>0</float>
-    <float>0</float>
+    <float>46</float>
+    <float>40</float>
+    <float>45</float>
+    <float>40</float>
+    <float>40</float>
+    <float>40</float>
   </Damage_Resistances>
   <Damage_Bonuses>
-    <float>1.3</float>
-    <float>1.3</float>
-    <float>1.3</float>
-    <float>1.3</float>
-    <float>1.3</float>
-    <float>1.3</float>
-    <float>1</float>
-    <float>1</float>
-    <float>1</float>
+    <float>30</float>
+    <float>30</float>
+    <float>30</float>
+    <float>30</float>
+    <float>30</float>
+    <float>30</float>
   </Damage_Bonuses>
   <Collider_Radius>0.4</Collider_Radius>
   <True_WeaponDamage>
     <Damages>
-      <Damage>12.675</Damage>
+      <Damage>12.68</Damage>
       <Damage_Type>Physical</Damage_Type>
     </Damages>
     <Damages>
-      <Damage>38.025</Damage>
+      <Damage>38.03</Damage>
       <Damage_Type>Decay</Damage_Type>
     </Damages>
   </True_WeaponDamage>
@@ -65,7 +56,7 @@
     <string>Stat Booster 2 (5400010)</string>
   </Starting_Equipment>
   <Skill_Knowledge>
-    <string>Push Kick</string>
+    <string>Push Kick (8100120)</string>
   </Skill_Knowledge>
   <Faction>Bandits</Faction>
   <Allied_To_Same_Faction>true</Allied_To_Same_Faction>

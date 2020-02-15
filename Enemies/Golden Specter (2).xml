@@ -18,31 +18,22 @@
     <float>0</float>
     <float>0</float>
     <float>0</float>
-    <float>0</float>
-    <float>0</float>
-    <float>0</float>
   </Protection>
   <Damage_Resistances>
-    <float>0.299999982</float>
-    <float>-0.399999976</float>
-    <float>-0.399999976</float>
-    <float>0.399999976</float>
-    <float>0</float>
-    <float>0</float>
-    <float>0</float>
+    <float>30</float>
+    <float>-40</float>
+    <float>-40</float>
+    <float>40</float>
     <float>0</float>
     <float>0</float>
   </Damage_Resistances>
   <Damage_Bonuses>
-    <float>1</float>
-    <float>1</float>
-    <float>1</float>
-    <float>1</float>
-    <float>1</float>
-    <float>1</float>
-    <float>1</float>
-    <float>1</float>
-    <float>1</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
   </Damage_Bonuses>
   <Collider_Radius>0.8</Collider_Radius>
   <True_WeaponDamage>
@@ -60,8 +51,8 @@
     <string>- (2400170)</string>
   </Starting_Equipment>
   <Skill_Knowledge>
-    <string>SpecterCannonShot</string>
-    <string>ShrimpExplosion</string>
+    <string>SpecterCannonShot (8300091)</string>
+    <string>ShrimpExplosion (8300090)</string>
   </Skill_Knowledge>
   <Faction>Golden</Faction>
   <Allied_To_Same_Faction>true</Allied_To_Same_Faction>

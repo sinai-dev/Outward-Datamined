@@ -16,9 +16,6 @@
     <float>0</float>
     <float>0</float>
     <float>0</float>
-    <float>0</float>
-    <float>0</float>
-    <float>0</float>
   </Protection>
   <Damage_Resistances>
     <float>20</float>
@@ -27,15 +24,9 @@
     <float>-50</float>
     <float>0</float>
     <float>0</float>
-    <float>0</float>
-    <float>0</float>
-    <float>0</float>
   </Damage_Resistances>
   <Damage_Bonuses>
     <float>20</float>
-    <float>0</float>
-    <float>0</float>
-    <float>0</float>
     <float>0</float>
     <float>0</float>
     <float>0</float>
@@ -59,7 +50,7 @@
     <string>- (2400250)</string>
   </Starting_Equipment>
   <Skill_Knowledge>
-    <string>ImmaculateDoubleAttack</string>
+    <string>ImmaculateDoubleAttack (8300250)</string>
   </Skill_Knowledge>
   <Faction>Hounds</Faction>
   <Allied_To_Same_Faction>true</Allied_To_Same_Faction>

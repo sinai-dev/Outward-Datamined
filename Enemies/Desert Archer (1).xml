@@ -20,9 +20,6 @@
     <float>0</float>
     <float>0</float>
     <float>0</float>
-    <float>0</float>
-    <float>0</float>
-    <float>0</float>
   </Protection>
   <Damage_Resistances>
     <float>26</float>
@@ -31,9 +28,6 @@
     <float>20</float>
     <float>20</float>
     <float>20</float>
-    <float>0</float>
-    <float>0</float>
-    <float>0</float>
   </Damage_Resistances>
   <Damage_Bonuses>
     <float>85</float>
@@ -42,9 +36,6 @@
     <float>15</float>
     <float>15</float>
     <float>15</float>
-    <float>0</float>
-    <float>0</float>
-    <float>0</float>
   </Damage_Bonuses>
   <Collider_Radius>0.4</Collider_Radius>
   <True_WeaponDamage>
@@ -68,8 +59,8 @@
   <Allied_To_Same_Faction>true</Allied_To_Same_Faction>
   <Guaranteed_Drops>
     <DropTableEntry>
-      <Item_Name>Recurve Bow</Item_Name>
-      <Item_ID>2200010</Item_ID>
+      <Item_Name>Iron Sword</Item_Name>
+      <Item_ID>2000010</Item_ID>
       <Min_Quantity>1</Min_Quantity>
       <Max_Quantity>1</Max_Quantity>
     </DropTableEntry>
@@ -82,12 +73,6 @@
     <DropTableEntry>
       <Item_Name>Arrow</Item_Name>
       <Item_ID>5200001</Item_ID>
-      <Min_Quantity>1</Min_Quantity>
-      <Max_Quantity>1</Max_Quantity>
-    </DropTableEntry>
-    <DropTableEntry>
-      <Item_Name>Iron Sword</Item_Name>
-      <Item_ID>2000010</Item_ID>
       <Min_Quantity>1</Min_Quantity>
       <Max_Quantity>1</Max_Quantity>
     </DropTableEntry>

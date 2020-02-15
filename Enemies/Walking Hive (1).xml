@@ -21,9 +21,6 @@
     <float>0</float>
     <float>0</float>
     <float>0</float>
-    <float>0</float>
-    <float>0</float>
-    <float>0</float>
   </Protection>
   <Damage_Resistances>
     <float>0</float>
@@ -32,14 +29,8 @@
     <float>0</float>
     <float>0</float>
     <float>-40</float>
-    <float>0</float>
-    <float>0</float>
-    <float>0</float>
   </Damage_Resistances>
   <Damage_Bonuses>
-    <float>0</float>
-    <float>0</float>
-    <float>0</float>
     <float>0</float>
     <float>0</float>
     <float>0</float>
@@ -66,9 +57,9 @@
     <string>- (2400160)</string>
   </Starting_Equipment>
   <Skill_Knowledge>
-    <string>Send Hornets</string>
-    <string>Hornet Burst</string>
-    <string>Hornet Burst</string>
+    <string>Send Hornets (8300080)</string>
+    <string>Hornet Burst (8300081)</string>
+    <string>Hornet Burst (8300082)</string>
   </Skill_Knowledge>
   <Faction>Mercs</Faction>
   <Allied_To_Same_Faction>true</Allied_To_Same_Faction>
