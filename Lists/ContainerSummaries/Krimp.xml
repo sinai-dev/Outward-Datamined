@@ -3,26 +3,46 @@
   <Name>Krimp</Name>
   <ItemID>0</ItemID>
   <Locations_Found>
-    <string>Abrassar:Abrassar</string>
-    <string>Abrassar:Abrassar</string>
-    <string>Abrassar:Ancient Hive</string>
-    <string>Abrassar:Levant</string>
-    <string>Abrassar:Stone Titan Caves</string>
-    <string>Abrassar:Stone Titan Caves</string>
-    <string>Abrassar:The Slide</string>
-    <string>Abrassar:The Slide</string>
-    <string>Abrassar:Undercity Passage</string>
-    <string>Abrassar:Undercity Passage</string>
-    <string>Hallowed Marsh:Dead Roots</string>
-    <string>Hallowed Marsh:Dead Roots</string>
-    <string>Hallowed Marsh:Jade Quarry</string>
-    <string>Hallowed Marsh:Jade Quarry</string>
-    <string>Hallowed Marsh:Jade Quarry</string>
-    <string>Hallowed Marsh:Monsoon</string>
-    <string>Hallowed Marsh:Monsoon</string>
-    <string>Hallowed Marsh:Reptilian Lair</string>
-    <string>Hallowed Marsh:Reptilian Lair</string>
-    <string>Hallowed Marsh:Reptilian Lair</string>
+    <QuantityHolder>
+      <Name>Hallowed Marsh:Monsoon</Name>
+      <Quantity>2</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Hallowed Marsh:Jade Quarry</Name>
+      <Quantity>3</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Hallowed Marsh:Reptilian Lair</Name>
+      <Quantity>3</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Hallowed Marsh:Dead Roots</Name>
+      <Quantity>2</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Abrassar:Levant</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Abrassar:Abrassar</Name>
+      <Quantity>2</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Abrassar:Undercity Passage</Name>
+      <Quantity>2</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Abrassar:The Slide</Name>
+      <Quantity>2</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Abrassar:Stone Titan Caves</Name>
+      <Quantity>2</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Abrassar:Ancient Hive</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
   </Locations_Found>
   <All_DropTables>
     <string>DropTable_Krimpnut</string>

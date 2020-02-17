@@ -42,4 +42,8 @@
       </positions>
     </ItemSpawnHolder>
   </Item_Spawns>
+  <UniqueContainerList>
+    <string>Trog Chest_8h0DWp4jsk-SZCtBRksi7Q</string>
+    <string>Corpse_3pDsK0LLdkWMRBiKDx48zQ</string>
+  </UniqueContainerList>
 </SceneSummary>

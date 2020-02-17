@@ -3,28 +3,34 @@
   <Name>Looter’s Corpse</Name>
   <ItemID>0</ItemID>
   <Locations_Found>
-    <string>Abrassar:Ancient Hive</string>
-    <string>Abrassar:Ancient Hive</string>
-    <string>Chersonese:Blister Burrow</string>
-    <string>Chersonese:Blister Burrow</string>
-    <string>Chersonese:Corrupted Tombs</string>
-    <string>Chersonese:Corrupted Tombs</string>
-    <string>Chersonese:Corrupted Tombs</string>
-    <string>Chersonese:Corrupted Tombs</string>
-    <string>Chersonese:Corrupted Tombs</string>
-    <string>Chersonese:Corrupted Tombs</string>
-    <string>Chersonese:Vendavel Fortress</string>
-    <string>Chersonese:Vendavel Fortress</string>
-    <string>Chersonese:Vendavel Fortress</string>
-    <string>Chersonese:Vendavel Fortress</string>
-    <string>Chersonese:Voltaic Hatchery</string>
-    <string>Chersonese:Voltaic Hatchery</string>
-    <string>Chersonese:Voltaic Hatchery</string>
-    <string>Chersonese:Voltaic Hatchery</string>
-    <string>Enmerkar Forest:Royal Manticore’s Lair</string>
-    <string>Enmerkar Forest:Royal Manticore’s Lair</string>
-    <string>Hallowed Marsh:Hallowed Marsh</string>
-    <string>Hallowed Marsh:Hallowed Marsh</string>
+    <QuantityHolder>
+      <Name>Chersonese:Vendavel Fortress</Name>
+      <Quantity>4</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Chersonese:Blister Burrow</Name>
+      <Quantity>2</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Chersonese:Voltaic Hatchery</Name>
+      <Quantity>4</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Chersonese:Corrupted Tombs</Name>
+      <Quantity>6</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Hallowed Marsh:Hallowed Marsh</Name>
+      <Quantity>2</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Abrassar:Ancient Hive</Name>
+      <Quantity>2</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Enmerkar Forest:Royal Manticore’s Lair</Name>
+      <Quantity>2</Quantity>
+    </QuantityHolder>
   </Locations_Found>
   <All_DropTables>
     <string>DropTable_Neutral_Cloth_Poor_1</string>

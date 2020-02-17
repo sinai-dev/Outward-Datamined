@@ -106,4 +106,16 @@
       </positions>
     </ItemSpawnHolder>
   </Item_Spawns>
+  <UniqueContainerList>
+    <string>Junk Pile_MfThI2XNN0qmEOJ5nvt3lQ</string>
+    <string>Chest_uCWdqJy_EEKskRor9CMahA</string>
+    <string>Junk Pile_ytq0oRTx80uJb8GKOAtQ5w</string>
+    <string>Junk Pile_cWlkdd3fsEeol0H-9KteTg</string>
+    <string>Junk Pile_DnWiKTY-7Uy2VYPziYxskw</string>
+    <string>Chest__3MICugAcEmJPs5nNbHldw</string>
+    <string>Worker’s Corpse_wN8YUQkuUkK8nIULzChDgg</string>
+    <string>Knight’s Corpse_CGqU2KEK3EqJr39JHkRTVw</string>
+    <string>Chest_VSbXxkO-vEmVKqcVof3yYA</string>
+    <string>Adventurer’s Corpse_v2ka2IxF_0miUdu2aLcJvQ</string>
+  </UniqueContainerList>
 </SceneSummary>

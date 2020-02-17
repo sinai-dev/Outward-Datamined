@@ -24,4 +24,7 @@
   </Loot_Containers>
   <Gatherables />
   <Item_Spawns />
+  <UniqueContainerList>
+    <string>Chest_bjfPDRGz60mQqH3fly3hQg</string>
+  </UniqueContainerList>
 </SceneSummary>

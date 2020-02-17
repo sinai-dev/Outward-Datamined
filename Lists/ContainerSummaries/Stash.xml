@@ -3,14 +3,22 @@
   <Name>Stash</Name>
   <ItemID>0</ItemID>
   <Locations_Found>
-    <string>Abrassar:Levant</string>
-    <string>Abrassar:Levant</string>
-    <string>Chersonese:Cierzo</string>
-    <string>Chersonese:Cierzo</string>
-    <string>Enmerkar Forest:Berg</string>
-    <string>Enmerkar Forest:Berg</string>
-    <string>Hallowed Marsh:Monsoon</string>
-    <string>Hallowed Marsh:Monsoon</string>
+    <QuantityHolder>
+      <Name>Chersonese:Cierzo</Name>
+      <Quantity>2</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Hallowed Marsh:Monsoon</Name>
+      <Quantity>2</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Abrassar:Levant</Name>
+      <Quantity>2</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Enmerkar Forest:Berg</Name>
+      <Quantity>2</Quantity>
+    </QuantityHolder>
   </Locations_Found>
   <All_DropTables>
     <string>DropTable_Neutral_Survival_Low_2</string>

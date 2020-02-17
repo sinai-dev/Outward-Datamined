@@ -3,26 +3,34 @@
   <Name>Soldier’s Corpse</Name>
   <ItemID>0</ItemID>
   <Locations_Found>
-    <string>Abrassar:Ancient Hive</string>
-    <string>Abrassar:Ancient Hive</string>
-    <string>Chersonese:Chersonese</string>
-    <string>Chersonese:Chersonese</string>
-    <string>Chersonese:Corrupted Tombs</string>
-    <string>Chersonese:Corrupted Tombs</string>
-    <string>Chersonese:Heroic Kingdom’s Conflux Path</string>
-    <string>Chersonese:Heroic Kingdom’s Conflux Path</string>
-    <string>Chersonese:Heroic Kingdom’s Conflux Path</string>
-    <string>Chersonese:Heroic Kingdom’s Conflux Path</string>
-    <string>Chersonese:Heroic Kingdom’s Conflux Path</string>
-    <string>Chersonese:Heroic Kingdom’s Conflux Path</string>
-    <string>Enmerkar Forest:Forest Hives</string>
-    <string>Enmerkar Forest:Forest Hives</string>
-    <string>Hallowed Marsh:Dead Roots</string>
-    <string>Hallowed Marsh:Dead Roots</string>
-    <string>Hallowed Marsh:Hallowed Marsh</string>
-    <string>Hallowed Marsh:Hallowed Marsh</string>
-    <string>Hallowed Marsh:Hallowed Marsh</string>
-    <string>Hallowed Marsh:Hallowed Marsh</string>
+    <QuantityHolder>
+      <Name>Chersonese:Chersonese</Name>
+      <Quantity>2</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Chersonese:Heroic Kingdom’s Conflux Path</Name>
+      <Quantity>6</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Chersonese:Corrupted Tombs</Name>
+      <Quantity>2</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Hallowed Marsh:Hallowed Marsh</Name>
+      <Quantity>4</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Hallowed Marsh:Dead Roots</Name>
+      <Quantity>2</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Abrassar:Ancient Hive</Name>
+      <Quantity>2</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Enmerkar Forest:Forest Hives</Name>
+      <Quantity>2</Quantity>
+    </QuantityHolder>
   </Locations_Found>
   <All_DropTables>
     <string>DropTable_Chersonese_Equipment_Low_1</string>

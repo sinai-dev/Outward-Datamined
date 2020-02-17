@@ -3,33 +3,14 @@
   <Name>Fishing Spot (DropTable_FishingSpotHallowedMarsh)</Name>
   <ItemID>0</ItemID>
   <Locations_Found>
-    <string>Hallowed Marsh:Hallowed Marsh</string>
-    <string>Hallowed Marsh:Hallowed Marsh</string>
-    <string>Hallowed Marsh:Hallowed Marsh</string>
-    <string>Hallowed Marsh:Hallowed Marsh</string>
-    <string>Hallowed Marsh:Hallowed Marsh</string>
-    <string>Hallowed Marsh:Hallowed Marsh</string>
-    <string>Hallowed Marsh:Hallowed Marsh</string>
-    <string>Hallowed Marsh:Hallowed Marsh</string>
-    <string>Hallowed Marsh:Hallowed Marsh</string>
-    <string>Hallowed Marsh:Hallowed Marsh</string>
-    <string>Hallowed Marsh:Hallowed Marsh</string>
-    <string>Hallowed Marsh:Hallowed Marsh</string>
-    <string>Hallowed Marsh:Hallowed Marsh</string>
-    <string>Hallowed Marsh:Hallowed Marsh</string>
-    <string>Hallowed Marsh:Hallowed Marsh</string>
-    <string>Hallowed Marsh:Hallowed Marsh</string>
-    <string>Hallowed Marsh:Hallowed Marsh</string>
-    <string>Hallowed Marsh:Hallowed Marsh</string>
-    <string>Hallowed Marsh:Hallowed Marsh</string>
-    <string>Hallowed Marsh:Hallowed Marsh</string>
-    <string>Hallowed Marsh:Hallowed Marsh</string>
-    <string>Hallowed Marsh:Hallowed Marsh</string>
-    <string>Hallowed Marsh:Hallowed Marsh</string>
-    <string>Hallowed Marsh:Jade Quarry</string>
-    <string>Hallowed Marsh:Jade Quarry</string>
-    <string>Hallowed Marsh:Jade Quarry</string>
-    <string>Hallowed Marsh:Jade Quarry</string>
+    <QuantityHolder>
+      <Name>Hallowed Marsh:Hallowed Marsh</Name>
+      <Quantity>23</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Hallowed Marsh:Jade Quarry</Name>
+      <Quantity>4</Quantity>
+    </QuantityHolder>
   </Locations_Found>
   <All_DropTables>
     <string>DropTable_FishingSpotHallowedMarsh</string>

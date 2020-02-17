@@ -70,4 +70,10 @@
       </positions>
     </ItemSpawnHolder>
   </Item_Spawns>
+  <UniqueContainerList>
+    <string>Soldier’s Corpse_3Cbfg6RXeEqQv9qEaDbZqg</string>
+    <string>Scavenger’s Corpse_CHibQoSEDE6N3rY0taXw2Q</string>
+    <string>Ornate Chest_Me1GxC7lZECsxlG9o7vqNg</string>
+    <string>Chest_13FaCiQMPkWnJj-vWcezfw</string>
+  </UniqueContainerList>
 </SceneSummary>

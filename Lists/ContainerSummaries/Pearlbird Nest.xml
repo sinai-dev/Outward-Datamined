@@ -3,24 +3,14 @@
   <Name>Pearlbird Nest</Name>
   <ItemID>0</ItemID>
   <Locations_Found>
-    <string>Chersonese:Chersonese</string>
-    <string>Chersonese:Chersonese</string>
-    <string>Chersonese:Chersonese</string>
-    <string>Chersonese:Chersonese</string>
-    <string>Chersonese:Chersonese</string>
-    <string>Chersonese:Chersonese</string>
-    <string>Chersonese:Chersonese</string>
-    <string>Chersonese:Chersonese</string>
-    <string>Chersonese:Chersonese</string>
-    <string>Chersonese:Chersonese</string>
-    <string>Chersonese:Chersonese</string>
-    <string>Chersonese:Chersonese</string>
-    <string>Chersonese:Chersonese</string>
-    <string>Chersonese:Chersonese</string>
-    <string>Chersonese:Chersonese</string>
-    <string>Chersonese:Chersonese</string>
-    <string>Chersonese:Chersonese</string>
-    <string>Hallowed Marsh:Giants’ Village</string>
+    <QuantityHolder>
+      <Name>Chersonese:Chersonese</Name>
+      <Quantity>17</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Hallowed Marsh:Giants’ Village</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
   </Locations_Found>
   <All_DropTables>
     <string>DropTable_PearlbirdNest</string>

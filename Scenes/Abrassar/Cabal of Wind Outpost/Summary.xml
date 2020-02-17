@@ -16,4 +16,7 @@
   </Loot_Containers>
   <Gatherables />
   <Item_Spawns />
+  <UniqueContainerList>
+    <string>Ornate Chest_HoBfa018jUWpBinsuP7zyw</string>
+  </UniqueContainerList>
 </SceneSummary>

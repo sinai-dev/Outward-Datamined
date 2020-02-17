@@ -110,4 +110,8 @@
       </positions>
     </ItemSpawnHolder>
   </Item_Spawns>
+  <UniqueContainerList>
+    <string>Junk Pile_hE_N2XwWu0WR4UChfmn6FQ</string>
+    <string>Legacy Chest_x3IKXVgO4UelahGzFRJDXw</string>
+  </UniqueContainerList>
 </SceneSummary>

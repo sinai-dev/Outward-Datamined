@@ -79,4 +79,8 @@
       </positions>
     </ItemSpawnHolder>
   </Item_Spawns>
+  <UniqueContainerList>
+    <string>Worker’s Corpse_9eptNEpyoESHkLbmmrExDw</string>
+    <string>Junk Pile_zBlKvFpejUWprFKK4-KH_g</string>
+  </UniqueContainerList>
 </SceneSummary>

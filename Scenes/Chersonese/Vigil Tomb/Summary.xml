@@ -20,4 +20,8 @@
   </Loot_Containers>
   <Gatherables />
   <Item_Spawns />
+  <UniqueContainerList>
+    <string>Chest_2MKfjYFDekyBNHVjU_wvFQ</string>
+    <string>Junk Pile_xy4xpZ9OuE-eonNoJPLibg</string>
+  </UniqueContainerList>
 </SceneSummary>

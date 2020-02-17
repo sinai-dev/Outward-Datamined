@@ -33,4 +33,7 @@
       </positions>
     </ItemSpawnHolder>
   </Item_Spawns>
+  <UniqueContainerList>
+    <string>Ornate Chest_tUqNFKY2Wk-BoDo0B8qVOw</string>
+  </UniqueContainerList>
 </SceneSummary>

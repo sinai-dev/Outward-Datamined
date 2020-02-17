@@ -3,13 +3,14 @@
   <Name>Ammolite</Name>
   <ItemID>0</ItemID>
   <Locations_Found>
-    <string>Abrassar:Abrassar</string>
-    <string>Abrassar:Abrassar</string>
-    <string>Abrassar:Abrassar</string>
-    <string>Chersonese:Chersonese</string>
-    <string>Chersonese:Chersonese</string>
-    <string>Chersonese:Chersonese</string>
-    <string>Chersonese:Chersonese</string>
+    <QuantityHolder>
+      <Name>Chersonese:Chersonese</Name>
+      <Quantity>4</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Abrassar:Abrassar</Name>
+      <Quantity>3</Quantity>
+    </QuantityHolder>
   </Locations_Found>
   <All_DropTables>
     <string>DropTable_AmmoliteOre</string>

@@ -86,4 +86,13 @@
       </positions>
     </ItemSpawnHolder>
   </Item_Spawns>
+  <UniqueContainerList>
+    <string>Chest_TCY-VpfIv0y0BZuqP7dL_Q</string>
+    <string>Chest_u1GTP9vSh06mBQkHcXm0gA</string>
+    <string>Junk Pile_E8A_uQPyskShPkHm7SAbmw</string>
+    <string>Junk Pile_IPuWp3a6jUCXYJXJUcV_xQ</string>
+    <string>Chest_Hed6pDtlv0Wns-vjGr43Zg</string>
+    <string>Junk Pile_xDep4haS4EGb9gcyNkzExw</string>
+    <string>Junk Pile_7zyMcL_SCU2RkpNqsG2rzg</string>
+  </UniqueContainerList>
 </SceneSummary>

@@ -3,32 +3,22 @@
   <Name>Turmmip</Name>
   <ItemID>0</ItemID>
   <Locations_Found>
-    <string>Chersonese:Blue Chamber’s Conflux Path</string>
-    <string>Chersonese:Chersonese</string>
-    <string>Chersonese:Chersonese</string>
-    <string>Chersonese:Chersonese</string>
-    <string>Chersonese:Chersonese</string>
-    <string>Chersonese:Chersonese</string>
-    <string>Chersonese:Chersonese</string>
-    <string>Chersonese:Chersonese</string>
-    <string>Chersonese:Chersonese</string>
-    <string>Chersonese:Chersonese</string>
-    <string>Chersonese:Chersonese</string>
-    <string>Chersonese:Chersonese</string>
-    <string>Chersonese:Chersonese</string>
-    <string>Chersonese:Chersonese</string>
-    <string>Chersonese:Chersonese</string>
-    <string>Chersonese:Chersonese</string>
-    <string>Chersonese:Chersonese</string>
-    <string>Chersonese:Chersonese</string>
-    <string>Chersonese:Chersonese</string>
-    <string>Chersonese:Chersonese</string>
-    <string>Chersonese:Chersonese</string>
-    <string>Chersonese:Chersonese</string>
-    <string>Chersonese:Chersonese</string>
-    <string>Chersonese:Chersonese</string>
-    <string>Chersonese:Conflux Chambers</string>
-    <string>Chersonese:Holy Mission’s Conflux Path</string>
+    <QuantityHolder>
+      <Name>Chersonese:Chersonese</Name>
+      <Quantity>23</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Chersonese:Blue Chamber’s Conflux Path</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Chersonese:Holy Mission’s Conflux Path</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Chersonese:Conflux Chambers</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
   </Locations_Found>
   <All_DropTables>
     <string>DropTable_Turmmip</string>

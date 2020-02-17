@@ -3,42 +3,10 @@
   <Name>Fishing Spot (DropTable_FishingSpotChersoneseRiver)</Name>
   <ItemID>0</ItemID>
   <Locations_Found>
-    <string>Chersonese:Chersonese</string>
-    <string>Chersonese:Chersonese</string>
-    <string>Chersonese:Chersonese</string>
-    <string>Chersonese:Chersonese</string>
-    <string>Chersonese:Chersonese</string>
-    <string>Chersonese:Chersonese</string>
-    <string>Chersonese:Chersonese</string>
-    <string>Chersonese:Chersonese</string>
-    <string>Chersonese:Chersonese</string>
-    <string>Chersonese:Chersonese</string>
-    <string>Chersonese:Chersonese</string>
-    <string>Chersonese:Chersonese</string>
-    <string>Chersonese:Chersonese</string>
-    <string>Chersonese:Chersonese</string>
-    <string>Chersonese:Chersonese</string>
-    <string>Chersonese:Chersonese</string>
-    <string>Chersonese:Chersonese</string>
-    <string>Chersonese:Chersonese</string>
-    <string>Chersonese:Chersonese</string>
-    <string>Chersonese:Chersonese</string>
-    <string>Chersonese:Chersonese</string>
-    <string>Chersonese:Chersonese</string>
-    <string>Chersonese:Chersonese</string>
-    <string>Chersonese:Chersonese</string>
-    <string>Chersonese:Chersonese</string>
-    <string>Chersonese:Chersonese</string>
-    <string>Chersonese:Chersonese</string>
-    <string>Chersonese:Chersonese</string>
-    <string>Chersonese:Chersonese</string>
-    <string>Chersonese:Chersonese</string>
-    <string>Chersonese:Chersonese</string>
-    <string>Chersonese:Chersonese</string>
-    <string>Chersonese:Chersonese</string>
-    <string>Chersonese:Chersonese</string>
-    <string>Chersonese:Chersonese</string>
-    <string>Chersonese:Chersonese</string>
+    <QuantityHolder>
+      <Name>Chersonese:Chersonese</Name>
+      <Quantity>36</Quantity>
+    </QuantityHolder>
   </Locations_Found>
   <All_DropTables>
     <string>DropTable_FishingSpotChersoneseRiver</string>

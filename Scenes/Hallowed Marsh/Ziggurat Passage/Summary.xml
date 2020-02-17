@@ -85,4 +85,15 @@
     </QuantityHolder>
   </Gatherables>
   <Item_Spawns />
+  <UniqueContainerList>
+    <string>Chest_sYqPvpbhOECVHuKdvxGn-g</string>
+    <string>Ornate Chest_YMQFkIIqOkOipzYSN9yRjg</string>
+    <string>Adventurer’s Corpse_oaosXAYd6E-0U4mokCszDA</string>
+    <string>Worker’s Corpse_b2wXt-yZ5kOcsZOElTvDnw</string>
+    <string>Junk Pile_H-peGczQPUWCmI6m5SCNBw</string>
+    <string>Junk Pile_1VuwaR_j-EO1-AHEcfEvxA</string>
+    <string>Knight’s Corpse_rUsTcsohzUKSV1BO8W26VA</string>
+    <string>Chest__w07YuJs7EafJXl371gt0w</string>
+    <string>Chest_Bn4GLRnGW0aim-Rr4MGxXg</string>
+  </UniqueContainerList>
 </SceneSummary>

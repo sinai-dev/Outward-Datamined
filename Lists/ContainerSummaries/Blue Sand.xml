@@ -3,16 +3,18 @@
   <Name>Blue Sand</Name>
   <ItemID>0</ItemID>
   <Locations_Found>
-    <string>Chersonese:Chersonese</string>
-    <string>Chersonese:Chersonese</string>
-    <string>Chersonese:Chersonese</string>
-    <string>Chersonese:Chersonese</string>
-    <string>Chersonese:Chersonese</string>
-    <string>Chersonese:Starfish Cave</string>
-    <string>Chersonese:Starfish Cave</string>
-    <string>Chersonese:Starfish Cave</string>
-    <string>Chersonese:Voltaic Hatchery</string>
-    <string>Chersonese:Voltaic Hatchery</string>
+    <QuantityHolder>
+      <Name>Chersonese:Chersonese</Name>
+      <Quantity>5</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Chersonese:Voltaic Hatchery</Name>
+      <Quantity>2</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Chersonese:Starfish Cave</Name>
+      <Quantity>3</Quantity>
+    </QuantityHolder>
   </Locations_Found>
   <All_DropTables>
     <string>DropTable_BlueSand</string>

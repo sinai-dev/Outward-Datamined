@@ -3,14 +3,22 @@
   <Name>Scavenger’s Corpse</Name>
   <ItemID>0</ItemID>
   <Locations_Found>
-    <string>Abrassar:The Slide</string>
-    <string>Abrassar:The Slide</string>
-    <string>Chersonese:Blue Chamber’s Conflux Path</string>
-    <string>Chersonese:Blue Chamber’s Conflux Path</string>
-    <string>Enmerkar Forest:Forest Hives</string>
-    <string>Enmerkar Forest:Forest Hives</string>
-    <string>Enmerkar Forest:Royal Manticore’s Lair</string>
-    <string>Enmerkar Forest:Royal Manticore’s Lair</string>
+    <QuantityHolder>
+      <Name>Chersonese:Blue Chamber’s Conflux Path</Name>
+      <Quantity>2</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Abrassar:The Slide</Name>
+      <Quantity>2</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Enmerkar Forest:Royal Manticore’s Lair</Name>
+      <Quantity>2</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Enmerkar Forest:Forest Hives</Name>
+      <Quantity>2</Quantity>
+    </QuantityHolder>
   </Locations_Found>
   <All_DropTables>
     <string>DropTable_Neutral_Survival_Low_2</string>

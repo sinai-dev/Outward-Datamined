@@ -3,34 +3,54 @@
   <Name>Adventurer’s Corpse</Name>
   <ItemID>0</ItemID>
   <Locations_Found>
-    <string>Abrassar:Ancient Hive</string>
-    <string>Abrassar:Ancient Hive</string>
-    <string>Abrassar:Sand Rose Cave</string>
-    <string>Abrassar:Sand Rose Cave</string>
-    <string>Abrassar:Stone Titan Caves</string>
-    <string>Abrassar:Stone Titan Caves</string>
-    <string>Abrassar:The Slide</string>
-    <string>Abrassar:The Slide</string>
-    <string>Chersonese:Blister Burrow</string>
-    <string>Chersonese:Blister Burrow</string>
-    <string>Chersonese:Chersonese</string>
-    <string>Chersonese:Chersonese</string>
-    <string>Chersonese:Chersonese</string>
-    <string>Chersonese:Chersonese</string>
-    <string>Chersonese:Conflux Chambers</string>
-    <string>Chersonese:Conflux Chambers</string>
-    <string>Chersonese:Pirates' Hideout</string>
-    <string>Chersonese:Pirates' Hideout</string>
-    <string>Enmerkar Forest:Dolmen Crypt</string>
-    <string>Enmerkar Forest:Dolmen Crypt</string>
-    <string>Hallowed Marsh:Hallowed Marsh</string>
-    <string>Hallowed Marsh:Hallowed Marsh</string>
-    <string>Hallowed Marsh:Hallowed Marsh</string>
-    <string>Hallowed Marsh:Hallowed Marsh</string>
-    <string>Hallowed Marsh:Reptilian Lair</string>
-    <string>Hallowed Marsh:Reptilian Lair</string>
-    <string>Hallowed Marsh:Ziggurat Passage</string>
-    <string>Hallowed Marsh:Ziggurat Passage</string>
+    <QuantityHolder>
+      <Name>Chersonese:Chersonese</Name>
+      <Quantity>4</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Chersonese:Blister Burrow</Name>
+      <Quantity>2</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Chersonese:Conflux Chambers</Name>
+      <Quantity>2</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Chersonese:Pirates' Hideout</Name>
+      <Quantity>2</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Hallowed Marsh:Hallowed Marsh</Name>
+      <Quantity>4</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Hallowed Marsh:Reptilian Lair</Name>
+      <Quantity>2</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Hallowed Marsh:Ziggurat Passage</Name>
+      <Quantity>2</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Abrassar:The Slide</Name>
+      <Quantity>2</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Abrassar:Stone Titan Caves</Name>
+      <Quantity>2</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Abrassar:Ancient Hive</Name>
+      <Quantity>2</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Abrassar:Sand Rose Cave</Name>
+      <Quantity>2</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Enmerkar Forest:Dolmen Crypt</Name>
+      <Quantity>2</Quantity>
+    </QuantityHolder>
   </Locations_Found>
   <All_DropTables>
     <string>DropTable_Chersonese_Equipment_Low_1</string>

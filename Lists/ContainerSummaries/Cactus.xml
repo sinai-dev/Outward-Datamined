@@ -3,72 +3,10 @@
   <Name>Cactus</Name>
   <ItemID>0</ItemID>
   <Locations_Found>
-    <string>Abrassar:Abrassar</string>
-    <string>Abrassar:Abrassar</string>
-    <string>Abrassar:Abrassar</string>
-    <string>Abrassar:Abrassar</string>
-    <string>Abrassar:Abrassar</string>
-    <string>Abrassar:Abrassar</string>
-    <string>Abrassar:Abrassar</string>
-    <string>Abrassar:Abrassar</string>
-    <string>Abrassar:Abrassar</string>
-    <string>Abrassar:Abrassar</string>
-    <string>Abrassar:Abrassar</string>
-    <string>Abrassar:Abrassar</string>
-    <string>Abrassar:Abrassar</string>
-    <string>Abrassar:Abrassar</string>
-    <string>Abrassar:Abrassar</string>
-    <string>Abrassar:Abrassar</string>
-    <string>Abrassar:Abrassar</string>
-    <string>Abrassar:Abrassar</string>
-    <string>Abrassar:Abrassar</string>
-    <string>Abrassar:Abrassar</string>
-    <string>Abrassar:Abrassar</string>
-    <string>Abrassar:Abrassar</string>
-    <string>Abrassar:Abrassar</string>
-    <string>Abrassar:Abrassar</string>
-    <string>Abrassar:Abrassar</string>
-    <string>Abrassar:Abrassar</string>
-    <string>Abrassar:Abrassar</string>
-    <string>Abrassar:Abrassar</string>
-    <string>Abrassar:Abrassar</string>
-    <string>Abrassar:Abrassar</string>
-    <string>Abrassar:Abrassar</string>
-    <string>Abrassar:Abrassar</string>
-    <string>Abrassar:Abrassar</string>
-    <string>Abrassar:Abrassar</string>
-    <string>Abrassar:Abrassar</string>
-    <string>Abrassar:Abrassar</string>
-    <string>Abrassar:Abrassar</string>
-    <string>Abrassar:Abrassar</string>
-    <string>Abrassar:Abrassar</string>
-    <string>Abrassar:Abrassar</string>
-    <string>Abrassar:Abrassar</string>
-    <string>Abrassar:Abrassar</string>
-    <string>Abrassar:Abrassar</string>
-    <string>Abrassar:Abrassar</string>
-    <string>Abrassar:Abrassar</string>
-    <string>Abrassar:Abrassar</string>
-    <string>Abrassar:Abrassar</string>
-    <string>Abrassar:Abrassar</string>
-    <string>Abrassar:Abrassar</string>
-    <string>Abrassar:Abrassar</string>
-    <string>Abrassar:Abrassar</string>
-    <string>Abrassar:Abrassar</string>
-    <string>Abrassar:Abrassar</string>
-    <string>Abrassar:Abrassar</string>
-    <string>Abrassar:Abrassar</string>
-    <string>Abrassar:Abrassar</string>
-    <string>Abrassar:Abrassar</string>
-    <string>Abrassar:Abrassar</string>
-    <string>Abrassar:Abrassar</string>
-    <string>Abrassar:Abrassar</string>
-    <string>Abrassar:Abrassar</string>
-    <string>Abrassar:Abrassar</string>
-    <string>Abrassar:Abrassar</string>
-    <string>Abrassar:Abrassar</string>
-    <string>Abrassar:Abrassar</string>
-    <string>Abrassar:Abrassar</string>
+    <QuantityHolder>
+      <Name>Abrassar:Abrassar</Name>
+      <Quantity>66</Quantity>
+    </QuantityHolder>
   </Locations_Found>
   <All_DropTables>
     <string>DropTable_CactusFruit</string>

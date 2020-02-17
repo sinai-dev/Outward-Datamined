@@ -77,4 +77,14 @@
     </QuantityHolder>
   </Gatherables>
   <Item_Spawns />
+  <UniqueContainerList>
+    <string>Chest_0RaJ5a4Ktke2Fwcg7zv61w</string>
+    <string>Chest_T0hJz-WB60aYtpk4c540bA</string>
+    <string>Chest_5iAa36_ZOkauikdD0NlwRg</string>
+    <string>Ornate Chest_G31mYX9O-EGnyJ764-_Yzg</string>
+    <string>Junk Pile_zGzkyqZPikCJZcBwDo496g</string>
+    <string>Junk Pile_0CdVIS6dDUCmSyCp0NBoJw</string>
+    <string>Chest_mQ2SAHR2ZEWDjKAWbg9i8g</string>
+    <string>Ornate Chest_blhKpgNnJkGl1kdblDtPMQ</string>
+  </UniqueContainerList>
 </SceneSummary>

@@ -3,104 +3,126 @@
   <Name>Ornate Chest</Name>
   <ItemID>0</ItemID>
   <Locations_Found>
-    <string>Abrassar:Abrassar</string>
-    <string>Abrassar:Abrassar</string>
-    <string>Abrassar:Abrassar</string>
-    <string>Abrassar:Abrassar</string>
-    <string>Abrassar:Abrassar</string>
-    <string>Abrassar:Abrassar</string>
-    <string>Abrassar:Abrassar</string>
-    <string>Abrassar:Abrassar</string>
-    <string>Abrassar:Abrassar</string>
-    <string>Abrassar:Abrassar</string>
-    <string>Abrassar:Abrassar</string>
-    <string>Abrassar:Abrassar</string>
-    <string>Abrassar:Abrassar</string>
-    <string>Abrassar:Abrassar</string>
-    <string>Abrassar:Abrassar</string>
-    <string>Abrassar:Abrassar</string>
-    <string>Abrassar:Ancient Hive</string>
-    <string>Abrassar:Ancient Hive</string>
-    <string>Abrassar:Cabal of Wind Outpost</string>
-    <string>Abrassar:Cabal of Wind Outpost</string>
-    <string>Abrassar:Sand Rose Cave</string>
-    <string>Abrassar:Sand Rose Cave</string>
-    <string>Abrassar:The Slide</string>
-    <string>Abrassar:The Slide</string>
-    <string>Abrassar:Undercity Passage</string>
-    <string>Abrassar:Undercity Passage</string>
-    <string>Abrassar:Undercity Passage</string>
-    <string>Abrassar:Undercity Passage</string>
-    <string>Chersonese:Bandits' Prison</string>
-    <string>Chersonese:Bandits' Prison</string>
-    <string>Chersonese:Chersonese</string>
-    <string>Chersonese:Chersonese</string>
-    <string>Chersonese:Cierzo</string>
-    <string>Chersonese:Cierzo</string>
-    <string>Chersonese:Cierzo (Destroyed)</string>
-    <string>Chersonese:Cierzo (Destroyed)</string>
-    <string>Chersonese:Corrupted Tombs</string>
-    <string>Chersonese:Corrupted Tombs</string>
-    <string>Chersonese:Ghost Pass</string>
-    <string>Chersonese:Ghost Pass</string>
-    <string>Chersonese:Mansion's Cellar</string>
-    <string>Chersonese:Mansion's Cellar</string>
-    <string>Chersonese:Montcalm Clan Fort</string>
-    <string>Chersonese:Montcalm Clan Fort</string>
-    <string>Chersonese:Vendavel Fortress</string>
-    <string>Chersonese:Vendavel Fortress</string>
-    <string>Chersonese:Voltaic Hatchery</string>
-    <string>Chersonese:Voltaic Hatchery</string>
-    <string>Enmerkar Forest:Ancestor’s Resting Place</string>
-    <string>Enmerkar Forest:Ancestor’s Resting Place</string>
-    <string>Enmerkar Forest:Cabal of Wind Temple</string>
-    <string>Enmerkar Forest:Cabal of Wind Temple</string>
-    <string>Enmerkar Forest:Enmerkar Forest</string>
-    <string>Enmerkar Forest:Enmerkar Forest</string>
-    <string>Enmerkar Forest:Face of the Ancients</string>
-    <string>Enmerkar Forest:Face of the Ancients</string>
-    <string>Enmerkar Forest:Forest Hives</string>
-    <string>Enmerkar Forest:Forest Hives</string>
-    <string>Enmerkar Forest:Royal Manticore’s Lair</string>
-    <string>Enmerkar Forest:Royal Manticore’s Lair</string>
-    <string>Enmerkar Forest:Vigil Pylon</string>
-    <string>Enmerkar Forest:Vigil Pylon</string>
-    <string>Hallowed Marsh:Abandoned Ziggurat</string>
-    <string>Hallowed Marsh:Abandoned Ziggurat</string>
-    <string>Hallowed Marsh:Dark Ziggurat Interior</string>
-    <string>Hallowed Marsh:Dark Ziggurat Interior</string>
-    <string>Hallowed Marsh:Dead Tree</string>
-    <string>Hallowed Marsh:Dead Tree</string>
-    <string>Hallowed Marsh:Jade Quarry</string>
-    <string>Hallowed Marsh:Jade Quarry</string>
-    <string>Hallowed Marsh:Spire of Light</string>
-    <string>Hallowed Marsh:Spire of Light</string>
-    <string>Hallowed Marsh:Ziggurat Passage</string>
-    <string>Hallowed Marsh:Ziggurat Passage</string>
-    <string>Other:Unknown Arena</string>
-    <string>Other:Unknown Arena</string>
-    <string>Other:Unknown Arena</string>
-    <string>Other:Unknown Arena</string>
-    <string>Other:Unknown Arena</string>
-    <string>Other:Unknown Arena</string>
-    <string>Other:Unknown Arena</string>
-    <string>Other:Unknown Arena</string>
-    <string>Other:Unknown Arena</string>
-    <string>Other:Unknown Arena</string>
-    <string>Other:Unknown Arena</string>
-    <string>Other:Unknown Arena</string>
-    <string>Other:Unknown Arena</string>
-    <string>Other:Unknown Arena</string>
-    <string>Other:Unknown Arena</string>
-    <string>Other:Unknown Arena</string>
-    <string>Other:Unknown Arena</string>
-    <string>Other:Unknown Arena</string>
-    <string>Other:Unknown Arena</string>
-    <string>Other:Unknown Arena</string>
-    <string>Other:Unknown Arena</string>
-    <string>Other:Unknown Arena</string>
-    <string>Other:Unknown Arena</string>
-    <string>Other:Unknown Arena</string>
+    <QuantityHolder>
+      <Name>Chersonese:Cierzo</Name>
+      <Quantity>2</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Chersonese:Cierzo (Destroyed)</Name>
+      <Quantity>2</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Chersonese:Chersonese</Name>
+      <Quantity>2</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Chersonese:Vendavel Fortress</Name>
+      <Quantity>2</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Chersonese:Ghost Pass</Name>
+      <Quantity>2</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Chersonese:Voltaic Hatchery</Name>
+      <Quantity>2</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Chersonese:Corrupted Tombs</Name>
+      <Quantity>2</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Chersonese:Montcalm Clan Fort</Name>
+      <Quantity>2</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Chersonese:Mansion's Cellar</Name>
+      <Quantity>2</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Chersonese:Bandits' Prison</Name>
+      <Quantity>2</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Other:Unknown Arena</Name>
+      <Quantity>24</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Hallowed Marsh:Jade Quarry</Name>
+      <Quantity>2</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Hallowed Marsh:Dark Ziggurat Interior</Name>
+      <Quantity>2</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Hallowed Marsh:Spire of Light</Name>
+      <Quantity>2</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Hallowed Marsh:Ziggurat Passage</Name>
+      <Quantity>2</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Hallowed Marsh:Abandoned Ziggurat</Name>
+      <Quantity>2</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Hallowed Marsh:Dead Tree</Name>
+      <Quantity>2</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Abrassar:Abrassar</Name>
+      <Quantity>16</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Abrassar:Undercity Passage</Name>
+      <Quantity>4</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Abrassar:The Slide</Name>
+      <Quantity>2</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Abrassar:Ancient Hive</Name>
+      <Quantity>2</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Abrassar:Sand Rose Cave</Name>
+      <Quantity>2</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Abrassar:Cabal of Wind Outpost</Name>
+      <Quantity>2</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Enmerkar Forest:Enmerkar Forest</Name>
+      <Quantity>2</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Enmerkar Forest:Royal Manticore’s Lair</Name>
+      <Quantity>2</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Enmerkar Forest:Forest Hives</Name>
+      <Quantity>2</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Enmerkar Forest:Cabal of Wind Temple</Name>
+      <Quantity>2</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Enmerkar Forest:Face of the Ancients</Name>
+      <Quantity>2</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Enmerkar Forest:Ancestor’s Resting Place</Name>
+      <Quantity>2</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Enmerkar Forest:Vigil Pylon</Name>
+      <Quantity>2</Quantity>
+    </QuantityHolder>
   </Locations_Found>
   <All_DropTables>
     <string>DropTable_Chersonese_Equipment_High_1</string>

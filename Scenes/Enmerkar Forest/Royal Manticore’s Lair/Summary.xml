@@ -86,4 +86,11 @@
       </positions>
     </ItemSpawnHolder>
   </Item_Spawns>
+  <UniqueContainerList>
+    <string>Scavenger’s Corpse_J1E_A3P4rESbnBUfSq-9aw</string>
+    <string>Looter’s Corpse_g3xgzMD23UKSUfDtThH_IA</string>
+    <string>Ornate Chest_gf64pkC4d0CBO0iEjivFFA</string>
+    <string>Worker’s Corpse_VvehsClz8E2W_4YH1yY7Gw</string>
+    <string>Trog Chest_3VgK6PTWfkuX_0-MSePFQA</string>
+  </UniqueContainerList>
 </SceneSummary>

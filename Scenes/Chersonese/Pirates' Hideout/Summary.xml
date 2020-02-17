@@ -20,4 +20,8 @@
   </Loot_Containers>
   <Gatherables />
   <Item_Spawns />
+  <UniqueContainerList>
+    <string>Junk Pile_j4jkHmqzHkevhUAwkX3_MA</string>
+    <string>Adventurer’s Corpse_v6dpxzIVfUydaxZg3WVVLg</string>
+  </UniqueContainerList>
 </SceneSummary>

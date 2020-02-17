@@ -3,32 +3,50 @@
   <Name>Knight’s Corpse</Name>
   <ItemID>0</ItemID>
   <Locations_Found>
-    <string>Abrassar:Ancient Hive</string>
-    <string>Abrassar:Ancient Hive</string>
-    <string>Abrassar:Ancient Hive</string>
-    <string>Abrassar:Ancient Hive</string>
-    <string>Abrassar:Captain's Cabin</string>
-    <string>Abrassar:Captain's Cabin</string>
-    <string>Abrassar:Stone Titan Caves</string>
-    <string>Abrassar:Stone Titan Caves</string>
-    <string>Chersonese:Blue Chamber’s Conflux Path</string>
-    <string>Chersonese:Blue Chamber’s Conflux Path</string>
-    <string>Chersonese:Corrupted Tombs</string>
-    <string>Chersonese:Corrupted Tombs</string>
-    <string>Enmerkar Forest:Cabal of Wind Temple</string>
-    <string>Enmerkar Forest:Cabal of Wind Temple</string>
-    <string>Enmerkar Forest:Damp Hunter's Cabin</string>
-    <string>Enmerkar Forest:Damp Hunter's Cabin</string>
-    <string>Enmerkar Forest:Face of the Ancients</string>
-    <string>Enmerkar Forest:Face of the Ancients</string>
-    <string>Hallowed Marsh:Jade Quarry</string>
-    <string>Hallowed Marsh:Jade Quarry</string>
-    <string>Hallowed Marsh:Jade Quarry</string>
-    <string>Hallowed Marsh:Jade Quarry</string>
-    <string>Hallowed Marsh:Under Island</string>
-    <string>Hallowed Marsh:Under Island</string>
-    <string>Hallowed Marsh:Ziggurat Passage</string>
-    <string>Hallowed Marsh:Ziggurat Passage</string>
+    <QuantityHolder>
+      <Name>Chersonese:Blue Chamber’s Conflux Path</Name>
+      <Quantity>2</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Chersonese:Corrupted Tombs</Name>
+      <Quantity>2</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Hallowed Marsh:Jade Quarry</Name>
+      <Quantity>4</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Hallowed Marsh:Ziggurat Passage</Name>
+      <Quantity>2</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Hallowed Marsh:Under Island</Name>
+      <Quantity>2</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Abrassar:Stone Titan Caves</Name>
+      <Quantity>2</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Abrassar:Ancient Hive</Name>
+      <Quantity>4</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Abrassar:Captain's Cabin</Name>
+      <Quantity>2</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Enmerkar Forest:Cabal of Wind Temple</Name>
+      <Quantity>2</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Enmerkar Forest:Face of the Ancients</Name>
+      <Quantity>2</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Enmerkar Forest:Damp Hunter's Cabin</Name>
+      <Quantity>2</Quantity>
+    </QuantityHolder>
   </Locations_Found>
   <All_DropTables>
     <string>DropTable_Neutral_Consumable_Low_2</string>

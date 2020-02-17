@@ -211,4 +211,26 @@
       </positions>
     </ItemSpawnHolder>
   </Item_Spawns>
+  <UniqueContainerList>
+    <string>Chest_3ZWYD70hr02QQLb_mjND9w</string>
+    <string>Junk Pile_dp4Qpidc3ku2_0Xfqcv26A</string>
+    <string>Junk Pile_vJxdATvmxEmduVCDtuiBvQ</string>
+    <string>Junk Pile_eQR1cIvCwU6JS77Pd0k6Xg</string>
+    <string>Chest_DBaVynnL0Uyth7KgLZEJdQ</string>
+    <string>Junk Pile_tV50gUuAMk-pGTk8tf21yA</string>
+    <string>Junk Pile_TagcHfJJdUmtvHYNbaYvhg</string>
+    <string>Junk Pile_98M4ooyrLkGkVAnmugE-9A</string>
+    <string>Chest_Oo1Y1wJO7USH9dE126uKJA</string>
+    <string>Chest_bMPNLWyqckavZOODAnMVKw</string>
+    <string>Chest_fPn66sdTfUOvAj93gm-7nw</string>
+    <string>Stash_ZbPXNsPvlUeQVJRks3zBzg</string>
+    <string>Worker’s Corpse_Hwai_V3w7UWRfehwHr8o9A</string>
+    <string>Junk Pile_j7zWptuDC02DItdhU_OKSw</string>
+    <string>Junk Pile_LcnjkzZF80y0GuaRM09OBw</string>
+    <string>Junk Pile_x_IV7Ti2xEunItYgdEGrxA</string>
+    <string>Junk Pile_2xh3aR4iiE-Ypob0Fk35Cg</string>
+    <string>Worker’s Corpse_ixRdjfAjC0uQDqnSsEm1YQ</string>
+    <string>Junk Pile_j96i4BPaMkq20a5_2pDDNQ</string>
+    <string>Chest_XWrUQ4qEk06YLUqthyAmpw</string>
+  </UniqueContainerList>
 </SceneSummary>

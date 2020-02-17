@@ -3,26 +3,14 @@
   <Name>Woolshroom</Name>
   <ItemID>0</ItemID>
   <Locations_Found>
-    <string>Enmerkar Forest:Berg</string>
-    <string>Enmerkar Forest:Berg</string>
-    <string>Enmerkar Forest:Berg</string>
-    <string>Enmerkar Forest:Enmerkar Forest</string>
-    <string>Enmerkar Forest:Enmerkar Forest</string>
-    <string>Enmerkar Forest:Enmerkar Forest</string>
-    <string>Enmerkar Forest:Enmerkar Forest</string>
-    <string>Enmerkar Forest:Enmerkar Forest</string>
-    <string>Enmerkar Forest:Enmerkar Forest</string>
-    <string>Enmerkar Forest:Enmerkar Forest</string>
-    <string>Enmerkar Forest:Enmerkar Forest</string>
-    <string>Enmerkar Forest:Enmerkar Forest</string>
-    <string>Enmerkar Forest:Enmerkar Forest</string>
-    <string>Enmerkar Forest:Enmerkar Forest</string>
-    <string>Enmerkar Forest:Enmerkar Forest</string>
-    <string>Enmerkar Forest:Enmerkar Forest</string>
-    <string>Enmerkar Forest:Enmerkar Forest</string>
-    <string>Enmerkar Forest:Enmerkar Forest</string>
-    <string>Enmerkar Forest:Enmerkar Forest</string>
-    <string>Enmerkar Forest:Enmerkar Forest</string>
+    <QuantityHolder>
+      <Name>Enmerkar Forest:Berg</Name>
+      <Quantity>3</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Enmerkar Forest:Enmerkar Forest</Name>
+      <Quantity>17</Quantity>
+    </QuantityHolder>
   </Locations_Found>
   <All_DropTables>
     <string>DropTable_Woolshroom</string>

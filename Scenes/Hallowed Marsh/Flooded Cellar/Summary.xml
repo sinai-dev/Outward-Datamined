@@ -62,4 +62,8 @@
       </positions>
     </ItemSpawnHolder>
   </Item_Spawns>
+  <UniqueContainerList>
+    <string>Worker’s Corpse_mgENfNAtBEWDkYwVB1rpLw</string>
+    <string>Chest_8zjcmxZvtkGLxZIgrmh_0w</string>
+  </UniqueContainerList>
 </SceneSummary>

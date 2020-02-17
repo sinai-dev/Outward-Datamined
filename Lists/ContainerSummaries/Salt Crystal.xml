@@ -3,65 +3,30 @@
   <Name>Salt Crystal</Name>
   <ItemID>0</ItemID>
   <Locations_Found>
-    <string>Abrassar:Abrassar</string>
-    <string>Abrassar:Abrassar</string>
-    <string>Abrassar:Abrassar</string>
-    <string>Abrassar:Abrassar</string>
-    <string>Abrassar:Abrassar</string>
-    <string>Abrassar:Abrassar</string>
-    <string>Abrassar:Abrassar</string>
-    <string>Abrassar:Abrassar</string>
-    <string>Abrassar:Abrassar</string>
-    <string>Abrassar:Abrassar</string>
-    <string>Abrassar:Abrassar</string>
-    <string>Abrassar:Abrassar</string>
-    <string>Abrassar:Abrassar</string>
-    <string>Abrassar:Abrassar</string>
-    <string>Abrassar:Abrassar</string>
-    <string>Abrassar:Abrassar</string>
-    <string>Abrassar:Abrassar</string>
-    <string>Abrassar:Abrassar</string>
-    <string>Abrassar:Abrassar</string>
-    <string>Abrassar:Abrassar</string>
-    <string>Abrassar:Abrassar</string>
-    <string>Abrassar:Abrassar</string>
-    <string>Abrassar:Abrassar</string>
-    <string>Abrassar:Abrassar</string>
-    <string>Abrassar:Abrassar</string>
-    <string>Abrassar:Abrassar</string>
-    <string>Abrassar:Abrassar</string>
-    <string>Abrassar:Abrassar</string>
-    <string>Chersonese:Chersonese</string>
-    <string>Chersonese:Chersonese</string>
-    <string>Chersonese:Chersonese</string>
-    <string>Chersonese:Chersonese</string>
-    <string>Chersonese:Chersonese</string>
-    <string>Chersonese:Chersonese</string>
-    <string>Chersonese:Chersonese</string>
-    <string>Chersonese:Chersonese</string>
-    <string>Chersonese:Chersonese</string>
-    <string>Chersonese:Chersonese</string>
-    <string>Chersonese:Chersonese</string>
-    <string>Chersonese:Chersonese</string>
-    <string>Chersonese:Chersonese</string>
-    <string>Chersonese:Chersonese</string>
-    <string>Chersonese:Chersonese</string>
-    <string>Chersonese:Chersonese</string>
-    <string>Chersonese:Starfish Cave</string>
-    <string>Enmerkar Forest:Enmerkar Forest</string>
-    <string>Enmerkar Forest:Enmerkar Forest</string>
-    <string>Enmerkar Forest:Enmerkar Forest</string>
-    <string>Enmerkar Forest:Enmerkar Forest</string>
-    <string>Enmerkar Forest:Enmerkar Forest</string>
-    <string>Hallowed Marsh:Giants’ Village</string>
-    <string>Hallowed Marsh:Hallowed Marsh</string>
-    <string>Hallowed Marsh:Hallowed Marsh</string>
-    <string>Hallowed Marsh:Hallowed Marsh</string>
-    <string>Hallowed Marsh:Hallowed Marsh</string>
-    <string>Hallowed Marsh:Hallowed Marsh</string>
-    <string>Hallowed Marsh:Hallowed Marsh</string>
-    <string>Hallowed Marsh:Hallowed Marsh</string>
-    <string>Hallowed Marsh:Hallowed Marsh</string>
+    <QuantityHolder>
+      <Name>Chersonese:Chersonese</Name>
+      <Quantity>16</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Chersonese:Starfish Cave</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Hallowed Marsh:Hallowed Marsh</Name>
+      <Quantity>8</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Hallowed Marsh:Giants’ Village</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Abrassar:Abrassar</Name>
+      <Quantity>28</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Enmerkar Forest:Enmerkar Forest</Name>
+      <Quantity>5</Quantity>
+    </QuantityHolder>
   </Locations_Found>
   <All_DropTables>
     <string>DropTable_Salt</string>

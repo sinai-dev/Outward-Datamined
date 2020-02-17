@@ -29,4 +29,9 @@
     </QuantityHolder>
   </Gatherables>
   <Item_Spawns />
+  <UniqueContainerList>
+    <string>Worker’s Corpse_q-Cbk4jiokmrv0QAdFbCow</string>
+    <string>Chest_3oct78NJ2Ee4fzNhIf3v6Q</string>
+    <string>Adventurer’s Corpse_YO_5UiKRakShvTamN_WyYA</string>
+  </UniqueContainerList>
 </SceneSummary>

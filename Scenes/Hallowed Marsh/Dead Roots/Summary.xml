@@ -82,4 +82,14 @@
       </positions>
     </ItemSpawnHolder>
   </Item_Spawns>
+  <UniqueContainerList>
+    <string>Worker’s Corpse_nlb69FIuNkqvpIoACUibTg</string>
+    <string>Junk Pile_1VoUvB8nCEuMztSzIDXaNQ</string>
+    <string>Chest_XJzqDdPs7UadDfdn1e2ryA</string>
+    <string>Junk Pile_q5gUfOAm_EuyEUe7VuBifw</string>
+    <string>Chest_49UPM9e2FUaSjiTCFKB0Yw</string>
+    <string>Junk Pile_FgpKHkkM1kekwvrgm9NH3Q</string>
+    <string>Junk Pile_ov9vTsPwzEu79VOPzTKjWw</string>
+    <string>Soldier’s Corpse_U47v1HUXYEChOauHQQjfAg</string>
+  </UniqueContainerList>
 </SceneSummary>

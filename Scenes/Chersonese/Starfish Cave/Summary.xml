@@ -29,4 +29,7 @@
     </QuantityHolder>
   </Gatherables>
   <Item_Spawns />
+  <UniqueContainerList>
+    <string>Junk Pile_Gp8orwgnLU6qwcEGiC1kuA</string>
+  </UniqueContainerList>
 </SceneSummary>

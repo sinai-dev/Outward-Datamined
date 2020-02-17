@@ -73,4 +73,7 @@
       </positions>
     </ItemSpawnHolder>
   </Item_Spawns>
+  <UniqueContainerList>
+    <string>Chest_qmNYNO8DHE2D60QPMjJhZA</string>
+  </UniqueContainerList>
 </SceneSummary>

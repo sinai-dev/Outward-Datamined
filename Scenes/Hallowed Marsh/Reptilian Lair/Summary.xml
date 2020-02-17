@@ -77,4 +77,14 @@
     </QuantityHolder>
   </Gatherables>
   <Item_Spawns />
+  <UniqueContainerList>
+    <string>Adventurer’s Corpse_cNxuAb4AJUaDcLbv8ER1Sw</string>
+    <string>Junk Pile_ifsVv0esikyQD7Tf123ppA</string>
+    <string>Hollowed Trunk_Da704rd8X0uRSVzeKZ36bw</string>
+    <string>Hollowed Trunk_0Sqn2ic2AUOFvtGjHpJj3w</string>
+    <string>Hollowed Trunk_e3P1L9hj8EOlyaTVKMbGig</string>
+    <string>Junk Pile_sMxGln4zWUqQfWqJwSjDjw</string>
+    <string>Hollowed Trunk_PkXO4KPqRkm6_tyqEmTVyQ</string>
+    <string>Chest_uk7PfdODd0ubWQiaTwK5_Q</string>
+  </UniqueContainerList>
 </SceneSummary>

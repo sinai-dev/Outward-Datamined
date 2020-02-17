@@ -3,40 +3,70 @@
   <Name>Worker’s Corpse</Name>
   <ItemID>0</ItemID>
   <Locations_Found>
-    <string>Abrassar:Levant</string>
-    <string>Abrassar:Levant</string>
-    <string>Abrassar:Levant</string>
-    <string>Abrassar:Levant</string>
-    <string>Abrassar:Sand Rose Cave</string>
-    <string>Abrassar:Sand Rose Cave</string>
-    <string>Abrassar:Stone Titan Caves</string>
-    <string>Abrassar:Stone Titan Caves</string>
-    <string>Abrassar:The Slide</string>
-    <string>Abrassar:The Slide</string>
-    <string>Chersonese:Bandits' Prison</string>
-    <string>Chersonese:Bandits' Prison</string>
-    <string>Chersonese:Chersonese</string>
-    <string>Chersonese:Chersonese</string>
-    <string>Chersonese:Hyena Burrow</string>
-    <string>Chersonese:Hyena Burrow</string>
-    <string>Enmerkar Forest:Cabal of Wind Temple</string>
-    <string>Enmerkar Forest:Cabal of Wind Temple</string>
-    <string>Enmerkar Forest:Dolmen Crypt</string>
-    <string>Enmerkar Forest:Dolmen Crypt</string>
-    <string>Enmerkar Forest:Enmerkar Forest</string>
-    <string>Enmerkar Forest:Enmerkar Forest</string>
-    <string>Enmerkar Forest:Face of the Ancients</string>
-    <string>Enmerkar Forest:Face of the Ancients</string>
-    <string>Enmerkar Forest:Royal Manticore’s Lair</string>
-    <string>Enmerkar Forest:Royal Manticore’s Lair</string>
-    <string>Enmerkar Forest:Worn Hunter's Cabin</string>
-    <string>Enmerkar Forest:Worn Hunter's Cabin</string>
-    <string>Hallowed Marsh:Dead Roots</string>
-    <string>Hallowed Marsh:Dead Roots</string>
-    <string>Hallowed Marsh:Flooded Cellar</string>
-    <string>Hallowed Marsh:Flooded Cellar</string>
-    <string>Hallowed Marsh:Ziggurat Passage</string>
-    <string>Hallowed Marsh:Ziggurat Passage</string>
+    <QuantityHolder>
+      <Name>Chersonese:Chersonese</Name>
+      <Quantity>2</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Chersonese:Hyena Burrow</Name>
+      <Quantity>2</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Chersonese:Bandits' Prison</Name>
+      <Quantity>2</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Hallowed Marsh:Ziggurat Passage</Name>
+      <Quantity>2</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Hallowed Marsh:Dead Roots</Name>
+      <Quantity>2</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Hallowed Marsh:Flooded Cellar</Name>
+      <Quantity>2</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Abrassar:Levant</Name>
+      <Quantity>4</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Abrassar:The Slide</Name>
+      <Quantity>2</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Abrassar:Stone Titan Caves</Name>
+      <Quantity>2</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Abrassar:Sand Rose Cave</Name>
+      <Quantity>2</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Enmerkar Forest:Enmerkar Forest</Name>
+      <Quantity>2</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Enmerkar Forest:Royal Manticore’s Lair</Name>
+      <Quantity>2</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Enmerkar Forest:Cabal of Wind Temple</Name>
+      <Quantity>2</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Enmerkar Forest:Face of the Ancients</Name>
+      <Quantity>2</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Enmerkar Forest:Dolmen Crypt</Name>
+      <Quantity>2</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Enmerkar Forest:Worn Hunter's Cabin</Name>
+      <Quantity>2</Quantity>
+    </QuantityHolder>
   </Locations_Found>
   <All_DropTables>
     <string>DropTable_Neutral_Cloth_Poor_1</string>

@@ -102,4 +102,16 @@
       </positions>
     </ItemSpawnHolder>
   </Item_Spawns>
+  <UniqueContainerList>
+    <string>Junk Pile_Hz7Br5X-cUmWYk2-B9lSug</string>
+    <string>Scavenger’s Corpse_cqmK9u1MgU-zfMz5-I5BkA</string>
+    <string>Chest_TW2OuZ3xPkC5znbdtwIrtg</string>
+    <string>Junk Pile_7bggpRrOSkeydIL7nRg_rw</string>
+    <string>Worker’s Corpse_Gg0senbY8ke-PldAfpRN2w</string>
+    <string>Legacy Chest_4jgUGOcE4kSC39l_xjJ_PQ</string>
+    <string>Chest_Ab3iYi8Y1kiT7hbO-o9zdg</string>
+    <string>Ornate Chest_CWX4clojhUOcWad8D54Wjg</string>
+    <string>Adventurer’s Corpse_rgjLhSov2EmMw19ffwnBcw</string>
+    <string>Junk Pile_7-pzSGDslkSJwDOCL6d4VQ</string>
+  </UniqueContainerList>
 </SceneSummary>

@@ -84,4 +84,8 @@
       </positions>
     </ItemSpawnHolder>
   </Item_Spawns>
+  <UniqueContainerList>
+    <string>Chest_gBDhZUr6ZkqJ1Xn0gbJr2Q</string>
+    <string>Adventurer’s Corpse_2Ge--X0jtUKc_i3yGTwBHQ</string>
+  </UniqueContainerList>
 </SceneSummary>

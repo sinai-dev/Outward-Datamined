@@ -3,51 +3,38 @@
   <Name>Smoke Root</Name>
   <ItemID>0</ItemID>
   <Locations_Found>
-    <string>Abrassar:Abrassar</string>
-    <string>Abrassar:Abrassar</string>
-    <string>Enmerkar Forest:Ancestor’s Resting Place</string>
-    <string>Enmerkar Forest:Ancestor’s Resting Place</string>
-    <string>Enmerkar Forest:Berg</string>
-    <string>Enmerkar Forest:Berg</string>
-    <string>Enmerkar Forest:Enmerkar Forest</string>
-    <string>Enmerkar Forest:Enmerkar Forest</string>
-    <string>Enmerkar Forest:Enmerkar Forest</string>
-    <string>Enmerkar Forest:Enmerkar Forest</string>
-    <string>Enmerkar Forest:Enmerkar Forest</string>
-    <string>Enmerkar Forest:Enmerkar Forest</string>
-    <string>Enmerkar Forest:Enmerkar Forest</string>
-    <string>Enmerkar Forest:Enmerkar Forest</string>
-    <string>Enmerkar Forest:Enmerkar Forest</string>
-    <string>Enmerkar Forest:Enmerkar Forest</string>
-    <string>Enmerkar Forest:Enmerkar Forest</string>
-    <string>Enmerkar Forest:Enmerkar Forest</string>
-    <string>Enmerkar Forest:Enmerkar Forest</string>
-    <string>Enmerkar Forest:Enmerkar Forest</string>
-    <string>Enmerkar Forest:Enmerkar Forest</string>
-    <string>Enmerkar Forest:Enmerkar Forest</string>
-    <string>Enmerkar Forest:Enmerkar Forest</string>
-    <string>Enmerkar Forest:Enmerkar Forest</string>
-    <string>Enmerkar Forest:Enmerkar Forest</string>
-    <string>Enmerkar Forest:Enmerkar Forest</string>
-    <string>Enmerkar Forest:Enmerkar Forest</string>
-    <string>Enmerkar Forest:Enmerkar Forest</string>
-    <string>Enmerkar Forest:Enmerkar Forest</string>
-    <string>Enmerkar Forest:Enmerkar Forest</string>
-    <string>Enmerkar Forest:Face of the Ancients</string>
-    <string>Enmerkar Forest:Face of the Ancients</string>
-    <string>Enmerkar Forest:Face of the Ancients</string>
-    <string>Enmerkar Forest:Forest Hives</string>
-    <string>Enmerkar Forest:Forest Hives</string>
-    <string>Enmerkar Forest:Forest Hives</string>
-    <string>Enmerkar Forest:Forest Hives</string>
-    <string>Enmerkar Forest:Forest Hives</string>
-    <string>Enmerkar Forest:Hive Trap</string>
-    <string>Enmerkar Forest:Hive Trap</string>
-    <string>Enmerkar Forest:Hive Trap</string>
-    <string>Enmerkar Forest:Royal Manticore’s Lair</string>
-    <string>Enmerkar Forest:Royal Manticore’s Lair</string>
-    <string>Enmerkar Forest:Royal Manticore’s Lair</string>
-    <string>Enmerkar Forest:Royal Manticore’s Lair</string>
+    <QuantityHolder>
+      <Name>Abrassar:Abrassar</Name>
+      <Quantity>2</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Enmerkar Forest:Berg</Name>
+      <Quantity>2</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Enmerkar Forest:Enmerkar Forest</Name>
+      <Quantity>24</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Enmerkar Forest:Royal Manticore’s Lair</Name>
+      <Quantity>4</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Enmerkar Forest:Forest Hives</Name>
+      <Quantity>5</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Enmerkar Forest:Face of the Ancients</Name>
+      <Quantity>3</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Enmerkar Forest:Ancestor’s Resting Place</Name>
+      <Quantity>2</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Enmerkar Forest:Hive Trap</Name>
+      <Quantity>3</Quantity>
+    </QuantityHolder>
   </Locations_Found>
   <All_DropTables>
     <string>DropTable_Smokeroot</string>

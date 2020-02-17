@@ -90,4 +90,16 @@
       </positions>
     </ItemSpawnHolder>
   </Item_Spawns>
+  <UniqueContainerList>
+    <string>Looter’s Corpse_2DoozzGQLUm2rFC2jX0frg</string>
+    <string>Broken Tent_9SAvfk04J0-Wm_gKLnS7ag</string>
+    <string>Looter’s Corpse_AQXkaMgVPkSwvIwR8ZZ6qg</string>
+    <string>Knight’s Corpse_mofaKL-D3kS6769PLmeE6g</string>
+    <string>Junk Pile_Y2yitj3DJEia9A-s4JZ0jg</string>
+    <string>Junk Pile_K7hyaCCT502YocfvBJLvqA</string>
+    <string>Soldier’s Corpse_xXXJkpVEMEysxZo08Ihy9w</string>
+    <string>Ornate Chest_tQY5XIYpAEajBcVneOOUpQ</string>
+    <string>Chest_tfshT2ZLzUmrgqtktz_UNA</string>
+    <string>Looter’s Corpse_s3GuSDX6YkOvq8hKUp42Sg</string>
+  </UniqueContainerList>
 </SceneSummary>

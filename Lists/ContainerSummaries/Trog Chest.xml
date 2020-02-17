@@ -3,18 +3,30 @@
   <Name>Trog Chest</Name>
   <ItemID>0</ItemID>
   <Locations_Found>
-    <string>Chersonese:Blister Burrow</string>
-    <string>Chersonese:Blister Burrow</string>
-    <string>Chersonese:Blue Chamber’s Conflux Path</string>
-    <string>Chersonese:Blue Chamber’s Conflux Path</string>
-    <string>Chersonese:Trog Infiltration</string>
-    <string>Chersonese:Trog Infiltration</string>
-    <string>Enmerkar Forest:Royal Manticore’s Lair</string>
-    <string>Enmerkar Forest:Royal Manticore’s Lair</string>
-    <string>Hallowed Marsh:Jade Quarry</string>
-    <string>Hallowed Marsh:Jade Quarry</string>
-    <string>Hallowed Marsh:Under Island</string>
-    <string>Hallowed Marsh:Under Island</string>
+    <QuantityHolder>
+      <Name>Chersonese:Blister Burrow</Name>
+      <Quantity>2</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Chersonese:Blue Chamber’s Conflux Path</Name>
+      <Quantity>2</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Chersonese:Trog Infiltration</Name>
+      <Quantity>2</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Hallowed Marsh:Jade Quarry</Name>
+      <Quantity>2</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Hallowed Marsh:Under Island</Name>
+      <Quantity>2</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Enmerkar Forest:Royal Manticore’s Lair</Name>
+      <Quantity>2</Quantity>
+    </QuantityHolder>
   </Locations_Found>
   <All_DropTables>
     <string>DropTable_Neutral_Troglodyte_2</string>

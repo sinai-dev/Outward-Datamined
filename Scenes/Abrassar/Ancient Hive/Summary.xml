@@ -94,4 +94,15 @@
       </positions>
     </ItemSpawnHolder>
   </Item_Spawns>
+  <UniqueContainerList>
+    <string>Soldier’s Corpse_jZa79qmPVkuPT1IOJ5KlRw</string>
+    <string>Knight’s Corpse_hXmpWgmyJ0Wa91XaUpLCiQ</string>
+    <string>Hollowed Trunk_GwrW9IwsCkacMBoyF9cQUw</string>
+    <string>Hollowed Trunk_scI-e5SMjE6pAnhQmbhRWA</string>
+    <string>Ornate Chest_PKvxOBDqhk-RjrboqKvohA</string>
+    <string>Looter’s Corpse_5gVn-MUKCUe13brN5-Jsvw</string>
+    <string>Hollowed Trunk_Rvol2CGDbk6BGcT_6T-6Bw</string>
+    <string>Adventurer’s Corpse_18SNdz3cYEqKbLbOrbZcQQ</string>
+    <string>Knight’s Corpse_2F0WvgPD6UyUo2nGdKB5mA</string>
+  </UniqueContainerList>
 </SceneSummary>

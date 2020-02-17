@@ -68,4 +68,7 @@
       </positions>
     </ItemSpawnHolder>
   </Item_Spawns>
+  <UniqueContainerList>
+    <string>Knight’s Corpse_zAPuQ2GDjk2zdA-gIpy3rA</string>
+  </UniqueContainerList>
 </SceneSummary>

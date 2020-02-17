@@ -54,4 +54,8 @@
       </positions>
     </ItemSpawnHolder>
   </Item_Spawns>
+  <UniqueContainerList>
+    <string>Knight’s Corpse_9qb4lbEYYkyGAWTKaYq-4g</string>
+    <string>Trog Chest_UjwOCBeV00q9U-ugsh7TJQ</string>
+  </UniqueContainerList>
 </SceneSummary>

@@ -11,4 +11,5 @@
   <Loot_Containers />
   <Gatherables />
   <Item_Spawns />
+  <UniqueContainerList />
 </SceneSummary>

@@ -223,4 +223,15 @@
       </positions>
     </ItemSpawnHolder>
   </Item_Spawns>
+  <UniqueContainerList>
+    <string>Junk Pile_LyYQguVZM0q4Fr24PgM02g</string>
+    <string>Chest__UCgqAaFv0mZom-4Qi4W5w</string>
+    <string>Chest_b2n9L6OJKky-nEriESkSfg</string>
+    <string>Looter’s Corpse_mHg2Yy0pwEOAeq2Im8Y4BQ</string>
+    <string>Junk Pile_4oY6LD6sGUqTiegIiNr98Q</string>
+    <string>Looter’s Corpse_gWRVBOvILE2jyL8Ct2_Iig</string>
+    <string>Chest_SHL0M1r1wkOyA6btaZHplg</string>
+    <string>Junk Pile_71ZGaRHj20ar572nOCmjJg</string>
+    <string>Ornate Chest_RjVGYYLYqk6EIDoKTaBobA</string>
+  </UniqueContainerList>
 </SceneSummary>

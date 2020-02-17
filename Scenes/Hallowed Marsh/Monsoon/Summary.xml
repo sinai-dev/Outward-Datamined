@@ -236,4 +236,11 @@
       </positions>
     </ItemSpawnHolder>
   </Item_Spawns>
+  <UniqueContainerList>
+    <string>Junk Pile_nch9dJ2-YEGCkVKiy3FRVA</string>
+    <string>Junk Pile_lnKjLKoWWUCrHDrECzL9Vg</string>
+    <string>Stash_ImqRiGAT80aE2WtUHfdcMw</string>
+    <string>Junk Pile_AV6ZXlamOU6JjPI83H_gCQ</string>
+    <string>Junk Pile_4nP1xkfQekKBqQPj2HhWLQ</string>
+  </UniqueContainerList>
 </SceneSummary>

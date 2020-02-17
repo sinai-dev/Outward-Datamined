@@ -40,4 +40,12 @@
   </Loot_Containers>
   <Gatherables />
   <Item_Spawns />
+  <UniqueContainerList>
+    <string>Legacy Chest_5DyToBXtuE2Q-58tDP9U6Q</string>
+    <string>Chest_wrCPzROVBk-h_OqTm2uxTg</string>
+    <string>Junk Pile_Xkm8jlJqmUCMW-o1XIW4-g</string>
+    <string>Chest_0Qie-knECU6ifn76KsIPSg</string>
+    <string>Chest_-nce-sAy7ESJsafCEgfxRQ</string>
+    <string>Ornate Chest_701G6yxHskK9VPAS4BZyuA</string>
+  </UniqueContainerList>
 </SceneSummary>

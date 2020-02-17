@@ -149,4 +149,12 @@
       </positions>
     </ItemSpawnHolder>
   </Item_Spawns>
+  <UniqueContainerList>
+    <string>Junk Pile_zu4rv-Se80e6uKajlpusjw</string>
+    <string>Ornate Chest_u8V2Sl_eSUuOaxYkty9-Kg</string>
+    <string>Chest_r0t7WLQX7UuA5FjHmuvIOQ</string>
+    <string>Chest_yvcEJLaC1kqPOYEVQeIkRQ</string>
+    <string>Junk Pile__Vm2HKTEEk-xzWoywlLoiA</string>
+    <string>Junk Pile_B24-u94c9E6yZyFejCR_NA</string>
+  </UniqueContainerList>
 </SceneSummary>

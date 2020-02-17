@@ -70,4 +70,11 @@
       </positions>
     </ItemSpawnHolder>
   </Item_Spawns>
+  <UniqueContainerList>
+    <string>Looter’s Corpse_TfCBFnBM2EaRHoFCqARYxA</string>
+    <string>Chest_Hw9wpu5AxkiD3BKCF3aiRg</string>
+    <string>Looter’s Corpse_Ltk42xoCd0KLI_A33DGK1g</string>
+    <string>Ornate Chest_iB3o9p7r20GacTWoX6srQw</string>
+    <string>Chest_5YfFYA4g4kell44n9Uv1rA</string>
+  </UniqueContainerList>
 </SceneSummary>

@@ -86,4 +86,15 @@
       </positions>
     </ItemSpawnHolder>
   </Item_Spawns>
+  <UniqueContainerList>
+    <string>Trog Chest_xYj9e2asdEi1XleXxV1pxA</string>
+    <string>Chest_9PneVS44iUiwikLqd_k1Vw</string>
+    <string>Junk Pile_r6Y79c3I_EW-Xbcc5zuLYg</string>
+    <string>Ornate Chest_0LKddRlbCkCiZSl9WpTSJQ</string>
+    <string>Knight’s Corpse_AvvcqYVXj0CUYjpB_CtYqg</string>
+    <string>Knight’s Corpse_Ua0fxCcHqUyKU_o9DZM9kA</string>
+    <string>Junk Pile_WjU7-vg6f0OxMMl4AIcMdQ</string>
+    <string>Chest_Pnm_Jb3hdUKVEOl0p_dBOw</string>
+    <string>Junk Pile_IEalTFN0TEeO9jYTzobKBA</string>
+  </UniqueContainerList>
 </SceneSummary>

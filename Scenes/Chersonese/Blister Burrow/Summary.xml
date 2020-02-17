@@ -110,4 +110,12 @@
       </positions>
     </ItemSpawnHolder>
   </Item_Spawns>
+  <UniqueContainerList>
+    <string>Adventurer’s Corpse_3oVuHl0ekkW4lJEohxK6rQ</string>
+    <string>Looter’s Corpse_oeciWnKZo0qY78Fl_LzUIA</string>
+    <string>Junk Pile_cuaKRxeL7EmVkE3xS6t3-A</string>
+    <string>Junk Pile_Ocm6F1v01Ee_hpoZDUKzzQ</string>
+    <string>Corpse_WpVBHwBUt0Kzk1tDORJ1BA</string>
+    <string>Trog Chest_2YuaPoCWJU-xWfVojApQmw</string>
+  </UniqueContainerList>
 </SceneSummary>

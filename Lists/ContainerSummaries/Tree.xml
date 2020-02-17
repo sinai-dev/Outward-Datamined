@@ -3,60 +3,78 @@
   <Name>Tree</Name>
   <ItemID>0</ItemID>
   <Locations_Found>
-    <string>Abrassar:Abrassar</string>
-    <string>Abrassar:Abrassar</string>
-    <string>Abrassar:Abrassar</string>
-    <string>Abrassar:Ancient Hive</string>
-    <string>Abrassar:Ancient Hive</string>
-    <string>Abrassar:Ancient Hive</string>
-    <string>Abrassar:Levant</string>
-    <string>Abrassar:Levant</string>
-    <string>Abrassar:Levant</string>
-    <string>Chersonese:Chersonese</string>
-    <string>Chersonese:Chersonese</string>
-    <string>Chersonese:Chersonese</string>
-    <string>Chersonese:Cierzo</string>
-    <string>Chersonese:Cierzo</string>
-    <string>Chersonese:Cierzo</string>
-    <string>Chersonese:Cierzo (Destroyed)</string>
-    <string>Chersonese:Cierzo (Destroyed)</string>
-    <string>Chersonese:Cierzo (Destroyed)</string>
-    <string>Chersonese:Corrupted Tombs</string>
-    <string>Chersonese:Corrupted Tombs</string>
-    <string>Chersonese:Corrupted Tombs</string>
-    <string>Chersonese:Montcalm Clan Fort</string>
-    <string>Chersonese:Montcalm Clan Fort</string>
-    <string>Chersonese:Montcalm Clan Fort</string>
-    <string>Chersonese:Shipwreck Beach</string>
-    <string>Chersonese:Shipwreck Beach</string>
-    <string>Chersonese:Shipwreck Beach</string>
-    <string>Enmerkar Forest:Berg</string>
-    <string>Enmerkar Forest:Berg</string>
-    <string>Enmerkar Forest:Berg</string>
-    <string>Enmerkar Forest:Damp Hunter's Cabin</string>
-    <string>Enmerkar Forest:Damp Hunter's Cabin</string>
-    <string>Enmerkar Forest:Damp Hunter's Cabin</string>
-    <string>Enmerkar Forest:Enmerkar Forest</string>
-    <string>Enmerkar Forest:Enmerkar Forest</string>
-    <string>Enmerkar Forest:Enmerkar Forest</string>
-    <string>Enmerkar Forest:Forest Hives</string>
-    <string>Enmerkar Forest:Forest Hives</string>
-    <string>Enmerkar Forest:Forest Hives</string>
-    <string>Enmerkar Forest:Royal Manticore’s Lair</string>
-    <string>Enmerkar Forest:Royal Manticore’s Lair</string>
-    <string>Enmerkar Forest:Royal Manticore’s Lair</string>
-    <string>Hallowed Marsh:Giants’ Village</string>
-    <string>Hallowed Marsh:Giants’ Village</string>
-    <string>Hallowed Marsh:Giants’ Village</string>
-    <string>Hallowed Marsh:Hallowed Marsh</string>
-    <string>Hallowed Marsh:Hallowed Marsh</string>
-    <string>Hallowed Marsh:Hallowed Marsh</string>
-    <string>Hallowed Marsh:Monsoon</string>
-    <string>Hallowed Marsh:Monsoon</string>
-    <string>Hallowed Marsh:Monsoon</string>
-    <string>Other:Unknown Arena</string>
-    <string>Other:Unknown Arena</string>
-    <string>Other:Unknown Arena</string>
+    <QuantityHolder>
+      <Name>Chersonese:Shipwreck Beach</Name>
+      <Quantity>3</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Chersonese:Cierzo</Name>
+      <Quantity>3</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Chersonese:Cierzo (Destroyed)</Name>
+      <Quantity>3</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Chersonese:Chersonese</Name>
+      <Quantity>3</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Chersonese:Corrupted Tombs</Name>
+      <Quantity>3</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Chersonese:Montcalm Clan Fort</Name>
+      <Quantity>3</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Hallowed Marsh:Monsoon</Name>
+      <Quantity>3</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Hallowed Marsh:Hallowed Marsh</Name>
+      <Quantity>3</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Hallowed Marsh:Giants’ Village</Name>
+      <Quantity>3</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Abrassar:Levant</Name>
+      <Quantity>3</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Abrassar:Abrassar</Name>
+      <Quantity>3</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Abrassar:Ancient Hive</Name>
+      <Quantity>3</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Enmerkar Forest:Berg</Name>
+      <Quantity>3</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Enmerkar Forest:Enmerkar Forest</Name>
+      <Quantity>3</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Enmerkar Forest:Royal Manticore’s Lair</Name>
+      <Quantity>3</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Enmerkar Forest:Forest Hives</Name>
+      <Quantity>3</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Enmerkar Forest:Damp Hunter's Cabin</Name>
+      <Quantity>3</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Other:Unknown Arena</Name>
+      <Quantity>3</Quantity>
+    </QuantityHolder>
   </Locations_Found>
   <All_DropTables>
     <string>DropTable_FireWood</string>

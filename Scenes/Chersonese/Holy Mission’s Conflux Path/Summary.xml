@@ -70,4 +70,12 @@
       </positions>
     </ItemSpawnHolder>
   </Item_Spawns>
+  <UniqueContainerList>
+    <string>Junk Pile_KnFwhaSP9kGCig1ZSb1QvQ</string>
+    <string>Junk Pile_gk4QiGvdC0mnPMQWCHK-Fw</string>
+    <string>Chest_IimKfZTcD0eK-CmJPEE8vA</string>
+    <string>Chest_ZD5de6mOGUq8LTJHyso0GA</string>
+    <string>Junk Pile_KG4nb8gesEu-_gbEaJyccQ</string>
+    <string>Junk Pile_k0PLrPmSokq8HH6M42pG6Q</string>
+  </UniqueContainerList>
 </SceneSummary>

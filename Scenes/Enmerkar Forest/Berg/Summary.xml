@@ -285,4 +285,14 @@
       </positions>
     </ItemSpawnHolder>
   </Item_Spawns>
+  <UniqueContainerList>
+    <string>Chest_SH8RdebrFEe5axEe452PlA</string>
+    <string>Junk Pile_DE2BDwDXskKG2KKX4OOA1A</string>
+    <string>Junk Pile_F0zJWOG9-EiQKQjX368XUg</string>
+    <string>Junk Pile_yDAF1daDGE-gLzkevXAptA</string>
+    <string>Junk Pile_soREG8PkiUSewd3KbVvo_Q</string>
+    <string>Stash_ImqRiGAT80aE2WtUHfdcMw</string>
+    <string>Junk Pile_YarhgQnB-0auWLw66IOKNg</string>
+    <string>Junk Pile_GjjVPVtRoU-GY2QQtZLhhg</string>
+  </UniqueContainerList>
 </SceneSummary>

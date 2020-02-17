@@ -21,4 +21,7 @@
     </QuantityHolder>
   </Gatherables>
   <Item_Spawns />
+  <UniqueContainerList>
+    <string>Chest_BgBnNaENRUivQIJ59ATJuw</string>
+  </UniqueContainerList>
 </SceneSummary>

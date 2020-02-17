@@ -20,4 +20,8 @@
   </Loot_Containers>
   <Gatherables />
   <Item_Spawns />
+  <UniqueContainerList>
+    <string>Knight’s Corpse_PuymyHZcvkO_5ZqyinkpAQ</string>
+    <string>Chest_Ut7UPwiov0-18oL-LsbAuQ</string>
+  </UniqueContainerList>
 </SceneSummary>

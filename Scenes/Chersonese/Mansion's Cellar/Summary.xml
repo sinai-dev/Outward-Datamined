@@ -47,4 +47,9 @@
       </positions>
     </ItemSpawnHolder>
   </Item_Spawns>
+  <UniqueContainerList>
+    <string>Ornate Chest_LWUz6ERd4UuflbCz-ZLfBA</string>
+    <string>Chest_yDEfeDVtTkS9xjkM4RHK7A</string>
+    <string>Junk Pile_F2vbw7OwK0O6c3M1EgaTjw</string>
+  </UniqueContainerList>
 </SceneSummary>

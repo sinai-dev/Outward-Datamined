@@ -49,4 +49,8 @@
       </positions>
     </ItemSpawnHolder>
   </Item_Spawns>
+  <UniqueContainerList>
+    <string>Chest_Cox5b_jmx0WgdJLTlgkrFw</string>
+    <string>Junk Pile_p2Sp8J8tRU-T_lz2RezNJQ</string>
+  </UniqueContainerList>
 </SceneSummary>

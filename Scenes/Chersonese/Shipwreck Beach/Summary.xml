@@ -178,4 +178,8 @@
       </positions>
     </ItemSpawnHolder>
   </Item_Spawns>
+  <UniqueContainerList>
+    <string>Junk Pile_csPu67n3sUCCQ6IQ0A5ZGQ</string>
+    <string>Hollowed Trunk_UIdBXve-mUapJv8HT3r76w</string>
+  </UniqueContainerList>
 </SceneSummary>

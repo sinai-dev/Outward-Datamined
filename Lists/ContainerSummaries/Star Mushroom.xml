@@ -3,71 +3,106 @@
   <Name>Star Mushroom</Name>
   <ItemID>0</ItemID>
   <Locations_Found>
-    <string>Abrassar:Ancient Hive</string>
-    <string>Abrassar:Ancient Hive</string>
-    <string>Abrassar:Electric Lab</string>
-    <string>Abrassar:Sand Rose Cave</string>
-    <string>Abrassar:Stone Titan Caves</string>
-    <string>Abrassar:Stone Titan Caves</string>
-    <string>Abrassar:The Slide</string>
-    <string>Abrassar:Undercity Passage</string>
-    <string>Abrassar:Undercity Passage</string>
-    <string>Chersonese:Blister Burrow</string>
-    <string>Chersonese:Blister Burrow</string>
-    <string>Chersonese:Blue Chamber’s Conflux Path</string>
-    <string>Chersonese:Conflux Chambers</string>
-    <string>Chersonese:Corrupted Tombs</string>
-    <string>Chersonese:Corrupted Tombs</string>
-    <string>Chersonese:Ghost Pass</string>
-    <string>Chersonese:Ghost Pass</string>
-    <string>Chersonese:Ghost Pass</string>
-    <string>Chersonese:Heroic Kingdom’s Conflux Path</string>
-    <string>Chersonese:Heroic Kingdom’s Conflux Path</string>
-    <string>Chersonese:Heroic Kingdom’s Conflux Path</string>
-    <string>Chersonese:Holy Mission’s Conflux Path</string>
-    <string>Chersonese:Holy Mission’s Conflux Path</string>
-    <string>Chersonese:Holy Mission’s Conflux Path</string>
-    <string>Chersonese:Vendavel Fortress</string>
-    <string>Chersonese:Vendavel Fortress</string>
-    <string>Chersonese:Voltaic Hatchery</string>
-    <string>Chersonese:Voltaic Hatchery</string>
-    <string>Chersonese:Voltaic Hatchery</string>
-    <string>Chersonese:Voltaic Hatchery</string>
-    <string>Enmerkar Forest:Face of the Ancients</string>
-    <string>Enmerkar Forest:Face of the Ancients</string>
-    <string>Enmerkar Forest:Forest Hives</string>
-    <string>Enmerkar Forest:Forest Hives</string>
-    <string>Enmerkar Forest:Necropolis</string>
-    <string>Enmerkar Forest:Necropolis</string>
-    <string>Enmerkar Forest:Royal Manticore’s Lair</string>
-    <string>Enmerkar Forest:Royal Manticore’s Lair</string>
-    <string>Enmerkar Forest:Royal Manticore’s Lair</string>
-    <string>Hallowed Marsh:Dead Roots</string>
-    <string>Hallowed Marsh:Giants’ Village</string>
-    <string>Hallowed Marsh:Hallowed Marsh</string>
-    <string>Hallowed Marsh:Hallowed Marsh</string>
-    <string>Hallowed Marsh:Hallowed Marsh</string>
-    <string>Hallowed Marsh:Hallowed Marsh</string>
-    <string>Hallowed Marsh:Hallowed Marsh</string>
-    <string>Hallowed Marsh:Hallowed Marsh</string>
-    <string>Hallowed Marsh:Hallowed Marsh</string>
-    <string>Hallowed Marsh:Hallowed Marsh</string>
-    <string>Hallowed Marsh:Hallowed Marsh</string>
-    <string>Hallowed Marsh:Hallowed Marsh</string>
-    <string>Hallowed Marsh:Hallowed Marsh</string>
-    <string>Hallowed Marsh:Hallowed Marsh</string>
-    <string>Hallowed Marsh:Hallowed Marsh</string>
-    <string>Hallowed Marsh:Hallowed Marsh</string>
-    <string>Hallowed Marsh:Hallowed Marsh</string>
-    <string>Hallowed Marsh:Jade Quarry</string>
-    <string>Hallowed Marsh:Reptilian Lair</string>
-    <string>Hallowed Marsh:Reptilian Lair</string>
-    <string>Hallowed Marsh:Reptilian Lair</string>
-    <string>Hallowed Marsh:Reptilian Lair</string>
-    <string>Hallowed Marsh:Reptilian Lair</string>
-    <string>Hallowed Marsh:Reptilian Lair</string>
-    <string>Hallowed Marsh:Ziggurat Passage</string>
-    <string>Hallowed Marsh:Ziggurat Passage</string>
+    <QuantityHolder>
+      <Name>Chersonese:Vendavel Fortress</Name>
+      <Quantity>2</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Chersonese:Blister Burrow</Name>
+      <Quantity>2</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Chersonese:Ghost Pass</Name>
+      <Quantity>3</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Chersonese:Blue Chamber’s Conflux Path</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Chersonese:Holy Mission’s Conflux Path</Name>
+      <Quantity>3</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Chersonese:Heroic Kingdom’s Conflux Path</Name>
+      <Quantity>3</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Chersonese:Voltaic Hatchery</Name>
+      <Quantity>4</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Chersonese:Conflux Chambers</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Chersonese:Corrupted Tombs</Name>
+      <Quantity>2</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Hallowed Marsh:Hallowed Marsh</Name>
+      <Quantity>15</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Hallowed Marsh:Jade Quarry</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Hallowed Marsh:Giants’ Village</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Hallowed Marsh:Reptilian Lair</Name>
+      <Quantity>6</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Hallowed Marsh:Ziggurat Passage</Name>
+      <Quantity>2</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Hallowed Marsh:Dead Roots</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Abrassar:Undercity Passage</Name>
+      <Quantity>2</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Abrassar:Electric Lab</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Abrassar:The Slide</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Abrassar:Stone Titan Caves</Name>
+      <Quantity>2</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Abrassar:Ancient Hive</Name>
+      <Quantity>2</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Abrassar:Sand Rose Cave</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Enmerkar Forest:Royal Manticore’s Lair</Name>
+      <Quantity>3</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Enmerkar Forest:Forest Hives</Name>
+      <Quantity>2</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Enmerkar Forest:Face of the Ancients</Name>
+      <Quantity>2</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Enmerkar Forest:Necropolis</Name>
+      <Quantity>2</Quantity>
+    </QuantityHolder>
   </Locations_Found>
   <All_DropTables>
     <string>DropTable_StarMushroom</string>

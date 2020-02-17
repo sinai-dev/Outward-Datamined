@@ -3,254 +3,178 @@
   <Name>Junk Pile</Name>
   <ItemID>0</ItemID>
   <Locations_Found>
-    <string>Abrassar:Abrassar</string>
-    <string>Abrassar:Abrassar</string>
-    <string>Abrassar:Abrassar</string>
-    <string>Abrassar:Abrassar</string>
-    <string>Abrassar:Abrassar</string>
-    <string>Abrassar:Abrassar</string>
-    <string>Abrassar:Abrassar</string>
-    <string>Abrassar:Abrassar</string>
-    <string>Abrassar:Electric Lab</string>
-    <string>Abrassar:Electric Lab</string>
-    <string>Abrassar:Electric Lab</string>
-    <string>Abrassar:Electric Lab</string>
-    <string>Abrassar:Electric Lab</string>
-    <string>Abrassar:Electric Lab</string>
-    <string>Abrassar:Electric Lab</string>
-    <string>Abrassar:Electric Lab</string>
-    <string>Abrassar:Levant</string>
-    <string>Abrassar:Levant</string>
-    <string>Abrassar:Levant</string>
-    <string>Abrassar:Levant</string>
-    <string>Abrassar:Levant</string>
-    <string>Abrassar:Levant</string>
-    <string>Abrassar:Levant</string>
-    <string>Abrassar:Levant</string>
-    <string>Abrassar:Levant</string>
-    <string>Abrassar:Levant</string>
-    <string>Abrassar:Levant</string>
-    <string>Abrassar:Levant</string>
-    <string>Abrassar:Levant</string>
-    <string>Abrassar:Levant</string>
-    <string>Abrassar:Levant</string>
-    <string>Abrassar:Levant</string>
-    <string>Abrassar:Levant</string>
-    <string>Abrassar:Levant</string>
-    <string>Abrassar:Levant</string>
-    <string>Abrassar:Levant</string>
-    <string>Abrassar:Levant</string>
-    <string>Abrassar:Levant</string>
-    <string>Abrassar:Ruined Outpost</string>
-    <string>Abrassar:Ruined Outpost</string>
-    <string>Abrassar:Sand Rose Cave</string>
-    <string>Abrassar:Sand Rose Cave</string>
-    <string>Abrassar:Sand Rose Cave</string>
-    <string>Abrassar:Sand Rose Cave</string>
-    <string>Abrassar:Sand Rose Cave</string>
-    <string>Abrassar:Sand Rose Cave</string>
-    <string>Abrassar:Stone Titan Caves</string>
-    <string>Abrassar:Stone Titan Caves</string>
-    <string>Abrassar:Stone Titan Caves</string>
-    <string>Abrassar:Stone Titan Caves</string>
-    <string>Abrassar:Stone Titan Caves</string>
-    <string>Abrassar:Stone Titan Caves</string>
-    <string>Abrassar:Stone Titan Caves</string>
-    <string>Abrassar:Stone Titan Caves</string>
-    <string>Abrassar:The Slide</string>
-    <string>Abrassar:The Slide</string>
-    <string>Abrassar:The Slide</string>
-    <string>Abrassar:The Slide</string>
-    <string>Abrassar:The Slide</string>
-    <string>Abrassar:The Slide</string>
-    <string>Abrassar:Undercity Passage</string>
-    <string>Abrassar:Undercity Passage</string>
-    <string>Abrassar:Undercity Passage</string>
-    <string>Abrassar:Undercity Passage</string>
-    <string>Chersonese:Blister Burrow</string>
-    <string>Chersonese:Blister Burrow</string>
-    <string>Chersonese:Blister Burrow</string>
-    <string>Chersonese:Blister Burrow</string>
-    <string>Chersonese:Blue Chamber’s Conflux Path</string>
-    <string>Chersonese:Blue Chamber’s Conflux Path</string>
-    <string>Chersonese:Blue Chamber’s Conflux Path</string>
-    <string>Chersonese:Blue Chamber’s Conflux Path</string>
-    <string>Chersonese:Blue Chamber’s Conflux Path</string>
-    <string>Chersonese:Blue Chamber’s Conflux Path</string>
-    <string>Chersonese:Chersonese</string>
-    <string>Chersonese:Chersonese</string>
-    <string>Chersonese:Cierzo</string>
-    <string>Chersonese:Cierzo</string>
-    <string>Chersonese:Cierzo</string>
-    <string>Chersonese:Cierzo</string>
-    <string>Chersonese:Cierzo</string>
-    <string>Chersonese:Cierzo</string>
-    <string>Chersonese:Cierzo</string>
-    <string>Chersonese:Cierzo</string>
-    <string>Chersonese:Cierzo (Destroyed)</string>
-    <string>Chersonese:Cierzo (Destroyed)</string>
-    <string>Chersonese:Cierzo (Destroyed)</string>
-    <string>Chersonese:Cierzo (Destroyed)</string>
-    <string>Chersonese:Cierzo (Destroyed)</string>
-    <string>Chersonese:Cierzo (Destroyed)</string>
-    <string>Chersonese:Cierzo (Destroyed)</string>
-    <string>Chersonese:Cierzo (Destroyed)</string>
-    <string>Chersonese:Cierzo (Destroyed)</string>
-    <string>Chersonese:Cierzo (Destroyed)</string>
-    <string>Chersonese:Cierzo (Destroyed)</string>
-    <string>Chersonese:Cierzo (Destroyed)</string>
-    <string>Chersonese:Cierzo (Destroyed)</string>
-    <string>Chersonese:Cierzo (Destroyed)</string>
-    <string>Chersonese:Cierzo Storage</string>
-    <string>Chersonese:Cierzo Storage</string>
-    <string>Chersonese:Corrupted Tombs</string>
-    <string>Chersonese:Corrupted Tombs</string>
-    <string>Chersonese:Corrupted Tombs</string>
-    <string>Chersonese:Corrupted Tombs</string>
-    <string>Chersonese:Ghost Pass</string>
-    <string>Chersonese:Ghost Pass</string>
-    <string>Chersonese:Ghost Pass</string>
-    <string>Chersonese:Ghost Pass</string>
-    <string>Chersonese:Ghost Pass</string>
-    <string>Chersonese:Ghost Pass</string>
-    <string>Chersonese:Hermit's House</string>
-    <string>Chersonese:Hermit's House</string>
-    <string>Chersonese:Heroic Kingdom’s Conflux Path</string>
-    <string>Chersonese:Heroic Kingdom’s Conflux Path</string>
-    <string>Chersonese:Heroic Kingdom’s Conflux Path</string>
-    <string>Chersonese:Heroic Kingdom’s Conflux Path</string>
-    <string>Chersonese:Holy Mission’s Conflux Path</string>
-    <string>Chersonese:Holy Mission’s Conflux Path</string>
-    <string>Chersonese:Holy Mission’s Conflux Path</string>
-    <string>Chersonese:Holy Mission’s Conflux Path</string>
-    <string>Chersonese:Holy Mission’s Conflux Path</string>
-    <string>Chersonese:Holy Mission’s Conflux Path</string>
-    <string>Chersonese:Holy Mission’s Conflux Path</string>
-    <string>Chersonese:Holy Mission’s Conflux Path</string>
-    <string>Chersonese:Mansion's Cellar</string>
-    <string>Chersonese:Mansion's Cellar</string>
-    <string>Chersonese:Montcalm Clan Fort</string>
-    <string>Chersonese:Montcalm Clan Fort</string>
-    <string>Chersonese:Montcalm Clan Fort</string>
-    <string>Chersonese:Montcalm Clan Fort</string>
-    <string>Chersonese:Montcalm Clan Fort</string>
-    <string>Chersonese:Montcalm Clan Fort</string>
-    <string>Chersonese:Pirates' Hideout</string>
-    <string>Chersonese:Pirates' Hideout</string>
-    <string>Chersonese:Shipwreck Beach</string>
-    <string>Chersonese:Shipwreck Beach</string>
-    <string>Chersonese:Starfish Cave</string>
-    <string>Chersonese:Starfish Cave</string>
-    <string>Chersonese:Vendavel Fortress</string>
-    <string>Chersonese:Vendavel Fortress</string>
-    <string>Chersonese:Vendavel Fortress</string>
-    <string>Chersonese:Vendavel Fortress</string>
-    <string>Chersonese:Vendavel Fortress</string>
-    <string>Chersonese:Vendavel Fortress</string>
-    <string>Chersonese:Vigil Tomb</string>
-    <string>Chersonese:Vigil Tomb</string>
-    <string>Enmerkar Forest:Ancestor’s Resting Place</string>
-    <string>Enmerkar Forest:Ancestor’s Resting Place</string>
-    <string>Enmerkar Forest:Ancestor’s Resting Place</string>
-    <string>Enmerkar Forest:Ancestor’s Resting Place</string>
-    <string>Enmerkar Forest:Ancestor’s Resting Place</string>
-    <string>Enmerkar Forest:Ancestor’s Resting Place</string>
-    <string>Enmerkar Forest:Berg</string>
-    <string>Enmerkar Forest:Berg</string>
-    <string>Enmerkar Forest:Berg</string>
-    <string>Enmerkar Forest:Berg</string>
-    <string>Enmerkar Forest:Berg</string>
-    <string>Enmerkar Forest:Berg</string>
-    <string>Enmerkar Forest:Berg</string>
-    <string>Enmerkar Forest:Berg</string>
-    <string>Enmerkar Forest:Berg</string>
-    <string>Enmerkar Forest:Berg</string>
-    <string>Enmerkar Forest:Berg</string>
-    <string>Enmerkar Forest:Berg</string>
-    <string>Enmerkar Forest:Cabal of Wind Temple</string>
-    <string>Enmerkar Forest:Cabal of Wind Temple</string>
-    <string>Enmerkar Forest:Cabal of Wind Temple</string>
-    <string>Enmerkar Forest:Cabal of Wind Temple</string>
-    <string>Enmerkar Forest:Cabal of Wind Temple</string>
-    <string>Enmerkar Forest:Cabal of Wind Temple</string>
-    <string>Enmerkar Forest:Face of the Ancients</string>
-    <string>Enmerkar Forest:Face of the Ancients</string>
-    <string>Enmerkar Forest:Face of the Ancients</string>
-    <string>Enmerkar Forest:Face of the Ancients</string>
-    <string>Enmerkar Forest:Face of the Ancients</string>
-    <string>Enmerkar Forest:Face of the Ancients</string>
-    <string>Enmerkar Forest:Necropolis</string>
-    <string>Enmerkar Forest:Necropolis</string>
-    <string>Enmerkar Forest:Necropolis</string>
-    <string>Enmerkar Forest:Necropolis</string>
-    <string>Enmerkar Forest:Necropolis</string>
-    <string>Enmerkar Forest:Necropolis</string>
-    <string>Enmerkar Forest:Necropolis</string>
-    <string>Enmerkar Forest:Necropolis</string>
-    <string>Enmerkar Forest:Tree Husk</string>
-    <string>Enmerkar Forest:Tree Husk</string>
-    <string>Enmerkar Forest:Vigil Pylon</string>
-    <string>Enmerkar Forest:Vigil Pylon</string>
-    <string>Enmerkar Forest:Worn Hunter's Cabin</string>
-    <string>Enmerkar Forest:Worn Hunter's Cabin</string>
-    <string>Hallowed Marsh:Abandoned Shed</string>
-    <string>Hallowed Marsh:Abandoned Shed</string>
-    <string>Hallowed Marsh:Dark Ziggurat Interior</string>
-    <string>Hallowed Marsh:Dark Ziggurat Interior</string>
-    <string>Hallowed Marsh:Dark Ziggurat Interior</string>
-    <string>Hallowed Marsh:Dark Ziggurat Interior</string>
-    <string>Hallowed Marsh:Dark Ziggurat Interior</string>
-    <string>Hallowed Marsh:Dark Ziggurat Interior</string>
-    <string>Hallowed Marsh:Dark Ziggurat Interior</string>
-    <string>Hallowed Marsh:Dark Ziggurat Interior</string>
-    <string>Hallowed Marsh:Dark Ziggurat Interior</string>
-    <string>Hallowed Marsh:Dark Ziggurat Interior</string>
-    <string>Hallowed Marsh:Dead Roots</string>
-    <string>Hallowed Marsh:Dead Roots</string>
-    <string>Hallowed Marsh:Dead Roots</string>
-    <string>Hallowed Marsh:Dead Roots</string>
-    <string>Hallowed Marsh:Dead Roots</string>
-    <string>Hallowed Marsh:Dead Roots</string>
-    <string>Hallowed Marsh:Dead Roots</string>
-    <string>Hallowed Marsh:Dead Roots</string>
-    <string>Hallowed Marsh:Giants’ Village</string>
-    <string>Hallowed Marsh:Giants’ Village</string>
-    <string>Hallowed Marsh:Giants’ Village</string>
-    <string>Hallowed Marsh:Giants’ Village</string>
-    <string>Hallowed Marsh:Giants’ Village</string>
-    <string>Hallowed Marsh:Giants’ Village</string>
-    <string>Hallowed Marsh:Jade Quarry</string>
-    <string>Hallowed Marsh:Jade Quarry</string>
-    <string>Hallowed Marsh:Jade Quarry</string>
-    <string>Hallowed Marsh:Jade Quarry</string>
-    <string>Hallowed Marsh:Jade Quarry</string>
-    <string>Hallowed Marsh:Jade Quarry</string>
-    <string>Hallowed Marsh:Monsoon</string>
-    <string>Hallowed Marsh:Monsoon</string>
-    <string>Hallowed Marsh:Monsoon</string>
-    <string>Hallowed Marsh:Monsoon</string>
-    <string>Hallowed Marsh:Monsoon</string>
-    <string>Hallowed Marsh:Monsoon</string>
-    <string>Hallowed Marsh:Monsoon</string>
-    <string>Hallowed Marsh:Monsoon</string>
-    <string>Hallowed Marsh:Reptilian Lair</string>
-    <string>Hallowed Marsh:Reptilian Lair</string>
-    <string>Hallowed Marsh:Reptilian Lair</string>
-    <string>Hallowed Marsh:Reptilian Lair</string>
-    <string>Hallowed Marsh:Spire of Light</string>
-    <string>Hallowed Marsh:Spire of Light</string>
-    <string>Hallowed Marsh:Spire of Light</string>
-    <string>Hallowed Marsh:Spire of Light</string>
-    <string>Hallowed Marsh:Spire of Light</string>
-    <string>Hallowed Marsh:Spire of Light</string>
-    <string>Hallowed Marsh:Spire of Light</string>
-    <string>Hallowed Marsh:Spire of Light</string>
-    <string>Hallowed Marsh:Spire of Light</string>
-    <string>Hallowed Marsh:Spire of Light</string>
-    <string>Hallowed Marsh:Ziggurat Passage</string>
-    <string>Hallowed Marsh:Ziggurat Passage</string>
-    <string>Hallowed Marsh:Ziggurat Passage</string>
-    <string>Hallowed Marsh:Ziggurat Passage</string>
+    <QuantityHolder>
+      <Name>Chersonese:Shipwreck Beach</Name>
+      <Quantity>2</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Chersonese:Cierzo</Name>
+      <Quantity>8</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Chersonese:Cierzo (Destroyed)</Name>
+      <Quantity>14</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Chersonese:Chersonese</Name>
+      <Quantity>2</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Chersonese:Vendavel Fortress</Name>
+      <Quantity>6</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Chersonese:Blister Burrow</Name>
+      <Quantity>4</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Chersonese:Ghost Pass</Name>
+      <Quantity>6</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Chersonese:Blue Chamber’s Conflux Path</Name>
+      <Quantity>6</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Chersonese:Holy Mission’s Conflux Path</Name>
+      <Quantity>8</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Chersonese:Heroic Kingdom’s Conflux Path</Name>
+      <Quantity>4</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Chersonese:Corrupted Tombs</Name>
+      <Quantity>4</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Chersonese:Cierzo Storage</Name>
+      <Quantity>2</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Chersonese:Montcalm Clan Fort</Name>
+      <Quantity>6</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Chersonese:Pirates' Hideout</Name>
+      <Quantity>2</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Chersonese:Vigil Tomb</Name>
+      <Quantity>2</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Chersonese:Starfish Cave</Name>
+      <Quantity>2</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Chersonese:Hermit's House</Name>
+      <Quantity>2</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Chersonese:Mansion's Cellar</Name>
+      <Quantity>2</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Hallowed Marsh:Monsoon</Name>
+      <Quantity>8</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Hallowed Marsh:Jade Quarry</Name>
+      <Quantity>6</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Hallowed Marsh:Giants’ Village</Name>
+      <Quantity>6</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Hallowed Marsh:Reptilian Lair</Name>
+      <Quantity>4</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Hallowed Marsh:Dark Ziggurat Interior</Name>
+      <Quantity>10</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Hallowed Marsh:Spire of Light</Name>
+      <Quantity>10</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Hallowed Marsh:Ziggurat Passage</Name>
+      <Quantity>4</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Hallowed Marsh:Dead Roots</Name>
+      <Quantity>8</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Hallowed Marsh:Abandoned Shed</Name>
+      <Quantity>2</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Abrassar:Levant</Name>
+      <Quantity>22</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Abrassar:Abrassar</Name>
+      <Quantity>8</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Abrassar:Undercity Passage</Name>
+      <Quantity>4</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Abrassar:Electric Lab</Name>
+      <Quantity>8</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Abrassar:The Slide</Name>
+      <Quantity>6</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Abrassar:Stone Titan Caves</Name>
+      <Quantity>8</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Abrassar:Sand Rose Cave</Name>
+      <Quantity>6</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Abrassar:Ruined Outpost</Name>
+      <Quantity>2</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Enmerkar Forest:Berg</Name>
+      <Quantity>12</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Enmerkar Forest:Cabal of Wind Temple</Name>
+      <Quantity>6</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Enmerkar Forest:Face of the Ancients</Name>
+      <Quantity>6</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Enmerkar Forest:Ancestor’s Resting Place</Name>
+      <Quantity>6</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Enmerkar Forest:Necropolis</Name>
+      <Quantity>8</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Enmerkar Forest:Vigil Pylon</Name>
+      <Quantity>2</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Enmerkar Forest:Tree Husk</Name>
+      <Quantity>2</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Enmerkar Forest:Worn Hunter's Cabin</Name>
+      <Quantity>2</Quantity>
+    </QuantityHolder>
   </Locations_Found>
   <All_DropTables>
     <string>DropTable_CierzoTutorialChest_C_1</string>

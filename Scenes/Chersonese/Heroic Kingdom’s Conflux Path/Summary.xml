@@ -103,4 +103,13 @@
       </positions>
     </ItemSpawnHolder>
   </Item_Spawns>
+  <UniqueContainerList>
+    <string>Soldier’s Corpse_g1c8fIRpzUCsnyz3MFb-7Q</string>
+    <string>Chest_hW6kfdIq0Uehu-LFjndT5g</string>
+    <string>Junk Pile_wzCwDAQfNEOncVwkMWx5nQ</string>
+    <string>Soldier’s Corpse_5mG4l8QuxEq7XXwZmPNHaQ</string>
+    <string>Junk Pile_gXWhEvSshU-phTyPCsQcOw</string>
+    <string>Soldier’s Corpse_vzOblv5FNkKHlB44VF9Rgg</string>
+    <string>Chest_aImZWu9owE-YsTc4iZ3NJg</string>
+  </UniqueContainerList>
 </SceneSummary>

@@ -3,14 +3,22 @@
   <Name>Legacy Chest</Name>
   <ItemID>0</ItemID>
   <Locations_Found>
-    <string>Abrassar:The Slide</string>
-    <string>Abrassar:The Slide</string>
-    <string>Chersonese:Cierzo Storage</string>
-    <string>Chersonese:Cierzo Storage</string>
-    <string>Enmerkar Forest:Vigil Pylon</string>
-    <string>Enmerkar Forest:Vigil Pylon</string>
-    <string>Hallowed Marsh:Spire of Light</string>
-    <string>Hallowed Marsh:Spire of Light</string>
+    <QuantityHolder>
+      <Name>Chersonese:Cierzo Storage</Name>
+      <Quantity>2</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Hallowed Marsh:Spire of Light</Name>
+      <Quantity>2</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Abrassar:The Slide</Name>
+      <Quantity>2</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Enmerkar Forest:Vigil Pylon</Name>
+      <Quantity>2</Quantity>
+    </QuantityHolder>
   </Locations_Found>
   <All_DropTables />
 </ContainerSummary>

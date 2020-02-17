@@ -29,4 +29,7 @@
       </positions>
     </ItemSpawnHolder>
   </Item_Spawns>
+  <UniqueContainerList>
+    <string>Worker’s Corpse_n-qCcYzP7kuQw2r0ZosMyw</string>
+  </UniqueContainerList>
 </SceneSummary>

@@ -24,4 +24,9 @@
   </Loot_Containers>
   <Gatherables />
   <Item_Spawns />
+  <UniqueContainerList>
+    <string>Ornate Chest_Akq4kr9MUEmxgjMh8_oC4A</string>
+    <string>Chest_4uKjFcBxM0WGVD_Z8eC_9g</string>
+    <string>Worker’s Corpse_td0ulMxQv0a_0Q2gy1zH2g</string>
+  </UniqueContainerList>
 </SceneSummary>
