@@ -5,19 +5,19 @@
   <Locations_Found>
     <QuantityHolder>
       <Name>Chersonese:Cierzo Storage</Name>
-      <Quantity>2</Quantity>
+      <Quantity>1</Quantity>
     </QuantityHolder>
     <QuantityHolder>
       <Name>Hallowed Marsh:Spire of Light</Name>
-      <Quantity>2</Quantity>
+      <Quantity>1</Quantity>
     </QuantityHolder>
     <QuantityHolder>
       <Name>Abrassar:The Slide</Name>
-      <Quantity>2</Quantity>
+      <Quantity>1</Quantity>
     </QuantityHolder>
     <QuantityHolder>
       <Name>Enmerkar Forest:Vigil Pylon</Name>
-      <Quantity>2</Quantity>
+      <Quantity>1</Quantity>
     </QuantityHolder>
   </Locations_Found>
   <All_DropTables />

@@ -5,19 +5,19 @@
   <Locations_Found>
     <QuantityHolder>
       <Name>Chersonese:Chersonese</Name>
-      <Quantity>40</Quantity>
+      <Quantity>20</Quantity>
     </QuantityHolder>
     <QuantityHolder>
       <Name>Hallowed Marsh:Hallowed Marsh</Name>
-      <Quantity>40</Quantity>
+      <Quantity>20</Quantity>
     </QuantityHolder>
     <QuantityHolder>
       <Name>Abrassar:Abrassar</Name>
-      <Quantity>40</Quantity>
+      <Quantity>20</Quantity>
     </QuantityHolder>
     <QuantityHolder>
       <Name>Enmerkar Forest:Enmerkar Forest</Name>
-      <Quantity>40</Quantity>
+      <Quantity>20</Quantity>
     </QuantityHolder>
   </Locations_Found>
   <All_DropTables>

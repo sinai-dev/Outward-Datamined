@@ -5,15 +5,15 @@
   <Locations_Found>
     <QuantityHolder>
       <Name>Chersonese:Chersonese</Name>
-      <Quantity>2</Quantity>
+      <Quantity>1</Quantity>
     </QuantityHolder>
     <QuantityHolder>
       <Name>Chersonese:Corrupted Tombs</Name>
-      <Quantity>2</Quantity>
+      <Quantity>1</Quantity>
     </QuantityHolder>
     <QuantityHolder>
       <Name>Hallowed Marsh:Hallowed Marsh</Name>
-      <Quantity>4</Quantity>
+      <Quantity>2</Quantity>
     </QuantityHolder>
   </Locations_Found>
   <All_DropTables>

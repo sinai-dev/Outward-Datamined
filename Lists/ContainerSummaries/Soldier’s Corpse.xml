@@ -5,31 +5,31 @@
   <Locations_Found>
     <QuantityHolder>
       <Name>Chersonese:Chersonese</Name>
-      <Quantity>2</Quantity>
+      <Quantity>1</Quantity>
     </QuantityHolder>
     <QuantityHolder>
       <Name>Chersonese:Heroic Kingdom’s Conflux Path</Name>
-      <Quantity>6</Quantity>
+      <Quantity>3</Quantity>
     </QuantityHolder>
     <QuantityHolder>
       <Name>Chersonese:Corrupted Tombs</Name>
-      <Quantity>2</Quantity>
+      <Quantity>1</Quantity>
     </QuantityHolder>
     <QuantityHolder>
       <Name>Hallowed Marsh:Hallowed Marsh</Name>
-      <Quantity>4</Quantity>
+      <Quantity>2</Quantity>
     </QuantityHolder>
     <QuantityHolder>
       <Name>Hallowed Marsh:Dead Roots</Name>
-      <Quantity>2</Quantity>
+      <Quantity>1</Quantity>
     </QuantityHolder>
     <QuantityHolder>
       <Name>Abrassar:Ancient Hive</Name>
-      <Quantity>2</Quantity>
+      <Quantity>1</Quantity>
     </QuantityHolder>
     <QuantityHolder>
       <Name>Enmerkar Forest:Forest Hives</Name>
-      <Quantity>2</Quantity>
+      <Quantity>1</Quantity>
     </QuantityHolder>
   </Locations_Found>
   <All_DropTables>
