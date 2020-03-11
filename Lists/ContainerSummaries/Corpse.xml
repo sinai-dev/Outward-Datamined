@@ -22,6 +22,32 @@
   </All_Locations>
   <DropTables>
     <ContainerDroptableSummary>
+      <Locations />
+    </ContainerDroptableSummary>
+    <ContainerDroptableSummary>
+      <DropTableName>DropTable_Neutral_Magic_Low_2</DropTableName>
+      <Locations>
+        <string>Blister Burrow</string>
+        <string>Abrassar</string>
+        <string>Hive Prison</string>
+      </Locations>
+    </ContainerDroptableSummary>
+    <ContainerDroptableSummary>
+      <DropTableName>DropTable_Neutral_Consumable_Low_2</DropTableName>
+      <Locations>
+        <string>Blister Burrow</string>
+        <string>Trog Infiltration</string>
+        <string>Abrassar</string>
+      </Locations>
+    </ContainerDroptableSummary>
+    <ContainerDroptableSummary>
+      <DropTableName>DropTable_Neutral_Survival_Medium_1</DropTableName>
+      <Locations>
+        <string>Blister Burrow</string>
+        <string>Abrassar</string>
+      </Locations>
+    </ContainerDroptableSummary>
+    <ContainerDroptableSummary>
       <DropTableName>DropTable_Neutral_Magic_High_1</DropTableName>
       <Locations>
         <string>Trog Infiltration</string>
@@ -37,20 +63,6 @@
       </Locations>
     </ContainerDroptableSummary>
     <ContainerDroptableSummary>
-      <DropTableName>DropTable_Neutral_Consumable_Low_2</DropTableName>
-      <Locations>
-        <string>Trog Infiltration</string>
-        <string>Abrassar</string>
-      </Locations>
-    </ContainerDroptableSummary>
-    <ContainerDroptableSummary>
-      <DropTableName>DropTable_Neutral_Magic_Low_2</DropTableName>
-      <Locations>
-        <string>Abrassar</string>
-        <string>Hive Prison</string>
-      </Locations>
-    </ContainerDroptableSummary>
-    <ContainerDroptableSummary>
       <DropTableName>DropTable_Neutral_Alchemy_Low_2</DropTableName>
       <Locations>
         <string>Abrassar</string>
@@ -61,12 +73,6 @@
       <Locations>
         <string>Abrassar</string>
         <string>Hive Prison</string>
-      </Locations>
-    </ContainerDroptableSummary>
-    <ContainerDroptableSummary>
-      <DropTableName>DropTable_Neutral_Survival_Medium_1</DropTableName>
-      <Locations>
-        <string>Abrassar</string>
       </Locations>
     </ContainerDroptableSummary>
     <ContainerDroptableSummary>

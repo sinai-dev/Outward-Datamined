@@ -178,6 +178,15 @@
   </All_Locations>
   <DropTables>
     <ContainerDroptableSummary>
+      <Locations />
+    </ContainerDroptableSummary>
+    <ContainerDroptableSummary>
+      <DropTableName>DropTable_CierzoTutorialChest_C_1</DropTableName>
+      <Locations>
+        <string>Shipwreck Beach</string>
+      </Locations>
+    </ContainerDroptableSummary>
+    <ContainerDroptableSummary>
       <DropTableName>DropTable_Neutral_Cloth_Poor_1</DropTableName>
       <Locations>
         <string>Cierzo</string>

@@ -50,6 +50,37 @@
   </All_Locations>
   <DropTables>
     <ContainerDroptableSummary>
+      <Locations />
+    </ContainerDroptableSummary>
+    <ContainerDroptableSummary>
+      <DropTableName>DropTable_Neutral_Consumable_Low_2</DropTableName>
+      <Locations>
+        <string>Blue Chamber’s Conflux Path</string>
+        <string>Ziggurat Passage</string>
+        <string>Stone Titan Caves</string>
+        <string>Ancient Hive</string>
+        <string>Cabal of Wind Temple</string>
+        <string>Face of the Ancients</string>
+      </Locations>
+    </ContainerDroptableSummary>
+    <ContainerDroptableSummary>
+      <DropTableName>DropTable_Neutral_Survival_High_1</DropTableName>
+      <Locations>
+        <string>Blue Chamber’s Conflux Path</string>
+        <string>Ziggurat Passage</string>
+        <string>Ancient Hive</string>
+      </Locations>
+    </ContainerDroptableSummary>
+    <ContainerDroptableSummary>
+      <DropTableName>DropTable_Neutral_StandardRecipe_Low_1</DropTableName>
+      <Locations>
+        <string>Blue Chamber’s Conflux Path</string>
+        <string>Ziggurat Passage</string>
+        <string>Under Island</string>
+        <string>Ancient Hive</string>
+      </Locations>
+    </ContainerDroptableSummary>
+    <ContainerDroptableSummary>
       <DropTableName>DropTable_Neutral_Survival_Medium_1</DropTableName>
       <Locations>
         <string>Corrupted Tombs</string>
@@ -104,31 +135,6 @@
         <string>Jade Quarry</string>
         <string>Face of the Ancients</string>
         <string>Damp Hunter's Cabin</string>
-      </Locations>
-    </ContainerDroptableSummary>
-    <ContainerDroptableSummary>
-      <DropTableName>DropTable_Neutral_Consumable_Low_2</DropTableName>
-      <Locations>
-        <string>Ziggurat Passage</string>
-        <string>Stone Titan Caves</string>
-        <string>Ancient Hive</string>
-        <string>Cabal of Wind Temple</string>
-        <string>Face of the Ancients</string>
-      </Locations>
-    </ContainerDroptableSummary>
-    <ContainerDroptableSummary>
-      <DropTableName>DropTable_Neutral_Survival_High_1</DropTableName>
-      <Locations>
-        <string>Ziggurat Passage</string>
-        <string>Ancient Hive</string>
-      </Locations>
-    </ContainerDroptableSummary>
-    <ContainerDroptableSummary>
-      <DropTableName>DropTable_Neutral_StandardRecipe_Low_1</DropTableName>
-      <Locations>
-        <string>Ziggurat Passage</string>
-        <string>Under Island</string>
-        <string>Ancient Hive</string>
       </Locations>
     </ContainerDroptableSummary>
     <ContainerDroptableSummary>

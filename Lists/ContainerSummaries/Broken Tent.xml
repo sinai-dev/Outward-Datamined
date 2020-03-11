@@ -18,21 +18,33 @@
   </All_Locations>
   <DropTables>
     <ContainerDroptableSummary>
-      <DropTableName>DropTable_Neutral_Alchemy_Low_2</DropTableName>
-      <Locations>
-        <string>Corrupted Tombs</string>
-      </Locations>
+      <Locations />
     </ContainerDroptableSummary>
     <ContainerDroptableSummary>
       <DropTableName>DropTable_Neutral_Consumable_Low_2</DropTableName>
       <Locations>
+        <string>Chersonese</string>
         <string>Corrupted Tombs</string>
       </Locations>
     </ContainerDroptableSummary>
     <ContainerDroptableSummary>
       <DropTableName>DropTable_Neutral_Survival_Low_2</DropTableName>
       <Locations>
+        <string>Chersonese</string>
         <string>Corrupted Tombs</string>
+      </Locations>
+    </ContainerDroptableSummary>
+    <ContainerDroptableSummary>
+      <DropTableName>DropTable_Neutral_Alchemy_Low_2</DropTableName>
+      <Locations>
+        <string>Chersonese</string>
+        <string>Corrupted Tombs</string>
+      </Locations>
+    </ContainerDroptableSummary>
+    <ContainerDroptableSummary>
+      <DropTableName>DropTable_Neutral_StandardRecipe_Low_1</DropTableName>
+      <Locations>
+        <string>Chersonese</string>
       </Locations>
     </ContainerDroptableSummary>
     <ContainerDroptableSummary>

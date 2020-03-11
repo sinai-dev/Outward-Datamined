@@ -78,8 +78,12 @@
   </All_Locations>
   <DropTables>
     <ContainerDroptableSummary>
+      <Locations />
+    </ContainerDroptableSummary>
+    <ContainerDroptableSummary>
       <DropTableName>DropTable_FireWood</DropTableName>
       <Locations>
+        <string>Shipwreck Beach</string>
         <string>Cierzo</string>
         <string>Cierzo (Destroyed)</string>
         <string>Chersonese</string>

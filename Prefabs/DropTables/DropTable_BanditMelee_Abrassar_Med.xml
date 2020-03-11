@@ -2,5 +2,150 @@
 <DroptableHolder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Name>DropTable_BanditMelee_Abrassar_Med</Name>
   <Guaranteed_Drops />
-  <Random_Tables />
+  <Random_Tables>
+    <DropGeneratorHolder>
+      <MinNumberOfDrops>2</MinNumberOfDrops>
+      <MaxNumberOfDrops>3</MaxNumberOfDrops>
+      <MaxDiceValue>204</MaxDiceValue>
+      <EmptyDrop>0</EmptyDrop>
+      <Item_Drops>
+        <DropTableChanceEntry>
+          <Item_Name>Bandages</Item_Name>
+          <Item_ID>4400010</Item_ID>
+          <Min_Quantity>1</Min_Quantity>
+          <Max_Quantity>1</Max_Quantity>
+          <Drop_Chance>4.9</Drop_Chance>
+          <Dice_Range>9</Dice_Range>
+        </DropTableChanceEntry>
+        <DropTableChanceEntry>
+          <Item_Name>Linen Cloth</Item_Name>
+          <Item_ID>6500090</Item_ID>
+          <Min_Quantity>1</Min_Quantity>
+          <Max_Quantity>3</Max_Quantity>
+          <Drop_Chance>14.71</Drop_Chance>
+          <Dice_Range>29</Dice_Range>
+        </DropTableChanceEntry>
+        <DropTableChanceEntry>
+          <Item_Name>Travel Ration</Item_Name>
+          <Item_ID>4100550</Item_ID>
+          <Min_Quantity>1</Min_Quantity>
+          <Max_Quantity>1</Max_Quantity>
+          <Drop_Chance>9.8</Drop_Chance>
+          <Dice_Range>19</Dice_Range>
+        </DropTableChanceEntry>
+        <DropTableChanceEntry>
+          <Item_Name>Waterskin</Item_Name>
+          <Item_ID>4200040</Item_ID>
+          <Min_Quantity>1</Min_Quantity>
+          <Max_Quantity>1</Max_Quantity>
+          <Drop_Chance>0.98</Drop_Chance>
+          <Dice_Range>1</Dice_Range>
+        </DropTableChanceEntry>
+        <DropTableChanceEntry>
+          <Item_Name>Jerky</Item_Name>
+          <Item_ID>4100012</Item_ID>
+          <Min_Quantity>1</Min_Quantity>
+          <Max_Quantity>1</Max_Quantity>
+          <Drop_Chance>7.35</Drop_Chance>
+          <Dice_Range>14</Dice_Range>
+        </DropTableChanceEntry>
+        <DropTableChanceEntry>
+          <Item_Name>Dry Mushroom Bar</Item_Name>
+          <Item_ID>4100250</Item_ID>
+          <Min_Quantity>1</Min_Quantity>
+          <Max_Quantity>1</Max_Quantity>
+          <Drop_Chance>7.35</Drop_Chance>
+          <Dice_Range>14</Dice_Range>
+        </DropTableChanceEntry>
+        <DropTableChanceEntry>
+          <Item_Name>Bread</Item_Name>
+          <Item_ID>4100170</Item_ID>
+          <Min_Quantity>1</Min_Quantity>
+          <Max_Quantity>1</Max_Quantity>
+          <Drop_Chance>7.35</Drop_Chance>
+          <Dice_Range>14</Dice_Range>
+        </DropTableChanceEntry>
+        <DropTableChanceEntry>
+          <Item_Name>Salt</Item_Name>
+          <Item_ID>6000070</Item_ID>
+          <Min_Quantity>1</Min_Quantity>
+          <Max_Quantity>1</Max_Quantity>
+          <Drop_Chance>7.35</Drop_Chance>
+          <Dice_Range>14</Dice_Range>
+        </DropTableChanceEntry>
+        <DropTableChanceEntry>
+          <Item_Name>Antidote</Item_Name>
+          <Item_ID>4300110</Item_ID>
+          <Min_Quantity>1</Min_Quantity>
+          <Max_Quantity>1</Max_Quantity>
+          <Drop_Chance>2.45</Drop_Chance>
+          <Dice_Range>4</Dice_Range>
+        </DropTableChanceEntry>
+        <DropTableChanceEntry>
+          <Item_Name>Desert Tunic</Item_Name>
+          <Item_ID>3000200</Item_ID>
+          <Min_Quantity>1</Min_Quantity>
+          <Max_Quantity>1</Max_Quantity>
+          <Drop_Chance>3.92</Drop_Chance>
+          <Dice_Range>7</Dice_Range>
+        </DropTableChanceEntry>
+        <DropTableChanceEntry>
+          <Item_Name>Desert Veil</Item_Name>
+          <Item_ID>3000203</Item_ID>
+          <Min_Quantity>1</Min_Quantity>
+          <Max_Quantity>1</Max_Quantity>
+          <Drop_Chance>3.92</Drop_Chance>
+          <Dice_Range>7</Dice_Range>
+        </DropTableChanceEntry>
+        <DropTableChanceEntry>
+          <Item_Name>Desert Boots</Item_Name>
+          <Item_ID>3000205</Item_ID>
+          <Min_Quantity>1</Min_Quantity>
+          <Max_Quantity>1</Max_Quantity>
+          <Drop_Chance>4.9</Drop_Chance>
+          <Dice_Range>9</Dice_Range>
+        </DropTableChanceEntry>
+        <DropTableChanceEntry>
+          <Item_Name>Tripwire Trap</Item_Name>
+          <Item_ID>5020010</Item_ID>
+          <Min_Quantity>1</Min_Quantity>
+          <Max_Quantity>1</Max_Quantity>
+          <Drop_Chance>3.92</Drop_Chance>
+          <Dice_Range>7</Dice_Range>
+        </DropTableChanceEntry>
+        <DropTableChanceEntry>
+          <Item_Name>Spikes – Iron</Item_Name>
+          <Item_ID>6500100</Item_ID>
+          <Min_Quantity>1</Min_Quantity>
+          <Max_Quantity>1</Max_Quantity>
+          <Drop_Chance>3.92</Drop_Chance>
+          <Dice_Range>7</Dice_Range>
+        </DropTableChanceEntry>
+        <DropTableChanceEntry>
+          <Item_Name>Silver</Item_Name>
+          <Item_ID>9000010</Item_ID>
+          <Min_Quantity>4</Min_Quantity>
+          <Max_Quantity>6</Max_Quantity>
+          <Drop_Chance>9.8</Drop_Chance>
+          <Dice_Range>19</Dice_Range>
+        </DropTableChanceEntry>
+        <DropTableChanceEntry>
+          <Item_Name>Cactus Fruit</Item_Name>
+          <Item_ID>4000200</Item_ID>
+          <Min_Quantity>1</Min_Quantity>
+          <Max_Quantity>1</Max_Quantity>
+          <Drop_Chance>4.9</Drop_Chance>
+          <Dice_Range>9</Dice_Range>
+        </DropTableChanceEntry>
+        <DropTableChanceEntry>
+          <Item_Name>Cactus Pie</Item_Name>
+          <Item_ID>4100490</Item_ID>
+          <Min_Quantity>1</Min_Quantity>
+          <Max_Quantity>1</Max_Quantity>
+          <Drop_Chance>2.45</Drop_Chance>
+          <Dice_Range>4</Dice_Range>
+        </DropTableChanceEntry>
+      </Item_Drops>
+    </DropGeneratorHolder>
+  </Random_Tables>
 </DroptableHolder>

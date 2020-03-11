@@ -38,6 +38,9 @@
   </All_Locations>
   <DropTables>
     <ContainerDroptableSummary>
+      <Locations />
+    </ContainerDroptableSummary>
+    <ContainerDroptableSummary>
       <DropTableName>DropTable_Smokeroot</DropTableName>
       <Locations>
         <string>Abrassar</string>

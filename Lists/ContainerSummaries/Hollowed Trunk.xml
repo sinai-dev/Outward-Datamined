@@ -38,19 +38,29 @@
   </All_Locations>
   <DropTables>
     <ContainerDroptableSummary>
-      <DropTableName>DropTable_Chersonese_Equipment_Low_1</DropTableName>
+      <Locations />
+    </ContainerDroptableSummary>
+    <ContainerDroptableSummary>
+      <DropTableName>DropTable_Neutral_Cloth_Poor_1</DropTableName>
       <Locations>
-        <string>Chersonese</string>
+        <string>Shipwreck Beach</string>
       </Locations>
     </ContainerDroptableSummary>
     <ContainerDroptableSummary>
       <DropTableName>DropTable_Neutral_Survival_Low_2</DropTableName>
       <Locations>
+        <string>Shipwreck Beach</string>
         <string>Chersonese</string>
         <string>Hallowed Marsh</string>
         <string>Reptilian Lair</string>
         <string>Enmerkar Forest</string>
         <string>Hive Trap</string>
+      </Locations>
+    </ContainerDroptableSummary>
+    <ContainerDroptableSummary>
+      <DropTableName>DropTable_Chersonese_Equipment_Low_1</DropTableName>
+      <Locations>
+        <string>Chersonese</string>
       </Locations>
     </ContainerDroptableSummary>
     <ContainerDroptableSummary>

@@ -46,6 +46,9 @@
   </All_Locations>
   <DropTables>
     <ContainerDroptableSummary>
+      <Locations />
+    </ContainerDroptableSummary>
+    <ContainerDroptableSummary>
       <DropTableName>DropTable_Krimpnut</DropTableName>
       <Locations>
         <string>Monsoon</string>

@@ -10,6 +10,9 @@
   </All_Locations>
   <DropTables>
     <ContainerDroptableSummary>
+      <Locations />
+    </ContainerDroptableSummary>
+    <ContainerDroptableSummary>
       <DropTableName>DropTable_CopalYellowOre</DropTableName>
       <Locations>
         <string>Enmerkar Forest</string>

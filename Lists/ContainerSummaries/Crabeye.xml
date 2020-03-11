@@ -38,6 +38,9 @@
   </All_Locations>
   <DropTables>
     <ContainerDroptableSummary>
+      <Locations />
+    </ContainerDroptableSummary>
+    <ContainerDroptableSummary>
       <DropTableName>DropTable_Crabeye</DropTableName>
       <Locations>
         <string>Cierzo</string>

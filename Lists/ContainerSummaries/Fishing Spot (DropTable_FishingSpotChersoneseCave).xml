@@ -22,8 +22,12 @@
   </All_Locations>
   <DropTables>
     <ContainerDroptableSummary>
+      <Locations />
+    </ContainerDroptableSummary>
+    <ContainerDroptableSummary>
       <DropTableName>DropTable_FishingSpotChersoneseCave</DropTableName>
       <Locations>
+        <string>Ghost Pass</string>
         <string>Conflux Chambers</string>
         <string>Electric Lab</string>
         <string>Ancestor’s Resting Place</string>

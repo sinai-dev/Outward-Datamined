@@ -18,6 +18,9 @@
   </All_Locations>
   <DropTables>
     <ContainerDroptableSummary>
+      <Locations />
+    </ContainerDroptableSummary>
+    <ContainerDroptableSummary>
       <DropTableName>DropTable_GhostPlant</DropTableName>
       <Locations>
         <string>Chersonese</string>

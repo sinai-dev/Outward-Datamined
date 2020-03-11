@@ -106,6 +106,9 @@
   </All_Locations>
   <DropTables>
     <ContainerDroptableSummary>
+      <Locations />
+    </ContainerDroptableSummary>
+    <ContainerDroptableSummary>
       <DropTableName>DropTable_StarMushroom</DropTableName>
       <Locations>
         <string>Vendavel Fortress</string>

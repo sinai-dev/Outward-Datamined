@@ -30,13 +30,31 @@
   </All_Locations>
   <DropTables>
     <ContainerDroptableSummary>
+      <Locations />
+    </ContainerDroptableSummary>
+    <ContainerDroptableSummary>
       <DropTableName>DropTable_Neutral_Troglodyte_2</DropTableName>
       <Locations>
+        <string>Blister Burrow</string>
         <string>Blue Chamber’s Conflux Path</string>
         <string>Trog Infiltration</string>
         <string>Jade Quarry</string>
         <string>Under Island</string>
         <string>Royal Manticore’s Lair</string>
+      </Locations>
+    </ContainerDroptableSummary>
+    <ContainerDroptableSummary>
+      <DropTableName>DropTable_Chersonese_Equipment_Low_1</DropTableName>
+      <Locations>
+        <string>Blister Burrow</string>
+      </Locations>
+    </ContainerDroptableSummary>
+    <ContainerDroptableSummary>
+      <DropTableName>DropTable_Neutral_StandardRecipe_Low_1</DropTableName>
+      <Locations>
+        <string>Blister Burrow</string>
+        <string>Trog Infiltration</string>
+        <string>Under Island</string>
       </Locations>
     </ContainerDroptableSummary>
     <ContainerDroptableSummary>
@@ -55,13 +73,6 @@
       <DropTableName>DropTable_Neutral_Magic_High_1</DropTableName>
       <Locations>
         <string>Trog Infiltration</string>
-      </Locations>
-    </ContainerDroptableSummary>
-    <ContainerDroptableSummary>
-      <DropTableName>DropTable_Neutral_StandardRecipe_Low_1</DropTableName>
-      <Locations>
-        <string>Trog Infiltration</string>
-        <string>Under Island</string>
       </Locations>
     </ContainerDroptableSummary>
     <ContainerDroptableSummary>

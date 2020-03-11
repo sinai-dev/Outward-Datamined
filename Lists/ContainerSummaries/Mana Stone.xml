@@ -54,6 +54,9 @@
   </All_Locations>
   <DropTables>
     <ContainerDroptableSummary>
+      <Locations />
+    </ContainerDroptableSummary>
+    <ContainerDroptableSummary>
       <DropTableName>DropTable_ManaStone</DropTableName>
       <Locations>
         <string>Chersonese</string>

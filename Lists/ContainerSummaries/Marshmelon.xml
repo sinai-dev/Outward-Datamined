@@ -10,6 +10,9 @@
   </All_Locations>
   <DropTables>
     <ContainerDroptableSummary>
+      <Locations />
+    </ContainerDroptableSummary>
+    <ContainerDroptableSummary>
       <DropTableName>DropTable_Marshmelon</DropTableName>
       <Locations>
         <string>Hallowed Marsh</string>

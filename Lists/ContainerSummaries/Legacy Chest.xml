@@ -20,5 +20,9 @@
       <Quantity>1</Quantity>
     </QuantityHolder>
   </All_Locations>
-  <DropTables />
+  <DropTables>
+    <ContainerDroptableSummary>
+      <Locations />
+    </ContainerDroptableSummary>
+  </DropTables>
 </ContainerSummary>

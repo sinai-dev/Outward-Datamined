@@ -78,8 +78,12 @@
   </All_Locations>
   <DropTables>
     <ContainerDroptableSummary>
+      <Locations />
+    </ContainerDroptableSummary>
+    <ContainerDroptableSummary>
       <DropTableName>DropTable_PalladiumOre</DropTableName>
       <Locations>
+        <string>Ghost Pass</string>
         <string>Blue Chamber’s Conflux Path</string>
         <string>Conflux Chambers</string>
         <string>Hallowed Marsh</string>

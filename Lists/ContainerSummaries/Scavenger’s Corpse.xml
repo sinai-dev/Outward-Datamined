@@ -22,17 +22,34 @@
   </All_Locations>
   <DropTables>
     <ContainerDroptableSummary>
-      <DropTableName>DropTable_Abrassar_Food_1</DropTableName>
+      <Locations />
+    </ContainerDroptableSummary>
+    <ContainerDroptableSummary>
+      <DropTableName>DropTable_Neutral_Survival_Low_2</DropTableName>
       <Locations>
-        <string>The Slide</string>
+        <string>Blue Chamber’s Conflux Path</string>
+        <string>Forest Hives</string>
       </Locations>
     </ContainerDroptableSummary>
     <ContainerDroptableSummary>
       <DropTableName>DropTable_Neutral_Valuable_Low_1</DropTableName>
       <Locations>
+        <string>Blue Chamber’s Conflux Path</string>
         <string>The Slide</string>
         <string>Royal Manticore’s Lair</string>
         <string>Forest Hives</string>
+      </Locations>
+    </ContainerDroptableSummary>
+    <ContainerDroptableSummary>
+      <DropTableName>DropTable_Chersonese_Recipe_Weapon_1</DropTableName>
+      <Locations>
+        <string>Blue Chamber’s Conflux Path</string>
+      </Locations>
+    </ContainerDroptableSummary>
+    <ContainerDroptableSummary>
+      <DropTableName>DropTable_Abrassar_Food_1</DropTableName>
+      <Locations>
+        <string>The Slide</string>
       </Locations>
     </ContainerDroptableSummary>
     <ContainerDroptableSummary>
@@ -63,12 +80,6 @@
       <DropTableName>DropTable_Neutral_StandardRecipe_Low_1</DropTableName>
       <Locations>
         <string>Royal Manticore’s Lair</string>
-        <string>Forest Hives</string>
-      </Locations>
-    </ContainerDroptableSummary>
-    <ContainerDroptableSummary>
-      <DropTableName>DropTable_Neutral_Survival_Low_2</DropTableName>
-      <Locations>
         <string>Forest Hives</string>
       </Locations>
     </ContainerDroptableSummary>

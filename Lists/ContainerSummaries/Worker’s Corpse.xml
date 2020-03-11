@@ -70,17 +70,28 @@
   </All_Locations>
   <DropTables>
     <ContainerDroptableSummary>
-      <DropTableName>DropTable_Neutral_Consumable_Low_2</DropTableName>
+      <Locations />
+    </ContainerDroptableSummary>
+    <ContainerDroptableSummary>
+      <DropTableName>DropTable_Neutral_Cloth_Poor_1</DropTableName>
       <Locations>
-        <string>Hyena Burrow</string>
-        <string>Enmerkar Forest</string>
-        <string>Cabal of Wind Temple</string>
-        <string>Worn Hunter's Cabin</string>
+        <string>Chersonese</string>
+        <string>Levant</string>
+        <string>Stone Titan Caves</string>
+        <string>Sand Rose Cave</string>
+        <string>Royal Manticore’s Lair</string>
+      </Locations>
+    </ContainerDroptableSummary>
+    <ContainerDroptableSummary>
+      <DropTableName>DropTable_Chersonese_Food_1</DropTableName>
+      <Locations>
+        <string>Chersonese</string>
       </Locations>
     </ContainerDroptableSummary>
     <ContainerDroptableSummary>
       <DropTableName>DropTable_Neutral_Survival_Low_2</DropTableName>
       <Locations>
+        <string>Chersonese</string>
         <string>Hyena Burrow</string>
         <string>Bandits' Prison</string>
         <string>Flooded Cellar</string>
@@ -92,6 +103,7 @@
     <ContainerDroptableSummary>
       <DropTableName>DropTable_Neutral_StandardRecipe_Low_1</DropTableName>
       <Locations>
+        <string>Chersonese</string>
         <string>Hyena Burrow</string>
         <string>Ziggurat Passage</string>
         <string>Flooded Cellar</string>
@@ -100,6 +112,15 @@
         <string>Sand Rose Cave</string>
         <string>Face of the Ancients</string>
         <string>Dolmen Crypt</string>
+        <string>Worn Hunter's Cabin</string>
+      </Locations>
+    </ContainerDroptableSummary>
+    <ContainerDroptableSummary>
+      <DropTableName>DropTable_Neutral_Consumable_Low_2</DropTableName>
+      <Locations>
+        <string>Hyena Burrow</string>
+        <string>Enmerkar Forest</string>
+        <string>Cabal of Wind Temple</string>
         <string>Worn Hunter's Cabin</string>
       </Locations>
     </ContainerDroptableSummary>
@@ -151,15 +172,6 @@
       <DropTableName>DropTable_HallowedMarsh_Equipment_Low_1</DropTableName>
       <Locations>
         <string>Flooded Cellar</string>
-      </Locations>
-    </ContainerDroptableSummary>
-    <ContainerDroptableSummary>
-      <DropTableName>DropTable_Neutral_Cloth_Poor_1</DropTableName>
-      <Locations>
-        <string>Levant</string>
-        <string>Stone Titan Caves</string>
-        <string>Sand Rose Cave</string>
-        <string>Royal Manticore’s Lair</string>
       </Locations>
     </ContainerDroptableSummary>
     <ContainerDroptableSummary>
