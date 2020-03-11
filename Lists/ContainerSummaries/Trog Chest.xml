@@ -2,7 +2,7 @@
 <ContainerSummary xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Name>Trog Chest</Name>
   <ItemID>0</ItemID>
-  <Locations_Found>
+  <All_Locations>
     <QuantityHolder>
       <Name>Chersonese:Blister Burrow</Name>
       <Quantity>1</Quantity>
@@ -27,20 +27,78 @@
       <Name>Enmerkar Forest:Royal Manticore’s Lair</Name>
       <Quantity>1</Quantity>
     </QuantityHolder>
-  </Locations_Found>
-  <All_DropTables>
-    <string>DropTable_Neutral_Troglodyte_2</string>
-    <string>DropTable_Neutral_Troglodyte_2</string>
-    <string>DropTable_Chersonese_Equipment_Low_1</string>
-    <string>DropTable_Neutral_StandardRecipe_Low_1</string>
-    <string>DropTable_Neutral_Survival_Medium_1</string>
-    <string>DropTable_Neutral_StandardRecipe_High_1</string>
-    <string>DropTable_Neutral_Magic_High_1</string>
-    <string>DropTable_Neutral_Valuable_Low_1</string>
-    <string>DropTable_HallowedMarsh_Recipe_Basic_1</string>
-    <string>DropTable_Trog_Med</string>
-    <string>DropTable_Neutral_Survival_Low_2</string>
-    <string>DropTable_Neutral_Consumable_Low_2</string>
-    <string>DropTable_Enmerkar_Recipe_Basic_1</string>
-  </All_DropTables>
+  </All_Locations>
+  <DropTables>
+    <ContainerDroptableSummary>
+      <DropTableName>DropTable_Neutral_Troglodyte_2</DropTableName>
+      <Locations>
+        <string>Blue Chamber’s Conflux Path</string>
+        <string>Trog Infiltration</string>
+        <string>Jade Quarry</string>
+        <string>Under Island</string>
+        <string>Royal Manticore’s Lair</string>
+      </Locations>
+    </ContainerDroptableSummary>
+    <ContainerDroptableSummary>
+      <DropTableName>DropTable_Neutral_Survival_Medium_1</DropTableName>
+      <Locations>
+        <string>Blue Chamber’s Conflux Path</string>
+      </Locations>
+    </ContainerDroptableSummary>
+    <ContainerDroptableSummary>
+      <DropTableName>DropTable_Neutral_StandardRecipe_High_1</DropTableName>
+      <Locations>
+        <string>Blue Chamber’s Conflux Path</string>
+      </Locations>
+    </ContainerDroptableSummary>
+    <ContainerDroptableSummary>
+      <DropTableName>DropTable_Neutral_Magic_High_1</DropTableName>
+      <Locations>
+        <string>Trog Infiltration</string>
+      </Locations>
+    </ContainerDroptableSummary>
+    <ContainerDroptableSummary>
+      <DropTableName>DropTable_Neutral_StandardRecipe_Low_1</DropTableName>
+      <Locations>
+        <string>Trog Infiltration</string>
+        <string>Under Island</string>
+      </Locations>
+    </ContainerDroptableSummary>
+    <ContainerDroptableSummary>
+      <DropTableName>DropTable_Neutral_Valuable_Low_1</DropTableName>
+      <Locations>
+        <string>Jade Quarry</string>
+      </Locations>
+    </ContainerDroptableSummary>
+    <ContainerDroptableSummary>
+      <DropTableName>DropTable_HallowedMarsh_Recipe_Basic_1</DropTableName>
+      <Locations>
+        <string>Jade Quarry</string>
+      </Locations>
+    </ContainerDroptableSummary>
+    <ContainerDroptableSummary>
+      <DropTableName>DropTable_Trog_Med</DropTableName>
+      <Locations>
+        <string>Under Island</string>
+      </Locations>
+    </ContainerDroptableSummary>
+    <ContainerDroptableSummary>
+      <DropTableName>DropTable_Neutral_Survival_Low_2</DropTableName>
+      <Locations>
+        <string>Under Island</string>
+      </Locations>
+    </ContainerDroptableSummary>
+    <ContainerDroptableSummary>
+      <DropTableName>DropTable_Neutral_Consumable_Low_2</DropTableName>
+      <Locations>
+        <string>Royal Manticore’s Lair</string>
+      </Locations>
+    </ContainerDroptableSummary>
+    <ContainerDroptableSummary>
+      <DropTableName>DropTable_Enmerkar_Recipe_Basic_1</DropTableName>
+      <Locations>
+        <string>Royal Manticore’s Lair</string>
+      </Locations>
+    </ContainerDroptableSummary>
+  </DropTables>
 </ContainerSummary>

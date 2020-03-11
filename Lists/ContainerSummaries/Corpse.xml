@@ -2,7 +2,7 @@
 <ContainerSummary xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Name>Corpse</Name>
   <ItemID>0</ItemID>
-  <Locations_Found>
+  <All_Locations>
     <QuantityHolder>
       <Name>Chersonese:Blister Burrow</Name>
       <Quantity>1</Quantity>
@@ -19,15 +19,61 @@
       <Name>Abrassar:Hive Prison</Name>
       <Quantity>2</Quantity>
     </QuantityHolder>
-  </Locations_Found>
-  <All_DropTables>
-    <string>DropTable_Neutral_Magic_Low_2</string>
-    <string>DropTable_Neutral_Consumable_Low_2</string>
-    <string>DropTable_Neutral_Survival_Medium_1</string>
-    <string>DropTable_Neutral_Magic_High_1</string>
-    <string>DropTable_Neutral_Survival_Low_2</string>
-    <string>DropTable_Neutral_Alchemy_Low_2</string>
-    <string>DropTable_Neutral_Valuable_Low_1</string>
-    <string>DropTable_Neutral_Survival_High_1</string>
-  </All_DropTables>
+  </All_Locations>
+  <DropTables>
+    <ContainerDroptableSummary>
+      <DropTableName>DropTable_Neutral_Magic_High_1</DropTableName>
+      <Locations>
+        <string>Trog Infiltration</string>
+        <string>Abrassar</string>
+        <string>Hive Prison</string>
+      </Locations>
+    </ContainerDroptableSummary>
+    <ContainerDroptableSummary>
+      <DropTableName>DropTable_Neutral_Survival_Low_2</DropTableName>
+      <Locations>
+        <string>Trog Infiltration</string>
+        <string>Abrassar</string>
+      </Locations>
+    </ContainerDroptableSummary>
+    <ContainerDroptableSummary>
+      <DropTableName>DropTable_Neutral_Consumable_Low_2</DropTableName>
+      <Locations>
+        <string>Trog Infiltration</string>
+        <string>Abrassar</string>
+      </Locations>
+    </ContainerDroptableSummary>
+    <ContainerDroptableSummary>
+      <DropTableName>DropTable_Neutral_Magic_Low_2</DropTableName>
+      <Locations>
+        <string>Abrassar</string>
+        <string>Hive Prison</string>
+      </Locations>
+    </ContainerDroptableSummary>
+    <ContainerDroptableSummary>
+      <DropTableName>DropTable_Neutral_Alchemy_Low_2</DropTableName>
+      <Locations>
+        <string>Abrassar</string>
+      </Locations>
+    </ContainerDroptableSummary>
+    <ContainerDroptableSummary>
+      <DropTableName>DropTable_Neutral_Valuable_Low_1</DropTableName>
+      <Locations>
+        <string>Abrassar</string>
+        <string>Hive Prison</string>
+      </Locations>
+    </ContainerDroptableSummary>
+    <ContainerDroptableSummary>
+      <DropTableName>DropTable_Neutral_Survival_Medium_1</DropTableName>
+      <Locations>
+        <string>Abrassar</string>
+      </Locations>
+    </ContainerDroptableSummary>
+    <ContainerDroptableSummary>
+      <DropTableName>DropTable_Neutral_Survival_High_1</DropTableName>
+      <Locations>
+        <string>Hive Prison</string>
+      </Locations>
+    </ContainerDroptableSummary>
+  </DropTables>
 </ContainerSummary>

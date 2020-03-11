@@ -2,7 +2,7 @@
 <ContainerSummary xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Name>Fishing Spot (DropTable_FishingSpotChersoneseBeach)</Name>
   <ItemID>0</ItemID>
-  <Locations_Found>
+  <All_Locations>
     <QuantityHolder>
       <Name>Chersonese:Cierzo</Name>
       <Quantity>3</Quantity>
@@ -19,8 +19,16 @@
       <Name>Abrassar:Abrassar</Name>
       <Quantity>6</Quantity>
     </QuantityHolder>
-  </Locations_Found>
-  <All_DropTables>
-    <string>DropTable_FishingSpotChersoneseBeach</string>
-  </All_DropTables>
+  </All_Locations>
+  <DropTables>
+    <ContainerDroptableSummary>
+      <DropTableName>DropTable_FishingSpotChersoneseBeach</DropTableName>
+      <Locations>
+        <string>Cierzo</string>
+        <string>Cierzo (Destroyed)</string>
+        <string>Chersonese</string>
+        <string>Abrassar</string>
+      </Locations>
+    </ContainerDroptableSummary>
+  </DropTables>
 </ContainerSummary>

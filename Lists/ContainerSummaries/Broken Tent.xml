@@ -2,7 +2,7 @@
 <ContainerSummary xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Name>Broken Tent</Name>
   <ItemID>0</ItemID>
-  <Locations_Found>
+  <All_Locations>
     <QuantityHolder>
       <Name>Chersonese:Chersonese</Name>
       <Quantity>1</Quantity>
@@ -15,14 +15,43 @@
       <Name>Hallowed Marsh:Hallowed Marsh</Name>
       <Quantity>2</Quantity>
     </QuantityHolder>
-  </Locations_Found>
-  <All_DropTables>
-    <string>DropTable_Neutral_Consumable_Low_2</string>
-    <string>DropTable_Neutral_Survival_Low_2</string>
-    <string>DropTable_Neutral_Alchemy_Low_2</string>
-    <string>DropTable_Neutral_StandardRecipe_Low_1</string>
-    <string>DropTable_Chersonese_Recipe_Weapon_1</string>
-    <string>DropTable_JunkPile_Low</string>
-    <string>DropTable_HallowedMarshChest_B_6</string>
-  </All_DropTables>
+  </All_Locations>
+  <DropTables>
+    <ContainerDroptableSummary>
+      <DropTableName>DropTable_Neutral_Alchemy_Low_2</DropTableName>
+      <Locations>
+        <string>Corrupted Tombs</string>
+      </Locations>
+    </ContainerDroptableSummary>
+    <ContainerDroptableSummary>
+      <DropTableName>DropTable_Neutral_Consumable_Low_2</DropTableName>
+      <Locations>
+        <string>Corrupted Tombs</string>
+      </Locations>
+    </ContainerDroptableSummary>
+    <ContainerDroptableSummary>
+      <DropTableName>DropTable_Neutral_Survival_Low_2</DropTableName>
+      <Locations>
+        <string>Corrupted Tombs</string>
+      </Locations>
+    </ContainerDroptableSummary>
+    <ContainerDroptableSummary>
+      <DropTableName>DropTable_Chersonese_Recipe_Weapon_1</DropTableName>
+      <Locations>
+        <string>Corrupted Tombs</string>
+      </Locations>
+    </ContainerDroptableSummary>
+    <ContainerDroptableSummary>
+      <DropTableName>DropTable_JunkPile_Low</DropTableName>
+      <Locations>
+        <string>Hallowed Marsh</string>
+      </Locations>
+    </ContainerDroptableSummary>
+    <ContainerDroptableSummary>
+      <DropTableName>DropTable_HallowedMarshChest_B_6</DropTableName>
+      <Locations>
+        <string>Hallowed Marsh</string>
+      </Locations>
+    </ContainerDroptableSummary>
+  </DropTables>
 </ContainerSummary>

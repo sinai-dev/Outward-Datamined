@@ -2,7 +2,7 @@
 <ContainerSummary xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Name>Blue Sand</Name>
   <ItemID>0</ItemID>
-  <Locations_Found>
+  <All_Locations>
     <QuantityHolder>
       <Name>Chersonese:Chersonese</Name>
       <Quantity>5</Quantity>
@@ -15,8 +15,15 @@
       <Name>Chersonese:Starfish Cave</Name>
       <Quantity>3</Quantity>
     </QuantityHolder>
-  </Locations_Found>
-  <All_DropTables>
-    <string>DropTable_BlueSand</string>
-  </All_DropTables>
+  </All_Locations>
+  <DropTables>
+    <ContainerDroptableSummary>
+      <DropTableName>DropTable_BlueSand</DropTableName>
+      <Locations>
+        <string>Chersonese</string>
+        <string>Voltaic Hatchery</string>
+        <string>Starfish Cave</string>
+      </Locations>
+    </ContainerDroptableSummary>
+  </DropTables>
 </ContainerSummary>

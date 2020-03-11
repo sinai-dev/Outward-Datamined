@@ -2,7 +2,7 @@
 <ContainerSummary xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Name>Smoke Root</Name>
   <ItemID>0</ItemID>
-  <Locations_Found>
+  <All_Locations>
     <QuantityHolder>
       <Name>Abrassar:Abrassar</Name>
       <Quantity>2</Quantity>
@@ -35,8 +35,20 @@
       <Name>Enmerkar Forest:Hive Trap</Name>
       <Quantity>3</Quantity>
     </QuantityHolder>
-  </Locations_Found>
-  <All_DropTables>
-    <string>DropTable_Smokeroot</string>
-  </All_DropTables>
+  </All_Locations>
+  <DropTables>
+    <ContainerDroptableSummary>
+      <DropTableName>DropTable_Smokeroot</DropTableName>
+      <Locations>
+        <string>Abrassar</string>
+        <string>Berg</string>
+        <string>Enmerkar Forest</string>
+        <string>Royal Manticore’s Lair</string>
+        <string>Forest Hives</string>
+        <string>Face of the Ancients</string>
+        <string>Ancestor’s Resting Place</string>
+        <string>Hive Trap</string>
+      </Locations>
+    </ContainerDroptableSummary>
+  </DropTables>
 </ContainerSummary>

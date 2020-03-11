@@ -2,7 +2,7 @@
 <ContainerSummary xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Name>Firefly Powder</Name>
   <ItemID>0</ItemID>
-  <Locations_Found>
+  <All_Locations>
     <QuantityHolder>
       <Name>Hallowed Marsh:Hallowed Marsh</Name>
       <Quantity>20</Quantity>
@@ -11,8 +11,14 @@
       <Name>Hallowed Marsh:Reptilian Lair</Name>
       <Quantity>3</Quantity>
     </QuantityHolder>
-  </Locations_Found>
-  <All_DropTables>
-    <string>DropTable_FireflyEaterPlant</string>
-  </All_DropTables>
+  </All_Locations>
+  <DropTables>
+    <ContainerDroptableSummary>
+      <DropTableName>DropTable_FireflyEaterPlant</DropTableName>
+      <Locations>
+        <string>Hallowed Marsh</string>
+        <string>Reptilian Lair</string>
+      </Locations>
+    </ContainerDroptableSummary>
+  </DropTables>
 </ContainerSummary>

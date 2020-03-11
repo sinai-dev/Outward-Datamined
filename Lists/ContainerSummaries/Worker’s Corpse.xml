@@ -2,7 +2,7 @@
 <ContainerSummary xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Name>Worker’s Corpse</Name>
   <ItemID>0</ItemID>
-  <Locations_Found>
+  <All_Locations>
     <QuantityHolder>
       <Name>Chersonese:Chersonese</Name>
       <Quantity>1</Quantity>
@@ -67,24 +67,140 @@
       <Name>Enmerkar Forest:Worn Hunter's Cabin</Name>
       <Quantity>1</Quantity>
     </QuantityHolder>
-  </Locations_Found>
-  <All_DropTables>
-    <string>DropTable_Neutral_Cloth_Poor_1</string>
-    <string>DropTable_Chersonese_Food_1</string>
-    <string>DropTable_Neutral_Survival_Low_2</string>
-    <string>DropTable_Neutral_StandardRecipe_Low_1</string>
-    <string>DropTable_Neutral_Consumable_Low_2</string>
-    <string>DropTable_Neutral_Food_1</string>
-    <string>DropTable_HallowedMarsh_Food_1</string>
-    <string>DropTable_Neutral_Magic_High_1</string>
-    <string>DropTable_Neutral_Magic_Low_2</string>
-    <string>DropTable_HallowedMarsh_Recipe_Basic_1</string>
-    <string>DropTable_HallowedMarsh_Equipment_Low_1</string>
-    <string>DropTable_Abrassar_Food_1</string>
-    <string>DropTable_Neutral_Consumable_High_1</string>
-    <string>DropTable_Enmerkar_Recipe_Weapon_1</string>
-    <string>DropTable_Enmerkar_Recipe_Basic_1</string>
-    <string>DropTable_Enmerkar_Food_1</string>
-    <string>DropTable_Neutral_Survival_Medium_1</string>
-  </All_DropTables>
+  </All_Locations>
+  <DropTables>
+    <ContainerDroptableSummary>
+      <DropTableName>DropTable_Neutral_Consumable_Low_2</DropTableName>
+      <Locations>
+        <string>Hyena Burrow</string>
+        <string>Enmerkar Forest</string>
+        <string>Cabal of Wind Temple</string>
+        <string>Worn Hunter's Cabin</string>
+      </Locations>
+    </ContainerDroptableSummary>
+    <ContainerDroptableSummary>
+      <DropTableName>DropTable_Neutral_Survival_Low_2</DropTableName>
+      <Locations>
+        <string>Hyena Burrow</string>
+        <string>Bandits' Prison</string>
+        <string>Flooded Cellar</string>
+        <string>The Slide</string>
+        <string>Royal Manticore’s Lair</string>
+        <string>Dolmen Crypt</string>
+      </Locations>
+    </ContainerDroptableSummary>
+    <ContainerDroptableSummary>
+      <DropTableName>DropTable_Neutral_StandardRecipe_Low_1</DropTableName>
+      <Locations>
+        <string>Hyena Burrow</string>
+        <string>Ziggurat Passage</string>
+        <string>Flooded Cellar</string>
+        <string>The Slide</string>
+        <string>Stone Titan Caves</string>
+        <string>Sand Rose Cave</string>
+        <string>Face of the Ancients</string>
+        <string>Dolmen Crypt</string>
+        <string>Worn Hunter's Cabin</string>
+      </Locations>
+    </ContainerDroptableSummary>
+    <ContainerDroptableSummary>
+      <DropTableName>DropTable_Neutral_Food_1</DropTableName>
+      <Locations>
+        <string>Bandits' Prison</string>
+        <string>Ziggurat Passage</string>
+        <string>Dead Roots</string>
+        <string>Flooded Cellar</string>
+        <string>The Slide</string>
+        <string>Stone Titan Caves</string>
+        <string>Sand Rose Cave</string>
+        <string>Royal Manticore’s Lair</string>
+        <string>Cabal of Wind Temple</string>
+      </Locations>
+    </ContainerDroptableSummary>
+    <ContainerDroptableSummary>
+      <DropTableName>DropTable_HallowedMarsh_Food_1</DropTableName>
+      <Locations>
+        <string>Ziggurat Passage</string>
+        <string>Dead Roots</string>
+      </Locations>
+    </ContainerDroptableSummary>
+    <ContainerDroptableSummary>
+      <DropTableName>DropTable_Neutral_Magic_High_1</DropTableName>
+      <Locations>
+        <string>Ziggurat Passage</string>
+        <string>Worn Hunter's Cabin</string>
+      </Locations>
+    </ContainerDroptableSummary>
+    <ContainerDroptableSummary>
+      <DropTableName>DropTable_Neutral_Magic_Low_2</DropTableName>
+      <Locations>
+        <string>Dead Roots</string>
+        <string>Sand Rose Cave</string>
+        <string>Face of the Ancients</string>
+        <string>Dolmen Crypt</string>
+        <string>Worn Hunter's Cabin</string>
+      </Locations>
+    </ContainerDroptableSummary>
+    <ContainerDroptableSummary>
+      <DropTableName>DropTable_HallowedMarsh_Recipe_Basic_1</DropTableName>
+      <Locations>
+        <string>Dead Roots</string>
+      </Locations>
+    </ContainerDroptableSummary>
+    <ContainerDroptableSummary>
+      <DropTableName>DropTable_HallowedMarsh_Equipment_Low_1</DropTableName>
+      <Locations>
+        <string>Flooded Cellar</string>
+      </Locations>
+    </ContainerDroptableSummary>
+    <ContainerDroptableSummary>
+      <DropTableName>DropTable_Neutral_Cloth_Poor_1</DropTableName>
+      <Locations>
+        <string>Levant</string>
+        <string>Stone Titan Caves</string>
+        <string>Sand Rose Cave</string>
+        <string>Royal Manticore’s Lair</string>
+      </Locations>
+    </ContainerDroptableSummary>
+    <ContainerDroptableSummary>
+      <DropTableName>DropTable_Abrassar_Food_1</DropTableName>
+      <Locations>
+        <string>The Slide</string>
+        <string>Stone Titan Caves</string>
+      </Locations>
+    </ContainerDroptableSummary>
+    <ContainerDroptableSummary>
+      <DropTableName>DropTable_Neutral_Consumable_High_1</DropTableName>
+      <Locations>
+        <string>Enmerkar Forest</string>
+      </Locations>
+    </ContainerDroptableSummary>
+    <ContainerDroptableSummary>
+      <DropTableName>DropTable_Enmerkar_Recipe_Weapon_1</DropTableName>
+      <Locations>
+        <string>Enmerkar Forest</string>
+      </Locations>
+    </ContainerDroptableSummary>
+    <ContainerDroptableSummary>
+      <DropTableName>DropTable_Enmerkar_Recipe_Basic_1</DropTableName>
+      <Locations>
+        <string>Royal Manticore’s Lair</string>
+        <string>Cabal of Wind Temple</string>
+      </Locations>
+    </ContainerDroptableSummary>
+    <ContainerDroptableSummary>
+      <DropTableName>DropTable_Enmerkar_Food_1</DropTableName>
+      <Locations>
+        <string>Cabal of Wind Temple</string>
+        <string>Face of the Ancients</string>
+      </Locations>
+    </ContainerDroptableSummary>
+    <ContainerDroptableSummary>
+      <DropTableName>DropTable_Neutral_Survival_Medium_1</DropTableName>
+      <Locations>
+        <string>Face of the Ancients</string>
+        <string>Dolmen Crypt</string>
+      </Locations>
+    </ContainerDroptableSummary>
+  </DropTables>
 </ContainerSummary>

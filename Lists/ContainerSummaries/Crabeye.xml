@@ -2,7 +2,7 @@
 <ContainerSummary xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Name>Crabeye</Name>
   <ItemID>0</ItemID>
-  <Locations_Found>
+  <All_Locations>
     <QuantityHolder>
       <Name>Chersonese:Cierzo</Name>
       <Quantity>3</Quantity>
@@ -35,8 +35,20 @@
       <Name>Enmerkar Forest:Enmerkar Forest</Name>
       <Quantity>26</Quantity>
     </QuantityHolder>
-  </Locations_Found>
-  <All_DropTables>
-    <string>DropTable_Crabeye</string>
-  </All_DropTables>
+  </All_Locations>
+  <DropTables>
+    <ContainerDroptableSummary>
+      <DropTableName>DropTable_Crabeye</DropTableName>
+      <Locations>
+        <string>Cierzo</string>
+        <string>Cierzo (Destroyed)</string>
+        <string>Chersonese</string>
+        <string>Monsoon</string>
+        <string>Hallowed Marsh</string>
+        <string>Abrassar</string>
+        <string>Berg</string>
+        <string>Enmerkar Forest</string>
+      </Locations>
+    </ContainerDroptableSummary>
+  </DropTables>
 </ContainerSummary>

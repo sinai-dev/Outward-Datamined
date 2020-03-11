@@ -2,7 +2,7 @@
 <ContainerSummary xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Name>Pearlbird Nest</Name>
   <ItemID>0</ItemID>
-  <Locations_Found>
+  <All_Locations>
     <QuantityHolder>
       <Name>Chersonese:Chersonese</Name>
       <Quantity>17</Quantity>
@@ -11,8 +11,14 @@
       <Name>Hallowed Marsh:Giants’ Village</Name>
       <Quantity>1</Quantity>
     </QuantityHolder>
-  </Locations_Found>
-  <All_DropTables>
-    <string>DropTable_PearlbirdNest</string>
-  </All_DropTables>
+  </All_Locations>
+  <DropTables>
+    <ContainerDroptableSummary>
+      <DropTableName>DropTable_PearlbirdNest</DropTableName>
+      <Locations>
+        <string>Chersonese</string>
+        <string>Giants’ Village</string>
+      </Locations>
+    </ContainerDroptableSummary>
+  </DropTables>
 </ContainerSummary>

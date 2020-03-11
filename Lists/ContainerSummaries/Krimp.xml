@@ -2,7 +2,7 @@
 <ContainerSummary xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Name>Krimp</Name>
   <ItemID>0</ItemID>
-  <Locations_Found>
+  <All_Locations>
     <QuantityHolder>
       <Name>Hallowed Marsh:Monsoon</Name>
       <Quantity>2</Quantity>
@@ -43,8 +43,22 @@
       <Name>Abrassar:Ancient Hive</Name>
       <Quantity>1</Quantity>
     </QuantityHolder>
-  </Locations_Found>
-  <All_DropTables>
-    <string>DropTable_Krimpnut</string>
-  </All_DropTables>
+  </All_Locations>
+  <DropTables>
+    <ContainerDroptableSummary>
+      <DropTableName>DropTable_Krimpnut</DropTableName>
+      <Locations>
+        <string>Monsoon</string>
+        <string>Jade Quarry</string>
+        <string>Reptilian Lair</string>
+        <string>Dead Roots</string>
+        <string>Levant</string>
+        <string>Abrassar</string>
+        <string>Undercity Passage</string>
+        <string>The Slide</string>
+        <string>Stone Titan Caves</string>
+        <string>Ancient Hive</string>
+      </Locations>
+    </ContainerDroptableSummary>
+  </DropTables>
 </ContainerSummary>

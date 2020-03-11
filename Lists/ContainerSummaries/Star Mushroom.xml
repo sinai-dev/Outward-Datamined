@@ -2,7 +2,7 @@
 <ContainerSummary xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Name>Star Mushroom</Name>
   <ItemID>0</ItemID>
-  <Locations_Found>
+  <All_Locations>
     <QuantityHolder>
       <Name>Chersonese:Vendavel Fortress</Name>
       <Quantity>2</Quantity>
@@ -103,8 +103,37 @@
       <Name>Enmerkar Forest:Necropolis</Name>
       <Quantity>2</Quantity>
     </QuantityHolder>
-  </Locations_Found>
-  <All_DropTables>
-    <string>DropTable_StarMushroom</string>
-  </All_DropTables>
+  </All_Locations>
+  <DropTables>
+    <ContainerDroptableSummary>
+      <DropTableName>DropTable_StarMushroom</DropTableName>
+      <Locations>
+        <string>Vendavel Fortress</string>
+        <string>Blister Burrow</string>
+        <string>Ghost Pass</string>
+        <string>Blue Chamber’s Conflux Path</string>
+        <string>Holy Mission’s Conflux Path</string>
+        <string>Heroic Kingdom’s Conflux Path</string>
+        <string>Voltaic Hatchery</string>
+        <string>Conflux Chambers</string>
+        <string>Corrupted Tombs</string>
+        <string>Hallowed Marsh</string>
+        <string>Jade Quarry</string>
+        <string>Giants’ Village</string>
+        <string>Reptilian Lair</string>
+        <string>Ziggurat Passage</string>
+        <string>Dead Roots</string>
+        <string>Undercity Passage</string>
+        <string>Electric Lab</string>
+        <string>The Slide</string>
+        <string>Stone Titan Caves</string>
+        <string>Ancient Hive</string>
+        <string>Sand Rose Cave</string>
+        <string>Royal Manticore’s Lair</string>
+        <string>Forest Hives</string>
+        <string>Face of the Ancients</string>
+        <string>Necropolis</string>
+      </Locations>
+    </ContainerDroptableSummary>
+  </DropTables>
 </ContainerSummary>

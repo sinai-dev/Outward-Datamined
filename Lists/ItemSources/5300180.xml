@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<ItemSource xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <ItemName>Zhorn’s Hunting Backpack</ItemName>
-  <ItemID>5300180</ItemID>
-  <Container_Sources />
-  <Spawn_Sources>
-    <string>Enmerkar Forest:Royal Manticore’s Lair</string>
-  </Spawn_Sources>
-</ItemSource>

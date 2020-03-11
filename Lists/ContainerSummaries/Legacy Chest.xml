@@ -2,7 +2,7 @@
 <ContainerSummary xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Name>Legacy Chest</Name>
   <ItemID>0</ItemID>
-  <Locations_Found>
+  <All_Locations>
     <QuantityHolder>
       <Name>Chersonese:Cierzo Storage</Name>
       <Quantity>1</Quantity>
@@ -19,6 +19,6 @@
       <Name>Enmerkar Forest:Vigil Pylon</Name>
       <Quantity>1</Quantity>
     </QuantityHolder>
-  </Locations_Found>
-  <All_DropTables />
+  </All_Locations>
+  <DropTables />
 </ContainerSummary>

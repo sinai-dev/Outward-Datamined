@@ -2,7 +2,7 @@
 <ContainerSummary xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Name>Tree</Name>
   <ItemID>0</ItemID>
-  <Locations_Found>
+  <All_Locations>
     <QuantityHolder>
       <Name>Chersonese:Shipwreck Beach</Name>
       <Quantity>3</Quantity>
@@ -75,8 +75,29 @@
       <Name>Other:Unknown Arena</Name>
       <Quantity>3</Quantity>
     </QuantityHolder>
-  </Locations_Found>
-  <All_DropTables>
-    <string>DropTable_FireWood</string>
-  </All_DropTables>
+  </All_Locations>
+  <DropTables>
+    <ContainerDroptableSummary>
+      <DropTableName>DropTable_FireWood</DropTableName>
+      <Locations>
+        <string>Cierzo</string>
+        <string>Cierzo (Destroyed)</string>
+        <string>Chersonese</string>
+        <string>Corrupted Tombs</string>
+        <string>Montcalm Clan Fort</string>
+        <string>Monsoon</string>
+        <string>Hallowed Marsh</string>
+        <string>Giants’ Village</string>
+        <string>Levant</string>
+        <string>Abrassar</string>
+        <string>Ancient Hive</string>
+        <string>Berg</string>
+        <string>Enmerkar Forest</string>
+        <string>Royal Manticore’s Lair</string>
+        <string>Forest Hives</string>
+        <string>Damp Hunter's Cabin</string>
+        <string>Unknown Arena</string>
+      </Locations>
+    </ContainerDroptableSummary>
+  </DropTables>
 </ContainerSummary>

@@ -2,7 +2,7 @@
 <ContainerSummary xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Name>Hollowed Trunk</Name>
   <ItemID>0</ItemID>
-  <Locations_Found>
+  <All_Locations>
     <QuantityHolder>
       <Name>Chersonese:Shipwreck Beach</Name>
       <Quantity>1</Quantity>
@@ -35,33 +35,189 @@
       <Name>Enmerkar Forest:Hive Trap</Name>
       <Quantity>3</Quantity>
     </QuantityHolder>
-  </Locations_Found>
-  <All_DropTables>
-    <string>DropTable_Neutral_Cloth_Poor_1</string>
-    <string>DropTable_Neutral_Survival_Low_2</string>
-    <string>DropTable_Chersonese_Equipment_Low_1</string>
-    <string>DropTable_Neutral_StandardRecipe_Low_1</string>
-    <string>DropTable_Chersonese_Recipe_Basic_1</string>
-    <string>DropTable_Neutral_Consumable_Low_2</string>
-    <string>DropTable_Chersonese_Recipe_Weapon_1</string>
-    <string>DropTable_Chersonese_Equipment_Medium_1</string>
-    <string>DropTable_Neutral_Alchemy_Low_2</string>
-    <string>DropTable_HallowedMarsh_Equipment_Medium_1</string>
-    <string>DropTable_Neutral_Valuable_Low_1</string>
-    <string>DropTable_HallowedMarsh_Recipe_Weapon_1</string>
-    <string>DropTable_HallowedMarsh_Equipment_Low_1</string>
-    <string>DropTable_Neutral_Survival_Medium_1</string>
-    <string>DropTable_Neutral_Magic_High_1</string>
-    <string>DropTable_HallowedMarsh_Recipe_Basic_1</string>
-    <string>DropTable_Neutral_Magic_Low_2</string>
-    <string>DropTable_Neutral_StandardRecipe_High_1</string>
-    <string>DropTable_Abrassar_Recipe_Basic_1</string>
-    <string>DropTable_Enmerkar_Equipment_Medium_1</string>
-    <string>DropTable_Enmerkar_Recipe_Basic_1</string>
-    <string>DropTable_Enmerkar_Equipment_Low_1</string>
-    <string>DropTable_Enmerkar_Recipe_Weapon_1</string>
-    <string>DropTable_Enmerkar_Equipment_High_1</string>
-    <string>DropTable_Neutral_Survival_High_1</string>
-    <string>DropTable_Neutral_Recipe_Dungeon_1</string>
-  </All_DropTables>
+  </All_Locations>
+  <DropTables>
+    <ContainerDroptableSummary>
+      <DropTableName>DropTable_Chersonese_Equipment_Low_1</DropTableName>
+      <Locations>
+        <string>Chersonese</string>
+      </Locations>
+    </ContainerDroptableSummary>
+    <ContainerDroptableSummary>
+      <DropTableName>DropTable_Neutral_Survival_Low_2</DropTableName>
+      <Locations>
+        <string>Chersonese</string>
+        <string>Hallowed Marsh</string>
+        <string>Reptilian Lair</string>
+        <string>Enmerkar Forest</string>
+        <string>Hive Trap</string>
+      </Locations>
+    </ContainerDroptableSummary>
+    <ContainerDroptableSummary>
+      <DropTableName>DropTable_Neutral_StandardRecipe_Low_1</DropTableName>
+      <Locations>
+        <string>Chersonese</string>
+        <string>Hallowed Marsh</string>
+        <string>Reptilian Lair</string>
+        <string>Steakosaur's Burrow</string>
+        <string>Ancient Hive</string>
+        <string>Enmerkar Forest</string>
+        <string>Hive Trap</string>
+      </Locations>
+    </ContainerDroptableSummary>
+    <ContainerDroptableSummary>
+      <DropTableName>DropTable_Chersonese_Recipe_Basic_1</DropTableName>
+      <Locations>
+        <string>Chersonese</string>
+      </Locations>
+    </ContainerDroptableSummary>
+    <ContainerDroptableSummary>
+      <DropTableName>DropTable_Neutral_Consumable_Low_2</DropTableName>
+      <Locations>
+        <string>Chersonese</string>
+        <string>Hallowed Marsh</string>
+        <string>Ancient Hive</string>
+        <string>Hive Trap</string>
+      </Locations>
+    </ContainerDroptableSummary>
+    <ContainerDroptableSummary>
+      <DropTableName>DropTable_Chersonese_Recipe_Weapon_1</DropTableName>
+      <Locations>
+        <string>Chersonese</string>
+      </Locations>
+    </ContainerDroptableSummary>
+    <ContainerDroptableSummary>
+      <DropTableName>DropTable_Chersonese_Equipment_Medium_1</DropTableName>
+      <Locations>
+        <string>Chersonese</string>
+      </Locations>
+    </ContainerDroptableSummary>
+    <ContainerDroptableSummary>
+      <DropTableName>DropTable_Neutral_Alchemy_Low_2</DropTableName>
+      <Locations>
+        <string>Chersonese</string>
+        <string>Steakosaur's Burrow</string>
+        <string>Ancient Hive</string>
+        <string>Enmerkar Forest</string>
+        <string>Hive Trap</string>
+      </Locations>
+    </ContainerDroptableSummary>
+    <ContainerDroptableSummary>
+      <DropTableName>DropTable_HallowedMarsh_Equipment_Medium_1</DropTableName>
+      <Locations>
+        <string>Hallowed Marsh</string>
+        <string>Reptilian Lair</string>
+      </Locations>
+    </ContainerDroptableSummary>
+    <ContainerDroptableSummary>
+      <DropTableName>DropTable_Neutral_Valuable_Low_1</DropTableName>
+      <Locations>
+        <string>Hallowed Marsh</string>
+        <string>Steakosaur's Burrow</string>
+      </Locations>
+    </ContainerDroptableSummary>
+    <ContainerDroptableSummary>
+      <DropTableName>DropTable_HallowedMarsh_Recipe_Weapon_1</DropTableName>
+      <Locations>
+        <string>Hallowed Marsh</string>
+      </Locations>
+    </ContainerDroptableSummary>
+    <ContainerDroptableSummary>
+      <DropTableName>DropTable_HallowedMarsh_Equipment_Low_1</DropTableName>
+      <Locations>
+        <string>Hallowed Marsh</string>
+      </Locations>
+    </ContainerDroptableSummary>
+    <ContainerDroptableSummary>
+      <DropTableName>DropTable_Neutral_Survival_Medium_1</DropTableName>
+      <Locations>
+        <string>Hallowed Marsh</string>
+        <string>Reptilian Lair</string>
+        <string>Enmerkar Forest</string>
+        <string>Hive Trap</string>
+      </Locations>
+    </ContainerDroptableSummary>
+    <ContainerDroptableSummary>
+      <DropTableName>DropTable_Neutral_Magic_High_1</DropTableName>
+      <Locations>
+        <string>Hallowed Marsh</string>
+        <string>Reptilian Lair</string>
+      </Locations>
+    </ContainerDroptableSummary>
+    <ContainerDroptableSummary>
+      <DropTableName>DropTable_HallowedMarsh_Recipe_Basic_1</DropTableName>
+      <Locations>
+        <string>Hallowed Marsh</string>
+        <string>Reptilian Lair</string>
+      </Locations>
+    </ContainerDroptableSummary>
+    <ContainerDroptableSummary>
+      <DropTableName>DropTable_Neutral_Magic_Low_2</DropTableName>
+      <Locations>
+        <string>Hallowed Marsh</string>
+        <string>Reptilian Lair</string>
+        <string>Steakosaur's Burrow</string>
+        <string>Ancient Hive</string>
+        <string>Enmerkar Forest</string>
+        <string>Hive Trap</string>
+      </Locations>
+    </ContainerDroptableSummary>
+    <ContainerDroptableSummary>
+      <DropTableName>DropTable_Neutral_StandardRecipe_High_1</DropTableName>
+      <Locations>
+        <string>Hallowed Marsh</string>
+        <string>Ancient Hive</string>
+        <string>Enmerkar Forest</string>
+      </Locations>
+    </ContainerDroptableSummary>
+    <ContainerDroptableSummary>
+      <DropTableName>DropTable_Abrassar_Recipe_Basic_1</DropTableName>
+      <Locations>
+        <string>Ancient Hive</string>
+      </Locations>
+    </ContainerDroptableSummary>
+    <ContainerDroptableSummary>
+      <DropTableName>DropTable_Enmerkar_Equipment_Medium_1</DropTableName>
+      <Locations>
+        <string>Enmerkar Forest</string>
+      </Locations>
+    </ContainerDroptableSummary>
+    <ContainerDroptableSummary>
+      <DropTableName>DropTable_Enmerkar_Recipe_Basic_1</DropTableName>
+      <Locations>
+        <string>Enmerkar Forest</string>
+      </Locations>
+    </ContainerDroptableSummary>
+    <ContainerDroptableSummary>
+      <DropTableName>DropTable_Enmerkar_Equipment_Low_1</DropTableName>
+      <Locations>
+        <string>Enmerkar Forest</string>
+      </Locations>
+    </ContainerDroptableSummary>
+    <ContainerDroptableSummary>
+      <DropTableName>DropTable_Enmerkar_Recipe_Weapon_1</DropTableName>
+      <Locations>
+        <string>Enmerkar Forest</string>
+        <string>Hive Trap</string>
+      </Locations>
+    </ContainerDroptableSummary>
+    <ContainerDroptableSummary>
+      <DropTableName>DropTable_Enmerkar_Equipment_High_1</DropTableName>
+      <Locations>
+        <string>Enmerkar Forest</string>
+      </Locations>
+    </ContainerDroptableSummary>
+    <ContainerDroptableSummary>
+      <DropTableName>DropTable_Neutral_Survival_High_1</DropTableName>
+      <Locations>
+        <string>Enmerkar Forest</string>
+      </Locations>
+    </ContainerDroptableSummary>
+    <ContainerDroptableSummary>
+      <DropTableName>DropTable_Neutral_Recipe_Dungeon_1</DropTableName>
+      <Locations>
+        <string>Hive Trap</string>
+      </Locations>
+    </ContainerDroptableSummary>
+  </DropTables>
 </ContainerSummary>

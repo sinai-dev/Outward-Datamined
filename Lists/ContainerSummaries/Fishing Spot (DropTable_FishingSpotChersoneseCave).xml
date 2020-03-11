@@ -2,7 +2,7 @@
 <ContainerSummary xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Name>Fishing Spot (DropTable_FishingSpotChersoneseCave)</Name>
   <ItemID>0</ItemID>
-  <Locations_Found>
+  <All_Locations>
     <QuantityHolder>
       <Name>Chersonese:Ghost Pass</Name>
       <Quantity>1</Quantity>
@@ -19,8 +19,15 @@
       <Name>Enmerkar Forest:Ancestor’s Resting Place</Name>
       <Quantity>1</Quantity>
     </QuantityHolder>
-  </Locations_Found>
-  <All_DropTables>
-    <string>DropTable_FishingSpotChersoneseCave</string>
-  </All_DropTables>
+  </All_Locations>
+  <DropTables>
+    <ContainerDroptableSummary>
+      <DropTableName>DropTable_FishingSpotChersoneseCave</DropTableName>
+      <Locations>
+        <string>Conflux Chambers</string>
+        <string>Electric Lab</string>
+        <string>Ancestor’s Resting Place</string>
+      </Locations>
+    </ContainerDroptableSummary>
+  </DropTables>
 </ContainerSummary>

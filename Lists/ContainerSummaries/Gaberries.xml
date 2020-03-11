@@ -2,7 +2,7 @@
 <ContainerSummary xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Name>Gaberries</Name>
   <ItemID>0</ItemID>
-  <Locations_Found>
+  <All_Locations>
     <QuantityHolder>
       <Name>Chersonese:Shipwreck Beach</Name>
       <Quantity>6</Quantity>
@@ -43,8 +43,22 @@
       <Name>Enmerkar Forest:Enmerkar Forest</Name>
       <Quantity>47</Quantity>
     </QuantityHolder>
-  </Locations_Found>
-  <All_DropTables>
-    <string>DropTable_Gaberries</string>
-  </All_DropTables>
+  </All_Locations>
+  <DropTables>
+    <ContainerDroptableSummary>
+      <DropTableName>DropTable_Gaberries</DropTableName>
+      <Locations>
+        <string>Shipwreck Beach</string>
+        <string>Cierzo</string>
+        <string>Cierzo (Destroyed)</string>
+        <string>Chersonese</string>
+        <string>Monsoon</string>
+        <string>Hallowed Marsh</string>
+        <string>Giants’ Village</string>
+        <string>Abrassar</string>
+        <string>Berg</string>
+        <string>Enmerkar Forest</string>
+      </Locations>
+    </ContainerDroptableSummary>
+  </DropTables>
 </ContainerSummary>

@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<ItemSource xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <ItemName>Cooked Alpha Meat</ItemName>
-  <ItemID>4100011</ItemID>
-  <Container_Sources />
-  <Spawn_Sources>
-    <string>Enmerkar Forest:Old Hunter's Cabin</string>
-  </Spawn_Sources>
-</ItemSource>

@@ -2,7 +2,7 @@
 <ContainerSummary xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Name>Fishing Spot (DropTable_FishingSpotHallowedMarsh)</Name>
   <ItemID>0</ItemID>
-  <Locations_Found>
+  <All_Locations>
     <QuantityHolder>
       <Name>Hallowed Marsh:Hallowed Marsh</Name>
       <Quantity>23</Quantity>
@@ -11,8 +11,14 @@
       <Name>Hallowed Marsh:Jade Quarry</Name>
       <Quantity>4</Quantity>
     </QuantityHolder>
-  </Locations_Found>
-  <All_DropTables>
-    <string>DropTable_FishingSpotHallowedMarsh</string>
-  </All_DropTables>
+  </All_Locations>
+  <DropTables>
+    <ContainerDroptableSummary>
+      <DropTableName>DropTable_FishingSpotHallowedMarsh</DropTableName>
+      <Locations>
+        <string>Hallowed Marsh</string>
+        <string>Jade Quarry</string>
+      </Locations>
+    </ContainerDroptableSummary>
+  </DropTables>
 </ContainerSummary>

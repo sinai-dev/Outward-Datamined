@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<ItemSource xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <ItemName>Mushroom Halberd</ItemName>
-  <ItemID>2140050</ItemID>
-  <Container_Sources>
-    <string>Trog Chest (Hallowed Marsh:Under Island)</string>
-  </Container_Sources>
-  <Spawn_Sources />
-</ItemSource>

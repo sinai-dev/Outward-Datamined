@@ -2,7 +2,7 @@
 <ContainerSummary xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Name>Chest</Name>
   <ItemID>0</ItemID>
-  <Locations_Found>
+  <All_Locations>
     <QuantityHolder>
       <Name>Chersonese:Cierzo</Name>
       <Quantity>1</Quantity>
@@ -223,49 +223,535 @@
       <Name>Enmerkar Forest:Tree Husk</Name>
       <Quantity>1</Quantity>
     </QuantityHolder>
-  </Locations_Found>
-  <All_DropTables>
-    <string>DropTable_Neutral_Cloth_Rich_1</string>
-    <string>DropTable_Neutral_Consumable_Low_2</string>
-    <string>DropTable_Chersonese_Recipe_Weapon_1</string>
-    <string>DropTable_Chersonese_Equipment_High_1</string>
-    <string>DropTable_Neutral_Magic_Low_2</string>
-    <string>DropTable_Neutral_Alchemy_Low_2</string>
-    <string>DropTable_Neutral_Valuable_High_1</string>
-    <string>DropTable_Chersonese_Equipment_Medium_1</string>
-    <string>DropTable_Neutral_Survival_Medium_1</string>
-    <string>DropTable_Chersonese_Recipe_Basic_1</string>
-    <string>DropTable_Neutral_StandardRecipe_High_1</string>
-    <string>DropTable_Neutral_Valuable_Low_1</string>
-    <string>DropTable_Chersonese_Food_1</string>
-    <string>DropTable_Neutral_Survival_High_1</string>
-    <string>DropTable_Neutral_StandardRecipe_Low_1</string>
-    <string>DropTable_Neutral_Recipe_Dungeon_1</string>
-    <string>DropTable_Neutral_Magic_High_1</string>
-    <string>DropTable_Neutral_Survival_Low_2</string>
-    <string>DropTable_Neutral_Alchemy_High_1</string>
-    <string>DropTable_Chersonese_Equipment_HighDungeon_1</string>
-    <string>DropTable_Neutral_Food_1</string>
-    <string>DropTable_HallowedMarsh_Equipment_Medium_1</string>
-    <string>DropTable_HallowedMarsh_Recipe_Basic_1</string>
-    <string>DropTable_HallowedMarsh_Equipment_High_1</string>
-    <string>DropTable_HallowedMarsh_Recipe_Weapon_1</string>
-    <string>DropTable_HallowedMarsh_Equipment_Low_1</string>
-    <string>DropTable_Neutral_Consumable_High_1</string>
-    <string>DropTable_Abrassar_Equipment_Low_1</string>
-    <string>DropTable_Abrassar_Food_1</string>
-    <string>DropTable_Abrassar_Recipe_Basic_1</string>
-    <string>DropTable_Abrassar_UniqueWeaponsStash_Poor</string>
-    <string>DropTable_Abrassar_Equipment_Low</string>
-    <string>DropTable_Abrassar_Equipment_Medium_1</string>
-    <string>DropTable_Abrassar_Recipe_Weapon_1</string>
-    <string>DropTable_Abrassar_Equipment_High_1</string>
-    <string>DropTable_Enmerkar_Equipment_Low_1</string>
-    <string>DropTable_Neutral_Cloth_Poor_1</string>
-    <string>DropTable_Enmerkar_Equipment_High_1</string>
-    <string>DropTable_Enmerkar_Recipe_Weapon_1</string>
-    <string>DropTable_Enmerkar_Recipe_Basic_1</string>
-    <string>DropTable_Enmerkar_Equipment_Medium_1</string>
-    <string>DropTable_Enmerkar_Food_1</string>
-  </All_DropTables>
+  </All_Locations>
+  <DropTables>
+    <ContainerDroptableSummary>
+      <DropTableName>DropTable_Chersonese_Recipe_Weapon_1</DropTableName>
+      <Locations>
+        <string>Cierzo (Destroyed)</string>
+        <string>Chersonese</string>
+        <string>Holy Mission’s Conflux Path</string>
+      </Locations>
+    </ContainerDroptableSummary>
+    <ContainerDroptableSummary>
+      <DropTableName>DropTable_Chersonese_Equipment_High_1</DropTableName>
+      <Locations>
+        <string>Cierzo (Destroyed)</string>
+        <string>Chersonese</string>
+        <string>Vendavel Fortress</string>
+        <string>Ghost Pass</string>
+        <string>Holy Mission’s Conflux Path</string>
+        <string>Voltaic Hatchery</string>
+        <string>Conflux Chambers</string>
+        <string>Corrupted Tombs</string>
+        <string>Bandits' Prison</string>
+        <string>Immaculate's Cave</string>
+        <string>Vigil Tomb</string>
+        <string>Abandoned Shed</string>
+      </Locations>
+    </ContainerDroptableSummary>
+    <ContainerDroptableSummary>
+      <DropTableName>DropTable_Neutral_Magic_Low_2</DropTableName>
+      <Locations>
+        <string>Cierzo (Destroyed)</string>
+        <string>Chersonese</string>
+        <string>Ghost Pass</string>
+        <string>Voltaic Hatchery</string>
+        <string>Corrupted Tombs</string>
+        <string>Bandits' Prison</string>
+        <string>Vigil Tomb</string>
+        <string>Hallowed Marsh</string>
+        <string>Giants’ Village</string>
+        <string>Dark Ziggurat Interior</string>
+        <string>Spire of Light</string>
+        <string>Ziggurat Passage</string>
+        <string>Hollowed Lotus</string>
+        <string>Flooded Cellar</string>
+        <string>Undercity Passage</string>
+        <string>Electric Lab</string>
+        <string>The Slide</string>
+        <string>Stone Titan Caves</string>
+        <string>Ruined Outpost</string>
+        <string>Enmerkar Forest</string>
+        <string>Cabal of Wind Temple</string>
+        <string>Face of the Ancients</string>
+        <string>Ancestor’s Resting Place</string>
+        <string>Necropolis</string>
+        <string>Immaculate's Camp</string>
+      </Locations>
+    </ContainerDroptableSummary>
+    <ContainerDroptableSummary>
+      <DropTableName>DropTable_Neutral_Cloth_Rich_1</DropTableName>
+      <Locations>
+        <string>Cierzo (Destroyed)</string>
+        <string>Levant</string>
+      </Locations>
+    </ContainerDroptableSummary>
+    <ContainerDroptableSummary>
+      <DropTableName>DropTable_Neutral_Alchemy_Low_2</DropTableName>
+      <Locations>
+        <string>Cierzo (Destroyed)</string>
+        <string>Chersonese</string>
+        <string>Vendavel Fortress</string>
+        <string>Ghost Pass</string>
+        <string>Voltaic Hatchery</string>
+        <string>Conflux Chambers</string>
+        <string>Corrupted Tombs</string>
+        <string>Hallowed Marsh</string>
+        <string>Jade Quarry</string>
+        <string>Reptilian Lair</string>
+        <string>Dark Ziggurat Interior</string>
+        <string>Ziggurat Passage</string>
+        <string>Dead Roots</string>
+        <string>Abrassar</string>
+        <string>Undercity Passage</string>
+        <string>Electric Lab</string>
+        <string>The Slide</string>
+        <string>Stone Titan Caves</string>
+        <string>Sand Rose Cave</string>
+        <string>Corsair's Headquarters</string>
+        <string>Ruined Outpost</string>
+        <string>Immaculate's Camp</string>
+        <string>Hive Prison</string>
+        <string>Dock's Storage</string>
+        <string>River's End</string>
+        <string>Enmerkar Forest</string>
+        <string>Cabal of Wind Temple</string>
+        <string>Face of the Ancients</string>
+        <string>Vigil Pylon</string>
+        <string>Dolmen Crypt</string>
+        <string>Old Hunter's Cabin</string>
+      </Locations>
+    </ContainerDroptableSummary>
+    <ContainerDroptableSummary>
+      <DropTableName>DropTable_Neutral_Valuable_High_1</DropTableName>
+      <Locations>
+        <string>Cierzo (Destroyed)</string>
+      </Locations>
+    </ContainerDroptableSummary>
+    <ContainerDroptableSummary>
+      <DropTableName>DropTable_Chersonese_Equipment_Medium_1</DropTableName>
+      <Locations>
+        <string>Chersonese</string>
+        <string>Blue Chamber’s Conflux Path</string>
+        <string>Holy Mission’s Conflux Path</string>
+        <string>Heroic Kingdom’s Conflux Path</string>
+        <string>Montcalm Clan Fort</string>
+        <string>Mansion's Cellar</string>
+      </Locations>
+    </ContainerDroptableSummary>
+    <ContainerDroptableSummary>
+      <DropTableName>DropTable_Neutral_Survival_Medium_1</DropTableName>
+      <Locations>
+        <string>Chersonese</string>
+        <string>Ghost Pass</string>
+        <string>Holy Mission’s Conflux Path</string>
+        <string>Heroic Kingdom’s Conflux Path</string>
+        <string>Voltaic Hatchery</string>
+        <string>Bandits' Prison</string>
+        <string>Mansion's Cellar</string>
+        <string>Hallowed Marsh</string>
+        <string>Jade Quarry</string>
+        <string>Giants’ Village</string>
+        <string>Spire of Light</string>
+        <string>Dead Roots</string>
+        <string>Immaculate's Camp</string>
+        <string>Levant</string>
+        <string>Abrassar</string>
+        <string>Undercity Passage</string>
+        <string>Electric Lab</string>
+        <string>Corsair's Headquarters</string>
+        <string>Dock's Storage</string>
+        <string>River's End</string>
+        <string>Enmerkar Forest</string>
+        <string>Forest Hives</string>
+        <string>Ancestor’s Resting Place</string>
+        <string>Necropolis</string>
+        <string>Tree Husk</string>
+        <string>Vigil Pylon</string>
+      </Locations>
+    </ContainerDroptableSummary>
+    <ContainerDroptableSummary>
+      <DropTableName>DropTable_Chersonese_Recipe_Basic_1</DropTableName>
+      <Locations>
+        <string>Chersonese</string>
+        <string>Holy Mission’s Conflux Path</string>
+        <string>Heroic Kingdom’s Conflux Path</string>
+        <string>Voltaic Hatchery</string>
+        <string>Montcalm Clan Fort</string>
+        <string>Vigil Tomb</string>
+      </Locations>
+    </ContainerDroptableSummary>
+    <ContainerDroptableSummary>
+      <DropTableName>DropTable_Neutral_Consumable_Low_2</DropTableName>
+      <Locations>
+        <string>Chersonese</string>
+        <string>Ghost Pass</string>
+        <string>Blue Chamber’s Conflux Path</string>
+        <string>Holy Mission’s Conflux Path</string>
+        <string>Heroic Kingdom’s Conflux Path</string>
+        <string>Voltaic Hatchery</string>
+        <string>Montcalm Clan Fort</string>
+        <string>Immaculate's Cave</string>
+        <string>Hallowed Marsh</string>
+        <string>Jade Quarry</string>
+        <string>Giants’ Village</string>
+        <string>Dark Ziggurat Interior</string>
+        <string>Spire of Light</string>
+        <string>Ziggurat Passage</string>
+        <string>Dead Roots</string>
+        <string>Abrassar</string>
+        <string>Undercity Passage</string>
+        <string>Electric Lab</string>
+        <string>Stone Titan Caves</string>
+        <string>Sand Rose Cave</string>
+        <string>Hive Prison</string>
+        <string>Captain's Cabin</string>
+        <string>Enmerkar Forest</string>
+        <string>Forest Hives</string>
+        <string>Ancestor’s Resting Place</string>
+        <string>Necropolis</string>
+        <string>Burnt Outpost</string>
+        <string>Vigil Pylon</string>
+        <string>Tree Husk</string>
+      </Locations>
+    </ContainerDroptableSummary>
+    <ContainerDroptableSummary>
+      <DropTableName>DropTable_Neutral_StandardRecipe_High_1</DropTableName>
+      <Locations>
+        <string>Chersonese</string>
+        <string>Ghost Pass</string>
+        <string>Corrupted Tombs</string>
+        <string>Bandits' Prison</string>
+        <string>Hallowed Marsh</string>
+        <string>Ziggurat Passage</string>
+        <string>Hollowed Lotus</string>
+        <string>Flooded Cellar</string>
+        <string>Abrassar</string>
+        <string>Undercity Passage</string>
+        <string>Cabal of Wind Temple</string>
+        <string>Necropolis</string>
+      </Locations>
+    </ContainerDroptableSummary>
+    <ContainerDroptableSummary>
+      <DropTableName>DropTable_Neutral_Valuable_Low_1</DropTableName>
+      <Locations>
+        <string>Chersonese</string>
+        <string>Hallowed Marsh</string>
+        <string>Dead Roots</string>
+        <string>Immaculate's Camp</string>
+        <string>Berg</string>
+        <string>Enmerkar Forest</string>
+        <string>Face of the Ancients</string>
+        <string>Vigil Pylon</string>
+      </Locations>
+    </ContainerDroptableSummary>
+    <ContainerDroptableSummary>
+      <DropTableName>DropTable_Chersonese_Food_1</DropTableName>
+      <Locations>
+        <string>Chersonese</string>
+        <string>Vendavel Fortress</string>
+        <string>Montcalm Clan Fort</string>
+      </Locations>
+    </ContainerDroptableSummary>
+    <ContainerDroptableSummary>
+      <DropTableName>DropTable_Neutral_Survival_High_1</DropTableName>
+      <Locations>
+        <string>Chersonese</string>
+        <string>Vendavel Fortress</string>
+        <string>Hallowed Marsh</string>
+        <string>Jade Quarry</string>
+        <string>Levant</string>
+        <string>Electric Lab</string>
+      </Locations>
+    </ContainerDroptableSummary>
+    <ContainerDroptableSummary>
+      <DropTableName>DropTable_Neutral_StandardRecipe_Low_1</DropTableName>
+      <Locations>
+        <string>Vendavel Fortress</string>
+        <string>Blue Chamber’s Conflux Path</string>
+        <string>Conflux Chambers</string>
+        <string>Mansion's Cellar</string>
+        <string>Immaculate's Cave</string>
+        <string>Hallowed Marsh</string>
+        <string>Giants’ Village</string>
+        <string>Levant</string>
+        <string>Abrassar</string>
+        <string>Enmerkar Forest</string>
+        <string>Forest Hives</string>
+        <string>Cabal of Wind Temple</string>
+        <string>Face of the Ancients</string>
+        <string>Ancestor’s Resting Place</string>
+        <string>Necropolis</string>
+        <string>Burnt Outpost</string>
+        <string>Vigil Pylon</string>
+        <string>Tree Husk</string>
+      </Locations>
+    </ContainerDroptableSummary>
+    <ContainerDroptableSummary>
+      <DropTableName>DropTable_Neutral_Recipe_Dungeon_1</DropTableName>
+      <Locations>
+        <string>Ghost Pass</string>
+        <string>Heroic Kingdom’s Conflux Path</string>
+        <string>Voltaic Hatchery</string>
+        <string>Dark Ziggurat Interior</string>
+        <string>Spire of Light</string>
+        <string>Stone Titan Caves</string>
+        <string>Dock's Storage</string>
+      </Locations>
+    </ContainerDroptableSummary>
+    <ContainerDroptableSummary>
+      <DropTableName>DropTable_Neutral_Magic_High_1</DropTableName>
+      <Locations>
+        <string>Blue Chamber’s Conflux Path</string>
+        <string>Holy Mission’s Conflux Path</string>
+        <string>Mansion's Cellar</string>
+        <string>Hallowed Marsh</string>
+        <string>Ruined Outpost</string>
+        <string>Captain's Cabin</string>
+        <string>Enmerkar Forest</string>
+        <string>Cabal of Wind Temple</string>
+        <string>Necropolis</string>
+        <string>Burnt Outpost</string>
+      </Locations>
+    </ContainerDroptableSummary>
+    <ContainerDroptableSummary>
+      <DropTableName>DropTable_Neutral_Survival_Low_2</DropTableName>
+      <Locations>
+        <string>Holy Mission’s Conflux Path</string>
+        <string>Heroic Kingdom’s Conflux Path</string>
+        <string>Conflux Chambers</string>
+        <string>Immaculate's Cave</string>
+        <string>Hallowed Marsh</string>
+        <string>Dark Ziggurat Interior</string>
+        <string>Spire of Light</string>
+        <string>Ziggurat Passage</string>
+        <string>Hollowed Lotus</string>
+        <string>Flooded Cellar</string>
+        <string>Levant</string>
+        <string>Abrassar</string>
+        <string>The Slide</string>
+        <string>Corsair's Headquarters</string>
+        <string>Immaculate's Camp</string>
+        <string>Dock's Storage</string>
+        <string>River's End</string>
+        <string>Enmerkar Forest</string>
+        <string>Cabal of Wind Temple</string>
+        <string>Ancestor’s Resting Place</string>
+        <string>Necropolis</string>
+      </Locations>
+    </ContainerDroptableSummary>
+    <ContainerDroptableSummary>
+      <DropTableName>DropTable_Neutral_Alchemy_High_1</DropTableName>
+      <Locations>
+        <string>Heroic Kingdom’s Conflux Path</string>
+      </Locations>
+    </ContainerDroptableSummary>
+    <ContainerDroptableSummary>
+      <DropTableName>DropTable_Chersonese_Equipment_HighDungeon_1</DropTableName>
+      <Locations>
+        <string>Heroic Kingdom’s Conflux Path</string>
+      </Locations>
+    </ContainerDroptableSummary>
+    <ContainerDroptableSummary>
+      <DropTableName>DropTable_Neutral_Food_1</DropTableName>
+      <Locations>
+        <string>Montcalm Clan Fort</string>
+        <string>Levant</string>
+        <string>Undercity Passage</string>
+        <string>Berg</string>
+        <string>Old Hunter's Cabin</string>
+      </Locations>
+    </ContainerDroptableSummary>
+    <ContainerDroptableSummary>
+      <DropTableName>DropTable_HallowedMarsh_Equipment_Medium_1</DropTableName>
+      <Locations>
+        <string>Hallowed Marsh</string>
+        <string>Jade Quarry</string>
+        <string>Ziggurat Passage</string>
+        <string>Hollowed Lotus</string>
+        <string>Immaculate's Camp</string>
+        <string>Flooded Cellar</string>
+      </Locations>
+    </ContainerDroptableSummary>
+    <ContainerDroptableSummary>
+      <DropTableName>DropTable_HallowedMarsh_Recipe_Basic_1</DropTableName>
+      <Locations>
+        <string>Hallowed Marsh</string>
+        <string>Jade Quarry</string>
+        <string>Immaculate's Camp</string>
+      </Locations>
+    </ContainerDroptableSummary>
+    <ContainerDroptableSummary>
+      <DropTableName>DropTable_HallowedMarsh_Equipment_High_1</DropTableName>
+      <Locations>
+        <string>Hallowed Marsh</string>
+        <string>Reptilian Lair</string>
+        <string>Dark Ziggurat Interior</string>
+        <string>Spire of Light</string>
+        <string>Dead Roots</string>
+      </Locations>
+    </ContainerDroptableSummary>
+    <ContainerDroptableSummary>
+      <DropTableName>DropTable_HallowedMarsh_Recipe_Weapon_1</DropTableName>
+      <Locations>
+        <string>Hallowed Marsh</string>
+        <string>Reptilian Lair</string>
+        <string>Dark Ziggurat Interior</string>
+        <string>Spire of Light</string>
+        <string>Dead Roots</string>
+        <string>Abandoned Shed</string>
+      </Locations>
+    </ContainerDroptableSummary>
+    <ContainerDroptableSummary>
+      <DropTableName>DropTable_HallowedMarsh_Equipment_Low_1</DropTableName>
+      <Locations>
+        <string>Hallowed Marsh</string>
+        <string>Giants’ Village</string>
+      </Locations>
+    </ContainerDroptableSummary>
+    <ContainerDroptableSummary>
+      <DropTableName>DropTable_Neutral_Consumable_High_1</DropTableName>
+      <Locations>
+        <string>Reptilian Lair</string>
+        <string>Abandoned Shed</string>
+        <string>Face of the Ancients</string>
+        <string>Immaculate's Camp</string>
+        <string>Dolmen Crypt</string>
+      </Locations>
+    </ContainerDroptableSummary>
+    <ContainerDroptableSummary>
+      <DropTableName>DropTable_Abrassar_Equipment_Low_1</DropTableName>
+      <Locations>
+        <string>Levant</string>
+      </Locations>
+    </ContainerDroptableSummary>
+    <ContainerDroptableSummary>
+      <DropTableName>DropTable_Abrassar_Food_1</DropTableName>
+      <Locations>
+        <string>Levant</string>
+        <string>Abrassar</string>
+      </Locations>
+    </ContainerDroptableSummary>
+    <ContainerDroptableSummary>
+      <DropTableName>DropTable_Abrassar_Recipe_Basic_1</DropTableName>
+      <Locations>
+        <string>Levant</string>
+        <string>Abrassar</string>
+        <string>Undercity Passage</string>
+        <string>Electric Lab</string>
+        <string>The Slide</string>
+        <string>Stone Titan Caves</string>
+        <string>Sand Rose Cave</string>
+      </Locations>
+    </ContainerDroptableSummary>
+    <ContainerDroptableSummary>
+      <DropTableName>DropTable_Abrassar_UniqueWeaponsStash_Poor</DropTableName>
+      <Locations>
+        <string>Levant</string>
+      </Locations>
+    </ContainerDroptableSummary>
+    <ContainerDroptableSummary>
+      <DropTableName>DropTable_Abrassar_Equipment_Low</DropTableName>
+      <Locations>
+        <string>Levant</string>
+      </Locations>
+    </ContainerDroptableSummary>
+    <ContainerDroptableSummary>
+      <DropTableName>DropTable_Abrassar_Equipment_Medium_1</DropTableName>
+      <Locations>
+        <string>Abrassar</string>
+        <string>Undercity Passage</string>
+        <string>Electric Lab</string>
+        <string>The Slide</string>
+      </Locations>
+    </ContainerDroptableSummary>
+    <ContainerDroptableSummary>
+      <DropTableName>DropTable_Abrassar_Recipe_Weapon_1</DropTableName>
+      <Locations>
+        <string>Undercity Passage</string>
+        <string>The Slide</string>
+        <string>Stone Titan Caves</string>
+        <string>Corsair's Headquarters</string>
+        <string>Ruined Outpost</string>
+        <string>Immaculate's Camp</string>
+        <string>Hive Prison</string>
+        <string>River's End</string>
+        <string>Captain's Cabin</string>
+      </Locations>
+    </ContainerDroptableSummary>
+    <ContainerDroptableSummary>
+      <DropTableName>DropTable_Abrassar_Equipment_High_1</DropTableName>
+      <Locations>
+        <string>Electric Lab</string>
+        <string>Stone Titan Caves</string>
+        <string>Sand Rose Cave</string>
+        <string>Hive Prison</string>
+        <string>Captain's Cabin</string>
+      </Locations>
+    </ContainerDroptableSummary>
+    <ContainerDroptableSummary>
+      <DropTableName>DropTable_Enmerkar_Equipment_Low_1</DropTableName>
+      <Locations>
+        <string>Berg</string>
+        <string>Enmerkar Forest</string>
+      </Locations>
+    </ContainerDroptableSummary>
+    <ContainerDroptableSummary>
+      <DropTableName>DropTable_Neutral_Cloth_Poor_1</DropTableName>
+      <Locations>
+        <string>Berg</string>
+        <string>Enmerkar Forest</string>
+      </Locations>
+    </ContainerDroptableSummary>
+    <ContainerDroptableSummary>
+      <DropTableName>DropTable_Enmerkar_Equipment_High_1</DropTableName>
+      <Locations>
+        <string>Enmerkar Forest</string>
+        <string>Forest Hives</string>
+        <string>Cabal of Wind Temple</string>
+        <string>Face of the Ancients</string>
+        <string>Vigil Pylon</string>
+        <string>Burnt Outpost</string>
+        <string>Immaculate's Camp</string>
+        <string>Dolmen Crypt</string>
+      </Locations>
+    </ContainerDroptableSummary>
+    <ContainerDroptableSummary>
+      <DropTableName>DropTable_Enmerkar_Recipe_Weapon_1</DropTableName>
+      <Locations>
+        <string>Enmerkar Forest</string>
+        <string>Vigil Pylon</string>
+        <string>Immaculate's Camp</string>
+        <string>Dolmen Crypt</string>
+      </Locations>
+    </ContainerDroptableSummary>
+    <ContainerDroptableSummary>
+      <DropTableName>DropTable_Enmerkar_Recipe_Basic_1</DropTableName>
+      <Locations>
+        <string>Enmerkar Forest</string>
+        <string>Face of the Ancients</string>
+        <string>Ancestor’s Resting Place</string>
+        <string>Necropolis</string>
+        <string>Old Hunter's Cabin</string>
+      </Locations>
+    </ContainerDroptableSummary>
+    <ContainerDroptableSummary>
+      <DropTableName>DropTable_Enmerkar_Equipment_Medium_1</DropTableName>
+      <Locations>
+        <string>Enmerkar Forest</string>
+        <string>Cabal of Wind Temple</string>
+        <string>Ancestor’s Resting Place</string>
+        <string>Necropolis</string>
+        <string>Old Hunter's Cabin</string>
+        <string>Tree Husk</string>
+      </Locations>
+    </ContainerDroptableSummary>
+    <ContainerDroptableSummary>
+      <DropTableName>DropTable_Enmerkar_Food_1</DropTableName>
+      <Locations>
+        <string>Old Hunter's Cabin</string>
+      </Locations>
+    </ContainerDroptableSummary>
+  </DropTables>
 </ContainerSummary>

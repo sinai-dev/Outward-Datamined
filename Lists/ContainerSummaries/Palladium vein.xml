@@ -2,7 +2,7 @@
 <ContainerSummary xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Name>Palladium vein</Name>
   <ItemID>0</ItemID>
-  <Locations_Found>
+  <All_Locations>
     <QuantityHolder>
       <Name>Chersonese:Ghost Pass</Name>
       <Quantity>1</Quantity>
@@ -75,8 +75,29 @@
       <Name>Enmerkar Forest:Necropolis</Name>
       <Quantity>1</Quantity>
     </QuantityHolder>
-  </Locations_Found>
-  <All_DropTables>
-    <string>DropTable_PalladiumOre</string>
-  </All_DropTables>
+  </All_Locations>
+  <DropTables>
+    <ContainerDroptableSummary>
+      <DropTableName>DropTable_PalladiumOre</DropTableName>
+      <Locations>
+        <string>Blue Chamber’s Conflux Path</string>
+        <string>Conflux Chambers</string>
+        <string>Hallowed Marsh</string>
+        <string>Jade Quarry</string>
+        <string>Reptilian Lair</string>
+        <string>Ziggurat Passage</string>
+        <string>Abrassar</string>
+        <string>Electric Lab</string>
+        <string>The Slide</string>
+        <string>Stone Titan Caves</string>
+        <string>Ancient Hive</string>
+        <string>Sand Rose Cave</string>
+        <string>Enmerkar Forest</string>
+        <string>Royal Manticore’s Lair</string>
+        <string>Face of the Ancients</string>
+        <string>Ancestor’s Resting Place</string>
+        <string>Necropolis</string>
+      </Locations>
+    </ContainerDroptableSummary>
+  </DropTables>
 </ContainerSummary>

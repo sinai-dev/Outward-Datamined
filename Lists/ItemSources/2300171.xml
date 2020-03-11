@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<ItemSource xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <ItemName>Fabulous Palladium Shield</ItemName>
-  <ItemID>2300171</ItemID>
-  <Container_Sources />
-  <Spawn_Sources>
-    <string>Hallowed Marsh:Under Island</string>
-  </Spawn_Sources>
-</ItemSource>
