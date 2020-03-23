@@ -30,6 +30,8 @@ Rush forward to hit foes with your shield for high Impact. Can hit the target tw
           <Impact_Multiplier>1</Impact_Multiplier>
           <Impact_Multiplier_Kback>-1</Impact_Multiplier_Kback>
           <Impact_Multiplier_Kdown>-1</Impact_Multiplier_Kdown>
+          <DurabilityLoss>1</DurabilityLoss>
+          <DurabilityLossPercent>0</DurabilityLossPercent>
         </EffectHolder>
       </Effects>
       <EffectConditions />

@@ -30,6 +30,8 @@ High Damage and Impact strike that deals twice its Damage against knocked down f
           <Impact_Multiplier>1.5</Impact_Multiplier>
           <Impact_Multiplier_Kback>-1</Impact_Multiplier_Kback>
           <Impact_Multiplier_Kdown>3</Impact_Multiplier_Kdown>
+          <DurabilityLoss>5</DurabilityLoss>
+          <DurabilityLossPercent>0</DurabilityLossPercent>
         </EffectHolder>
       </Effects>
       <EffectConditions />

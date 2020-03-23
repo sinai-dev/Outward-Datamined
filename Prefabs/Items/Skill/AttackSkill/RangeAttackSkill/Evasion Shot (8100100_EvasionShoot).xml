@@ -34,6 +34,8 @@ Locking on foes is essential with this skill.</Description>
                   <Impact_Multiplier>1</Impact_Multiplier>
                   <Impact_Multiplier_Kback>-1</Impact_Multiplier_Kback>
                   <Impact_Multiplier_Kdown>-1</Impact_Multiplier_Kdown>
+                  <DurabilityLoss>1</DurabilityLoss>
+                  <DurabilityLossPercent>0</DurabilityLossPercent>
                 </EffectHolder>
                 <EffectHolder xsi:type="AddStatusEffectHolder">
                   <StatusEffect>Cripple</StatusEffect>

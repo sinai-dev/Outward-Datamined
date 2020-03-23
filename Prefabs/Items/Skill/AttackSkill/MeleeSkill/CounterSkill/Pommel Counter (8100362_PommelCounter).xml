@@ -30,6 +30,8 @@ Counter an attack with a high Impact strike using the sword’s pommel. Inflicts
           <Impact_Multiplier>3.5</Impact_Multiplier>
           <Impact_Multiplier_Kback>-1</Impact_Multiplier_Kback>
           <Impact_Multiplier_Kdown>-1</Impact_Multiplier_Kdown>
+          <DurabilityLoss>5</DurabilityLoss>
+          <DurabilityLossPercent>0</DurabilityLossPercent>
         </EffectHolder>
         <EffectHolder xsi:type="AddStatusEffectHolder">
           <StatusEffect>Confusion</StatusEffect>

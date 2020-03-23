@@ -30,6 +30,8 @@ Deflect a melee attack and counter with a powerful strike. You will still strike
           <Impact_Multiplier>1</Impact_Multiplier>
           <Impact_Multiplier_Kback>-1</Impact_Multiplier_Kback>
           <Impact_Multiplier_Kdown>-1</Impact_Multiplier_Kdown>
+          <DurabilityLoss>5</DurabilityLoss>
+          <DurabilityLossPercent>0</DurabilityLossPercent>
         </EffectHolder>
       </Effects>
       <EffectConditions>
@@ -64,6 +66,8 @@ Deflect a melee attack and counter with a powerful strike. You will still strike
           <Impact_Multiplier>3.5</Impact_Multiplier>
           <Impact_Multiplier_Kback>-1</Impact_Multiplier_Kback>
           <Impact_Multiplier_Kdown>-1</Impact_Multiplier_Kdown>
+          <DurabilityLoss>5</DurabilityLoss>
+          <DurabilityLossPercent>0</DurabilityLossPercent>
         </EffectHolder>
       </Effects>
       <EffectConditions>

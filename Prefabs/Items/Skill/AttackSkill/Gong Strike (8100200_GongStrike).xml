@@ -37,6 +37,8 @@ Strike your weapon on your shield, removing the elemental infusion to make an ex
                       <Impact_Multiplier>1.4</Impact_Multiplier>
                       <Impact_Multiplier_Kback>-1</Impact_Multiplier_Kback>
                       <Impact_Multiplier_Kdown>-1</Impact_Multiplier_Kdown>
+                      <DurabilityLoss>0</DurabilityLoss>
+                      <DurabilityLossPercent>0</DurabilityLossPercent>
                     </EffectHolder>
                     <EffectHolder xsi:type="AddStatusEffectHolder">
                       <StatusEffect>Burning</StatusEffect>
@@ -83,6 +85,8 @@ Strike your weapon on your shield, removing the elemental infusion to make an ex
                       <Impact_Multiplier>1.4</Impact_Multiplier>
                       <Impact_Multiplier_Kback>-1</Impact_Multiplier_Kback>
                       <Impact_Multiplier_Kdown>-1</Impact_Multiplier_Kdown>
+                      <DurabilityLoss>0</DurabilityLoss>
+                      <DurabilityLossPercent>0</DurabilityLossPercent>
                     </EffectHolder>
                     <EffectHolder xsi:type="AddStatusEffectHolder">
                       <StatusEffect>Slow Down</StatusEffect>
@@ -129,6 +133,8 @@ Strike your weapon on your shield, removing the elemental infusion to make an ex
                       <Impact_Multiplier>1.9</Impact_Multiplier>
                       <Impact_Multiplier_Kback>-1</Impact_Multiplier_Kback>
                       <Impact_Multiplier_Kdown>-1</Impact_Multiplier_Kdown>
+                      <DurabilityLoss>0</DurabilityLoss>
+                      <DurabilityLossPercent>0</DurabilityLossPercent>
                     </EffectHolder>
                   </Effects>
                   <EffectConditions />
@@ -171,6 +177,8 @@ Strike your weapon on your shield, removing the elemental infusion to make an ex
                       <Impact_Multiplier>1.6</Impact_Multiplier>
                       <Impact_Multiplier_Kback>-1</Impact_Multiplier_Kback>
                       <Impact_Multiplier_Kdown>-1</Impact_Multiplier_Kdown>
+                      <DurabilityLoss>0</DurabilityLoss>
+                      <DurabilityLossPercent>0</DurabilityLossPercent>
                     </EffectHolder>
                   </Effects>
                   <EffectConditions />
@@ -213,6 +221,8 @@ Strike your weapon on your shield, removing the elemental infusion to make an ex
                       <Impact_Multiplier>1.2</Impact_Multiplier>
                       <Impact_Multiplier_Kback>-1</Impact_Multiplier_Kback>
                       <Impact_Multiplier_Kdown>-1</Impact_Multiplier_Kdown>
+                      <DurabilityLoss>0</DurabilityLoss>
+                      <DurabilityLossPercent>0</DurabilityLossPercent>
                     </EffectHolder>
                     <EffectHolder xsi:type="AddStatusEffectHolder">
                       <StatusEffect>Poisoned +</StatusEffect>
@@ -259,6 +269,8 @@ Strike your weapon on your shield, removing the elemental infusion to make an ex
                       <Impact_Multiplier>99</Impact_Multiplier>
                       <Impact_Multiplier_Kback>-1</Impact_Multiplier_Kback>
                       <Impact_Multiplier_Kdown>-1</Impact_Multiplier_Kdown>
+                      <DurabilityLoss>0</DurabilityLoss>
+                      <DurabilityLossPercent>0</DurabilityLossPercent>
                     </EffectHolder>
                   </Effects>
                   <EffectConditions />
@@ -301,6 +313,8 @@ Strike your weapon on your shield, removing the elemental infusion to make an ex
                       <Impact_Multiplier>1.6</Impact_Multiplier>
                       <Impact_Multiplier_Kback>-1</Impact_Multiplier_Kback>
                       <Impact_Multiplier_Kdown>-1</Impact_Multiplier_Kdown>
+                      <DurabilityLoss>0</DurabilityLoss>
+                      <DurabilityLossPercent>0</DurabilityLossPercent>
                     </EffectHolder>
                   </Effects>
                   <EffectConditions />
@@ -343,6 +357,8 @@ Strike your weapon on your shield, removing the elemental infusion to make an ex
                       <Impact_Multiplier>1.3</Impact_Multiplier>
                       <Impact_Multiplier_Kback>-1</Impact_Multiplier_Kback>
                       <Impact_Multiplier_Kdown>-1</Impact_Multiplier_Kdown>
+                      <DurabilityLoss>0</DurabilityLoss>
+                      <DurabilityLossPercent>0</DurabilityLossPercent>
                     </EffectHolder>
                   </Effects>
                   <EffectConditions />

@@ -28,6 +28,8 @@
           <Impact_Multiplier>1.75</Impact_Multiplier>
           <Impact_Multiplier_Kback>-1</Impact_Multiplier_Kback>
           <Impact_Multiplier_Kdown>-1</Impact_Multiplier_Kdown>
+          <DurabilityLoss>0</DurabilityLoss>
+          <DurabilityLossPercent>3</DurabilityLossPercent>
         </EffectHolder>
         <EffectHolder xsi:type="AddStatusEffectHolder">
           <StatusEffect>Pain</StatusEffect>

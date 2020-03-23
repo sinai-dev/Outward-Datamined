@@ -81,6 +81,8 @@ Some abilities load special bullets into your pistol, which are fired using this
                   <Impact_Multiplier>1</Impact_Multiplier>
                   <Impact_Multiplier_Kback>-1</Impact_Multiplier_Kback>
                   <Impact_Multiplier_Kdown>-1</Impact_Multiplier_Kdown>
+                  <DurabilityLoss>0</DurabilityLoss>
+                  <DurabilityLossPercent>0</DurabilityLossPercent>
                 </EffectHolder>
               </Effects>
               <EffectConditions />
@@ -144,6 +146,8 @@ Some abilities load special bullets into your pistol, which are fired using this
                   <Impact_Multiplier>2</Impact_Multiplier>
                   <Impact_Multiplier_Kback>-1</Impact_Multiplier_Kback>
                   <Impact_Multiplier_Kdown>-1</Impact_Multiplier_Kdown>
+                  <DurabilityLoss>0</DurabilityLoss>
+                  <DurabilityLossPercent>0</DurabilityLossPercent>
                 </EffectHolder>
               </Effects>
               <EffectConditions />
@@ -207,6 +211,8 @@ Some abilities load special bullets into your pistol, which are fired using this
                   <Impact_Multiplier>0.8</Impact_Multiplier>
                   <Impact_Multiplier_Kback>-1</Impact_Multiplier_Kback>
                   <Impact_Multiplier_Kdown>-1</Impact_Multiplier_Kdown>
+                  <DurabilityLoss>0</DurabilityLoss>
+                  <DurabilityLossPercent>0</DurabilityLossPercent>
                 </EffectHolder>
               </Effects>
               <EffectConditions />
@@ -258,6 +264,8 @@ Some abilities load special bullets into your pistol, which are fired using this
                   <Impact_Multiplier>1</Impact_Multiplier>
                   <Impact_Multiplier_Kback>-1</Impact_Multiplier_Kback>
                   <Impact_Multiplier_Kdown>-1</Impact_Multiplier_Kdown>
+                  <DurabilityLoss>0</DurabilityLoss>
+                  <DurabilityLossPercent>0</DurabilityLossPercent>
                 </EffectHolder>
                 <EffectHolder xsi:type="AddStatusEffectHolder">
                   <StatusEffect>Slow Down</StatusEffect>
@@ -312,6 +320,8 @@ Some abilities load special bullets into your pistol, which are fired using this
                   <Impact_Multiplier>2.5</Impact_Multiplier>
                   <Impact_Multiplier_Kback>-1</Impact_Multiplier_Kback>
                   <Impact_Multiplier_Kdown>-1</Impact_Multiplier_Kdown>
+                  <DurabilityLoss>0</DurabilityLoss>
+                  <DurabilityLossPercent>0</DurabilityLossPercent>
                 </EffectHolder>
                 <EffectHolder xsi:type="AddStatusEffectHolder">
                   <StatusEffect>Pain</StatusEffect>

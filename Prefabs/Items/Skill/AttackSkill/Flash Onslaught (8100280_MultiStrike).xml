@@ -37,6 +37,8 @@ Attack all enemies within a close distance with increased Damage and Impact. Usi
                   <Impact_Multiplier>2</Impact_Multiplier>
                   <Impact_Multiplier_Kback>-1</Impact_Multiplier_Kback>
                   <Impact_Multiplier_Kdown>-1</Impact_Multiplier_Kdown>
+                  <DurabilityLoss>0</DurabilityLoss>
+                  <DurabilityLossPercent>2</DurabilityLossPercent>
                 </EffectHolder>
                 <EffectHolder xsi:type="AddStatusEffectHolder">
                   <StatusEffect>Confusion</StatusEffect>

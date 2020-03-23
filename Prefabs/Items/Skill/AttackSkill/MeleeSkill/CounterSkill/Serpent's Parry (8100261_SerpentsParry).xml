@@ -30,6 +30,8 @@ Counter a physical attack with a strong dagger strike. Targets afflicted by Conf
           <Impact_Multiplier>2</Impact_Multiplier>
           <Impact_Multiplier_Kback>-1</Impact_Multiplier_Kback>
           <Impact_Multiplier_Kdown>-1</Impact_Multiplier_Kdown>
+          <DurabilityLoss>1</DurabilityLoss>
+          <DurabilityLossPercent>0</DurabilityLossPercent>
         </EffectHolder>
       </Effects>
       <EffectConditions>
@@ -65,6 +67,8 @@ Counter a physical attack with a strong dagger strike. Targets afflicted by Conf
           <Impact_Multiplier>0</Impact_Multiplier>
           <Impact_Multiplier_Kback>-1</Impact_Multiplier_Kback>
           <Impact_Multiplier_Kdown>-1</Impact_Multiplier_Kdown>
+          <DurabilityLoss>1</DurabilityLoss>
+          <DurabilityLossPercent>0</DurabilityLossPercent>
         </EffectHolder>
       </Effects>
       <EffectConditions>
