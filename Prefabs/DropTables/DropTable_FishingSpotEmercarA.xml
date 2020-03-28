@@ -8,6 +8,9 @@
       <MaxNumberOfDrops>1</MaxNumberOfDrops>
       <MaxDiceValue>27</MaxDiceValue>
       <EmptyDrop>0</EmptyDrop>
+      <RegenTime>24</RegenTime>
+      <ChanceReduction>1</ChanceReduction>
+      <ChanceRegenQty>1</ChanceRegenQty>
       <Item_Drops>
         <DropTableChanceEntry>
           <Item_Name>Raw Salmon</Item_Name>
@@ -16,6 +19,9 @@
           <Max_Quantity>1</Max_Quantity>
           <Drop_Chance>55.56</Drop_Chance>
           <Dice_Range>14</Dice_Range>
+          <ChanceReduction>1</ChanceReduction>
+          <ChanceRegenDelay>1</ChanceRegenDelay>
+          <ChanceRegenQty>1</ChanceRegenQty>
         </DropTableChanceEntry>
         <DropTableChanceEntry>
           <Item_Name>Azure Shrimp</Item_Name>
@@ -24,6 +30,9 @@
           <Max_Quantity>1</Max_Quantity>
           <Drop_Chance>14.81</Drop_Chance>
           <Dice_Range>3</Dice_Range>
+          <ChanceReduction>0</ChanceReduction>
+          <ChanceRegenDelay>-1</ChanceRegenDelay>
+          <ChanceRegenQty>0</ChanceRegenQty>
         </DropTableChanceEntry>
         <DropTableChanceEntry>
           <Item_Name>Raw Rainbow Trout</Item_Name>
@@ -32,6 +41,9 @@
           <Max_Quantity>1</Max_Quantity>
           <Drop_Chance>29.63</Drop_Chance>
           <Dice_Range>7</Dice_Range>
+          <ChanceReduction>0</ChanceReduction>
+          <ChanceRegenDelay>-1</ChanceRegenDelay>
+          <ChanceRegenQty>0</ChanceRegenQty>
         </DropTableChanceEntry>
       </Item_Drops>
     </DropGeneratorHolder>
@@ -40,6 +52,9 @@
       <MaxNumberOfDrops>1</MaxNumberOfDrops>
       <MaxDiceValue>33</MaxDiceValue>
       <EmptyDrop>30.3030319</EmptyDrop>
+      <RegenTime>24</RegenTime>
+      <ChanceReduction>1</ChanceReduction>
+      <ChanceRegenQty>1</ChanceRegenQty>
       <Item_Drops>
         <DropTableChanceEntry>
           <Item_Name>Larva Egg</Item_Name>
@@ -48,6 +63,9 @@
           <Max_Quantity>1</Max_Quantity>
           <Drop_Chance>12.12</Drop_Chance>
           <Dice_Range>3</Dice_Range>
+          <ChanceReduction>0</ChanceReduction>
+          <ChanceRegenDelay>-1</ChanceRegenDelay>
+          <ChanceRegenQty>0</ChanceRegenQty>
         </DropTableChanceEntry>
         <DropTableChanceEntry>
           <Item_Name>Seaweed</Item_Name>
@@ -56,6 +74,9 @@
           <Max_Quantity>2</Max_Quantity>
           <Drop_Chance>30.3</Drop_Chance>
           <Dice_Range>9</Dice_Range>
+          <ChanceReduction>0</ChanceReduction>
+          <ChanceRegenDelay>-1</ChanceRegenDelay>
+          <ChanceRegenQty>0</ChanceRegenQty>
         </DropTableChanceEntry>
         <DropTableChanceEntry>
           <Item_Name>Sandals</Item_Name>
@@ -64,6 +85,9 @@
           <Max_Quantity>1</Max_Quantity>
           <Drop_Chance>12.12</Drop_Chance>
           <Dice_Range>3</Dice_Range>
+          <ChanceReduction>0</ChanceReduction>
+          <ChanceRegenDelay>-1</ChanceRegenDelay>
+          <ChanceRegenQty>0</ChanceRegenQty>
         </DropTableChanceEntry>
         <DropTableChanceEntry>
           <Item_Name>Blue Sand</Item_Name>
@@ -72,6 +96,9 @@
           <Max_Quantity>1</Max_Quantity>
           <Drop_Chance>15.15</Drop_Chance>
           <Dice_Range>4</Dice_Range>
+          <ChanceReduction>0</ChanceReduction>
+          <ChanceRegenDelay>-1</ChanceRegenDelay>
+          <ChanceRegenQty>0</ChanceRegenQty>
         </DropTableChanceEntry>
       </Item_Drops>
     </DropGeneratorHolder>

@@ -22,9 +22,6 @@
   </All_Locations>
   <DropTables>
     <ContainerDroptableSummary>
-      <Locations />
-    </ContainerDroptableSummary>
-    <ContainerDroptableSummary>
       <DropTableName>DropTable_Neutral_Magic_Low_2</DropTableName>
       <Locations>
         <string>Blister Burrow</string>

@@ -126,9 +126,6 @@
   </All_Locations>
   <DropTables>
     <ContainerDroptableSummary>
-      <Locations />
-    </ContainerDroptableSummary>
-    <ContainerDroptableSummary>
       <DropTableName>DropTable_Chersonese_Equipment_High_1</DropTableName>
       <Locations>
         <string>Cierzo</string>

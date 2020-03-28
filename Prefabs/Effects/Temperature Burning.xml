@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<StatusEffectHolder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>Temperature Burning</Name>
+  <PresetID>0</PresetID>
+  <Lifespan>-1</Lifespan>
+  <LengthType>Short</LengthType>
+  <Tags />
+  <CanBeHealedBySleeping>false</CanBeHealedBySleeping>
+  <StraightSleepHealTime>-1</StraightSleepHealTime>
+  <Effects>
+    <EffectHolder xsi:type="AffectStatHolder">
+      <AffectedStat>ImpactResistance</AffectedStat>
+      <AffectedStat_TagUID>84</AffectedStat_TagUID>
+      <AffectQuantity>-60</AffectQuantity>
+      <IsModifier>false</IsModifier>
+    </EffectHolder>
+    <EffectHolder xsi:type="AffectStatHolder">
+      <AffectedStat>StaminaUse</AffectedStat>
+      <AffectedStat_TagUID>81</AffectedStat_TagUID>
+      <AffectQuantity>50</AffectQuantity>
+      <IsModifier>true</IsModifier>
+    </EffectHolder>
+  </Effects>
+</StatusEffectHolder>

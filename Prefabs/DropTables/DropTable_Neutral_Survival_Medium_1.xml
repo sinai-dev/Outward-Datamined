@@ -8,6 +8,9 @@
       <MaxNumberOfDrops>1</MaxNumberOfDrops>
       <MaxDiceValue>145</MaxDiceValue>
       <EmptyDrop>0</EmptyDrop>
+      <RegenTime>-1</RegenTime>
+      <ChanceReduction>0</ChanceReduction>
+      <ChanceRegenQty>10</ChanceRegenQty>
       <Item_Drops>
         <DropTableChanceEntry>
           <Item_Name>Trader Garb</Item_Name>
@@ -16,6 +19,9 @@
           <Max_Quantity>1</Max_Quantity>
           <Drop_Chance>3.45</Drop_Chance>
           <Dice_Range>4</Dice_Range>
+          <ChanceReduction>0</ChanceReduction>
+          <ChanceRegenDelay>-1</ChanceRegenDelay>
+          <ChanceRegenQty>0</ChanceRegenQty>
         </DropTableChanceEntry>
         <DropTableChanceEntry>
           <Item_Name>Straw Hat</Item_Name>
@@ -24,6 +30,9 @@
           <Max_Quantity>1</Max_Quantity>
           <Drop_Chance>3.45</Drop_Chance>
           <Dice_Range>4</Dice_Range>
+          <ChanceReduction>0</ChanceReduction>
+          <ChanceRegenDelay>-1</ChanceRegenDelay>
+          <ChanceRegenQty>0</ChanceRegenQty>
         </DropTableChanceEntry>
         <DropTableChanceEntry>
           <Item_Name>Trader Boots</Item_Name>
@@ -32,6 +41,9 @@
           <Max_Quantity>1</Max_Quantity>
           <Drop_Chance>3.45</Drop_Chance>
           <Dice_Range>4</Dice_Range>
+          <ChanceReduction>0</ChanceReduction>
+          <ChanceRegenDelay>-1</ChanceRegenDelay>
+          <ChanceRegenQty>0</ChanceRegenQty>
         </DropTableChanceEntry>
         <DropTableChanceEntry>
           <Item_Name>Bandages</Item_Name>
@@ -40,6 +52,9 @@
           <Max_Quantity>3</Max_Quantity>
           <Drop_Chance>6.9</Drop_Chance>
           <Dice_Range>9</Dice_Range>
+          <ChanceReduction>0</ChanceReduction>
+          <ChanceRegenDelay>-1</ChanceRegenDelay>
+          <ChanceRegenQty>0</ChanceRegenQty>
         </DropTableChanceEntry>
         <DropTableChanceEntry>
           <Item_Name>Mana Stone</Item_Name>
@@ -48,6 +63,9 @@
           <Max_Quantity>3</Max_Quantity>
           <Drop_Chance>6.9</Drop_Chance>
           <Dice_Range>9</Dice_Range>
+          <ChanceReduction>0</ChanceReduction>
+          <ChanceRegenDelay>-1</ChanceRegenDelay>
+          <ChanceRegenQty>0</ChanceRegenQty>
         </DropTableChanceEntry>
         <DropTableChanceEntry>
           <Item_Name>Explorer Lantern</Item_Name>
@@ -56,6 +74,9 @@
           <Max_Quantity>1</Max_Quantity>
           <Drop_Chance>6.9</Drop_Chance>
           <Dice_Range>9</Dice_Range>
+          <ChanceReduction>0</ChanceReduction>
+          <ChanceRegenDelay>-1</ChanceRegenDelay>
+          <ChanceRegenQty>0</ChanceRegenQty>
         </DropTableChanceEntry>
         <DropTableChanceEntry>
           <Item_Name>Alchemy Kit</Item_Name>
@@ -64,6 +85,9 @@
           <Max_Quantity>1</Max_Quantity>
           <Drop_Chance>6.9</Drop_Chance>
           <Dice_Range>9</Dice_Range>
+          <ChanceReduction>0</ChanceReduction>
+          <ChanceRegenDelay>-1</ChanceRegenDelay>
+          <ChanceRegenQty>0</ChanceRegenQty>
         </DropTableChanceEntry>
         <DropTableChanceEntry>
           <Item_Name>Bullet</Item_Name>
@@ -72,6 +96,9 @@
           <Max_Quantity>8</Max_Quantity>
           <Drop_Chance>6.9</Drop_Chance>
           <Dice_Range>9</Dice_Range>
+          <ChanceReduction>0</ChanceReduction>
+          <ChanceRegenDelay>-1</ChanceRegenDelay>
+          <ChanceRegenQty>0</ChanceRegenQty>
         </DropTableChanceEntry>
         <DropTableChanceEntry>
           <Item_Name>Poison Rag</Item_Name>
@@ -80,6 +107,9 @@
           <Max_Quantity>2</Max_Quantity>
           <Drop_Chance>6.9</Drop_Chance>
           <Dice_Range>9</Dice_Range>
+          <ChanceReduction>0</ChanceReduction>
+          <ChanceRegenDelay>-1</ChanceRegenDelay>
+          <ChanceRegenQty>0</ChanceRegenQty>
         </DropTableChanceEntry>
         <DropTableChanceEntry>
           <Item_Name>Bolt Rag</Item_Name>
@@ -88,6 +118,9 @@
           <Max_Quantity>2</Max_Quantity>
           <Drop_Chance>6.9</Drop_Chance>
           <Dice_Range>9</Dice_Range>
+          <ChanceReduction>0</ChanceReduction>
+          <ChanceRegenDelay>-1</ChanceRegenDelay>
+          <ChanceRegenQty>0</ChanceRegenQty>
         </DropTableChanceEntry>
         <DropTableChanceEntry>
           <Item_Name>Fire Rag</Item_Name>
@@ -96,6 +129,9 @@
           <Max_Quantity>2</Max_Quantity>
           <Drop_Chance>6.9</Drop_Chance>
           <Dice_Range>9</Dice_Range>
+          <ChanceReduction>0</ChanceReduction>
+          <ChanceRegenDelay>-1</ChanceRegenDelay>
+          <ChanceRegenQty>0</ChanceRegenQty>
         </DropTableChanceEntry>
         <DropTableChanceEntry>
           <Item_Name>Ice Rag</Item_Name>
@@ -104,6 +140,9 @@
           <Max_Quantity>2</Max_Quantity>
           <Drop_Chance>6.9</Drop_Chance>
           <Dice_Range>9</Dice_Range>
+          <ChanceReduction>0</ChanceReduction>
+          <ChanceRegenDelay>-1</ChanceRegenDelay>
+          <ChanceRegenQty>0</ChanceRegenQty>
         </DropTableChanceEntry>
         <DropTableChanceEntry>
           <Item_Name>Spikes – Iron</Item_Name>
@@ -112,6 +151,9 @@
           <Max_Quantity>3</Max_Quantity>
           <Drop_Chance>6.9</Drop_Chance>
           <Dice_Range>9</Dice_Range>
+          <ChanceReduction>0</ChanceReduction>
+          <ChanceRegenDelay>-1</ChanceRegenDelay>
+          <ChanceRegenQty>0</ChanceRegenQty>
         </DropTableChanceEntry>
         <DropTableChanceEntry>
           <Item_Name>Tripwire Trap</Item_Name>
@@ -120,6 +162,9 @@
           <Max_Quantity>3</Max_Quantity>
           <Drop_Chance>6.9</Drop_Chance>
           <Dice_Range>9</Dice_Range>
+          <ChanceReduction>0</ChanceReduction>
+          <ChanceRegenDelay>-1</ChanceRegenDelay>
+          <ChanceRegenQty>0</ChanceRegenQty>
         </DropTableChanceEntry>
         <DropTableChanceEntry>
           <Item_Name>Jerky</Item_Name>
@@ -128,6 +173,9 @@
           <Max_Quantity>1</Max_Quantity>
           <Drop_Chance>6.9</Drop_Chance>
           <Dice_Range>9</Dice_Range>
+          <ChanceReduction>0</ChanceReduction>
+          <ChanceRegenDelay>-1</ChanceRegenDelay>
+          <ChanceRegenQty>0</ChanceRegenQty>
         </DropTableChanceEntry>
         <DropTableChanceEntry>
           <Item_Name>Simple Tent</Item_Name>
@@ -136,6 +184,9 @@
           <Max_Quantity>1</Max_Quantity>
           <Drop_Chance>6.9</Drop_Chance>
           <Dice_Range>9</Dice_Range>
+          <ChanceReduction>0</ChanceReduction>
+          <ChanceRegenDelay>-1</ChanceRegenDelay>
+          <ChanceRegenQty>0</ChanceRegenQty>
         </DropTableChanceEntry>
       </Item_Drops>
     </DropGeneratorHolder>

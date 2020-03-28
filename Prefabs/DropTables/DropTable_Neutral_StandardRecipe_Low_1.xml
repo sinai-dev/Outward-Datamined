@@ -8,6 +8,9 @@
       <MaxNumberOfDrops>1</MaxNumberOfDrops>
       <MaxDiceValue>217</MaxDiceValue>
       <EmptyDrop>80.6451645</EmptyDrop>
+      <RegenTime>-1</RegenTime>
+      <ChanceReduction>0</ChanceReduction>
+      <ChanceRegenQty>10</ChanceRegenQty>
       <Item_Drops>
         <DropTableChanceEntry>
           <Item_Name>Cooking: Bitter Spicy Tea</Item_Name>
@@ -16,6 +19,9 @@
           <Max_Quantity>1</Max_Quantity>
           <Drop_Chance>0.46</Drop_Chance>
           <Dice_Range>0</Dice_Range>
+          <ChanceReduction>0</ChanceReduction>
+          <ChanceRegenDelay>-1</ChanceRegenDelay>
+          <ChanceRegenQty>0</ChanceRegenQty>
         </DropTableChanceEntry>
         <DropTableChanceEntry>
           <Item_Name>Cooking: Soothing Tea</Item_Name>
@@ -24,6 +30,9 @@
           <Max_Quantity>1</Max_Quantity>
           <Drop_Chance>0.46</Drop_Chance>
           <Dice_Range>0</Dice_Range>
+          <ChanceReduction>0</ChanceReduction>
+          <ChanceRegenDelay>-1</ChanceRegenDelay>
+          <ChanceRegenQty>0</ChanceRegenQty>
         </DropTableChanceEntry>
         <DropTableChanceEntry>
           <Item_Name>Cooking: Needle Tea</Item_Name>
@@ -32,6 +41,9 @@
           <Max_Quantity>1</Max_Quantity>
           <Drop_Chance>0.46</Drop_Chance>
           <Dice_Range>0</Dice_Range>
+          <ChanceReduction>0</ChanceReduction>
+          <ChanceRegenDelay>-1</ChanceRegenDelay>
+          <ChanceRegenQty>0</ChanceRegenQty>
         </DropTableChanceEntry>
         <DropTableChanceEntry>
           <Item_Name>Cooking: Mineral Tea</Item_Name>
@@ -40,6 +52,9 @@
           <Max_Quantity>1</Max_Quantity>
           <Drop_Chance>0.46</Drop_Chance>
           <Dice_Range>0</Dice_Range>
+          <ChanceReduction>0</ChanceReduction>
+          <ChanceRegenDelay>-1</ChanceRegenDelay>
+          <ChanceRegenQty>0</ChanceRegenQty>
         </DropTableChanceEntry>
         <DropTableChanceEntry>
           <Item_Name>Cooking: Miner’s Omelet</Item_Name>
@@ -48,6 +63,9 @@
           <Max_Quantity>1</Max_Quantity>
           <Drop_Chance>0.46</Drop_Chance>
           <Dice_Range>0</Dice_Range>
+          <ChanceReduction>0</ChanceReduction>
+          <ChanceRegenDelay>-1</ChanceRegenDelay>
+          <ChanceRegenQty>0</ChanceRegenQty>
         </DropTableChanceEntry>
         <DropTableChanceEntry>
           <Item_Name>Cooking: Pungent Paste</Item_Name>
@@ -56,6 +74,9 @@
           <Max_Quantity>1</Max_Quantity>
           <Drop_Chance>0.46</Drop_Chance>
           <Dice_Range>0</Dice_Range>
+          <ChanceReduction>0</ChanceReduction>
+          <ChanceRegenDelay>-1</ChanceRegenDelay>
+          <ChanceRegenQty>0</ChanceRegenQty>
         </DropTableChanceEntry>
         <DropTableChanceEntry>
           <Item_Name>Cooking: Jerky</Item_Name>
@@ -64,6 +85,9 @@
           <Max_Quantity>1</Max_Quantity>
           <Drop_Chance>0.46</Drop_Chance>
           <Dice_Range>0</Dice_Range>
+          <ChanceReduction>0</ChanceReduction>
+          <ChanceRegenDelay>-1</ChanceRegenDelay>
+          <ChanceRegenQty>0</ChanceRegenQty>
         </DropTableChanceEntry>
         <DropTableChanceEntry>
           <Item_Name>Cooking: Alpha Jerky</Item_Name>
@@ -72,6 +96,9 @@
           <Max_Quantity>1</Max_Quantity>
           <Drop_Chance>0.46</Drop_Chance>
           <Dice_Range>0</Dice_Range>
+          <ChanceReduction>0</ChanceReduction>
+          <ChanceRegenDelay>-1</ChanceRegenDelay>
+          <ChanceRegenQty>0</ChanceRegenQty>
         </DropTableChanceEntry>
         <DropTableChanceEntry>
           <Item_Name>Cooking: Dry Mushroom Bar</Item_Name>
@@ -80,6 +107,9 @@
           <Max_Quantity>1</Max_Quantity>
           <Drop_Chance>0.46</Drop_Chance>
           <Dice_Range>0</Dice_Range>
+          <ChanceReduction>0</ChanceReduction>
+          <ChanceRegenDelay>-1</ChanceRegenDelay>
+          <ChanceRegenQty>0</ChanceRegenQty>
         </DropTableChanceEntry>
         <DropTableChanceEntry>
           <Item_Name>Cooking: Gaberry Tartine</Item_Name>
@@ -88,6 +118,9 @@
           <Max_Quantity>1</Max_Quantity>
           <Drop_Chance>0.46</Drop_Chance>
           <Dice_Range>0</Dice_Range>
+          <ChanceReduction>0</ChanceReduction>
+          <ChanceRegenDelay>-1</ChanceRegenDelay>
+          <ChanceRegenQty>0</ChanceRegenQty>
         </DropTableChanceEntry>
         <DropTableChanceEntry>
           <Item_Name>Alchemy: Cold Stone</Item_Name>
@@ -96,6 +129,9 @@
           <Max_Quantity>1</Max_Quantity>
           <Drop_Chance>0.46</Drop_Chance>
           <Dice_Range>0</Dice_Range>
+          <ChanceReduction>0</ChanceReduction>
+          <ChanceRegenDelay>-1</ChanceRegenDelay>
+          <ChanceRegenQty>0</ChanceRegenQty>
         </DropTableChanceEntry>
         <DropTableChanceEntry>
           <Item_Name>Alchemy: Fire Stone</Item_Name>
@@ -104,6 +140,9 @@
           <Max_Quantity>1</Max_Quantity>
           <Drop_Chance>0.46</Drop_Chance>
           <Dice_Range>0</Dice_Range>
+          <ChanceReduction>0</ChanceReduction>
+          <ChanceRegenDelay>-1</ChanceRegenDelay>
+          <ChanceRegenQty>0</ChanceRegenQty>
         </DropTableChanceEntry>
         <DropTableChanceEntry>
           <Item_Name>Alchemy: Astral Potion</Item_Name>
@@ -112,6 +151,9 @@
           <Max_Quantity>1</Max_Quantity>
           <Drop_Chance>0.46</Drop_Chance>
           <Dice_Range>0</Dice_Range>
+          <ChanceReduction>0</ChanceReduction>
+          <ChanceRegenDelay>-1</ChanceRegenDelay>
+          <ChanceRegenQty>0</ChanceRegenQty>
         </DropTableChanceEntry>
         <DropTableChanceEntry>
           <Item_Name>Alchemy: Endurance Potion</Item_Name>
@@ -120,6 +162,9 @@
           <Max_Quantity>1</Max_Quantity>
           <Drop_Chance>0.46</Drop_Chance>
           <Dice_Range>0</Dice_Range>
+          <ChanceReduction>0</ChanceReduction>
+          <ChanceRegenDelay>-1</ChanceRegenDelay>
+          <ChanceRegenQty>0</ChanceRegenQty>
         </DropTableChanceEntry>
         <DropTableChanceEntry>
           <Item_Name>Alchemy: Life Potion</Item_Name>
@@ -128,6 +173,9 @@
           <Max_Quantity>1</Max_Quantity>
           <Drop_Chance>0.46</Drop_Chance>
           <Dice_Range>0</Dice_Range>
+          <ChanceReduction>0</ChanceReduction>
+          <ChanceRegenDelay>-1</ChanceRegenDelay>
+          <ChanceRegenQty>0</ChanceRegenQty>
         </DropTableChanceEntry>
         <DropTableChanceEntry>
           <Item_Name>Alchemy: Rage Potion</Item_Name>
@@ -136,6 +184,9 @@
           <Max_Quantity>1</Max_Quantity>
           <Drop_Chance>0.46</Drop_Chance>
           <Dice_Range>0</Dice_Range>
+          <ChanceReduction>0</ChanceReduction>
+          <ChanceRegenDelay>-1</ChanceRegenDelay>
+          <ChanceRegenQty>0</ChanceRegenQty>
         </DropTableChanceEntry>
         <DropTableChanceEntry>
           <Item_Name>Alchemy: Discipline Potion</Item_Name>
@@ -144,6 +195,9 @@
           <Max_Quantity>1</Max_Quantity>
           <Drop_Chance>0.46</Drop_Chance>
           <Dice_Range>0</Dice_Range>
+          <ChanceReduction>0</ChanceReduction>
+          <ChanceRegenDelay>-1</ChanceRegenDelay>
+          <ChanceRegenQty>0</ChanceRegenQty>
         </DropTableChanceEntry>
         <DropTableChanceEntry>
           <Item_Name>Alchemy: Warm Potion</Item_Name>
@@ -152,6 +206,9 @@
           <Max_Quantity>1</Max_Quantity>
           <Drop_Chance>0.46</Drop_Chance>
           <Dice_Range>0</Dice_Range>
+          <ChanceReduction>0</ChanceReduction>
+          <ChanceRegenDelay>-1</ChanceRegenDelay>
+          <ChanceRegenQty>0</ChanceRegenQty>
         </DropTableChanceEntry>
         <DropTableChanceEntry>
           <Item_Name>Alchemy: Cool Potion</Item_Name>
@@ -160,6 +217,9 @@
           <Max_Quantity>1</Max_Quantity>
           <Drop_Chance>0.46</Drop_Chance>
           <Dice_Range>0</Dice_Range>
+          <ChanceReduction>0</ChanceReduction>
+          <ChanceRegenDelay>-1</ChanceRegenDelay>
+          <ChanceRegenQty>0</ChanceRegenQty>
         </DropTableChanceEntry>
         <DropTableChanceEntry>
           <Item_Name>Alchemy: Mist Potion</Item_Name>
@@ -168,6 +228,9 @@
           <Max_Quantity>1</Max_Quantity>
           <Drop_Chance>0.46</Drop_Chance>
           <Dice_Range>0</Dice_Range>
+          <ChanceReduction>0</ChanceReduction>
+          <ChanceRegenDelay>-1</ChanceRegenDelay>
+          <ChanceRegenQty>0</ChanceRegenQty>
         </DropTableChanceEntry>
         <DropTableChanceEntry>
           <Item_Name>Alchemy: Blessed Potion</Item_Name>
@@ -176,6 +239,9 @@
           <Max_Quantity>1</Max_Quantity>
           <Drop_Chance>0.46</Drop_Chance>
           <Dice_Range>0</Dice_Range>
+          <ChanceReduction>0</ChanceReduction>
+          <ChanceRegenDelay>-1</ChanceRegenDelay>
+          <ChanceRegenQty>0</ChanceRegenQty>
         </DropTableChanceEntry>
         <DropTableChanceEntry>
           <Item_Name>Alchemy: Possessed Potion</Item_Name>
@@ -184,6 +250,9 @@
           <Max_Quantity>1</Max_Quantity>
           <Drop_Chance>0.46</Drop_Chance>
           <Dice_Range>0</Dice_Range>
+          <ChanceReduction>0</ChanceReduction>
+          <ChanceRegenDelay>-1</ChanceRegenDelay>
+          <ChanceRegenQty>0</ChanceRegenQty>
         </DropTableChanceEntry>
         <DropTableChanceEntry>
           <Item_Name>Alchemy: Stealth Potion</Item_Name>
@@ -192,6 +261,9 @@
           <Max_Quantity>1</Max_Quantity>
           <Drop_Chance>0.46</Drop_Chance>
           <Dice_Range>0</Dice_Range>
+          <ChanceReduction>0</ChanceReduction>
+          <ChanceRegenDelay>-1</ChanceRegenDelay>
+          <ChanceRegenQty>0</ChanceRegenQty>
         </DropTableChanceEntry>
         <DropTableChanceEntry>
           <Item_Name>Alchemy: Elemental Res. Potion</Item_Name>
@@ -200,6 +272,9 @@
           <Max_Quantity>1</Max_Quantity>
           <Drop_Chance>0.46</Drop_Chance>
           <Dice_Range>0</Dice_Range>
+          <ChanceReduction>0</ChanceReduction>
+          <ChanceRegenDelay>-1</ChanceRegenDelay>
+          <ChanceRegenQty>0</ChanceRegenQty>
         </DropTableChanceEntry>
         <DropTableChanceEntry>
           <Item_Name>Alchemy: Weather Def. Potion</Item_Name>
@@ -208,6 +283,9 @@
           <Max_Quantity>1</Max_Quantity>
           <Drop_Chance>0.46</Drop_Chance>
           <Dice_Range>0</Dice_Range>
+          <ChanceReduction>0</ChanceReduction>
+          <ChanceRegenDelay>-1</ChanceRegenDelay>
+          <ChanceRegenQty>0</ChanceRegenQty>
         </DropTableChanceEntry>
         <DropTableChanceEntry>
           <Item_Name>Alchemy: Stability Potion</Item_Name>
@@ -216,6 +294,9 @@
           <Max_Quantity>1</Max_Quantity>
           <Drop_Chance>0.46</Drop_Chance>
           <Dice_Range>0</Dice_Range>
+          <ChanceReduction>0</ChanceReduction>
+          <ChanceRegenDelay>-1</ChanceRegenDelay>
+          <ChanceRegenQty>0</ChanceRegenQty>
         </DropTableChanceEntry>
         <DropTableChanceEntry>
           <Item_Name>Alchemy: Hex Cleaner</Item_Name>
@@ -224,6 +305,9 @@
           <Max_Quantity>1</Max_Quantity>
           <Drop_Chance>0.46</Drop_Chance>
           <Dice_Range>0</Dice_Range>
+          <ChanceReduction>0</ChanceReduction>
+          <ChanceRegenDelay>-1</ChanceRegenDelay>
+          <ChanceRegenQty>0</ChanceRegenQty>
         </DropTableChanceEntry>
         <DropTableChanceEntry>
           <Item_Name>Crafting: Spikes – Iron</Item_Name>
@@ -232,6 +316,9 @@
           <Max_Quantity>1</Max_Quantity>
           <Drop_Chance>0.46</Drop_Chance>
           <Dice_Range>0</Dice_Range>
+          <ChanceReduction>0</ChanceReduction>
+          <ChanceRegenDelay>-1</ChanceRegenDelay>
+          <ChanceRegenQty>0</ChanceRegenQty>
         </DropTableChanceEntry>
         <DropTableChanceEntry>
           <Item_Name>Crafting: Spikes – Palladium</Item_Name>
@@ -240,6 +327,9 @@
           <Max_Quantity>1</Max_Quantity>
           <Drop_Chance>0.46</Drop_Chance>
           <Dice_Range>0</Dice_Range>
+          <ChanceReduction>0</ChanceReduction>
+          <ChanceRegenDelay>-1</ChanceRegenDelay>
+          <ChanceRegenQty>0</ChanceRegenQty>
         </DropTableChanceEntry>
         <DropTableChanceEntry>
           <Item_Name>Crafting: Shiv Dagger</Item_Name>
@@ -248,6 +338,9 @@
           <Max_Quantity>1</Max_Quantity>
           <Drop_Chance>0.46</Drop_Chance>
           <Dice_Range>0</Dice_Range>
+          <ChanceReduction>0</ChanceReduction>
+          <ChanceRegenDelay>-1</ChanceRegenDelay>
+          <ChanceRegenQty>0</ChanceRegenQty>
         </DropTableChanceEntry>
         <DropTableChanceEntry>
           <Item_Name>Alchemy: Antidote</Item_Name>
@@ -256,6 +349,9 @@
           <Max_Quantity>1</Max_Quantity>
           <Drop_Chance>0.46</Drop_Chance>
           <Dice_Range>0</Dice_Range>
+          <ChanceReduction>0</ChanceReduction>
+          <ChanceRegenDelay>-1</ChanceRegenDelay>
+          <ChanceRegenQty>0</ChanceRegenQty>
         </DropTableChanceEntry>
         <DropTableChanceEntry>
           <Item_Name>Crafting: Poison Rag</Item_Name>
@@ -264,6 +360,9 @@
           <Max_Quantity>1</Max_Quantity>
           <Drop_Chance>0.46</Drop_Chance>
           <Dice_Range>0</Dice_Range>
+          <ChanceReduction>0</ChanceReduction>
+          <ChanceRegenDelay>-1</ChanceRegenDelay>
+          <ChanceRegenQty>0</ChanceRegenQty>
         </DropTableChanceEntry>
         <DropTableChanceEntry>
           <Item_Name>Crafting: Bolt Rag</Item_Name>
@@ -272,6 +371,9 @@
           <Max_Quantity>1</Max_Quantity>
           <Drop_Chance>0.46</Drop_Chance>
           <Dice_Range>0</Dice_Range>
+          <ChanceReduction>0</ChanceReduction>
+          <ChanceRegenDelay>-1</ChanceRegenDelay>
+          <ChanceRegenQty>0</ChanceRegenQty>
         </DropTableChanceEntry>
         <DropTableChanceEntry>
           <Item_Name>Crafting: Fire Rag</Item_Name>
@@ -280,6 +382,9 @@
           <Max_Quantity>1</Max_Quantity>
           <Drop_Chance>0.46</Drop_Chance>
           <Dice_Range>0</Dice_Range>
+          <ChanceReduction>0</ChanceReduction>
+          <ChanceRegenDelay>-1</ChanceRegenDelay>
+          <ChanceRegenQty>0</ChanceRegenQty>
         </DropTableChanceEntry>
         <DropTableChanceEntry>
           <Item_Name>Crafting: Ice Rag</Item_Name>
@@ -288,6 +393,9 @@
           <Max_Quantity>1</Max_Quantity>
           <Drop_Chance>0.46</Drop_Chance>
           <Dice_Range>0</Dice_Range>
+          <ChanceReduction>0</ChanceReduction>
+          <ChanceRegenDelay>-1</ChanceRegenDelay>
+          <ChanceRegenQty>0</ChanceRegenQty>
         </DropTableChanceEntry>
         <DropTableChanceEntry>
           <Item_Name>Crafting: Makeshift Leather Attire</Item_Name>
@@ -296,6 +404,9 @@
           <Max_Quantity>1</Max_Quantity>
           <Drop_Chance>0.46</Drop_Chance>
           <Dice_Range>0</Dice_Range>
+          <ChanceReduction>0</ChanceReduction>
+          <ChanceRegenDelay>-1</ChanceRegenDelay>
+          <ChanceRegenQty>0</ChanceRegenQty>
         </DropTableChanceEntry>
         <DropTableChanceEntry>
           <Item_Name>Crafting: Makeshift Leather Boots</Item_Name>
@@ -304,6 +415,9 @@
           <Max_Quantity>1</Max_Quantity>
           <Drop_Chance>0.46</Drop_Chance>
           <Dice_Range>0</Dice_Range>
+          <ChanceReduction>0</ChanceReduction>
+          <ChanceRegenDelay>-1</ChanceRegenDelay>
+          <ChanceRegenQty>0</ChanceRegenQty>
         </DropTableChanceEntry>
         <DropTableChanceEntry>
           <Item_Name>Crafting: Makeshift Leather Hat</Item_Name>
@@ -312,6 +426,9 @@
           <Max_Quantity>1</Max_Quantity>
           <Drop_Chance>0.46</Drop_Chance>
           <Dice_Range>0</Dice_Range>
+          <ChanceReduction>0</ChanceReduction>
+          <ChanceRegenDelay>-1</ChanceRegenDelay>
+          <ChanceRegenQty>0</ChanceRegenQty>
         </DropTableChanceEntry>
         <DropTableChanceEntry>
           <Item_Name>Crafting: Tripwire Trap</Item_Name>
@@ -320,6 +437,9 @@
           <Max_Quantity>1</Max_Quantity>
           <Drop_Chance>0.46</Drop_Chance>
           <Dice_Range>0</Dice_Range>
+          <ChanceReduction>0</ChanceReduction>
+          <ChanceRegenDelay>-1</ChanceRegenDelay>
+          <ChanceRegenQty>0</ChanceRegenQty>
         </DropTableChanceEntry>
         <DropTableChanceEntry>
           <Item_Name>Crafting: Shiv Dagger</Item_Name>
@@ -328,6 +448,9 @@
           <Max_Quantity>1</Max_Quantity>
           <Drop_Chance>0.46</Drop_Chance>
           <Dice_Range>0</Dice_Range>
+          <ChanceReduction>0</ChanceReduction>
+          <ChanceRegenDelay>-1</ChanceRegenDelay>
+          <ChanceRegenQty>0</ChanceRegenQty>
         </DropTableChanceEntry>
         <DropTableChanceEntry>
           <Item_Name>Crafting: Bullets</Item_Name>
@@ -336,6 +459,9 @@
           <Max_Quantity>1</Max_Quantity>
           <Drop_Chance>0.46</Drop_Chance>
           <Dice_Range>0</Dice_Range>
+          <ChanceReduction>0</ChanceReduction>
+          <ChanceRegenDelay>-1</ChanceRegenDelay>
+          <ChanceRegenQty>0</ChanceRegenQty>
         </DropTableChanceEntry>
         <DropTableChanceEntry>
           <Item_Name>Crafting: Old Lantern</Item_Name>
@@ -344,6 +470,9 @@
           <Max_Quantity>1</Max_Quantity>
           <Drop_Chance>0.46</Drop_Chance>
           <Dice_Range>0</Dice_Range>
+          <ChanceReduction>0</ChanceReduction>
+          <ChanceRegenDelay>-1</ChanceRegenDelay>
+          <ChanceRegenQty>0</ChanceRegenQty>
         </DropTableChanceEntry>
       </Item_Drops>
     </DropGeneratorHolder>

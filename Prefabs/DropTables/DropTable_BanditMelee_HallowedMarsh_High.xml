@@ -8,6 +8,9 @@
       <MaxNumberOfDrops>4</MaxNumberOfDrops>
       <MaxDiceValue>116</MaxDiceValue>
       <EmptyDrop>0</EmptyDrop>
+      <RegenTime>-1</RegenTime>
+      <ChanceReduction>0</ChanceReduction>
+      <ChanceRegenQty>10</ChanceRegenQty>
       <Item_Drops>
         <DropTableChanceEntry>
           <Item_Name>Bandages</Item_Name>
@@ -16,6 +19,9 @@
           <Max_Quantity>1</Max_Quantity>
           <Drop_Chance>8.62</Drop_Chance>
           <Dice_Range>9</Dice_Range>
+          <ChanceReduction>0</ChanceReduction>
+          <ChanceRegenDelay>-1</ChanceRegenDelay>
+          <ChanceRegenQty>0</ChanceRegenQty>
         </DropTableChanceEntry>
         <DropTableChanceEntry>
           <Item_Name>Bread Of The Wild</Item_Name>
@@ -24,6 +30,9 @@
           <Max_Quantity>1</Max_Quantity>
           <Drop_Chance>12.93</Drop_Chance>
           <Dice_Range>14</Dice_Range>
+          <ChanceReduction>0</ChanceReduction>
+          <ChanceRegenDelay>-1</ChanceRegenDelay>
+          <ChanceRegenQty>0</ChanceRegenQty>
         </DropTableChanceEntry>
         <DropTableChanceEntry>
           <Item_Name>Antidote</Item_Name>
@@ -32,6 +41,9 @@
           <Max_Quantity>1</Max_Quantity>
           <Drop_Chance>6.9</Drop_Chance>
           <Dice_Range>7</Dice_Range>
+          <ChanceReduction>0</ChanceReduction>
+          <ChanceRegenDelay>-1</ChanceRegenDelay>
+          <ChanceRegenQty>0</ChanceRegenQty>
         </DropTableChanceEntry>
         <DropTableChanceEntry>
           <Item_Name>Ash Armor</Item_Name>
@@ -40,6 +52,9 @@
           <Max_Quantity>1</Max_Quantity>
           <Drop_Chance>1.72</Drop_Chance>
           <Dice_Range>1</Dice_Range>
+          <ChanceReduction>0</ChanceReduction>
+          <ChanceRegenDelay>-1</ChanceRegenDelay>
+          <ChanceRegenQty>0</ChanceRegenQty>
         </DropTableChanceEntry>
         <DropTableChanceEntry>
           <Item_Name>Ash-Filter Mask</Item_Name>
@@ -48,6 +63,9 @@
           <Max_Quantity>1</Max_Quantity>
           <Drop_Chance>1.72</Drop_Chance>
           <Dice_Range>1</Dice_Range>
+          <ChanceReduction>0</ChanceReduction>
+          <ChanceRegenDelay>-1</ChanceRegenDelay>
+          <ChanceRegenQty>0</ChanceRegenQty>
         </DropTableChanceEntry>
         <DropTableChanceEntry>
           <Item_Name>Ash Boots</Item_Name>
@@ -56,6 +74,9 @@
           <Max_Quantity>1</Max_Quantity>
           <Drop_Chance>1.72</Drop_Chance>
           <Dice_Range>1</Dice_Range>
+          <ChanceReduction>0</ChanceReduction>
+          <ChanceRegenDelay>-1</ChanceRegenDelay>
+          <ChanceRegenQty>0</ChanceRegenQty>
         </DropTableChanceEntry>
         <DropTableChanceEntry>
           <Item_Name>Pathfinder Mask</Item_Name>
@@ -64,6 +85,9 @@
           <Max_Quantity>1</Max_Quantity>
           <Drop_Chance>1.72</Drop_Chance>
           <Dice_Range>1</Dice_Range>
+          <ChanceReduction>0</ChanceReduction>
+          <ChanceRegenDelay>-1</ChanceRegenDelay>
+          <ChanceRegenQty>0</ChanceRegenQty>
         </DropTableChanceEntry>
         <DropTableChanceEntry>
           <Item_Name>Pathfinder Armor</Item_Name>
@@ -72,6 +96,9 @@
           <Max_Quantity>1</Max_Quantity>
           <Drop_Chance>0.86</Drop_Chance>
           <Dice_Range>0</Dice_Range>
+          <ChanceReduction>0</ChanceReduction>
+          <ChanceRegenDelay>-1</ChanceRegenDelay>
+          <ChanceRegenQty>0</ChanceRegenQty>
         </DropTableChanceEntry>
         <DropTableChanceEntry>
           <Item_Name>Pathfinder Boots</Item_Name>
@@ -80,6 +107,9 @@
           <Max_Quantity>1</Max_Quantity>
           <Drop_Chance>2.59</Drop_Chance>
           <Dice_Range>2</Dice_Range>
+          <ChanceReduction>0</ChanceReduction>
+          <ChanceRegenDelay>-1</ChanceRegenDelay>
+          <ChanceRegenQty>0</ChanceRegenQty>
         </DropTableChanceEntry>
         <DropTableChanceEntry>
           <Item_Name>Tripwire Trap</Item_Name>
@@ -88,6 +118,9 @@
           <Max_Quantity>2</Max_Quantity>
           <Drop_Chance>8.62</Drop_Chance>
           <Dice_Range>9</Dice_Range>
+          <ChanceReduction>0</ChanceReduction>
+          <ChanceRegenDelay>-1</ChanceRegenDelay>
+          <ChanceRegenQty>0</ChanceRegenQty>
         </DropTableChanceEntry>
         <DropTableChanceEntry>
           <Item_Name>Spikes – Iron</Item_Name>
@@ -96,6 +129,9 @@
           <Max_Quantity>3</Max_Quantity>
           <Drop_Chance>8.62</Drop_Chance>
           <Dice_Range>9</Dice_Range>
+          <ChanceReduction>0</ChanceReduction>
+          <ChanceRegenDelay>-1</ChanceRegenDelay>
+          <ChanceRegenQty>0</ChanceRegenQty>
         </DropTableChanceEntry>
         <DropTableChanceEntry>
           <Item_Name>Marshmelon</Item_Name>
@@ -104,6 +140,9 @@
           <Max_Quantity>1</Max_Quantity>
           <Drop_Chance>4.31</Drop_Chance>
           <Dice_Range>4</Dice_Range>
+          <ChanceReduction>0</ChanceReduction>
+          <ChanceRegenDelay>-1</ChanceRegenDelay>
+          <ChanceRegenQty>0</ChanceRegenQty>
         </DropTableChanceEntry>
         <DropTableChanceEntry>
           <Item_Name>Hallowed Marsh Antidote</Item_Name>
@@ -112,6 +151,9 @@
           <Max_Quantity>1</Max_Quantity>
           <Drop_Chance>10.34</Drop_Chance>
           <Dice_Range>11</Dice_Range>
+          <ChanceReduction>0</ChanceReduction>
+          <ChanceRegenDelay>-1</ChanceRegenDelay>
+          <ChanceRegenQty>0</ChanceRegenQty>
         </DropTableChanceEntry>
         <DropTableChanceEntry>
           <Item_Name>Life Potion</Item_Name>
@@ -120,6 +162,9 @@
           <Max_Quantity>1</Max_Quantity>
           <Drop_Chance>10.34</Drop_Chance>
           <Dice_Range>11</Dice_Range>
+          <ChanceReduction>0</ChanceReduction>
+          <ChanceRegenDelay>-1</ChanceRegenDelay>
+          <ChanceRegenQty>0</ChanceRegenQty>
         </DropTableChanceEntry>
         <DropTableChanceEntry>
           <Item_Name>Marshmelon Tartine</Item_Name>
@@ -128,6 +173,9 @@
           <Max_Quantity>1</Max_Quantity>
           <Drop_Chance>4.31</Drop_Chance>
           <Dice_Range>4</Dice_Range>
+          <ChanceReduction>0</ChanceReduction>
+          <ChanceRegenDelay>-1</ChanceRegenDelay>
+          <ChanceRegenQty>0</ChanceRegenQty>
         </DropTableChanceEntry>
         <DropTableChanceEntry>
           <Item_Name>Ragoût du Marais</Item_Name>
@@ -136,6 +184,9 @@
           <Max_Quantity>1</Max_Quantity>
           <Drop_Chance>4.31</Drop_Chance>
           <Dice_Range>4</Dice_Range>
+          <ChanceReduction>0</ChanceReduction>
+          <ChanceRegenDelay>-1</ChanceRegenDelay>
+          <ChanceRegenQty>0</ChanceRegenQty>
         </DropTableChanceEntry>
         <DropTableChanceEntry>
           <Item_Name>Endurance Potion</Item_Name>
@@ -144,6 +195,9 @@
           <Max_Quantity>1</Max_Quantity>
           <Drop_Chance>10.34</Drop_Chance>
           <Dice_Range>11</Dice_Range>
+          <ChanceReduction>0</ChanceReduction>
+          <ChanceRegenDelay>-1</ChanceRegenDelay>
+          <ChanceRegenQty>0</ChanceRegenQty>
         </DropTableChanceEntry>
       </Item_Drops>
     </DropGeneratorHolder>

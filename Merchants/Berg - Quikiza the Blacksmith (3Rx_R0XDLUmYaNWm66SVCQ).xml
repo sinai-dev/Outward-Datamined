@@ -288,6 +288,9 @@
         <MaxNumberOfDrops>2</MaxNumberOfDrops>
         <MaxDiceValue>90</MaxDiceValue>
         <EmptyDrop>0</EmptyDrop>
+        <RegenTime>-1</RegenTime>
+        <ChanceReduction>0</ChanceReduction>
+        <ChanceRegenQty>10</ChanceRegenQty>
         <Item_Drops>
           <DropTableChanceEntry>
             <Item_Name>Silver Armor</Item_Name>
@@ -296,6 +299,9 @@
             <Max_Quantity>1</Max_Quantity>
             <Drop_Chance>11.11</Drop_Chance>
             <Dice_Range>9</Dice_Range>
+            <ChanceReduction>0</ChanceReduction>
+            <ChanceRegenDelay>-1</ChanceRegenDelay>
+            <ChanceRegenQty>0</ChanceRegenQty>
           </DropTableChanceEntry>
           <DropTableChanceEntry>
             <Item_Name>Silver Helm</Item_Name>
@@ -304,6 +310,9 @@
             <Max_Quantity>1</Max_Quantity>
             <Drop_Chance>11.11</Drop_Chance>
             <Dice_Range>9</Dice_Range>
+            <ChanceReduction>0</ChanceReduction>
+            <ChanceRegenDelay>-1</ChanceRegenDelay>
+            <ChanceRegenQty>0</ChanceRegenQty>
           </DropTableChanceEntry>
           <DropTableChanceEntry>
             <Item_Name>Silver Boots</Item_Name>
@@ -312,6 +321,9 @@
             <Max_Quantity>1</Max_Quantity>
             <Drop_Chance>11.11</Drop_Chance>
             <Dice_Range>9</Dice_Range>
+            <ChanceReduction>0</ChanceReduction>
+            <ChanceRegenDelay>-1</ChanceRegenDelay>
+            <ChanceRegenQty>0</ChanceRegenQty>
           </DropTableChanceEntry>
           <DropTableChanceEntry>
             <Item_Name>Black Plate Armor</Item_Name>
@@ -320,6 +332,9 @@
             <Max_Quantity>1</Max_Quantity>
             <Drop_Chance>11.11</Drop_Chance>
             <Dice_Range>9</Dice_Range>
+            <ChanceReduction>0</ChanceReduction>
+            <ChanceRegenDelay>-1</ChanceRegenDelay>
+            <ChanceRegenQty>0</ChanceRegenQty>
           </DropTableChanceEntry>
           <DropTableChanceEntry>
             <Item_Name>Black Plate Helm</Item_Name>
@@ -328,6 +343,9 @@
             <Max_Quantity>1</Max_Quantity>
             <Drop_Chance>11.11</Drop_Chance>
             <Dice_Range>9</Dice_Range>
+            <ChanceReduction>0</ChanceReduction>
+            <ChanceRegenDelay>-1</ChanceRegenDelay>
+            <ChanceRegenQty>0</ChanceRegenQty>
           </DropTableChanceEntry>
           <DropTableChanceEntry>
             <Item_Name>Black Plate Boots</Item_Name>
@@ -336,6 +354,9 @@
             <Max_Quantity>1</Max_Quantity>
             <Drop_Chance>11.11</Drop_Chance>
             <Dice_Range>9</Dice_Range>
+            <ChanceReduction>0</ChanceReduction>
+            <ChanceRegenDelay>-1</ChanceRegenDelay>
+            <ChanceRegenQty>0</ChanceRegenQty>
           </DropTableChanceEntry>
           <DropTableChanceEntry>
             <Item_Name>Steel Shield</Item_Name>
@@ -344,6 +365,9 @@
             <Max_Quantity>1</Max_Quantity>
             <Drop_Chance>11.11</Drop_Chance>
             <Dice_Range>9</Dice_Range>
+            <ChanceReduction>0</ChanceReduction>
+            <ChanceRegenDelay>-1</ChanceRegenDelay>
+            <ChanceRegenQty>0</ChanceRegenQty>
           </DropTableChanceEntry>
           <DropTableChanceEntry>
             <Item_Name>Old Legion Shield</Item_Name>
@@ -352,6 +376,9 @@
             <Max_Quantity>1</Max_Quantity>
             <Drop_Chance>11.11</Drop_Chance>
             <Dice_Range>9</Dice_Range>
+            <ChanceReduction>0</ChanceReduction>
+            <ChanceRegenDelay>-1</ChanceRegenDelay>
+            <ChanceRegenQty>0</ChanceRegenQty>
           </DropTableChanceEntry>
           <DropTableChanceEntry>
             <Item_Name>Tower Shield</Item_Name>
@@ -360,6 +387,9 @@
             <Max_Quantity>1</Max_Quantity>
             <Drop_Chance>11.11</Drop_Chance>
             <Dice_Range>9</Dice_Range>
+            <ChanceReduction>0</ChanceReduction>
+            <ChanceRegenDelay>-1</ChanceRegenDelay>
+            <ChanceRegenQty>0</ChanceRegenQty>
           </DropTableChanceEntry>
         </Item_Drops>
       </DropGeneratorHolder>

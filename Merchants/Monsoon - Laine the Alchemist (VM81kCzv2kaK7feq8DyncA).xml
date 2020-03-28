@@ -330,6 +330,9 @@
         <MaxNumberOfDrops>10</MaxNumberOfDrops>
         <MaxDiceValue>130</MaxDiceValue>
         <EmptyDrop>7.692308</EmptyDrop>
+        <RegenTime>-1</RegenTime>
+        <ChanceReduction>0</ChanceReduction>
+        <ChanceRegenQty>10</ChanceRegenQty>
         <Item_Drops>
           <DropTableChanceEntry>
             <Item_Name>Firefly powder</Item_Name>
@@ -338,6 +341,9 @@
             <Max_Quantity>1</Max_Quantity>
             <Drop_Chance>7.69</Drop_Chance>
             <Dice_Range>9</Dice_Range>
+            <ChanceReduction>0</ChanceReduction>
+            <ChanceRegenDelay>-1</ChanceRegenDelay>
+            <ChanceRegenQty>0</ChanceRegenQty>
           </DropTableChanceEntry>
           <DropTableChanceEntry>
             <Item_Name>Mana Stone</Item_Name>
@@ -346,6 +352,9 @@
             <Max_Quantity>1</Max_Quantity>
             <Drop_Chance>7.69</Drop_Chance>
             <Dice_Range>9</Dice_Range>
+            <ChanceReduction>0</ChanceReduction>
+            <ChanceRegenDelay>-1</ChanceRegenDelay>
+            <ChanceRegenQty>0</ChanceRegenQty>
           </DropTableChanceEntry>
           <DropTableChanceEntry>
             <Item_Name>Blood Mushroom</Item_Name>
@@ -354,6 +363,9 @@
             <Max_Quantity>1</Max_Quantity>
             <Drop_Chance>7.69</Drop_Chance>
             <Dice_Range>9</Dice_Range>
+            <ChanceReduction>0</ChanceReduction>
+            <ChanceRegenDelay>-1</ChanceRegenDelay>
+            <ChanceRegenQty>0</ChanceRegenQty>
           </DropTableChanceEntry>
           <DropTableChanceEntry>
             <Item_Name>Star Mushroom</Item_Name>
@@ -362,6 +374,9 @@
             <Max_Quantity>1</Max_Quantity>
             <Drop_Chance>7.69</Drop_Chance>
             <Dice_Range>9</Dice_Range>
+            <ChanceReduction>0</ChanceReduction>
+            <ChanceRegenDelay>-1</ChanceRegenDelay>
+            <ChanceRegenQty>0</ChanceRegenQty>
           </DropTableChanceEntry>
           <DropTableChanceEntry>
             <Item_Name>Ochre Spice Beetle</Item_Name>
@@ -370,6 +385,9 @@
             <Max_Quantity>1</Max_Quantity>
             <Drop_Chance>7.69</Drop_Chance>
             <Dice_Range>9</Dice_Range>
+            <ChanceReduction>0</ChanceReduction>
+            <ChanceRegenDelay>-1</ChanceRegenDelay>
+            <ChanceRegenQty>0</ChanceRegenQty>
           </DropTableChanceEntry>
           <DropTableChanceEntry>
             <Item_Name>Gravel Beetle</Item_Name>
@@ -378,6 +396,9 @@
             <Max_Quantity>1</Max_Quantity>
             <Drop_Chance>7.69</Drop_Chance>
             <Dice_Range>9</Dice_Range>
+            <ChanceReduction>0</ChanceReduction>
+            <ChanceRegenDelay>-1</ChanceRegenDelay>
+            <ChanceRegenQty>0</ChanceRegenQty>
           </DropTableChanceEntry>
           <DropTableChanceEntry>
             <Item_Name>Krimp Nut</Item_Name>
@@ -386,6 +407,9 @@
             <Max_Quantity>1</Max_Quantity>
             <Drop_Chance>7.69</Drop_Chance>
             <Dice_Range>9</Dice_Range>
+            <ChanceReduction>0</ChanceReduction>
+            <ChanceRegenDelay>-1</ChanceRegenDelay>
+            <ChanceRegenQty>0</ChanceRegenQty>
           </DropTableChanceEntry>
           <DropTableChanceEntry>
             <Item_Name>Possessed Potion</Item_Name>
@@ -394,6 +418,9 @@
             <Max_Quantity>1</Max_Quantity>
             <Drop_Chance>7.69</Drop_Chance>
             <Dice_Range>9</Dice_Range>
+            <ChanceReduction>0</ChanceReduction>
+            <ChanceRegenDelay>-1</ChanceRegenDelay>
+            <ChanceRegenQty>0</ChanceRegenQty>
           </DropTableChanceEntry>
           <DropTableChanceEntry>
             <Item_Name>Discipline Potion</Item_Name>
@@ -402,6 +429,9 @@
             <Max_Quantity>1</Max_Quantity>
             <Drop_Chance>7.69</Drop_Chance>
             <Dice_Range>9</Dice_Range>
+            <ChanceReduction>0</ChanceReduction>
+            <ChanceRegenDelay>-1</ChanceRegenDelay>
+            <ChanceRegenQty>0</ChanceRegenQty>
           </DropTableChanceEntry>
           <DropTableChanceEntry>
             <Item_Name>Mist Potion</Item_Name>
@@ -410,6 +440,9 @@
             <Max_Quantity>1</Max_Quantity>
             <Drop_Chance>7.69</Drop_Chance>
             <Dice_Range>9</Dice_Range>
+            <ChanceReduction>0</ChanceReduction>
+            <ChanceRegenDelay>-1</ChanceRegenDelay>
+            <ChanceRegenQty>0</ChanceRegenQty>
           </DropTableChanceEntry>
           <DropTableChanceEntry>
             <Item_Name>Stability Potion</Item_Name>
@@ -418,6 +451,9 @@
             <Max_Quantity>1</Max_Quantity>
             <Drop_Chance>7.69</Drop_Chance>
             <Dice_Range>9</Dice_Range>
+            <ChanceReduction>0</ChanceReduction>
+            <ChanceRegenDelay>-1</ChanceRegenDelay>
+            <ChanceRegenQty>0</ChanceRegenQty>
           </DropTableChanceEntry>
           <DropTableChanceEntry>
             <Item_Name>Endurance Potion</Item_Name>
@@ -426,6 +462,9 @@
             <Max_Quantity>1</Max_Quantity>
             <Drop_Chance>7.69</Drop_Chance>
             <Dice_Range>9</Dice_Range>
+            <ChanceReduction>0</ChanceReduction>
+            <ChanceRegenDelay>-1</ChanceRegenDelay>
+            <ChanceRegenQty>0</ChanceRegenQty>
           </DropTableChanceEntry>
         </Item_Drops>
       </DropGeneratorHolder>
@@ -434,6 +473,9 @@
         <MaxNumberOfDrops>5</MaxNumberOfDrops>
         <MaxDiceValue>110</MaxDiceValue>
         <EmptyDrop>9.090909</EmptyDrop>
+        <RegenTime>-1</RegenTime>
+        <ChanceReduction>0</ChanceReduction>
+        <ChanceRegenQty>10</ChanceRegenQty>
         <Item_Drops>
           <DropTableChanceEntry>
             <Item_Name>Assassin Elixir</Item_Name>
@@ -442,6 +484,9 @@
             <Max_Quantity>1</Max_Quantity>
             <Drop_Chance>9.09</Drop_Chance>
             <Dice_Range>9</Dice_Range>
+            <ChanceReduction>0</ChanceReduction>
+            <ChanceRegenDelay>-1</ChanceRegenDelay>
+            <ChanceRegenQty>0</ChanceRegenQty>
           </DropTableChanceEntry>
           <DropTableChanceEntry>
             <Item_Name>Stoneflesh Elixir</Item_Name>
@@ -450,6 +495,9 @@
             <Max_Quantity>1</Max_Quantity>
             <Drop_Chance>9.09</Drop_Chance>
             <Dice_Range>9</Dice_Range>
+            <ChanceReduction>0</ChanceReduction>
+            <ChanceRegenDelay>-1</ChanceRegenDelay>
+            <ChanceRegenQty>0</ChanceRegenQty>
           </DropTableChanceEntry>
           <DropTableChanceEntry>
             <Item_Name>Warrior Elixir</Item_Name>
@@ -458,6 +506,9 @@
             <Max_Quantity>1</Max_Quantity>
             <Drop_Chance>9.09</Drop_Chance>
             <Dice_Range>9</Dice_Range>
+            <ChanceReduction>0</ChanceReduction>
+            <ChanceRegenDelay>-1</ChanceRegenDelay>
+            <ChanceRegenQty>0</ChanceRegenQty>
           </DropTableChanceEntry>
           <DropTableChanceEntry>
             <Item_Name>Golem Elixir</Item_Name>
@@ -466,6 +517,9 @@
             <Max_Quantity>1</Max_Quantity>
             <Drop_Chance>9.09</Drop_Chance>
             <Dice_Range>9</Dice_Range>
+            <ChanceReduction>0</ChanceReduction>
+            <ChanceRegenDelay>-1</ChanceRegenDelay>
+            <ChanceRegenQty>0</ChanceRegenQty>
           </DropTableChanceEntry>
           <DropTableChanceEntry>
             <Item_Name>Great Life Potion</Item_Name>
@@ -474,6 +528,9 @@
             <Max_Quantity>1</Max_Quantity>
             <Drop_Chance>9.09</Drop_Chance>
             <Dice_Range>9</Dice_Range>
+            <ChanceReduction>0</ChanceReduction>
+            <ChanceRegenDelay>-1</ChanceRegenDelay>
+            <ChanceRegenQty>0</ChanceRegenQty>
           </DropTableChanceEntry>
           <DropTableChanceEntry>
             <Item_Name>Great Astral Potion</Item_Name>
@@ -482,6 +539,9 @@
             <Max_Quantity>1</Max_Quantity>
             <Drop_Chance>9.09</Drop_Chance>
             <Dice_Range>9</Dice_Range>
+            <ChanceReduction>0</ChanceReduction>
+            <ChanceRegenDelay>-1</ChanceRegenDelay>
+            <ChanceRegenQty>0</ChanceRegenQty>
           </DropTableChanceEntry>
           <DropTableChanceEntry>
             <Item_Name>Great Endurance Potion</Item_Name>
@@ -490,6 +550,9 @@
             <Max_Quantity>1</Max_Quantity>
             <Drop_Chance>9.09</Drop_Chance>
             <Dice_Range>9</Dice_Range>
+            <ChanceReduction>0</ChanceReduction>
+            <ChanceRegenDelay>-1</ChanceRegenDelay>
+            <ChanceRegenQty>0</ChanceRegenQty>
           </DropTableChanceEntry>
           <DropTableChanceEntry>
             <Item_Name>Discipline Potion</Item_Name>
@@ -498,6 +561,9 @@
             <Max_Quantity>1</Max_Quantity>
             <Drop_Chance>9.09</Drop_Chance>
             <Dice_Range>9</Dice_Range>
+            <ChanceReduction>0</ChanceReduction>
+            <ChanceRegenDelay>-1</ChanceRegenDelay>
+            <ChanceRegenQty>0</ChanceRegenQty>
           </DropTableChanceEntry>
           <DropTableChanceEntry>
             <Item_Name>Blessed Potion</Item_Name>
@@ -506,6 +572,9 @@
             <Max_Quantity>1</Max_Quantity>
             <Drop_Chance>9.09</Drop_Chance>
             <Dice_Range>9</Dice_Range>
+            <ChanceReduction>0</ChanceReduction>
+            <ChanceRegenDelay>-1</ChanceRegenDelay>
+            <ChanceRegenQty>0</ChanceRegenQty>
           </DropTableChanceEntry>
           <DropTableChanceEntry>
             <Item_Name>Possessed Potion</Item_Name>
@@ -514,6 +583,9 @@
             <Max_Quantity>1</Max_Quantity>
             <Drop_Chance>9.09</Drop_Chance>
             <Dice_Range>9</Dice_Range>
+            <ChanceReduction>0</ChanceReduction>
+            <ChanceRegenDelay>-1</ChanceRegenDelay>
+            <ChanceRegenQty>0</ChanceRegenQty>
           </DropTableChanceEntry>
         </Item_Drops>
       </DropGeneratorHolder>

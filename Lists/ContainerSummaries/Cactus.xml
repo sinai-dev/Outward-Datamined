@@ -10,9 +10,6 @@
   </All_Locations>
   <DropTables>
     <ContainerDroptableSummary>
-      <Locations />
-    </ContainerDroptableSummary>
-    <ContainerDroptableSummary>
       <DropTableName>DropTable_CactusFruit</DropTableName>
       <Locations>
         <string>Abrassar</string>

@@ -14,9 +14,6 @@
   </All_Locations>
   <DropTables>
     <ContainerDroptableSummary>
-      <Locations />
-    </ContainerDroptableSummary>
-    <ContainerDroptableSummary>
       <DropTableName>DropTable_AmmoliteOre</DropTableName>
       <Locations>
         <string>Chersonese</string>

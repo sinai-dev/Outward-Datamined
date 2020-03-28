@@ -38,9 +38,6 @@
   </All_Locations>
   <DropTables>
     <ContainerDroptableSummary>
-      <Locations />
-    </ContainerDroptableSummary>
-    <ContainerDroptableSummary>
       <DropTableName>DropTable_Oil</DropTableName>
       <Locations>
         <string>Chersonese</string>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<StatusEffectHolder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>Runic Protection</Name>
+  <PresetID>0</PresetID>
+  <Lifespan>180</Lifespan>
+  <LengthType>Short</LengthType>
+  <Tags />
+  <CanBeHealedBySleeping>false</CanBeHealedBySleeping>
+  <StraightSleepHealTime>-1</StraightSleepHealTime>
+  <Effects>
+    <EffectHolder xsi:type="AffectStatHolder">
+      <AffectedStat>PhysicalResistance</AffectedStat>
+      <AffectedStat_TagUID>113</AffectedStat_TagUID>
+      <AffectQuantity>15</AffectQuantity>
+      <IsModifier>false</IsModifier>
+    </EffectHolder>
+    <EffectHolder xsi:type="AffectStatHolder">
+      <AffectedStat>PhysicalProtection</AffectedStat>
+      <AffectedStat_TagUID>105</AffectedStat_TagUID>
+      <AffectQuantity>2</AffectQuantity>
+      <IsModifier>false</IsModifier>
+    </EffectHolder>
+  </Effects>
+</StatusEffectHolder>

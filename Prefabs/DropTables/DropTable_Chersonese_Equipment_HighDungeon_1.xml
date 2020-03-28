@@ -8,6 +8,9 @@
       <MaxNumberOfDrops>1</MaxNumberOfDrops>
       <MaxDiceValue>140</MaxDiceValue>
       <EmptyDrop>0</EmptyDrop>
+      <RegenTime>-1</RegenTime>
+      <ChanceReduction>0</ChanceReduction>
+      <ChanceRegenQty>10</ChanceRegenQty>
       <Item_Drops>
         <DropTableChanceEntry>
           <Item_Name>Black Plate Armor</Item_Name>
@@ -16,6 +19,9 @@
           <Max_Quantity>1</Max_Quantity>
           <Drop_Chance>7.14</Drop_Chance>
           <Dice_Range>9</Dice_Range>
+          <ChanceReduction>0</ChanceReduction>
+          <ChanceRegenDelay>-1</ChanceRegenDelay>
+          <ChanceRegenQty>0</ChanceRegenQty>
         </DropTableChanceEntry>
         <DropTableChanceEntry>
           <Item_Name>Black Plate Helm</Item_Name>
@@ -24,6 +30,9 @@
           <Max_Quantity>1</Max_Quantity>
           <Drop_Chance>7.14</Drop_Chance>
           <Dice_Range>9</Dice_Range>
+          <ChanceReduction>0</ChanceReduction>
+          <ChanceRegenDelay>-1</ChanceRegenDelay>
+          <ChanceRegenQty>0</ChanceRegenQty>
         </DropTableChanceEntry>
         <DropTableChanceEntry>
           <Item_Name>Black Plate Boots</Item_Name>
@@ -32,6 +41,9 @@
           <Max_Quantity>1</Max_Quantity>
           <Drop_Chance>7.14</Drop_Chance>
           <Dice_Range>9</Dice_Range>
+          <ChanceReduction>0</ChanceReduction>
+          <ChanceRegenDelay>-1</ChanceRegenDelay>
+          <ChanceRegenQty>0</ChanceRegenQty>
         </DropTableChanceEntry>
         <DropTableChanceEntry>
           <Item_Name>Steel Sabre</Item_Name>
@@ -40,6 +52,9 @@
           <Max_Quantity>1</Max_Quantity>
           <Drop_Chance>7.14</Drop_Chance>
           <Dice_Range>9</Dice_Range>
+          <ChanceReduction>0</ChanceReduction>
+          <ChanceRegenDelay>-1</ChanceRegenDelay>
+          <ChanceRegenQty>0</ChanceRegenQty>
         </DropTableChanceEntry>
         <DropTableChanceEntry>
           <Item_Name>Brutal Axe</Item_Name>
@@ -48,6 +63,9 @@
           <Max_Quantity>1</Max_Quantity>
           <Drop_Chance>7.14</Drop_Chance>
           <Dice_Range>9</Dice_Range>
+          <ChanceReduction>0</ChanceReduction>
+          <ChanceRegenDelay>-1</ChanceRegenDelay>
+          <ChanceRegenQty>0</ChanceRegenQty>
         </DropTableChanceEntry>
         <DropTableChanceEntry>
           <Item_Name>Brutal Club</Item_Name>
@@ -56,6 +74,9 @@
           <Max_Quantity>1</Max_Quantity>
           <Drop_Chance>7.14</Drop_Chance>
           <Dice_Range>9</Dice_Range>
+          <ChanceReduction>0</ChanceReduction>
+          <ChanceRegenDelay>-1</ChanceRegenDelay>
+          <ChanceRegenQty>0</ChanceRegenQty>
         </DropTableChanceEntry>
         <DropTableChanceEntry>
           <Item_Name>Brutal Greataxe</Item_Name>
@@ -64,6 +85,9 @@
           <Max_Quantity>1</Max_Quantity>
           <Drop_Chance>7.14</Drop_Chance>
           <Dice_Range>9</Dice_Range>
+          <ChanceReduction>0</ChanceReduction>
+          <ChanceRegenDelay>-1</ChanceRegenDelay>
+          <ChanceRegenQty>0</ChanceRegenQty>
         </DropTableChanceEntry>
         <DropTableChanceEntry>
           <Item_Name>Brutal Greatmace</Item_Name>
@@ -72,6 +96,9 @@
           <Max_Quantity>1</Max_Quantity>
           <Drop_Chance>7.14</Drop_Chance>
           <Dice_Range>9</Dice_Range>
+          <ChanceReduction>0</ChanceReduction>
+          <ChanceRegenDelay>-1</ChanceRegenDelay>
+          <ChanceRegenQty>0</ChanceRegenQty>
         </DropTableChanceEntry>
         <DropTableChanceEntry>
           <Item_Name>Brutal Spear</Item_Name>
@@ -80,6 +107,9 @@
           <Max_Quantity>1</Max_Quantity>
           <Drop_Chance>7.14</Drop_Chance>
           <Dice_Range>9</Dice_Range>
+          <ChanceReduction>0</ChanceReduction>
+          <ChanceRegenDelay>-1</ChanceRegenDelay>
+          <ChanceRegenQty>0</ChanceRegenQty>
         </DropTableChanceEntry>
         <DropTableChanceEntry>
           <Item_Name>Cleaver Halberd</Item_Name>
@@ -88,6 +118,9 @@
           <Max_Quantity>1</Max_Quantity>
           <Drop_Chance>7.14</Drop_Chance>
           <Dice_Range>9</Dice_Range>
+          <ChanceReduction>0</ChanceReduction>
+          <ChanceRegenDelay>-1</ChanceRegenDelay>
+          <ChanceRegenQty>0</ChanceRegenQty>
         </DropTableChanceEntry>
         <DropTableChanceEntry>
           <Item_Name>Prayer Claymore</Item_Name>
@@ -96,6 +129,9 @@
           <Max_Quantity>1</Max_Quantity>
           <Drop_Chance>7.14</Drop_Chance>
           <Dice_Range>9</Dice_Range>
+          <ChanceReduction>0</ChanceReduction>
+          <ChanceRegenDelay>-1</ChanceRegenDelay>
+          <ChanceRegenQty>0</ChanceRegenQty>
         </DropTableChanceEntry>
         <DropTableChanceEntry>
           <Item_Name>Recurve Bow</Item_Name>
@@ -104,6 +140,9 @@
           <Max_Quantity>1</Max_Quantity>
           <Drop_Chance>7.14</Drop_Chance>
           <Dice_Range>9</Dice_Range>
+          <ChanceReduction>0</ChanceReduction>
+          <ChanceRegenDelay>-1</ChanceRegenDelay>
+          <ChanceRegenQty>0</ChanceRegenQty>
         </DropTableChanceEntry>
         <DropTableChanceEntry>
           <Item_Name>Steel Shield</Item_Name>
@@ -112,6 +151,9 @@
           <Max_Quantity>1</Max_Quantity>
           <Drop_Chance>7.14</Drop_Chance>
           <Dice_Range>9</Dice_Range>
+          <ChanceReduction>0</ChanceReduction>
+          <ChanceRegenDelay>-1</ChanceRegenDelay>
+          <ChanceRegenQty>0</ChanceRegenQty>
         </DropTableChanceEntry>
         <DropTableChanceEntry>
           <Item_Name>Scholar’s Staff</Item_Name>
@@ -120,6 +162,9 @@
           <Max_Quantity>1</Max_Quantity>
           <Drop_Chance>7.14</Drop_Chance>
           <Dice_Range>9</Dice_Range>
+          <ChanceReduction>0</ChanceReduction>
+          <ChanceRegenDelay>-1</ChanceRegenDelay>
+          <ChanceRegenQty>0</ChanceRegenQty>
         </DropTableChanceEntry>
       </Item_Drops>
     </DropGeneratorHolder>

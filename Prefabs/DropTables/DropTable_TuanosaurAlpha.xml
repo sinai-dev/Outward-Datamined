@@ -27,6 +27,9 @@
       <MaxNumberOfDrops>1</MaxNumberOfDrops>
       <MaxDiceValue>90</MaxDiceValue>
       <EmptyDrop>55.5555573</EmptyDrop>
+      <RegenTime>-1</RegenTime>
+      <ChanceReduction>0</ChanceReduction>
+      <ChanceRegenQty>10</ChanceRegenQty>
       <Item_Drops>
         <DropTableChanceEntry>
           <Item_Name>Predator Bones</Item_Name>
@@ -35,6 +38,9 @@
           <Max_Quantity>3</Max_Quantity>
           <Drop_Chance>22.22</Drop_Chance>
           <Dice_Range>19</Dice_Range>
+          <ChanceReduction>0</ChanceReduction>
+          <ChanceRegenDelay>-1</ChanceRegenDelay>
+          <ChanceRegenQty>0</ChanceRegenQty>
         </DropTableChanceEntry>
         <DropTableChanceEntry>
           <Item_Name>Raw Alpha Meat</Item_Name>
@@ -43,6 +49,9 @@
           <Max_Quantity>1</Max_Quantity>
           <Drop_Chance>22.22</Drop_Chance>
           <Dice_Range>19</Dice_Range>
+          <ChanceReduction>0</ChanceReduction>
+          <ChanceRegenDelay>-1</ChanceRegenDelay>
+          <ChanceRegenQty>0</ChanceRegenQty>
         </DropTableChanceEntry>
       </Item_Drops>
     </DropGeneratorHolder>

@@ -78,9 +78,6 @@
   </All_Locations>
   <DropTables>
     <ContainerDroptableSummary>
-      <Locations />
-    </ContainerDroptableSummary>
-    <ContainerDroptableSummary>
       <DropTableName>DropTable_PalladiumOre</DropTableName>
       <Locations>
         <string>Ghost Pass</string>

@@ -21,6 +21,9 @@
       <MaxNumberOfDrops>1</MaxNumberOfDrops>
       <MaxDiceValue>130</MaxDiceValue>
       <EmptyDrop>30.7692318</EmptyDrop>
+      <RegenTime>-1</RegenTime>
+      <ChanceReduction>0</ChanceReduction>
+      <ChanceRegenQty>10</ChanceRegenQty>
       <Item_Drops>
         <DropTableChanceEntry>
           <Item_Name>Predator Bones</Item_Name>
@@ -29,6 +32,9 @@
           <Max_Quantity>1</Max_Quantity>
           <Drop_Chance>38.46</Drop_Chance>
           <Dice_Range>49</Dice_Range>
+          <ChanceReduction>0</ChanceReduction>
+          <ChanceRegenDelay>-1</ChanceRegenDelay>
+          <ChanceRegenQty>0</ChanceRegenQty>
         </DropTableChanceEntry>
         <DropTableChanceEntry>
           <Item_Name>Iron Scrap</Item_Name>
@@ -37,6 +43,9 @@
           <Max_Quantity>1</Max_Quantity>
           <Drop_Chance>15.38</Drop_Chance>
           <Dice_Range>19</Dice_Range>
+          <ChanceReduction>0</ChanceReduction>
+          <ChanceRegenDelay>-1</ChanceRegenDelay>
+          <ChanceRegenQty>0</ChanceRegenQty>
         </DropTableChanceEntry>
         <DropTableChanceEntry>
           <Item_Name>Hide</Item_Name>
@@ -45,6 +54,9 @@
           <Max_Quantity>1</Max_Quantity>
           <Drop_Chance>15.38</Drop_Chance>
           <Dice_Range>19</Dice_Range>
+          <ChanceReduction>0</ChanceReduction>
+          <ChanceRegenDelay>-1</ChanceRegenDelay>
+          <ChanceRegenQty>0</ChanceRegenQty>
         </DropTableChanceEntry>
       </Item_Drops>
     </DropGeneratorHolder>

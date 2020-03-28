@@ -15,6 +15,9 @@
       <MaxNumberOfDrops>1</MaxNumberOfDrops>
       <MaxDiceValue>41</MaxDiceValue>
       <EmptyDrop>24.3902435</EmptyDrop>
+      <RegenTime>-1</RegenTime>
+      <ChanceReduction>0</ChanceReduction>
+      <ChanceRegenQty>10</ChanceRegenQty>
       <Item_Drops>
         <DropTableChanceEntry>
           <Item_Name>Bird Egg</Item_Name>
@@ -23,6 +26,9 @@
           <Max_Quantity>1</Max_Quantity>
           <Drop_Chance>73.17</Drop_Chance>
           <Dice_Range>29</Dice_Range>
+          <ChanceReduction>0</ChanceReduction>
+          <ChanceRegenDelay>-1</ChanceRegenDelay>
+          <ChanceRegenQty>0</ChanceRegenQty>
         </DropTableChanceEntry>
         <DropTableChanceEntry>
           <Item_Name>Pearlbird Mask</Item_Name>
@@ -31,6 +37,9 @@
           <Max_Quantity>1</Max_Quantity>
           <Drop_Chance>2.44</Drop_Chance>
           <Dice_Range>0</Dice_Range>
+          <ChanceReduction>0</ChanceReduction>
+          <ChanceRegenDelay>-1</ChanceRegenDelay>
+          <ChanceRegenQty>0</ChanceRegenQty>
         </DropTableChanceEntry>
       </Item_Drops>
     </DropGeneratorHolder>

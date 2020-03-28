@@ -26,6 +26,8 @@
               <Impact_Multiplier>2</Impact_Multiplier>
               <Impact_Multiplier_Kback>-1</Impact_Multiplier_Kback>
               <Impact_Multiplier_Kdown>-1</Impact_Multiplier_Kdown>
+              <DurabilityLoss>0</DurabilityLoss>
+              <DurabilityLossPercent>0</DurabilityLossPercent>
             </EffectHolder>
             <EffectHolder xsi:type="WeaponDamageHolder">
               <Damage />
@@ -39,6 +41,8 @@
               <Impact_Multiplier>0</Impact_Multiplier>
               <Impact_Multiplier_Kback>-1</Impact_Multiplier_Kback>
               <Impact_Multiplier_Kdown>-1</Impact_Multiplier_Kdown>
+              <DurabilityLoss>0</DurabilityLoss>
+              <DurabilityLossPercent>0</DurabilityLossPercent>
             </EffectHolder>
           </Effects>
           <EffectConditions />

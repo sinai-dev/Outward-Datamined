@@ -8,6 +8,9 @@
       <MaxNumberOfDrops>3</MaxNumberOfDrops>
       <MaxDiceValue>91</MaxDiceValue>
       <EmptyDrop>0</EmptyDrop>
+      <RegenTime>-1</RegenTime>
+      <ChanceReduction>0</ChanceReduction>
+      <ChanceRegenQty>10</ChanceRegenQty>
       <Item_Drops>
         <DropTableChanceEntry>
           <Item_Name>Arrow</Item_Name>
@@ -16,6 +19,9 @@
           <Max_Quantity>6</Max_Quantity>
           <Drop_Chance>16.48</Drop_Chance>
           <Dice_Range>14</Dice_Range>
+          <ChanceReduction>0</ChanceReduction>
+          <ChanceRegenDelay>-1</ChanceRegenDelay>
+          <ChanceRegenQty>0</ChanceRegenQty>
         </DropTableChanceEntry>
         <DropTableChanceEntry>
           <Item_Name>Bullet</Item_Name>
@@ -24,6 +30,9 @@
           <Max_Quantity>4</Max_Quantity>
           <Drop_Chance>10.99</Drop_Chance>
           <Dice_Range>9</Dice_Range>
+          <ChanceReduction>0</ChanceReduction>
+          <ChanceRegenDelay>-1</ChanceRegenDelay>
+          <ChanceRegenQty>0</ChanceRegenQty>
         </DropTableChanceEntry>
         <DropTableChanceEntry>
           <Item_Name>Iron Scrap</Item_Name>
@@ -32,6 +41,9 @@
           <Max_Quantity>5</Max_Quantity>
           <Drop_Chance>10.99</Drop_Chance>
           <Dice_Range>9</Dice_Range>
+          <ChanceReduction>0</ChanceReduction>
+          <ChanceRegenDelay>-1</ChanceRegenDelay>
+          <ChanceRegenQty>0</ChanceRegenQty>
         </DropTableChanceEntry>
         <DropTableChanceEntry>
           <Item_Name>Spikes – Iron</Item_Name>
@@ -40,6 +52,9 @@
           <Max_Quantity>2</Max_Quantity>
           <Drop_Chance>16.48</Drop_Chance>
           <Dice_Range>14</Dice_Range>
+          <ChanceReduction>0</ChanceReduction>
+          <ChanceRegenDelay>-1</ChanceRegenDelay>
+          <ChanceRegenQty>0</ChanceRegenQty>
         </DropTableChanceEntry>
         <DropTableChanceEntry>
           <Item_Name>Bandages</Item_Name>
@@ -48,6 +63,9 @@
           <Max_Quantity>4</Max_Quantity>
           <Drop_Chance>16.48</Drop_Chance>
           <Dice_Range>14</Dice_Range>
+          <ChanceReduction>0</ChanceReduction>
+          <ChanceRegenDelay>-1</ChanceRegenDelay>
+          <ChanceRegenQty>0</ChanceRegenQty>
         </DropTableChanceEntry>
         <DropTableChanceEntry>
           <Item_Name>Tripwire Trap</Item_Name>
@@ -56,6 +74,9 @@
           <Max_Quantity>3</Max_Quantity>
           <Drop_Chance>16.48</Drop_Chance>
           <Dice_Range>14</Dice_Range>
+          <ChanceReduction>0</ChanceReduction>
+          <ChanceRegenDelay>-1</ChanceRegenDelay>
+          <ChanceRegenQty>0</ChanceRegenQty>
         </DropTableChanceEntry>
         <DropTableChanceEntry>
           <Item_Name>Pressure Plate Trap</Item_Name>
@@ -64,6 +85,9 @@
           <Max_Quantity>2</Max_Quantity>
           <Drop_Chance>5.49</Drop_Chance>
           <Dice_Range>4</Dice_Range>
+          <ChanceReduction>0</ChanceReduction>
+          <ChanceRegenDelay>-1</ChanceRegenDelay>
+          <ChanceRegenQty>0</ChanceRegenQty>
         </DropTableChanceEntry>
         <DropTableChanceEntry>
           <Item_Name>Charge – Incendiary</Item_Name>
@@ -72,6 +96,9 @@
           <Max_Quantity>2</Max_Quantity>
           <Drop_Chance>5.49</Drop_Chance>
           <Dice_Range>4</Dice_Range>
+          <ChanceReduction>0</ChanceReduction>
+          <ChanceRegenDelay>-1</ChanceRegenDelay>
+          <ChanceRegenQty>0</ChanceRegenQty>
         </DropTableChanceEntry>
         <DropTableChanceEntry>
           <Item_Name>Power Coil</Item_Name>
@@ -80,6 +107,9 @@
           <Max_Quantity>1</Max_Quantity>
           <Drop_Chance>1.1</Drop_Chance>
           <Dice_Range>0</Dice_Range>
+          <ChanceReduction>0</ChanceReduction>
+          <ChanceRegenDelay>-1</ChanceRegenDelay>
+          <ChanceRegenQty>0</ChanceRegenQty>
         </DropTableChanceEntry>
       </Item_Drops>
     </DropGeneratorHolder>

@@ -8,6 +8,9 @@
       <MaxNumberOfDrops>4</MaxNumberOfDrops>
       <MaxDiceValue>251</MaxDiceValue>
       <EmptyDrop>0</EmptyDrop>
+      <RegenTime>-1</RegenTime>
+      <ChanceReduction>0</ChanceReduction>
+      <ChanceRegenQty>10</ChanceRegenQty>
       <Item_Drops>
         <DropTableChanceEntry>
           <Item_Name>Blood Mushroom</Item_Name>
@@ -16,6 +19,9 @@
           <Max_Quantity>2</Max_Quantity>
           <Drop_Chance>7.97</Drop_Chance>
           <Dice_Range>19</Dice_Range>
+          <ChanceReduction>0</ChanceReduction>
+          <ChanceRegenDelay>-1</ChanceRegenDelay>
+          <ChanceRegenQty>0</ChanceRegenQty>
         </DropTableChanceEntry>
         <DropTableChanceEntry>
           <Item_Name>Star Mushroom</Item_Name>
@@ -24,6 +30,9 @@
           <Max_Quantity>2</Max_Quantity>
           <Drop_Chance>7.97</Drop_Chance>
           <Dice_Range>19</Dice_Range>
+          <ChanceReduction>0</ChanceReduction>
+          <ChanceRegenDelay>-1</ChanceRegenDelay>
+          <ChanceRegenQty>0</ChanceRegenQty>
         </DropTableChanceEntry>
         <DropTableChanceEntry>
           <Item_Name>Woolshroom</Item_Name>
@@ -32,6 +41,9 @@
           <Max_Quantity>2</Max_Quantity>
           <Drop_Chance>7.97</Drop_Chance>
           <Dice_Range>19</Dice_Range>
+          <ChanceReduction>0</ChanceReduction>
+          <ChanceRegenDelay>-1</ChanceRegenDelay>
+          <ChanceRegenQty>0</ChanceRegenQty>
         </DropTableChanceEntry>
         <DropTableChanceEntry>
           <Item_Name>Miasmapod</Item_Name>
@@ -40,6 +52,9 @@
           <Max_Quantity>1</Max_Quantity>
           <Drop_Chance>7.97</Drop_Chance>
           <Dice_Range>19</Dice_Range>
+          <ChanceReduction>0</ChanceReduction>
+          <ChanceRegenDelay>-1</ChanceRegenDelay>
+          <ChanceRegenQty>0</ChanceRegenQty>
         </DropTableChanceEntry>
         <DropTableChanceEntry>
           <Item_Name>Greasy Fern</Item_Name>
@@ -48,6 +63,9 @@
           <Max_Quantity>1</Max_Quantity>
           <Drop_Chance>7.97</Drop_Chance>
           <Dice_Range>19</Dice_Range>
+          <ChanceReduction>0</ChanceReduction>
+          <ChanceRegenDelay>-1</ChanceRegenDelay>
+          <ChanceRegenQty>0</ChanceRegenQty>
         </DropTableChanceEntry>
         <DropTableChanceEntry>
           <Item_Name>Poison Rag</Item_Name>
@@ -56,6 +74,9 @@
           <Max_Quantity>3</Max_Quantity>
           <Drop_Chance>7.97</Drop_Chance>
           <Dice_Range>19</Dice_Range>
+          <ChanceReduction>0</ChanceReduction>
+          <ChanceRegenDelay>-1</ChanceRegenDelay>
+          <ChanceRegenQty>0</ChanceRegenQty>
         </DropTableChanceEntry>
         <DropTableChanceEntry>
           <Item_Name>Poison Varnish</Item_Name>
@@ -64,6 +85,9 @@
           <Max_Quantity>2</Max_Quantity>
           <Drop_Chance>3.98</Drop_Chance>
           <Dice_Range>9</Dice_Range>
+          <ChanceReduction>0</ChanceReduction>
+          <ChanceRegenDelay>-1</ChanceRegenDelay>
+          <ChanceRegenQty>0</ChanceRegenQty>
         </DropTableChanceEntry>
         <DropTableChanceEntry>
           <Item_Name>Dark Varnish</Item_Name>
@@ -72,6 +96,9 @@
           <Max_Quantity>2</Max_Quantity>
           <Drop_Chance>3.98</Drop_Chance>
           <Dice_Range>9</Dice_Range>
+          <ChanceReduction>0</ChanceReduction>
+          <ChanceRegenDelay>-1</ChanceRegenDelay>
+          <ChanceRegenQty>0</ChanceRegenQty>
         </DropTableChanceEntry>
         <DropTableChanceEntry>
           <Item_Name>Pungent Paste</Item_Name>
@@ -80,6 +107,9 @@
           <Max_Quantity>1</Max_Quantity>
           <Drop_Chance>3.98</Drop_Chance>
           <Dice_Range>9</Dice_Range>
+          <ChanceReduction>0</ChanceReduction>
+          <ChanceRegenDelay>-1</ChanceRegenDelay>
+          <ChanceRegenQty>0</ChanceRegenQty>
         </DropTableChanceEntry>
         <DropTableChanceEntry>
           <Item_Name>Scavenger Coat</Item_Name>
@@ -88,6 +118,9 @@
           <Max_Quantity>1</Max_Quantity>
           <Drop_Chance>3.98</Drop_Chance>
           <Dice_Range>9</Dice_Range>
+          <ChanceReduction>0</ChanceReduction>
+          <ChanceRegenDelay>-1</ChanceRegenDelay>
+          <ChanceRegenQty>0</ChanceRegenQty>
         </DropTableChanceEntry>
         <DropTableChanceEntry>
           <Item_Name>Adventurer Armor</Item_Name>
@@ -96,6 +129,9 @@
           <Max_Quantity>1</Max_Quantity>
           <Drop_Chance>3.98</Drop_Chance>
           <Dice_Range>9</Dice_Range>
+          <ChanceReduction>0</ChanceReduction>
+          <ChanceRegenDelay>-1</ChanceRegenDelay>
+          <ChanceRegenQty>0</ChanceRegenQty>
         </DropTableChanceEntry>
         <DropTableChanceEntry>
           <Item_Name>Halfplate Armor</Item_Name>
@@ -104,6 +140,9 @@
           <Max_Quantity>1</Max_Quantity>
           <Drop_Chance>1.59</Drop_Chance>
           <Dice_Range>3</Dice_Range>
+          <ChanceReduction>0</ChanceReduction>
+          <ChanceRegenDelay>-1</ChanceRegenDelay>
+          <ChanceRegenQty>0</ChanceRegenQty>
         </DropTableChanceEntry>
         <DropTableChanceEntry>
           <Item_Name>Trader Garb</Item_Name>
@@ -112,6 +151,9 @@
           <Max_Quantity>1</Max_Quantity>
           <Drop_Chance>5.98</Drop_Chance>
           <Dice_Range>14</Dice_Range>
+          <ChanceReduction>0</ChanceReduction>
+          <ChanceRegenDelay>-1</ChanceRegenDelay>
+          <ChanceRegenQty>0</ChanceRegenQty>
         </DropTableChanceEntry>
         <DropTableChanceEntry>
           <Item_Name>Adventurer Backpack</Item_Name>
@@ -120,6 +162,9 @@
           <Max_Quantity>1</Max_Quantity>
           <Drop_Chance>1.59</Drop_Chance>
           <Dice_Range>3</Dice_Range>
+          <ChanceReduction>0</ChanceReduction>
+          <ChanceRegenDelay>-1</ChanceRegenDelay>
+          <ChanceRegenQty>0</ChanceRegenQty>
         </DropTableChanceEntry>
         <DropTableChanceEntry>
           <Item_Name>Mushroom Halberd</Item_Name>
@@ -128,6 +173,9 @@
           <Max_Quantity>1</Max_Quantity>
           <Drop_Chance>3.98</Drop_Chance>
           <Dice_Range>9</Dice_Range>
+          <ChanceReduction>0</ChanceReduction>
+          <ChanceRegenDelay>-1</ChanceRegenDelay>
+          <ChanceRegenQty>0</ChanceRegenQty>
         </DropTableChanceEntry>
         <DropTableChanceEntry>
           <Item_Name>Crafting: Poison Rag</Item_Name>
@@ -136,6 +184,9 @@
           <Max_Quantity>1</Max_Quantity>
           <Drop_Chance>3.19</Drop_Chance>
           <Dice_Range>7</Dice_Range>
+          <ChanceReduction>0</ChanceReduction>
+          <ChanceRegenDelay>-1</ChanceRegenDelay>
+          <ChanceRegenQty>0</ChanceRegenQty>
         </DropTableChanceEntry>
         <DropTableChanceEntry>
           <Item_Name>Tiny Aquamarine</Item_Name>
@@ -144,6 +195,9 @@
           <Max_Quantity>1</Max_Quantity>
           <Drop_Chance>3.98</Drop_Chance>
           <Dice_Range>9</Dice_Range>
+          <ChanceReduction>0</ChanceReduction>
+          <ChanceRegenDelay>-1</ChanceRegenDelay>
+          <ChanceRegenQty>0</ChanceRegenQty>
         </DropTableChanceEntry>
         <DropTableChanceEntry>
           <Item_Name>Insect Husk</Item_Name>
@@ -152,6 +206,9 @@
           <Max_Quantity>2</Max_Quantity>
           <Drop_Chance>5.98</Drop_Chance>
           <Dice_Range>14</Dice_Range>
+          <ChanceReduction>0</ChanceReduction>
+          <ChanceRegenDelay>-1</ChanceRegenDelay>
+          <ChanceRegenQty>0</ChanceRegenQty>
         </DropTableChanceEntry>
         <DropTableChanceEntry>
           <Item_Name>Predator Bones</Item_Name>
@@ -160,6 +217,9 @@
           <Max_Quantity>3</Max_Quantity>
           <Drop_Chance>5.98</Drop_Chance>
           <Dice_Range>14</Dice_Range>
+          <ChanceReduction>0</ChanceReduction>
+          <ChanceRegenDelay>-1</ChanceRegenDelay>
+          <ChanceRegenQty>0</ChanceRegenQty>
         </DropTableChanceEntry>
       </Item_Drops>
     </DropGeneratorHolder>

@@ -142,3 +142,48 @@
 421	Tired
 424	Energized
 999	StatusEffect_Imbue_BlessedWeaponTest_Name
+1001	Charged Boon
+1002	Swarm Boon
+1003	Flu1
+1004	Flu2
+1005	Flu3
+1006	Glaucoma1
+1007	Glaucoma2
+1008	Glaucoma3
+1009	Malaria1
+1010	Malaria3
+1011	Malnutrition1
+1012	Malnutrition2
+1013	Malnutrition3
+1014	Otitis1
+1015	Otitis2
+1016	Paranoia1
+1017	Paranoia2
+1018	Paranoia3
+1019	Rheumatism1
+1020	Rheumatism2
+1021	Rheumatism3
+1022	Taenia1
+1023	Taenia2
+1024	Taenia3
+1025	Putrid Hex
+1026	Shock Hex
+1027	ColdExposure
+1028	HeatExposure
+1029	Temperature Burning
+1030	Dez Runes
+1031	Egoth Runes
+1032	Fal Runes
+1033	Runic Blade
+1034	Runic Heal Amplified
+1035	Runic Protection
+1036	Runic Protection Amplified
+1037	Shim Runes
+1038	Test Basic
+1039	Poison Immunity
+1040	Test Stack
+1041	Bag Over Encumbered
+1042	Fireflies
+1043	Hallowed Marsh Poison Lvl1
+1044	Hallowed Marsh Poison Lvl2
+1045	Pouch Over Encumbered

@@ -226,9 +226,6 @@
   </All_Locations>
   <DropTables>
     <ContainerDroptableSummary>
-      <Locations />
-    </ContainerDroptableSummary>
-    <ContainerDroptableSummary>
       <DropTableName>DropTable_Neutral_Cloth_Rich_1</DropTableName>
       <Locations>
         <string>Cierzo</string>

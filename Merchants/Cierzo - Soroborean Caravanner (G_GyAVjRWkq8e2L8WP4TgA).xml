@@ -54,6 +54,9 @@
         <MaxNumberOfDrops>6</MaxNumberOfDrops>
         <MaxDiceValue>64</MaxDiceValue>
         <EmptyDrop>0</EmptyDrop>
+        <RegenTime>-1</RegenTime>
+        <ChanceReduction>0</ChanceReduction>
+        <ChanceRegenQty>10</ChanceRegenQty>
         <Item_Drops>
           <DropTableChanceEntry>
             <Item_Name>Flintlock Pistol</Item_Name>
@@ -62,6 +65,9 @@
             <Max_Quantity>1</Max_Quantity>
             <Drop_Chance>3.12</Drop_Chance>
             <Dice_Range>1</Dice_Range>
+            <ChanceReduction>0</ChanceReduction>
+            <ChanceRegenDelay>-1</ChanceRegenDelay>
+            <ChanceRegenQty>0</ChanceRegenQty>
           </DropTableChanceEntry>
           <DropTableChanceEntry>
             <Item_Name>Rondel Dagger</Item_Name>
@@ -70,6 +76,9 @@
             <Max_Quantity>1</Max_Quantity>
             <Drop_Chance>3.12</Drop_Chance>
             <Dice_Range>1</Dice_Range>
+            <ChanceReduction>0</ChanceReduction>
+            <ChanceRegenDelay>-1</ChanceRegenDelay>
+            <ChanceRegenQty>0</ChanceRegenQty>
           </DropTableChanceEntry>
           <DropTableChanceEntry>
             <Item_Name>Luxury Tent</Item_Name>
@@ -78,6 +87,9 @@
             <Max_Quantity>1</Max_Quantity>
             <Drop_Chance>3.12</Drop_Chance>
             <Dice_Range>1</Dice_Range>
+            <ChanceReduction>0</ChanceReduction>
+            <ChanceRegenDelay>-1</ChanceRegenDelay>
+            <ChanceRegenQty>0</ChanceRegenQty>
           </DropTableChanceEntry>
           <DropTableChanceEntry>
             <Item_Name>Spikes – Palladium</Item_Name>
@@ -86,6 +98,9 @@
             <Max_Quantity>1</Max_Quantity>
             <Drop_Chance>6.25</Drop_Chance>
             <Dice_Range>3</Dice_Range>
+            <ChanceReduction>0</ChanceReduction>
+            <ChanceRegenDelay>-1</ChanceRegenDelay>
+            <ChanceRegenQty>0</ChanceRegenQty>
           </DropTableChanceEntry>
           <DropTableChanceEntry>
             <Item_Name>Tiny Aquamarine</Item_Name>
@@ -94,6 +109,9 @@
             <Max_Quantity>1</Max_Quantity>
             <Drop_Chance>6.25</Drop_Chance>
             <Dice_Range>3</Dice_Range>
+            <ChanceReduction>0</ChanceReduction>
+            <ChanceRegenDelay>-1</ChanceRegenDelay>
+            <ChanceRegenQty>0</ChanceRegenQty>
           </DropTableChanceEntry>
           <DropTableChanceEntry>
             <Item_Name>Large Emerald</Item_Name>
@@ -102,6 +120,9 @@
             <Max_Quantity>1</Max_Quantity>
             <Drop_Chance>6.25</Drop_Chance>
             <Dice_Range>3</Dice_Range>
+            <ChanceReduction>0</ChanceReduction>
+            <ChanceRegenDelay>-1</ChanceRegenDelay>
+            <ChanceRegenQty>0</ChanceRegenQty>
           </DropTableChanceEntry>
           <DropTableChanceEntry>
             <Item_Name>Small Sapphire</Item_Name>
@@ -110,6 +131,9 @@
             <Max_Quantity>1</Max_Quantity>
             <Drop_Chance>6.25</Drop_Chance>
             <Dice_Range>3</Dice_Range>
+            <ChanceReduction>0</ChanceReduction>
+            <ChanceRegenDelay>-1</ChanceRegenDelay>
+            <ChanceRegenQty>0</ChanceRegenQty>
           </DropTableChanceEntry>
           <DropTableChanceEntry>
             <Item_Name>Medium Ruby</Item_Name>
@@ -118,6 +142,9 @@
             <Max_Quantity>1</Max_Quantity>
             <Drop_Chance>6.25</Drop_Chance>
             <Dice_Range>3</Dice_Range>
+            <ChanceReduction>0</ChanceReduction>
+            <ChanceRegenDelay>-1</ChanceRegenDelay>
+            <ChanceRegenQty>0</ChanceRegenQty>
           </DropTableChanceEntry>
           <DropTableChanceEntry>
             <Item_Name>Obsidian Shard</Item_Name>
@@ -126,6 +153,9 @@
             <Max_Quantity>1</Max_Quantity>
             <Drop_Chance>1.56</Drop_Chance>
             <Dice_Range>0</Dice_Range>
+            <ChanceReduction>0</ChanceReduction>
+            <ChanceRegenDelay>-1</ChanceRegenDelay>
+            <ChanceRegenQty>0</ChanceRegenQty>
           </DropTableChanceEntry>
           <DropTableChanceEntry>
             <Item_Name>Coralhorn Antler</Item_Name>
@@ -134,6 +164,9 @@
             <Max_Quantity>1</Max_Quantity>
             <Drop_Chance>1.56</Drop_Chance>
             <Dice_Range>0</Dice_Range>
+            <ChanceReduction>0</ChanceReduction>
+            <ChanceRegenDelay>-1</ChanceRegenDelay>
+            <ChanceRegenQty>0</ChanceRegenQty>
           </DropTableChanceEntry>
           <DropTableChanceEntry>
             <Item_Name>Shark Cartilage</Item_Name>
@@ -142,6 +175,9 @@
             <Max_Quantity>1</Max_Quantity>
             <Drop_Chance>1.56</Drop_Chance>
             <Dice_Range>0</Dice_Range>
+            <ChanceReduction>0</ChanceReduction>
+            <ChanceRegenDelay>-1</ChanceRegenDelay>
+            <ChanceRegenQty>0</ChanceRegenQty>
           </DropTableChanceEntry>
           <DropTableChanceEntry>
             <Item_Name>Thorny Cartilage</Item_Name>
@@ -150,6 +186,9 @@
             <Max_Quantity>1</Max_Quantity>
             <Drop_Chance>1.56</Drop_Chance>
             <Dice_Range>0</Dice_Range>
+            <ChanceReduction>0</ChanceReduction>
+            <ChanceRegenDelay>-1</ChanceRegenDelay>
+            <ChanceRegenQty>0</ChanceRegenQty>
           </DropTableChanceEntry>
           <DropTableChanceEntry>
             <Item_Name>Mantis Granite</Item_Name>
@@ -158,6 +197,9 @@
             <Max_Quantity>1</Max_Quantity>
             <Drop_Chance>1.56</Drop_Chance>
             <Dice_Range>0</Dice_Range>
+            <ChanceReduction>0</ChanceReduction>
+            <ChanceRegenDelay>-1</ChanceRegenDelay>
+            <ChanceRegenQty>0</ChanceRegenQty>
           </DropTableChanceEntry>
           <DropTableChanceEntry>
             <Item_Name>Beast Golem Scraps</Item_Name>
@@ -166,6 +208,9 @@
             <Max_Quantity>1</Max_Quantity>
             <Drop_Chance>1.56</Drop_Chance>
             <Dice_Range>0</Dice_Range>
+            <ChanceReduction>0</ChanceReduction>
+            <ChanceRegenDelay>-1</ChanceRegenDelay>
+            <ChanceRegenQty>0</ChanceRegenQty>
           </DropTableChanceEntry>
           <DropTableChanceEntry>
             <Item_Name>Assassin Tongue</Item_Name>
@@ -174,6 +219,9 @@
             <Max_Quantity>1</Max_Quantity>
             <Drop_Chance>1.56</Drop_Chance>
             <Dice_Range>0</Dice_Range>
+            <ChanceReduction>0</ChanceReduction>
+            <ChanceRegenDelay>-1</ChanceRegenDelay>
+            <ChanceRegenQty>0</ChanceRegenQty>
           </DropTableChanceEntry>
           <DropTableChanceEntry>
             <Item_Name>Phytosaur Horn</Item_Name>
@@ -182,6 +230,9 @@
             <Max_Quantity>1</Max_Quantity>
             <Drop_Chance>1.56</Drop_Chance>
             <Dice_Range>0</Dice_Range>
+            <ChanceReduction>0</ChanceReduction>
+            <ChanceRegenDelay>-1</ChanceRegenDelay>
+            <ChanceRegenQty>0</ChanceRegenQty>
           </DropTableChanceEntry>
           <DropTableChanceEntry>
             <Item_Name>Hide</Item_Name>
@@ -190,6 +241,9 @@
             <Max_Quantity>1</Max_Quantity>
             <Drop_Chance>15.62</Drop_Chance>
             <Dice_Range>9</Dice_Range>
+            <ChanceReduction>0</ChanceReduction>
+            <ChanceRegenDelay>-1</ChanceRegenDelay>
+            <ChanceRegenQty>0</ChanceRegenQty>
           </DropTableChanceEntry>
           <DropTableChanceEntry>
             <Item_Name>Scaled Leather</Item_Name>
@@ -198,6 +252,42 @@
             <Max_Quantity>1</Max_Quantity>
             <Drop_Chance>7.81</Drop_Chance>
             <Dice_Range>4</Dice_Range>
+            <ChanceReduction>0</ChanceReduction>
+            <ChanceRegenDelay>-1</ChanceRegenDelay>
+            <ChanceRegenQty>0</ChanceRegenQty>
+          </DropTableChanceEntry>
+          <DropTableChanceEntry>
+            <Item_Name>Master Trader Garb</Item_Name>
+            <Item_ID>3000230</Item_ID>
+            <Min_Quantity>1</Min_Quantity>
+            <Max_Quantity>1</Max_Quantity>
+            <Drop_Chance>0</Drop_Chance>
+            <Dice_Range>0</Dice_Range>
+            <ChanceReduction>0</ChanceReduction>
+            <ChanceRegenDelay>-1</ChanceRegenDelay>
+            <ChanceRegenQty>0</ChanceRegenQty>
+          </DropTableChanceEntry>
+          <DropTableChanceEntry>
+            <Item_Name>Master Trader Hat</Item_Name>
+            <Item_ID>3000231</Item_ID>
+            <Min_Quantity>1</Min_Quantity>
+            <Max_Quantity>1</Max_Quantity>
+            <Drop_Chance>0</Drop_Chance>
+            <Dice_Range>0</Dice_Range>
+            <ChanceReduction>0</ChanceReduction>
+            <ChanceRegenDelay>-1</ChanceRegenDelay>
+            <ChanceRegenQty>0</ChanceRegenQty>
+          </DropTableChanceEntry>
+          <DropTableChanceEntry>
+            <Item_Name>Master Trader Boots</Item_Name>
+            <Item_ID>3000232</Item_ID>
+            <Min_Quantity>1</Min_Quantity>
+            <Max_Quantity>1</Max_Quantity>
+            <Drop_Chance>0</Drop_Chance>
+            <Dice_Range>0</Dice_Range>
+            <ChanceReduction>0</ChanceReduction>
+            <ChanceRegenDelay>-1</ChanceRegenDelay>
+            <ChanceRegenQty>0</ChanceRegenQty>
           </DropTableChanceEntry>
           <DropTableChanceEntry>
             <Item_Name>Adventurer Armor</Item_Name>
@@ -206,6 +296,9 @@
             <Max_Quantity>1</Max_Quantity>
             <Drop_Chance>3.12</Drop_Chance>
             <Dice_Range>1</Dice_Range>
+            <ChanceReduction>0</ChanceReduction>
+            <ChanceRegenDelay>-1</ChanceRegenDelay>
+            <ChanceRegenQty>0</ChanceRegenQty>
           </DropTableChanceEntry>
           <DropTableChanceEntry>
             <Item_Name>Adventurer's Helm</Item_Name>
@@ -214,6 +307,9 @@
             <Max_Quantity>1</Max_Quantity>
             <Drop_Chance>3.12</Drop_Chance>
             <Dice_Range>1</Dice_Range>
+            <ChanceReduction>0</ChanceReduction>
+            <ChanceRegenDelay>-1</ChanceRegenDelay>
+            <ChanceRegenQty>0</ChanceRegenQty>
           </DropTableChanceEntry>
           <DropTableChanceEntry>
             <Item_Name>Adventurer Boots</Item_Name>
@@ -222,6 +318,9 @@
             <Max_Quantity>1</Max_Quantity>
             <Drop_Chance>3.12</Drop_Chance>
             <Dice_Range>1</Dice_Range>
+            <ChanceReduction>0</ChanceReduction>
+            <ChanceRegenDelay>-1</ChanceRegenDelay>
+            <ChanceRegenQty>0</ChanceRegenQty>
           </DropTableChanceEntry>
           <DropTableChanceEntry>
             <Item_Name>Adventurer Backpack</Item_Name>
@@ -230,6 +329,9 @@
             <Max_Quantity>1</Max_Quantity>
             <Drop_Chance>3.12</Drop_Chance>
             <Dice_Range>1</Dice_Range>
+            <ChanceReduction>0</ChanceReduction>
+            <ChanceRegenDelay>-1</ChanceRegenDelay>
+            <ChanceRegenQty>0</ChanceRegenQty>
           </DropTableChanceEntry>
           <DropTableChanceEntry>
             <Item_Name>Wide Blue Hat</Item_Name>
@@ -238,6 +340,9 @@
             <Max_Quantity>1</Max_Quantity>
             <Drop_Chance>1.56</Drop_Chance>
             <Dice_Range>0</Dice_Range>
+            <ChanceReduction>0</ChanceReduction>
+            <ChanceRegenDelay>-1</ChanceRegenDelay>
+            <ChanceRegenQty>0</ChanceRegenQty>
           </DropTableChanceEntry>
           <DropTableChanceEntry>
             <Item_Name>Wide Black Hat</Item_Name>
@@ -246,6 +351,9 @@
             <Max_Quantity>1</Max_Quantity>
             <Drop_Chance>1.56</Drop_Chance>
             <Dice_Range>0</Dice_Range>
+            <ChanceReduction>0</ChanceReduction>
+            <ChanceRegenDelay>-1</ChanceRegenDelay>
+            <ChanceRegenQty>0</ChanceRegenQty>
           </DropTableChanceEntry>
           <DropTableChanceEntry>
             <Item_Name>Gravel Beetle</Item_Name>
@@ -254,6 +362,9 @@
             <Max_Quantity>3</Max_Quantity>
             <Drop_Chance>3.12</Drop_Chance>
             <Dice_Range>1</Dice_Range>
+            <ChanceReduction>0</ChanceReduction>
+            <ChanceRegenDelay>-1</ChanceRegenDelay>
+            <ChanceRegenQty>0</ChanceRegenQty>
           </DropTableChanceEntry>
           <DropTableChanceEntry>
             <Item_Name>Ochre Spice Beetle</Item_Name>
@@ -262,6 +373,9 @@
             <Max_Quantity>3</Max_Quantity>
             <Drop_Chance>3.12</Drop_Chance>
             <Dice_Range>1</Dice_Range>
+            <ChanceReduction>0</ChanceReduction>
+            <ChanceRegenDelay>-1</ChanceRegenDelay>
+            <ChanceRegenQty>0</ChanceRegenQty>
           </DropTableChanceEntry>
           <DropTableChanceEntry>
             <Item_Name>Giant Iron Key</Item_Name>
@@ -270,6 +384,9 @@
             <Max_Quantity>1</Max_Quantity>
             <Drop_Chance>1.56</Drop_Chance>
             <Dice_Range>0</Dice_Range>
+            <ChanceReduction>0</ChanceReduction>
+            <ChanceRegenDelay>-1</ChanceRegenDelay>
+            <ChanceRegenQty>0</ChanceRegenQty>
           </DropTableChanceEntry>
         </Item_Drops>
       </DropGeneratorHolder>

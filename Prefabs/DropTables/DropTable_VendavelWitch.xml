@@ -15,6 +15,9 @@
       <MaxNumberOfDrops>1</MaxNumberOfDrops>
       <MaxDiceValue>30</MaxDiceValue>
       <EmptyDrop>100</EmptyDrop>
+      <RegenTime>-1</RegenTime>
+      <ChanceReduction>0</ChanceReduction>
+      <ChanceRegenQty>10</ChanceRegenQty>
       <Item_Drops />
     </DropGeneratorHolder>
   </Random_Tables>

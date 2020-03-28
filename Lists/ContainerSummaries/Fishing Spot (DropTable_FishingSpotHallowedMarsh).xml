@@ -14,9 +14,6 @@
   </All_Locations>
   <DropTables>
     <ContainerDroptableSummary>
-      <Locations />
-    </ContainerDroptableSummary>
-    <ContainerDroptableSummary>
       <DropTableName>DropTable_FishingSpotHallowedMarsh</DropTableName>
       <Locations>
         <string>Hallowed Marsh</string>

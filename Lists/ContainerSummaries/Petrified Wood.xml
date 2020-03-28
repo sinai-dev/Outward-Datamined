@@ -10,9 +10,6 @@
   </All_Locations>
   <DropTables>
     <ContainerDroptableSummary>
-      <Locations />
-    </ContainerDroptableSummary>
-    <ContainerDroptableSummary>
       <DropTableName>DropTable_PetrifiedWood</DropTableName>
       <Locations>
         <string>Enmerkar Forest</string>

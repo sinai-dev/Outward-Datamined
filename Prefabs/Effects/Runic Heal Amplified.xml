@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<StatusEffectHolder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>Runic Heal Amplified</Name>
+  <PresetID>0</PresetID>
+  <Lifespan>10</Lifespan>
+  <LengthType>Short</LengthType>
+  <Tags />
+  <CanBeHealedBySleeping>false</CanBeHealedBySleeping>
+  <StraightSleepHealTime>-1</StraightSleepHealTime>
+  <Effects>
+    <EffectHolder xsi:type="AffectHealthHolder">
+      <AffectQuantity>2</AffectQuantity>
+      <IsModifier>false</IsModifier>
+      <AffectQuanityAI>-99999</AffectQuanityAI>
+    </EffectHolder>
+  </Effects>
+</StatusEffectHolder>

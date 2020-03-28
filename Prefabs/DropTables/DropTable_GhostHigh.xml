@@ -15,6 +15,9 @@
       <MaxNumberOfDrops>1</MaxNumberOfDrops>
       <MaxDiceValue>21</MaxDiceValue>
       <EmptyDrop>0</EmptyDrop>
+      <RegenTime>-1</RegenTime>
+      <ChanceReduction>0</ChanceReduction>
+      <ChanceRegenQty>10</ChanceRegenQty>
       <Item_Drops>
         <DropTableChanceEntry>
           <Item_Name>Mana Stone</Item_Name>
@@ -23,6 +26,9 @@
           <Max_Quantity>1</Max_Quantity>
           <Drop_Chance>47.62</Drop_Chance>
           <Dice_Range>9</Dice_Range>
+          <ChanceReduction>0</ChanceReduction>
+          <ChanceRegenDelay>-1</ChanceRegenDelay>
+          <ChanceRegenQty>0</ChanceRegenQty>
         </DropTableChanceEntry>
         <DropTableChanceEntry>
           <Item_Name>Blue Sand</Item_Name>
@@ -31,6 +37,9 @@
           <Max_Quantity>1</Max_Quantity>
           <Drop_Chance>14.29</Drop_Chance>
           <Dice_Range>2</Dice_Range>
+          <ChanceReduction>0</ChanceReduction>
+          <ChanceRegenDelay>-1</ChanceRegenDelay>
+          <ChanceRegenQty>0</ChanceRegenQty>
         </DropTableChanceEntry>
         <DropTableChanceEntry>
           <Item_Name>Medium Ruby</Item_Name>
@@ -39,6 +48,9 @@
           <Max_Quantity>1</Max_Quantity>
           <Drop_Chance>14.29</Drop_Chance>
           <Dice_Range>2</Dice_Range>
+          <ChanceReduction>0</ChanceReduction>
+          <ChanceRegenDelay>-1</ChanceRegenDelay>
+          <ChanceRegenQty>0</ChanceRegenQty>
         </DropTableChanceEntry>
         <DropTableChanceEntry>
           <Item_Name>Occult Remains</Item_Name>
@@ -47,6 +59,9 @@
           <Max_Quantity>1</Max_Quantity>
           <Drop_Chance>23.81</Drop_Chance>
           <Dice_Range>4</Dice_Range>
+          <ChanceReduction>0</ChanceReduction>
+          <ChanceRegenDelay>-1</ChanceRegenDelay>
+          <ChanceRegenQty>0</ChanceRegenQty>
         </DropTableChanceEntry>
       </Item_Drops>
     </DropGeneratorHolder>
@@ -55,6 +70,9 @@
       <MaxNumberOfDrops>1</MaxNumberOfDrops>
       <MaxDiceValue>70</MaxDiceValue>
       <EmptyDrop>42.8571434</EmptyDrop>
+      <RegenTime>-1</RegenTime>
+      <ChanceReduction>0</ChanceReduction>
+      <ChanceRegenQty>10</ChanceRegenQty>
       <Item_Drops>
         <DropTableChanceEntry>
           <Item_Name>Dark Varnish</Item_Name>
@@ -63,6 +81,9 @@
           <Max_Quantity>1</Max_Quantity>
           <Drop_Chance>14.29</Drop_Chance>
           <Dice_Range>9</Dice_Range>
+          <ChanceReduction>1</ChanceReduction>
+          <ChanceRegenDelay>1</ChanceRegenDelay>
+          <ChanceRegenQty>1</ChanceRegenQty>
         </DropTableChanceEntry>
         <DropTableChanceEntry>
           <Item_Name>Bolt Varnish</Item_Name>
@@ -71,6 +92,9 @@
           <Max_Quantity>1</Max_Quantity>
           <Drop_Chance>14.29</Drop_Chance>
           <Dice_Range>9</Dice_Range>
+          <ChanceReduction>0</ChanceReduction>
+          <ChanceRegenDelay>-1</ChanceRegenDelay>
+          <ChanceRegenQty>0</ChanceRegenQty>
         </DropTableChanceEntry>
         <DropTableChanceEntry>
           <Item_Name>Fire Varnish</Item_Name>
@@ -79,6 +103,9 @@
           <Max_Quantity>1</Max_Quantity>
           <Drop_Chance>14.29</Drop_Chance>
           <Dice_Range>9</Dice_Range>
+          <ChanceReduction>0</ChanceReduction>
+          <ChanceRegenDelay>-1</ChanceRegenDelay>
+          <ChanceRegenQty>0</ChanceRegenQty>
         </DropTableChanceEntry>
         <DropTableChanceEntry>
           <Item_Name>Ice Varnish</Item_Name>
@@ -87,6 +114,9 @@
           <Max_Quantity>1</Max_Quantity>
           <Drop_Chance>14.29</Drop_Chance>
           <Dice_Range>9</Dice_Range>
+          <ChanceReduction>0</ChanceReduction>
+          <ChanceRegenDelay>-1</ChanceRegenDelay>
+          <ChanceRegenQty>0</ChanceRegenQty>
         </DropTableChanceEntry>
       </Item_Drops>
     </DropGeneratorHolder>

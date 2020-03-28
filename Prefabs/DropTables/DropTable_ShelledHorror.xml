@@ -21,6 +21,9 @@
       <MaxNumberOfDrops>3</MaxNumberOfDrops>
       <MaxDiceValue>45</MaxDiceValue>
       <EmptyDrop>33.3333359</EmptyDrop>
+      <RegenTime>-1</RegenTime>
+      <ChanceReduction>0</ChanceReduction>
+      <ChanceRegenQty>10</ChanceRegenQty>
       <Item_Drops>
         <DropTableChanceEntry>
           <Item_Name>Thorny Cartilage</Item_Name>
@@ -29,6 +32,9 @@
           <Max_Quantity>1</Max_Quantity>
           <Drop_Chance>22.22</Drop_Chance>
           <Dice_Range>9</Dice_Range>
+          <ChanceReduction>0</ChanceReduction>
+          <ChanceRegenDelay>-1</ChanceRegenDelay>
+          <ChanceRegenQty>0</ChanceRegenQty>
         </DropTableChanceEntry>
         <DropTableChanceEntry>
           <Item_Name>Scaled Leather</Item_Name>
@@ -37,6 +43,9 @@
           <Max_Quantity>1</Max_Quantity>
           <Drop_Chance>22.22</Drop_Chance>
           <Dice_Range>9</Dice_Range>
+          <ChanceReduction>0</ChanceReduction>
+          <ChanceRegenDelay>-1</ChanceRegenDelay>
+          <ChanceRegenQty>0</ChanceRegenQty>
         </DropTableChanceEntry>
         <DropTableChanceEntry>
           <Item_Name>Predator Bones</Item_Name>
@@ -45,6 +54,9 @@
           <Max_Quantity>1</Max_Quantity>
           <Drop_Chance>22.22</Drop_Chance>
           <Dice_Range>9</Dice_Range>
+          <ChanceReduction>0</ChanceReduction>
+          <ChanceRegenDelay>-1</ChanceRegenDelay>
+          <ChanceRegenQty>0</ChanceRegenQty>
         </DropTableChanceEntry>
       </Item_Drops>
     </DropGeneratorHolder>
@@ -53,6 +65,9 @@
       <MaxNumberOfDrops>1</MaxNumberOfDrops>
       <MaxDiceValue>95</MaxDiceValue>
       <EmptyDrop>73.68421</EmptyDrop>
+      <RegenTime>-1</RegenTime>
+      <ChanceReduction>0</ChanceReduction>
+      <ChanceRegenQty>10</ChanceRegenQty>
       <Item_Drops>
         <DropTableChanceEntry>
           <Item_Name>Ammolite</Item_Name>
@@ -61,6 +76,9 @@
           <Max_Quantity>1</Max_Quantity>
           <Drop_Chance>26.32</Drop_Chance>
           <Dice_Range>24</Dice_Range>
+          <ChanceReduction>0</ChanceReduction>
+          <ChanceRegenDelay>-1</ChanceRegenDelay>
+          <ChanceRegenQty>0</ChanceRegenQty>
         </DropTableChanceEntry>
       </Item_Drops>
     </DropGeneratorHolder>

@@ -119,10 +119,10 @@
 124-EnvHeatProtection	
 125-CorruptionResistance	
 126-Waterproof	
-127-Status Type	Rage,Discipline,Warm,Cool,Mist,Bless,Possessed,Food Warm,Food Cool,Food Mist,Food Bless,Food Possessed,Food Discipline,Rage Amplified,Discipline Amplified,Warm Amplified,Cool Amplified,Mist Amplified,Bless Amplified,Possessed Amplified,Cold1,Cold2,Infection1,Infection2,Infection3,Indigestion1,Indigestion2,Confusion,Pain,Burn,Chill,Haunted,Doom,Curse,Health Recovery 2,Poisoned,Poisoned +,Bleeding,Bleeding +,Burning,Wet,Health Recovery 3,Health Recovery Small,Food Poisoned,Food Poisoned +,Bandage,Stun,Immolate,Health Recovery 4,Health Recovery 5
+127-Status Type	Rage,Discipline,Warm,Cool,Mist,Bless,Possessed,Food Warm,Food Cool,Food Mist,Food Bless,Food Possessed,Food Discipline,Rage Amplified,Discipline Amplified,Warm Amplified,Cool Amplified,Mist Amplified,Bless Amplified,Possessed Amplified,Cold1,Cold2,Infection1,Infection2,Infection3,Indigestion1,Indigestion2,Confusion,Pain,Burn,Chill,Haunted,Doom,Curse,Health Recovery 2,Poisoned,Poisoned +,Bleeding,Bleeding +,Burning,Wet,Health Recovery 3,Health Recovery Small,Food Poisoned,Food Poisoned +,Bandage,Stun,Immolate,Health Recovery 4,Health Recovery 5,Test Basic,Test Stack,Hallowed Marsh Poison Lvl1,Hallowed Marsh Poison Lvl2
 128-Heatstroke	
-129-Poison	Poisoned,Poisoned +,Food Poisoned,Food Poisoned +
-130-Wet	Wet
+129-Poison	Poisoned,Poisoned +,Food Poisoned,Food Poisoned +,Test Basic,Hallowed Marsh Poison Lvl1,Hallowed Marsh Poison Lvl2
+130-Wet	Wet,Test Stack
 131-Bleeding	Bleeding,Bleeding +
 132-Disease	Cold1,Cold2,Infection1,Infection2,Infection3,Indigestion1,Indigestion2
 133-Boon	Rage,Discipline,Warm,Cool,Mist,Bless,Possessed,Food Warm,Food Cool,Food Mist,Food Bless,Food Possessed,Food Discipline,Rage Amplified,Discipline Amplified,Warm Amplified,Cool Amplified,Mist Amplified,Bless Amplified,Possessed Amplified

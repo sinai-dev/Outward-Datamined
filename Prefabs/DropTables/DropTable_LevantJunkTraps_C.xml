@@ -21,6 +21,9 @@
       <MaxNumberOfDrops>2</MaxNumberOfDrops>
       <MaxDiceValue>230</MaxDiceValue>
       <EmptyDrop>4.347826</EmptyDrop>
+      <RegenTime>-1</RegenTime>
+      <ChanceReduction>0</ChanceReduction>
+      <ChanceRegenQty>10</ChanceRegenQty>
       <Item_Drops>
         <DropTableChanceEntry>
           <Item_Name>Tattered Attire</Item_Name>
@@ -29,6 +32,9 @@
           <Max_Quantity>1</Max_Quantity>
           <Drop_Chance>4.35</Drop_Chance>
           <Dice_Range>9</Dice_Range>
+          <ChanceReduction>0</ChanceReduction>
+          <ChanceRegenDelay>-1</ChanceRegenDelay>
+          <ChanceRegenQty>0</ChanceRegenQty>
         </DropTableChanceEntry>
         <DropTableChanceEntry>
           <Item_Name>Tattered Attire</Item_Name>
@@ -37,6 +43,9 @@
           <Max_Quantity>1</Max_Quantity>
           <Drop_Chance>4.35</Drop_Chance>
           <Dice_Range>9</Dice_Range>
+          <ChanceReduction>0</ChanceReduction>
+          <ChanceRegenDelay>-1</ChanceRegenDelay>
+          <ChanceRegenQty>0</ChanceRegenQty>
         </DropTableChanceEntry>
         <DropTableChanceEntry>
           <Item_Name>Tattered Attire</Item_Name>
@@ -45,6 +54,9 @@
           <Max_Quantity>1</Max_Quantity>
           <Drop_Chance>4.35</Drop_Chance>
           <Dice_Range>9</Dice_Range>
+          <ChanceReduction>0</ChanceReduction>
+          <ChanceRegenDelay>-1</ChanceRegenDelay>
+          <ChanceRegenQty>0</ChanceRegenQty>
         </DropTableChanceEntry>
         <DropTableChanceEntry>
           <Item_Name>Tattered Hood</Item_Name>
@@ -53,6 +65,9 @@
           <Max_Quantity>1</Max_Quantity>
           <Drop_Chance>4.35</Drop_Chance>
           <Dice_Range>9</Dice_Range>
+          <ChanceReduction>0</ChanceReduction>
+          <ChanceRegenDelay>-1</ChanceRegenDelay>
+          <ChanceRegenQty>0</ChanceRegenQty>
         </DropTableChanceEntry>
         <DropTableChanceEntry>
           <Item_Name>Tattered Hood</Item_Name>
@@ -61,6 +76,9 @@
           <Max_Quantity>1</Max_Quantity>
           <Drop_Chance>4.35</Drop_Chance>
           <Dice_Range>9</Dice_Range>
+          <ChanceReduction>0</ChanceReduction>
+          <ChanceRegenDelay>-1</ChanceRegenDelay>
+          <ChanceRegenQty>0</ChanceRegenQty>
         </DropTableChanceEntry>
         <DropTableChanceEntry>
           <Item_Name>Tattered Hood</Item_Name>
@@ -69,6 +87,9 @@
           <Max_Quantity>1</Max_Quantity>
           <Drop_Chance>4.35</Drop_Chance>
           <Dice_Range>9</Dice_Range>
+          <ChanceReduction>0</ChanceReduction>
+          <ChanceRegenDelay>-1</ChanceRegenDelay>
+          <ChanceRegenQty>0</ChanceRegenQty>
         </DropTableChanceEntry>
         <DropTableChanceEntry>
           <Item_Name>Tattered Boots</Item_Name>
@@ -77,6 +98,9 @@
           <Max_Quantity>1</Max_Quantity>
           <Drop_Chance>4.35</Drop_Chance>
           <Dice_Range>9</Dice_Range>
+          <ChanceReduction>0</ChanceReduction>
+          <ChanceRegenDelay>-1</ChanceRegenDelay>
+          <ChanceRegenQty>0</ChanceRegenQty>
         </DropTableChanceEntry>
         <DropTableChanceEntry>
           <Item_Name>Shiv Dagger</Item_Name>
@@ -85,6 +109,9 @@
           <Max_Quantity>1</Max_Quantity>
           <Drop_Chance>4.35</Drop_Chance>
           <Dice_Range>9</Dice_Range>
+          <ChanceReduction>0</ChanceReduction>
+          <ChanceRegenDelay>-1</ChanceRegenDelay>
+          <ChanceRegenQty>0</ChanceRegenQty>
         </DropTableChanceEntry>
         <DropTableChanceEntry>
           <Item_Name>Rondel Dagger</Item_Name>
@@ -93,6 +120,9 @@
           <Max_Quantity>1</Max_Quantity>
           <Drop_Chance>4.35</Drop_Chance>
           <Dice_Range>9</Dice_Range>
+          <ChanceReduction>0</ChanceReduction>
+          <ChanceRegenDelay>-1</ChanceRegenDelay>
+          <ChanceRegenQty>0</ChanceRegenQty>
         </DropTableChanceEntry>
         <DropTableChanceEntry>
           <Item_Name>Broad Dagger</Item_Name>
@@ -101,6 +131,9 @@
           <Max_Quantity>1</Max_Quantity>
           <Drop_Chance>4.35</Drop_Chance>
           <Dice_Range>9</Dice_Range>
+          <ChanceReduction>0</ChanceReduction>
+          <ChanceRegenDelay>-1</ChanceRegenDelay>
+          <ChanceRegenQty>0</ChanceRegenQty>
         </DropTableChanceEntry>
         <DropTableChanceEntry>
           <Item_Name>Silver</Item_Name>
@@ -109,6 +142,9 @@
           <Max_Quantity>10</Max_Quantity>
           <Drop_Chance>4.35</Drop_Chance>
           <Dice_Range>9</Dice_Range>
+          <ChanceReduction>0</ChanceReduction>
+          <ChanceRegenDelay>-1</ChanceRegenDelay>
+          <ChanceRegenQty>0</ChanceRegenQty>
         </DropTableChanceEntry>
         <DropTableChanceEntry>
           <Item_Name>Linen Cloth</Item_Name>
@@ -117,6 +153,9 @@
           <Max_Quantity>3</Max_Quantity>
           <Drop_Chance>4.35</Drop_Chance>
           <Dice_Range>9</Dice_Range>
+          <ChanceReduction>0</ChanceReduction>
+          <ChanceRegenDelay>-1</ChanceRegenDelay>
+          <ChanceRegenQty>0</ChanceRegenQty>
         </DropTableChanceEntry>
         <DropTableChanceEntry>
           <Item_Name>Bandages</Item_Name>
@@ -125,6 +164,9 @@
           <Max_Quantity>2</Max_Quantity>
           <Drop_Chance>4.35</Drop_Chance>
           <Dice_Range>9</Dice_Range>
+          <ChanceReduction>0</ChanceReduction>
+          <ChanceRegenDelay>-1</ChanceRegenDelay>
+          <ChanceRegenQty>0</ChanceRegenQty>
         </DropTableChanceEntry>
         <DropTableChanceEntry>
           <Item_Name>Iron Scrap</Item_Name>
@@ -133,6 +175,9 @@
           <Max_Quantity>1</Max_Quantity>
           <Drop_Chance>4.35</Drop_Chance>
           <Dice_Range>9</Dice_Range>
+          <ChanceReduction>0</ChanceReduction>
+          <ChanceRegenDelay>-1</ChanceRegenDelay>
+          <ChanceRegenQty>0</ChanceRegenQty>
         </DropTableChanceEntry>
         <DropTableChanceEntry>
           <Item_Name>Iron Sword</Item_Name>
@@ -141,6 +186,9 @@
           <Max_Quantity>1</Max_Quantity>
           <Drop_Chance>4.35</Drop_Chance>
           <Dice_Range>9</Dice_Range>
+          <ChanceReduction>0</ChanceReduction>
+          <ChanceRegenDelay>-1</ChanceRegenDelay>
+          <ChanceRegenQty>0</ChanceRegenQty>
         </DropTableChanceEntry>
         <DropTableChanceEntry>
           <Item_Name>Plank Shield</Item_Name>
@@ -149,6 +197,9 @@
           <Max_Quantity>1</Max_Quantity>
           <Drop_Chance>4.35</Drop_Chance>
           <Dice_Range>9</Dice_Range>
+          <ChanceReduction>0</ChanceReduction>
+          <ChanceRegenDelay>-1</ChanceRegenDelay>
+          <ChanceRegenQty>0</ChanceRegenQty>
         </DropTableChanceEntry>
         <DropTableChanceEntry>
           <Item_Name>Improvised Bedroll</Item_Name>
@@ -157,6 +208,9 @@
           <Max_Quantity>1</Max_Quantity>
           <Drop_Chance>4.35</Drop_Chance>
           <Dice_Range>9</Dice_Range>
+          <ChanceReduction>0</ChanceReduction>
+          <ChanceRegenDelay>-1</ChanceRegenDelay>
+          <ChanceRegenQty>0</ChanceRegenQty>
         </DropTableChanceEntry>
         <DropTableChanceEntry>
           <Item_Name>Wood</Item_Name>
@@ -165,6 +219,9 @@
           <Max_Quantity>1</Max_Quantity>
           <Drop_Chance>4.35</Drop_Chance>
           <Dice_Range>9</Dice_Range>
+          <ChanceReduction>0</ChanceReduction>
+          <ChanceRegenDelay>-1</ChanceRegenDelay>
+          <ChanceRegenQty>0</ChanceRegenQty>
         </DropTableChanceEntry>
         <DropTableChanceEntry>
           <Item_Name>Primitive Club</Item_Name>
@@ -173,6 +230,9 @@
           <Max_Quantity>1</Max_Quantity>
           <Drop_Chance>4.35</Drop_Chance>
           <Dice_Range>9</Dice_Range>
+          <ChanceReduction>0</ChanceReduction>
+          <ChanceRegenDelay>-1</ChanceRegenDelay>
+          <ChanceRegenQty>0</ChanceRegenQty>
         </DropTableChanceEntry>
         <DropTableChanceEntry>
           <Item_Name>Primitive Satchel</Item_Name>
@@ -181,6 +241,9 @@
           <Max_Quantity>1</Max_Quantity>
           <Drop_Chance>4.35</Drop_Chance>
           <Dice_Range>9</Dice_Range>
+          <ChanceReduction>0</ChanceReduction>
+          <ChanceRegenDelay>-1</ChanceRegenDelay>
+          <ChanceRegenQty>0</ChanceRegenQty>
         </DropTableChanceEntry>
         <DropTableChanceEntry>
           <Item_Name>Makeshift Torch</Item_Name>
@@ -189,6 +252,9 @@
           <Max_Quantity>1</Max_Quantity>
           <Drop_Chance>4.35</Drop_Chance>
           <Dice_Range>9</Dice_Range>
+          <ChanceReduction>0</ChanceReduction>
+          <ChanceRegenDelay>-1</ChanceRegenDelay>
+          <ChanceRegenQty>0</ChanceRegenQty>
         </DropTableChanceEntry>
         <DropTableChanceEntry>
           <Item_Name>Flint and Steel</Item_Name>
@@ -197,6 +263,9 @@
           <Max_Quantity>1</Max_Quantity>
           <Drop_Chance>4.35</Drop_Chance>
           <Dice_Range>9</Dice_Range>
+          <ChanceReduction>0</ChanceReduction>
+          <ChanceRegenDelay>-1</ChanceRegenDelay>
+          <ChanceRegenQty>0</ChanceRegenQty>
         </DropTableChanceEntry>
       </Item_Drops>
     </DropGeneratorHolder>

@@ -26,9 +26,6 @@
   </All_Locations>
   <DropTables>
     <ContainerDroptableSummary>
-      <Locations />
-    </ContainerDroptableSummary>
-    <ContainerDroptableSummary>
       <DropTableName>DropTable_IronOreRich</DropTableName>
       <Locations>
         <string>Chersonese</string>
