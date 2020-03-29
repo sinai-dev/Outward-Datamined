@@ -329,4 +329,10 @@
       </DropGeneratorHolder>
     </Random_Tables>
   </DropTable>
+  <BuyModifiers>
+    <float>-0.3</float>
+  </BuyModifiers>
+  <SellModifiers>
+    <float>0</float>
+  </SellModifiers>
 </MerchantHolder>

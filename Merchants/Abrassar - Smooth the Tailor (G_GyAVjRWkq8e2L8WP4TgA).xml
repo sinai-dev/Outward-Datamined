@@ -164,4 +164,6 @@
     </Guaranteed_Drops>
     <Random_Tables />
   </DropTable>
+  <BuyModifiers />
+  <SellModifiers />
 </MerchantHolder>
