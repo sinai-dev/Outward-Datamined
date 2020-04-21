@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ItemHolder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<ItemHolder xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <ItemID>5700167</ItemID>
   <Name>Crafting: Gold-Lich Spear</Name>
   <gameObjectName>5700167_GoldLichSpear_RecipeWeapon</gameObjectName>

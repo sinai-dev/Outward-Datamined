@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LootContainerHolder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<LootContainerHolder xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Name>Trog Chest</Name>
   <ItemID>1000060</ItemID>
   <UID>xYj9e2asdEi1XleXxV1pxA</UID>
