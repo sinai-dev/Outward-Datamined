@@ -8,11 +8,11 @@
       <Quantity>1</Quantity>
     </QuantityHolder>
     <QuantityHolder>
-      <Name>Chersonese:Hyena Burrow</Name>
+      <Name>Chersonese:Bandits' Prison</Name>
       <Quantity>1</Quantity>
     </QuantityHolder>
     <QuantityHolder>
-      <Name>Chersonese:Bandits' Prison</Name>
+      <Name>Chersonese:Hyena Burrow</Name>
       <Quantity>1</Quantity>
     </QuantityHolder>
     <QuantityHolder>
@@ -60,11 +60,11 @@
       <Quantity>1</Quantity>
     </QuantityHolder>
     <QuantityHolder>
-      <Name>Enmerkar Forest:Dolmen Crypt</Name>
+      <Name>Enmerkar Forest:Worn Hunter's Cabin</Name>
       <Quantity>1</Quantity>
     </QuantityHolder>
     <QuantityHolder>
-      <Name>Enmerkar Forest:Worn Hunter's Cabin</Name>
+      <Name>Enmerkar Forest:Dolmen Crypt</Name>
       <Quantity>1</Quantity>
     </QuantityHolder>
   </All_Locations>
@@ -89,8 +89,8 @@
       <DropTableName>DropTable_Neutral_Survival_Low_2</DropTableName>
       <Locations>
         <string>Chersonese</string>
-        <string>Hyena Burrow</string>
         <string>Bandits' Prison</string>
+        <string>Hyena Burrow</string>
         <string>Flooded Cellar</string>
         <string>The Slide</string>
         <string>Royal Manticore’s Lair</string>
@@ -108,17 +108,8 @@
         <string>Stone Titan Caves</string>
         <string>Sand Rose Cave</string>
         <string>Face of the Ancients</string>
+        <string>Worn Hunter's Cabin</string>
         <string>Dolmen Crypt</string>
-        <string>Worn Hunter's Cabin</string>
-      </Locations>
-    </ContainerDroptableSummary>
-    <ContainerDroptableSummary>
-      <DropTableName>DropTable_Neutral_Consumable_Low_2</DropTableName>
-      <Locations>
-        <string>Hyena Burrow</string>
-        <string>Enmerkar Forest</string>
-        <string>Cabal of Wind Temple</string>
-        <string>Worn Hunter's Cabin</string>
       </Locations>
     </ContainerDroptableSummary>
     <ContainerDroptableSummary>
@@ -133,6 +124,15 @@
         <string>Sand Rose Cave</string>
         <string>Royal Manticore’s Lair</string>
         <string>Cabal of Wind Temple</string>
+      </Locations>
+    </ContainerDroptableSummary>
+    <ContainerDroptableSummary>
+      <DropTableName>DropTable_Neutral_Consumable_Low_2</DropTableName>
+      <Locations>
+        <string>Hyena Burrow</string>
+        <string>Enmerkar Forest</string>
+        <string>Cabal of Wind Temple</string>
+        <string>Worn Hunter's Cabin</string>
       </Locations>
     </ContainerDroptableSummary>
     <ContainerDroptableSummary>
@@ -155,8 +155,8 @@
         <string>Dead Roots</string>
         <string>Sand Rose Cave</string>
         <string>Face of the Ancients</string>
-        <string>Dolmen Crypt</string>
         <string>Worn Hunter's Cabin</string>
+        <string>Dolmen Crypt</string>
       </Locations>
     </ContainerDroptableSummary>
     <ContainerDroptableSummary>

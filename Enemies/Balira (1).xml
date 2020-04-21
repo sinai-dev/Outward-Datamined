@@ -75,8 +75,8 @@
     <DropTableEntry>
       <Item_Name>Astral Potion</Item_Name>
       <Item_ID>4300020</Item_ID>
-      <Min_Quantity>2</Min_Quantity>
-      <Max_Quantity>2</Max_Quantity>
+      <Min_Quantity>1</Min_Quantity>
+      <Max_Quantity>1</Max_Quantity>
     </DropTableEntry>
   </Guaranteed_Drops>
   <DropTable_Names>

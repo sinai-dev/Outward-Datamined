@@ -34,29 +34,6 @@
   </All_Locations>
   <DropTables>
     <ContainerDroptableSummary>
-      <DropTableName>DropTable_Neutral_Cloth_Poor_1</DropTableName>
-      <Locations>
-        <string>Vendavel Fortress</string>
-        <string>Corrupted Tombs</string>
-        <string>Hallowed Marsh</string>
-      </Locations>
-    </ContainerDroptableSummary>
-    <ContainerDroptableSummary>
-      <DropTableName>DropTable_Neutral_Consumable_Low_2</DropTableName>
-      <Locations>
-        <string>Vendavel Fortress</string>
-        <string>Voltaic Hatchery</string>
-      </Locations>
-    </ContainerDroptableSummary>
-    <ContainerDroptableSummary>
-      <DropTableName>DropTable_Neutral_StandardRecipe_Low_1</DropTableName>
-      <Locations>
-        <string>Vendavel Fortress</string>
-        <string>Corrupted Tombs</string>
-        <string>Ancient Hive</string>
-      </Locations>
-    </ContainerDroptableSummary>
-    <ContainerDroptableSummary>
       <DropTableName>DropTable_Chersonese_Equipment_Medium_1</DropTableName>
       <Locations>
         <string>Vendavel Fortress</string>
@@ -80,6 +57,29 @@
         <string>Corrupted Tombs</string>
         <string>Hallowed Marsh</string>
         <string>Ancient Hive</string>
+      </Locations>
+    </ContainerDroptableSummary>
+    <ContainerDroptableSummary>
+      <DropTableName>DropTable_Neutral_StandardRecipe_Low_1</DropTableName>
+      <Locations>
+        <string>Vendavel Fortress</string>
+        <string>Corrupted Tombs</string>
+        <string>Ancient Hive</string>
+      </Locations>
+    </ContainerDroptableSummary>
+    <ContainerDroptableSummary>
+      <DropTableName>DropTable_Neutral_Cloth_Poor_1</DropTableName>
+      <Locations>
+        <string>Vendavel Fortress</string>
+        <string>Corrupted Tombs</string>
+        <string>Hallowed Marsh</string>
+      </Locations>
+    </ContainerDroptableSummary>
+    <ContainerDroptableSummary>
+      <DropTableName>DropTable_Neutral_Consumable_Low_2</DropTableName>
+      <Locations>
+        <string>Vendavel Fortress</string>
+        <string>Voltaic Hatchery</string>
       </Locations>
     </ContainerDroptableSummary>
     <ContainerDroptableSummary>

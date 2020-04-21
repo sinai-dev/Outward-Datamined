@@ -79,6 +79,67 @@
         </EffectTransformHolder>
       </ChildEffects>
     </EffectTransformHolder>
+    <EffectTransformHolder>
+      <TransformName>Gate</TransformName>
+      <Effects />
+      <EffectConditions />
+      <ChildEffects>
+        <EffectTransformHolder>
+          <TransformName>ExtraEffects</TransformName>
+          <Effects>
+            <EffectHolder xsi:type="ShootBlastHolder">
+              <BlastLifespan>30</BlastLifespan>
+              <RefreshTime>1</RefreshTime>
+              <EffectTransforms>
+                <EffectTransformHolder>
+                  <TransformName>Effects</TransformName>
+                  <Effects>
+                    <EffectHolder xsi:type="ShootProjectileHolder">
+                      <TargetingMode>TargetChar</TargetingMode>
+                      <AutoTarget>false</AutoTarget>
+                      <EffectTransforms>
+                        <EffectTransformHolder>
+                          <TransformName>HitEffects</TransformName>
+                          <Effects>
+                            <EffectHolder xsi:type="PunctualDamageHolder">
+                              <Damage>
+                                <Damages>
+                                  <Damage>10</Damage>
+                                  <Damage_Type>Decay</Damage_Type>
+                                </Damages>
+                              </Damage>
+                              <Damages_AI />
+                              <Knockback>10</Knockback>
+                              <HitInventory>true</HitInventory>
+                            </EffectHolder>
+                          </Effects>
+                          <EffectConditions />
+                          <ChildEffects />
+                        </EffectTransformHolder>
+                      </EffectTransforms>
+                    </EffectHolder>
+                  </Effects>
+                  <EffectConditions />
+                  <ChildEffects />
+                </EffectTransformHolder>
+              </EffectTransforms>
+            </EffectHolder>
+          </Effects>
+          <EffectConditions>
+            <EffectConditionHolder>
+              <Conditions>
+                <ConditionHolder>
+                  <Requirement>Activated Bloodstone</Requirement>
+                  <Condition_Type>Item Proximity</Condition_Type>
+                  <Invert>false</Invert>
+                </ConditionHolder>
+              </Conditions>
+            </EffectConditionHolder>
+          </EffectConditions>
+          <ChildEffects />
+        </EffectTransformHolder>
+      </ChildEffects>
+    </EffectTransformHolder>
   </EffectTransforms>
   <Cooldown>8</Cooldown>
   <StaminaCost>0</StaminaCost>

@@ -119,4 +119,5 @@ Inflicts Pain on enemies.</Description>
   <TwoHandType>TwoHandedRight</TwoHandType>
   <VisualDetectabilityAdd>0</VisualDetectabilityAdd>
   <WeaponType>Sword_2H</WeaponType>
+  <StamCost>6.6</StamCost>
 </ItemHolder>

@@ -100,10 +100,17 @@
       </Locations>
     </ContainerDroptableSummary>
     <ContainerDroptableSummary>
-      <DropTableName>DropTable_HallowedMarsh_Food_1</DropTableName>
+      <DropTableName>DropTable_HallowedMarsh_Equipment_Medium_1</DropTableName>
       <Locations>
         <string>Jade Quarry</string>
-        <string>Ziggurat Passage</string>
+      </Locations>
+    </ContainerDroptableSummary>
+    <ContainerDroptableSummary>
+      <DropTableName>DropTable_Neutral_Food_1</DropTableName>
+      <Locations>
+        <string>Jade Quarry</string>
+        <string>Face of the Ancients</string>
+        <string>Damp Hunter's Cabin</string>
       </Locations>
     </ContainerDroptableSummary>
     <ContainerDroptableSummary>
@@ -121,17 +128,10 @@
       </Locations>
     </ContainerDroptableSummary>
     <ContainerDroptableSummary>
-      <DropTableName>DropTable_HallowedMarsh_Equipment_Medium_1</DropTableName>
+      <DropTableName>DropTable_HallowedMarsh_Food_1</DropTableName>
       <Locations>
         <string>Jade Quarry</string>
-      </Locations>
-    </ContainerDroptableSummary>
-    <ContainerDroptableSummary>
-      <DropTableName>DropTable_Neutral_Food_1</DropTableName>
-      <Locations>
-        <string>Jade Quarry</string>
-        <string>Face of the Ancients</string>
-        <string>Damp Hunter's Cabin</string>
+        <string>Ziggurat Passage</string>
       </Locations>
     </ContainerDroptableSummary>
     <ContainerDroptableSummary>

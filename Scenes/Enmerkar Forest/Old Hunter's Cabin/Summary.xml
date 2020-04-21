@@ -17,26 +17,14 @@
       <Quantity>2</Quantity>
       <positions>
         <Vector3>
-          <x>602.452</x>
-          <y>1.743</y>
-          <z>8.932</z>
-        </Vector3>
-        <Vector3>
           <x>602.861</x>
           <y>1.709</y>
           <z>8.353</z>
         </Vector3>
-      </positions>
-    </ItemSpawnHolder>
-    <ItemSpawnHolder>
-      <Name>Bed</Name>
-      <Item_ID>5000001</Item_ID>
-      <Quantity>1</Quantity>
-      <positions>
         <Vector3>
-          <x>596.666</x>
-          <y>0.789242744</y>
-          <z>5.876808</z>
+          <x>602.452</x>
+          <y>1.743</y>
+          <z>8.932</z>
         </Vector3>
       </positions>
     </ItemSpawnHolder>
@@ -66,6 +54,18 @@
           <x>603.138733</x>
           <y>1.738</y>
           <z>8.292425</z>
+        </Vector3>
+      </positions>
+    </ItemSpawnHolder>
+    <ItemSpawnHolder>
+      <Name>Bed</Name>
+      <Item_ID>5000001</Item_ID>
+      <Quantity>1</Quantity>
+      <positions>
+        <Vector3>
+          <x>596.666</x>
+          <y>0.789242744</y>
+          <z>5.876808</z>
         </Vector3>
       </positions>
     </ItemSpawnHolder>

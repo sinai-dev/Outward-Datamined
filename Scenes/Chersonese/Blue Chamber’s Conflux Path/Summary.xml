@@ -3,8 +3,8 @@
   <SceneName>Blue Chamber’s Conflux Path</SceneName>
   <Enemies>
     <QuantityHolder>
-      <Name>Armored Troglodyte (1)</Name>
-      <Quantity>3</Quantity>
+      <Name>Mana Mantis (1)</Name>
+      <Quantity>1</Quantity>
     </QuantityHolder>
     <QuantityHolder>
       <Name>Mana Troglodyte (1)</Name>
@@ -15,20 +15,12 @@
       <Quantity>5</Quantity>
     </QuantityHolder>
     <QuantityHolder>
-      <Name>Mana Mantis (1)</Name>
-      <Quantity>1</Quantity>
+      <Name>Armored Troglodyte (1)</Name>
+      <Quantity>3</Quantity>
     </QuantityHolder>
   </Enemies>
   <Merchants />
   <Loot_Containers>
-    <QuantityHolder>
-      <Name>Chest</Name>
-      <Quantity>1</Quantity>
-    </QuantityHolder>
-    <QuantityHolder>
-      <Name>Junk Pile</Name>
-      <Quantity>3</Quantity>
-    </QuantityHolder>
     <QuantityHolder>
       <Name>Scavenger’s Corpse</Name>
       <Quantity>1</Quantity>
@@ -38,26 +30,38 @@
       <Quantity>1</Quantity>
     </QuantityHolder>
     <QuantityHolder>
+      <Name>Junk Pile</Name>
+      <Quantity>3</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Chest</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
       <Name>Trog Chest</Name>
       <Quantity>1</Quantity>
     </QuantityHolder>
   </Loot_Containers>
   <Gatherables>
     <QuantityHolder>
-      <Name>Mana Stone</Name>
-      <Quantity>5</Quantity>
-    </QuantityHolder>
-    <QuantityHolder>
       <Name>Iron vein</Name>
       <Quantity>2</Quantity>
     </QuantityHolder>
     <QuantityHolder>
-      <Name>Green Mushroom</Name>
-      <Quantity>2</Quantity>
+      <Name>Mana Stone</Name>
+      <Quantity>5</Quantity>
     </QuantityHolder>
     <QuantityHolder>
       <Name>Palladium vein</Name>
       <Quantity>1</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Turmmip</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Green Mushroom</Name>
+      <Quantity>2</Quantity>
     </QuantityHolder>
     <QuantityHolder>
       <Name>Star Mushroom</Name>
@@ -67,19 +71,15 @@
       <Name>Blood Mushroom</Name>
       <Quantity>2</Quantity>
     </QuantityHolder>
-    <QuantityHolder>
-      <Name>Turmmip</Name>
-      <Quantity>1</Quantity>
-    </QuantityHolder>
   </Gatherables>
   <Item_Spawns />
   <UniqueContainerList>
-    <string>Chest_EJ8aQtdV6kiOMaE4L8KMtw</string>
-    <string>Junk Pile_oIVIIj-B7U2qR8x5xya6NQ</string>
-    <string>Junk Pile_h2SUZG6ksUOfYk9NbxqeLA</string>
     <string>Scavenger’s Corpse_zyN1QwUt1UqPg1tw925xfA</string>
     <string>Knight’s Corpse_wxs5Wt4BSkGtj-U9DHNeww</string>
     <string>Junk Pile_BgcBW-3V00OIJnwKDKpiBQ</string>
+    <string>Junk Pile_oIVIIj-B7U2qR8x5xya6NQ</string>
+    <string>Chest_EJ8aQtdV6kiOMaE4L8KMtw</string>
     <string>Trog Chest_8A6yBb3IgUqs9TAlP6spGw</string>
+    <string>Junk Pile_h2SUZG6ksUOfYk9NbxqeLA</string>
   </UniqueContainerList>
 </SceneSummary>

@@ -14,11 +14,11 @@
       <Quantity>1</Quantity>
     </QuantityHolder>
     <QuantityHolder>
-      <Name>Chest</Name>
+      <Name>Junk Pile</Name>
       <Quantity>1</Quantity>
     </QuantityHolder>
     <QuantityHolder>
-      <Name>Junk Pile</Name>
+      <Name>Chest</Name>
       <Quantity>1</Quantity>
     </QuantityHolder>
   </Loot_Containers>
@@ -35,21 +35,21 @@
           <z>-7.915575</z>
         </Vector3>
         <Vector3>
-          <x>1198.32068</x>
-          <y>0</y>
-          <z>-7.92952347</z>
-        </Vector3>
-        <Vector3>
           <x>1213.67188</x>
           <y>0</y>
           <z>3.08045268</z>
+        </Vector3>
+        <Vector3>
+          <x>1198.32068</x>
+          <y>0</y>
+          <z>-7.92952347</z>
         </Vector3>
       </positions>
     </ItemSpawnHolder>
   </Item_Spawns>
   <UniqueContainerList>
     <string>Ornate Chest_LWUz6ERd4UuflbCz-ZLfBA</string>
-    <string>Chest_yDEfeDVtTkS9xjkM4RHK7A</string>
     <string>Junk Pile_F2vbw7OwK0O6c3M1EgaTjw</string>
+    <string>Chest_yDEfeDVtTkS9xjkM4RHK7A</string>
   </UniqueContainerList>
 </SceneSummary>

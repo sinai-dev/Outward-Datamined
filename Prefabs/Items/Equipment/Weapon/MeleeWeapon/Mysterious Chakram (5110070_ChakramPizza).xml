@@ -78,4 +78,5 @@
   <TwoHandType>None</TwoHandType>
   <VisualDetectabilityAdd>0</VisualDetectabilityAdd>
   <WeaponType>Chakram_OH</WeaponType>
+  <StamCost>0</StamCost>
 </ItemHolder>

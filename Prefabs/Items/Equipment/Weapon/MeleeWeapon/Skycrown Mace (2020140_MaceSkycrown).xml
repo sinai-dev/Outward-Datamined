@@ -113,4 +113,5 @@
   <TwoHandType>None</TwoHandType>
   <VisualDetectabilityAdd>0</VisualDetectabilityAdd>
   <WeaponType>Mace_1H</WeaponType>
+  <StamCost>4.6</StamCost>
 </ItemHolder>

@@ -56,8 +56,8 @@
     <DropTableEntry>
       <Item_Name>Gold Ingot</Item_Name>
       <Item_ID>6300030</Item_ID>
-      <Min_Quantity>5</Min_Quantity>
-      <Max_Quantity>5</Max_Quantity>
+      <Min_Quantity>1</Min_Quantity>
+      <Max_Quantity>1</Max_Quantity>
     </DropTableEntry>
   </Guaranteed_Drops>
   <DropTable_Names>

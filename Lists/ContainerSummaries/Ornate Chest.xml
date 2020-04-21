@@ -36,11 +36,11 @@
       <Quantity>1</Quantity>
     </QuantityHolder>
     <QuantityHolder>
-      <Name>Chersonese:Mansion's Cellar</Name>
+      <Name>Chersonese:Bandits' Prison</Name>
       <Quantity>1</Quantity>
     </QuantityHolder>
     <QuantityHolder>
-      <Name>Chersonese:Bandits' Prison</Name>
+      <Name>Chersonese:Mansion's Cellar</Name>
       <Quantity>1</Quantity>
     </QuantityHolder>
     <QuantityHolder>
@@ -64,11 +64,11 @@
       <Quantity>1</Quantity>
     </QuantityHolder>
     <QuantityHolder>
-      <Name>Hallowed Marsh:Abandoned Ziggurat</Name>
+      <Name>Hallowed Marsh:Dead Tree</Name>
       <Quantity>1</Quantity>
     </QuantityHolder>
     <QuantityHolder>
-      <Name>Hallowed Marsh:Dead Tree</Name>
+      <Name>Hallowed Marsh:Abandoned Ziggurat</Name>
       <Quantity>1</Quantity>
     </QuantityHolder>
     <QuantityHolder>
@@ -135,8 +135,8 @@
         <string>Voltaic Hatchery</string>
         <string>Corrupted Tombs</string>
         <string>Montcalm Clan Fort</string>
-        <string>Mansion's Cellar</string>
         <string>Bandits' Prison</string>
+        <string>Mansion's Cellar</string>
       </Locations>
     </ContainerDroptableSummary>
     <ContainerDroptableSummary>
@@ -146,8 +146,8 @@
         <string>Vendavel Fortress</string>
         <string>Ghost Pass</string>
         <string>Voltaic Hatchery</string>
-        <string>Mansion's Cellar</string>
         <string>Bandits' Prison</string>
+        <string>Mansion's Cellar</string>
         <string>Dark Ziggurat Interior</string>
         <string>Spire of Light</string>
         <string>Ziggurat Passage</string>
@@ -166,13 +166,13 @@
       <Locations>
         <string>Cierzo</string>
         <string>Ghost Pass</string>
-        <string>Mansion's Cellar</string>
         <string>Bandits' Prison</string>
+        <string>Mansion's Cellar</string>
         <string>Dark Ziggurat Interior</string>
         <string>Spire of Light</string>
         <string>Ziggurat Passage</string>
-        <string>Abandoned Ziggurat</string>
         <string>Dead Tree</string>
+        <string>Abandoned Ziggurat</string>
         <string>Abrassar</string>
         <string>Undercity Passage</string>
         <string>The Slide</string>
@@ -226,8 +226,8 @@
         <string>Ghost Pass</string>
         <string>Voltaic Hatchery</string>
         <string>Corrupted Tombs</string>
-        <string>Mansion's Cellar</string>
         <string>Bandits' Prison</string>
+        <string>Mansion's Cellar</string>
       </Locations>
     </ContainerDroptableSummary>
     <ContainerDroptableSummary>
@@ -324,6 +324,12 @@
       </Locations>
     </ContainerDroptableSummary>
     <ContainerDroptableSummary>
+      <DropTableName>DropTable_Neutral_Bosse_BrandHero_1</DropTableName>
+      <Locations>
+        <string>Unknown Arena</string>
+      </Locations>
+    </ContainerDroptableSummary>
+    <ContainerDroptableSummary>
       <DropTableName>DropTable_Neutral_Bosse_Shrimp_1</DropTableName>
       <Locations>
         <string>Unknown Arena</string>
@@ -331,12 +337,6 @@
     </ContainerDroptableSummary>
     <ContainerDroptableSummary>
       <DropTableName>DropTable_Neutral_Bosse_TrogQueen_1</DropTableName>
-      <Locations>
-        <string>Unknown Arena</string>
-      </Locations>
-    </ContainerDroptableSummary>
-    <ContainerDroptableSummary>
-      <DropTableName>DropTable_Neutral_Bosse_BrandHero_1</DropTableName>
       <Locations>
         <string>Unknown Arena</string>
       </Locations>
@@ -355,8 +355,8 @@
         <string>Dark Ziggurat Interior</string>
         <string>Spire of Light</string>
         <string>Ziggurat Passage</string>
-        <string>Abandoned Ziggurat</string>
         <string>Dead Tree</string>
+        <string>Abandoned Ziggurat</string>
       </Locations>
     </ContainerDroptableSummary>
     <ContainerDroptableSummary>
@@ -394,11 +394,21 @@
       </Locations>
     </ContainerDroptableSummary>
     <ContainerDroptableSummary>
-      <DropTableName>DropTable_Abrassar_Equipment_Medium_1</DropTableName>
+      <DropTableName>DropTable_Abrassar_Equipment_HighDungeon_1</DropTableName>
       <Locations>
         <string>Abrassar</string>
         <string>Undercity Passage</string>
-        <string>The Slide</string>
+        <string>Ancient Hive</string>
+        <string>Sand Rose Cave</string>
+        <string>Cabal of Wind Outpost</string>
+      </Locations>
+    </ContainerDroptableSummary>
+    <ContainerDroptableSummary>
+      <DropTableName>DropTable_Abrassar_Recipe_Weapon_1</DropTableName>
+      <Locations>
+        <string>Abrassar</string>
+        <string>Undercity Passage</string>
+        <string>Sand Rose Cave</string>
       </Locations>
     </ContainerDroptableSummary>
     <ContainerDroptableSummary>
@@ -413,37 +423,27 @@
       </Locations>
     </ContainerDroptableSummary>
     <ContainerDroptableSummary>
+      <DropTableName>DropTable_Abrassar_Equipment_Medium_1</DropTableName>
+      <Locations>
+        <string>Abrassar</string>
+        <string>Undercity Passage</string>
+        <string>The Slide</string>
+      </Locations>
+    </ContainerDroptableSummary>
+    <ContainerDroptableSummary>
       <DropTableName>DropTable_Neutral_Valuable_Low_1</DropTableName>
       <Locations>
         <string>Abrassar</string>
       </Locations>
     </ContainerDroptableSummary>
     <ContainerDroptableSummary>
-      <DropTableName>DropTable_Abrassar_Recipe_Weapon_1</DropTableName>
-      <Locations>
-        <string>Abrassar</string>
-        <string>Undercity Passage</string>
-        <string>Sand Rose Cave</string>
-      </Locations>
-    </ContainerDroptableSummary>
-    <ContainerDroptableSummary>
-      <DropTableName>DropTable_Abrassar_Equipment_HighDungeon_1</DropTableName>
-      <Locations>
-        <string>Abrassar</string>
-        <string>Undercity Passage</string>
-        <string>Ancient Hive</string>
-        <string>Sand Rose Cave</string>
-        <string>Cabal of Wind Outpost</string>
-      </Locations>
-    </ContainerDroptableSummary>
-    <ContainerDroptableSummary>
-      <DropTableName>DropTable_Neutral_Bosse_Shark_1</DropTableName>
+      <DropTableName>DropTable_Neutral_Bosse_BeastGolem_1</DropTableName>
       <Locations>
         <string>Unknown Arena</string>
       </Locations>
     </ContainerDroptableSummary>
     <ContainerDroptableSummary>
-      <DropTableName>DropTable_Neutral_Bosse_BeastGolem_1</DropTableName>
+      <DropTableName>DropTable_Neutral_Bosse_Shark_1</DropTableName>
       <Locations>
         <string>Unknown Arena</string>
       </Locations>

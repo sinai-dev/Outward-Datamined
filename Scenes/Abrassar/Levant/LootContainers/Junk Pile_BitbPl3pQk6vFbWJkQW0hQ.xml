@@ -2,7 +2,7 @@
 <LootContainerHolder xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Name>Junk Pile</Name>
   <ItemID>1001000</ItemID>
-  <UID>j96i4BPaMkq20a5_2pDDNQ</UID>
+  <UID>BitbPl3pQk6vFbWJkQW0hQ</UID>
   <DropTables>
     <string>DropTable_Neutral_Food_1</string>
     <string>DropTable_Neutral_Consumable_Low_2</string>

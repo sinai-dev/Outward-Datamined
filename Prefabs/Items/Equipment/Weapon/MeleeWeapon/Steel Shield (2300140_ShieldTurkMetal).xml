@@ -9,7 +9,7 @@
   <StatsHolder xsi:type="WeaponStatsHolder">
     <BaseValue>200</BaseValue>
     <RawWeight>5</RawWeight>
-    <MaxDurability>220</MaxDurability>
+    <MaxDurability>175</MaxDurability>
     <Damage_Resistance>
       <float>0</float>
       <float>0</float>
@@ -105,4 +105,5 @@
   <TwoHandType>None</TwoHandType>
   <VisualDetectabilityAdd>0</VisualDetectabilityAdd>
   <WeaponType>Shield</WeaponType>
+  <StamCost>0</StamCost>
 </ItemHolder>

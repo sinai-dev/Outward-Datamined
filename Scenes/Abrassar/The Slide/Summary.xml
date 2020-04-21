@@ -3,11 +3,7 @@
   <SceneName>The Slide</SceneName>
   <Enemies>
     <QuantityHolder>
-      <Name>Desert Lieutenant (1)</Name>
-      <Quantity>1</Quantity>
-    </QuantityHolder>
-    <QuantityHolder>
-      <Name>Mantis Shrimp (1)</Name>
+      <Name>Rock Mantis (2)</Name>
       <Quantity>2</Quantity>
     </QuantityHolder>
     <QuantityHolder>
@@ -15,35 +11,39 @@
       <Quantity>1</Quantity>
     </QuantityHolder>
     <QuantityHolder>
-      <Name>Desert Archer (1)</Name>
-      <Quantity>1</Quantity>
-    </QuantityHolder>
-    <QuantityHolder>
-      <Name>Rock Mantis (2)</Name>
-      <Quantity>2</Quantity>
-    </QuantityHolder>
-    <QuantityHolder>
       <Name>Crescent Shark (1)</Name>
       <Quantity>1</Quantity>
     </QuantityHolder>
     <QuantityHolder>
-      <Name>Desert Bandit (5)</Name>
+      <Name>Mantis Shrimp (1)</Name>
+      <Quantity>2</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Desert Archer (1)</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Desert Lieutenant (1)</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Desert Bandit (6)</Name>
       <Quantity>1</Quantity>
     </QuantityHolder>
   </Enemies>
   <Merchants />
   <Loot_Containers>
     <QuantityHolder>
-      <Name>Junk Pile</Name>
-      <Quantity>3</Quantity>
-    </QuantityHolder>
-    <QuantityHolder>
-      <Name>Scavenger’s Corpse</Name>
+      <Name>Ornate Chest</Name>
       <Quantity>1</Quantity>
     </QuantityHolder>
     <QuantityHolder>
       <Name>Chest</Name>
       <Quantity>2</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Scavenger’s Corpse</Name>
+      <Quantity>1</Quantity>
     </QuantityHolder>
     <QuantityHolder>
       <Name>Worker’s Corpse</Name>
@@ -54,8 +54,8 @@
       <Quantity>1</Quantity>
     </QuantityHolder>
     <QuantityHolder>
-      <Name>Ornate Chest</Name>
-      <Quantity>1</Quantity>
+      <Name>Junk Pile</Name>
+      <Quantity>3</Quantity>
     </QuantityHolder>
     <QuantityHolder>
       <Name>Adventurer’s Corpse</Name>
@@ -68,24 +68,24 @@
       <Quantity>5</Quantity>
     </QuantityHolder>
     <QuantityHolder>
-      <Name>Krimp</Name>
-      <Quantity>2</Quantity>
+      <Name>Star Mushroom</Name>
+      <Quantity>1</Quantity>
     </QuantityHolder>
     <QuantityHolder>
       <Name>Green Mushroom</Name>
       <Quantity>3</Quantity>
     </QuantityHolder>
     <QuantityHolder>
-      <Name>Star Mushroom</Name>
-      <Quantity>1</Quantity>
-    </QuantityHolder>
-    <QuantityHolder>
-      <Name>Blood Mushroom</Name>
+      <Name>Krimp</Name>
       <Quantity>2</Quantity>
     </QuantityHolder>
     <QuantityHolder>
       <Name>Palladium vein</Name>
       <Quantity>1</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Blood Mushroom</Name>
+      <Quantity>2</Quantity>
     </QuantityHolder>
   </Gatherables>
   <Item_Spawns>
@@ -103,15 +103,15 @@
     </ItemSpawnHolder>
   </Item_Spawns>
   <UniqueContainerList>
-    <string>Junk Pile_Hz7Br5X-cUmWYk2-B9lSug</string>
+    <string>Ornate Chest_CWX4clojhUOcWad8D54Wjg</string>
+    <string>Chest_Ab3iYi8Y1kiT7hbO-o9zdg</string>
     <string>Scavenger’s Corpse_cqmK9u1MgU-zfMz5-I5BkA</string>
-    <string>Chest_TW2OuZ3xPkC5znbdtwIrtg</string>
-    <string>Junk Pile_7bggpRrOSkeydIL7nRg_rw</string>
     <string>Worker’s Corpse_Gg0senbY8ke-PldAfpRN2w</string>
     <string>Legacy Chest_4jgUGOcE4kSC39l_xjJ_PQ</string>
-    <string>Chest_Ab3iYi8Y1kiT7hbO-o9zdg</string>
-    <string>Ornate Chest_CWX4clojhUOcWad8D54Wjg</string>
+    <string>Junk Pile_7bggpRrOSkeydIL7nRg_rw</string>
     <string>Adventurer’s Corpse_rgjLhSov2EmMw19ffwnBcw</string>
     <string>Junk Pile_7-pzSGDslkSJwDOCL6d4VQ</string>
+    <string>Junk Pile_Hz7Br5X-cUmWYk2-B9lSug</string>
+    <string>Chest_TW2OuZ3xPkC5znbdtwIrtg</string>
   </UniqueContainerList>
 </SceneSummary>

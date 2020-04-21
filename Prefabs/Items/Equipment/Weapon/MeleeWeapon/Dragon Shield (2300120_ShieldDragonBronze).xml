@@ -112,7 +112,7 @@
       <TransformName>HitEffects</TransformName>
       <Effects>
         <EffectHolder xsi:type="AddStatusEffectBuildupHolder">
-          <StatusEffect>Burn</StatusEffect>
+          <StatusEffect>Burning</StatusEffect>
           <Buildup>60</Buildup>
         </EffectHolder>
       </Effects>
@@ -125,4 +125,5 @@
   <TwoHandType>None</TwoHandType>
   <VisualDetectabilityAdd>0</VisualDetectabilityAdd>
   <WeaponType>Shield</WeaponType>
+  <StamCost>0</StamCost>
 </ItemHolder>

@@ -64,6 +64,14 @@
       </Locations>
     </ContainerDroptableSummary>
     <ContainerDroptableSummary>
+      <DropTableName>DropTable_Neutral_StandardRecipe_Low_1</DropTableName>
+      <Locations>
+        <string>Heroic Kingdom’s Conflux Path</string>
+        <string>Hallowed Marsh</string>
+        <string>Forest Hives</string>
+      </Locations>
+    </ContainerDroptableSummary>
+    <ContainerDroptableSummary>
       <DropTableName>DropTable_Neutral_Magic_Low_2</DropTableName>
       <Locations>
         <string>Heroic Kingdom’s Conflux Path</string>
@@ -100,11 +108,9 @@
       </Locations>
     </ContainerDroptableSummary>
     <ContainerDroptableSummary>
-      <DropTableName>DropTable_Neutral_StandardRecipe_Low_1</DropTableName>
+      <DropTableName>DropTable_HallowedMarsh_Food_1</DropTableName>
       <Locations>
-        <string>Heroic Kingdom’s Conflux Path</string>
         <string>Hallowed Marsh</string>
-        <string>Forest Hives</string>
       </Locations>
     </ContainerDroptableSummary>
     <ContainerDroptableSummary>
@@ -128,12 +134,6 @@
       <Locations>
         <string>Hallowed Marsh</string>
         <string>Dead Roots</string>
-      </Locations>
-    </ContainerDroptableSummary>
-    <ContainerDroptableSummary>
-      <DropTableName>DropTable_HallowedMarsh_Food_1</DropTableName>
-      <Locations>
-        <string>Hallowed Marsh</string>
       </Locations>
     </ContainerDroptableSummary>
     <ContainerDroptableSummary>

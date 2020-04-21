@@ -206,7 +206,7 @@ Purple rune that does nothing on its own, but can produce combo effects by casti
             <EffectHolder xsi:type="RemoveStatusEffectHolder">
               <StatusEffect>Runic Blade</StatusEffect>
               <StatusEffect_ByTag>None</StatusEffect_ByTag>
-              <StatusEffect_Family>Unique</StatusEffect_Family>
+              <StatusEffect_Family />
               <StatusEffect_ByName />
             </EffectHolder>
           </Effects>

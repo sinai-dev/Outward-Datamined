@@ -151,7 +151,7 @@ Blue rune that does nothing on its own, but can produce combo effects by casting
             <EffectHolder xsi:type="RemoveStatusEffectHolder">
               <StatusEffect>Runic Protection</StatusEffect>
               <StatusEffect_ByTag>None</StatusEffect_ByTag>
-              <StatusEffect_Family>Unique</StatusEffect_Family>
+              <StatusEffect_Family />
               <StatusEffect_ByName />
             </EffectHolder>
             <EffectHolder xsi:type="AffectHealthHolder">
@@ -226,7 +226,7 @@ Blue rune that does nothing on its own, but can produce combo effects by casting
             <EffectHolder xsi:type="RemoveStatusEffectHolder">
               <StatusEffect>Runic Protection Amplified</StatusEffect>
               <StatusEffect_ByTag>None</StatusEffect_ByTag>
-              <StatusEffect_Family>Unique</StatusEffect_Family>
+              <StatusEffect_Family />
               <StatusEffect_ByName />
             </EffectHolder>
             <EffectHolder xsi:type="AffectHealthHolder">

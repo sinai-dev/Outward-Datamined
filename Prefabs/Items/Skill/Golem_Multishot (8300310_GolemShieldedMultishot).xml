@@ -14,17 +14,74 @@
         <EffectHolder xsi:type="ShootProjectileHolder">
           <TargetingMode>NONE</TargetingMode>
           <AutoTarget>false</AutoTarget>
-          <EffectTransforms />
+          <EffectTransforms>
+            <EffectTransformHolder>
+              <TransformName>HitEffects</TransformName>
+              <Effects>
+                <EffectHolder xsi:type="PunctualDamageHolder">
+                  <Damage>
+                    <Damages>
+                      <Damage>20</Damage>
+                      <Damage_Type>Physical</Damage_Type>
+                    </Damages>
+                  </Damage>
+                  <Damages_AI />
+                  <Knockback>20</Knockback>
+                  <HitInventory>true</HitInventory>
+                </EffectHolder>
+              </Effects>
+              <EffectConditions />
+              <ChildEffects />
+            </EffectTransformHolder>
+          </EffectTransforms>
         </EffectHolder>
         <EffectHolder xsi:type="ShootProjectileHolder">
           <TargetingMode>NONE</TargetingMode>
           <AutoTarget>false</AutoTarget>
-          <EffectTransforms />
+          <EffectTransforms>
+            <EffectTransformHolder>
+              <TransformName>HitEffects</TransformName>
+              <Effects>
+                <EffectHolder xsi:type="PunctualDamageHolder">
+                  <Damage>
+                    <Damages>
+                      <Damage>20</Damage>
+                      <Damage_Type>Physical</Damage_Type>
+                    </Damages>
+                  </Damage>
+                  <Damages_AI />
+                  <Knockback>20</Knockback>
+                  <HitInventory>true</HitInventory>
+                </EffectHolder>
+              </Effects>
+              <EffectConditions />
+              <ChildEffects />
+            </EffectTransformHolder>
+          </EffectTransforms>
         </EffectHolder>
         <EffectHolder xsi:type="ShootProjectileHolder">
           <TargetingMode>NONE</TargetingMode>
           <AutoTarget>false</AutoTarget>
-          <EffectTransforms />
+          <EffectTransforms>
+            <EffectTransformHolder>
+              <TransformName>HitEffects</TransformName>
+              <Effects>
+                <EffectHolder xsi:type="PunctualDamageHolder">
+                  <Damage>
+                    <Damages>
+                      <Damage>20</Damage>
+                      <Damage_Type>Physical</Damage_Type>
+                    </Damages>
+                  </Damage>
+                  <Damages_AI />
+                  <Knockback>20</Knockback>
+                  <HitInventory>true</HitInventory>
+                </EffectHolder>
+              </Effects>
+              <EffectConditions />
+              <ChildEffects />
+            </EffectTransformHolder>
+          </EffectTransforms>
         </EffectHolder>
       </Effects>
       <EffectConditions />

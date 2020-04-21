@@ -3,20 +3,20 @@
   <SceneName>Enmerkar Forest</SceneName>
   <Enemies>
     <QuantityHolder>
-      <Name>Ghost (2)</Name>
-      <Quantity>1</Quantity>
+      <Name>Bandit Lieutenant (3)</Name>
+      <Quantity>4</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Walking Hive (1)</Name>
+      <Quantity>8</Quantity>
     </QuantityHolder>
     <QuantityHolder>
       <Name>Coralhorn (1)</Name>
       <Quantity>8</Quantity>
     </QuantityHolder>
     <QuantityHolder>
-      <Name>Ash Giant (5)</Name>
+      <Name>Mantis Shrimp (1)</Name>
       <Quantity>1</Quantity>
-    </QuantityHolder>
-    <QuantityHolder>
-      <Name>Alpha Coralhorn (1)</Name>
-      <Quantity>4</Quantity>
     </QuantityHolder>
     <QuantityHolder>
       <Name>Illuminator Horror (1)</Name>
@@ -27,75 +27,27 @@
       <Quantity>6</Quantity>
     </QuantityHolder>
     <QuantityHolder>
-      <Name>Ice Witch (1)</Name>
-      <Quantity>1</Quantity>
+      <Name>Ghost (1)</Name>
+      <Quantity>4</Quantity>
     </QuantityHolder>
     <QuantityHolder>
       <Name>Obsidian Elemental (2)</Name>
       <Quantity>1</Quantity>
     </QuantityHolder>
     <QuantityHolder>
-      <Name>Hive Lord (2)</Name>
-      <Quantity>1</Quantity>
+      <Name>Burning Man (2)</Name>
+      <Quantity>4</Quantity>
     </QuantityHolder>
     <QuantityHolder>
-      <Name>Bandit Lieutenant (3)</Name>
-      <Quantity>4</Quantity>
+      <Name>Hive Lord (2)</Name>
+      <Quantity>1</Quantity>
     </QuantityHolder>
     <QuantityHolder>
       <Name>Beast Golem (1)</Name>
       <Quantity>5</Quantity>
     </QuantityHolder>
     <QuantityHolder>
-      <Name>Burning Man (2)</Name>
-      <Quantity>4</Quantity>
-    </QuantityHolder>
-    <QuantityHolder>
       <Name>Bandit (7)</Name>
-      <Quantity>1</Quantity>
-    </QuantityHolder>
-    <QuantityHolder>
-      <Name>Walking Hive (1)</Name>
-      <Quantity>8</Quantity>
-    </QuantityHolder>
-    <QuantityHolder>
-      <Name>Alpha Coralhorn (2)</Name>
-      <Quantity>4</Quantity>
-    </QuantityHolder>
-    <QuantityHolder>
-      <Name>Marsh Captain (2)</Name>
-      <Quantity>1</Quantity>
-    </QuantityHolder>
-    <QuantityHolder>
-      <Name>Immaculate (2)</Name>
-      <Quantity>1</Quantity>
-    </QuantityHolder>
-    <QuantityHolder>
-      <Name>Ghost (1)</Name>
-      <Quantity>4</Quantity>
-    </QuantityHolder>
-    <QuantityHolder>
-      <Name>Bandit Archer (3)</Name>
-      <Quantity>5</Quantity>
-    </QuantityHolder>
-    <QuantityHolder>
-      <Name>Immaculate (1)</Name>
-      <Quantity>1</Quantity>
-    </QuantityHolder>
-    <QuantityHolder>
-      <Name>The Royal Manticore (1)</Name>
-      <Quantity>1</Quantity>
-    </QuantityHolder>
-    <QuantityHolder>
-      <Name>Bandit Manhunter (1)</Name>
-      <Quantity>1</Quantity>
-    </QuantityHolder>
-    <QuantityHolder>
-      <Name>Hive Lord (1)</Name>
-      <Quantity>1</Quantity>
-    </QuantityHolder>
-    <QuantityHolder>
-      <Name>Mantis Shrimp (1)</Name>
       <Quantity>1</Quantity>
     </QuantityHolder>
     <QuantityHolder>
@@ -103,7 +55,55 @@
       <Quantity>1</Quantity>
     </QuantityHolder>
     <QuantityHolder>
+      <Name>Marsh Captain (2)</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Bandit Archer (3)</Name>
+      <Quantity>5</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Immaculate (2)</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Alpha Coralhorn (1)</Name>
+      <Quantity>4</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Alpha Coralhorn (2)</Name>
+      <Quantity>4</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Ghost (2)</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Ash Giant (5)</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>The Royal Manticore (1)</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Hive Lord (1)</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Immaculate (1)</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Bandit Manhunter (1)</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
       <Name>Ash Giant (1)</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Ice Witch (1)</Name>
       <Quantity>1</Quantity>
     </QuantityHolder>
   </Enemies>
@@ -112,20 +112,20 @@
   </Merchants>
   <Loot_Containers>
     <QuantityHolder>
-      <Name>Supply Cache</Name>
-      <Quantity>20</Quantity>
-    </QuantityHolder>
-    <QuantityHolder>
       <Name>Chest</Name>
       <Quantity>8</Quantity>
     </QuantityHolder>
     <QuantityHolder>
-      <Name>Hollowed Trunk</Name>
-      <Quantity>9</Quantity>
+      <Name>Supply Cache</Name>
+      <Quantity>20</Quantity>
     </QuantityHolder>
     <QuantityHolder>
       <Name>Ornate Chest</Name>
       <Quantity>1</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Hollowed Trunk</Name>
+      <Quantity>9</Quantity>
     </QuantityHolder>
     <QuantityHolder>
       <Name>Worker’s Corpse</Name>
@@ -138,14 +138,6 @@
       <Quantity>3</Quantity>
     </QuantityHolder>
     <QuantityHolder>
-      <Name>Salt Crystal</Name>
-      <Quantity>5</Quantity>
-    </QuantityHolder>
-    <QuantityHolder>
-      <Name>Crabeye</Name>
-      <Quantity>26</Quantity>
-    </QuantityHolder>
-    <QuantityHolder>
       <Name>Smoke Root</Name>
       <Quantity>24</Quantity>
     </QuantityHolder>
@@ -154,8 +146,20 @@
       <Quantity>7</Quantity>
     </QuantityHolder>
     <QuantityHolder>
-      <Name>Yellow Copal</Name>
-      <Quantity>9</Quantity>
+      <Name>Woolshroom</Name>
+      <Quantity>17</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Fishing Spot (DropTable_FishingSpotEmercarA)</Name>
+      <Quantity>20</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Crabeye</Name>
+      <Quantity>26</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Green Mushroom</Name>
+      <Quantity>20</Quantity>
     </QuantityHolder>
     <QuantityHolder>
       <Name>Gaberries</Name>
@@ -166,20 +170,8 @@
       <Quantity>11</Quantity>
     </QuantityHolder>
     <QuantityHolder>
-      <Name>Petrified Wood</Name>
-      <Quantity>5</Quantity>
-    </QuantityHolder>
-    <QuantityHolder>
-      <Name>Green Mushroom</Name>
-      <Quantity>20</Quantity>
-    </QuantityHolder>
-    <QuantityHolder>
-      <Name>Fishing Spot (DropTable_FishingSpotEmercarA)</Name>
-      <Quantity>20</Quantity>
-    </QuantityHolder>
-    <QuantityHolder>
-      <Name>Woolshroom</Name>
-      <Quantity>17</Quantity>
+      <Name>Fishing Spot (DropTable_FishingSpotEmercarB)</Name>
+      <Quantity>4</Quantity>
     </QuantityHolder>
     <QuantityHolder>
       <Name>Palladium vein</Name>
@@ -190,8 +182,16 @@
       <Quantity>4</Quantity>
     </QuantityHolder>
     <QuantityHolder>
-      <Name>Fishing Spot (DropTable_FishingSpotEmercarB)</Name>
-      <Quantity>4</Quantity>
+      <Name>Salt Crystal</Name>
+      <Quantity>5</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Petrified Wood</Name>
+      <Quantity>5</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Yellow Copal</Name>
+      <Quantity>9</Quantity>
     </QuantityHolder>
   </Gatherables>
   <Item_Spawns>
@@ -221,44 +221,44 @@
     </ItemSpawnHolder>
   </Item_Spawns>
   <UniqueContainerList>
-    <string>Supply Cache_ZCNl_UYqXkCipxwHoCx_FA</string>
-    <string>Supply Cache_F85VuyJoB0uEO5IQjXjXrA</string>
     <string>Chest_nn-1N7vVm0eh293BH9Dl0g</string>
-    <string>Hollowed Trunk_OjHIQyABVkGPE1y9yymdSQ</string>
-    <string>Hollowed Trunk_2T2Gk4GbmkagN8_WoZMh3Q</string>
-    <string>Hollowed Trunk_JupBCta20EqGSPbBSjtA2w</string>
-    <string>Supply Cache_82m5Lfz13UKnQxjERQ-vBQ</string>
     <string>Supply Cache_WK4dF0LvwUyiplPS4C2nsg</string>
-    <string>Chest_kVAsj5UKeEGba4ZD6E0f1w</string>
-    <string>Supply Cache_c92kfggdqECjDaLa6w4PKg</string>
-    <string>Hollowed Trunk_wXP90WqaKkm9Y2UhCJ0Mqw</string>
-    <string>Supply Cache_meoKlLxwE0-b9ngMl_Yocg</string>
-    <string>Chest_MSCQCTxSGEa39ucovVD6WA</string>
-    <string>Supply Cache_e2DdBp5TSUueG9xfs16NWA</string>
-    <string>Ornate Chest_OMKR99THzUCSsFv3WYevcw</string>
-    <string>Supply Cache_D0djQQe9jEeilmfKZCBw1Q</string>
-    <string>Chest_-PD_W_Tp80u9oBh5RravyQ</string>
-    <string>Worker’s Corpse_j-0a9zhwUUO3EbWFg9vzUA</string>
-    <string>Hollowed Trunk_4CefjpEP7kW_e4QZYusmlQ</string>
-    <string>Supply Cache_5r-rSJmW8EOKRjscqMfiYg</string>
-    <string>Hollowed Trunk_GDX-sLkRHUu62kFtCUZiJg</string>
-    <string>Chest_ybQ8faSp_kuq5wg0wmfjew</string>
-    <string>Supply Cache_xt7hvLqB0UC5lXRJUV4n-Q</string>
-    <string>Chest_lRKupgRVFkifD9ukdeR8rQ</string>
     <string>Supply Cache_noVsQUzdk0qirjGpQyQvZg</string>
-    <string>Supply Cache_OIUBLuaVTU2y-yVxUKBCxA</string>
-    <string>Supply Cache_4N-0Efb5VUSo8w_Aj862-A</string>
-    <string>Supply Cache_git87Q1oRkSd5U82Vf-kAA</string>
+    <string>Supply Cache_c92kfggdqECjDaLa6w4PKg</string>
+    <string>Chest_MSCQCTxSGEa39ucovVD6WA</string>
+    <string>Ornate Chest_OMKR99THzUCSsFv3WYevcw</string>
+    <string>Supply Cache_xt7hvLqB0UC5lXRJUV4n-Q</string>
+    <string>Supply Cache_FXCTlGu9G0GAnOMxEFyl3g</string>
+    <string>Hollowed Trunk_JupBCta20EqGSPbBSjtA2w</string>
+    <string>Hollowed Trunk_dTxMavRqy06KTTv_8o516A</string>
+    <string>Hollowed Trunk_wXP90WqaKkm9Y2UhCJ0Mqw</string>
+    <string>Worker’s Corpse_j-0a9zhwUUO3EbWFg9vzUA</string>
+    <string>Supply Cache_F85VuyJoB0uEO5IQjXjXrA</string>
+    <string>Chest_SINQ-dJumUuwQ04ptiSb2Q</string>
+    <string>Chest_kVAsj5UKeEGba4ZD6E0f1w</string>
+    <string>Hollowed Trunk_eNQ9iSPcpkauJqZSHOE6cA</string>
+    <string>Hollowed Trunk_4CefjpEP7kW_e4QZYusmlQ</string>
+    <string>Chest_ybQ8faSp_kuq5wg0wmfjew</string>
+    <string>Supply Cache_meoKlLxwE0-b9ngMl_Yocg</string>
+    <string>Hollowed Trunk_BMLlEDhdREiQAR6O-SFM_A</string>
+    <string>Supply Cache_82m5Lfz13UKnQxjERQ-vBQ</string>
     <string>Supply Cache_HhgXCD9nnUSXL_uSW2sxZA</string>
     <string>Supply Cache_ME9jFMF6YEW0pK4G5soMYw</string>
-    <string>Chest_SINQ-dJumUuwQ04ptiSb2Q</string>
-    <string>Hollowed Trunk_dTxMavRqy06KTTv_8o516A</string>
-    <string>Hollowed Trunk_BMLlEDhdREiQAR6O-SFM_A</string>
-    <string>Supply Cache_J22O-0r4HUST5shif6YkQA</string>
-    <string>Supply Cache_FXCTlGu9G0GAnOMxEFyl3g</string>
+    <string>Supply Cache_ZCNl_UYqXkCipxwHoCx_FA</string>
     <string>Supply Cache_YMPGwRgsJEuCV0tGA7u4Hg</string>
-    <string>Chest_Klw3Rf-YKkKyzWDohOz-BA</string>
-    <string>Hollowed Trunk_eNQ9iSPcpkauJqZSHOE6cA</string>
+    <string>Hollowed Trunk_GDX-sLkRHUu62kFtCUZiJg</string>
+    <string>Supply Cache_J22O-0r4HUST5shif6YkQA</string>
+    <string>Chest_lRKupgRVFkifD9ukdeR8rQ</string>
+    <string>Supply Cache_git87Q1oRkSd5U82Vf-kAA</string>
+    <string>Supply Cache_4N-0Efb5VUSo8w_Aj862-A</string>
+    <string>Supply Cache_OIUBLuaVTU2y-yVxUKBCxA</string>
+    <string>Hollowed Trunk_OjHIQyABVkGPE1y9yymdSQ</string>
+    <string>Chest_-PD_W_Tp80u9oBh5RravyQ</string>
     <string>Supply Cache_D4nG8CEj1kaNCVjOj2O6mA</string>
+    <string>Supply Cache_e2DdBp5TSUueG9xfs16NWA</string>
+    <string>Chest_Klw3Rf-YKkKyzWDohOz-BA</string>
+    <string>Supply Cache_D0djQQe9jEeilmfKZCBw1Q</string>
+    <string>Supply Cache_5r-rSJmW8EOKRjscqMfiYg</string>
+    <string>Hollowed Trunk_2T2Gk4GbmkagN8_WoZMh3Q</string>
   </UniqueContainerList>
 </SceneSummary>

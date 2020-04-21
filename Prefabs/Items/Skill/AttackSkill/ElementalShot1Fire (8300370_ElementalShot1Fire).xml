@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ItemHolder xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="SkillHolder">
+  <ItemID>8300370</ItemID>
+  <Name>ElementalShot1Fire</Name>
+  <gameObjectName>8300370_ElementalShot1Fire</gameObjectName>
+  <saveDir>/Skill/AttackSkill</saveDir>
+  <Description />
+  <LegacyItemID>-1</LegacyItemID>
+  <Tags />
+  <EffectTransforms>
+    <EffectTransformHolder>
+      <TransformName>Effects</TransformName>
+      <Effects>
+        <EffectHolder xsi:type="ShootProjectileHolder">
+          <TargetingMode>OwnerTarget</TargetingMode>
+          <AutoTarget>false</AutoTarget>
+          <EffectTransforms>
+            <EffectTransformHolder>
+              <TransformName>HitEffects</TransformName>
+              <Effects>
+                <EffectHolder xsi:type="PunctualDamageHolder">
+                  <Damage>
+                    <Damages>
+                      <Damage>20</Damage>
+                      <Damage_Type>Fire</Damage_Type>
+                    </Damages>
+                  </Damage>
+                  <Damages_AI />
+                  <Knockback>20</Knockback>
+                  <HitInventory>true</HitInventory>
+                </EffectHolder>
+                <EffectHolder xsi:type="AddStatusEffectBuildupHolder">
+                  <StatusEffect>Burn</StatusEffect>
+                  <Buildup>34</Buildup>
+                </EffectHolder>
+              </Effects>
+              <EffectConditions />
+              <ChildEffects />
+            </EffectTransformHolder>
+          </EffectTransforms>
+        </EffectHolder>
+      </Effects>
+      <EffectConditions />
+      <ChildEffects />
+    </EffectTransformHolder>
+  </EffectTransforms>
+  <Cooldown>3.5</Cooldown>
+  <StaminaCost>0</StaminaCost>
+  <ManaCost>0</ManaCost>
+  <DurabilityCost>0</DurabilityCost>
+  <DurabilityCostPercent>0</DurabilityCostPercent>
+  <IsDLCSkill>true</IsDLCSkill>
+  <RequiredItems />
+</ItemHolder>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ItemHolder xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <ItemID>5600160</ItemID>
+  <Name>Mana Transfer Elevator Key</Name>
+  <gameObjectName>5600160_AntiqueFieldD8KeyG</gameObjectName>
+  <saveDir />
+  <Description />
+  <LegacyItemID>-1</LegacyItemID>
+  <StatsHolder>
+    <BaseValue>1</BaseValue>
+    <RawWeight>0.1</RawWeight>
+    <MaxDurability>-1</MaxDurability>
+  </StatsHolder>
+  <Tags>
+    <string>Key</string>
+    <string>Item</string>
+  </Tags>
+  <EffectTransforms />
+</ItemHolder>

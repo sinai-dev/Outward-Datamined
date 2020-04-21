@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ItemHolder xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="SkillHolder">
+  <ItemID>900010</ItemID>
+  <Name>Add Alert</Name>
+  <gameObjectName>0900010_AddAlertTest</gameObjectName>
+  <saveDir>/Skill/AttackSkill</saveDir>
+  <Description />
+  <LegacyItemID>-1</LegacyItemID>
+  <Tags />
+  <EffectTransforms>
+    <EffectTransformHolder>
+      <TransformName>Effects</TransformName>
+      <Effects>
+        <EffectHolder xsi:type="AddStatusEffectHolder">
+          <StatusEffect>Alert</StatusEffect>
+          <ChanceToContract>100</ChanceToContract>
+        </EffectHolder>
+      </Effects>
+      <EffectConditions />
+      <ChildEffects />
+    </EffectTransformHolder>
+  </EffectTransforms>
+  <Cooldown>0</Cooldown>
+  <StaminaCost>0</StaminaCost>
+  <ManaCost>0</ManaCost>
+  <DurabilityCost>0</DurabilityCost>
+  <DurabilityCostPercent>0</DurabilityCostPercent>
+  <IsDLCSkill>true</IsDLCSkill>
+  <RequiredItems />
+</ItemHolder>

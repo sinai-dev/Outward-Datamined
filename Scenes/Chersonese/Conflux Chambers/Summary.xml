@@ -30,6 +30,10 @@
       <Quantity>1</Quantity>
     </QuantityHolder>
     <QuantityHolder>
+      <Name>Blood Mushroom</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
       <Name>Fishing Spot (DropTable_FishingSpotChersoneseCave)</Name>
       <Quantity>2</Quantity>
     </QuantityHolder>
@@ -41,21 +45,17 @@
       <Name>Star Mushroom</Name>
       <Quantity>1</Quantity>
     </QuantityHolder>
-    <QuantityHolder>
-      <Name>Blood Mushroom</Name>
-      <Quantity>1</Quantity>
-    </QuantityHolder>
   </Gatherables>
   <Item_Spawns>
     <ItemSpawnHolder>
-      <Name>Linen Cloth</Name>
-      <Item_ID>6500090</Item_ID>
+      <Name>Improvised Bedroll</Name>
+      <Item_ID>5000021</Item_ID>
       <Quantity>1</Quantity>
       <positions>
         <Vector3>
-          <x>0</x>
-          <y>0</y>
-          <z>0</z>
+          <x>-429.72</x>
+          <y>-19.1467171</y>
+          <z>-88.55</z>
         </Vector3>
       </positions>
     </ItemSpawnHolder>
@@ -72,14 +72,14 @@
       </positions>
     </ItemSpawnHolder>
     <ItemSpawnHolder>
-      <Name>Improvised Bedroll</Name>
-      <Item_ID>5000021</Item_ID>
+      <Name>Linen Cloth</Name>
+      <Item_ID>6500090</Item_ID>
       <Quantity>1</Quantity>
       <positions>
         <Vector3>
-          <x>-429.72</x>
-          <y>-19.1467171</y>
-          <z>-88.55</z>
+          <x>0</x>
+          <y>0</y>
+          <z>0</z>
         </Vector3>
       </positions>
     </ItemSpawnHolder>

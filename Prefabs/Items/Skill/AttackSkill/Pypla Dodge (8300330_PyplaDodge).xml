@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ItemHolder xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="SkillHolder">
+  <ItemID>8300330</ItemID>
+  <Name>Pypla Dodge</Name>
+  <gameObjectName>8300330_PyplaDodge</gameObjectName>
+  <saveDir>/Skill/AttackSkill</saveDir>
+  <Description />
+  <LegacyItemID>-1</LegacyItemID>
+  <Tags />
+  <EffectTransforms />
+  <Cooldown>10</Cooldown>
+  <StaminaCost>0</StaminaCost>
+  <ManaCost>0</ManaCost>
+  <DurabilityCost>0</DurabilityCost>
+  <DurabilityCostPercent>0</DurabilityCostPercent>
+  <IsDLCSkill>true</IsDLCSkill>
+  <RequiredItems />
+</ItemHolder>

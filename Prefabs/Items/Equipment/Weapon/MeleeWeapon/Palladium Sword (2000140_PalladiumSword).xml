@@ -114,4 +114,5 @@
   <TwoHandType>None</TwoHandType>
   <VisualDetectabilityAdd>0</VisualDetectabilityAdd>
   <WeaponType>Sword_1H</WeaponType>
+  <StamCost>5.2</StamCost>
 </ItemHolder>

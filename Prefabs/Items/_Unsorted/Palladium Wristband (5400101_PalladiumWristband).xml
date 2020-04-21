@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ItemHolder xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <ItemID>5400101</ItemID>
+  <Name>Palladium Wristband</Name>
+  <gameObjectName>5400101_PalladiumWristband</gameObjectName>
+  <saveDir />
+  <Description />
+  <LegacyItemID>-1</LegacyItemID>
+  <StatsHolder>
+    <BaseValue>32</BaseValue>
+    <RawWeight>1.5</RawWeight>
+    <MaxDurability>-1</MaxDurability>
+  </StatsHolder>
+  <Tags>
+    <string>Ingredient</string>
+    <string>Item</string>
+    <string>Misc</string>
+  </Tags>
+  <EffectTransforms />
+</ItemHolder>

@@ -3,7 +3,7 @@
   <SceneName>Under Island</SceneName>
   <Enemies>
     <QuantityHolder>
-      <Name>Troglodyte (1)</Name>
+      <Name>Troglodyte Grenadier (1)</Name>
       <Quantity>1</Quantity>
     </QuantityHolder>
     <QuantityHolder>
@@ -11,11 +11,11 @@
       <Quantity>1</Quantity>
     </QuantityHolder>
     <QuantityHolder>
-      <Name>Troglodyte Grenadier (1)</Name>
+      <Name>Troglodyte Knight (1)</Name>
       <Quantity>1</Quantity>
     </QuantityHolder>
     <QuantityHolder>
-      <Name>Troglodyte Knight (1)</Name>
+      <Name>Troglodyte (1)</Name>
       <Quantity>1</Quantity>
     </QuantityHolder>
     <QuantityHolder>

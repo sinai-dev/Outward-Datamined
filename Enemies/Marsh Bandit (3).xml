@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <EnemyHolder xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Name>Marsh Bandit</Name>
-  <GameObject_Name>NewBanditEquip_MarshBasic2_C</GameObject_Name>
+  <GameObject_Name>NewBanditEquip_MarshBasic1_C</GameObject_Name>
   <Unique_ID>3</Unique_ID>
   <Locations_Found>
     <string>Hallowed Marsh:Flooded Cellar</string>
   </Locations_Found>
   <Max_Health>0</Max_Health>
   <Health_Regen_Per_Second>0</Health_Regen_Per_Second>
-  <Impact_Resistance>18</Impact_Resistance>
+  <Impact_Resistance>8</Impact_Resistance>
   <Protection>
-    <float>5</float>
+    <float>0</float>
     <float>0</float>
     <float>0</float>
     <float>0</float>
@@ -18,29 +18,29 @@
     <float>0</float>
   </Protection>
   <Damage_Resistances>
-    <float>3</float>
-    <float>20</float>
+    <float>10</float>
+    <float>0</float>
     <float>-20</float>
-    <float>20</float>
-    <float>20</float>
-    <float>20</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
   </Damage_Resistances>
   <Damage_Bonuses>
-    <float>40</float>
-    <float>15</float>
-    <float>15</float>
-    <float>15</float>
-    <float>15</float>
-    <float>15</float>
+    <float>25</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
   </Damage_Bonuses>
   <Collider_Radius>0.4</Collider_Radius>
   <True_WeaponDamage />
   <Weapon_Impact>0</Weapon_Impact>
   <Status_Immunities />
   <Starting_Equipment>
-    <string>Tattered Attire (3000131)</string>
-    <string>Tattered Boots (3000136)</string>
-    <string>Stat Booster 1 (5400000)</string>
+    <string>Tattered Hood (3000133)</string>
+    <string>Tattered Attire (3000130)</string>
+    <string>Ash Boots (3000222)</string>
   </Starting_Equipment>
   <Skill_Knowledge />
   <Faction>Bandits</Faction>

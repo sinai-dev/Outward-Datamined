@@ -24,7 +24,7 @@ Shooting it requires the use of the Fire/Reload skill.</Description>
         <EffectHolder xsi:type="RemoveStatusEffectHolder">
           <StatusEffect>Cool</StatusEffect>
           <StatusEffect_ByTag>Cool</StatusEffect_ByTag>
-          <StatusEffect_Family>Unique</StatusEffect_Family>
+          <StatusEffect_Family />
           <StatusEffect_ByName />
         </EffectHolder>
       </Effects>

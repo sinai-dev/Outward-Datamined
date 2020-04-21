@@ -18,16 +18,16 @@
   <Merchants />
   <Loot_Containers>
     <QuantityHolder>
-      <Name>Junk Pile</Name>
-      <Quantity>3</Quantity>
+      <Name>Chest</Name>
+      <Quantity>2</Quantity>
     </QuantityHolder>
     <QuantityHolder>
       <Name>Ornate Chest</Name>
       <Quantity>1</Quantity>
     </QuantityHolder>
     <QuantityHolder>
-      <Name>Chest</Name>
-      <Quantity>2</Quantity>
+      <Name>Junk Pile</Name>
+      <Quantity>3</Quantity>
     </QuantityHolder>
   </Loot_Containers>
   <Gatherables>
@@ -36,16 +36,12 @@
       <Quantity>5</Quantity>
     </QuantityHolder>
     <QuantityHolder>
-      <Name>Mana Stone</Name>
-      <Quantity>3</Quantity>
+      <Name>Palladium vein</Name>
+      <Quantity>1</Quantity>
     </QuantityHolder>
     <QuantityHolder>
       <Name>Star Mushroom</Name>
       <Quantity>3</Quantity>
-    </QuantityHolder>
-    <QuantityHolder>
-      <Name>Palladium vein</Name>
-      <Quantity>1</Quantity>
     </QuantityHolder>
     <QuantityHolder>
       <Name>Blood Mushroom</Name>
@@ -54,6 +50,10 @@
     <QuantityHolder>
       <Name>Iron vein</Name>
       <Quantity>2</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Mana Stone</Name>
+      <Quantity>3</Quantity>
     </QuantityHolder>
     <QuantityHolder>
       <Name>Fishing Spot (DropTable_FishingSpotChersoneseCave)</Name>
@@ -67,6 +67,11 @@
       <Quantity>3</Quantity>
       <positions>
         <Vector3>
+          <x>-99.78112</x>
+          <y>-39.097435</y>
+          <z>-109.840294</z>
+        </Vector3>
+        <Vector3>
           <x>-14.204</x>
           <y>0.196</y>
           <z>-42.639</z>
@@ -76,10 +81,17 @@
           <y>1.094</y>
           <z>-51.483</z>
         </Vector3>
+      </positions>
+    </ItemSpawnHolder>
+    <ItemSpawnHolder>
+      <Name>Flint and Steel</Name>
+      <Item_ID>5600010</Item_ID>
+      <Quantity>1</Quantity>
+      <positions>
         <Vector3>
-          <x>-99.78112</x>
-          <y>-39.097435</y>
-          <z>-109.840294</z>
+          <x>1.9296875</x>
+          <y>-24.9956455</y>
+          <z>-31.7137547</z>
         </Vector3>
       </positions>
     </ItemSpawnHolder>
@@ -96,14 +108,14 @@
       </positions>
     </ItemSpawnHolder>
     <ItemSpawnHolder>
-      <Name>Flint and Steel</Name>
-      <Item_ID>5600010</Item_ID>
+      <Name>Hangman's Key</Name>
+      <Item_ID>5600020</Item_ID>
       <Quantity>1</Quantity>
       <positions>
         <Vector3>
-          <x>1.9296875</x>
-          <y>-24.9956455</y>
-          <z>-31.7137547</z>
+          <x>-14.85</x>
+          <y>12</y>
+          <z>12.6</z>
         </Vector3>
       </positions>
     </ItemSpawnHolder>
@@ -136,25 +148,13 @@
         </Vector3>
       </positions>
     </ItemSpawnHolder>
-    <ItemSpawnHolder>
-      <Name>Hangman's Key</Name>
-      <Item_ID>5600020</Item_ID>
-      <Quantity>1</Quantity>
-      <positions>
-        <Vector3>
-          <x>-14.85</x>
-          <y>12</y>
-          <z>12.6</z>
-        </Vector3>
-      </positions>
-    </ItemSpawnHolder>
   </Item_Spawns>
   <UniqueContainerList>
-    <string>Junk Pile_zu4rv-Se80e6uKajlpusjw</string>
-    <string>Ornate Chest_u8V2Sl_eSUuOaxYkty9-Kg</string>
     <string>Chest_r0t7WLQX7UuA5FjHmuvIOQ</string>
     <string>Chest_yvcEJLaC1kqPOYEVQeIkRQ</string>
-    <string>Junk Pile__Vm2HKTEEk-xzWoywlLoiA</string>
+    <string>Ornate Chest_u8V2Sl_eSUuOaxYkty9-Kg</string>
     <string>Junk Pile_B24-u94c9E6yZyFejCR_NA</string>
+    <string>Junk Pile_zu4rv-Se80e6uKajlpusjw</string>
+    <string>Junk Pile__Vm2HKTEEk-xzWoywlLoiA</string>
   </UniqueContainerList>
 </SceneSummary>

@@ -14,7 +14,50 @@
         <EffectHolder xsi:type="ShootProjectileHolder">
           <TargetingMode>FindEnemies</TargetingMode>
           <AutoTarget>false</AutoTarget>
-          <EffectTransforms />
+          <EffectTransforms>
+            <EffectTransformHolder>
+              <TransformName>HitEffects</TransformName>
+              <Effects>
+                <EffectHolder xsi:type="PunctualDamageHolder">
+                  <Damage>
+                    <Damages>
+                      <Damage>3</Damage>
+                      <Damage_Type>Decay</Damage_Type>
+                    </Damages>
+                  </Damage>
+                  <Damages_AI />
+                  <Knockback>15</Knockback>
+                  <HitInventory>true</HitInventory>
+                </EffectHolder>
+                <EffectHolder xsi:type="ShootBlastHolder">
+                  <BlastLifespan>5</BlastLifespan>
+                  <RefreshTime>0.5</RefreshTime>
+                  <EffectTransforms>
+                    <EffectTransformHolder>
+                      <TransformName>Effects</TransformName>
+                      <Effects>
+                        <EffectHolder xsi:type="PunctualDamageHolder">
+                          <Damage>
+                            <Damages>
+                              <Damage>10</Damage>
+                              <Damage_Type>Electric</Damage_Type>
+                            </Damages>
+                          </Damage>
+                          <Damages_AI />
+                          <Knockback>5</Knockback>
+                          <HitInventory>true</HitInventory>
+                        </EffectHolder>
+                      </Effects>
+                      <EffectConditions />
+                      <ChildEffects />
+                    </EffectTransformHolder>
+                  </EffectTransforms>
+                </EffectHolder>
+              </Effects>
+              <EffectConditions />
+              <ChildEffects />
+            </EffectTransformHolder>
+          </EffectTransforms>
         </EffectHolder>
       </Effects>
       <EffectConditions />

@@ -213,7 +213,7 @@ Red rune that does nothing on its own, but can produce combo effects by casting 
             <EffectHolder xsi:type="RemoveStatusEffectHolder">
               <StatusEffect>Fal Runes</StatusEffect>
               <StatusEffect_ByTag>None</StatusEffect_ByTag>
-              <StatusEffect_Family>Unique</StatusEffect_Family>
+              <StatusEffect_Family />
               <StatusEffect_ByName />
             </EffectHolder>
             <EffectHolder xsi:type="AffectManaHolder">
@@ -337,7 +337,7 @@ Red rune that does nothing on its own, but can produce combo effects by casting 
             <EffectHolder xsi:type="RemoveStatusEffectHolder">
               <StatusEffect>Fal Runes</StatusEffect>
               <StatusEffect_ByTag>None</StatusEffect_ByTag>
-              <StatusEffect_Family>Unique</StatusEffect_Family>
+              <StatusEffect_Family />
               <StatusEffect_ByName />
             </EffectHolder>
             <EffectHolder xsi:type="AffectManaHolder">

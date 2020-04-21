@@ -3,11 +3,15 @@
   <SceneName>Montcalm Clan Fort</SceneName>
   <Enemies>
     <QuantityHolder>
-      <Name>Bandit Archer (1)</Name>
+      <Name>Bandit (2)</Name>
       <Quantity>2</Quantity>
     </QuantityHolder>
     <QuantityHolder>
-      <Name>Bandit (2)</Name>
+      <Name>Bandit Lieutenant (1)</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Ice Witch (1)</Name>
       <Quantity>1</Quantity>
     </QuantityHolder>
     <QuantityHolder>
@@ -19,16 +23,12 @@
       <Quantity>1</Quantity>
     </QuantityHolder>
     <QuantityHolder>
-      <Name>Ice Witch (1)</Name>
-      <Quantity>1</Quantity>
-    </QuantityHolder>
-    <QuantityHolder>
-      <Name>Bandit Lieutenant (2)</Name>
-      <Quantity>1</Quantity>
-    </QuantityHolder>
-    <QuantityHolder>
-      <Name>Bandit (3)</Name>
+      <Name>Bandit Archer (1)</Name>
       <Quantity>2</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Bandit (1)</Name>
+      <Quantity>1</Quantity>
     </QuantityHolder>
   </Enemies>
   <Merchants />
@@ -78,18 +78,6 @@
       </positions>
     </ItemSpawnHolder>
     <ItemSpawnHolder>
-      <Name>Waterskin</Name>
-      <Item_ID>4200040</Item_ID>
-      <Quantity>1</Quantity>
-      <positions>
-        <Vector3>
-          <x>-10.8775177</x>
-          <y>25</y>
-          <z>-9.990502</z>
-        </Vector3>
-      </positions>
-    </ItemSpawnHolder>
-    <ItemSpawnHolder>
       <Name>Scholar Attire</Name>
       <Item_ID>3000190</Item_ID>
       <Quantity>1</Quantity>
@@ -101,14 +89,26 @@
         </Vector3>
       </positions>
     </ItemSpawnHolder>
+    <ItemSpawnHolder>
+      <Name>Waterskin</Name>
+      <Item_ID>4200040</Item_ID>
+      <Quantity>1</Quantity>
+      <positions>
+        <Vector3>
+          <x>-10.8775177</x>
+          <y>25</y>
+          <z>-9.990502</z>
+        </Vector3>
+      </positions>
+    </ItemSpawnHolder>
   </Item_Spawns>
   <UniqueContainerList>
     <string>Junk Pile_MZdGSujQQkO4h82afBP5Vw</string>
-    <string>Chest_nOY3ZviWBU2WAW146gQj3Q</string>
     <string>Chest_-BZnL6ZOvE-e6KoBOoRu-Q</string>
     <string>Junk Pile_xbxSLPR_w0GbxZ2FRQh1pQ</string>
+    <string>Ornate Chest_mU2wojzuiUeJ3oz1bBahWg</string>
+    <string>Chest_nOY3ZviWBU2WAW146gQj3Q</string>
     <string>Junk Pile_6R4rjL-srEqkiym9lX-x6A</string>
     <string>Chest_XEFCf4ln_0iHm8PEEBiU8g</string>
-    <string>Ornate Chest_mU2wojzuiUeJ3oz1bBahWg</string>
   </UniqueContainerList>
 </SceneSummary>

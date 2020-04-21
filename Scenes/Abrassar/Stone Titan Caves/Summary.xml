@@ -7,20 +7,20 @@
       <Quantity>3</Quantity>
     </QuantityHolder>
     <QuantityHolder>
-      <Name>Ice Witch (1)</Name>
+      <Name>Desert Archer (1)</Name>
       <Quantity>2</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Desert Bandit (6)</Name>
+      <Quantity>1</Quantity>
     </QuantityHolder>
     <QuantityHolder>
       <Name>Desert Captain (1)</Name>
       <Quantity>2</Quantity>
     </QuantityHolder>
     <QuantityHolder>
-      <Name>Desert Archer (1)</Name>
+      <Name>Ice Witch (1)</Name>
       <Quantity>2</Quantity>
-    </QuantityHolder>
-    <QuantityHolder>
-      <Name>Desert Bandit (5)</Name>
-      <Quantity>1</Quantity>
     </QuantityHolder>
     <QuantityHolder>
       <Name>Ash Giant Priest (3)</Name>
@@ -34,30 +34,34 @@
   <Merchants />
   <Loot_Containers>
     <QuantityHolder>
-      <Name>Junk Pile</Name>
-      <Quantity>4</Quantity>
-    </QuantityHolder>
-    <QuantityHolder>
-      <Name>Chest</Name>
-      <Quantity>3</Quantity>
+      <Name>Adventurer’s Corpse</Name>
+      <Quantity>1</Quantity>
     </QuantityHolder>
     <QuantityHolder>
       <Name>Worker’s Corpse</Name>
       <Quantity>1</Quantity>
     </QuantityHolder>
     <QuantityHolder>
+      <Name>Junk Pile</Name>
+      <Quantity>4</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
       <Name>Knight’s Corpse</Name>
       <Quantity>1</Quantity>
     </QuantityHolder>
     <QuantityHolder>
-      <Name>Adventurer’s Corpse</Name>
-      <Quantity>1</Quantity>
+      <Name>Chest</Name>
+      <Quantity>3</Quantity>
     </QuantityHolder>
   </Loot_Containers>
   <Gatherables>
     <QuantityHolder>
-      <Name>Palladium vein</Name>
+      <Name>Blood Mushroom</Name>
       <Quantity>1</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Star Mushroom</Name>
+      <Quantity>2</Quantity>
     </QuantityHolder>
     <QuantityHolder>
       <Name>Krimp</Name>
@@ -68,15 +72,11 @@
       <Quantity>2</Quantity>
     </QuantityHolder>
     <QuantityHolder>
-      <Name>Star Mushroom</Name>
-      <Quantity>2</Quantity>
-    </QuantityHolder>
-    <QuantityHolder>
-      <Name>Iron vein</Name>
+      <Name>Palladium vein</Name>
       <Quantity>1</Quantity>
     </QuantityHolder>
     <QuantityHolder>
-      <Name>Blood Mushroom</Name>
+      <Name>Iron vein</Name>
       <Quantity>1</Quantity>
     </QuantityHolder>
   </Gatherables>
@@ -107,15 +107,15 @@
     </ItemSpawnHolder>
   </Item_Spawns>
   <UniqueContainerList>
+    <string>Adventurer’s Corpse_v2ka2IxF_0miUdu2aLcJvQ</string>
+    <string>Worker’s Corpse_wN8YUQkuUkK8nIULzChDgg</string>
+    <string>Junk Pile_DnWiKTY-7Uy2VYPziYxskw</string>
+    <string>Knight’s Corpse_CGqU2KEK3EqJr39JHkRTVw</string>
+    <string>Chest_VSbXxkO-vEmVKqcVof3yYA</string>
     <string>Junk Pile_MfThI2XNN0qmEOJ5nvt3lQ</string>
     <string>Chest_uCWdqJy_EEKskRor9CMahA</string>
     <string>Junk Pile_ytq0oRTx80uJb8GKOAtQ5w</string>
     <string>Junk Pile_cWlkdd3fsEeol0H-9KteTg</string>
-    <string>Junk Pile_DnWiKTY-7Uy2VYPziYxskw</string>
     <string>Chest__3MICugAcEmJPs5nNbHldw</string>
-    <string>Worker’s Corpse_wN8YUQkuUkK8nIULzChDgg</string>
-    <string>Knight’s Corpse_CGqU2KEK3EqJr39JHkRTVw</string>
-    <string>Chest_VSbXxkO-vEmVKqcVof3yYA</string>
-    <string>Adventurer’s Corpse_v2ka2IxF_0miUdu2aLcJvQ</string>
   </UniqueContainerList>
 </SceneSummary>

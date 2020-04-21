@@ -127,4 +127,5 @@
   <TwoHandType>TwoHandedRight</TwoHandType>
   <VisualDetectabilityAdd>0</VisualDetectabilityAdd>
   <WeaponType>Axe_2H</WeaponType>
+  <StamCost>6.875</StamCost>
 </ItemHolder>

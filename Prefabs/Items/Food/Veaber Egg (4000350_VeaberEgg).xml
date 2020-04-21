@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ItemHolder xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <ItemID>4000350</ItemID>
+  <Name>Veaber Egg</Name>
+  <gameObjectName>4000350_VeaberEgg</gameObjectName>
+  <saveDir>/Food</saveDir>
+  <Description />
+  <LegacyItemID>-1</LegacyItemID>
+  <StatsHolder>
+    <BaseValue>15</BaseValue>
+    <RawWeight>0.2</RawWeight>
+    <MaxDurability>100</MaxDurability>
+  </StatsHolder>
+  <Tags>
+    <string>Ingredient Cook</string>
+    <string>Ingredient</string>
+    <string>Item</string>
+    <string>Ingredient Alch</string>
+    <string>Vegetable</string>
+    <string>Food</string>
+    <string>Consummable</string>
+  </Tags>
+  <EffectTransforms>
+    <EffectTransformHolder>
+      <TransformName>Effects</TransformName>
+      <Effects>
+        <EffectHolder xsi:type="AffectNeedHolder">
+          <Need>AffectFood</Need>
+          <AffectQuantity>50</AffectQuantity>
+        </EffectHolder>
+        <EffectHolder xsi:type="AddStatusEffectHolder">
+          <StatusEffect>Stamina Recovery 3</StatusEffect>
+          <ChanceToContract>100</ChanceToContract>
+        </EffectHolder>
+      </Effects>
+      <EffectConditions />
+      <ChildEffects />
+    </EffectTransformHolder>
+  </EffectTransforms>
+</ItemHolder>

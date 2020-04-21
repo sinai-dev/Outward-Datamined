@@ -3,15 +3,11 @@
   <SceneName>Dark Ziggurat Interior</SceneName>
   <Enemies>
     <QuantityHolder>
-      <Name>Jade-Lich Acolyte (1)</Name>
+      <Name>Molten Forge Golem (2)</Name>
       <Quantity>2</Quantity>
     </QuantityHolder>
     <QuantityHolder>
-      <Name>Forge Golem (1)</Name>
-      <Quantity>1</Quantity>
-    </QuantityHolder>
-    <QuantityHolder>
-      <Name>Molten Forge Golem (2)</Name>
+      <Name>Blade Dancer (1)</Name>
       <Quantity>2</Quantity>
     </QuantityHolder>
     <QuantityHolder>
@@ -19,11 +15,15 @@
       <Quantity>1</Quantity>
     </QuantityHolder>
     <QuantityHolder>
+      <Name>Forge Golem (1)</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
       <Name>Beast Golem (1)</Name>
       <Quantity>1</Quantity>
     </QuantityHolder>
     <QuantityHolder>
-      <Name>Blade Dancer (1)</Name>
+      <Name>Jade-Lich Acolyte (1)</Name>
       <Quantity>2</Quantity>
     </QuantityHolder>
     <QuantityHolder>
@@ -50,12 +50,12 @@
   <Item_Spawns />
   <UniqueContainerList>
     <string>Chest_61FVxmOKnkWwEzTZM5CmVQ</string>
-    <string>Junk Pile_cYGFpPHMUkqZbEWR_9o8nQ</string>
     <string>Junk Pile_tb9ujeHw7UqZE5D5J7LXeQ</string>
-    <string>Junk Pile_get-5PZ_WEmPWGj4PKnvIQ</string>
-    <string>Ornate Chest_1thZ_eI5hUyng1fEH9Wn0g</string>
-    <string>Junk Pile_kWa1mFuUf0qs8YcPW8SwfQ</string>
     <string>Chest_zpcByPlG5kuhxkjcCmCRyw</string>
     <string>Junk Pile_FzgzHIaN5Ua9MQY4ZJPRxA</string>
+    <string>Junk Pile_kWa1mFuUf0qs8YcPW8SwfQ</string>
+    <string>Junk Pile_cYGFpPHMUkqZbEWR_9o8nQ</string>
+    <string>Junk Pile_get-5PZ_WEmPWGj4PKnvIQ</string>
+    <string>Ornate Chest_1thZ_eI5hUyng1fEH9Wn0g</string>
   </UniqueContainerList>
 </SceneSummary>

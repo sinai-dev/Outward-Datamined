@@ -3,12 +3,12 @@
   <SceneName>Face of the Ancients</SceneName>
   <Enemies>
     <QuantityHolder>
-      <Name>Burning Man (1)</Name>
-      <Quantity>6</Quantity>
-    </QuantityHolder>
-    <QuantityHolder>
       <Name>Ghost (1)</Name>
       <Quantity>3</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Burning Man (1)</Name>
+      <Quantity>6</Quantity>
     </QuantityHolder>
     <QuantityHolder>
       <Name>Obsidian Elemental (1)</Name>
@@ -22,20 +22,20 @@
   <Merchants />
   <Loot_Containers>
     <QuantityHolder>
-      <Name>Chest</Name>
+      <Name>Junk Pile</Name>
       <Quantity>3</Quantity>
     </QuantityHolder>
     <QuantityHolder>
-      <Name>Junk Pile</Name>
-      <Quantity>3</Quantity>
+      <Name>Worker’s Corpse</Name>
+      <Quantity>1</Quantity>
     </QuantityHolder>
     <QuantityHolder>
       <Name>Knight’s Corpse</Name>
       <Quantity>1</Quantity>
     </QuantityHolder>
     <QuantityHolder>
-      <Name>Worker’s Corpse</Name>
-      <Quantity>1</Quantity>
+      <Name>Chest</Name>
+      <Quantity>3</Quantity>
     </QuantityHolder>
     <QuantityHolder>
       <Name>Ornate Chest</Name>
@@ -44,15 +44,11 @@
   </Loot_Containers>
   <Gatherables>
     <QuantityHolder>
-      <Name>Green Mushroom</Name>
-      <Quantity>1</Quantity>
-    </QuantityHolder>
-    <QuantityHolder>
       <Name>Blood Mushroom</Name>
       <Quantity>3</Quantity>
     </QuantityHolder>
     <QuantityHolder>
-      <Name>Iron vein</Name>
+      <Name>Palladium vein</Name>
       <Quantity>1</Quantity>
     </QuantityHolder>
     <QuantityHolder>
@@ -60,11 +56,15 @@
       <Quantity>2</Quantity>
     </QuantityHolder>
     <QuantityHolder>
+      <Name>Iron vein</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
       <Name>Smoke Root</Name>
       <Quantity>3</Quantity>
     </QuantityHolder>
     <QuantityHolder>
-      <Name>Palladium vein</Name>
+      <Name>Green Mushroom</Name>
       <Quantity>1</Quantity>
     </QuantityHolder>
   </Gatherables>
@@ -93,14 +93,14 @@
     </ItemSpawnHolder>
   </Item_Spawns>
   <UniqueContainerList>
-    <string>Chest_gHiCWPXNC0anG2w2IXc1Ug</string>
     <string>Junk Pile_rBAzv5qMk0aahl7yPHYOmw</string>
+    <string>Worker’s Corpse_UUsi5zu00EeTE5zbbrop3w</string>
+    <string>Knight’s Corpse_OxOfYsyUzUC-VTqKrnvG9A</string>
+    <string>Chest_A6ERDfK9Ake02d5txiGSTQ</string>
     <string>Junk Pile_8mVuBY3uqkCvt14c5IkcZQ</string>
     <string>Junk Pile_Kd0qT1IZF0KfK3g7bFgFrw</string>
-    <string>Knight’s Corpse_OxOfYsyUzUC-VTqKrnvG9A</string>
-    <string>Worker’s Corpse_UUsi5zu00EeTE5zbbrop3w</string>
     <string>Chest_PLJzvA4m10a5zu0DwigBgg</string>
     <string>Ornate Chest_htlfE80nw0uR2zAt6U2J3g</string>
-    <string>Chest_A6ERDfK9Ake02d5txiGSTQ</string>
+    <string>Chest_gHiCWPXNC0anG2w2IXc1Ug</string>
   </UniqueContainerList>
 </SceneSummary>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ItemHolder xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="SkillHolder">
+  <ItemID>8300341</ItemID>
+  <Name>WolfMerceneryRunicShield</Name>
+  <gameObjectName>8300341_WolfMerceneryRunicHeal</gameObjectName>
+  <saveDir>/Skill/AttackSkill</saveDir>
+  <Description />
+  <LegacyItemID>-1</LegacyItemID>
+  <Tags />
+  <EffectTransforms>
+    <EffectTransformHolder>
+      <TransformName>Effects</TransformName>
+      <Effects>
+        <EffectHolder xsi:type="RemoveStatusEffectHolder">
+          <StatusEffect>Wolf Runic Protection</StatusEffect>
+          <StatusEffect_ByTag>None</StatusEffect_ByTag>
+          <StatusEffect_Family />
+          <StatusEffect_ByName />
+        </EffectHolder>
+        <EffectHolder xsi:type="AffectHealthHolder">
+          <AffectQuantity>40</AffectQuantity>
+          <IsModifier>false</IsModifier>
+          <AffectQuanityAI>-99999</AffectQuanityAI>
+        </EffectHolder>
+      </Effects>
+      <EffectConditions />
+      <ChildEffects />
+    </EffectTransformHolder>
+    <EffectTransformHolder>
+      <TransformName>AdditionalActivationConditions</TransformName>
+      <Effects />
+      <EffectConditions />
+      <ChildEffects>
+        <EffectTransformHolder>
+          <TransformName>HaveProtection</TransformName>
+          <Effects />
+          <EffectConditions>
+            <EffectConditionHolder>
+              <Conditions>
+                <ConditionHolder>
+                  <Requirement>Wolf Runic Protection</Requirement>
+                  <Condition_Type>Status Effect</Condition_Type>
+                  <Invert>false</Invert>
+                </ConditionHolder>
+              </Conditions>
+            </EffectConditionHolder>
+          </EffectConditions>
+          <ChildEffects />
+        </EffectTransformHolder>
+      </ChildEffects>
+    </EffectTransformHolder>
+  </EffectTransforms>
+  <Cooldown>20</Cooldown>
+  <StaminaCost>0</StaminaCost>
+  <ManaCost>0</ManaCost>
+  <DurabilityCost>0</DurabilityCost>
+  <DurabilityCostPercent>0</DurabilityCostPercent>
+  <IsDLCSkill>true</IsDLCSkill>
+  <RequiredItems />
+</ItemHolder>

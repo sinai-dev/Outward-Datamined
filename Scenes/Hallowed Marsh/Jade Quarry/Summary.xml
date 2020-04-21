@@ -22,6 +22,10 @@
   <Merchants />
   <Loot_Containers>
     <QuantityHolder>
+      <Name>Knight’s Corpse</Name>
+      <Quantity>2</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
       <Name>Trog Chest</Name>
       <Quantity>1</Quantity>
     </QuantityHolder>
@@ -37,10 +41,6 @@
       <Name>Ornate Chest</Name>
       <Quantity>1</Quantity>
     </QuantityHolder>
-    <QuantityHolder>
-      <Name>Knight’s Corpse</Name>
-      <Quantity>2</Quantity>
-    </QuantityHolder>
   </Loot_Containers>
   <Gatherables>
     <QuantityHolder>
@@ -48,27 +48,27 @@
       <Quantity>6</Quantity>
     </QuantityHolder>
     <QuantityHolder>
-      <Name>Star Mushroom</Name>
-      <Quantity>1</Quantity>
+      <Name>Green Mushroom</Name>
+      <Quantity>2</Quantity>
     </QuantityHolder>
     <QuantityHolder>
       <Name>Fishing Spot (DropTable_FishingSpotHallowedMarsh)</Name>
       <Quantity>4</Quantity>
     </QuantityHolder>
     <QuantityHolder>
+      <Name>Star Mushroom</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
       <Name>Krimp</Name>
       <Quantity>3</Quantity>
     </QuantityHolder>
     <QuantityHolder>
-      <Name>Green Mushroom</Name>
-      <Quantity>2</Quantity>
-    </QuantityHolder>
-    <QuantityHolder>
-      <Name>Oil</Name>
+      <Name>Blood Mushroom</Name>
       <Quantity>1</Quantity>
     </QuantityHolder>
     <QuantityHolder>
-      <Name>Blood Mushroom</Name>
+      <Name>Oil</Name>
       <Quantity>1</Quantity>
     </QuantityHolder>
   </Gatherables>
@@ -87,14 +87,14 @@
     </ItemSpawnHolder>
   </Item_Spawns>
   <UniqueContainerList>
-    <string>Trog Chest_xYj9e2asdEi1XleXxV1pxA</string>
-    <string>Chest_9PneVS44iUiwikLqd_k1Vw</string>
-    <string>Junk Pile_r6Y79c3I_EW-Xbcc5zuLYg</string>
-    <string>Ornate Chest_0LKddRlbCkCiZSl9WpTSJQ</string>
-    <string>Knight’s Corpse_AvvcqYVXj0CUYjpB_CtYqg</string>
     <string>Knight’s Corpse_Ua0fxCcHqUyKU_o9DZM9kA</string>
-    <string>Junk Pile_WjU7-vg6f0OxMMl4AIcMdQ</string>
+    <string>Trog Chest_xYj9e2asdEi1XleXxV1pxA</string>
     <string>Chest_Pnm_Jb3hdUKVEOl0p_dBOw</string>
+    <string>Junk Pile_WjU7-vg6f0OxMMl4AIcMdQ</string>
+    <string>Ornate Chest_0LKddRlbCkCiZSl9WpTSJQ</string>
+    <string>Junk Pile_r6Y79c3I_EW-Xbcc5zuLYg</string>
+    <string>Chest_9PneVS44iUiwikLqd_k1Vw</string>
+    <string>Knight’s Corpse_AvvcqYVXj0CUYjpB_CtYqg</string>
     <string>Junk Pile_IEalTFN0TEeO9jYTzobKBA</string>
   </UniqueContainerList>
 </SceneSummary>

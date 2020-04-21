@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ItemHolder xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <ItemID>6000150</ItemID>
+  <Name>Elemental Particle Ether</Name>
+  <gameObjectName>6000150_ElementalParticleEther</gameObjectName>
+  <saveDir />
+  <Description />
+  <LegacyItemID>-1</LegacyItemID>
+  <StatsHolder>
+    <BaseValue>1</BaseValue>
+    <RawWeight>0.1</RawWeight>
+    <MaxDurability>100</MaxDurability>
+  </StatsHolder>
+  <Tags>
+    <string>Ingredient</string>
+    <string>Item</string>
+    <string>Misc</string>
+  </Tags>
+  <EffectTransforms />
+</ItemHolder>

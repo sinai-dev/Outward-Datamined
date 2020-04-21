@@ -3,18 +3,26 @@
   <SceneName>Blister Burrow</SceneName>
   <Enemies>
     <QuantityHolder>
-      <Name>Troglodyte (1)</Name>
-      <Quantity>9</Quantity>
-    </QuantityHolder>
-    <QuantityHolder>
       <Name>Mana Troglodyte (1)</Name>
       <Quantity>1</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Troglodyte (1)</Name>
+      <Quantity>9</Quantity>
     </QuantityHolder>
   </Enemies>
   <Merchants />
   <Loot_Containers>
     <QuantityHolder>
+      <Name>Junk Pile</Name>
+      <Quantity>2</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
       <Name>Adventurer’s Corpse</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Trog Chest</Name>
       <Quantity>1</Quantity>
     </QuantityHolder>
     <QuantityHolder>
@@ -22,25 +30,13 @@
       <Quantity>1</Quantity>
     </QuantityHolder>
     <QuantityHolder>
-      <Name>Junk Pile</Name>
-      <Quantity>2</Quantity>
-    </QuantityHolder>
-    <QuantityHolder>
       <Name>Corpse</Name>
-      <Quantity>1</Quantity>
-    </QuantityHolder>
-    <QuantityHolder>
-      <Name>Trog Chest</Name>
       <Quantity>1</Quantity>
     </QuantityHolder>
   </Loot_Containers>
   <Gatherables>
     <QuantityHolder>
-      <Name>Iron vein</Name>
-      <Quantity>2</Quantity>
-    </QuantityHolder>
-    <QuantityHolder>
-      <Name>Blood Mushroom</Name>
+      <Name>Star Mushroom</Name>
       <Quantity>2</Quantity>
     </QuantityHolder>
     <QuantityHolder>
@@ -52,7 +48,11 @@
       <Quantity>1</Quantity>
     </QuantityHolder>
     <QuantityHolder>
-      <Name>Star Mushroom</Name>
+      <Name>Blood Mushroom</Name>
+      <Quantity>2</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Iron vein</Name>
       <Quantity>2</Quantity>
     </QuantityHolder>
     <QuantityHolder>
@@ -111,11 +111,11 @@
     </ItemSpawnHolder>
   </Item_Spawns>
   <UniqueContainerList>
-    <string>Adventurer’s Corpse_3oVuHl0ekkW4lJEohxK6rQ</string>
-    <string>Looter’s Corpse_oeciWnKZo0qY78Fl_LzUIA</string>
     <string>Junk Pile_cuaKRxeL7EmVkE3xS6t3-A</string>
+    <string>Adventurer’s Corpse_3oVuHl0ekkW4lJEohxK6rQ</string>
     <string>Junk Pile_Ocm6F1v01Ee_hpoZDUKzzQ</string>
-    <string>Corpse_WpVBHwBUt0Kzk1tDORJ1BA</string>
     <string>Trog Chest_2YuaPoCWJU-xWfVojApQmw</string>
+    <string>Looter’s Corpse_oeciWnKZo0qY78Fl_LzUIA</string>
+    <string>Corpse_WpVBHwBUt0Kzk1tDORJ1BA</string>
   </UniqueContainerList>
 </SceneSummary>

@@ -116,4 +116,5 @@ Mortal agents can be rewarded with this equipment, however. </Description>
   <TwoHandType>None</TwoHandType>
   <VisualDetectabilityAdd>0</VisualDetectabilityAdd>
   <WeaponType>Shield</WeaponType>
+  <StamCost>0</StamCost>
 </ItemHolder>

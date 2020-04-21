@@ -126,4 +126,5 @@ It makes for a surprisingly usable shield. Inflicts poison on shield charge.</De
   <TwoHandType>None</TwoHandType>
   <VisualDetectabilityAdd>0</VisualDetectabilityAdd>
   <WeaponType>Shield</WeaponType>
+  <StamCost>0</StamCost>
 </ItemHolder>

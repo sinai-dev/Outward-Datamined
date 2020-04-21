@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ItemHolder xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <ItemID>5000202</ItemID>
+  <Name>Enchantment Pillar</Name>
+  <gameObjectName>5000202_EnchantmentPillar</gameObjectName>
+  <saveDir>/ItemContainer</saveDir>
+  <Description />
+  <LegacyItemID>-1</LegacyItemID>
+  <Tags>
+    <string>Deployable</string>
+    <string>Item</string>
+  </Tags>
+  <EffectTransforms />
+</ItemHolder>

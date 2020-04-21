@@ -68,20 +68,20 @@
   </Merchants>
   <Loot_Containers>
     <QuantityHolder>
-      <Name>Junk Pile</Name>
+      <Name>Chest</Name>
       <Quantity>3</Quantity>
     </QuantityHolder>
     <QuantityHolder>
-      <Name>Chest</Name>
+      <Name>Ornate Chest</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Junk Pile</Name>
       <Quantity>3</Quantity>
     </QuantityHolder>
     <QuantityHolder>
       <Name>Looter’s Corpse</Name>
       <Quantity>2</Quantity>
-    </QuantityHolder>
-    <QuantityHolder>
-      <Name>Ornate Chest</Name>
-      <Quantity>1</Quantity>
     </QuantityHolder>
   </Loot_Containers>
   <Gatherables>
@@ -90,12 +90,12 @@
       <Quantity>2</Quantity>
     </QuantityHolder>
     <QuantityHolder>
-      <Name>Iron vein</Name>
-      <Quantity>3</Quantity>
-    </QuantityHolder>
-    <QuantityHolder>
       <Name>Blood Mushroom</Name>
       <Quantity>2</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Iron vein</Name>
+      <Quantity>3</Quantity>
     </QuantityHolder>
     <QuantityHolder>
       <Name>Green Mushroom</Name>
@@ -109,6 +109,46 @@
       <Quantity>10</Quantity>
       <positions>
         <Vector3>
+          <x>8.766075</x>
+          <y>-8.99</y>
+          <z>36.11071</z>
+        </Vector3>
+        <Vector3>
+          <x>13.1568909</x>
+          <y>-8.99</y>
+          <z>41.2484436</z>
+        </Vector3>
+        <Vector3>
+          <x>13.24</x>
+          <y>-8.99</y>
+          <z>42.015</z>
+        </Vector3>
+        <Vector3>
+          <x>7.568</x>
+          <y>-8.99</y>
+          <z>36.305</z>
+        </Vector3>
+        <Vector3>
+          <x>12.565</x>
+          <y>-8.99</y>
+          <z>41.5834427</z>
+        </Vector3>
+        <Vector3>
+          <x>7.05</x>
+          <y>-8.99</y>
+          <z>36.3946877</z>
+        </Vector3>
+        <Vector3>
+          <x>12.69</x>
+          <y>-8.99</y>
+          <z>42.89</z>
+        </Vector3>
+        <Vector3>
+          <x>12.4270182</x>
+          <y>-8.946</y>
+          <z>40.37</z>
+        </Vector3>
+        <Vector3>
           <x>9.034904</x>
           <y>-8.99</y>
           <z>37.0033836</z>
@@ -118,46 +158,6 @@
           <y>-8.99</y>
           <z>36.38549</z>
         </Vector3>
-        <Vector3>
-          <x>7.05</x>
-          <y>-8.99</y>
-          <z>36.3946877</z>
-        </Vector3>
-        <Vector3>
-          <x>12.565</x>
-          <y>-8.99</y>
-          <z>41.5834427</z>
-        </Vector3>
-        <Vector3>
-          <x>7.568</x>
-          <y>-8.99</y>
-          <z>36.305</z>
-        </Vector3>
-        <Vector3>
-          <x>13.1568909</x>
-          <y>-8.99</y>
-          <z>41.2484436</z>
-        </Vector3>
-        <Vector3>
-          <x>8.766075</x>
-          <y>-8.99</y>
-          <z>36.11071</z>
-        </Vector3>
-        <Vector3>
-          <x>12.4270182</x>
-          <y>-8.946</y>
-          <z>40.37</z>
-        </Vector3>
-        <Vector3>
-          <x>12.69</x>
-          <y>-8.99</y>
-          <z>42.89</z>
-        </Vector3>
-        <Vector3>
-          <x>13.24</x>
-          <y>-8.99</y>
-          <z>42.015</z>
-        </Vector3>
       </positions>
     </ItemSpawnHolder>
     <ItemSpawnHolder>
@@ -166,34 +166,19 @@
       <Quantity>11</Quantity>
       <positions>
         <Vector3>
-          <x>-12.6095324</x>
-          <y>-9.964709</y>
-          <z>42.9132423</z>
+          <x>4.977192</x>
+          <y>-9.965306</y>
+          <z>17.0040474</z>
         </Vector3>
         <Vector3>
-          <x>26.51349</x>
-          <y>-9.981518</y>
-          <z>27.17432</z>
+          <x>22.946085</x>
+          <y>-9.966049</y>
+          <z>42.57631</z>
         </Vector3>
         <Vector3>
-          <x>2.80993915</x>
+          <x>2.83</x>
           <y>-9.96643</y>
-          <z>46.9852066</z>
-        </Vector3>
-        <Vector3>
-          <x>7.90844345</x>
-          <y>-9.982562</y>
-          <z>53.42172</z>
-        </Vector3>
-        <Vector3>
-          <x>24.9011841</x>
-          <y>-9.979901</y>
-          <z>13.17017</z>
-        </Vector3>
-        <Vector3>
-          <x>22.607</x>
-          <y>-9.967155</y>
-          <z>56.873</z>
+          <z>43.11</z>
         </Vector3>
         <Vector3>
           <x>-2.96335125</x>
@@ -206,32 +191,47 @@
           <z>56.88</z>
         </Vector3>
         <Vector3>
-          <x>2.83</x>
+          <x>22.607</x>
+          <y>-9.967155</y>
+          <z>56.873</z>
+        </Vector3>
+        <Vector3>
+          <x>24.9011841</x>
+          <y>-9.979901</y>
+          <z>13.17017</z>
+        </Vector3>
+        <Vector3>
+          <x>7.90844345</x>
+          <y>-9.982562</y>
+          <z>53.42172</z>
+        </Vector3>
+        <Vector3>
+          <x>2.80993915</x>
           <y>-9.96643</y>
-          <z>43.11</z>
+          <z>46.9852066</z>
         </Vector3>
         <Vector3>
-          <x>22.946085</x>
-          <y>-9.966049</y>
-          <z>42.57631</z>
+          <x>26.51349</x>
+          <y>-9.981518</y>
+          <z>27.17432</z>
         </Vector3>
         <Vector3>
-          <x>4.977192</x>
-          <y>-9.965306</y>
-          <z>17.0040474</z>
+          <x>-12.6095324</x>
+          <y>-9.964709</y>
+          <z>42.9132423</z>
         </Vector3>
       </positions>
     </ItemSpawnHolder>
   </Item_Spawns>
   <UniqueContainerList>
-    <string>Junk Pile_LyYQguVZM0q4Fr24PgM02g</string>
-    <string>Chest__UCgqAaFv0mZom-4Qi4W5w</string>
     <string>Chest_b2n9L6OJKky-nEriESkSfg</string>
-    <string>Looter’s Corpse_mHg2Yy0pwEOAeq2Im8Y4BQ</string>
-    <string>Junk Pile_4oY6LD6sGUqTiegIiNr98Q</string>
-    <string>Looter’s Corpse_gWRVBOvILE2jyL8Ct2_Iig</string>
-    <string>Chest_SHL0M1r1wkOyA6btaZHplg</string>
-    <string>Junk Pile_71ZGaRHj20ar572nOCmjJg</string>
+    <string>Chest__UCgqAaFv0mZom-4Qi4W5w</string>
     <string>Ornate Chest_RjVGYYLYqk6EIDoKTaBobA</string>
+    <string>Junk Pile_LyYQguVZM0q4Fr24PgM02g</string>
+    <string>Looter’s Corpse_gWRVBOvILE2jyL8Ct2_Iig</string>
+    <string>Junk Pile_4oY6LD6sGUqTiegIiNr98Q</string>
+    <string>Junk Pile_71ZGaRHj20ar572nOCmjJg</string>
+    <string>Looter’s Corpse_mHg2Yy0pwEOAeq2Im8Y4BQ</string>
+    <string>Chest_SHL0M1r1wkOyA6btaZHplg</string>
   </UniqueContainerList>
 </SceneSummary>

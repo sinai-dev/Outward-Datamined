@@ -14,11 +14,11 @@
   <Merchants />
   <Loot_Containers>
     <QuantityHolder>
-      <Name>Chest</Name>
+      <Name>Junk Pile</Name>
       <Quantity>1</Quantity>
     </QuantityHolder>
     <QuantityHolder>
-      <Name>Junk Pile</Name>
+      <Name>Chest</Name>
       <Quantity>1</Quantity>
     </QuantityHolder>
   </Loot_Containers>
@@ -48,7 +48,7 @@
     </ItemSpawnHolder>
   </Item_Spawns>
   <UniqueContainerList>
-    <string>Chest_vVcdBqpPakq8oqSey8TK5A</string>
     <string>Junk Pile_yNmIMCLG1UeZ19Ne9icyIA</string>
+    <string>Chest_vVcdBqpPakq8oqSey8TK5A</string>
   </UniqueContainerList>
 </SceneSummary>

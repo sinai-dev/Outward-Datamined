@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ItemHolder xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="WeaponHolder">
+  <ItemID>5110006</ItemID>
+  <Name>Horror Dagger</Name>
+  <gameObjectName>5110006_HorrorDagger</gameObjectName>
+  <saveDir>/Equipment/Weapon/MeleeWeapon</saveDir>
+  <Description />
+  <LegacyItemID>-1</LegacyItemID>
+  <StatsHolder xsi:type="WeaponStatsHolder">
+    <BaseValue>10</BaseValue>
+    <RawWeight>1</RawWeight>
+    <MaxDurability>100</MaxDurability>
+    <Damage_Resistance>
+      <float>0</float>
+      <float>0</float>
+      <float>0</float>
+      <float>0</float>
+      <float>0</float>
+      <float>0</float>
+      <float>0</float>
+      <float>0</float>
+      <float>0</float>
+    </Damage_Resistance>
+    <Impact_Resistance>0</Impact_Resistance>
+    <Damage_Protection>0</Damage_Protection>
+    <Damage_Bonus>
+      <float>0</float>
+      <float>0</float>
+      <float>0</float>
+      <float>0</float>
+      <float>0</float>
+      <float>0</float>
+      <float>0</float>
+      <float>0</float>
+      <float>0</float>
+    </Damage_Bonus>
+    <Stamina_Use_Penalty>0</Stamina_Use_Penalty>
+    <Mana_Use_Modifier>0</Mana_Use_Modifier>
+    <Movement_Penalty>0</Movement_Penalty>
+    <Pouch_Bonus>0</Pouch_Bonus>
+    <Heat_Protection>0</Heat_Protection>
+    <Cold_Protection>0</Cold_Protection>
+    <Corruption_Protection>0</Corruption_Protection>
+    <AttackSpeed>1</AttackSpeed>
+    <BaseDamage>
+      <Damages>
+        <Damage>19</Damage>
+        <Damage_Type>Physical</Damage_Type>
+      </Damages>
+    </BaseDamage>
+    <Impact>25</Impact>
+    <AttackCount>1</AttackCount>
+    <Attacks>
+      <AttackData>
+        <StamCost>0</StamCost>
+        <Knockback>25</Knockback>
+        <AttackSpeed>1</AttackSpeed>
+        <Damage>
+          <float>19</float>
+        </Damage>
+      </AttackData>
+    </Attacks>
+  </StatsHolder>
+  <Tags>
+    <string>Weapon</string>
+    <string>Item</string>
+    <string>Dague</string>
+    <string>Trinket</string>
+  </Tags>
+  <EffectTransforms />
+  <EquipmentSlot>LeftHand</EquipmentSlot>
+  <IKType>None</IKType>
+  <TwoHandType>None</TwoHandType>
+  <VisualDetectabilityAdd>0</VisualDetectabilityAdd>
+  <WeaponType>Dagger_OH</WeaponType>
+  <StamCost>0</StamCost>
+</ItemHolder>

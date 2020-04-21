@@ -36,7 +36,7 @@
       <ChildEffects />
     </EffectTransformHolder>
   </EffectTransforms>
-  <Cooldown>7</Cooldown>
+  <Cooldown>3</Cooldown>
   <StaminaCost>0</StaminaCost>
   <ManaCost>0</ManaCost>
   <DurabilityCost>0</DurabilityCost>

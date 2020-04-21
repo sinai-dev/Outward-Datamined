@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ItemHolder xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <ItemID>6600228</ItemID>
+  <Name>DLC Special Boss 01</Name>
+  <gameObjectName>6600228_BossReward_Ing_DLCBoss_Special_01</gameObjectName>
+  <saveDir />
+  <Description />
+  <LegacyItemID>-1</LegacyItemID>
+  <StatsHolder>
+    <BaseValue>200</BaseValue>
+    <RawWeight>0.2</RawWeight>
+    <MaxDurability>-1</MaxDurability>
+  </StatsHolder>
+  <Tags>
+    <string>Ingredient Craf</string>
+    <string>Ingredient</string>
+    <string>Item</string>
+    <string>Misc</string>
+  </Tags>
+  <EffectTransforms />
+</ItemHolder>

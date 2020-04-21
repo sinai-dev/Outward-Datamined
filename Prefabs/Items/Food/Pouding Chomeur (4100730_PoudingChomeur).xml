@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ItemHolder xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <ItemID>4100730</ItemID>
+  <Name>Pouding Chomeur</Name>
+  <gameObjectName>4100730_PoudingChomeur</gameObjectName>
+  <saveDir>/Food</saveDir>
+  <Description />
+  <LegacyItemID>-1</LegacyItemID>
+  <StatsHolder>
+    <BaseValue>15</BaseValue>
+    <RawWeight>0.5</RawWeight>
+    <MaxDurability>-1</MaxDurability>
+  </StatsHolder>
+  <Tags>
+    <string>Consummable</string>
+    <string>Item</string>
+  </Tags>
+  <EffectTransforms>
+    <EffectTransformHolder>
+      <TransformName>Effects</TransformName>
+      <Effects>
+        <EffectHolder xsi:type="AffectNeedHolder">
+          <Need>AffectDrink</Need>
+          <AffectQuantity>50</AffectQuantity>
+        </EffectHolder>
+        <EffectHolder xsi:type="AddStatusEffectHolder">
+          <StatusEffect>Gaberry Wine</StatusEffect>
+          <ChanceToContract>101</ChanceToContract>
+        </EffectHolder>
+      </Effects>
+      <EffectConditions />
+      <ChildEffects />
+    </EffectTransformHolder>
+  </EffectTransforms>
+</ItemHolder>

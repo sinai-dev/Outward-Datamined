@@ -26,21 +26,17 @@
   <Merchants />
   <Loot_Containers>
     <QuantityHolder>
-      <Name>Chest</Name>
-      <Quantity>3</Quantity>
-    </QuantityHolder>
-    <QuantityHolder>
       <Name>Junk Pile</Name>
       <Quantity>4</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Chest</Name>
+      <Quantity>3</Quantity>
     </QuantityHolder>
   </Loot_Containers>
   <Gatherables>
     <QuantityHolder>
-      <Name>Palladium vein</Name>
-      <Quantity>1</Quantity>
-    </QuantityHolder>
-    <QuantityHolder>
-      <Name>Green Mushroom</Name>
+      <Name>Star Mushroom</Name>
       <Quantity>2</Quantity>
     </QuantityHolder>
     <QuantityHolder>
@@ -48,7 +44,11 @@
       <Quantity>2</Quantity>
     </QuantityHolder>
     <QuantityHolder>
-      <Name>Star Mushroom</Name>
+      <Name>Palladium vein</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Green Mushroom</Name>
       <Quantity>2</Quantity>
     </QuantityHolder>
   </Gatherables>
@@ -59,9 +59,19 @@
       <Quantity>5</Quantity>
       <positions>
         <Vector3>
+          <x>38.624</x>
+          <y>1.334</y>
+          <z>-54.287</z>
+        </Vector3>
+        <Vector3>
           <x>51.35</x>
           <y>1.27572441</y>
           <z>-54.278</z>
+        </Vector3>
+        <Vector3>
+          <x>50.015</x>
+          <y>1.27572441</y>
+          <z>-54.216</z>
         </Vector3>
         <Vector3>
           <x>39.391</x>
@@ -69,30 +79,20 @@
           <z>-54.287</z>
         </Vector3>
         <Vector3>
-          <x>38.624</x>
-          <y>1.334</y>
-          <z>-54.287</z>
-        </Vector3>
-        <Vector3>
           <x>50.558</x>
           <y>1.27572441</y>
           <z>-54.221</z>
-        </Vector3>
-        <Vector3>
-          <x>50.015</x>
-          <y>1.27572441</y>
-          <z>-54.216</z>
         </Vector3>
       </positions>
     </ItemSpawnHolder>
   </Item_Spawns>
   <UniqueContainerList>
-    <string>Chest_TCY-VpfIv0y0BZuqP7dL_Q</string>
-    <string>Chest_u1GTP9vSh06mBQkHcXm0gA</string>
-    <string>Junk Pile_E8A_uQPyskShPkHm7SAbmw</string>
+    <string>Junk Pile_7zyMcL_SCU2RkpNqsG2rzg</string>
+    <string>Junk Pile_xDep4haS4EGb9gcyNkzExw</string>
     <string>Junk Pile_IPuWp3a6jUCXYJXJUcV_xQ</string>
     <string>Chest_Hed6pDtlv0Wns-vjGr43Zg</string>
-    <string>Junk Pile_xDep4haS4EGb9gcyNkzExw</string>
-    <string>Junk Pile_7zyMcL_SCU2RkpNqsG2rzg</string>
+    <string>Chest_u1GTP9vSh06mBQkHcXm0gA</string>
+    <string>Junk Pile_E8A_uQPyskShPkHm7SAbmw</string>
+    <string>Chest_TCY-VpfIv0y0BZuqP7dL_Q</string>
   </UniqueContainerList>
 </SceneSummary>

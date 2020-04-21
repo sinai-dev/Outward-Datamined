@@ -3,11 +3,11 @@
   <SceneName>Dead Tree</SceneName>
   <Enemies>
     <QuantityHolder>
-      <Name>Immaculate (1)</Name>
+      <Name>Illuminator Horror (1)</Name>
       <Quantity>1</Quantity>
     </QuantityHolder>
     <QuantityHolder>
-      <Name>Illuminator Horror (1)</Name>
+      <Name>Immaculate (1)</Name>
       <Quantity>1</Quantity>
     </QuantityHolder>
   </Enemies>

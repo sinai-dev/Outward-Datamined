@@ -97,7 +97,6 @@
     <string>Blade</string>
     <string>Weapon</string>
     <string>Item</string>
-    <string>Lexicon</string>
   </Tags>
   <EffectTransforms>
     <EffectTransformHolder>
@@ -117,4 +116,5 @@
   <TwoHandType>None</TwoHandType>
   <VisualDetectabilityAdd>0</VisualDetectabilityAdd>
   <WeaponType>Sword_1H</WeaponType>
+  <StamCost>5.2</StamCost>
 </ItemHolder>

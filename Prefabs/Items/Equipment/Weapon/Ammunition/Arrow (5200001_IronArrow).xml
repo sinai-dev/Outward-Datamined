@@ -126,4 +126,5 @@ Arrows must be equipped in order to be shot.</Description>
   <TwoHandType>None</TwoHandType>
   <VisualDetectabilityAdd>0</VisualDetectabilityAdd>
   <WeaponType>Arrow</WeaponType>
+  <StamCost>0</StamCost>
 </ItemHolder>

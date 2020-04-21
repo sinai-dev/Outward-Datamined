@@ -11,31 +11,7 @@
       <Quantity>12</Quantity>
     </QuantityHolder>
     <QuantityHolder>
-      <Name>Stekosaur (1)</Name>
-      <Quantity>13</Quantity>
-    </QuantityHolder>
-    <QuantityHolder>
-      <Name>Phytoflora (1)</Name>
-      <Quantity>2</Quantity>
-    </QuantityHolder>
-    <QuantityHolder>
-      <Name>Tuanosaur (1)</Name>
-      <Quantity>7</Quantity>
-    </QuantityHolder>
-    <QuantityHolder>
-      <Name>Bandit (3)</Name>
-      <Quantity>1</Quantity>
-    </QuantityHolder>
-    <QuantityHolder>
-      <Name>Golden Specter (2)</Name>
-      <Quantity>1</Quantity>
-    </QuantityHolder>
-    <QuantityHolder>
-      <Name>Marsh Archer (1)</Name>
-      <Quantity>2</Quantity>
-    </QuantityHolder>
-    <QuantityHolder>
-      <Name>Golden Specter (1)</Name>
+      <Name>Marsh Archer Captain (1)</Name>
       <Quantity>1</Quantity>
     </QuantityHolder>
     <QuantityHolder>
@@ -43,23 +19,23 @@
       <Quantity>5</Quantity>
     </QuantityHolder>
     <QuantityHolder>
-      <Name>Marsh Bandit (2)</Name>
-      <Quantity>3</Quantity>
+      <Name>Stekosaur (1)</Name>
+      <Quantity>13</Quantity>
     </QuantityHolder>
     <QuantityHolder>
-      <Name>Alpha Tuanosaur (1)</Name>
+      <Name>Marsh Archer (1)</Name>
       <Quantity>2</Quantity>
     </QuantityHolder>
     <QuantityHolder>
-      <Name>Immaculate (1)</Name>
-      <Quantity>1</Quantity>
+      <Name>Tuanosaur (1)</Name>
+      <Quantity>7</Quantity>
     </QuantityHolder>
     <QuantityHolder>
-      <Name>Ice Witch (1)</Name>
-      <Quantity>3</Quantity>
+      <Name>Phytoflora (1)</Name>
+      <Quantity>2</Quantity>
     </QuantityHolder>
     <QuantityHolder>
-      <Name>Bandit (2)</Name>
+      <Name>Golden Specter (1)</Name>
       <Quantity>1</Quantity>
     </QuantityHolder>
     <QuantityHolder>
@@ -67,11 +43,35 @@
       <Quantity>2</Quantity>
     </QuantityHolder>
     <QuantityHolder>
-      <Name>Ash Giant (1)</Name>
+      <Name>Alpha Tuanosaur (1)</Name>
+      <Quantity>2</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Marsh Bandit (2)</Name>
+      <Quantity>3</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Immaculate (1)</Name>
       <Quantity>1</Quantity>
     </QuantityHolder>
     <QuantityHolder>
-      <Name>Marsh Archer Captain (1)</Name>
+      <Name>Bandit (2)</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Ice Witch (1)</Name>
+      <Quantity>3</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Golden Specter (2)</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Bandit (1)</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Ash Giant (1)</Name>
       <Quantity>1</Quantity>
     </QuantityHolder>
   </Enemies>
@@ -81,28 +81,28 @@
   </Merchants>
   <Loot_Containers>
     <QuantityHolder>
-      <Name>Hollowed Trunk</Name>
-      <Quantity>9</Quantity>
+      <Name>Supply Cache</Name>
+      <Quantity>20</Quantity>
     </QuantityHolder>
     <QuantityHolder>
       <Name>Broken Tent</Name>
       <Quantity>2</Quantity>
     </QuantityHolder>
     <QuantityHolder>
-      <Name>Supply Cache</Name>
-      <Quantity>20</Quantity>
+      <Name>Looter’s Corpse</Name>
+      <Quantity>1</Quantity>
     </QuantityHolder>
     <QuantityHolder>
-      <Name>Soldier’s Corpse</Name>
-      <Quantity>2</Quantity>
+      <Name>Hollowed Trunk</Name>
+      <Quantity>9</Quantity>
     </QuantityHolder>
     <QuantityHolder>
       <Name>Chest</Name>
       <Quantity>11</Quantity>
     </QuantityHolder>
     <QuantityHolder>
-      <Name>Looter’s Corpse</Name>
-      <Quantity>1</Quantity>
+      <Name>Soldier’s Corpse</Name>
+      <Quantity>2</Quantity>
     </QuantityHolder>
     <QuantityHolder>
       <Name>Adventurer’s Corpse</Name>
@@ -115,28 +115,32 @@
       <Quantity>3</Quantity>
     </QuantityHolder>
     <QuantityHolder>
-      <Name>Firefly Powder</Name>
-      <Quantity>20</Quantity>
-    </QuantityHolder>
-    <QuantityHolder>
-      <Name>Gaberries</Name>
-      <Quantity>35</Quantity>
+      <Name>Livweedi</Name>
+      <Quantity>25</Quantity>
     </QuantityHolder>
     <QuantityHolder>
       <Name>Salt Crystal</Name>
       <Quantity>8</Quantity>
     </QuantityHolder>
     <QuantityHolder>
-      <Name>Iron vein</Name>
-      <Quantity>27</Quantity>
+      <Name>Gaberries</Name>
+      <Quantity>35</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Firefly Powder</Name>
+      <Quantity>20</Quantity>
     </QuantityHolder>
     <QuantityHolder>
       <Name>Marshmelon</Name>
       <Quantity>43</Quantity>
     </QuantityHolder>
     <QuantityHolder>
-      <Name>Livweedi</Name>
-      <Quantity>25</Quantity>
+      <Name>Oil</Name>
+      <Quantity>10</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Iron vein</Name>
+      <Quantity>27</Quantity>
     </QuantityHolder>
     <QuantityHolder>
       <Name>Palladium vein</Name>
@@ -155,16 +159,12 @@
       <Quantity>15</Quantity>
     </QuantityHolder>
     <QuantityHolder>
-      <Name>Oil</Name>
-      <Quantity>10</Quantity>
+      <Name>Mana Stone</Name>
+      <Quantity>6</Quantity>
     </QuantityHolder>
     <QuantityHolder>
       <Name>Crabeye</Name>
       <Quantity>28</Quantity>
-    </QuantityHolder>
-    <QuantityHolder>
-      <Name>Mana Stone</Name>
-      <Quantity>6</Quantity>
     </QuantityHolder>
     <QuantityHolder>
       <Name>Rich Iron vein</Name>
@@ -189,6 +189,18 @@
       </positions>
     </ItemSpawnHolder>
     <ItemSpawnHolder>
+      <Name>Shiv Dagger</Name>
+      <Item_ID>5110003</Item_ID>
+      <Quantity>1</Quantity>
+      <positions>
+        <Vector3>
+          <x>1326.199</x>
+          <y>-62.11</y>
+          <z>572.697</z>
+        </Vector3>
+      </positions>
+    </ItemSpawnHolder>
+    <ItemSpawnHolder>
       <Name>Iron Spear</Name>
       <Item_ID>2130110</Item_ID>
       <Quantity>2</Quantity>
@@ -205,66 +217,54 @@
         </Vector3>
       </positions>
     </ItemSpawnHolder>
-    <ItemSpawnHolder>
-      <Name>Shiv Dagger</Name>
-      <Item_ID>5110003</Item_ID>
-      <Quantity>1</Quantity>
-      <positions>
-        <Vector3>
-          <x>1326.199</x>
-          <y>-62.11</y>
-          <z>572.697</z>
-        </Vector3>
-      </positions>
-    </ItemSpawnHolder>
   </Item_Spawns>
   <UniqueContainerList>
-    <string>Hollowed Trunk_r-0A33uzL0C0ndqh8kcJxw</string>
+    <string>Supply Cache_VAr_cNKQk0-Gy_6kEhT7Lg</string>
+    <string>Supply Cache_vsJpKJMLg02EmVA9J7uNog</string>
     <string>Broken Tent_vuhje5jKaE2d20gx9WUPQw</string>
     <string>Supply Cache_8av19FZ7KEmRP3c2zr3kQA</string>
-    <string>Soldier’s Corpse_QFnGM8ECJkijDeRk9IDyow</string>
-    <string>Chest_2oOkv4omKE2YDJX6GToQ0g</string>
-    <string>Hollowed Trunk_1AyHDkI9AEmRGCWPjU5aAQ</string>
-    <string>Hollowed Trunk_8CXr1v3qek-_wOevGxc_sQ</string>
-    <string>Chest_cC68QoNe7kOSzeR1nQ-q7g</string>
-    <string>Chest_N7uMOxumBE632laQihUH6g</string>
-    <string>Supply Cache_kgYXPiqYhk2X0a_hMRPeKQ</string>
-    <string>Chest_1w2App86JU-oEkeG2zVSAA</string>
-    <string>Supply Cache_QJaqmgUpYU-bbXEoTEtltw</string>
-    <string>Supply Cache_oFeuYqpTC02BtluI63WWDQ</string>
-    <string>Chest_17BY0phLWkCe0-9XMz5ldg</string>
-    <string>Chest_uKHi4FVZpEG2bM6e2Dwj8A</string>
-    <string>Hollowed Trunk_Mun-A5J0UkSgn4PgJE_ETA</string>
-    <string>Chest_D8nAUFoNaEGseKA5xcG5gw</string>
-    <string>Chest_vM3dPtgoLEedtYgA5alAxQ</string>
-    <string>Supply Cache_LHcmdWFAX0OQGBLlnNVPaA</string>
-    <string>Supply Cache_q8DGo2FWoUys4wq4utgZGw</string>
-    <string>Supply Cache_YfE6tAEyNUymG4FdXW7IpA</string>
     <string>Supply Cache_lYkmOzchC0GaqR2KEpyqYQ</string>
-    <string>Supply Cache_zwOuwYK9uk6R7uXWdTIVLg</string>
-    <string>Supply Cache_djgXHqQbJUierTMwBWCtHA</string>
-    <string>Chest_8X5d5ipPpEGN2sixqF8tBg</string>
-    <string>Supply Cache_vsJpKJMLg02EmVA9J7uNog</string>
-    <string>Soldier’s Corpse_JwPebyuNzUiZFtin86lCZQ</string>
+    <string>Supply Cache_QJaqmgUpYU-bbXEoTEtltw</string>
     <string>Looter’s Corpse_RgZTWbgtCUWiLwu-gGBW4A</string>
-    <string>Broken Tent_ZtTvEDdPQ0OxbWHBxmiqpA</string>
-    <string>Hollowed Trunk_ylg0Ohm93U68TAAQAivhTA</string>
-    <string>Hollowed Trunk_JamHeJu1REW4J0MPQIpARQ</string>
-    <string>Supply Cache_KL3OHzsZ20GTRDcVzMMLMg</string>
-    <string>Supply Cache_7KqPAmcxGE-jpESaCZYU5w</string>
-    <string>Hollowed Trunk_o-PqhKR3ykK-dD6oNk5EUw</string>
-    <string>Hollowed Trunk_37T8Jshr30yzVE-DVcJyxg</string>
     <string>Supply Cache_ZhCAfaHok0Ws_kdSWO8iSQ</string>
-    <string>Chest__RS1dIDm-0ykPbhidm-bWQ</string>
-    <string>Chest_fHdrLNI9SE-vP6p9WbmZRA</string>
-    <string>Supply Cache_tK_HLm0i3kGKoB2-f3INJg</string>
-    <string>Supply Cache_gh3VynnpJ0i4s_lxVO2rFA</string>
     <string>Supply Cache_p7eZ45rUukKv2E1YkhVtQQ</string>
+    <string>Supply Cache_oFeuYqpTC02BtluI63WWDQ</string>
+    <string>Hollowed Trunk_zGcwmrfkbE-aRbrNUKweBQ</string>
+    <string>Supply Cache_7KqPAmcxGE-jpESaCZYU5w</string>
+    <string>Supply Cache_zwOuwYK9uk6R7uXWdTIVLg</string>
+    <string>Hollowed Trunk_JamHeJu1REW4J0MPQIpARQ</string>
+    <string>Chest_cC68QoNe7kOSzeR1nQ-q7g</string>
+    <string>Supply Cache_gh3VynnpJ0i4s_lxVO2rFA</string>
+    <string>Soldier’s Corpse_JwPebyuNzUiZFtin86lCZQ</string>
+    <string>Broken Tent_ZtTvEDdPQ0OxbWHBxmiqpA</string>
+    <string>Supply Cache_djgXHqQbJUierTMwBWCtHA</string>
+    <string>Soldier’s Corpse_QFnGM8ECJkijDeRk9IDyow</string>
+    <string>Chest_D8nAUFoNaEGseKA5xcG5gw</string>
+    <string>Hollowed Trunk_o-PqhKR3ykK-dD6oNk5EUw</string>
+    <string>Hollowed Trunk_8CXr1v3qek-_wOevGxc_sQ</string>
+    <string>Chest_fHdrLNI9SE-vP6p9WbmZRA</string>
     <string>Adventurer’s Corpse_Dg9o4HqQgUOK7FXZsOcAsA</string>
+    <string>Chest_N7uMOxumBE632laQihUH6g</string>
+    <string>Hollowed Trunk_ylg0Ohm93U68TAAQAivhTA</string>
+    <string>Chest_17BY0phLWkCe0-9XMz5ldg</string>
     <string>Adventurer’s Corpse_NwNNxchgnkap5py4WedyJw</string>
     <string>Supply Cache_0E9-EsZPmkejes5ebx8hzA</string>
+    <string>Chest_1w2App86JU-oEkeG2zVSAA</string>
+    <string>Supply Cache_tK_HLm0i3kGKoB2-f3INJg</string>
+    <string>Hollowed Trunk_37T8Jshr30yzVE-DVcJyxg</string>
+    <string>Supply Cache_LHcmdWFAX0OQGBLlnNVPaA</string>
+    <string>Hollowed Trunk_Mun-A5J0UkSgn4PgJE_ETA</string>
+    <string>Supply Cache_q8DGo2FWoUys4wq4utgZGw</string>
+    <string>Chest_2oOkv4omKE2YDJX6GToQ0g</string>
+    <string>Hollowed Trunk_1AyHDkI9AEmRGCWPjU5aAQ</string>
+    <string>Hollowed Trunk_r-0A33uzL0C0ndqh8kcJxw</string>
+    <string>Chest_uKHi4FVZpEG2bM6e2Dwj8A</string>
     <string>Supply Cache_g7BotCYVvEy2-el67aXnYg</string>
-    <string>Hollowed Trunk_zGcwmrfkbE-aRbrNUKweBQ</string>
-    <string>Supply Cache_VAr_cNKQk0-Gy_6kEhT7Lg</string>
+    <string>Chest_8X5d5ipPpEGN2sixqF8tBg</string>
+    <string>Supply Cache_KL3OHzsZ20GTRDcVzMMLMg</string>
+    <string>Supply Cache_kgYXPiqYhk2X0a_hMRPeKQ</string>
+    <string>Chest_vM3dPtgoLEedtYgA5alAxQ</string>
+    <string>Supply Cache_YfE6tAEyNUymG4FdXW7IpA</string>
+    <string>Chest__RS1dIDm-0ykPbhidm-bWQ</string>
   </UniqueContainerList>
 </SceneSummary>

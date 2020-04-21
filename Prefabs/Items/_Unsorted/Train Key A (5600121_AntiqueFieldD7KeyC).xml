@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ItemHolder xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <ItemID>5600121</ItemID>
+  <Name>Train Key A</Name>
+  <gameObjectName>5600121_AntiqueFieldD7KeyC</gameObjectName>
+  <saveDir />
+  <Description>Used at a Runic Console in the Destroyed Test Chambers to reactivate the Rune Train to the Mana Transfer Station.</Description>
+  <LegacyItemID>-1</LegacyItemID>
+  <StatsHolder>
+    <BaseValue>1</BaseValue>
+    <RawWeight>0.1</RawWeight>
+    <MaxDurability>-1</MaxDurability>
+  </StatsHolder>
+  <Tags>
+    <string>Key</string>
+    <string>Item</string>
+  </Tags>
+  <EffectTransforms />
+</ItemHolder>

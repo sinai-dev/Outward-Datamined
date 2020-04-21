@@ -8,8 +8,8 @@
   <LegacyItemID>-1</LegacyItemID>
   <StatsHolder xsi:type="WeaponStatsHolder">
     <BaseValue>200</BaseValue>
-    <RawWeight>10</RawWeight>
-    <MaxDurability>175</MaxDurability>
+    <RawWeight>9</RawWeight>
+    <MaxDurability>250</MaxDurability>
     <Damage_Resistance>
       <float>0</float>
       <float>0</float>
@@ -44,7 +44,7 @@
     <AttackSpeed>0</AttackSpeed>
     <BaseDamage>
       <Damages>
-        <Damage>14</Damage>
+        <Damage>18</Damage>
         <Damage_Type>Physical</Damage_Type>
       </Damages>
     </BaseDamage>
@@ -56,7 +56,7 @@
         <Knockback>56</Knockback>
         <AttackSpeed>0</AttackSpeed>
         <Damage>
-          <float>14</float>
+          <float>18</float>
         </Damage>
       </AttackData>
       <AttackData>
@@ -64,7 +64,7 @@
         <Knockback>56</Knockback>
         <AttackSpeed>0</AttackSpeed>
         <Damage>
-          <float>14</float>
+          <float>18</float>
         </Damage>
       </AttackData>
       <AttackData>
@@ -72,7 +72,7 @@
         <Knockback>56</Knockback>
         <AttackSpeed>0</AttackSpeed>
         <Damage>
-          <float>14</float>
+          <float>18</float>
         </Damage>
       </AttackData>
       <AttackData>
@@ -80,7 +80,7 @@
         <Knockback>56</Knockback>
         <AttackSpeed>0</AttackSpeed>
         <Damage>
-          <float>14</float>
+          <float>18</float>
         </Damage>
       </AttackData>
       <AttackData>
@@ -88,7 +88,7 @@
         <Knockback>56</Knockback>
         <AttackSpeed>0</AttackSpeed>
         <Damage>
-          <float>14</float>
+          <float>18</float>
         </Damage>
       </AttackData>
     </Attacks>
@@ -105,4 +105,5 @@
   <TwoHandType>None</TwoHandType>
   <VisualDetectabilityAdd>0</VisualDetectabilityAdd>
   <WeaponType>Shield</WeaponType>
+  <StamCost>0</StamCost>
 </ItemHolder>

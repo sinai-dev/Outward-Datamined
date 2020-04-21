@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ItemHolder xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="SkillHolder">
+  <ItemID>8300428</ItemID>
+  <Name>EliteSupremeShellSpecialLazer</Name>
+  <gameObjectName>8300428_EliteSupremeShellCalmDown</gameObjectName>
+  <saveDir>/Skill</saveDir>
+  <Description />
+  <LegacyItemID>-1</LegacyItemID>
+  <Tags />
+  <EffectTransforms>
+    <EffectTransformHolder>
+      <TransformName>Effects</TransformName>
+      <Effects>
+        <EffectHolder xsi:type="AddStatusEffectHolder">
+          <StatusEffect>Discipline</StatusEffect>
+          <ChanceToContract>100</ChanceToContract>
+        </EffectHolder>
+      </Effects>
+      <EffectConditions />
+      <ChildEffects />
+    </EffectTransformHolder>
+    <EffectTransformHolder>
+      <TransformName>AdditionalActivationConditions</TransformName>
+      <Effects />
+      <EffectConditions />
+      <ChildEffects>
+        <EffectTransformHolder>
+          <TransformName>NoRage</TransformName>
+          <Effects />
+          <EffectConditions>
+            <EffectConditionHolder>
+              <Conditions>
+                <ConditionHolder>
+                  <Requirement>Rage</Requirement>
+                  <Condition_Type>Status Effect</Condition_Type>
+                  <Invert>false</Invert>
+                </ConditionHolder>
+              </Conditions>
+            </EffectConditionHolder>
+          </EffectConditions>
+          <ChildEffects />
+        </EffectTransformHolder>
+      </ChildEffects>
+    </EffectTransformHolder>
+  </EffectTransforms>
+  <Cooldown>4.5</Cooldown>
+  <StaminaCost>0</StaminaCost>
+  <ManaCost>0</ManaCost>
+  <DurabilityCost>0</DurabilityCost>
+  <DurabilityCostPercent>0</DurabilityCostPercent>
+  <IsDLCSkill>true</IsDLCSkill>
+  <RequiredItems />
+</ItemHolder>

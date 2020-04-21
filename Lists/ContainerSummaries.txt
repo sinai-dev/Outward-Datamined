@@ -1,36 +1,36 @@
 Tree
 Junk Pile
 Hollowed Trunk
-Gaberries
 Seaweed
-Stash
+Gaberries
 Ornate Chest
+Stash
 Chest
-Fishing Spot (DropTable_FishingSpotChersoneseBeach)
 Crabeye
+Fishing Spot (DropTable_FishingSpotChersoneseBeach)
 Supply Cache
-Broken Tent
 Adventurer’s Corpse
 Soldier’s Corpse
+Broken Tent
 Worker’s Corpse
 Turmmip
 Fishing Spot (DropTable_FishingSpotChersoneseRiver)
+Ghost Plant
+Salt Crystal
+Rich Iron vein
 Mana Stone
 Iron vein
-Salt Crystal
-Pearlbird Nest
 Oil
 Blue Sand
-Ammolite
-Rich Iron vein
-Ghost Plant
 Greasy Fern
+Ammolite
+Pearlbird Nest
 Looter’s Corpse
 Star Mushroom
 Blood Mushroom
 Green Mushroom
-Corpse
 Trog Chest
+Corpse
 Palladium vein
 Fishing Spot (DropTable_FishingSpotChersoneseCave)
 Scavenger’s Corpse
@@ -44,7 +44,7 @@ Fishing Spot (DropTable_FishingSpotHallowedMarsh)
 Cactus
 Smoke Root
 Woolshroom
-Yellow Copal
-Petrified Wood
 Fishing Spot (DropTable_FishingSpotEmercarA)
 Fishing Spot (DropTable_FishingSpotEmercarB)
+Petrified Wood
+Yellow Copal

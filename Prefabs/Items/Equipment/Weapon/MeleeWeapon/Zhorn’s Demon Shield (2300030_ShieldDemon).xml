@@ -106,4 +106,5 @@ Whatever magic used to enchant this shield is long gone, though it retains its e
   <TwoHandType>None</TwoHandType>
   <VisualDetectabilityAdd>0</VisualDetectabilityAdd>
   <WeaponType>Shield</WeaponType>
+  <StamCost>0</StamCost>
 </ItemHolder>

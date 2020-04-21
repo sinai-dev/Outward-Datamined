@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <EnemyHolder xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Name>Animated Skeleton</Name>
-  <GameObject_Name>Skeleton Shield</GameObject_Name>
+  <GameObject_Name>Skeleton 2handedSword</GameObject_Name>
   <Unique_ID>4</Unique_ID>
   <Locations_Found>
     <string>Hallowed Marsh:Ziggurat Passage</string>
@@ -36,11 +36,11 @@
   <Collider_Radius>0.4</Collider_Radius>
   <True_WeaponDamage>
     <Damages>
-      <Damage>25.2</Damage>
+      <Damage>33.6</Damage>
       <Damage_Type>Physical</Damage_Type>
     </Damages>
   </True_WeaponDamage>
-  <Weapon_Impact>16</Weapon_Impact>
+  <Weapon_Impact>26</Weapon_Impact>
   <Status_Immunities>
     <string>Bleeding</string>
     <string>Poison</string>
@@ -49,8 +49,7 @@
     <string>Merton’s Skull (3200031)</string>
     <string>Merton’s Ribcage (3200030)</string>
     <string>Merton’s Shinbones (3200032)</string>
-    <string>Iron Axe (2010000)</string>
-    <string>Old Legion Shield (2300070)</string>
+    <string>Iron Claymore (2100080)</string>
     <string>Stat Booster 1 (5400000)</string>
   </Starting_Equipment>
   <Skill_Knowledge />
@@ -64,14 +63,8 @@
       <Max_Quantity>1</Max_Quantity>
     </DropTableEntry>
     <DropTableEntry>
-      <Item_Name>Iron Axe</Item_Name>
-      <Item_ID>2010000</Item_ID>
-      <Min_Quantity>1</Min_Quantity>
-      <Max_Quantity>1</Max_Quantity>
-    </DropTableEntry>
-    <DropTableEntry>
-      <Item_Name>Old Legion Shield</Item_Name>
-      <Item_ID>2300070</Item_ID>
+      <Item_Name>Iron Claymore</Item_Name>
+      <Item_ID>2100080</Item_ID>
       <Min_Quantity>1</Min_Quantity>
       <Max_Quantity>1</Max_Quantity>
     </DropTableEntry>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ItemHolder xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <ItemID>4300360</ItemID>
+  <Name>Max Alertness Potion</Name>
+  <gameObjectName>4300360_MaxAlertnessPotion</gameObjectName>
+  <saveDir />
+  <Description />
+  <LegacyItemID>-1</LegacyItemID>
+  <StatsHolder>
+    <BaseValue>60</BaseValue>
+    <RawWeight>0.5</RawWeight>
+    <MaxDurability>-1</MaxDurability>
+  </StatsHolder>
+  <Tags>
+    <string>Drink</string>
+    <string>Consummable</string>
+    <string>Item</string>
+  </Tags>
+  <EffectTransforms>
+    <EffectTransformHolder>
+      <TransformName>Effects</TransformName>
+      <Effects>
+        <EffectHolder xsi:type="AffectBurntStaminaHolder">
+          <AffectQuantity>50</AffectQuantity>
+          <IsModifier>false</IsModifier>
+        </EffectHolder>
+        <EffectHolder xsi:type="AffectStaminaHolder">
+          <AffectQuantity>100</AffectQuantity>
+        </EffectHolder>
+        <EffectHolder xsi:type="AddStatusEffectHolder">
+          <StatusEffect>Stamina Recovery 5</StatusEffect>
+          <ChanceToContract>100</ChanceToContract>
+        </EffectHolder>
+      </Effects>
+      <EffectConditions />
+      <ChildEffects />
+    </EffectTransformHolder>
+  </EffectTransforms>
+</ItemHolder>

@@ -36,7 +36,7 @@
   <Collider_Radius>0.4</Collider_Radius>
   <True_WeaponDamage>
     <Damages>
-      <Damage>23</Damage>
+      <Damage>26</Damage>
       <Damage_Type>Physical</Damage_Type>
     </Damages>
   </True_WeaponDamage>

@@ -7,7 +7,7 @@
   <Description>Bow made from Shell Horror chitin which inflicts Poison on enemies.</Description>
   <LegacyItemID>-1</LegacyItemID>
   <StatsHolder xsi:type="WeaponStatsHolder">
-    <BaseValue>1250</BaseValue>
+    <BaseValue>2500</BaseValue>
     <RawWeight>4</RawWeight>
     <MaxDurability>200</MaxDurability>
     <Damage_Resistance>
@@ -44,7 +44,7 @@
     <AttackSpeed>0</AttackSpeed>
     <BaseDamage>
       <Damages>
-        <Damage>35</Damage>
+        <Damage>40</Damage>
         <Damage_Type>Physical</Damage_Type>
       </Damages>
     </BaseDamage>
@@ -56,7 +56,7 @@
         <Knockback>21</Knockback>
         <AttackSpeed>0</AttackSpeed>
         <Damage>
-          <float>35</float>
+          <float>40</float>
         </Damage>
       </AttackData>
       <AttackData>
@@ -64,7 +64,7 @@
         <Knockback>21</Knockback>
         <AttackSpeed>0</AttackSpeed>
         <Damage>
-          <float>35</float>
+          <float>40</float>
         </Damage>
       </AttackData>
       <AttackData>
@@ -72,7 +72,7 @@
         <Knockback>21</Knockback>
         <AttackSpeed>0</AttackSpeed>
         <Damage>
-          <float>35</float>
+          <float>40</float>
         </Damage>
       </AttackData>
       <AttackData>
@@ -80,7 +80,7 @@
         <Knockback>21</Knockback>
         <AttackSpeed>0</AttackSpeed>
         <Damage>
-          <float>35</float>
+          <float>40</float>
         </Damage>
       </AttackData>
       <AttackData>
@@ -88,7 +88,7 @@
         <Knockback>21</Knockback>
         <AttackSpeed>0</AttackSpeed>
         <Damage>
-          <float>35</float>
+          <float>40</float>
         </Damage>
       </AttackData>
     </Attacks>
@@ -128,4 +128,5 @@
   <TwoHandType>TwoHandedLeft</TwoHandType>
   <VisualDetectabilityAdd>0</VisualDetectabilityAdd>
   <WeaponType>Bow</WeaponType>
+  <StamCost>5.72</StamCost>
 </ItemHolder>

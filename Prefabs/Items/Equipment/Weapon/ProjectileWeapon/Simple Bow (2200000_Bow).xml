@@ -7,7 +7,7 @@
   <Description>Beginner's short bow mostly used to hunt small game, due to its lack of power.</Description>
   <LegacyItemID>2200001</LegacyItemID>
   <StatsHolder xsi:type="WeaponStatsHolder">
-    <BaseValue>25</BaseValue>
+    <BaseValue>13</BaseValue>
     <RawWeight>3</RawWeight>
     <MaxDurability>250</MaxDurability>
     <Damage_Resistance>
@@ -44,7 +44,7 @@
     <AttackSpeed>0</AttackSpeed>
     <BaseDamage>
       <Damages>
-        <Damage>23</Damage>
+        <Damage>26</Damage>
         <Damage_Type>Physical</Damage_Type>
       </Damages>
     </BaseDamage>
@@ -56,7 +56,7 @@
         <Knockback>12</Knockback>
         <AttackSpeed>0</AttackSpeed>
         <Damage>
-          <float>23</float>
+          <float>26</float>
         </Damage>
       </AttackData>
       <AttackData>
@@ -64,7 +64,7 @@
         <Knockback>12</Knockback>
         <AttackSpeed>0</AttackSpeed>
         <Damage>
-          <float>23</float>
+          <float>26</float>
         </Damage>
       </AttackData>
       <AttackData>
@@ -72,7 +72,7 @@
         <Knockback>12</Knockback>
         <AttackSpeed>0</AttackSpeed>
         <Damage>
-          <float>23</float>
+          <float>26</float>
         </Damage>
       </AttackData>
       <AttackData>
@@ -80,7 +80,7 @@
         <Knockback>12</Knockback>
         <AttackSpeed>0</AttackSpeed>
         <Damage>
-          <float>23</float>
+          <float>26</float>
         </Damage>
       </AttackData>
       <AttackData>
@@ -88,7 +88,7 @@
         <Knockback>12</Knockback>
         <AttackSpeed>0</AttackSpeed>
         <Damage>
-          <float>23</float>
+          <float>26</float>
         </Damage>
       </AttackData>
     </Attacks>
@@ -117,4 +117,5 @@
   <TwoHandType>TwoHandedLeft</TwoHandType>
   <VisualDetectabilityAdd>0</VisualDetectabilityAdd>
   <WeaponType>Bow</WeaponType>
+  <StamCost>2.13</StamCost>
 </ItemHolder>

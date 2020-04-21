@@ -11,27 +11,19 @@
       <Quantity>7</Quantity>
     </QuantityHolder>
     <QuantityHolder>
-      <Name>Ash Giant Priest (2)</Name>
-      <Quantity>1</Quantity>
-    </QuantityHolder>
-    <QuantityHolder>
       <Name>Shell Horror (1)</Name>
       <Quantity>1</Quantity>
-    </QuantityHolder>
-    <QuantityHolder>
-      <Name>Desert Bandit (5)</Name>
-      <Quantity>7</Quantity>
     </QuantityHolder>
     <QuantityHolder>
       <Name>Assassin Bug (1)</Name>
       <Quantity>8</Quantity>
     </QuantityHolder>
     <QuantityHolder>
-      <Name>Crescent Shark (1)</Name>
-      <Quantity>11</Quantity>
+      <Name>Walking Hive (1)</Name>
+      <Quantity>4</Quantity>
     </QuantityHolder>
     <QuantityHolder>
-      <Name>Guardian of the Compass (1)</Name>
+      <Name>Immaculate (1)</Name>
       <Quantity>1</Quantity>
     </QuantityHolder>
     <QuantityHolder>
@@ -43,16 +35,24 @@
       <Quantity>6</Quantity>
     </QuantityHolder>
     <QuantityHolder>
+      <Name>Guardian of the Compass (1)</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Desert Archer (1)</Name>
+      <Quantity>2</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Desert Bandit (5)</Name>
+      <Quantity>2</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
       <Name>Beast Golem (1)</Name>
       <Quantity>3</Quantity>
     </QuantityHolder>
     <QuantityHolder>
-      <Name>Walking Hive (1)</Name>
+      <Name>Jewelbird (1)</Name>
       <Quantity>4</Quantity>
-    </QuantityHolder>
-    <QuantityHolder>
-      <Name>Desert Bandit (6)</Name>
-      <Quantity>3</Quantity>
     </QuantityHolder>
     <QuantityHolder>
       <Name>Hive Lord (1)</Name>
@@ -63,36 +63,36 @@
       <Quantity>2</Quantity>
     </QuantityHolder>
     <QuantityHolder>
-      <Name>Jewelbird (1)</Name>
-      <Quantity>4</Quantity>
+      <Name>Crescent Shark (1)</Name>
+      <Quantity>11</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Desert Bandit (6)</Name>
+      <Quantity>7</Quantity>
     </QuantityHolder>
     <QuantityHolder>
       <Name>Sword Golem (2)</Name>
       <Quantity>1</Quantity>
     </QuantityHolder>
     <QuantityHolder>
-      <Name>Burning Man (1)</Name>
-      <Quantity>2</Quantity>
-    </QuantityHolder>
-    <QuantityHolder>
       <Name>Manticore (1)</Name>
       <Quantity>1</Quantity>
     </QuantityHolder>
     <QuantityHolder>
-      <Name>Desert Archer (1)</Name>
-      <Quantity>2</Quantity>
-    </QuantityHolder>
-    <QuantityHolder>
       <Name>Desert Bandit (7)</Name>
-      <Quantity>2</Quantity>
+      <Quantity>3</Quantity>
     </QuantityHolder>
     <QuantityHolder>
       <Name>Ice Witch (1)</Name>
       <Quantity>2</Quantity>
     </QuantityHolder>
     <QuantityHolder>
-      <Name>Immaculate (1)</Name>
+      <Name>Obsidian Elemental (1)</Name>
       <Quantity>1</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Burning Man (1)</Name>
+      <Quantity>2</Quantity>
     </QuantityHolder>
     <QuantityHolder>
       <Name>Illuminator Horror (1)</Name>
@@ -111,14 +111,14 @@
       <Quantity>1</Quantity>
     </QuantityHolder>
     <QuantityHolder>
-      <Name>Obsidian Elemental (1)</Name>
+      <Name>Ash Giant Priest (2)</Name>
       <Quantity>1</Quantity>
     </QuantityHolder>
   </Enemies>
   <Merchants>
     <string>Shopkeeper Suul (EMqw2ZGAo02dGNcdj-YGqg)</string>
-    <string>Smooth the Tailor (G_GyAVjRWkq8e2L8WP4TgA)</string>
     <string>Soroborean Caravanner (RFSrGIgsiEueNs6mgm97pA)</string>
+    <string>Smooth the Tailor (G_GyAVjRWkq8e2L8WP4TgA)</string>
   </Merchants>
   <Loot_Containers>
     <QuantityHolder>
@@ -126,12 +126,12 @@
       <Quantity>8</Quantity>
     </QuantityHolder>
     <QuantityHolder>
-      <Name>Junk Pile</Name>
-      <Quantity>4</Quantity>
-    </QuantityHolder>
-    <QuantityHolder>
       <Name>Supply Cache</Name>
       <Quantity>20</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Junk Pile</Name>
+      <Quantity>4</Quantity>
     </QuantityHolder>
     <QuantityHolder>
       <Name>Chest</Name>
@@ -148,52 +148,24 @@
       <Quantity>3</Quantity>
     </QuantityHolder>
     <QuantityHolder>
-      <Name>Cactus</Name>
-      <Quantity>66</Quantity>
+      <Name>Greasy Fern</Name>
+      <Quantity>2</Quantity>
     </QuantityHolder>
     <QuantityHolder>
-      <Name>Salt Crystal</Name>
-      <Quantity>28</Quantity>
+      <Name>Cactus</Name>
+      <Quantity>66</Quantity>
     </QuantityHolder>
     <QuantityHolder>
       <Name>Palladium vein</Name>
       <Quantity>6</Quantity>
     </QuantityHolder>
     <QuantityHolder>
-      <Name>Krimp</Name>
-      <Quantity>2</Quantity>
-    </QuantityHolder>
-    <QuantityHolder>
-      <Name>Smoke Root</Name>
-      <Quantity>2</Quantity>
-    </QuantityHolder>
-    <QuantityHolder>
-      <Name>Fishing Spot (DropTable_FishingSpotChersoneseBeach)</Name>
-      <Quantity>6</Quantity>
-    </QuantityHolder>
-    <QuantityHolder>
-      <Name>Greasy Fern</Name>
-      <Quantity>2</Quantity>
-    </QuantityHolder>
-    <QuantityHolder>
-      <Name>Oil</Name>
-      <Quantity>7</Quantity>
-    </QuantityHolder>
-    <QuantityHolder>
-      <Name>Crabeye</Name>
-      <Quantity>2</Quantity>
+      <Name>Salt Crystal</Name>
+      <Quantity>28</Quantity>
     </QuantityHolder>
     <QuantityHolder>
       <Name>Iron vein</Name>
       <Quantity>17</Quantity>
-    </QuantityHolder>
-    <QuantityHolder>
-      <Name>Mana Stone</Name>
-      <Quantity>2</Quantity>
-    </QuantityHolder>
-    <QuantityHolder>
-      <Name>Ammolite</Name>
-      <Quantity>3</Quantity>
     </QuantityHolder>
     <QuantityHolder>
       <Name>Gaberries</Name>
@@ -203,51 +175,79 @@
       <Name>Rich Iron vein</Name>
       <Quantity>5</Quantity>
     </QuantityHolder>
+    <QuantityHolder>
+      <Name>Oil</Name>
+      <Quantity>7</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Fishing Spot (DropTable_FishingSpotChersoneseBeach)</Name>
+      <Quantity>6</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Mana Stone</Name>
+      <Quantity>2</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Crabeye</Name>
+      <Quantity>2</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Smoke Root</Name>
+      <Quantity>2</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Krimp</Name>
+      <Quantity>2</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Ammolite</Name>
+      <Quantity>3</Quantity>
+    </QuantityHolder>
   </Gatherables>
   <Item_Spawns />
   <UniqueContainerList>
-    <string>Ornate Chest_Axpsf1cws0-KWsxo2Tx44g</string>
-    <string>Ornate Chest_bc7_TDAH40GM218gtf_JlQ</string>
-    <string>Junk Pile_j96i4BPaMkq20a5_2pDDNQ</string>
-    <string>Supply Cache_Cs0vxqKq7EyWQP6JxE3uYw</string>
-    <string>Supply Cache_oQjeaum8QEKGuJKYtouPvQ</string>
-    <string>Chest_ef8UoP8qa0-D1JNm5JamnQ</string>
-    <string>Corpse_VQoOZwj4_06X35wm4KCWmA</string>
-    <string>Junk Pile_vAgggHUXuEuI25ykMO9pPg</string>
-    <string>Supply Cache_2NGQWHT9a0ybwcNn0W18nQ</string>
-    <string>Ornate Chest_QiKIlHy8OU2xx5ol7wE0dA</string>
-    <string>Chest_UMY9ndaoYUObN4Bo6OwhRA</string>
-    <string>Corpse_0W0makuiN0KHupQImbubUw</string>
-    <string>Supply Cache_OmdTPEPx6ES5tcv7V5-5jA</string>
     <string>Ornate Chest_aIGltsWaTE2_Y9gq00FHIA</string>
-    <string>Supply Cache_vHXn1VN3mUKF3T2-k844dA</string>
-    <string>Ornate Chest_vuviUAhiRUGMdCCqDGcjxA</string>
-    <string>Supply Cache_gh3VynnpJ0i4s_lxVO2rFA</string>
-    <string>Supply Cache_GLUE7nyzEkCpaHp5vfmHhQ</string>
-    <string>Corpse_zvaNwV7mJkCA0qx_fVwvTg</string>
-    <string>Ornate Chest_0OXD_y6i0kGTIGT7sslnuw</string>
-    <string>Corpse_v0zkIbbj3kGYDK2iu-zeuQ</string>
-    <string>Supply Cache_2heu2G6Lt06hTrlffs0lUg</string>
-    <string>Supply Cache_8RDAf7RTM06jvqjQ0FqbUg</string>
-    <string>Chest_xSz8ZB2sAEe9RtKACaR8Vg</string>
-    <string>Ornate Chest_0aFuIoT-XEu3daUGcYt-QQ</string>
-    <string>Supply Cache_myRQNkKWPEG04Pkc_A6zNg</string>
-    <string>Supply Cache_Xwy6Yf96SkC1RyOvW5ez5Q</string>
-    <string>Supply Cache_fw0_-3loGkm2FqbEIO0O0A</string>
-    <string>Chest_tqYR-0fM5UeYqeiCsong8w</string>
-    <string>Ornate Chest_NkUfqjOQlkSSnToX51-T-A</string>
-    <string>Supply Cache_nRZ1P5nEHkOu9G5iK4wT_Q</string>
     <string>Supply Cache_gjvmit542E6OAy71bXBQyQ</string>
-    <string>Junk Pile_GicP-8vDD0i0pE6HHSgu4g</string>
-    <string>Junk Pile_t0znb3VI802bLIfHOmNMGA</string>
-    <string>Supply Cache_ZZlubOOwaEuGJp899HQ05w</string>
-    <string>Supply Cache_82H_sxHMCkuWgw-vsx5uSQ</string>
     <string>Supply Cache_P5yNvby2NEmyPdaMvoffmw</string>
-    <string>Supply Cache_DavTw6NNCE-Kt9Ih4QYl3Q</string>
-    <string>Corpse_NZc3nXoqx0C6_EKoSA81rg</string>
-    <string>Supply Cache_cafLJeTo0Uis9duKt7tVig</string>
+    <string>Supply Cache_myRQNkKWPEG04Pkc_A6zNg</string>
+    <string>Ornate Chest_vuviUAhiRUGMdCCqDGcjxA</string>
+    <string>Junk Pile_GicP-8vDD0i0pE6HHSgu4g</string>
     <string>Supply Cache_t9-3vrso5kqpt-6nHDApyg</string>
-    <string>Chest_qPUzLbZRGEO9M2Ez927tRQ</string>
+    <string>Ornate Chest_NkUfqjOQlkSSnToX51-T-A</string>
+    <string>Supply Cache_Cs0vxqKq7EyWQP6JxE3uYw</string>
+    <string>Supply Cache_82H_sxHMCkuWgw-vsx5uSQ</string>
+    <string>Supply Cache_oQjeaum8QEKGuJKYtouPvQ</string>
+    <string>Supply Cache_Xwy6Yf96SkC1RyOvW5ez5Q</string>
+    <string>Supply Cache_vHXn1VN3mUKF3T2-k844dA</string>
+    <string>Junk Pile_vAgggHUXuEuI25ykMO9pPg</string>
+    <string>Supply Cache_8RDAf7RTM06jvqjQ0FqbUg</string>
     <string>Chest_rRpoOZq_oUCFiBw0YkQdNw</string>
+    <string>Corpse_v0zkIbbj3kGYDK2iu-zeuQ</string>
+    <string>Chest_xSz8ZB2sAEe9RtKACaR8Vg</string>
+    <string>Chest_qPUzLbZRGEO9M2Ez927tRQ</string>
+    <string>Supply Cache_cafLJeTo0Uis9duKt7tVig</string>
+    <string>Supply Cache_2heu2G6Lt06hTrlffs0lUg</string>
+    <string>Corpse_VQoOZwj4_06X35wm4KCWmA</string>
+    <string>Ornate Chest_bc7_TDAH40GM218gtf_JlQ</string>
+    <string>Supply Cache_GLUE7nyzEkCpaHp5vfmHhQ</string>
+    <string>Chest_ef8UoP8qa0-D1JNm5JamnQ</string>
+    <string>Supply Cache_nRZ1P5nEHkOu9G5iK4wT_Q</string>
+    <string>Supply Cache_OmdTPEPx6ES5tcv7V5-5jA</string>
+    <string>Supply Cache_DavTw6NNCE-Kt9Ih4QYl3Q</string>
+    <string>Corpse_0W0makuiN0KHupQImbubUw</string>
+    <string>Ornate Chest_QiKIlHy8OU2xx5ol7wE0dA</string>
+    <string>Supply Cache_2NGQWHT9a0ybwcNn0W18nQ</string>
+    <string>Supply Cache_fw0_-3loGkm2FqbEIO0O0A</string>
+    <string>Corpse_NZc3nXoqx0C6_EKoSA81rg</string>
+    <string>Chest_tqYR-0fM5UeYqeiCsong8w</string>
+    <string>Junk Pile_t0znb3VI802bLIfHOmNMGA</string>
+    <string>Ornate Chest_0OXD_y6i0kGTIGT7sslnuw</string>
+    <string>Chest_UMY9ndaoYUObN4Bo6OwhRA</string>
+    <string>Supply Cache_gh3VynnpJ0i4s_lxVO2rFA</string>
+    <string>Ornate Chest_Axpsf1cws0-KWsxo2Tx44g</string>
+    <string>Junk Pile_j96i4BPaMkq20a5_2pDDNQ</string>
+    <string>Supply Cache_ZZlubOOwaEuGJp899HQ05w</string>
+    <string>Corpse_zvaNwV7mJkCA0qx_fVwvTg</string>
+    <string>Ornate Chest_0aFuIoT-XEu3daUGcYt-QQ</string>
   </UniqueContainerList>
 </SceneSummary>

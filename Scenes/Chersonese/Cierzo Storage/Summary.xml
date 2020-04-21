@@ -3,11 +3,11 @@
   <SceneName>Cierzo Storage</SceneName>
   <Enemies>
     <QuantityHolder>
-      <Name>Kazite Bandit (2)</Name>
+      <Name>Troglodyte (1)</Name>
       <Quantity>2</Quantity>
     </QuantityHolder>
     <QuantityHolder>
-      <Name>Troglodyte (1)</Name>
+      <Name>Kazite Bandit (2)</Name>
       <Quantity>2</Quantity>
     </QuantityHolder>
     <QuantityHolder>
@@ -62,6 +62,18 @@
       </positions>
     </ItemSpawnHolder>
     <ItemSpawnHolder>
+      <Name>Old Lantern</Name>
+      <Item_ID>5100010</Item_ID>
+      <Quantity>1</Quantity>
+      <positions>
+        <Vector3>
+          <x>-10.86</x>
+          <y>1.4582</y>
+          <z>33.867</z>
+        </Vector3>
+      </positions>
+    </ItemSpawnHolder>
+    <ItemSpawnHolder>
       <Name>Flint and Steel</Name>
       <Item_ID>5600010</Item_ID>
       <Quantity>1</Quantity>
@@ -70,18 +82,6 @@
           <x>-13.563</x>
           <y>1.053</y>
           <z>27.462</z>
-        </Vector3>
-      </positions>
-    </ItemSpawnHolder>
-    <ItemSpawnHolder>
-      <Name>Cooking: Gaberries Jam</Name>
-      <Item_ID>5700017</Item_ID>
-      <Quantity>1</Quantity>
-      <positions>
-        <Vector3>
-          <x>14.0288277</x>
-          <y>0.9991417</y>
-          <z>59.4087</z>
         </Vector3>
       </positions>
     </ItemSpawnHolder>
@@ -98,14 +98,14 @@
       </positions>
     </ItemSpawnHolder>
     <ItemSpawnHolder>
-      <Name>Old Lantern</Name>
-      <Item_ID>5100010</Item_ID>
+      <Name>Cooking: Gaberries Jam</Name>
+      <Item_ID>5700017</Item_ID>
       <Quantity>1</Quantity>
       <positions>
         <Vector3>
-          <x>-10.86</x>
-          <y>1.4582</y>
-          <z>33.867</z>
+          <x>14.0288277</x>
+          <y>0.9991417</y>
+          <z>59.4087</z>
         </Vector3>
       </positions>
     </ItemSpawnHolder>

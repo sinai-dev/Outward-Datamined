@@ -16,16 +16,16 @@
   </Loot_Containers>
   <Gatherables>
     <QuantityHolder>
-      <Name>Salt Crystal</Name>
-      <Quantity>1</Quantity>
+      <Name>Blue Sand</Name>
+      <Quantity>3</Quantity>
     </QuantityHolder>
     <QuantityHolder>
       <Name>Seaweed</Name>
       <Quantity>3</Quantity>
     </QuantityHolder>
     <QuantityHolder>
-      <Name>Blue Sand</Name>
-      <Quantity>3</Quantity>
+      <Name>Salt Crystal</Name>
+      <Quantity>1</Quantity>
     </QuantityHolder>
   </Gatherables>
   <Item_Spawns />

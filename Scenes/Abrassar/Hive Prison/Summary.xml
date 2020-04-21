@@ -14,19 +14,19 @@
   <Merchants />
   <Loot_Containers>
     <QuantityHolder>
-      <Name>Corpse</Name>
-      <Quantity>2</Quantity>
-    </QuantityHolder>
-    <QuantityHolder>
       <Name>Chest</Name>
       <Quantity>1</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Corpse</Name>
+      <Quantity>2</Quantity>
     </QuantityHolder>
   </Loot_Containers>
   <Gatherables />
   <Item_Spawns />
   <UniqueContainerList>
-    <string>Corpse_IlPC1Yq-UU63rRMPdDktDg</string>
     <string>Chest_9iMMSRvIgEKD01qYn_lCmQ</string>
+    <string>Corpse_IlPC1Yq-UU63rRMPdDktDg</string>
     <string>Corpse_egmrXOpsh0eL3e2Uz8KtDg</string>
   </UniqueContainerList>
 </SceneSummary>

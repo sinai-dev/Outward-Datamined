@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<StatusEffectHolder xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Name>Corrupt Positive</Name>
+  <PresetID>0</PresetID>
+  <Lifespan>-1</Lifespan>
+  <LengthType>Short</LengthType>
+  <Tags>
+    <string>Needs</string>
+    <string>Status Type</string>
+  </Tags>
+  <CanBeHealedBySleeping>false</CanBeHealedBySleeping>
+  <StraightSleepHealTime>-1</StraightSleepHealTime>
+  <Effects>
+    <EffectHolder xsi:type="AffectStatHolder">
+      <AffectedStat>DecayResistance</AffectedStat>
+      <AffectedStat_TagUID>115</AffectedStat_TagUID>
+      <AffectQuantity>15</AffectQuantity>
+      <IsModifier>false</IsModifier>
+    </EffectHolder>
+    <EffectHolder xsi:type="AffectStatHolder">
+      <AffectedStat>DecayDamage</AffectedStat>
+      <AffectedStat_TagUID>99</AffectedStat_TagUID>
+      <AffectQuantity>15</AffectQuantity>
+      <IsModifier>true</IsModifier>
+    </EffectHolder>
+    <EffectHolder xsi:type="AffectStatHolder">
+      <AffectedStat>FrostDamage</AffectedStat>
+      <AffectedStat_TagUID>101</AffectedStat_TagUID>
+      <AffectQuantity>15</AffectQuantity>
+      <IsModifier>true</IsModifier>
+    </EffectHolder>
+  </Effects>
+</StatusEffectHolder>

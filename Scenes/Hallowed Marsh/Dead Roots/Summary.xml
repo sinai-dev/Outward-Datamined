@@ -3,7 +3,7 @@
   <SceneName>Dead Roots</SceneName>
   <Enemies>
     <QuantityHolder>
-      <Name>Ice Witch (1)</Name>
+      <Name>Marsh Archer (1)</Name>
       <Quantity>2</Quantity>
     </QuantityHolder>
     <QuantityHolder>
@@ -15,8 +15,8 @@
       <Quantity>2</Quantity>
     </QuantityHolder>
     <QuantityHolder>
-      <Name>Marsh Archer Captain (1)</Name>
-      <Quantity>1</Quantity>
+      <Name>Ice Witch (1)</Name>
+      <Quantity>2</Quantity>
     </QuantityHolder>
     <QuantityHolder>
       <Name>Marsh Captain (1)</Name>
@@ -27,16 +27,12 @@
       <Quantity>1</Quantity>
     </QuantityHolder>
     <QuantityHolder>
-      <Name>Marsh Archer (1)</Name>
-      <Quantity>2</Quantity>
+      <Name>Marsh Archer Captain (1)</Name>
+      <Quantity>1</Quantity>
     </QuantityHolder>
   </Enemies>
   <Merchants />
   <Loot_Containers>
-    <QuantityHolder>
-      <Name>Worker’s Corpse</Name>
-      <Quantity>1</Quantity>
-    </QuantityHolder>
     <QuantityHolder>
       <Name>Junk Pile</Name>
       <Quantity>4</Quantity>
@@ -46,14 +42,18 @@
       <Quantity>2</Quantity>
     </QuantityHolder>
     <QuantityHolder>
+      <Name>Worker’s Corpse</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
       <Name>Soldier’s Corpse</Name>
       <Quantity>1</Quantity>
     </QuantityHolder>
   </Loot_Containers>
   <Gatherables>
     <QuantityHolder>
-      <Name>Blood Mushroom</Name>
-      <Quantity>2</Quantity>
+      <Name>Star Mushroom</Name>
+      <Quantity>1</Quantity>
     </QuantityHolder>
     <QuantityHolder>
       <Name>Green Mushroom</Name>
@@ -64,8 +64,8 @@
       <Quantity>2</Quantity>
     </QuantityHolder>
     <QuantityHolder>
-      <Name>Star Mushroom</Name>
-      <Quantity>1</Quantity>
+      <Name>Blood Mushroom</Name>
+      <Quantity>2</Quantity>
     </QuantityHolder>
   </Gatherables>
   <Item_Spawns>
@@ -83,13 +83,13 @@
     </ItemSpawnHolder>
   </Item_Spawns>
   <UniqueContainerList>
-    <string>Worker’s Corpse_nlb69FIuNkqvpIoACUibTg</string>
     <string>Junk Pile_1VoUvB8nCEuMztSzIDXaNQ</string>
+    <string>Chest_49UPM9e2FUaSjiTCFKB0Yw</string>
     <string>Chest_XJzqDdPs7UadDfdn1e2ryA</string>
     <string>Junk Pile_q5gUfOAm_EuyEUe7VuBifw</string>
-    <string>Chest_49UPM9e2FUaSjiTCFKB0Yw</string>
+    <string>Worker’s Corpse_nlb69FIuNkqvpIoACUibTg</string>
+    <string>Soldier’s Corpse_U47v1HUXYEChOauHQQjfAg</string>
     <string>Junk Pile_FgpKHkkM1kekwvrgm9NH3Q</string>
     <string>Junk Pile_ov9vTsPwzEu79VOPzTKjWw</string>
-    <string>Soldier’s Corpse_U47v1HUXYEChOauHQQjfAg</string>
   </UniqueContainerList>
 </SceneSummary>

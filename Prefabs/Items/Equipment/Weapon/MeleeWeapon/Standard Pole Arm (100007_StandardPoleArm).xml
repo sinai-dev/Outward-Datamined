@@ -120,4 +120,5 @@
   <TwoHandType>TwoHandedRight</TwoHandType>
   <VisualDetectabilityAdd>0</VisualDetectabilityAdd>
   <WeaponType>Halberd_2H</WeaponType>
+  <StamCost>24</StamCost>
 </ItemHolder>

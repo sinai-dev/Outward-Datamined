@@ -1,16 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <EnemyHolder xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Name>Bandit</Name>
-  <GameObject_Name>NewBanditEquip_StandardBasic2_E</GameObject_Name>
+  <GameObject_Name>NewBandit</GameObject_Name>
   <Unique_ID>3</Unique_ID>
   <Locations_Found>
     <string>Chersonese:Chersonese</string>
-    <string>Chersonese:Montcalm Clan Fort</string>
-    <string>Hallowed Marsh:Hallowed Marsh</string>
   </Locations_Found>
   <Max_Health>90</Max_Health>
   <Health_Regen_Per_Second>0</Health_Regen_Per_Second>
-  <Impact_Resistance>23</Impact_Resistance>
+  <Impact_Resistance>14</Impact_Resistance>
   <Protection>
     <float>0</float>
     <float>0</float>
@@ -20,9 +18,9 @@
     <float>0</float>
   </Protection>
   <Damage_Resistances>
-    <float>14</float>
+    <float>19</float>
     <float>0</float>
-    <float>-40</float>
+    <float>-35</float>
     <float>0</float>
     <float>0</float>
     <float>0</float>
@@ -38,25 +36,25 @@
   <Collider_Radius>0.4</Collider_Radius>
   <True_WeaponDamage>
     <Damages>
-      <Damage>16</Damage>
+      <Damage>33</Damage>
       <Damage_Type>Physical</Damage_Type>
     </Damages>
   </True_WeaponDamage>
-  <Weapon_Impact>14</Weapon_Impact>
+  <Weapon_Impact>36</Weapon_Impact>
   <Status_Immunities />
   <Starting_Equipment>
-    <string>Makeshift Leather Hat (3000281)</string>
-    <string>Looter Armor (3000038)</string>
-    <string>Makeshift Leather Boots (3000282)</string>
-    <string>Worn Guisarme (2130010)</string>
+    <string>Scavenger Mask (3000031)</string>
+    <string>Scavenger Coat (3000030)</string>
+    <string>Scavenger Boots (3000034)</string>
+    <string>Brutal Greataxe (2110000)</string>
   </Starting_Equipment>
   <Skill_Knowledge />
   <Faction>Bandits</Faction>
   <Allied_To_Same_Faction>true</Allied_To_Same_Faction>
   <Guaranteed_Drops>
     <DropTableEntry>
-      <Item_Name>Worn Guisarme</Item_Name>
-      <Item_ID>2130010</Item_ID>
+      <Item_Name>Brutal Greataxe</Item_Name>
+      <Item_ID>2110000</Item_ID>
       <Min_Quantity>1</Min_Quantity>
       <Max_Quantity>1</Max_Quantity>
     </DropTableEntry>

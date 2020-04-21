@@ -44,7 +44,7 @@
     <AttackSpeed>0</AttackSpeed>
     <BaseDamage>
       <Damages>
-        <Damage>32</Damage>
+        <Damage>37</Damage>
         <Damage_Type>Physical</Damage_Type>
       </Damages>
     </BaseDamage>
@@ -56,7 +56,7 @@
         <Knockback>30</Knockback>
         <AttackSpeed>0</AttackSpeed>
         <Damage>
-          <float>32</float>
+          <float>37</float>
         </Damage>
       </AttackData>
       <AttackData>
@@ -64,7 +64,7 @@
         <Knockback>30</Knockback>
         <AttackSpeed>0</AttackSpeed>
         <Damage>
-          <float>32</float>
+          <float>37</float>
         </Damage>
       </AttackData>
       <AttackData>
@@ -72,7 +72,7 @@
         <Knockback>30</Knockback>
         <AttackSpeed>0</AttackSpeed>
         <Damage>
-          <float>32</float>
+          <float>37</float>
         </Damage>
       </AttackData>
       <AttackData>
@@ -80,7 +80,7 @@
         <Knockback>30</Knockback>
         <AttackSpeed>0</AttackSpeed>
         <Damage>
-          <float>32</float>
+          <float>37</float>
         </Damage>
       </AttackData>
       <AttackData>
@@ -88,7 +88,7 @@
         <Knockback>30</Knockback>
         <AttackSpeed>0</AttackSpeed>
         <Damage>
-          <float>32</float>
+          <float>37</float>
         </Damage>
       </AttackData>
     </Attacks>
@@ -128,4 +128,5 @@
   <TwoHandType>TwoHandedLeft</TwoHandType>
   <VisualDetectabilityAdd>0</VisualDetectabilityAdd>
   <WeaponType>Bow</WeaponType>
+  <StamCost>4.99</StamCost>
 </ItemHolder>

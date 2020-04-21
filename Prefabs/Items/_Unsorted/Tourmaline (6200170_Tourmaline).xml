@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ItemHolder xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <ItemID>6200170</ItemID>
+  <Name>Tourmaline</Name>
+  <gameObjectName>6200170_Tourmaline</gameObjectName>
+  <saveDir />
+  <Description />
+  <LegacyItemID>-1</LegacyItemID>
+  <StatsHolder>
+    <BaseValue>49</BaseValue>
+    <RawWeight>0.2</RawWeight>
+    <MaxDurability>-1</MaxDurability>
+  </StatsHolder>
+  <Tags>
+    <string>Fuel</string>
+    <string>Material</string>
+    <string>Ingredient</string>
+    <string>Item</string>
+    <string>Misc</string>
+    <string>Valuable</string>
+  </Tags>
+  <EffectTransforms />
+</ItemHolder>

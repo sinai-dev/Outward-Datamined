@@ -5,13 +5,8 @@
   <Unique_ID>5</Unique_ID>
   <Locations_Found>
     <string>Abrassar:Abrassar</string>
-    <string>Abrassar:Undercity Passage</string>
-    <string>Abrassar:The Slide</string>
-    <string>Abrassar:Stone Titan Caves</string>
-    <string>Abrassar:Corsair's Headquarters</string>
-    <string>Abrassar:Ruined Outpost</string>
   </Locations_Found>
-  <Max_Health>125</Max_Health>
+  <Max_Health>2000</Max_Health>
   <Health_Regen_Per_Second>0</Health_Regen_Per_Second>
   <Impact_Resistance>31</Impact_Resistance>
   <Protection>

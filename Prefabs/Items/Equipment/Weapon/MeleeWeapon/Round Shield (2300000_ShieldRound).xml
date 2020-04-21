@@ -107,4 +107,5 @@ Blocking with a shield is more advantageous than blocking with a weapon.</Descri
   <TwoHandType>None</TwoHandType>
   <VisualDetectabilityAdd>0</VisualDetectabilityAdd>
   <WeaponType>Shield</WeaponType>
+  <StamCost>0</StamCost>
 </ItemHolder>

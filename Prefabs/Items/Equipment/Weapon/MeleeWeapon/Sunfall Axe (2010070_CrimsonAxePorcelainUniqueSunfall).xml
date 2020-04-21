@@ -127,4 +127,5 @@ Inflicts Burning on enemies.</Description>
   <TwoHandType>None</TwoHandType>
   <VisualDetectabilityAdd>0</VisualDetectabilityAdd>
   <WeaponType>Axe_1H</WeaponType>
+  <StamCost>4.6</StamCost>
 </ItemHolder>

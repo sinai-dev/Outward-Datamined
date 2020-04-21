@@ -3,10 +3,6 @@
   <SceneName>Ziggurat Passage</SceneName>
   <Enemies>
     <QuantityHolder>
-      <Name>Phytosaur (1)</Name>
-      <Quantity>1</Quantity>
-    </QuantityHolder>
-    <QuantityHolder>
       <Name>Burning Man (1)</Name>
       <Quantity>2</Quantity>
     </QuantityHolder>
@@ -15,15 +11,11 @@
       <Quantity>1</Quantity>
     </QuantityHolder>
     <QuantityHolder>
-      <Name>Blade Dancer (1)</Name>
-      <Quantity>1</Quantity>
-    </QuantityHolder>
-    <QuantityHolder>
       <Name>Animated Skeleton (4)</Name>
       <Quantity>1</Quantity>
     </QuantityHolder>
     <QuantityHolder>
-      <Name>Animated Skeleton (5)</Name>
+      <Name>Phytosaur (1)</Name>
       <Quantity>1</Quantity>
     </QuantityHolder>
     <QuantityHolder>
@@ -31,27 +23,27 @@
       <Quantity>2</Quantity>
     </QuantityHolder>
     <QuantityHolder>
+      <Name>Animated Skeleton (5)</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
       <Name>Animated Skeleton (6)</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Blade Dancer (1)</Name>
       <Quantity>1</Quantity>
     </QuantityHolder>
   </Enemies>
   <Merchants />
   <Loot_Containers>
     <QuantityHolder>
-      <Name>Chest</Name>
-      <Quantity>3</Quantity>
-    </QuantityHolder>
-    <QuantityHolder>
-      <Name>Ornate Chest</Name>
-      <Quantity>1</Quantity>
-    </QuantityHolder>
-    <QuantityHolder>
       <Name>Adventurer’s Corpse</Name>
       <Quantity>1</Quantity>
     </QuantityHolder>
     <QuantityHolder>
-      <Name>Worker’s Corpse</Name>
-      <Quantity>1</Quantity>
+      <Name>Chest</Name>
+      <Quantity>3</Quantity>
     </QuantityHolder>
     <QuantityHolder>
       <Name>Junk Pile</Name>
@@ -61,39 +53,47 @@
       <Name>Knight’s Corpse</Name>
       <Quantity>1</Quantity>
     </QuantityHolder>
-  </Loot_Containers>
-  <Gatherables>
     <QuantityHolder>
-      <Name>Iron vein</Name>
-      <Quantity>3</Quantity>
-    </QuantityHolder>
-    <QuantityHolder>
-      <Name>Blood Mushroom</Name>
-      <Quantity>2</Quantity>
-    </QuantityHolder>
-    <QuantityHolder>
-      <Name>Oil</Name>
+      <Name>Worker’s Corpse</Name>
       <Quantity>1</Quantity>
     </QuantityHolder>
     <QuantityHolder>
-      <Name>Star Mushroom</Name>
+      <Name>Ornate Chest</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+  </Loot_Containers>
+  <Gatherables>
+    <QuantityHolder>
+      <Name>Blood Mushroom</Name>
       <Quantity>2</Quantity>
     </QuantityHolder>
     <QuantityHolder>
       <Name>Palladium vein</Name>
       <Quantity>1</Quantity>
     </QuantityHolder>
+    <QuantityHolder>
+      <Name>Iron vein</Name>
+      <Quantity>3</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Star Mushroom</Name>
+      <Quantity>2</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Oil</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
   </Gatherables>
   <Item_Spawns />
   <UniqueContainerList>
-    <string>Chest_sYqPvpbhOECVHuKdvxGn-g</string>
-    <string>Ornate Chest_YMQFkIIqOkOipzYSN9yRjg</string>
     <string>Adventurer’s Corpse_oaosXAYd6E-0U4mokCszDA</string>
-    <string>Worker’s Corpse_b2wXt-yZ5kOcsZOElTvDnw</string>
-    <string>Junk Pile_H-peGczQPUWCmI6m5SCNBw</string>
-    <string>Junk Pile_1VuwaR_j-EO1-AHEcfEvxA</string>
-    <string>Knight’s Corpse_rUsTcsohzUKSV1BO8W26VA</string>
     <string>Chest__w07YuJs7EafJXl371gt0w</string>
+    <string>Junk Pile_H-peGczQPUWCmI6m5SCNBw</string>
+    <string>Knight’s Corpse_rUsTcsohzUKSV1BO8W26VA</string>
+    <string>Worker’s Corpse_b2wXt-yZ5kOcsZOElTvDnw</string>
     <string>Chest_Bn4GLRnGW0aim-Rr4MGxXg</string>
+    <string>Junk Pile_1VuwaR_j-EO1-AHEcfEvxA</string>
+    <string>Ornate Chest_YMQFkIIqOkOipzYSN9yRjg</string>
+    <string>Chest_sYqPvpbhOECVHuKdvxGn-g</string>
   </UniqueContainerList>
 </SceneSummary>

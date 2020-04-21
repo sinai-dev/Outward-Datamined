@@ -141,6 +141,58 @@ Can be combined with other spells for powerful effects.</Description>
         </EffectTransformHolder>
       </ChildEffects>
     </EffectTransformHolder>
+    <EffectTransformHolder>
+      <TransformName>Tendrils</TransformName>
+      <Effects />
+      <EffectConditions />
+      <ChildEffects>
+        <EffectTransformHolder>
+          <TransformName>ExtraEffects</TransformName>
+          <Effects>
+            <EffectHolder xsi:type="ShootProjectileHolder">
+              <TargetingMode>NONE</TargetingMode>
+              <AutoTarget>false</AutoTarget>
+              <EffectTransforms>
+                <EffectTransformHolder>
+                  <TransformName>HitEffects</TransformName>
+                  <Effects>
+                    <EffectHolder xsi:type="PunctualDamageHolder">
+                      <Damage>
+                        <Damages>
+                          <Damage>50</Damage>
+                          <Damage_Type>Physical</Damage_Type>
+                        </Damages>
+                        <Damages>
+                          <Damage>50</Damage>
+                          <Damage_Type>Decay</Damage_Type>
+                        </Damages>
+                      </Damage>
+                      <Damages_AI />
+                      <Knockback>25</Knockback>
+                      <HitInventory>false</HitInventory>
+                    </EffectHolder>
+                  </Effects>
+                  <EffectConditions />
+                  <ChildEffects />
+                </EffectTransformHolder>
+              </EffectTransforms>
+            </EffectHolder>
+          </Effects>
+          <EffectConditions>
+            <EffectConditionHolder>
+              <Conditions>
+                <ConditionHolder>
+                  <Requirement>Activated Bloodstone</Requirement>
+                  <Condition_Type>Item Proximity</Condition_Type>
+                  <Invert>false</Invert>
+                </ConditionHolder>
+              </Conditions>
+            </EffectConditionHolder>
+          </EffectConditions>
+          <ChildEffects />
+        </EffectTransformHolder>
+      </ChildEffects>
+    </EffectTransformHolder>
   </EffectTransforms>
   <Cooldown>15</Cooldown>
   <StaminaCost>0</StaminaCost>

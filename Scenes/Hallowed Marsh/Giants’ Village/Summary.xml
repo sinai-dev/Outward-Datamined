@@ -8,17 +8,17 @@
     </QuantityHolder>
   </Enemies>
   <Merchants>
-    <string>Gold Belly (bROKm3_EiE6qfCNdxCAk6A)</string>
     <string>Iron Sides (uTW5ON17Zk-agr_Ra2Qffg)</string>
+    <string>Gold Belly (bROKm3_EiE6qfCNdxCAk6A)</string>
   </Merchants>
   <Loot_Containers>
     <QuantityHolder>
-      <Name>Chest</Name>
-      <Quantity>1</Quantity>
-    </QuantityHolder>
-    <QuantityHolder>
       <Name>Junk Pile</Name>
       <Quantity>3</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Chest</Name>
+      <Quantity>1</Quantity>
     </QuantityHolder>
   </Loot_Containers>
   <Gatherables>
@@ -27,11 +27,7 @@
       <Quantity>3</Quantity>
     </QuantityHolder>
     <QuantityHolder>
-      <Name>Pearlbird Nest</Name>
-      <Quantity>1</Quantity>
-    </QuantityHolder>
-    <QuantityHolder>
-      <Name>Green Mushroom</Name>
+      <Name>Star Mushroom</Name>
       <Quantity>1</Quantity>
     </QuantityHolder>
     <QuantityHolder>
@@ -39,7 +35,7 @@
       <Quantity>1</Quantity>
     </QuantityHolder>
     <QuantityHolder>
-      <Name>Star Mushroom</Name>
+      <Name>Gaberries</Name>
       <Quantity>1</Quantity>
     </QuantityHolder>
     <QuantityHolder>
@@ -47,7 +43,11 @@
       <Quantity>1</Quantity>
     </QuantityHolder>
     <QuantityHolder>
-      <Name>Gaberries</Name>
+      <Name>Green Mushroom</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Pearlbird Nest</Name>
       <Quantity>1</Quantity>
     </QuantityHolder>
   </Gatherables>
@@ -66,9 +66,9 @@
     </ItemSpawnHolder>
   </Item_Spawns>
   <UniqueContainerList>
-    <string>Chest_jA4VJ4hPek-dj_2HALQn_A</string>
-    <string>Junk Pile_M50TWczQE0ut08Eb-diy4Q</string>
     <string>Junk Pile_JRn14iwdcEWYB9HhzA8IKA</string>
     <string>Junk Pile_OiRTapxzdEexUXNhJP38LQ</string>
+    <string>Junk Pile_M50TWczQE0ut08Eb-diy4Q</string>
+    <string>Chest_jA4VJ4hPek-dj_2HALQn_A</string>
   </UniqueContainerList>
 </SceneSummary>

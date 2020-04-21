@@ -3,12 +3,12 @@
   <SceneName>Shipwreck Beach</SceneName>
   <Enemies>
     <QuantityHolder>
-      <Name>Concealed Knight (1)</Name>
-      <Quantity>1</Quantity>
-    </QuantityHolder>
-    <QuantityHolder>
       <Name>Hyena (1)</Name>
       <Quantity>2</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Concealed Knight (1)</Name>
+      <Quantity>1</Quantity>
     </QuantityHolder>
   </Enemies>
   <Merchants />
@@ -28,12 +28,12 @@
       <Quantity>3</Quantity>
     </QuantityHolder>
     <QuantityHolder>
-      <Name>Gaberries</Name>
-      <Quantity>6</Quantity>
-    </QuantityHolder>
-    <QuantityHolder>
       <Name>Seaweed</Name>
       <Quantity>3</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Gaberries</Name>
+      <Quantity>6</Quantity>
     </QuantityHolder>
   </Gatherables>
   <Item_Spawns>
@@ -46,6 +46,57 @@
           <x>1243.63</x>
           <y>26.6014538</y>
           <z>1681.311</z>
+        </Vector3>
+      </positions>
+    </ItemSpawnHolder>
+    <ItemSpawnHolder>
+      <Name>Mining Pick</Name>
+      <Item_ID>2120050</Item_ID>
+      <Quantity>1</Quantity>
+      <positions>
+        <Vector3>
+          <x>1690.62915</x>
+          <y>5.352</y>
+          <z>1795.322</z>
+        </Vector3>
+      </positions>
+    </ItemSpawnHolder>
+    <ItemSpawnHolder>
+      <Name>Makeshift Torch</Name>
+      <Item_ID>5100060</Item_ID>
+      <Quantity>4</Quantity>
+      <positions>
+        <Vector3>
+          <x>1840.623</x>
+          <y>5.089</y>
+          <z>1790.785</z>
+        </Vector3>
+        <Vector3>
+          <x>1786.26392</x>
+          <y>5.04211426</y>
+          <z>1804.29028</z>
+        </Vector3>
+        <Vector3>
+          <x>1763.59363</x>
+          <y>5.362915</y>
+          <z>1821.61365</z>
+        </Vector3>
+        <Vector3>
+          <x>1805.92322</x>
+          <y>5.165</y>
+          <z>1792.74072</z>
+        </Vector3>
+      </positions>
+    </ItemSpawnHolder>
+    <ItemSpawnHolder>
+      <Name>Bandages</Name>
+      <Item_ID>4400010</Item_ID>
+      <Quantity>1</Quantity>
+      <positions>
+        <Vector3>
+          <x>1720.28662</x>
+          <y>10.6796417</y>
+          <z>1857.56372</z>
         </Vector3>
       </positions>
     </ItemSpawnHolder>
@@ -63,57 +114,6 @@
           <x>1717.03</x>
           <y>11.0239935</y>
           <z>1867.76</z>
-        </Vector3>
-      </positions>
-    </ItemSpawnHolder>
-    <ItemSpawnHolder>
-      <Name>Makeshift Torch</Name>
-      <Item_ID>5100060</Item_ID>
-      <Quantity>4</Quantity>
-      <positions>
-        <Vector3>
-          <x>1786.26392</x>
-          <y>5.04211426</y>
-          <z>1804.29028</z>
-        </Vector3>
-        <Vector3>
-          <x>1805.92322</x>
-          <y>5.165</y>
-          <z>1792.74072</z>
-        </Vector3>
-        <Vector3>
-          <x>1840.623</x>
-          <y>5.089</y>
-          <z>1790.785</z>
-        </Vector3>
-        <Vector3>
-          <x>1763.59363</x>
-          <y>5.362915</y>
-          <z>1821.61365</z>
-        </Vector3>
-      </positions>
-    </ItemSpawnHolder>
-    <ItemSpawnHolder>
-      <Name>Machete</Name>
-      <Item_ID>2000060</Item_ID>
-      <Quantity>1</Quantity>
-      <positions>
-        <Vector3>
-          <x>1647.26648</x>
-          <y>7.41665173</y>
-          <z>1804.90222</z>
-        </Vector3>
-      </positions>
-    </ItemSpawnHolder>
-    <ItemSpawnHolder>
-      <Name>Campfire</Name>
-      <Item_ID>5000100</Item_ID>
-      <Quantity>1</Quantity>
-      <positions>
-        <Vector3>
-          <x>1713.61365</x>
-          <y>11.0239258</y>
-          <z>1867.24548</z>
         </Vector3>
       </positions>
     </ItemSpawnHolder>
@@ -154,26 +154,26 @@
       </positions>
     </ItemSpawnHolder>
     <ItemSpawnHolder>
-      <Name>Mining Pick</Name>
-      <Item_ID>2120050</Item_ID>
+      <Name>Campfire</Name>
+      <Item_ID>5000100</Item_ID>
       <Quantity>1</Quantity>
       <positions>
         <Vector3>
-          <x>1690.62915</x>
-          <y>5.352</y>
-          <z>1795.322</z>
+          <x>1713.61365</x>
+          <y>11.0239258</y>
+          <z>1867.24548</z>
         </Vector3>
       </positions>
     </ItemSpawnHolder>
     <ItemSpawnHolder>
-      <Name>Bandages</Name>
-      <Item_ID>4400010</Item_ID>
+      <Name>Machete</Name>
+      <Item_ID>2000060</Item_ID>
       <Quantity>1</Quantity>
       <positions>
         <Vector3>
-          <x>1720.28662</x>
-          <y>10.6796417</y>
-          <z>1857.56372</z>
+          <x>1647.26648</x>
+          <y>7.41665173</y>
+          <z>1804.90222</z>
         </Vector3>
       </positions>
     </ItemSpawnHolder>

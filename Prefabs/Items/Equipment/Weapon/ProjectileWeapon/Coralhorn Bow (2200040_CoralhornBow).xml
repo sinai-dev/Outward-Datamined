@@ -7,7 +7,7 @@
   <Description>Bow which inflicts Pain, cursing the enemy to receive more physical damage, made from Coralhorn Antler.</Description>
   <LegacyItemID>-1</LegacyItemID>
   <StatsHolder xsi:type="WeaponStatsHolder">
-    <BaseValue>125</BaseValue>
+    <BaseValue>250</BaseValue>
     <RawWeight>4</RawWeight>
     <MaxDurability>200</MaxDurability>
     <Damage_Resistance>
@@ -44,7 +44,7 @@
     <AttackSpeed>0</AttackSpeed>
     <BaseDamage>
       <Damages>
-        <Damage>30</Damage>
+        <Damage>34</Damage>
         <Damage_Type>Physical</Damage_Type>
       </Damages>
     </BaseDamage>
@@ -56,7 +56,7 @@
         <Knockback>16</Knockback>
         <AttackSpeed>0</AttackSpeed>
         <Damage>
-          <float>30</float>
+          <float>34</float>
         </Damage>
       </AttackData>
       <AttackData>
@@ -64,7 +64,7 @@
         <Knockback>16</Knockback>
         <AttackSpeed>0</AttackSpeed>
         <Damage>
-          <float>30</float>
+          <float>34</float>
         </Damage>
       </AttackData>
       <AttackData>
@@ -72,7 +72,7 @@
         <Knockback>16</Knockback>
         <AttackSpeed>0</AttackSpeed>
         <Damage>
-          <float>30</float>
+          <float>34</float>
         </Damage>
       </AttackData>
       <AttackData>
@@ -80,7 +80,7 @@
         <Knockback>16</Knockback>
         <AttackSpeed>0</AttackSpeed>
         <Damage>
-          <float>30</float>
+          <float>34</float>
         </Damage>
       </AttackData>
       <AttackData>
@@ -88,7 +88,7 @@
         <Knockback>16</Knockback>
         <AttackSpeed>0</AttackSpeed>
         <Damage>
-          <float>30</float>
+          <float>34</float>
         </Damage>
       </AttackData>
     </Attacks>
@@ -128,4 +128,5 @@
   <TwoHandType>TwoHandedLeft</TwoHandType>
   <VisualDetectabilityAdd>0</VisualDetectabilityAdd>
   <WeaponType>Bow</WeaponType>
+  <StamCost>3.96</StamCost>
 </ItemHolder>

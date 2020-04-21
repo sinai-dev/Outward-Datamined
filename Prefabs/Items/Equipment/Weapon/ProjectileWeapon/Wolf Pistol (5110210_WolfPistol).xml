@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ItemHolder xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="WeaponHolder">
-  <ItemID>2020030</ItemID>
-  <Name>Jade-Lich Mace </Name>
-  <gameObjectName>2020030_MaceJadeLich</gameObjectName>
-  <saveDir>/Equipment/Weapon/MeleeWeapon</saveDir>
+  <ItemID>5110210</ItemID>
+  <Name>Wolf Pistol</Name>
+  <gameObjectName>5110210_WolfPistol</gameObjectName>
+  <saveDir>/Equipment/Weapon/ProjectileWeapon</saveDir>
   <Description />
   <LegacyItemID>-1</LegacyItemID>
   <StatsHolder xsi:type="WeaponStatsHolder">
-    <BaseValue>200</BaseValue>
-    <RawWeight>6</RawWeight>
-    <MaxDurability>250</MaxDurability>
+    <BaseValue>400</BaseValue>
+    <RawWeight>2</RawWeight>
+    <MaxDurability>150</MaxDurability>
     <Damage_Resistance>
       <float>0</float>
       <float>0</float>
@@ -35,7 +35,7 @@
       <float>0</float>
     </Damage_Bonus>
     <Stamina_Use_Penalty>0</Stamina_Use_Penalty>
-    <Mana_Use_Modifier>-10</Mana_Use_Modifier>
+    <Mana_Use_Modifier>0</Mana_Use_Modifier>
     <Movement_Penalty>0</Movement_Penalty>
     <Pouch_Bonus>0</Pouch_Bonus>
     <Heat_Protection>0</Heat_Protection>
@@ -44,85 +44,75 @@
     <AttackSpeed>1</AttackSpeed>
     <BaseDamage>
       <Damages>
-        <Damage>21.75</Damage>
+        <Damage>60.35</Damage>
         <Damage_Type>Physical</Damage_Type>
       </Damages>
       <Damages>
-        <Damage>7.25</Damage>
-        <Damage_Type>Decay</Damage_Type>
+        <Damage>24.65</Damage>
+        <Damage_Type>Fire</Damage_Type>
       </Damages>
     </BaseDamage>
-    <Impact>32</Impact>
+    <Impact>60</Impact>
     <AttackCount>5</AttackCount>
     <Attacks>
       <AttackData>
-        <StamCost>4.8</StamCost>
-        <Knockback>32</Knockback>
+        <StamCost>0</StamCost>
+        <Knockback>60</Knockback>
         <AttackSpeed>1</AttackSpeed>
         <Damage>
-          <float>21.75</float>
-          <float>7.25</float>
+          <float>60.35</float>
+          <float>24.65</float>
         </Damage>
       </AttackData>
       <AttackData>
-        <StamCost>4.8</StamCost>
-        <Knockback>32</Knockback>
+        <StamCost>0</StamCost>
+        <Knockback>60</Knockback>
         <AttackSpeed>1</AttackSpeed>
         <Damage>
-          <float>21.75</float>
-          <float>7.25</float>
+          <float>60.35</float>
+          <float>24.65</float>
         </Damage>
       </AttackData>
       <AttackData>
-        <StamCost>6.24</StamCost>
-        <Knockback>80</Knockback>
-        <AttackSpeed>1.3</AttackSpeed>
+        <StamCost>0</StamCost>
+        <Knockback>60</Knockback>
+        <AttackSpeed>1</AttackSpeed>
         <Damage>
-          <float>28.2750015</float>
-          <float>9.425</float>
+          <float>60.35</float>
+          <float>24.65</float>
         </Damage>
       </AttackData>
       <AttackData>
-        <StamCost>6.24</StamCost>
-        <Knockback>41.6</Knockback>
-        <AttackSpeed>1.1</AttackSpeed>
+        <StamCost>0</StamCost>
+        <Knockback>60</Knockback>
+        <AttackSpeed>1</AttackSpeed>
         <Damage>
-          <float>28.2750015</float>
-          <float>9.425</float>
+          <float>60.35</float>
+          <float>24.65</float>
         </Damage>
       </AttackData>
       <AttackData>
-        <StamCost>6.24</StamCost>
-        <Knockback>41.6</Knockback>
-        <AttackSpeed>1.1</AttackSpeed>
+        <StamCost>0</StamCost>
+        <Knockback>60</Knockback>
+        <AttackSpeed>1</AttackSpeed>
         <Damage>
-          <float>28.2750015</float>
-          <float>9.425</float>
+          <float>60.35</float>
+          <float>24.65</float>
         </Damage>
       </AttackData>
     </Attacks>
   </StatsHolder>
   <Tags>
-    <string>Bludgeon</string>
-    <string>Weapon</string>
+    <string>Pistol</string>
+    <string>Trinket</string>
     <string>Item</string>
+    <string>Weapon</string>
   </Tags>
-  <EffectTransforms>
-    <EffectTransformHolder>
-      <TransformName>HitEffects</TransformName>
-      <Effects>
-        <EffectHolder xsi:type="AddStatusEffectBuildupHolder">
-          <StatusEffect>Mana Cost Reduction</StatusEffect>
-          <Buildup>0</Buildup>
-        </EffectHolder>
-      </Effects>
-      <EffectConditions />
-      <ChildEffects />
-    </EffectTransformHolder>
-  </EffectTransforms>
-  <EquipmentSlot>RightHand</EquipmentSlot>
+  <EffectTransforms />
+  <EquipmentSlot>LeftHand</EquipmentSlot>
   <IKType>None</IKType>
   <TwoHandType>None</TwoHandType>
   <VisualDetectabilityAdd>0</VisualDetectabilityAdd>
-  <WeaponType>Mace_1H</WeaponType>
+  <WeaponType>Pistol_OH</WeaponType>
+  <StamCost>0</StamCost>
 </ItemHolder>

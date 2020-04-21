@@ -7,12 +7,8 @@
       <Quantity>2</Quantity>
     </QuantityHolder>
     <QuantityHolder>
-      <Name>Rock Mantis (1)</Name>
-      <Quantity>1</Quantity>
-    </QuantityHolder>
-    <QuantityHolder>
-      <Name>Mana Troglodyte (1)</Name>
-      <Quantity>1</Quantity>
+      <Name>Troglodyte Grenadier (1)</Name>
+      <Quantity>2</Quantity>
     </QuantityHolder>
     <QuantityHolder>
       <Name>Ice Witch (1)</Name>
@@ -23,12 +19,16 @@
       <Quantity>2</Quantity>
     </QuantityHolder>
     <QuantityHolder>
-      <Name>Troglodyte Grenadier (1)</Name>
+      <Name>Armored Troglodyte (1)</Name>
       <Quantity>2</Quantity>
     </QuantityHolder>
     <QuantityHolder>
-      <Name>Armored Troglodyte (1)</Name>
-      <Quantity>2</Quantity>
+      <Name>Mana Troglodyte (1)</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Rock Mantis (1)</Name>
+      <Quantity>1</Quantity>
     </QuantityHolder>
     <QuantityHolder>
       <Name>Sword Golem (1)</Name>
@@ -60,12 +60,12 @@
       <Quantity>2</Quantity>
     </QuantityHolder>
     <QuantityHolder>
-      <Name>Green Mushroom</Name>
-      <Quantity>2</Quantity>
-    </QuantityHolder>
-    <QuantityHolder>
       <Name>Star Mushroom</Name>
       <Quantity>3</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Green Mushroom</Name>
+      <Quantity>2</Quantity>
     </QuantityHolder>
     <QuantityHolder>
       <Name>Mana Stone</Name>
@@ -97,19 +97,19 @@
       <positions>
         <Vector3>
           <x>89.48</x>
-          <y>51.4</y>
+          <y>50.8115</y>
           <z>-41.27</z>
         </Vector3>
       </positions>
     </ItemSpawnHolder>
   </Item_Spawns>
   <UniqueContainerList>
+    <string>Soldier’s Corpse_vzOblv5FNkKHlB44VF9Rgg</string>
     <string>Soldier’s Corpse_g1c8fIRpzUCsnyz3MFb-7Q</string>
     <string>Chest_hW6kfdIq0Uehu-LFjndT5g</string>
-    <string>Junk Pile_wzCwDAQfNEOncVwkMWx5nQ</string>
     <string>Soldier’s Corpse_5mG4l8QuxEq7XXwZmPNHaQ</string>
-    <string>Junk Pile_gXWhEvSshU-phTyPCsQcOw</string>
-    <string>Soldier’s Corpse_vzOblv5FNkKHlB44VF9Rgg</string>
     <string>Chest_aImZWu9owE-YsTc4iZ3NJg</string>
+    <string>Junk Pile_wzCwDAQfNEOncVwkMWx5nQ</string>
+    <string>Junk Pile_gXWhEvSshU-phTyPCsQcOw</string>
   </UniqueContainerList>
 </SceneSummary>

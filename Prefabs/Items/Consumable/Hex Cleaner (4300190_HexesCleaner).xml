@@ -24,7 +24,7 @@ Has no effect on Bleeding, Poison, Disease and Burning.</Description>
       <Effects>
         <EffectHolder xsi:type="RemoveStatusEffectHolder">
           <StatusEffect_ByTag>Hex</StatusEffect_ByTag>
-          <StatusEffect_Family>Unique</StatusEffect_Family>
+          <StatusEffect_Family />
           <StatusEffect_ByName />
         </EffectHolder>
       </Effects>

@@ -118,4 +118,5 @@
   <TwoHandType>TwoHandedRight</TwoHandType>
   <VisualDetectabilityAdd>0</VisualDetectabilityAdd>
   <WeaponType>Spear_2H</WeaponType>
+  <StamCost>5.175</StamCost>
 </ItemHolder>

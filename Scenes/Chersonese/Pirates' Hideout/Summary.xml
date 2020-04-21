@@ -10,18 +10,18 @@
   <Merchants />
   <Loot_Containers>
     <QuantityHolder>
-      <Name>Junk Pile</Name>
+      <Name>Adventurer’s Corpse</Name>
       <Quantity>1</Quantity>
     </QuantityHolder>
     <QuantityHolder>
-      <Name>Adventurer’s Corpse</Name>
+      <Name>Junk Pile</Name>
       <Quantity>1</Quantity>
     </QuantityHolder>
   </Loot_Containers>
   <Gatherables />
   <Item_Spawns />
   <UniqueContainerList>
-    <string>Junk Pile_j4jkHmqzHkevhUAwkX3_MA</string>
     <string>Adventurer’s Corpse_v6dpxzIVfUydaxZg3WVVLg</string>
+    <string>Junk Pile_j4jkHmqzHkevhUAwkX3_MA</string>
   </UniqueContainerList>
 </SceneSummary>

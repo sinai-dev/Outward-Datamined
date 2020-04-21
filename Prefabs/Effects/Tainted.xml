@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<StatusEffectHolder xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Name>Tainted</Name>
+  <PresetID>0</PresetID>
+  <Lifespan>-1</Lifespan>
+  <LengthType>Short</LengthType>
+  <Tags>
+    <string>Needs</string>
+    <string>Status Type</string>
+  </Tags>
+  <CanBeHealedBySleeping>false</CanBeHealedBySleeping>
+  <StraightSleepHealTime>-1</StraightSleepHealTime>
+  <Effects>
+    <EffectHolder xsi:type="AffectStatHolder">
+      <AffectedStat>ElectricResistance</AffectedStat>
+      <AffectedStat_TagUID>116</AffectedStat_TagUID>
+      <AffectQuantity>-25</AffectQuantity>
+      <IsModifier>false</IsModifier>
+    </EffectHolder>
+    <EffectHolder xsi:type="AffectStatHolder">
+      <AffectedStat>FoodDepleteRate</AffectedStat>
+      <AffectedStat_TagUID>90</AffectedStat_TagUID>
+      <AffectQuantity>100</AffectQuantity>
+      <IsModifier>true</IsModifier>
+    </EffectHolder>
+  </Effects>
+</StatusEffectHolder>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<StatusEffectHolder xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Name>Sapped</Name>
+  <PresetID>559</PresetID>
+  <Lifespan>60</Lifespan>
+  <LengthType>Short</LengthType>
+  <Tags />
+  <CanBeHealedBySleeping>false</CanBeHealedBySleeping>
+  <StraightSleepHealTime>-1</StraightSleepHealTime>
+  <Effects>
+    <EffectHolder xsi:type="AffectStatHolder">
+      <AffectedStat>EtherealDamage</AffectedStat>
+      <AffectedStat_TagUID>98</AffectedStat_TagUID>
+      <AffectQuantity>-40</AffectQuantity>
+      <IsModifier>true</IsModifier>
+    </EffectHolder>
+    <EffectHolder xsi:type="AffectStatHolder">
+      <AffectedStat>DecayDamage</AffectedStat>
+      <AffectedStat_TagUID>99</AffectedStat_TagUID>
+      <AffectQuantity>-40</AffectQuantity>
+      <IsModifier>true</IsModifier>
+    </EffectHolder>
+    <EffectHolder xsi:type="AffectStatHolder">
+      <AffectedStat>ElectricDamage</AffectedStat>
+      <AffectedStat_TagUID>100</AffectedStat_TagUID>
+      <AffectQuantity>-40</AffectQuantity>
+      <IsModifier>true</IsModifier>
+    </EffectHolder>
+    <EffectHolder xsi:type="AffectStatHolder">
+      <AffectedStat>FrostDamage</AffectedStat>
+      <AffectedStat_TagUID>101</AffectedStat_TagUID>
+      <AffectQuantity>-40</AffectQuantity>
+      <IsModifier>true</IsModifier>
+    </EffectHolder>
+    <EffectHolder xsi:type="AffectStatHolder">
+      <AffectedStat>FireDamage</AffectedStat>
+      <AffectedStat_TagUID>102</AffectedStat_TagUID>
+      <AffectQuantity>-40</AffectQuantity>
+      <IsModifier>true</IsModifier>
+    </EffectHolder>
+  </Effects>
+</StatusEffectHolder>

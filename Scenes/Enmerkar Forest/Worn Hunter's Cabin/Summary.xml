@@ -21,27 +21,10 @@
   <Gatherables />
   <Item_Spawns>
     <ItemSpawnHolder>
-      <Name>Fire Varnish</Name>
-      <Item_ID>4400041</Item_ID>
-      <Quantity>1</Quantity>
-      <positions>
-        <Vector3>
-          <x>304.175</x>
-          <y>1.684</y>
-          <z>6.636</z>
-        </Vector3>
-      </positions>
-    </ItemSpawnHolder>
-    <ItemSpawnHolder>
       <Name>Mana Stone</Name>
       <Item_ID>6400130</Item_ID>
       <Quantity>3</Quantity>
       <positions>
-        <Vector3>
-          <x>302.521</x>
-          <y>0.845</y>
-          <z>3.214</z>
-        </Vector3>
         <Vector3>
           <x>303.316</x>
           <y>1.735609</y>
@@ -51,6 +34,11 @@
           <x>303.175</x>
           <y>1.735609</y>
           <z>3.77</z>
+        </Vector3>
+        <Vector3>
+          <x>302.521</x>
+          <y>0.845</y>
+          <z>3.214</z>
         </Vector3>
       </positions>
     </ItemSpawnHolder>
@@ -75,6 +63,18 @@
           <x>304.187347</x>
           <y>1.7542</y>
           <z>6.934738</z>
+        </Vector3>
+      </positions>
+    </ItemSpawnHolder>
+    <ItemSpawnHolder>
+      <Name>Fire Varnish</Name>
+      <Item_ID>4400041</Item_ID>
+      <Quantity>1</Quantity>
+      <positions>
+        <Vector3>
+          <x>304.175</x>
+          <y>1.684</y>
+          <z>6.636</z>
         </Vector3>
       </positions>
     </ItemSpawnHolder>

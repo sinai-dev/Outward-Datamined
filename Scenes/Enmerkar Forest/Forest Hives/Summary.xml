@@ -18,19 +18,19 @@
   <Merchants />
   <Loot_Containers>
     <QuantityHolder>
-      <Name>Soldier’s Corpse</Name>
-      <Quantity>1</Quantity>
-    </QuantityHolder>
-    <QuantityHolder>
       <Name>Scavenger’s Corpse</Name>
       <Quantity>1</Quantity>
     </QuantityHolder>
     <QuantityHolder>
-      <Name>Ornate Chest</Name>
+      <Name>Chest</Name>
       <Quantity>1</Quantity>
     </QuantityHolder>
     <QuantityHolder>
-      <Name>Chest</Name>
+      <Name>Soldier’s Corpse</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Ornate Chest</Name>
       <Quantity>1</Quantity>
     </QuantityHolder>
   </Loot_Containers>
@@ -40,16 +40,16 @@
       <Quantity>3</Quantity>
     </QuantityHolder>
     <QuantityHolder>
-      <Name>Star Mushroom</Name>
-      <Quantity>2</Quantity>
+      <Name>Smoke Root</Name>
+      <Quantity>5</Quantity>
     </QuantityHolder>
     <QuantityHolder>
       <Name>Iron vein</Name>
       <Quantity>2</Quantity>
     </QuantityHolder>
     <QuantityHolder>
-      <Name>Smoke Root</Name>
-      <Quantity>5</Quantity>
+      <Name>Star Mushroom</Name>
+      <Quantity>2</Quantity>
     </QuantityHolder>
     <QuantityHolder>
       <Name>Blood Mushroom</Name>
@@ -71,9 +71,9 @@
     </ItemSpawnHolder>
   </Item_Spawns>
   <UniqueContainerList>
-    <string>Soldier’s Corpse_3Cbfg6RXeEqQv9qEaDbZqg</string>
     <string>Scavenger’s Corpse_CHibQoSEDE6N3rY0taXw2Q</string>
-    <string>Ornate Chest_Me1GxC7lZECsxlG9o7vqNg</string>
     <string>Chest_13FaCiQMPkWnJj-vWcezfw</string>
+    <string>Soldier’s Corpse_3Cbfg6RXeEqQv9qEaDbZqg</string>
+    <string>Ornate Chest_Me1GxC7lZECsxlG9o7vqNg</string>
   </UniqueContainerList>
 </SceneSummary>

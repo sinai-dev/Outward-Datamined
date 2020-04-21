@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ItemHolder xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <ItemID>6400141</ItemID>
+  <Name>Shield Golem Scrap</Name>
+  <gameObjectName>6400141_ShieldGolemScrap</gameObjectName>
+  <saveDir />
+  <Description />
+  <LegacyItemID>-1</LegacyItemID>
+  <StatsHolder>
+    <BaseValue>3</BaseValue>
+    <RawWeight>0.2</RawWeight>
+    <MaxDurability>-1</MaxDurability>
+  </StatsHolder>
+  <Tags>
+    <string>Ore</string>
+    <string>Material</string>
+    <string>Ingredient</string>
+    <string>Item</string>
+    <string>Misc</string>
+    <string>DecraftIron_Small</string>
+  </Tags>
+  <EffectTransforms />
+</ItemHolder>

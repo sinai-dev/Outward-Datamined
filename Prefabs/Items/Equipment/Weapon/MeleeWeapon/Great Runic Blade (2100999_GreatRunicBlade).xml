@@ -98,6 +98,7 @@
     <string>Weapon</string>
     <string>Item</string>
     <string>2 Handed</string>
+    <string>Lexicon</string>
   </Tags>
   <EffectTransforms />
   <EquipmentSlot>RightHand</EquipmentSlot>
@@ -105,4 +106,5 @@
   <TwoHandType>TwoHandedRight</TwoHandType>
   <VisualDetectabilityAdd>0</VisualDetectabilityAdd>
   <WeaponType>Sword_2H</WeaponType>
+  <StamCost>7.15</StamCost>
 </ItemHolder>

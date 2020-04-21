@@ -20,11 +20,11 @@
     </QuantityHolder>
   </Enemies>
   <Merchants>
-    <string>Laine the Alchemist (VM81kCzv2kaK7feq8DyncA)</string>
     <string>Shopkeeper Lyda (FU5328pcz025ME9tVRYP7g)</string>
     <string>Ountz the Melon Farmer (tU2CKVUfS0So5X5HNinAIg)</string>
-    <string>Soroborean Caravanner (9GAbQm8Ekk23M0LohPF7dg)</string>
     <string>Vyzyrinthrix the Blacksmith (3Rx_R0XDLUmYaNWm66SVCQ)</string>
+    <string>Soroborean Caravanner (9GAbQm8Ekk23M0LohPF7dg)</string>
+    <string>Laine the Alchemist (VM81kCzv2kaK7feq8DyncA)</string>
   </Merchants>
   <Loot_Containers>
     <QuantityHolder>
@@ -42,151 +42,27 @@
       <Quantity>3</Quantity>
     </QuantityHolder>
     <QuantityHolder>
-      <Name>Greasy Fern</Name>
-      <Quantity>2</Quantity>
-    </QuantityHolder>
-    <QuantityHolder>
       <Name>Livweedi</Name>
-      <Quantity>4</Quantity>
-    </QuantityHolder>
-    <QuantityHolder>
-      <Name>Crabeye</Name>
-      <Quantity>3</Quantity>
-    </QuantityHolder>
-    <QuantityHolder>
-      <Name>Gaberries</Name>
       <Quantity>4</Quantity>
     </QuantityHolder>
     <QuantityHolder>
       <Name>Krimp</Name>
       <Quantity>2</Quantity>
     </QuantityHolder>
+    <QuantityHolder>
+      <Name>Greasy Fern</Name>
+      <Quantity>2</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Gaberries</Name>
+      <Quantity>4</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Crabeye</Name>
+      <Quantity>3</Quantity>
+    </QuantityHolder>
   </Gatherables>
   <Item_Spawns>
-    <ItemSpawnHolder>
-      <Name>Bed</Name>
-      <Item_ID>5000003</Item_ID>
-      <Quantity>20</Quantity>
-      <positions>
-        <Vector3>
-          <x>-373.6207</x>
-          <y>-1495.07727</y>
-          <z>572.273743</z>
-        </Vector3>
-        <Vector3>
-          <x>-373.75</x>
-          <y>-1495.044</y>
-          <z>572.09</z>
-        </Vector3>
-        <Vector3>
-          <x>-370.04</x>
-          <y>-1495.044</y>
-          <z>569.41</z>
-        </Vector3>
-        <Vector3>
-          <x>-373.34</x>
-          <y>-1495.044</y>
-          <z>564.09</z>
-        </Vector3>
-        <Vector3>
-          <x>-373.43</x>
-          <y>-1495.044</y>
-          <z>569.15</z>
-        </Vector3>
-        <Vector3>
-          <x>-381.1</x>
-          <y>-1500</y>
-          <z>763.0688</z>
-        </Vector3>
-        <Vector3>
-          <x>-370.094177</x>
-          <y>-1495.07727</y>
-          <z>568.958862</z>
-        </Vector3>
-        <Vector3>
-          <x>-369.9792</x>
-          <y>-1495.07727</y>
-          <z>572.2888</z>
-        </Vector3>
-        <Vector3>
-          <x>-370.09317</x>
-          <y>-1495.07727</y>
-          <z>564.276855</z>
-        </Vector3>
-        <Vector3>
-          <x>-369.64</x>
-          <y>-1495.044</y>
-          <z>574.97</z>
-        </Vector3>
-        <Vector3>
-          <x>-381.037842</x>
-          <y>-1500</y>
-          <z>774.774</z>
-        </Vector3>
-        <Vector3>
-          <x>-370.181519</x>
-          <y>-1495.07727</y>
-          <z>574.857</z>
-        </Vector3>
-        <Vector3>
-          <x>-373.456177</x>
-          <y>-1495.07727</y>
-          <z>564.3848</z>
-        </Vector3>
-        <Vector3>
-          <x>-373.77</x>
-          <y>-1495.044</y>
-          <z>574.9</z>
-        </Vector3>
-        <Vector3>
-          <x>-380.891174</x>
-          <y>-1500</y>
-          <z>774.5519</z>
-        </Vector3>
-        <Vector3>
-          <x>-373.4452</x>
-          <y>-1495.07727</y>
-          <z>569.2418</z>
-        </Vector3>
-        <Vector3>
-          <x>-373.425659</x>
-          <y>-1495.07727</y>
-          <z>574.7213</z>
-        </Vector3>
-        <Vector3>
-          <x>-369.69</x>
-          <y>-1495.044</y>
-          <z>572.16</z>
-        </Vector3>
-        <Vector3>
-          <x>-370.1</x>
-          <y>-1495.044</y>
-          <z>563.96</z>
-        </Vector3>
-        <Vector3>
-          <x>-380.9242</x>
-          <y>-1500</y>
-          <z>763.347839</z>
-        </Vector3>
-      </positions>
-    </ItemSpawnHolder>
-    <ItemSpawnHolder>
-      <Name>Weather Defense Potion</Name>
-      <Item_ID>4300160</Item_ID>
-      <Quantity>2</Quantity>
-      <positions>
-        <Vector3>
-          <x>-381.945</x>
-          <y>-1499.099</y>
-          <z>763.861</z>
-        </Vector3>
-        <Vector3>
-          <x>-382.039978</x>
-          <y>-1499.099</y>
-          <z>764.017639</z>
-        </Vector3>
-      </positions>
-    </ItemSpawnHolder>
     <ItemSpawnHolder>
       <Name>Spiritual Varnish</Name>
       <Item_ID>4400060</Item_ID>
@@ -196,18 +72,6 @@
           <x>-382.068</x>
           <y>-1499.099</y>
           <z>763.513</z>
-        </Vector3>
-      </positions>
-    </ItemSpawnHolder>
-    <ItemSpawnHolder>
-      <Name>Occult Remains</Name>
-      <Item_ID>6600110</Item_ID>
-      <Quantity>1</Quantity>
-      <positions>
-        <Vector3>
-          <x>-147.531</x>
-          <y>-1513.705</y>
-          <z>765.527</z>
         </Vector3>
       </positions>
     </ItemSpawnHolder>
@@ -224,6 +88,35 @@
       </positions>
     </ItemSpawnHolder>
     <ItemSpawnHolder>
+      <Name>Weather Defense Potion</Name>
+      <Item_ID>4300160</Item_ID>
+      <Quantity>2</Quantity>
+      <positions>
+        <Vector3>
+          <x>-382.039978</x>
+          <y>-1499.099</y>
+          <z>764.017639</z>
+        </Vector3>
+        <Vector3>
+          <x>-381.945</x>
+          <y>-1499.099</y>
+          <z>763.861</z>
+        </Vector3>
+      </positions>
+    </ItemSpawnHolder>
+    <ItemSpawnHolder>
+      <Name>Occult Remains</Name>
+      <Item_ID>6600110</Item_ID>
+      <Quantity>1</Quantity>
+      <positions>
+        <Vector3>
+          <x>-147.531</x>
+          <y>-1513.705</y>
+          <z>765.527</z>
+        </Vector3>
+      </positions>
+    </ItemSpawnHolder>
+    <ItemSpawnHolder>
       <Name>Scholar’s Staff</Name>
       <Item_ID>2150000</Item_ID>
       <Quantity>1</Quantity>
@@ -235,12 +128,119 @@
         </Vector3>
       </positions>
     </ItemSpawnHolder>
+    <ItemSpawnHolder>
+      <Name>Bed</Name>
+      <Item_ID>5000003</Item_ID>
+      <Quantity>20</Quantity>
+      <positions>
+        <Vector3>
+          <x>-369.69</x>
+          <y>-1495.044</y>
+          <z>572.16</z>
+        </Vector3>
+        <Vector3>
+          <x>-370.09317</x>
+          <y>-1495.07727</y>
+          <z>564.276855</z>
+        </Vector3>
+        <Vector3>
+          <x>-373.6207</x>
+          <y>-1495.07727</y>
+          <z>572.273743</z>
+        </Vector3>
+        <Vector3>
+          <x>-381.1</x>
+          <y>-1500</y>
+          <z>763.0688</z>
+        </Vector3>
+        <Vector3>
+          <x>-370.1</x>
+          <y>-1495.044</y>
+          <z>563.96</z>
+        </Vector3>
+        <Vector3>
+          <x>-373.77</x>
+          <y>-1495.044</y>
+          <z>574.9</z>
+        </Vector3>
+        <Vector3>
+          <x>-373.425659</x>
+          <y>-1495.07727</y>
+          <z>574.7213</z>
+        </Vector3>
+        <Vector3>
+          <x>-370.04</x>
+          <y>-1495.044</y>
+          <z>569.41</z>
+        </Vector3>
+        <Vector3>
+          <x>-373.34</x>
+          <y>-1495.044</y>
+          <z>564.09</z>
+        </Vector3>
+        <Vector3>
+          <x>-370.181519</x>
+          <y>-1495.07727</y>
+          <z>574.857</z>
+        </Vector3>
+        <Vector3>
+          <x>-373.43</x>
+          <y>-1495.044</y>
+          <z>569.15</z>
+        </Vector3>
+        <Vector3>
+          <x>-380.9242</x>
+          <y>-1500</y>
+          <z>763.347839</z>
+        </Vector3>
+        <Vector3>
+          <x>-380.891174</x>
+          <y>-1500</y>
+          <z>774.5519</z>
+        </Vector3>
+        <Vector3>
+          <x>-369.64</x>
+          <y>-1495.044</y>
+          <z>574.97</z>
+        </Vector3>
+        <Vector3>
+          <x>-373.75</x>
+          <y>-1495.044</y>
+          <z>572.09</z>
+        </Vector3>
+        <Vector3>
+          <x>-370.094177</x>
+          <y>-1495.07727</y>
+          <z>568.958862</z>
+        </Vector3>
+        <Vector3>
+          <x>-369.9792</x>
+          <y>-1495.07727</y>
+          <z>572.2888</z>
+        </Vector3>
+        <Vector3>
+          <x>-373.4452</x>
+          <y>-1495.07727</y>
+          <z>569.2418</z>
+        </Vector3>
+        <Vector3>
+          <x>-381.037842</x>
+          <y>-1500</y>
+          <z>774.774</z>
+        </Vector3>
+        <Vector3>
+          <x>-373.456177</x>
+          <y>-1495.07727</y>
+          <z>564.3848</z>
+        </Vector3>
+      </positions>
+    </ItemSpawnHolder>
   </Item_Spawns>
   <UniqueContainerList>
-    <string>Junk Pile_nch9dJ2-YEGCkVKiy3FRVA</string>
     <string>Junk Pile_lnKjLKoWWUCrHDrECzL9Vg</string>
+    <string>Junk Pile_4nP1xkfQekKBqQPj2HhWLQ</string>
+    <string>Junk Pile_nch9dJ2-YEGCkVKiy3FRVA</string>
     <string>Stash_ImqRiGAT80aE2WtUHfdcMw</string>
     <string>Junk Pile_AV6ZXlamOU6JjPI83H_gCQ</string>
-    <string>Junk Pile_4nP1xkfQekKBqQPj2HhWLQ</string>
   </UniqueContainerList>
 </SceneSummary>

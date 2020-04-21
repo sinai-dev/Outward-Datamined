@@ -3,32 +3,40 @@
   <SceneName>Sand Rose Cave</SceneName>
   <Enemies>
     <QuantityHolder>
-      <Name>Ice Witch (1)</Name>
-      <Quantity>2</Quantity>
+      <Name>Assassin Bug (1)</Name>
+      <Quantity>6</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Shell Horror (1)</Name>
+      <Quantity>1</Quantity>
     </QuantityHolder>
     <QuantityHolder>
       <Name>Desert Archer (1)</Name>
       <Quantity>4</Quantity>
     </QuantityHolder>
     <QuantityHolder>
-      <Name>Desert Lieutenant (1)</Name>
-      <Quantity>1</Quantity>
+      <Name>Ice Witch (1)</Name>
+      <Quantity>2</Quantity>
     </QuantityHolder>
     <QuantityHolder>
-      <Name>Assassin Bug (1)</Name>
-      <Quantity>6</Quantity>
+      <Name>Desert Lieutenant (1)</Name>
+      <Quantity>1</Quantity>
     </QuantityHolder>
     <QuantityHolder>
       <Name>Desert Bandit (8)</Name>
       <Quantity>1</Quantity>
     </QuantityHolder>
-    <QuantityHolder>
-      <Name>Shell Horror (1)</Name>
-      <Quantity>1</Quantity>
-    </QuantityHolder>
   </Enemies>
   <Merchants />
   <Loot_Containers>
+    <QuantityHolder>
+      <Name>Ornate Chest</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Chest</Name>
+      <Quantity>2</Quantity>
+    </QuantityHolder>
     <QuantityHolder>
       <Name>Junk Pile</Name>
       <Quantity>3</Quantity>
@@ -38,37 +46,29 @@
       <Quantity>1</Quantity>
     </QuantityHolder>
     <QuantityHolder>
-      <Name>Chest</Name>
-      <Quantity>2</Quantity>
-    </QuantityHolder>
-    <QuantityHolder>
-      <Name>Ornate Chest</Name>
-      <Quantity>1</Quantity>
-    </QuantityHolder>
-    <QuantityHolder>
       <Name>Adventurer’s Corpse</Name>
       <Quantity>1</Quantity>
     </QuantityHolder>
   </Loot_Containers>
   <Gatherables>
     <QuantityHolder>
-      <Name>Blood Mushroom</Name>
-      <Quantity>2</Quantity>
+      <Name>Star Mushroom</Name>
+      <Quantity>1</Quantity>
     </QuantityHolder>
     <QuantityHolder>
       <Name>Palladium vein</Name>
       <Quantity>2</Quantity>
     </QuantityHolder>
     <QuantityHolder>
-      <Name>Green Mushroom</Name>
-      <Quantity>1</Quantity>
-    </QuantityHolder>
-    <QuantityHolder>
-      <Name>Star Mushroom</Name>
-      <Quantity>1</Quantity>
-    </QuantityHolder>
-    <QuantityHolder>
       <Name>Iron vein</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Blood Mushroom</Name>
+      <Quantity>2</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Green Mushroom</Name>
       <Quantity>1</Quantity>
     </QuantityHolder>
   </Gatherables>
@@ -87,12 +87,12 @@
     </ItemSpawnHolder>
   </Item_Spawns>
   <UniqueContainerList>
-    <string>Junk Pile_4PEhgat_T02ErT4a4KVMaw</string>
-    <string>Junk Pile_vk9LY0UsK0-B3CWImMJQBQ</string>
-    <string>Junk Pile__iyKVSH5JkuDyilRo80L8w</string>
-    <string>Worker’s Corpse_OaVrTgeyMkKmeLwqT56D7Q</string>
-    <string>Chest_nD3mjBfszUyS134E1MK6Jw</string>
     <string>Ornate Chest_hNoCZcnBzU6JyX2-S7pzZQ</string>
+    <string>Chest_nD3mjBfszUyS134E1MK6Jw</string>
+    <string>Junk Pile__iyKVSH5JkuDyilRo80L8w</string>
+    <string>Junk Pile_4PEhgat_T02ErT4a4KVMaw</string>
+    <string>Worker’s Corpse_OaVrTgeyMkKmeLwqT56D7Q</string>
+    <string>Junk Pile_vk9LY0UsK0-B3CWImMJQBQ</string>
     <string>Adventurer’s Corpse_bBhJPUnZakaEfPabWVE4yg</string>
     <string>Chest_j-2AWcWyGkqUnKSehDpY-Q</string>
   </UniqueContainerList>

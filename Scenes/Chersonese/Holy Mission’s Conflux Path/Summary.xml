@@ -7,6 +7,10 @@
       <Quantity>3</Quantity>
     </QuantityHolder>
     <QuantityHolder>
+      <Name>Mana Troglodyte (1)</Name>
+      <Quantity>2</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
       <Name>Armored Troglodyte (1)</Name>
       <Quantity>2</Quantity>
     </QuantityHolder>
@@ -17,10 +21,6 @@
     <QuantityHolder>
       <Name>Troglodyte Grenadier (1)</Name>
       <Quantity>1</Quantity>
-    </QuantityHolder>
-    <QuantityHolder>
-      <Name>Mana Troglodyte (1)</Name>
-      <Quantity>2</Quantity>
     </QuantityHolder>
   </Enemies>
   <Merchants />
@@ -36,10 +36,6 @@
   </Loot_Containers>
   <Gatherables>
     <QuantityHolder>
-      <Name>Star Mushroom</Name>
-      <Quantity>3</Quantity>
-    </QuantityHolder>
-    <QuantityHolder>
       <Name>Mana Stone</Name>
       <Quantity>4</Quantity>
     </QuantityHolder>
@@ -48,11 +44,15 @@
       <Quantity>1</Quantity>
     </QuantityHolder>
     <QuantityHolder>
-      <Name>Green Mushroom</Name>
-      <Quantity>1</Quantity>
+      <Name>Star Mushroom</Name>
+      <Quantity>3</Quantity>
     </QuantityHolder>
     <QuantityHolder>
       <Name>Turmmip</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Green Mushroom</Name>
       <Quantity>1</Quantity>
     </QuantityHolder>
   </Gatherables>

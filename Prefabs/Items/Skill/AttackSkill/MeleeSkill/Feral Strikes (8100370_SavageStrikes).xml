@@ -50,7 +50,7 @@ Attack twice, consuming your Rage boon in the process. Inflicts Extreme Bleeding
       <Effects>
         <EffectHolder xsi:type="RemoveStatusEffectHolder">
           <StatusEffect_ByTag>Rage</StatusEffect_ByTag>
-          <StatusEffect_Family>Unique</StatusEffect_Family>
+          <StatusEffect_Family />
           <StatusEffect_ByName />
         </EffectHolder>
       </Effects>

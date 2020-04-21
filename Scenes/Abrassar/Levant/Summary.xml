@@ -15,7 +15,6 @@
     <string>Shopkeeper Suul (FU5328pcz025ME9tVRYP7g)</string>
     <string>Tamara the Smuggler (55Q-r0hO0UGOHpHPZ5mnSw)</string>
     <string>Tuan the Alchemist (HS2mp9CeskCtxhiPQbBmXA)</string>
-    <string>Soroborean Caravanner (Tbq1PxS_iUO6vhnr7aGUhg)</string>
     <string>Master-Smith Tokuga (3Rx_R0XDLUmYaNWm66SVCQ)</string>
     <string>Chef Tenno (gcoiwYEhK0uAm918k2c2Yg)</string>
     <string>Engineer Orsten (8OdZ4OF9JUOaQOIAG4fZGw)</string>
@@ -23,11 +22,12 @@
     <string>Master-Smith Tokuga (EYhBqM653UGhDd5kcdMFXg)</string>
     <string>Tuan the Alchemist (VM81kCzv2kaK7feq8DyncA)</string>
     <string>Chef Tenno (tU2CKVUfS0So5X5HNinAIg)</string>
-    <string>Shopkeeper Suul (EMqw2ZGAo02dGNcdj-YGqg)</string>
+    <string>Shopkeeper Suul (6fSS8CIi70WgslppPjI54w)</string>
     <string>Engineer Orsten (J8OmsJUfxEys5t5wxYSXeA)</string>
     <string>Tamara the Smuggler (OjRsqb0O4E2ACtSIFLgTPg)</string>
+    <string>Smooth the Tailor (7U74M70_X0Odj2uQKe5kGA)</string>
     <string>Soroborean Caravanner (-MSrkT502k63y3CV2j98TQ)</string>
-    <string>Smooth the Tailor (G_GyAVjRWkq8e2L8WP4TgA)</string>
+    <string>Soroborean Caravanner (Tbq1PxS_iUO6vhnr7aGUhg)</string>
   </Merchants>
   <Loot_Containers>
     <QuantityHolder>
@@ -59,122 +59,6 @@
   </Gatherables>
   <Item_Spawns>
     <ItemSpawnHolder>
-      <Name>Bed</Name>
-      <Item_ID>5000005</Item_ID>
-      <Quantity>8</Quantity>
-      <positions>
-        <Vector3>
-          <x>-373.475159</x>
-          <y>-1504.19788</y>
-          <z>586.172852</z>
-        </Vector3>
-        <Vector3>
-          <x>-150.76918</x>
-          <y>-1491.97107</y>
-          <z>564.148865</z>
-        </Vector3>
-        <Vector3>
-          <x>-381.574158</x>
-          <y>-1504.19788</y>
-          <z>584.8668</z>
-        </Vector3>
-        <Vector3>
-          <x>-330.503174</x>
-          <y>-1490</y>
-          <z>785.2499</z>
-        </Vector3>
-        <Vector3>
-          <x>-376.993164</x>
-          <y>-1504.19788</y>
-          <z>586.0518</z>
-        </Vector3>
-        <Vector3>
-          <x>-369.0022</x>
-          <y>-1504.19788</y>
-          <z>584.752869</z>
-        </Vector3>
-        <Vector3>
-          <x>-150.610184</x>
-          <y>-1491.97107</y>
-          <z>569.847839</z>
-        </Vector3>
-        <Vector3>
-          <x>-330.488159</x>
-          <y>-1490</y>
-          <z>780.4238</z>
-        </Vector3>
-      </positions>
-    </ItemSpawnHolder>
-    <ItemSpawnHolder>
-      <Name>Bed</Name>
-      <Item_ID>5000001</Item_ID>
-      <Quantity>10</Quantity>
-      <positions>
-        <Vector3>
-          <x>-373.490845</x>
-          <y>-1503.95142</y>
-          <z>586.149658</z>
-        </Vector3>
-        <Vector3>
-          <x>-373.464844</x>
-          <y>-1504.00476</y>
-          <z>592.801941</z>
-        </Vector3>
-        <Vector3>
-          <x>-369.04483</x>
-          <y>-1503.923</y>
-          <z>584.8425</z>
-        </Vector3>
-        <Vector3>
-          <x>-376.932831</x>
-          <y>-1504.029</y>
-          <z>592.53595</z>
-        </Vector3>
-        <Vector3>
-          <x>-150.617172</x>
-          <y>-1491.97107</y>
-          <z>569.771851</z>
-        </Vector3>
-        <Vector3>
-          <x>-381.564819</x>
-          <y>-1503.97986</y>
-          <z>584.8575</z>
-        </Vector3>
-        <Vector3>
-          <x>-382.57782</x>
-          <y>-1503.98169</y>
-          <z>591.5205</z>
-        </Vector3>
-        <Vector3>
-          <x>-150.78717</x>
-          <y>-1491.97107</y>
-          <z>564.071838</z>
-        </Vector3>
-        <Vector3>
-          <x>-376.941833</x>
-          <y>-1504.05115</y>
-          <z>585.9845</z>
-        </Vector3>
-        <Vector3>
-          <x>-367.7606</x>
-          <y>-1503.96606</y>
-          <z>591.3035</z>
-        </Vector3>
-      </positions>
-    </ItemSpawnHolder>
-    <ItemSpawnHolder>
-      <Name>Broad Dagger</Name>
-      <Item_ID>5110001</Item_ID>
-      <Quantity>1</Quantity>
-      <positions>
-        <Vector3>
-          <x>-152.258</x>
-          <y>-1491.051</y>
-          <z>564.401</z>
-        </Vector3>
-      </positions>
-    </ItemSpawnHolder>
-    <ItemSpawnHolder>
       <Name>Bullet</Name>
       <Item_ID>4400080</Item_ID>
       <Quantity>1</Quantity>
@@ -183,6 +67,18 @@
           <x>-141.285</x>
           <y>-1499.101</y>
           <z>577.25</z>
+        </Vector3>
+      </positions>
+    </ItemSpawnHolder>
+    <ItemSpawnHolder>
+      <Name>Ice-Flame Torch</Name>
+      <Item_ID>5100070</Item_ID>
+      <Quantity>1</Quantity>
+      <positions>
+        <Vector3>
+          <x>-148.091</x>
+          <y>-1490.547</y>
+          <z>574.111</z>
         </Vector3>
       </positions>
     </ItemSpawnHolder>
@@ -199,38 +95,142 @@
       </positions>
     </ItemSpawnHolder>
     <ItemSpawnHolder>
-      <Name>Ice-Flame Torch</Name>
-      <Item_ID>5100070</Item_ID>
+      <Name>Broad Dagger</Name>
+      <Item_ID>5110001</Item_ID>
       <Quantity>1</Quantity>
       <positions>
         <Vector3>
-          <x>-148.091</x>
-          <y>-1490.547</y>
-          <z>574.111</z>
+          <x>-152.258</x>
+          <y>-1491.051</y>
+          <z>564.401</z>
+        </Vector3>
+      </positions>
+    </ItemSpawnHolder>
+    <ItemSpawnHolder>
+      <Name>Bed</Name>
+      <Item_ID>5000005</Item_ID>
+      <Quantity>8</Quantity>
+      <positions>
+        <Vector3>
+          <x>-330.503174</x>
+          <y>-1490</y>
+          <z>785.2499</z>
+        </Vector3>
+        <Vector3>
+          <x>-373.475159</x>
+          <y>-1504.19788</y>
+          <z>586.172852</z>
+        </Vector3>
+        <Vector3>
+          <x>-376.993164</x>
+          <y>-1504.19788</y>
+          <z>586.0518</z>
+        </Vector3>
+        <Vector3>
+          <x>-330.488159</x>
+          <y>-1490</y>
+          <z>780.4238</z>
+        </Vector3>
+        <Vector3>
+          <x>-369.0022</x>
+          <y>-1504.19788</y>
+          <z>584.752869</z>
+        </Vector3>
+        <Vector3>
+          <x>-381.574158</x>
+          <y>-1504.19788</y>
+          <z>584.8668</z>
+        </Vector3>
+        <Vector3>
+          <x>-150.610184</x>
+          <y>-1491.97107</y>
+          <z>569.847839</z>
+        </Vector3>
+        <Vector3>
+          <x>-150.76918</x>
+          <y>-1491.97107</y>
+          <z>564.148865</z>
+        </Vector3>
+      </positions>
+    </ItemSpawnHolder>
+    <ItemSpawnHolder>
+      <Name>Bed</Name>
+      <Item_ID>5000001</Item_ID>
+      <Quantity>10</Quantity>
+      <positions>
+        <Vector3>
+          <x>-369.04483</x>
+          <y>-1503.923</y>
+          <z>584.8425</z>
+        </Vector3>
+        <Vector3>
+          <x>-376.932831</x>
+          <y>-1504.029</y>
+          <z>592.53595</z>
+        </Vector3>
+        <Vector3>
+          <x>-373.464844</x>
+          <y>-1504.00476</y>
+          <z>592.801941</z>
+        </Vector3>
+        <Vector3>
+          <x>-150.78717</x>
+          <y>-1491.97107</y>
+          <z>564.071838</z>
+        </Vector3>
+        <Vector3>
+          <x>-382.57782</x>
+          <y>-1503.98169</y>
+          <z>591.5205</z>
+        </Vector3>
+        <Vector3>
+          <x>-150.617172</x>
+          <y>-1491.97107</y>
+          <z>569.771851</z>
+        </Vector3>
+        <Vector3>
+          <x>-373.490845</x>
+          <y>-1503.95142</y>
+          <z>586.149658</z>
+        </Vector3>
+        <Vector3>
+          <x>-367.7606</x>
+          <y>-1503.96606</y>
+          <z>591.3035</z>
+        </Vector3>
+        <Vector3>
+          <x>-376.941833</x>
+          <y>-1504.05115</y>
+          <z>585.9845</z>
+        </Vector3>
+        <Vector3>
+          <x>-381.564819</x>
+          <y>-1503.97986</y>
+          <z>584.8575</z>
         </Vector3>
       </positions>
     </ItemSpawnHolder>
   </Item_Spawns>
   <UniqueContainerList>
     <string>Chest_3ZWYD70hr02QQLb_mjND9w</string>
-    <string>Junk Pile_dp4Qpidc3ku2_0Xfqcv26A</string>
-    <string>Junk Pile_vJxdATvmxEmduVCDtuiBvQ</string>
-    <string>Junk Pile_eQR1cIvCwU6JS77Pd0k6Xg</string>
-    <string>Chest_DBaVynnL0Uyth7KgLZEJdQ</string>
     <string>Junk Pile_tV50gUuAMk-pGTk8tf21yA</string>
-    <string>Junk Pile_TagcHfJJdUmtvHYNbaYvhg</string>
-    <string>Junk Pile_98M4ooyrLkGkVAnmugE-9A</string>
-    <string>Chest_Oo1Y1wJO7USH9dE126uKJA</string>
-    <string>Chest_bMPNLWyqckavZOODAnMVKw</string>
+    <string>Chest_DBaVynnL0Uyth7KgLZEJdQ</string>
+    <string>Junk Pile_vJxdATvmxEmduVCDtuiBvQ</string>
     <string>Chest_fPn66sdTfUOvAj93gm-7nw</string>
-    <string>Stash_ZbPXNsPvlUeQVJRks3zBzg</string>
-    <string>Worker’s Corpse_Hwai_V3w7UWRfehwHr8o9A</string>
-    <string>Junk Pile_j7zWptuDC02DItdhU_OKSw</string>
-    <string>Junk Pile_LcnjkzZF80y0GuaRM09OBw</string>
     <string>Junk Pile_x_IV7Ti2xEunItYgdEGrxA</string>
-    <string>Junk Pile_2xh3aR4iiE-Ypob0Fk35Cg</string>
-    <string>Worker’s Corpse_ixRdjfAjC0uQDqnSsEm1YQ</string>
-    <string>Junk Pile_j96i4BPaMkq20a5_2pDDNQ</string>
+    <string>Junk Pile_98M4ooyrLkGkVAnmugE-9A</string>
+    <string>Junk Pile_LcnjkzZF80y0GuaRM09OBw</string>
+    <string>Stash_ZbPXNsPvlUeQVJRks3zBzg</string>
+    <string>Chest_bMPNLWyqckavZOODAnMVKw</string>
+    <string>Junk Pile_eQR1cIvCwU6JS77Pd0k6Xg</string>
+    <string>Junk Pile_dp4Qpidc3ku2_0Xfqcv26A</string>
+    <string>Junk Pile_j7zWptuDC02DItdhU_OKSw</string>
+    <string>Worker’s Corpse_Hwai_V3w7UWRfehwHr8o9A</string>
+    <string>Junk Pile_TagcHfJJdUmtvHYNbaYvhg</string>
     <string>Chest_XWrUQ4qEk06YLUqthyAmpw</string>
+    <string>Worker’s Corpse_ixRdjfAjC0uQDqnSsEm1YQ</string>
+    <string>Chest_Oo1Y1wJO7USH9dE126uKJA</string>
+    <string>Junk Pile_2xh3aR4iiE-Ypob0Fk35Cg</string>
+    <string>Junk Pile_BitbPl3pQk6vFbWJkQW0hQ</string>
   </UniqueContainerList>
 </SceneSummary>

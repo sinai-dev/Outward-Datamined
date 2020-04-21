@@ -56,11 +56,7 @@
       <Quantity>3</Quantity>
     </QuantityHolder>
     <QuantityHolder>
-      <Name>Chersonese:Pirates' Hideout</Name>
-      <Quantity>1</Quantity>
-    </QuantityHolder>
-    <QuantityHolder>
-      <Name>Chersonese:Vigil Tomb</Name>
+      <Name>Chersonese:Hermit's House</Name>
       <Quantity>1</Quantity>
     </QuantityHolder>
     <QuantityHolder>
@@ -68,11 +64,15 @@
       <Quantity>1</Quantity>
     </QuantityHolder>
     <QuantityHolder>
-      <Name>Chersonese:Hermit's House</Name>
+      <Name>Chersonese:Vigil Tomb</Name>
       <Quantity>1</Quantity>
     </QuantityHolder>
     <QuantityHolder>
       <Name>Chersonese:Mansion's Cellar</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Chersonese:Pirates' Hideout</Name>
       <Quantity>1</Quantity>
     </QuantityHolder>
     <QuantityHolder>
@@ -164,15 +164,15 @@
       <Quantity>4</Quantity>
     </QuantityHolder>
     <QuantityHolder>
-      <Name>Enmerkar Forest:Vigil Pylon</Name>
-      <Quantity>1</Quantity>
-    </QuantityHolder>
-    <QuantityHolder>
       <Name>Enmerkar Forest:Tree Husk</Name>
       <Quantity>1</Quantity>
     </QuantityHolder>
     <QuantityHolder>
       <Name>Enmerkar Forest:Worn Hunter's Cabin</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Enmerkar Forest:Vigil Pylon</Name>
       <Quantity>1</Quantity>
     </QuantityHolder>
   </All_Locations>
@@ -181,6 +181,12 @@
       <DropTableName>DropTable_CierzoTutorialChest_C_1</DropTableName>
       <Locations>
         <string>Shipwreck Beach</string>
+      </Locations>
+    </ContainerDroptableSummary>
+    <ContainerDroptableSummary>
+      <DropTableName>DropTable_Chersonese_CrockLoot_3</DropTableName>
+      <Locations>
+        <string>Cierzo</string>
       </Locations>
     </ContainerDroptableSummary>
     <ContainerDroptableSummary>
@@ -232,12 +238,6 @@
       </Locations>
     </ContainerDroptableSummary>
     <ContainerDroptableSummary>
-      <DropTableName>DropTable_Chersonese_CrockLoot_3</DropTableName>
-      <Locations>
-        <string>Cierzo</string>
-      </Locations>
-    </ContainerDroptableSummary>
-    <ContainerDroptableSummary>
       <DropTableName>DropTable_Neutral_StandardRecipe_Low_1</DropTableName>
       <Locations>
         <string>Cierzo (Destroyed)</string>
@@ -248,10 +248,10 @@
         <string>Heroic Kingdom’s Conflux Path</string>
         <string>Corrupted Tombs</string>
         <string>Cierzo Storage</string>
-        <string>Pirates' Hideout</string>
-        <string>Vigil Tomb</string>
         <string>Hermit's House</string>
+        <string>Vigil Tomb</string>
         <string>Mansion's Cellar</string>
+        <string>Pirates' Hideout</string>
         <string>Jade Quarry</string>
         <string>Giants’ Village</string>
         <string>Ziggurat Passage</string>
@@ -266,44 +266,22 @@
         <string>Sand Rose Cave</string>
         <string>Ancestor’s Resting Place</string>
         <string>Necropolis</string>
-        <string>Vigil Pylon</string>
         <string>Tree Husk</string>
+        <string>Vigil Pylon</string>
       </Locations>
     </ContainerDroptableSummary>
     <ContainerDroptableSummary>
-      <DropTableName>DropTable_Neutral_Survival_Medium_1</DropTableName>
+      <DropTableName>DropTable_Neutral_Consumable_Low_2</DropTableName>
       <Locations>
         <string>Cierzo (Destroyed)</string>
-        <string>Vendavel Fortress</string>
-        <string>Ghost Pass</string>
-        <string>Heroic Kingdom’s Conflux Path</string>
-        <string>Corrupted Tombs</string>
-        <string>Montcalm Clan Fort</string>
-        <string>Mansion's Cellar</string>
-        <string>Monsoon</string>
+        <string>Reptilian Lair</string>
         <string>Dark Ziggurat Interior</string>
         <string>Ziggurat Passage</string>
+        <string>Dead Roots</string>
         <string>Levant</string>
         <string>Abrassar</string>
-        <string>Electric Lab</string>
-        <string>The Slide</string>
-        <string>Stone Titan Caves</string>
-        <string>Ruined Outpost</string>
         <string>Berg</string>
-        <string>Cabal of Wind Temple</string>
-        <string>Face of the Ancients</string>
-        <string>Ancestor’s Resting Place</string>
         <string>Necropolis</string>
-        <string>Vigil Pylon</string>
-      </Locations>
-    </ContainerDroptableSummary>
-    <ContainerDroptableSummary>
-      <DropTableName>DropTable_Chersonese_Equipment_Low_1</DropTableName>
-      <Locations>
-        <string>Cierzo (Destroyed)</string>
-        <string>Vendavel Fortress</string>
-        <string>Blister Burrow</string>
-        <string>Blue Chamber’s Conflux Path</string>
       </Locations>
     </ContainerDroptableSummary>
     <ContainerDroptableSummary>
@@ -344,6 +322,42 @@
       </Locations>
     </ContainerDroptableSummary>
     <ContainerDroptableSummary>
+      <DropTableName>DropTable_Chersonese_Recipe_Basic_1</DropTableName>
+      <Locations>
+        <string>Cierzo (Destroyed)</string>
+        <string>Vendavel Fortress</string>
+        <string>Holy Mission’s Conflux Path</string>
+        <string>Montcalm Clan Fort</string>
+      </Locations>
+    </ContainerDroptableSummary>
+    <ContainerDroptableSummary>
+      <DropTableName>DropTable_Neutral_Survival_Medium_1</DropTableName>
+      <Locations>
+        <string>Cierzo (Destroyed)</string>
+        <string>Vendavel Fortress</string>
+        <string>Ghost Pass</string>
+        <string>Heroic Kingdom’s Conflux Path</string>
+        <string>Corrupted Tombs</string>
+        <string>Montcalm Clan Fort</string>
+        <string>Mansion's Cellar</string>
+        <string>Monsoon</string>
+        <string>Dark Ziggurat Interior</string>
+        <string>Ziggurat Passage</string>
+        <string>Levant</string>
+        <string>Abrassar</string>
+        <string>Electric Lab</string>
+        <string>The Slide</string>
+        <string>Stone Titan Caves</string>
+        <string>Ruined Outpost</string>
+        <string>Berg</string>
+        <string>Cabal of Wind Temple</string>
+        <string>Face of the Ancients</string>
+        <string>Ancestor’s Resting Place</string>
+        <string>Necropolis</string>
+        <string>Vigil Pylon</string>
+      </Locations>
+    </ContainerDroptableSummary>
+    <ContainerDroptableSummary>
       <DropTableName>DropTable_Chersonese_Food_1</DropTableName>
       <Locations>
         <string>Cierzo (Destroyed)</string>
@@ -377,8 +391,17 @@
         <string>Face of the Ancients</string>
         <string>Ancestor’s Resting Place</string>
         <string>Necropolis</string>
-        <string>Vigil Pylon</string>
         <string>Worn Hunter's Cabin</string>
+        <string>Vigil Pylon</string>
+      </Locations>
+    </ContainerDroptableSummary>
+    <ContainerDroptableSummary>
+      <DropTableName>DropTable_Chersonese_Equipment_Low_1</DropTableName>
+      <Locations>
+        <string>Cierzo (Destroyed)</string>
+        <string>Vendavel Fortress</string>
+        <string>Blister Burrow</string>
+        <string>Blue Chamber’s Conflux Path</string>
       </Locations>
     </ContainerDroptableSummary>
     <ContainerDroptableSummary>
@@ -392,29 +415,6 @@
         <string>Giants’ Village</string>
         <string>Levant</string>
         <string>Berg</string>
-      </Locations>
-    </ContainerDroptableSummary>
-    <ContainerDroptableSummary>
-      <DropTableName>DropTable_Neutral_Consumable_Low_2</DropTableName>
-      <Locations>
-        <string>Cierzo (Destroyed)</string>
-        <string>Reptilian Lair</string>
-        <string>Dark Ziggurat Interior</string>
-        <string>Ziggurat Passage</string>
-        <string>Dead Roots</string>
-        <string>Levant</string>
-        <string>Abrassar</string>
-        <string>Berg</string>
-        <string>Necropolis</string>
-      </Locations>
-    </ContainerDroptableSummary>
-    <ContainerDroptableSummary>
-      <DropTableName>DropTable_Chersonese_Recipe_Basic_1</DropTableName>
-      <Locations>
-        <string>Cierzo (Destroyed)</string>
-        <string>Vendavel Fortress</string>
-        <string>Holy Mission’s Conflux Path</string>
-        <string>Montcalm Clan Fort</string>
       </Locations>
     </ContainerDroptableSummary>
     <ContainerDroptableSummary>
@@ -460,9 +460,9 @@
       <DropTableName>DropTable_Neutral_Magic_Low_2</DropTableName>
       <Locations>
         <string>Blue Chamber’s Conflux Path</string>
-        <string>Vigil Tomb</string>
-        <string>Starfish Cave</string>
         <string>Hermit's House</string>
+        <string>Starfish Cave</string>
+        <string>Vigil Tomb</string>
         <string>Monsoon</string>
         <string>Jade Quarry</string>
         <string>Reptilian Lair</string>
@@ -486,8 +486,8 @@
         <string>Holy Mission’s Conflux Path</string>
         <string>Heroic Kingdom’s Conflux Path</string>
         <string>Montcalm Clan Fort</string>
-        <string>Pirates' Hideout</string>
         <string>Starfish Cave</string>
+        <string>Pirates' Hideout</string>
         <string>Monsoon</string>
         <string>Jade Quarry</string>
         <string>Reptilian Lair</string>
@@ -556,16 +556,16 @@
       </Locations>
     </ContainerDroptableSummary>
     <ContainerDroptableSummary>
-      <DropTableName>DropTable_LevantJunkTraps_C</DropTableName>
-      <Locations>
-        <string>Levant</string>
-      </Locations>
-    </ContainerDroptableSummary>
-    <ContainerDroptableSummary>
       <DropTableName>DropTable_Abrassar_Equipment_Low_1</DropTableName>
       <Locations>
         <string>Levant</string>
         <string>Abrassar</string>
+      </Locations>
+    </ContainerDroptableSummary>
+    <ContainerDroptableSummary>
+      <DropTableName>DropTable_LevantJunkTraps_C</DropTableName>
+      <Locations>
+        <string>Levant</string>
       </Locations>
     </ContainerDroptableSummary>
     <ContainerDroptableSummary>
@@ -581,12 +581,10 @@
       </Locations>
     </ContainerDroptableSummary>
     <ContainerDroptableSummary>
-      <DropTableName>DropTable_Enmerkar_Recipe_Basic_1</DropTableName>
+      <DropTableName>DropTable_Enmerkar_Recipe_Weapon_1</DropTableName>
       <Locations>
         <string>Cabal of Wind Temple</string>
         <string>Face of the Ancients</string>
-        <string>Ancestor’s Resting Place</string>
-        <string>Necropolis</string>
       </Locations>
     </ContainerDroptableSummary>
     <ContainerDroptableSummary>
@@ -596,10 +594,12 @@
       </Locations>
     </ContainerDroptableSummary>
     <ContainerDroptableSummary>
-      <DropTableName>DropTable_Enmerkar_Recipe_Weapon_1</DropTableName>
+      <DropTableName>DropTable_Enmerkar_Recipe_Basic_1</DropTableName>
       <Locations>
         <string>Cabal of Wind Temple</string>
         <string>Face of the Ancients</string>
+        <string>Ancestor’s Resting Place</string>
+        <string>Necropolis</string>
       </Locations>
     </ContainerDroptableSummary>
   </DropTables>

@@ -20,7 +20,7 @@ This skill lowers the durability of the torch or lantern used.</Description>
           <RefreshTime>0.1</RefreshTime>
           <EffectTransforms>
             <EffectTransformHolder>
-              <TransformName>Effects</TransformName>
+              <TransformName>NormalFire</TransformName>
               <Effects>
                 <EffectHolder xsi:type="PunctualDamageHolder">
                   <Damage>
@@ -35,6 +35,113 @@ This skill lowers the durability of the torch or lantern used.</Description>
                 </EffectHolder>
                 <EffectHolder xsi:type="AddStatusEffectBuildupHolder">
                   <StatusEffect>Burning</StatusEffect>
+                  <Buildup>15</Buildup>
+                </EffectHolder>
+              </Effects>
+              <EffectConditions />
+              <ChildEffects />
+            </EffectTransformHolder>
+            <EffectTransformHolder>
+              <TransformName>NormalLightning</TransformName>
+              <Effects>
+                <EffectHolder xsi:type="PunctualDamageHolder">
+                  <Damage>
+                    <Damages>
+                      <Damage>3.16</Damage>
+                      <Damage_Type>Electric</Damage_Type>
+                    </Damages>
+                  </Damage>
+                  <Damages_AI />
+                  <Knockback>2.65</Knockback>
+                  <HitInventory>true</HitInventory>
+                </EffectHolder>
+                <EffectHolder xsi:type="AddStatusEffectBuildupHolder">
+                  <StatusEffect>Sapped</StatusEffect>
+                  <Buildup>15</Buildup>
+                </EffectHolder>
+              </Effects>
+              <EffectConditions />
+              <ChildEffects />
+            </EffectTransformHolder>
+            <EffectTransformHolder>
+              <TransformName>NormalEthereal</TransformName>
+              <Effects>
+                <EffectHolder xsi:type="PunctualDamageHolder">
+                  <Damage>
+                    <Damages>
+                      <Damage>1.375</Damage>
+                      <Damage_Type>Ethereal</Damage_Type>
+                    </Damages>
+                  </Damage>
+                  <Damages_AI />
+                  <Knockback>2.65</Knockback>
+                  <HitInventory>true</HitInventory>
+                </EffectHolder>
+                <EffectHolder xsi:type="AddStatusEffectBuildupHolder">
+                  <StatusEffect>Haunted</StatusEffect>
+                  <Buildup>15</Buildup>
+                </EffectHolder>
+              </Effects>
+              <EffectConditions />
+              <ChildEffects />
+            </EffectTransformHolder>
+            <EffectTransformHolder>
+              <TransformName>NormalIce</TransformName>
+              <Effects>
+                <EffectHolder xsi:type="PunctualDamageHolder">
+                  <Damage>
+                    <Damages>
+                      <Damage>2.75</Damage>
+                      <Damage_Type>Frost</Damage_Type>
+                    </Damages>
+                  </Damage>
+                  <Damages_AI />
+                  <Knockback>2.65</Knockback>
+                  <HitInventory>true</HitInventory>
+                </EffectHolder>
+                <EffectHolder xsi:type="AddStatusEffectBuildupHolder">
+                  <StatusEffect>Slow Down</StatusEffect>
+                  <Buildup>15</Buildup>
+                </EffectHolder>
+              </Effects>
+              <EffectConditions />
+              <ChildEffects />
+            </EffectTransformHolder>
+            <EffectTransformHolder>
+              <TransformName>NormalDecay</TransformName>
+              <Effects>
+                <EffectHolder xsi:type="PunctualDamageHolder">
+                  <Damage>
+                    <Damages>
+                      <Damage>2.75</Damage>
+                      <Damage_Type>Decay</Damage_Type>
+                    </Damages>
+                  </Damage>
+                  <Damages_AI />
+                  <Knockback>2.65</Knockback>
+                  <HitInventory>true</HitInventory>
+                </EffectHolder>
+                <EffectHolder xsi:type="AddStatusEffectBuildupHolder">
+                  <StatusEffect>Bleeding</StatusEffect>
+                  <Buildup>15</Buildup>
+                </EffectHolder>
+              </Effects>
+              <EffectConditions />
+              <ChildEffects />
+            </EffectTransformHolder>
+            <EffectTransformHolder>
+              <TransformName>NormalCopper</TransformName>
+              <Effects>
+                <EffectHolder xsi:type="AddStatusEffectBuildupHolder">
+                  <StatusEffect>Poisoned</StatusEffect>
+                  <Buildup>15</Buildup>
+                </EffectHolder>
+                <EffectHolder xsi:type="AddStatusEffectBuildupHolder">
+                  <StatusEffect>Weaken</StatusEffect>
+                  <Buildup>15</Buildup>
+                </EffectHolder>
+                <EffectHolder xsi:type="AddStatusEffectBuildupHolder">
+                  <StatusEffect>Curse</StatusEffect>
                   <Buildup>15</Buildup>
                 </EffectHolder>
               </Effects>

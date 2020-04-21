@@ -3,22 +3,22 @@
   <SceneName>Trog Infiltration</SceneName>
   <Enemies>
     <QuantityHolder>
-      <Name>Troglodyte Grenadier (1)</Name>
+      <Name>Troglodyte Knight (1)</Name>
       <Quantity>1</Quantity>
     </QuantityHolder>
     <QuantityHolder>
-      <Name>Troglodyte Knight (1)</Name>
+      <Name>Troglodyte Grenadier (1)</Name>
       <Quantity>1</Quantity>
     </QuantityHolder>
   </Enemies>
   <Merchants />
   <Loot_Containers>
     <QuantityHolder>
-      <Name>Trog Chest</Name>
+      <Name>Corpse</Name>
       <Quantity>1</Quantity>
     </QuantityHolder>
     <QuantityHolder>
-      <Name>Corpse</Name>
+      <Name>Trog Chest</Name>
       <Quantity>1</Quantity>
     </QuantityHolder>
   </Loot_Containers>
@@ -43,7 +43,7 @@
     </ItemSpawnHolder>
   </Item_Spawns>
   <UniqueContainerList>
-    <string>Trog Chest_8h0DWp4jsk-SZCtBRksi7Q</string>
     <string>Corpse_3pDsK0LLdkWMRBiKDx48zQ</string>
+    <string>Trog Chest_8h0DWp4jsk-SZCtBRksi7Q</string>
   </UniqueContainerList>
 </SceneSummary>

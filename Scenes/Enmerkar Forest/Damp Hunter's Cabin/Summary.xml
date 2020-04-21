@@ -29,28 +29,6 @@
       </positions>
     </ItemSpawnHolder>
     <ItemSpawnHolder>
-      <Name>Predator Bones</Name>
-      <Item_ID>6600050</Item_ID>
-      <Quantity>3</Quantity>
-      <positions>
-        <Vector3>
-          <x>-3.712</x>
-          <y>1.753</y>
-          <z>3.7</z>
-        </Vector3>
-        <Vector3>
-          <x>-4.036756</x>
-          <y>0.802</y>
-          <z>5.042796</z>
-        </Vector3>
-        <Vector3>
-          <x>-3.921</x>
-          <y>0.8007406</y>
-          <z>4.158</z>
-        </Vector3>
-      </positions>
-    </ItemSpawnHolder>
-    <ItemSpawnHolder>
       <Name>Hide</Name>
       <Item_ID>6600020</Item_ID>
       <Quantity>2</Quantity>
@@ -64,6 +42,28 @@
           <x>-3.447</x>
           <y>1.763</y>
           <z>3.22343</z>
+        </Vector3>
+      </positions>
+    </ItemSpawnHolder>
+    <ItemSpawnHolder>
+      <Name>Predator Bones</Name>
+      <Item_ID>6600050</Item_ID>
+      <Quantity>3</Quantity>
+      <positions>
+        <Vector3>
+          <x>-4.036756</x>
+          <y>0.802</y>
+          <z>5.042796</z>
+        </Vector3>
+        <Vector3>
+          <x>-3.712</x>
+          <y>1.753</y>
+          <z>3.7</z>
+        </Vector3>
+        <Vector3>
+          <x>-3.921</x>
+          <y>0.8007406</y>
+          <z>4.158</z>
         </Vector3>
       </positions>
     </ItemSpawnHolder>

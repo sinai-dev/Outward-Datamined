@@ -3,6 +3,10 @@
   <SceneName>Ancestor’s Resting Place</SceneName>
   <Enemies>
     <QuantityHolder>
+      <Name>Assassin Bug (1)</Name>
+      <Quantity>2</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
       <Name>Bandit Archer (1)</Name>
       <Quantity>1</Quantity>
     </QuantityHolder>
@@ -15,15 +19,7 @@
       <Quantity>1</Quantity>
     </QuantityHolder>
     <QuantityHolder>
-      <Name>Desert Captain (2)</Name>
-      <Quantity>1</Quantity>
-    </QuantityHolder>
-    <QuantityHolder>
       <Name>Bandit (8)</Name>
-      <Quantity>2</Quantity>
-    </QuantityHolder>
-    <QuantityHolder>
-      <Name>Assassin Bug (1)</Name>
       <Quantity>2</Quantity>
     </QuantityHolder>
     <QuantityHolder>
@@ -31,20 +27,28 @@
       <Quantity>1</Quantity>
     </QuantityHolder>
     <QuantityHolder>
-      <Name>Bandit Lieutenant (2)</Name>
-      <Quantity>1</Quantity>
-    </QuantityHolder>
-    <QuantityHolder>
-      <Name>Bandit (2)</Name>
+      <Name>Desert Captain (2)</Name>
       <Quantity>1</Quantity>
     </QuantityHolder>
     <QuantityHolder>
       <Name>Armored Hyena (1)</Name>
       <Quantity>1</Quantity>
     </QuantityHolder>
+    <QuantityHolder>
+      <Name>Bandit (1)</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Bandit Lieutenant (1)</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
   </Enemies>
   <Merchants />
   <Loot_Containers>
+    <QuantityHolder>
+      <Name>Ornate Chest</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
     <QuantityHolder>
       <Name>Junk Pile</Name>
       <Quantity>3</Quantity>
@@ -53,31 +57,27 @@
       <Name>Chest</Name>
       <Quantity>2</Quantity>
     </QuantityHolder>
-    <QuantityHolder>
-      <Name>Ornate Chest</Name>
-      <Quantity>1</Quantity>
-    </QuantityHolder>
   </Loot_Containers>
   <Gatherables>
     <QuantityHolder>
-      <Name>Palladium vein</Name>
-      <Quantity>2</Quantity>
-    </QuantityHolder>
-    <QuantityHolder>
       <Name>Iron vein</Name>
       <Quantity>2</Quantity>
-    </QuantityHolder>
-    <QuantityHolder>
-      <Name>Mana Stone</Name>
-      <Quantity>1</Quantity>
     </QuantityHolder>
     <QuantityHolder>
       <Name>Smoke Root</Name>
       <Quantity>2</Quantity>
     </QuantityHolder>
     <QuantityHolder>
+      <Name>Palladium vein</Name>
+      <Quantity>2</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
       <Name>Green Mushroom</Name>
       <Quantity>2</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Mana Stone</Name>
+      <Quantity>1</Quantity>
     </QuantityHolder>
     <QuantityHolder>
       <Name>Fishing Spot (DropTable_FishingSpotChersoneseCave)</Name>
@@ -103,11 +103,11 @@
     </ItemSpawnHolder>
   </Item_Spawns>
   <UniqueContainerList>
-    <string>Junk Pile_BxGbXpKSC0ibxUy6iFuOmg</string>
-    <string>Chest_YsBKuZm-A0m-SAjzcMuA1g</string>
-    <string>Junk Pile_mtoBysXR0UGtlGAIM5orJw</string>
     <string>Ornate Chest_8sbIXSIrPEaPWprddW6IqA</string>
     <string>Junk Pile_Ms4Mc4VSZE64mFnnD4x6wg</string>
+    <string>Junk Pile_mtoBysXR0UGtlGAIM5orJw</string>
+    <string>Junk Pile_BxGbXpKSC0ibxUy6iFuOmg</string>
+    <string>Chest_YsBKuZm-A0m-SAjzcMuA1g</string>
     <string>Chest_5zjUIct6UECjpyDyieUQ_A</string>
   </UniqueContainerList>
 </SceneSummary>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ItemHolder xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <ItemID>8000011</ItemID>
+  <Name>Activated Bloodstone</Name>
+  <gameObjectName>8000011_ActivatedBloodSigil</gameObjectName>
+  <saveDir />
+  <Description />
+  <LegacyItemID>-1</LegacyItemID>
+  <Tags />
+  <EffectTransforms />
+</ItemHolder>

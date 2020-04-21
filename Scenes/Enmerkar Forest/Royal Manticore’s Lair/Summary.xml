@@ -3,11 +3,15 @@
   <SceneName>Royal Manticore’s Lair</SceneName>
   <Enemies>
     <QuantityHolder>
-      <Name>Armored Troglodyte (1)</Name>
-      <Quantity>2</Quantity>
+      <Name>Troglodyte Grenadier (1)</Name>
+      <Quantity>1</Quantity>
     </QuantityHolder>
     <QuantityHolder>
       <Name>Troglodyte Knight (1)</Name>
+      <Quantity>2</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Armored Troglodyte (1)</Name>
       <Quantity>2</Quantity>
     </QuantityHolder>
     <QuantityHolder>
@@ -18,15 +22,11 @@
       <Name>Manticore (1)</Name>
       <Quantity>2</Quantity>
     </QuantityHolder>
-    <QuantityHolder>
-      <Name>Troglodyte Grenadier (1)</Name>
-      <Quantity>1</Quantity>
-    </QuantityHolder>
   </Enemies>
   <Merchants />
   <Loot_Containers>
     <QuantityHolder>
-      <Name>Scavenger’s Corpse</Name>
+      <Name>Worker’s Corpse</Name>
       <Quantity>1</Quantity>
     </QuantityHolder>
     <QuantityHolder>
@@ -34,11 +34,11 @@
       <Quantity>1</Quantity>
     </QuantityHolder>
     <QuantityHolder>
-      <Name>Ornate Chest</Name>
+      <Name>Scavenger’s Corpse</Name>
       <Quantity>1</Quantity>
     </QuantityHolder>
     <QuantityHolder>
-      <Name>Worker’s Corpse</Name>
+      <Name>Ornate Chest</Name>
       <Quantity>1</Quantity>
     </QuantityHolder>
     <QuantityHolder>
@@ -56,15 +56,15 @@
       <Quantity>3</Quantity>
     </QuantityHolder>
     <QuantityHolder>
-      <Name>Iron vein</Name>
-      <Quantity>2</Quantity>
-    </QuantityHolder>
-    <QuantityHolder>
       <Name>Smoke Root</Name>
       <Quantity>4</Quantity>
     </QuantityHolder>
     <QuantityHolder>
       <Name>Palladium vein</Name>
+      <Quantity>2</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Iron vein</Name>
       <Quantity>2</Quantity>
     </QuantityHolder>
     <QuantityHolder>
@@ -87,10 +87,10 @@
     </ItemSpawnHolder>
   </Item_Spawns>
   <UniqueContainerList>
-    <string>Scavenger’s Corpse_J1E_A3P4rESbnBUfSq-9aw</string>
-    <string>Looter’s Corpse_g3xgzMD23UKSUfDtThH_IA</string>
-    <string>Ornate Chest_gf64pkC4d0CBO0iEjivFFA</string>
     <string>Worker’s Corpse_VvehsClz8E2W_4YH1yY7Gw</string>
+    <string>Looter’s Corpse_g3xgzMD23UKSUfDtThH_IA</string>
+    <string>Scavenger’s Corpse_J1E_A3P4rESbnBUfSq-9aw</string>
+    <string>Ornate Chest_gf64pkC4d0CBO0iEjivFFA</string>
     <string>Trog Chest_3VgK6PTWfkuX_0-MSePFQA</string>
   </UniqueContainerList>
 </SceneSummary>

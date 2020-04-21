@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ItemHolder xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="SkillHolder">
+  <ItemID>8300320</ItemID>
+  <Name>Boozu Trashing</Name>
+  <gameObjectName>8300320_BoozuTranshing</gameObjectName>
+  <saveDir>/Skill/AttackSkill</saveDir>
+  <Description />
+  <LegacyItemID>-1</LegacyItemID>
+  <Tags />
+  <EffectTransforms>
+    <EffectTransformHolder>
+      <TransformName>Effects</TransformName>
+      <Effects>
+        <EffectHolder xsi:type="ShootProjectileHolder">
+          <TargetingMode>NONE</TargetingMode>
+          <AutoTarget>false</AutoTarget>
+          <EffectTransforms>
+            <EffectTransformHolder>
+              <TransformName>HitEffects</TransformName>
+              <Effects>
+                <EffectHolder xsi:type="PunctualDamageHolder">
+                  <Damage>
+                    <Damages>
+                      <Damage>5</Damage>
+                      <Damage_Type>Decay</Damage_Type>
+                    </Damages>
+                  </Damage>
+                  <Damages_AI />
+                  <Knockback>40</Knockback>
+                  <HitInventory>true</HitInventory>
+                </EffectHolder>
+                <EffectHolder xsi:type="ShootBlastHolder">
+                  <BlastLifespan>0.01</BlastLifespan>
+                  <RefreshTime>0.1</RefreshTime>
+                  <EffectTransforms>
+                    <EffectTransformHolder>
+                      <TransformName>Effects</TransformName>
+                      <Effects>
+                        <EffectHolder xsi:type="PunctualDamageHolder">
+                          <Damage>
+                            <Damages>
+                              <Damage>10</Damage>
+                              <Damage_Type>Decay</Damage_Type>
+                            </Damages>
+                          </Damage>
+                          <Damages_AI />
+                          <Knockback>30</Knockback>
+                          <HitInventory>true</HitInventory>
+                        </EffectHolder>
+                        <EffectHolder xsi:type="AddStatusEffectHolder">
+                          <StatusEffect>Poisoned</StatusEffect>
+                          <ChanceToContract>66</ChanceToContract>
+                        </EffectHolder>
+                      </Effects>
+                      <EffectConditions />
+                      <ChildEffects />
+                    </EffectTransformHolder>
+                  </EffectTransforms>
+                </EffectHolder>
+              </Effects>
+              <EffectConditions />
+              <ChildEffects />
+            </EffectTransformHolder>
+          </EffectTransforms>
+        </EffectHolder>
+        <EffectHolder xsi:type="ShootProjectileHolder">
+          <TargetingMode>NONE</TargetingMode>
+          <AutoTarget>false</AutoTarget>
+          <EffectTransforms>
+            <EffectTransformHolder>
+              <TransformName>HitEffects</TransformName>
+              <Effects>
+                <EffectHolder xsi:type="PunctualDamageHolder">
+                  <Damage>
+                    <Damages>
+                      <Damage>5</Damage>
+                      <Damage_Type>Decay</Damage_Type>
+                    </Damages>
+                  </Damage>
+                  <Damages_AI />
+                  <Knockback>40</Knockback>
+                  <HitInventory>true</HitInventory>
+                </EffectHolder>
+                <EffectHolder xsi:type="ShootBlastHolder">
+                  <BlastLifespan>0.01</BlastLifespan>
+                  <RefreshTime>0.1</RefreshTime>
+                  <EffectTransforms>
+                    <EffectTransformHolder>
+                      <TransformName>Effects</TransformName>
+                      <Effects>
+                        <EffectHolder xsi:type="PunctualDamageHolder">
+                          <Damage>
+                            <Damages>
+                              <Damage>10</Damage>
+                              <Damage_Type>Decay</Damage_Type>
+                            </Damages>
+                          </Damage>
+                          <Damages_AI />
+                          <Knockback>30</Knockback>
+                          <HitInventory>true</HitInventory>
+                        </EffectHolder>
+                        <EffectHolder xsi:type="AddStatusEffectHolder">
+                          <StatusEffect>Poisoned</StatusEffect>
+                          <ChanceToContract>66</ChanceToContract>
+                        </EffectHolder>
+                      </Effects>
+                      <EffectConditions />
+                      <ChildEffects />
+                    </EffectTransformHolder>
+                  </EffectTransforms>
+                </EffectHolder>
+              </Effects>
+              <EffectConditions />
+              <ChildEffects />
+            </EffectTransformHolder>
+          </EffectTransforms>
+        </EffectHolder>
+        <EffectHolder xsi:type="ShootProjectileHolder">
+          <TargetingMode>NONE</TargetingMode>
+          <AutoTarget>false</AutoTarget>
+          <EffectTransforms>
+            <EffectTransformHolder>
+              <TransformName>HitEffects</TransformName>
+              <Effects>
+                <EffectHolder xsi:type="PunctualDamageHolder">
+                  <Damage>
+                    <Damages>
+                      <Damage>5</Damage>
+                      <Damage_Type>Decay</Damage_Type>
+                    </Damages>
+                  </Damage>
+                  <Damages_AI />
+                  <Knockback>40</Knockback>
+                  <HitInventory>true</HitInventory>
+                </EffectHolder>
+                <EffectHolder xsi:type="ShootBlastHolder">
+                  <BlastLifespan>0.01</BlastLifespan>
+                  <RefreshTime>0.1</RefreshTime>
+                  <EffectTransforms>
+                    <EffectTransformHolder>
+                      <TransformName>Effects</TransformName>
+                      <Effects>
+                        <EffectHolder xsi:type="PunctualDamageHolder">
+                          <Damage>
+                            <Damages>
+                              <Damage>10</Damage>
+                              <Damage_Type>Decay</Damage_Type>
+                            </Damages>
+                          </Damage>
+                          <Damages_AI />
+                          <Knockback>30</Knockback>
+                          <HitInventory>true</HitInventory>
+                        </EffectHolder>
+                        <EffectHolder xsi:type="AddStatusEffectHolder">
+                          <StatusEffect>Poisoned</StatusEffect>
+                          <ChanceToContract>66</ChanceToContract>
+                        </EffectHolder>
+                      </Effects>
+                      <EffectConditions />
+                      <ChildEffects />
+                    </EffectTransformHolder>
+                  </EffectTransforms>
+                </EffectHolder>
+              </Effects>
+              <EffectConditions />
+              <ChildEffects />
+            </EffectTransformHolder>
+          </EffectTransforms>
+        </EffectHolder>
+        <EffectHolder xsi:type="ShootProjectileHolder">
+          <TargetingMode>NONE</TargetingMode>
+          <AutoTarget>false</AutoTarget>
+          <EffectTransforms>
+            <EffectTransformHolder>
+              <TransformName>HitEffects</TransformName>
+              <Effects>
+                <EffectHolder xsi:type="PunctualDamageHolder">
+                  <Damage>
+                    <Damages>
+                      <Damage>5</Damage>
+                      <Damage_Type>Decay</Damage_Type>
+                    </Damages>
+                  </Damage>
+                  <Damages_AI />
+                  <Knockback>40</Knockback>
+                  <HitInventory>true</HitInventory>
+                </EffectHolder>
+                <EffectHolder xsi:type="ShootBlastHolder">
+                  <BlastLifespan>0.01</BlastLifespan>
+                  <RefreshTime>0.1</RefreshTime>
+                  <EffectTransforms>
+                    <EffectTransformHolder>
+                      <TransformName>Effects</TransformName>
+                      <Effects>
+                        <EffectHolder xsi:type="PunctualDamageHolder">
+                          <Damage>
+                            <Damages>
+                              <Damage>10</Damage>
+                              <Damage_Type>Decay</Damage_Type>
+                            </Damages>
+                          </Damage>
+                          <Damages_AI />
+                          <Knockback>30</Knockback>
+                          <HitInventory>true</HitInventory>
+                        </EffectHolder>
+                        <EffectHolder xsi:type="AddStatusEffectHolder">
+                          <StatusEffect>Poisoned</StatusEffect>
+                          <ChanceToContract>66</ChanceToContract>
+                        </EffectHolder>
+                      </Effects>
+                      <EffectConditions />
+                      <ChildEffects />
+                    </EffectTransformHolder>
+                  </EffectTransforms>
+                </EffectHolder>
+              </Effects>
+              <EffectConditions />
+              <ChildEffects />
+            </EffectTransformHolder>
+          </EffectTransforms>
+        </EffectHolder>
+      </Effects>
+      <EffectConditions />
+      <ChildEffects />
+    </EffectTransformHolder>
+  </EffectTransforms>
+  <Cooldown>10</Cooldown>
+  <StaminaCost>0</StaminaCost>
+  <ManaCost>0</ManaCost>
+  <DurabilityCost>0</DurabilityCost>
+  <DurabilityCostPercent>0</DurabilityCostPercent>
+  <IsDLCSkill>true</IsDLCSkill>
+  <RequiredItems />
+</ItemHolder>

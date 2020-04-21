@@ -14,7 +14,63 @@
         <EffectHolder xsi:type="ShootProjectileHolder">
           <TargetingMode>NONE</TargetingMode>
           <AutoTarget>false</AutoTarget>
-          <EffectTransforms />
+          <EffectTransforms>
+            <EffectTransformHolder>
+              <TransformName>HitEffects</TransformName>
+              <Effects>
+                <EffectHolder xsi:type="ShootProjectileHolder">
+                  <TargetingMode>NONE</TargetingMode>
+                  <AutoTarget>false</AutoTarget>
+                  <EffectTransforms>
+                    <EffectTransformHolder>
+                      <TransformName>HitEffects</TransformName>
+                      <Effects>
+                        <EffectHolder xsi:type="PunctualDamageHolder">
+                          <Damage>
+                            <Damages>
+                              <Damage>3</Damage>
+                              <Damage_Type>Physical</Damage_Type>
+                            </Damages>
+                          </Damage>
+                          <Damages_AI />
+                          <Knockback>15</Knockback>
+                          <HitInventory>true</HitInventory>
+                        </EffectHolder>
+                        <EffectHolder xsi:type="ShootBlastHolder">
+                          <BlastLifespan>0.1</BlastLifespan>
+                          <RefreshTime>0.1</RefreshTime>
+                          <EffectTransforms>
+                            <EffectTransformHolder>
+                              <TransformName>Effects</TransformName>
+                              <Effects>
+                                <EffectHolder xsi:type="PunctualDamageHolder">
+                                  <Damage>
+                                    <Damages>
+                                      <Damage>35</Damage>
+                                      <Damage_Type>Physical</Damage_Type>
+                                    </Damages>
+                                  </Damage>
+                                  <Damages_AI />
+                                  <Knockback>60</Knockback>
+                                  <HitInventory>true</HitInventory>
+                                </EffectHolder>
+                              </Effects>
+                              <EffectConditions />
+                              <ChildEffects />
+                            </EffectTransformHolder>
+                          </EffectTransforms>
+                        </EffectHolder>
+                      </Effects>
+                      <EffectConditions />
+                      <ChildEffects />
+                    </EffectTransformHolder>
+                  </EffectTransforms>
+                </EffectHolder>
+              </Effects>
+              <EffectConditions />
+              <ChildEffects />
+            </EffectTransformHolder>
+          </EffectTransforms>
         </EffectHolder>
       </Effects>
       <EffectConditions />

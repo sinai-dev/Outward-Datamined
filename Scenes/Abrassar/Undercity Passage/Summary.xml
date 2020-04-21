@@ -3,14 +3,6 @@
   <SceneName>Undercity Passage</SceneName>
   <Enemies>
     <QuantityHolder>
-      <Name>Desert Bandit (5)</Name>
-      <Quantity>2</Quantity>
-    </QuantityHolder>
-    <QuantityHolder>
-      <Name>Markus (1)</Name>
-      <Quantity>1</Quantity>
-    </QuantityHolder>
-    <QuantityHolder>
       <Name>Baron Montgomery (1)</Name>
       <Quantity>1</Quantity>
     </QuantityHolder>
@@ -19,7 +11,11 @@
       <Quantity>1</Quantity>
     </QuantityHolder>
     <QuantityHolder>
-      <Name>Troglodyte Knight (1)</Name>
+      <Name>Desert Bandit (4)</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Desert Bandit (6)</Name>
       <Quantity>2</Quantity>
     </QuantityHolder>
     <QuantityHolder>
@@ -27,31 +23,35 @@
       <Quantity>2</Quantity>
     </QuantityHolder>
     <QuantityHolder>
-      <Name>Troglodyte Grenadier (1)</Name>
-      <Quantity>1</Quantity>
-    </QuantityHolder>
-    <QuantityHolder>
       <Name>Dawne (1)</Name>
       <Quantity>1</Quantity>
     </QuantityHolder>
     <QuantityHolder>
-      <Name>Desert Bandit (4)</Name>
+      <Name>Troglodyte Grenadier (1)</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Troglodyte Knight (1)</Name>
+      <Quantity>2</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Markus (1)</Name>
       <Quantity>1</Quantity>
     </QuantityHolder>
   </Enemies>
   <Merchants />
   <Loot_Containers>
     <QuantityHolder>
-      <Name>Chest</Name>
-      <Quantity>4</Quantity>
+      <Name>Junk Pile</Name>
+      <Quantity>2</Quantity>
     </QuantityHolder>
     <QuantityHolder>
       <Name>Ornate Chest</Name>
       <Quantity>2</Quantity>
     </QuantityHolder>
     <QuantityHolder>
-      <Name>Junk Pile</Name>
-      <Quantity>2</Quantity>
+      <Name>Chest</Name>
+      <Quantity>4</Quantity>
     </QuantityHolder>
   </Loot_Containers>
   <Gatherables>
@@ -64,11 +64,11 @@
       <Quantity>1</Quantity>
     </QuantityHolder>
     <QuantityHolder>
-      <Name>Green Mushroom</Name>
+      <Name>Krimp</Name>
       <Quantity>2</Quantity>
     </QuantityHolder>
     <QuantityHolder>
-      <Name>Krimp</Name>
+      <Name>Green Mushroom</Name>
       <Quantity>2</Quantity>
     </QuantityHolder>
     <QuantityHolder>
@@ -78,13 +78,13 @@
   </Gatherables>
   <Item_Spawns />
   <UniqueContainerList>
+    <string>Junk Pile_zGzkyqZPikCJZcBwDo496g</string>
+    <string>Ornate Chest_blhKpgNnJkGl1kdblDtPMQ</string>
     <string>Chest_0RaJ5a4Ktke2Fwcg7zv61w</string>
     <string>Chest_T0hJz-WB60aYtpk4c540bA</string>
-    <string>Chest_5iAa36_ZOkauikdD0NlwRg</string>
     <string>Ornate Chest_G31mYX9O-EGnyJ764-_Yzg</string>
-    <string>Junk Pile_zGzkyqZPikCJZcBwDo496g</string>
-    <string>Junk Pile_0CdVIS6dDUCmSyCp0NBoJw</string>
     <string>Chest_mQ2SAHR2ZEWDjKAWbg9i8g</string>
-    <string>Ornate Chest_blhKpgNnJkGl1kdblDtPMQ</string>
+    <string>Junk Pile_0CdVIS6dDUCmSyCp0NBoJw</string>
+    <string>Chest_5iAa36_ZOkauikdD0NlwRg</string>
   </UniqueContainerList>
 </SceneSummary>

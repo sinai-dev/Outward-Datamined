@@ -15,15 +15,15 @@
       <Quantity>1</Quantity>
     </QuantityHolder>
     <QuantityHolder>
-      <Name>Marsh Bandit (5)</Name>
-      <Quantity>1</Quantity>
-    </QuantityHolder>
-    <QuantityHolder>
       <Name>Desert Bandit (2)</Name>
       <Quantity>1</Quantity>
     </QuantityHolder>
     <QuantityHolder>
       <Name>Desert Bandit (3)</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Marsh Bandit (5)</Name>
       <Quantity>1</Quantity>
     </QuantityHolder>
     <QuantityHolder>
@@ -34,11 +34,11 @@
   <Merchants />
   <Loot_Containers>
     <QuantityHolder>
-      <Name>Worker’s Corpse</Name>
+      <Name>Chest</Name>
       <Quantity>1</Quantity>
     </QuantityHolder>
     <QuantityHolder>
-      <Name>Chest</Name>
+      <Name>Worker’s Corpse</Name>
       <Quantity>1</Quantity>
     </QuantityHolder>
   </Loot_Containers>
@@ -63,7 +63,7 @@
     </ItemSpawnHolder>
   </Item_Spawns>
   <UniqueContainerList>
-    <string>Worker’s Corpse_mgENfNAtBEWDkYwVB1rpLw</string>
     <string>Chest_8zjcmxZvtkGLxZIgrmh_0w</string>
+    <string>Worker’s Corpse_mgENfNAtBEWDkYwVB1rpLw</string>
   </UniqueContainerList>
 </SceneSummary>

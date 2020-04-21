@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<StatusEffectHolder xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Name>ElemFrostBuff</Name>
+  <PresetID>565</PresetID>
+  <Lifespan>30</Lifespan>
+  <LengthType>Short</LengthType>
+  <Tags />
+  <CanBeHealedBySleeping>false</CanBeHealedBySleeping>
+  <StraightSleepHealTime>-1</StraightSleepHealTime>
+  <Effects>
+    <EffectHolder xsi:type="AffectStatHolder">
+      <AffectedStat>FrostResistance</AffectedStat>
+      <AffectedStat_TagUID>117</AffectedStat_TagUID>
+      <AffectQuantity>40</AffectQuantity>
+      <IsModifier>false</IsModifier>
+    </EffectHolder>
+  </Effects>
+</StatusEffectHolder>

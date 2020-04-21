@@ -106,7 +106,7 @@ Shooting it requires the use of the Fire/Reload skill.</Description>
             <EffectConditionHolder>
               <Conditions>
                 <ConditionHolder>
-                  <Requirement>Unique</Requirement>
+                  <Requirement />
                   <Condition_Type>Target has status</Condition_Type>
                   <Invert>false</Invert>
                 </ConditionHolder>

@@ -109,7 +109,13 @@
 554	Bandage
 555	Mage Tent buff
 556	Plant Tent Buff
+558	Weaken
+559	Sapped
 55	Defense Bonus
+560	Energized
+561	Alert
+562	Unerring Read
+563	Prime
 56	Stun
 57	Force Bubble
 58	Wind Imbue Stats
@@ -140,8 +146,13 @@
 413	Refreshed
 420	Drowsy
 421	Tired
-424	Energized
+424	DEPRECATED_Energized
 999	StatusEffect_Imbue_BlessedWeaponTest_Name
+566	ElemDecayBuff
+568	ElemEtherealBuff
+564	ElemFireBuff
+565	ElemFrostBuff
+567	ElemLightBuff
 1001	Charged Boon
 1002	Swarm Boon
 1003	Flu1
@@ -168,22 +179,28 @@
 1024	Taenia3
 1025	Putrid Hex
 1026	Shock Hex
-1027	ColdExposure
-1028	HeatExposure
-1029	Temperature Burning
-1030	Dez Runes
-1031	Egoth Runes
-1032	Fal Runes
-1033	Runic Blade
-1034	Runic Heal Amplified
-1035	Runic Protection
-1036	Runic Protection Amplified
-1037	Shim Runes
-1038	Test Basic
-1039	Poison Immunity
-1040	Test Stack
-1041	Bag Over Encumbered
-1042	Fireflies
-1043	Hallowed Marsh Poison Lvl1
-1044	Hallowed Marsh Poison Lvl2
-1045	Pouch Over Encumbered
+1027	Tainted
+1028	Corrupt Positive
+1029	Corrupt Negative
+1030	Defiled Positive
+1031	Defiled Negative
+1032	CorruptionBurst
+1033	ColdExposure
+1034	HeatExposure
+1035	Temperature Burning
+1036	Dez Runes
+1037	Egoth Runes
+1038	Fal Runes
+1039	Runic Blade
+1040	Runic Heal Amplified
+1041	Runic Protection
+1042	Runic Protection Amplified
+1043	Shim Runes
+1044	Test Basic
+1045	Poison Immunity
+1046	Test Stack
+1047	Bag Over Encumbered
+1048	Fireflies
+1049	Hallowed Marsh Poison Lvl1
+1050	Hallowed Marsh Poison Lvl2
+1051	Pouch Over Encumbered

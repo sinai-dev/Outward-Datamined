@@ -92,4 +92,5 @@ This off-hand weapon requires Dagger Skills to be used.</Description>
   <TwoHandType>None</TwoHandType>
   <VisualDetectabilityAdd>0</VisualDetectabilityAdd>
   <WeaponType>Dagger_OH</WeaponType>
+  <StamCost>0</StamCost>
 </ItemHolder>

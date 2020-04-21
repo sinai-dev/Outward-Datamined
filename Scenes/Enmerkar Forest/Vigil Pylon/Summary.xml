@@ -7,10 +7,6 @@
       <Quantity>7</Quantity>
     </QuantityHolder>
     <QuantityHolder>
-      <Name>Molten Forge Golem (2)</Name>
-      <Quantity>2</Quantity>
-    </QuantityHolder>
-    <QuantityHolder>
       <Name>Burning Man (1)</Name>
       <Quantity>1</Quantity>
     </QuantityHolder>
@@ -18,34 +14,38 @@
       <Name>Obsidian Elemental (1)</Name>
       <Quantity>1</Quantity>
     </QuantityHolder>
+    <QuantityHolder>
+      <Name>Molten Forge Golem (2)</Name>
+      <Quantity>2</Quantity>
+    </QuantityHolder>
   </Enemies>
   <Merchants />
   <Loot_Containers>
     <QuantityHolder>
-      <Name>Legacy Chest</Name>
-      <Quantity>1</Quantity>
-    </QuantityHolder>
-    <QuantityHolder>
       <Name>Chest</Name>
       <Quantity>3</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Ornate Chest</Name>
+      <Quantity>1</Quantity>
     </QuantityHolder>
     <QuantityHolder>
       <Name>Junk Pile</Name>
       <Quantity>1</Quantity>
     </QuantityHolder>
     <QuantityHolder>
-      <Name>Ornate Chest</Name>
+      <Name>Legacy Chest</Name>
       <Quantity>1</Quantity>
     </QuantityHolder>
   </Loot_Containers>
   <Gatherables />
   <Item_Spawns />
   <UniqueContainerList>
-    <string>Legacy Chest_5DyToBXtuE2Q-58tDP9U6Q</string>
-    <string>Chest_wrCPzROVBk-h_OqTm2uxTg</string>
-    <string>Junk Pile_Xkm8jlJqmUCMW-o1XIW4-g</string>
-    <string>Chest_0Qie-knECU6ifn76KsIPSg</string>
     <string>Chest_-nce-sAy7ESJsafCEgfxRQ</string>
     <string>Ornate Chest_701G6yxHskK9VPAS4BZyuA</string>
+    <string>Chest_wrCPzROVBk-h_OqTm2uxTg</string>
+    <string>Chest_0Qie-knECU6ifn76KsIPSg</string>
+    <string>Junk Pile_Xkm8jlJqmUCMW-o1XIW4-g</string>
+    <string>Legacy Chest_5DyToBXtuE2Q-58tDP9U6Q</string>
   </UniqueContainerList>
 </SceneSummary>

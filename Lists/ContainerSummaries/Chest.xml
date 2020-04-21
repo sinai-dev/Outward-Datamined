@@ -52,7 +52,11 @@
       <Quantity>3</Quantity>
     </QuantityHolder>
     <QuantityHolder>
-      <Name>Chersonese:Bandits' Prison</Name>
+      <Name>Chersonese:Immaculate's Cave</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Chersonese:Vigil Tomb</Name>
       <Quantity>1</Quantity>
     </QuantityHolder>
     <QuantityHolder>
@@ -60,11 +64,7 @@
       <Quantity>1</Quantity>
     </QuantityHolder>
     <QuantityHolder>
-      <Name>Chersonese:Immaculate's Cave</Name>
-      <Quantity>1</Quantity>
-    </QuantityHolder>
-    <QuantityHolder>
-      <Name>Chersonese:Vigil Tomb</Name>
+      <Name>Chersonese:Bandits' Prison</Name>
       <Quantity>1</Quantity>
     </QuantityHolder>
     <QuantityHolder>
@@ -104,7 +104,7 @@
       <Quantity>1</Quantity>
     </QuantityHolder>
     <QuantityHolder>
-      <Name>Hallowed Marsh:Abandoned Shed</Name>
+      <Name>Hallowed Marsh:Flooded Cellar</Name>
       <Quantity>1</Quantity>
     </QuantityHolder>
     <QuantityHolder>
@@ -112,7 +112,7 @@
       <Quantity>1</Quantity>
     </QuantityHolder>
     <QuantityHolder>
-      <Name>Hallowed Marsh:Flooded Cellar</Name>
+      <Name>Hallowed Marsh:Abandoned Shed</Name>
       <Quantity>1</Quantity>
     </QuantityHolder>
     <QuantityHolder>
@@ -144,7 +144,19 @@
       <Quantity>2</Quantity>
     </QuantityHolder>
     <QuantityHolder>
+      <Name>Abrassar:Hive Prison</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Abrassar:River's End</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
       <Name>Abrassar:Corsair's Headquarters</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Abrassar:Dock's Storage</Name>
       <Quantity>1</Quantity>
     </QuantityHolder>
     <QuantityHolder>
@@ -153,18 +165,6 @@
     </QuantityHolder>
     <QuantityHolder>
       <Name>Abrassar:Immaculate's Camp</Name>
-      <Quantity>1</Quantity>
-    </QuantityHolder>
-    <QuantityHolder>
-      <Name>Abrassar:Hive Prison</Name>
-      <Quantity>1</Quantity>
-    </QuantityHolder>
-    <QuantityHolder>
-      <Name>Abrassar:Dock's Storage</Name>
-      <Quantity>1</Quantity>
-    </QuantityHolder>
-    <QuantityHolder>
-      <Name>Abrassar:River's End</Name>
       <Quantity>1</Quantity>
     </QuantityHolder>
     <QuantityHolder>
@@ -200,6 +200,10 @@
       <Quantity>3</Quantity>
     </QuantityHolder>
     <QuantityHolder>
+      <Name>Enmerkar Forest:Immaculate's Camp</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
       <Name>Enmerkar Forest:Vigil Pylon</Name>
       <Quantity>3</Quantity>
     </QuantityHolder>
@@ -208,7 +212,7 @@
       <Quantity>1</Quantity>
     </QuantityHolder>
     <QuantityHolder>
-      <Name>Enmerkar Forest:Immaculate's Camp</Name>
+      <Name>Enmerkar Forest:Tree Husk</Name>
       <Quantity>1</Quantity>
     </QuantityHolder>
     <QuantityHolder>
@@ -217,10 +221,6 @@
     </QuantityHolder>
     <QuantityHolder>
       <Name>Enmerkar Forest:Old Hunter's Cabin</Name>
-      <Quantity>1</Quantity>
-    </QuantityHolder>
-    <QuantityHolder>
-      <Name>Enmerkar Forest:Tree Husk</Name>
       <Quantity>1</Quantity>
     </QuantityHolder>
   </All_Locations>
@@ -264,8 +264,8 @@
         <string>Ancestor’s Resting Place</string>
         <string>Necropolis</string>
         <string>Burnt Outpost</string>
-        <string>Vigil Pylon</string>
         <string>Tree Husk</string>
+        <string>Vigil Pylon</string>
       </Locations>
     </ContainerDroptableSummary>
     <ContainerDroptableSummary>
@@ -287,40 +287,10 @@
         <string>Voltaic Hatchery</string>
         <string>Conflux Chambers</string>
         <string>Corrupted Tombs</string>
-        <string>Bandits' Prison</string>
         <string>Immaculate's Cave</string>
         <string>Vigil Tomb</string>
-        <string>Abandoned Shed</string>
-      </Locations>
-    </ContainerDroptableSummary>
-    <ContainerDroptableSummary>
-      <DropTableName>DropTable_Neutral_Magic_Low_2</DropTableName>
-      <Locations>
-        <string>Cierzo (Destroyed)</string>
-        <string>Chersonese</string>
-        <string>Ghost Pass</string>
-        <string>Voltaic Hatchery</string>
-        <string>Corrupted Tombs</string>
         <string>Bandits' Prison</string>
-        <string>Vigil Tomb</string>
-        <string>Hallowed Marsh</string>
-        <string>Giants’ Village</string>
-        <string>Dark Ziggurat Interior</string>
-        <string>Spire of Light</string>
-        <string>Ziggurat Passage</string>
-        <string>Hollowed Lotus</string>
-        <string>Flooded Cellar</string>
-        <string>Undercity Passage</string>
-        <string>Electric Lab</string>
-        <string>The Slide</string>
-        <string>Stone Titan Caves</string>
-        <string>Ruined Outpost</string>
-        <string>Enmerkar Forest</string>
-        <string>Cabal of Wind Temple</string>
-        <string>Face of the Ancients</string>
-        <string>Ancestor’s Resting Place</string>
-        <string>Necropolis</string>
-        <string>Immaculate's Camp</string>
+        <string>Abandoned Shed</string>
       </Locations>
     </ContainerDroptableSummary>
     <ContainerDroptableSummary>
@@ -345,12 +315,12 @@
         <string>The Slide</string>
         <string>Stone Titan Caves</string>
         <string>Sand Rose Cave</string>
+        <string>Hive Prison</string>
+        <string>River's End</string>
         <string>Corsair's Headquarters</string>
+        <string>Dock's Storage</string>
         <string>Ruined Outpost</string>
         <string>Immaculate's Camp</string>
-        <string>Hive Prison</string>
-        <string>Dock's Storage</string>
-        <string>River's End</string>
         <string>Enmerkar Forest</string>
         <string>Cabal of Wind Temple</string>
         <string>Face of the Ancients</string>
@@ -363,6 +333,36 @@
       <DropTableName>DropTable_Neutral_Valuable_High_1</DropTableName>
       <Locations>
         <string>Cierzo (Destroyed)</string>
+      </Locations>
+    </ContainerDroptableSummary>
+    <ContainerDroptableSummary>
+      <DropTableName>DropTable_Neutral_Magic_Low_2</DropTableName>
+      <Locations>
+        <string>Cierzo (Destroyed)</string>
+        <string>Chersonese</string>
+        <string>Ghost Pass</string>
+        <string>Voltaic Hatchery</string>
+        <string>Corrupted Tombs</string>
+        <string>Vigil Tomb</string>
+        <string>Bandits' Prison</string>
+        <string>Hallowed Marsh</string>
+        <string>Giants’ Village</string>
+        <string>Dark Ziggurat Interior</string>
+        <string>Spire of Light</string>
+        <string>Ziggurat Passage</string>
+        <string>Hollowed Lotus</string>
+        <string>Flooded Cellar</string>
+        <string>Undercity Passage</string>
+        <string>Electric Lab</string>
+        <string>The Slide</string>
+        <string>Stone Titan Caves</string>
+        <string>Ruined Outpost</string>
+        <string>Enmerkar Forest</string>
+        <string>Cabal of Wind Temple</string>
+        <string>Face of the Ancients</string>
+        <string>Ancestor’s Resting Place</string>
+        <string>Necropolis</string>
+        <string>Immaculate's Camp</string>
       </Locations>
     </ContainerDroptableSummary>
     <ContainerDroptableSummary>
@@ -384,8 +384,8 @@
         <string>Holy Mission’s Conflux Path</string>
         <string>Heroic Kingdom’s Conflux Path</string>
         <string>Voltaic Hatchery</string>
-        <string>Bandits' Prison</string>
         <string>Mansion's Cellar</string>
+        <string>Bandits' Prison</string>
         <string>Hallowed Marsh</string>
         <string>Jade Quarry</string>
         <string>Giants’ Village</string>
@@ -396,15 +396,15 @@
         <string>Abrassar</string>
         <string>Undercity Passage</string>
         <string>Electric Lab</string>
+        <string>River's End</string>
         <string>Corsair's Headquarters</string>
         <string>Dock's Storage</string>
-        <string>River's End</string>
         <string>Enmerkar Forest</string>
         <string>Forest Hives</string>
         <string>Ancestor’s Resting Place</string>
         <string>Necropolis</string>
-        <string>Tree Husk</string>
         <string>Vigil Pylon</string>
+        <string>Tree Husk</string>
       </Locations>
     </ContainerDroptableSummary>
     <ContainerDroptableSummary>
@@ -436,6 +436,14 @@
       </Locations>
     </ContainerDroptableSummary>
     <ContainerDroptableSummary>
+      <DropTableName>DropTable_Chersonese_Food_1</DropTableName>
+      <Locations>
+        <string>Chersonese</string>
+        <string>Vendavel Fortress</string>
+        <string>Montcalm Clan Fort</string>
+      </Locations>
+    </ContainerDroptableSummary>
+    <ContainerDroptableSummary>
       <DropTableName>DropTable_Neutral_Valuable_Low_1</DropTableName>
       <Locations>
         <string>Chersonese</string>
@@ -446,14 +454,6 @@
         <string>Enmerkar Forest</string>
         <string>Face of the Ancients</string>
         <string>Vigil Pylon</string>
-      </Locations>
-    </ContainerDroptableSummary>
-    <ContainerDroptableSummary>
-      <DropTableName>DropTable_Chersonese_Food_1</DropTableName>
-      <Locations>
-        <string>Chersonese</string>
-        <string>Vendavel Fortress</string>
-        <string>Montcalm Clan Fort</string>
       </Locations>
     </ContainerDroptableSummary>
     <ContainerDroptableSummary>
@@ -473,8 +473,8 @@
         <string>Vendavel Fortress</string>
         <string>Blue Chamber’s Conflux Path</string>
         <string>Conflux Chambers</string>
-        <string>Mansion's Cellar</string>
         <string>Immaculate's Cave</string>
+        <string>Mansion's Cellar</string>
         <string>Hallowed Marsh</string>
         <string>Giants’ Village</string>
         <string>Levant</string>
@@ -486,8 +486,8 @@
         <string>Ancestor’s Resting Place</string>
         <string>Necropolis</string>
         <string>Burnt Outpost</string>
-        <string>Vigil Pylon</string>
         <string>Tree Husk</string>
+        <string>Vigil Pylon</string>
       </Locations>
     </ContainerDroptableSummary>
     <ContainerDroptableSummary>
@@ -533,10 +533,10 @@
         <string>Levant</string>
         <string>Abrassar</string>
         <string>The Slide</string>
-        <string>Corsair's Headquarters</string>
-        <string>Immaculate's Camp</string>
-        <string>Dock's Storage</string>
         <string>River's End</string>
+        <string>Corsair's Headquarters</string>
+        <string>Dock's Storage</string>
+        <string>Immaculate's Camp</string>
         <string>Enmerkar Forest</string>
         <string>Cabal of Wind Temple</string>
         <string>Ancestor’s Resting Place</string>
@@ -572,16 +572,15 @@
         <string>Jade Quarry</string>
         <string>Ziggurat Passage</string>
         <string>Hollowed Lotus</string>
-        <string>Immaculate's Camp</string>
         <string>Flooded Cellar</string>
+        <string>Immaculate's Camp</string>
       </Locations>
     </ContainerDroptableSummary>
     <ContainerDroptableSummary>
-      <DropTableName>DropTable_HallowedMarsh_Recipe_Basic_1</DropTableName>
+      <DropTableName>DropTable_HallowedMarsh_Equipment_Low_1</DropTableName>
       <Locations>
         <string>Hallowed Marsh</string>
-        <string>Jade Quarry</string>
-        <string>Immaculate's Camp</string>
+        <string>Giants’ Village</string>
       </Locations>
     </ContainerDroptableSummary>
     <ContainerDroptableSummary>
@@ -606,10 +605,11 @@
       </Locations>
     </ContainerDroptableSummary>
     <ContainerDroptableSummary>
-      <DropTableName>DropTable_HallowedMarsh_Equipment_Low_1</DropTableName>
+      <DropTableName>DropTable_HallowedMarsh_Recipe_Basic_1</DropTableName>
       <Locations>
         <string>Hallowed Marsh</string>
-        <string>Giants’ Village</string>
+        <string>Jade Quarry</string>
+        <string>Immaculate's Camp</string>
       </Locations>
     </ContainerDroptableSummary>
     <ContainerDroptableSummary>
@@ -674,11 +674,11 @@
         <string>Undercity Passage</string>
         <string>The Slide</string>
         <string>Stone Titan Caves</string>
+        <string>Hive Prison</string>
+        <string>River's End</string>
         <string>Corsair's Headquarters</string>
         <string>Ruined Outpost</string>
         <string>Immaculate's Camp</string>
-        <string>Hive Prison</string>
-        <string>River's End</string>
         <string>Captain's Cabin</string>
       </Locations>
     </ContainerDroptableSummary>
@@ -707,28 +707,6 @@
       </Locations>
     </ContainerDroptableSummary>
     <ContainerDroptableSummary>
-      <DropTableName>DropTable_Enmerkar_Equipment_High_1</DropTableName>
-      <Locations>
-        <string>Enmerkar Forest</string>
-        <string>Forest Hives</string>
-        <string>Cabal of Wind Temple</string>
-        <string>Face of the Ancients</string>
-        <string>Vigil Pylon</string>
-        <string>Burnt Outpost</string>
-        <string>Immaculate's Camp</string>
-        <string>Dolmen Crypt</string>
-      </Locations>
-    </ContainerDroptableSummary>
-    <ContainerDroptableSummary>
-      <DropTableName>DropTable_Enmerkar_Recipe_Weapon_1</DropTableName>
-      <Locations>
-        <string>Enmerkar Forest</string>
-        <string>Vigil Pylon</string>
-        <string>Immaculate's Camp</string>
-        <string>Dolmen Crypt</string>
-      </Locations>
-    </ContainerDroptableSummary>
-    <ContainerDroptableSummary>
       <DropTableName>DropTable_Enmerkar_Recipe_Basic_1</DropTableName>
       <Locations>
         <string>Enmerkar Forest</string>
@@ -739,14 +717,36 @@
       </Locations>
     </ContainerDroptableSummary>
     <ContainerDroptableSummary>
+      <DropTableName>DropTable_Enmerkar_Equipment_High_1</DropTableName>
+      <Locations>
+        <string>Enmerkar Forest</string>
+        <string>Forest Hives</string>
+        <string>Cabal of Wind Temple</string>
+        <string>Face of the Ancients</string>
+        <string>Immaculate's Camp</string>
+        <string>Vigil Pylon</string>
+        <string>Burnt Outpost</string>
+        <string>Dolmen Crypt</string>
+      </Locations>
+    </ContainerDroptableSummary>
+    <ContainerDroptableSummary>
+      <DropTableName>DropTable_Enmerkar_Recipe_Weapon_1</DropTableName>
+      <Locations>
+        <string>Enmerkar Forest</string>
+        <string>Immaculate's Camp</string>
+        <string>Vigil Pylon</string>
+        <string>Dolmen Crypt</string>
+      </Locations>
+    </ContainerDroptableSummary>
+    <ContainerDroptableSummary>
       <DropTableName>DropTable_Enmerkar_Equipment_Medium_1</DropTableName>
       <Locations>
         <string>Enmerkar Forest</string>
         <string>Cabal of Wind Temple</string>
         <string>Ancestor’s Resting Place</string>
         <string>Necropolis</string>
-        <string>Old Hunter's Cabin</string>
         <string>Tree Husk</string>
+        <string>Old Hunter's Cabin</string>
       </Locations>
     </ContainerDroptableSummary>
     <ContainerDroptableSummary>

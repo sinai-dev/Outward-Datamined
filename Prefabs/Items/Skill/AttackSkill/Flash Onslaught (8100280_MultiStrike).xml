@@ -59,7 +59,7 @@ Attack all enemies within a close distance with increased Damage and Impact. Usi
       <Effects>
         <EffectHolder xsi:type="RemoveStatusEffectHolder">
           <StatusEffect_ByTag>Discipline</StatusEffect_ByTag>
-          <StatusEffect_Family>Unique</StatusEffect_Family>
+          <StatusEffect_Family />
           <StatusEffect_ByName />
         </EffectHolder>
       </Effects>

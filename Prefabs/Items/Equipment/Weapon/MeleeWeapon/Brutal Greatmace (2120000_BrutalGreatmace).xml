@@ -106,4 +106,5 @@
   <TwoHandType>TwoHandedRight</TwoHandType>
   <VisualDetectabilityAdd>0</VisualDetectabilityAdd>
   <WeaponType>Mace_2H</WeaponType>
+  <StamCost>6.6</StamCost>
 </ItemHolder>

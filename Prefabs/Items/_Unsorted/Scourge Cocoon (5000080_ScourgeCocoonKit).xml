@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ItemHolder xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <ItemID>5000080</ItemID>
+  <Name>Scourge Cocoon</Name>
+  <gameObjectName>5000080_ScourgeCocoonKit</gameObjectName>
+  <saveDir />
+  <Description>Provides excellent rest, and recharges burnt Mana, but raises the sleeper’s Corruption.</Description>
+  <LegacyItemID>-1</LegacyItemID>
+  <StatsHolder>
+    <BaseValue>8</BaseValue>
+    <RawWeight>0.2</RawWeight>
+    <MaxDurability>-1</MaxDurability>
+  </StatsHolder>
+  <Tags>
+    <string>Deployable</string>
+    <string>Item</string>
+    <string>Kit</string>
+  </Tags>
+  <EffectTransforms />
+</ItemHolder>
