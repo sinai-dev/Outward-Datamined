@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ItemHolder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="BagHolder">
+<ItemHolder xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="BagHolder">
   <ItemID>5300180</ItemID>
   <Name>Zhorn’s Hunting Backpack</Name>
   <gameObjectName>5300180_HornBackpack</gameObjectName>

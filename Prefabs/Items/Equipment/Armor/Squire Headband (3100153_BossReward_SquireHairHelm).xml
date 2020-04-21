@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ItemHolder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="EquipmentHolder">
+<ItemHolder xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="EquipmentHolder">
   <ItemID>3100153</ItemID>
   <Name>Squire Headband</Name>
   <gameObjectName>3100153_BossReward_SquireHairHelm</gameObjectName>
