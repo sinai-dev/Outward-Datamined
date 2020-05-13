@@ -6,7 +6,7 @@
   <saveDir>/Food</saveDir>
   <Description>Mixture of vegetables and mushrooms that heals a bit, but can fill an empty stomach.</Description>
   <LegacyItemID>-1</LegacyItemID>
-  <PerishTime>-1</PerishTime>
+  <PerishTime>9 Days, 22 Hours, 5 Minutes, 42 Seconds</PerishTime>
   <StatsHolder>
     <BaseValue>8</BaseValue>
     <RawWeight>0.5</RawWeight>

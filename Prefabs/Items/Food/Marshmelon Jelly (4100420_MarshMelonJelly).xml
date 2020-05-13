@@ -8,7 +8,7 @@
 
 The concentrated melon confers an immense stamina recovery.</Description>
   <LegacyItemID>-1</LegacyItemID>
-  <PerishTime>-1</PerishTime>
+  <PerishTime>14 Days, 21 Hours, 8 Minutes, 34 Seconds</PerishTime>
   <StatsHolder>
     <BaseValue>8</BaseValue>
     <RawWeight>0.5</RawWeight>

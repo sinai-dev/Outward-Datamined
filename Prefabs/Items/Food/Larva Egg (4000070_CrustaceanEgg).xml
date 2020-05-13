@@ -8,7 +8,7 @@
 
 Eating it raw carries a chance of disease.</Description>
   <LegacyItemID>-1</LegacyItemID>
-  <PerishTime>-1</PerishTime>
+  <PerishTime>6 Days, 0 Hours, 55 Minutes, 39 Seconds</PerishTime>
   <StatsHolder>
     <BaseValue>15</BaseValue>
     <RawWeight>0.2</RawWeight>

@@ -6,7 +6,7 @@
   <saveDir>/Food</saveDir>
   <Description>Crudely cooked mushroom that, when eaten, muffles the sound of one’s footsteps.</Description>
   <LegacyItemID>-1</LegacyItemID>
-  <PerishTime>-1</PerishTime>
+  <PerishTime>5 Days, 0 Hours, 28 Minutes, 54 Seconds</PerishTime>
   <StatsHolder>
     <BaseValue>3</BaseValue>
     <RawWeight>0.2</RawWeight>

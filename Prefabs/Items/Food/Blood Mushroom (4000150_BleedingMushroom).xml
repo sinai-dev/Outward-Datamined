@@ -6,7 +6,7 @@
   <saveDir>/Food</saveDir>
   <Description>Peculiar toadstool that gives headaches when eaten raw, but is an ingredient in health-restoring elixirs.</Description>
   <LegacyItemID>-1</LegacyItemID>
-  <PerishTime>-1</PerishTime>
+  <PerishTime>9 Days, 22 Hours, 5 Minutes, 42 Seconds</PerishTime>
   <StatsHolder>
     <BaseValue>8</BaseValue>
     <RawWeight>0.2</RawWeight>

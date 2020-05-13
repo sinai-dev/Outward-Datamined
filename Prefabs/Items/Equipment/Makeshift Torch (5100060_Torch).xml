@@ -8,7 +8,7 @@
 
 It burns out quickly, but warms up the wielder.</Description>
   <LegacyItemID>-1</LegacyItemID>
-  <PerishTime>-1</PerishTime>
+  <PerishTime>0 Days, 6 Hours, 40 Minutes, 0 Seconds</PerishTime>
   <StatsHolder xsi:type="EquipmentStatsHolder">
     <BaseValue>1</BaseValue>
     <RawWeight>0.4</RawWeight>

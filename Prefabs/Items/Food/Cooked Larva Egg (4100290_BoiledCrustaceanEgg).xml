@@ -6,7 +6,7 @@
   <saveDir>/Food</saveDir>
   <Description>Hardened exotic egg that rots more slowly than its raw counterpart.</Description>
   <LegacyItemID>-1</LegacyItemID>
-  <PerishTime>-1</PerishTime>
+  <PerishTime>11 Days, 21 Hours, 42 Minutes, 51 Seconds</PerishTime>
   <StatsHolder>
     <BaseValue>15</BaseValue>
     <RawWeight>0.2</RawWeight>

@@ -8,7 +8,7 @@
 
 It also grants the Warm boon and an increase in stealth.</Description>
   <LegacyItemID>-1</LegacyItemID>
-  <PerishTime>-1</PerishTime>
+  <PerishTime>19 Days, 20 Hours, 11 Minutes, 25 Seconds</PerishTime>
   <StatsHolder>
     <BaseValue>30</BaseValue>
     <RawWeight>0.5</RawWeight>

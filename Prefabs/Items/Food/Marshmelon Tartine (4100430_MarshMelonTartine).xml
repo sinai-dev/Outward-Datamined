@@ -6,7 +6,7 @@
   <saveDir>/Food</saveDir>
   <Description>Melon jelly thinly spread on bread, making several rations, each with the full stamina-restoring properties of a jar of marshmellon jam.</Description>
   <LegacyItemID>-1</LegacyItemID>
-  <PerishTime>-1</PerishTime>
+  <PerishTime>19 Days, 20 Hours, 11 Minutes, 25 Seconds</PerishTime>
   <StatsHolder>
     <BaseValue>8</BaseValue>
     <RawWeight>0.2</RawWeight>

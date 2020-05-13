@@ -6,7 +6,7 @@
   <saveDir>/Food</saveDir>
   <Description>Seed that becomes more toxic after being cooked and can be crafted, using linen, into a poisonous weapon coating.</Description>
   <LegacyItemID>-1</LegacyItemID>
-  <PerishTime>-1</PerishTime>
+  <PerishTime>14 Days, 21 Hours, 8 Minutes, 34 Seconds</PerishTime>
   <StatsHolder>
     <BaseValue>3</BaseValue>
     <RawWeight>0.1</RawWeight>

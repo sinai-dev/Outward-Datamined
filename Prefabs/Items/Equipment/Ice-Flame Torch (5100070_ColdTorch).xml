@@ -6,7 +6,7 @@
   <saveDir>/Equipment</saveDir>
   <Description>Alchemical torch that cools the wielder even in sweltering temperatures.</Description>
   <LegacyItemID>-1</LegacyItemID>
-  <PerishTime>-1</PerishTime>
+  <PerishTime>2 Days, 2 Hours, 0 Minutes, 0 Seconds</PerishTime>
   <StatsHolder xsi:type="EquipmentStatsHolder">
     <BaseValue>20</BaseValue>
     <RawWeight>0.4</RawWeight>

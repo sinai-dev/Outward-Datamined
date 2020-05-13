@@ -6,7 +6,7 @@
   <saveDir>/Food</saveDir>
   <Description>Salted fish soup is more restorative and nutritious than fish alone.</Description>
   <LegacyItemID>-1</LegacyItemID>
-  <PerishTime>-1</PerishTime>
+  <PerishTime>11 Days, 21 Hours, 42 Minutes, 51 Seconds</PerishTime>
   <StatsHolder>
     <BaseValue>8</BaseValue>
     <RawWeight>0.5</RawWeight>

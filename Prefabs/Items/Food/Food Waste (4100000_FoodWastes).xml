@@ -6,7 +6,7 @@
   <saveDir>/Food</saveDir>
   <Description>Diseased mush that is what remains when a cooking recipe fails.</Description>
   <LegacyItemID>-1</LegacyItemID>
-  <PerishTime>-1</PerishTime>
+  <PerishTime>0 Days, 0 Hours, -14 Minutes, -23 Seconds</PerishTime>
   <StatsHolder>
     <BaseValue>0</BaseValue>
     <RawWeight>0.1</RawWeight>

@@ -6,7 +6,7 @@
   <saveDir>/Food</saveDir>
   <Description>Heavy desert fruit that re-invigorates and protects against the sun.</Description>
   <LegacyItemID>-1</LegacyItemID>
-  <PerishTime>-1</PerishTime>
+  <PerishTime>4 Days, 0 Hours, 9 Minutes, 13 Seconds</PerishTime>
   <StatsHolder>
     <BaseValue>3</BaseValue>
     <RawWeight>0.2</RawWeight>

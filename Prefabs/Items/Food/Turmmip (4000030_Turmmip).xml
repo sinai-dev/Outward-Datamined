@@ -6,7 +6,7 @@
   <saveDir>/Food</saveDir>
   <Description>Bulbous root vegetable with mana-restoring properties.</Description>
   <LegacyItemID>-1</LegacyItemID>
-  <PerishTime>-1</PerishTime>
+  <PerishTime>8 Days, 0 Hours, 18 Minutes, 27 Seconds</PerishTime>
   <StatsHolder>
     <BaseValue>3</BaseValue>
     <RawWeight>0.5</RawWeight>

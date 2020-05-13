@@ -6,7 +6,7 @@
   <saveDir>/Food</saveDir>
   <Description>Crumbling fungus that barely provides nutrition.</Description>
   <LegacyItemID>-1</LegacyItemID>
-  <PerishTime>-1</PerishTime>
+  <PerishTime>9 Days, 22 Hours, 5 Minutes, 42 Seconds</PerishTime>
   <StatsHolder>
     <BaseValue>3</BaseValue>
     <RawWeight>0.2</RawWeight>

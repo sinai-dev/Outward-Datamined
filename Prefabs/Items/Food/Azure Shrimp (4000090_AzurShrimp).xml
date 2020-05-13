@@ -6,7 +6,7 @@
   <saveDir>/Food</saveDir>
   <Description>Rare crustacean coveted by fishermen for its mana-restoring qualities but that can make one ill when eaten raw.</Description>
   <LegacyItemID>-1</LegacyItemID>
-  <PerishTime>-1</PerishTime>
+  <PerishTime>9 Days, 22 Hours, 5 Minutes, 42 Seconds</PerishTime>
   <StatsHolder>
     <BaseValue>30</BaseValue>
     <RawWeight>0.1</RawWeight>
