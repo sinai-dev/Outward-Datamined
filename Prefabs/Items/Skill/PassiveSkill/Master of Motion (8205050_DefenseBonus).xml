@@ -6,6 +6,7 @@
   <saveDir>/Skill/PassiveSkill</saveDir>
   <Description>While under the effect of the Discipline boon, Impact Resistance and all damage resistances are increased by 15.</Description>
   <LegacyItemID>-1</LegacyItemID>
+  <PerishTime>-1</PerishTime>
   <Tags />
   <EffectTransforms />
   <Cooldown>0</Cooldown>

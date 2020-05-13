@@ -6,6 +6,7 @@
   <saveDir>/Equipment/Weapon/MeleeWeapon</saveDir>
   <Description>Artifact greathammer of an executioner who guarded the Spire of Light, crushing the bones of invaders before feeding on them.</Description>
   <LegacyItemID>-1</LegacyItemID>
+  <PerishTime>-1</PerishTime>
   <StatsHolder xsi:type="WeaponStatsHolder">
     <BaseValue>2500</BaseValue>
     <RawWeight>12</RawWeight>

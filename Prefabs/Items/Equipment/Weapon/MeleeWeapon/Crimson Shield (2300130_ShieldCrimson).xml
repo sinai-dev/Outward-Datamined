@@ -8,6 +8,7 @@
 
 Its bold color makes it stand out in the snowy landscape.</Description>
   <LegacyItemID>-1</LegacyItemID>
+  <PerishTime>-1</PerishTime>
   <StatsHolder xsi:type="WeaponStatsHolder">
     <BaseValue>900</BaseValue>
     <RawWeight>7</RawWeight>

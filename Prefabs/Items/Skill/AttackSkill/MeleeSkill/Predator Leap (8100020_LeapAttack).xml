@@ -8,6 +8,7 @@
 
 Jumping attack that creates a shockwave upon landing, with high Impact and Damage. Requires the Rage boon.</Description>
   <LegacyItemID>-1</LegacyItemID>
+  <PerishTime>-1</PerishTime>
   <Tags />
   <EffectTransforms>
     <EffectTransformHolder>

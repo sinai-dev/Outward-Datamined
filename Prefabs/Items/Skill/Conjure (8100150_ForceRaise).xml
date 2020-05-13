@@ -6,6 +6,7 @@
   <saveDir>/Skill</saveDir>
   <Description>Spell which does nothing on its own, but can be combined with other abilities.</Description>
   <LegacyItemID>-1</LegacyItemID>
+  <PerishTime>-1</PerishTime>
   <Tags />
   <EffectTransforms>
     <EffectTransformHolder>

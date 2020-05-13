@@ -10,6 +10,7 @@ Absorb the enemy’s life into your pistol as a blood bullet, healing yourself.
 
 Shooting it requires the use of the Fire/Reload skill.</Description>
   <LegacyItemID>-1</LegacyItemID>
+  <PerishTime>-1</PerishTime>
   <Tags />
   <EffectTransforms>
     <EffectTransformHolder>

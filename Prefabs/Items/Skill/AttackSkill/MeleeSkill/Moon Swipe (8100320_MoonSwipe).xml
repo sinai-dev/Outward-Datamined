@@ -8,6 +8,7 @@
 
 Double attack that deals high damage, and that increases in power if you have the Rage or Discipline boons.</Description>
   <LegacyItemID>-1</LegacyItemID>
+  <PerishTime>-1</PerishTime>
   <Tags />
   <EffectTransforms>
     <EffectTransformHolder>

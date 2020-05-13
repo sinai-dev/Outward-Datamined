@@ -6,6 +6,7 @@
   <saveDir />
   <Description>The memory of a Ghost's deepest regret, exorcised by forbidden magic. It can be used to craft new unique equipment.</Description>
   <LegacyItemID>-1</LegacyItemID>
+  <PerishTime>-1</PerishTime>
   <StatsHolder>
     <BaseValue>200</BaseValue>
     <RawWeight>0.2</RawWeight>

@@ -8,6 +8,7 @@
 
 For example, a boon that increases your Fire Resistance by 20 would increase it by 30 instead.</Description>
   <LegacyItemID>-1</LegacyItemID>
+  <PerishTime>-1</PerishTime>
   <Tags />
   <EffectTransforms />
   <Cooldown>0</Cooldown>

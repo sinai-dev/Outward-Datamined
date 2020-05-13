@@ -6,6 +6,7 @@
   <saveDir>/Equipment/Weapon/MeleeWeapon</saveDir>
   <Description />
   <LegacyItemID>2150041</LegacyItemID>
+  <PerishTime>-1</PerishTime>
   <StatsHolder xsi:type="WeaponStatsHolder">
     <BaseValue>20</BaseValue>
     <RawWeight>6</RawWeight>

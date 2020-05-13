@@ -6,6 +6,7 @@
   <saveDir>/Equipment/Weapon/MeleeWeapon</saveDir>
   <Description>A pulsing one-handed sword that seems to stretch reflexively in search of new victims. Inflicts confusion.</Description>
   <LegacyItemID>-1</LegacyItemID>
+  <PerishTime>-1</PerishTime>
   <StatsHolder xsi:type="WeaponStatsHolder">
     <BaseValue>2000</BaseValue>
     <RawWeight>6</RawWeight>

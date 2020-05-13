@@ -6,6 +6,7 @@
   <saveDir>/Food</saveDir>
   <Description>Edible nut that is a main ingredient in stamina-restoring elixirs.</Description>
   <LegacyItemID>-1</LegacyItemID>
+  <PerishTime>-1</PerishTime>
   <StatsHolder>
     <BaseValue>15</BaseValue>
     <RawWeight>0.2</RawWeight>

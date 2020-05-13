@@ -8,6 +8,7 @@
 
 Blocking with a shield is more advantageous than blocking with a weapon.</Description>
   <LegacyItemID>-1</LegacyItemID>
+  <PerishTime>-1</PerishTime>
   <StatsHolder xsi:type="WeaponStatsHolder">
     <BaseValue>20</BaseValue>
     <RawWeight>5</RawWeight>

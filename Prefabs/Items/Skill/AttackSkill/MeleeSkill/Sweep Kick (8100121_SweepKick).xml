@@ -6,6 +6,7 @@
   <saveDir>/Skill/AttackSkill/MeleeSkill</saveDir>
   <Description>Weak attack with a wide arc of effect and high Impact. Will knock down a target afflicted by the Confusion status effect.</Description>
   <LegacyItemID>-1</LegacyItemID>
+  <PerishTime>-1</PerishTime>
   <Tags />
   <EffectTransforms>
     <EffectTransformHolder>

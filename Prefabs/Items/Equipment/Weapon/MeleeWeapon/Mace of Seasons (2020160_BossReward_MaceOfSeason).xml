@@ -6,6 +6,7 @@
   <saveDir>/Equipment/Weapon/MeleeWeapon</saveDir>
   <Description>A one handed mace that bends the elements against its victims. Inflicts elemental weakness.</Description>
   <LegacyItemID>-1</LegacyItemID>
+  <PerishTime>-1</PerishTime>
   <StatsHolder xsi:type="WeaponStatsHolder">
     <BaseValue>2000</BaseValue>
     <RawWeight>7</RawWeight>

@@ -6,6 +6,7 @@
   <saveDir>/ItemContainer/SelfFilledItemContainer/TreasureChest</saveDir>
   <Description />
   <LegacyItemID>-1</LegacyItemID>
+  <PerishTime>-1</PerishTime>
   <Tags />
   <EffectTransforms />
 </ItemHolder>

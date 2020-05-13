@@ -6,6 +6,7 @@
   <saveDir>/Food</saveDir>
   <Description>Dish of invigorating cactus fruit and bread that helps against the heat when eaten.</Description>
   <LegacyItemID>-1</LegacyItemID>
+  <PerishTime>-1</PerishTime>
   <StatsHolder>
     <BaseValue>8</BaseValue>
     <RawWeight>0.5</RawWeight>

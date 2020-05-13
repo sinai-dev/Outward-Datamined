@@ -6,6 +6,7 @@
   <saveDir />
   <Description>Spikes that must be placed in a Tripwire Trap, inflicting heavy damage to enemies that step on it.</Description>
   <LegacyItemID>-1</LegacyItemID>
+  <PerishTime>-1</PerishTime>
   <StatsHolder>
     <BaseValue>50</BaseValue>
     <RawWeight>0.2</RawWeight>

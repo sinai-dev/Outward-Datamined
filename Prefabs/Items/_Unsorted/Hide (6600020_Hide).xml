@@ -6,6 +6,7 @@
   <saveDir />
   <Description>Tanned animal skin, used in many basic crafting recipes.</Description>
   <LegacyItemID>-1</LegacyItemID>
+  <PerishTime>-1</PerishTime>
   <StatsHolder>
     <BaseValue>16</BaseValue>
     <RawWeight>0.5</RawWeight>

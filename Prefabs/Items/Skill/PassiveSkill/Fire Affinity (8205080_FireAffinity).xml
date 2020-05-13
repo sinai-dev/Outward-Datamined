@@ -6,6 +6,7 @@
   <saveDir>/Skill/PassiveSkill</saveDir>
   <Description>Increase your resistance to Fire by 20 and the Fire damage you inflict is increased by 15%</Description>
   <LegacyItemID>-1</LegacyItemID>
+  <PerishTime>-1</PerishTime>
   <Tags />
   <EffectTransforms>
     <EffectTransformHolder>

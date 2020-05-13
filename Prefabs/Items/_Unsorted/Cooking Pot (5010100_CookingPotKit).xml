@@ -6,6 +6,7 @@
   <saveDir />
   <Description>Heavy pot that enables the preparation of recipes with more than one ingredient, to be used on a lit campfire.</Description>
   <LegacyItemID>-1</LegacyItemID>
+  <PerishTime>-1</PerishTime>
   <StatsHolder>
     <BaseValue>20</BaseValue>
     <RawWeight>3</RawWeight>

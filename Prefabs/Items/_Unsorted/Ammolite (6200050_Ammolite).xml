@@ -8,6 +8,7 @@
 
 These iridescent stones are used to craft Ammolite Armor.</Description>
   <LegacyItemID>-1</LegacyItemID>
+  <PerishTime>-1</PerishTime>
   <StatsHolder>
     <BaseValue>35</BaseValue>
     <RawWeight>0.1</RawWeight>

@@ -6,6 +6,7 @@
   <saveDir />
   <Description>Powerful concoction that temporarily increases your weapon’s Impact and gives you the Possessed and the Discipline boons.</Description>
   <LegacyItemID>-1</LegacyItemID>
+  <PerishTime>-1</PerishTime>
   <StatsHolder>
     <BaseValue>60</BaseValue>
     <RawWeight>0.5</RawWeight>

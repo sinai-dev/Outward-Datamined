@@ -6,6 +6,7 @@
   <saveDir>/Equipment/Weapon/ProjectileWeapon</saveDir>
   <Description>Compact bow which inflicts Slow Down on enemies.</Description>
   <LegacyItemID>-1</LegacyItemID>
+  <PerishTime>-1</PerishTime>
   <StatsHolder xsi:type="WeaponStatsHolder">
     <BaseValue>30</BaseValue>
     <RawWeight>4</RawWeight>

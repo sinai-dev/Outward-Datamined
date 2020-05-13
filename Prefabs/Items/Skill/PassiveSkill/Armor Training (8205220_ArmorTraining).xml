@@ -6,6 +6,7 @@
   <saveDir>/Skill/PassiveSkill</saveDir>
   <Description>Decreases the stamina and movement penalties from wearing armor by 50%</Description>
   <LegacyItemID>-1</LegacyItemID>
+  <PerishTime>-1</PerishTime>
   <Tags />
   <EffectTransforms>
     <EffectTransformHolder>

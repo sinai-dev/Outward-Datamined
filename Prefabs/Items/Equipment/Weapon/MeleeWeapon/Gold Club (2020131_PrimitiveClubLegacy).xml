@@ -6,6 +6,7 @@
   <saveDir>/Equipment/Weapon/MeleeWeapon</saveDir>
   <Description>A gilded Club, passed down by your ancestors.</Description>
   <LegacyItemID>-1</LegacyItemID>
+  <PerishTime>-1</PerishTime>
   <StatsHolder xsi:type="WeaponStatsHolder">
     <BaseValue>200</BaseValue>
     <RawWeight>7</RawWeight>

@@ -6,6 +6,7 @@
   <saveDir />
   <Description>Powerful concoction that temporarily grants moderate resistance against Fire, Frost, Lightning, Decay and Ethereal damage.</Description>
   <LegacyItemID>-1</LegacyItemID>
+  <PerishTime>-1</PerishTime>
   <StatsHolder>
     <BaseValue>40</BaseValue>
     <RawWeight>0.5</RawWeight>

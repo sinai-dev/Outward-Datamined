@@ -6,6 +6,7 @@
   <saveDir>/Skill/PassiveSkill</saveDir>
   <Description>Increases your Cold and Hot Weather Defense by 8.</Description>
   <LegacyItemID>-1</LegacyItemID>
+  <PerishTime>-1</PerishTime>
   <Tags />
   <EffectTransforms>
     <EffectTransformHolder>

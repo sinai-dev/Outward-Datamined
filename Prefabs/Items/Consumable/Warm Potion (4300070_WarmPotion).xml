@@ -6,6 +6,7 @@
   <saveDir />
   <Description>Concoction that temporarily increases your Fire Damage and Resistances.</Description>
   <LegacyItemID>-1</LegacyItemID>
+  <PerishTime>-1</PerishTime>
   <StatsHolder>
     <BaseValue>15</BaseValue>
     <RawWeight>0.5</RawWeight>

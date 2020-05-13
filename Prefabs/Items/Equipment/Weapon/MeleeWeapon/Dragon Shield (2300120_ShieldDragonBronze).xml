@@ -6,6 +6,7 @@
   <saveDir>/Equipment/Weapon/MeleeWeapon</saveDir>
   <Description>Shield depicting a fictional creature of great power; one that is common in street theatre and children’s books. Inflicts burning on shield charge.</Description>
   <LegacyItemID>-1</LegacyItemID>
+  <PerishTime>-1</PerishTime>
   <StatsHolder xsi:type="WeaponStatsHolder">
     <BaseValue>100</BaseValue>
     <RawWeight>8</RawWeight>

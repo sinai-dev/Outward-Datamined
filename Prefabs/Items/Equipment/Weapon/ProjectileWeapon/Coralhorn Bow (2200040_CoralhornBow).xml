@@ -6,6 +6,7 @@
   <saveDir>/Equipment/Weapon/ProjectileWeapon</saveDir>
   <Description>Bow which inflicts Pain, cursing the enemy to receive more physical damage, made from Coralhorn Antler.</Description>
   <LegacyItemID>-1</LegacyItemID>
+  <PerishTime>-1</PerishTime>
   <StatsHolder xsi:type="WeaponStatsHolder">
     <BaseValue>250</BaseValue>
     <RawWeight>4</RawWeight>

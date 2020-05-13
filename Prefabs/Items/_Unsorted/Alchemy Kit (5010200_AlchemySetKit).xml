@@ -6,6 +6,7 @@
   <saveDir />
   <Description>Tools used to distill ingredients into potions, to be used on a lit campfire.</Description>
   <LegacyItemID>-1</LegacyItemID>
+  <PerishTime>-1</PerishTime>
   <StatsHolder>
     <BaseValue>60</BaseValue>
     <RawWeight>5</RawWeight>

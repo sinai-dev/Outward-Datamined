@@ -8,6 +8,7 @@
 
 Block an elemental attack. When you next block, an elemental explosion will burst from you.</Description>
   <LegacyItemID>-1</LegacyItemID>
+  <PerishTime>-1</PerishTime>
   <Tags />
   <EffectTransforms>
     <EffectTransformHolder>

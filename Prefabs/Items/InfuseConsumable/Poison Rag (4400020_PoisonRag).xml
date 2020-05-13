@@ -6,6 +6,7 @@
   <saveDir>/InfuseConsumable</saveDir>
   <Description>Soiled cloth that envenoms a weapon when rubbed on it.</Description>
   <LegacyItemID>-1</LegacyItemID>
+  <PerishTime>-1</PerishTime>
   <StatsHolder>
     <BaseValue>15</BaseValue>
     <RawWeight>0.2</RawWeight>

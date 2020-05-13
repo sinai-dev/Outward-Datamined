@@ -6,6 +6,7 @@
   <saveDir>/Skill/PassiveSkill</saveDir>
   <Description>It takes more time for you to become hungry, thirsty and sleepy.</Description>
   <LegacyItemID>-1</LegacyItemID>
+  <PerishTime>-1</PerishTime>
   <Tags />
   <EffectTransforms>
     <EffectTransformHolder>

@@ -6,6 +6,7 @@
   <saveDir>/InfuseConsumable</saveDir>
   <Description>Thick fluid that confers the Lightning element when applied to a melee weapon.</Description>
   <LegacyItemID>-1</LegacyItemID>
+  <PerishTime>-1</PerishTime>
   <StatsHolder>
     <BaseValue>40</BaseValue>
     <RawWeight>0.5</RawWeight>

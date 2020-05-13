@@ -6,6 +6,7 @@
   <saveDir />
   <Description>Brew that restores a moderate amount of health, stamina and mana.</Description>
   <LegacyItemID>-1</LegacyItemID>
+  <PerishTime>-1</PerishTime>
   <StatsHolder>
     <BaseValue>0</BaseValue>
     <RawWeight>0.5</RawWeight>

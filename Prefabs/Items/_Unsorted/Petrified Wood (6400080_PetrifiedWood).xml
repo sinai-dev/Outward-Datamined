@@ -6,6 +6,7 @@
   <saveDir />
   <Description>Mineral component used by the blacksmiths of Berg to craft an unusual set of armor.</Description>
   <LegacyItemID>-1</LegacyItemID>
+  <PerishTime>-1</PerishTime>
   <StatsHolder>
     <BaseValue>32</BaseValue>
     <RawWeight>1.5</RawWeight>

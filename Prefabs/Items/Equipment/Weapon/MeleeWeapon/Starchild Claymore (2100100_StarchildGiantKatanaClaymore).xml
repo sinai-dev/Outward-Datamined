@@ -6,6 +6,7 @@
   <saveDir>/Equipment/Weapon/MeleeWeapon</saveDir>
   <Description>“The Dawn Weaver’s knowledge showed us the way; He came from the stars, and to the stars we shall follow.”</Description>
   <LegacyItemID>-1</LegacyItemID>
+  <PerishTime>-1</PerishTime>
   <StatsHolder xsi:type="WeaponStatsHolder">
     <BaseValue>2500</BaseValue>
     <RawWeight>6</RawWeight>

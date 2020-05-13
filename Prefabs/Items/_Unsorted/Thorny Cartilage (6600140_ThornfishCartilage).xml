@@ -6,6 +6,7 @@
   <saveDir />
   <Description>Bony spurs harvested from lesser horrors, used to craft weapons.</Description>
   <LegacyItemID>-1</LegacyItemID>
+  <PerishTime>-1</PerishTime>
   <StatsHolder>
     <BaseValue>60</BaseValue>
     <RawWeight>1</RawWeight>

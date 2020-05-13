@@ -6,6 +6,7 @@
   <saveDir>/Equipment/Armor</saveDir>
   <Description />
   <LegacyItemID>3100200</LegacyItemID>
+  <PerishTime>-1</PerishTime>
   <StatsHolder xsi:type="EquipmentStatsHolder">
     <BaseValue>700</BaseValue>
     <RawWeight>21</RawWeight>

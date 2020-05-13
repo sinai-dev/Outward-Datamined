@@ -6,6 +6,7 @@
   <saveDir>/Equipment/Weapon/MeleeWeapon</saveDir>
   <Description>A Cleaver Halberd made by a savage smith, passed down by your ancestors. Inflicts Extreme Bleeding on enemies.</Description>
   <LegacyItemID>-1</LegacyItemID>
+  <PerishTime>-1</PerishTime>
   <StatsHolder xsi:type="WeaponStatsHolder">
     <BaseValue>1000</BaseValue>
     <RawWeight>8</RawWeight>

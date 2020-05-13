@@ -6,6 +6,7 @@
   <saveDir>/Equipment/Armor</saveDir>
   <Description>“On the festival’s second day, we bow to the spirit of perseverance.”</Description>
   <LegacyItemID>-1</LegacyItemID>
+  <PerishTime>-1</PerishTime>
   <StatsHolder xsi:type="EquipmentStatsHolder">
     <BaseValue>125</BaseValue>
     <RawWeight>4</RawWeight>

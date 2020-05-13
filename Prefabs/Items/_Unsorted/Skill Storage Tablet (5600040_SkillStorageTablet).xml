@@ -6,6 +6,7 @@
   <saveDir />
   <Description>Stone tablet which can be imprinted with a skill, which can then be passed down as a legacy.</Description>
   <LegacyItemID>-1</LegacyItemID>
+  <PerishTime>-1</PerishTime>
   <StatsHolder>
     <BaseValue>1</BaseValue>
     <RawWeight>0.1</RawWeight>

@@ -8,6 +8,7 @@
 
 Notably, the toxic effect of the Hallowed Marsh’s waters cannot be cured by this potion.</Description>
   <LegacyItemID>-1</LegacyItemID>
+  <PerishTime>-1</PerishTime>
   <StatsHolder>
     <BaseValue>8</BaseValue>
     <RawWeight>0.5</RawWeight>

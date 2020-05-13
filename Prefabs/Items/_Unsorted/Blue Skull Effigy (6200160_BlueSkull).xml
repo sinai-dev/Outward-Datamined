@@ -8,6 +8,7 @@
 
 The venerable ancestors would be satisfied with this opulent gift.</Description>
   <LegacyItemID>-1</LegacyItemID>
+  <PerishTime>-1</PerishTime>
   <StatsHolder>
     <BaseValue>65</BaseValue>
     <RawWeight>0.4</RawWeight>

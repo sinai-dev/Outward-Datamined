@@ -8,6 +8,7 @@
 
 Deflect a melee attack and counter with a powerful strike. You will still strike if no attack was deflected, but for less damage,</Description>
   <LegacyItemID>-1</LegacyItemID>
+  <PerishTime>-1</PerishTime>
   <Tags />
   <EffectTransforms>
     <EffectTransformHolder>

@@ -6,6 +6,7 @@
   <saveDir>/Food</saveDir>
   <Description>Alcoholic drink that makes one unstable on their feet, but reduces the mana cost of spells.</Description>
   <LegacyItemID>-1</LegacyItemID>
+  <PerishTime>-1</PerishTime>
   <StatsHolder>
     <BaseValue>15</BaseValue>
     <RawWeight>0.5</RawWeight>

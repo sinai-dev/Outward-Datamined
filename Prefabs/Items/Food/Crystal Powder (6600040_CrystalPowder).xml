@@ -8,6 +8,7 @@
 
 Consuming this powder restores mana, burnt mana and burnt stamina. However, it burns maximum health until one sleeps again.</Description>
   <LegacyItemID>-1</LegacyItemID>
+  <PerishTime>-1</PerishTime>
   <StatsHolder>
     <BaseValue>47</BaseValue>
     <RawWeight>0.1</RawWeight>

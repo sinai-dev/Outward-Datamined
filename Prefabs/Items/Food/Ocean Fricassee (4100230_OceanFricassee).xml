@@ -6,6 +6,7 @@
   <saveDir>/Food</saveDir>
   <Description>Superior egg and fish dish with healing properties which restore health, stamina and mana.</Description>
   <LegacyItemID>-1</LegacyItemID>
+  <PerishTime>-1</PerishTime>
   <StatsHolder>
     <BaseValue>15</BaseValue>
     <RawWeight>0.5</RawWeight>

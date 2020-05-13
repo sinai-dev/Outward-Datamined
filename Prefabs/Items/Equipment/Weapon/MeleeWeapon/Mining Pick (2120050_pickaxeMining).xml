@@ -6,6 +6,7 @@
   <saveDir>/Equipment/Weapon/MeleeWeapon</saveDir>
   <Description>Essential tool to harvest mineral deposits.</Description>
   <LegacyItemID>2120051</LegacyItemID>
+  <PerishTime>-1</PerishTime>
   <StatsHolder xsi:type="WeaponStatsHolder">
     <BaseValue>20</BaseValue>
     <RawWeight>5</RawWeight>

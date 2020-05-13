@@ -6,6 +6,7 @@
   <saveDir />
   <Description>Poisonous bones of large herbivores, used to craft spears.</Description>
   <LegacyItemID>-1</LegacyItemID>
+  <PerishTime>-1</PerishTime>
   <StatsHolder>
     <BaseValue>60</BaseValue>
     <RawWeight>1</RawWeight>

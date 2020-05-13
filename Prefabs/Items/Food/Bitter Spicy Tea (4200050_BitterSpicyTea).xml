@@ -6,6 +6,7 @@
   <saveDir>/Food</saveDir>
   <Description>Concoction that instantly cures infections, protects against the cold and restores burnt Stamina.</Description>
   <LegacyItemID>-1</LegacyItemID>
+  <PerishTime>-1</PerishTime>
   <StatsHolder>
     <BaseValue>8</BaseValue>
     <RawWeight>0.5</RawWeight>

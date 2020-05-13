@@ -10,6 +10,7 @@ Load the equipped pistol with a bullet, or fires if it is already loaded.
 
 Some abilities load special bullets into your pistol, which are fired using this skill.</Description>
   <LegacyItemID>-1</LegacyItemID>
+  <PerishTime>-1</PerishTime>
   <Tags />
   <EffectTransforms>
     <EffectTransformHolder>

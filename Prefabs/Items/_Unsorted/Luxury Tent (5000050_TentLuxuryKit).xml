@@ -8,6 +8,7 @@
 
 Sleeping in this tent gives a huge bonus to stamina use.</Description>
   <LegacyItemID>-1</LegacyItemID>
+  <PerishTime>-1</PerishTime>
   <StatsHolder>
     <BaseValue>200</BaseValue>
     <RawWeight>6</RawWeight>

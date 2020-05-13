@@ -10,6 +10,7 @@ Increases the Impact and Attack Speed of your melee weapon, for 3 minutes.
 
 Your stamina burn increases more quickly, however.</Description>
   <LegacyItemID>-1</LegacyItemID>
+  <PerishTime>-1</PerishTime>
   <Tags />
   <EffectTransforms>
     <EffectTransformHolder>

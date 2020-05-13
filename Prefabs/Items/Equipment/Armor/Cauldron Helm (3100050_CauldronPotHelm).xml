@@ -6,6 +6,7 @@
   <saveDir>/Equipment/Armor</saveDir>
   <Description>“When calling the kettle black just wasn’t enough.”</Description>
   <LegacyItemID>-1</LegacyItemID>
+  <PerishTime>-1</PerishTime>
   <StatsHolder xsi:type="EquipmentStatsHolder">
     <BaseValue>20</BaseValue>
     <RawWeight>3</RawWeight>

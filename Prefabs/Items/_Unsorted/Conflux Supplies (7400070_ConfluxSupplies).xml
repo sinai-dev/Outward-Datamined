@@ -8,6 +8,7 @@
 
 Someone else may have a use for these supplies.</Description>
   <LegacyItemID>-1</LegacyItemID>
+  <PerishTime>-1</PerishTime>
   <StatsHolder>
     <BaseValue>1</BaseValue>
     <RawWeight>0.1</RawWeight>

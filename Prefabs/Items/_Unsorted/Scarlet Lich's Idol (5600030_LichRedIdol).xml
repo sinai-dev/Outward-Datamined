@@ -8,6 +8,7 @@
 
 Used as an offering, this could garner the favor of an ancient power, and with it, unique rewards.</Description>
   <LegacyItemID>-1</LegacyItemID>
+  <PerishTime>-1</PerishTime>
   <StatsHolder>
     <BaseValue>1</BaseValue>
     <RawWeight>0.1</RawWeight>

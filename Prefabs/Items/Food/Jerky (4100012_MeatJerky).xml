@@ -6,6 +6,7 @@
   <saveDir>/Food</saveDir>
   <Description>Salted meat that rots very slowly.</Description>
   <LegacyItemID>-1</LegacyItemID>
+  <PerishTime>-1</PerishTime>
   <StatsHolder>
     <BaseValue>3</BaseValue>
     <RawWeight>0.5</RawWeight>

@@ -6,6 +6,7 @@
   <saveDir>/Equipment/Weapon/ProjectileWeapon</saveDir>
   <Description>Gun that needs the Fire/Reload skill to shoot a ethereal bullet, inflicting Haunted on enemies.</Description>
   <LegacyItemID>-1</LegacyItemID>
+  <PerishTime>-1</PerishTime>
   <StatsHolder xsi:type="WeaponStatsHolder">
     <BaseValue>100</BaseValue>
     <RawWeight>1</RawWeight>

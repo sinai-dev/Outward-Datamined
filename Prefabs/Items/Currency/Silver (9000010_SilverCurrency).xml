@@ -8,6 +8,7 @@
 
 Note that a hundred coins have a combined weight of 1.</Description>
   <LegacyItemID>-1</LegacyItemID>
+  <PerishTime>-1</PerishTime>
   <Tags />
   <EffectTransforms />
 </ItemHolder>

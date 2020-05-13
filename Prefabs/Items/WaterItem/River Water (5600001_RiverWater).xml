@@ -8,6 +8,7 @@
 
 It should be boiled over a campfire to produce Clean Water.</Description>
   <LegacyItemID>-1</LegacyItemID>
+  <PerishTime>-1</PerishTime>
   <StatsHolder>
     <BaseValue>0</BaseValue>
     <RawWeight>0</RawWeight>

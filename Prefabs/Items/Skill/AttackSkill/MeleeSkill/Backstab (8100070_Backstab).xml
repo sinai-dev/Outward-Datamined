@@ -8,6 +8,7 @@
 
 Dagger attack. If the attack hits the enemy’s back, the damage and impact are tripled.</Description>
   <LegacyItemID>-1</LegacyItemID>
+  <PerishTime>-1</PerishTime>
   <Tags />
   <EffectTransforms>
     <EffectTransformHolder>

@@ -6,6 +6,7 @@
   <saveDir>/Equipment/Weapon/ProjectileWeapon</saveDir>
   <Description>Beginner's short bow mostly used to hunt small game, due to its lack of power.</Description>
   <LegacyItemID>2200001</LegacyItemID>
+  <PerishTime>-1</PerishTime>
   <StatsHolder xsi:type="WeaponStatsHolder">
     <BaseValue>13</BaseValue>
     <RawWeight>3</RawWeight>

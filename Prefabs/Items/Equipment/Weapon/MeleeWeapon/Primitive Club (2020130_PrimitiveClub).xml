@@ -6,6 +6,7 @@
   <saveDir>/Equipment/Weapon/MeleeWeapon</saveDir>
   <Description>The lowest of the low when it comes to weaponry, though it can easily be crafted with Wood.</Description>
   <LegacyItemID>2020131</LegacyItemID>
+  <PerishTime>-1</PerishTime>
   <StatsHolder xsi:type="WeaponStatsHolder">
     <BaseValue>0</BaseValue>
     <RawWeight>5</RawWeight>

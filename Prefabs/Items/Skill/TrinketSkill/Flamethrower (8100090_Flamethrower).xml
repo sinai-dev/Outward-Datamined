@@ -10,6 +10,7 @@ Shoots fire from the torch or lantern, which also inflicts the Burning status ef
 
 This skill lowers the durability of the torch or lantern used.</Description>
   <LegacyItemID>-1</LegacyItemID>
+  <PerishTime>-1</PerishTime>
   <Tags />
   <EffectTransforms>
     <EffectTransformHolder>

@@ -6,6 +6,7 @@
   <saveDir />
   <Description>Unrefined mineral that radiates raw magic, used in many alchemical recipes.</Description>
   <LegacyItemID>-1</LegacyItemID>
+  <PerishTime>-1</PerishTime>
   <StatsHolder>
     <BaseValue>20</BaseValue>
     <RawWeight>0.5</RawWeight>

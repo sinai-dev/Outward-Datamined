@@ -8,6 +8,7 @@
 
 Eggs provide both health and stamina recovery over time.</Description>
   <LegacyItemID>-1</LegacyItemID>
+  <PerishTime>-1</PerishTime>
   <StatsHolder>
     <BaseValue>3</BaseValue>
     <RawWeight>0.2</RawWeight>

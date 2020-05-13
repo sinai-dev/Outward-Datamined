@@ -8,6 +8,7 @@
 
 Blue rune that does nothing on its own, but can produce combo effects by casting other runes, in the correct order.</Description>
   <LegacyItemID>-1</LegacyItemID>
+  <PerishTime>-1</PerishTime>
   <Tags />
   <EffectTransforms>
     <EffectTransformHolder>

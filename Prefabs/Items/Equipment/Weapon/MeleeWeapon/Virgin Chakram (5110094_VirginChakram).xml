@@ -4,8 +4,9 @@
   <Name>Virgin Chakram</Name>
   <gameObjectName>5110094_VirginChakram</gameObjectName>
   <saveDir>/Equipment/Weapon/MeleeWeapon</saveDir>
-  <Description>A pure piece of gear, designed to receive enchantments.</Description>
+  <Description />
   <LegacyItemID>-1</LegacyItemID>
+  <PerishTime>-1</PerishTime>
   <StatsHolder xsi:type="WeaponStatsHolder">
     <BaseValue>800</BaseValue>
     <RawWeight>1</RawWeight>

@@ -6,6 +6,7 @@
   <saveDir />
   <Description>Branches with a variety of uses, from making campfires to crafting weapons.</Description>
   <LegacyItemID>-1</LegacyItemID>
+  <PerishTime>-1</PerishTime>
   <StatsHolder>
     <BaseValue>2</BaseValue>
     <RawWeight>0.3</RawWeight>

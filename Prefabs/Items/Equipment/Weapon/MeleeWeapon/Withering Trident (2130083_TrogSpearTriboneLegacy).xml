@@ -6,6 +6,7 @@
   <saveDir>/Equipment/Weapon/MeleeWeapon</saveDir>
   <Description>A Trident taken from a surprisingly competent ancient Troglodyte, passed down by your ancestors.</Description>
   <LegacyItemID>-1</LegacyItemID>
+  <PerishTime>-1</PerishTime>
   <StatsHolder xsi:type="WeaponStatsHolder">
     <BaseValue>1000</BaseValue>
     <RawWeight>6</RawWeight>

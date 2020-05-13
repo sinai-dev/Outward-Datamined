@@ -6,6 +6,7 @@
   <saveDir />
   <Description>Assortment of fangs, used to craft equipment by binding them to iron weapons.</Description>
   <LegacyItemID>-1</LegacyItemID>
+  <PerishTime>-1</PerishTime>
   <StatsHolder>
     <BaseValue>28</BaseValue>
     <RawWeight>1</RawWeight>

@@ -8,6 +8,7 @@
 
 Strike your weapon on your shield, removing the elemental infusion to make an explosion of that element.</Description>
   <LegacyItemID>-1</LegacyItemID>
+  <PerishTime>-1</PerishTime>
   <Tags />
   <EffectTransforms>
     <EffectTransformHolder>

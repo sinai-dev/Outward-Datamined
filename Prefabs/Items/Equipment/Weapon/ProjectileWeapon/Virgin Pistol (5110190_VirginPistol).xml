@@ -4,8 +4,9 @@
   <Name>Virgin Pistol</Name>
   <gameObjectName>5110190_VirginPistol</gameObjectName>
   <saveDir>/Equipment/Weapon/ProjectileWeapon</saveDir>
-  <Description>A pure piece of gear, designed to receive enchantments.</Description>
+  <Description />
   <LegacyItemID>-1</LegacyItemID>
+  <PerishTime>-1</PerishTime>
   <StatsHolder xsi:type="WeaponStatsHolder">
     <BaseValue>400</BaseValue>
     <RawWeight>2</RawWeight>

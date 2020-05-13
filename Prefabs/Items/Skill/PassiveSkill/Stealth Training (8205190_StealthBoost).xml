@@ -8,6 +8,7 @@
 
 Sprinting and having a light source will still easily alert them, though.</Description>
   <LegacyItemID>-1</LegacyItemID>
+  <PerishTime>-1</PerishTime>
   <Tags />
   <EffectTransforms>
     <EffectTransformHolder>

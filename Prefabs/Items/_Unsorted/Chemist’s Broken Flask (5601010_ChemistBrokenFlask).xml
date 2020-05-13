@@ -6,6 +6,7 @@
   <saveDir />
   <Description>“Only the Chemist knew how to mix poison, sun dust and demon blood.”</Description>
   <LegacyItemID>-1</LegacyItemID>
+  <PerishTime>-1</PerishTime>
   <StatsHolder>
     <BaseValue>400</BaseValue>
     <RawWeight>0.5</RawWeight>

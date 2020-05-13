@@ -6,6 +6,7 @@
   <saveDir>/Food</saveDir>
   <Description>Roasted nut that increases the metabolism.</Description>
   <LegacyItemID>-1</LegacyItemID>
+  <PerishTime>-1</PerishTime>
   <StatsHolder>
     <BaseValue>8</BaseValue>
     <RawWeight>0.2</RawWeight>

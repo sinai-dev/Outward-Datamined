@@ -10,6 +10,7 @@ Using this skill burns a bit of your maximum stamina until the next time you sle
 
 Certain skills require this boon to be active.</Description>
   <LegacyItemID>-1</LegacyItemID>
+  <PerishTime>-1</PerishTime>
   <Tags />
   <EffectTransforms>
     <EffectTransformHolder>

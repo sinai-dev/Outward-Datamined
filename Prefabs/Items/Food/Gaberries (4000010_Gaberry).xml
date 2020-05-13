@@ -8,6 +8,7 @@
 
 As a fruit, these berries restore stamina over time.</Description>
   <LegacyItemID>-1</LegacyItemID>
+  <PerishTime>-1</PerishTime>
   <StatsHolder>
     <BaseValue>1</BaseValue>
     <RawWeight>0.1</RawWeight>

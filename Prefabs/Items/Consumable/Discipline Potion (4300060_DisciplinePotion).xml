@@ -7,6 +7,7 @@
   <Description>Concoction that temporarily increases your Physical Damage.
 </Description>
   <LegacyItemID>-1</LegacyItemID>
+  <PerishTime>-1</PerishTime>
   <StatsHolder>
     <BaseValue>15</BaseValue>
     <RawWeight>0.5</RawWeight>

@@ -8,6 +8,7 @@
 
 A few prototype lanterns were built to use a coil as a power source, but they proved too expensive for mass production.</Description>
   <LegacyItemID>-1</LegacyItemID>
+  <PerishTime>-1</PerishTime>
   <StatsHolder>
     <BaseValue>65</BaseValue>
     <RawWeight>0.4</RawWeight>

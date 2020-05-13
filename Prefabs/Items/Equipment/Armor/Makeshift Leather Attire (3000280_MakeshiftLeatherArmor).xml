@@ -6,6 +6,7 @@
   <saveDir>/Equipment/Armor</saveDir>
   <Description>Like other survival attires, this improvised coat has additional pockets.</Description>
   <LegacyItemID>-1</LegacyItemID>
+  <PerishTime>-1</PerishTime>
   <StatsHolder xsi:type="EquipmentStatsHolder">
     <BaseValue>22</BaseValue>
     <RawWeight>6</RawWeight>

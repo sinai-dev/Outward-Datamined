@@ -6,6 +6,7 @@
   <saveDir>/Equipment/Armor</saveDir>
   <Description>Strange mask that makes one want to run fast and caw loudly.</Description>
   <LegacyItemID>3000251</LegacyItemID>
+  <PerishTime>-1</PerishTime>
   <StatsHolder xsi:type="EquipmentStatsHolder">
     <BaseValue>20</BaseValue>
     <RawWeight>1</RawWeight>

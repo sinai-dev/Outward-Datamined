@@ -8,6 +8,7 @@
 
 This off-hand weapon requires Dagger Skills to be used.</Description>
   <LegacyItemID>-1</LegacyItemID>
+  <PerishTime>-1</PerishTime>
   <StatsHolder xsi:type="WeaponStatsHolder">
     <BaseValue>2000</BaseValue>
     <RawWeight>1</RawWeight>

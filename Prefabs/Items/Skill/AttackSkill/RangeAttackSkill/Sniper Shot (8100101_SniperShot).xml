@@ -8,6 +8,7 @@
 
 Let loose a very strong arrow shot with a long windup, making it a poor option in the middle of combat.</Description>
   <LegacyItemID>-1</LegacyItemID>
+  <PerishTime>-1</PerishTime>
   <Tags />
   <EffectTransforms>
     <EffectTransformHolder>

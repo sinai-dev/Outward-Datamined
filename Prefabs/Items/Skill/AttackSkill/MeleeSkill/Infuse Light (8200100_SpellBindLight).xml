@@ -8,6 +8,7 @@
 
 Temporarily adds Lightning Damage to your melee weapon, also making the weapon a useful light source. Consumes your Blessed boon.</Description>
   <LegacyItemID>-1</LegacyItemID>
+  <PerishTime>-1</PerishTime>
   <Tags />
   <EffectTransforms>
     <EffectTransformHolder>

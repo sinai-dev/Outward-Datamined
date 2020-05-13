@@ -6,6 +6,7 @@
   <saveDir>/Equipment/Weapon/MeleeWeapon</saveDir>
   <Description>Inflicts Bleeding on enemies.</Description>
   <LegacyItemID>2130022</LegacyItemID>
+  <PerishTime>-1</PerishTime>
   <StatsHolder xsi:type="WeaponStatsHolder">
     <BaseValue>40</BaseValue>
     <RawWeight>3</RawWeight>

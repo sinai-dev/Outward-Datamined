@@ -8,6 +8,7 @@
 
 Campfires are used to cook, disinfect water, brew potions and to keep warm.</Description>
   <LegacyItemID>-1</LegacyItemID>
+  <PerishTime>-1</PerishTime>
   <StatsHolder>
     <BaseValue>0</BaseValue>
     <RawWeight>0.5</RawWeight>

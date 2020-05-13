@@ -6,6 +6,7 @@
   <saveDir>/Equipment/Weapon/MeleeWeapon</saveDir>
   <Description>This ghostly scythe polearm hungrily rips and tears the souls of the wicked. Inflicts haunted.</Description>
   <LegacyItemID>-1</LegacyItemID>
+  <PerishTime>-1</PerishTime>
   <StatsHolder xsi:type="WeaponStatsHolder">
     <BaseValue>2500</BaseValue>
     <RawWeight>7</RawWeight>

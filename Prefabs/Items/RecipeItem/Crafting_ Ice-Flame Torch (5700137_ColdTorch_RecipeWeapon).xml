@@ -6,6 +6,7 @@
   <saveDir>/RecipeItem</saveDir>
   <Description>Teaches how to craft equipment, requiring no crafting station.</Description>
   <LegacyItemID>-1</LegacyItemID>
+  <PerishTime>-1</PerishTime>
   <StatsHolder>
     <BaseValue>5</BaseValue>
     <RawWeight>0.1</RawWeight>

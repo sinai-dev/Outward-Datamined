@@ -8,6 +8,7 @@
 
 The disc sways left and right as it advances, hitting multiple times and dealing high damage. Discipline is required to cast this spell.</Description>
   <LegacyItemID>-1</LegacyItemID>
+  <PerishTime>-1</PerishTime>
   <Tags />
   <EffectTransforms>
     <EffectTransformHolder>

@@ -8,6 +8,7 @@
 
 Strong shot that goes through enemies and hits other foes behind. Inflicts Extreme Bleeding.</Description>
   <LegacyItemID>-1</LegacyItemID>
+  <PerishTime>-1</PerishTime>
   <Tags />
   <EffectTransforms>
     <EffectTransformHolder>

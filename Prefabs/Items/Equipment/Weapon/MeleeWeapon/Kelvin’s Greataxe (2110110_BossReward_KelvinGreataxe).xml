@@ -6,6 +6,7 @@
   <saveDir>/Equipment/Weapon/MeleeWeapon</saveDir>
   <Description>The greataxe of an adventurer who always looked out for his friends. This two-handed axe is so cold it drops your temperature.</Description>
   <LegacyItemID>-1</LegacyItemID>
+  <PerishTime>-1</PerishTime>
   <StatsHolder xsi:type="WeaponStatsHolder">
     <BaseValue>2500</BaseValue>
     <RawWeight>6</RawWeight>

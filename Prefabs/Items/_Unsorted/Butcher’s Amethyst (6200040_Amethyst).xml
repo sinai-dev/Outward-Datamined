@@ -8,6 +8,7 @@
 
 It is a memento from a hard-fought battle to save the city of Monsoon.</Description>
   <LegacyItemID>2010140</LegacyItemID>
+  <PerishTime>-1</PerishTime>
   <StatsHolder>
     <BaseValue>250</BaseValue>
     <RawWeight>0.1</RawWeight>

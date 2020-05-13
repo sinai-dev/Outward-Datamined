@@ -7,6 +7,7 @@
   <Description>Specially grown fungus used by Troglodytes as offerings to their queen-goddess.
 It makes for a surprisingly usable shield. Inflicts poison on shield charge.</Description>
   <LegacyItemID>2300220</LegacyItemID>
+  <PerishTime>-1</PerishTime>
   <StatsHolder xsi:type="WeaponStatsHolder">
     <BaseValue>20</BaseValue>
     <RawWeight>3</RawWeight>

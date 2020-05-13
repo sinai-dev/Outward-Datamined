@@ -8,6 +8,7 @@
 
 You are inflicted with the incurable “Life Drain” sickness.</Description>
   <LegacyItemID>-1</LegacyItemID>
+  <PerishTime>-1</PerishTime>
   <Tags />
   <EffectTransforms>
     <EffectTransformHolder>

@@ -8,6 +8,7 @@
 
 Eating it raw carries a chance of disease.</Description>
   <LegacyItemID>-1</LegacyItemID>
+  <PerishTime>-1</PerishTime>
   <StatsHolder>
     <BaseValue>15</BaseValue>
     <RawWeight>0.2</RawWeight>

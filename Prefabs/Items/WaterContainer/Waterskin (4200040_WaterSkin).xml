@@ -8,6 +8,7 @@
 
 It can be filled at fountains or in natural bodies of water.</Description>
   <LegacyItemID>-1</LegacyItemID>
+  <PerishTime>-1</PerishTime>
   <StatsHolder>
     <BaseValue>6</BaseValue>
     <RawWeight>0.3</RawWeight>

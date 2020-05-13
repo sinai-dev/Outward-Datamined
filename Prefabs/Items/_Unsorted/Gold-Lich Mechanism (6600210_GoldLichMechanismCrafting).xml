@@ -6,6 +6,7 @@
   <saveDir />
   <Description>Box of golden gears, used to craft a wide variety of weapons.</Description>
   <LegacyItemID>-1</LegacyItemID>
+  <PerishTime>-1</PerishTime>
   <StatsHolder>
     <BaseValue>70</BaseValue>
     <RawWeight>1</RawWeight>

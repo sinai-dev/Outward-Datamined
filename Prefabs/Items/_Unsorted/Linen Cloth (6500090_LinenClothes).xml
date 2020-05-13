@@ -8,6 +8,7 @@
 
 Basic clothes can be decrafted, using the Survival Crafting menu, into linen.</Description>
   <LegacyItemID>-1</LegacyItemID>
+  <PerishTime>-1</PerishTime>
   <StatsHolder>
     <BaseValue>1</BaseValue>
     <RawWeight>0.1</RawWeight>

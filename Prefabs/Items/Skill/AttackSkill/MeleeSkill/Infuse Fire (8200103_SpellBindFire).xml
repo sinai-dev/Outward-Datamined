@@ -8,6 +8,7 @@
 
 Temporarily adds Fire damage to your melee weapon and inflicts Burning on enemies. Consumes your Warm boon.</Description>
   <LegacyItemID>-1</LegacyItemID>
+  <PerishTime>-1</PerishTime>
   <Tags />
   <EffectTransforms>
     <EffectTransformHolder>

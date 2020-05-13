@@ -6,6 +6,7 @@
   <saveDir />
   <Description>Algae that, when infused in water in a cooking pot, produces an indigestion-curing tea.</Description>
   <LegacyItemID>-1</LegacyItemID>
+  <PerishTime>-1</PerishTime>
   <StatsHolder>
     <BaseValue>3</BaseValue>
     <RawWeight>0.1</RawWeight>

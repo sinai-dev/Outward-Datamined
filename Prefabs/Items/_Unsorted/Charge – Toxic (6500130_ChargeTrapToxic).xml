@@ -6,6 +6,7 @@
   <saveDir />
   <Description>Vials that, when placed in a Pressure Plate, inflict lingering decay damage to enemies that step on it.</Description>
   <LegacyItemID>-1</LegacyItemID>
+  <PerishTime>-1</PerishTime>
   <StatsHolder>
     <BaseValue>10</BaseValue>
     <RawWeight>0.2</RawWeight>

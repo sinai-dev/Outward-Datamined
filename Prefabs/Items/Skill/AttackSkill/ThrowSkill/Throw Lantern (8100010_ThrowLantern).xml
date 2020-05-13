@@ -10,6 +10,7 @@ Throws your equipped lantern on the enemy, creating a zone of fire for 5 seconds
 
 Using this skill destroys the lantern.</Description>
   <LegacyItemID>-1</LegacyItemID>
+  <PerishTime>-1</PerishTime>
   <Tags />
   <EffectTransforms>
     <EffectTransformHolder>

@@ -6,6 +6,7 @@
   <saveDir>/Equipment/Bag</saveDir>
   <Description>Bag with a small carrying capacity, specially made to not interfere with the dodge.</Description>
   <LegacyItemID>-1</LegacyItemID>
+  <PerishTime>-1</PerishTime>
   <StatsHolder xsi:type="EquipmentStatsHolder">
     <BaseValue>60</BaseValue>
     <RawWeight>1</RawWeight>

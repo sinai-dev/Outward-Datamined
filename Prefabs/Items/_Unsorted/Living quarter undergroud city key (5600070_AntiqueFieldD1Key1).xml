@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ItemHolder xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <ItemID>5600070</ItemID>
+  <Name>Living quarter undergroud city key</Name>
+  <gameObjectName>5600070_AntiqueFieldD1Key1</gameObjectName>
+  <saveDir />
+  <Description />
+  <LegacyItemID>-1</LegacyItemID>
+  <PerishTime>-1</PerishTime>
+  <StatsHolder>
+    <BaseValue>1</BaseValue>
+    <RawWeight>0.1</RawWeight>
+    <MaxDurability>-1</MaxDurability>
+  </StatsHolder>
+  <Tags>
+    <string>Key</string>
+    <string>Item</string>
+  </Tags>
+  <EffectTransforms />
+</ItemHolder>

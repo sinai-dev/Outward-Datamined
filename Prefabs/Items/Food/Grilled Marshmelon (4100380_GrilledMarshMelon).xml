@@ -6,6 +6,7 @@
   <saveDir>/Food</saveDir>
   <Description>Tender fruit, boiled to reveal its anti-poison properties.</Description>
   <LegacyItemID>-1</LegacyItemID>
+  <PerishTime>-1</PerishTime>
   <StatsHolder>
     <BaseValue>3</BaseValue>
     <RawWeight>3</RawWeight>

@@ -8,6 +8,7 @@
 
 Whatever magic used to enchant this shield is long gone, though it retains its excellent craftsmanship.</Description>
   <LegacyItemID>-1</LegacyItemID>
+  <PerishTime>-1</PerishTime>
   <StatsHolder xsi:type="WeaponStatsHolder">
     <BaseValue>2000</BaseValue>
     <RawWeight>6</RawWeight>

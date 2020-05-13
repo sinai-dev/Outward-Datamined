@@ -8,6 +8,7 @@
 
 Slow but powerful melee attack that inflicts Confusion. Increases your Impact Resistance during this attack.</Description>
   <LegacyItemID>-1</LegacyItemID>
+  <PerishTime>-1</PerishTime>
   <Tags />
   <EffectTransforms>
     <EffectTransformHolder>

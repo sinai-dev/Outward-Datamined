@@ -6,6 +6,7 @@
   <saveDir>/Food</saveDir>
   <Description>Iridescent steak of a rare bird that increases one’s movement speed.</Description>
   <LegacyItemID>-1</LegacyItemID>
+  <PerishTime>-1</PerishTime>
   <StatsHolder>
     <BaseValue>30</BaseValue>
     <RawWeight>0.5</RawWeight>

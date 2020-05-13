@@ -6,6 +6,7 @@
   <saveDir>/Food</saveDir>
   <Description>Basic food that can be bought in any city, as many recipes use this simple ingredient.</Description>
   <LegacyItemID>-1</LegacyItemID>
+  <PerishTime>-1</PerishTime>
   <StatsHolder>
     <BaseValue>1</BaseValue>
     <RawWeight>0.2</RawWeight>

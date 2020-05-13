@@ -6,6 +6,7 @@
   <saveDir>/Equipment/Bag</saveDir>
   <Description>Craftable bag with improved carrying capacity, a lantern slot and which does not restrict your dodge.</Description>
   <LegacyItemID>-1</LegacyItemID>
+  <PerishTime>-1</PerishTime>
   <StatsHolder xsi:type="EquipmentStatsHolder">
     <BaseValue>100</BaseValue>
     <RawWeight>2</RawWeight>

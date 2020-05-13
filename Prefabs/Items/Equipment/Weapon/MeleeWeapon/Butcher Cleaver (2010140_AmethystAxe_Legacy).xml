@@ -6,6 +6,7 @@
   <saveDir>/Equipment/Weapon/MeleeWeapon</saveDir>
   <Description>Left alone over the ages, the Amethyst heart of the Butcher of Men has grown into a fearsome weapon, eager to slay again...</Description>
   <LegacyItemID>-1</LegacyItemID>
+  <PerishTime>-1</PerishTime>
   <StatsHolder xsi:type="WeaponStatsHolder">
     <BaseValue>1000</BaseValue>
     <RawWeight>8</RawWeight>

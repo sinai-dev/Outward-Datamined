@@ -6,6 +6,7 @@
   <saveDir />
   <Description>Strange brew that neutralizes the Hallowed Marsh’s poison, but not other toxins.</Description>
   <LegacyItemID>-1</LegacyItemID>
+  <PerishTime>-1</PerishTime>
   <StatsHolder>
     <BaseValue>15</BaseValue>
     <RawWeight>0.5</RawWeight>

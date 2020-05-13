@@ -6,6 +6,7 @@
   <saveDir />
   <Description>Legendary brew that temporarily grants immunity to Fire, Frost, Lightning, Decay and Ethereal damage.</Description>
   <LegacyItemID>-1</LegacyItemID>
+  <PerishTime>-1</PerishTime>
   <StatsHolder>
     <BaseValue>60</BaseValue>
     <RawWeight>0.5</RawWeight>

@@ -6,6 +6,7 @@
   <saveDir>/Food</saveDir>
   <Description>Scarab, found in mineral ores, whose resin hardens one’s body from Impacts.</Description>
   <LegacyItemID>-1</LegacyItemID>
+  <PerishTime>-1</PerishTime>
   <StatsHolder>
     <BaseValue>15</BaseValue>
     <RawWeight>0.1</RawWeight>

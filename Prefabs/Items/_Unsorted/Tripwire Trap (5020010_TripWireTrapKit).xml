@@ -8,6 +8,7 @@
 
 After deployment, traps can be disassembled to retake the trigger and the item inside.</Description>
   <LegacyItemID>-1</LegacyItemID>
+  <PerishTime>-1</PerishTime>
   <StatsHolder>
     <BaseValue>4</BaseValue>
     <RawWeight>0.2</RawWeight>

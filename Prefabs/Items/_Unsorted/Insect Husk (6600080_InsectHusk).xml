@@ -6,6 +6,7 @@
   <saveDir />
   <Description>Dried shell with few uses but that can be sold at a good price.</Description>
   <LegacyItemID>-1</LegacyItemID>
+  <PerishTime>-1</PerishTime>
   <StatsHolder>
     <BaseValue>30</BaseValue>
     <RawWeight>1</RawWeight>
