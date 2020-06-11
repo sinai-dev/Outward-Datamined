@@ -1,3 +1,51 @@
+133	Charisma	0000133_Charisma	/_Unsorted
+134	Alchemy Skills	0000134_AlchemySkill	/_Unsorted
+135	Reputation	0000135_HolyMissionReputation	/_Unsorted
+310	SkinGatherable	0000310_TestSkinGatherable	/ItemContainer/SelfFilledItemContainer/SimpleExternalItemDropper
+320	OnDeathDrop	0000320_TestOnDeathDropper	/ItemContainer/SelfFilledItemContainer/SimpleExternalItemDropper
+330	SkinGatherable	0000330_TuanosaurSkinGatherable	/ItemContainer/SelfFilledItemContainer/SimpleExternalItemDropper
+340	IcePistol	0000340_IcePistol	/_Unsorted
+350	Duel Baton	0000350_DuelBaton	/Equipment/Weapon/MeleeWeapon
+410	Thunder Paper	0000410_ImbueConsumableTest	/_Unsorted
+500	Makeshift Leather Attire	0000500_MakeshiftArmorWeakWeatherTest	/Equipment/Armor
+900001	Test Passive Skill	0900001_TestPassive	/Skill/PassiveSkill
+900010	Add Alert	0900010_AddAlertTest	/Skill/AttackSkill
+0	Pocket	0000000_Pouch	/ItemContainer
+30	Item	0000030_MerchantPouch	/ItemContainer/MerchantPouch
+1000000	Chest	1000000_ChestSimpleA	/ItemContainer/SelfFilledItemContainer/TreasureChest
+1000010	Simple Chest	1000010_ChestSimpleB_DUMMIEDOUT	/ItemContainer/SelfFilledItemContainer/TreasureChest
+1000030	Legacy Chest	1000030_ChestLegacy	/ItemContainer/SelfFilledItemContainer/TreasureChest
+1000040	Ornate Chest	1000040_ChestOrnateA	/ItemContainer/SelfFilledItemContainer/TreasureChest
+1000050	Ornate Chest B	1000050_ChestOrnateB_DUMMIEDOUT	/ItemContainer/SelfFilledItemContainer/TreasureChest
+1000060	Trog Chest	1000060_ChestTrog	/ItemContainer/SelfFilledItemContainer/TreasureChest
+1000070	Hollowed Trunk	1000070_ChestTrunk	/ItemContainer/SelfFilledItemContainer/TreasureChest
+1000080	Broken Tent	1000080_ChestBrokenTent	/ItemContainer/SelfFilledItemContainer/TreasureChest
+1000090	Worker’s Corpse	1000090_ChestHumanCorpseWorkerA	/ItemContainer/SelfFilledItemContainer/TreasureChest
+1000091	Worker’s Corpse	1000091_ChestHumanCorpseWorkerB	/ItemContainer/SelfFilledItemContainer/TreasureChest
+1000092	Adventurer’s Corpse	1000092_ChestHumanCorpseAdventurerA	/ItemContainer/SelfFilledItemContainer/TreasureChest
+1000093	Adventurer’s Corpse	1000093_ChestHumanCorpseAdventurerB	/ItemContainer/SelfFilledItemContainer/TreasureChest
+1000094	Knight’s Corpse	1000094_ChestHumanCorpsePlateA	/ItemContainer/SelfFilledItemContainer/TreasureChest
+1000095	Knight’s Corpse	1000095_ChestHumanCorpsePlateB	/ItemContainer/SelfFilledItemContainer/TreasureChest
+1000096	Soldier’s Corpse	1000096_ChestHumanCorpsePaddedA	/ItemContainer/SelfFilledItemContainer/TreasureChest
+1000097	Soldier’s Corpse	1000097_ChestHumanCorpsePaddedB	/ItemContainer/SelfFilledItemContainer/TreasureChest
+1000098	Scavenger’s Corpse	1000098_ChestHumanCorpseScavengerA	/ItemContainer/SelfFilledItemContainer/TreasureChest
+1000099	Scavenger’s Corpse	1000099_ChestHumanCorpseScavengerB	/ItemContainer/SelfFilledItemContainer/TreasureChest
+1000100	Looter’s Corpse	1000100_ChestHumanCorpseLooterA	/ItemContainer/SelfFilledItemContainer/TreasureChest
+1000101	Looter’s Corpse	1000101_ChestHumanCorpseLooterB	/ItemContainer/SelfFilledItemContainer/TreasureChest
+1000110	Supply Cache	1000110_ChestWeaponSashA	/ItemContainer/SelfFilledItemContainer/TreasureChest
+1000120	Ornate Chest	1000120_ChestEliteA	/ItemContainer/SelfFilledItemContainer/TreasureChest
+1000800	Corpse	1000800_Corpse	/ItemContainer/SelfFilledItemContainer/TreasureChest
+1001000	Junk Pile	1001000_JunkPileA	/ItemContainer/SelfFilledItemContainer/TreasureChest
+1900000	Stack	1900000_GroupContainer	/ItemContainer/GroupContainer
+1900001	Kitchen	1900001_StaticCookingStation	/CraftingStation
+100001	Standard Axe	100001_StandardAxe	/Equipment/Weapon/MeleeWeapon
+100002	Standard Axe 2H	100002_StandardAxe2H	/Equipment/Weapon/MeleeWeapon
+100003	Standard Sword	100003_StandardSword	/Equipment/Weapon/MeleeWeapon
+100004	Standard Sword 2H	100004_StandardSword2H	/Equipment/Weapon/MeleeWeapon
+100005	Standard Bludgeon	100005_StandardBlungeon	/Equipment/Weapon/MeleeWeapon
+100006	Standard Bludgeon 2H	100006_StandardBludgeon2H	/Equipment/Weapon/MeleeWeapon
+100007	Standard Pole Arm	100007_StandardPoleArm	/Equipment/Weapon/MeleeWeapon
+100008	Standard Spear	100008_StandardSpear	/Equipment/Weapon/MeleeWeapon
 2000010	Iron Sword	2000010_IronSword	/Equipment/Weapon/MeleeWeapon
 2000020	Steel Sabre	2000020_steelSabre	/Equipment/Weapon/MeleeWeapon
 2000021	Cerulean Saber	2000021_steelSabreLegacy	/Equipment/Weapon/MeleeWeapon
@@ -252,6 +300,7 @@
 2400370	TitanGolemHammer	2400370_TitanGolemHammer	/Equipment/Weapon/MeleeWeapon
 2400371	TitanGolemHalberd	2400371_TitanGolemHalberd	/Equipment/Weapon/MeleeWeapon
 2400372	TitanGolemSword	2400372_TitanGolemSword	/Equipment/Weapon/MeleeWeapon
+504	Test weapon of Dooooom	504_TestWeaponOfDoom	/Equipment/Weapon/MeleeWeapon
 3000000	Trader Garb	3000000_TraderArmor	/Equipment/Armor
 3000001	Straw Hat	3000001_TraderHelm	/Equipment/Armor
 3000002	Trader Boots	3000002_TraderBoots	/Equipment/Armor
