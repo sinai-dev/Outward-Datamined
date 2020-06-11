@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LootContainerHolder xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<DM_LootContainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Name>Worker’s Corpse</Name>
   <ItemID>1000091</ItemID>
   <UID>VvehsClz8E2W_4YH1yY7Gw</UID>
@@ -9,4 +9,4 @@
     <string>DropTable_Neutral_Survival_Low_2</string>
     <string>DropTable_Enmerkar_Recipe_Basic_1</string>
   </DropTables>
-</LootContainerHolder>
+</DM_LootContainer>

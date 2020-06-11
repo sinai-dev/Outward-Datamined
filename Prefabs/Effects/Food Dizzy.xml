@@ -1,18 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
-<StatusEffectHolder xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <Name>Food Dizzy</Name>
+<DM_StatusEffect xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <PresetID>531</PresetID>
+  <Identifier>Food Dizzy</Identifier>
+  <Name>Dizzy</Name>
+  <Description>Impact Resistance [E1V1]%.</Description>
   <Lifespan>900</Lifespan>
   <LengthType>Short</LengthType>
+  <RefreshRate>0.1</RefreshRate>
+  <BuildupRecoverySpeed>3</BuildupRecoverySpeed>
+  <IgnoreBuildupIfApplied>false</IgnoreBuildupIfApplied>
+  <DisplayedInHUD>true</DisplayedInHUD>
+  <IsHidden>false</IsHidden>
   <Tags />
-  <CanBeHealedBySleeping>false</CanBeHealedBySleeping>
-  <StraightSleepHealTime>-1</StraightSleepHealTime>
   <Effects>
-    <EffectHolder xsi:type="AffectStatHolder">
-      <AffectedStat>ImpactResistance</AffectedStat>
-      <AffectedStat_TagUID>84</AffectedStat_TagUID>
-      <AffectQuantity>-15</AffectQuantity>
-      <IsModifier>false</IsModifier>
-    </EffectHolder>
+    <DM_EffectTransform>
+      <TransformName>Effects</TransformName>
+      <Effects>
+        <DM_Effect xsi:type="DM_AffectStat">
+          <Delay>0</Delay>
+          <SyncType>OwnerSync</SyncType>
+          <OverrideCategory>Activation</OverrideCategory>
+          <Stat_Tag>ImpactResistance</Stat_Tag>
+          <AffectQuantity>-15</AffectQuantity>
+          <IsModifier>false</IsModifier>
+        </DM_Effect>
+      </Effects>
+      <EffectConditions />
+      <ChildEffects />
+    </DM_EffectTransform>
   </Effects>
-</StatusEffectHolder>
+</DM_StatusEffect>

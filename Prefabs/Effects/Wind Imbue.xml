@@ -1,29 +1,39 @@
 <?xml version="1.0" encoding="utf-8"?>
-<StatusEffectHolder xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<DM_ImbueEffect xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <StatusID>209</StatusID>
   <Name>Wind Imbue</Name>
-  <PresetID>209</PresetID>
-  <Lifespan>0</Lifespan>
-  <Tags />
-  <CanBeHealedBySleeping>false</CanBeHealedBySleeping>
-  <StraightSleepHealTime>-1</StraightSleepHealTime>
+  <Description>Weapon has increased attack speed and impact, but is more tiring to swing.</Description>
   <Effects>
-    <EffectHolder xsi:type="AffectStatHolder">
-      <AffectedStat>AttackSpeed</AffectedStat>
-      <AffectedStat_TagUID>232</AffectedStat_TagUID>
-      <AffectQuantity>20</AffectQuantity>
-      <IsModifier>true</IsModifier>
-    </EffectHolder>
-    <EffectHolder xsi:type="AffectStatHolder">
-      <AffectedStat>Impact</AffectedStat>
-      <AffectedStat_TagUID>95</AffectedStat_TagUID>
-      <AffectQuantity>50</AffectQuantity>
-      <IsModifier>true</IsModifier>
-    </EffectHolder>
-    <EffectHolder xsi:type="AffectStatHolder">
-      <AffectedStat>StaminaBurn</AffectedStat>
-      <AffectedStat_TagUID>162</AffectedStat_TagUID>
-      <AffectQuantity>100</AffectQuantity>
-      <IsModifier>true</IsModifier>
-    </EffectHolder>
+    <DM_EffectTransform>
+      <TransformName>ActivationEffects</TransformName>
+      <Effects>
+        <DM_Effect xsi:type="DM_AffectStat">
+          <Delay>0</Delay>
+          <SyncType>OwnerSync</SyncType>
+          <OverrideCategory>None</OverrideCategory>
+          <Stat_Tag>AttackSpeed</Stat_Tag>
+          <AffectQuantity>20</AffectQuantity>
+          <IsModifier>true</IsModifier>
+        </DM_Effect>
+        <DM_Effect xsi:type="DM_AffectStat">
+          <Delay>0</Delay>
+          <SyncType>OwnerSync</SyncType>
+          <OverrideCategory>None</OverrideCategory>
+          <Stat_Tag>Impact</Stat_Tag>
+          <AffectQuantity>50</AffectQuantity>
+          <IsModifier>true</IsModifier>
+        </DM_Effect>
+        <DM_Effect xsi:type="DM_AffectStat">
+          <Delay>0</Delay>
+          <SyncType>OwnerSync</SyncType>
+          <OverrideCategory>None</OverrideCategory>
+          <Stat_Tag>StaminaBurn</Stat_Tag>
+          <AffectQuantity>100</AffectQuantity>
+          <IsModifier>true</IsModifier>
+        </DM_Effect>
+      </Effects>
+      <EffectConditions />
+      <ChildEffects />
+    </DM_EffectTransform>
   </Effects>
-</StatusEffectHolder>
+</DM_ImbueEffect>

@@ -1,30 +1,48 @@
 <?xml version="1.0" encoding="utf-8"?>
-<StatusEffectHolder xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <Name>Armor Penalties Reduction</Name>
+<DM_StatusEffect xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <PresetID>93</PresetID>
+  <Identifier>Armor Penalties Reduction</Identifier>
+  <Name>Armor Penalties Reduction</Name>
+  <Description>Movement, Stamina Cost and Hot Weather penalties from heavy armors is reduced.</Description>
   <Lifespan>240</Lifespan>
   <LengthType>Short</LengthType>
+  <RefreshRate>0.1</RefreshRate>
+  <BuildupRecoverySpeed>3</BuildupRecoverySpeed>
+  <IgnoreBuildupIfApplied>false</IgnoreBuildupIfApplied>
+  <DisplayedInHUD>true</DisplayedInHUD>
+  <IsHidden>false</IsHidden>
   <Tags />
-  <CanBeHealedBySleeping>false</CanBeHealedBySleeping>
-  <StraightSleepHealTime>-1</StraightSleepHealTime>
   <Effects>
-    <EffectHolder xsi:type="AffectStatHolder">
-      <AffectedStat>MovementSpeed</AffectedStat>
-      <AffectedStat_TagUID>86</AffectedStat_TagUID>
-      <AffectQuantity>-45</AffectQuantity>
-      <IsModifier>true</IsModifier>
-    </EffectHolder>
-    <EffectHolder xsi:type="AffectStatHolder">
-      <AffectedStat>StaminaCostReduction</AffectedStat>
-      <AffectedStat_TagUID>150</AffectedStat_TagUID>
-      <AffectQuantity>-45</AffectQuantity>
-      <IsModifier>true</IsModifier>
-    </EffectHolder>
-    <EffectHolder xsi:type="AffectStatHolder">
-      <AffectedStat>HeatRegen</AffectedStat>
-      <AffectedStat_TagUID>149</AffectedStat_TagUID>
-      <AffectQuantity>-45</AffectQuantity>
-      <IsModifier>true</IsModifier>
-    </EffectHolder>
+    <DM_EffectTransform>
+      <TransformName>ActivationNormal</TransformName>
+      <Effects>
+        <DM_Effect xsi:type="DM_AffectStat">
+          <Delay>0</Delay>
+          <SyncType>OwnerSync</SyncType>
+          <OverrideCategory>None</OverrideCategory>
+          <Stat_Tag>MovementSpeed</Stat_Tag>
+          <AffectQuantity>-45</AffectQuantity>
+          <IsModifier>true</IsModifier>
+        </DM_Effect>
+        <DM_Effect xsi:type="DM_AffectStat">
+          <Delay>0</Delay>
+          <SyncType>OwnerSync</SyncType>
+          <OverrideCategory>None</OverrideCategory>
+          <Stat_Tag>StaminaCostReduction</Stat_Tag>
+          <AffectQuantity>-45</AffectQuantity>
+          <IsModifier>true</IsModifier>
+        </DM_Effect>
+        <DM_Effect xsi:type="DM_AffectStat">
+          <Delay>0</Delay>
+          <SyncType>OwnerSync</SyncType>
+          <OverrideCategory>None</OverrideCategory>
+          <Stat_Tag>HeatRegen</Stat_Tag>
+          <AffectQuantity>-45</AffectQuantity>
+          <IsModifier>true</IsModifier>
+        </DM_Effect>
+      </Effects>
+      <EffectConditions />
+      <ChildEffects />
+    </DM_EffectTransform>
   </Effects>
-</StatusEffectHolder>
+</DM_StatusEffect>

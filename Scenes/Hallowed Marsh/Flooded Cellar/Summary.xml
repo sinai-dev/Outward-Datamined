@@ -44,7 +44,7 @@
   </Loot_Containers>
   <Gatherables />
   <Item_Spawns>
-    <ItemSpawnHolder>
+    <DM_ItemSpawn>
       <Name>Improvised Bedroll</Name>
       <Item_ID>5000021</Item_ID>
       <Quantity>2</Quantity>
@@ -60,7 +60,7 @@
           <z>-32.87</z>
         </Vector3>
       </positions>
-    </ItemSpawnHolder>
+    </DM_ItemSpawn>
   </Item_Spawns>
   <UniqueContainerList>
     <string>Chest_8zjcmxZvtkGLxZIgrmh_0w</string>

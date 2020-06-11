@@ -1,13 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ItemHolder xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="WeaponHolder">
-  <ItemID>2010130</ItemID>
-  <Name>Pain in the Axe</Name>
+<DM_Weapon xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <gameObjectName>2010130_BossReward_PainInTheAxe</gameObjectName>
   <saveDir>/Equipment/Weapon/MeleeWeapon</saveDir>
+  <ItemID>2010130</ItemID>
+  <Name>Pain in the Axe</Name>
   <Description>Every blow from this powerful one-handed axe will draw a scream from the victim. It inflicts pain.</Description>
   <LegacyItemID>-1</LegacyItemID>
-  <PerishTime>-1</PerishTime>
-  <StatsHolder xsi:type="WeaponStatsHolder">
+  <IsPickable>true</IsPickable>
+  <IsUsable>false</IsUsable>
+  <QtyRemovedOnUse>1</QtyRemovedOnUse>
+  <GroupItemInDisplay>false</GroupItemInDisplay>
+  <HasPhysicsWhenWorld>false</HasPhysicsWhenWorld>
+  <RepairedInRest>true</RepairedInRest>
+  <BehaviorOnNoDurability>NotSet</BehaviorOnNoDurability>
+  <CastType>NONE</CastType>
+  <CastModifier>Immobilized</CastModifier>
+  <CastLocomotionEnabled>false</CastLocomotionEnabled>
+  <MobileCastMovementMult>-1</MobileCastMovementMult>
+  <CastSheatheRequired>1</CastSheatheRequired>
+  <Tags>
+    <string>Axe</string>
+    <string>Weapon</string>
+    <string>Item</string>
+  </Tags>
+  <StatsHolder xsi:type="DM_WeaponStats">
     <BaseValue>2000</BaseValue>
     <RawWeight>8</RawWeight>
     <MaxDurability>425</MaxDurability>
@@ -50,7 +66,8 @@
       </Damages>
     </BaseDamage>
     <Impact>32</Impact>
-    <AttackCount>5</AttackCount>
+    <StamCost>5.6</StamCost>
+    <AutoGenerateAttackData>false</AutoGenerateAttackData>
     <Attacks>
       <AttackData>
         <StamCost>5.6</StamCost>
@@ -94,28 +111,29 @@
       </AttackData>
     </Attacks>
   </StatsHolder>
-  <Tags>
-    <string>Axe</string>
-    <string>Weapon</string>
-    <string>Item</string>
-  </Tags>
   <EffectTransforms>
-    <EffectTransformHolder>
+    <DM_EffectTransform>
       <TransformName>HitEffects</TransformName>
       <Effects>
-        <EffectHolder xsi:type="AddStatusEffectBuildupHolder">
+        <DM_Effect xsi:type="DM_AddStatusEffectBuildUp">
+          <Delay>0</Delay>
+          <SyncType>OwnerSync</SyncType>
+          <OverrideCategory>None</OverrideCategory>
           <StatusEffect>Pain</StatusEffect>
           <Buildup>60</Buildup>
-        </EffectHolder>
+        </DM_Effect>
       </Effects>
       <EffectConditions />
       <ChildEffects />
-    </EffectTransformHolder>
+    </DM_EffectTransform>
   </EffectTransforms>
-  <EquipmentSlot>RightHand</EquipmentSlot>
-  <IKType>None</IKType>
+  <EquipSlot>RightHand</EquipSlot>
   <TwoHandType>None</TwoHandType>
+  <IKType>None</IKType>
   <VisualDetectabilityAdd>0</VisualDetectabilityAdd>
   <WeaponType>Axe_1H</WeaponType>
-  <StamCost>5.6</StamCost>
-</ItemHolder>
+  <Unblockable>false</Unblockable>
+  <SwingSound>Default</SwingSound>
+  <SpecialIsZoom>false</SpecialIsZoom>
+  <MaxProjectileShots>-1</MaxProjectileShots>
+</DM_Weapon>

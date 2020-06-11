@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<EnemyHolder xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<DM_Enemy xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Name>Shell Horror</Name>
   <GameObject_Name>ShellHorror</GameObject_Name>
   <Unique_ID>1</Unique_ID>
@@ -62,4 +62,4 @@
   <DropTable_Names>
     <string>DropTable_ShelledHorror</string>
   </DropTable_Names>
-</EnemyHolder>
+</DM_Enemy>

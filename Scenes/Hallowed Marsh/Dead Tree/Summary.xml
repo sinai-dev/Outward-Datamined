@@ -20,7 +20,7 @@
   </Loot_Containers>
   <Gatherables />
   <Item_Spawns>
-    <ItemSpawnHolder>
+    <DM_ItemSpawn>
       <Name>Glowstone Backpack</Name>
       <Item_ID>5300050</Item_ID>
       <Quantity>1</Quantity>
@@ -31,7 +31,7 @@
           <z>36.126</z>
         </Vector3>
       </positions>
-    </ItemSpawnHolder>
+    </DM_ItemSpawn>
   </Item_Spawns>
   <UniqueContainerList>
     <string>Ornate Chest_tUqNFKY2Wk-BoDo0B8qVOw</string>

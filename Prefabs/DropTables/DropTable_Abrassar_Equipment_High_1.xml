@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<DroptableHolder xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<DM_DropTable xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Name>DropTable_Abrassar_Equipment_High_1</Name>
   <Guaranteed_Drops />
   <Random_Tables>
@@ -202,4 +202,4 @@
       </Item_Drops>
     </DropGeneratorHolder>
   </Random_Tables>
-</DroptableHolder>
+</DM_DropTable>

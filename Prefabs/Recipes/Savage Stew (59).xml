@@ -1,17 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RecipeHolder xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <StationType>Cooking</StationType>
+<DM_Recipe xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Name>Savage Stew</Name>
   <RecipeID>59</RecipeID>
+  <UID />
+  <StationType>Cooking</StationType>
   <Ingredients>
     <string>Raw Alpha Meat</string>
     <string>Marshmelon</string>
     <string>Gravel Beetle</string>
   </Ingredients>
   <Results>
-    <ItemQuantityHolder>
+    <ItemQty>
       <ItemName>Savage Stew</ItemName>
+      <ItemID>4100410</ItemID>
       <Quantity>3</Quantity>
-    </ItemQuantityHolder>
+    </ItemQty>
   </Results>
-</RecipeHolder>
+</DM_Recipe>

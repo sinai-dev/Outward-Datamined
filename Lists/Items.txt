@@ -1,55 +1,3 @@
-133	Charisma	0000133_Charisma	/_Unsorted
-134	Alchemy Skills	0000134_AlchemySkill	/_Unsorted
-135	Reputation	0000135_HolyMissionReputation	/_Unsorted
-210	WaterShroom	0000210_WaterShroom	/ItemContainer/SelfFilledItemContainer/Gatherable
-220	Tree	0000220_Tree	/ItemContainer/SelfFilledItemContainer/Gatherable
-310	SkinGatherable	0000310_TestSkinGatherable	/ItemContainer/SelfFilledItemContainer/SimpleExternalItemDropper
-320	OnDeathDrop	0000320_TestOnDeathDropper	/ItemContainer/SelfFilledItemContainer/SimpleExternalItemDropper
-330	SkinGatherable	0000330_TuanosaurSkinGatherable	/ItemContainer/SelfFilledItemContainer/SimpleExternalItemDropper
-340	IcePistol	0000340_IcePistol	/_Unsorted
-350	Duel Baton	0000350_DuelBaton	/Equipment/Weapon/MeleeWeapon
-410	Thunder Paper	0000410_ImbueConsumableTest	/_Unsorted
-500	Makeshift Leather Attire	0000500_MakeshiftArmorWeakWeatherTest	/Equipment/Armor
-900001	Test Passive Skill	0900001_TestPassive	/Skill/PassiveSkill
-900010	Add Alert	0900010_AddAlertTest	/Skill/AttackSkill
-9999999	TestGatherable	9999999_TestGatherable	/ItemContainer/SelfFilledItemContainer/Gatherable
-0	Pocket	0000000_Pouch	/ItemContainer
-30	Item	0000030_MerchantPouch	/ItemContainer/MerchantPouch
-1000000	Chest	1000000_ChestSimpleA	/ItemContainer/SelfFilledItemContainer/TreasureChest
-1000010	Simple Chest	1000010_ChestSimpleB_DUMMIEDOUT	/ItemContainer/SelfFilledItemContainer/TreasureChest
-1000030	Legacy Chest	1000030_ChestLegacy	/ItemContainer/SelfFilledItemContainer/TreasureChest
-1000040	Ornate Chest	1000040_ChestOrnateA	/ItemContainer/SelfFilledItemContainer/TreasureChest
-1000050	Ornate Chest B	1000050_ChestOrnateB_DUMMIEDOUT	/ItemContainer/SelfFilledItemContainer/TreasureChest
-1000060	Trog Chest	1000060_ChestTrog	/ItemContainer/SelfFilledItemContainer/TreasureChest
-1000070	Hollowed Trunk	1000070_ChestTrunk	/ItemContainer/SelfFilledItemContainer/TreasureChest
-1000080	Broken Tent	1000080_ChestBrokenTent	/ItemContainer/SelfFilledItemContainer/TreasureChest
-1000090	Worker’s Corpse	1000090_ChestHumanCorpseWorkerA	/ItemContainer/SelfFilledItemContainer/TreasureChest
-1000091	Worker’s Corpse	1000091_ChestHumanCorpseWorkerB	/ItemContainer/SelfFilledItemContainer/TreasureChest
-1000092	Adventurer’s Corpse	1000092_ChestHumanCorpseAdventurerA	/ItemContainer/SelfFilledItemContainer/TreasureChest
-1000093	Adventurer’s Corpse	1000093_ChestHumanCorpseAdventurerB	/ItemContainer/SelfFilledItemContainer/TreasureChest
-1000094	Knight’s Corpse	1000094_ChestHumanCorpsePlateA	/ItemContainer/SelfFilledItemContainer/TreasureChest
-1000095	Knight’s Corpse	1000095_ChestHumanCorpsePlateB	/ItemContainer/SelfFilledItemContainer/TreasureChest
-1000096	Soldier’s Corpse	1000096_ChestHumanCorpsePaddedA	/ItemContainer/SelfFilledItemContainer/TreasureChest
-1000097	Soldier’s Corpse	1000097_ChestHumanCorpsePaddedB	/ItemContainer/SelfFilledItemContainer/TreasureChest
-1000098	Scavenger’s Corpse	1000098_ChestHumanCorpseScavengerA	/ItemContainer/SelfFilledItemContainer/TreasureChest
-1000099	Scavenger’s Corpse	1000099_ChestHumanCorpseScavengerB	/ItemContainer/SelfFilledItemContainer/TreasureChest
-1000100	Looter’s Corpse	1000100_ChestHumanCorpseLooterA	/ItemContainer/SelfFilledItemContainer/TreasureChest
-1000101	Looter’s Corpse	1000101_ChestHumanCorpseLooterB	/ItemContainer/SelfFilledItemContainer/TreasureChest
-1000110	Supply Cache	1000110_ChestWeaponSashA	/ItemContainer/SelfFilledItemContainer/TreasureChest
-1000120	Ornate Chest	1000120_ChestEliteA	/ItemContainer/SelfFilledItemContainer/TreasureChest
-1000800	Corpse	1000800_Corpse	/ItemContainer/SelfFilledItemContainer/TreasureChest
-1001000	Junk Pile	1001000_JunkPileA	/ItemContainer/SelfFilledItemContainer/TreasureChest
-1300001	Item	1300001_Gatherable_Jade	/ItemContainer/SelfFilledItemContainer/Gatherable
-1900000	Stack	1900000_GroupContainer	/ItemContainer/GroupContainer
-1900001	Kitchen	1900001_StaticCookingStation	/CraftingStation
-100001	Standard Axe	100001_StandardAxe	/Equipment/Weapon/MeleeWeapon
-100002	Standard Axe 2H	100002_StandardAxe2H	/Equipment/Weapon/MeleeWeapon
-100003	Standard Sword	100003_StandardSword	/Equipment/Weapon/MeleeWeapon
-100004	Standard Sword 2H	100004_StandardSword2H	/Equipment/Weapon/MeleeWeapon
-100005	Standard Bludgeon	100005_StandardBlungeon	/Equipment/Weapon/MeleeWeapon
-100006	Standard Bludgeon 2H	100006_StandardBludgeon2H	/Equipment/Weapon/MeleeWeapon
-100007	Standard Pole Arm	100007_StandardPoleArm	/Equipment/Weapon/MeleeWeapon
-100008	Standard Spear	100008_StandardSpear	/Equipment/Weapon/MeleeWeapon
 2000010	Iron Sword	2000010_IronSword	/Equipment/Weapon/MeleeWeapon
 2000020	Steel Sabre	2000020_steelSabre	/Equipment/Weapon/MeleeWeapon
 2000021	Cerulean Saber	2000021_steelSabreLegacy	/Equipment/Weapon/MeleeWeapon
@@ -304,7 +252,6 @@
 2400370	TitanGolemHammer	2400370_TitanGolemHammer	/Equipment/Weapon/MeleeWeapon
 2400371	TitanGolemHalberd	2400371_TitanGolemHalberd	/Equipment/Weapon/MeleeWeapon
 2400372	TitanGolemSword	2400372_TitanGolemSword	/Equipment/Weapon/MeleeWeapon
-504	Test weapon of Dooooom	504_TestWeaponOfDoom	/Equipment/Weapon/MeleeWeapon
 3000000	Trader Garb	3000000_TraderArmor	/Equipment/Armor
 3000001	Straw Hat	3000001_TraderHelm	/Equipment/Armor
 3000002	Trader Boots	3000002_TraderBoots	/Equipment/Armor
@@ -736,7 +683,7 @@
 5000061	Mage Tent	5000061_TentMage	/_Unsorted
 5000070	Plant Tent	5000070_TentPlantKit	/_Unsorted
 5000071	Plant Tent	5000071_TentPlant	/_Unsorted
-5000080	Scourge Cocoon	5000080_ScourgeCocoonKit	/_Unsorted
+5000080	Scourge Cocoon Kit	5000080_ScourgeCocoonKit	/_Unsorted
 5000100	Campfire	5000100_Campfire	/ItemContainer/FueledContainer
 5000101	Campfire Kit	5000101_CampfireKit	/_Unsorted
 5000110	Campfire Kit	5000110_FirepitNPC	/ItemContainer/FueledContainer
@@ -781,7 +728,7 @@
 5110070	Mysterious Chakram	5110070_ChakramPizza	/Equipment/Weapon/MeleeWeapon
 5110080	-	5110080_ChakramFidget	/Equipment/Weapon/MeleeWeapon
 5110090	Thorn Chakram	5110090_ChakramThorn	/Equipment/Weapon/MeleeWeapon
-5110091	Vampiric Chakram	5110091_HorrorChakram	/Equipment/Weapon/MeleeWeapon
+5110091	Horror Chakram	5110091_HorrorChakram	/Equipment/Weapon/MeleeWeapon
 5110092	Galvanic Chakram	5110092_GalvanicChakram	/Equipment/Weapon/MeleeWeapon
 5110094	Virgin Chakram	5110094_VirginChakram	/Equipment/Weapon/MeleeWeapon
 5110095	Kazite Chakram	5110095_KaziteChakram	/Equipment/Weapon/MeleeWeapon
@@ -845,24 +792,24 @@
 5600040	Skill Storage Tablet	5600040_SkillStorageTablet	/_Unsorted
 5600050	Writ of Tribal Favor	5600050_TribalFavor	/_Unsorted
 5600060	Montcalm Key	5600060_MontcalmKey	/_Unsorted
-5600070	Lower Living Quarters Key	5600070_AntiqueFieldD1Key1	/_Unsorted
-5600080	Living Quarters Station Key	5600080_FKey	/_Unsorted
-5600090	Gemstone Key A	5600090_BigGateKeyA	/_Unsorted
-5600091	Gemstone Key B	5600091_BigGateKeyB	/_Unsorted
-5600092	Gemstone Key C	5600092_BigGateKeyC	/_Unsorted
-5600093	Gemstone Key D	5600093_BigGateKeyD	/_Unsorted
-5600100	Foundry Assembly Line Key	5600100_KeyD3B	/_Unsorted
-5600101	Lower Foundry Key	5600101_KeyD3C	/_Unsorted
-5600110	Loading Docks Elevator Key	5600110_AntiqueFieldD6KeyA	/_Unsorted
-5600111	Loading Docks Key	5600111_AntiqueFieldD6KeyB	/_Unsorted
-5600120	Warehouse Key	5600120_DKey	/_Unsorted
-5600121	Train Key A	5600121_AntiqueFieldD7KeyC	/_Unsorted
-5600122	Lower Test Chamber Key	5600122_AntiqueFieldD7KeyB	/_Unsorted
-5600130	Lower Laboratory Key	5600130_AntiqueFieldD2Key1	/_Unsorted
-5600140	Misplaced Lab Lever	5600140_AntiqueFieldD2Key2	/_Unsorted
-5600150	Old Harmattan South Key	5600150_AKey_Battlefield	/_Unsorted
-5600151	Old Harmattan North Key	5600151_BKey_Battlefield	/_Unsorted
-5600160	Mana Transfer Elevator Key	5600160_AntiqueFieldD8KeyG	/_Unsorted
+5600070	Living quarter undergroud city key	5600070_AntiqueFieldD1Key1	/_Unsorted
+5600080	Key to dungeon F	5600080_FKey	/_Unsorted
+5600090	D2 BigDoor Key A	5600090_BigGateKeyA	/_Unsorted
+5600091	D2 BigDoor Key B	5600091_BigGateKeyB	/_Unsorted
+5600092	D2 BigDoor Key C	5600092_BigGateKeyC	/_Unsorted
+5600093	D2 BigDoor Key D	5600093_BigGateKeyD	/_Unsorted
+5600100	KeyD3B	5600100_KeyD3B	/_Unsorted
+5600101	KeyD3C	5600101_KeyD3C	/_Unsorted
+5600110	Activate the side elevators	5600110_AntiqueFieldD6KeyA	/_Unsorted
+5600111	Door Key for D6	5600111_AntiqueFieldD6KeyB	/_Unsorted
+5600120	Key D	5600120_DKey	/_Unsorted
+5600121	C Key D7	5600121_AntiqueFieldD7KeyC	/_Unsorted
+5600122	B Key D7	5600122_AntiqueFieldD7KeyB	/_Unsorted
+5600130	D2 Key from boss	5600130_AntiqueFieldD2Key1	/_Unsorted
+5600140	D2Key2_AntiqueField	5600140_AntiqueFieldD2Key2	/_Unsorted
+5600150	TEMP - Key Battlefield A	5600150_AKey_Battlefield	/_Unsorted
+5600151	TEMP - Key B Battlefield	5600151_BKey_Battlefield	/_Unsorted
+5600160	Key G for D8	5600160_AntiqueFieldD8KeyG	/_Unsorted
 5601001	Gep's Note	5601001_GepsNote	/_Unsorted
 5601002	-	5601002_ClueNoteA	/WrittenNote
 5601003	Watchers' Note	5601003_WatchersNote	/WrittenNote
@@ -1224,7 +1171,6 @@
 8100140	Mana Ward	8100140_ForceBubble	/Skill
 8100150	Conjure	8100150_ForceRaise	/Skill
 8100190	Shield Charge	8100190_ShieldCharge	/Skill/AttackSkill/MeleeSkill
-8100200	Gong Strike	8100200_GongStrike	/Skill/AttackSkill
 8100210	Rune: Dez	8100210_DezRunes	/Skill/AttackSkill
 8100220	Rune: Shim	8100220_ShimRunes	/Skill/AttackSkill
 8100230	Rune: Egoth	8100230_EgothRunes	/Skill/AttackSkill
@@ -1248,7 +1194,6 @@
 8100370	Feral Strikes	8100370_SavageStrikes	/Skill/AttackSkill/MeleeSkill
 8100380	Talus Cleaver	8100380_AnkleBlow	/Skill/AttackSkill/MeleeSkill
 8200010	Reveal Soul	8200010_DetectSoul	/Skill
-8200020	-	8200020_SummonGhost	/Skill
 8200021	-	8200021_SummonGhostNew	/Skill
 8200030	Sigil of Wind	8200030_AirSigil	/Skill
 8200031	Sigil of Fire	8200031_FireSigil	/Skill
@@ -1278,7 +1223,6 @@
 8200280	Doom	8200280_AddDoom	/Skill/AttackSkill
 8200290	Curse	8200290_AddCurse	/Skill/AttackSkill
 8200300	Call to Elements	8200300_CallToElements	/Skill/AttackSkill
-8200310	Elemental Discharge	8200310_ElementalProjectile	/Skill/AttackSkill
 8200600	Fire/Reload	8200600_FireReload	/Skill/AttackSkill/PistolSkill
 8200601	Frost Bullet	8200601_LoadFrostBullet	/Skill/AttackSkill/PistolSkill
 8200602	Blood Bullet	8200602_LoadBloodBullet	/Skill/AttackSkill/PistolSkill
@@ -1436,10 +1380,8 @@
 8300344	WolfMerceneryFalProjectile	8300344_WolfMerceneryFalProjectile	/Skill/AttackSkill
 8300350	SupremeShellBash	8300350_SupremeShellSlap	/Skill/AttackSkill
 8300351	SupremeShellLazer	8300351_SupremeShellLaser	/Skill
-8300352	SupremeShellRage	8300352_SupremeShellRage	/Skill/AttackSkill
 8300353	SupremeShellGroundPound	8300353_SupremeShellGroundPound	/Skill/AttackSkill
 8300354	SupremeShellLeap	8300354_SupremeShellLeap	/Skill/AttackSkill
-8300360	PureIlluminatorAllieBuff	8300360_PureIlluminatorAllieBuff	/Skill/AttackSkill
 8300361	PureIlluminatorForwardHomming	8300361_PureIlluminatorForwardHoming	/Skill/AttackSkill
 8300362	PureIlluminatorExplosion	8300362_PureIlluminatorExplosion	/Skill/AttackSkill
 8300363	PureIlluminatorMelee	8300363_PureIlluminatorMelee	/Skill/AttackSkill
@@ -1452,14 +1394,11 @@
 8300410	GiantHorrorAsh	8300410_GiantHorrorAsh	/Skill/AttackSkill
 8300420	EliteSupremeShellBash	8300420_EliteSupremeShellSlap	/Skill/AttackSkill
 8300421	EliteSupremeShellLazer	8300421_EliteSupremeShellLaser	/Skill
-8300422	EliteSupremeShellRage	8300422_EliteSupremeShellRage	/Skill/AttackSkill
 8300423	EliteSupremeShellGroundPound	8300423_EliteSupremeShellGroundPound	/Skill/AttackSkill
 8300424	EliteSupremeShellLeap	8300424_EliteSupremeShellLeap	/Skill/AttackSkill
 8300425	EliteSupremeShellSpecialLazer	8300425_EliteSupremeShellSpecialLaser	/Skill
 8300426	EliteSupremeShellNormalLazer	8300426_EliteSupremeShellNormalLaser	/Skill
 8300427	EliteSupremeShellRageNormalLaser	8300427_EliteSupremeShellRageNormalLaser	/Skill/AttackSkill
-8300428	EliteSupremeShellSpecialLazer	8300428_EliteSupremeShellCalmDown	/Skill
-8300429	EliteSupremeShellRageShorter	8300429_EliteSupremeShellRageShorter	/Skill/AttackSkill
 8300430	LichRustDashAttack	8300430_LichRustDashAttack	/Skill/AttackSkill
 8300431	LichRustProjectile	8300431_LichRustProjectile	/Skill
 8300432	LichRustFlameThrower	8300432_LichRustFlameThrower	/Skill
@@ -1470,8 +1409,6 @@
 8300442	TitanGolemHammerBlast	8300442_TitanGolemLeftRightSwipe	/Skill/AttackSkill
 8300443	TitanGolemHammerBlastRange	8300443_TitanGolemHammerBlastRange	/Skill/AttackSkill
 8300444	TitanGolemHammerBlastRange	8300444_TitanGolemLeftRightSwipeRange	/Skill/AttackSkill
-8400010	Pet Pearlbird	8400010_PetPearlBird	/Skill
-8400011	Pet Crescent Shark	8400011_PetShark	/Skill
 8400020	Fireworks	8400020_Fireworks	/Skill
 9000000	Gold	9000000_GoldCurrency	/Currency
 9000010	Silver	9000010_SilverCurrency	/Currency
@@ -1480,4 +1417,3 @@
 9200021	Goodluck Jim's Note 2	9200021_Note	/_Unsorted
 9200022	Goodluck Jim's Note 3	9200022_Note	/_Unsorted
 9200023	Bandit Note, Intruder	9200023_Note	/_Unsorted
-9300000	Tree	9300000_CentralGatherable_Tree	/ItemContainer/SelfFilledItemContainer/Gatherable/CentralGatherable

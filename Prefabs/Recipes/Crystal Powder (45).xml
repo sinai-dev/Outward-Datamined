@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RecipeHolder xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <StationType>Alchemy</StationType>
+<DM_Recipe xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Name>Crystal Powder</Name>
   <RecipeID>45</RecipeID>
+  <UID />
+  <StationType>Alchemy</StationType>
   <Ingredients>
     <string>Mana Stone</string>
     <string>Mana Stone</string>
@@ -10,9 +11,10 @@
     <string>Mana Stone</string>
   </Ingredients>
   <Results>
-    <ItemQuantityHolder>
+    <ItemQty>
       <ItemName>Crystal Powder</ItemName>
+      <ItemID>6600040</ItemID>
       <Quantity>1</Quantity>
-    </ItemQuantityHolder>
+    </ItemQty>
   </Results>
-</RecipeHolder>
+</DM_Recipe>

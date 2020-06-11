@@ -1,15 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RecipeHolder xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <StationType>Cooking</StationType>
+<DM_Recipe xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Name>Grilled Rainbow Trout</Name>
   <RecipeID>6</RecipeID>
+  <UID />
+  <StationType>Cooking</StationType>
   <Ingredients>
     <string>Raw Rainbow Trout</string>
   </Ingredients>
   <Results>
-    <ItemQuantityHolder>
+    <ItemQty>
       <ItemName>Grilled Rainbow Trout</ItemName>
+      <ItemID>4100090</ItemID>
       <Quantity>1</Quantity>
-    </ItemQuantityHolder>
+    </ItemQty>
   </Results>
-</RecipeHolder>
+</DM_Recipe>

@@ -1,24 +1,40 @@
 <?xml version="1.0" encoding="utf-8"?>
-<StatusEffectHolder xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <Name>Weaken</Name>
+<DM_StatusEffect xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <PresetID>558</PresetID>
+  <Identifier>Weaken</Identifier>
+  <Name>StatusEffect_Weaken_Name</Name>
+  <Description>StatusEffect_Weaken_Desc</Description>
   <Lifespan>60</Lifespan>
   <LengthType>Short</LengthType>
+  <RefreshRate>60</RefreshRate>
+  <BuildupRecoverySpeed>3</BuildupRecoverySpeed>
+  <IgnoreBuildupIfApplied>false</IgnoreBuildupIfApplied>
+  <DisplayedInHUD>true</DisplayedInHUD>
+  <IsHidden>false</IsHidden>
   <Tags />
-  <CanBeHealedBySleeping>false</CanBeHealedBySleeping>
-  <StraightSleepHealTime>-1</StraightSleepHealTime>
   <Effects>
-    <EffectHolder xsi:type="AffectStatHolder">
-      <AffectedStat>PhysicalDamage</AffectedStat>
-      <AffectedStat_TagUID>97</AffectedStat_TagUID>
-      <AffectQuantity>-40</AffectQuantity>
-      <IsModifier>true</IsModifier>
-    </EffectHolder>
-    <EffectHolder xsi:type="AffectStatHolder">
-      <AffectedStat>Impact</AffectedStat>
-      <AffectedStat_TagUID>95</AffectedStat_TagUID>
-      <AffectQuantity>-40</AffectQuantity>
-      <IsModifier>true</IsModifier>
-    </EffectHolder>
+    <DM_EffectTransform>
+      <TransformName>ActivationEffects</TransformName>
+      <Effects>
+        <DM_Effect xsi:type="DM_AffectStat">
+          <Delay>0</Delay>
+          <SyncType>OwnerSync</SyncType>
+          <OverrideCategory>None</OverrideCategory>
+          <Stat_Tag>PhysicalDamage</Stat_Tag>
+          <AffectQuantity>-40</AffectQuantity>
+          <IsModifier>true</IsModifier>
+        </DM_Effect>
+        <DM_Effect xsi:type="DM_AffectStat">
+          <Delay>0</Delay>
+          <SyncType>OwnerSync</SyncType>
+          <OverrideCategory>None</OverrideCategory>
+          <Stat_Tag>Impact</Stat_Tag>
+          <AffectQuantity>-40</AffectQuantity>
+          <IsModifier>true</IsModifier>
+        </DM_Effect>
+      </Effects>
+      <EffectConditions />
+      <ChildEffects />
+    </DM_EffectTransform>
   </Effects>
-</StatusEffectHolder>
+</DM_StatusEffect>

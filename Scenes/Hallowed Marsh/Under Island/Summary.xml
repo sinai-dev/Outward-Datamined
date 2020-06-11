@@ -41,7 +41,7 @@
     </QuantityHolder>
   </Gatherables>
   <Item_Spawns>
-    <ItemSpawnHolder>
+    <DM_ItemSpawn>
       <Name>Fabulous Palladium Shield</Name>
       <Item_ID>2300171</Item_ID>
       <Quantity>1</Quantity>
@@ -52,7 +52,7 @@
           <z>40.8291435</z>
         </Vector3>
       </positions>
-    </ItemSpawnHolder>
+    </DM_ItemSpawn>
   </Item_Spawns>
   <UniqueContainerList>
     <string>Knight’s Corpse_9qb4lbEYYkyGAWTKaYq-4g</string>

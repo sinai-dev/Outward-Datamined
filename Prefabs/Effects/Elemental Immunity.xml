@@ -1,42 +1,64 @@
 <?xml version="1.0" encoding="utf-8"?>
-<StatusEffectHolder xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <Name>Elemental Immunity</Name>
+<DM_StatusEffect xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <PresetID>50</PresetID>
+  <Identifier>Elemental Immunity</Identifier>
+  <Name>Elemental Immunity</Name>
+  <Description>Immune to Frost, Fire, Lightning, Decay and Ethereal Damage.</Description>
   <Lifespan>15</Lifespan>
   <LengthType>Short</LengthType>
+  <RefreshRate>0.1</RefreshRate>
+  <BuildupRecoverySpeed>3</BuildupRecoverySpeed>
+  <IgnoreBuildupIfApplied>false</IgnoreBuildupIfApplied>
+  <DisplayedInHUD>true</DisplayedInHUD>
+  <IsHidden>false</IsHidden>
   <Tags />
-  <CanBeHealedBySleeping>false</CanBeHealedBySleeping>
-  <StraightSleepHealTime>-1</StraightSleepHealTime>
   <Effects>
-    <EffectHolder xsi:type="AffectStatHolder">
-      <AffectedStat>FrostProtection</AffectedStat>
-      <AffectedStat_TagUID>109</AffectedStat_TagUID>
-      <AffectQuantity>1000</AffectQuantity>
-      <IsModifier>false</IsModifier>
-    </EffectHolder>
-    <EffectHolder xsi:type="AffectStatHolder">
-      <AffectedStat>FireProtection</AffectedStat>
-      <AffectedStat_TagUID>110</AffectedStat_TagUID>
-      <AffectQuantity>1000</AffectQuantity>
-      <IsModifier>false</IsModifier>
-    </EffectHolder>
-    <EffectHolder xsi:type="AffectStatHolder">
-      <AffectedStat>ElectricProtection</AffectedStat>
-      <AffectedStat_TagUID>108</AffectedStat_TagUID>
-      <AffectQuantity>1000</AffectQuantity>
-      <IsModifier>false</IsModifier>
-    </EffectHolder>
-    <EffectHolder xsi:type="AffectStatHolder">
-      <AffectedStat>DecayProtection</AffectedStat>
-      <AffectedStat_TagUID>107</AffectedStat_TagUID>
-      <AffectQuantity>1000</AffectQuantity>
-      <IsModifier>false</IsModifier>
-    </EffectHolder>
-    <EffectHolder xsi:type="AffectStatHolder">
-      <AffectedStat>EtherealProtection</AffectedStat>
-      <AffectedStat_TagUID>106</AffectedStat_TagUID>
-      <AffectQuantity>1000</AffectQuantity>
-      <IsModifier>false</IsModifier>
-    </EffectHolder>
+    <DM_EffectTransform>
+      <TransformName>ActivationEffects</TransformName>
+      <Effects>
+        <DM_Effect xsi:type="DM_AffectStat">
+          <Delay>0</Delay>
+          <SyncType>OwnerSync</SyncType>
+          <OverrideCategory>None</OverrideCategory>
+          <Stat_Tag>FrostProtection</Stat_Tag>
+          <AffectQuantity>1000</AffectQuantity>
+          <IsModifier>false</IsModifier>
+        </DM_Effect>
+        <DM_Effect xsi:type="DM_AffectStat">
+          <Delay>0</Delay>
+          <SyncType>OwnerSync</SyncType>
+          <OverrideCategory>None</OverrideCategory>
+          <Stat_Tag>FireProtection</Stat_Tag>
+          <AffectQuantity>1000</AffectQuantity>
+          <IsModifier>false</IsModifier>
+        </DM_Effect>
+        <DM_Effect xsi:type="DM_AffectStat">
+          <Delay>0</Delay>
+          <SyncType>OwnerSync</SyncType>
+          <OverrideCategory>None</OverrideCategory>
+          <Stat_Tag>ElectricProtection</Stat_Tag>
+          <AffectQuantity>1000</AffectQuantity>
+          <IsModifier>false</IsModifier>
+        </DM_Effect>
+        <DM_Effect xsi:type="DM_AffectStat">
+          <Delay>0</Delay>
+          <SyncType>OwnerSync</SyncType>
+          <OverrideCategory>None</OverrideCategory>
+          <Stat_Tag>DecayProtection</Stat_Tag>
+          <AffectQuantity>1000</AffectQuantity>
+          <IsModifier>false</IsModifier>
+        </DM_Effect>
+        <DM_Effect xsi:type="DM_AffectStat">
+          <Delay>0</Delay>
+          <SyncType>OwnerSync</SyncType>
+          <OverrideCategory>None</OverrideCategory>
+          <Stat_Tag>EtherealProtection</Stat_Tag>
+          <AffectQuantity>1000</AffectQuantity>
+          <IsModifier>false</IsModifier>
+        </DM_Effect>
+      </Effects>
+      <EffectConditions />
+      <ChildEffects />
+    </DM_EffectTransform>
   </Effects>
-</StatusEffectHolder>
+</DM_StatusEffect>

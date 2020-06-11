@@ -1,17 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RecipeHolder xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <StationType>Cooking</StationType>
+<DM_Recipe xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Name>Miner’s Omelet</Name>
   <RecipeID>15</RecipeID>
+  <UID />
+  <StationType>Cooking</StationType>
   <Ingredients>
     <string>Egg</string>
     <string>Egg</string>
     <string>Common Mushroom</string>
   </Ingredients>
   <Results>
-    <ItemQuantityHolder>
+    <ItemQty>
       <ItemName>Miner’s Omelet</ItemName>
+      <ItemID>4100280</ItemID>
       <Quantity>3</Quantity>
-    </ItemQuantityHolder>
+    </ItemQty>
   </Results>
-</RecipeHolder>
+</DM_Recipe>

@@ -37,7 +37,7 @@
     </QuantityHolder>
   </Gatherables>
   <Item_Spawns>
-    <ItemSpawnHolder>
+    <DM_ItemSpawn>
       <Name>Primitive Satchel</Name>
       <Item_ID>5300120</Item_ID>
       <Quantity>1</Quantity>
@@ -48,8 +48,8 @@
           <z>1681.311</z>
         </Vector3>
       </positions>
-    </ItemSpawnHolder>
-    <ItemSpawnHolder>
+    </DM_ItemSpawn>
+    <DM_ItemSpawn>
       <Name>Mining Pick</Name>
       <Item_ID>2120050</Item_ID>
       <Quantity>1</Quantity>
@@ -60,8 +60,8 @@
           <z>1795.322</z>
         </Vector3>
       </positions>
-    </ItemSpawnHolder>
-    <ItemSpawnHolder>
+    </DM_ItemSpawn>
+    <DM_ItemSpawn>
       <Name>Makeshift Torch</Name>
       <Item_ID>5100060</Item_ID>
       <Quantity>4</Quantity>
@@ -87,8 +87,8 @@
           <z>1792.74072</z>
         </Vector3>
       </positions>
-    </ItemSpawnHolder>
-    <ItemSpawnHolder>
+    </DM_ItemSpawn>
+    <DM_ItemSpawn>
       <Name>Bandages</Name>
       <Item_ID>4400010</Item_ID>
       <Quantity>1</Quantity>
@@ -99,8 +99,8 @@
           <z>1857.56372</z>
         </Vector3>
       </positions>
-    </ItemSpawnHolder>
-    <ItemSpawnHolder>
+    </DM_ItemSpawn>
+    <DM_ItemSpawn>
       <Name>Improvised Bedroll</Name>
       <Item_ID>5000021</Item_ID>
       <Quantity>2</Quantity>
@@ -116,8 +116,8 @@
           <z>1867.76</z>
         </Vector3>
       </positions>
-    </ItemSpawnHolder>
-    <ItemSpawnHolder>
+    </DM_ItemSpawn>
+    <DM_ItemSpawn>
       <Name>Fishing Harpoon</Name>
       <Item_ID>2130130</Item_ID>
       <Quantity>1</Quantity>
@@ -128,8 +128,8 @@
           <z>1791.325</z>
         </Vector3>
       </positions>
-    </ItemSpawnHolder>
-    <ItemSpawnHolder>
+    </DM_ItemSpawn>
+    <DM_ItemSpawn>
       <Name>Tattered Attire</Name>
       <Item_ID>3000130</Item_ID>
       <Quantity>1</Quantity>
@@ -140,8 +140,8 @@
           <z>1800.033</z>
         </Vector3>
       </positions>
-    </ItemSpawnHolder>
-    <ItemSpawnHolder>
+    </DM_ItemSpawn>
+    <DM_ItemSpawn>
       <Name>Bread</Name>
       <Item_ID>4100170</Item_ID>
       <Quantity>1</Quantity>
@@ -152,8 +152,8 @@
           <z>1875.697</z>
         </Vector3>
       </positions>
-    </ItemSpawnHolder>
-    <ItemSpawnHolder>
+    </DM_ItemSpawn>
+    <DM_ItemSpawn>
       <Name>Campfire</Name>
       <Item_ID>5000100</Item_ID>
       <Quantity>1</Quantity>
@@ -164,8 +164,8 @@
           <z>1867.24548</z>
         </Vector3>
       </positions>
-    </ItemSpawnHolder>
-    <ItemSpawnHolder>
+    </DM_ItemSpawn>
+    <DM_ItemSpawn>
       <Name>Machete</Name>
       <Item_ID>2000060</Item_ID>
       <Quantity>1</Quantity>
@@ -176,7 +176,7 @@
           <z>1804.90222</z>
         </Vector3>
       </positions>
-    </ItemSpawnHolder>
+    </DM_ItemSpawn>
   </Item_Spawns>
   <UniqueContainerList>
     <string>Junk Pile_csPu67n3sUCCQ6IQ0A5ZGQ</string>

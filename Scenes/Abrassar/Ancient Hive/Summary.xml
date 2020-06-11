@@ -81,7 +81,7 @@
     </QuantityHolder>
   </Gatherables>
   <Item_Spawns>
-    <ItemSpawnHolder>
+    <DM_ItemSpawn>
       <Name>Shiv Dagger</Name>
       <Item_ID>5110003</Item_ID>
       <Quantity>1</Quantity>
@@ -92,7 +92,7 @@
           <z>42.651</z>
         </Vector3>
       </positions>
-    </ItemSpawnHolder>
+    </DM_ItemSpawn>
   </Item_Spawns>
   <UniqueContainerList>
     <string>Knight’s Corpse_hXmpWgmyJ0Wa91XaUpLCiQ</string>

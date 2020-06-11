@@ -1,17 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RecipeHolder xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <StationType>Survival</StationType>
+<DM_Recipe xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Name>Gold-Lich Sword</Name>
   <RecipeID>168</RecipeID>
+  <UID />
+  <StationType>Survival</StationType>
   <Ingredients>
     <string>Gold-Lich Mechanism</string>
     <string>Iron Sword</string>
     <string>Firefly powder</string>
   </Ingredients>
   <Results>
-    <ItemQuantityHolder>
+    <ItemQty>
       <ItemName>Gold-Lich Sword</ItemName>
+      <ItemID>2000080</ItemID>
       <Quantity>1</Quantity>
-    </ItemQuantityHolder>
+    </ItemQty>
   </Results>
-</RecipeHolder>
+</DM_Recipe>

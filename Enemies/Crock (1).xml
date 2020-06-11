@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<EnemyHolder xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<DM_Enemy xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Name>Crock</Name>
   <GameObject_Name>NewBandits_Bourrin</GameObject_Name>
   <Unique_ID>1</Unique_ID>
@@ -69,8 +69,8 @@
     <DropTableEntry>
       <Item_Name>Life Potion</Item_Name>
       <Item_ID>4300010</Item_ID>
-      <Min_Quantity>1</Min_Quantity>
-      <Max_Quantity>1</Max_Quantity>
+      <Min_Quantity>2</Min_Quantity>
+      <Max_Quantity>2</Max_Quantity>
     </DropTableEntry>
     <DropTableEntry>
       <Item_Name>Brutal Club</Item_Name>
@@ -82,4 +82,4 @@
   <DropTable_Names>
     <string>DropTable_BanditMelee_Chersonese_Low</string>
   </DropTable_Names>
-</EnemyHolder>
+</DM_Enemy>

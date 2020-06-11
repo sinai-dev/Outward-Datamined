@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LootContainerHolder xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<DM_LootContainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Name>Junk Pile</Name>
   <ItemID>1001000</ItemID>
   <UID>Kd0qT1IZF0KfK3g7bFgFrw</UID>
@@ -8,4 +8,4 @@
     <string>DropTable_Neutral_Survival_Medium_1</string>
     <string>DropTable_Neutral_StandardRecipe_High_1</string>
   </DropTables>
-</LootContainerHolder>
+</DM_LootContainer>

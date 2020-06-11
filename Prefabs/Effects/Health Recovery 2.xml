@@ -1,20 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
-<StatusEffectHolder xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <Name>Health Recovery 2</Name>
+<DM_StatusEffect xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <PresetID>0</PresetID>
+  <Identifier>Health Recovery 2</Identifier>
+  <Name>Health Recovery 2</Name>
+  <Description>Recover [E1V1] Health per second.</Description>
   <Lifespan>600</Lifespan>
   <LengthType>Short</LengthType>
+  <RefreshRate>1</RefreshRate>
+  <BuildupRecoverySpeed>3</BuildupRecoverySpeed>
+  <IgnoreBuildupIfApplied>false</IgnoreBuildupIfApplied>
+  <DisplayedInHUD>true</DisplayedInHUD>
+  <IsHidden>false</IsHidden>
   <Tags>
     <string>Healing</string>
     <string>Status Type</string>
   </Tags>
-  <CanBeHealedBySleeping>false</CanBeHealedBySleeping>
-  <StraightSleepHealTime>-1</StraightSleepHealTime>
   <Effects>
-    <EffectHolder xsi:type="AffectHealthHolder">
-      <AffectQuantity>0.25</AffectQuantity>
-      <IsModifier>false</IsModifier>
-      <AffectQuanityAI>-99999</AffectQuanityAI>
-    </EffectHolder>
+    <DM_EffectTransform>
+      <TransformName>Normal</TransformName>
+      <Effects>
+        <DM_Effect xsi:type="DM_AffectHealth">
+          <Delay>0</Delay>
+          <SyncType>OwnerSync</SyncType>
+          <OverrideCategory>None</OverrideCategory>
+          <AffectQuantity>0.25</AffectQuantity>
+          <IsModifier>false</IsModifier>
+          <AffectQuantityAI>-99999</AffectQuantityAI>
+        </DM_Effect>
+      </Effects>
+      <EffectConditions />
+      <ChildEffects />
+    </DM_EffectTransform>
   </Effects>
-</StatusEffectHolder>
+</DM_StatusEffect>

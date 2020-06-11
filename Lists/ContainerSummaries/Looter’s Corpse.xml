@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ContainerSummary xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<LootContainerSummary xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Name>Looter’s Corpse</Name>
   <ItemID>0</ItemID>
   <All_Locations>
@@ -33,13 +33,13 @@
     </QuantityHolder>
   </All_Locations>
   <DropTables>
-    <ContainerDroptableSummary>
+    <DroptableSummary>
       <DropTableName>DropTable_Chersonese_Equipment_Medium_1</DropTableName>
       <Locations>
         <string>Vendavel Fortress</string>
       </Locations>
-    </ContainerDroptableSummary>
-    <ContainerDroptableSummary>
+    </DroptableSummary>
+    <DroptableSummary>
       <DropTableName>DropTable_Neutral_Survival_Low_2</DropTableName>
       <Locations>
         <string>Vendavel Fortress</string>
@@ -49,8 +49,8 @@
         <string>Ancient Hive</string>
         <string>Royal Manticore’s Lair</string>
       </Locations>
-    </ContainerDroptableSummary>
-    <ContainerDroptableSummary>
+    </DroptableSummary>
+    <DroptableSummary>
       <DropTableName>DropTable_Neutral_Food_1</DropTableName>
       <Locations>
         <string>Vendavel Fortress</string>
@@ -58,89 +58,89 @@
         <string>Hallowed Marsh</string>
         <string>Ancient Hive</string>
       </Locations>
-    </ContainerDroptableSummary>
-    <ContainerDroptableSummary>
+    </DroptableSummary>
+    <DroptableSummary>
       <DropTableName>DropTable_Neutral_StandardRecipe_Low_1</DropTableName>
       <Locations>
         <string>Vendavel Fortress</string>
         <string>Corrupted Tombs</string>
         <string>Ancient Hive</string>
       </Locations>
-    </ContainerDroptableSummary>
-    <ContainerDroptableSummary>
+    </DroptableSummary>
+    <DroptableSummary>
       <DropTableName>DropTable_Neutral_Cloth_Poor_1</DropTableName>
       <Locations>
         <string>Vendavel Fortress</string>
         <string>Corrupted Tombs</string>
         <string>Hallowed Marsh</string>
       </Locations>
-    </ContainerDroptableSummary>
-    <ContainerDroptableSummary>
+    </DroptableSummary>
+    <DroptableSummary>
       <DropTableName>DropTable_Neutral_Consumable_Low_2</DropTableName>
       <Locations>
         <string>Vendavel Fortress</string>
         <string>Voltaic Hatchery</string>
       </Locations>
-    </ContainerDroptableSummary>
-    <ContainerDroptableSummary>
+    </DroptableSummary>
+    <DroptableSummary>
       <DropTableName>DropTable_Neutral_Valuable_Low_1</DropTableName>
       <Locations>
         <string>Blister Burrow</string>
         <string>Corrupted Tombs</string>
         <string>Ancient Hive</string>
       </Locations>
-    </ContainerDroptableSummary>
-    <ContainerDroptableSummary>
+    </DroptableSummary>
+    <DroptableSummary>
       <DropTableName>DropTable_Chersonese_Equipment_Low_1</DropTableName>
       <Locations>
         <string>Blister Burrow</string>
       </Locations>
-    </ContainerDroptableSummary>
-    <ContainerDroptableSummary>
+    </DroptableSummary>
+    <DroptableSummary>
       <DropTableName>DropTable_Chersonese_Recipe_Weapon_1</DropTableName>
       <Locations>
         <string>Blister Burrow</string>
       </Locations>
-    </ContainerDroptableSummary>
-    <ContainerDroptableSummary>
+    </DroptableSummary>
+    <DroptableSummary>
       <DropTableName>DropTable_Neutral_Magic_High_1</DropTableName>
       <Locations>
         <string>Voltaic Hatchery</string>
       </Locations>
-    </ContainerDroptableSummary>
-    <ContainerDroptableSummary>
+    </DroptableSummary>
+    <DroptableSummary>
       <DropTableName>DropTable_Neutral_StandardRecipe_High_1</DropTableName>
       <Locations>
         <string>Voltaic Hatchery</string>
         <string>Hallowed Marsh</string>
         <string>Royal Manticore’s Lair</string>
       </Locations>
-    </ContainerDroptableSummary>
-    <ContainerDroptableSummary>
+    </DroptableSummary>
+    <DroptableSummary>
       <DropTableName>DropTable_Chersonese_Food_1</DropTableName>
       <Locations>
         <string>Voltaic Hatchery</string>
         <string>Corrupted Tombs</string>
       </Locations>
-    </ContainerDroptableSummary>
-    <ContainerDroptableSummary>
+    </DroptableSummary>
+    <DroptableSummary>
       <DropTableName>DropTable_Chersonese_Recipe_Basic_1</DropTableName>
       <Locations>
         <string>Voltaic Hatchery</string>
         <string>Corrupted Tombs</string>
       </Locations>
-    </ContainerDroptableSummary>
-    <ContainerDroptableSummary>
+    </DroptableSummary>
+    <DroptableSummary>
       <DropTableName>DropTable_Neutral_Magic_Low_2</DropTableName>
       <Locations>
         <string>Corrupted Tombs</string>
       </Locations>
-    </ContainerDroptableSummary>
-    <ContainerDroptableSummary>
+    </DroptableSummary>
+    <DroptableSummary>
       <DropTableName>DropTable_Neutral_Survival_Medium_1</DropTableName>
       <Locations>
         <string>Royal Manticore’s Lair</string>
       </Locations>
-    </ContainerDroptableSummary>
+    </DroptableSummary>
   </DropTables>
-</ContainerSummary>
+</LootContainerSummary>

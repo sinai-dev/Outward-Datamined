@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LootContainerHolder xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<DM_LootContainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Name>Broken Tent</Name>
   <ItemID>1000080</ItemID>
   <UID>vuhje5jKaE2d20gx9WUPQw</UID>
   <DropTables>
     <string>DropTable_JunkPile_Low</string>
   </DropTables>
-</LootContainerHolder>
+</DM_LootContainer>

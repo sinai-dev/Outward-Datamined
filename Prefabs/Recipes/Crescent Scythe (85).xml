@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RecipeHolder xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <StationType>Survival</StationType>
+<DM_Recipe xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Name>Crescent Scythe</Name>
   <RecipeID>85</RecipeID>
+  <UID />
+  <StationType>Survival</StationType>
   <Ingredients>
     <string>Shark Cartilage</string>
     <string>Shark Cartilage</string>
@@ -10,9 +11,10 @@
     <string>Pitchfork</string>
   </Ingredients>
   <Results>
-    <ItemQuantityHolder>
+    <ItemQty>
       <ItemName>Crescent Scythe</ItemName>
+      <ItemID>2140070</ItemID>
       <Quantity>1</Quantity>
-    </ItemQuantityHolder>
+    </ItemQty>
   </Results>
-</RecipeHolder>
+</DM_Recipe>

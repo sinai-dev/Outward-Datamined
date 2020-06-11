@@ -1,51 +1,145 @@
 <?xml version="1.0" encoding="utf-8"?>
-<StatusEffectHolder xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <Name>Defiled Negative</Name>
-  <PresetID>0</PresetID>
+<DM_StatusEffect xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <PresetID>1005</PresetID>
+  <Identifier>Defiled Negative</Identifier>
+  <Name>StatusEffect_Corruption_DefiledName</Name>
+  <Description>StatusEffect_Corruption_DefiledNegativeDesc</Description>
   <Lifespan>-1</Lifespan>
   <LengthType>Short</LengthType>
+  <RefreshRate>1</RefreshRate>
+  <BuildupRecoverySpeed>3</BuildupRecoverySpeed>
+  <IgnoreBuildupIfApplied>false</IgnoreBuildupIfApplied>
+  <DisplayedInHUD>false</DisplayedInHUD>
+  <IsHidden>false</IsHidden>
   <Tags>
     <string>Needs</string>
     <string>Status Type</string>
   </Tags>
-  <CanBeHealedBySleeping>false</CanBeHealedBySleeping>
-  <StraightSleepHealTime>-1</StraightSleepHealTime>
   <Effects>
-    <EffectHolder xsi:type="AffectStatHolder">
-      <AffectedStat>ElectricResistance</AffectedStat>
-      <AffectedStat_TagUID>116</AffectedStat_TagUID>
-      <AffectQuantity>-50</AffectQuantity>
-      <IsModifier>false</IsModifier>
-    </EffectHolder>
-    <EffectHolder xsi:type="AffectStatHolder">
-      <AffectedStat>FoodDepleteRate</AffectedStat>
-      <AffectedStat_TagUID>90</AffectedStat_TagUID>
-      <AffectQuantity>100</AffectQuantity>
-      <IsModifier>true</IsModifier>
-    </EffectHolder>
-    <EffectHolder xsi:type="AffectStatHolder">
-      <AffectedStat>ElectricDamage</AffectedStat>
-      <AffectedStat_TagUID>100</AffectedStat_TagUID>
-      <AffectQuantity>-50</AffectQuantity>
-      <IsModifier>true</IsModifier>
-    </EffectHolder>
-    <EffectHolder xsi:type="AffectStatHolder">
-      <AffectedStat>AttackSpeed</AffectedStat>
-      <AffectedStat_TagUID>232</AffectedStat_TagUID>
-      <AffectQuantity>-10</AffectQuantity>
-      <IsModifier>true</IsModifier>
-    </EffectHolder>
-    <EffectHolder xsi:type="AffectStatHolder">
-      <AffectedStat>PhysicalResistance</AffectedStat>
-      <AffectedStat_TagUID>113</AffectedStat_TagUID>
-      <AffectQuantity>-30</AffectQuantity>
-      <IsModifier>false</IsModifier>
-    </EffectHolder>
-    <EffectHolder xsi:type="AffectStatHolder">
-      <AffectedStat>ImpactResistance</AffectedStat>
-      <AffectedStat_TagUID>84</AffectedStat_TagUID>
-      <AffectQuantity>-30</AffectQuantity>
-      <IsModifier>true</IsModifier>
-    </EffectHolder>
+    <DM_EffectTransform>
+      <TransformName>RestaurationEffects</TransformName>
+      <Effects>
+        <DM_Effect xsi:type="DM_AffectStat">
+          <Delay>0</Delay>
+          <SyncType>OwnerSync</SyncType>
+          <OverrideCategory>None</OverrideCategory>
+          <Stat_Tag>ElectricResistance</Stat_Tag>
+          <AffectQuantity>-50</AffectQuantity>
+          <IsModifier>false</IsModifier>
+        </DM_Effect>
+        <DM_Effect xsi:type="DM_AffectStat">
+          <Delay>0</Delay>
+          <SyncType>OwnerSync</SyncType>
+          <OverrideCategory>None</OverrideCategory>
+          <Stat_Tag>FoodDepleteRate</Stat_Tag>
+          <AffectQuantity>100</AffectQuantity>
+          <IsModifier>true</IsModifier>
+        </DM_Effect>
+        <DM_Effect xsi:type="DM_AffectStat">
+          <Delay>0</Delay>
+          <SyncType>OwnerSync</SyncType>
+          <OverrideCategory>None</OverrideCategory>
+          <Stat_Tag>ElectricDamage</Stat_Tag>
+          <AffectQuantity>-50</AffectQuantity>
+          <IsModifier>true</IsModifier>
+        </DM_Effect>
+        <DM_Effect xsi:type="DM_AffectStat">
+          <Delay>0</Delay>
+          <SyncType>OwnerSync</SyncType>
+          <OverrideCategory>None</OverrideCategory>
+          <Stat_Tag>AttackSpeed</Stat_Tag>
+          <AffectQuantity>-10</AffectQuantity>
+          <IsModifier>true</IsModifier>
+        </DM_Effect>
+        <DM_Effect xsi:type="DM_AffectStat">
+          <Delay>0</Delay>
+          <SyncType>OwnerSync</SyncType>
+          <OverrideCategory>None</OverrideCategory>
+          <Stat_Tag>PhysicalResistance</Stat_Tag>
+          <AffectQuantity>-30</AffectQuantity>
+          <IsModifier>false</IsModifier>
+        </DM_Effect>
+        <DM_Effect xsi:type="DM_AffectStat">
+          <Delay>0</Delay>
+          <SyncType>OwnerSync</SyncType>
+          <OverrideCategory>None</OverrideCategory>
+          <Stat_Tag>ImpactResistance</Stat_Tag>
+          <AffectQuantity>-30</AffectQuantity>
+          <IsModifier>true</IsModifier>
+        </DM_Effect>
+      </Effects>
+      <EffectConditions />
+      <ChildEffects />
+    </DM_EffectTransform>
+    <DM_EffectTransform>
+      <TransformName>SummonBloodSpirit</TransformName>
+      <Effects />
+      <EffectConditions />
+      <ChildEffects>
+        <DM_EffectTransform>
+          <TransformName>Effects</TransformName>
+          <Effects>
+            <DM_Effect xsi:type="DM_SummonBloodSpirit">
+              <Delay>0</Delay>
+              <SyncType>OwnerSync</SyncType>
+              <OverrideCategory>None</OverrideCategory>
+              <Prefab>CorruptionSpirit</Prefab>
+              <SummonPrefabType>Resource</SummonPrefabType>
+              <BufferSize>1</BufferSize>
+              <LimitOfOne>false</LimitOfOne>
+              <SummonMode>CreateNew</SummonMode>
+              <PositionType>AroundTarget</PositionType>
+              <MinDistance>5</MinDistance>
+              <MaxDistance>7</MaxDistance>
+              <SameDirectionAsSummoner>false</SameDirectionAsSummoner>
+              <SummonLocalForward>
+                <x>0</x>
+                <y>0</y>
+                <z>0</z>
+              </SummonLocalForward>
+              <IgnoreOnDestroy>true</IgnoreOnDestroy>
+            </DM_Effect>
+            <DM_Effect xsi:type="DM_PlaySoundEffect">
+              <Delay>3</Delay>
+              <SyncType>OwnerSync</SyncType>
+              <OverrideCategory>None</OverrideCategory>
+              <Sounds>
+                <Sounds>SFX_SKILL_ElemantalProjectileDecay_Impact02</Sounds>
+              </Sounds>
+              <Follow>false</Follow>
+              <MinPitch>1</MinPitch>
+              <MaxPitch>1</MaxPitch>
+            </DM_Effect>
+            <DM_Effect xsi:type="DM_PlaySoundEffect">
+              <Delay>3</Delay>
+              <SyncType>OwnerSync</SyncType>
+              <OverrideCategory>None</OverrideCategory>
+              <Sounds>
+                <Sounds>SFX_SKILL_ElemantalProjectileDecay_Impact01</Sounds>
+              </Sounds>
+              <Follow>false</Follow>
+              <MinPitch>1</MinPitch>
+              <MaxPitch>1</MaxPitch>
+            </DM_Effect>
+          </Effects>
+          <EffectConditions>
+            <DM_EffectCondition xsi:type="DM_ProbabilityCondition">
+              <Invert>false</Invert>
+              <ChancePercent>100</ChancePercent>
+            </DM_EffectCondition>
+            <DM_EffectCondition xsi:type="DM_TimeDelayCondition">
+              <Invert>false</Invert>
+              <DelayRange>
+                <x>10</x>
+                <y>20</y>
+              </DelayRange>
+              <TimeFormat>Seconds</TimeFormat>
+              <IgnoreFirstCheck>true</IgnoreFirstCheck>
+            </DM_EffectCondition>
+          </EffectConditions>
+          <ChildEffects />
+        </DM_EffectTransform>
+      </ChildEffects>
+    </DM_EffectTransform>
   </Effects>
-</StatusEffectHolder>
+</DM_StatusEffect>

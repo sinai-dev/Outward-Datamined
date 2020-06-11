@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LootContainerHolder xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<DM_LootContainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Name>Ornate Chest</Name>
   <ItemID>1000120</ItemID>
   <UID>riHfSZ6JkE6wrtxXVUD1OQ</UID>
   <DropTables>
     <string>DropTable_Neutral_Bosse_BrandHero_1</string>
   </DropTables>
-</LootContainerHolder>
+</DM_LootContainer>

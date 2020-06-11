@@ -1,27 +1,115 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ItemHolder xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="SkillHolder">
-  <ItemID>8100280</ItemID>
-  <Name>Flash Onslaught</Name>
+<DM_AttackSkill xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <gameObjectName>8100280_MultiStrike</gameObjectName>
   <saveDir>/Skill/AttackSkill</saveDir>
+  <ItemID>8100280</ItemID>
+  <Name>Flash Onslaught</Name>
   <Description>Required: Any Melee Weapon, Discipline Boon.
 
 Attack all enemies within a close distance with increased Damage and Impact. Using the skill consumes the Discipline boon.</Description>
   <LegacyItemID>-1</LegacyItemID>
-  <PerishTime>-1</PerishTime>
+  <IsPickable>false</IsPickable>
+  <IsUsable>false</IsUsable>
+  <QtyRemovedOnUse>1</QtyRemovedOnUse>
+  <GroupItemInDisplay>false</GroupItemInDisplay>
+  <HasPhysicsWhenWorld>false</HasPhysicsWhenWorld>
+  <RepairedInRest>true</RepairedInRest>
+  <BehaviorOnNoDurability>NotSet</BehaviorOnNoDurability>
+  <CastType>Teleport</CastType>
+  <CastModifier>Immobilized</CastModifier>
+  <CastLocomotionEnabled>false</CastLocomotionEnabled>
+  <MobileCastMovementMult>-1</MobileCastMovementMult>
+  <CastSheatheRequired>2</CastSheatheRequired>
   <Tags />
   <EffectTransforms>
-    <EffectTransformHolder>
+    <DM_EffectTransform>
       <TransformName>Effects</TransformName>
       <Effects>
-        <EffectHolder xsi:type="ShootProjectileHolder">
+        <DM_Effect xsi:type="DM_ShootProjectile">
+          <Delay>0</Delay>
+          <SyncType>OwnerSync</SyncType>
+          <OverrideCategory>None</OverrideCategory>
+          <CastPosition>Local</CastPosition>
+          <LocalPositionAdd>
+            <x>0</x>
+            <y>1.5</y>
+            <z>0</z>
+          </LocalPositionAdd>
+          <NoAim>false</NoAim>
+          <TargetType>Enemies</TargetType>
+          <TransformName>ShooterTransform</TransformName>
+          <BaseProjectile>MultitargetStrike</BaseProjectile>
+          <ProjectileShots>
+            <DM_ProjectileShot>
+              <LocalDirectionOffset>
+                <x>0</x>
+                <y>0</y>
+                <z>0</z>
+              </LocalDirectionOffset>
+              <LockDirection>
+                <x>0</x>
+                <y>0</y>
+                <z>0</z>
+              </LockDirection>
+              <MustShoot>false</MustShoot>
+              <NoBaseDir>false</NoBaseDir>
+              <RandomLocalDirectionAdd>
+                <x>0</x>
+                <y>0</y>
+                <z>0</z>
+              </RandomLocalDirectionAdd>
+            </DM_ProjectileShot>
+          </ProjectileShots>
+          <Lifespan>3</Lifespan>
+          <LateShootTime>0.1</LateShootTime>
+          <Unblockable>true</Unblockable>
+          <EffectsOnlyIfHitCharacter>false</EffectsOnlyIfHitCharacter>
+          <EndMode>LifetimeOnly</EndMode>
+          <DisableOnHit>false</DisableOnHit>
+          <IgnoreShooterCollision>true</IgnoreShooterCollision>
           <TargetingMode>FindEnemies</TargetingMode>
+          <TargetCountPerProjectile>6</TargetCountPerProjectile>
+          <TargetRange>8</TargetRange>
           <AutoTarget>false</AutoTarget>
-          <EffectTransforms>
-            <EffectTransformHolder>
+          <AutoTargetMaxAngle>360</AutoTargetMaxAngle>
+          <AutoTargetRange>5</AutoTargetRange>
+          <ProjectileForce>20</ProjectileForce>
+          <AddDirection>
+            <x>0</x>
+            <y>0</y>
+            <z>0</z>
+          </AddDirection>
+          <AddRotationForce>
+            <x>0</x>
+            <y>0</y>
+            <z>0</z>
+          </AddRotationForce>
+          <YMagnitudeAffect>0.002</YMagnitudeAffect>
+          <YMagnitudeForce>0</YMagnitudeForce>
+          <DefenseLength>3</DefenseLength>
+          <DefenseRange>3</DefenseRange>
+          <PhysicsLayerMask>0</PhysicsLayerMask>
+          <OnlyExplodeOnLayerMask>true</OnlyExplodeOnLayerMask>
+          <ImpactSoundMaterial>Metal_Sharp</ImpactSoundMaterial>
+          <LightIntensityFade>
+            <x>10</x>
+            <y>2</y>
+          </LightIntensityFade>
+          <PointOffset>
+            <x>0</x>
+            <y>0</y>
+            <z>0</z>
+          </PointOffset>
+          <TrailEnabled>false</TrailEnabled>
+          <TrailTime>0.075</TrailTime>
+          <ProjectileEffects>
+            <DM_EffectTransform>
               <TransformName>HitEffects</TransformName>
               <Effects>
-                <EffectHolder xsi:type="WeaponDamageHolder">
+                <DM_Effect xsi:type="DM_WeaponDamage">
+                  <Delay>0</Delay>
+                  <SyncType>OwnerSync</SyncType>
+                  <OverrideCategory>None</OverrideCategory>
                   <Damage>
                     <Damages>
                       <Damage>57</Damage>
@@ -32,70 +120,108 @@ Attack all enemies within a close distance with increased Damage and Impact. Usi
                   <Knockback>0</Knockback>
                   <HitInventory>true</HitInventory>
                   <OverrideType>Count</OverrideType>
+                  <ForceOnlyLeftHand>false</ForceOnlyLeftHand>
                   <Damage_Multiplier>1.65</Damage_Multiplier>
                   <Damage_Multiplier_Kback>-1</Damage_Multiplier_Kback>
                   <Damage_Multiplier_Kdown>-1</Damage_Multiplier_Kdown>
                   <Impact_Multiplier>2</Impact_Multiplier>
                   <Impact_Multiplier_Kback>-1</Impact_Multiplier_Kback>
                   <Impact_Multiplier_Kdown>-1</Impact_Multiplier_Kdown>
-                  <DurabilityLoss>0</DurabilityLoss>
-                  <DurabilityLossPercent>2</DurabilityLossPercent>
-                </EffectHolder>
-                <EffectHolder xsi:type="AddStatusEffectHolder">
+                </DM_Effect>
+                <DM_Effect xsi:type="DM_AddStatusEffect">
+                  <Delay>0</Delay>
+                  <SyncType>OwnerSync</SyncType>
+                  <OverrideCategory>None</OverrideCategory>
                   <StatusEffect>Confusion</StatusEffect>
                   <ChanceToContract>100</ChanceToContract>
-                </EffectHolder>
+                </DM_Effect>
+                <DM_Effect xsi:type="DM_PlaySoundEffect">
+                  <Delay>0</Delay>
+                  <SyncType>OwnerSync</SyncType>
+                  <OverrideCategory>None</OverrideCategory>
+                  <Sounds>
+                    <Sounds>SFX_SKILL_Shakram</Sounds>
+                  </Sounds>
+                  <Follow>false</Follow>
+                  <MinPitch>1</MinPitch>
+                  <MaxPitch>1</MaxPitch>
+                </DM_Effect>
               </Effects>
               <EffectConditions />
               <ChildEffects />
-            </EffectTransformHolder>
-          </EffectTransforms>
-        </EffectHolder>
+            </DM_EffectTransform>
+          </ProjectileEffects>
+        </DM_Effect>
       </Effects>
       <EffectConditions />
       <ChildEffects />
-    </EffectTransformHolder>
-    <EffectTransformHolder>
+    </DM_EffectTransform>
+    <DM_EffectTransform>
       <TransformName>ActivationEffects</TransformName>
       <Effects>
-        <EffectHolder xsi:type="RemoveStatusEffectHolder">
-          <StatusEffect_ByTag>Discipline</StatusEffect_ByTag>
-          <StatusEffect_Family />
-          <StatusEffect_ByName />
-        </EffectHolder>
+        <DM_Effect xsi:type="DM_PlaySoundEffect">
+          <Delay>0.2</Delay>
+          <SyncType>OwnerSync</SyncType>
+          <OverrideCategory>None</OverrideCategory>
+          <Sounds>
+            <Sounds>SFX_SKILL_MultitargetStrike</Sounds>
+          </Sounds>
+          <Follow>false</Follow>
+          <MinPitch>1</MinPitch>
+          <MaxPitch>1</MaxPitch>
+        </DM_Effect>
+        <DM_Effect xsi:type="DM_RemoveStatusEffect">
+          <Delay>0</Delay>
+          <SyncType>OwnerSync</SyncType>
+          <OverrideCategory>None</OverrideCategory>
+          <Status_Name />
+          <Status_Tag>Discipline</Status_Tag>
+          <CleanseType>StatusType</CleanseType>
+        </DM_Effect>
       </Effects>
       <EffectConditions />
       <ChildEffects />
-    </EffectTransformHolder>
-    <EffectTransformHolder>
+    </DM_EffectTransform>
+    <DM_EffectTransform>
       <TransformName>AdditionalActivationConditions</TransformName>
       <Effects />
       <EffectConditions />
       <ChildEffects>
-        <EffectTransformHolder>
+        <DM_EffectTransform>
           <TransformName>Discipline</TransformName>
           <Effects />
           <EffectConditions>
-            <EffectConditionHolder>
-              <Conditions>
-                <ConditionHolder>
-                  <Requirement>Discipline</Requirement>
-                  <Condition_Type>Target has status</Condition_Type>
-                  <Invert>false</Invert>
-                </ConditionHolder>
-              </Conditions>
-            </EffectConditionHolder>
+            <DM_EffectCondition xsi:type="DM_HasStatusEffectEffectCondition">
+              <Invert>false</Invert>
+              <DiseaseAge>0</DiseaseAge>
+              <CheckOwner>false</CheckOwner>
+              <StatusSelectorType>StatusType</StatusSelectorType>
+              <SelectorValue>Discipline</SelectorValue>
+            </DM_EffectCondition>
           </EffectConditions>
           <ChildEffects />
-        </EffectTransformHolder>
+        </DM_EffectTransform>
       </ChildEffects>
-    </EffectTransformHolder>
+    </DM_EffectTransform>
   </EffectTransforms>
   <Cooldown>240</Cooldown>
   <StaminaCost>25</StaminaCost>
   <ManaCost>0</ManaCost>
   <DurabilityCost>0</DurabilityCost>
   <DurabilityCostPercent>0</DurabilityCostPercent>
-  <IsDLCSkill>true</IsDLCSkill>
   <RequiredItems />
-</ItemHolder>
+  <AmmunitionTypes />
+  <RequiredOffHandTypes />
+  <RequiredWeaponTypes>
+    <WeaponType>Sword_1H</WeaponType>
+    <WeaponType>Axe_1H</WeaponType>
+    <WeaponType>Mace_1H</WeaponType>
+    <WeaponType>Halberd_2H</WeaponType>
+    <WeaponType>Sword_2H</WeaponType>
+    <WeaponType>Axe_2H</WeaponType>
+    <WeaponType>Mace_2H</WeaponType>
+    <WeaponType>Spear_2H</WeaponType>
+  </RequiredWeaponTypes>
+  <RequiredWeaponTags />
+  <RequireImbue>false</RequireImbue>
+</DM_AttackSkill>

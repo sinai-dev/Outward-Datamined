@@ -1,25 +1,66 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ItemHolder xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="SkillHolder">
-  <ItemID>8300090</ItemID>
-  <Name>ShrimpExplosion</Name>
+<DM_Skill xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <gameObjectName>8300090_SpecterFlamethrower</gameObjectName>
   <saveDir>/Skill</saveDir>
+  <ItemID>8300090</ItemID>
+  <Name>ShrimpExplosion</Name>
   <Description />
   <LegacyItemID>-1</LegacyItemID>
-  <PerishTime>-1</PerishTime>
+  <IsPickable>false</IsPickable>
+  <IsUsable>false</IsUsable>
+  <QtyRemovedOnUse>0</QtyRemovedOnUse>
+  <GroupItemInDisplay>false</GroupItemInDisplay>
+  <HasPhysicsWhenWorld>false</HasPhysicsWhenWorld>
+  <RepairedInRest>true</RepairedInRest>
+  <BehaviorOnNoDurability>NotSet</BehaviorOnNoDurability>
+  <CastType>Fast</CastType>
+  <CastModifier>Immobilized</CastModifier>
+  <CastLocomotionEnabled>false</CastLocomotionEnabled>
+  <MobileCastMovementMult>-1</MobileCastMovementMult>
+  <CastSheatheRequired>0</CastSheatheRequired>
   <Tags />
   <EffectTransforms>
-    <EffectTransformHolder>
+    <DM_EffectTransform>
       <TransformName>Effects</TransformName>
       <Effects>
-        <EffectHolder xsi:type="ShootBlastHolder">
-          <BlastLifespan>1.4</BlastLifespan>
+        <DM_Effect xsi:type="DM_ShootBlast">
+          <Delay>0</Delay>
+          <SyncType>OwnerSync</SyncType>
+          <OverrideCategory>None</OverrideCategory>
+          <CastPosition>Transform</CastPosition>
+          <LocalPositionAdd>
+            <x>0</x>
+            <y>0</y>
+            <z>0</z>
+          </LocalPositionAdd>
+          <NoAim>true</NoAim>
+          <TargetType>Enemies</TargetType>
+          <TransformName>ShooterTransform</TransformName>
+          <BaseBlast>SpecterRangeFlamethrower</BaseBlast>
+          <Radius>0.5</Radius>
           <RefreshTime>0.05</RefreshTime>
-          <EffectTransforms>
-            <EffectTransformHolder>
+          <BlastLifespan>1.4</BlastLifespan>
+          <InstantiatedAmount>1</InstantiatedAmount>
+          <Interruptible>false</Interruptible>
+          <MaxHitTargetCount>-1</MaxHitTargetCount>
+          <AffectHitTargetCenter>false</AffectHitTargetCenter>
+          <HitOnShoot>true</HitOnShoot>
+          <IgnoreShooter>false</IgnoreShooter>
+          <IgnoreStop>false</IgnoreStop>
+          <NoTargetForwardMultiplier>5</NoTargetForwardMultiplier>
+          <ParentToShootTransform>true</ParentToShootTransform>
+          <UseTargetCharacterPositionType>false</UseTargetCharacterPositionType>
+          <ImpactSoundMaterial>Fire</ImpactSoundMaterial>
+          <DontPlayHitSound>false</DontPlayHitSound>
+          <FXIsWorld>false</FXIsWorld>
+          <BlastEffects>
+            <DM_EffectTransform>
               <TransformName>Effects</TransformName>
               <Effects>
-                <EffectHolder xsi:type="PunctualDamageHolder">
+                <DM_Effect xsi:type="DM_PunctualDamage">
+                  <Delay>0</Delay>
+                  <SyncType>OwnerSync</SyncType>
+                  <OverrideCategory>None</OverrideCategory>
                   <Damage>
                     <Damages>
                       <Damage>9</Damage>
@@ -29,23 +70,58 @@
                   <Damages_AI />
                   <Knockback>15</Knockback>
                   <HitInventory>true</HitInventory>
-                </EffectHolder>
+                </DM_Effect>
               </Effects>
               <EffectConditions />
               <ChildEffects />
-            </EffectTransformHolder>
-          </EffectTransforms>
-        </EffectHolder>
+            </DM_EffectTransform>
+          </BlastEffects>
+        </DM_Effect>
       </Effects>
       <EffectConditions />
       <ChildEffects />
-    </EffectTransformHolder>
+    </DM_EffectTransform>
+    <DM_EffectTransform>
+      <TransformName>ActivationEffects</TransformName>
+      <Effects>
+        <DM_Effect xsi:type="DM_PlaySoundEffect">
+          <Delay>0</Delay>
+          <SyncType>OwnerSync</SyncType>
+          <OverrideCategory>None</OverrideCategory>
+          <Sounds>
+            <Sounds>CS_SpecterMelee_SpecialAttackA_Grunt2</Sounds>
+          </Sounds>
+          <Follow>false</Follow>
+          <MinPitch>1</MinPitch>
+          <MaxPitch>1</MaxPitch>
+        </DM_Effect>
+      </Effects>
+      <EffectConditions />
+      <ChildEffects />
+    </DM_EffectTransform>
+    <DM_EffectTransform>
+      <TransformName>ActivationEffects2</TransformName>
+      <Effects>
+        <DM_Effect xsi:type="DM_PlaySoundEffect">
+          <Delay>0</Delay>
+          <SyncType>OwnerSync</SyncType>
+          <OverrideCategory>None</OverrideCategory>
+          <Sounds>
+            <Sounds>CS_Specter_Range_WeaponLoad</Sounds>
+          </Sounds>
+          <Follow>false</Follow>
+          <MinPitch>1</MinPitch>
+          <MaxPitch>1</MaxPitch>
+        </DM_Effect>
+      </Effects>
+      <EffectConditions />
+      <ChildEffects />
+    </DM_EffectTransform>
   </EffectTransforms>
   <Cooldown>8</Cooldown>
   <StaminaCost>0</StaminaCost>
   <ManaCost>0</ManaCost>
   <DurabilityCost>0</DurabilityCost>
   <DurabilityCostPercent>0</DurabilityCostPercent>
-  <IsDLCSkill>true</IsDLCSkill>
   <RequiredItems />
-</ItemHolder>
+</DM_Skill>

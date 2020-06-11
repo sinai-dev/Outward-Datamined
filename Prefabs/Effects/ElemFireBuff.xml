@@ -1,18 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
-<StatusEffectHolder xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <Name>ElemFireBuff</Name>
+<DM_StatusEffect xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <PresetID>564</PresetID>
+  <Identifier>ElemFireBuff</Identifier>
+  <Name>Warm Amplified</Name>
+  <Description>Fire Damage and Resistance +[E1V1]%. Cold Weather Def +[E2V1].</Description>
   <Lifespan>30</Lifespan>
   <LengthType>Short</LengthType>
+  <RefreshRate>0.1</RefreshRate>
+  <BuildupRecoverySpeed>3</BuildupRecoverySpeed>
+  <IgnoreBuildupIfApplied>false</IgnoreBuildupIfApplied>
+  <DisplayedInHUD>true</DisplayedInHUD>
+  <IsHidden>false</IsHidden>
   <Tags />
-  <CanBeHealedBySleeping>false</CanBeHealedBySleeping>
-  <StraightSleepHealTime>-1</StraightSleepHealTime>
   <Effects>
-    <EffectHolder xsi:type="AffectStatHolder">
-      <AffectedStat>FireResistance</AffectedStat>
-      <AffectedStat_TagUID>118</AffectedStat_TagUID>
-      <AffectQuantity>40</AffectQuantity>
-      <IsModifier>false</IsModifier>
-    </EffectHolder>
+    <DM_EffectTransform>
+      <TransformName>ActivationEffects</TransformName>
+      <Effects>
+        <DM_Effect xsi:type="DM_AffectStat">
+          <Delay>0</Delay>
+          <SyncType>OwnerSync</SyncType>
+          <OverrideCategory>None</OverrideCategory>
+          <Stat_Tag>FireResistance</Stat_Tag>
+          <AffectQuantity>40</AffectQuantity>
+          <IsModifier>false</IsModifier>
+        </DM_Effect>
+      </Effects>
+      <EffectConditions />
+      <ChildEffects />
+    </DM_EffectTransform>
   </Effects>
-</StatusEffectHolder>
+</DM_StatusEffect>

@@ -1,11 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
-<StatusEffectHolder xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <Name>Exalted</Name>
+<DM_Disease xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <PresetID>540</PresetID>
+  <Identifier>Exalted</Identifier>
+  <Name>StatusEffect_Disease_Exalted_Name</Name>
+  <Description>StatusEffect_Disease_Exalted_Desc</Description>
   <Lifespan>-1</Lifespan>
   <LengthType>Long</LengthType>
+  <RefreshRate>0.1</RefreshRate>
+  <BuildupRecoverySpeed>3</BuildupRecoverySpeed>
+  <IgnoreBuildupIfApplied>false</IgnoreBuildupIfApplied>
+  <DisplayedInHUD>true</DisplayedInHUD>
+  <IsHidden>true</IsHidden>
   <Tags />
-  <CanBeHealedBySleeping>false</CanBeHealedBySleeping>
-  <StraightSleepHealTime>-1</StraightSleepHealTime>
   <Effects />
-</StatusEffectHolder>
+  <DiseaseType>Exalted_LifeDrain</DiseaseType>
+  <AutoHealTime>-1</AutoHealTime>
+  <CanDegenerate>false</CanDegenerate>
+  <DegenerateTime>240</DegenerateTime>
+  <StraightSleepHealTime>-1</StraightSleepHealTime>
+  <CanBeHealedBySleeping>false</CanBeHealedBySleeping>
+</DM_Disease>

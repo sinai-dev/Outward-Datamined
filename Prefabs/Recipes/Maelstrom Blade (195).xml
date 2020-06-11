@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RecipeHolder xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <StationType>Survival</StationType>
+<DM_Recipe xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Name>Maelstrom Blade</Name>
   <RecipeID>195</RecipeID>
+  <UID />
+  <StationType>Survival</StationType>
   <Ingredients>
     <string>Pearlbird’s Courage</string>
     <string>Elatt’s Relic</string>
@@ -10,9 +11,10 @@
     <string>Vendavel's Hospitality</string>
   </Ingredients>
   <Results>
-    <ItemQuantityHolder>
+    <ItemQty>
       <ItemName>Maelstrom Blade</ItemName>
+      <ItemID>2000170</ItemID>
       <Quantity>1</Quantity>
-    </ItemQuantityHolder>
+    </ItemQty>
   </Results>
-</RecipeHolder>
+</DM_Recipe>

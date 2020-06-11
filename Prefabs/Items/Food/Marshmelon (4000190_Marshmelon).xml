@@ -1,19 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ItemHolder xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <ItemID>4000190</ItemID>
-  <Name>Marshmelon</Name>
+<DM_Item xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <gameObjectName>4000190_Marshmelon</gameObjectName>
   <saveDir>/Food</saveDir>
+  <ItemID>4000190</ItemID>
+  <Name>Marshmelon</Name>
   <Description>Heavy marsh fruit that restore far more stamina than Gaberries.
 
 These raw melons gain anti-poison properties when boiled.</Description>
   <LegacyItemID>-1</LegacyItemID>
+  <IsPickable>true</IsPickable>
+  <IsUsable>true</IsUsable>
+  <QtyRemovedOnUse>1</QtyRemovedOnUse>
+  <GroupItemInDisplay>true</GroupItemInDisplay>
+  <HasPhysicsWhenWorld>false</HasPhysicsWhenWorld>
+  <RepairedInRest>true</RepairedInRest>
+  <BehaviorOnNoDurability>NotSet</BehaviorOnNoDurability>
+  <CastType>Eat</CastType>
+  <CastModifier>Immobilized</CastModifier>
+  <CastLocomotionEnabled>false</CastLocomotionEnabled>
+  <MobileCastMovementMult>-1</MobileCastMovementMult>
+  <CastSheatheRequired>1</CastSheatheRequired>
   <PerishTime>4 Days, 0 Hours, 9 Minutes, 13 Seconds</PerishTime>
-  <StatsHolder>
-    <BaseValue>8</BaseValue>
-    <RawWeight>3</RawWeight>
-    <MaxDurability>100</MaxDurability>
-  </StatsHolder>
   <Tags>
     <string>Ration Ingredient</string>
     <string>Ingredient Cook</string>
@@ -23,21 +30,31 @@ These raw melons gain anti-poison properties when boiled.</Description>
     <string>Food</string>
     <string>Consummable</string>
   </Tags>
+  <StatsHolder>
+    <BaseValue>8</BaseValue>
+    <RawWeight>3</RawWeight>
+    <MaxDurability>100</MaxDurability>
+  </StatsHolder>
   <EffectTransforms>
-    <EffectTransformHolder>
+    <DM_EffectTransform>
       <TransformName>Effects</TransformName>
       <Effects>
-        <EffectHolder xsi:type="AffectNeedHolder">
-          <Need>AffectFood</Need>
+        <DM_Effect xsi:type="DM_AffectFood">
+          <Delay>0</Delay>
+          <SyncType>OwnerSync</SyncType>
+          <OverrideCategory>None</OverrideCategory>
           <AffectQuantity>200</AffectQuantity>
-        </EffectHolder>
-        <EffectHolder xsi:type="AddStatusEffectHolder">
+        </DM_Effect>
+        <DM_Effect xsi:type="DM_AddStatusEffect">
+          <Delay>0</Delay>
+          <SyncType>OwnerSync</SyncType>
+          <OverrideCategory>None</OverrideCategory>
           <StatusEffect>Stamina Recovery 4</StatusEffect>
           <ChanceToContract>100</ChanceToContract>
-        </EffectHolder>
+        </DM_Effect>
       </Effects>
       <EffectConditions />
       <ChildEffects />
-    </EffectTransformHolder>
+    </DM_EffectTransform>
   </EffectTransforms>
-</ItemHolder>
+</DM_Item>

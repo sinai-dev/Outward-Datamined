@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RecipeHolder xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <StationType>Survival</StationType>
+<DM_Recipe xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Name>Scaled Leather Boots</Name>
   <RecipeID>98</RecipeID>
+  <UID />
+  <StationType>Survival</StationType>
   <Ingredients>
     <string>Basic Boots</string>
     <string>Scaled Leather</string>
@@ -10,9 +11,10 @@
     <string>Predator Bones</string>
   </Ingredients>
   <Results>
-    <ItemQuantityHolder>
+    <ItemQty>
       <ItemName>Scaled Leather Boots</ItemName>
+      <ItemID>3000292</ItemID>
       <Quantity>1</Quantity>
-    </ItemQuantityHolder>
+    </ItemQty>
   </Results>
-</RecipeHolder>
+</DM_Recipe>

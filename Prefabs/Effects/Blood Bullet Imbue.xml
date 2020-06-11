@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<StatusEffectHolder xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<DM_ImbueEffect xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <StatusID>251</StatusID>
   <Name>Blood Bullet Imbue</Name>
-  <PresetID>251</PresetID>
-  <Lifespan>0</Lifespan>
-  <Tags />
-  <CanBeHealedBySleeping>false</CanBeHealedBySleeping>
-  <StraightSleepHealTime>-1</StraightSleepHealTime>
+  <Description>When shot, will deal Decay Damage.</Description>
   <Effects />
-</StatusEffectHolder>
+</DM_ImbueEffect>

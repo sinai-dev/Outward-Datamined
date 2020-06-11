@@ -73,7 +73,7 @@
     </QuantityHolder>
   </Gatherables>
   <Item_Spawns>
-    <ItemSpawnHolder>
+    <DM_ItemSpawn>
       <Name>Zhorn’s Hunting Backpack</Name>
       <Item_ID>5300180</Item_ID>
       <Quantity>1</Quantity>
@@ -84,7 +84,7 @@
           <z>-124.08844</z>
         </Vector3>
       </positions>
-    </ItemSpawnHolder>
+    </DM_ItemSpawn>
   </Item_Spawns>
   <UniqueContainerList>
     <string>Worker’s Corpse_VvehsClz8E2W_4YH1yY7Gw</string>

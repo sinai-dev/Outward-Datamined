@@ -1,26 +1,41 @@
 <?xml version="1.0" encoding="utf-8"?>
-<StatusEffectHolder xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <Name>Food Poisoned +</Name>
+<DM_StatusEffect xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <PresetID>536</PresetID>
+  <Identifier>Food Poisoned +</Identifier>
+  <Name>Extreme Poison</Name>
+  <Description>Take [E1V1] Decay Damage per second.</Description>
   <Lifespan>180</Lifespan>
   <LengthType>Short</LengthType>
+  <RefreshRate>1</RefreshRate>
+  <BuildupRecoverySpeed>3</BuildupRecoverySpeed>
+  <IgnoreBuildupIfApplied>false</IgnoreBuildupIfApplied>
+  <DisplayedInHUD>true</DisplayedInHUD>
+  <IsHidden>false</IsHidden>
   <Tags>
     <string>Poison</string>
     <string>Status Type</string>
   </Tags>
-  <CanBeHealedBySleeping>false</CanBeHealedBySleeping>
-  <StraightSleepHealTime>-1</StraightSleepHealTime>
   <Effects>
-    <EffectHolder xsi:type="PunctualDamageHolder">
-      <Damage>
-        <Damages>
-          <Damage>2.22</Damage>
-          <Damage_Type>Physical</Damage_Type>
-        </Damages>
-      </Damage>
-      <Damages_AI />
-      <Knockback>10</Knockback>
-      <HitInventory>false</HitInventory>
-    </EffectHolder>
+    <DM_EffectTransform>
+      <TransformName>Effects</TransformName>
+      <Effects>
+        <DM_Effect xsi:type="DM_PunctualDamage">
+          <Delay>0</Delay>
+          <SyncType>OwnerSync</SyncType>
+          <OverrideCategory>None</OverrideCategory>
+          <Damage>
+            <Damages>
+              <Damage>2.22</Damage>
+              <Damage_Type>Decay</Damage_Type>
+            </Damages>
+          </Damage>
+          <Damages_AI />
+          <Knockback>0</Knockback>
+          <HitInventory>false</HitInventory>
+        </DM_Effect>
+      </Effects>
+      <EffectConditions />
+      <ChildEffects />
+    </DM_EffectTransform>
   </Effects>
-</StatusEffectHolder>
+</DM_StatusEffect>

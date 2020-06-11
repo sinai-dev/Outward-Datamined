@@ -61,7 +61,7 @@
     </QuantityHolder>
   </Gatherables>
   <Item_Spawns>
-    <ItemSpawnHolder>
+    <DM_ItemSpawn>
       <Name>Spiritual Varnish</Name>
       <Item_ID>4400060</Item_ID>
       <Quantity>3</Quantity>
@@ -82,8 +82,8 @@
           <z>-51.483</z>
         </Vector3>
       </positions>
-    </ItemSpawnHolder>
-    <ItemSpawnHolder>
+    </DM_ItemSpawn>
+    <DM_ItemSpawn>
       <Name>Flint and Steel</Name>
       <Item_ID>5600010</Item_ID>
       <Quantity>1</Quantity>
@@ -94,8 +94,8 @@
           <z>-31.7137547</z>
         </Vector3>
       </positions>
-    </ItemSpawnHolder>
-    <ItemSpawnHolder>
+    </DM_ItemSpawn>
+    <DM_ItemSpawn>
       <Name>Cooking: Pungent Paste</Name>
       <Item_ID>5700016</Item_ID>
       <Quantity>1</Quantity>
@@ -106,8 +106,8 @@
           <z>-87.5626</z>
         </Vector3>
       </positions>
-    </ItemSpawnHolder>
-    <ItemSpawnHolder>
+    </DM_ItemSpawn>
+    <DM_ItemSpawn>
       <Name>Hangman's Key</Name>
       <Item_ID>5600020</Item_ID>
       <Quantity>1</Quantity>
@@ -118,8 +118,8 @@
           <z>12.6</z>
         </Vector3>
       </positions>
-    </ItemSpawnHolder>
-    <ItemSpawnHolder>
+    </DM_ItemSpawn>
+    <DM_ItemSpawn>
       <Name>Linen Cloth</Name>
       <Item_ID>6500090</Item_ID>
       <Quantity>2</Quantity>
@@ -135,8 +135,8 @@
           <z>0</z>
         </Vector3>
       </positions>
-    </ItemSpawnHolder>
-    <ItemSpawnHolder>
+    </DM_ItemSpawn>
+    <DM_ItemSpawn>
       <Name>Waterskin</Name>
       <Item_ID>4200040</Item_ID>
       <Quantity>1</Quantity>
@@ -147,7 +147,7 @@
           <z>-38.273</z>
         </Vector3>
       </positions>
-    </ItemSpawnHolder>
+    </DM_ItemSpawn>
   </Item_Spawns>
   <UniqueContainerList>
     <string>Chest_r0t7WLQX7UuA5FjHmuvIOQ</string>

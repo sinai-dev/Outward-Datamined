@@ -1,45 +1,61 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ItemHolder xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="SkillHolder">
-  <ItemID>8205020</ItemID>
-  <Name>Spellblade's Awakening</Name>
+<DM_Skill xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <gameObjectName>8205020_BonusBasicStats</gameObjectName>
   <saveDir>/Skill/PassiveSkill</saveDir>
+  <ItemID>8205020</ItemID>
+  <Name>Spellblade's Awakening</Name>
   <Description>Increases your maximum Health, Stamina and Mana by 15 each.</Description>
   <LegacyItemID>-1</LegacyItemID>
-  <PerishTime>-1</PerishTime>
+  <IsPickable>false</IsPickable>
+  <IsUsable>false</IsUsable>
+  <QtyRemovedOnUse>1</QtyRemovedOnUse>
+  <GroupItemInDisplay>false</GroupItemInDisplay>
+  <HasPhysicsWhenWorld>false</HasPhysicsWhenWorld>
+  <RepairedInRest>true</RepairedInRest>
+  <BehaviorOnNoDurability>NotSet</BehaviorOnNoDurability>
+  <CastType>NONE</CastType>
+  <CastModifier>Immobilized</CastModifier>
+  <CastLocomotionEnabled>false</CastLocomotionEnabled>
+  <MobileCastMovementMult>-1</MobileCastMovementMult>
+  <CastSheatheRequired>1</CastSheatheRequired>
   <Tags />
   <EffectTransforms>
-    <EffectTransformHolder>
+    <DM_EffectTransform>
       <TransformName>Passive</TransformName>
       <Effects>
-        <EffectHolder xsi:type="AffectStatHolder">
-          <AffectedStat>MaxHealth</AffectedStat>
-          <AffectedStat_TagUID>77</AffectedStat_TagUID>
+        <DM_Effect xsi:type="DM_AffectStat">
+          <Delay>0</Delay>
+          <SyncType>OwnerSync</SyncType>
+          <OverrideCategory>None</OverrideCategory>
+          <Stat_Tag>MaxHealth</Stat_Tag>
           <AffectQuantity>15</AffectQuantity>
           <IsModifier>false</IsModifier>
-        </EffectHolder>
-        <EffectHolder xsi:type="AffectStatHolder">
-          <AffectedStat>MaxStamina</AffectedStat>
-          <AffectedStat_TagUID>79</AffectedStat_TagUID>
+        </DM_Effect>
+        <DM_Effect xsi:type="DM_AffectStat">
+          <Delay>0</Delay>
+          <SyncType>OwnerSync</SyncType>
+          <OverrideCategory>None</OverrideCategory>
+          <Stat_Tag>MaxStamina</Stat_Tag>
           <AffectQuantity>15</AffectQuantity>
           <IsModifier>false</IsModifier>
-        </EffectHolder>
-        <EffectHolder xsi:type="AffectStatHolder">
-          <AffectedStat>MaxMana</AffectedStat>
-          <AffectedStat_TagUID>158</AffectedStat_TagUID>
+        </DM_Effect>
+        <DM_Effect xsi:type="DM_AffectStat">
+          <Delay>0</Delay>
+          <SyncType>OwnerSync</SyncType>
+          <OverrideCategory>None</OverrideCategory>
+          <Stat_Tag>MaxMana</Stat_Tag>
           <AffectQuantity>15</AffectQuantity>
           <IsModifier>false</IsModifier>
-        </EffectHolder>
+        </DM_Effect>
       </Effects>
       <EffectConditions />
       <ChildEffects />
-    </EffectTransformHolder>
+    </DM_EffectTransform>
   </EffectTransforms>
   <Cooldown>0</Cooldown>
   <StaminaCost>0</StaminaCost>
   <ManaCost>0</ManaCost>
   <DurabilityCost>0</DurabilityCost>
   <DurabilityCostPercent>0</DurabilityCostPercent>
-  <IsDLCSkill>true</IsDLCSkill>
   <RequiredItems />
-</ItemHolder>
+</DM_Skill>

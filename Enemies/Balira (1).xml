@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<EnemyHolder xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<DM_Enemy xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Name>Balira</Name>
   <GameObject_Name>VendavelWitch</GameObject_Name>
   <Unique_ID>1</Unique_ID>
@@ -75,11 +75,11 @@
     <DropTableEntry>
       <Item_Name>Astral Potion</Item_Name>
       <Item_ID>4300020</Item_ID>
-      <Min_Quantity>1</Min_Quantity>
-      <Max_Quantity>1</Max_Quantity>
+      <Min_Quantity>2</Min_Quantity>
+      <Max_Quantity>2</Max_Quantity>
     </DropTableEntry>
   </Guaranteed_Drops>
   <DropTable_Names>
     <string>DropTable_VendavelWitch</string>
   </DropTable_Names>
-</EnemyHolder>
+</DM_Enemy>

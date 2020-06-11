@@ -24,7 +24,7 @@
   </Loot_Containers>
   <Gatherables />
   <Item_Spawns>
-    <ItemSpawnHolder>
+    <DM_ItemSpawn>
       <Name>Gaberry Wine</Name>
       <Item_ID>4100590</Item_ID>
       <Quantity>3</Quantity>
@@ -45,7 +45,7 @@
           <z>-7.92952347</z>
         </Vector3>
       </positions>
-    </ItemSpawnHolder>
+    </DM_ItemSpawn>
   </Item_Spawns>
   <UniqueContainerList>
     <string>Ornate Chest_LWUz6ERd4UuflbCz-ZLfBA</string>

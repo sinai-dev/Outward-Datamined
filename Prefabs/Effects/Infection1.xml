@@ -1,21 +1,54 @@
 <?xml version="1.0" encoding="utf-8"?>
-<StatusEffectHolder xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <Name>Infection1</Name>
+<DM_Disease xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <PresetID>510</PresetID>
+  <Identifier>Infection1</Identifier>
+  <Name>Disease: Infection</Name>
+  <Description>Lose 3% of your health per minute. Eating restores [E2V1]% less food.</Description>
   <Lifespan>-1</Lifespan>
   <LengthType>Long</LengthType>
+  <RefreshRate>10</RefreshRate>
+  <BuildupRecoverySpeed>3</BuildupRecoverySpeed>
+  <IgnoreBuildupIfApplied>false</IgnoreBuildupIfApplied>
+  <DisplayedInHUD>true</DisplayedInHUD>
+  <IsHidden>false</IsHidden>
   <Tags>
     <string>Disease</string>
     <string>Status Type</string>
   </Tags>
-  <CanBeHealedBySleeping>false</CanBeHealedBySleeping>
-  <StraightSleepHealTime>-1</StraightSleepHealTime>
   <Effects>
-    <EffectHolder xsi:type="AffectStatHolder">
-      <AffectedStat>FoodEffectEfficiency</AffectedStat>
-      <AffectedStat_TagUID>142</AffectedStat_TagUID>
-      <AffectQuantity>0.5</AffectQuantity>
-      <IsModifier>true</IsModifier>
-    </EffectHolder>
+    <DM_EffectTransform>
+      <TransformName>Normal</TransformName>
+      <Effects>
+        <DM_Effect xsi:type="DM_VitalityDamage">
+          <Delay>0</Delay>
+          <SyncType>OwnerSync</SyncType>
+          <OverrideCategory>None</OverrideCategory>
+          <PercentOfMax>0.5</PercentOfMax>
+        </DM_Effect>
+      </Effects>
+      <EffectConditions />
+      <ChildEffects />
+    </DM_EffectTransform>
+    <DM_EffectTransform>
+      <TransformName>Activation</TransformName>
+      <Effects>
+        <DM_Effect xsi:type="DM_AffectStat">
+          <Delay>0</Delay>
+          <SyncType>OwnerSync</SyncType>
+          <OverrideCategory>None</OverrideCategory>
+          <Stat_Tag>FoodEffectEfficiency</Stat_Tag>
+          <AffectQuantity>-15</AffectQuantity>
+          <IsModifier>true</IsModifier>
+        </DM_Effect>
+      </Effects>
+      <EffectConditions />
+      <ChildEffects />
+    </DM_EffectTransform>
   </Effects>
-</StatusEffectHolder>
+  <DiseaseType>Infection</DiseaseType>
+  <AutoHealTime>-1</AutoHealTime>
+  <CanDegenerate>false</CanDegenerate>
+  <DegenerateTime>48</DegenerateTime>
+  <StraightSleepHealTime>-1</StraightSleepHealTime>
+  <CanBeHealedBySleeping>false</CanBeHealedBySleeping>
+</DM_Disease>

@@ -53,7 +53,7 @@
     </QuantityHolder>
   </Gatherables>
   <Item_Spawns>
-    <ItemSpawnHolder>
+    <DM_ItemSpawn>
       <Name>Greasy Fern</Name>
       <Item_ID>6000020</Item_ID>
       <Quantity>5</Quantity>
@@ -84,7 +84,7 @@
           <z>-54.221</z>
         </Vector3>
       </positions>
-    </ItemSpawnHolder>
+    </DM_ItemSpawn>
   </Item_Spawns>
   <UniqueContainerList>
     <string>Junk Pile_7zyMcL_SCU2RkpNqsG2rzg</string>

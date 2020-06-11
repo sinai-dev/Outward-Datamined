@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<MerchantHolder xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<DM_Merchant xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Name>Soroborean Caravanner</Name>
   <UID>-MSrkT502k63y3CV2j98TQ</UID>
   <DropTable>
@@ -411,4 +411,4 @@
   </DropTable>
   <BuyModifiers />
   <SellModifiers />
-</MerchantHolder>
+</DM_Merchant>

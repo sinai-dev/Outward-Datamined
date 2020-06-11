@@ -1,17 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RecipeHolder xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <StationType>Cooking</StationType>
+<DM_Recipe xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Name>Cactus Pie</Name>
   <RecipeID>67</RecipeID>
+  <UID />
+  <StationType>Cooking</StationType>
   <Ingredients>
     <string>Cactus Fruit</string>
     <string>Cactus Fruit</string>
     <string>Bread</string>
   </Ingredients>
   <Results>
-    <ItemQuantityHolder>
+    <ItemQty>
       <ItemName>Cactus Pie</ItemName>
+      <ItemID>4100490</ItemID>
       <Quantity>3</Quantity>
-    </ItemQuantityHolder>
+    </ItemQty>
   </Results>
-</RecipeHolder>
+</DM_Recipe>

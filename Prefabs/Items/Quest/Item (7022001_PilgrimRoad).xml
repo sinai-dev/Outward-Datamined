@@ -1,13 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ItemHolder xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="QuestHolder">
-  <ItemID>7022001</ItemID>
-  <Name>Item</Name>
+<DM_Item xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <gameObjectName>7022001_PilgrimRoad</gameObjectName>
   <saveDir>/Quest</saveDir>
+  <ItemID>7022001</ItemID>
+  <Name>Item</Name>
   <Description />
   <LegacyItemID>-1</LegacyItemID>
-  <PerishTime>-1</PerishTime>
+  <IsPickable>true</IsPickable>
+  <IsUsable>false</IsUsable>
+  <QtyRemovedOnUse>1</QtyRemovedOnUse>
+  <GroupItemInDisplay>false</GroupItemInDisplay>
+  <HasPhysicsWhenWorld>false</HasPhysicsWhenWorld>
+  <RepairedInRest>true</RepairedInRest>
+  <BehaviorOnNoDurability>NotSet</BehaviorOnNoDurability>
+  <CastType>NONE</CastType>
+  <CastModifier>Immobilized</CastModifier>
+  <CastLocomotionEnabled>false</CastLocomotionEnabled>
+  <MobileCastMovementMult>-1</MobileCastMovementMult>
+  <CastSheatheRequired>1</CastSheatheRequired>
   <Tags />
   <EffectTransforms />
-  <SerializedCanvas>{"version":2.92,"type":"NodeCanvas.StateMachines.QuestTree","translation":{"x":-4645.0,"y":-4287.0},"zoomFactor":0.8450215,"nodes":[{"_actionList":{"executionMode":"ActionsRunInParallel","actions":[{"statement":{"_text":"The Disciples built shrines as trail markers when they battled the savage tribe of Monsoon into submission. Before the creation of the beacon of light it was the only safe guidance toward the secret city."},"logParameters":[],"$type":"NodeCanvas.Tasks.Actions.QuestAction_AddLogEntry"}]},"_position":{"x":5540.0,"y":5372.0},"$type":"NodeCanvas.StateMachines.QuestStep","$id":"2"},{"_actionList":{"executionMode":"ActionsRunInParallel","actions":[{"statement":{"_text":"A pilgrim can express his devotion and contempt for dangers by praying to each shrines."},"logParameters":[],"$type":"NodeCanvas.Tasks.Actions.QuestAction_AddLogEntry"}]},"_position":{"x":5942.0,"y":5438.0},"$type":"NodeCanvas.StateMachines.QuestStep","$id":"7"},{"_actionList":{"executionMode":"ActionsRunInParallel","actions":[{"statement":{"_text":"I have proven my sense of purpose and patience, maintaining each shrine in the Halowed Marsh."},"logParameters":[],"$type":"NodeCanvas.Tasks.Actions.QuestAction_AddLogEntry"}]},"_position":{"x":6339.0,"y":5501.0},"$type":"NodeCanvas.StateMachines.QuestStep","$id":"12"},{"_actionList":{"executionMode":"ActionsRunInParallel","actions":[{"SilverAmount":{},"XpAmount":{"_value":200},"ItemReward":[],"$type":"NodeCanvas.Tasks.Actions.GiveReward"}]},"_position":{"x":6734.0,"y":5574.0},"$type":"NodeCanvas.StateMachines.ActionState","$id":"17"},{"_actionList":{"executionMode":"ActionsRunInParallel","actions":[{"isSuccessful":{"_value":true},"$type":"NodeCanvas.Tasks.Actions.CompleteQuest"}]},"_position":{"x":7010.0,"y":5603.0},"$type":"NodeCanvas.StateMachines.QuestStep","$id":"24"}],"connections":[{"_sourceNode":{"$ref":"2"},"_targetNode":{"$ref":"7"},"$type":"NodeCanvas.StateMachines.FSMConnection"},{"_sourceNode":{"$ref":"7"},"_targetNode":{"$ref":"12"},"$type":"NodeCanvas.StateMachines.FSMConnection"},{"_sourceNode":{"$ref":"12"},"_targetNode":{"$ref":"17"},"$type":"NodeCanvas.StateMachines.FSMConnection"},{"_sourceNode":{"$ref":"17"},"_targetNode":{"$ref":"24"},"$type":"NodeCanvas.StateMachines.FSMConnection"}],"localBlackboard":{"_name":"Local Blackboard","_variables":{}}}</SerializedCanvas>
-</ItemHolder>
+</DM_Item>

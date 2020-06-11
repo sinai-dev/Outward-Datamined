@@ -57,7 +57,7 @@
     </QuantityHolder>
   </Gatherables>
   <Item_Spawns>
-    <ItemSpawnHolder>
+    <DM_ItemSpawn>
       <Name>Primitive Satchel</Name>
       <Item_ID>5300120</Item_ID>
       <Quantity>1</Quantity>
@@ -68,7 +68,7 @@
           <z>-89.397</z>
         </Vector3>
       </positions>
-    </ItemSpawnHolder>
+    </DM_ItemSpawn>
   </Item_Spawns>
   <UniqueContainerList>
     <string>Junk Pile_KnFwhaSP9kGCig1ZSb1QvQ</string>

@@ -25,7 +25,7 @@
     </QuantityHolder>
   </Gatherables>
   <Item_Spawns>
-    <ItemSpawnHolder>
+    <DM_ItemSpawn>
       <Name>Phytosaur Horn</Name>
       <Item_ID>6600160</Item_ID>
       <Quantity>1</Quantity>
@@ -36,7 +36,7 @@
           <z>23.58</z>
         </Vector3>
       </positions>
-    </ItemSpawnHolder>
+    </DM_ItemSpawn>
   </Item_Spawns>
   <UniqueContainerList>
     <string>Hollowed Trunk_WPkQYr0Xz0CN9fXXNPI5BA</string>

@@ -176,7 +176,7 @@
     </QuantityHolder>
   </Gatherables>
   <Item_Spawns>
-    <ItemSpawnHolder>
+    <DM_ItemSpawn>
       <Name>Primitive Satchel</Name>
       <Item_ID>5300120</Item_ID>
       <Quantity>1</Quantity>
@@ -187,8 +187,8 @@
           <z>497.3289</z>
         </Vector3>
       </positions>
-    </ItemSpawnHolder>
-    <ItemSpawnHolder>
+    </DM_ItemSpawn>
+    <DM_ItemSpawn>
       <Name>Shiv Dagger</Name>
       <Item_ID>5110003</Item_ID>
       <Quantity>1</Quantity>
@@ -199,8 +199,8 @@
           <z>572.697</z>
         </Vector3>
       </positions>
-    </ItemSpawnHolder>
-    <ItemSpawnHolder>
+    </DM_ItemSpawn>
+    <DM_ItemSpawn>
       <Name>Iron Spear</Name>
       <Item_ID>2130110</Item_ID>
       <Quantity>2</Quantity>
@@ -216,7 +216,7 @@
           <z>498.28</z>
         </Vector3>
       </positions>
-    </ItemSpawnHolder>
+    </DM_ItemSpawn>
   </Item_Spawns>
   <UniqueContainerList>
     <string>Supply Cache_VAr_cNKQk0-Gy_6kEhT7Lg</string>

@@ -1,17 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ItemHolder xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <ItemID>4100510</ItemID>
-  <Name>Fungal Cleanser</Name>
+<DM_Item xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <gameObjectName>4100510_MyconicDelight</gameObjectName>
   <saveDir>/Food</saveDir>
+  <ItemID>4100510</ItemID>
+  <Name>Fungal Cleanser</Name>
   <Description>Medicinal mushroom dish that removes poison and diseases.</Description>
   <LegacyItemID>-1</LegacyItemID>
+  <IsPickable>true</IsPickable>
+  <IsUsable>true</IsUsable>
+  <QtyRemovedOnUse>1</QtyRemovedOnUse>
+  <GroupItemInDisplay>true</GroupItemInDisplay>
+  <HasPhysicsWhenWorld>false</HasPhysicsWhenWorld>
+  <RepairedInRest>true</RepairedInRest>
+  <BehaviorOnNoDurability>NotSet</BehaviorOnNoDurability>
+  <CastType>Eat</CastType>
+  <CastModifier>Immobilized</CastModifier>
+  <CastLocomotionEnabled>false</CastLocomotionEnabled>
+  <MobileCastMovementMult>-1</MobileCastMovementMult>
+  <CastSheatheRequired>1</CastSheatheRequired>
   <PerishTime>29 Days, 18 Hours, 17 Minutes, 8 Seconds</PerishTime>
-  <StatsHolder>
-    <BaseValue>15</BaseValue>
-    <RawWeight>0.5</RawWeight>
-    <MaxDurability>100</MaxDurability>
-  </StatsHolder>
   <Tags>
     <string>Dish</string>
     <string>Food</string>
@@ -21,37 +28,56 @@
     <string>Ingredient Cook</string>
     <string>Ingredient</string>
   </Tags>
+  <StatsHolder>
+    <BaseValue>15</BaseValue>
+    <RawWeight>0.5</RawWeight>
+    <MaxDurability>100</MaxDurability>
+  </StatsHolder>
   <EffectTransforms>
-    <EffectTransformHolder>
+    <DM_EffectTransform>
       <TransformName>Effects</TransformName>
       <Effects>
-        <EffectHolder xsi:type="AffectNeedHolder">
-          <Need>AffectFood</Need>
+        <DM_Effect xsi:type="DM_AffectFood">
+          <Delay>0</Delay>
+          <SyncType>OwnerSync</SyncType>
+          <OverrideCategory>None</OverrideCategory>
           <AffectQuantity>175</AffectQuantity>
-        </EffectHolder>
-        <EffectHolder xsi:type="RemoveStatusEffectHolder">
-          <StatusEffect_ByTag>None</StatusEffect_ByTag>
-          <StatusEffect_Family>Cold</StatusEffect_Family>
-          <StatusEffect_ByName />
-        </EffectHolder>
-        <EffectHolder xsi:type="RemoveStatusEffectHolder">
-          <StatusEffect_ByTag>None</StatusEffect_ByTag>
-          <StatusEffect_Family>Indigestion</StatusEffect_Family>
-          <StatusEffect_ByName />
-        </EffectHolder>
-        <EffectHolder xsi:type="RemoveStatusEffectHolder">
-          <StatusEffect_ByTag>None</StatusEffect_ByTag>
-          <StatusEffect_Family>Infection</StatusEffect_Family>
-          <StatusEffect_ByName />
-        </EffectHolder>
-        <EffectHolder xsi:type="RemoveStatusEffectHolder">
-          <StatusEffect_ByTag>Poison</StatusEffect_ByTag>
-          <StatusEffect_Family>PoisonHex</StatusEffect_Family>
-          <StatusEffect_ByName />
-        </EffectHolder>
+        </DM_Effect>
+        <DM_Effect xsi:type="DM_RemoveStatusEffect">
+          <Delay>0</Delay>
+          <SyncType>OwnerSync</SyncType>
+          <OverrideCategory>None</OverrideCategory>
+          <Status_Name>nJ7HATl_Q0qHOI4u5pYjpg</Status_Name>
+          <Status_Tag />
+          <CleanseType>StatusFamily</CleanseType>
+        </DM_Effect>
+        <DM_Effect xsi:type="DM_RemoveStatusEffect">
+          <Delay>0</Delay>
+          <SyncType>OwnerSync</SyncType>
+          <OverrideCategory>None</OverrideCategory>
+          <Status_Name>tWe4Kv_Oik6LysHxZbzF2Q</Status_Name>
+          <Status_Tag />
+          <CleanseType>StatusFamily</CleanseType>
+        </DM_Effect>
+        <DM_Effect xsi:type="DM_RemoveStatusEffect">
+          <Delay>0</Delay>
+          <SyncType>OwnerSync</SyncType>
+          <OverrideCategory>None</OverrideCategory>
+          <Status_Name>jFnA16LJaEKXCBB6JSffHA</Status_Name>
+          <Status_Tag />
+          <CleanseType>StatusFamily</CleanseType>
+        </DM_Effect>
+        <DM_Effect xsi:type="DM_RemoveStatusEffect">
+          <Delay>0</Delay>
+          <SyncType>OwnerSync</SyncType>
+          <OverrideCategory>None</OverrideCategory>
+          <Status_Name />
+          <Status_Tag>Poison</Status_Tag>
+          <CleanseType>StatusType</CleanseType>
+        </DM_Effect>
       </Effects>
       <EffectConditions />
       <ChildEffects />
-    </EffectTransformHolder>
+    </DM_EffectTransform>
   </EffectTransforms>
-</ItemHolder>
+</DM_Item>

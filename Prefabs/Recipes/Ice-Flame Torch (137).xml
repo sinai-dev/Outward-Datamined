@@ -1,17 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RecipeHolder xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <StationType>Survival</StationType>
+<DM_Recipe xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Name>Ice-Flame Torch</Name>
   <RecipeID>137</RecipeID>
+  <UID />
+  <StationType>Survival</StationType>
   <Ingredients>
     <string>Makeshift Torch</string>
     <string>Cold Stone</string>
     <string>Iron Scrap</string>
   </Ingredients>
   <Results>
-    <ItemQuantityHolder>
+    <ItemQty>
       <ItemName>Ice-Flame Torch</ItemName>
+      <ItemID>5100070</ItemID>
       <Quantity>1</Quantity>
-    </ItemQuantityHolder>
+    </ItemQty>
   </Results>
-</RecipeHolder>
+</DM_Recipe>

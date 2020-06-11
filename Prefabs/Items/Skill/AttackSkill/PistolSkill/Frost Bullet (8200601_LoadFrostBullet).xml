@@ -1,99 +1,147 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ItemHolder xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="SkillHolder">
-  <ItemID>8200601</ItemID>
-  <Name>Frost Bullet</Name>
+<DM_AttackSkill xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <gameObjectName>8200601_LoadFrostBullet</gameObjectName>
   <saveDir>/Skill/AttackSkill/PistolSkill</saveDir>
+  <ItemID>8200601</ItemID>
+  <Name>Frost Bullet</Name>
   <Description>Required: Pistol, Cool Boon
 
 Load the pistol with a bullet that makes a short-distance blast which slows enemies. Removes your Cool boon.
 
 Shooting it requires the use of the Fire/Reload skill.</Description>
   <LegacyItemID>-1</LegacyItemID>
-  <PerishTime>-1</PerishTime>
+  <IsPickable>true</IsPickable>
+  <IsUsable>false</IsUsable>
+  <QtyRemovedOnUse>1</QtyRemovedOnUse>
+  <GroupItemInDisplay>false</GroupItemInDisplay>
+  <HasPhysicsWhenWorld>false</HasPhysicsWhenWorld>
+  <RepairedInRest>true</RepairedInRest>
+  <BehaviorOnNoDurability>NotSet</BehaviorOnNoDurability>
+  <CastType>PistolFrostReload</CastType>
+  <CastModifier>Attack</CastModifier>
+  <CastLocomotionEnabled>false</CastLocomotionEnabled>
+  <MobileCastMovementMult>-1</MobileCastMovementMult>
+  <CastSheatheRequired>0</CastSheatheRequired>
   <Tags />
   <EffectTransforms>
-    <EffectTransformHolder>
+    <DM_EffectTransform>
       <TransformName>Effects</TransformName>
       <Effects>
-        <EffectHolder xsi:type="ImbueWeaponHolder">
+        <DM_Effect xsi:type="DM_ImbueWeapon">
+          <Delay>0</Delay>
+          <SyncType>OwnerSync</SyncType>
+          <OverrideCategory>None</OverrideCategory>
           <Lifespan>-1</Lifespan>
-          <ImbueEffect_Preset_Name>Frost Bullet Imbue</ImbueEffect_Preset_Name>
           <ImbueEffect_Preset_ID>250</ImbueEffect_Preset_ID>
           <Imbue_Slot>OffHand</Imbue_Slot>
-        </EffectHolder>
-        <EffectHolder xsi:type="RemoveStatusEffectHolder">
-          <StatusEffect>Cool</StatusEffect>
-          <StatusEffect_ByTag>Cool</StatusEffect_ByTag>
-          <StatusEffect_Family />
-          <StatusEffect_ByName />
-        </EffectHolder>
+        </DM_Effect>
+        <DM_Effect xsi:type="DM_RemoveStatusEffect">
+          <Delay>0</Delay>
+          <SyncType>OwnerSync</SyncType>
+          <OverrideCategory>None</OverrideCategory>
+          <Status_Name />
+          <Status_Tag>Cool</Status_Tag>
+          <CleanseType>StatusType</CleanseType>
+        </DM_Effect>
+        <DM_Effect xsi:type="DM_UnloadWeapon">
+          <Delay>0</Delay>
+          <SyncType>OwnerSync</SyncType>
+          <OverrideCategory>None</OverrideCategory>
+          <WeaponSlot>OffHand</WeaponSlot>
+        </DM_Effect>
       </Effects>
       <EffectConditions>
-        <EffectConditionHolder>
-          <Conditions>
-            <ConditionHolder>
-              <Requirement>Cool</Requirement>
-              <Condition_Type>Target has status</Condition_Type>
-              <Invert>false</Invert>
-            </ConditionHolder>
-          </Conditions>
-        </EffectConditionHolder>
-        <EffectConditionHolder>
-          <Conditions>
-            <ConditionHolder>
-              <Condition_Type>ImbueEffectCondition</Condition_Type>
-              <Invert>true</Invert>
-            </ConditionHolder>
-          </Conditions>
-        </EffectConditionHolder>
+        <DM_EffectCondition xsi:type="DM_HasStatusEffectEffectCondition">
+          <Invert>false</Invert>
+          <DiseaseAge>0</DiseaseAge>
+          <CheckOwner>false</CheckOwner>
+          <StatusSelectorType>StatusType</StatusSelectorType>
+          <SelectorValue>Cool</SelectorValue>
+        </DM_EffectCondition>
+        <DM_EffectCondition xsi:type="DM_ImbueEffectCondition">
+          <Invert>true</Invert>
+          <ImbuePresetID>-1</ImbuePresetID>
+          <AnyImbue>true</AnyImbue>
+          <WeaponToCheck>OffHand</WeaponToCheck>
+        </DM_EffectCondition>
       </EffectConditions>
       <ChildEffects />
-    </EffectTransformHolder>
-    <EffectTransformHolder>
+    </DM_EffectTransform>
+    <DM_EffectTransform>
       <TransformName>AdditionalActivationConditions</TransformName>
       <Effects />
       <EffectConditions />
       <ChildEffects>
-        <EffectTransformHolder>
+        <DM_EffectTransform>
           <TransformName>HasColdBoon</TransformName>
           <Effects />
           <EffectConditions>
-            <EffectConditionHolder>
-              <Conditions>
-                <ConditionHolder>
-                  <Requirement>Cool</Requirement>
-                  <Condition_Type>Target has status</Condition_Type>
-                  <Invert>false</Invert>
-                </ConditionHolder>
-              </Conditions>
-            </EffectConditionHolder>
+            <DM_EffectCondition xsi:type="DM_HasStatusEffectEffectCondition">
+              <Invert>false</Invert>
+              <DiseaseAge>0</DiseaseAge>
+              <CheckOwner>false</CheckOwner>
+              <StatusSelectorType>StatusType</StatusSelectorType>
+              <SelectorValue>Cool</SelectorValue>
+            </DM_EffectCondition>
           </EffectConditions>
           <ChildEffects />
-        </EffectTransformHolder>
-        <EffectTransformHolder>
+        </DM_EffectTransform>
+        <DM_EffectTransform>
           <TransformName>NotImbued</TransformName>
           <Effects />
           <EffectConditions>
-            <EffectConditionHolder>
-              <Conditions>
-                <ConditionHolder>
-                  <Condition_Type>ImbueEffectCondition</Condition_Type>
-                  <Invert>true</Invert>
-                </ConditionHolder>
-              </Conditions>
-            </EffectConditionHolder>
+            <DM_EffectCondition xsi:type="DM_ImbueEffectCondition">
+              <Invert>true</Invert>
+              <ImbuePresetID>-1</ImbuePresetID>
+              <AnyImbue>true</AnyImbue>
+              <WeaponToCheck>OffHand</WeaponToCheck>
+            </DM_EffectCondition>
           </EffectConditions>
           <ChildEffects />
-        </EffectTransformHolder>
+        </DM_EffectTransform>
       </ChildEffects>
-    </EffectTransformHolder>
+    </DM_EffectTransform>
+    <DM_EffectTransform>
+      <TransformName>ActivationEffects</TransformName>
+      <Effects>
+        <DM_Effect xsi:type="DM_PlaySoundEffect">
+          <Delay>0</Delay>
+          <SyncType>OwnerSync</SyncType>
+          <OverrideCategory>None</OverrideCategory>
+          <Sounds>
+            <Sounds>SFX_SKILL_FrostBullet_Preparation</Sounds>
+          </Sounds>
+          <Follow>false</Follow>
+          <MinPitch>1</MinPitch>
+          <MaxPitch>1</MaxPitch>
+        </DM_Effect>
+        <DM_Effect xsi:type="DM_PlaySoundEffect">
+          <Delay>1.6</Delay>
+          <SyncType>OwnerSync</SyncType>
+          <OverrideCategory>None</OverrideCategory>
+          <Sounds>
+            <Sounds>SFX_SKILL_FrostSigil_Release</Sounds>
+          </Sounds>
+          <Follow>false</Follow>
+          <MinPitch>1</MinPitch>
+          <MaxPitch>1</MaxPitch>
+        </DM_Effect>
+      </Effects>
+      <EffectConditions />
+      <ChildEffects />
+    </DM_EffectTransform>
   </EffectTransforms>
   <Cooldown>0</Cooldown>
   <StaminaCost>0</StaminaCost>
   <ManaCost>0</ManaCost>
   <DurabilityCost>0</DurabilityCost>
   <DurabilityCostPercent>0</DurabilityCostPercent>
-  <IsDLCSkill>true</IsDLCSkill>
   <RequiredItems />
-</ItemHolder>
+  <AmmunitionTypes />
+  <RequiredOffHandTypes>
+    <WeaponType>Pistol_OH</WeaponType>
+  </RequiredOffHandTypes>
+  <RequiredWeaponTypes />
+  <RequiredWeaponTags />
+  <RequireImbue>false</RequireImbue>
+</DM_AttackSkill>

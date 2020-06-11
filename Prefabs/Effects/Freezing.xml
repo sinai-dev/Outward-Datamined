@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DM_StatusEffect xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <PresetID>1007</PresetID>
+  <Identifier>Freezing</Identifier>
+  <Name>Needs: Very Cold</Name>
+  <Description>Can catch a Cold. Movement Speed [E2V1]%. Take [E1V1] Frost Damage per second.</Description>
+  <Lifespan>-1</Lifespan>
+  <LengthType>Short</LengthType>
+  <RefreshRate>2</RefreshRate>
+  <BuildupRecoverySpeed>3</BuildupRecoverySpeed>
+  <IgnoreBuildupIfApplied>false</IgnoreBuildupIfApplied>
+  <DisplayedInHUD>true</DisplayedInHUD>
+  <IsHidden>false</IsHidden>
+  <Tags />
+  <Effects>
+    <DM_EffectTransform>
+      <TransformName>Effects</TransformName>
+      <Effects>
+        <DM_Effect xsi:type="DM_PunctualDamage">
+          <Delay>0</Delay>
+          <SyncType>OwnerSync</SyncType>
+          <OverrideCategory>None</OverrideCategory>
+          <Damage>
+            <Damages>
+              <Damage>1</Damage>
+              <Damage_Type>Frost</Damage_Type>
+            </Damages>
+          </Damage>
+          <Damages_AI />
+          <Knockback>0</Knockback>
+          <HitInventory>false</HitInventory>
+        </DM_Effect>
+      </Effects>
+      <EffectConditions />
+      <ChildEffects />
+    </DM_EffectTransform>
+    <DM_EffectTransform>
+      <TransformName>ActivationEffects</TransformName>
+      <Effects>
+        <DM_Effect xsi:type="DM_AffectStat">
+          <Delay>0</Delay>
+          <SyncType>OwnerSync</SyncType>
+          <OverrideCategory>None</OverrideCategory>
+          <Stat_Tag>MovementSpeed</Stat_Tag>
+          <AffectQuantity>-15</AffectQuantity>
+          <IsModifier>true</IsModifier>
+        </DM_Effect>
+      </Effects>
+      <EffectConditions />
+      <ChildEffects />
+    </DM_EffectTransform>
+  </Effects>
+</DM_StatusEffect>

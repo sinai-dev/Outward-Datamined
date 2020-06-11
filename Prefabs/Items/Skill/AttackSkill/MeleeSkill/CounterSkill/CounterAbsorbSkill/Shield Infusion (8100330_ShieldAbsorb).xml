@@ -1,132 +1,225 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ItemHolder xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="SkillHolder">
-  <ItemID>8100330</ItemID>
-  <Name>Shield Infusion</Name>
+<DM_CounterAbsorbSkill xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <gameObjectName>8100330_ShieldAbsorb</gameObjectName>
   <saveDir>/Skill/AttackSkill/MeleeSkill/CounterSkill/CounterAbsorbSkill</saveDir>
+  <ItemID>8100330</ItemID>
+  <Name>Shield Infusion</Name>
   <Description>Required: Shield
 
 Block an elemental attack. When you next block, an elemental explosion will burst from you.</Description>
   <LegacyItemID>-1</LegacyItemID>
-  <PerishTime>-1</PerishTime>
+  <IsPickable>false</IsPickable>
+  <IsUsable>false</IsUsable>
+  <QtyRemovedOnUse>1</QtyRemovedOnUse>
+  <GroupItemInDisplay>false</GroupItemInDisplay>
+  <HasPhysicsWhenWorld>false</HasPhysicsWhenWorld>
+  <RepairedInRest>true</RepairedInRest>
+  <BehaviorOnNoDurability>NotSet</BehaviorOnNoDurability>
+  <CastType>ShieldAbsorb</CastType>
+  <CastModifier>Attack</CastModifier>
+  <CastLocomotionEnabled>false</CastLocomotionEnabled>
+  <MobileCastMovementMult>-1</MobileCastMovementMult>
+  <CastSheatheRequired>0</CastSheatheRequired>
   <Tags />
   <EffectTransforms>
-    <EffectTransformHolder>
+    <DM_EffectTransform>
       <TransformName>HitEffectsBolt</TransformName>
       <Effects>
-        <EffectHolder xsi:type="ImbueWeaponHolder">
+        <DM_Effect xsi:type="DM_ImbueWeapon">
+          <Delay>0</Delay>
+          <SyncType>OwnerSync</SyncType>
+          <OverrideCategory>None</OverrideCategory>
           <Lifespan>600</Lifespan>
-          <ImbueEffect_Preset_Name>Lightning Shield Imbue</ImbueEffect_Preset_Name>
           <ImbueEffect_Preset_ID>216</ImbueEffect_Preset_ID>
           <Imbue_Slot>OffHand</Imbue_Slot>
-        </EffectHolder>
+        </DM_Effect>
       </Effects>
       <EffectConditions>
-        <EffectConditionHolder>
-          <Conditions>
-            <ConditionHolder>
-              <Condition_Type>BooleanCondition</Condition_Type>
-              <Invert>false</Invert>
-            </ConditionHolder>
-          </Conditions>
-        </EffectConditionHolder>
+        <DM_EffectCondition xsi:type="DM_BooleanCondition">
+          <Invert>false</Invert>
+          <Valid>false</Valid>
+        </DM_EffectCondition>
       </EffectConditions>
       <ChildEffects />
-    </EffectTransformHolder>
-    <EffectTransformHolder>
+    </DM_EffectTransform>
+    <DM_EffectTransform>
       <TransformName>HitEffectsFire</TransformName>
       <Effects>
-        <EffectHolder xsi:type="ImbueWeaponHolder">
+        <DM_Effect xsi:type="DM_ImbueWeapon">
+          <Delay>0</Delay>
+          <SyncType>OwnerSync</SyncType>
+          <OverrideCategory>None</OverrideCategory>
           <Lifespan>600</Lifespan>
-          <ImbueEffect_Preset_Name>Fire Shield Imbue</ImbueEffect_Preset_Name>
           <ImbueEffect_Preset_ID>214</ImbueEffect_Preset_ID>
           <Imbue_Slot>OffHand</Imbue_Slot>
-        </EffectHolder>
+        </DM_Effect>
       </Effects>
       <EffectConditions>
-        <EffectConditionHolder>
-          <Conditions>
-            <ConditionHolder>
-              <Condition_Type>BooleanCondition</Condition_Type>
-              <Invert>false</Invert>
-            </ConditionHolder>
-          </Conditions>
-        </EffectConditionHolder>
+        <DM_EffectCondition xsi:type="DM_BooleanCondition">
+          <Invert>false</Invert>
+          <Valid>false</Valid>
+        </DM_EffectCondition>
       </EffectConditions>
       <ChildEffects />
-    </EffectTransformHolder>
-    <EffectTransformHolder>
+    </DM_EffectTransform>
+    <DM_EffectTransform>
       <TransformName>HitEffectsIce</TransformName>
       <Effects>
-        <EffectHolder xsi:type="ImbueWeaponHolder">
+        <DM_Effect xsi:type="DM_ImbueWeapon">
+          <Delay>0</Delay>
+          <SyncType>OwnerSync</SyncType>
+          <OverrideCategory>None</OverrideCategory>
           <Lifespan>600</Lifespan>
-          <ImbueEffect_Preset_Name>Frost Shield Imbue</ImbueEffect_Preset_Name>
           <ImbueEffect_Preset_ID>215</ImbueEffect_Preset_ID>
           <Imbue_Slot>OffHand</Imbue_Slot>
-        </EffectHolder>
+        </DM_Effect>
       </Effects>
       <EffectConditions>
-        <EffectConditionHolder>
-          <Conditions>
-            <ConditionHolder>
-              <Condition_Type>BooleanCondition</Condition_Type>
-              <Invert>false</Invert>
-            </ConditionHolder>
-          </Conditions>
-        </EffectConditionHolder>
+        <DM_EffectCondition xsi:type="DM_BooleanCondition">
+          <Invert>false</Invert>
+          <Valid>false</Valid>
+        </DM_EffectCondition>
       </EffectConditions>
       <ChildEffects />
-    </EffectTransformHolder>
-    <EffectTransformHolder>
+    </DM_EffectTransform>
+    <DM_EffectTransform>
       <TransformName>HitEffectsEthereal</TransformName>
       <Effects>
-        <EffectHolder xsi:type="ImbueWeaponHolder">
+        <DM_Effect xsi:type="DM_ImbueWeapon">
+          <Delay>0</Delay>
+          <SyncType>OwnerSync</SyncType>
+          <OverrideCategory>None</OverrideCategory>
           <Lifespan>600</Lifespan>
-          <ImbueEffect_Preset_Name>Ethereal Shield Imbue</ImbueEffect_Preset_Name>
           <ImbueEffect_Preset_ID>213</ImbueEffect_Preset_ID>
           <Imbue_Slot>OffHand</Imbue_Slot>
-        </EffectHolder>
+        </DM_Effect>
       </Effects>
       <EffectConditions>
-        <EffectConditionHolder>
-          <Conditions>
-            <ConditionHolder>
-              <Condition_Type>BooleanCondition</Condition_Type>
-              <Invert>false</Invert>
-            </ConditionHolder>
-          </Conditions>
-        </EffectConditionHolder>
+        <DM_EffectCondition xsi:type="DM_BooleanCondition">
+          <Invert>false</Invert>
+          <Valid>false</Valid>
+        </DM_EffectCondition>
       </EffectConditions>
       <ChildEffects />
-    </EffectTransformHolder>
-    <EffectTransformHolder>
+    </DM_EffectTransform>
+    <DM_EffectTransform>
       <TransformName>HitEffectsDecay</TransformName>
       <Effects>
-        <EffectHolder xsi:type="ImbueWeaponHolder">
+        <DM_Effect xsi:type="DM_ImbueWeapon">
+          <Delay>0</Delay>
+          <SyncType>OwnerSync</SyncType>
+          <OverrideCategory>None</OverrideCategory>
           <Lifespan>600</Lifespan>
-          <ImbueEffect_Preset_Name>Decay Shield Imbue</ImbueEffect_Preset_Name>
           <ImbueEffect_Preset_ID>212</ImbueEffect_Preset_ID>
           <Imbue_Slot>OffHand</Imbue_Slot>
-        </EffectHolder>
+        </DM_Effect>
       </Effects>
       <EffectConditions>
-        <EffectConditionHolder>
-          <Conditions>
-            <ConditionHolder>
-              <Condition_Type>BooleanCondition</Condition_Type>
-              <Invert>false</Invert>
-            </ConditionHolder>
-          </Conditions>
-        </EffectConditionHolder>
+        <DM_EffectCondition xsi:type="DM_BooleanCondition">
+          <Invert>false</Invert>
+          <Valid>false</Valid>
+        </DM_EffectCondition>
       </EffectConditions>
       <ChildEffects />
-    </EffectTransformHolder>
+    </DM_EffectTransform>
+    <DM_EffectTransform>
+      <TransformName>ActivationEffects</TransformName>
+      <Effects>
+        <DM_Effect xsi:type="DM_PlaySoundEffect">
+          <Delay>0</Delay>
+          <SyncType>OwnerSync</SyncType>
+          <OverrideCategory>None</OverrideCategory>
+          <Sounds>
+            <Sounds>SFX_SKILL_ShieldAbsorb_Spell</Sounds>
+          </Sounds>
+          <Follow>false</Follow>
+          <MinPitch>1</MinPitch>
+          <MaxPitch>1</MaxPitch>
+        </DM_Effect>
+      </Effects>
+      <EffectConditions />
+      <ChildEffects />
+    </DM_EffectTransform>
   </EffectTransforms>
   <Cooldown>60</Cooldown>
   <StaminaCost>5</StaminaCost>
   <ManaCost>0</ManaCost>
   <DurabilityCost>10</DurabilityCost>
   <DurabilityCostPercent>0</DurabilityCostPercent>
-  <IsDLCSkill>true</IsDLCSkill>
   <RequiredItems />
-</ItemHolder>
+  <AmmunitionTypes />
+  <RequiredOffHandTypes>
+    <WeaponType>Shield</WeaponType>
+  </RequiredOffHandTypes>
+  <RequiredWeaponTypes />
+  <RequiredWeaponTags />
+  <RequireImbue>false</RequireImbue>
+  <Blockable>true</Blockable>
+  <Damage>0</Damage>
+  <Impact>0</Impact>
+  <LinecastCount>0</LinecastCount>
+  <Radius>0</Radius>
+  <Unblockable>false</Unblockable>
+  <BlockMult>0</BlockMult>
+  <DamageMult>0</DamageMult>
+  <KnockbackMult>0</KnockbackMult>
+  <BlockDamageTypes>
+    <Types>Physical</Types>
+  </BlockDamageTypes>
+  <CounterDamageTypes>
+    <Types>Ethereal</Types>
+    <Types>Decay</Types>
+    <Types>Electric</Types>
+    <Types>Frost</Types>
+    <Types>Fire</Types>
+  </CounterDamageTypes>
+  <MaxRange>99</MaxRange>
+  <TurnTowardsDealer>true</TurnTowardsDealer>
+  <Absorbs>
+    <AbsorbType>
+      <Condition>
+        <Invert>false</Invert>
+        <Valid>false</Valid>
+      </Condition>
+      <DamageTypes>
+        <Types>Fire</Types>
+      </DamageTypes>
+    </AbsorbType>
+    <AbsorbType>
+      <Condition>
+        <Invert>false</Invert>
+        <Valid>false</Valid>
+      </Condition>
+      <DamageTypes>
+        <Types>Frost</Types>
+      </DamageTypes>
+    </AbsorbType>
+    <AbsorbType>
+      <Condition>
+        <Invert>false</Invert>
+        <Valid>false</Valid>
+      </Condition>
+      <DamageTypes>
+        <Types>Electric</Types>
+      </DamageTypes>
+    </AbsorbType>
+    <AbsorbType>
+      <Condition>
+        <Invert>false</Invert>
+        <Valid>false</Valid>
+      </Condition>
+      <DamageTypes>
+        <Types>Ethereal</Types>
+      </DamageTypes>
+    </AbsorbType>
+    <AbsorbType>
+      <Condition>
+        <Invert>false</Invert>
+        <Valid>false</Valid>
+      </Condition>
+      <DamageTypes>
+        <Types>Decay</Types>
+      </DamageTypes>
+    </AbsorbType>
+  </Absorbs>
+</DM_CounterAbsorbSkill>

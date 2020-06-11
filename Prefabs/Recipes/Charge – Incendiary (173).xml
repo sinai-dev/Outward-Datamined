@@ -1,17 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RecipeHolder xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <StationType>Alchemy</StationType>
+<DM_Recipe xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Name>Charge – Incendiary</Name>
   <RecipeID>173</RecipeID>
+  <UID />
+  <StationType>Alchemy</StationType>
   <Ingredients>
     <string>Thick Oil</string>
     <string>Iron Scrap</string>
     <string>Salt</string>
   </Ingredients>
   <Results>
-    <ItemQuantityHolder>
+    <ItemQty>
       <ItemName>Charge – Incendiary</ItemName>
+      <ItemID>6500120</ItemID>
       <Quantity>3</Quantity>
-    </ItemQuantityHolder>
+    </ItemQty>
   </Results>
-</RecipeHolder>
+</DM_Recipe>

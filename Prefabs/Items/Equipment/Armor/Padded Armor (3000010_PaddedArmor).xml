@@ -1,13 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ItemHolder xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="EquipmentHolder">
-  <ItemID>3000010</ItemID>
-  <Name>Padded Armor</Name>
+<DM_Armor xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <gameObjectName>3000010_PaddedArmor</gameObjectName>
   <saveDir>/Equipment/Armor</saveDir>
+  <ItemID>3000010</ItemID>
+  <Name>Padded Armor</Name>
   <Description />
   <LegacyItemID>-1</LegacyItemID>
-  <PerishTime>-1</PerishTime>
-  <StatsHolder xsi:type="EquipmentStatsHolder">
+  <IsPickable>true</IsPickable>
+  <IsUsable>false</IsUsable>
+  <QtyRemovedOnUse>1</QtyRemovedOnUse>
+  <GroupItemInDisplay>false</GroupItemInDisplay>
+  <HasPhysicsWhenWorld>false</HasPhysicsWhenWorld>
+  <RepairedInRest>true</RepairedInRest>
+  <BehaviorOnNoDurability>NotSet</BehaviorOnNoDurability>
+  <CastType>NONE</CastType>
+  <CastModifier>Immobilized</CastModifier>
+  <CastLocomotionEnabled>false</CastLocomotionEnabled>
+  <MobileCastMovementMult>-1</MobileCastMovementMult>
+  <CastSheatheRequired>1</CastSheatheRequired>
+  <Tags>
+    <string>Armor</string>
+    <string>Equipment</string>
+    <string>Item</string>
+  </Tags>
+  <StatsHolder xsi:type="DM_EquipmentStats">
     <BaseValue>45</BaseValue>
     <RawWeight>8</RawWeight>
     <MaxDurability>150</MaxDurability>
@@ -43,15 +59,12 @@
     <Cold_Protection>10</Cold_Protection>
     <Corruption_Protection>0</Corruption_Protection>
   </StatsHolder>
-  <Tags>
-    <string>Armor</string>
-    <string>Equipment</string>
-    <string>Item</string>
-  </Tags>
   <EffectTransforms />
-  <EquipmentSlot>Chest</EquipmentSlot>
-  <IKType>None</IKType>
+  <EquipSlot>Chest</EquipSlot>
   <TwoHandType>None</TwoHandType>
+  <IKType>None</IKType>
   <VisualDetectabilityAdd>0</VisualDetectabilityAdd>
-  <ArmorClass>Light</ArmorClass>
-</ItemHolder>
+  <Class>Light</Class>
+  <GearSoundMaterial>Cloth</GearSoundMaterial>
+  <ImpactSoundMaterial>Cloth</ImpactSoundMaterial>
+</DM_Armor>

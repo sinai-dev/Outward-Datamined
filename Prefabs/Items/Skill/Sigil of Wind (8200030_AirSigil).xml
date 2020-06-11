@@ -1,44 +1,111 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ItemHolder xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="SkillHolder">
-  <ItemID>8200030</ItemID>
-  <Name>Sigil of Wind</Name>
+<DM_Skill xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <gameObjectName>8200030_AirSigil</gameObjectName>
   <saveDir>/Skill</saveDir>
+  <ItemID>8200030</ItemID>
+  <Name>Sigil of Wind</Name>
   <Description>Required: Activated Wind Altar
 
 Create a magic circle on the ground. Certain skills have additional effects when cast within this circle.</Description>
   <LegacyItemID>-1</LegacyItemID>
-  <PerishTime>-1</PerishTime>
+  <IsPickable>false</IsPickable>
+  <IsUsable>false</IsUsable>
+  <QtyRemovedOnUse>1</QtyRemovedOnUse>
+  <GroupItemInDisplay>false</GroupItemInDisplay>
+  <HasPhysicsWhenWorld>false</HasPhysicsWhenWorld>
+  <RepairedInRest>true</RepairedInRest>
+  <BehaviorOnNoDurability>NotSet</BehaviorOnNoDurability>
+  <CastType>AirSigil</CastType>
+  <CastModifier>Immobilized</CastModifier>
+  <CastLocomotionEnabled>false</CastLocomotionEnabled>
+  <MobileCastMovementMult>-1</MobileCastMovementMult>
+  <CastSheatheRequired>1</CastSheatheRequired>
   <Tags />
   <EffectTransforms>
-    <EffectTransformHolder>
+    <DM_EffectTransform>
+      <TransformName>Effects</TransformName>
+      <Effects>
+        <DM_Effect xsi:type="DM_Summon">
+          <Delay>0</Delay>
+          <SyncType>OwnerSync</SyncType>
+          <OverrideCategory>None</OverrideCategory>
+          <Prefab>8000050</Prefab>
+          <SummonPrefabType>Item</SummonPrefabType>
+          <BufferSize>1</BufferSize>
+          <LimitOfOne>false</LimitOfOne>
+          <SummonMode>CreateNew</SummonMode>
+          <PositionType>InFrontOfTarget</PositionType>
+          <MinDistance>0</MinDistance>
+          <MaxDistance>0.2</MaxDistance>
+          <SameDirectionAsSummoner>true</SameDirectionAsSummoner>
+          <SummonLocalForward>
+            <x>0</x>
+            <y>0</y>
+            <z>0</z>
+          </SummonLocalForward>
+          <IgnoreOnDestroy>false</IgnoreOnDestroy>
+        </DM_Effect>
+      </Effects>
+      <EffectConditions />
+      <ChildEffects />
+    </DM_EffectTransform>
+    <DM_EffectTransform>
       <TransformName>AdditionalActivationConditions</TransformName>
       <Effects />
       <EffectConditions />
       <ChildEffects>
-        <EffectTransformHolder>
+        <DM_EffectTransform>
           <TransformName>WindAltarAtivatedInRegion</TransformName>
           <Effects />
           <EffectConditions>
-            <EffectConditionHolder>
-              <Conditions>
-                <ConditionHolder>
-                  <Condition_Type>QuestEventAreaCondition</Condition_Type>
-                  <Invert>false</Invert>
-                </ConditionHolder>
-              </Conditions>
-            </EffectConditionHolder>
+            <DM_EffectCondition xsi:type="DM_QuestEventAreaCondition">
+              <Invert>false</Invert>
+              <EventUIDs>
+                <string>WBC6bMdYfU-Thg0SFDsESA</string>
+                <string>9MwTJ8U_LkGxh4ac06-Y-Q</string>
+                <string>XeAaNghBlE-RjQhbc2obKA</string>
+                <string>qjv74cVfy0GiHM-dT3arvw</string>
+              </EventUIDs>
+            </DM_EffectCondition>
           </EffectConditions>
           <ChildEffects />
-        </EffectTransformHolder>
+        </DM_EffectTransform>
       </ChildEffects>
-    </EffectTransformHolder>
+    </DM_EffectTransform>
+    <DM_EffectTransform>
+      <TransformName>ActivationEffects</TransformName>
+      <Effects>
+        <DM_Effect xsi:type="DM_PlaySoundEffect">
+          <Delay>0</Delay>
+          <SyncType>OwnerSync</SyncType>
+          <OverrideCategory>None</OverrideCategory>
+          <Sounds>
+            <Sounds>SFX_SKILL_AirSigil_Preparation</Sounds>
+          </Sounds>
+          <Follow>false</Follow>
+          <MinPitch>1</MinPitch>
+          <MaxPitch>1</MaxPitch>
+        </DM_Effect>
+        <DM_Effect xsi:type="DM_PlaySoundEffect">
+          <Delay>2.7</Delay>
+          <SyncType>OwnerSync</SyncType>
+          <OverrideCategory>None</OverrideCategory>
+          <Sounds>
+            <Sounds>SFX_SKILL_AirSigil_Release</Sounds>
+          </Sounds>
+          <Follow>false</Follow>
+          <MinPitch>1</MinPitch>
+          <MaxPitch>1</MaxPitch>
+        </DM_Effect>
+      </Effects>
+      <EffectConditions />
+      <ChildEffects />
+    </DM_EffectTransform>
   </EffectTransforms>
   <Cooldown>100</Cooldown>
   <StaminaCost>0</StaminaCost>
   <ManaCost>10</ManaCost>
   <DurabilityCost>0</DurabilityCost>
   <DurabilityCostPercent>0</DurabilityCostPercent>
-  <IsDLCSkill>true</IsDLCSkill>
   <RequiredItems />
-</ItemHolder>
+</DM_Skill>

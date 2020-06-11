@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RecipeHolder xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <StationType>Alchemy</StationType>
+<DM_Recipe xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Name>Dark Varnish</Name>
   <RecipeID>132</RecipeID>
+  <UID />
+  <StationType>Alchemy</StationType>
   <Ingredients>
     <string>Gaberry Wine</string>
     <string>Occult Remains</string>
@@ -10,9 +11,10 @@
     <string>Grilled Crabeye Seed</string>
   </Ingredients>
   <Results>
-    <ItemQuantityHolder>
+    <ItemQty>
       <ItemName>Dark Varnish</ItemName>
+      <ItemID>4400070</ItemID>
       <Quantity>1</Quantity>
-    </ItemQuantityHolder>
+    </ItemQty>
   </Results>
-</RecipeHolder>
+</DM_Recipe>

@@ -29,7 +29,7 @@
     </QuantityHolder>
   </Gatherables>
   <Item_Spawns>
-    <ItemSpawnHolder>
+    <DM_ItemSpawn>
       <Name>Improvised Bedroll</Name>
       <Item_ID>5000021</Item_ID>
       <Quantity>2</Quantity>
@@ -45,7 +45,7 @@
           <z>15.6444149</z>
         </Vector3>
       </positions>
-    </ItemSpawnHolder>
+    </DM_ItemSpawn>
   </Item_Spawns>
   <UniqueContainerList>
     <string>Junk Pile_yNmIMCLG1UeZ19Ne9icyIA</string>

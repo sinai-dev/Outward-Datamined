@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<EnemyHolder xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<DM_Enemy xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Name>Ash Giant</Name>
   <GameObject_Name>EliteAshGiantPaf</GameObject_Name>
   <Unique_ID>3</Unique_ID>
@@ -53,4 +53,4 @@
   <Allied_To_Same_Faction>true</Allied_To_Same_Faction>
   <Guaranteed_Drops />
   <DropTable_Names />
-</EnemyHolder>
+</DM_Enemy>

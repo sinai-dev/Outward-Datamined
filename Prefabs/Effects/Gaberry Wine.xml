@@ -1,30 +1,48 @@
 <?xml version="1.0" encoding="utf-8"?>
-<StatusEffectHolder xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <Name>Gaberry Wine</Name>
+<DM_StatusEffect xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <PresetID>539</PresetID>
+  <Identifier>Gaberry Wine</Identifier>
+  <Name>Gaberry Wine</Name>
+  <Description>Mana cost [E1V1]%. Physical Resistance [E2V1]%. Impact Resistance [E3V1]%.</Description>
   <Lifespan>300</Lifespan>
   <LengthType>Short</LengthType>
+  <RefreshRate>0.1</RefreshRate>
+  <BuildupRecoverySpeed>3</BuildupRecoverySpeed>
+  <IgnoreBuildupIfApplied>false</IgnoreBuildupIfApplied>
+  <DisplayedInHUD>true</DisplayedInHUD>
+  <IsHidden>false</IsHidden>
   <Tags />
-  <CanBeHealedBySleeping>false</CanBeHealedBySleeping>
-  <StraightSleepHealTime>-1</StraightSleepHealTime>
   <Effects>
-    <EffectHolder xsi:type="AffectStatHolder">
-      <AffectedStat>ManaUse</AffectedStat>
-      <AffectedStat_TagUID>151</AffectedStat_TagUID>
-      <AffectQuantity>-20</AffectQuantity>
-      <IsModifier>true</IsModifier>
-    </EffectHolder>
-    <EffectHolder xsi:type="AffectStatHolder">
-      <AffectedStat>PhysicalResistance</AffectedStat>
-      <AffectedStat_TagUID>113</AffectedStat_TagUID>
-      <AffectQuantity>15</AffectQuantity>
-      <IsModifier>false</IsModifier>
-    </EffectHolder>
-    <EffectHolder xsi:type="AffectStatHolder">
-      <AffectedStat>ImpactResistance</AffectedStat>
-      <AffectedStat_TagUID>84</AffectedStat_TagUID>
-      <AffectQuantity>-15</AffectQuantity>
-      <IsModifier>false</IsModifier>
-    </EffectHolder>
+    <DM_EffectTransform>
+      <TransformName>Effects</TransformName>
+      <Effects>
+        <DM_Effect xsi:type="DM_AffectStat">
+          <Delay>0</Delay>
+          <SyncType>OwnerSync</SyncType>
+          <OverrideCategory>None</OverrideCategory>
+          <Stat_Tag>ManaUse</Stat_Tag>
+          <AffectQuantity>-20</AffectQuantity>
+          <IsModifier>true</IsModifier>
+        </DM_Effect>
+        <DM_Effect xsi:type="DM_AffectStat">
+          <Delay>0</Delay>
+          <SyncType>OwnerSync</SyncType>
+          <OverrideCategory>None</OverrideCategory>
+          <Stat_Tag>PhysicalResistance</Stat_Tag>
+          <AffectQuantity>15</AffectQuantity>
+          <IsModifier>false</IsModifier>
+        </DM_Effect>
+        <DM_Effect xsi:type="DM_AffectStat">
+          <Delay>0</Delay>
+          <SyncType>OwnerSync</SyncType>
+          <OverrideCategory>None</OverrideCategory>
+          <Stat_Tag>ImpactResistance</Stat_Tag>
+          <AffectQuantity>-15</AffectQuantity>
+          <IsModifier>false</IsModifier>
+        </DM_Effect>
+      </Effects>
+      <EffectConditions />
+      <ChildEffects />
+    </DM_EffectTransform>
   </Effects>
-</StatusEffectHolder>
+</DM_StatusEffect>

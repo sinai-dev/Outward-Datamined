@@ -1,32 +1,59 @@
 <?xml version="1.0" encoding="utf-8"?>
-<StatusEffectHolder xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <Name>Levant Inns</Name>
+<DM_StatusEffect xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <PresetID>530</PresetID>
+  <Identifier>Levant Inns</Identifier>
+  <Name>Sleep: Levant</Name>
+  <Description>Stamina Cost of actions -[E3V1]%. Hot Weather Def +[E4V1]%.</Description>
   <Lifespan>2400</Lifespan>
   <LengthType>Short</LengthType>
+  <RefreshRate>0.1</RefreshRate>
+  <BuildupRecoverySpeed>3</BuildupRecoverySpeed>
+  <IgnoreBuildupIfApplied>false</IgnoreBuildupIfApplied>
+  <DisplayedInHUD>true</DisplayedInHUD>
+  <IsHidden>false</IsHidden>
   <Tags />
-  <CanBeHealedBySleeping>false</CanBeHealedBySleeping>
-  <StraightSleepHealTime>-1</StraightSleepHealTime>
   <Effects>
-    <EffectHolder xsi:type="AffectNeedHolder">
-      <Need>AffectDrink</Need>
-      <AffectQuantity>0</AffectQuantity>
-    </EffectHolder>
-    <EffectHolder xsi:type="AffectNeedHolder">
-      <Need>AffectFood</Need>
-      <AffectQuantity>0</AffectQuantity>
-    </EffectHolder>
-    <EffectHolder xsi:type="AffectStatHolder">
-      <AffectedStat>StaminaCostReduction</AffectedStat>
-      <AffectedStat_TagUID>150</AffectedStat_TagUID>
-      <AffectQuantity>20</AffectQuantity>
-      <IsModifier>true</IsModifier>
-    </EffectHolder>
-    <EffectHolder xsi:type="AffectStatHolder">
-      <AffectedStat>EnvHeatProtection</AffectedStat>
-      <AffectedStat_TagUID>124</AffectedStat_TagUID>
-      <AffectQuantity>5</AffectQuantity>
-      <IsModifier>false</IsModifier>
-    </EffectHolder>
+    <DM_EffectTransform>
+      <TransformName>ActivationEffects</TransformName>
+      <Effects>
+        <DM_Effect xsi:type="DM_AffectDrink">
+          <Delay>0</Delay>
+          <SyncType>OwnerSync</SyncType>
+          <OverrideCategory>Activation</OverrideCategory>
+          <AffectQuantity>0</AffectQuantity>
+        </DM_Effect>
+        <DM_Effect xsi:type="DM_AffectFood">
+          <Delay>0</Delay>
+          <SyncType>OwnerSync</SyncType>
+          <OverrideCategory>Activation</OverrideCategory>
+          <AffectQuantity>0</AffectQuantity>
+        </DM_Effect>
+      </Effects>
+      <EffectConditions />
+      <ChildEffects />
+    </DM_EffectTransform>
+    <DM_EffectTransform>
+      <TransformName>RestaurationEffects</TransformName>
+      <Effects>
+        <DM_Effect xsi:type="DM_AffectStat">
+          <Delay>0</Delay>
+          <SyncType>OwnerSync</SyncType>
+          <OverrideCategory>Restauration</OverrideCategory>
+          <Stat_Tag>StaminaCostReduction</Stat_Tag>
+          <AffectQuantity>20</AffectQuantity>
+          <IsModifier>true</IsModifier>
+        </DM_Effect>
+        <DM_Effect xsi:type="DM_AffectStat">
+          <Delay>0</Delay>
+          <SyncType>OwnerSync</SyncType>
+          <OverrideCategory>None</OverrideCategory>
+          <Stat_Tag>EnvHeatProtection</Stat_Tag>
+          <AffectQuantity>5</AffectQuantity>
+          <IsModifier>false</IsModifier>
+        </DM_Effect>
+      </Effects>
+      <EffectConditions />
+      <ChildEffects />
+    </DM_EffectTransform>
   </Effects>
-</StatusEffectHolder>
+</DM_StatusEffect>

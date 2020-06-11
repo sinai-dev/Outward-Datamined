@@ -37,7 +37,7 @@
     </QuantityHolder>
   </Gatherables>
   <Item_Spawns>
-    <ItemSpawnHolder>
+    <DM_ItemSpawn>
       <Name>Improvised Bedroll</Name>
       <Item_ID>5000021</Item_ID>
       <Quantity>1</Quantity>
@@ -48,8 +48,8 @@
           <z>33.153</z>
         </Vector3>
       </positions>
-    </ItemSpawnHolder>
-    <ItemSpawnHolder>
+    </DM_ItemSpawn>
+    <DM_ItemSpawn>
       <Name>Bread</Name>
       <Item_ID>4100170</Item_ID>
       <Quantity>1</Quantity>
@@ -60,8 +60,8 @@
           <z>33.662</z>
         </Vector3>
       </positions>
-    </ItemSpawnHolder>
-    <ItemSpawnHolder>
+    </DM_ItemSpawn>
+    <DM_ItemSpawn>
       <Name>Old Lantern</Name>
       <Item_ID>5100010</Item_ID>
       <Quantity>1</Quantity>
@@ -72,8 +72,8 @@
           <z>33.867</z>
         </Vector3>
       </positions>
-    </ItemSpawnHolder>
-    <ItemSpawnHolder>
+    </DM_ItemSpawn>
+    <DM_ItemSpawn>
       <Name>Flint and Steel</Name>
       <Item_ID>5600010</Item_ID>
       <Quantity>1</Quantity>
@@ -84,8 +84,8 @@
           <z>27.462</z>
         </Vector3>
       </positions>
-    </ItemSpawnHolder>
-    <ItemSpawnHolder>
+    </DM_ItemSpawn>
+    <DM_ItemSpawn>
       <Name>Mining Pick</Name>
       <Item_ID>2120050</Item_ID>
       <Quantity>1</Quantity>
@@ -96,8 +96,8 @@
           <z>49.729</z>
         </Vector3>
       </positions>
-    </ItemSpawnHolder>
-    <ItemSpawnHolder>
+    </DM_ItemSpawn>
+    <DM_ItemSpawn>
       <Name>Cooking: Gaberries Jam</Name>
       <Item_ID>5700017</Item_ID>
       <Quantity>1</Quantity>
@@ -108,7 +108,7 @@
           <z>59.4087</z>
         </Vector3>
       </positions>
-    </ItemSpawnHolder>
+    </DM_ItemSpawn>
   </Item_Spawns>
   <UniqueContainerList>
     <string>Junk Pile_hE_N2XwWu0WR4UChfmn6FQ</string>

@@ -1,25 +1,113 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ItemHolder xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="SkillHolder">
-  <ItemID>8300400</ItemID>
-  <Name>ElementalParasiteMortar</Name>
+<DM_AttackSkill xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <gameObjectName>8300400_ElementalParasiteMortar</gameObjectName>
   <saveDir>/Skill/AttackSkill</saveDir>
+  <ItemID>8300400</ItemID>
+  <Name>ElementalParasiteMortar</Name>
   <Description />
   <LegacyItemID>-1</LegacyItemID>
-  <PerishTime>-1</PerishTime>
+  <IsPickable>false</IsPickable>
+  <IsUsable>false</IsUsable>
+  <QtyRemovedOnUse>0</QtyRemovedOnUse>
+  <GroupItemInDisplay>false</GroupItemInDisplay>
+  <HasPhysicsWhenWorld>false</HasPhysicsWhenWorld>
+  <RepairedInRest>true</RepairedInRest>
+  <BehaviorOnNoDurability>NotSet</BehaviorOnNoDurability>
+  <CastType>Normal</CastType>
+  <CastModifier>Immobilized</CastModifier>
+  <CastLocomotionEnabled>false</CastLocomotionEnabled>
+  <MobileCastMovementMult>-1</MobileCastMovementMult>
+  <CastSheatheRequired>0</CastSheatheRequired>
   <Tags />
   <EffectTransforms>
-    <EffectTransformHolder>
+    <DM_EffectTransform>
       <TransformName>Effects</TransformName>
       <Effects>
-        <EffectHolder xsi:type="ShootProjectileHolder">
+        <DM_Effect xsi:type="DM_ShootProjectile">
+          <Delay>0</Delay>
+          <SyncType>OwnerSync</SyncType>
+          <OverrideCategory>None</OverrideCategory>
+          <CastPosition>Transform</CastPosition>
+          <LocalPositionAdd>
+            <x>0</x>
+            <y>0</y>
+            <z>0</z>
+          </LocalPositionAdd>
+          <NoAim>false</NoAim>
+          <TargetType>Enemies</TargetType>
+          <TransformName>ShooterTransform</TransformName>
+          <BaseProjectile>ElementalParasiteMortar</BaseProjectile>
+          <ProjectileShots>
+            <DM_ProjectileShot>
+              <LocalDirectionOffset>
+                <x>0</x>
+                <y>0.5</y>
+                <z>0</z>
+              </LocalDirectionOffset>
+              <LockDirection>
+                <x>-999</x>
+                <y>-999</y>
+                <z>-999</z>
+              </LockDirection>
+              <MustShoot>true</MustShoot>
+              <NoBaseDir>false</NoBaseDir>
+              <RandomLocalDirectionAdd>
+                <x>0.1</x>
+                <y>0.2</y>
+                <z>0</z>
+              </RandomLocalDirectionAdd>
+            </DM_ProjectileShot>
+          </ProjectileShots>
+          <Lifespan>10</Lifespan>
+          <LateShootTime>0.1</LateShootTime>
+          <Unblockable>false</Unblockable>
+          <EffectsOnlyIfHitCharacter>false</EffectsOnlyIfHitCharacter>
+          <EndMode>Normal</EndMode>
+          <DisableOnHit>true</DisableOnHit>
+          <IgnoreShooterCollision>true</IgnoreShooterCollision>
           <TargetingMode>OwnerTarget</TargetingMode>
+          <TargetCountPerProjectile>1</TargetCountPerProjectile>
+          <TargetRange>0</TargetRange>
           <AutoTarget>false</AutoTarget>
-          <EffectTransforms>
-            <EffectTransformHolder>
+          <AutoTargetMaxAngle>360</AutoTargetMaxAngle>
+          <AutoTargetRange>5</AutoTargetRange>
+          <ProjectileForce>8</ProjectileForce>
+          <AddDirection>
+            <x>0</x>
+            <y>0</y>
+            <z>0</z>
+          </AddDirection>
+          <AddRotationForce>
+            <x>0</x>
+            <y>0</y>
+            <z>0</z>
+          </AddRotationForce>
+          <YMagnitudeAffect>0.05</YMagnitudeAffect>
+          <YMagnitudeForce>0.15</YMagnitudeForce>
+          <DefenseLength>3</DefenseLength>
+          <DefenseRange>6</DefenseRange>
+          <PhysicsLayerMask>0</PhysicsLayerMask>
+          <OnlyExplodeOnLayerMask>false</OnlyExplodeOnLayerMask>
+          <ImpactSoundMaterial>Flesh</ImpactSoundMaterial>
+          <LightIntensityFade>
+            <x>10</x>
+            <y>3</y>
+          </LightIntensityFade>
+          <PointOffset>
+            <x>0</x>
+            <y>0</y>
+            <z>0</z>
+          </PointOffset>
+          <TrailEnabled>false</TrailEnabled>
+          <TrailTime>0.075</TrailTime>
+          <ProjectileEffects>
+            <DM_EffectTransform>
               <TransformName>HitEffects</TransformName>
               <Effects>
-                <EffectHolder xsi:type="PunctualDamageHolder">
+                <DM_Effect xsi:type="DM_PunctualDamage">
+                  <Delay>0</Delay>
+                  <SyncType>OwnerSync</SyncType>
+                  <OverrideCategory>None</OverrideCategory>
                   <Damage>
                     <Damages>
                       <Damage>8</Damage>
@@ -29,15 +117,45 @@
                   <Damages_AI />
                   <Knockback>60</Knockback>
                   <HitInventory>true</HitInventory>
-                </EffectHolder>
-                <EffectHolder xsi:type="ShootBlastHolder">
-                  <BlastLifespan>4</BlastLifespan>
+                </DM_Effect>
+                <DM_Effect xsi:type="DM_ShootBlast">
+                  <Delay>0</Delay>
+                  <SyncType>OwnerSync</SyncType>
+                  <OverrideCategory>None</OverrideCategory>
+                  <CastPosition>Local</CastPosition>
+                  <LocalPositionAdd>
+                    <x>0</x>
+                    <y>0</y>
+                    <z>0</z>
+                  </LocalPositionAdd>
+                  <NoAim>false</NoAim>
+                  <TargetType>Enemies</TargetType>
+                  <TransformName>ShooterTransform</TransformName>
+                  <BaseBlast>ElementalParasiteLingerBlast</BaseBlast>
+                  <Radius>2</Radius>
                   <RefreshTime>0.5</RefreshTime>
-                  <EffectTransforms>
-                    <EffectTransformHolder>
+                  <BlastLifespan>4</BlastLifespan>
+                  <InstantiatedAmount>1</InstantiatedAmount>
+                  <Interruptible>false</Interruptible>
+                  <MaxHitTargetCount>-1</MaxHitTargetCount>
+                  <AffectHitTargetCenter>false</AffectHitTargetCenter>
+                  <HitOnShoot>true</HitOnShoot>
+                  <IgnoreShooter>false</IgnoreShooter>
+                  <IgnoreStop>false</IgnoreStop>
+                  <NoTargetForwardMultiplier>5</NoTargetForwardMultiplier>
+                  <ParentToShootTransform>false</ParentToShootTransform>
+                  <UseTargetCharacterPositionType>false</UseTargetCharacterPositionType>
+                  <ImpactSoundMaterial>Fire</ImpactSoundMaterial>
+                  <DontPlayHitSound>false</DontPlayHitSound>
+                  <FXIsWorld>false</FXIsWorld>
+                  <BlastEffects>
+                    <DM_EffectTransform>
                       <TransformName>Effects</TransformName>
                       <Effects>
-                        <EffectHolder xsi:type="PunctualDamageHolder">
+                        <DM_Effect xsi:type="DM_PunctualDamage">
+                          <Delay>0</Delay>
+                          <SyncType>MasterSync</SyncType>
+                          <OverrideCategory>None</OverrideCategory>
                           <Damage>
                             <Damages>
                               <Damage>6</Damage>
@@ -47,29 +165,51 @@
                           <Damages_AI />
                           <Knockback>0</Knockback>
                           <HitInventory>true</HitInventory>
-                        </EffectHolder>
+                        </DM_Effect>
                       </Effects>
                       <EffectConditions />
                       <ChildEffects />
-                    </EffectTransformHolder>
-                  </EffectTransforms>
-                </EffectHolder>
+                    </DM_EffectTransform>
+                  </BlastEffects>
+                </DM_Effect>
               </Effects>
               <EffectConditions />
               <ChildEffects />
-            </EffectTransformHolder>
-          </EffectTransforms>
-        </EffectHolder>
+            </DM_EffectTransform>
+          </ProjectileEffects>
+        </DM_Effect>
       </Effects>
       <EffectConditions />
       <ChildEffects />
-    </EffectTransformHolder>
+    </DM_EffectTransform>
+    <DM_EffectTransform>
+      <TransformName>ActivationEffects</TransformName>
+      <Effects>
+        <DM_Effect xsi:type="DM_PlaySoundEffect">
+          <Delay>0</Delay>
+          <SyncType>OwnerSync</SyncType>
+          <OverrideCategory>None</OverrideCategory>
+          <Sounds>
+            <Sounds>CS_Tuanosaur_AttackSpit_Grunt2</Sounds>
+          </Sounds>
+          <Follow>false</Follow>
+          <MinPitch>1</MinPitch>
+          <MaxPitch>1</MaxPitch>
+        </DM_Effect>
+      </Effects>
+      <EffectConditions />
+      <ChildEffects />
+    </DM_EffectTransform>
   </EffectTransforms>
   <Cooldown>7</Cooldown>
   <StaminaCost>0</StaminaCost>
   <ManaCost>0</ManaCost>
   <DurabilityCost>0</DurabilityCost>
   <DurabilityCostPercent>0</DurabilityCostPercent>
-  <IsDLCSkill>true</IsDLCSkill>
   <RequiredItems />
-</ItemHolder>
+  <AmmunitionTypes />
+  <RequiredOffHandTypes />
+  <RequiredWeaponTypes />
+  <RequiredWeaponTags />
+  <RequireImbue>false</RequireImbue>
+</DM_AttackSkill>

@@ -1,114 +1,160 @@
 <?xml version="1.0" encoding="utf-8"?>
-<StatusEffectHolder xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <Name>Force Bubble</Name>
+<DM_StatusEffect xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <PresetID>57</PresetID>
+  <Identifier>Force Bubble</Identifier>
+  <Name>Force Bubble</Name>
+  <Description>Immune to Damage, but vulnerable to Impact.</Description>
   <Lifespan>4</Lifespan>
   <LengthType>Short</LengthType>
+  <RefreshRate>0.1</RefreshRate>
+  <BuildupRecoverySpeed>3</BuildupRecoverySpeed>
+  <IgnoreBuildupIfApplied>false</IgnoreBuildupIfApplied>
+  <DisplayedInHUD>true</DisplayedInHUD>
+  <IsHidden>false</IsHidden>
   <Tags />
-  <CanBeHealedBySleeping>false</CanBeHealedBySleeping>
-  <StraightSleepHealTime>-1</StraightSleepHealTime>
   <Effects>
-    <EffectHolder xsi:type="AffectStatHolder">
-      <AffectedStat>ImpactResistance</AffectedStat>
-      <AffectedStat_TagUID>84</AffectedStat_TagUID>
-      <AffectQuantity>-50</AffectQuantity>
-      <IsModifier>false</IsModifier>
-    </EffectHolder>
-    <EffectHolder xsi:type="AffectStatHolder">
-      <AffectedStat>PhysicalProtection</AffectedStat>
-      <AffectedStat_TagUID>105</AffectedStat_TagUID>
-      <AffectQuantity>9999</AffectQuantity>
-      <IsModifier>false</IsModifier>
-    </EffectHolder>
-    <EffectHolder xsi:type="AffectStatHolder">
-      <AffectedStat>EtherealProtection</AffectedStat>
-      <AffectedStat_TagUID>106</AffectedStat_TagUID>
-      <AffectQuantity>9999</AffectQuantity>
-      <IsModifier>false</IsModifier>
-    </EffectHolder>
-    <EffectHolder xsi:type="AffectStatHolder">
-      <AffectedStat>DecayProtection</AffectedStat>
-      <AffectedStat_TagUID>107</AffectedStat_TagUID>
-      <AffectQuantity>9999</AffectQuantity>
-      <IsModifier>false</IsModifier>
-    </EffectHolder>
-    <EffectHolder xsi:type="AffectStatHolder">
-      <AffectedStat>ElectricProtection</AffectedStat>
-      <AffectedStat_TagUID>108</AffectedStat_TagUID>
-      <AffectQuantity>9999</AffectQuantity>
-      <IsModifier>false</IsModifier>
-    </EffectHolder>
-    <EffectHolder xsi:type="AffectStatHolder">
-      <AffectedStat>FrostProtection</AffectedStat>
-      <AffectedStat_TagUID>109</AffectedStat_TagUID>
-      <AffectQuantity>9999</AffectQuantity>
-      <IsModifier>false</IsModifier>
-    </EffectHolder>
-    <EffectHolder xsi:type="AffectStatHolder">
-      <AffectedStat>FireProtection</AffectedStat>
-      <AffectedStat_TagUID>110</AffectedStat_TagUID>
-      <AffectQuantity>9999</AffectQuantity>
-      <IsModifier>false</IsModifier>
-    </EffectHolder>
-    <EffectHolder xsi:type="AffectStatHolder">
-      <AffectedStat>DarkProtection</AffectedStat>
-      <AffectedStat_TagUID>111</AffectedStat_TagUID>
-      <AffectQuantity>9999</AffectQuantity>
-      <IsModifier>false</IsModifier>
-    </EffectHolder>
-    <EffectHolder xsi:type="AffectStatHolder">
-      <AffectedStat>LightProtection</AffectedStat>
-      <AffectedStat_TagUID>112</AffectedStat_TagUID>
-      <AffectQuantity>9999</AffectQuantity>
-      <IsModifier>false</IsModifier>
-    </EffectHolder>
-    <EffectHolder xsi:type="AffectStatHolder">
-      <AffectedStat>PhysicalResistance</AffectedStat>
-      <AffectedStat_TagUID>113</AffectedStat_TagUID>
-      <AffectQuantity>9999</AffectQuantity>
-      <IsModifier>false</IsModifier>
-    </EffectHolder>
-    <EffectHolder xsi:type="AffectStatHolder">
-      <AffectedStat>EtherealResistance</AffectedStat>
-      <AffectedStat_TagUID>114</AffectedStat_TagUID>
-      <AffectQuantity>9999</AffectQuantity>
-      <IsModifier>false</IsModifier>
-    </EffectHolder>
-    <EffectHolder xsi:type="AffectStatHolder">
-      <AffectedStat>DecayResistance</AffectedStat>
-      <AffectedStat_TagUID>115</AffectedStat_TagUID>
-      <AffectQuantity>9999</AffectQuantity>
-      <IsModifier>false</IsModifier>
-    </EffectHolder>
-    <EffectHolder xsi:type="AffectStatHolder">
-      <AffectedStat>ElectricResistance</AffectedStat>
-      <AffectedStat_TagUID>116</AffectedStat_TagUID>
-      <AffectQuantity>9999</AffectQuantity>
-      <IsModifier>false</IsModifier>
-    </EffectHolder>
-    <EffectHolder xsi:type="AffectStatHolder">
-      <AffectedStat>FrostResistance</AffectedStat>
-      <AffectedStat_TagUID>117</AffectedStat_TagUID>
-      <AffectQuantity>9999</AffectQuantity>
-      <IsModifier>false</IsModifier>
-    </EffectHolder>
-    <EffectHolder xsi:type="AffectStatHolder">
-      <AffectedStat>FireResistance</AffectedStat>
-      <AffectedStat_TagUID>118</AffectedStat_TagUID>
-      <AffectQuantity>9999</AffectQuantity>
-      <IsModifier>false</IsModifier>
-    </EffectHolder>
-    <EffectHolder xsi:type="AffectStatHolder">
-      <AffectedStat>DarkResistance</AffectedStat>
-      <AffectedStat_TagUID>119</AffectedStat_TagUID>
-      <AffectQuantity>9999</AffectQuantity>
-      <IsModifier>false</IsModifier>
-    </EffectHolder>
-    <EffectHolder xsi:type="AffectStatHolder">
-      <AffectedStat>LightResistance</AffectedStat>
-      <AffectedStat_TagUID>120</AffectedStat_TagUID>
-      <AffectQuantity>9999</AffectQuantity>
-      <IsModifier>false</IsModifier>
-    </EffectHolder>
+    <DM_EffectTransform>
+      <TransformName>ActivationEffects</TransformName>
+      <Effects>
+        <DM_Effect xsi:type="DM_AffectStat">
+          <Delay>0</Delay>
+          <SyncType>OwnerSync</SyncType>
+          <OverrideCategory>None</OverrideCategory>
+          <Stat_Tag>ImpactResistance</Stat_Tag>
+          <AffectQuantity>-50</AffectQuantity>
+          <IsModifier>false</IsModifier>
+        </DM_Effect>
+        <DM_Effect xsi:type="DM_AffectStat">
+          <Delay>0</Delay>
+          <SyncType>OwnerSync</SyncType>
+          <OverrideCategory>None</OverrideCategory>
+          <Stat_Tag>PhysicalProtection</Stat_Tag>
+          <AffectQuantity>9999</AffectQuantity>
+          <IsModifier>false</IsModifier>
+        </DM_Effect>
+        <DM_Effect xsi:type="DM_AffectStat">
+          <Delay>0</Delay>
+          <SyncType>OwnerSync</SyncType>
+          <OverrideCategory>None</OverrideCategory>
+          <Stat_Tag>EtherealProtection</Stat_Tag>
+          <AffectQuantity>9999</AffectQuantity>
+          <IsModifier>false</IsModifier>
+        </DM_Effect>
+        <DM_Effect xsi:type="DM_AffectStat">
+          <Delay>0</Delay>
+          <SyncType>OwnerSync</SyncType>
+          <OverrideCategory>None</OverrideCategory>
+          <Stat_Tag>DecayProtection</Stat_Tag>
+          <AffectQuantity>9999</AffectQuantity>
+          <IsModifier>false</IsModifier>
+        </DM_Effect>
+        <DM_Effect xsi:type="DM_AffectStat">
+          <Delay>0</Delay>
+          <SyncType>OwnerSync</SyncType>
+          <OverrideCategory>None</OverrideCategory>
+          <Stat_Tag>ElectricProtection</Stat_Tag>
+          <AffectQuantity>9999</AffectQuantity>
+          <IsModifier>false</IsModifier>
+        </DM_Effect>
+        <DM_Effect xsi:type="DM_AffectStat">
+          <Delay>0</Delay>
+          <SyncType>OwnerSync</SyncType>
+          <OverrideCategory>None</OverrideCategory>
+          <Stat_Tag>FrostProtection</Stat_Tag>
+          <AffectQuantity>9999</AffectQuantity>
+          <IsModifier>false</IsModifier>
+        </DM_Effect>
+        <DM_Effect xsi:type="DM_AffectStat">
+          <Delay>0</Delay>
+          <SyncType>OwnerSync</SyncType>
+          <OverrideCategory>None</OverrideCategory>
+          <Stat_Tag>FireProtection</Stat_Tag>
+          <AffectQuantity>9999</AffectQuantity>
+          <IsModifier>false</IsModifier>
+        </DM_Effect>
+        <DM_Effect xsi:type="DM_AffectStat">
+          <Delay>0</Delay>
+          <SyncType>OwnerSync</SyncType>
+          <OverrideCategory>None</OverrideCategory>
+          <Stat_Tag>DarkProtection</Stat_Tag>
+          <AffectQuantity>9999</AffectQuantity>
+          <IsModifier>false</IsModifier>
+        </DM_Effect>
+        <DM_Effect xsi:type="DM_AffectStat">
+          <Delay>0</Delay>
+          <SyncType>OwnerSync</SyncType>
+          <OverrideCategory>None</OverrideCategory>
+          <Stat_Tag>LightProtection</Stat_Tag>
+          <AffectQuantity>9999</AffectQuantity>
+          <IsModifier>false</IsModifier>
+        </DM_Effect>
+        <DM_Effect xsi:type="DM_AffectStat">
+          <Delay>0</Delay>
+          <SyncType>OwnerSync</SyncType>
+          <OverrideCategory>None</OverrideCategory>
+          <Stat_Tag>PhysicalResistance</Stat_Tag>
+          <AffectQuantity>9999</AffectQuantity>
+          <IsModifier>false</IsModifier>
+        </DM_Effect>
+        <DM_Effect xsi:type="DM_AffectStat">
+          <Delay>0</Delay>
+          <SyncType>OwnerSync</SyncType>
+          <OverrideCategory>None</OverrideCategory>
+          <Stat_Tag>EtherealResistance</Stat_Tag>
+          <AffectQuantity>9999</AffectQuantity>
+          <IsModifier>false</IsModifier>
+        </DM_Effect>
+        <DM_Effect xsi:type="DM_AffectStat">
+          <Delay>0</Delay>
+          <SyncType>OwnerSync</SyncType>
+          <OverrideCategory>None</OverrideCategory>
+          <Stat_Tag>DecayResistance</Stat_Tag>
+          <AffectQuantity>9999</AffectQuantity>
+          <IsModifier>false</IsModifier>
+        </DM_Effect>
+        <DM_Effect xsi:type="DM_AffectStat">
+          <Delay>0</Delay>
+          <SyncType>OwnerSync</SyncType>
+          <OverrideCategory>None</OverrideCategory>
+          <Stat_Tag>ElectricResistance</Stat_Tag>
+          <AffectQuantity>9999</AffectQuantity>
+          <IsModifier>false</IsModifier>
+        </DM_Effect>
+        <DM_Effect xsi:type="DM_AffectStat">
+          <Delay>0</Delay>
+          <SyncType>OwnerSync</SyncType>
+          <OverrideCategory>None</OverrideCategory>
+          <Stat_Tag>FrostResistance</Stat_Tag>
+          <AffectQuantity>9999</AffectQuantity>
+          <IsModifier>false</IsModifier>
+        </DM_Effect>
+        <DM_Effect xsi:type="DM_AffectStat">
+          <Delay>0</Delay>
+          <SyncType>OwnerSync</SyncType>
+          <OverrideCategory>None</OverrideCategory>
+          <Stat_Tag>FireResistance</Stat_Tag>
+          <AffectQuantity>9999</AffectQuantity>
+          <IsModifier>false</IsModifier>
+        </DM_Effect>
+        <DM_Effect xsi:type="DM_AffectStat">
+          <Delay>0</Delay>
+          <SyncType>OwnerSync</SyncType>
+          <OverrideCategory>None</OverrideCategory>
+          <Stat_Tag>DarkResistance</Stat_Tag>
+          <AffectQuantity>9999</AffectQuantity>
+          <IsModifier>false</IsModifier>
+        </DM_Effect>
+        <DM_Effect xsi:type="DM_AffectStat">
+          <Delay>0</Delay>
+          <SyncType>OwnerSync</SyncType>
+          <OverrideCategory>None</OverrideCategory>
+          <Stat_Tag>LightResistance</Stat_Tag>
+          <AffectQuantity>9999</AffectQuantity>
+          <IsModifier>false</IsModifier>
+        </DM_Effect>
+      </Effects>
+      <EffectConditions />
+      <ChildEffects />
+    </DM_EffectTransform>
   </Effects>
-</StatusEffectHolder>
+</DM_StatusEffect>

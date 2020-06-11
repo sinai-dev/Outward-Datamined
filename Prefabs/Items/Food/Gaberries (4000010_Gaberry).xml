@@ -1,40 +1,57 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ItemHolder xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <ItemID>4000010</ItemID>
-  <Name>Gaberries</Name>
+<DM_Item xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <gameObjectName>4000010_Gaberry</gameObjectName>
   <saveDir>/Food</saveDir>
+  <ItemID>4000010</ItemID>
+  <Name>Gaberries</Name>
   <Description>Common berry that only offers a small amount of nutrition and will quickly rot unless cooked.
 
 As a fruit, these berries restore stamina over time.</Description>
   <LegacyItemID>-1</LegacyItemID>
+  <IsPickable>true</IsPickable>
+  <IsUsable>true</IsUsable>
+  <QtyRemovedOnUse>1</QtyRemovedOnUse>
+  <GroupItemInDisplay>true</GroupItemInDisplay>
+  <HasPhysicsWhenWorld>false</HasPhysicsWhenWorld>
+  <RepairedInRest>true</RepairedInRest>
+  <BehaviorOnNoDurability>NotSet</BehaviorOnNoDurability>
+  <CastType>Eat</CastType>
+  <CastModifier>Immobilized</CastModifier>
+  <CastLocomotionEnabled>false</CastLocomotionEnabled>
+  <MobileCastMovementMult>-1</MobileCastMovementMult>
+  <CastSheatheRequired>1</CastSheatheRequired>
   <PerishTime>6 Days, 0 Hours, 55 Minutes, 39 Seconds</PerishTime>
-  <StatsHolder>
-    <BaseValue>1</BaseValue>
-    <RawWeight>0.1</RawWeight>
-    <MaxDurability>100</MaxDurability>
-  </StatsHolder>
   <Tags>
     <string>Item</string>
     <string>Vegetable</string>
     <string>Food</string>
     <string>Consummable</string>
   </Tags>
+  <StatsHolder>
+    <BaseValue>1</BaseValue>
+    <RawWeight>0.1</RawWeight>
+    <MaxDurability>100</MaxDurability>
+  </StatsHolder>
   <EffectTransforms>
-    <EffectTransformHolder>
+    <DM_EffectTransform>
       <TransformName>Effects</TransformName>
       <Effects>
-        <EffectHolder xsi:type="AffectNeedHolder">
-          <Need>AffectFood</Need>
+        <DM_Effect xsi:type="DM_AffectFood">
+          <Delay>0</Delay>
+          <SyncType>OwnerSync</SyncType>
+          <OverrideCategory>None</OverrideCategory>
           <AffectQuantity>75</AffectQuantity>
-        </EffectHolder>
-        <EffectHolder xsi:type="AddStatusEffectHolder">
+        </DM_Effect>
+        <DM_Effect xsi:type="DM_AddStatusEffect">
+          <Delay>0</Delay>
+          <SyncType>OwnerSync</SyncType>
+          <OverrideCategory>None</OverrideCategory>
           <StatusEffect>Stamina Recovery Small</StatusEffect>
           <ChanceToContract>100</ChanceToContract>
-        </EffectHolder>
+        </DM_Effect>
       </Effects>
       <EffectConditions />
       <ChildEffects />
-    </EffectTransformHolder>
+    </DM_EffectTransform>
   </EffectTransforms>
-</ItemHolder>
+</DM_Item>

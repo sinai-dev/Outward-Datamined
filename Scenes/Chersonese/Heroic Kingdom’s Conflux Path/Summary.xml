@@ -73,7 +73,7 @@
     </QuantityHolder>
   </Gatherables>
   <Item_Spawns>
-    <ItemSpawnHolder>
+    <DM_ItemSpawn>
       <Name>Improvised Bedroll</Name>
       <Item_ID>5000021</Item_ID>
       <Quantity>2</Quantity>
@@ -89,8 +89,8 @@
           <z>-28.329</z>
         </Vector3>
       </positions>
-    </ItemSpawnHolder>
-    <ItemSpawnHolder>
+    </DM_ItemSpawn>
+    <DM_ItemSpawn>
       <Name>Explorer Lantern</Name>
       <Item_ID>5100000</Item_ID>
       <Quantity>1</Quantity>
@@ -101,7 +101,7 @@
           <z>-41.27</z>
         </Vector3>
       </positions>
-    </ItemSpawnHolder>
+    </DM_ItemSpawn>
   </Item_Spawns>
   <UniqueContainerList>
     <string>Soldier’s Corpse_vzOblv5FNkKHlB44VF9Rgg</string>

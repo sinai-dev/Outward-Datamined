@@ -1,21 +1,54 @@
 <?xml version="1.0" encoding="utf-8"?>
-<StatusEffectHolder xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <Name>Cold2</Name>
+<DM_Disease xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <PresetID>501</PresetID>
+  <Identifier>Cold2</Identifier>
+  <Name>Disease: Acute Cold</Name>
+  <Description>Stamina Regen [E1V1]%.</Description>
   <Lifespan>-1</Lifespan>
   <LengthType>Long</LengthType>
+  <RefreshRate>120</RefreshRate>
+  <BuildupRecoverySpeed>3</BuildupRecoverySpeed>
+  <IgnoreBuildupIfApplied>false</IgnoreBuildupIfApplied>
+  <DisplayedInHUD>true</DisplayedInHUD>
+  <IsHidden>false</IsHidden>
   <Tags>
     <string>Disease</string>
     <string>Status Type</string>
   </Tags>
-  <CanBeHealedBySleeping>true</CanBeHealedBySleeping>
-  <StraightSleepHealTime>16</StraightSleepHealTime>
   <Effects>
-    <EffectHolder xsi:type="AffectStatHolder">
-      <AffectedStat>StaminaRegen</AffectedStat>
-      <AffectedStat_TagUID>80</AffectedStat_TagUID>
-      <AffectQuantity>-30</AffectQuantity>
-      <IsModifier>true</IsModifier>
-    </EffectHolder>
+    <DM_EffectTransform>
+      <TransformName>Restauration</TransformName>
+      <Effects>
+        <DM_Effect xsi:type="DM_AffectStat">
+          <Delay>0</Delay>
+          <SyncType>OwnerSync</SyncType>
+          <OverrideCategory>None</OverrideCategory>
+          <Stat_Tag>StaminaRegen</Stat_Tag>
+          <AffectQuantity>-30</AffectQuantity>
+          <IsModifier>true</IsModifier>
+        </DM_Effect>
+      </Effects>
+      <EffectConditions />
+      <ChildEffects />
+    </DM_EffectTransform>
+    <DM_EffectTransform>
+      <TransformName>Normal</TransformName>
+      <Effects>
+        <DM_Effect xsi:type="DM_Cough">
+          <Delay>0</Delay>
+          <SyncType>OwnerSync</SyncType>
+          <OverrideCategory>None</OverrideCategory>
+          <ChanceToTrigger>40</ChanceToTrigger>
+        </DM_Effect>
+      </Effects>
+      <EffectConditions />
+      <ChildEffects />
+    </DM_EffectTransform>
   </Effects>
-</StatusEffectHolder>
+  <DiseaseType>Cold</DiseaseType>
+  <AutoHealTime>-1</AutoHealTime>
+  <CanDegenerate>false</CanDegenerate>
+  <DegenerateTime>12</DegenerateTime>
+  <StraightSleepHealTime>16</StraightSleepHealTime>
+  <CanBeHealedBySleeping>true</CanBeHealedBySleeping>
+</DM_Disease>

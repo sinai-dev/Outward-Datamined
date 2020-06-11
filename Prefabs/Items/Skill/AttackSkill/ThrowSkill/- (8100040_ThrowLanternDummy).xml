@@ -1,32 +1,106 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ItemHolder xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="SkillHolder">
-  <ItemID>8100040</ItemID>
-  <Name>-</Name>
+<DM_ThrowSkill xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <gameObjectName>8100040_ThrowLanternDummy</gameObjectName>
   <saveDir>/Skill/AttackSkill/ThrowSkill</saveDir>
+  <ItemID>8100040</ItemID>
+  <Name>-</Name>
   <Description>-</Description>
   <LegacyItemID>-1</LegacyItemID>
-  <PerishTime>-1</PerishTime>
+  <IsPickable>false</IsPickable>
+  <IsUsable>false</IsUsable>
+  <QtyRemovedOnUse>1</QtyRemovedOnUse>
+  <GroupItemInDisplay>false</GroupItemInDisplay>
+  <HasPhysicsWhenWorld>false</HasPhysicsWhenWorld>
+  <RepairedInRest>true</RepairedInRest>
+  <BehaviorOnNoDurability>NotSet</BehaviorOnNoDurability>
+  <CastType>LanternThrowLeft</CastType>
+  <CastModifier>Mobile</CastModifier>
+  <CastLocomotionEnabled>true</CastLocomotionEnabled>
+  <MobileCastMovementMult>-1</MobileCastMovementMult>
+  <CastSheatheRequired>0</CastSheatheRequired>
   <Tags />
   <EffectTransforms>
-    <EffectTransformHolder>
+    <DM_EffectTransform>
       <TransformName>Effects</TransformName>
       <Effects>
-        <EffectHolder xsi:type="ShootProjectileHolder">
+        <DM_Effect xsi:type="DM_ThrowItem">
+          <Delay>0</Delay>
+          <SyncType>OwnerSync</SyncType>
+          <OverrideCategory>None</OverrideCategory>
+          <CastPosition>Local</CastPosition>
+          <LocalPositionAdd>
+            <x>0</x>
+            <y>1.5</y>
+            <z>0</z>
+          </LocalPositionAdd>
+          <NoAim>false</NoAim>
+          <TargetType>Enemies</TargetType>
+          <TransformName>ShooterTransform</TransformName>
+          <ProjectileShots />
+          <Lifespan>0</Lifespan>
+          <LateShootTime>0</LateShootTime>
+          <Unblockable>false</Unblockable>
+          <EffectsOnlyIfHitCharacter>false</EffectsOnlyIfHitCharacter>
+          <EndMode>Normal</EndMode>
+          <DisableOnHit>false</DisableOnHit>
+          <IgnoreShooterCollision>false</IgnoreShooterCollision>
           <TargetingMode>NONE</TargetingMode>
+          <TargetCountPerProjectile>0</TargetCountPerProjectile>
+          <TargetRange>0</TargetRange>
           <AutoTarget>false</AutoTarget>
-          <EffectTransforms />
-        </EffectHolder>
+          <AutoTargetMaxAngle>0</AutoTargetMaxAngle>
+          <AutoTargetRange>0</AutoTargetRange>
+          <ProjectileForce>0</ProjectileForce>
+          <AddDirection>
+            <x>0</x>
+            <y>0</y>
+            <z>0</z>
+          </AddDirection>
+          <AddRotationForce>
+            <x>0</x>
+            <y>0</y>
+            <z>0</z>
+          </AddRotationForce>
+          <YMagnitudeAffect>0</YMagnitudeAffect>
+          <YMagnitudeForce>0</YMagnitudeForce>
+          <DefenseLength>0</DefenseLength>
+          <DefenseRange>3</DefenseRange>
+          <PhysicsLayerMask>0</PhysicsLayerMask>
+          <OnlyExplodeOnLayerMask>false</OnlyExplodeOnLayerMask>
+          <ImpactSoundMaterial>Goo</ImpactSoundMaterial>
+          <LightIntensityFade>
+            <x>0</x>
+            <y>0</y>
+          </LightIntensityFade>
+          <PointOffset>
+            <x>0</x>
+            <y>0</y>
+            <z>0</z>
+          </PointOffset>
+          <TrailEnabled>false</TrailEnabled>
+          <TrailTime>0</TrailTime>
+          <ProjectileEffects />
+          <CollisionBehaviour>None</CollisionBehaviour>
+          <ProjectileBehaviour>Physic</ProjectileBehaviour>
+        </DM_Effect>
       </Effects>
       <EffectConditions />
       <ChildEffects />
-    </EffectTransformHolder>
+    </DM_EffectTransform>
   </EffectTransforms>
   <Cooldown>0</Cooldown>
   <StaminaCost>10</StaminaCost>
   <ManaCost>0</ManaCost>
   <DurabilityCost>0</DurabilityCost>
   <DurabilityCostPercent>0</DurabilityCostPercent>
-  <IsDLCSkill>true</IsDLCSkill>
   <RequiredItems />
-</ItemHolder>
+  <AmmunitionTypes />
+  <RequiredOffHandTypes />
+  <RequiredWeaponTypes />
+  <RequiredWeaponTags />
+  <RequireImbue>false</RequireImbue>
+  <ThrowableItemIDs>
+    <int>5100000</int>
+    <int>5100010</int>
+  </ThrowableItemIDs>
+</DM_ThrowSkill>

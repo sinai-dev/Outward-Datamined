@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<MerchantHolder xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<DM_Merchant xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Name>Smooth the Tailor</Name>
   <UID>7U74M70_X0Odj2uQKe5kGA</UID>
   <DropTable>
@@ -170,4 +170,4 @@
   <SellModifiers>
     <float>0.2</float>
   </SellModifiers>
-</MerchantHolder>
+</DM_Merchant>

@@ -1,13 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ItemHolder xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="QuestHolder">
-  <ItemID>7011626</ItemID>
-  <Name>Ledger to Monsoon</Name>
+<DM_Item xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <gameObjectName>7011626_Neutral_BergGeneralStore_Quest</gameObjectName>
   <saveDir>/Quest</saveDir>
+  <ItemID>7011626</ItemID>
+  <Name>Ledger to Monsoon</Name>
   <Description />
   <LegacyItemID>-1</LegacyItemID>
-  <PerishTime>-1</PerishTime>
+  <IsPickable>true</IsPickable>
+  <IsUsable>false</IsUsable>
+  <QtyRemovedOnUse>1</QtyRemovedOnUse>
+  <GroupItemInDisplay>false</GroupItemInDisplay>
+  <HasPhysicsWhenWorld>false</HasPhysicsWhenWorld>
+  <RepairedInRest>true</RepairedInRest>
+  <BehaviorOnNoDurability>NotSet</BehaviorOnNoDurability>
+  <CastType>NONE</CastType>
+  <CastModifier>Immobilized</CastModifier>
+  <CastLocomotionEnabled>false</CastLocomotionEnabled>
+  <MobileCastMovementMult>-1</MobileCastMovementMult>
+  <CastSheatheRequired>1</CastSheatheRequired>
   <Tags />
   <EffectTransforms />
-  <SerializedCanvas>{"version":2.92,"type":"NodeCanvas.StateMachines.QuestTree","translation":{"x":-3145.0,"y":-6308.0},"nodes":[{"_actionList":{"executionMode":"ActionsRunInParallel","actions":[{"AssociatedLogType":"LogSignatureReference","m_logSignatureUID":{"m_value":"FD4FcLPquUOa0dWzoFP07g"},"statement":{"_text":"ledger to monsoon","_meta":"Errand_Berg_General_01"},"logParameters":[],"$type":"NodeCanvas.Tasks.Actions.QuestAction_AddLogEntry"}]},"_position":{"x":3270.0,"y":6810.0},"$type":"NodeCanvas.StateMachines.QuestStep","$id":"2"},{"_actionList":{"executionMode":"ActionsRunInParallel","actions":[{"AssociatedLogType":"LogSignatureReference","m_logSignatureUID":{"m_value":"FD4FcLPquUOa0dWzoFP07g"},"statement":{"_text":"ledger to monsoon","_meta":"Errand_Berg_General_01"},"logParameters":[],"IsCompleted":true,"$type":"NodeCanvas.Tasks.Actions.QuestAction_AddLogEntry"}]},"_position":{"x":3465.0,"y":6705.0},"$type":"NodeCanvas.StateMachines.QuestStep","$id":"7"},{"_actionList":{"executionMode":"ActionsRunInParallel","actions":[{"isSuccessful":{"_value":true},"$type":"NodeCanvas.Tasks.Actions.CompleteQuest"}]},"_position":{"x":3720.0,"y":6735.0},"$type":"NodeCanvas.StateMachines.QuestStep","$id":"12"},{"_actionList":{"executionMode":"ActionsRunInParallel","actions":[{"statement":{"_text":"Heroic Peacemaker"},"logParameters":[],"$type":"NodeCanvas.Tasks.Actions.QuestAction_AddLogEntry"}]},"_position":{"x":5235.0,"y":4905.0},"$type":"NodeCanvas.StateMachines.QuestStep","$id":"17"},{"_actionList":{"executionMode":"ActionsRunInParallel","actions":[{"isSuccessful":{"_value":true},"$type":"NodeCanvas.Tasks.Actions.CompleteQuest"}]},"_position":{"x":5520.0,"y":4935.0},"$type":"NodeCanvas.StateMachines.QuestStep","$id":"22"}],"connections":[{"_condition":{"QuestEventRef":{"m_eventUID":"DvjONu3op0Ku01v25kav3g"},"$type":"NodeCanvas.Tasks.Conditions.Condition_QuestEventOccured"},"_sourceNode":{"$ref":"2"},"_targetNode":{"$ref":"7"},"$type":"NodeCanvas.StateMachines.FSMConnection"},{"_sourceNode":{"$ref":"7"},"_targetNode":{"$ref":"12"},"$type":"NodeCanvas.StateMachines.FSMConnection"},{"_sourceNode":{"$ref":"17"},"_targetNode":{"$ref":"22"},"$type":"NodeCanvas.StateMachines.FSMConnection"}],"localBlackboard":{"_name":"Local Blackboard","_variables":{}}}</SerializedCanvas>
-</ItemHolder>
+</DM_Item>

@@ -1,42 +1,58 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ItemHolder xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="SkillHolder">
-  <ItemID>8100060</ItemID>
-  <Name>-</Name>
+<DM_Skill xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <gameObjectName>8100060_UseBandages</gameObjectName>
   <saveDir>/Skill</saveDir>
+  <ItemID>8100060</ItemID>
+  <Name>-</Name>
   <Description>-</Description>
   <LegacyItemID>-1</LegacyItemID>
-  <PerishTime>-1</PerishTime>
+  <IsPickable>false</IsPickable>
+  <IsUsable>false</IsUsable>
+  <QtyRemovedOnUse>1</QtyRemovedOnUse>
+  <GroupItemInDisplay>false</GroupItemInDisplay>
+  <HasPhysicsWhenWorld>false</HasPhysicsWhenWorld>
+  <RepairedInRest>true</RepairedInRest>
+  <BehaviorOnNoDurability>NotSet</BehaviorOnNoDurability>
+  <CastType>Bandage</CastType>
+  <CastModifier>Immobilized</CastModifier>
+  <CastLocomotionEnabled>false</CastLocomotionEnabled>
+  <MobileCastMovementMult>-1</MobileCastMovementMult>
+  <CastSheatheRequired>1</CastSheatheRequired>
   <Tags />
   <EffectTransforms>
-    <EffectTransformHolder>
+    <DM_EffectTransform>
       <TransformName>Effects</TransformName>
       <Effects>
-        <EffectHolder xsi:type="RemoveStatusEffectHolder">
-          <StatusEffect_ByTag>None</StatusEffect_ByTag>
-          <StatusEffect_Family>Bleeding</StatusEffect_Family>
-          <StatusEffect_ByName />
-        </EffectHolder>
-        <EffectHolder xsi:type="AddStatusEffectHolder">
+        <DM_Effect xsi:type="DM_RemoveStatusEffect">
+          <Delay>0</Delay>
+          <SyncType>OwnerSync</SyncType>
+          <OverrideCategory>None</OverrideCategory>
+          <Status_Name>fKo9pwhyQUyLb3gnwc6h5g</Status_Name>
+          <Status_Tag />
+          <CleanseType>StatusFamily</CleanseType>
+        </DM_Effect>
+        <DM_Effect xsi:type="DM_AddStatusEffect">
+          <Delay>0</Delay>
+          <SyncType>OwnerSync</SyncType>
+          <OverrideCategory>None</OverrideCategory>
+          <StatusEffect />
           <ChanceToContract>0</ChanceToContract>
-        </EffectHolder>
+        </DM_Effect>
       </Effects>
       <EffectConditions />
       <ChildEffects />
-    </EffectTransformHolder>
+    </DM_EffectTransform>
   </EffectTransforms>
   <Cooldown>1</Cooldown>
   <StaminaCost>0</StaminaCost>
   <ManaCost>0</ManaCost>
   <DurabilityCost>0</DurabilityCost>
   <DurabilityCostPercent>0</DurabilityCostPercent>
-  <IsDLCSkill>true</IsDLCSkill>
   <RequiredItems>
     <SkillItemReq>
-      <ItemName>Bandages</ItemName>
       <ItemID>4400010</ItemID>
       <Quantity>1</Quantity>
       <Consume>true</Consume>
     </SkillItemReq>
   </RequiredItems>
-</ItemHolder>
+</DM_Skill>

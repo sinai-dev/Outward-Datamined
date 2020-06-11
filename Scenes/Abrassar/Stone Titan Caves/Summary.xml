@@ -81,7 +81,7 @@
     </QuantityHolder>
   </Gatherables>
   <Item_Spawns>
-    <ItemSpawnHolder>
+    <DM_ItemSpawn>
       <Name>Strongbox Backpack</Name>
       <Item_ID>5300130</Item_ID>
       <Quantity>1</Quantity>
@@ -92,8 +92,8 @@
           <z>-37.4502945</z>
         </Vector3>
       </positions>
-    </ItemSpawnHolder>
-    <ItemSpawnHolder>
+    </DM_ItemSpawn>
+    <DM_ItemSpawn>
       <Name>Ice-Flame Torch</Name>
       <Item_ID>5100070</Item_ID>
       <Quantity>1</Quantity>
@@ -104,7 +104,7 @@
           <z>-44.863</z>
         </Vector3>
       </positions>
-    </ItemSpawnHolder>
+    </DM_ItemSpawn>
   </Item_Spawns>
   <UniqueContainerList>
     <string>Adventurer’s Corpse_v2ka2IxF_0miUdu2aLcJvQ</string>

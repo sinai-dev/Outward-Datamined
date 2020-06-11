@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<EnemyHolder xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<DM_Enemy xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Name>Guardian of the Compass</Name>
   <GameObject_Name>Golem Boss</GameObject_Name>
   <Unique_ID>1</Unique_ID>
@@ -63,4 +63,4 @@
   <DropTable_Names>
     <string>DropTable_GolemGalvanic</string>
   </DropTable_Names>
-</EnemyHolder>
+</DM_Enemy>

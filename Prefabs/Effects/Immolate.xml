@@ -1,32 +1,49 @@
 <?xml version="1.0" encoding="utf-8"?>
-<StatusEffectHolder xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <Name>Immolate</Name>
+<DM_StatusEffect xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <PresetID>66</PresetID>
+  <Identifier>Immolate</Identifier>
+  <Name>Immolate</Name>
+  <Description>Deal +[E2V1]% Fire Damage. Take [E1V1] Fire Damage per second.</Description>
   <Lifespan>60</Lifespan>
   <LengthType>Short</LengthType>
+  <RefreshRate>1</RefreshRate>
+  <BuildupRecoverySpeed>3</BuildupRecoverySpeed>
+  <IgnoreBuildupIfApplied>false</IgnoreBuildupIfApplied>
+  <DisplayedInHUD>true</DisplayedInHUD>
+  <IsHidden>false</IsHidden>
   <Tags>
     <string>Burning</string>
     <string>Status Type</string>
   </Tags>
-  <CanBeHealedBySleeping>false</CanBeHealedBySleeping>
-  <StraightSleepHealTime>-1</StraightSleepHealTime>
   <Effects>
-    <EffectHolder xsi:type="PunctualDamageHolder">
-      <Damage>
-        <Damages>
-          <Damage>0.3</Damage>
-          <Damage_Type>Physical</Damage_Type>
-        </Damages>
-      </Damage>
-      <Damages_AI />
-      <Knockback>10</Knockback>
-      <HitInventory>false</HitInventory>
-    </EffectHolder>
-    <EffectHolder xsi:type="AffectStatHolder">
-      <AffectedStat>FireDamage</AffectedStat>
-      <AffectedStat_TagUID>102</AffectedStat_TagUID>
-      <AffectQuantity>30</AffectQuantity>
-      <IsModifier>true</IsModifier>
-    </EffectHolder>
+    <DM_EffectTransform>
+      <TransformName>Normal</TransformName>
+      <Effects>
+        <DM_Effect xsi:type="DM_PunctualDamage">
+          <Delay>0</Delay>
+          <SyncType>OwnerSync</SyncType>
+          <OverrideCategory>None</OverrideCategory>
+          <Damage>
+            <Damages>
+              <Damage>0.3</Damage>
+              <Damage_Type>Fire</Damage_Type>
+            </Damages>
+          </Damage>
+          <Damages_AI />
+          <Knockback>0</Knockback>
+          <HitInventory>false</HitInventory>
+        </DM_Effect>
+        <DM_Effect xsi:type="DM_AffectStat">
+          <Delay>0</Delay>
+          <SyncType>OwnerSync</SyncType>
+          <OverrideCategory>None</OverrideCategory>
+          <Stat_Tag>FireDamage</Stat_Tag>
+          <AffectQuantity>30</AffectQuantity>
+          <IsModifier>true</IsModifier>
+        </DM_Effect>
+      </Effects>
+      <EffectConditions />
+      <ChildEffects />
+    </DM_EffectTransform>
   </Effects>
-</StatusEffectHolder>
+</DM_StatusEffect>

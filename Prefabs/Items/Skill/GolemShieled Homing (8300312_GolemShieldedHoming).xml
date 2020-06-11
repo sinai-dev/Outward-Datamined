@@ -1,25 +1,150 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ItemHolder xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="SkillHolder">
-  <ItemID>8300312</ItemID>
-  <Name>GolemShieled Homing</Name>
+<DM_Skill xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <gameObjectName>8300312_GolemShieldedHoming</gameObjectName>
   <saveDir>/Skill</saveDir>
+  <ItemID>8300312</ItemID>
+  <Name>GolemShieled Homing</Name>
   <Description />
   <LegacyItemID>-1</LegacyItemID>
-  <PerishTime>-1</PerishTime>
+  <IsPickable>false</IsPickable>
+  <IsUsable>false</IsUsable>
+  <QtyRemovedOnUse>0</QtyRemovedOnUse>
+  <GroupItemInDisplay>false</GroupItemInDisplay>
+  <HasPhysicsWhenWorld>false</HasPhysicsWhenWorld>
+  <RepairedInRest>true</RepairedInRest>
+  <BehaviorOnNoDurability>NotSet</BehaviorOnNoDurability>
+  <CastType>Potion</CastType>
+  <CastModifier>Immobilized</CastModifier>
+  <CastLocomotionEnabled>false</CastLocomotionEnabled>
+  <MobileCastMovementMult>-1</MobileCastMovementMult>
+  <CastSheatheRequired>0</CastSheatheRequired>
   <Tags />
   <EffectTransforms>
-    <EffectTransformHolder>
+    <DM_EffectTransform>
+      <TransformName>ActivationEffects</TransformName>
+      <Effects>
+        <DM_Effect xsi:type="DM_PlaySoundEffect">
+          <Delay>0</Delay>
+          <SyncType>OwnerSync</SyncType>
+          <OverrideCategory>None</OverrideCategory>
+          <Sounds>
+            <Sounds>CS_ObsidienElmt_SpecialAttack_Grunt3</Sounds>
+          </Sounds>
+          <Follow>false</Follow>
+          <MinPitch>1</MinPitch>
+          <MaxPitch>1</MaxPitch>
+        </DM_Effect>
+      </Effects>
+      <EffectConditions />
+      <ChildEffects />
+    </DM_EffectTransform>
+    <DM_EffectTransform>
       <TransformName>Effects</TransformName>
       <Effects>
-        <EffectHolder xsi:type="ShootProjectileHolder">
+        <DM_Effect xsi:type="DM_ShootProjectile">
+          <Delay>0</Delay>
+          <SyncType>OwnerSync</SyncType>
+          <OverrideCategory>None</OverrideCategory>
+          <CastPosition>Local</CastPosition>
+          <LocalPositionAdd>
+            <x>0</x>
+            <y>2</y>
+            <z>0</z>
+          </LocalPositionAdd>
+          <NoAim>true</NoAim>
+          <TargetType>Enemies</TargetType>
+          <TransformName>ShooterTransform</TransformName>
+          <BaseProjectile>GolemShieldedHomming</BaseProjectile>
+          <ProjectileShots>
+            <DM_ProjectileShot>
+              <LocalDirectionOffset>
+                <x>1.5</x>
+                <y>1.7</y>
+                <z>1</z>
+              </LocalDirectionOffset>
+              <LockDirection>
+                <x>-999</x>
+                <y>-999</y>
+                <z>-999</z>
+              </LockDirection>
+              <MustShoot>false</MustShoot>
+              <NoBaseDir>false</NoBaseDir>
+              <RandomLocalDirectionAdd>
+                <x>0</x>
+                <y>0</y>
+                <z>0</z>
+              </RandomLocalDirectionAdd>
+            </DM_ProjectileShot>
+            <DM_ProjectileShot>
+              <LocalDirectionOffset>
+                <x>-1.5</x>
+                <y>1.7</y>
+                <z>1</z>
+              </LocalDirectionOffset>
+              <LockDirection>
+                <x>-999</x>
+                <y>-999</y>
+                <z>-999</z>
+              </LockDirection>
+              <MustShoot>false</MustShoot>
+              <NoBaseDir>false</NoBaseDir>
+              <RandomLocalDirectionAdd>
+                <x>0</x>
+                <y>0</y>
+                <z>0</z>
+              </RandomLocalDirectionAdd>
+            </DM_ProjectileShot>
+          </ProjectileShots>
+          <Lifespan>6</Lifespan>
+          <LateShootTime>0.1</LateShootTime>
+          <Unblockable>false</Unblockable>
+          <EffectsOnlyIfHitCharacter>false</EffectsOnlyIfHitCharacter>
+          <EndMode>Normal</EndMode>
+          <DisableOnHit>false</DisableOnHit>
+          <IgnoreShooterCollision>true</IgnoreShooterCollision>
           <TargetingMode>FindEnemies</TargetingMode>
+          <TargetCountPerProjectile>1</TargetCountPerProjectile>
+          <TargetRange>50</TargetRange>
           <AutoTarget>false</AutoTarget>
-          <EffectTransforms>
-            <EffectTransformHolder>
+          <AutoTargetMaxAngle>360</AutoTargetMaxAngle>
+          <AutoTargetRange>5</AutoTargetRange>
+          <ProjectileForce>9</ProjectileForce>
+          <AddDirection>
+            <x>0</x>
+            <y>0</y>
+            <z>0</z>
+          </AddDirection>
+          <AddRotationForce>
+            <x>0</x>
+            <y>0</y>
+            <z>0</z>
+          </AddRotationForce>
+          <YMagnitudeAffect>0</YMagnitudeAffect>
+          <YMagnitudeForce>0</YMagnitudeForce>
+          <DefenseLength>0</DefenseLength>
+          <DefenseRange>0</DefenseRange>
+          <PhysicsLayerMask>0</PhysicsLayerMask>
+          <OnlyExplodeOnLayerMask>false</OnlyExplodeOnLayerMask>
+          <ImpactSoundMaterial>Fire</ImpactSoundMaterial>
+          <LightIntensityFade>
+            <x>10</x>
+            <y>2</y>
+          </LightIntensityFade>
+          <PointOffset>
+            <x>0</x>
+            <y>0</y>
+            <z>0</z>
+          </PointOffset>
+          <TrailEnabled>false</TrailEnabled>
+          <TrailTime>0.075</TrailTime>
+          <ProjectileEffects>
+            <DM_EffectTransform>
               <TransformName>HitEffects</TransformName>
               <Effects>
-                <EffectHolder xsi:type="PunctualDamageHolder">
+                <DM_Effect xsi:type="DM_PunctualDamage">
+                  <Delay>0</Delay>
+                  <SyncType>OwnerSync</SyncType>
+                  <OverrideCategory>None</OverrideCategory>
                   <Damage>
                     <Damages>
                       <Damage>3</Damage>
@@ -29,15 +154,45 @@
                   <Damages_AI />
                   <Knockback>15</Knockback>
                   <HitInventory>true</HitInventory>
-                </EffectHolder>
-                <EffectHolder xsi:type="ShootBlastHolder">
-                  <BlastLifespan>5</BlastLifespan>
+                </DM_Effect>
+                <DM_Effect xsi:type="DM_ShootBlast">
+                  <Delay>0</Delay>
+                  <SyncType>OwnerSync</SyncType>
+                  <OverrideCategory>None</OverrideCategory>
+                  <CastPosition>Local</CastPosition>
+                  <LocalPositionAdd>
+                    <x>0</x>
+                    <y>0</y>
+                    <z>0</z>
+                  </LocalPositionAdd>
+                  <NoAim>false</NoAim>
+                  <TargetType>Enemies</TargetType>
+                  <TransformName>ShooterTransform</TransformName>
+                  <BaseBlast>GolemShieldedLingerBlast</BaseBlast>
+                  <Radius>3</Radius>
                   <RefreshTime>0.5</RefreshTime>
-                  <EffectTransforms>
-                    <EffectTransformHolder>
+                  <BlastLifespan>5</BlastLifespan>
+                  <InstantiatedAmount>1</InstantiatedAmount>
+                  <Interruptible>false</Interruptible>
+                  <MaxHitTargetCount>-1</MaxHitTargetCount>
+                  <AffectHitTargetCenter>false</AffectHitTargetCenter>
+                  <HitOnShoot>true</HitOnShoot>
+                  <IgnoreShooter>false</IgnoreShooter>
+                  <IgnoreStop>false</IgnoreStop>
+                  <NoTargetForwardMultiplier>5</NoTargetForwardMultiplier>
+                  <ParentToShootTransform>false</ParentToShootTransform>
+                  <UseTargetCharacterPositionType>false</UseTargetCharacterPositionType>
+                  <ImpactSoundMaterial>Fire</ImpactSoundMaterial>
+                  <DontPlayHitSound>false</DontPlayHitSound>
+                  <FXIsWorld>false</FXIsWorld>
+                  <BlastEffects>
+                    <DM_EffectTransform>
                       <TransformName>Effects</TransformName>
                       <Effects>
-                        <EffectHolder xsi:type="PunctualDamageHolder">
+                        <DM_Effect xsi:type="DM_PunctualDamage">
+                          <Delay>0</Delay>
+                          <SyncType>MasterSync</SyncType>
+                          <OverrideCategory>None</OverrideCategory>
                           <Damage>
                             <Damages>
                               <Damage>10</Damage>
@@ -47,29 +202,28 @@
                           <Damages_AI />
                           <Knockback>5</Knockback>
                           <HitInventory>true</HitInventory>
-                        </EffectHolder>
+                        </DM_Effect>
                       </Effects>
                       <EffectConditions />
                       <ChildEffects />
-                    </EffectTransformHolder>
-                  </EffectTransforms>
-                </EffectHolder>
+                    </DM_EffectTransform>
+                  </BlastEffects>
+                </DM_Effect>
               </Effects>
               <EffectConditions />
               <ChildEffects />
-            </EffectTransformHolder>
-          </EffectTransforms>
-        </EffectHolder>
+            </DM_EffectTransform>
+          </ProjectileEffects>
+        </DM_Effect>
       </Effects>
       <EffectConditions />
       <ChildEffects />
-    </EffectTransformHolder>
+    </DM_EffectTransform>
   </EffectTransforms>
   <Cooldown>6</Cooldown>
   <StaminaCost>0</StaminaCost>
   <ManaCost>0</ManaCost>
   <DurabilityCost>0</DurabilityCost>
   <DurabilityCostPercent>0</DurabilityCostPercent>
-  <IsDLCSkill>true</IsDLCSkill>
   <RequiredItems />
-</ItemHolder>
+</DM_Skill>

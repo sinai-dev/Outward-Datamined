@@ -73,7 +73,7 @@
     </QuantityHolder>
   </Gatherables>
   <Item_Spawns>
-    <ItemSpawnHolder>
+    <DM_ItemSpawn>
       <Name>Brass-Wolf Backpack</Name>
       <Item_ID>5300070</Item_ID>
       <Quantity>1</Quantity>
@@ -84,7 +84,7 @@
           <z>24.3365326</z>
         </Vector3>
       </positions>
-    </ItemSpawnHolder>
+    </DM_ItemSpawn>
   </Item_Spawns>
   <UniqueContainerList>
     <string>Ornate Chest_hNoCZcnBzU6JyX2-S7pzZQ</string>

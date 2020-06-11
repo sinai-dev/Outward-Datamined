@@ -89,7 +89,7 @@
     </QuantityHolder>
   </Gatherables>
   <Item_Spawns>
-    <ItemSpawnHolder>
+    <DM_ItemSpawn>
       <Name>Old Levant's Key</Name>
       <Item_ID>5600021</Item_ID>
       <Quantity>1</Quantity>
@@ -100,7 +100,7 @@
           <z>-29.373827</z>
         </Vector3>
       </positions>
-    </ItemSpawnHolder>
+    </DM_ItemSpawn>
   </Item_Spawns>
   <UniqueContainerList>
     <string>Ornate Chest_CWX4clojhUOcWad8D54Wjg</string>

@@ -52,7 +52,7 @@
     </QuantityHolder>
   </Gatherables>
   <Item_Spawns>
-    <ItemSpawnHolder>
+    <DM_ItemSpawn>
       <Name>Cooking: Marshmelon Tartine</Name>
       <Item_ID>5700061</Item_ID>
       <Quantity>1</Quantity>
@@ -63,7 +63,7 @@
           <z>-62.973</z>
         </Vector3>
       </positions>
-    </ItemSpawnHolder>
+    </DM_ItemSpawn>
   </Item_Spawns>
   <UniqueContainerList>
     <string>Junk Pile_JRn14iwdcEWYB9HhzA8IKA</string>

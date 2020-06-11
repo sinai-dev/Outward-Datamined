@@ -1,35 +1,44 @@
 <?xml version="1.0" encoding="utf-8"?>
-<StatusEffectHolder xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<DM_ImbueEffect xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <StatusID>218</StatusID>
   <Name>Mystic Frost Imbue</Name>
-  <PresetID>218</PresetID>
-  <Lifespan>0</Lifespan>
-  <Tags />
-  <CanBeHealedBySleeping>false</CanBeHealedBySleeping>
-  <StraightSleepHealTime>-1</StraightSleepHealTime>
+  <Description>Weapon deals some Frost Damage and inflicts Slow Down on enemies.</Description>
   <Effects>
-    <EffectHolder xsi:type="WeaponDamageHolder">
-      <Damage>
-        <Damages>
-          <Damage>10</Damage>
-          <Damage_Type>Frost</Damage_Type>
-        </Damages>
-      </Damage>
-      <Damages_AI />
-      <Knockback>0</Knockback>
-      <HitInventory>true</HitInventory>
-      <OverrideType>Frost</OverrideType>
-      <Damage_Multiplier>1.25</Damage_Multiplier>
-      <Damage_Multiplier_Kback>-1</Damage_Multiplier_Kback>
-      <Damage_Multiplier_Kdown>-1</Damage_Multiplier_Kdown>
-      <Impact_Multiplier>1</Impact_Multiplier>
-      <Impact_Multiplier_Kback>-1</Impact_Multiplier_Kback>
-      <Impact_Multiplier_Kdown>-1</Impact_Multiplier_Kdown>
-      <DurabilityLoss>1</DurabilityLoss>
-      <DurabilityLossPercent>0</DurabilityLossPercent>
-    </EffectHolder>
-    <EffectHolder xsi:type="AddStatusEffectBuildupHolder">
-      <StatusEffect>Slow Down</StatusEffect>
-      <Buildup>49</Buildup>
-    </EffectHolder>
+    <DM_EffectTransform>
+      <TransformName>Effects</TransformName>
+      <Effects>
+        <DM_Effect xsi:type="DM_WeaponDamage">
+          <Delay>0</Delay>
+          <SyncType>OwnerSync</SyncType>
+          <OverrideCategory>Hit</OverrideCategory>
+          <Damage>
+            <Damages>
+              <Damage>10</Damage>
+              <Damage_Type>Frost</Damage_Type>
+            </Damages>
+          </Damage>
+          <Damages_AI />
+          <Knockback>0</Knockback>
+          <HitInventory>true</HitInventory>
+          <OverrideType>Frost</OverrideType>
+          <ForceOnlyLeftHand>false</ForceOnlyLeftHand>
+          <Damage_Multiplier>1.25</Damage_Multiplier>
+          <Damage_Multiplier_Kback>-1</Damage_Multiplier_Kback>
+          <Damage_Multiplier_Kdown>-1</Damage_Multiplier_Kdown>
+          <Impact_Multiplier>1</Impact_Multiplier>
+          <Impact_Multiplier_Kback>-1</Impact_Multiplier_Kback>
+          <Impact_Multiplier_Kdown>-1</Impact_Multiplier_Kdown>
+        </DM_Effect>
+        <DM_Effect xsi:type="DM_AddStatusEffectBuildUp">
+          <Delay>0</Delay>
+          <SyncType>OwnerSync</SyncType>
+          <OverrideCategory>Hit</OverrideCategory>
+          <StatusEffect>Slow Down</StatusEffect>
+          <Buildup>49</Buildup>
+        </DM_Effect>
+      </Effects>
+      <EffectConditions />
+      <ChildEffects />
+    </DM_EffectTransform>
   </Effects>
-</StatusEffectHolder>
+</DM_ImbueEffect>

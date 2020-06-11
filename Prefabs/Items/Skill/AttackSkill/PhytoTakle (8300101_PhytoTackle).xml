@@ -1,18 +1,51 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ItemHolder xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="SkillHolder">
-  <ItemID>8300101</ItemID>
-  <Name>PhytoTakle</Name>
+<DM_AttackSkill xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <gameObjectName>8300101_PhytoTackle</gameObjectName>
   <saveDir>/Skill/AttackSkill</saveDir>
+  <ItemID>8300101</ItemID>
+  <Name>PhytoTakle</Name>
   <Description />
   <LegacyItemID>-1</LegacyItemID>
-  <PerishTime>-1</PerishTime>
+  <IsPickable>false</IsPickable>
+  <IsUsable>false</IsUsable>
+  <QtyRemovedOnUse>0</QtyRemovedOnUse>
+  <GroupItemInDisplay>false</GroupItemInDisplay>
+  <HasPhysicsWhenWorld>false</HasPhysicsWhenWorld>
+  <RepairedInRest>true</RepairedInRest>
+  <BehaviorOnNoDurability>NotSet</BehaviorOnNoDurability>
+  <CastType>Fast</CastType>
+  <CastModifier>Immobilized</CastModifier>
+  <CastLocomotionEnabled>false</CastLocomotionEnabled>
+  <MobileCastMovementMult>-1</MobileCastMovementMult>
+  <CastSheatheRequired>0</CastSheatheRequired>
   <Tags />
   <EffectTransforms>
-    <EffectTransformHolder>
+    <DM_EffectTransform>
+      <TransformName>ActivationEffects</TransformName>
+      <Effects>
+        <DM_Effect xsi:type="DM_PlaySoundEffect">
+          <Delay>0</Delay>
+          <SyncType>OwnerSync</SyncType>
+          <OverrideCategory>None</OverrideCategory>
+          <Sounds>
+            <Sounds>CS_Phytosaur_AttackSpecial_Grunt1</Sounds>
+            <Sounds>CS_Phytosaur_AttackSpecial_Grunt2</Sounds>
+          </Sounds>
+          <Follow>false</Follow>
+          <MinPitch>1</MinPitch>
+          <MaxPitch>1</MaxPitch>
+        </DM_Effect>
+      </Effects>
+      <EffectConditions />
+      <ChildEffects />
+    </DM_EffectTransform>
+    <DM_EffectTransform>
       <TransformName>Effects</TransformName>
       <Effects>
-        <EffectHolder xsi:type="WeaponDamageHolder">
+        <DM_Effect xsi:type="DM_WeaponDamage">
+          <Delay>0</Delay>
+          <SyncType>OwnerSync</SyncType>
+          <OverrideCategory>None</OverrideCategory>
           <Damage>
             <Damages>
               <Damage>8</Damage>
@@ -23,25 +56,28 @@
           <Knockback>200</Knockback>
           <HitInventory>true</HitInventory>
           <OverrideType>Count</OverrideType>
+          <ForceOnlyLeftHand>false</ForceOnlyLeftHand>
           <Damage_Multiplier>1</Damage_Multiplier>
           <Damage_Multiplier_Kback>-1</Damage_Multiplier_Kback>
           <Damage_Multiplier_Kdown>-1</Damage_Multiplier_Kdown>
           <Impact_Multiplier>1</Impact_Multiplier>
           <Impact_Multiplier_Kback>-1</Impact_Multiplier_Kback>
           <Impact_Multiplier_Kdown>-1</Impact_Multiplier_Kdown>
-          <DurabilityLoss>1</DurabilityLoss>
-          <DurabilityLossPercent>0</DurabilityLossPercent>
-        </EffectHolder>
+        </DM_Effect>
       </Effects>
       <EffectConditions />
       <ChildEffects />
-    </EffectTransformHolder>
+    </DM_EffectTransform>
   </EffectTransforms>
   <Cooldown>2.5</Cooldown>
   <StaminaCost>0</StaminaCost>
   <ManaCost>0</ManaCost>
   <DurabilityCost>0</DurabilityCost>
   <DurabilityCostPercent>0</DurabilityCostPercent>
-  <IsDLCSkill>true</IsDLCSkill>
   <RequiredItems />
-</ItemHolder>
+  <AmmunitionTypes />
+  <RequiredOffHandTypes />
+  <RequiredWeaponTypes />
+  <RequiredWeaponTags />
+  <RequireImbue>false</RequireImbue>
+</DM_AttackSkill>

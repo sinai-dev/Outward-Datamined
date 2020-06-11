@@ -1,18 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ItemHolder xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="SkillHolder">
-  <ItemID>8300290</ItemID>
-  <Name>Precise Strike Squire</Name>
+<DM_MeleeSkill xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <gameObjectName>8300290_SquirePreciseStrike</gameObjectName>
   <saveDir>/Skill/AttackSkill/MeleeSkill</saveDir>
+  <ItemID>8300290</ItemID>
+  <Name>Precise Strike Squire</Name>
   <Description />
   <LegacyItemID>-1</LegacyItemID>
-  <PerishTime>-1</PerishTime>
+  <IsPickable>false</IsPickable>
+  <IsUsable>false</IsUsable>
+  <QtyRemovedOnUse>1</QtyRemovedOnUse>
+  <GroupItemInDisplay>false</GroupItemInDisplay>
+  <HasPhysicsWhenWorld>false</HasPhysicsWhenWorld>
+  <RepairedInRest>true</RepairedInRest>
+  <BehaviorOnNoDurability>NotSet</BehaviorOnNoDurability>
+  <CastType>PreciseStrike</CastType>
+  <CastModifier>Attack</CastModifier>
+  <CastLocomotionEnabled>false</CastLocomotionEnabled>
+  <MobileCastMovementMult>-1</MobileCastMovementMult>
+  <CastSheatheRequired>2</CastSheatheRequired>
   <Tags />
   <EffectTransforms>
-    <EffectTransformHolder>
+    <DM_EffectTransform>
       <TransformName>HitEffects</TransformName>
       <Effects>
-        <EffectHolder xsi:type="WeaponDamageHolder">
+        <DM_Effect xsi:type="DM_WeaponDamage">
+          <Delay>0</Delay>
+          <SyncType>OwnerSync</SyncType>
+          <OverrideCategory>None</OverrideCategory>
           <Damage>
             <Damages>
               <Damage>0</Damage>
@@ -23,25 +37,83 @@
           <Knockback>0</Knockback>
           <HitInventory>true</HitInventory>
           <OverrideType>Raw</OverrideType>
+          <ForceOnlyLeftHand>false</ForceOnlyLeftHand>
           <Damage_Multiplier>1</Damage_Multiplier>
           <Damage_Multiplier_Kback>-1</Damage_Multiplier_Kback>
           <Damage_Multiplier_Kdown>-1</Damage_Multiplier_Kdown>
           <Impact_Multiplier>1</Impact_Multiplier>
           <Impact_Multiplier_Kback>-1</Impact_Multiplier_Kback>
           <Impact_Multiplier_Kdown>-1</Impact_Multiplier_Kdown>
-          <DurabilityLoss>0</DurabilityLoss>
-          <DurabilityLossPercent>3</DurabilityLossPercent>
-        </EffectHolder>
+        </DM_Effect>
       </Effects>
       <EffectConditions />
       <ChildEffects />
-    </EffectTransformHolder>
+    </DM_EffectTransform>
+    <DM_EffectTransform>
+      <TransformName>ActivationEffects</TransformName>
+      <Effects>
+        <DM_Effect xsi:type="DM_PlaySoundEffect">
+          <Delay>0</Delay>
+          <SyncType>OwnerSync</SyncType>
+          <OverrideCategory>None</OverrideCategory>
+          <Sounds>
+            <Sounds>SFX_SKILL_PreciseStrike_PhysicalCharge</Sounds>
+          </Sounds>
+          <Follow>false</Follow>
+          <MinPitch>1</MinPitch>
+          <MaxPitch>1</MaxPitch>
+        </DM_Effect>
+        <DM_Effect xsi:type="DM_PlaySoundEffect">
+          <Delay>0.4</Delay>
+          <SyncType>OwnerSync</SyncType>
+          <OverrideCategory>None</OverrideCategory>
+          <Sounds>
+            <Sounds>SFX_SKILL_PreciseStrike_WhooshImpact</Sounds>
+          </Sounds>
+          <Follow>false</Follow>
+          <MinPitch>1</MinPitch>
+          <MaxPitch>1</MaxPitch>
+        </DM_Effect>
+        <DM_Effect xsi:type="DM_PlaySoundEffect">
+          <Delay>0</Delay>
+          <SyncType>OwnerSync</SyncType>
+          <OverrideCategory>None</OverrideCategory>
+          <Sounds>
+            <Sounds>CS_Golem_HeavyAttackFence_Whoosh1</Sounds>
+          </Sounds>
+          <Follow>false</Follow>
+          <MinPitch>1</MinPitch>
+          <MaxPitch>1</MaxPitch>
+        </DM_Effect>
+      </Effects>
+      <EffectConditions />
+      <ChildEffects />
+    </DM_EffectTransform>
   </EffectTransforms>
   <Cooldown>5</Cooldown>
   <StaminaCost>10</StaminaCost>
   <ManaCost>0</ManaCost>
   <DurabilityCost>0</DurabilityCost>
   <DurabilityCostPercent>0</DurabilityCostPercent>
-  <IsDLCSkill>true</IsDLCSkill>
   <RequiredItems />
-</ItemHolder>
+  <AmmunitionTypes />
+  <RequiredOffHandTypes />
+  <RequiredWeaponTypes>
+    <WeaponType>Sword_1H</WeaponType>
+    <WeaponType>Axe_1H</WeaponType>
+    <WeaponType>Mace_1H</WeaponType>
+    <WeaponType>Halberd_2H</WeaponType>
+    <WeaponType>Sword_2H</WeaponType>
+    <WeaponType>Axe_2H</WeaponType>
+    <WeaponType>Mace_2H</WeaponType>
+    <WeaponType>Spear_2H</WeaponType>
+  </RequiredWeaponTypes>
+  <RequiredWeaponTags />
+  <RequireImbue>false</RequireImbue>
+  <Blockable>false</Blockable>
+  <Damage>0</Damage>
+  <Impact>0</Impact>
+  <LinecastCount>0</LinecastCount>
+  <Radius>0</Radius>
+  <Unblockable>false</Unblockable>
+</DM_MeleeSkill>

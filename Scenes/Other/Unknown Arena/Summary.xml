@@ -93,7 +93,7 @@
     </QuantityHolder>
   </Gatherables>
   <Item_Spawns>
-    <ItemSpawnHolder>
+    <DM_ItemSpawn>
       <Name>Bed</Name>
       <Item_ID>5000001</Item_ID>
       <Quantity>1</Quantity>
@@ -104,7 +104,7 @@
           <z>5.876808</z>
         </Vector3>
       </positions>
-    </ItemSpawnHolder>
+    </DM_ItemSpawn>
   </Item_Spawns>
   <UniqueContainerList>
     <string>Ornate Chest_riHfSZ6JkE6wrtxXVUD1OQ</string>

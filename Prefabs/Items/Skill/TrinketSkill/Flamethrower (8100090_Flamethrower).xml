@@ -1,29 +1,70 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ItemHolder xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="SkillHolder">
-  <ItemID>8100090</ItemID>
-  <Name>Flamethrower</Name>
+<DM_TrinketSkill xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <gameObjectName>8100090_Flamethrower</gameObjectName>
   <saveDir>/Skill/TrinketSkill</saveDir>
+  <ItemID>8100090</ItemID>
+  <Name>Flamethrower</Name>
   <Description>Required: Torch or Lantern
 
 Shoots fire from the torch or lantern, which also inflicts the Burning status effect.
 
 This skill lowers the durability of the torch or lantern used.</Description>
   <LegacyItemID>-1</LegacyItemID>
-  <PerishTime>-1</PerishTime>
+  <IsPickable>false</IsPickable>
+  <IsUsable>false</IsUsable>
+  <QtyRemovedOnUse>1</QtyRemovedOnUse>
+  <GroupItemInDisplay>false</GroupItemInDisplay>
+  <HasPhysicsWhenWorld>false</HasPhysicsWhenWorld>
+  <RepairedInRest>true</RepairedInRest>
+  <BehaviorOnNoDurability>NotSet</BehaviorOnNoDurability>
+  <CastType>Flamethrower</CastType>
+  <CastModifier>Mobile</CastModifier>
+  <CastLocomotionEnabled>false</CastLocomotionEnabled>
+  <MobileCastMovementMult>0.6</MobileCastMovementMult>
+  <CastSheatheRequired>0</CastSheatheRequired>
   <Tags />
   <EffectTransforms>
-    <EffectTransformHolder>
+    <DM_EffectTransform>
       <TransformName>Effects</TransformName>
       <Effects>
-        <EffectHolder xsi:type="ShootBlastHolder">
-          <BlastLifespan>2.5</BlastLifespan>
+        <DM_Effect xsi:type="DM_ShootBlast">
+          <Delay>0</Delay>
+          <SyncType>OwnerSync</SyncType>
+          <OverrideCategory>None</OverrideCategory>
+          <CastPosition>Character</CastPosition>
+          <LocalPositionAdd>
+            <x>0</x>
+            <y>1</y>
+            <z>0.5</z>
+          </LocalPositionAdd>
+          <NoAim>false</NoAim>
+          <TargetType>Enemies</TargetType>
+          <TransformName>ShooterTransform</TransformName>
+          <BaseBlast>Flamethrower</BaseBlast>
+          <Radius>0.6</Radius>
           <RefreshTime>0.1</RefreshTime>
-          <EffectTransforms>
-            <EffectTransformHolder>
+          <BlastLifespan>2.5</BlastLifespan>
+          <InstantiatedAmount>1</InstantiatedAmount>
+          <Interruptible>true</Interruptible>
+          <MaxHitTargetCount>-1</MaxHitTargetCount>
+          <AffectHitTargetCenter>false</AffectHitTargetCenter>
+          <HitOnShoot>true</HitOnShoot>
+          <IgnoreShooter>false</IgnoreShooter>
+          <IgnoreStop>false</IgnoreStop>
+          <NoTargetForwardMultiplier>5</NoTargetForwardMultiplier>
+          <ParentToShootTransform>false</ParentToShootTransform>
+          <UseTargetCharacterPositionType>false</UseTargetCharacterPositionType>
+          <ImpactSoundMaterial>Fire</ImpactSoundMaterial>
+          <DontPlayHitSound>false</DontPlayHitSound>
+          <FXIsWorld>false</FXIsWorld>
+          <BlastEffects>
+            <DM_EffectTransform>
               <TransformName>NormalFire</TransformName>
               <Effects>
-                <EffectHolder xsi:type="PunctualDamageHolder">
+                <DM_Effect xsi:type="DM_PunctualDamage">
+                  <Delay>0</Delay>
+                  <SyncType>OwnerSync</SyncType>
+                  <OverrideCategory>None</OverrideCategory>
                   <Damage>
                     <Damages>
                       <Damage>2.75</Damage>
@@ -33,19 +74,25 @@ This skill lowers the durability of the torch or lantern used.</Description>
                   <Damages_AI />
                   <Knockback>2.65</Knockback>
                   <HitInventory>true</HitInventory>
-                </EffectHolder>
-                <EffectHolder xsi:type="AddStatusEffectBuildupHolder">
+                </DM_Effect>
+                <DM_Effect xsi:type="DM_AddStatusEffectBuildUp">
+                  <Delay>0</Delay>
+                  <SyncType>OwnerSync</SyncType>
+                  <OverrideCategory>None</OverrideCategory>
                   <StatusEffect>Burning</StatusEffect>
                   <Buildup>15</Buildup>
-                </EffectHolder>
+                </DM_Effect>
               </Effects>
               <EffectConditions />
               <ChildEffects />
-            </EffectTransformHolder>
-            <EffectTransformHolder>
+            </DM_EffectTransform>
+            <DM_EffectTransform>
               <TransformName>NormalLightning</TransformName>
               <Effects>
-                <EffectHolder xsi:type="PunctualDamageHolder">
+                <DM_Effect xsi:type="DM_PunctualDamage">
+                  <Delay>0</Delay>
+                  <SyncType>OwnerSync</SyncType>
+                  <OverrideCategory>None</OverrideCategory>
                   <Damage>
                     <Damages>
                       <Damage>3.16</Damage>
@@ -55,19 +102,25 @@ This skill lowers the durability of the torch or lantern used.</Description>
                   <Damages_AI />
                   <Knockback>2.65</Knockback>
                   <HitInventory>true</HitInventory>
-                </EffectHolder>
-                <EffectHolder xsi:type="AddStatusEffectBuildupHolder">
+                </DM_Effect>
+                <DM_Effect xsi:type="DM_AddStatusEffectBuildUp">
+                  <Delay>0</Delay>
+                  <SyncType>OwnerSync</SyncType>
+                  <OverrideCategory>None</OverrideCategory>
                   <StatusEffect>Sapped</StatusEffect>
                   <Buildup>15</Buildup>
-                </EffectHolder>
+                </DM_Effect>
               </Effects>
               <EffectConditions />
               <ChildEffects />
-            </EffectTransformHolder>
-            <EffectTransformHolder>
+            </DM_EffectTransform>
+            <DM_EffectTransform>
               <TransformName>NormalEthereal</TransformName>
               <Effects>
-                <EffectHolder xsi:type="PunctualDamageHolder">
+                <DM_Effect xsi:type="DM_PunctualDamage">
+                  <Delay>0</Delay>
+                  <SyncType>OwnerSync</SyncType>
+                  <OverrideCategory>None</OverrideCategory>
                   <Damage>
                     <Damages>
                       <Damage>1.375</Damage>
@@ -77,19 +130,25 @@ This skill lowers the durability of the torch or lantern used.</Description>
                   <Damages_AI />
                   <Knockback>2.65</Knockback>
                   <HitInventory>true</HitInventory>
-                </EffectHolder>
-                <EffectHolder xsi:type="AddStatusEffectBuildupHolder">
+                </DM_Effect>
+                <DM_Effect xsi:type="DM_AddStatusEffectBuildUp">
+                  <Delay>0</Delay>
+                  <SyncType>OwnerSync</SyncType>
+                  <OverrideCategory>None</OverrideCategory>
                   <StatusEffect>Haunted</StatusEffect>
                   <Buildup>15</Buildup>
-                </EffectHolder>
+                </DM_Effect>
               </Effects>
               <EffectConditions />
               <ChildEffects />
-            </EffectTransformHolder>
-            <EffectTransformHolder>
+            </DM_EffectTransform>
+            <DM_EffectTransform>
               <TransformName>NormalIce</TransformName>
               <Effects>
-                <EffectHolder xsi:type="PunctualDamageHolder">
+                <DM_Effect xsi:type="DM_PunctualDamage">
+                  <Delay>0</Delay>
+                  <SyncType>OwnerSync</SyncType>
+                  <OverrideCategory>None</OverrideCategory>
                   <Damage>
                     <Damages>
                       <Damage>2.75</Damage>
@@ -99,19 +158,25 @@ This skill lowers the durability of the torch or lantern used.</Description>
                   <Damages_AI />
                   <Knockback>2.65</Knockback>
                   <HitInventory>true</HitInventory>
-                </EffectHolder>
-                <EffectHolder xsi:type="AddStatusEffectBuildupHolder">
+                </DM_Effect>
+                <DM_Effect xsi:type="DM_AddStatusEffectBuildUp">
+                  <Delay>0</Delay>
+                  <SyncType>OwnerSync</SyncType>
+                  <OverrideCategory>None</OverrideCategory>
                   <StatusEffect>Slow Down</StatusEffect>
                   <Buildup>15</Buildup>
-                </EffectHolder>
+                </DM_Effect>
               </Effects>
               <EffectConditions />
               <ChildEffects />
-            </EffectTransformHolder>
-            <EffectTransformHolder>
+            </DM_EffectTransform>
+            <DM_EffectTransform>
               <TransformName>NormalDecay</TransformName>
               <Effects>
-                <EffectHolder xsi:type="PunctualDamageHolder">
+                <DM_Effect xsi:type="DM_PunctualDamage">
+                  <Delay>0</Delay>
+                  <SyncType>OwnerSync</SyncType>
+                  <OverrideCategory>None</OverrideCategory>
                   <Damage>
                     <Damages>
                       <Damage>2.75</Damage>
@@ -121,72 +186,128 @@ This skill lowers the durability of the torch or lantern used.</Description>
                   <Damages_AI />
                   <Knockback>2.65</Knockback>
                   <HitInventory>true</HitInventory>
-                </EffectHolder>
-                <EffectHolder xsi:type="AddStatusEffectBuildupHolder">
+                </DM_Effect>
+                <DM_Effect xsi:type="DM_AddStatusEffectBuildUp">
+                  <Delay>0</Delay>
+                  <SyncType>OwnerSync</SyncType>
+                  <OverrideCategory>None</OverrideCategory>
                   <StatusEffect>Bleeding</StatusEffect>
                   <Buildup>15</Buildup>
-                </EffectHolder>
+                </DM_Effect>
               </Effects>
               <EffectConditions />
               <ChildEffects />
-            </EffectTransformHolder>
-            <EffectTransformHolder>
+            </DM_EffectTransform>
+            <DM_EffectTransform>
               <TransformName>NormalCopper</TransformName>
               <Effects>
-                <EffectHolder xsi:type="AddStatusEffectBuildupHolder">
+                <DM_Effect xsi:type="DM_AddStatusEffectBuildUp">
+                  <Delay>0</Delay>
+                  <SyncType>OwnerSync</SyncType>
+                  <OverrideCategory>None</OverrideCategory>
                   <StatusEffect>Poisoned</StatusEffect>
                   <Buildup>15</Buildup>
-                </EffectHolder>
-                <EffectHolder xsi:type="AddStatusEffectBuildupHolder">
+                </DM_Effect>
+                <DM_Effect xsi:type="DM_AddStatusEffectBuildUp">
+                  <Delay>0</Delay>
+                  <SyncType>OwnerSync</SyncType>
+                  <OverrideCategory>None</OverrideCategory>
                   <StatusEffect>Weaken</StatusEffect>
                   <Buildup>15</Buildup>
-                </EffectHolder>
-                <EffectHolder xsi:type="AddStatusEffectBuildupHolder">
+                </DM_Effect>
+                <DM_Effect xsi:type="DM_AddStatusEffectBuildUp">
+                  <Delay>0</Delay>
+                  <SyncType>OwnerSync</SyncType>
+                  <OverrideCategory>None</OverrideCategory>
                   <StatusEffect>Curse</StatusEffect>
                   <Buildup>15</Buildup>
-                </EffectHolder>
+                </DM_Effect>
               </Effects>
               <EffectConditions />
               <ChildEffects />
-            </EffectTransformHolder>
-          </EffectTransforms>
-        </EffectHolder>
-        <EffectHolder xsi:type="ReduceDurabilityHolder">
+            </DM_EffectTransform>
+          </BlastEffects>
+        </DM_Effect>
+        <DM_Effect xsi:type="DM_LightLantern">
+          <Delay>0</Delay>
+          <SyncType>OwnerSync</SyncType>
+          <OverrideCategory>None</OverrideCategory>
+          <Light>true</Light>
+        </DM_Effect>
+        <DM_Effect xsi:type="DM_ReduceDurability">
+          <Delay>0</Delay>
+          <SyncType>OwnerSync</SyncType>
+          <OverrideCategory>None</OverrideCategory>
+          <Durability>20</Durability>
           <EquipmentSlot>LeftHand</EquipmentSlot>
-          <DurabilityLoss>20</DurabilityLoss>
-        </EffectHolder>
+        </DM_Effect>
       </Effects>
       <EffectConditions />
       <ChildEffects />
-    </EffectTransformHolder>
-    <EffectTransformHolder>
+    </DM_EffectTransform>
+    <DM_EffectTransform>
+      <TransformName>ActivationEffects</TransformName>
+      <Effects>
+        <DM_Effect xsi:type="DM_PlaySoundEffect">
+          <Delay>0.6</Delay>
+          <SyncType>OwnerSync</SyncType>
+          <OverrideCategory>None</OverrideCategory>
+          <Sounds>
+            <Sounds>SFX_SKILL_FlameThrower_In</Sounds>
+          </Sounds>
+          <Follow>false</Follow>
+          <MinPitch>1</MinPitch>
+          <MaxPitch>1</MaxPitch>
+        </DM_Effect>
+        <DM_Effect xsi:type="DM_PlaySoundEffect">
+          <Delay>1.2</Delay>
+          <SyncType>OwnerSync</SyncType>
+          <OverrideCategory>None</OverrideCategory>
+          <Sounds>
+            <Sounds>SFX_SKILL_FlameThrower_Out</Sounds>
+          </Sounds>
+          <Follow>false</Follow>
+          <MinPitch>1</MinPitch>
+          <MaxPitch>1</MaxPitch>
+        </DM_Effect>
+      </Effects>
+      <EffectConditions />
+      <ChildEffects />
+    </DM_EffectTransform>
+    <DM_EffectTransform>
       <TransformName>AdditionalActivationConditions</TransformName>
       <Effects />
       <EffectConditions />
       <ChildEffects>
-        <EffectTransformHolder>
+        <DM_EffectTransform>
           <TransformName>Fuel</TransformName>
           <Effects />
           <EffectConditions>
-            <EffectConditionHolder>
-              <Conditions>
-                <ConditionHolder>
-                  <Condition_Type>EquipDurabilityCondition</Condition_Type>
-                  <Invert>false</Invert>
-                </ConditionHolder>
-              </Conditions>
-            </EffectConditionHolder>
+            <DM_EffectCondition xsi:type="DM_EquipDurabilityCondition">
+              <Invert>false</Invert>
+              <EquipmentSlot>LeftHand</EquipmentSlot>
+              <MinimumDurability>20</MinimumDurability>
+            </DM_EffectCondition>
           </EffectConditions>
           <ChildEffects />
-        </EffectTransformHolder>
+        </DM_EffectTransform>
       </ChildEffects>
-    </EffectTransformHolder>
+    </DM_EffectTransform>
   </EffectTransforms>
   <Cooldown>5</Cooldown>
   <StaminaCost>0</StaminaCost>
   <ManaCost>15</ManaCost>
   <DurabilityCost>20</DurabilityCost>
   <DurabilityCostPercent>20</DurabilityCostPercent>
-  <IsDLCSkill>true</IsDLCSkill>
   <RequiredItems />
-</ItemHolder>
+  <CompatibleItemIDs>
+    <int>5100000</int>
+    <int>5100010</int>
+    <int>5100040</int>
+    <int>5100050</int>
+    <int>5100060</int>
+    <int>5100070</int>
+    <int>5100080</int>
+    <int>5100090</int>
+  </CompatibleItemIDs>
+</DM_TrinketSkill>

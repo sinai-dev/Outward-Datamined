@@ -13,7 +13,7 @@
   </Loot_Containers>
   <Gatherables />
   <Item_Spawns>
-    <ItemSpawnHolder>
+    <DM_ItemSpawn>
       <Name>Explorer Lantern</Name>
       <Item_ID>5100000</Item_ID>
       <Quantity>1</Quantity>
@@ -24,7 +24,7 @@
           <z>2.975</z>
         </Vector3>
       </positions>
-    </ItemSpawnHolder>
+    </DM_ItemSpawn>
   </Item_Spawns>
   <UniqueContainerList>
     <string>Junk Pile_7W8uXa6pj0iGREElmW-6bg</string>

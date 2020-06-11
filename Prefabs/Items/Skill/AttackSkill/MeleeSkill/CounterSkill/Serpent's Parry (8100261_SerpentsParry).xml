@@ -1,20 +1,34 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ItemHolder xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="SkillHolder">
-  <ItemID>8100261</ItemID>
-  <Name>Serpent's Parry</Name>
+<DM_CounterSkill xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <gameObjectName>8100261_SerpentsParry</gameObjectName>
   <saveDir>/Skill/AttackSkill/MeleeSkill/CounterSkill</saveDir>
+  <ItemID>8100261</ItemID>
+  <Name>Serpent's Parry</Name>
   <Description>Required: Dagger
 
 Counter a physical attack with a strong dagger strike. Targets afflicted by Confusion are briefly stunned. Targets afflicted by Pain will be inflicted Extreme Bleeding.</Description>
   <LegacyItemID>-1</LegacyItemID>
-  <PerishTime>-1</PerishTime>
+  <IsPickable>false</IsPickable>
+  <IsUsable>false</IsUsable>
+  <QtyRemovedOnUse>1</QtyRemovedOnUse>
+  <GroupItemInDisplay>false</GroupItemInDisplay>
+  <HasPhysicsWhenWorld>false</HasPhysicsWhenWorld>
+  <RepairedInRest>true</RepairedInRest>
+  <BehaviorOnNoDurability>NotSet</BehaviorOnNoDurability>
+  <CastType>DaggerCounter</CastType>
+  <CastModifier>Attack</CastModifier>
+  <CastLocomotionEnabled>false</CastLocomotionEnabled>
+  <MobileCastMovementMult>-1</MobileCastMovementMult>
+  <CastSheatheRequired>0</CastSheatheRequired>
   <Tags />
   <EffectTransforms>
-    <EffectTransformHolder>
+    <DM_EffectTransform>
       <TransformName>HitEffects</TransformName>
       <Effects>
-        <EffectHolder xsi:type="WeaponDamageHolder">
+        <DM_Effect xsi:type="DM_WeaponDamage">
+          <Delay>0</Delay>
+          <SyncType>OwnerSync</SyncType>
+          <OverrideCategory>None</OverrideCategory>
           <Damage>
             <Damages>
               <Damage>0</Damage>
@@ -25,33 +39,50 @@ Counter a physical attack with a strong dagger strike. Targets afflicted by Conf
           <Knockback>0</Knockback>
           <HitInventory>true</HitInventory>
           <OverrideType>Count</OverrideType>
+          <ForceOnlyLeftHand>false</ForceOnlyLeftHand>
           <Damage_Multiplier>2</Damage_Multiplier>
           <Damage_Multiplier_Kback>-1</Damage_Multiplier_Kback>
           <Damage_Multiplier_Kdown>-1</Damage_Multiplier_Kdown>
           <Impact_Multiplier>2</Impact_Multiplier>
           <Impact_Multiplier_Kback>-1</Impact_Multiplier_Kback>
           <Impact_Multiplier_Kdown>-1</Impact_Multiplier_Kdown>
-          <DurabilityLoss>1</DurabilityLoss>
-          <DurabilityLossPercent>0</DurabilityLossPercent>
-        </EffectHolder>
+        </DM_Effect>
+        <DM_Effect xsi:type="DM_PlaySoundEffect">
+          <Delay>0</Delay>
+          <SyncType>OwnerSync</SyncType>
+          <OverrideCategory>None</OverrideCategory>
+          <Sounds>
+            <Sounds>SFX_SKILL_AnkleBlow</Sounds>
+          </Sounds>
+          <Follow>false</Follow>
+          <MinPitch>1</MinPitch>
+          <MaxPitch>1</MaxPitch>
+        </DM_Effect>
       </Effects>
       <EffectConditions>
-        <EffectConditionHolder>
-          <Conditions>
-            <ConditionHolder>
-              <Requirement>Confusion</Requirement>
-              <Condition_Type>Target does not have status</Condition_Type>
-              <Invert>true</Invert>
-            </ConditionHolder>
-          </Conditions>
-        </EffectConditionHolder>
+        <DM_EffectCondition xsi:type="DM_HasStatusEffectEffectCondition">
+          <Invert>false</Invert>
+          <DiseaseAge>0</DiseaseAge>
+          <CheckOwner>false</CheckOwner>
+          <StatusSelectorType>StatusSpecific</StatusSelectorType>
+          <SelectorValue>Confusion</SelectorValue>
+        </DM_EffectCondition>
       </EffectConditions>
       <ChildEffects />
-    </EffectTransformHolder>
-    <EffectTransformHolder>
+    </DM_EffectTransform>
+    <DM_EffectTransform>
       <TransformName>HitEffectsConfusion</TransformName>
       <Effects>
-        <EffectHolder xsi:type="WeaponDamageHolder">
+        <DM_Effect xsi:type="DM_Stun">
+          <Delay>0</Delay>
+          <SyncType>OwnerSync</SyncType>
+          <OverrideCategory>None</OverrideCategory>
+          <Duration>2</Duration>
+        </DM_Effect>
+        <DM_Effect xsi:type="DM_WeaponDamage">
+          <Delay>0</Delay>
+          <SyncType>OwnerSync</SyncType>
+          <OverrideCategory>None</OverrideCategory>
           <Damage>
             <Damages>
               <Damage>0</Damage>
@@ -62,56 +93,98 @@ Counter a physical attack with a strong dagger strike. Targets afflicted by Conf
           <Knockback>0</Knockback>
           <HitInventory>true</HitInventory>
           <OverrideType>Count</OverrideType>
+          <ForceOnlyLeftHand>false</ForceOnlyLeftHand>
           <Damage_Multiplier>2</Damage_Multiplier>
           <Damage_Multiplier_Kback>-1</Damage_Multiplier_Kback>
           <Damage_Multiplier_Kdown>-1</Damage_Multiplier_Kdown>
           <Impact_Multiplier>0</Impact_Multiplier>
           <Impact_Multiplier_Kback>-1</Impact_Multiplier_Kback>
           <Impact_Multiplier_Kdown>-1</Impact_Multiplier_Kdown>
-          <DurabilityLoss>1</DurabilityLoss>
-          <DurabilityLossPercent>0</DurabilityLossPercent>
-        </EffectHolder>
+        </DM_Effect>
       </Effects>
       <EffectConditions>
-        <EffectConditionHolder>
-          <Conditions>
-            <ConditionHolder>
-              <Requirement>Confusion</Requirement>
-              <Condition_Type>Target has status</Condition_Type>
-              <Invert>false</Invert>
-            </ConditionHolder>
-          </Conditions>
-        </EffectConditionHolder>
+        <DM_EffectCondition xsi:type="DM_HasStatusEffectEffectCondition">
+          <Invert>false</Invert>
+          <DiseaseAge>0</DiseaseAge>
+          <CheckOwner>false</CheckOwner>
+          <StatusSelectorType>StatusSpecific</StatusSelectorType>
+          <SelectorValue>Confusion</SelectorValue>
+        </DM_EffectCondition>
       </EffectConditions>
       <ChildEffects />
-    </EffectTransformHolder>
-    <EffectTransformHolder>
+    </DM_EffectTransform>
+    <DM_EffectTransform>
       <TransformName>HitEffectsPain</TransformName>
       <Effects>
-        <EffectHolder xsi:type="AddStatusEffectHolder">
+        <DM_Effect xsi:type="DM_AddStatusEffect">
+          <Delay>0</Delay>
+          <SyncType>OwnerSync</SyncType>
+          <OverrideCategory>None</OverrideCategory>
           <StatusEffect>Bleeding +</StatusEffect>
           <ChanceToContract>100</ChanceToContract>
-        </EffectHolder>
+        </DM_Effect>
       </Effects>
       <EffectConditions>
-        <EffectConditionHolder>
-          <Conditions>
-            <ConditionHolder>
-              <Requirement>Pain</Requirement>
-              <Condition_Type>Target has status</Condition_Type>
-              <Invert>false</Invert>
-            </ConditionHolder>
-          </Conditions>
-        </EffectConditionHolder>
+        <DM_EffectCondition xsi:type="DM_HasStatusEffectEffectCondition">
+          <Invert>false</Invert>
+          <DiseaseAge>0</DiseaseAge>
+          <CheckOwner>false</CheckOwner>
+          <StatusSelectorType>StatusSpecific</StatusSelectorType>
+          <SelectorValue>Pain</SelectorValue>
+        </DM_EffectCondition>
       </EffectConditions>
       <ChildEffects />
-    </EffectTransformHolder>
+    </DM_EffectTransform>
+    <DM_EffectTransform>
+      <TransformName>ActivationEffects</TransformName>
+      <Effects>
+        <DM_Effect xsi:type="DM_PlaySoundEffect">
+          <Delay>0.2</Delay>
+          <SyncType>OwnerSync</SyncType>
+          <OverrideCategory>None</OverrideCategory>
+          <Sounds>
+            <Sounds>SFX_SKILL_SerpentParry</Sounds>
+          </Sounds>
+          <Follow>false</Follow>
+          <MinPitch>1</MinPitch>
+          <MaxPitch>1</MaxPitch>
+        </DM_Effect>
+      </Effects>
+      <EffectConditions />
+      <ChildEffects />
+    </DM_EffectTransform>
   </EffectTransforms>
   <Cooldown>100</Cooldown>
   <StaminaCost>7</StaminaCost>
   <ManaCost>0</ManaCost>
   <DurabilityCost>0</DurabilityCost>
   <DurabilityCostPercent>0</DurabilityCostPercent>
-  <IsDLCSkill>true</IsDLCSkill>
   <RequiredItems />
-</ItemHolder>
+  <AmmunitionTypes />
+  <RequiredOffHandTypes>
+    <WeaponType>Dagger_OH</WeaponType>
+  </RequiredOffHandTypes>
+  <RequiredWeaponTypes />
+  <RequiredWeaponTags />
+  <RequireImbue>false</RequireImbue>
+  <Blockable>false</Blockable>
+  <Damage>0</Damage>
+  <Impact>0</Impact>
+  <LinecastCount>0</LinecastCount>
+  <Radius>0</Radius>
+  <Unblockable>false</Unblockable>
+  <BlockMult>0</BlockMult>
+  <DamageMult>0</DamageMult>
+  <KnockbackMult>0</KnockbackMult>
+  <BlockDamageTypes />
+  <CounterDamageTypes>
+    <Types>Physical</Types>
+    <Types>Ethereal</Types>
+    <Types>Decay</Types>
+    <Types>Electric</Types>
+    <Types>Frost</Types>
+    <Types>Fire</Types>
+  </CounterDamageTypes>
+  <MaxRange>4</MaxRange>
+  <TurnTowardsDealer>true</TurnTowardsDealer>
+</DM_CounterSkill>

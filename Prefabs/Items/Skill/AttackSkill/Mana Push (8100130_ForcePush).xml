@@ -1,27 +1,68 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ItemHolder xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="SkillHolder">
-  <ItemID>8100130</ItemID>
-  <Name>Mana Push</Name>
+<DM_AttackSkill xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <gameObjectName>8100130_ForcePush</gameObjectName>
   <saveDir>/Skill/AttackSkill</saveDir>
+  <ItemID>8100130</ItemID>
+  <Name>Mana Push</Name>
   <Description>Spell which inflicts no damage but has high Impact in a wide area in front of the caster. 
 
 Can be combined with other spells for powerful effects.</Description>
   <LegacyItemID>-1</LegacyItemID>
-  <PerishTime>-1</PerishTime>
+  <IsPickable>false</IsPickable>
+  <IsUsable>false</IsUsable>
+  <QtyRemovedOnUse>0</QtyRemovedOnUse>
+  <GroupItemInDisplay>false</GroupItemInDisplay>
+  <HasPhysicsWhenWorld>false</HasPhysicsWhenWorld>
+  <RepairedInRest>true</RepairedInRest>
+  <BehaviorOnNoDurability>NotSet</BehaviorOnNoDurability>
+  <CastType>ForcePush</CastType>
+  <CastModifier>Immobilized</CastModifier>
+  <CastLocomotionEnabled>false</CastLocomotionEnabled>
+  <MobileCastMovementMult>-1</MobileCastMovementMult>
+  <CastSheatheRequired>0</CastSheatheRequired>
   <Tags />
   <EffectTransforms>
-    <EffectTransformHolder>
+    <DM_EffectTransform>
       <TransformName>Effects</TransformName>
       <Effects>
-        <EffectHolder xsi:type="ShootBlastHolder">
-          <BlastLifespan>0</BlastLifespan>
+        <DM_Effect xsi:type="DM_ShootBlast">
+          <Delay>0</Delay>
+          <SyncType>OwnerSync</SyncType>
+          <OverrideCategory>None</OverrideCategory>
+          <CastPosition>Local</CastPosition>
+          <LocalPositionAdd>
+            <x>0</x>
+            <y>1.25</y>
+            <z>1.25</z>
+          </LocalPositionAdd>
+          <NoAim>false</NoAim>
+          <TargetType>Enemies</TargetType>
+          <TransformName>ShooterTransform</TransformName>
+          <BaseBlast>ForcePush</BaseBlast>
+          <Radius>1.2</Radius>
           <RefreshTime>0.1</RefreshTime>
-          <EffectTransforms>
-            <EffectTransformHolder>
+          <BlastLifespan>0</BlastLifespan>
+          <InstantiatedAmount>1</InstantiatedAmount>
+          <Interruptible>false</Interruptible>
+          <MaxHitTargetCount>-1</MaxHitTargetCount>
+          <AffectHitTargetCenter>false</AffectHitTargetCenter>
+          <HitOnShoot>true</HitOnShoot>
+          <IgnoreShooter>false</IgnoreShooter>
+          <IgnoreStop>false</IgnoreStop>
+          <NoTargetForwardMultiplier>5</NoTargetForwardMultiplier>
+          <ParentToShootTransform>false</ParentToShootTransform>
+          <UseTargetCharacterPositionType>false</UseTargetCharacterPositionType>
+          <ImpactSoundMaterial>Flesh</ImpactSoundMaterial>
+          <DontPlayHitSound>false</DontPlayHitSound>
+          <FXIsWorld>false</FXIsWorld>
+          <BlastEffects>
+            <DM_EffectTransform>
               <TransformName>Effects</TransformName>
               <Effects>
-                <EffectHolder xsi:type="PunctualDamageHolder">
+                <DM_Effect xsi:type="DM_PunctualDamage">
+                  <Delay>0</Delay>
+                  <SyncType>OwnerSync</SyncType>
+                  <OverrideCategory>None</OverrideCategory>
                   <Damage>
                     <Damages>
                       <Damage>1</Damage>
@@ -31,33 +72,121 @@ Can be combined with other spells for powerful effects.</Description>
                   <Damages_AI />
                   <Knockback>100</Knockback>
                   <HitInventory>true</HitInventory>
-                </EffectHolder>
+                </DM_Effect>
               </Effects>
               <EffectConditions />
               <ChildEffects />
-            </EffectTransformHolder>
-          </EffectTransforms>
-        </EffectHolder>
+            </DM_EffectTransform>
+          </BlastEffects>
+        </DM_Effect>
+        <DM_Effect xsi:type="DM_PlaySoundEffect">
+          <Delay>0</Delay>
+          <SyncType>OwnerSync</SyncType>
+          <OverrideCategory>None</OverrideCategory>
+          <Sounds>
+            <Sounds>SFX_SKILL_ShieldCharge_Whoosh</Sounds>
+          </Sounds>
+          <Follow>false</Follow>
+          <MinPitch>1</MinPitch>
+          <MaxPitch>1</MaxPitch>
+        </DM_Effect>
       </Effects>
       <EffectConditions />
       <ChildEffects />
-    </EffectTransformHolder>
-    <EffectTransformHolder>
+    </DM_EffectTransform>
+    <DM_EffectTransform>
       <TransformName>IcicleProjectile</TransformName>
       <Effects />
       <EffectConditions />
       <ChildEffects>
-        <EffectTransformHolder>
+        <DM_EffectTransform>
           <TransformName>ExtraEffects</TransformName>
           <Effects>
-            <EffectHolder xsi:type="ShootProjectileHolder">
+            <DM_Effect xsi:type="DM_ShootProjectile">
+              <Delay>0</Delay>
+              <SyncType>OwnerSync</SyncType>
+              <OverrideCategory>None</OverrideCategory>
+              <CastPosition>Local</CastPosition>
+              <LocalPositionAdd>
+                <x>0</x>
+                <y>1.5</y>
+                <z>0</z>
+              </LocalPositionAdd>
+              <NoAim>false</NoAim>
+              <TargetType>Enemies</TargetType>
+              <TransformName>ShooterTransform</TransformName>
+              <BaseProjectile>IcicleProjectile</BaseProjectile>
+              <ProjectileShots>
+                <DM_ProjectileShot>
+                  <LocalDirectionOffset>
+                    <x>0</x>
+                    <y>-0.05</y>
+                    <z>0</z>
+                  </LocalDirectionOffset>
+                  <LockDirection>
+                    <x>0</x>
+                    <y>0</y>
+                    <z>0</z>
+                  </LockDirection>
+                  <MustShoot>false</MustShoot>
+                  <NoBaseDir>false</NoBaseDir>
+                  <RandomLocalDirectionAdd>
+                    <x>0</x>
+                    <y>0</y>
+                    <z>0</z>
+                  </RandomLocalDirectionAdd>
+                </DM_ProjectileShot>
+              </ProjectileShots>
+              <Lifespan>5</Lifespan>
+              <LateShootTime>0.1</LateShootTime>
+              <Unblockable>false</Unblockable>
+              <EffectsOnlyIfHitCharacter>false</EffectsOnlyIfHitCharacter>
+              <EndMode>Normal</EndMode>
+              <DisableOnHit>false</DisableOnHit>
+              <IgnoreShooterCollision>true</IgnoreShooterCollision>
               <TargetingMode>NONE</TargetingMode>
+              <TargetCountPerProjectile>1</TargetCountPerProjectile>
+              <TargetRange>0</TargetRange>
               <AutoTarget>false</AutoTarget>
-              <EffectTransforms>
-                <EffectTransformHolder>
+              <AutoTargetMaxAngle>360</AutoTargetMaxAngle>
+              <AutoTargetRange>5</AutoTargetRange>
+              <ProjectileForce>45</ProjectileForce>
+              <AddDirection>
+                <x>0</x>
+                <y>0</y>
+                <z>0</z>
+              </AddDirection>
+              <AddRotationForce>
+                <x>0</x>
+                <y>0</y>
+                <z>0</z>
+              </AddRotationForce>
+              <YMagnitudeAffect>0.002</YMagnitudeAffect>
+              <YMagnitudeForce>0</YMagnitudeForce>
+              <DefenseLength>3</DefenseLength>
+              <DefenseRange>3</DefenseRange>
+              <PhysicsLayerMask>0</PhysicsLayerMask>
+              <OnlyExplodeOnLayerMask>false</OnlyExplodeOnLayerMask>
+              <ImpactSoundMaterial>Metal_Sharp</ImpactSoundMaterial>
+              <LightIntensityFade>
+                <x>10</x>
+                <y>2</y>
+              </LightIntensityFade>
+              <PointOffset>
+                <x>0</x>
+                <y>0</y>
+                <z>0</z>
+              </PointOffset>
+              <TrailEnabled>false</TrailEnabled>
+              <TrailTime>0.075</TrailTime>
+              <ProjectileEffects>
+                <DM_EffectTransform>
                   <TransformName>HitEffects</TransformName>
                   <Effects>
-                    <EffectHolder xsi:type="PunctualDamageHolder">
+                    <DM_Effect xsi:type="DM_PunctualDamage">
+                      <Delay>0</Delay>
+                      <SyncType>OwnerSync</SyncType>
+                      <OverrideCategory>None</OverrideCategory>
                       <Damage>
                         <Damages>
                           <Damage>85</Damage>
@@ -67,49 +196,127 @@ Can be combined with other spells for powerful effects.</Description>
                       <Damages_AI />
                       <Knockback>60</Knockback>
                       <HitInventory>true</HitInventory>
-                    </EffectHolder>
-                    <EffectHolder xsi:type="AddStatusEffectHolder">
+                    </DM_Effect>
+                    <DM_Effect xsi:type="DM_AddStatusEffect">
+                      <Delay>0</Delay>
+                      <SyncType>OwnerSync</SyncType>
+                      <OverrideCategory>None</OverrideCategory>
                       <StatusEffect>Slow Down</StatusEffect>
                       <ChanceToContract>100</ChanceToContract>
-                    </EffectHolder>
+                    </DM_Effect>
                   </Effects>
                   <EffectConditions />
                   <ChildEffects />
-                </EffectTransformHolder>
-              </EffectTransforms>
-            </EffectHolder>
+                </DM_EffectTransform>
+              </ProjectileEffects>
+            </DM_Effect>
+            <DM_Effect xsi:type="DM_PlaySoundEffect">
+              <Delay>0</Delay>
+              <SyncType>OwnerSync</SyncType>
+              <OverrideCategory>None</OverrideCategory>
+              <Sounds>
+                <Sounds>SFX_SKILL_ElemantalProjectileIce_Shot</Sounds>
+              </Sounds>
+              <Follow>false</Follow>
+              <MinPitch>1</MinPitch>
+              <MaxPitch>1</MaxPitch>
+            </DM_Effect>
           </Effects>
           <EffectConditions>
-            <EffectConditionHolder>
-              <Conditions>
-                <ConditionHolder>
-                  <Requirement>Activated Ice Sigil</Requirement>
-                  <Condition_Type>Item Proximity</Condition_Type>
-                  <Invert>false</Invert>
-                </ConditionHolder>
-              </Conditions>
-            </EffectConditionHolder>
+            <DM_EffectCondition xsi:type="DM_ProximityCondition">
+              <Invert>false</Invert>
+              <RequiredItems>
+                <SkillItemReq>
+                  <ItemID>8000040</ItemID>
+                  <Quantity>1</Quantity>
+                  <Consume>false</Consume>
+                </SkillItemReq>
+              </RequiredItems>
+              <MaxDistance>2.25</MaxDistance>
+              <Offset>
+                <x>0</x>
+                <y>-0.5</y>
+                <z>0</z>
+              </Offset>
+            </DM_EffectCondition>
           </EffectConditions>
           <ChildEffects />
-        </EffectTransformHolder>
+        </DM_EffectTransform>
       </ChildEffects>
-    </EffectTransformHolder>
-    <EffectTransformHolder>
+    </DM_EffectTransform>
+    <DM_EffectTransform>
       <TransformName>WindGust</TransformName>
       <Effects />
       <EffectConditions />
       <ChildEffects>
-        <EffectTransformHolder>
+        <DM_EffectTransform>
           <TransformName>ExtraEffects</TransformName>
           <Effects>
-            <EffectHolder xsi:type="ShootProjectileHolder">
+            <DM_Effect xsi:type="DM_ShootProjectile">
+              <Delay>0</Delay>
+              <SyncType>OwnerSync</SyncType>
+              <OverrideCategory>None</OverrideCategory>
+              <CastPosition>Local</CastPosition>
+              <LocalPositionAdd>
+                <x>0</x>
+                <y>1.5</y>
+                <z>0</z>
+              </LocalPositionAdd>
+              <NoAim>false</NoAim>
+              <TargetType>Enemies</TargetType>
+              <TransformName>ShooterTransform</TransformName>
+              <BaseProjectile>WindGust</BaseProjectile>
+              <ProjectileShots />
+              <Lifespan>1</Lifespan>
+              <LateShootTime>0.1</LateShootTime>
+              <Unblockable>false</Unblockable>
+              <EffectsOnlyIfHitCharacter>false</EffectsOnlyIfHitCharacter>
+              <EndMode>LifetimeOnly</EndMode>
+              <DisableOnHit>true</DisableOnHit>
+              <IgnoreShooterCollision>true</IgnoreShooterCollision>
               <TargetingMode>NONE</TargetingMode>
+              <TargetCountPerProjectile>1</TargetCountPerProjectile>
+              <TargetRange>0</TargetRange>
               <AutoTarget>false</AutoTarget>
-              <EffectTransforms>
-                <EffectTransformHolder>
+              <AutoTargetMaxAngle>360</AutoTargetMaxAngle>
+              <AutoTargetRange>5</AutoTargetRange>
+              <ProjectileForce>25</ProjectileForce>
+              <AddDirection>
+                <x>0</x>
+                <y>0</y>
+                <z>0</z>
+              </AddDirection>
+              <AddRotationForce>
+                <x>0</x>
+                <y>0</y>
+                <z>0</z>
+              </AddRotationForce>
+              <YMagnitudeAffect>0</YMagnitudeAffect>
+              <YMagnitudeForce>0</YMagnitudeForce>
+              <DefenseLength>3</DefenseLength>
+              <DefenseRange>3</DefenseRange>
+              <PhysicsLayerMask>4198400</PhysicsLayerMask>
+              <OnlyExplodeOnLayerMask>true</OnlyExplodeOnLayerMask>
+              <ImpactSoundMaterial>Metal_Sharp</ImpactSoundMaterial>
+              <LightIntensityFade>
+                <x>10</x>
+                <y>2</y>
+              </LightIntensityFade>
+              <PointOffset>
+                <x>0</x>
+                <y>0</y>
+                <z>0</z>
+              </PointOffset>
+              <TrailEnabled>false</TrailEnabled>
+              <TrailTime>0.075</TrailTime>
+              <ProjectileEffects>
+                <DM_EffectTransform>
                   <TransformName>HitEffects</TransformName>
                   <Effects>
-                    <EffectHolder xsi:type="PunctualDamageHolder">
+                    <DM_Effect xsi:type="DM_PunctualDamage">
+                      <Delay>0</Delay>
+                      <SyncType>OwnerSync</SyncType>
+                      <OverrideCategory>None</OverrideCategory>
                       <Damage>
                         <Damages>
                           <Damage>16</Damage>
@@ -119,45 +326,120 @@ Can be combined with other spells for powerful effects.</Description>
                       <Damages_AI />
                       <Knockback>100</Knockback>
                       <HitInventory>true</HitInventory>
-                    </EffectHolder>
+                    </DM_Effect>
                   </Effects>
                   <EffectConditions />
                   <ChildEffects />
-                </EffectTransformHolder>
-              </EffectTransforms>
-            </EffectHolder>
+                </DM_EffectTransform>
+              </ProjectileEffects>
+            </DM_Effect>
+            <DM_Effect xsi:type="DM_PlaySoundEffect">
+              <Delay>0</Delay>
+              <SyncType>OwnerSync</SyncType>
+              <OverrideCategory>None</OverrideCategory>
+              <Sounds>
+                <Sounds>SFX_SKILL_ElemantalProjectileWind_Impact01</Sounds>
+              </Sounds>
+              <Follow>false</Follow>
+              <MinPitch>1</MinPitch>
+              <MaxPitch>1</MaxPitch>
+            </DM_Effect>
           </Effects>
           <EffectConditions>
-            <EffectConditionHolder>
-              <Conditions>
-                <ConditionHolder>
-                  <Requirement>Activated Air Sigil</Requirement>
-                  <Condition_Type>Item Proximity</Condition_Type>
-                  <Invert>false</Invert>
-                </ConditionHolder>
-              </Conditions>
-            </EffectConditionHolder>
+            <DM_EffectCondition xsi:type="DM_ProximityCondition">
+              <Invert>false</Invert>
+              <RequiredItems>
+                <SkillItemReq>
+                  <ItemID>8000050</ItemID>
+                  <Quantity>1</Quantity>
+                  <Consume>false</Consume>
+                </SkillItemReq>
+              </RequiredItems>
+              <MaxDistance>2.25</MaxDistance>
+              <Offset>
+                <x>0</x>
+                <y>-0.5</y>
+                <z>0</z>
+              </Offset>
+            </DM_EffectCondition>
           </EffectConditions>
           <ChildEffects />
-        </EffectTransformHolder>
+        </DM_EffectTransform>
       </ChildEffects>
-    </EffectTransformHolder>
-    <EffectTransformHolder>
+    </DM_EffectTransform>
+    <DM_EffectTransform>
       <TransformName>Tendrils</TransformName>
       <Effects />
       <EffectConditions />
       <ChildEffects>
-        <EffectTransformHolder>
+        <DM_EffectTransform>
           <TransformName>ExtraEffects</TransformName>
           <Effects>
-            <EffectHolder xsi:type="ShootProjectileHolder">
+            <DM_Effect xsi:type="DM_ShootProjectile">
+              <Delay>0</Delay>
+              <SyncType>OwnerSync</SyncType>
+              <OverrideCategory>None</OverrideCategory>
+              <CastPosition>Local</CastPosition>
+              <LocalPositionAdd>
+                <x>0</x>
+                <y>1.5</y>
+                <z>-0.5</z>
+              </LocalPositionAdd>
+              <NoAim>false</NoAim>
+              <TargetType>Enemies</TargetType>
+              <TransformName>ShooterTransform</TransformName>
+              <BaseProjectile>Tendrils</BaseProjectile>
+              <ProjectileShots />
+              <Lifespan>0.5</Lifespan>
+              <LateShootTime>0.1</LateShootTime>
+              <Unblockable>false</Unblockable>
+              <EffectsOnlyIfHitCharacter>false</EffectsOnlyIfHitCharacter>
+              <EndMode>LifetimeOnly</EndMode>
+              <DisableOnHit>false</DisableOnHit>
+              <IgnoreShooterCollision>true</IgnoreShooterCollision>
               <TargetingMode>NONE</TargetingMode>
+              <TargetCountPerProjectile>1</TargetCountPerProjectile>
+              <TargetRange>0</TargetRange>
               <AutoTarget>false</AutoTarget>
-              <EffectTransforms>
-                <EffectTransformHolder>
+              <AutoTargetMaxAngle>360</AutoTargetMaxAngle>
+              <AutoTargetRange>5</AutoTargetRange>
+              <ProjectileForce>5</ProjectileForce>
+              <AddDirection>
+                <x>0</x>
+                <y>0</y>
+                <z>0</z>
+              </AddDirection>
+              <AddRotationForce>
+                <x>0</x>
+                <y>0</y>
+                <z>0</z>
+              </AddRotationForce>
+              <YMagnitudeAffect>0</YMagnitudeAffect>
+              <YMagnitudeForce>0</YMagnitudeForce>
+              <DefenseLength>3</DefenseLength>
+              <DefenseRange>3</DefenseRange>
+              <PhysicsLayerMask>4198400</PhysicsLayerMask>
+              <OnlyExplodeOnLayerMask>true</OnlyExplodeOnLayerMask>
+              <ImpactSoundMaterial>Fire</ImpactSoundMaterial>
+              <LightIntensityFade>
+                <x>10</x>
+                <y>2</y>
+              </LightIntensityFade>
+              <PointOffset>
+                <x>0</x>
+                <y>0</y>
+                <z>0</z>
+              </PointOffset>
+              <TrailEnabled>false</TrailEnabled>
+              <TrailTime>0.075</TrailTime>
+              <ProjectileEffects>
+                <DM_EffectTransform>
                   <TransformName>HitEffects</TransformName>
                   <Effects>
-                    <EffectHolder xsi:type="PunctualDamageHolder">
+                    <DM_Effect xsi:type="DM_PunctualDamage">
+                      <Delay>0</Delay>
+                      <SyncType>OwnerSync</SyncType>
+                      <OverrideCategory>None</OverrideCategory>
                       <Damage>
                         <Damages>
                           <Damage>50</Damage>
@@ -171,35 +453,57 @@ Can be combined with other spells for powerful effects.</Description>
                       <Damages_AI />
                       <Knockback>25</Knockback>
                       <HitInventory>false</HitInventory>
-                    </EffectHolder>
+                    </DM_Effect>
                   </Effects>
                   <EffectConditions />
                   <ChildEffects />
-                </EffectTransformHolder>
-              </EffectTransforms>
-            </EffectHolder>
+                </DM_EffectTransform>
+              </ProjectileEffects>
+            </DM_Effect>
+            <DM_Effect xsi:type="DM_PlaySoundEffect">
+              <Delay>0</Delay>
+              <SyncType>OwnerSync</SyncType>
+              <OverrideCategory>None</OverrideCategory>
+              <Sounds>
+                <Sounds>SFX_SKILL_BloodBullet_Preparation</Sounds>
+              </Sounds>
+              <Follow>false</Follow>
+              <MinPitch>1</MinPitch>
+              <MaxPitch>1</MaxPitch>
+            </DM_Effect>
           </Effects>
           <EffectConditions>
-            <EffectConditionHolder>
-              <Conditions>
-                <ConditionHolder>
-                  <Requirement>Activated Bloodstone</Requirement>
-                  <Condition_Type>Item Proximity</Condition_Type>
-                  <Invert>false</Invert>
-                </ConditionHolder>
-              </Conditions>
-            </EffectConditionHolder>
+            <DM_EffectCondition xsi:type="DM_ProximityCondition">
+              <Invert>false</Invert>
+              <RequiredItems>
+                <SkillItemReq>
+                  <ItemID>8000011</ItemID>
+                  <Quantity>1</Quantity>
+                  <Consume>false</Consume>
+                </SkillItemReq>
+              </RequiredItems>
+              <MaxDistance>2.25</MaxDistance>
+              <Offset>
+                <x>0</x>
+                <y>-0.5</y>
+                <z>0</z>
+              </Offset>
+            </DM_EffectCondition>
           </EffectConditions>
           <ChildEffects />
-        </EffectTransformHolder>
+        </DM_EffectTransform>
       </ChildEffects>
-    </EffectTransformHolder>
+    </DM_EffectTransform>
   </EffectTransforms>
   <Cooldown>15</Cooldown>
   <StaminaCost>0</StaminaCost>
   <ManaCost>5</ManaCost>
   <DurabilityCost>0</DurabilityCost>
   <DurabilityCostPercent>0</DurabilityCostPercent>
-  <IsDLCSkill>true</IsDLCSkill>
   <RequiredItems />
-</ItemHolder>
+  <AmmunitionTypes />
+  <RequiredOffHandTypes />
+  <RequiredWeaponTypes />
+  <RequiredWeaponTags />
+  <RequireImbue>false</RequireImbue>
+</DM_AttackSkill>

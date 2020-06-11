@@ -58,7 +58,7 @@
     </QuantityHolder>
   </Gatherables>
   <Item_Spawns>
-    <ItemSpawnHolder>
+    <DM_ItemSpawn>
       <Name>Bullet</Name>
       <Item_ID>4400080</Item_ID>
       <Quantity>1</Quantity>
@@ -69,8 +69,8 @@
           <z>577.25</z>
         </Vector3>
       </positions>
-    </ItemSpawnHolder>
-    <ItemSpawnHolder>
+    </DM_ItemSpawn>
+    <DM_ItemSpawn>
       <Name>Ice-Flame Torch</Name>
       <Item_ID>5100070</Item_ID>
       <Quantity>1</Quantity>
@@ -81,8 +81,8 @@
           <z>574.111</z>
         </Vector3>
       </positions>
-    </ItemSpawnHolder>
-    <ItemSpawnHolder>
+    </DM_ItemSpawn>
+    <DM_ItemSpawn>
       <Name>Scarab Mask</Name>
       <Item_ID>3000101</Item_ID>
       <Quantity>1</Quantity>
@@ -93,8 +93,8 @@
           <z>565.55</z>
         </Vector3>
       </positions>
-    </ItemSpawnHolder>
-    <ItemSpawnHolder>
+    </DM_ItemSpawn>
+    <DM_ItemSpawn>
       <Name>Broad Dagger</Name>
       <Item_ID>5110001</Item_ID>
       <Quantity>1</Quantity>
@@ -105,8 +105,8 @@
           <z>564.401</z>
         </Vector3>
       </positions>
-    </ItemSpawnHolder>
-    <ItemSpawnHolder>
+    </DM_ItemSpawn>
+    <DM_ItemSpawn>
       <Name>Bed</Name>
       <Item_ID>5000005</Item_ID>
       <Quantity>8</Quantity>
@@ -152,8 +152,8 @@
           <z>564.148865</z>
         </Vector3>
       </positions>
-    </ItemSpawnHolder>
-    <ItemSpawnHolder>
+    </DM_ItemSpawn>
+    <DM_ItemSpawn>
       <Name>Bed</Name>
       <Item_ID>5000001</Item_ID>
       <Quantity>10</Quantity>
@@ -209,7 +209,7 @@
           <z>584.8575</z>
         </Vector3>
       </positions>
-    </ItemSpawnHolder>
+    </DM_ItemSpawn>
   </Item_Spawns>
   <UniqueContainerList>
     <string>Chest_3ZWYD70hr02QQLb_mjND9w</string>

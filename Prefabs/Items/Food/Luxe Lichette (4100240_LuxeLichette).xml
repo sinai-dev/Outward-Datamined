@@ -1,17 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ItemHolder xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <ItemID>4100240</ItemID>
-  <Name>Luxe Lichette</Name>
+<DM_Item xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <gameObjectName>4100240_LuxeLichette</gameObjectName>
   <saveDir>/Food</saveDir>
+  <ItemID>4100240</ItemID>
+  <Name>Luxe Lichette</Name>
   <Description>Special dish of the Chersonese which restores a fair amount of stamina and a large amount of health.</Description>
   <LegacyItemID>-1</LegacyItemID>
+  <IsPickable>true</IsPickable>
+  <IsUsable>true</IsUsable>
+  <QtyRemovedOnUse>1</QtyRemovedOnUse>
+  <GroupItemInDisplay>true</GroupItemInDisplay>
+  <HasPhysicsWhenWorld>false</HasPhysicsWhenWorld>
+  <RepairedInRest>true</RepairedInRest>
+  <BehaviorOnNoDurability>NotSet</BehaviorOnNoDurability>
+  <CastType>Eat</CastType>
+  <CastModifier>Immobilized</CastModifier>
+  <CastLocomotionEnabled>false</CastLocomotionEnabled>
+  <MobileCastMovementMult>-1</MobileCastMovementMult>
+  <CastSheatheRequired>1</CastSheatheRequired>
   <PerishTime>19 Days, 20 Hours, 11 Minutes, 25 Seconds</PerishTime>
-  <StatsHolder>
-    <BaseValue>30</BaseValue>
-    <RawWeight>0.5</RawWeight>
-    <MaxDurability>100</MaxDurability>
-  </StatsHolder>
   <Tags>
     <string>Dish</string>
     <string>Food</string>
@@ -21,29 +28,45 @@
     <string>Ingredient Cook</string>
     <string>Ingredient</string>
   </Tags>
+  <StatsHolder>
+    <BaseValue>30</BaseValue>
+    <RawWeight>0.5</RawWeight>
+    <MaxDurability>100</MaxDurability>
+  </StatsHolder>
   <EffectTransforms>
-    <EffectTransformHolder>
+    <DM_EffectTransform>
       <TransformName>Effects</TransformName>
       <Effects>
-        <EffectHolder xsi:type="AffectNeedHolder">
-          <Need>AffectFood</Need>
+        <DM_Effect xsi:type="DM_AffectFood">
+          <Delay>0</Delay>
+          <SyncType>OwnerSync</SyncType>
+          <OverrideCategory>None</OverrideCategory>
           <AffectQuantity>300</AffectQuantity>
-        </EffectHolder>
-        <EffectHolder xsi:type="AddStatusEffectHolder">
+        </DM_Effect>
+        <DM_Effect xsi:type="DM_AddStatusEffect">
+          <Delay>0</Delay>
+          <SyncType>OwnerSync</SyncType>
+          <OverrideCategory>None</OverrideCategory>
           <StatusEffect>Health Recovery 5</StatusEffect>
           <ChanceToContract>100</ChanceToContract>
-        </EffectHolder>
-        <EffectHolder xsi:type="AddStatusEffectHolder">
+        </DM_Effect>
+        <DM_Effect xsi:type="DM_AddStatusEffect">
+          <Delay>0</Delay>
+          <SyncType>OwnerSync</SyncType>
+          <OverrideCategory>None</OverrideCategory>
           <StatusEffect>Stamina Recovery 3</StatusEffect>
           <ChanceToContract>100</ChanceToContract>
-        </EffectHolder>
-        <EffectHolder xsi:type="AffectManaHolder">
+        </DM_Effect>
+        <DM_Effect xsi:type="DM_AffectMana">
+          <Delay>0</Delay>
+          <SyncType>OwnerSync</SyncType>
+          <OverrideCategory>None</OverrideCategory>
           <AffectQuantity>50</AffectQuantity>
           <IsModifier>true</IsModifier>
-        </EffectHolder>
+        </DM_Effect>
       </Effects>
       <EffectConditions />
       <ChildEffects />
-    </EffectTransformHolder>
+    </DM_EffectTransform>
   </EffectTransforms>
-</ItemHolder>
+</DM_Item>

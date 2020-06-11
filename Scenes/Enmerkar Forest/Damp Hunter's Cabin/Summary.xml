@@ -16,7 +16,7 @@
     </QuantityHolder>
   </Gatherables>
   <Item_Spawns>
-    <ItemSpawnHolder>
+    <DM_ItemSpawn>
       <Name>Brutal Greataxe</Name>
       <Item_ID>2110000</Item_ID>
       <Quantity>1</Quantity>
@@ -27,8 +27,8 @@
           <z>6.748</z>
         </Vector3>
       </positions>
-    </ItemSpawnHolder>
-    <ItemSpawnHolder>
+    </DM_ItemSpawn>
+    <DM_ItemSpawn>
       <Name>Hide</Name>
       <Item_ID>6600020</Item_ID>
       <Quantity>2</Quantity>
@@ -44,8 +44,8 @@
           <z>3.22343</z>
         </Vector3>
       </positions>
-    </ItemSpawnHolder>
-    <ItemSpawnHolder>
+    </DM_ItemSpawn>
+    <DM_ItemSpawn>
       <Name>Predator Bones</Name>
       <Item_ID>6600050</Item_ID>
       <Quantity>3</Quantity>
@@ -66,7 +66,7 @@
           <z>4.158</z>
         </Vector3>
       </positions>
-    </ItemSpawnHolder>
+    </DM_ItemSpawn>
   </Item_Spawns>
   <UniqueContainerList>
     <string>Knight’s Corpse_zAPuQ2GDjk2zdA-gIpy3rA</string>

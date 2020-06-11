@@ -1,254 +1,530 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ItemHolder xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="SkillHolder">
-  <ItemID>8200600</ItemID>
-  <Name>Fire/Reload</Name>
+<DM_AttackSkill xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <gameObjectName>8200600_FireReload</gameObjectName>
   <saveDir>/Skill/AttackSkill/PistolSkill</saveDir>
+  <ItemID>8200600</ItemID>
+  <Name>Fire/Reload</Name>
   <Description>Required: Pistol, Bullet
 
 Load the equipped pistol with a bullet, or fires if it is already loaded.
 
 Some abilities load special bullets into your pistol, which are fired using this skill.</Description>
   <LegacyItemID>-1</LegacyItemID>
-  <PerishTime>-1</PerishTime>
+  <IsPickable>true</IsPickable>
+  <IsUsable>false</IsUsable>
+  <QtyRemovedOnUse>1</QtyRemovedOnUse>
+  <GroupItemInDisplay>false</GroupItemInDisplay>
+  <HasPhysicsWhenWorld>false</HasPhysicsWhenWorld>
+  <RepairedInRest>true</RepairedInRest>
+  <BehaviorOnNoDurability>NotSet</BehaviorOnNoDurability>
+  <CastType>PistolShot</CastType>
+  <CastModifier>Attack</CastModifier>
+  <CastLocomotionEnabled>false</CastLocomotionEnabled>
+  <MobileCastMovementMult>-1</MobileCastMovementMult>
+  <CastSheatheRequired>0</CastSheatheRequired>
   <Tags />
   <EffectTransforms>
-    <EffectTransformHolder>
+    <DM_EffectTransform>
       <TransformName>NormalReload</TransformName>
-      <Effects />
+      <Effects>
+        <DM_Effect xsi:type="DM_LoadWeapon">
+          <Delay>0</Delay>
+          <SyncType>OwnerSync</SyncType>
+          <OverrideCategory>None</OverrideCategory>
+          <UnloadFirst>false</UnloadFirst>
+          <WeaponSlot>OffHand</WeaponSlot>
+        </DM_Effect>
+      </Effects>
       <EffectConditions>
-        <EffectConditionHolder>
-          <Conditions>
-            <ConditionHolder>
-              <Condition_Type>WeaponIsLoadedCondition</Condition_Type>
-              <Invert>true</Invert>
-            </ConditionHolder>
-          </Conditions>
-        </EffectConditionHolder>
-        <EffectConditionHolder>
-          <Conditions>
-            <ConditionHolder>
-              <Condition_Type>ImbueEffectCondition</Condition_Type>
-              <Invert>true</Invert>
-            </ConditionHolder>
-          </Conditions>
-        </EffectConditionHolder>
+        <DM_EffectCondition xsi:type="DM_WeaponIsLoadedCondition">
+          <Invert>true</Invert>
+          <SlotToCheck>OffHand</SlotToCheck>
+        </DM_EffectCondition>
+        <DM_EffectCondition xsi:type="DM_ImbueEffectCondition">
+          <Invert>true</Invert>
+          <ImbuePresetID>-1</ImbuePresetID>
+          <AnyImbue>true</AnyImbue>
+          <WeaponToCheck>OffHand</WeaponToCheck>
+        </DM_EffectCondition>
       </EffectConditions>
       <ChildEffects>
-        <EffectTransformHolder>
+        <DM_EffectTransform>
           <TransformName>ActivationEffectsReload</TransformName>
-          <Effects />
+          <Effects>
+            <DM_Effect xsi:type="DM_PlaySoundEffect">
+              <Delay>1</Delay>
+              <SyncType>OwnerSync</SyncType>
+              <OverrideCategory>None</OverrideCategory>
+              <Sounds>
+                <Sounds>SFX_SKILL_ReloadGun</Sounds>
+              </Sounds>
+              <Follow>false</Follow>
+              <MinPitch>1</MinPitch>
+              <MaxPitch>1</MaxPitch>
+            </DM_Effect>
+          </Effects>
           <EffectConditions>
-            <EffectConditionHolder>
-              <Conditions>
-                <ConditionHolder>
-                  <Condition_Type>WeaponIsLoadedCondition</Condition_Type>
-                  <Invert>true</Invert>
-                </ConditionHolder>
-              </Conditions>
-            </EffectConditionHolder>
-            <EffectConditionHolder>
-              <Conditions>
-                <ConditionHolder>
-                  <Condition_Type>ImbueEffectCondition</Condition_Type>
-                  <Invert>true</Invert>
-                </ConditionHolder>
-              </Conditions>
-            </EffectConditionHolder>
+            <DM_EffectCondition xsi:type="DM_WeaponIsLoadedCondition">
+              <Invert>true</Invert>
+              <SlotToCheck>OffHand</SlotToCheck>
+            </DM_EffectCondition>
+            <DM_EffectCondition xsi:type="DM_ImbueEffectCondition">
+              <Invert>true</Invert>
+              <ImbuePresetID>-1</ImbuePresetID>
+              <AnyImbue>true</AnyImbue>
+              <WeaponToCheck>OffHand</WeaponToCheck>
+            </DM_EffectCondition>
           </EffectConditions>
           <ChildEffects />
-        </EffectTransformHolder>
+        </DM_EffectTransform>
       </ChildEffects>
-    </EffectTransformHolder>
-    <EffectTransformHolder>
+    </DM_EffectTransform>
+    <DM_EffectTransform>
       <TransformName>NormalBaseShot</TransformName>
       <Effects>
-        <EffectHolder xsi:type="ShootProjectileHolder">
+        <DM_Effect xsi:type="DM_ShootProjectile">
+          <Delay>0</Delay>
+          <SyncType>OwnerSync</SyncType>
+          <OverrideCategory>None</OverrideCategory>
+          <CastPosition>Local</CastPosition>
+          <LocalPositionAdd>
+            <x>0</x>
+            <y>1.5</y>
+            <z>0</z>
+          </LocalPositionAdd>
+          <NoAim>false</NoAim>
+          <TargetType>Enemies</TargetType>
+          <TransformName>ShooterTransform</TransformName>
+          <BaseProjectile>BulletNormal</BaseProjectile>
+          <ProjectileShots />
+          <Lifespan>3</Lifespan>
+          <LateShootTime>0.1</LateShootTime>
+          <Unblockable>false</Unblockable>
+          <EffectsOnlyIfHitCharacter>false</EffectsOnlyIfHitCharacter>
+          <EndMode>Normal</EndMode>
+          <DisableOnHit>false</DisableOnHit>
+          <IgnoreShooterCollision>true</IgnoreShooterCollision>
           <TargetingMode>NONE</TargetingMode>
+          <TargetCountPerProjectile>1</TargetCountPerProjectile>
+          <TargetRange>0</TargetRange>
           <AutoTarget>false</AutoTarget>
-          <EffectTransforms>
-            <EffectTransformHolder>
+          <AutoTargetMaxAngle>360</AutoTargetMaxAngle>
+          <AutoTargetRange>5</AutoTargetRange>
+          <ProjectileForce>240</ProjectileForce>
+          <AddDirection>
+            <x>0</x>
+            <y>0</y>
+            <z>0</z>
+          </AddDirection>
+          <AddRotationForce>
+            <x>0</x>
+            <y>0</y>
+            <z>0</z>
+          </AddRotationForce>
+          <YMagnitudeAffect>0</YMagnitudeAffect>
+          <YMagnitudeForce>0</YMagnitudeForce>
+          <DefenseLength>3</DefenseLength>
+          <DefenseRange>3</DefenseRange>
+          <PhysicsLayerMask>0</PhysicsLayerMask>
+          <OnlyExplodeOnLayerMask>false</OnlyExplodeOnLayerMask>
+          <ImpactSoundMaterial>Fire</ImpactSoundMaterial>
+          <LightIntensityFade>
+            <x>10</x>
+            <y>2</y>
+          </LightIntensityFade>
+          <PointOffset>
+            <x>0</x>
+            <y>0</y>
+            <z>0</z>
+          </PointOffset>
+          <TrailEnabled>false</TrailEnabled>
+          <TrailTime>0.075</TrailTime>
+          <ProjectileEffects>
+            <DM_EffectTransform>
               <TransformName>HitEffects</TransformName>
               <Effects>
-                <EffectHolder xsi:type="WeaponDamageHolder">
+                <DM_Effect xsi:type="DM_WeaponDamage">
+                  <Delay>0</Delay>
+                  <SyncType>OwnerSync</SyncType>
+                  <OverrideCategory>None</OverrideCategory>
                   <Damage />
                   <Damages_AI />
                   <Knockback>0</Knockback>
                   <HitInventory>true</HitInventory>
                   <OverrideType>Count</OverrideType>
+                  <ForceOnlyLeftHand>false</ForceOnlyLeftHand>
                   <Damage_Multiplier>1</Damage_Multiplier>
                   <Damage_Multiplier_Kback>-1</Damage_Multiplier_Kback>
                   <Damage_Multiplier_Kdown>-1</Damage_Multiplier_Kdown>
                   <Impact_Multiplier>1</Impact_Multiplier>
                   <Impact_Multiplier_Kback>-1</Impact_Multiplier_Kback>
                   <Impact_Multiplier_Kdown>-1</Impact_Multiplier_Kdown>
-                  <DurabilityLoss>0</DurabilityLoss>
-                  <DurabilityLossPercent>0</DurabilityLossPercent>
-                </EffectHolder>
+                </DM_Effect>
               </Effects>
               <EffectConditions />
               <ChildEffects />
-            </EffectTransformHolder>
-          </EffectTransforms>
-        </EffectHolder>
-        <EffectHolder xsi:type="ReduceDurabilityHolder">
+            </DM_EffectTransform>
+          </ProjectileEffects>
+        </DM_Effect>
+        <DM_Effect xsi:type="DM_PlaySoundEffect">
+          <Delay>0</Delay>
+          <SyncType>OwnerSync</SyncType>
+          <OverrideCategory>None</OverrideCategory>
+          <Sounds>
+            <Sounds>SFX_SKILL_FirePistol</Sounds>
+          </Sounds>
+          <Follow>false</Follow>
+          <MinPitch>1</MinPitch>
+          <MaxPitch>1</MaxPitch>
+        </DM_Effect>
+        <DM_Effect xsi:type="DM_ReduceDurability">
+          <Delay>0</Delay>
+          <SyncType>OwnerSync</SyncType>
+          <OverrideCategory>None</OverrideCategory>
+          <Durability>3</Durability>
           <EquipmentSlot>LeftHand</EquipmentSlot>
-          <DurabilityLoss>3</DurabilityLoss>
-        </EffectHolder>
+        </DM_Effect>
       </Effects>
       <EffectConditions>
-        <EffectConditionHolder>
-          <Conditions>
-            <ConditionHolder>
-              <Condition_Type>WeaponIsLoadedCondition</Condition_Type>
-              <Invert>false</Invert>
-            </ConditionHolder>
-          </Conditions>
-        </EffectConditionHolder>
-        <EffectConditionHolder>
-          <Conditions>
-            <ConditionHolder>
-              <Requirement>Activated Air Sigil</Requirement>
-              <Condition_Type>Item Proximity</Condition_Type>
-              <Invert>true</Invert>
-            </ConditionHolder>
-          </Conditions>
-        </EffectConditionHolder>
-        <EffectConditionHolder>
-          <Conditions>
-            <ConditionHolder>
-              <Condition_Type>ImbueEffectCondition</Condition_Type>
-              <Invert>true</Invert>
-            </ConditionHolder>
-          </Conditions>
-        </EffectConditionHolder>
+        <DM_EffectCondition xsi:type="DM_WeaponIsLoadedCondition">
+          <Invert>false</Invert>
+          <SlotToCheck>OffHand</SlotToCheck>
+        </DM_EffectCondition>
+        <DM_EffectCondition xsi:type="DM_ProximityCondition">
+          <Invert>true</Invert>
+          <RequiredItems>
+            <SkillItemReq>
+              <ItemID>8000050</ItemID>
+              <Quantity>1</Quantity>
+              <Consume>false</Consume>
+            </SkillItemReq>
+          </RequiredItems>
+          <MaxDistance>2.25</MaxDistance>
+          <Offset>
+            <x>0</x>
+            <y>-0.5</y>
+            <z>0</z>
+          </Offset>
+        </DM_EffectCondition>
+        <DM_EffectCondition xsi:type="DM_ImbueEffectCondition">
+          <Invert>true</Invert>
+          <ImbuePresetID>-1</ImbuePresetID>
+          <AnyImbue>true</AnyImbue>
+          <WeaponToCheck>OffHand</WeaponToCheck>
+        </DM_EffectCondition>
       </EffectConditions>
       <ChildEffects />
-    </EffectTransformHolder>
-    <EffectTransformHolder>
+    </DM_EffectTransform>
+    <DM_EffectTransform>
       <TransformName>NormalLightningShot</TransformName>
       <Effects>
-        <EffectHolder xsi:type="ShootProjectileHolder">
+        <DM_Effect xsi:type="DM_ShootProjectile">
+          <Delay>0</Delay>
+          <SyncType>OwnerSync</SyncType>
+          <OverrideCategory>None</OverrideCategory>
+          <CastPosition>Local</CastPosition>
+          <LocalPositionAdd>
+            <x>0</x>
+            <y>1.5</y>
+            <z>0</z>
+          </LocalPositionAdd>
+          <NoAim>false</NoAim>
+          <TargetType>Enemies</TargetType>
+          <TransformName>ShooterTransform</TransformName>
+          <BaseProjectile>BulletLightning</BaseProjectile>
+          <ProjectileShots />
+          <Lifespan>3</Lifespan>
+          <LateShootTime>0.1</LateShootTime>
+          <Unblockable>false</Unblockable>
+          <EffectsOnlyIfHitCharacter>false</EffectsOnlyIfHitCharacter>
+          <EndMode>Normal</EndMode>
+          <DisableOnHit>false</DisableOnHit>
+          <IgnoreShooterCollision>true</IgnoreShooterCollision>
           <TargetingMode>NONE</TargetingMode>
+          <TargetCountPerProjectile>1</TargetCountPerProjectile>
+          <TargetRange>0</TargetRange>
           <AutoTarget>false</AutoTarget>
-          <EffectTransforms>
-            <EffectTransformHolder>
+          <AutoTargetMaxAngle>360</AutoTargetMaxAngle>
+          <AutoTargetRange>5</AutoTargetRange>
+          <ProjectileForce>240</ProjectileForce>
+          <AddDirection>
+            <x>0</x>
+            <y>0</y>
+            <z>0</z>
+          </AddDirection>
+          <AddRotationForce>
+            <x>0</x>
+            <y>0</y>
+            <z>0</z>
+          </AddRotationForce>
+          <YMagnitudeAffect>0</YMagnitudeAffect>
+          <YMagnitudeForce>0</YMagnitudeForce>
+          <DefenseLength>3</DefenseLength>
+          <DefenseRange>3</DefenseRange>
+          <PhysicsLayerMask>0</PhysicsLayerMask>
+          <OnlyExplodeOnLayerMask>false</OnlyExplodeOnLayerMask>
+          <ImpactSoundMaterial>Metal_Sharp</ImpactSoundMaterial>
+          <LightIntensityFade>
+            <x>10</x>
+            <y>2</y>
+          </LightIntensityFade>
+          <PointOffset>
+            <x>0</x>
+            <y>0</y>
+            <z>0</z>
+          </PointOffset>
+          <TrailEnabled>false</TrailEnabled>
+          <TrailTime>0.075</TrailTime>
+          <ProjectileEffects>
+            <DM_EffectTransform>
               <TransformName>HitEffects</TransformName>
               <Effects>
-                <EffectHolder xsi:type="WeaponDamageHolder">
+                <DM_Effect xsi:type="DM_WeaponDamage">
+                  <Delay>0</Delay>
+                  <SyncType>OwnerSync</SyncType>
+                  <OverrideCategory>None</OverrideCategory>
                   <Damage />
                   <Damages_AI />
                   <Knockback>0</Knockback>
                   <HitInventory>true</HitInventory>
                   <OverrideType>Electric</OverrideType>
+                  <ForceOnlyLeftHand>false</ForceOnlyLeftHand>
                   <Damage_Multiplier>2</Damage_Multiplier>
                   <Damage_Multiplier_Kback>-1</Damage_Multiplier_Kback>
                   <Damage_Multiplier_Kdown>-1</Damage_Multiplier_Kdown>
                   <Impact_Multiplier>2</Impact_Multiplier>
                   <Impact_Multiplier_Kback>-1</Impact_Multiplier_Kback>
                   <Impact_Multiplier_Kdown>-1</Impact_Multiplier_Kdown>
-                  <DurabilityLoss>0</DurabilityLoss>
-                  <DurabilityLossPercent>0</DurabilityLossPercent>
-                </EffectHolder>
+                </DM_Effect>
               </Effects>
               <EffectConditions />
               <ChildEffects />
-            </EffectTransformHolder>
-          </EffectTransforms>
-        </EffectHolder>
-        <EffectHolder xsi:type="ReduceDurabilityHolder">
+            </DM_EffectTransform>
+          </ProjectileEffects>
+        </DM_Effect>
+        <DM_Effect xsi:type="DM_PlaySoundEffect">
+          <Delay>0</Delay>
+          <SyncType>OwnerSync</SyncType>
+          <OverrideCategory>None</OverrideCategory>
+          <Sounds>
+            <Sounds>SFX_SKILL_ElemantalProjectileElectric_Shot</Sounds>
+          </Sounds>
+          <Follow>false</Follow>
+          <MinPitch>1</MinPitch>
+          <MaxPitch>1</MaxPitch>
+        </DM_Effect>
+        <DM_Effect xsi:type="DM_PlaySoundEffect">
+          <Delay>0</Delay>
+          <SyncType>OwnerSync</SyncType>
+          <OverrideCategory>None</OverrideCategory>
+          <Sounds>
+            <Sounds>SFX_SKILL_FirePistol</Sounds>
+          </Sounds>
+          <Follow>false</Follow>
+          <MinPitch>1</MinPitch>
+          <MaxPitch>1</MaxPitch>
+        </DM_Effect>
+        <DM_Effect xsi:type="DM_ReduceDurability">
+          <Delay>0</Delay>
+          <SyncType>OwnerSync</SyncType>
+          <OverrideCategory>None</OverrideCategory>
+          <Durability>9</Durability>
           <EquipmentSlot>LeftHand</EquipmentSlot>
-          <DurabilityLoss>9</DurabilityLoss>
-        </EffectHolder>
+        </DM_Effect>
       </Effects>
       <EffectConditions>
-        <EffectConditionHolder>
-          <Conditions>
-            <ConditionHolder>
-              <Condition_Type>WeaponIsLoadedCondition</Condition_Type>
-              <Invert>false</Invert>
-            </ConditionHolder>
-          </Conditions>
-        </EffectConditionHolder>
-        <EffectConditionHolder>
-          <Conditions>
-            <ConditionHolder>
-              <Requirement>Activated Air Sigil</Requirement>
-              <Condition_Type>Item Proximity</Condition_Type>
-              <Invert>false</Invert>
-            </ConditionHolder>
-          </Conditions>
-        </EffectConditionHolder>
-        <EffectConditionHolder>
-          <Conditions>
-            <ConditionHolder>
-              <Condition_Type>ImbueEffectCondition</Condition_Type>
-              <Invert>true</Invert>
-            </ConditionHolder>
-          </Conditions>
-        </EffectConditionHolder>
+        <DM_EffectCondition xsi:type="DM_WeaponIsLoadedCondition">
+          <Invert>false</Invert>
+          <SlotToCheck>OffHand</SlotToCheck>
+        </DM_EffectCondition>
+        <DM_EffectCondition xsi:type="DM_ProximityCondition">
+          <Invert>false</Invert>
+          <RequiredItems>
+            <SkillItemReq>
+              <ItemID>8000050</ItemID>
+              <Quantity>1</Quantity>
+              <Consume>false</Consume>
+            </SkillItemReq>
+          </RequiredItems>
+          <MaxDistance>2.25</MaxDistance>
+          <Offset>
+            <x>0</x>
+            <y>-0.5</y>
+            <z>0</z>
+          </Offset>
+        </DM_EffectCondition>
+        <DM_EffectCondition xsi:type="DM_ImbueEffectCondition">
+          <Invert>true</Invert>
+          <ImbuePresetID>-1</ImbuePresetID>
+          <AnyImbue>true</AnyImbue>
+          <WeaponToCheck>OffHand</WeaponToCheck>
+        </DM_EffectCondition>
       </EffectConditions>
       <ChildEffects />
-    </EffectTransformHolder>
-    <EffectTransformHolder>
+    </DM_EffectTransform>
+    <DM_EffectTransform>
       <TransformName>NormalBloodShot</TransformName>
       <Effects>
-        <EffectHolder xsi:type="ShootProjectileHolder">
+        <DM_Effect xsi:type="DM_ShootProjectile">
+          <Delay>0</Delay>
+          <SyncType>OwnerSync</SyncType>
+          <OverrideCategory>None</OverrideCategory>
+          <CastPosition>Local</CastPosition>
+          <LocalPositionAdd>
+            <x>0</x>
+            <y>1.5</y>
+            <z>0</z>
+          </LocalPositionAdd>
+          <NoAim>false</NoAim>
+          <TargetType>Enemies</TargetType>
+          <TransformName>ShooterTransform</TransformName>
+          <BaseProjectile>BulletBlood</BaseProjectile>
+          <ProjectileShots />
+          <Lifespan>5</Lifespan>
+          <LateShootTime>0.1</LateShootTime>
+          <Unblockable>false</Unblockable>
+          <EffectsOnlyIfHitCharacter>false</EffectsOnlyIfHitCharacter>
+          <EndMode>Normal</EndMode>
+          <DisableOnHit>false</DisableOnHit>
+          <IgnoreShooterCollision>true</IgnoreShooterCollision>
           <TargetingMode>NONE</TargetingMode>
+          <TargetCountPerProjectile>1</TargetCountPerProjectile>
+          <TargetRange>0</TargetRange>
           <AutoTarget>false</AutoTarget>
-          <EffectTransforms>
-            <EffectTransformHolder>
+          <AutoTargetMaxAngle>360</AutoTargetMaxAngle>
+          <AutoTargetRange>5</AutoTargetRange>
+          <ProjectileForce>240</ProjectileForce>
+          <AddDirection>
+            <x>0</x>
+            <y>0</y>
+            <z>0</z>
+          </AddDirection>
+          <AddRotationForce>
+            <x>0</x>
+            <y>0</y>
+            <z>0</z>
+          </AddRotationForce>
+          <YMagnitudeAffect>0</YMagnitudeAffect>
+          <YMagnitudeForce>0</YMagnitudeForce>
+          <DefenseLength>3</DefenseLength>
+          <DefenseRange>3</DefenseRange>
+          <PhysicsLayerMask>0</PhysicsLayerMask>
+          <OnlyExplodeOnLayerMask>false</OnlyExplodeOnLayerMask>
+          <ImpactSoundMaterial>Metal_Sharp</ImpactSoundMaterial>
+          <LightIntensityFade>
+            <x>10</x>
+            <y>2</y>
+          </LightIntensityFade>
+          <PointOffset>
+            <x>0</x>
+            <y>0</y>
+            <z>0</z>
+          </PointOffset>
+          <TrailEnabled>false</TrailEnabled>
+          <TrailTime>0.075</TrailTime>
+          <ProjectileEffects>
+            <DM_EffectTransform>
               <TransformName>HitEffects</TransformName>
               <Effects>
-                <EffectHolder xsi:type="WeaponDamageHolder">
+                <DM_Effect xsi:type="DM_WeaponDamage">
+                  <Delay>0</Delay>
+                  <SyncType>OwnerSync</SyncType>
+                  <OverrideCategory>None</OverrideCategory>
                   <Damage />
                   <Damages_AI />
                   <Knockback>0</Knockback>
                   <HitInventory>true</HitInventory>
                   <OverrideType>Decay</OverrideType>
+                  <ForceOnlyLeftHand>false</ForceOnlyLeftHand>
                   <Damage_Multiplier>0.8</Damage_Multiplier>
                   <Damage_Multiplier_Kback>-1</Damage_Multiplier_Kback>
                   <Damage_Multiplier_Kdown>-1</Damage_Multiplier_Kdown>
                   <Impact_Multiplier>0.8</Impact_Multiplier>
                   <Impact_Multiplier_Kback>-1</Impact_Multiplier_Kback>
                   <Impact_Multiplier_Kdown>-1</Impact_Multiplier_Kdown>
-                  <DurabilityLoss>0</DurabilityLoss>
-                  <DurabilityLossPercent>0</DurabilityLossPercent>
-                </EffectHolder>
+                </DM_Effect>
               </Effects>
               <EffectConditions />
               <ChildEffects />
-            </EffectTransformHolder>
-          </EffectTransforms>
-        </EffectHolder>
-        <EffectHolder xsi:type="ReduceDurabilityHolder">
+            </DM_EffectTransform>
+          </ProjectileEffects>
+        </DM_Effect>
+        <DM_Effect xsi:type="DM_RemoveImbueEffects">
+          <Delay>0</Delay>
+          <SyncType>OwnerSync</SyncType>
+          <OverrideCategory>None</OverrideCategory>
+          <AffectSlot>OffHand</AffectSlot>
+        </DM_Effect>
+        <DM_Effect xsi:type="DM_PlaySoundEffect">
+          <Delay>0</Delay>
+          <SyncType>OwnerSync</SyncType>
+          <OverrideCategory>None</OverrideCategory>
+          <Sounds>
+            <Sounds>SFX_SKILL_BloodBullet_Impact</Sounds>
+          </Sounds>
+          <Follow>false</Follow>
+          <MinPitch>1</MinPitch>
+          <MaxPitch>1</MaxPitch>
+        </DM_Effect>
+        <DM_Effect xsi:type="DM_ReduceDurability">
+          <Delay>0</Delay>
+          <SyncType>OwnerSync</SyncType>
+          <OverrideCategory>None</OverrideCategory>
+          <Durability>6</Durability>
           <EquipmentSlot>LeftHand</EquipmentSlot>
-          <DurabilityLoss>6</DurabilityLoss>
-        </EffectHolder>
+        </DM_Effect>
       </Effects>
       <EffectConditions>
-        <EffectConditionHolder>
-          <Conditions>
-            <ConditionHolder>
-              <Condition_Type>ImbueEffectCondition</Condition_Type>
-              <Invert>false</Invert>
-            </ConditionHolder>
-          </Conditions>
-        </EffectConditionHolder>
+        <DM_EffectCondition xsi:type="DM_ImbueEffectCondition">
+          <Invert>false</Invert>
+          <ImbuePresetID>251</ImbuePresetID>
+          <AnyImbue>false</AnyImbue>
+          <WeaponToCheck>OffHand</WeaponToCheck>
+        </DM_EffectCondition>
       </EffectConditions>
       <ChildEffects />
-    </EffectTransformHolder>
-    <EffectTransformHolder>
+    </DM_EffectTransform>
+    <DM_EffectTransform>
       <TransformName>NormalFrostShot</TransformName>
       <Effects>
-        <EffectHolder xsi:type="ShootBlastHolder">
-          <BlastLifespan>0.1</BlastLifespan>
+        <DM_Effect xsi:type="DM_ShootBlast">
+          <Delay>0</Delay>
+          <SyncType>OwnerSync</SyncType>
+          <OverrideCategory>None</OverrideCategory>
+          <CastPosition>Character</CastPosition>
+          <LocalPositionAdd>
+            <x>0</x>
+            <y>1.5</y>
+            <z>1</z>
+          </LocalPositionAdd>
+          <NoAim>false</NoAim>
+          <TargetType>Enemies</TargetType>
+          <TransformName>ShooterTransform</TransformName>
+          <BaseBlast>BulletIceBlast</BaseBlast>
+          <Radius>2.5</Radius>
           <RefreshTime>0.1</RefreshTime>
-          <EffectTransforms>
-            <EffectTransformHolder>
+          <BlastLifespan>0.1</BlastLifespan>
+          <InstantiatedAmount>1</InstantiatedAmount>
+          <Interruptible>false</Interruptible>
+          <MaxHitTargetCount>-1</MaxHitTargetCount>
+          <AffectHitTargetCenter>false</AffectHitTargetCenter>
+          <HitOnShoot>true</HitOnShoot>
+          <IgnoreShooter>false</IgnoreShooter>
+          <IgnoreStop>false</IgnoreStop>
+          <NoTargetForwardMultiplier>5</NoTargetForwardMultiplier>
+          <ParentToShootTransform>false</ParentToShootTransform>
+          <UseTargetCharacterPositionType>false</UseTargetCharacterPositionType>
+          <ImpactSoundMaterial>Metal_Blunt</ImpactSoundMaterial>
+          <DontPlayHitSound>false</DontPlayHitSound>
+          <FXIsWorld>false</FXIsWorld>
+          <BlastEffects>
+            <DM_EffectTransform>
               <TransformName>Effects</TransformName>
               <Effects>
-                <EffectHolder xsi:type="WeaponDamageHolder">
+                <DM_Effect xsi:type="DM_WeaponDamage">
+                  <Delay>0</Delay>
+                  <SyncType>OwnerSync</SyncType>
+                  <OverrideCategory>None</OverrideCategory>
                   <Damage>
                     <Damages>
                       <Damage>55</Damage>
@@ -259,104 +535,210 @@ Some abilities load special bullets into your pistol, which are fired using this
                   <Knockback>90</Knockback>
                   <HitInventory>true</HitInventory>
                   <OverrideType>Frost</OverrideType>
+                  <ForceOnlyLeftHand>false</ForceOnlyLeftHand>
                   <Damage_Multiplier>1</Damage_Multiplier>
                   <Damage_Multiplier_Kback>-1</Damage_Multiplier_Kback>
                   <Damage_Multiplier_Kdown>-1</Damage_Multiplier_Kdown>
                   <Impact_Multiplier>1</Impact_Multiplier>
                   <Impact_Multiplier_Kback>-1</Impact_Multiplier_Kback>
                   <Impact_Multiplier_Kdown>-1</Impact_Multiplier_Kdown>
-                  <DurabilityLoss>0</DurabilityLoss>
-                  <DurabilityLossPercent>0</DurabilityLossPercent>
-                </EffectHolder>
-                <EffectHolder xsi:type="AddStatusEffectHolder">
+                </DM_Effect>
+                <DM_Effect xsi:type="DM_AddStatusEffect">
+                  <Delay>0</Delay>
+                  <SyncType>OwnerSync</SyncType>
+                  <OverrideCategory>None</OverrideCategory>
                   <StatusEffect>Slow Down</StatusEffect>
                   <ChanceToContract>100</ChanceToContract>
-                </EffectHolder>
-                <EffectHolder xsi:type="AddStatusEffectHolder">
+                </DM_Effect>
+                <DM_Effect xsi:type="DM_AddStatusEffect">
+                  <Delay>0</Delay>
+                  <SyncType>OwnerSync</SyncType>
+                  <OverrideCategory>None</OverrideCategory>
                   <StatusEffect>Cripple</StatusEffect>
                   <ChanceToContract>100</ChanceToContract>
-                </EffectHolder>
+                </DM_Effect>
               </Effects>
               <EffectConditions />
               <ChildEffects />
-            </EffectTransformHolder>
-          </EffectTransforms>
-        </EffectHolder>
-        <EffectHolder xsi:type="ReduceDurabilityHolder">
+            </DM_EffectTransform>
+          </BlastEffects>
+        </DM_Effect>
+        <DM_Effect xsi:type="DM_RemoveImbueEffects">
+          <Delay>0</Delay>
+          <SyncType>OwnerSync</SyncType>
+          <OverrideCategory>None</OverrideCategory>
+          <AffectSlot>OffHand</AffectSlot>
+        </DM_Effect>
+        <DM_Effect xsi:type="DM_PlaySoundEffect">
+          <Delay>0</Delay>
+          <SyncType>OwnerSync</SyncType>
+          <OverrideCategory>None</OverrideCategory>
+          <Sounds>
+            <Sounds>SFX_SKILL_ElemantalProjectileIce_Shot</Sounds>
+          </Sounds>
+          <Follow>false</Follow>
+          <MinPitch>1</MinPitch>
+          <MaxPitch>1</MaxPitch>
+        </DM_Effect>
+        <DM_Effect xsi:type="DM_ReduceDurability">
+          <Delay>0</Delay>
+          <SyncType>OwnerSync</SyncType>
+          <OverrideCategory>None</OverrideCategory>
+          <Durability>6</Durability>
           <EquipmentSlot>LeftHand</EquipmentSlot>
-          <DurabilityLoss>6</DurabilityLoss>
-        </EffectHolder>
+        </DM_Effect>
       </Effects>
       <EffectConditions>
-        <EffectConditionHolder>
-          <Conditions>
-            <ConditionHolder>
-              <Condition_Type>ImbueEffectCondition</Condition_Type>
-              <Invert>false</Invert>
-            </ConditionHolder>
-          </Conditions>
-        </EffectConditionHolder>
+        <DM_EffectCondition xsi:type="DM_ImbueEffectCondition">
+          <Invert>false</Invert>
+          <ImbuePresetID>250</ImbuePresetID>
+          <AnyImbue>false</AnyImbue>
+          <WeaponToCheck>OffHand</WeaponToCheck>
+        </DM_EffectCondition>
       </EffectConditions>
       <ChildEffects />
-    </EffectTransformHolder>
-    <EffectTransformHolder>
+    </DM_EffectTransform>
+    <DM_EffectTransform>
       <TransformName>NormalShatterShot</TransformName>
       <Effects>
-        <EffectHolder xsi:type="ShootProjectileHolder">
+        <DM_Effect xsi:type="DM_ShootProjectile">
+          <Delay>0</Delay>
+          <SyncType>OwnerSync</SyncType>
+          <OverrideCategory>None</OverrideCategory>
+          <CastPosition>Local</CastPosition>
+          <LocalPositionAdd>
+            <x>0</x>
+            <y>1.5</y>
+            <z>0</z>
+          </LocalPositionAdd>
+          <NoAim>false</NoAim>
+          <TargetType>Enemies</TargetType>
+          <TransformName>ShooterTransform</TransformName>
+          <BaseProjectile>BulletShatter</BaseProjectile>
+          <ProjectileShots />
+          <Lifespan>3</Lifespan>
+          <LateShootTime>0.1</LateShootTime>
+          <Unblockable>false</Unblockable>
+          <EffectsOnlyIfHitCharacter>false</EffectsOnlyIfHitCharacter>
+          <EndMode>Normal</EndMode>
+          <DisableOnHit>false</DisableOnHit>
+          <IgnoreShooterCollision>true</IgnoreShooterCollision>
           <TargetingMode>NONE</TargetingMode>
+          <TargetCountPerProjectile>1</TargetCountPerProjectile>
+          <TargetRange>0</TargetRange>
           <AutoTarget>false</AutoTarget>
-          <EffectTransforms>
-            <EffectTransformHolder>
+          <AutoTargetMaxAngle>360</AutoTargetMaxAngle>
+          <AutoTargetRange>5</AutoTargetRange>
+          <ProjectileForce>240</ProjectileForce>
+          <AddDirection>
+            <x>0</x>
+            <y>0</y>
+            <z>0</z>
+          </AddDirection>
+          <AddRotationForce>
+            <x>0</x>
+            <y>0</y>
+            <z>0</z>
+          </AddRotationForce>
+          <YMagnitudeAffect>0</YMagnitudeAffect>
+          <YMagnitudeForce>0</YMagnitudeForce>
+          <DefenseLength>3</DefenseLength>
+          <DefenseRange>3</DefenseRange>
+          <PhysicsLayerMask>0</PhysicsLayerMask>
+          <OnlyExplodeOnLayerMask>false</OnlyExplodeOnLayerMask>
+          <ImpactSoundMaterial>Metal_Sharp</ImpactSoundMaterial>
+          <LightIntensityFade>
+            <x>10</x>
+            <y>2</y>
+          </LightIntensityFade>
+          <PointOffset>
+            <x>0</x>
+            <y>0</y>
+            <z>0</z>
+          </PointOffset>
+          <TrailEnabled>false</TrailEnabled>
+          <TrailTime>0.075</TrailTime>
+          <ProjectileEffects>
+            <DM_EffectTransform>
               <TransformName>HitEffects</TransformName>
               <Effects>
-                <EffectHolder xsi:type="WeaponDamageHolder">
+                <DM_Effect xsi:type="DM_WeaponDamage">
+                  <Delay>0</Delay>
+                  <SyncType>OwnerSync</SyncType>
+                  <OverrideCategory>None</OverrideCategory>
                   <Damage />
                   <Damages_AI />
                   <Knockback>30</Knockback>
                   <HitInventory>true</HitInventory>
                   <OverrideType>Physical</OverrideType>
+                  <ForceOnlyLeftHand>false</ForceOnlyLeftHand>
                   <Damage_Multiplier>1</Damage_Multiplier>
                   <Damage_Multiplier_Kback>-1</Damage_Multiplier_Kback>
                   <Damage_Multiplier_Kdown>-1</Damage_Multiplier_Kdown>
                   <Impact_Multiplier>2.5</Impact_Multiplier>
                   <Impact_Multiplier_Kback>-1</Impact_Multiplier_Kback>
                   <Impact_Multiplier_Kdown>-1</Impact_Multiplier_Kdown>
-                  <DurabilityLoss>0</DurabilityLoss>
-                  <DurabilityLossPercent>0</DurabilityLossPercent>
-                </EffectHolder>
-                <EffectHolder xsi:type="AddStatusEffectHolder">
+                </DM_Effect>
+                <DM_Effect xsi:type="DM_AddStatusEffect">
+                  <Delay>0</Delay>
+                  <SyncType>OwnerSync</SyncType>
+                  <OverrideCategory>None</OverrideCategory>
                   <StatusEffect>Pain</StatusEffect>
                   <ChanceToContract>100</ChanceToContract>
-                </EffectHolder>
+                </DM_Effect>
               </Effects>
               <EffectConditions />
               <ChildEffects />
-            </EffectTransformHolder>
-          </EffectTransforms>
-        </EffectHolder>
-        <EffectHolder xsi:type="ReduceDurabilityHolder">
+            </DM_EffectTransform>
+          </ProjectileEffects>
+        </DM_Effect>
+        <DM_Effect xsi:type="DM_RemoveImbueEffects">
+          <Delay>0</Delay>
+          <SyncType>OwnerSync</SyncType>
+          <OverrideCategory>None</OverrideCategory>
+          <AffectSlot>OffHand</AffectSlot>
+        </DM_Effect>
+        <DM_Effect xsi:type="DM_PlaySoundEffect">
+          <Delay>0</Delay>
+          <SyncType>OwnerSync</SyncType>
+          <OverrideCategory>None</OverrideCategory>
+          <Sounds>
+            <Sounds>SFX_SKILL_ElemantalProjectileIce_Shot</Sounds>
+          </Sounds>
+          <Follow>false</Follow>
+          <MinPitch>1</MinPitch>
+          <MaxPitch>1</MaxPitch>
+        </DM_Effect>
+        <DM_Effect xsi:type="DM_ReduceDurability">
+          <Delay>0</Delay>
+          <SyncType>OwnerSync</SyncType>
+          <OverrideCategory>None</OverrideCategory>
+          <Durability>6</Durability>
           <EquipmentSlot>LeftHand</EquipmentSlot>
-          <DurabilityLoss>6</DurabilityLoss>
-        </EffectHolder>
+        </DM_Effect>
       </Effects>
       <EffectConditions>
-        <EffectConditionHolder>
-          <Conditions>
-            <ConditionHolder>
-              <Condition_Type>ImbueEffectCondition</Condition_Type>
-              <Invert>false</Invert>
-            </ConditionHolder>
-          </Conditions>
-        </EffectConditionHolder>
+        <DM_EffectCondition xsi:type="DM_ImbueEffectCondition">
+          <Invert>false</Invert>
+          <ImbuePresetID>252</ImbuePresetID>
+          <AnyImbue>false</AnyImbue>
+          <WeaponToCheck>OffHand</WeaponToCheck>
+        </DM_EffectCondition>
       </EffectConditions>
       <ChildEffects />
-    </EffectTransformHolder>
+    </DM_EffectTransform>
   </EffectTransforms>
   <Cooldown>0</Cooldown>
   <StaminaCost>0</StaminaCost>
   <ManaCost>0</ManaCost>
   <DurabilityCost>0</DurabilityCost>
   <DurabilityCostPercent>0</DurabilityCostPercent>
-  <IsDLCSkill>true</IsDLCSkill>
   <RequiredItems />
-</ItemHolder>
+  <AmmunitionTypes />
+  <RequiredOffHandTypes>
+    <WeaponType>Pistol_OH</WeaponType>
+  </RequiredOffHandTypes>
+  <RequiredWeaponTypes />
+  <RequiredWeaponTags />
+  <RequireImbue>false</RequireImbue>
+</DM_AttackSkill>

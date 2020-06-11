@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ContainerSummary xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<LootContainerSummary xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Name>Ornate Chest</Name>
   <ItemID>0</ItemID>
   <All_Locations>
@@ -125,7 +125,7 @@
     </QuantityHolder>
   </All_Locations>
   <DropTables>
-    <ContainerDroptableSummary>
+    <DroptableSummary>
       <DropTableName>DropTable_Chersonese_Equipment_High_1</DropTableName>
       <Locations>
         <string>Cierzo</string>
@@ -138,8 +138,8 @@
         <string>Bandits' Prison</string>
         <string>Mansion's Cellar</string>
       </Locations>
-    </ContainerDroptableSummary>
-    <ContainerDroptableSummary>
+    </DroptableSummary>
+    <DroptableSummary>
       <DropTableName>DropTable_Neutral_Consumable_High_1</DropTableName>
       <Locations>
         <string>Cierzo</string>
@@ -160,8 +160,8 @@
         <string>Enmerkar Forest</string>
         <string>Royal Manticore’s Lair</string>
       </Locations>
-    </ContainerDroptableSummary>
-    <ContainerDroptableSummary>
+    </DroptableSummary>
+    <DroptableSummary>
       <DropTableName>DropTable_Neutral_Valuable_High_1</DropTableName>
       <Locations>
         <string>Cierzo</string>
@@ -184,8 +184,8 @@
         <string>Face of the Ancients</string>
         <string>Vigil Pylon</string>
       </Locations>
-    </ContainerDroptableSummary>
-    <ContainerDroptableSummary>
+    </DroptableSummary>
+    <DroptableSummary>
       <DropTableName>DropTable_Neutral_Recipe_Dungeon_1</DropTableName>
       <Locations>
         <string>Cierzo</string>
@@ -207,8 +207,8 @@
         <string>Ancestor’s Resting Place</string>
         <string>Vigil Pylon</string>
       </Locations>
-    </ContainerDroptableSummary>
-    <ContainerDroptableSummary>
+    </DroptableSummary>
+    <DroptableSummary>
       <DropTableName>DropTable_Neutral_StandardRecipe_High_1</DropTableName>
       <Locations>
         <string>Cierzo (Destroyed)</string>
@@ -217,8 +217,8 @@
         <string>Montcalm Clan Fort</string>
         <string>Abrassar</string>
       </Locations>
-    </ContainerDroptableSummary>
-    <ContainerDroptableSummary>
+    </DroptableSummary>
+    <DroptableSummary>
       <DropTableName>DropTable_Chersonese_Equipment_HighDungeon_1</DropTableName>
       <Locations>
         <string>Cierzo (Destroyed)</string>
@@ -229,8 +229,8 @@
         <string>Bandits' Prison</string>
         <string>Mansion's Cellar</string>
       </Locations>
-    </ContainerDroptableSummary>
-    <ContainerDroptableSummary>
+    </DroptableSummary>
+    <DroptableSummary>
       <DropTableName>DropTable_Neutral_Consumable_Low_2</DropTableName>
       <Locations>
         <string>Cierzo (Destroyed)</string>
@@ -238,8 +238,8 @@
         <string>Jade Quarry</string>
         <string>Ancestor’s Resting Place</string>
       </Locations>
-    </ContainerDroptableSummary>
-    <ContainerDroptableSummary>
+    </DroptableSummary>
+    <DroptableSummary>
       <DropTableName>DropTable_Neutral_Alchemy_High_1</DropTableName>
       <Locations>
         <string>Cierzo (Destroyed)</string>
@@ -257,15 +257,15 @@
         <string>Face of the Ancients</string>
         <string>Vigil Pylon</string>
       </Locations>
-    </ContainerDroptableSummary>
-    <ContainerDroptableSummary>
+    </DroptableSummary>
+    <DroptableSummary>
       <DropTableName>DropTable_Chersonese_Equipment_Medium_1</DropTableName>
       <Locations>
         <string>Chersonese</string>
         <string>Montcalm Clan Fort</string>
       </Locations>
-    </ContainerDroptableSummary>
-    <ContainerDroptableSummary>
+    </DroptableSummary>
+    <DroptableSummary>
       <DropTableName>DropTable_Neutral_Magic_High_1</DropTableName>
       <Locations>
         <string>Chersonese</string>
@@ -280,16 +280,16 @@
         <string>Cabal of Wind Outpost</string>
         <string>Royal Manticore’s Lair</string>
       </Locations>
-    </ContainerDroptableSummary>
-    <ContainerDroptableSummary>
+    </DroptableSummary>
+    <DroptableSummary>
       <DropTableName>DropTable_Neutral_Survival_Medium_1</DropTableName>
       <Locations>
         <string>Vendavel Fortress</string>
         <string>Voltaic Hatchery</string>
         <string>Dead Tree</string>
       </Locations>
-    </ContainerDroptableSummary>
-    <ContainerDroptableSummary>
+    </DroptableSummary>
+    <DroptableSummary>
       <DropTableName>DropTable_Neutral_Alchemy_Low_2</DropTableName>
       <Locations>
         <string>Vendavel Fortress</string>
@@ -300,8 +300,8 @@
         <string>Face of the Ancients</string>
         <string>Ancestor’s Resting Place</string>
       </Locations>
-    </ContainerDroptableSummary>
-    <ContainerDroptableSummary>
+    </DroptableSummary>
+    <DroptableSummary>
       <DropTableName>DropTable_Neutral_Survival_High_1</DropTableName>
       <Locations>
         <string>Voltaic Hatchery</string>
@@ -309,46 +309,46 @@
         <string>Abrassar</string>
         <string>Undercity Passage</string>
       </Locations>
-    </ContainerDroptableSummary>
-    <ContainerDroptableSummary>
+    </DroptableSummary>
+    <DroptableSummary>
       <DropTableName>DropTable_Neutral_Magic_Low_2</DropTableName>
       <Locations>
         <string>Corrupted Tombs</string>
         <string>Montcalm Clan Fort</string>
       </Locations>
-    </ContainerDroptableSummary>
-    <ContainerDroptableSummary>
+    </DroptableSummary>
+    <DroptableSummary>
       <DropTableName>DropTable_Neutral_StandardRecipe_Low_1</DropTableName>
       <Locations>
         <string>Mansion's Cellar</string>
       </Locations>
-    </ContainerDroptableSummary>
-    <ContainerDroptableSummary>
+    </DroptableSummary>
+    <DroptableSummary>
       <DropTableName>DropTable_Neutral_Bosse_BrandHero_1</DropTableName>
       <Locations>
         <string>Unknown Arena</string>
       </Locations>
-    </ContainerDroptableSummary>
-    <ContainerDroptableSummary>
+    </DroptableSummary>
+    <DroptableSummary>
       <DropTableName>DropTable_Neutral_Bosse_Shrimp_1</DropTableName>
       <Locations>
         <string>Unknown Arena</string>
       </Locations>
-    </ContainerDroptableSummary>
-    <ContainerDroptableSummary>
+    </DroptableSummary>
+    <DroptableSummary>
       <DropTableName>DropTable_Neutral_Bosse_TrogQueen_1</DropTableName>
       <Locations>
         <string>Unknown Arena</string>
       </Locations>
-    </ContainerDroptableSummary>
-    <ContainerDroptableSummary>
+    </DroptableSummary>
+    <DroptableSummary>
       <DropTableName>DropTable_HallowedMarsh_Equipment_Medium_1</DropTableName>
       <Locations>
         <string>Jade Quarry</string>
         <string>Abandoned Ziggurat</string>
       </Locations>
-    </ContainerDroptableSummary>
-    <ContainerDroptableSummary>
+    </DroptableSummary>
+    <DroptableSummary>
       <DropTableName>DropTable_HallowedMarsh_Equipment_High_1</DropTableName>
       <Locations>
         <string>Jade Quarry</string>
@@ -358,15 +358,15 @@
         <string>Dead Tree</string>
         <string>Abandoned Ziggurat</string>
       </Locations>
-    </ContainerDroptableSummary>
-    <ContainerDroptableSummary>
+    </DroptableSummary>
+    <DroptableSummary>
       <DropTableName>DropTable_HallowedMarsh_Recipe_Weapon_1</DropTableName>
       <Locations>
         <string>Jade Quarry</string>
         <string>Abandoned Ziggurat</string>
       </Locations>
-    </ContainerDroptableSummary>
-    <ContainerDroptableSummary>
+    </DroptableSummary>
+    <DroptableSummary>
       <DropTableName>DropTable_HallowedMarsh_Equipment_HighDungeon_1</DropTableName>
       <Locations>
         <string>Dark Ziggurat Interior</string>
@@ -374,26 +374,26 @@
         <string>Ziggurat Passage</string>
         <string>Dead Tree</string>
       </Locations>
-    </ContainerDroptableSummary>
-    <ContainerDroptableSummary>
+    </DroptableSummary>
+    <DroptableSummary>
       <DropTableName>DropTable_Neutral_Bosse_Priest_1</DropTableName>
       <Locations>
         <string>Unknown Arena</string>
       </Locations>
-    </ContainerDroptableSummary>
-    <ContainerDroptableSummary>
+    </DroptableSummary>
+    <DroptableSummary>
       <DropTableName>DropTable_Neutral_Bosse_Giants_1</DropTableName>
       <Locations>
         <string>Unknown Arena</string>
       </Locations>
-    </ContainerDroptableSummary>
-    <ContainerDroptableSummary>
+    </DroptableSummary>
+    <DroptableSummary>
       <DropTableName>DropTable_Neutral_Bosse_Tuano_1</DropTableName>
       <Locations>
         <string>Unknown Arena</string>
       </Locations>
-    </ContainerDroptableSummary>
-    <ContainerDroptableSummary>
+    </DroptableSummary>
+    <DroptableSummary>
       <DropTableName>DropTable_Abrassar_Equipment_HighDungeon_1</DropTableName>
       <Locations>
         <string>Abrassar</string>
@@ -402,16 +402,16 @@
         <string>Sand Rose Cave</string>
         <string>Cabal of Wind Outpost</string>
       </Locations>
-    </ContainerDroptableSummary>
-    <ContainerDroptableSummary>
+    </DroptableSummary>
+    <DroptableSummary>
       <DropTableName>DropTable_Abrassar_Recipe_Weapon_1</DropTableName>
       <Locations>
         <string>Abrassar</string>
         <string>Undercity Passage</string>
         <string>Sand Rose Cave</string>
       </Locations>
-    </ContainerDroptableSummary>
-    <ContainerDroptableSummary>
+    </DroptableSummary>
+    <DroptableSummary>
       <DropTableName>DropTable_Abrassar_Equipment_High_1</DropTableName>
       <Locations>
         <string>Abrassar</string>
@@ -421,40 +421,40 @@
         <string>Sand Rose Cave</string>
         <string>Cabal of Wind Outpost</string>
       </Locations>
-    </ContainerDroptableSummary>
-    <ContainerDroptableSummary>
+    </DroptableSummary>
+    <DroptableSummary>
       <DropTableName>DropTable_Abrassar_Equipment_Medium_1</DropTableName>
       <Locations>
         <string>Abrassar</string>
         <string>Undercity Passage</string>
         <string>The Slide</string>
       </Locations>
-    </ContainerDroptableSummary>
-    <ContainerDroptableSummary>
+    </DroptableSummary>
+    <DroptableSummary>
       <DropTableName>DropTable_Neutral_Valuable_Low_1</DropTableName>
       <Locations>
         <string>Abrassar</string>
       </Locations>
-    </ContainerDroptableSummary>
-    <ContainerDroptableSummary>
+    </DroptableSummary>
+    <DroptableSummary>
       <DropTableName>DropTable_Neutral_Bosse_BeastGolem_1</DropTableName>
       <Locations>
         <string>Unknown Arena</string>
       </Locations>
-    </ContainerDroptableSummary>
-    <ContainerDroptableSummary>
+    </DroptableSummary>
+    <DroptableSummary>
       <DropTableName>DropTable_Neutral_Bosse_Shark_1</DropTableName>
       <Locations>
         <string>Unknown Arena</string>
       </Locations>
-    </ContainerDroptableSummary>
-    <ContainerDroptableSummary>
+    </DroptableSummary>
+    <DroptableSummary>
       <DropTableName>DropTable_Neutral_Bosse_Calixa_1</DropTableName>
       <Locations>
         <string>Unknown Arena</string>
       </Locations>
-    </ContainerDroptableSummary>
-    <ContainerDroptableSummary>
+    </DroptableSummary>
+    <DroptableSummary>
       <DropTableName>DropTable_Enmerkar_Equipment_HighDungeon_1</DropTableName>
       <Locations>
         <string>Enmerkar Forest</string>
@@ -464,8 +464,8 @@
         <string>Face of the Ancients</string>
         <string>Vigil Pylon</string>
       </Locations>
-    </ContainerDroptableSummary>
-    <ContainerDroptableSummary>
+    </DroptableSummary>
+    <DroptableSummary>
       <DropTableName>DropTable_Enmerkar_Equipment_High_1</DropTableName>
       <Locations>
         <string>Enmerkar Forest</string>
@@ -476,43 +476,43 @@
         <string>Ancestor’s Resting Place</string>
         <string>Vigil Pylon</string>
       </Locations>
-    </ContainerDroptableSummary>
-    <ContainerDroptableSummary>
+    </DroptableSummary>
+    <DroptableSummary>
       <DropTableName>DropTable_Enmerkar_Recipe_Weapon_1</DropTableName>
       <Locations>
         <string>Forest Hives</string>
         <string>Face of the Ancients</string>
       </Locations>
-    </ContainerDroptableSummary>
-    <ContainerDroptableSummary>
+    </DroptableSummary>
+    <DroptableSummary>
       <DropTableName>DropTable_Enmerkar_Equipment_Medium_1</DropTableName>
       <Locations>
         <string>Ancestor’s Resting Place</string>
       </Locations>
-    </ContainerDroptableSummary>
-    <ContainerDroptableSummary>
+    </DroptableSummary>
+    <DroptableSummary>
       <DropTableName>DropTable_Neutral_Cloth_Rich_1</DropTableName>
       <Locations>
         <string>Vigil Pylon</string>
       </Locations>
-    </ContainerDroptableSummary>
-    <ContainerDroptableSummary>
+    </DroptableSummary>
+    <DroptableSummary>
       <DropTableName>DropTable_Neutral_Bosse_Liches_1</DropTableName>
       <Locations>
         <string>Unknown Arena</string>
       </Locations>
-    </ContainerDroptableSummary>
-    <ContainerDroptableSummary>
+    </DroptableSummary>
+    <DroptableSummary>
       <DropTableName>DropTable_Neutral_Bosse_BurnMan_1</DropTableName>
       <Locations>
         <string>Unknown Arena</string>
       </Locations>
-    </ContainerDroptableSummary>
-    <ContainerDroptableSummary>
+    </DroptableSummary>
+    <DroptableSummary>
       <DropTableName>DropTable_Neutral_Bosse_Immaculate_1</DropTableName>
       <Locations>
         <string>Unknown Arena</string>
       </Locations>
-    </ContainerDroptableSummary>
+    </DroptableSummary>
   </DropTables>
-</ContainerSummary>
+</LootContainerSummary>

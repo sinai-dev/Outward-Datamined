@@ -1,71 +1,147 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ItemHolder xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="SkillHolder">
-  <ItemID>8100140</ItemID>
-  <Name>Mana Ward</Name>
+<DM_Skill xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <gameObjectName>8100140_ForceBubble</gameObjectName>
   <saveDir>/Skill</saveDir>
+  <ItemID>8100140</ItemID>
+  <Name>Mana Ward</Name>
   <Description>Envelops you in Mana and, for an instant, you become immune to Damage.
 
 Can be combined with other spells for powerful effects.</Description>
   <LegacyItemID>-1</LegacyItemID>
-  <PerishTime>-1</PerishTime>
+  <IsPickable>false</IsPickable>
+  <IsUsable>false</IsUsable>
+  <QtyRemovedOnUse>1</QtyRemovedOnUse>
+  <GroupItemInDisplay>false</GroupItemInDisplay>
+  <HasPhysicsWhenWorld>false</HasPhysicsWhenWorld>
+  <RepairedInRest>true</RepairedInRest>
+  <BehaviorOnNoDurability>NotSet</BehaviorOnNoDurability>
+  <CastType>Bubble</CastType>
+  <CastModifier>Immobilized</CastModifier>
+  <CastLocomotionEnabled>false</CastLocomotionEnabled>
+  <MobileCastMovementMult>-1</MobileCastMovementMult>
+  <CastSheatheRequired>-1</CastSheatheRequired>
   <Tags />
   <EffectTransforms>
-    <EffectTransformHolder>
+    <DM_EffectTransform>
       <TransformName>Effect</TransformName>
       <Effects>
-        <EffectHolder xsi:type="AddStatusEffectHolder">
+        <DM_Effect xsi:type="DM_AddStatusEffect">
+          <Delay>0</Delay>
+          <SyncType>OwnerSync</SyncType>
+          <OverrideCategory>None</OverrideCategory>
           <StatusEffect>Force Bubble</StatusEffect>
           <ChanceToContract>100</ChanceToContract>
-        </EffectHolder>
+        </DM_Effect>
+        <DM_Effect xsi:type="DM_PlaySoundEffect">
+          <Delay>0.3</Delay>
+          <SyncType>OwnerSync</SyncType>
+          <OverrideCategory>None</OverrideCategory>
+          <Sounds>
+            <Sounds>SFX_SKILL_Possessed</Sounds>
+          </Sounds>
+          <Follow>false</Follow>
+          <MinPitch>1</MinPitch>
+          <MaxPitch>1</MaxPitch>
+        </DM_Effect>
       </Effects>
       <EffectConditions />
       <ChildEffects />
-    </EffectTransformHolder>
-    <EffectTransformHolder>
+    </DM_EffectTransform>
+    <DM_EffectTransform>
       <TransformName>SelfImmolate</TransformName>
       <Effects />
       <EffectConditions />
       <ChildEffects>
-        <EffectTransformHolder>
+        <DM_EffectTransform>
           <TransformName>ExtraEffects</TransformName>
           <Effects>
-            <EffectHolder xsi:type="AddStatusEffectHolder">
+            <DM_Effect xsi:type="DM_AddStatusEffect">
+              <Delay>0</Delay>
+              <SyncType>OwnerSync</SyncType>
+              <OverrideCategory>None</OverrideCategory>
               <StatusEffect>Immolate</StatusEffect>
               <ChanceToContract>100</ChanceToContract>
-            </EffectHolder>
+            </DM_Effect>
+            <DM_Effect xsi:type="DM_PlaySoundEffect">
+              <Delay>0</Delay>
+              <SyncType>OwnerSync</SyncType>
+              <OverrideCategory>None</OverrideCategory>
+              <Sounds>
+                <Sounds>SFX_SKILL_FireSigile_Release</Sounds>
+              </Sounds>
+              <Follow>false</Follow>
+              <MinPitch>1</MinPitch>
+              <MaxPitch>1</MaxPitch>
+            </DM_Effect>
           </Effects>
           <EffectConditions>
-            <EffectConditionHolder>
-              <Conditions>
-                <ConditionHolder>
-                  <Requirement>Activated Firestone</Requirement>
-                  <Condition_Type>Item Proximity</Condition_Type>
-                  <Invert>false</Invert>
-                </ConditionHolder>
-              </Conditions>
-            </EffectConditionHolder>
+            <DM_EffectCondition xsi:type="DM_ProximityCondition">
+              <Invert>false</Invert>
+              <RequiredItems>
+                <SkillItemReq>
+                  <ItemID>8000010</ItemID>
+                  <Quantity>1</Quantity>
+                  <Consume>false</Consume>
+                </SkillItemReq>
+              </RequiredItems>
+              <MaxDistance>2.25</MaxDistance>
+              <Offset>
+                <x>0</x>
+                <y>-0.5</y>
+                <z>0</z>
+              </Offset>
+            </DM_EffectCondition>
           </EffectConditions>
           <ChildEffects />
-        </EffectTransformHolder>
+        </DM_EffectTransform>
       </ChildEffects>
-    </EffectTransformHolder>
-    <EffectTransformHolder>
+    </DM_EffectTransform>
+    <DM_EffectTransform>
       <TransformName>FrostWave</TransformName>
       <Effects />
       <EffectConditions />
       <ChildEffects>
-        <EffectTransformHolder>
+        <DM_EffectTransform>
           <TransformName>ExtraEffects</TransformName>
           <Effects>
-            <EffectHolder xsi:type="ShootBlastHolder">
-              <BlastLifespan>0</BlastLifespan>
+            <DM_Effect xsi:type="DM_ShootBlast">
+              <Delay>0</Delay>
+              <SyncType>OwnerSync</SyncType>
+              <OverrideCategory>None</OverrideCategory>
+              <CastPosition>Local</CastPosition>
+              <LocalPositionAdd>
+                <x>0</x>
+                <y>1.3</y>
+                <z>1</z>
+              </LocalPositionAdd>
+              <NoAim>false</NoAim>
+              <TargetType>Enemies</TargetType>
+              <TransformName>ShooterTransform</TransformName>
+              <BaseBlast>BubbleIceBlast</BaseBlast>
+              <Radius>4.2</Radius>
               <RefreshTime>0.1</RefreshTime>
-              <EffectTransforms>
-                <EffectTransformHolder>
+              <BlastLifespan>0</BlastLifespan>
+              <InstantiatedAmount>1</InstantiatedAmount>
+              <Interruptible>false</Interruptible>
+              <MaxHitTargetCount>-1</MaxHitTargetCount>
+              <AffectHitTargetCenter>false</AffectHitTargetCenter>
+              <HitOnShoot>true</HitOnShoot>
+              <IgnoreShooter>false</IgnoreShooter>
+              <IgnoreStop>false</IgnoreStop>
+              <NoTargetForwardMultiplier>5</NoTargetForwardMultiplier>
+              <ParentToShootTransform>false</ParentToShootTransform>
+              <UseTargetCharacterPositionType>false</UseTargetCharacterPositionType>
+              <ImpactSoundMaterial>Fire</ImpactSoundMaterial>
+              <DontPlayHitSound>false</DontPlayHitSound>
+              <FXIsWorld>false</FXIsWorld>
+              <BlastEffects>
+                <DM_EffectTransform>
                   <TransformName>Effects</TransformName>
                   <Effects>
-                    <EffectHolder xsi:type="PunctualDamageHolder">
+                    <DM_Effect xsi:type="DM_PunctualDamage">
+                      <Delay>0</Delay>
+                      <SyncType>OwnerSync</SyncType>
+                      <OverrideCategory>None</OverrideCategory>
                       <Damage>
                         <Damages>
                           <Damage>65</Damage>
@@ -75,39 +151,88 @@ Can be combined with other spells for powerful effects.</Description>
                       <Damages_AI />
                       <Knockback>60</Knockback>
                       <HitInventory>true</HitInventory>
-                    </EffectHolder>
-                    <EffectHolder xsi:type="AddStatusEffectHolder">
+                    </DM_Effect>
+                    <DM_Effect xsi:type="DM_AddStatusEffect">
+                      <Delay>0</Delay>
+                      <SyncType>OwnerSync</SyncType>
+                      <OverrideCategory>None</OverrideCategory>
                       <StatusEffect>Slow Down</StatusEffect>
                       <ChanceToContract>100</ChanceToContract>
-                    </EffectHolder>
+                    </DM_Effect>
                   </Effects>
                   <EffectConditions />
                   <ChildEffects />
-                </EffectTransformHolder>
-              </EffectTransforms>
-            </EffectHolder>
+                </DM_EffectTransform>
+              </BlastEffects>
+            </DM_Effect>
+            <DM_Effect xsi:type="DM_PlaySoundEffect">
+              <Delay>0</Delay>
+              <SyncType>OwnerSync</SyncType>
+              <OverrideCategory>None</OverrideCategory>
+              <Sounds>
+                <Sounds>SFX_SKILL_ElemantalProjectileIce_Shot</Sounds>
+              </Sounds>
+              <Follow>false</Follow>
+              <MinPitch>1</MinPitch>
+              <MaxPitch>1</MaxPitch>
+            </DM_Effect>
+            <DM_Effect xsi:type="DM_PlaySoundEffect">
+              <Delay>0</Delay>
+              <SyncType>OwnerSync</SyncType>
+              <OverrideCategory>None</OverrideCategory>
+              <Sounds>
+                <Sounds>SFX_SKILL_ElemantalProjectileIce_Impact01</Sounds>
+              </Sounds>
+              <Follow>false</Follow>
+              <MinPitch>1</MinPitch>
+              <MaxPitch>1</MaxPitch>
+            </DM_Effect>
           </Effects>
           <EffectConditions>
-            <EffectConditionHolder>
-              <Conditions>
-                <ConditionHolder>
-                  <Requirement>Activated Ice Sigil</Requirement>
-                  <Condition_Type>Item Proximity</Condition_Type>
-                  <Invert>false</Invert>
-                </ConditionHolder>
-              </Conditions>
-            </EffectConditionHolder>
+            <DM_EffectCondition xsi:type="DM_ProximityCondition">
+              <Invert>false</Invert>
+              <RequiredItems>
+                <SkillItemReq>
+                  <ItemID>8000040</ItemID>
+                  <Quantity>1</Quantity>
+                  <Consume>false</Consume>
+                </SkillItemReq>
+              </RequiredItems>
+              <MaxDistance>2.25</MaxDistance>
+              <Offset>
+                <x>0</x>
+                <y>-0.5</y>
+                <z>0</z>
+              </Offset>
+            </DM_EffectCondition>
           </EffectConditions>
           <ChildEffects />
-        </EffectTransformHolder>
+        </DM_EffectTransform>
       </ChildEffects>
-    </EffectTransformHolder>
+    </DM_EffectTransform>
+    <DM_EffectTransform>
+      <TransformName>ActivationEffects</TransformName>
+      <Effects>
+        <DM_Effect xsi:type="DM_PlaySoundEffect">
+          <Delay>0</Delay>
+          <SyncType>OwnerSync</SyncType>
+          <OverrideCategory>None</OverrideCategory>
+          <Sounds>
+            <Sounds>SFX_SKILL_Possessed</Sounds>
+          </Sounds>
+          <Follow>false</Follow>
+          <MinPitch>1</MinPitch>
+          <MaxPitch>1</MaxPitch>
+        </DM_Effect>
+      </Effects>
+      <EffectConditions />
+      <ChildEffects />
+    </DM_EffectTransform>
   </EffectTransforms>
   <Cooldown>20</Cooldown>
   <StaminaCost>0</StaminaCost>
   <ManaCost>7</ManaCost>
   <DurabilityCost>0</DurabilityCost>
   <DurabilityCostPercent>0</DurabilityCostPercent>
-  <IsDLCSkill>true</IsDLCSkill>
   <RequiredItems />
-</ItemHolder>
+</DM_Skill>

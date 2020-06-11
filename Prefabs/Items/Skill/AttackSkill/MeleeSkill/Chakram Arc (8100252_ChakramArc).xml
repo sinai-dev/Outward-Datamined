@@ -1,20 +1,34 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ItemHolder xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="SkillHolder">
-  <ItemID>8100252</ItemID>
-  <Name>Chakram Arc</Name>
+<DM_MeleeSkill xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <gameObjectName>8100252_ChakramArc</gameObjectName>
   <saveDir>/Skill/AttackSkill/MeleeSkill</saveDir>
+  <ItemID>8100252</ItemID>
+  <Name>Chakram Arc</Name>
   <Description>Required: Chakram, Discipline Boon
 
 The disc sweeps the area in front of the caster, dealing high Damage and Impact. Discipline is required to cast this spell.</Description>
   <LegacyItemID>-1</LegacyItemID>
-  <PerishTime>-1</PerishTime>
+  <IsPickable>false</IsPickable>
+  <IsUsable>false</IsUsable>
+  <QtyRemovedOnUse>1</QtyRemovedOnUse>
+  <GroupItemInDisplay>false</GroupItemInDisplay>
+  <HasPhysicsWhenWorld>false</HasPhysicsWhenWorld>
+  <RepairedInRest>true</RepairedInRest>
+  <BehaviorOnNoDurability>NotSet</BehaviorOnNoDurability>
+  <CastType>ChakramArc</CastType>
+  <CastModifier>Attack</CastModifier>
+  <CastLocomotionEnabled>false</CastLocomotionEnabled>
+  <MobileCastMovementMult>-1</MobileCastMovementMult>
+  <CastSheatheRequired>0</CastSheatheRequired>
   <Tags />
   <EffectTransforms>
-    <EffectTransformHolder>
+    <DM_EffectTransform>
       <TransformName>HitEffects</TransformName>
       <Effects>
-        <EffectHolder xsi:type="WeaponDamageHolder">
+        <DM_Effect xsi:type="DM_WeaponDamage">
+          <Delay>0</Delay>
+          <SyncType>OwnerSync</SyncType>
+          <OverrideCategory>None</OverrideCategory>
           <Damage>
             <Damages>
               <Damage>0</Damage>
@@ -25,48 +39,86 @@ The disc sweeps the area in front of the caster, dealing high Damage and Impact.
           <Knockback>0</Knockback>
           <HitInventory>true</HitInventory>
           <OverrideType>Count</OverrideType>
+          <ForceOnlyLeftHand>false</ForceOnlyLeftHand>
           <Damage_Multiplier>1.5</Damage_Multiplier>
           <Damage_Multiplier_Kback>-1</Damage_Multiplier_Kback>
           <Damage_Multiplier_Kdown>-1</Damage_Multiplier_Kdown>
           <Impact_Multiplier>4</Impact_Multiplier>
           <Impact_Multiplier_Kback>-1</Impact_Multiplier_Kback>
           <Impact_Multiplier_Kdown>-1</Impact_Multiplier_Kdown>
-          <DurabilityLoss>2</DurabilityLoss>
-          <DurabilityLossPercent>0</DurabilityLossPercent>
-        </EffectHolder>
+        </DM_Effect>
       </Effects>
       <EffectConditions />
       <ChildEffects />
-    </EffectTransformHolder>
-    <EffectTransformHolder>
+    </DM_EffectTransform>
+    <DM_EffectTransform>
+      <TransformName>ActivationEffects</TransformName>
+      <Effects>
+        <DM_Effect xsi:type="DM_PlaySoundEffect">
+          <Delay>0.35</Delay>
+          <SyncType>OwnerSync</SyncType>
+          <OverrideCategory>None</OverrideCategory>
+          <Sounds>
+            <Sounds>SFX_SKILL_Shakram</Sounds>
+          </Sounds>
+          <Follow>false</Follow>
+          <MinPitch>1</MinPitch>
+          <MaxPitch>1</MaxPitch>
+        </DM_Effect>
+        <DM_Effect xsi:type="DM_PlaySoundEffect">
+          <Delay>0</Delay>
+          <SyncType>OwnerSync</SyncType>
+          <OverrideCategory>None</OverrideCategory>
+          <Sounds>
+            <Sounds>SFX_SKILL_MaceFill</Sounds>
+          </Sounds>
+          <Follow>false</Follow>
+          <MinPitch>1</MinPitch>
+          <MaxPitch>1</MaxPitch>
+        </DM_Effect>
+      </Effects>
+      <EffectConditions />
+      <ChildEffects />
+    </DM_EffectTransform>
+    <DM_EffectTransform>
       <TransformName>AdditionalActivationConditions</TransformName>
       <Effects />
       <EffectConditions />
       <ChildEffects>
-        <EffectTransformHolder>
+        <DM_EffectTransform>
           <TransformName>Discipline</TransformName>
           <Effects />
           <EffectConditions>
-            <EffectConditionHolder>
-              <Conditions>
-                <ConditionHolder>
-                  <Requirement>Discipline</Requirement>
-                  <Condition_Type>Target has status</Condition_Type>
-                  <Invert>false</Invert>
-                </ConditionHolder>
-              </Conditions>
-            </EffectConditionHolder>
+            <DM_EffectCondition xsi:type="DM_HasStatusEffectEffectCondition">
+              <Invert>false</Invert>
+              <DiseaseAge>0</DiseaseAge>
+              <CheckOwner>false</CheckOwner>
+              <StatusSelectorType>StatusType</StatusSelectorType>
+              <SelectorValue>Discipline</SelectorValue>
+            </DM_EffectCondition>
           </EffectConditions>
           <ChildEffects />
-        </EffectTransformHolder>
+        </DM_EffectTransform>
       </ChildEffects>
-    </EffectTransformHolder>
+    </DM_EffectTransform>
   </EffectTransforms>
   <Cooldown>12</Cooldown>
   <StaminaCost>0</StaminaCost>
   <ManaCost>8</ManaCost>
   <DurabilityCost>0</DurabilityCost>
   <DurabilityCostPercent>0</DurabilityCostPercent>
-  <IsDLCSkill>true</IsDLCSkill>
   <RequiredItems />
-</ItemHolder>
+  <AmmunitionTypes />
+  <RequiredOffHandTypes>
+    <WeaponType>Chakram_OH</WeaponType>
+  </RequiredOffHandTypes>
+  <RequiredWeaponTypes />
+  <RequiredWeaponTags />
+  <RequireImbue>false</RequireImbue>
+  <Blockable>true</Blockable>
+  <Damage>0</Damage>
+  <Impact>0</Impact>
+  <LinecastCount>0</LinecastCount>
+  <Radius>0</Radius>
+  <Unblockable>false</Unblockable>
+</DM_MeleeSkill>

@@ -1,14 +1,39 @@
 <?xml version="1.0" encoding="utf-8"?>
-<StatusEffectHolder xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <Name>Indigestion1</Name>
+<DM_Disease xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <PresetID>520</PresetID>
+  <Identifier>Indigestion1</Identifier>
+  <Name>Disease: Indigestion</Name>
+  <Description>Has a chance to make you vomit when eating, nullifying the food’s effect.</Description>
   <Lifespan>-1</Lifespan>
   <LengthType>Long</LengthType>
+  <RefreshRate>120</RefreshRate>
+  <BuildupRecoverySpeed>3</BuildupRecoverySpeed>
+  <IgnoreBuildupIfApplied>false</IgnoreBuildupIfApplied>
+  <DisplayedInHUD>true</DisplayedInHUD>
+  <IsHidden>false</IsHidden>
   <Tags>
     <string>Disease</string>
     <string>Status Type</string>
   </Tags>
-  <CanBeHealedBySleeping>true</CanBeHealedBySleeping>
+  <Effects>
+    <DM_EffectTransform>
+      <TransformName>Normal</TransformName>
+      <Effects>
+        <DM_Effect xsi:type="DM_Puke">
+          <Delay>0</Delay>
+          <SyncType>OwnerSync</SyncType>
+          <OverrideCategory>None</OverrideCategory>
+          <ChanceToTrigger>40</ChanceToTrigger>
+        </DM_Effect>
+      </Effects>
+      <EffectConditions />
+      <ChildEffects />
+    </DM_EffectTransform>
+  </Effects>
+  <DiseaseType>Indigestion</DiseaseType>
+  <AutoHealTime>-1</AutoHealTime>
+  <CanDegenerate>false</CanDegenerate>
+  <DegenerateTime>24</DegenerateTime>
   <StraightSleepHealTime>12</StraightSleepHealTime>
-  <Effects />
-</StatusEffectHolder>
+  <CanBeHealedBySleeping>true</CanBeHealedBySleeping>
+</DM_Disease>

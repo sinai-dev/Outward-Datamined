@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LootContainerHolder xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<DM_LootContainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Name>Supply Cache</Name>
   <ItemID>1000110</ItemID>
   <UID>P5yNvby2NEmyPdaMvoffmw</UID>
   <DropTables>
     <string>DropTable_Neutral_WeaponStash_3</string>
   </DropTables>
-</LootContainerHolder>
+</DM_LootContainer>

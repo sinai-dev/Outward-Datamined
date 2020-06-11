@@ -1,64 +1,137 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ItemHolder xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="SkillHolder">
-  <ItemID>8200102</ItemID>
-  <Name>Infuse Frost</Name>
+<DM_MeleeSkill xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <gameObjectName>8200102_SpellBindIce</gameObjectName>
   <saveDir>/Skill/AttackSkill/MeleeSkill</saveDir>
+  <ItemID>8200102</ItemID>
+  <Name>Infuse Frost</Name>
   <Description>Required: Cool Boon
 
 Temporarily adds Frost damage to your melee weapon and inflicts Slow Down on enemies. Consumes your Cool boon.</Description>
   <LegacyItemID>-1</LegacyItemID>
-  <PerishTime>-1</PerishTime>
+  <IsPickable>false</IsPickable>
+  <IsUsable>false</IsUsable>
+  <QtyRemovedOnUse>1</QtyRemovedOnUse>
+  <GroupItemInDisplay>false</GroupItemInDisplay>
+  <HasPhysicsWhenWorld>false</HasPhysicsWhenWorld>
+  <RepairedInRest>true</RepairedInRest>
+  <BehaviorOnNoDurability>NotSet</BehaviorOnNoDurability>
+  <CastType>SpellBindLight</CastType>
+  <CastModifier>Immobilized</CastModifier>
+  <CastLocomotionEnabled>false</CastLocomotionEnabled>
+  <MobileCastMovementMult>-1</MobileCastMovementMult>
+  <CastSheatheRequired>2</CastSheatheRequired>
   <Tags />
   <EffectTransforms>
-    <EffectTransformHolder>
+    <DM_EffectTransform>
       <TransformName>Effects</TransformName>
       <Effects>
-        <EffectHolder xsi:type="RemoveStatusEffectHolder">
-          <StatusEffect>Cool</StatusEffect>
-          <StatusEffect_ByTag>None</StatusEffect_ByTag>
-          <StatusEffect_Family>WarmBoon</StatusEffect_Family>
-          <StatusEffect_ByName>CoolBoon</StatusEffect_ByName>
-        </EffectHolder>
-        <EffectHolder xsi:type="ImbueWeaponHolder">
+        <DM_Effect xsi:type="DM_RemoveStatusEffect">
+          <Delay>0</Delay>
+          <SyncType>OwnerSync</SyncType>
+          <OverrideCategory>None</OverrideCategory>
+          <Status_Name>CoolBoon</Status_Name>
+          <Status_Tag />
+          <CleanseType>StatusNameContains</CleanseType>
+        </DM_Effect>
+        <DM_Effect xsi:type="DM_ImbueWeapon">
+          <Delay>0</Delay>
+          <SyncType>OwnerSync</SyncType>
+          <OverrideCategory>None</OverrideCategory>
           <Lifespan>180</Lifespan>
-          <ImbueEffect_Preset_Name>Mystic Frost Imbue</ImbueEffect_Preset_Name>
           <ImbueEffect_Preset_ID>218</ImbueEffect_Preset_ID>
           <Imbue_Slot>MainHand</Imbue_Slot>
-        </EffectHolder>
+        </DM_Effect>
+        <DM_Effect xsi:type="DM_PlaySoundEffect">
+          <Delay>0</Delay>
+          <SyncType>OwnerSync</SyncType>
+          <OverrideCategory>None</OverrideCategory>
+          <Sounds>
+            <Sounds>SFX_SKILL_FrostSigil_Release</Sounds>
+          </Sounds>
+          <Follow>false</Follow>
+          <MinPitch>1</MinPitch>
+          <MaxPitch>1</MaxPitch>
+        </DM_Effect>
       </Effects>
       <EffectConditions />
       <ChildEffects />
-    </EffectTransformHolder>
-    <EffectTransformHolder>
+    </DM_EffectTransform>
+    <DM_EffectTransform>
+      <TransformName>ActivationEffects</TransformName>
+      <Effects>
+        <DM_Effect xsi:type="DM_PlaySoundEffect">
+          <Delay>0</Delay>
+          <SyncType>OwnerSync</SyncType>
+          <OverrideCategory>None</OverrideCategory>
+          <Sounds>
+            <Sounds>SFX_SKILL_SpellBind</Sounds>
+          </Sounds>
+          <Follow>false</Follow>
+          <MinPitch>1</MinPitch>
+          <MaxPitch>1</MaxPitch>
+        </DM_Effect>
+        <DM_Effect xsi:type="DM_PlaySoundEffect">
+          <Delay>1</Delay>
+          <SyncType>OwnerSync</SyncType>
+          <OverrideCategory>None</OverrideCategory>
+          <Sounds>
+            <Sounds>SFX_SKILL_FrostSigil_Release</Sounds>
+          </Sounds>
+          <Follow>false</Follow>
+          <MinPitch>1</MinPitch>
+          <MaxPitch>1</MaxPitch>
+        </DM_Effect>
+      </Effects>
+      <EffectConditions />
+      <ChildEffects />
+    </DM_EffectTransform>
+    <DM_EffectTransform>
       <TransformName>AdditionalActivationConditions</TransformName>
       <Effects />
       <EffectConditions />
       <ChildEffects>
-        <EffectTransformHolder>
+        <DM_EffectTransform>
           <TransformName>Boon</TransformName>
           <Effects />
           <EffectConditions>
-            <EffectConditionHolder>
-              <Conditions>
-                <ConditionHolder>
-                  <Requirement>Cool</Requirement>
-                  <Condition_Type>Target has status</Condition_Type>
-                  <Invert>false</Invert>
-                </ConditionHolder>
-              </Conditions>
-            </EffectConditionHolder>
+            <DM_EffectCondition xsi:type="DM_HasStatusEffectEffectCondition">
+              <Invert>false</Invert>
+              <DiseaseAge>0</DiseaseAge>
+              <CheckOwner>false</CheckOwner>
+              <StatusSelectorType>StatusType</StatusSelectorType>
+              <SelectorValue>Cool</SelectorValue>
+            </DM_EffectCondition>
           </EffectConditions>
           <ChildEffects />
-        </EffectTransformHolder>
+        </DM_EffectTransform>
       </ChildEffects>
-    </EffectTransformHolder>
+    </DM_EffectTransform>
   </EffectTransforms>
   <Cooldown>0</Cooldown>
   <StaminaCost>0</StaminaCost>
   <ManaCost>15</ManaCost>
   <DurabilityCost>0</DurabilityCost>
   <DurabilityCostPercent>0</DurabilityCostPercent>
-  <IsDLCSkill>true</IsDLCSkill>
   <RequiredItems />
-</ItemHolder>
+  <AmmunitionTypes />
+  <RequiredOffHandTypes />
+  <RequiredWeaponTypes>
+    <WeaponType>Sword_1H</WeaponType>
+    <WeaponType>Axe_1H</WeaponType>
+    <WeaponType>Mace_1H</WeaponType>
+    <WeaponType>Dagger_OH</WeaponType>
+    <WeaponType>Halberd_2H</WeaponType>
+    <WeaponType>Sword_2H</WeaponType>
+    <WeaponType>Axe_2H</WeaponType>
+    <WeaponType>Mace_2H</WeaponType>
+    <WeaponType>Spear_2H</WeaponType>
+  </RequiredWeaponTypes>
+  <RequiredWeaponTags />
+  <RequireImbue>false</RequireImbue>
+  <Blockable>true</Blockable>
+  <Damage>0</Damage>
+  <Impact>0</Impact>
+  <LinecastCount>0</LinecastCount>
+  <Radius>0</Radius>
+  <Unblockable>false</Unblockable>
+</DM_MeleeSkill>

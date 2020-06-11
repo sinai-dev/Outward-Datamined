@@ -1,49 +1,95 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ItemHolder xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="SkillHolder">
-  <ItemID>8100220</ItemID>
-  <Name>Rune: Shim</Name>
+<DM_AttackSkill xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <gameObjectName>8100220_ShimRunes</gameObjectName>
   <saveDir>/Skill/AttackSkill</saveDir>
+  <ItemID>8100220</ItemID>
+  <Name>Rune: Shim</Name>
   <Description>Required: Lexicon
 
 Red rune that does nothing on its own, but can produce combo effects by casting other runes, in the correct order.</Description>
   <LegacyItemID>-1</LegacyItemID>
-  <PerishTime>-1</PerishTime>
+  <IsPickable>false</IsPickable>
+  <IsUsable>false</IsUsable>
+  <QtyRemovedOnUse>1</QtyRemovedOnUse>
+  <GroupItemInDisplay>false</GroupItemInDisplay>
+  <HasPhysicsWhenWorld>false</HasPhysicsWhenWorld>
+  <RepairedInRest>true</RepairedInRest>
+  <BehaviorOnNoDurability>NotSet</BehaviorOnNoDurability>
+  <CastType>WriteRune</CastType>
+  <CastModifier>Immobilized</CastModifier>
+  <CastLocomotionEnabled>false</CastLocomotionEnabled>
+  <MobileCastMovementMult>-1</MobileCastMovementMult>
+  <CastSheatheRequired>1</CastSheatheRequired>
   <Tags />
   <EffectTransforms>
-    <EffectTransformHolder>
+    <DM_EffectTransform>
       <TransformName>Effects</TransformName>
       <Effects>
-        <EffectHolder xsi:type="AddStatusEffectHolder">
+        <DM_Effect xsi:type="DM_AddStatusEffect">
+          <Delay>0</Delay>
+          <SyncType>OwnerSync</SyncType>
+          <OverrideCategory>None</OverrideCategory>
           <StatusEffect>Shim Runes</StatusEffect>
           <ChanceToContract>100</ChanceToContract>
-        </EffectHolder>
+        </DM_Effect>
       </Effects>
       <EffectConditions />
       <ChildEffects />
-    </EffectTransformHolder>
-    <EffectTransformHolder>
+    </DM_EffectTransform>
+    <DM_EffectTransform>
       <TransformName>RunicBlast</TransformName>
       <Effects />
       <EffectConditions />
       <ChildEffects>
-        <EffectTransformHolder>
+        <DM_EffectTransform>
           <TransformName>ExtraEffects</TransformName>
           <Effects>
-            <EffectHolder xsi:type="RemoveStatusEffectHolder">
-              <StatusEffect>Shim Runes</StatusEffect>
-              <StatusEffect_ByTag>None</StatusEffect_ByTag>
-              <StatusEffect_Family>Shim Runes</StatusEffect_Family>
-              <StatusEffect_ByName />
-            </EffectHolder>
-            <EffectHolder xsi:type="ShootBlastHolder">
-              <BlastLifespan>0.01</BlastLifespan>
+            <DM_Effect xsi:type="DM_RemoveStatusEffect">
+              <Delay>0</Delay>
+              <SyncType>OwnerSync</SyncType>
+              <OverrideCategory>None</OverrideCategory>
+              <Status_Name>Shim Runes</Status_Name>
+              <Status_Tag />
+              <CleanseType>StatusSpecific</CleanseType>
+            </DM_Effect>
+            <DM_Effect xsi:type="DM_ShootBlast">
+              <Delay>0</Delay>
+              <SyncType>OwnerSync</SyncType>
+              <OverrideCategory>None</OverrideCategory>
+              <CastPosition>ProximitySkillItem</CastPosition>
+              <LocalPositionAdd>
+                <x>0</x>
+                <y>1.3</y>
+                <z>1</z>
+              </LocalPositionAdd>
+              <NoAim>false</NoAim>
+              <TargetType>Enemies</TargetType>
+              <TransformName>ShooterTransform</TransformName>
+              <BaseBlast>EtherealBlast_RunicBlast</BaseBlast>
+              <Radius>5</Radius>
               <RefreshTime>0.1</RefreshTime>
-              <EffectTransforms>
-                <EffectTransformHolder>
+              <BlastLifespan>0.01</BlastLifespan>
+              <InstantiatedAmount>1</InstantiatedAmount>
+              <Interruptible>false</Interruptible>
+              <MaxHitTargetCount>-1</MaxHitTargetCount>
+              <AffectHitTargetCenter>false</AffectHitTargetCenter>
+              <HitOnShoot>true</HitOnShoot>
+              <IgnoreShooter>false</IgnoreShooter>
+              <IgnoreStop>false</IgnoreStop>
+              <NoTargetForwardMultiplier>5</NoTargetForwardMultiplier>
+              <ParentToShootTransform>false</ParentToShootTransform>
+              <UseTargetCharacterPositionType>false</UseTargetCharacterPositionType>
+              <ImpactSoundMaterial>Fire</ImpactSoundMaterial>
+              <DontPlayHitSound>false</DontPlayHitSound>
+              <FXIsWorld>false</FXIsWorld>
+              <BlastEffects>
+                <DM_EffectTransform>
                   <TransformName>Effects</TransformName>
                   <Effects>
-                    <EffectHolder xsi:type="PunctualDamageHolder">
+                    <DM_Effect xsi:type="DM_PunctualDamage">
+                      <Delay>0</Delay>
+                      <SyncType>OwnerSync</SyncType>
+                      <OverrideCategory>None</OverrideCategory>
                       <Damage>
                         <Damages>
                           <Damage>70</Damage>
@@ -53,79 +99,111 @@ Red rune that does nothing on its own, but can produce combo effects by casting 
                       <Damages_AI />
                       <Knockback>150</Knockback>
                       <HitInventory>true</HitInventory>
-                    </EffectHolder>
+                    </DM_Effect>
                   </Effects>
                   <EffectConditions />
                   <ChildEffects />
-                </EffectTransformHolder>
-              </EffectTransforms>
-            </EffectHolder>
+                </DM_EffectTransform>
+              </BlastEffects>
+            </DM_Effect>
+            <DM_Effect xsi:type="DM_PlaySoundEffect">
+              <Delay>0</Delay>
+              <SyncType>OwnerSync</SyncType>
+              <OverrideCategory>None</OverrideCategory>
+              <Sounds>
+                <Sounds>SFX_SKILL_BoonSpell</Sounds>
+              </Sounds>
+              <Follow>false</Follow>
+              <MinPitch>1</MinPitch>
+              <MaxPitch>1</MaxPitch>
+            </DM_Effect>
           </Effects>
           <EffectConditions>
-            <EffectConditionHolder>
-              <Conditions>
-                <ConditionHolder>
-                  <Requirement>Runic Prefix</Requirement>
-                  <Condition_Type>Passive Skill</Condition_Type>
-                  <Invert>true</Invert>
-                </ConditionHolder>
-              </Conditions>
-            </EffectConditionHolder>
-            <EffectConditionHolder>
-              <Conditions>
-                <ConditionHolder>
-                  <Requirement>Arcane Syntax</Requirement>
-                  <Condition_Type>Passive Skill</Condition_Type>
-                  <Invert>false</Invert>
-                </ConditionHolder>
-              </Conditions>
-            </EffectConditionHolder>
-            <EffectConditionHolder>
-              <Conditions>
-                <ConditionHolder>
-                  <Requirement>Shim Runes</Requirement>
-                  <Condition_Type>Status Effect</Condition_Type>
-                  <Invert>false</Invert>
-                </ConditionHolder>
-              </Conditions>
-            </EffectConditionHolder>
-            <EffectConditionHolder>
-              <Conditions>
-                <ConditionHolder>
-                  <Requirement>Runic Trap</Requirement>
-                  <Condition_Type>Item Proximity</Condition_Type>
-                  <Invert>false</Invert>
-                </ConditionHolder>
-              </Conditions>
-            </EffectConditionHolder>
-            <EffectConditionHolder>
-              <Conditions>
-                <ConditionHolder>
-                  <Condition_Type>MostRecentCondition</Condition_Type>
-                  <Invert>false</Invert>
-                </ConditionHolder>
-              </Conditions>
-            </EffectConditionHolder>
+            <DM_EffectCondition xsi:type="DM_PassiveSkillCondition">
+              <Invert>true</Invert>
+              <ReqSkillID>8205200</ReqSkillID>
+            </DM_EffectCondition>
+            <DM_EffectCondition xsi:type="DM_PassiveSkillCondition">
+              <Invert>false</Invert>
+              <ReqSkillID>8205180</ReqSkillID>
+            </DM_EffectCondition>
+            <DM_EffectCondition xsi:type="DM_StatusEffectCondition">
+              <Invert>false</Invert>
+              <StatusIdentifier>Shim Runes</StatusIdentifier>
+            </DM_EffectCondition>
+            <DM_EffectCondition xsi:type="DM_ProximityCondition">
+              <Invert>false</Invert>
+              <RequiredItems>
+                <SkillItemReq>
+                  <ItemID>8000001</ItemID>
+                  <Quantity>1</Quantity>
+                  <Consume>true</Consume>
+                </SkillItemReq>
+              </RequiredItems>
+              <MaxDistance>20</MaxDistance>
+              <Offset>
+                <x>0</x>
+                <y>-0.5</y>
+                <z>0</z>
+              </Offset>
+            </DM_EffectCondition>
+            <DM_EffectCondition xsi:type="DM_MostRecentCondition">
+              <Invert>false</Invert>
+              <StatusIdentifierToCheck>Shim Runes</StatusIdentifierToCheck>
+              <StatusIdentifierToCompareTo>Fal Runes</StatusIdentifierToCompareTo>
+            </DM_EffectCondition>
           </EffectConditions>
           <ChildEffects />
-        </EffectTransformHolder>
-        <EffectTransformHolder>
+        </DM_EffectTransform>
+        <DM_EffectTransform>
           <TransformName>ExtraEffects</TransformName>
           <Effects>
-            <EffectHolder xsi:type="RemoveStatusEffectHolder">
-              <StatusEffect>Shim Runes</StatusEffect>
-              <StatusEffect_ByTag>None</StatusEffect_ByTag>
-              <StatusEffect_Family>Shim Runes</StatusEffect_Family>
-              <StatusEffect_ByName />
-            </EffectHolder>
-            <EffectHolder xsi:type="ShootBlastHolder">
-              <BlastLifespan>0.01</BlastLifespan>
+            <DM_Effect xsi:type="DM_RemoveStatusEffect">
+              <Delay>0</Delay>
+              <SyncType>OwnerSync</SyncType>
+              <OverrideCategory>None</OverrideCategory>
+              <Status_Name>Shim Runes</Status_Name>
+              <Status_Tag />
+              <CleanseType>StatusSpecific</CleanseType>
+            </DM_Effect>
+            <DM_Effect xsi:type="DM_ShootBlast">
+              <Delay>0</Delay>
+              <SyncType>OwnerSync</SyncType>
+              <OverrideCategory>None</OverrideCategory>
+              <CastPosition>ProximitySkillItem</CastPosition>
+              <LocalPositionAdd>
+                <x>0</x>
+                <y>1.3</y>
+                <z>1</z>
+              </LocalPositionAdd>
+              <NoAim>false</NoAim>
+              <TargetType>Enemies</TargetType>
+              <TransformName>ShooterTransform</TransformName>
+              <BaseBlast>EtherealBlast_RunicBlastAmplified</BaseBlast>
+              <Radius>5</Radius>
               <RefreshTime>0.1</RefreshTime>
-              <EffectTransforms>
-                <EffectTransformHolder>
+              <BlastLifespan>0.01</BlastLifespan>
+              <InstantiatedAmount>1</InstantiatedAmount>
+              <Interruptible>false</Interruptible>
+              <MaxHitTargetCount>-1</MaxHitTargetCount>
+              <AffectHitTargetCenter>false</AffectHitTargetCenter>
+              <HitOnShoot>true</HitOnShoot>
+              <IgnoreShooter>false</IgnoreShooter>
+              <IgnoreStop>false</IgnoreStop>
+              <NoTargetForwardMultiplier>5</NoTargetForwardMultiplier>
+              <ParentToShootTransform>false</ParentToShootTransform>
+              <UseTargetCharacterPositionType>false</UseTargetCharacterPositionType>
+              <ImpactSoundMaterial>Fire</ImpactSoundMaterial>
+              <DontPlayHitSound>false</DontPlayHitSound>
+              <FXIsWorld>false</FXIsWorld>
+              <BlastEffects>
+                <DM_EffectTransform>
                   <TransformName>Effects</TransformName>
                   <Effects>
-                    <EffectHolder xsi:type="PunctualDamageHolder">
+                    <DM_Effect xsi:type="DM_PunctualDamage">
+                      <Delay>0</Delay>
+                      <SyncType>OwnerSync</SyncType>
+                      <OverrideCategory>None</OverrideCategory>
                       <Damage>
                         <Damages>
                           <Damage>70</Damage>
@@ -139,96 +217,153 @@ Red rune that does nothing on its own, but can produce combo effects by casting 
                       <Damages_AI />
                       <Knockback>150</Knockback>
                       <HitInventory>true</HitInventory>
-                    </EffectHolder>
+                    </DM_Effect>
                   </Effects>
                   <EffectConditions />
                   <ChildEffects />
-                </EffectTransformHolder>
-              </EffectTransforms>
-            </EffectHolder>
+                </DM_EffectTransform>
+              </BlastEffects>
+            </DM_Effect>
+            <DM_Effect xsi:type="DM_PlaySoundEffect">
+              <Delay>0</Delay>
+              <SyncType>OwnerSync</SyncType>
+              <OverrideCategory>None</OverrideCategory>
+              <Sounds>
+                <Sounds>SFX_SKILL_BoonSpell</Sounds>
+              </Sounds>
+              <Follow>false</Follow>
+              <MinPitch>1</MinPitch>
+              <MaxPitch>1</MaxPitch>
+            </DM_Effect>
           </Effects>
           <EffectConditions>
-            <EffectConditionHolder>
-              <Conditions>
-                <ConditionHolder>
-                  <Requirement>Runic Prefix</Requirement>
-                  <Condition_Type>Passive Skill</Condition_Type>
-                  <Invert>false</Invert>
-                </ConditionHolder>
-              </Conditions>
-            </EffectConditionHolder>
-            <EffectConditionHolder>
-              <Conditions>
-                <ConditionHolder>
-                  <Requirement>Arcane Syntax</Requirement>
-                  <Condition_Type>Passive Skill</Condition_Type>
-                  <Invert>false</Invert>
-                </ConditionHolder>
-              </Conditions>
-            </EffectConditionHolder>
-            <EffectConditionHolder>
-              <Conditions>
-                <ConditionHolder>
-                  <Requirement>Shim Runes</Requirement>
-                  <Condition_Type>Status Effect</Condition_Type>
-                  <Invert>false</Invert>
-                </ConditionHolder>
-              </Conditions>
-            </EffectConditionHolder>
-            <EffectConditionHolder>
-              <Conditions>
-                <ConditionHolder>
-                  <Requirement>Runic Trap Amplified</Requirement>
-                  <Condition_Type>Item Proximity</Condition_Type>
-                  <Invert>false</Invert>
-                </ConditionHolder>
-              </Conditions>
-            </EffectConditionHolder>
-            <EffectConditionHolder>
-              <Conditions>
-                <ConditionHolder>
-                  <Condition_Type>MostRecentCondition</Condition_Type>
-                  <Invert>false</Invert>
-                </ConditionHolder>
-              </Conditions>
-            </EffectConditionHolder>
+            <DM_EffectCondition xsi:type="DM_PassiveSkillCondition">
+              <Invert>false</Invert>
+              <ReqSkillID>8205200</ReqSkillID>
+            </DM_EffectCondition>
+            <DM_EffectCondition xsi:type="DM_PassiveSkillCondition">
+              <Invert>false</Invert>
+              <ReqSkillID>8205180</ReqSkillID>
+            </DM_EffectCondition>
+            <DM_EffectCondition xsi:type="DM_StatusEffectCondition">
+              <Invert>false</Invert>
+              <StatusIdentifier>Shim Runes</StatusIdentifier>
+            </DM_EffectCondition>
+            <DM_EffectCondition xsi:type="DM_ProximityCondition">
+              <Invert>false</Invert>
+              <RequiredItems>
+                <SkillItemReq>
+                  <ItemID>8000002</ItemID>
+                  <Quantity>1</Quantity>
+                  <Consume>true</Consume>
+                </SkillItemReq>
+              </RequiredItems>
+              <MaxDistance>20</MaxDistance>
+              <Offset>
+                <x>0</x>
+                <y>-0.5</y>
+                <z>0</z>
+              </Offset>
+            </DM_EffectCondition>
+            <DM_EffectCondition xsi:type="DM_MostRecentCondition">
+              <Invert>false</Invert>
+              <StatusIdentifierToCheck>Shim Runes</StatusIdentifierToCheck>
+              <StatusIdentifierToCompareTo>Fal Runes</StatusIdentifierToCompareTo>
+            </DM_EffectCondition>
           </EffectConditions>
           <ChildEffects />
-        </EffectTransformHolder>
+        </DM_EffectTransform>
       </ChildEffects>
-    </EffectTransformHolder>
-    <EffectTransformHolder>
+    </DM_EffectTransform>
+    <DM_EffectTransform>
       <TransformName>RunicRay</TransformName>
       <Effects />
       <EffectConditions />
       <ChildEffects>
-        <EffectTransformHolder>
+        <DM_EffectTransform>
           <TransformName>ExtraEffects</TransformName>
           <Effects>
-            <EffectHolder xsi:type="RemoveStatusEffectHolder">
-              <StatusEffect>Shim Runes</StatusEffect>
-              <StatusEffect_ByTag>None</StatusEffect_ByTag>
-              <StatusEffect_Family>Shim Runes</StatusEffect_Family>
-              <StatusEffect_ByName />
-            </EffectHolder>
-            <EffectHolder xsi:type="RemoveStatusEffectHolder">
-              <StatusEffect>Fal Runes</StatusEffect>
-              <StatusEffect_ByTag>None</StatusEffect_ByTag>
-              <StatusEffect_Family />
-              <StatusEffect_ByName />
-            </EffectHolder>
-            <EffectHolder xsi:type="AffectManaHolder">
-              <AffectQuantity>0</AffectQuantity>
-              <IsModifier>false</IsModifier>
-            </EffectHolder>
-            <EffectHolder xsi:type="ShootProjectileHolder">
+            <DM_Effect xsi:type="DM_RemoveStatusEffect">
+              <Delay>0</Delay>
+              <SyncType>OwnerSync</SyncType>
+              <OverrideCategory>None</OverrideCategory>
+              <Status_Name>Shim Runes</Status_Name>
+              <Status_Tag />
+              <CleanseType>StatusSpecific</CleanseType>
+            </DM_Effect>
+            <DM_Effect xsi:type="DM_RemoveStatusEffect">
+              <Delay>0</Delay>
+              <SyncType>OwnerSync</SyncType>
+              <OverrideCategory>None</OverrideCategory>
+              <Status_Name>Fal Runes</Status_Name>
+              <Status_Tag />
+              <CleanseType>StatusSpecific</CleanseType>
+            </DM_Effect>
+            <DM_Effect xsi:type="DM_ShootProjectile">
+              <Delay>0</Delay>
+              <SyncType>OwnerSync</SyncType>
+              <OverrideCategory>None</OverrideCategory>
+              <CastPosition>Local</CastPosition>
+              <LocalPositionAdd>
+                <x>0</x>
+                <y>1.5</y>
+                <z>0</z>
+              </LocalPositionAdd>
+              <NoAim>false</NoAim>
+              <TargetType>Enemies</TargetType>
+              <TransformName>ShooterTransform</TransformName>
+              <BaseProjectile>RunicRayProjectile</BaseProjectile>
+              <ProjectileShots />
+              <Lifespan>1</Lifespan>
+              <LateShootTime>0.0625</LateShootTime>
+              <Unblockable>false</Unblockable>
+              <EffectsOnlyIfHitCharacter>false</EffectsOnlyIfHitCharacter>
+              <EndMode>Normal</EndMode>
+              <DisableOnHit>true</DisableOnHit>
+              <IgnoreShooterCollision>true</IgnoreShooterCollision>
               <TargetingMode>NONE</TargetingMode>
+              <TargetCountPerProjectile>1</TargetCountPerProjectile>
+              <TargetRange>0</TargetRange>
               <AutoTarget>true</AutoTarget>
-              <EffectTransforms>
-                <EffectTransformHolder>
+              <AutoTargetMaxAngle>360</AutoTargetMaxAngle>
+              <AutoTargetRange>10</AutoTargetRange>
+              <ProjectileForce>60</ProjectileForce>
+              <AddDirection>
+                <x>0</x>
+                <y>0</y>
+                <z>0</z>
+              </AddDirection>
+              <AddRotationForce>
+                <x>0</x>
+                <y>0</y>
+                <z>0</z>
+              </AddRotationForce>
+              <YMagnitudeAffect>0</YMagnitudeAffect>
+              <YMagnitudeForce>0</YMagnitudeForce>
+              <DefenseLength>10</DefenseLength>
+              <DefenseRange>3</DefenseRange>
+              <PhysicsLayerMask>0</PhysicsLayerMask>
+              <OnlyExplodeOnLayerMask>false</OnlyExplodeOnLayerMask>
+              <ImpactSoundMaterial>Metal_Sharp</ImpactSoundMaterial>
+              <LightIntensityFade>
+                <x>10</x>
+                <y>2</y>
+              </LightIntensityFade>
+              <PointOffset>
+                <x>0</x>
+                <y>0</y>
+                <z>0.7</z>
+              </PointOffset>
+              <TrailEnabled>true</TrailEnabled>
+              <TrailTime>0.2</TrailTime>
+              <ProjectileEffects>
+                <DM_EffectTransform>
                   <TransformName>HitEffects</TransformName>
                   <Effects>
-                    <EffectHolder xsi:type="PunctualDamageHolder">
+                    <DM_Effect xsi:type="DM_PunctualDamage">
+                      <Delay>0</Delay>
+                      <SyncType>OwnerSync</SyncType>
+                      <OverrideCategory>None</OverrideCategory>
                       <Damage>
                         <Damages>
                           <Damage>35</Damage>
@@ -238,15 +373,45 @@ Red rune that does nothing on its own, but can produce combo effects by casting 
                       <Damages_AI />
                       <Knockback>0</Knockback>
                       <HitInventory>true</HitInventory>
-                    </EffectHolder>
-                    <EffectHolder xsi:type="ShootBlastHolder">
-                      <BlastLifespan>0.01</BlastLifespan>
+                    </DM_Effect>
+                    <DM_Effect xsi:type="DM_ShootBlast">
+                      <Delay>0</Delay>
+                      <SyncType>OwnerSync</SyncType>
+                      <OverrideCategory>None</OverrideCategory>
+                      <CastPosition>Local</CastPosition>
+                      <LocalPositionAdd>
+                        <x>0</x>
+                        <y>0</y>
+                        <z>0</z>
+                      </LocalPositionAdd>
+                      <NoAim>false</NoAim>
+                      <TargetType>Enemies</TargetType>
+                      <TransformName>ShooterTransform</TransformName>
+                      <BaseBlast>BoltElectricBlast</BaseBlast>
+                      <Radius>3</Radius>
                       <RefreshTime>0.1</RefreshTime>
-                      <EffectTransforms>
-                        <EffectTransformHolder>
+                      <BlastLifespan>0.01</BlastLifespan>
+                      <InstantiatedAmount>1</InstantiatedAmount>
+                      <Interruptible>false</Interruptible>
+                      <MaxHitTargetCount>-1</MaxHitTargetCount>
+                      <AffectHitTargetCenter>false</AffectHitTargetCenter>
+                      <HitOnShoot>true</HitOnShoot>
+                      <IgnoreShooter>false</IgnoreShooter>
+                      <IgnoreStop>false</IgnoreStop>
+                      <NoTargetForwardMultiplier>5</NoTargetForwardMultiplier>
+                      <ParentToShootTransform>false</ParentToShootTransform>
+                      <UseTargetCharacterPositionType>false</UseTargetCharacterPositionType>
+                      <ImpactSoundMaterial>Fire</ImpactSoundMaterial>
+                      <DontPlayHitSound>false</DontPlayHitSound>
+                      <FXIsWorld>false</FXIsWorld>
+                      <BlastEffects>
+                        <DM_EffectTransform>
                           <TransformName>Effects</TransformName>
                           <Effects>
-                            <EffectHolder xsi:type="PunctualDamageHolder">
+                            <DM_Effect xsi:type="DM_PunctualDamage">
+                              <Delay>0</Delay>
+                              <SyncType>OwnerSync</SyncType>
+                              <OverrideCategory>None</OverrideCategory>
                               <Damage>
                                 <Damages>
                                   <Damage>20</Damage>
@@ -256,103 +421,144 @@ Red rune that does nothing on its own, but can produce combo effects by casting 
                               <Damages_AI />
                               <Knockback>30</Knockback>
                               <HitInventory>true</HitInventory>
-                            </EffectHolder>
+                            </DM_Effect>
                           </Effects>
                           <EffectConditions />
                           <ChildEffects />
-                        </EffectTransformHolder>
-                      </EffectTransforms>
-                    </EffectHolder>
+                        </DM_EffectTransform>
+                      </BlastEffects>
+                    </DM_Effect>
                   </Effects>
                   <EffectConditions />
                   <ChildEffects />
-                </EffectTransformHolder>
-              </EffectTransforms>
-            </EffectHolder>
+                </DM_EffectTransform>
+              </ProjectileEffects>
+            </DM_Effect>
+            <DM_Effect xsi:type="DM_PlaySoundEffect">
+              <Delay>0</Delay>
+              <SyncType>OwnerSync</SyncType>
+              <OverrideCategory>None</OverrideCategory>
+              <Sounds>
+                <Sounds>SFX_SKILL_BoonSpell</Sounds>
+              </Sounds>
+              <Follow>false</Follow>
+              <MinPitch>1</MinPitch>
+              <MaxPitch>1</MaxPitch>
+            </DM_Effect>
           </Effects>
           <EffectConditions>
-            <EffectConditionHolder>
-              <Conditions>
-                <ConditionHolder>
-                  <Requirement>Runic Prefix</Requirement>
-                  <Condition_Type>Passive Skill</Condition_Type>
-                  <Invert>true</Invert>
-                </ConditionHolder>
-              </Conditions>
-            </EffectConditionHolder>
-            <EffectConditionHolder>
-              <Conditions>
-                <ConditionHolder>
-                  <Requirement>Arcane Syntax</Requirement>
-                  <Condition_Type>Passive Skill</Condition_Type>
-                  <Invert>false</Invert>
-                </ConditionHolder>
-              </Conditions>
-            </EffectConditionHolder>
-            <EffectConditionHolder>
-              <Conditions>
-                <ConditionHolder>
-                  <Requirement>Fal Runes</Requirement>
-                  <Condition_Type>Status Effect</Condition_Type>
-                  <Invert>false</Invert>
-                </ConditionHolder>
-              </Conditions>
-            </EffectConditionHolder>
-            <EffectConditionHolder>
-              <Conditions>
-                <ConditionHolder>
-                  <Requirement>Runic Lantern</Requirement>
-                  <Condition_Type>Status Effect</Condition_Type>
-                  <Invert>false</Invert>
-                </ConditionHolder>
-              </Conditions>
-            </EffectConditionHolder>
-            <EffectConditionHolder>
-              <Conditions>
-                <ConditionHolder>
-                  <Condition_Type>MostRecentCondition</Condition_Type>
-                  <Invert>false</Invert>
-                </ConditionHolder>
-              </Conditions>
-            </EffectConditionHolder>
-            <EffectConditionHolder>
-              <Conditions>
-                <ConditionHolder>
-                  <Condition_Type>ShooterPosStatusEffect</Condition_Type>
-                  <Invert>false</Invert>
-                </ConditionHolder>
-              </Conditions>
-            </EffectConditionHolder>
+            <DM_EffectCondition xsi:type="DM_PassiveSkillCondition">
+              <Invert>true</Invert>
+              <ReqSkillID>8205200</ReqSkillID>
+            </DM_EffectCondition>
+            <DM_EffectCondition xsi:type="DM_PassiveSkillCondition">
+              <Invert>false</Invert>
+              <ReqSkillID>8205180</ReqSkillID>
+            </DM_EffectCondition>
+            <DM_EffectCondition xsi:type="DM_StatusEffectCondition">
+              <Invert>false</Invert>
+              <StatusIdentifier>Fal Runes</StatusIdentifier>
+            </DM_EffectCondition>
+            <DM_EffectCondition xsi:type="DM_StatusEffectCondition">
+              <Invert>false</Invert>
+              <StatusIdentifier>Runic Lantern</StatusIdentifier>
+            </DM_EffectCondition>
+            <DM_EffectCondition xsi:type="DM_MostRecentCondition">
+              <Invert>false</Invert>
+              <StatusIdentifierToCheck>Fal Runes</StatusIdentifierToCheck>
+              <StatusIdentifierToCompareTo>Shim Runes</StatusIdentifierToCompareTo>
+            </DM_EffectCondition>
+            <DM_EffectCondition xsi:type="DM_ShooterPosStatusEffect">
+              <Invert>false</Invert>
+              <StatusIdentifier>Runic Lantern</StatusIdentifier>
+            </DM_EffectCondition>
           </EffectConditions>
           <ChildEffects />
-        </EffectTransformHolder>
-        <EffectTransformHolder>
+        </DM_EffectTransform>
+        <DM_EffectTransform>
           <TransformName>ExtraEffects</TransformName>
           <Effects>
-            <EffectHolder xsi:type="RemoveStatusEffectHolder">
-              <StatusEffect>Shim Runes</StatusEffect>
-              <StatusEffect_ByTag>None</StatusEffect_ByTag>
-              <StatusEffect_Family>Shim Runes</StatusEffect_Family>
-              <StatusEffect_ByName />
-            </EffectHolder>
-            <EffectHolder xsi:type="RemoveStatusEffectHolder">
-              <StatusEffect>Fal Runes</StatusEffect>
-              <StatusEffect_ByTag>None</StatusEffect_ByTag>
-              <StatusEffect_Family />
-              <StatusEffect_ByName />
-            </EffectHolder>
-            <EffectHolder xsi:type="AffectManaHolder">
-              <AffectQuantity>0</AffectQuantity>
-              <IsModifier>false</IsModifier>
-            </EffectHolder>
-            <EffectHolder xsi:type="ShootProjectileHolder">
+            <DM_Effect xsi:type="DM_RemoveStatusEffect">
+              <Delay>0</Delay>
+              <SyncType>OwnerSync</SyncType>
+              <OverrideCategory>None</OverrideCategory>
+              <Status_Name>Shim Runes</Status_Name>
+              <Status_Tag />
+              <CleanseType>StatusSpecific</CleanseType>
+            </DM_Effect>
+            <DM_Effect xsi:type="DM_RemoveStatusEffect">
+              <Delay>0</Delay>
+              <SyncType>OwnerSync</SyncType>
+              <OverrideCategory>None</OverrideCategory>
+              <Status_Name>Fal Runes</Status_Name>
+              <Status_Tag />
+              <CleanseType>StatusSpecific</CleanseType>
+            </DM_Effect>
+            <DM_Effect xsi:type="DM_ShootProjectile">
+              <Delay>0</Delay>
+              <SyncType>OwnerSync</SyncType>
+              <OverrideCategory>None</OverrideCategory>
+              <CastPosition>Local</CastPosition>
+              <LocalPositionAdd>
+                <x>0</x>
+                <y>1.5</y>
+                <z>0</z>
+              </LocalPositionAdd>
+              <NoAim>false</NoAim>
+              <TargetType>Enemies</TargetType>
+              <TransformName>ShooterTransform</TransformName>
+              <BaseProjectile>RunicRayAmplifiedProjectile</BaseProjectile>
+              <ProjectileShots />
+              <Lifespan>1</Lifespan>
+              <LateShootTime>0.0625</LateShootTime>
+              <Unblockable>false</Unblockable>
+              <EffectsOnlyIfHitCharacter>false</EffectsOnlyIfHitCharacter>
+              <EndMode>Normal</EndMode>
+              <DisableOnHit>true</DisableOnHit>
+              <IgnoreShooterCollision>true</IgnoreShooterCollision>
               <TargetingMode>NONE</TargetingMode>
+              <TargetCountPerProjectile>1</TargetCountPerProjectile>
+              <TargetRange>0</TargetRange>
               <AutoTarget>true</AutoTarget>
-              <EffectTransforms>
-                <EffectTransformHolder>
+              <AutoTargetMaxAngle>360</AutoTargetMaxAngle>
+              <AutoTargetRange>10</AutoTargetRange>
+              <ProjectileForce>60</ProjectileForce>
+              <AddDirection>
+                <x>0</x>
+                <y>0</y>
+                <z>0</z>
+              </AddDirection>
+              <AddRotationForce>
+                <x>0</x>
+                <y>0</y>
+                <z>0</z>
+              </AddRotationForce>
+              <YMagnitudeAffect>0</YMagnitudeAffect>
+              <YMagnitudeForce>0</YMagnitudeForce>
+              <DefenseLength>10</DefenseLength>
+              <DefenseRange>3</DefenseRange>
+              <PhysicsLayerMask>0</PhysicsLayerMask>
+              <OnlyExplodeOnLayerMask>false</OnlyExplodeOnLayerMask>
+              <ImpactSoundMaterial>Metal_Sharp</ImpactSoundMaterial>
+              <LightIntensityFade>
+                <x>10</x>
+                <y>2</y>
+              </LightIntensityFade>
+              <PointOffset>
+                <x>0</x>
+                <y>0</y>
+                <z>0.7</z>
+              </PointOffset>
+              <TrailEnabled>true</TrailEnabled>
+              <TrailTime>0.2</TrailTime>
+              <ProjectileEffects>
+                <DM_EffectTransform>
                   <TransformName>HitEffects</TransformName>
                   <Effects>
-                    <EffectHolder xsi:type="PunctualDamageHolder">
+                    <DM_Effect xsi:type="DM_PunctualDamage">
+                      <Delay>0</Delay>
+                      <SyncType>OwnerSync</SyncType>
+                      <OverrideCategory>None</OverrideCategory>
                       <Damage>
                         <Damages>
                           <Damage>45</Damage>
@@ -362,15 +568,45 @@ Red rune that does nothing on its own, but can produce combo effects by casting 
                       <Damages_AI />
                       <Knockback>0</Knockback>
                       <HitInventory>true</HitInventory>
-                    </EffectHolder>
-                    <EffectHolder xsi:type="ShootBlastHolder">
-                      <BlastLifespan>0.01</BlastLifespan>
+                    </DM_Effect>
+                    <DM_Effect xsi:type="DM_ShootBlast">
+                      <Delay>0</Delay>
+                      <SyncType>OwnerSync</SyncType>
+                      <OverrideCategory>None</OverrideCategory>
+                      <CastPosition>Local</CastPosition>
+                      <LocalPositionAdd>
+                        <x>0</x>
+                        <y>0</y>
+                        <z>0</z>
+                      </LocalPositionAdd>
+                      <NoAim>false</NoAim>
+                      <TargetType>Enemies</TargetType>
+                      <TransformName>ShooterTransform</TransformName>
+                      <BaseBlast>BoltElectricBlast</BaseBlast>
+                      <Radius>3</Radius>
                       <RefreshTime>0.1</RefreshTime>
-                      <EffectTransforms>
-                        <EffectTransformHolder>
+                      <BlastLifespan>0.01</BlastLifespan>
+                      <InstantiatedAmount>1</InstantiatedAmount>
+                      <Interruptible>false</Interruptible>
+                      <MaxHitTargetCount>-1</MaxHitTargetCount>
+                      <AffectHitTargetCenter>false</AffectHitTargetCenter>
+                      <HitOnShoot>true</HitOnShoot>
+                      <IgnoreShooter>false</IgnoreShooter>
+                      <IgnoreStop>false</IgnoreStop>
+                      <NoTargetForwardMultiplier>5</NoTargetForwardMultiplier>
+                      <ParentToShootTransform>false</ParentToShootTransform>
+                      <UseTargetCharacterPositionType>false</UseTargetCharacterPositionType>
+                      <ImpactSoundMaterial>Fire</ImpactSoundMaterial>
+                      <DontPlayHitSound>false</DontPlayHitSound>
+                      <FXIsWorld>false</FXIsWorld>
+                      <BlastEffects>
+                        <DM_EffectTransform>
                           <TransformName>Effects</TransformName>
                           <Effects>
-                            <EffectHolder xsi:type="PunctualDamageHolder">
+                            <DM_Effect xsi:type="DM_PunctualDamage">
+                              <Delay>0</Delay>
+                              <SyncType>OwnerSync</SyncType>
+                              <OverrideCategory>None</OverrideCategory>
                               <Damage>
                                 <Damages>
                                   <Damage>20</Damage>
@@ -380,89 +616,124 @@ Red rune that does nothing on its own, but can produce combo effects by casting 
                               <Damages_AI />
                               <Knockback>30</Knockback>
                               <HitInventory>true</HitInventory>
-                            </EffectHolder>
+                            </DM_Effect>
                           </Effects>
                           <EffectConditions />
                           <ChildEffects />
-                        </EffectTransformHolder>
-                      </EffectTransforms>
-                    </EffectHolder>
-                    <EffectHolder xsi:type="ShootBlastHolder">
-                      <BlastLifespan>0</BlastLifespan>
+                        </DM_EffectTransform>
+                      </BlastEffects>
+                    </DM_Effect>
+                    <DM_Effect xsi:type="DM_ShootBlast">
+                      <Delay>0</Delay>
+                      <SyncType>OwnerSync</SyncType>
+                      <OverrideCategory>None</OverrideCategory>
+                      <CastPosition>Local</CastPosition>
+                      <LocalPositionAdd>
+                        <x>0</x>
+                        <y>0</y>
+                        <z>0</z>
+                      </LocalPositionAdd>
+                      <NoAim>false</NoAim>
+                      <TargetType>Enemies</TargetType>
+                      <TransformName>ShooterTransform</TransformName>
+                      <BaseBlast>KindleBlast</BaseBlast>
+                      <Radius>2.5</Radius>
                       <RefreshTime>0.1</RefreshTime>
-                      <EffectTransforms />
-                    </EffectHolder>
+                      <BlastLifespan>0</BlastLifespan>
+                      <InstantiatedAmount>1</InstantiatedAmount>
+                      <Interruptible>false</Interruptible>
+                      <MaxHitTargetCount>-1</MaxHitTargetCount>
+                      <AffectHitTargetCenter>false</AffectHitTargetCenter>
+                      <HitOnShoot>true</HitOnShoot>
+                      <IgnoreShooter>false</IgnoreShooter>
+                      <IgnoreStop>false</IgnoreStop>
+                      <NoTargetForwardMultiplier>5</NoTargetForwardMultiplier>
+                      <ParentToShootTransform>false</ParentToShootTransform>
+                      <UseTargetCharacterPositionType>false</UseTargetCharacterPositionType>
+                      <ImpactSoundMaterial>Fire</ImpactSoundMaterial>
+                      <DontPlayHitSound>false</DontPlayHitSound>
+                      <FXIsWorld>false</FXIsWorld>
+                      <BlastEffects />
+                    </DM_Effect>
                   </Effects>
                   <EffectConditions />
                   <ChildEffects />
-                </EffectTransformHolder>
-              </EffectTransforms>
-            </EffectHolder>
+                </DM_EffectTransform>
+              </ProjectileEffects>
+            </DM_Effect>
+            <DM_Effect xsi:type="DM_PlaySoundEffect">
+              <Delay>0</Delay>
+              <SyncType>OwnerSync</SyncType>
+              <OverrideCategory>None</OverrideCategory>
+              <Sounds>
+                <Sounds>SFX_SKILL_BoonSpell</Sounds>
+              </Sounds>
+              <Follow>false</Follow>
+              <MinPitch>1</MinPitch>
+              <MaxPitch>1</MaxPitch>
+            </DM_Effect>
           </Effects>
           <EffectConditions>
-            <EffectConditionHolder>
-              <Conditions>
-                <ConditionHolder>
-                  <Requirement>Runic Prefix</Requirement>
-                  <Condition_Type>Passive Skill</Condition_Type>
-                  <Invert>false</Invert>
-                </ConditionHolder>
-              </Conditions>
-            </EffectConditionHolder>
-            <EffectConditionHolder>
-              <Conditions>
-                <ConditionHolder>
-                  <Requirement>Arcane Syntax</Requirement>
-                  <Condition_Type>Passive Skill</Condition_Type>
-                  <Invert>false</Invert>
-                </ConditionHolder>
-              </Conditions>
-            </EffectConditionHolder>
-            <EffectConditionHolder>
-              <Conditions>
-                <ConditionHolder>
-                  <Requirement>Fal Runes</Requirement>
-                  <Condition_Type>Status Effect</Condition_Type>
-                  <Invert>false</Invert>
-                </ConditionHolder>
-              </Conditions>
-            </EffectConditionHolder>
-            <EffectConditionHolder>
-              <Conditions>
-                <ConditionHolder>
-                  <Requirement>Runic Lantern Amplified</Requirement>
-                  <Condition_Type>Status Effect</Condition_Type>
-                  <Invert>false</Invert>
-                </ConditionHolder>
-              </Conditions>
-            </EffectConditionHolder>
-            <EffectConditionHolder>
-              <Conditions>
-                <ConditionHolder>
-                  <Condition_Type>MostRecentCondition</Condition_Type>
-                  <Invert>false</Invert>
-                </ConditionHolder>
-              </Conditions>
-            </EffectConditionHolder>
-            <EffectConditionHolder>
-              <Conditions>
-                <ConditionHolder>
-                  <Condition_Type>ShooterPosStatusEffect</Condition_Type>
-                  <Invert>false</Invert>
-                </ConditionHolder>
-              </Conditions>
-            </EffectConditionHolder>
+            <DM_EffectCondition xsi:type="DM_PassiveSkillCondition">
+              <Invert>false</Invert>
+              <ReqSkillID>8205200</ReqSkillID>
+            </DM_EffectCondition>
+            <DM_EffectCondition xsi:type="DM_PassiveSkillCondition">
+              <Invert>false</Invert>
+              <ReqSkillID>8205180</ReqSkillID>
+            </DM_EffectCondition>
+            <DM_EffectCondition xsi:type="DM_StatusEffectCondition">
+              <Invert>false</Invert>
+              <StatusIdentifier>Fal Runes</StatusIdentifier>
+            </DM_EffectCondition>
+            <DM_EffectCondition xsi:type="DM_StatusEffectCondition">
+              <Invert>false</Invert>
+              <StatusIdentifier>Runic Lantern Amplified</StatusIdentifier>
+            </DM_EffectCondition>
+            <DM_EffectCondition xsi:type="DM_MostRecentCondition">
+              <Invert>false</Invert>
+              <StatusIdentifierToCheck>Fal Runes</StatusIdentifierToCheck>
+              <StatusIdentifierToCompareTo>Shim Runes</StatusIdentifierToCompareTo>
+            </DM_EffectCondition>
+            <DM_EffectCondition xsi:type="DM_ShooterPosStatusEffect">
+              <Invert>false</Invert>
+              <StatusIdentifier>Runic Lantern Amplified</StatusIdentifier>
+            </DM_EffectCondition>
           </EffectConditions>
           <ChildEffects />
-        </EffectTransformHolder>
+        </DM_EffectTransform>
       </ChildEffects>
-    </EffectTransformHolder>
+    </DM_EffectTransform>
+    <DM_EffectTransform>
+      <TransformName>ActivationEffects</TransformName>
+      <Effects>
+        <DM_Effect xsi:type="DM_PlaySoundEffect">
+          <Delay>0</Delay>
+          <SyncType>OwnerSync</SyncType>
+          <OverrideCategory>None</OverrideCategory>
+          <Sounds>
+            <Sounds>SFX_SKILL_RuneSpell</Sounds>
+          </Sounds>
+          <Follow>false</Follow>
+          <MinPitch>1</MinPitch>
+          <MaxPitch>1</MaxPitch>
+        </DM_Effect>
+      </Effects>
+      <EffectConditions />
+      <ChildEffects />
+    </DM_EffectTransform>
   </EffectTransforms>
   <Cooldown>2</Cooldown>
   <StaminaCost>0</StaminaCost>
   <ManaCost>8</ManaCost>
   <DurabilityCost>0</DurabilityCost>
   <DurabilityCostPercent>0</DurabilityCostPercent>
-  <IsDLCSkill>true</IsDLCSkill>
   <RequiredItems />
-</ItemHolder>
+  <AmmunitionTypes />
+  <RequiredOffHandTypes />
+  <RequiredWeaponTypes />
+  <RequiredWeaponTags>
+    <string>Lexicon</string>
+  </RequiredWeaponTags>
+  <RequireImbue>false</RequireImbue>
+</DM_AttackSkill>

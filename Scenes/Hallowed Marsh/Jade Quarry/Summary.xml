@@ -73,7 +73,7 @@
     </QuantityHolder>
   </Gatherables>
   <Item_Spawns>
-    <ItemSpawnHolder>
+    <DM_ItemSpawn>
       <Name>Old Lantern</Name>
       <Item_ID>5100010</Item_ID>
       <Quantity>1</Quantity>
@@ -84,7 +84,7 @@
           <z>309.434845</z>
         </Vector3>
       </positions>
-    </ItemSpawnHolder>
+    </DM_ItemSpawn>
   </Item_Spawns>
   <UniqueContainerList>
     <string>Knight’s Corpse_Ua0fxCcHqUyKU_o9DZM9kA</string>

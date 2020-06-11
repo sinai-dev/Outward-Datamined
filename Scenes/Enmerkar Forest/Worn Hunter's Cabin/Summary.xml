@@ -20,7 +20,7 @@
   </Loot_Containers>
   <Gatherables />
   <Item_Spawns>
-    <ItemSpawnHolder>
+    <DM_ItemSpawn>
       <Name>Mana Stone</Name>
       <Item_ID>6400130</Item_ID>
       <Quantity>3</Quantity>
@@ -41,8 +41,8 @@
           <z>3.214</z>
         </Vector3>
       </positions>
-    </ItemSpawnHolder>
-    <ItemSpawnHolder>
+    </DM_ItemSpawn>
+    <DM_ItemSpawn>
       <Name>Explorer Lantern</Name>
       <Item_ID>5100000</Item_ID>
       <Quantity>1</Quantity>
@@ -53,8 +53,8 @@
           <z>8.698246</z>
         </Vector3>
       </positions>
-    </ItemSpawnHolder>
-    <ItemSpawnHolder>
+    </DM_ItemSpawn>
+    <DM_ItemSpawn>
       <Name>Spiritual Varnish</Name>
       <Item_ID>4400060</Item_ID>
       <Quantity>1</Quantity>
@@ -65,8 +65,8 @@
           <z>6.934738</z>
         </Vector3>
       </positions>
-    </ItemSpawnHolder>
-    <ItemSpawnHolder>
+    </DM_ItemSpawn>
+    <DM_ItemSpawn>
       <Name>Fire Varnish</Name>
       <Item_ID>4400041</Item_ID>
       <Quantity>1</Quantity>
@@ -77,7 +77,7 @@
           <z>6.636</z>
         </Vector3>
       </positions>
-    </ItemSpawnHolder>
+    </DM_ItemSpawn>
   </Item_Spawns>
   <UniqueContainerList>
     <string>Worker’s Corpse_9eptNEpyoESHkLbmmrExDw</string>

@@ -203,7 +203,7 @@
     </QuantityHolder>
   </Gatherables>
   <Item_Spawns>
-    <ItemSpawnHolder>
+    <DM_ItemSpawn>
       <Name>Cooking Pot</Name>
       <Item_ID>5010100</Item_ID>
       <Quantity>1</Quantity>
@@ -214,7 +214,7 @@
           <z>659.057</z>
         </Vector3>
       </positions>
-    </ItemSpawnHolder>
+    </DM_ItemSpawn>
   </Item_Spawns>
   <UniqueContainerList>
     <string>Chest_M1ofDMMPS0Gl7beuAuCB1w</string>

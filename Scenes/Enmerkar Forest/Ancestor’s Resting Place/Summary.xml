@@ -89,7 +89,7 @@
     </QuantityHolder>
   </Gatherables>
   <Item_Spawns>
-    <ItemSpawnHolder>
+    <DM_ItemSpawn>
       <Name>Mining Pick</Name>
       <Item_ID>2120050</Item_ID>
       <Quantity>1</Quantity>
@@ -100,7 +100,7 @@
           <z>1.477</z>
         </Vector3>
       </positions>
-    </ItemSpawnHolder>
+    </DM_ItemSpawn>
   </Item_Spawns>
   <UniqueContainerList>
     <string>Ornate Chest_8sbIXSIrPEaPWprddW6IqA</string>

@@ -1,19 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ItemHolder xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <ItemID>4100480</ItemID>
-  <Name>Spiny Meringue</Name>
+<DM_Item xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <gameObjectName>4100480_SpinyMeringue</gameObjectName>
   <saveDir>/Food</saveDir>
+  <ItemID>4100480</ItemID>
+  <Name>Spiny Meringue</Name>
   <Description>Thorny dessert with high health and stamina restorative properties.
 
 It also helps against the sun when eaten.</Description>
   <LegacyItemID>-1</LegacyItemID>
+  <IsPickable>true</IsPickable>
+  <IsUsable>true</IsUsable>
+  <QtyRemovedOnUse>1</QtyRemovedOnUse>
+  <GroupItemInDisplay>true</GroupItemInDisplay>
+  <HasPhysicsWhenWorld>false</HasPhysicsWhenWorld>
+  <RepairedInRest>true</RepairedInRest>
+  <BehaviorOnNoDurability>NotSet</BehaviorOnNoDurability>
+  <CastType>Eat</CastType>
+  <CastModifier>Immobilized</CastModifier>
+  <CastLocomotionEnabled>false</CastLocomotionEnabled>
+  <MobileCastMovementMult>-1</MobileCastMovementMult>
+  <CastSheatheRequired>1</CastSheatheRequired>
   <PerishTime>14 Days, 21 Hours, 8 Minutes, 34 Seconds</PerishTime>
-  <StatsHolder>
-    <BaseValue>30</BaseValue>
-    <RawWeight>0.5</RawWeight>
-    <MaxDurability>100</MaxDurability>
-  </StatsHolder>
   <Tags>
     <string>Dish</string>
     <string>Food</string>
@@ -23,29 +30,45 @@ It also helps against the sun when eaten.</Description>
     <string>Ingredient Cook</string>
     <string>Ingredient</string>
   </Tags>
+  <StatsHolder>
+    <BaseValue>30</BaseValue>
+    <RawWeight>0.5</RawWeight>
+    <MaxDurability>100</MaxDurability>
+  </StatsHolder>
   <EffectTransforms>
-    <EffectTransformHolder>
+    <DM_EffectTransform>
       <TransformName>Effects</TransformName>
       <Effects>
-        <EffectHolder xsi:type="AffectNeedHolder">
-          <Need>AffectFood</Need>
+        <DM_Effect xsi:type="DM_AffectFood">
+          <Delay>0</Delay>
+          <SyncType>OwnerSync</SyncType>
+          <OverrideCategory>None</OverrideCategory>
           <AffectQuantity>140</AffectQuantity>
-        </EffectHolder>
-        <EffectHolder xsi:type="AddStatusEffectHolder">
+        </DM_Effect>
+        <DM_Effect xsi:type="DM_AddStatusEffect">
+          <Delay>0</Delay>
+          <SyncType>OwnerSync</SyncType>
+          <OverrideCategory>None</OverrideCategory>
           <StatusEffect>Stamina Recovery 4</StatusEffect>
           <ChanceToContract>100</ChanceToContract>
-        </EffectHolder>
-        <EffectHolder xsi:type="AddStatusEffectHolder">
+        </DM_Effect>
+        <DM_Effect xsi:type="DM_AddStatusEffect">
+          <Delay>0</Delay>
+          <SyncType>OwnerSync</SyncType>
+          <OverrideCategory>None</OverrideCategory>
           <StatusEffect>Health Recovery 3</StatusEffect>
           <ChanceToContract>100</ChanceToContract>
-        </EffectHolder>
-        <EffectHolder xsi:type="AddStatusEffectHolder">
+        </DM_Effect>
+        <DM_Effect xsi:type="DM_AddStatusEffect">
+          <Delay>0</Delay>
+          <SyncType>OwnerSync</SyncType>
+          <OverrideCategory>None</OverrideCategory>
           <StatusEffect>Environment Heat Resistance</StatusEffect>
           <ChanceToContract>100</ChanceToContract>
-        </EffectHolder>
+        </DM_Effect>
       </Effects>
       <EffectConditions />
       <ChildEffects />
-    </EffectTransformHolder>
+    </DM_EffectTransform>
   </EffectTransforms>
-</ItemHolder>
+</DM_Item>

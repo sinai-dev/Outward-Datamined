@@ -1,31 +1,37 @@
 <?xml version="1.0" encoding="utf-8"?>
-<StatusEffectHolder xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<DM_ImbueEffect xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <StatusID>204</StatusID>
   <Name>Frost Imbue</Name>
-  <PresetID>204</PresetID>
-  <Lifespan>0</Lifespan>
-  <Tags />
-  <CanBeHealedBySleeping>false</CanBeHealedBySleeping>
-  <StraightSleepHealTime>-1</StraightSleepHealTime>
+  <Description>Weapon deals some Frost Damage.</Description>
   <Effects>
-    <EffectHolder xsi:type="WeaponDamageHolder">
-      <Damage>
-        <Damages>
-          <Damage>5</Damage>
-          <Damage_Type>Frost</Damage_Type>
-        </Damages>
-      </Damage>
-      <Damages_AI />
-      <Knockback>0</Knockback>
-      <HitInventory>true</HitInventory>
-      <OverrideType>Frost</OverrideType>
-      <Damage_Multiplier>1.1</Damage_Multiplier>
-      <Damage_Multiplier_Kback>-1</Damage_Multiplier_Kback>
-      <Damage_Multiplier_Kdown>-1</Damage_Multiplier_Kdown>
-      <Impact_Multiplier>1</Impact_Multiplier>
-      <Impact_Multiplier_Kback>-1</Impact_Multiplier_Kback>
-      <Impact_Multiplier_Kdown>-1</Impact_Multiplier_Kdown>
-      <DurabilityLoss>1</DurabilityLoss>
-      <DurabilityLossPercent>0</DurabilityLossPercent>
-    </EffectHolder>
+    <DM_EffectTransform>
+      <TransformName>Effects</TransformName>
+      <Effects>
+        <DM_Effect xsi:type="DM_WeaponDamage">
+          <Delay>0</Delay>
+          <SyncType>OwnerSync</SyncType>
+          <OverrideCategory>Hit</OverrideCategory>
+          <Damage>
+            <Damages>
+              <Damage>5</Damage>
+              <Damage_Type>Frost</Damage_Type>
+            </Damages>
+          </Damage>
+          <Damages_AI />
+          <Knockback>0</Knockback>
+          <HitInventory>true</HitInventory>
+          <OverrideType>Frost</OverrideType>
+          <ForceOnlyLeftHand>false</ForceOnlyLeftHand>
+          <Damage_Multiplier>1.1</Damage_Multiplier>
+          <Damage_Multiplier_Kback>-1</Damage_Multiplier_Kback>
+          <Damage_Multiplier_Kdown>-1</Damage_Multiplier_Kdown>
+          <Impact_Multiplier>1</Impact_Multiplier>
+          <Impact_Multiplier_Kback>-1</Impact_Multiplier_Kback>
+          <Impact_Multiplier_Kdown>-1</Impact_Multiplier_Kdown>
+        </DM_Effect>
+      </Effects>
+      <EffectConditions />
+      <ChildEffects />
+    </DM_EffectTransform>
   </Effects>
-</StatusEffectHolder>
+</DM_ImbueEffect>

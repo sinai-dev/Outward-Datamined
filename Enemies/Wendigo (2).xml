@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<EnemyHolder xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<DM_Enemy xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Name>Wendigo</Name>
   <GameObject_Name>Wendigo</GameObject_Name>
   <Unique_ID>2</Unique_ID>
@@ -65,4 +65,4 @@
   <DropTable_Names>
     <string>DropTable_Wendigo</string>
   </DropTable_Names>
-</EnemyHolder>
+</DM_Enemy>

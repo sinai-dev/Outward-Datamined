@@ -1,13 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ItemHolder xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="WeaponHolder">
-  <ItemID>2200010</ItemID>
-  <Name>Recurve Bow</Name>
+<DM_Weapon xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <gameObjectName>2200010_BowRecurve</gameObjectName>
   <saveDir>/Equipment/Weapon/ProjectileWeapon</saveDir>
+  <ItemID>2200010</ItemID>
+  <Name>Recurve Bow</Name>
   <Description>Compact bow which inflicts Slow Down on enemies.</Description>
   <LegacyItemID>-1</LegacyItemID>
-  <PerishTime>-1</PerishTime>
-  <StatsHolder xsi:type="WeaponStatsHolder">
+  <IsPickable>true</IsPickable>
+  <IsUsable>false</IsUsable>
+  <QtyRemovedOnUse>1</QtyRemovedOnUse>
+  <GroupItemInDisplay>false</GroupItemInDisplay>
+  <HasPhysicsWhenWorld>false</HasPhysicsWhenWorld>
+  <RepairedInRest>true</RepairedInRest>
+  <BehaviorOnNoDurability>NotSet</BehaviorOnNoDurability>
+  <CastType>DrawArrow</CastType>
+  <CastModifier>Immobilized</CastModifier>
+  <CastLocomotionEnabled>false</CastLocomotionEnabled>
+  <MobileCastMovementMult>-1</MobileCastMovementMult>
+  <CastSheatheRequired>1</CastSheatheRequired>
+  <Tags>
+    <string>Bow</string>
+    <string>Weapon</string>
+    <string>Item</string>
+  </Tags>
+  <StatsHolder xsi:type="DM_WeaponStats">
     <BaseValue>30</BaseValue>
     <RawWeight>4</RawWeight>
     <MaxDurability>275</MaxDurability>
@@ -50,7 +66,8 @@
       </Damages>
     </BaseDamage>
     <Impact>14</Impact>
-    <AttackCount>5</AttackCount>
+    <StamCost>2.645</StamCost>
+    <AutoGenerateAttackData>false</AutoGenerateAttackData>
     <Attacks>
       <AttackData>
         <StamCost>2.645</StamCost>
@@ -94,40 +111,94 @@
       </AttackData>
     </Attacks>
   </StatsHolder>
-  <Tags>
-    <string>Bow</string>
-    <string>Weapon</string>
-    <string>Item</string>
-  </Tags>
   <EffectTransforms>
-    <EffectTransformHolder>
+    <DM_EffectTransform>
       <TransformName>Effects</TransformName>
       <Effects>
-        <EffectHolder xsi:type="ShootProjectileHolder">
+        <DM_Effect xsi:type="DM_ShootItem">
+          <Delay>0</Delay>
+          <SyncType>OwnerSync</SyncType>
+          <OverrideCategory>None</OverrideCategory>
+          <CastPosition>Given</CastPosition>
+          <LocalPositionAdd>
+            <x>0</x>
+            <y>1.5</y>
+            <z>0</z>
+          </LocalPositionAdd>
+          <NoAim>false</NoAim>
+          <TargetType>Enemies</TargetType>
+          <TransformName>ShooterTransform</TransformName>
+          <ProjectileShots />
+          <Lifespan>0</Lifespan>
+          <LateShootTime>0</LateShootTime>
+          <Unblockable>false</Unblockable>
+          <EffectsOnlyIfHitCharacter>false</EffectsOnlyIfHitCharacter>
+          <EndMode>Normal</EndMode>
+          <DisableOnHit>false</DisableOnHit>
+          <IgnoreShooterCollision>false</IgnoreShooterCollision>
           <TargetingMode>NONE</TargetingMode>
+          <TargetCountPerProjectile>0</TargetCountPerProjectile>
+          <TargetRange>0</TargetRange>
           <AutoTarget>false</AutoTarget>
-          <EffectTransforms />
-        </EffectHolder>
+          <AutoTargetMaxAngle>0</AutoTargetMaxAngle>
+          <AutoTargetRange>0</AutoTargetRange>
+          <ProjectileForce>0</ProjectileForce>
+          <AddDirection>
+            <x>0</x>
+            <y>0</y>
+            <z>0</z>
+          </AddDirection>
+          <AddRotationForce>
+            <x>0</x>
+            <y>0</y>
+            <z>0</z>
+          </AddRotationForce>
+          <YMagnitudeAffect>0</YMagnitudeAffect>
+          <YMagnitudeForce>0</YMagnitudeForce>
+          <DefenseLength>0</DefenseLength>
+          <DefenseRange>0</DefenseRange>
+          <PhysicsLayerMask>0</PhysicsLayerMask>
+          <OnlyExplodeOnLayerMask>false</OnlyExplodeOnLayerMask>
+          <ImpactSoundMaterial>Goo</ImpactSoundMaterial>
+          <LightIntensityFade>
+            <x>0</x>
+            <y>0</y>
+          </LightIntensityFade>
+          <PointOffset>
+            <x>0</x>
+            <y>0</y>
+            <z>0</z>
+          </PointOffset>
+          <TrailEnabled>false</TrailEnabled>
+          <TrailTime>0</TrailTime>
+          <ProjectileEffects />
+        </DM_Effect>
       </Effects>
       <EffectConditions />
       <ChildEffects />
-    </EffectTransformHolder>
-    <EffectTransformHolder>
+    </DM_EffectTransform>
+    <DM_EffectTransform>
       <TransformName>HitEffects</TransformName>
       <Effects>
-        <EffectHolder xsi:type="AddStatusEffectBuildupHolder">
+        <DM_Effect xsi:type="DM_AddStatusEffectBuildUp">
+          <Delay>0</Delay>
+          <SyncType>OwnerSync</SyncType>
+          <OverrideCategory>None</OverrideCategory>
           <StatusEffect>Slow Down</StatusEffect>
           <Buildup>60</Buildup>
-        </EffectHolder>
+        </DM_Effect>
       </Effects>
       <EffectConditions />
       <ChildEffects />
-    </EffectTransformHolder>
+    </DM_EffectTransform>
   </EffectTransforms>
-  <EquipmentSlot>RightHand</EquipmentSlot>
-  <IKType>None</IKType>
+  <EquipSlot>RightHand</EquipSlot>
   <TwoHandType>TwoHandedLeft</TwoHandType>
+  <IKType>None</IKType>
   <VisualDetectabilityAdd>0</VisualDetectabilityAdd>
   <WeaponType>Bow</WeaponType>
-  <StamCost>2.645</StamCost>
-</ItemHolder>
+  <Unblockable>false</Unblockable>
+  <SwingSound>Default</SwingSound>
+  <SpecialIsZoom>true</SpecialIsZoom>
+  <MaxProjectileShots>1</MaxProjectileShots>
+</DM_Weapon>

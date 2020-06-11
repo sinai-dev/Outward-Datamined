@@ -69,7 +69,7 @@
     </QuantityHolder>
   </Gatherables>
   <Item_Spawns>
-    <ItemSpawnHolder>
+    <DM_ItemSpawn>
       <Name>Campfire</Name>
       <Item_ID>5000100</Item_ID>
       <Quantity>3</Quantity>
@@ -90,7 +90,7 @@
           <z>143.44</z>
         </Vector3>
       </positions>
-    </ItemSpawnHolder>
+    </DM_ItemSpawn>
   </Item_Spawns>
   <UniqueContainerList>
     <string>Junk Pile_rBAzv5qMk0aahl7yPHYOmw</string>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<EnemyHolder xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<DM_Enemy xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Name>Bandit Lieutenant</Name>
   <GameObject_Name>NewBanditEquip_StandardLieutenant2_D</GameObject_Name>
   <Unique_ID>2</Unique_ID>
@@ -70,4 +70,4 @@
   <DropTable_Names>
     <string>DropTable_BanditMelee_Chersonese_Med</string>
   </DropTable_Names>
-</EnemyHolder>
+</DM_Enemy>

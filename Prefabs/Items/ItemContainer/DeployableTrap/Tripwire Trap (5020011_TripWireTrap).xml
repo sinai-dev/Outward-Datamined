@@ -1,261 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ItemHolder xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="TrapHolder">
-  <ItemID>5020011</ItemID>
-  <Name>Tripwire Trap</Name>
+<DM_Item xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <gameObjectName>5020011_TripWireTrap</gameObjectName>
   <saveDir>/ItemContainer/DeployableTrap</saveDir>
+  <ItemID>5020011</ItemID>
+  <Name>Tripwire Trap</Name>
   <Description>---</Description>
   <LegacyItemID>-1</LegacyItemID>
-  <PerishTime>-1</PerishTime>
+  <IsPickable>false</IsPickable>
+  <IsUsable>true</IsUsable>
+  <QtyRemovedOnUse>1</QtyRemovedOnUse>
+  <GroupItemInDisplay>false</GroupItemInDisplay>
+  <HasPhysicsWhenWorld>false</HasPhysicsWhenWorld>
+  <RepairedInRest>true</RepairedInRest>
+  <BehaviorOnNoDurability>NotSet</BehaviorOnNoDurability>
+  <CastType>NONE</CastType>
+  <CastModifier>Immobilized</CastModifier>
+  <CastLocomotionEnabled>false</CastLocomotionEnabled>
+  <MobileCastMovementMult>-1</MobileCastMovementMult>
+  <CastSheatheRequired>1</CastSheatheRequired>
   <Tags>
     <string>Deployable</string>
     <string>Item</string>
     <string>Trap</string>
   </Tags>
   <EffectTransforms />
-  <TrapEffects>
-    <TrapEffectHolder>
-      <Name>Wood Spike Trap</Name>
-      <Description>Deals low Physical damage, but wooden spikes can be crafted for free out of Wood.</Description>
-      <CompatibleItems>
-        <string>Quarterstaff</string>
-        <string>Spikes – Wood</string>
-        <string>Primitive Club</string>
-      </CompatibleItems>
-      <CompatibleTags />
-      <NormalEffects>
-        <EffectHolder xsi:type="ShootBlastHolder">
-          <BlastLifespan>0</BlastLifespan>
-          <RefreshTime>0.1</RefreshTime>
-          <EffectTransforms>
-            <EffectTransformHolder>
-              <TransformName>Effects</TransformName>
-              <Effects>
-                <EffectHolder xsi:type="PunctualDamageHolder">
-                  <Damage>
-                    <Damages>
-                      <Damage>25</Damage>
-                      <Damage_Type>Physical</Damage_Type>
-                    </Damages>
-                  </Damage>
-                  <Damages_AI />
-                  <Knockback>50</Knockback>
-                  <HitInventory>true</HitInventory>
-                </EffectHolder>
-              </Effects>
-              <EffectConditions />
-              <ChildEffects />
-            </EffectTransformHolder>
-          </EffectTransforms>
-        </EffectHolder>
-      </NormalEffects>
-      <ImprovedEffects />
-    </TrapEffectHolder>
-    <TrapEffectHolder>
-      <Name>Spike Trap</Name>
-      <Description>Deals moderate Physical damage.</Description>
-      <CompatibleItems>
-        <string>Spikes – Iron</string>
-      </CompatibleItems>
-      <CompatibleTags>
-        <string>Spear</string>
-        <string>Pole Arm</string>
-      </CompatibleTags>
-      <NormalEffects>
-        <EffectHolder xsi:type="ShootBlastHolder">
-          <BlastLifespan>0</BlastLifespan>
-          <RefreshTime>0.1</RefreshTime>
-          <EffectTransforms>
-            <EffectTransformHolder>
-              <TransformName>Effects</TransformName>
-              <Effects>
-                <EffectHolder xsi:type="PunctualDamageHolder">
-                  <Damage>
-                    <Damages>
-                      <Damage>50</Damage>
-                      <Damage_Type>Physical</Damage_Type>
-                    </Damages>
-                  </Damage>
-                  <Damages_AI />
-                  <Knockback>50</Knockback>
-                  <HitInventory>true</HitInventory>
-                </EffectHolder>
-                <EffectHolder xsi:type="AddStatusEffectHolder">
-                  <StatusEffect>Pain</StatusEffect>
-                  <ChanceToContract>100</ChanceToContract>
-                </EffectHolder>
-              </Effects>
-              <EffectConditions />
-              <ChildEffects />
-            </EffectTransformHolder>
-          </EffectTransforms>
-        </EffectHolder>
-      </NormalEffects>
-      <ImprovedEffects />
-    </TrapEffectHolder>
-    <TrapEffectHolder>
-      <Name>Improved Spike Trap</Name>
-      <Description>Deals high Physical and inflicts Pain.</Description>
-      <CompatibleItems>
-        <string>Spikes – Palladium</string>
-        <string>Beast Golem Scraps</string>
-        <string>Assassin Tongue</string>
-      </CompatibleItems>
-      <CompatibleTags />
-      <NormalEffects>
-        <EffectHolder xsi:type="ShootBlastHolder">
-          <BlastLifespan>0</BlastLifespan>
-          <RefreshTime>0.1</RefreshTime>
-          <EffectTransforms>
-            <EffectTransformHolder>
-              <TransformName>Effects</TransformName>
-              <Effects>
-                <EffectHolder xsi:type="PunctualDamageHolder">
-                  <Damage>
-                    <Damages>
-                      <Damage>75</Damage>
-                      <Damage_Type>Physical</Damage_Type>
-                    </Damages>
-                  </Damage>
-                  <Damages_AI />
-                  <Knockback>125</Knockback>
-                  <HitInventory>true</HitInventory>
-                </EffectHolder>
-                <EffectHolder xsi:type="AddStatusEffectHolder">
-                  <StatusEffect>Pain</StatusEffect>
-                  <ChanceToContract>100</ChanceToContract>
-                </EffectHolder>
-              </Effects>
-              <EffectConditions />
-              <ChildEffects />
-            </EffectTransformHolder>
-          </EffectTransforms>
-        </EffectHolder>
-      </NormalEffects>
-      <ImprovedEffects />
-    </TrapEffectHolder>
-    <TrapEffectHolder>
-      <Name>Improved Bleed Trap</Name>
-      <Description>Deals moderate Physical damage and inflicts Severe Bleeding.</Description>
-      <CompatibleItems>
-        <string>Thorny Cartilage</string>
-        <string>Shark Cartilage</string>
-        <string>Coralhorn Antler</string>
-      </CompatibleItems>
-      <CompatibleTags />
-      <NormalEffects>
-        <EffectHolder xsi:type="ShootBlastHolder">
-          <BlastLifespan>0</BlastLifespan>
-          <RefreshTime>0.1</RefreshTime>
-          <EffectTransforms>
-            <EffectTransformHolder>
-              <TransformName>Effects</TransformName>
-              <Effects>
-                <EffectHolder xsi:type="PunctualDamageHolder">
-                  <Damage>
-                    <Damages>
-                      <Damage>60</Damage>
-                      <Damage_Type>Physical</Damage_Type>
-                    </Damages>
-                  </Damage>
-                  <Damages_AI />
-                  <Knockback>80</Knockback>
-                  <HitInventory>true</HitInventory>
-                </EffectHolder>
-                <EffectHolder xsi:type="AddStatusEffectHolder">
-                  <StatusEffect>Bleeding +</StatusEffect>
-                  <ChanceToContract>100</ChanceToContract>
-                </EffectHolder>
-              </Effects>
-              <EffectConditions />
-              <ChildEffects />
-            </EffectTransformHolder>
-          </EffectTransforms>
-        </EffectHolder>
-      </NormalEffects>
-      <ImprovedEffects />
-    </TrapEffectHolder>
-    <TrapEffectHolder>
-      <Name>Bleed Trap</Name>
-      <Description>Deals low Physical damage and inflicts Bleeding.</Description>
-      <CompatibleItems>
-        <string>Predator Bones</string>
-        <string>Insect Husk</string>
-      </CompatibleItems>
-      <CompatibleTags>
-        <string>Blade</string>
-        <string>Axe</string>
-      </CompatibleTags>
-      <NormalEffects>
-        <EffectHolder xsi:type="ShootBlastHolder">
-          <BlastLifespan>0</BlastLifespan>
-          <RefreshTime>0.1</RefreshTime>
-          <EffectTransforms>
-            <EffectTransformHolder>
-              <TransformName>Effects</TransformName>
-              <Effects>
-                <EffectHolder xsi:type="PunctualDamageHolder">
-                  <Damage>
-                    <Damages>
-                      <Damage>60</Damage>
-                      <Damage_Type>Physical</Damage_Type>
-                    </Damages>
-                  </Damage>
-                  <Damages_AI />
-                  <Knockback>80</Knockback>
-                  <HitInventory>true</HitInventory>
-                </EffectHolder>
-                <EffectHolder xsi:type="AddStatusEffectHolder">
-                  <StatusEffect>Bleeding +</StatusEffect>
-                  <ChanceToContract>100</ChanceToContract>
-                </EffectHolder>
-              </Effects>
-              <EffectConditions />
-              <ChildEffects />
-            </EffectTransformHolder>
-          </EffectTransforms>
-        </EffectHolder>
-      </NormalEffects>
-      <ImprovedEffects />
-    </TrapEffectHolder>
-    <TrapEffectHolder>
-      <Name>Bludgeon Trap</Name>
-      <Description>Deals low Physical damage with high Impact and inflicts Confusion.</Description>
-      <CompatibleItems />
-      <CompatibleTags>
-        <string>Bludgeon</string>
-      </CompatibleTags>
-      <NormalEffects>
-        <EffectHolder xsi:type="ShootBlastHolder">
-          <BlastLifespan>0</BlastLifespan>
-          <RefreshTime>0.1</RefreshTime>
-          <EffectTransforms>
-            <EffectTransformHolder>
-              <TransformName>Effects</TransformName>
-              <Effects>
-                <EffectHolder xsi:type="PunctualDamageHolder">
-                  <Damage>
-                    <Damages>
-                      <Damage>35</Damage>
-                      <Damage_Type>Physical</Damage_Type>
-                    </Damages>
-                  </Damage>
-                  <Damages_AI />
-                  <Knockback>120</Knockback>
-                  <HitInventory>true</HitInventory>
-                </EffectHolder>
-                <EffectHolder xsi:type="AddStatusEffectHolder">
-                  <StatusEffect>Confusion</StatusEffect>
-                  <ChanceToContract>100</ChanceToContract>
-                </EffectHolder>
-              </Effects>
-              <EffectConditions />
-              <ChildEffects />
-            </EffectTransformHolder>
-          </EffectTransforms>
-        </EffectHolder>
-      </NormalEffects>
-      <ImprovedEffects />
-    </TrapEffectHolder>
-  </TrapEffects>
-</ItemHolder>
+</DM_Item>

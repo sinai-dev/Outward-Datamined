@@ -1,25 +1,93 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ItemHolder xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="SkillHolder">
-  <ItemID>8300292</ItemID>
-  <Name>Squire Tendrils</Name>
+<DM_MeleeSkill xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <gameObjectName>8300292_SquireTendrils</gameObjectName>
   <saveDir>/Skill/AttackSkill/MeleeSkill</saveDir>
+  <ItemID>8300292</ItemID>
+  <Name>Squire Tendrils</Name>
   <Description />
   <LegacyItemID>-1</LegacyItemID>
-  <PerishTime>-1</PerishTime>
+  <IsPickable>false</IsPickable>
+  <IsUsable>false</IsUsable>
+  <QtyRemovedOnUse>1</QtyRemovedOnUse>
+  <GroupItemInDisplay>false</GroupItemInDisplay>
+  <HasPhysicsWhenWorld>false</HasPhysicsWhenWorld>
+  <RepairedInRest>true</RepairedInRest>
+  <BehaviorOnNoDurability>NotSet</BehaviorOnNoDurability>
+  <CastType>WeaponSkill1</CastType>
+  <CastModifier>Attack</CastModifier>
+  <CastLocomotionEnabled>false</CastLocomotionEnabled>
+  <MobileCastMovementMult>-1</MobileCastMovementMult>
+  <CastSheatheRequired>2</CastSheatheRequired>
   <Tags />
   <EffectTransforms>
-    <EffectTransformHolder>
+    <DM_EffectTransform>
       <TransformName>Effects</TransformName>
       <Effects>
-        <EffectHolder xsi:type="ShootProjectileHolder">
+        <DM_Effect xsi:type="DM_ShootProjectile">
+          <Delay>0</Delay>
+          <SyncType>OwnerSync</SyncType>
+          <OverrideCategory>None</OverrideCategory>
+          <CastPosition>Local</CastPosition>
+          <LocalPositionAdd>
+            <x>0</x>
+            <y>1.5</y>
+            <z>0</z>
+          </LocalPositionAdd>
+          <NoAim>false</NoAim>
+          <TargetType>Enemies</TargetType>
+          <TransformName>ShooterTransform</TransformName>
+          <BaseProjectile>SquireTendrils</BaseProjectile>
+          <ProjectileShots />
+          <Lifespan>0.5</Lifespan>
+          <LateShootTime>0.1</LateShootTime>
+          <Unblockable>false</Unblockable>
+          <EffectsOnlyIfHitCharacter>false</EffectsOnlyIfHitCharacter>
+          <EndMode>LifetimeOnly</EndMode>
+          <DisableOnHit>false</DisableOnHit>
+          <IgnoreShooterCollision>true</IgnoreShooterCollision>
           <TargetingMode>NONE</TargetingMode>
+          <TargetCountPerProjectile>1</TargetCountPerProjectile>
+          <TargetRange>0</TargetRange>
           <AutoTarget>false</AutoTarget>
-          <EffectTransforms>
-            <EffectTransformHolder>
+          <AutoTargetMaxAngle>360</AutoTargetMaxAngle>
+          <AutoTargetRange>5</AutoTargetRange>
+          <ProjectileForce>5</ProjectileForce>
+          <AddDirection>
+            <x>0</x>
+            <y>0</y>
+            <z>0</z>
+          </AddDirection>
+          <AddRotationForce>
+            <x>0</x>
+            <y>0</y>
+            <z>0</z>
+          </AddRotationForce>
+          <YMagnitudeAffect>0.002</YMagnitudeAffect>
+          <YMagnitudeForce>0</YMagnitudeForce>
+          <DefenseLength>3</DefenseLength>
+          <DefenseRange>3</DefenseRange>
+          <PhysicsLayerMask>4198400</PhysicsLayerMask>
+          <OnlyExplodeOnLayerMask>true</OnlyExplodeOnLayerMask>
+          <ImpactSoundMaterial>Fire</ImpactSoundMaterial>
+          <LightIntensityFade>
+            <x>10</x>
+            <y>2</y>
+          </LightIntensityFade>
+          <PointOffset>
+            <x>0</x>
+            <y>0</y>
+            <z>0</z>
+          </PointOffset>
+          <TrailEnabled>false</TrailEnabled>
+          <TrailTime>0.075</TrailTime>
+          <ProjectileEffects>
+            <DM_EffectTransform>
               <TransformName>HitEffects</TransformName>
               <Effects>
-                <EffectHolder xsi:type="PunctualDamageHolder">
+                <DM_Effect xsi:type="DM_PunctualDamage">
+                  <Delay>0</Delay>
+                  <SyncType>OwnerSync</SyncType>
+                  <OverrideCategory>None</OverrideCategory>
                   <Damage>
                     <Damages>
                       <Damage>5</Damage>
@@ -29,28 +97,50 @@
                   <Damages_AI />
                   <Knockback>0</Knockback>
                   <HitInventory>false</HitInventory>
-                </EffectHolder>
-                <EffectHolder xsi:type="AffectHealthParentOwnerHolder">
+                </DM_Effect>
+                <DM_Effect xsi:type="DM_AffectHealthParentOwner">
+                  <Delay>0</Delay>
+                  <SyncType>OwnerSync</SyncType>
+                  <OverrideCategory>None</OverrideCategory>
                   <AffectQuantity>50</AffectQuantity>
                   <Requires_AffectedChar>true</Requires_AffectedChar>
                   <IsModifier>false</IsModifier>
-                </EffectHolder>
+                </DM_Effect>
               </Effects>
               <EffectConditions />
               <ChildEffects />
-            </EffectTransformHolder>
-          </EffectTransforms>
-        </EffectHolder>
+            </DM_EffectTransform>
+          </ProjectileEffects>
+        </DM_Effect>
       </Effects>
       <EffectConditions />
       <ChildEffects />
-    </EffectTransformHolder>
+    </DM_EffectTransform>
   </EffectTransforms>
   <Cooldown>5</Cooldown>
   <StaminaCost>10</StaminaCost>
   <ManaCost>0</ManaCost>
   <DurabilityCost>0</DurabilityCost>
   <DurabilityCostPercent>0</DurabilityCostPercent>
-  <IsDLCSkill>true</IsDLCSkill>
   <RequiredItems />
-</ItemHolder>
+  <AmmunitionTypes />
+  <RequiredOffHandTypes />
+  <RequiredWeaponTypes>
+    <WeaponType>Sword_1H</WeaponType>
+    <WeaponType>Axe_1H</WeaponType>
+    <WeaponType>Mace_1H</WeaponType>
+    <WeaponType>Halberd_2H</WeaponType>
+    <WeaponType>Sword_2H</WeaponType>
+    <WeaponType>Axe_2H</WeaponType>
+    <WeaponType>Mace_2H</WeaponType>
+    <WeaponType>Spear_2H</WeaponType>
+  </RequiredWeaponTypes>
+  <RequiredWeaponTags />
+  <RequireImbue>false</RequireImbue>
+  <Blockable>false</Blockable>
+  <Damage>0</Damage>
+  <Impact>0</Impact>
+  <LinecastCount>0</LinecastCount>
+  <Radius>0</Radius>
+  <Unblockable>false</Unblockable>
+</DM_MeleeSkill>

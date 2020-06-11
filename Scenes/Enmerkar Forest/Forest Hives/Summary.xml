@@ -57,7 +57,7 @@
     </QuantityHolder>
   </Gatherables>
   <Item_Spawns>
-    <ItemSpawnHolder>
+    <DM_ItemSpawn>
       <Name>Camouflaged Tent</Name>
       <Item_ID>5000030</Item_ID>
       <Quantity>1</Quantity>
@@ -68,7 +68,7 @@
           <z>-45.242115</z>
         </Vector3>
       </positions>
-    </ItemSpawnHolder>
+    </DM_ItemSpawn>
   </Item_Spawns>
   <UniqueContainerList>
     <string>Scavenger’s Corpse_CHibQoSEDE6N3rY0taXw2Q</string>

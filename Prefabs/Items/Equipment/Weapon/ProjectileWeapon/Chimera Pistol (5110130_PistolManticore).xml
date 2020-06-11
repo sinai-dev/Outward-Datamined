@@ -1,13 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ItemHolder xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="WeaponHolder">
-  <ItemID>5110130</ItemID>
-  <Name>Chimera Pistol</Name>
+<DM_Weapon xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <gameObjectName>5110130_PistolManticore</gameObjectName>
   <saveDir>/Equipment/Weapon/ProjectileWeapon</saveDir>
+  <ItemID>5110130</ItemID>
+  <Name>Chimera Pistol</Name>
   <Description>Powerful gun that inflicts vulnerability to Fire, Frost, Lightning, Decay and Ethereal damage.</Description>
   <LegacyItemID>-1</LegacyItemID>
-  <PerishTime>-1</PerishTime>
-  <StatsHolder xsi:type="WeaponStatsHolder">
+  <IsPickable>true</IsPickable>
+  <IsUsable>false</IsUsable>
+  <QtyRemovedOnUse>1</QtyRemovedOnUse>
+  <GroupItemInDisplay>false</GroupItemInDisplay>
+  <HasPhysicsWhenWorld>false</HasPhysicsWhenWorld>
+  <RepairedInRest>true</RepairedInRest>
+  <BehaviorOnNoDurability>NotSet</BehaviorOnNoDurability>
+  <CastType>NONE</CastType>
+  <CastModifier>Immobilized</CastModifier>
+  <CastLocomotionEnabled>false</CastLocomotionEnabled>
+  <MobileCastMovementMult>-1</MobileCastMovementMult>
+  <CastSheatheRequired>1</CastSheatheRequired>
+  <Tags>
+    <string>Pistol</string>
+    <string>Trinket</string>
+    <string>Item</string>
+    <string>Weapon</string>
+  </Tags>
+  <StatsHolder xsi:type="DM_WeaponStats">
     <BaseValue>2000</BaseValue>
     <RawWeight>2</RawWeight>
     <MaxDurability>200</MaxDurability>
@@ -50,7 +67,8 @@
       </Damages>
     </BaseDamage>
     <Impact>70</Impact>
-    <AttackCount>5</AttackCount>
+    <StamCost>0</StamCost>
+    <AutoGenerateAttackData>false</AutoGenerateAttackData>
     <Attacks>
       <AttackData>
         <StamCost>0</StamCost>
@@ -94,29 +112,29 @@
       </AttackData>
     </Attacks>
   </StatsHolder>
-  <Tags>
-    <string>Pistol</string>
-    <string>Trinket</string>
-    <string>Item</string>
-    <string>Weapon</string>
-  </Tags>
   <EffectTransforms>
-    <EffectTransformHolder>
+    <DM_EffectTransform>
       <TransformName>HitEffects</TransformName>
       <Effects>
-        <EffectHolder xsi:type="AddStatusEffectBuildupHolder">
+        <DM_Effect xsi:type="DM_AddStatusEffectBuildUp">
+          <Delay>0</Delay>
+          <SyncType>OwnerSync</SyncType>
+          <OverrideCategory>None</OverrideCategory>
           <StatusEffect>Elemental Vulnerability</StatusEffect>
           <Buildup>100</Buildup>
-        </EffectHolder>
+        </DM_Effect>
       </Effects>
       <EffectConditions />
       <ChildEffects />
-    </EffectTransformHolder>
+    </DM_EffectTransform>
   </EffectTransforms>
-  <EquipmentSlot>LeftHand</EquipmentSlot>
-  <IKType>None</IKType>
+  <EquipSlot>LeftHand</EquipSlot>
   <TwoHandType>None</TwoHandType>
+  <IKType>None</IKType>
   <VisualDetectabilityAdd>0</VisualDetectabilityAdd>
   <WeaponType>Pistol_OH</WeaponType>
-  <StamCost>0</StamCost>
-</ItemHolder>
+  <Unblockable>false</Unblockable>
+  <SwingSound>Default</SwingSound>
+  <SpecialIsZoom>false</SpecialIsZoom>
+  <MaxProjectileShots>1</MaxProjectileShots>
+</DM_Weapon>

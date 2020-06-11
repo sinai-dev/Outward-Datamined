@@ -1,13 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ItemHolder xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="QuestHolder">
-  <ItemID>7091000</ItemID>
-  <Name>Cursed Water Quest - Herman's Meeting </Name>
+<DM_Item xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <gameObjectName>7091000_GreasyFernQuestBackup</gameObjectName>
   <saveDir>/Quest</saveDir>
+  <ItemID>7091000</ItemID>
+  <Name>Cursed Water Quest - Herman's Meeting </Name>
   <Description />
   <LegacyItemID>-1</LegacyItemID>
-  <PerishTime>-1</PerishTime>
+  <IsPickable>false</IsPickable>
+  <IsUsable>false</IsUsable>
+  <QtyRemovedOnUse>1</QtyRemovedOnUse>
+  <GroupItemInDisplay>false</GroupItemInDisplay>
+  <HasPhysicsWhenWorld>false</HasPhysicsWhenWorld>
+  <RepairedInRest>true</RepairedInRest>
+  <BehaviorOnNoDurability>NotSet</BehaviorOnNoDurability>
+  <CastType>NONE</CastType>
+  <CastModifier>Immobilized</CastModifier>
+  <CastLocomotionEnabled>false</CastLocomotionEnabled>
+  <MobileCastMovementMult>-1</MobileCastMovementMult>
+  <CastSheatheRequired>1</CastSheatheRequired>
   <Tags />
   <EffectTransforms />
-  <SerializedCanvas>{"version":2.92,"type":"NodeCanvas.StateMachines.QuestTree","translation":{"x":-9166.0,"y":-4121.0},"zoomFactor":0.7500097,"nodes":[{"_actionList":{"executionMode":"ActionsRunInParallel","actions":[{"statement":{"_text":"I need to fetch some greasy fern for the doctor to brew medicine for my sister. I was told it tends to grow at higher altitudes."},"logParameters":[],"$type":"NodeCanvas.Tasks.Actions.QuestAction_AddLogEntry"}]},"_position":{"x":12300.0,"y":5730.0},"$type":"NodeCanvas.StateMachines.QuestStep","$id":"2"},{"_actionList":{"executionMode":"ActionsRunInParallel","actions":[{"QuestEventRef":{"m_eventUID":"y-VBEAuAMEaaodnx2zyPhg"},"saveCompletion":{},"m_objective":{"UID":"9964b73216784c2d88891054ce8032a8","$type":"QuestSystem.QuestObjectives.EventOccured"},"$type":"QuestSystem.NodeObjectives.QuestAction_QuestEventOccured"}]},"_position":{"x":12630.0,"y":5790.0},"$type":"NodeCanvas.StateMachines.QuestStep","$id":"7"},{"_actionList":{"executionMode":"ActionsRunInParallel","actions":[{"statement":{"_text":"The town guard won't let me leave unless I am adequately prepared. He asked me to return with a weapon and at least two survival related items or skills (food, camping equipment, medicine, etc.)"},"logParameters":[],"$type":"NodeCanvas.Tasks.Actions.QuestAction_AddLogEntry"}]},"_position":{"x":13050.0,"y":5745.0},"$type":"NodeCanvas.StateMachines.QuestStep","$id":"14"},{"_actionList":{"executionMode":"ActionsRunInParallel","actions":[{"QuestEventRef":{"m_eventUID":"fPAUdhXPpEWsC9Cmd82ReQ"},"saveCompletion":{},"m_objective":{"UID":"9ef1f73b239a455fb1e393eb465d5de7","$type":"QuestSystem.QuestObjectives.EventOccured"},"$type":"QuestSystem.NodeObjectives.QuestAction_QuestEventOccured"}]},"_position":{"x":13440.0,"y":5775.0},"$type":"NodeCanvas.StateMachines.QuestStep","$id":"19"},{"_actionList":{"executionMode":"ActionsRunInParallel","actions":[{"statement":{"_text":"The guard finally let me pass."},"logParameters":[],"$type":"NodeCanvas.Tasks.Actions.QuestAction_AddLogEntry"}]},"_position":{"x":13860.0,"y":5760.0},"$type":"NodeCanvas.StateMachines.QuestStep","$id":"26"},{"_actionList":{"executionMode":"ActionsRunInParallel","actions":[{"QuestEventRef":{"m_eventUID":"LsKnKiFT8US-AlPfy6hDtQ"},"saveCompletion":{},"m_objective":{"UID":"4cad95e881374b829f851a1238375792","$type":"QuestSystem.QuestObjectives.EventOccured"},"$type":"QuestSystem.NodeObjectives.QuestAction_QuestEventOccured"}]},"_position":{"x":14205.0,"y":5790.0},"$type":"NodeCanvas.StateMachines.QuestStep","$id":"31"},{"_actionList":{"executionMode":"ActionsRunInParallel","actions":[{"statement":{"_text":"I brought back the fern, but it was too late..."},"logParameters":[],"$type":"NodeCanvas.Tasks.Actions.QuestAction_AddLogEntry"}]},"_position":{"x":14550.0,"y":5775.0},"$type":"NodeCanvas.StateMachines.QuestStep","$id":"38"},{"_position":{"x":12330.0,"y":5985.0},"$type":"NodeCanvas.StateMachines.AnyState","$id":"43"},{"_actionList":{"executionMode":"ActionsRunInParallel","actions":[{"statement":{"_text":"Goodbye dear sister, I will miss you."},"logParameters":[],"$type":"NodeCanvas.Tasks.Actions.QuestAction_AddLogEntry"}]},"_position":{"x":12720.0,"y":5985.0},"$type":"NodeCanvas.StateMachines.QuestStep","$id":"44"},{"_actionList":{"executionMode":"ActionsRunInParallel","actions":[{"isSuccessful":{},"$type":"NodeCanvas.Tasks.Actions.CompleteQuest"}]},"_position":{"x":13110.0,"y":6030.0},"$type":"NodeCanvas.StateMachines.QuestStep","$id":"49"}],"connections":[{"_sourceNode":{"$ref":"2"},"_targetNode":{"$ref":"7"},"$type":"NodeCanvas.StateMachines.FSMConnection"},{"_sourceNode":{"$ref":"7"},"_targetNode":{"$ref":"14"},"$type":"NodeCanvas.StateMachines.FSMConnection"},{"_sourceNode":{"$ref":"14"},"_targetNode":{"$ref":"19"},"$type":"NodeCanvas.StateMachines.FSMConnection"},{"_sourceNode":{"$ref":"19"},"_targetNode":{"$ref":"26"},"$type":"NodeCanvas.StateMachines.FSMConnection"},{"_sourceNode":{"$ref":"26"},"_targetNode":{"$ref":"31"},"$type":"NodeCanvas.StateMachines.FSMConnection"},{"_sourceNode":{"$ref":"31"},"_targetNode":{"$ref":"38"},"$type":"NodeCanvas.StateMachines.FSMConnection"},{"_condition":{"QuestEventRef":{"m_eventUID":"LsKnKiFT8US-AlPfy6hDtQ"},"$type":"NodeCanvas.Tasks.Conditions.Condition_QuestEventOccured"},"_sourceNode":{"$ref":"43"},"_targetNode":{"$ref":"44"},"$type":"NodeCanvas.StateMachines.FSMConnection"},{"_sourceNode":{"$ref":"44"},"_targetNode":{"$ref":"49"},"$type":"NodeCanvas.StateMachines.FSMConnection"}],"canvasGroups":[],"localBlackboard":{"_name":"Local Blackboard","_variables":{}}}</SerializedCanvas>
-</ItemHolder>
+</DM_Item>

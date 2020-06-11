@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ContainerSummary xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<LootContainerSummary xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Name>Chest</Name>
   <ItemID>0</ItemID>
   <All_Locations>
@@ -225,15 +225,15 @@
     </QuantityHolder>
   </All_Locations>
   <DropTables>
-    <ContainerDroptableSummary>
+    <DroptableSummary>
       <DropTableName>DropTable_Neutral_Cloth_Rich_1</DropTableName>
       <Locations>
         <string>Cierzo</string>
         <string>Cierzo (Destroyed)</string>
         <string>Levant</string>
       </Locations>
-    </ContainerDroptableSummary>
-    <ContainerDroptableSummary>
+    </DroptableSummary>
+    <DroptableSummary>
       <DropTableName>DropTable_Neutral_Consumable_Low_2</DropTableName>
       <Locations>
         <string>Cierzo</string>
@@ -267,16 +267,16 @@
         <string>Tree Husk</string>
         <string>Vigil Pylon</string>
       </Locations>
-    </ContainerDroptableSummary>
-    <ContainerDroptableSummary>
+    </DroptableSummary>
+    <DroptableSummary>
       <DropTableName>DropTable_Chersonese_Recipe_Weapon_1</DropTableName>
       <Locations>
         <string>Cierzo (Destroyed)</string>
         <string>Chersonese</string>
         <string>Holy Mission’s Conflux Path</string>
       </Locations>
-    </ContainerDroptableSummary>
-    <ContainerDroptableSummary>
+    </DroptableSummary>
+    <DroptableSummary>
       <DropTableName>DropTable_Chersonese_Equipment_High_1</DropTableName>
       <Locations>
         <string>Cierzo (Destroyed)</string>
@@ -292,8 +292,8 @@
         <string>Bandits' Prison</string>
         <string>Abandoned Shed</string>
       </Locations>
-    </ContainerDroptableSummary>
-    <ContainerDroptableSummary>
+    </DroptableSummary>
+    <DroptableSummary>
       <DropTableName>DropTable_Neutral_Alchemy_Low_2</DropTableName>
       <Locations>
         <string>Cierzo (Destroyed)</string>
@@ -328,14 +328,14 @@
         <string>Dolmen Crypt</string>
         <string>Old Hunter's Cabin</string>
       </Locations>
-    </ContainerDroptableSummary>
-    <ContainerDroptableSummary>
+    </DroptableSummary>
+    <DroptableSummary>
       <DropTableName>DropTable_Neutral_Valuable_High_1</DropTableName>
       <Locations>
         <string>Cierzo (Destroyed)</string>
       </Locations>
-    </ContainerDroptableSummary>
-    <ContainerDroptableSummary>
+    </DroptableSummary>
+    <DroptableSummary>
       <DropTableName>DropTable_Neutral_Magic_Low_2</DropTableName>
       <Locations>
         <string>Cierzo (Destroyed)</string>
@@ -364,8 +364,8 @@
         <string>Necropolis</string>
         <string>Immaculate's Camp</string>
       </Locations>
-    </ContainerDroptableSummary>
-    <ContainerDroptableSummary>
+    </DroptableSummary>
+    <DroptableSummary>
       <DropTableName>DropTable_Chersonese_Equipment_Medium_1</DropTableName>
       <Locations>
         <string>Chersonese</string>
@@ -375,8 +375,8 @@
         <string>Montcalm Clan Fort</string>
         <string>Mansion's Cellar</string>
       </Locations>
-    </ContainerDroptableSummary>
-    <ContainerDroptableSummary>
+    </DroptableSummary>
+    <DroptableSummary>
       <DropTableName>DropTable_Neutral_Survival_Medium_1</DropTableName>
       <Locations>
         <string>Chersonese</string>
@@ -406,8 +406,8 @@
         <string>Vigil Pylon</string>
         <string>Tree Husk</string>
       </Locations>
-    </ContainerDroptableSummary>
-    <ContainerDroptableSummary>
+    </DroptableSummary>
+    <DroptableSummary>
       <DropTableName>DropTable_Chersonese_Recipe_Basic_1</DropTableName>
       <Locations>
         <string>Chersonese</string>
@@ -417,8 +417,8 @@
         <string>Montcalm Clan Fort</string>
         <string>Vigil Tomb</string>
       </Locations>
-    </ContainerDroptableSummary>
-    <ContainerDroptableSummary>
+    </DroptableSummary>
+    <DroptableSummary>
       <DropTableName>DropTable_Neutral_StandardRecipe_High_1</DropTableName>
       <Locations>
         <string>Chersonese</string>
@@ -434,16 +434,16 @@
         <string>Cabal of Wind Temple</string>
         <string>Necropolis</string>
       </Locations>
-    </ContainerDroptableSummary>
-    <ContainerDroptableSummary>
+    </DroptableSummary>
+    <DroptableSummary>
       <DropTableName>DropTable_Chersonese_Food_1</DropTableName>
       <Locations>
         <string>Chersonese</string>
         <string>Vendavel Fortress</string>
         <string>Montcalm Clan Fort</string>
       </Locations>
-    </ContainerDroptableSummary>
-    <ContainerDroptableSummary>
+    </DroptableSummary>
+    <DroptableSummary>
       <DropTableName>DropTable_Neutral_Valuable_Low_1</DropTableName>
       <Locations>
         <string>Chersonese</string>
@@ -455,8 +455,8 @@
         <string>Face of the Ancients</string>
         <string>Vigil Pylon</string>
       </Locations>
-    </ContainerDroptableSummary>
-    <ContainerDroptableSummary>
+    </DroptableSummary>
+    <DroptableSummary>
       <DropTableName>DropTable_Neutral_Survival_High_1</DropTableName>
       <Locations>
         <string>Chersonese</string>
@@ -466,8 +466,8 @@
         <string>Levant</string>
         <string>Electric Lab</string>
       </Locations>
-    </ContainerDroptableSummary>
-    <ContainerDroptableSummary>
+    </DroptableSummary>
+    <DroptableSummary>
       <DropTableName>DropTable_Neutral_StandardRecipe_Low_1</DropTableName>
       <Locations>
         <string>Vendavel Fortress</string>
@@ -489,8 +489,8 @@
         <string>Tree Husk</string>
         <string>Vigil Pylon</string>
       </Locations>
-    </ContainerDroptableSummary>
-    <ContainerDroptableSummary>
+    </DroptableSummary>
+    <DroptableSummary>
       <DropTableName>DropTable_Neutral_Recipe_Dungeon_1</DropTableName>
       <Locations>
         <string>Ghost Pass</string>
@@ -501,8 +501,8 @@
         <string>Stone Titan Caves</string>
         <string>Dock's Storage</string>
       </Locations>
-    </ContainerDroptableSummary>
-    <ContainerDroptableSummary>
+    </DroptableSummary>
+    <DroptableSummary>
       <DropTableName>DropTable_Neutral_Magic_High_1</DropTableName>
       <Locations>
         <string>Blue Chamber’s Conflux Path</string>
@@ -516,8 +516,8 @@
         <string>Necropolis</string>
         <string>Burnt Outpost</string>
       </Locations>
-    </ContainerDroptableSummary>
-    <ContainerDroptableSummary>
+    </DroptableSummary>
+    <DroptableSummary>
       <DropTableName>DropTable_Neutral_Survival_Low_2</DropTableName>
       <Locations>
         <string>Holy Mission’s Conflux Path</string>
@@ -542,20 +542,20 @@
         <string>Ancestor’s Resting Place</string>
         <string>Necropolis</string>
       </Locations>
-    </ContainerDroptableSummary>
-    <ContainerDroptableSummary>
+    </DroptableSummary>
+    <DroptableSummary>
       <DropTableName>DropTable_Neutral_Alchemy_High_1</DropTableName>
       <Locations>
         <string>Heroic Kingdom’s Conflux Path</string>
       </Locations>
-    </ContainerDroptableSummary>
-    <ContainerDroptableSummary>
+    </DroptableSummary>
+    <DroptableSummary>
       <DropTableName>DropTable_Chersonese_Equipment_HighDungeon_1</DropTableName>
       <Locations>
         <string>Heroic Kingdom’s Conflux Path</string>
       </Locations>
-    </ContainerDroptableSummary>
-    <ContainerDroptableSummary>
+    </DroptableSummary>
+    <DroptableSummary>
       <DropTableName>DropTable_Neutral_Food_1</DropTableName>
       <Locations>
         <string>Montcalm Clan Fort</string>
@@ -564,8 +564,8 @@
         <string>Berg</string>
         <string>Old Hunter's Cabin</string>
       </Locations>
-    </ContainerDroptableSummary>
-    <ContainerDroptableSummary>
+    </DroptableSummary>
+    <DroptableSummary>
       <DropTableName>DropTable_HallowedMarsh_Equipment_Medium_1</DropTableName>
       <Locations>
         <string>Hallowed Marsh</string>
@@ -575,15 +575,15 @@
         <string>Flooded Cellar</string>
         <string>Immaculate's Camp</string>
       </Locations>
-    </ContainerDroptableSummary>
-    <ContainerDroptableSummary>
+    </DroptableSummary>
+    <DroptableSummary>
       <DropTableName>DropTable_HallowedMarsh_Equipment_Low_1</DropTableName>
       <Locations>
         <string>Hallowed Marsh</string>
         <string>Giants’ Village</string>
       </Locations>
-    </ContainerDroptableSummary>
-    <ContainerDroptableSummary>
+    </DroptableSummary>
+    <DroptableSummary>
       <DropTableName>DropTable_HallowedMarsh_Equipment_High_1</DropTableName>
       <Locations>
         <string>Hallowed Marsh</string>
@@ -592,8 +592,8 @@
         <string>Spire of Light</string>
         <string>Dead Roots</string>
       </Locations>
-    </ContainerDroptableSummary>
-    <ContainerDroptableSummary>
+    </DroptableSummary>
+    <DroptableSummary>
       <DropTableName>DropTable_HallowedMarsh_Recipe_Weapon_1</DropTableName>
       <Locations>
         <string>Hallowed Marsh</string>
@@ -603,16 +603,16 @@
         <string>Dead Roots</string>
         <string>Abandoned Shed</string>
       </Locations>
-    </ContainerDroptableSummary>
-    <ContainerDroptableSummary>
+    </DroptableSummary>
+    <DroptableSummary>
       <DropTableName>DropTable_HallowedMarsh_Recipe_Basic_1</DropTableName>
       <Locations>
         <string>Hallowed Marsh</string>
         <string>Jade Quarry</string>
         <string>Immaculate's Camp</string>
       </Locations>
-    </ContainerDroptableSummary>
-    <ContainerDroptableSummary>
+    </DroptableSummary>
+    <DroptableSummary>
       <DropTableName>DropTable_Neutral_Consumable_High_1</DropTableName>
       <Locations>
         <string>Reptilian Lair</string>
@@ -621,21 +621,21 @@
         <string>Immaculate's Camp</string>
         <string>Dolmen Crypt</string>
       </Locations>
-    </ContainerDroptableSummary>
-    <ContainerDroptableSummary>
+    </DroptableSummary>
+    <DroptableSummary>
       <DropTableName>DropTable_Abrassar_Equipment_Low_1</DropTableName>
       <Locations>
         <string>Levant</string>
       </Locations>
-    </ContainerDroptableSummary>
-    <ContainerDroptableSummary>
+    </DroptableSummary>
+    <DroptableSummary>
       <DropTableName>DropTable_Abrassar_Food_1</DropTableName>
       <Locations>
         <string>Levant</string>
         <string>Abrassar</string>
       </Locations>
-    </ContainerDroptableSummary>
-    <ContainerDroptableSummary>
+    </DroptableSummary>
+    <DroptableSummary>
       <DropTableName>DropTable_Abrassar_Recipe_Basic_1</DropTableName>
       <Locations>
         <string>Levant</string>
@@ -646,20 +646,20 @@
         <string>Stone Titan Caves</string>
         <string>Sand Rose Cave</string>
       </Locations>
-    </ContainerDroptableSummary>
-    <ContainerDroptableSummary>
+    </DroptableSummary>
+    <DroptableSummary>
       <DropTableName>DropTable_Abrassar_UniqueWeaponsStash_Poor</DropTableName>
       <Locations>
         <string>Levant</string>
       </Locations>
-    </ContainerDroptableSummary>
-    <ContainerDroptableSummary>
+    </DroptableSummary>
+    <DroptableSummary>
       <DropTableName>DropTable_Abrassar_Equipment_Low</DropTableName>
       <Locations>
         <string>Levant</string>
       </Locations>
-    </ContainerDroptableSummary>
-    <ContainerDroptableSummary>
+    </DroptableSummary>
+    <DroptableSummary>
       <DropTableName>DropTable_Abrassar_Equipment_Medium_1</DropTableName>
       <Locations>
         <string>Abrassar</string>
@@ -667,8 +667,8 @@
         <string>Electric Lab</string>
         <string>The Slide</string>
       </Locations>
-    </ContainerDroptableSummary>
-    <ContainerDroptableSummary>
+    </DroptableSummary>
+    <DroptableSummary>
       <DropTableName>DropTable_Abrassar_Recipe_Weapon_1</DropTableName>
       <Locations>
         <string>Undercity Passage</string>
@@ -681,8 +681,8 @@
         <string>Immaculate's Camp</string>
         <string>Captain's Cabin</string>
       </Locations>
-    </ContainerDroptableSummary>
-    <ContainerDroptableSummary>
+    </DroptableSummary>
+    <DroptableSummary>
       <DropTableName>DropTable_Abrassar_Equipment_High_1</DropTableName>
       <Locations>
         <string>Electric Lab</string>
@@ -691,22 +691,22 @@
         <string>Hive Prison</string>
         <string>Captain's Cabin</string>
       </Locations>
-    </ContainerDroptableSummary>
-    <ContainerDroptableSummary>
+    </DroptableSummary>
+    <DroptableSummary>
       <DropTableName>DropTable_Enmerkar_Equipment_Low_1</DropTableName>
       <Locations>
         <string>Berg</string>
         <string>Enmerkar Forest</string>
       </Locations>
-    </ContainerDroptableSummary>
-    <ContainerDroptableSummary>
+    </DroptableSummary>
+    <DroptableSummary>
       <DropTableName>DropTable_Neutral_Cloth_Poor_1</DropTableName>
       <Locations>
         <string>Berg</string>
         <string>Enmerkar Forest</string>
       </Locations>
-    </ContainerDroptableSummary>
-    <ContainerDroptableSummary>
+    </DroptableSummary>
+    <DroptableSummary>
       <DropTableName>DropTable_Enmerkar_Recipe_Basic_1</DropTableName>
       <Locations>
         <string>Enmerkar Forest</string>
@@ -715,8 +715,8 @@
         <string>Necropolis</string>
         <string>Old Hunter's Cabin</string>
       </Locations>
-    </ContainerDroptableSummary>
-    <ContainerDroptableSummary>
+    </DroptableSummary>
+    <DroptableSummary>
       <DropTableName>DropTable_Enmerkar_Equipment_High_1</DropTableName>
       <Locations>
         <string>Enmerkar Forest</string>
@@ -728,8 +728,8 @@
         <string>Burnt Outpost</string>
         <string>Dolmen Crypt</string>
       </Locations>
-    </ContainerDroptableSummary>
-    <ContainerDroptableSummary>
+    </DroptableSummary>
+    <DroptableSummary>
       <DropTableName>DropTable_Enmerkar_Recipe_Weapon_1</DropTableName>
       <Locations>
         <string>Enmerkar Forest</string>
@@ -737,8 +737,8 @@
         <string>Vigil Pylon</string>
         <string>Dolmen Crypt</string>
       </Locations>
-    </ContainerDroptableSummary>
-    <ContainerDroptableSummary>
+    </DroptableSummary>
+    <DroptableSummary>
       <DropTableName>DropTable_Enmerkar_Equipment_Medium_1</DropTableName>
       <Locations>
         <string>Enmerkar Forest</string>
@@ -748,12 +748,12 @@
         <string>Tree Husk</string>
         <string>Old Hunter's Cabin</string>
       </Locations>
-    </ContainerDroptableSummary>
-    <ContainerDroptableSummary>
+    </DroptableSummary>
+    <DroptableSummary>
       <DropTableName>DropTable_Enmerkar_Food_1</DropTableName>
       <Locations>
         <string>Old Hunter's Cabin</string>
       </Locations>
-    </ContainerDroptableSummary>
+    </DroptableSummary>
   </DropTables>
-</ContainerSummary>
+</LootContainerSummary>

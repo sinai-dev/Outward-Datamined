@@ -24,7 +24,7 @@
   </Loot_Containers>
   <Gatherables />
   <Item_Spawns>
-    <ItemSpawnHolder>
+    <DM_ItemSpawn>
       <Name>Petrified Wood</Name>
       <Item_ID>6400080</Item_ID>
       <Quantity>1</Quantity>
@@ -35,8 +35,8 @@
           <z>40.475</z>
         </Vector3>
       </positions>
-    </ItemSpawnHolder>
-    <ItemSpawnHolder>
+    </DM_ItemSpawn>
+    <DM_ItemSpawn>
       <Name>Wood</Name>
       <Item_ID>6100010</Item_ID>
       <Quantity>3</Quantity>
@@ -57,8 +57,8 @@
           <z>40.437</z>
         </Vector3>
       </positions>
-    </ItemSpawnHolder>
-    <ItemSpawnHolder>
+    </DM_ItemSpawn>
+    <DM_ItemSpawn>
       <Name>Explorer Lantern</Name>
       <Item_ID>5100000</Item_ID>
       <Quantity>1</Quantity>
@@ -69,8 +69,8 @@
           <z>40.199</z>
         </Vector3>
       </positions>
-    </ItemSpawnHolder>
-    <ItemSpawnHolder>
+    </DM_ItemSpawn>
+    <DM_ItemSpawn>
       <Name>Flint and Steel</Name>
       <Item_ID>5600010</Item_ID>
       <Quantity>1</Quantity>
@@ -81,8 +81,8 @@
           <z>40.348</z>
         </Vector3>
       </positions>
-    </ItemSpawnHolder>
-    <ItemSpawnHolder>
+    </DM_ItemSpawn>
+    <DM_ItemSpawn>
       <Name>Fire Stone</Name>
       <Item_ID>6500010</Item_ID>
       <Quantity>3</Quantity>
@@ -103,7 +103,7 @@
           <z>35.698</z>
         </Vector3>
       </positions>
-    </ItemSpawnHolder>
+    </DM_ItemSpawn>
   </Item_Spawns>
   <UniqueContainerList>
     <string>Chest_H3WEBgLxm0mgSoUDbRYWDA</string>

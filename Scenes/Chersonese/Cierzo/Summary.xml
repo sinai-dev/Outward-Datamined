@@ -47,7 +47,7 @@
     </QuantityHolder>
   </Gatherables>
   <Item_Spawns>
-    <ItemSpawnHolder>
+    <DM_ItemSpawn>
       <Name>Primitive Satchel</Name>
       <Item_ID>5300120</Item_ID>
       <Quantity>1</Quantity>
@@ -58,8 +58,8 @@
           <z>762.548</z>
         </Vector3>
       </positions>
-    </ItemSpawnHolder>
-    <ItemSpawnHolder>
+    </DM_ItemSpawn>
+    <DM_ItemSpawn>
       <Name>Iron Scrap</Name>
       <Item_ID>6400140</Item_ID>
       <Quantity>1</Quantity>
@@ -70,8 +70,8 @@
           <z>787.5503</z>
         </Vector3>
       </positions>
-    </ItemSpawnHolder>
-    <ItemSpawnHolder>
+    </DM_ItemSpawn>
+    <DM_ItemSpawn>
       <Name>Jerky</Name>
       <Item_ID>4100012</Item_ID>
       <Quantity>2</Quantity>
@@ -87,8 +87,8 @@
           <z>781.417</z>
         </Vector3>
       </positions>
-    </ItemSpawnHolder>
-    <ItemSpawnHolder>
+    </DM_ItemSpawn>
+    <DM_ItemSpawn>
       <Name>Green Worker Attire</Name>
       <Item_ID>3000082</Item_ID>
       <Quantity>1</Quantity>
@@ -99,8 +99,8 @@
           <z>763.296265</z>
         </Vector3>
       </positions>
-    </ItemSpawnHolder>
-    <ItemSpawnHolder>
+    </DM_ItemSpawn>
+    <DM_ItemSpawn>
       <Name>Gaberries</Name>
       <Item_ID>4000010</Item_ID>
       <Quantity>1</Quantity>
@@ -111,8 +111,8 @@
           <z>775.325</z>
         </Vector3>
       </positions>
-    </ItemSpawnHolder>
-    <ItemSpawnHolder>
+    </DM_ItemSpawn>
+    <DM_ItemSpawn>
       <Name>Gaberry Jam</Name>
       <Item_ID>4100030</Item_ID>
       <Quantity>1</Quantity>
@@ -123,8 +123,8 @@
           <z>791.612</z>
         </Vector3>
       </positions>
-    </ItemSpawnHolder>
-    <ItemSpawnHolder>
+    </DM_ItemSpawn>
+    <DM_ItemSpawn>
       <Name>Pitchfork</Name>
       <Item_ID>2130040</Item_ID>
       <Quantity>1</Quantity>
@@ -135,8 +135,8 @@
           <z>1628.57922</z>
         </Vector3>
       </positions>
-    </ItemSpawnHolder>
-    <ItemSpawnHolder>
+    </DM_ItemSpawn>
+    <DM_ItemSpawn>
       <Name>Plank Shield</Name>
       <Item_ID>2300080</Item_ID>
       <Quantity>1</Quantity>
@@ -147,8 +147,8 @@
           <z>1730.134</z>
         </Vector3>
       </positions>
-    </ItemSpawnHolder>
-    <ItemSpawnHolder>
+    </DM_ItemSpawn>
+    <DM_ItemSpawn>
       <Name>Hatchet</Name>
       <Item_ID>2010050</Item_ID>
       <Quantity>1</Quantity>
@@ -159,8 +159,8 @@
           <z>1657.56226</z>
         </Vector3>
       </positions>
-    </ItemSpawnHolder>
-    <ItemSpawnHolder>
+    </DM_ItemSpawn>
+    <DM_ItemSpawn>
       <Name>Quarterstaff</Name>
       <Item_ID>2130030</Item_ID>
       <Quantity>1</Quantity>
@@ -171,8 +171,8 @@
           <z>1643.55725</z>
         </Vector3>
       </positions>
-    </ItemSpawnHolder>
-    <ItemSpawnHolder>
+    </DM_ItemSpawn>
+    <DM_ItemSpawn>
       <Name>Bread</Name>
       <Item_ID>4100170</Item_ID>
       <Quantity>1</Quantity>
@@ -183,8 +183,8 @@
           <z>788.602</z>
         </Vector3>
       </positions>
-    </ItemSpawnHolder>
-    <ItemSpawnHolder>
+    </DM_ItemSpawn>
+    <DM_ItemSpawn>
       <Name>Fishing Harpoon</Name>
       <Item_ID>2130130</Item_ID>
       <Quantity>1</Quantity>
@@ -195,8 +195,8 @@
           <z>1795.199</z>
         </Vector3>
       </positions>
-    </ItemSpawnHolder>
-    <ItemSpawnHolder>
+    </DM_ItemSpawn>
+    <DM_ItemSpawn>
       <Name>Old Lantern</Name>
       <Item_ID>5100010</Item_ID>
       <Quantity>1</Quantity>
@@ -207,8 +207,8 @@
           <z>782.000549</z>
         </Vector3>
       </positions>
-    </ItemSpawnHolder>
-    <ItemSpawnHolder>
+    </DM_ItemSpawn>
+    <DM_ItemSpawn>
       <Name>Improvised Bedroll</Name>
       <Item_ID>5000020</Item_ID>
       <Quantity>1</Quantity>
@@ -219,8 +219,8 @@
           <z>786.326</z>
         </Vector3>
       </positions>
-    </ItemSpawnHolder>
-    <ItemSpawnHolder>
+    </DM_ItemSpawn>
+    <DM_ItemSpawn>
       <Name>Worker Boots</Name>
       <Item_ID>3000083</Item_ID>
       <Quantity>1</Quantity>
@@ -231,8 +231,8 @@
           <z>763.595947</z>
         </Vector3>
       </positions>
-    </ItemSpawnHolder>
-    <ItemSpawnHolder>
+    </DM_ItemSpawn>
+    <DM_ItemSpawn>
       <Name>Felling Greataxe</Name>
       <Item_ID>2110040</Item_ID>
       <Quantity>1</Quantity>
@@ -243,8 +243,8 @@
           <z>1585.239</z>
         </Vector3>
       </positions>
-    </ItemSpawnHolder>
-    <ItemSpawnHolder>
+    </DM_ItemSpawn>
+    <DM_ItemSpawn>
       <Name>Flint and Steel</Name>
       <Item_ID>5600010</Item_ID>
       <Quantity>1</Quantity>
@@ -255,8 +255,8 @@
           <z>787.2793</z>
         </Vector3>
       </positions>
-    </ItemSpawnHolder>
-    <ItemSpawnHolder>
+    </DM_ItemSpawn>
+    <DM_ItemSpawn>
       <Name>Cooking: Cierzo Ceviche</Name>
       <Item_ID>5700046</Item_ID>
       <Quantity>1</Quantity>
@@ -267,8 +267,8 @@
           <z>791.507</z>
         </Vector3>
       </positions>
-    </ItemSpawnHolder>
-    <ItemSpawnHolder>
+    </DM_ItemSpawn>
+    <DM_ItemSpawn>
       <Name>Crafting: Makeshift Leather Boots</Name>
       <Item_ID>5700095</Item_ID>
       <Quantity>1</Quantity>
@@ -279,8 +279,8 @@
           <z>1690.803</z>
         </Vector3>
       </positions>
-    </ItemSpawnHolder>
-    <ItemSpawnHolder>
+    </DM_ItemSpawn>
+    <DM_ItemSpawn>
       <Name>Crafting: Makeshift Leather Hat</Name>
       <Item_ID>5700093</Item_ID>
       <Quantity>1</Quantity>
@@ -291,8 +291,8 @@
           <z>1690.844</z>
         </Vector3>
       </positions>
-    </ItemSpawnHolder>
-    <ItemSpawnHolder>
+    </DM_ItemSpawn>
+    <DM_ItemSpawn>
       <Name>Crafting: Makeshift Leather Attire</Name>
       <Item_ID>5700094</Item_ID>
       <Quantity>1</Quantity>
@@ -303,8 +303,8 @@
           <z>1690.789</z>
         </Vector3>
       </positions>
-    </ItemSpawnHolder>
-    <ItemSpawnHolder>
+    </DM_ItemSpawn>
+    <DM_ItemSpawn>
       <Name>Machete</Name>
       <Item_ID>2000060</Item_ID>
       <Quantity>1</Quantity>
@@ -315,8 +315,8 @@
           <z>1706.537</z>
         </Vector3>
       </positions>
-    </ItemSpawnHolder>
-    <ItemSpawnHolder>
+    </DM_ItemSpawn>
+    <DM_ItemSpawn>
       <Name>Bed</Name>
       <Item_ID>5000002</Item_ID>
       <Quantity>6</Quantity>
@@ -352,8 +352,8 @@
           <z>604.4368</z>
         </Vector3>
       </positions>
-    </ItemSpawnHolder>
-    <ItemSpawnHolder>
+    </DM_ItemSpawn>
+    <DM_ItemSpawn>
       <Name>Waterskin</Name>
       <Item_ID>4200040</Item_ID>
       <Quantity>1</Quantity>
@@ -364,7 +364,7 @@
           <z>1750.846</z>
         </Vector3>
       </positions>
-    </ItemSpawnHolder>
+    </DM_ItemSpawn>
   </Item_Spawns>
   <UniqueContainerList>
     <string>Junk Pile_-dEDtE1qcES6aPTci89fWg</string>

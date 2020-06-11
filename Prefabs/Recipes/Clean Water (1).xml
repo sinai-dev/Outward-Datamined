@@ -1,19 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RecipeHolder xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <StationType>Cooking</StationType>
+<DM_Recipe xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Name>Clean Water</Name>
   <RecipeID>1</RecipeID>
+  <UID />
+  <StationType>Cooking</StationType>
   <Ingredients>
     <string>Salt Water</string>
   </Ingredients>
   <Results>
-    <ItemQuantityHolder>
+    <ItemQty>
       <ItemName>Clean Water</ItemName>
+      <ItemID>5600000</ItemID>
       <Quantity>1</Quantity>
-    </ItemQuantityHolder>
-    <ItemQuantityHolder>
+    </ItemQty>
+    <ItemQty>
       <ItemName>Salt</ItemName>
+      <ItemID>6000070</ItemID>
       <Quantity>1</Quantity>
-    </ItemQuantityHolder>
+    </ItemQty>
   </Results>
-</RecipeHolder>
+</DM_Recipe>

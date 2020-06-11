@@ -47,7 +47,7 @@
     </QuantityHolder>
   </Gatherables>
   <Item_Spawns>
-    <ItemSpawnHolder>
+    <DM_ItemSpawn>
       <Name>Improvised Bedroll</Name>
       <Item_ID>5000021</Item_ID>
       <Quantity>1</Quantity>
@@ -58,8 +58,8 @@
           <z>-88.55</z>
         </Vector3>
       </positions>
-    </ItemSpawnHolder>
-    <ItemSpawnHolder>
+    </DM_ItemSpawn>
+    <DM_ItemSpawn>
       <Name>Cooking: Turmmip Potage</Name>
       <Item_ID>5700021</Item_ID>
       <Quantity>1</Quantity>
@@ -70,8 +70,8 @@
           <z>-89.009</z>
         </Vector3>
       </positions>
-    </ItemSpawnHolder>
-    <ItemSpawnHolder>
+    </DM_ItemSpawn>
+    <DM_ItemSpawn>
       <Name>Linen Cloth</Name>
       <Item_ID>6500090</Item_ID>
       <Quantity>1</Quantity>
@@ -82,7 +82,7 @@
           <z>0</z>
         </Vector3>
       </positions>
-    </ItemSpawnHolder>
+    </DM_ItemSpawn>
   </Item_Spawns>
   <UniqueContainerList>
     <string>Chest_gBDhZUr6ZkqJ1Xn0gbJr2Q</string>

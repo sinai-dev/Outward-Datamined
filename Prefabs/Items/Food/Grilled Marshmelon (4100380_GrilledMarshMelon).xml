@@ -1,17 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ItemHolder xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <ItemID>4100380</ItemID>
-  <Name>Grilled Marshmelon</Name>
+<DM_Item xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <gameObjectName>4100380_GrilledMarshMelon</gameObjectName>
   <saveDir>/Food</saveDir>
+  <ItemID>4100380</ItemID>
+  <Name>Grilled Marshmelon</Name>
   <Description>Tender fruit, boiled to reveal its anti-poison properties.</Description>
   <LegacyItemID>-1</LegacyItemID>
+  <IsPickable>true</IsPickable>
+  <IsUsable>true</IsUsable>
+  <QtyRemovedOnUse>1</QtyRemovedOnUse>
+  <GroupItemInDisplay>true</GroupItemInDisplay>
+  <HasPhysicsWhenWorld>false</HasPhysicsWhenWorld>
+  <RepairedInRest>true</RepairedInRest>
+  <BehaviorOnNoDurability>NotSet</BehaviorOnNoDurability>
+  <CastType>Eat</CastType>
+  <CastModifier>Immobilized</CastModifier>
+  <CastLocomotionEnabled>false</CastLocomotionEnabled>
+  <MobileCastMovementMult>-1</MobileCastMovementMult>
+  <CastSheatheRequired>1</CastSheatheRequired>
   <PerishTime>4 Days, 0 Hours, 9 Minutes, 13 Seconds</PerishTime>
-  <StatsHolder>
-    <BaseValue>3</BaseValue>
-    <RawWeight>3</RawWeight>
-    <MaxDurability>100</MaxDurability>
-  </StatsHolder>
   <Tags>
     <string>Dish</string>
     <string>Food</string>
@@ -22,26 +29,39 @@
     <string>Ingredient Cook</string>
     <string>Ingredient</string>
   </Tags>
+  <StatsHolder>
+    <BaseValue>3</BaseValue>
+    <RawWeight>3</RawWeight>
+    <MaxDurability>100</MaxDurability>
+  </StatsHolder>
   <EffectTransforms>
-    <EffectTransformHolder>
+    <DM_EffectTransform>
       <TransformName>Effects</TransformName>
       <Effects>
-        <EffectHolder xsi:type="AffectNeedHolder">
-          <Need>AffectFood</Need>
+        <DM_Effect xsi:type="DM_AffectFood">
+          <Delay>0</Delay>
+          <SyncType>OwnerSync</SyncType>
+          <OverrideCategory>None</OverrideCategory>
           <AffectQuantity>200</AffectQuantity>
-        </EffectHolder>
-        <EffectHolder xsi:type="AddStatusEffectHolder">
+        </DM_Effect>
+        <DM_Effect xsi:type="DM_AddStatusEffect">
+          <Delay>0</Delay>
+          <SyncType>OwnerSync</SyncType>
+          <OverrideCategory>None</OverrideCategory>
           <StatusEffect>Stamina Recovery 3</StatusEffect>
           <ChanceToContract>100</ChanceToContract>
-        </EffectHolder>
-        <EffectHolder xsi:type="RemoveStatusEffectHolder">
-          <StatusEffect_ByTag>Poison</StatusEffect_ByTag>
-          <StatusEffect_Family>PoisonHex</StatusEffect_Family>
-          <StatusEffect_ByName />
-        </EffectHolder>
+        </DM_Effect>
+        <DM_Effect xsi:type="DM_RemoveStatusEffect">
+          <Delay>0</Delay>
+          <SyncType>OwnerSync</SyncType>
+          <OverrideCategory>None</OverrideCategory>
+          <Status_Name />
+          <Status_Tag>Poison</Status_Tag>
+          <CleanseType>StatusType</CleanseType>
+        </DM_Effect>
       </Effects>
       <EffectConditions />
       <ChildEffects />
-    </EffectTransformHolder>
+    </DM_EffectTransform>
   </EffectTransforms>
-</ItemHolder>
+</DM_Item>

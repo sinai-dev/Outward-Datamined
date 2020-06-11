@@ -195,7 +195,7 @@
     </QuantityHolder>
   </Gatherables>
   <Item_Spawns>
-    <ItemSpawnHolder>
+    <DM_ItemSpawn>
       <Name>Campfire</Name>
       <Item_ID>5000100</Item_ID>
       <Quantity>1</Quantity>
@@ -206,8 +206,8 @@
           <z>393.2337</z>
         </Vector3>
       </positions>
-    </ItemSpawnHolder>
-    <ItemSpawnHolder>
+    </DM_ItemSpawn>
+    <DM_ItemSpawn>
       <Name>Simple Tent</Name>
       <Item_ID>5000011</Item_ID>
       <Quantity>1</Quantity>
@@ -218,7 +218,7 @@
           <z>389.829834</z>
         </Vector3>
       </positions>
-    </ItemSpawnHolder>
+    </DM_ItemSpawn>
   </Item_Spawns>
   <UniqueContainerList>
     <string>Chest_nn-1N7vVm0eh293BH9Dl0g</string>

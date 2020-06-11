@@ -53,7 +53,7 @@
     </QuantityHolder>
   </Gatherables>
   <Item_Spawns>
-    <ItemSpawnHolder>
+    <DM_ItemSpawn>
       <Name>Mefino’s Trade Backpack</Name>
       <Item_ID>5300030</Item_ID>
       <Quantity>1</Quantity>
@@ -64,8 +64,8 @@
           <z>1874.32446</z>
         </Vector3>
       </positions>
-    </ItemSpawnHolder>
-    <ItemSpawnHolder>
+    </DM_ItemSpawn>
+    <DM_ItemSpawn>
       <Name>Straw Hat</Name>
       <Item_ID>3000001</Item_ID>
       <Quantity>1</Quantity>
@@ -76,8 +76,8 @@
           <z>1867.6709</z>
         </Vector3>
       </positions>
-    </ItemSpawnHolder>
-    <ItemSpawnHolder>
+    </DM_ItemSpawn>
+    <DM_ItemSpawn>
       <Name>Scholar Attire</Name>
       <Item_ID>3000190</Item_ID>
       <Quantity>1</Quantity>
@@ -88,8 +88,8 @@
           <z>1873.479</z>
         </Vector3>
       </positions>
-    </ItemSpawnHolder>
-    <ItemSpawnHolder>
+    </DM_ItemSpawn>
+    <DM_ItemSpawn>
       <Name>Waterskin</Name>
       <Item_ID>4200040</Item_ID>
       <Quantity>1</Quantity>
@@ -100,7 +100,7 @@
           <z>-9.990502</z>
         </Vector3>
       </positions>
-    </ItemSpawnHolder>
+    </DM_ItemSpawn>
   </Item_Spawns>
   <UniqueContainerList>
     <string>Junk Pile_MZdGSujQQkO4h82afBP5Vw</string>

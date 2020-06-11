@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LootContainerHolder xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<DM_LootContainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Name>Legacy Chest</Name>
   <ItemID>1000030</ItemID>
   <UID>x3IKXVgO4UelahGzFRJDXw</UID>
   <DropTables />
-</LootContainerHolder>
+</DM_LootContainer>

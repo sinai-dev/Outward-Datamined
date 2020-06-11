@@ -1,44 +1,126 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ItemHolder xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="SkillHolder">
-  <ItemID>8100360</ItemID>
-  <Name>Brace</Name>
+<DM_CounterSelfSkill xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <gameObjectName>8100360_Brace</gameObjectName>
   <saveDir>/Skill/AttackSkill/MeleeSkill/CounterSkill/CounterSelfSkill</saveDir>
+  <ItemID>8100360</ItemID>
+  <Name>Brace</Name>
   <Description>Blocks an attack, restoring your Stability and giving you the Discipline boon.
 
 All nearby enemies are knocked back.</Description>
   <LegacyItemID>-1</LegacyItemID>
-  <PerishTime>-1</PerishTime>
+  <IsPickable>false</IsPickable>
+  <IsUsable>false</IsUsable>
+  <QtyRemovedOnUse>1</QtyRemovedOnUse>
+  <GroupItemInDisplay>false</GroupItemInDisplay>
+  <HasPhysicsWhenWorld>false</HasPhysicsWhenWorld>
+  <RepairedInRest>true</RepairedInRest>
+  <BehaviorOnNoDurability>NotSet</BehaviorOnNoDurability>
+  <CastType>Brace</CastType>
+  <CastModifier>Immobilized</CastModifier>
+  <CastLocomotionEnabled>false</CastLocomotionEnabled>
+  <MobileCastMovementMult>-1</MobileCastMovementMult>
+  <CastSheatheRequired>0</CastSheatheRequired>
   <Tags />
   <EffectTransforms>
-    <EffectTransformHolder>
+    <DM_EffectTransform>
       <TransformName>HitEffects</TransformName>
       <Effects>
-        <EffectHolder xsi:type="AddStatusEffectHolder">
+        <DM_Effect xsi:type="DM_AddBoonEffect">
+          <Delay>0</Delay>
+          <SyncType>OwnerSync</SyncType>
+          <OverrideCategory>None</OverrideCategory>
           <StatusEffect>Discipline</StatusEffect>
           <ChanceToContract>100</ChanceToContract>
-        </EffectHolder>
+          <AmplifiedEffect>Discipline Amplified</AmplifiedEffect>
+        </DM_Effect>
       </Effects>
       <EffectConditions />
       <ChildEffects />
-    </EffectTransformHolder>
-    <EffectTransformHolder>
+    </DM_EffectTransform>
+    <DM_EffectTransform>
       <TransformName>Effects</TransformName>
       <Effects>
-        <EffectHolder xsi:type="AffectStabilityHolder">
+        <DM_Effect xsi:type="DM_AffectStability">
+          <Delay>0</Delay>
+          <SyncType>OwnerSync</SyncType>
+          <OverrideCategory>None</OverrideCategory>
           <AffectQuantity>100</AffectQuantity>
           <IsModifier>false</IsModifier>
-        </EffectHolder>
+        </DM_Effect>
       </Effects>
       <EffectConditions />
       <ChildEffects />
-    </EffectTransformHolder>
+    </DM_EffectTransform>
+    <DM_EffectTransform>
+      <TransformName>ActivationEffects</TransformName>
+      <Effects>
+        <DM_Effect xsi:type="DM_PlaySoundEffect">
+          <Delay>0</Delay>
+          <SyncType>OwnerSync</SyncType>
+          <OverrideCategory>None</OverrideCategory>
+          <Sounds>
+            <Sounds>SFX_SKILL_Juggernaut_ReleaseWhoosh</Sounds>
+          </Sounds>
+          <Follow>false</Follow>
+          <MinPitch>1</MinPitch>
+          <MaxPitch>1</MaxPitch>
+        </DM_Effect>
+      </Effects>
+      <EffectConditions />
+      <ChildEffects />
+    </DM_EffectTransform>
+    <DM_EffectTransform>
+      <TransformName>BlockEffects</TransformName>
+      <Effects>
+        <DM_Effect xsi:type="DM_AutoKnock">
+          <Delay>0</Delay>
+          <SyncType>OwnerSync</SyncType>
+          <OverrideCategory>None</OverrideCategory>
+          <KnockDown>false</KnockDown>
+        </DM_Effect>
+      </Effects>
+      <EffectConditions />
+      <ChildEffects />
+    </DM_EffectTransform>
   </EffectTransforms>
   <Cooldown>200</Cooldown>
   <StaminaCost>0</StaminaCost>
   <ManaCost>0</ManaCost>
   <DurabilityCost>0</DurabilityCost>
   <DurabilityCostPercent>0</DurabilityCostPercent>
-  <IsDLCSkill>true</IsDLCSkill>
   <RequiredItems />
-</ItemHolder>
+  <AmmunitionTypes />
+  <RequiredOffHandTypes />
+  <RequiredWeaponTypes>
+    <WeaponType>Sword_1H</WeaponType>
+    <WeaponType>Axe_1H</WeaponType>
+    <WeaponType>Mace_1H</WeaponType>
+    <WeaponType>Halberd_2H</WeaponType>
+    <WeaponType>Sword_2H</WeaponType>
+    <WeaponType>Axe_2H</WeaponType>
+    <WeaponType>Mace_2H</WeaponType>
+    <WeaponType>Spear_2H</WeaponType>
+  </RequiredWeaponTypes>
+  <RequiredWeaponTags />
+  <RequireImbue>false</RequireImbue>
+  <Blockable>false</Blockable>
+  <Damage>0</Damage>
+  <Impact>0</Impact>
+  <LinecastCount>0</LinecastCount>
+  <Radius>0</Radius>
+  <Unblockable>false</Unblockable>
+  <BlockMult>0</BlockMult>
+  <DamageMult>0.1</DamageMult>
+  <KnockbackMult>0.1</KnockbackMult>
+  <BlockDamageTypes />
+  <CounterDamageTypes>
+    <Types>Physical</Types>
+    <Types>Ethereal</Types>
+    <Types>Decay</Types>
+    <Types>Electric</Types>
+    <Types>Frost</Types>
+    <Types>Fire</Types>
+  </CounterDamageTypes>
+  <MaxRange>4</MaxRange>
+  <TurnTowardsDealer>false</TurnTowardsDealer>
+</DM_CounterSelfSkill>

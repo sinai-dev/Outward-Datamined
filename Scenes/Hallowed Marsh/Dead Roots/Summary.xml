@@ -69,7 +69,7 @@
     </QuantityHolder>
   </Gatherables>
   <Item_Spawns>
-    <ItemSpawnHolder>
+    <DM_ItemSpawn>
       <Name>Luxury Tent</Name>
       <Item_ID>5000050</Item_ID>
       <Quantity>1</Quantity>
@@ -80,7 +80,7 @@
           <z>-20.961</z>
         </Vector3>
       </positions>
-    </ItemSpawnHolder>
+    </DM_ItemSpawn>
   </Item_Spawns>
   <UniqueContainerList>
     <string>Junk Pile_1VoUvB8nCEuMztSzIDXaNQ</string>

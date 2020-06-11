@@ -1,13 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ItemHolder xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="WeaponHolder">
-  <ItemID>2000110</ItemID>
-  <Name>Desert Khopesh</Name>
+<DM_Weapon xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <gameObjectName>2000110_KhopeshDesert</gameObjectName>
   <saveDir>/Equipment/Weapon/MeleeWeapon</saveDir>
+  <ItemID>2000110</ItemID>
+  <Name>Desert Khopesh</Name>
   <Description />
   <LegacyItemID>-1</LegacyItemID>
-  <PerishTime>-1</PerishTime>
-  <StatsHolder xsi:type="WeaponStatsHolder">
+  <IsPickable>true</IsPickable>
+  <IsUsable>false</IsUsable>
+  <QtyRemovedOnUse>1</QtyRemovedOnUse>
+  <GroupItemInDisplay>false</GroupItemInDisplay>
+  <HasPhysicsWhenWorld>false</HasPhysicsWhenWorld>
+  <RepairedInRest>true</RepairedInRest>
+  <BehaviorOnNoDurability>NotSet</BehaviorOnNoDurability>
+  <CastType>NONE</CastType>
+  <CastModifier>Immobilized</CastModifier>
+  <CastLocomotionEnabled>false</CastLocomotionEnabled>
+  <MobileCastMovementMult>-1</MobileCastMovementMult>
+  <CastSheatheRequired>1</CastSheatheRequired>
+  <Tags>
+    <string>Blade</string>
+    <string>Weapon</string>
+    <string>Item</string>
+    <string>DecraftIron_Small</string>
+  </Tags>
+  <StatsHolder xsi:type="DM_WeaponStats">
     <BaseValue>50</BaseValue>
     <RawWeight>3</RawWeight>
     <MaxDurability>225</MaxDurability>
@@ -50,7 +67,8 @@
       </Damages>
     </BaseDamage>
     <Impact>17</Impact>
-    <AttackCount>5</AttackCount>
+    <StamCost>4.6</StamCost>
+    <AutoGenerateAttackData>false</AutoGenerateAttackData>
     <Attacks>
       <AttackData>
         <StamCost>4.6</StamCost>
@@ -94,17 +112,14 @@
       </AttackData>
     </Attacks>
   </StatsHolder>
-  <Tags>
-    <string>Blade</string>
-    <string>Weapon</string>
-    <string>Item</string>
-    <string>DecraftIron_Small</string>
-  </Tags>
   <EffectTransforms />
-  <EquipmentSlot>RightHand</EquipmentSlot>
-  <IKType>None</IKType>
+  <EquipSlot>RightHand</EquipSlot>
   <TwoHandType>None</TwoHandType>
+  <IKType>None</IKType>
   <VisualDetectabilityAdd>0</VisualDetectabilityAdd>
   <WeaponType>Sword_1H</WeaponType>
-  <StamCost>4.6</StamCost>
-</ItemHolder>
+  <Unblockable>false</Unblockable>
+  <SwingSound>Default</SwingSound>
+  <SpecialIsZoom>false</SpecialIsZoom>
+  <MaxProjectileShots>-1</MaxProjectileShots>
+</DM_Weapon>

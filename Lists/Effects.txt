@@ -36,31 +36,6 @@
 29	Haunted
 30	Doom
 31	Curse
-200	Poison Imbue
-201	Greater Poison Imbue
-202	Fire Imbue
-203	Greater Fire Imbue
-204	Frost Imbue
-205	Greater Frost Imbue
-206	Lightning Imbue
-207	Greater Lightning Imbue
-208	Greater Ethereal Imbue
-209	Wind Imbue
-210	StatusEffect_Imbue_ReflectionlImbue_Name
-211	Greater Decay Imbue
-212	Decay Shield Imbue
-213	Ethereal Shield Imbue
-214	Fire Shield Imbue
-215	Frost Shield Imbue
-216	Lightning Shield Imbue
-217	Mystic Fire Imbue
-218	Mystic Frost Imbue
-219	Divine Light Imbue
-220	StatusEffect_Imbue_EtherealImbue_Name
-221	StatusEffect_Imbue_LightImbue_Name
-250	Frost Bullet Imbue
-251	Blood Bullet Imbue
-252	Shatter Bullet Imbue
 0	Health Recovery 2
 1	Stamina Recovery 2
 2	Mana Ratio Recovery 2
@@ -147,60 +122,58 @@
 420	Drowsy
 421	Tired
 424	DEPRECATED_Energized
-999	StatusEffect_Imbue_BlessedWeaponTest_Name
 566	ElemDecayBuff
 568	ElemEtherealBuff
 564	ElemFireBuff
 565	ElemFrostBuff
 567	ElemLightBuff
-1001	Charged Boon
-1002	Swarm Boon
-1003	Flu1
-1004	Flu2
-1005	Flu3
-1006	Glaucoma1
-1007	Glaucoma2
-1008	Glaucoma3
-1009	Malaria1
-1010	Malaria3
-1011	Malnutrition1
-1012	Malnutrition2
-1013	Malnutrition3
-1014	Otitis1
-1015	Otitis2
-1016	Paranoia1
-1017	Paranoia2
-1018	Paranoia3
-1019	Rheumatism1
-1020	Rheumatism2
-1021	Rheumatism3
-1022	Taenia1
-1023	Taenia2
-1024	Taenia3
-1025	Putrid Hex
-1026	Shock Hex
-1027	Tainted
-1028	Corrupt Positive
-1029	Corrupt Negative
-1030	Defiled Positive
-1031	Defiled Negative
-1032	CorruptionBurst
-1033	ColdExposure
-1034	HeatExposure
-1035	Temperature Burning
-1036	Dez Runes
-1037	Egoth Runes
-1038	Fal Runes
-1039	Runic Blade
-1040	Runic Heal Amplified
-1041	Runic Protection
-1042	Runic Protection Amplified
-1043	Shim Runes
-1044	Test Basic
-1045	Poison Immunity
-1046	Test Stack
-1047	Bag Over Encumbered
-1048	Fireflies
-1049	Hallowed Marsh Poison Lvl1
-1050	Hallowed Marsh Poison Lvl2
-1051	Pouch Over Encumbered
+1001	Tainted
+1002	Corrupt Positive
+1003	Corrupt Negative
+1004	Defiled Positive
+1005	Defiled Negative
+1006	ColdExposure
+1007	Freezing
+1008	HeatExposure
+1009	Temperature Burning
+1010	Dez Runes
+1011	Egoth Runes
+1012	Fal Runes
+1013	Runic Blade
+1014	Runic Heal Amplified
+1015	Runic Lantern
+1016	Runic Lantern Amplified
+1017	Runic Protection
+1018	Runic Protection Amplified
+1019	Shim Runes
+1020	Bag Over Encumbered
+1021	Fireflies
+1022	Hallowed Marsh Poison Lvl1
+1023	Hallowed Marsh Poison Lvl2
+1024	Pouch Over Encumbered
+200	Poison Imbue
+201	Greater Poison Imbue
+202	Fire Imbue
+203	Greater Fire Imbue
+204	Frost Imbue
+205	Greater Frost Imbue
+206	Lightning Imbue
+207	Greater Lightning Imbue
+208	Greater Ethereal Imbue
+209	Wind Imbue
+210	StatusEffect_Imbue_ReflectionlImbue_Name
+211	Greater Decay Imbue
+212	Decay Shield Imbue
+213	Ethereal Shield Imbue
+214	Fire Shield Imbue
+215	Frost Shield Imbue
+216	Lightning Shield Imbue
+217	Mystic Fire Imbue
+218	Mystic Frost Imbue
+219	Divine Light Imbue
+220	StatusEffect_Imbue_EtherealImbue_Name
+221	StatusEffect_Imbue_LightImbue_Name
+250	Frost Bullet Imbue
+251	Blood Bullet Imbue
+252	Shatter Bullet Imbue
+999	StatusEffect_Imbue_BlessedWeaponTest_Name

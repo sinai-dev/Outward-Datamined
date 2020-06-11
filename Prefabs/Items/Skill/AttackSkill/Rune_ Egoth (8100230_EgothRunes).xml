@@ -1,237 +1,314 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ItemHolder xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="SkillHolder">
-  <ItemID>8100230</ItemID>
-  <Name>Rune: Egoth</Name>
+<DM_AttackSkill xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <gameObjectName>8100230_EgothRunes</gameObjectName>
   <saveDir>/Skill/AttackSkill</saveDir>
+  <ItemID>8100230</ItemID>
+  <Name>Rune: Egoth</Name>
   <Description>Required: Lexicon
 
 Purple rune that does nothing on its own, but can produce combo effects by casting other runes, in the correct order.</Description>
   <LegacyItemID>-1</LegacyItemID>
-  <PerishTime>-1</PerishTime>
+  <IsPickable>false</IsPickable>
+  <IsUsable>false</IsUsable>
+  <QtyRemovedOnUse>1</QtyRemovedOnUse>
+  <GroupItemInDisplay>false</GroupItemInDisplay>
+  <HasPhysicsWhenWorld>false</HasPhysicsWhenWorld>
+  <RepairedInRest>true</RepairedInRest>
+  <BehaviorOnNoDurability>NotSet</BehaviorOnNoDurability>
+  <CastType>WriteRune</CastType>
+  <CastModifier>Immobilized</CastModifier>
+  <CastLocomotionEnabled>false</CastLocomotionEnabled>
+  <MobileCastMovementMult>-1</MobileCastMovementMult>
+  <CastSheatheRequired>1</CastSheatheRequired>
   <Tags />
   <EffectTransforms>
-    <EffectTransformHolder>
+    <DM_EffectTransform>
       <TransformName>Effects</TransformName>
       <Effects>
-        <EffectHolder xsi:type="AddStatusEffectHolder">
+        <DM_Effect xsi:type="DM_AddStatusEffect">
+          <Delay>0</Delay>
+          <SyncType>OwnerSync</SyncType>
+          <OverrideCategory>None</OverrideCategory>
           <StatusEffect>Egoth Runes</StatusEffect>
           <ChanceToContract>100</ChanceToContract>
-        </EffectHolder>
+        </DM_Effect>
       </Effects>
       <EffectConditions />
       <ChildEffects />
-    </EffectTransformHolder>
-    <EffectTransformHolder>
+    </DM_EffectTransform>
+    <DM_EffectTransform>
       <TransformName>Runic Protection</TransformName>
       <Effects />
       <EffectConditions />
       <ChildEffects>
-        <EffectTransformHolder>
+        <DM_EffectTransform>
           <TransformName>ExtraEffects</TransformName>
           <Effects>
-            <EffectHolder xsi:type="RemoveStatusEffectHolder">
-              <StatusEffect>Dez Runes</StatusEffect>
-              <StatusEffect_ByTag>None</StatusEffect_ByTag>
-              <StatusEffect_Family>Dez Runes</StatusEffect_Family>
-              <StatusEffect_ByName />
-            </EffectHolder>
-            <EffectHolder xsi:type="RemoveStatusEffectHolder">
-              <StatusEffect>Egoth Runes</StatusEffect>
-              <StatusEffect_ByTag>None</StatusEffect_ByTag>
-              <StatusEffect_Family>Fal Runes</StatusEffect_Family>
-              <StatusEffect_ByName />
-            </EffectHolder>
-            <EffectHolder xsi:type="AddStatusEffectHolder">
+            <DM_Effect xsi:type="DM_RemoveStatusEffect">
+              <Delay>0</Delay>
+              <SyncType>OwnerSync</SyncType>
+              <OverrideCategory>None</OverrideCategory>
+              <Status_Name>Dez Runes</Status_Name>
+              <Status_Tag />
+              <CleanseType>StatusSpecific</CleanseType>
+            </DM_Effect>
+            <DM_Effect xsi:type="DM_RemoveStatusEffect">
+              <Delay>0</Delay>
+              <SyncType>OwnerSync</SyncType>
+              <OverrideCategory>None</OverrideCategory>
+              <Status_Name>Egoth Runes</Status_Name>
+              <Status_Tag />
+              <CleanseType>StatusSpecific</CleanseType>
+            </DM_Effect>
+            <DM_Effect xsi:type="DM_AddStatusEffect">
+              <Delay>0</Delay>
+              <SyncType>OwnerSync</SyncType>
+              <OverrideCategory>None</OverrideCategory>
               <StatusEffect>Runic Protection</StatusEffect>
               <ChanceToContract>100</ChanceToContract>
-            </EffectHolder>
+            </DM_Effect>
+            <DM_Effect xsi:type="DM_PlaySoundEffect">
+              <Delay>0</Delay>
+              <SyncType>OwnerSync</SyncType>
+              <OverrideCategory>None</OverrideCategory>
+              <Sounds>
+                <Sounds>SFX_SKILL_BoonSpell</Sounds>
+              </Sounds>
+              <Follow>false</Follow>
+              <MinPitch>1</MinPitch>
+              <MaxPitch>1</MaxPitch>
+            </DM_Effect>
           </Effects>
           <EffectConditions>
-            <EffectConditionHolder>
-              <Conditions>
-                <ConditionHolder>
-                  <Requirement>Runic Prefix</Requirement>
-                  <Condition_Type>Passive Skill</Condition_Type>
-                  <Invert>true</Invert>
-                </ConditionHolder>
-              </Conditions>
-            </EffectConditionHolder>
-            <EffectConditionHolder>
-              <Conditions>
-                <ConditionHolder>
-                  <Requirement>Dez Runes</Requirement>
-                  <Condition_Type>Status Effect</Condition_Type>
-                  <Invert>false</Invert>
-                </ConditionHolder>
-              </Conditions>
-            </EffectConditionHolder>
-            <EffectConditionHolder>
-              <Conditions>
-                <ConditionHolder>
-                  <Condition_Type>MostRecentCondition</Condition_Type>
-                  <Invert>false</Invert>
-                </ConditionHolder>
-              </Conditions>
-            </EffectConditionHolder>
+            <DM_EffectCondition xsi:type="DM_PassiveSkillCondition">
+              <Invert>true</Invert>
+              <ReqSkillID>8205200</ReqSkillID>
+            </DM_EffectCondition>
+            <DM_EffectCondition xsi:type="DM_StatusEffectCondition">
+              <Invert>false</Invert>
+              <StatusIdentifier>Dez Runes</StatusIdentifier>
+            </DM_EffectCondition>
+            <DM_EffectCondition xsi:type="DM_MostRecentCondition">
+              <Invert>false</Invert>
+              <StatusIdentifierToCheck>Dez Runes</StatusIdentifierToCheck>
+              <StatusIdentifierToCompareTo>Shim Runes</StatusIdentifierToCompareTo>
+            </DM_EffectCondition>
           </EffectConditions>
           <ChildEffects />
-        </EffectTransformHolder>
-        <EffectTransformHolder>
+        </DM_EffectTransform>
+        <DM_EffectTransform>
           <TransformName>ExtraEffects</TransformName>
           <Effects>
-            <EffectHolder xsi:type="RemoveStatusEffectHolder">
-              <StatusEffect>Dez Runes</StatusEffect>
-              <StatusEffect_ByTag>None</StatusEffect_ByTag>
-              <StatusEffect_Family>Dez Runes</StatusEffect_Family>
-              <StatusEffect_ByName />
-            </EffectHolder>
-            <EffectHolder xsi:type="RemoveStatusEffectHolder">
-              <StatusEffect>Egoth Runes</StatusEffect>
-              <StatusEffect_ByTag>None</StatusEffect_ByTag>
-              <StatusEffect_Family>Fal Runes</StatusEffect_Family>
-              <StatusEffect_ByName />
-            </EffectHolder>
-            <EffectHolder xsi:type="AddStatusEffectHolder">
+            <DM_Effect xsi:type="DM_RemoveStatusEffect">
+              <Delay>0</Delay>
+              <SyncType>OwnerSync</SyncType>
+              <OverrideCategory>None</OverrideCategory>
+              <Status_Name>Dez Runes</Status_Name>
+              <Status_Tag />
+              <CleanseType>StatusSpecific</CleanseType>
+            </DM_Effect>
+            <DM_Effect xsi:type="DM_RemoveStatusEffect">
+              <Delay>0</Delay>
+              <SyncType>OwnerSync</SyncType>
+              <OverrideCategory>None</OverrideCategory>
+              <Status_Name>Egoth Runes</Status_Name>
+              <Status_Tag />
+              <CleanseType>StatusSpecific</CleanseType>
+            </DM_Effect>
+            <DM_Effect xsi:type="DM_AddStatusEffect">
+              <Delay>0</Delay>
+              <SyncType>OwnerSync</SyncType>
+              <OverrideCategory>None</OverrideCategory>
               <StatusEffect>Runic Protection Amplified</StatusEffect>
               <ChanceToContract>100</ChanceToContract>
-            </EffectHolder>
+            </DM_Effect>
+            <DM_Effect xsi:type="DM_PlaySoundEffect">
+              <Delay>0</Delay>
+              <SyncType>OwnerSync</SyncType>
+              <OverrideCategory>None</OverrideCategory>
+              <Sounds>
+                <Sounds>SFX_SKILL_BoonSpell</Sounds>
+              </Sounds>
+              <Follow>false</Follow>
+              <MinPitch>1</MinPitch>
+              <MaxPitch>1</MaxPitch>
+            </DM_Effect>
           </Effects>
           <EffectConditions>
-            <EffectConditionHolder>
-              <Conditions>
-                <ConditionHolder>
-                  <Requirement>Runic Prefix</Requirement>
-                  <Condition_Type>Passive Skill</Condition_Type>
-                  <Invert>false</Invert>
-                </ConditionHolder>
-              </Conditions>
-            </EffectConditionHolder>
-            <EffectConditionHolder>
-              <Conditions>
-                <ConditionHolder>
-                  <Requirement>Dez Runes</Requirement>
-                  <Condition_Type>Status Effect</Condition_Type>
-                  <Invert>false</Invert>
-                </ConditionHolder>
-              </Conditions>
-            </EffectConditionHolder>
-            <EffectConditionHolder>
-              <Conditions>
-                <ConditionHolder>
-                  <Condition_Type>MostRecentCondition</Condition_Type>
-                  <Invert>false</Invert>
-                </ConditionHolder>
-              </Conditions>
-            </EffectConditionHolder>
+            <DM_EffectCondition xsi:type="DM_PassiveSkillCondition">
+              <Invert>false</Invert>
+              <ReqSkillID>8205200</ReqSkillID>
+            </DM_EffectCondition>
+            <DM_EffectCondition xsi:type="DM_StatusEffectCondition">
+              <Invert>false</Invert>
+              <StatusIdentifier>Dez Runes</StatusIdentifier>
+            </DM_EffectCondition>
+            <DM_EffectCondition xsi:type="DM_MostRecentCondition">
+              <Invert>false</Invert>
+              <StatusIdentifierToCheck>Dez Runes</StatusIdentifierToCheck>
+              <StatusIdentifierToCompareTo>Shim Runes</StatusIdentifierToCompareTo>
+            </DM_EffectCondition>
           </EffectConditions>
           <ChildEffects />
-        </EffectTransformHolder>
+        </DM_EffectTransform>
       </ChildEffects>
-    </EffectTransformHolder>
-    <EffectTransformHolder>
+    </DM_EffectTransform>
+    <DM_EffectTransform>
       <TransformName>RunicBlade</TransformName>
       <Effects />
       <EffectConditions />
       <ChildEffects>
-        <EffectTransformHolder>
+        <DM_EffectTransform>
           <TransformName>ExtraEffects</TransformName>
           <Effects>
-            <EffectHolder xsi:type="RemoveStatusEffectHolder">
-              <StatusEffect>Shim Runes</StatusEffect>
-              <StatusEffect_ByTag>None</StatusEffect_ByTag>
-              <StatusEffect_Family>Dez Runes</StatusEffect_Family>
-              <StatusEffect_ByName />
-            </EffectHolder>
-            <EffectHolder xsi:type="RemoveStatusEffectHolder">
-              <StatusEffect>Egoth Runes</StatusEffect>
-              <StatusEffect_ByTag>None</StatusEffect_ByTag>
-              <StatusEffect_Family>Fal Runes</StatusEffect_Family>
-              <StatusEffect_ByName />
-            </EffectHolder>
+            <DM_Effect xsi:type="DM_RunicBlade">
+              <Delay>0</Delay>
+              <SyncType>OwnerSync</SyncType>
+              <OverrideCategory>None</OverrideCategory>
+              <WeaponID>2000100</WeaponID>
+              <GreaterWeaponID>2100999</GreaterWeaponID>
+              <PrefixImbueID>219</PrefixImbueID>
+              <PrefixGreaterImbueID>211</PrefixGreaterImbueID>
+              <SummonLifespan>180</SummonLifespan>
+            </DM_Effect>
+            <DM_Effect xsi:type="DM_RemoveStatusEffect">
+              <Delay>0</Delay>
+              <SyncType>OwnerSync</SyncType>
+              <OverrideCategory>None</OverrideCategory>
+              <Status_Name>Shim Runes</Status_Name>
+              <Status_Tag />
+              <CleanseType>StatusSpecific</CleanseType>
+            </DM_Effect>
+            <DM_Effect xsi:type="DM_RemoveStatusEffect">
+              <Delay>0</Delay>
+              <SyncType>OwnerSync</SyncType>
+              <OverrideCategory>None</OverrideCategory>
+              <Status_Name>Egoth Runes</Status_Name>
+              <Status_Tag />
+              <CleanseType>StatusSpecific</CleanseType>
+            </DM_Effect>
+            <DM_Effect xsi:type="DM_PlaySoundEffect">
+              <Delay>0</Delay>
+              <SyncType>OwnerSync</SyncType>
+              <OverrideCategory>None</OverrideCategory>
+              <Sounds>
+                <Sounds>SFX_SKILL_BoonSpell</Sounds>
+              </Sounds>
+              <Follow>false</Follow>
+              <MinPitch>1</MinPitch>
+              <MaxPitch>1</MaxPitch>
+            </DM_Effect>
           </Effects>
           <EffectConditions>
-            <EffectConditionHolder>
-              <Conditions>
-                <ConditionHolder>
-                  <Requirement>Shim Runes</Requirement>
-                  <Condition_Type>Status Effect</Condition_Type>
-                  <Invert>false</Invert>
-                </ConditionHolder>
-              </Conditions>
-            </EffectConditionHolder>
-            <EffectConditionHolder>
-              <Conditions>
-                <ConditionHolder>
-                  <Condition_Type>MostRecentCondition</Condition_Type>
-                  <Invert>false</Invert>
-                </ConditionHolder>
-              </Conditions>
-            </EffectConditionHolder>
+            <DM_EffectCondition xsi:type="DM_StatusEffectCondition">
+              <Invert>false</Invert>
+              <StatusIdentifier>Shim Runes</StatusIdentifier>
+            </DM_EffectCondition>
+            <DM_EffectCondition xsi:type="DM_MostRecentCondition">
+              <Invert>false</Invert>
+              <StatusIdentifierToCheck>Shim Runes</StatusIdentifierToCheck>
+              <StatusIdentifierToCompareTo>Dez Runes</StatusIdentifierToCompareTo>
+            </DM_EffectCondition>
           </EffectConditions>
           <ChildEffects />
-        </EffectTransformHolder>
-        <EffectTransformHolder>
+        </DM_EffectTransform>
+        <DM_EffectTransform>
           <TransformName>ExtraEffects</TransformName>
           <Effects>
-            <EffectHolder xsi:type="AddStatusEffectHolder">
+            <DM_Effect xsi:type="DM_AddStatusEffect">
+              <Delay>0</Delay>
+              <SyncType>OwnerSync</SyncType>
+              <OverrideCategory>None</OverrideCategory>
               <StatusEffect>Runic Blade</StatusEffect>
               <ChanceToContract>100</ChanceToContract>
-            </EffectHolder>
+            </DM_Effect>
+            <DM_Effect xsi:type="DM_PlaySoundEffect">
+              <Delay>0</Delay>
+              <SyncType>OwnerSync</SyncType>
+              <OverrideCategory>None</OverrideCategory>
+              <Sounds>
+                <Sounds>SFX_SKILL_BoonSpell</Sounds>
+              </Sounds>
+              <Follow>false</Follow>
+              <MinPitch>1</MinPitch>
+              <MaxPitch>1</MaxPitch>
+            </DM_Effect>
           </Effects>
           <EffectConditions>
-            <EffectConditionHolder>
-              <Conditions>
-                <ConditionHolder>
-                  <Requirement>Shim Runes</Requirement>
-                  <Condition_Type>Status Effect</Condition_Type>
-                  <Invert>false</Invert>
-                </ConditionHolder>
-              </Conditions>
-            </EffectConditionHolder>
-            <EffectConditionHolder>
-              <Conditions>
-                <ConditionHolder>
-                  <Requirement>Runic Blade</Requirement>
-                  <Condition_Type>Status Effect</Condition_Type>
-                  <Invert>true</Invert>
-                </ConditionHolder>
-              </Conditions>
-            </EffectConditionHolder>
+            <DM_EffectCondition xsi:type="DM_StatusEffectCondition">
+              <Invert>false</Invert>
+              <StatusIdentifier>Shim Runes</StatusIdentifier>
+            </DM_EffectCondition>
+            <DM_EffectCondition xsi:type="DM_StatusEffectCondition">
+              <Invert>true</Invert>
+              <StatusIdentifier>Runic Blade</StatusIdentifier>
+            </DM_EffectCondition>
           </EffectConditions>
           <ChildEffects />
-        </EffectTransformHolder>
-        <EffectTransformHolder>
+        </DM_EffectTransform>
+        <DM_EffectTransform>
           <TransformName>ExtraEffects</TransformName>
           <Effects>
-            <EffectHolder xsi:type="RemoveStatusEffectHolder">
-              <StatusEffect>Runic Blade</StatusEffect>
-              <StatusEffect_ByTag>None</StatusEffect_ByTag>
-              <StatusEffect_Family />
-              <StatusEffect_ByName />
-            </EffectHolder>
+            <DM_Effect xsi:type="DM_RemoveStatusEffect">
+              <Delay>0</Delay>
+              <SyncType>OwnerSync</SyncType>
+              <OverrideCategory>None</OverrideCategory>
+              <Status_Name>Runic Blade</Status_Name>
+              <Status_Tag />
+              <CleanseType>StatusSpecific</CleanseType>
+            </DM_Effect>
+            <DM_Effect xsi:type="DM_PlaySoundEffect">
+              <Delay>0</Delay>
+              <SyncType>OwnerSync</SyncType>
+              <OverrideCategory>None</OverrideCategory>
+              <Sounds>
+                <Sounds>SFX_SKILL_BoonSpell</Sounds>
+              </Sounds>
+              <Follow>false</Follow>
+              <MinPitch>1</MinPitch>
+              <MaxPitch>1</MaxPitch>
+            </DM_Effect>
           </Effects>
           <EffectConditions>
-            <EffectConditionHolder>
-              <Conditions>
-                <ConditionHolder>
-                  <Requirement>Runic Blade</Requirement>
-                  <Condition_Type>Status Effect</Condition_Type>
-                  <Invert>false</Invert>
-                </ConditionHolder>
-              </Conditions>
-            </EffectConditionHolder>
+            <DM_EffectCondition xsi:type="DM_StatusEffectCondition">
+              <Invert>false</Invert>
+              <StatusIdentifier>Runic Blade</StatusIdentifier>
+            </DM_EffectCondition>
           </EffectConditions>
           <ChildEffects />
-        </EffectTransformHolder>
+        </DM_EffectTransform>
       </ChildEffects>
-    </EffectTransformHolder>
+    </DM_EffectTransform>
+    <DM_EffectTransform>
+      <TransformName>ActivationEffects</TransformName>
+      <Effects>
+        <DM_Effect xsi:type="DM_PlaySoundEffect">
+          <Delay>0</Delay>
+          <SyncType>OwnerSync</SyncType>
+          <OverrideCategory>None</OverrideCategory>
+          <Sounds>
+            <Sounds>SFX_SKILL_RuneSpell</Sounds>
+          </Sounds>
+          <Follow>false</Follow>
+          <MinPitch>1</MinPitch>
+          <MaxPitch>1</MaxPitch>
+        </DM_Effect>
+      </Effects>
+      <EffectConditions />
+      <ChildEffects />
+    </DM_EffectTransform>
   </EffectTransforms>
   <Cooldown>2</Cooldown>
   <StaminaCost>0</StaminaCost>
   <ManaCost>8</ManaCost>
   <DurabilityCost>0</DurabilityCost>
   <DurabilityCostPercent>0</DurabilityCostPercent>
-  <IsDLCSkill>true</IsDLCSkill>
   <RequiredItems />
-</ItemHolder>
+  <AmmunitionTypes />
+  <RequiredOffHandTypes />
+  <RequiredWeaponTypes />
+  <RequiredWeaponTags>
+    <string>Lexicon</string>
+  </RequiredWeaponTags>
+  <RequireImbue>false</RequireImbue>
+</DM_AttackSkill>

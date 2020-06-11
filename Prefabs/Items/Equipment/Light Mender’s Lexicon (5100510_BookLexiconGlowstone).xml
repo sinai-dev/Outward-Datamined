@@ -1,13 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ItemHolder xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="EquipmentHolder">
-  <ItemID>5100510</ItemID>
-  <Name>Light Mender’s Lexicon</Name>
+<DM_Equipment xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <gameObjectName>5100510_BookLexiconGlowstone</gameObjectName>
   <saveDir>/Equipment</saveDir>
+  <ItemID>5100510</ItemID>
+  <Name>Light Mender’s Lexicon</Name>
   <Description>Fabled book used to cast runic spells with greater efficiency.</Description>
   <LegacyItemID>-1</LegacyItemID>
-  <PerishTime>-1</PerishTime>
-  <StatsHolder xsi:type="EquipmentStatsHolder">
+  <IsPickable>true</IsPickable>
+  <IsUsable>false</IsUsable>
+  <QtyRemovedOnUse>1</QtyRemovedOnUse>
+  <GroupItemInDisplay>false</GroupItemInDisplay>
+  <HasPhysicsWhenWorld>false</HasPhysicsWhenWorld>
+  <RepairedInRest>true</RepairedInRest>
+  <BehaviorOnNoDurability>NotSet</BehaviorOnNoDurability>
+  <CastType>NONE</CastType>
+  <CastModifier>Immobilized</CastModifier>
+  <CastLocomotionEnabled>false</CastLocomotionEnabled>
+  <MobileCastMovementMult>-1</MobileCastMovementMult>
+  <CastSheatheRequired>1</CastSheatheRequired>
+  <Tags>
+    <string>Skill</string>
+    <string>Item</string>
+    <string>Trinket</string>
+    <string>Lexicon</string>
+  </Tags>
+  <StatsHolder xsi:type="DM_EquipmentStats">
     <BaseValue>300</BaseValue>
     <RawWeight>0.5</RawWeight>
     <MaxDurability>-1</MaxDurability>
@@ -43,15 +60,9 @@
     <Cold_Protection>0</Cold_Protection>
     <Corruption_Protection>0</Corruption_Protection>
   </StatsHolder>
-  <Tags>
-    <string>Skill</string>
-    <string>Item</string>
-    <string>Trinket</string>
-    <string>Lexicon</string>
-  </Tags>
   <EffectTransforms />
-  <EquipmentSlot>LeftHand</EquipmentSlot>
-  <IKType>Lexicon</IKType>
+  <EquipSlot>LeftHand</EquipSlot>
   <TwoHandType>None</TwoHandType>
+  <IKType>Lexicon</IKType>
   <VisualDetectabilityAdd>0</VisualDetectabilityAdd>
-</ItemHolder>
+</DM_Equipment>

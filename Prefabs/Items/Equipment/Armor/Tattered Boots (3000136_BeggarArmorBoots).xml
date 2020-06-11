@@ -1,13 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ItemHolder xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="EquipmentHolder">
-  <ItemID>3000136</ItemID>
-  <Name>Tattered Boots</Name>
+<DM_Armor xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <gameObjectName>3000136_BeggarArmorBoots</gameObjectName>
   <saveDir>/Equipment/Armor</saveDir>
+  <ItemID>3000136</ItemID>
+  <Name>Tattered Boots</Name>
   <Description />
   <LegacyItemID>-1</LegacyItemID>
-  <PerishTime>-1</PerishTime>
-  <StatsHolder xsi:type="EquipmentStatsHolder">
+  <IsPickable>true</IsPickable>
+  <IsUsable>false</IsUsable>
+  <QtyRemovedOnUse>1</QtyRemovedOnUse>
+  <GroupItemInDisplay>false</GroupItemInDisplay>
+  <HasPhysicsWhenWorld>false</HasPhysicsWhenWorld>
+  <RepairedInRest>true</RepairedInRest>
+  <BehaviorOnNoDurability>NotSet</BehaviorOnNoDurability>
+  <CastType>NONE</CastType>
+  <CastModifier>Immobilized</CastModifier>
+  <CastLocomotionEnabled>false</CastLocomotionEnabled>
+  <MobileCastMovementMult>-1</MobileCastMovementMult>
+  <CastSheatheRequired>1</CastSheatheRequired>
+  <Tags>
+    <string>Basic Boots</string>
+    <string>Boots</string>
+    <string>Equipment</string>
+    <string>Item</string>
+  </Tags>
+  <StatsHolder xsi:type="DM_EquipmentStats">
     <BaseValue>6</BaseValue>
     <RawWeight>2</RawWeight>
     <MaxDurability>90</MaxDurability>
@@ -43,16 +60,12 @@
     <Cold_Protection>1</Cold_Protection>
     <Corruption_Protection>0</Corruption_Protection>
   </StatsHolder>
-  <Tags>
-    <string>Basic Boots</string>
-    <string>Boots</string>
-    <string>Equipment</string>
-    <string>Item</string>
-  </Tags>
   <EffectTransforms />
-  <EquipmentSlot>Foot</EquipmentSlot>
-  <IKType>None</IKType>
+  <EquipSlot>Foot</EquipSlot>
   <TwoHandType>None</TwoHandType>
+  <IKType>None</IKType>
   <VisualDetectabilityAdd>0</VisualDetectabilityAdd>
-  <ArmorClass>Cloth</ArmorClass>
-</ItemHolder>
+  <Class>Cloth</Class>
+  <GearSoundMaterial>Metal_Armor</GearSoundMaterial>
+  <ImpactSoundMaterial>Metal_Armor</ImpactSoundMaterial>
+</DM_Armor>

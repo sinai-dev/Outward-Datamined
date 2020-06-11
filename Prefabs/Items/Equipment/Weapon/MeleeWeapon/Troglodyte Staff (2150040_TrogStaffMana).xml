@@ -1,13 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ItemHolder xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="WeaponHolder">
-  <ItemID>2150040</ItemID>
-  <Name>Troglodyte Staff</Name>
+<DM_Weapon xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <gameObjectName>2150040_TrogStaffMana</gameObjectName>
   <saveDir>/Equipment/Weapon/MeleeWeapon</saveDir>
+  <ItemID>2150040</ItemID>
+  <Name>Troglodyte Staff</Name>
   <Description />
   <LegacyItemID>2150041</LegacyItemID>
-  <PerishTime>-1</PerishTime>
-  <StatsHolder xsi:type="WeaponStatsHolder">
+  <IsPickable>true</IsPickable>
+  <IsUsable>false</IsUsable>
+  <QtyRemovedOnUse>1</QtyRemovedOnUse>
+  <GroupItemInDisplay>false</GroupItemInDisplay>
+  <HasPhysicsWhenWorld>false</HasPhysicsWhenWorld>
+  <RepairedInRest>true</RepairedInRest>
+  <BehaviorOnNoDurability>NotSet</BehaviorOnNoDurability>
+  <CastType>NONE</CastType>
+  <CastModifier>Immobilized</CastModifier>
+  <CastLocomotionEnabled>false</CastLocomotionEnabled>
+  <MobileCastMovementMult>-1</MobileCastMovementMult>
+  <CastSheatheRequired>1</CastSheatheRequired>
+  <Tags>
+    <string>2 Handed</string>
+    <string>Weapon</string>
+    <string>Item</string>
+    <string>Pole Arm</string>
+  </Tags>
+  <StatsHolder xsi:type="DM_WeaponStats">
     <BaseValue>20</BaseValue>
     <RawWeight>6</RawWeight>
     <MaxDurability>175</MaxDurability>
@@ -54,7 +71,8 @@
       </Damages>
     </BaseDamage>
     <Impact>22</Impact>
-    <AttackCount>5</AttackCount>
+    <StamCost>5</StamCost>
+    <AutoGenerateAttackData>false</AutoGenerateAttackData>
     <Attacks>
       <AttackData>
         <StamCost>5</StamCost>
@@ -103,17 +121,14 @@
       </AttackData>
     </Attacks>
   </StatsHolder>
-  <Tags>
-    <string>2 Handed</string>
-    <string>Weapon</string>
-    <string>Item</string>
-    <string>Pole Arm</string>
-  </Tags>
   <EffectTransforms />
-  <EquipmentSlot>RightHand</EquipmentSlot>
-  <IKType>None</IKType>
+  <EquipSlot>RightHand</EquipSlot>
   <TwoHandType>TwoHandedRight</TwoHandType>
+  <IKType>None</IKType>
   <VisualDetectabilityAdd>0</VisualDetectabilityAdd>
   <WeaponType>Halberd_2H</WeaponType>
-  <StamCost>5</StamCost>
-</ItemHolder>
+  <Unblockable>false</Unblockable>
+  <SwingSound>Default</SwingSound>
+  <SpecialIsZoom>false</SpecialIsZoom>
+  <MaxProjectileShots>-1</MaxProjectileShots>
+</DM_Weapon>

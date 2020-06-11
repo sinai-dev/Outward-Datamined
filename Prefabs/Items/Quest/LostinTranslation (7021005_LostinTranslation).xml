@@ -1,13 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ItemHolder xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="QuestHolder">
-  <ItemID>7021005</ItemID>
-  <Name>LostinTranslation</Name>
+<DM_Item xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <gameObjectName>7021005_LostinTranslation</gameObjectName>
   <saveDir>/Quest</saveDir>
+  <ItemID>7021005</ItemID>
+  <Name>LostinTranslation</Name>
   <Description />
   <LegacyItemID>-1</LegacyItemID>
-  <PerishTime>-1</PerishTime>
+  <IsPickable>false</IsPickable>
+  <IsUsable>false</IsUsable>
+  <QtyRemovedOnUse>1</QtyRemovedOnUse>
+  <GroupItemInDisplay>false</GroupItemInDisplay>
+  <HasPhysicsWhenWorld>false</HasPhysicsWhenWorld>
+  <RepairedInRest>true</RepairedInRest>
+  <BehaviorOnNoDurability>NotSet</BehaviorOnNoDurability>
+  <CastType>NONE</CastType>
+  <CastModifier>Immobilized</CastModifier>
+  <CastLocomotionEnabled>false</CastLocomotionEnabled>
+  <MobileCastMovementMult>-1</MobileCastMovementMult>
+  <CastSheatheRequired>1</CastSheatheRequired>
   <Tags />
   <EffectTransforms />
-  <SerializedCanvas>{"version":2.92,"type":"NodeCanvas.StateMachines.QuestTree","translation":{"x":-5447.0,"y":-4936.0},"nodes":[{"_actionList":{"executionMode":"ActionsRunInParallel","actions":[{"statement":{"_text":"I have found the body of a giant in the caves of the Troglodytes. A strange stone was hidden inside his chest."},"logParameters":[],"$type":"NodeCanvas.Tasks.Actions.QuestAction_AddLogEntry"}]},"_position":{"x":5565.0,"y":5310.0},"$type":"NodeCanvas.StateMachines.ActionState"},{"_actionList":{"executionMode":"ActionsRunInParallel","actions":[{"statement":{"_text":"Learn something about those giants"},"logParameters":[],"$type":"NodeCanvas.Tasks.Actions.QuestAction_AddLogEntry"}]},"_position":{"x":6189.525,"y":5262.028},"$type":"NodeCanvas.StateMachines.QuestStep"},{"_position":{"x":5944.669,"y":5565.443},"$type":"NodeCanvas.StateMachines.AnyState","$id":"12"},{"_actionList":{"executionMode":"ActionsRunInParallel","actions":[{"statement":{"_text":"I sold the red stone to the Soroboreans."},"logParameters":[],"$type":"NodeCanvas.Tasks.Actions.QuestAction_AddLogEntry"}]},"_position":{"x":6480.39,"y":5577.318},"$type":"NodeCanvas.StateMachines.QuestStep","$id":"13"},{"_actionList":{"executionMode":"ActionsRunInParallel","actions":[{"QuestEventRef":{"m_eventUID":"n0eMgjp6ckShNvFkx61X4g"},"saveCompletion":{},"m_objective":{"UID":"b6e05c96b5ff4fd18b448ca23e8dba38","$type":"QuestSystem.QuestObjectives.EventOccured"},"$type":"QuestSystem.NodeObjectives.QuestAction_QuestEventOccured"}]},"_position":{"x":5865.257,"y":5086.6},"$type":"NodeCanvas.StateMachines.QuestStep","$id":"18"},{"_actionList":{"executionMode":"ActionsRunInParallel","actions":[{"statement":{"_text":"This creature wasn't killed by physical blows, he met his fate through a powerful magical attack."},"logParameters":[],"$type":"NodeCanvas.Tasks.Actions.QuestAction_AddLogEntry"}]},"_position":{"x":6393.831,"y":5116.363},"$type":"NodeCanvas.StateMachines.QuestStep","$id":"25"}],"connections":[{"_condition":{"QuestEventRef":{"m_eventUID":"Ss6xx5ZACE2AB6EDqGjYmA"},"$type":"NodeCanvas.Tasks.Conditions.Condition_QuestEventOccured"},"_sourceNode":{"$ref":"12"},"_targetNode":{"$ref":"13"},"$type":"NodeCanvas.StateMachines.FSMConnection"},{"_sourceNode":{"$ref":"18"},"_targetNode":{"$ref":"25"},"$type":"NodeCanvas.StateMachines.FSMConnection"}],"localBlackboard":{"_name":"Local Blackboard","_variables":{}}}</SerializedCanvas>
-</ItemHolder>
+</DM_Item>

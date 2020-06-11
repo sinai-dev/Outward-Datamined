@@ -1,13 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ItemHolder xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="EquipmentHolder">
-  <ItemID>3100050</ItemID>
-  <Name>Cauldron Helm</Name>
+<DM_Armor xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <gameObjectName>3100050_CauldronPotHelm</gameObjectName>
   <saveDir>/Equipment/Armor</saveDir>
+  <ItemID>3100050</ItemID>
+  <Name>Cauldron Helm</Name>
   <Description>“When calling the kettle black just wasn’t enough.”</Description>
   <LegacyItemID>-1</LegacyItemID>
-  <PerishTime>-1</PerishTime>
-  <StatsHolder xsi:type="EquipmentStatsHolder">
+  <IsPickable>true</IsPickable>
+  <IsUsable>false</IsUsable>
+  <QtyRemovedOnUse>1</QtyRemovedOnUse>
+  <GroupItemInDisplay>false</GroupItemInDisplay>
+  <HasPhysicsWhenWorld>false</HasPhysicsWhenWorld>
+  <RepairedInRest>true</RepairedInRest>
+  <BehaviorOnNoDurability>NotSet</BehaviorOnNoDurability>
+  <CastType>NONE</CastType>
+  <CastModifier>Immobilized</CastModifier>
+  <CastLocomotionEnabled>false</CastLocomotionEnabled>
+  <MobileCastMovementMult>-1</MobileCastMovementMult>
+  <CastSheatheRequired>1</CastSheatheRequired>
+  <Tags>
+    <string>Helmet</string>
+    <string>Equipment</string>
+    <string>Item</string>
+  </Tags>
+  <StatsHolder xsi:type="DM_EquipmentStats">
     <BaseValue>20</BaseValue>
     <RawWeight>3</RawWeight>
     <MaxDurability>200</MaxDurability>
@@ -43,15 +59,12 @@
     <Cold_Protection>0</Cold_Protection>
     <Corruption_Protection>0</Corruption_Protection>
   </StatsHolder>
-  <Tags>
-    <string>Helmet</string>
-    <string>Equipment</string>
-    <string>Item</string>
-  </Tags>
   <EffectTransforms />
-  <EquipmentSlot>Helmet</EquipmentSlot>
-  <IKType>None</IKType>
+  <EquipSlot>Helmet</EquipSlot>
   <TwoHandType>None</TwoHandType>
+  <IKType>None</IKType>
   <VisualDetectabilityAdd>0</VisualDetectabilityAdd>
-  <ArmorClass>Heavy</ArmorClass>
-</ItemHolder>
+  <Class>Heavy</Class>
+  <GearSoundMaterial>Metal_Armor</GearSoundMaterial>
+  <ImpactSoundMaterial>Metal_Armor</ImpactSoundMaterial>
+</DM_Armor>

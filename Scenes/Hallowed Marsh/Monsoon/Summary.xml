@@ -63,7 +63,7 @@
     </QuantityHolder>
   </Gatherables>
   <Item_Spawns>
-    <ItemSpawnHolder>
+    <DM_ItemSpawn>
       <Name>Spiritual Varnish</Name>
       <Item_ID>4400060</Item_ID>
       <Quantity>1</Quantity>
@@ -74,8 +74,8 @@
           <z>763.513</z>
         </Vector3>
       </positions>
-    </ItemSpawnHolder>
-    <ItemSpawnHolder>
+    </DM_ItemSpawn>
+    <DM_ItemSpawn>
       <Name>Bolt Varnish</Name>
       <Item_ID>4400031</Item_ID>
       <Quantity>1</Quantity>
@@ -86,8 +86,8 @@
           <z>763.3038</z>
         </Vector3>
       </positions>
-    </ItemSpawnHolder>
-    <ItemSpawnHolder>
+    </DM_ItemSpawn>
+    <DM_ItemSpawn>
       <Name>Weather Defense Potion</Name>
       <Item_ID>4300160</Item_ID>
       <Quantity>2</Quantity>
@@ -103,8 +103,8 @@
           <z>763.861</z>
         </Vector3>
       </positions>
-    </ItemSpawnHolder>
-    <ItemSpawnHolder>
+    </DM_ItemSpawn>
+    <DM_ItemSpawn>
       <Name>Occult Remains</Name>
       <Item_ID>6600110</Item_ID>
       <Quantity>1</Quantity>
@@ -115,8 +115,8 @@
           <z>765.527</z>
         </Vector3>
       </positions>
-    </ItemSpawnHolder>
-    <ItemSpawnHolder>
+    </DM_ItemSpawn>
+    <DM_ItemSpawn>
       <Name>Scholar’s Staff</Name>
       <Item_ID>2150000</Item_ID>
       <Quantity>1</Quantity>
@@ -127,8 +127,8 @@
           <z>161.304</z>
         </Vector3>
       </positions>
-    </ItemSpawnHolder>
-    <ItemSpawnHolder>
+    </DM_ItemSpawn>
+    <DM_ItemSpawn>
       <Name>Bed</Name>
       <Item_ID>5000003</Item_ID>
       <Quantity>20</Quantity>
@@ -234,7 +234,7 @@
           <z>564.3848</z>
         </Vector3>
       </positions>
-    </ItemSpawnHolder>
+    </DM_ItemSpawn>
   </Item_Spawns>
   <UniqueContainerList>
     <string>Junk Pile_lnKjLKoWWUCrHDrECzL9Vg</string>

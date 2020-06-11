@@ -1,22 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ItemHolder xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<DM_Item xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <gameObjectName>6600121_HorrorChitinGreen</gameObjectName>
+  <saveDir>/_Unsorted</saveDir>
   <ItemID>6600121</ItemID>
   <Name>Green Horror Chitin</Name>
-  <gameObjectName>6600121_HorrorChitinGreen</gameObjectName>
-  <saveDir />
   <Description>Odd remnants of a unique Shell Horror, proving the beast was slain.
 
 This chitin is too unstable to be of use for crafting weapons.</Description>
   <LegacyItemID>-1</LegacyItemID>
-  <PerishTime>-1</PerishTime>
+  <IsPickable>true</IsPickable>
+  <IsUsable>false</IsUsable>
+  <QtyRemovedOnUse>1</QtyRemovedOnUse>
+  <GroupItemInDisplay>true</GroupItemInDisplay>
+  <HasPhysicsWhenWorld>false</HasPhysicsWhenWorld>
+  <RepairedInRest>true</RepairedInRest>
+  <BehaviorOnNoDurability>NotSet</BehaviorOnNoDurability>
+  <CastType>NONE</CastType>
+  <CastModifier>Immobilized</CastModifier>
+  <CastLocomotionEnabled>false</CastLocomotionEnabled>
+  <MobileCastMovementMult>-1</MobileCastMovementMult>
+  <CastSheatheRequired>1</CastSheatheRequired>
+  <Tags>
+    <string>Quest</string>
+    <string>Item</string>
+  </Tags>
   <StatsHolder>
     <BaseValue>120</BaseValue>
     <RawWeight>3</RawWeight>
     <MaxDurability>100</MaxDurability>
   </StatsHolder>
-  <Tags>
-    <string>Quest</string>
-    <string>Item</string>
-  </Tags>
   <EffectTransforms />
-</ItemHolder>
+</DM_Item>

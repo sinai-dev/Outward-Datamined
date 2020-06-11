@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<EnemyHolder xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<DM_Enemy xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Name>Marsh Bandit</Name>
   <GameObject_Name>NewBanditEquip_MarshBasic2_C</GameObject_Name>
   <Unique_ID>5</Unique_ID>
@@ -49,4 +49,4 @@
   <DropTable_Names>
     <string>DropTable_BanditArcher_HallowedMarsh_Low</string>
   </DropTable_Names>
-</EnemyHolder>
+</DM_Enemy>

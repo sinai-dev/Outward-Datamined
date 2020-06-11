@@ -103,7 +103,7 @@
     </QuantityHolder>
   </Gatherables>
   <Item_Spawns>
-    <ItemSpawnHolder>
+    <DM_ItemSpawn>
       <Name>Mining Pick</Name>
       <Item_ID>2120050</Item_ID>
       <Quantity>10</Quantity>
@@ -159,8 +159,8 @@
           <z>36.38549</z>
         </Vector3>
       </positions>
-    </ItemSpawnHolder>
-    <ItemSpawnHolder>
+    </DM_ItemSpawn>
+    <DM_ItemSpawn>
       <Name>Bed</Name>
       <Item_ID>5000001</Item_ID>
       <Quantity>11</Quantity>
@@ -221,7 +221,7 @@
           <z>42.9132423</z>
         </Vector3>
       </positions>
-    </ItemSpawnHolder>
+    </DM_ItemSpawn>
   </Item_Spawns>
   <UniqueContainerList>
     <string>Chest_b2n9L6OJKky-nEriESkSfg</string>

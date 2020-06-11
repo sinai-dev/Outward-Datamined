@@ -1,15 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
-<StatusEffectHolder xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<DM_ImbueEffect xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <StatusID>201</StatusID>
   <Name>Greater Poison Imbue</Name>
-  <PresetID>201</PresetID>
-  <Lifespan>0</Lifespan>
-  <Tags />
-  <CanBeHealedBySleeping>false</CanBeHealedBySleeping>
-  <StraightSleepHealTime>-1</StraightSleepHealTime>
+  <Description>Weapon inflicts Extreme Poison to enemies.</Description>
   <Effects>
-    <EffectHolder xsi:type="AddStatusEffectBuildupHolder">
-      <StatusEffect>Poisoned +</StatusEffect>
-      <Buildup>40</Buildup>
-    </EffectHolder>
+    <DM_EffectTransform>
+      <TransformName>Effects</TransformName>
+      <Effects>
+        <DM_Effect xsi:type="DM_AddStatusEffectBuildUp">
+          <Delay>0</Delay>
+          <SyncType>OwnerSync</SyncType>
+          <OverrideCategory>Hit</OverrideCategory>
+          <StatusEffect>Poisoned +</StatusEffect>
+          <Buildup>40</Buildup>
+        </DM_Effect>
+      </Effects>
+      <EffectConditions />
+      <ChildEffects />
+    </DM_EffectTransform>
   </Effects>
-</StatusEffectHolder>
+</DM_ImbueEffect>

@@ -1,45 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ItemHolder xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="SkillHolder">
-  <ItemID>8205220</ItemID>
-  <Name>Armor Training</Name>
+<DM_Skill xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <gameObjectName>8205220_ArmorTraining</gameObjectName>
   <saveDir>/Skill/PassiveSkill</saveDir>
+  <ItemID>8205220</ItemID>
+  <Name>Armor Training</Name>
   <Description>Decreases the stamina and movement penalties from wearing armor by 50%</Description>
   <LegacyItemID>-1</LegacyItemID>
-  <PerishTime>-1</PerishTime>
+  <IsPickable>false</IsPickable>
+  <IsUsable>false</IsUsable>
+  <QtyRemovedOnUse>0</QtyRemovedOnUse>
+  <GroupItemInDisplay>false</GroupItemInDisplay>
+  <HasPhysicsWhenWorld>false</HasPhysicsWhenWorld>
+  <RepairedInRest>true</RepairedInRest>
+  <BehaviorOnNoDurability>NotSet</BehaviorOnNoDurability>
+  <CastType>NONE</CastType>
+  <CastModifier>Immobilized</CastModifier>
+  <CastLocomotionEnabled>false</CastLocomotionEnabled>
+  <MobileCastMovementMult>-1</MobileCastMovementMult>
+  <CastSheatheRequired>1</CastSheatheRequired>
   <Tags />
-  <EffectTransforms>
-    <EffectTransformHolder>
-      <TransformName>Passive</TransformName>
-      <Effects>
-        <EffectHolder xsi:type="AffectStatHolder">
-          <AffectedStat>MovementSpeed</AffectedStat>
-          <AffectedStat_TagUID>86</AffectedStat_TagUID>
-          <AffectQuantity>50</AffectQuantity>
-          <IsModifier>true</IsModifier>
-        </EffectHolder>
-        <EffectHolder xsi:type="AffectStatHolder">
-          <AffectedStat>StaminaCostReduction</AffectedStat>
-          <AffectedStat_TagUID>150</AffectedStat_TagUID>
-          <AffectQuantity>10</AffectQuantity>
-          <IsModifier>true</IsModifier>
-        </EffectHolder>
-        <EffectHolder xsi:type="AffectStatHolder">
-          <AffectedStat>HeatRegen</AffectedStat>
-          <AffectedStat_TagUID>149</AffectedStat_TagUID>
-          <AffectQuantity>50</AffectQuantity>
-          <IsModifier>true</IsModifier>
-        </EffectHolder>
-      </Effects>
-      <EffectConditions />
-      <ChildEffects />
-    </EffectTransformHolder>
-  </EffectTransforms>
+  <EffectTransforms />
   <Cooldown>0</Cooldown>
   <StaminaCost>0</StaminaCost>
   <ManaCost>0</ManaCost>
   <DurabilityCost>0</DurabilityCost>
   <DurabilityCostPercent>0</DurabilityCostPercent>
-  <IsDLCSkill>true</IsDLCSkill>
   <RequiredItems />
-</ItemHolder>
+</DM_Skill>

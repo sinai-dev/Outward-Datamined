@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<MerchantHolder xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<DM_Merchant xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Name>Helmi the Alchemist</Name>
   <UID>OjRsqb0O4E2ACtSIFLgTPg</UID>
   <DropTable>
@@ -552,4 +552,4 @@
   </DropTable>
   <BuyModifiers />
   <SellModifiers />
-</MerchantHolder>
+</DM_Merchant>

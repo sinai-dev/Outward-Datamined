@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<EnemyHolder xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<DM_Enemy xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Name>Hive Lord</Name>
   <GameObject_Name>HiveLord 1AI D+</GameObject_Name>
   <Unique_ID>2</Unique_ID>
@@ -64,4 +64,4 @@
     <string>DropTable_HiveLord</string>
     <string>DropTable_Artifact_ Worldedge</string>
   </DropTable_Names>
-</EnemyHolder>
+</DM_Enemy>

@@ -24,7 +24,7 @@
   </Loot_Containers>
   <Gatherables />
   <Item_Spawns>
-    <ItemSpawnHolder>
+    <DM_ItemSpawn>
       <Name>Brutal Greataxe</Name>
       <Item_ID>2110000</Item_ID>
       <Quantity>1</Quantity>
@@ -35,8 +35,8 @@
           <z>-1.783</z>
         </Vector3>
       </positions>
-    </ItemSpawnHolder>
-    <ItemSpawnHolder>
+    </DM_ItemSpawn>
+    <DM_ItemSpawn>
       <Name>Brutal Spear</Name>
       <Item_ID>2130000</Item_ID>
       <Quantity>1</Quantity>
@@ -47,8 +47,8 @@
           <z>-2.369</z>
         </Vector3>
       </positions>
-    </ItemSpawnHolder>
-    <ItemSpawnHolder>
+    </DM_ItemSpawn>
+    <DM_ItemSpawn>
       <Name>Bandages</Name>
       <Item_ID>4400010</Item_ID>
       <Quantity>1</Quantity>
@@ -59,8 +59,8 @@
           <z>19.7535381</z>
         </Vector3>
       </positions>
-    </ItemSpawnHolder>
-    <ItemSpawnHolder>
+    </DM_ItemSpawn>
+    <DM_ItemSpawn>
       <Name>Brutal Greatmace</Name>
       <Item_ID>2120000</Item_ID>
       <Quantity>1</Quantity>
@@ -71,7 +71,7 @@
           <z>-3.199</z>
         </Vector3>
       </positions>
-    </ItemSpawnHolder>
+    </DM_ItemSpawn>
   </Item_Spawns>
   <UniqueContainerList>
     <string>Chest_qmNYNO8DHE2D60QPMjJhZA</string>

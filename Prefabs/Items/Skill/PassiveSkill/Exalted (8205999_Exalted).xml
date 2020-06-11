@@ -1,91 +1,100 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ItemHolder xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="SkillHolder">
-  <ItemID>8205999</ItemID>
-  <Name>Exalted</Name>
+<DM_Skill xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <gameObjectName>8205999_Exalted</gameObjectName>
   <saveDir>/Skill/PassiveSkill</saveDir>
+  <ItemID>8205999</ItemID>
+  <Name>Exalted</Name>
   <Description>Double all the Damage you deal. Reduce the Stamina and Mana costs of your actions by 30%. Increase all Damage Resistances by 10. 
 
 You are inflicted with the incurable “Life Drain” sickness.</Description>
   <LegacyItemID>-1</LegacyItemID>
-  <PerishTime>-1</PerishTime>
+  <IsPickable>true</IsPickable>
+  <IsUsable>false</IsUsable>
+  <QtyRemovedOnUse>1</QtyRemovedOnUse>
+  <GroupItemInDisplay>false</GroupItemInDisplay>
+  <HasPhysicsWhenWorld>false</HasPhysicsWhenWorld>
+  <RepairedInRest>true</RepairedInRest>
+  <BehaviorOnNoDurability>NotSet</BehaviorOnNoDurability>
+  <CastType>NONE</CastType>
+  <CastModifier>Immobilized</CastModifier>
+  <CastLocomotionEnabled>false</CastLocomotionEnabled>
+  <MobileCastMovementMult>-1</MobileCastMovementMult>
+  <CastSheatheRequired>1</CastSheatheRequired>
   <Tags />
   <EffectTransforms>
-    <EffectTransformHolder>
+    <DM_EffectTransform>
       <TransformName>PassiveBonus</TransformName>
       <Effects>
-        <EffectHolder xsi:type="AffectStatHolder">
-          <AffectedStat>AllDamages</AffectedStat>
-          <AffectedStat_TagUID>96</AffectedStat_TagUID>
+        <DM_Effect xsi:type="DM_AffectStat">
+          <Delay>0</Delay>
+          <SyncType>OwnerSync</SyncType>
+          <OverrideCategory>None</OverrideCategory>
+          <Stat_Tag>AllDamages</Stat_Tag>
           <AffectQuantity>100</AffectQuantity>
           <IsModifier>true</IsModifier>
-        </EffectHolder>
-        <EffectHolder xsi:type="AffectStatHolder">
-          <AffectedStat>StaminaUse</AffectedStat>
-          <AffectedStat_TagUID>81</AffectedStat_TagUID>
+        </DM_Effect>
+        <DM_Effect xsi:type="DM_AffectStat">
+          <Delay>0</Delay>
+          <SyncType>OwnerSync</SyncType>
+          <OverrideCategory>None</OverrideCategory>
+          <Stat_Tag>StaminaUse</Stat_Tag>
           <AffectQuantity>-30</AffectQuantity>
           <IsModifier>true</IsModifier>
-        </EffectHolder>
-        <EffectHolder xsi:type="AffectStatHolder">
-          <AffectedStat>ManaUse</AffectedStat>
-          <AffectedStat_TagUID>151</AffectedStat_TagUID>
+        </DM_Effect>
+        <DM_Effect xsi:type="DM_AffectStat">
+          <Delay>0</Delay>
+          <SyncType>OwnerSync</SyncType>
+          <OverrideCategory>None</OverrideCategory>
+          <Stat_Tag>ManaUse</Stat_Tag>
           <AffectQuantity>-30</AffectQuantity>
           <IsModifier>true</IsModifier>
-        </EffectHolder>
-        <EffectHolder xsi:type="AffectStatHolder">
-          <AffectedStat>AllResistances</AffectedStat>
-          <AffectedStat_TagUID>197</AffectedStat_TagUID>
+        </DM_Effect>
+        <DM_Effect xsi:type="DM_AffectStat">
+          <Delay>0</Delay>
+          <SyncType>OwnerSync</SyncType>
+          <OverrideCategory>None</OverrideCategory>
+          <Stat_Tag>AllResistances</Stat_Tag>
           <AffectQuantity>10</AffectQuantity>
           <IsModifier>false</IsModifier>
-        </EffectHolder>
+        </DM_Effect>
       </Effects>
       <EffectConditions>
-        <EffectConditionHolder>
-          <Conditions>
-            <ConditionHolder>
-              <Condition_Type>IsWorldHostCondition</Condition_Type>
-              <Invert>false</Invert>
-            </ConditionHolder>
-          </Conditions>
-        </EffectConditionHolder>
+        <DM_EffectCondition xsi:type="DM_IsWorldHostCondition">
+          <Invert>false</Invert>
+        </DM_EffectCondition>
       </EffectConditions>
       <ChildEffects />
-    </EffectTransformHolder>
-    <EffectTransformHolder>
+    </DM_EffectTransform>
+    <DM_EffectTransform>
       <TransformName>PassiveLifeDrain</TransformName>
       <Effects>
-        <EffectHolder xsi:type="AddStatusEffectHolder">
+        <DM_Effect xsi:type="DM_AddStatusEffect">
+          <Delay>0</Delay>
+          <SyncType>OwnerSync</SyncType>
+          <OverrideCategory>None</OverrideCategory>
           <StatusEffect>Exalted</StatusEffect>
           <ChanceToContract>100</ChanceToContract>
-        </EffectHolder>
+        </DM_Effect>
       </Effects>
       <EffectConditions>
-        <EffectConditionHolder>
-          <Conditions>
-            <ConditionHolder>
-              <Condition_Type>IsWorldHostCondition</Condition_Type>
-              <Invert>false</Invert>
-            </ConditionHolder>
-          </Conditions>
-        </EffectConditionHolder>
-        <EffectConditionHolder>
-          <Conditions>
-            <ConditionHolder>
-              <Requirement>Life Drain</Requirement>
-              <Condition_Type>Target does not have status</Condition_Type>
-              <Invert>true</Invert>
-            </ConditionHolder>
-          </Conditions>
-        </EffectConditionHolder>
+        <DM_EffectCondition xsi:type="DM_IsWorldHostCondition">
+          <Invert>false</Invert>
+        </DM_EffectCondition>
+        <DM_EffectCondition xsi:type="DM_HasStatusEffectEffectCondition">
+          <Invert>false</Invert>
+          <DiseaseAge>0</DiseaseAge>
+          <CheckOwner>false</CheckOwner>
+          <StatusSelectorType>StatusFamily</StatusSelectorType>
+          <SelectorValue>FFEqAIPwr0OXVU3-BqZVzw</SelectorValue>
+        </DM_EffectCondition>
       </EffectConditions>
       <ChildEffects />
-    </EffectTransformHolder>
+    </DM_EffectTransform>
   </EffectTransforms>
   <Cooldown>0</Cooldown>
   <StaminaCost>0</StaminaCost>
   <ManaCost>0</ManaCost>
   <DurabilityCost>0</DurabilityCost>
   <DurabilityCostPercent>0</DurabilityCostPercent>
-  <IsDLCSkill>true</IsDLCSkill>
   <RequiredItems />
-</ItemHolder>
+</DM_Skill>

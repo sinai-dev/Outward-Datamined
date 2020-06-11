@@ -66,7 +66,7 @@
     </QuantityHolder>
   </Gatherables>
   <Item_Spawns>
-    <ItemSpawnHolder>
+    <DM_ItemSpawn>
       <Name>Mining Pick</Name>
       <Item_ID>2120050</Item_ID>
       <Quantity>1</Quantity>
@@ -77,8 +77,8 @@
           <z>1456.872</z>
         </Vector3>
       </positions>
-    </ItemSpawnHolder>
-    <ItemSpawnHolder>
+    </DM_ItemSpawn>
+    <DM_ItemSpawn>
       <Name>Bread Of The Wild</Name>
       <Item_ID>4100500</Item_ID>
       <Quantity>2</Quantity>
@@ -94,8 +94,8 @@
           <z>560.67</z>
         </Vector3>
       </positions>
-    </ItemSpawnHolder>
-    <ItemSpawnHolder>
+    </DM_ItemSpawn>
+    <DM_ItemSpawn>
       <Name>Pitchfork</Name>
       <Item_ID>2130040</Item_ID>
       <Quantity>1</Quantity>
@@ -106,8 +106,8 @@
           <z>1449.866</z>
         </Vector3>
       </positions>
-    </ItemSpawnHolder>
-    <ItemSpawnHolder>
+    </DM_ItemSpawn>
+    <DM_ItemSpawn>
       <Name>Fishing Harpoon</Name>
       <Item_ID>2130130</Item_ID>
       <Quantity>1</Quantity>
@@ -118,8 +118,8 @@
           <z>1590.438</z>
         </Vector3>
       </positions>
-    </ItemSpawnHolder>
-    <ItemSpawnHolder>
+    </DM_ItemSpawn>
+    <DM_ItemSpawn>
       <Name>Iron Axe</Name>
       <Item_ID>2010000</Item_ID>
       <Quantity>1</Quantity>
@@ -130,8 +130,8 @@
           <z>1358.895</z>
         </Vector3>
       </positions>
-    </ItemSpawnHolder>
-    <ItemSpawnHolder>
+    </DM_ItemSpawn>
+    <DM_ItemSpawn>
       <Name>Cooking: Bread of the Wild</Name>
       <Item_ID>5700068</Item_ID>
       <Quantity>1</Quantity>
@@ -142,8 +142,8 @@
           <z>560.18</z>
         </Vector3>
       </positions>
-    </ItemSpawnHolder>
-    <ItemSpawnHolder>
+    </DM_ItemSpawn>
+    <DM_ItemSpawn>
       <Name>Cooking: Stringy Salad</Name>
       <Item_ID>5700070</Item_ID>
       <Quantity>1</Quantity>
@@ -154,8 +154,8 @@
           <z>565.262</z>
         </Vector3>
       </positions>
-    </ItemSpawnHolder>
-    <ItemSpawnHolder>
+    </DM_ItemSpawn>
+    <DM_ItemSpawn>
       <Name>Cooking: Fungal Cleanser</Name>
       <Item_ID>5700069</Item_ID>
       <Quantity>1</Quantity>
@@ -166,8 +166,8 @@
           <z>565.09</z>
         </Vector3>
       </positions>
-    </ItemSpawnHolder>
-    <ItemSpawnHolder>
+    </DM_ItemSpawn>
+    <DM_ItemSpawn>
       <Name>Recurve Bow</Name>
       <Item_ID>2200010</Item_ID>
       <Quantity>1</Quantity>
@@ -178,8 +178,8 @@
           <z>564.512</z>
         </Vector3>
       </positions>
-    </ItemSpawnHolder>
-    <ItemSpawnHolder>
+    </DM_ItemSpawn>
+    <DM_ItemSpawn>
       <Name>Tripwire Trap</Name>
       <Item_ID>5020010</Item_ID>
       <Quantity>3</Quantity>
@@ -200,8 +200,8 @@
           <z>565.570862</z>
         </Vector3>
       </positions>
-    </ItemSpawnHolder>
-    <ItemSpawnHolder>
+    </DM_ItemSpawn>
+    <DM_ItemSpawn>
       <Name>Spikes – Iron</Name>
       <Item_ID>6500100</Item_ID>
       <Quantity>2</Quantity>
@@ -217,8 +217,8 @@
           <z>563.636</z>
         </Vector3>
       </positions>
-    </ItemSpawnHolder>
-    <ItemSpawnHolder>
+    </DM_ItemSpawn>
+    <DM_ItemSpawn>
       <Name>Spikes – Palladium</Name>
       <Item_ID>6500110</Item_ID>
       <Quantity>1</Quantity>
@@ -229,8 +229,8 @@
           <z>563.628</z>
         </Vector3>
       </positions>
-    </ItemSpawnHolder>
-    <ItemSpawnHolder>
+    </DM_ItemSpawn>
+    <DM_ItemSpawn>
       <Name>Bed</Name>
       <Item_ID>5000004</Item_ID>
       <Quantity>6</Quantity>
@@ -266,8 +266,8 @@
           <z>567.264832</z>
         </Vector3>
       </positions>
-    </ItemSpawnHolder>
-    <ItemSpawnHolder>
+    </DM_ItemSpawn>
+    <DM_ItemSpawn>
       <Name>Bed</Name>
       <Item_ID>5000001</Item_ID>
       <Quantity>2</Quantity>
@@ -283,7 +283,7 @@
           <z>567.476868</z>
         </Vector3>
       </positions>
-    </ItemSpawnHolder>
+    </DM_ItemSpawn>
   </Item_Spawns>
   <UniqueContainerList>
     <string>Junk Pile_yDAF1daDGE-gLzkevXAptA</string>
