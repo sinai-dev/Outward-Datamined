@@ -4,6 +4,42 @@
   <ItemID>0</ItemID>
   <All_Locations>
     <QuantityHolder>
+      <Name>Antique Plateau:Antique Plateau</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Antique Plateau:Forgotten Research Laboratory</Name>
+      <Quantity>2</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Antique Plateau:Ancient Foundry</Name>
+      <Quantity>3</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Antique Plateau:Ruined Warehouse</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Antique Plateau:Lost Golem Manufacturing Facility</Name>
+      <Quantity>4</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Antique Plateau:Crumbling Loading Docks</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Antique Plateau:Destroyed Test Chambers</Name>
+      <Quantity>2</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Antique Plateau:Compromised Mana Transfer Station</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Antique Plateau:Wendigo Lair</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
       <Name>Chersonese:Chersonese</Name>
       <Quantity>1</Quantity>
     </QuantityHolder>
@@ -70,36 +106,31 @@
   </All_Locations>
   <DropTables>
     <DroptableSummary>
-      <DropTableName>DropTable_Neutral_Cloth_Poor_1</DropTableName>
+      <DropTableName>DropTable_Neutral_Food_1</DropTableName>
       <Locations>
-        <string>Chersonese</string>
-        <string>Levant</string>
+        <string>Forgotten Research Laboratory</string>
+        <string>Destroyed Test Chambers</string>
+        <string>Bandits' Prison</string>
+        <string>Ziggurat Passage</string>
+        <string>Dead Roots</string>
+        <string>Flooded Cellar</string>
+        <string>The Slide</string>
         <string>Stone Titan Caves</string>
         <string>Sand Rose Cave</string>
         <string>Royal Manticore’s Lair</string>
+        <string>Cabal of Wind Temple</string>
       </Locations>
     </DroptableSummary>
     <DroptableSummary>
-      <DropTableName>DropTable_Chersonese_Food_1</DropTableName>
+      <DropTableName>DropTable_Neutral_Alchemy_Low_2</DropTableName>
       <Locations>
-        <string>Chersonese</string>
-      </Locations>
-    </DroptableSummary>
-    <DroptableSummary>
-      <DropTableName>DropTable_Neutral_Survival_Low_2</DropTableName>
-      <Locations>
-        <string>Chersonese</string>
-        <string>Bandits' Prison</string>
-        <string>Hyena Burrow</string>
-        <string>Flooded Cellar</string>
-        <string>The Slide</string>
-        <string>Royal Manticore’s Lair</string>
-        <string>Dolmen Crypt</string>
+        <string>Forgotten Research Laboratory</string>
       </Locations>
     </DroptableSummary>
     <DroptableSummary>
       <DropTableName>DropTable_Neutral_StandardRecipe_Low_1</DropTableName>
       <Locations>
+        <string>Forgotten Research Laboratory</string>
         <string>Chersonese</string>
         <string>Hyena Burrow</string>
         <string>Ziggurat Passage</string>
@@ -113,17 +144,126 @@
       </Locations>
     </DroptableSummary>
     <DroptableSummary>
-      <DropTableName>DropTable_Neutral_Food_1</DropTableName>
+      <DropTableName>DropTable_AntiqueField_Recipe_Enchantment_1</DropTableName>
       <Locations>
+        <string>Forgotten Research Laboratory</string>
+        <string>Ancient Foundry</string>
+        <string>Ruined Warehouse</string>
+        <string>Lost Golem Manufacturing Facility</string>
+        <string>Crumbling Loading Docks</string>
+        <string>Destroyed Test Chambers</string>
+        <string>Compromised Mana Transfer Station</string>
+      </Locations>
+    </DroptableSummary>
+    <DroptableSummary>
+      <DropTableName>DropTable_AntiqueField_Food_1</DropTableName>
+      <Locations>
+        <string>Forgotten Research Laboratory</string>
+        <string>Ancient Foundry</string>
+        <string>Ruined Warehouse</string>
+        <string>Lost Golem Manufacturing Facility</string>
+        <string>Crumbling Loading Docks</string>
+        <string>Destroyed Test Chambers</string>
+        <string>Compromised Mana Transfer Station</string>
+        <string>Wendigo Lair</string>
+      </Locations>
+    </DroptableSummary>
+    <DroptableSummary>
+      <DropTableName>DropTable_Neutral_Cloth_Rich_1</DropTableName>
+      <Locations>
+        <string>Forgotten Research Laboratory</string>
+      </Locations>
+    </DroptableSummary>
+    <DroptableSummary>
+      <DropTableName>DropTable_Neutral_Survival_Low_2</DropTableName>
+      <Locations>
+        <string>Ancient Foundry</string>
+        <string>Chersonese</string>
         <string>Bandits' Prison</string>
-        <string>Ziggurat Passage</string>
-        <string>Dead Roots</string>
+        <string>Hyena Burrow</string>
         <string>Flooded Cellar</string>
         <string>The Slide</string>
+        <string>Royal Manticore’s Lair</string>
+        <string>Dolmen Crypt</string>
+      </Locations>
+    </DroptableSummary>
+    <DroptableSummary>
+      <DropTableName>DropTable_AntiqueField_Recipe_Basic_1</DropTableName>
+      <Locations>
+        <string>Ancient Foundry</string>
+        <string>Lost Golem Manufacturing Facility</string>
+        <string>Crumbling Loading Docks</string>
+        <string>Destroyed Test Chambers</string>
+        <string>Compromised Mana Transfer Station</string>
+      </Locations>
+    </DroptableSummary>
+    <DroptableSummary>
+      <DropTableName>DropTable_Neutral_Cloth_Poor_1</DropTableName>
+      <Locations>
+        <string>Ancient Foundry</string>
+        <string>Lost Golem Manufacturing Facility</string>
+        <string>Crumbling Loading Docks</string>
+        <string>Destroyed Test Chambers</string>
+        <string>Wendigo Lair</string>
+        <string>Chersonese</string>
+        <string>Levant</string>
         <string>Stone Titan Caves</string>
         <string>Sand Rose Cave</string>
         <string>Royal Manticore’s Lair</string>
-        <string>Cabal of Wind Temple</string>
+      </Locations>
+    </DroptableSummary>
+    <DroptableSummary>
+      <DropTableName>DropTable_AntiqueField_Consumable_1</DropTableName>
+      <Locations>
+        <string>Ruined Warehouse</string>
+        <string>Lost Golem Manufacturing Facility</string>
+      </Locations>
+    </DroptableSummary>
+    <DroptableSummary>
+      <DropTableName>DropTable_AntiqueField_Recipe_Weapon_1</DropTableName>
+      <Locations>
+        <string>Ruined Warehouse</string>
+        <string>Lost Golem Manufacturing Facility</string>
+        <string>Destroyed Test Chambers</string>
+      </Locations>
+    </DroptableSummary>
+    <DroptableSummary>
+      <DropTableName>DropTable_Neutral_Magic_Low_2</DropTableName>
+      <Locations>
+        <string>Lost Golem Manufacturing Facility</string>
+        <string>Dead Roots</string>
+        <string>Sand Rose Cave</string>
+        <string>Face of the Ancients</string>
+        <string>Worn Hunter's Cabin</string>
+        <string>Dolmen Crypt</string>
+      </Locations>
+    </DroptableSummary>
+    <DroptableSummary>
+      <DropTableName>DropTable_AntiqueField_Alchemy_1</DropTableName>
+      <Locations>
+        <string>Lost Golem Manufacturing Facility</string>
+        <string>Destroyed Test Chambers</string>
+        <string>Compromised Mana Transfer Station</string>
+      </Locations>
+    </DroptableSummary>
+    <DroptableSummary>
+      <DropTableName>DropTable_Neutral_Survival_Medium_1</DropTableName>
+      <Locations>
+        <string>Wendigo Lair</string>
+        <string>Face of the Ancients</string>
+        <string>Dolmen Crypt</string>
+      </Locations>
+    </DroptableSummary>
+    <DroptableSummary>
+      <DropTableName>DropTable_Neutral_Recipe_Dungeon_1</DropTableName>
+      <Locations>
+        <string>Wendigo Lair</string>
+      </Locations>
+    </DroptableSummary>
+    <DroptableSummary>
+      <DropTableName>DropTable_Chersonese_Food_1</DropTableName>
+      <Locations>
+        <string>Chersonese</string>
       </Locations>
     </DroptableSummary>
     <DroptableSummary>
@@ -147,16 +287,6 @@
       <Locations>
         <string>Ziggurat Passage</string>
         <string>Worn Hunter's Cabin</string>
-      </Locations>
-    </DroptableSummary>
-    <DroptableSummary>
-      <DropTableName>DropTable_Neutral_Magic_Low_2</DropTableName>
-      <Locations>
-        <string>Dead Roots</string>
-        <string>Sand Rose Cave</string>
-        <string>Face of the Ancients</string>
-        <string>Worn Hunter's Cabin</string>
-        <string>Dolmen Crypt</string>
       </Locations>
     </DroptableSummary>
     <DroptableSummary>
@@ -202,13 +332,6 @@
       <Locations>
         <string>Cabal of Wind Temple</string>
         <string>Face of the Ancients</string>
-      </Locations>
-    </DroptableSummary>
-    <DroptableSummary>
-      <DropTableName>DropTable_Neutral_Survival_Medium_1</DropTableName>
-      <Locations>
-        <string>Face of the Ancients</string>
-        <string>Dolmen Crypt</string>
       </Locations>
     </DroptableSummary>
   </DropTables>

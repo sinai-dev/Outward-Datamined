@@ -71,6 +71,20 @@
                   <Knockback>30</Knockback>
                   <HitInventory>true</HitInventory>
                 </DM_Effect>
+                <DM_Effect xsi:type="DM_AffectCorruption">
+                  <Delay>0</Delay>
+                  <SyncType>OwnerSync</SyncType>
+                  <OverrideCategory>None</OverrideCategory>
+                  <AffectQuantity>5</AffectQuantity>
+                  <IsRaw>false</IsRaw>
+                </DM_Effect>
+                <DM_Effect xsi:type="DM_AddStatusEffectBuildUp">
+                  <Delay>0</Delay>
+                  <SyncType>OwnerSync</SyncType>
+                  <OverrideCategory>None</OverrideCategory>
+                  <StatusEffect>Weaken</StatusEffect>
+                  <Buildup>60</Buildup>
+                </DM_Effect>
               </Effects>
               <EffectConditions />
               <ChildEffects />
@@ -125,6 +139,20 @@
                   <Knockback>30</Knockback>
                   <HitInventory>true</HitInventory>
                 </DM_Effect>
+                <DM_Effect xsi:type="DM_AffectCorruption">
+                  <Delay>0</Delay>
+                  <SyncType>OwnerSync</SyncType>
+                  <OverrideCategory>None</OverrideCategory>
+                  <AffectQuantity>5</AffectQuantity>
+                  <IsRaw>false</IsRaw>
+                </DM_Effect>
+                <DM_Effect xsi:type="DM_AddStatusEffectBuildUp">
+                  <Delay>0</Delay>
+                  <SyncType>OwnerSync</SyncType>
+                  <OverrideCategory>None</OverrideCategory>
+                  <StatusEffect>Weaken</StatusEffect>
+                  <Buildup>60</Buildup>
+                </DM_Effect>
               </Effects>
               <EffectConditions />
               <ChildEffects />
@@ -178,6 +206,20 @@
                   <Damages_AI />
                   <Knockback>30</Knockback>
                   <HitInventory>true</HitInventory>
+                </DM_Effect>
+                <DM_Effect xsi:type="DM_AffectCorruption">
+                  <Delay>0</Delay>
+                  <SyncType>OwnerSync</SyncType>
+                  <OverrideCategory>None</OverrideCategory>
+                  <AffectQuantity>5</AffectQuantity>
+                  <IsRaw>false</IsRaw>
+                </DM_Effect>
+                <DM_Effect xsi:type="DM_AddStatusEffectBuildUp">
+                  <Delay>0</Delay>
+                  <SyncType>OwnerSync</SyncType>
+                  <OverrideCategory>None</OverrideCategory>
+                  <StatusEffect>Weaken</StatusEffect>
+                  <Buildup>60</Buildup>
                 </DM_Effect>
               </Effects>
               <EffectConditions />

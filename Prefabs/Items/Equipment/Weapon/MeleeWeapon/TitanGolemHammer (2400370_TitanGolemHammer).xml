@@ -61,7 +61,7 @@
     <AttackSpeed>1</AttackSpeed>
     <BaseDamage>
       <Damages>
-        <Damage>31</Damage>
+        <Damage>41</Damage>
         <Damage_Type>Physical</Damage_Type>
       </Damages>
     </BaseDamage>
@@ -71,47 +71,62 @@
     <Attacks>
       <AttackData>
         <StamCost>1.25</StamCost>
-        <Knockback>95</Knockback>
+        <Knockback>130</Knockback>
         <AttackSpeed>1</AttackSpeed>
         <Damage>
-          <float>31</float>
+          <float>41</float>
         </Damage>
       </AttackData>
       <AttackData>
         <StamCost>1.25</StamCost>
-        <Knockback>95</Knockback>
+        <Knockback>130</Knockback>
         <AttackSpeed>1</AttackSpeed>
         <Damage>
-          <float>31</float>
+          <float>41</float>
         </Damage>
       </AttackData>
       <AttackData>
         <StamCost>1.25</StamCost>
-        <Knockback>95</Knockback>
+        <Knockback>130</Knockback>
         <AttackSpeed>1</AttackSpeed>
         <Damage>
-          <float>31</float>
+          <float>41</float>
         </Damage>
       </AttackData>
       <AttackData>
         <StamCost>1.25</StamCost>
-        <Knockback>86</Knockback>
+        <Knockback>130</Knockback>
         <AttackSpeed>1</AttackSpeed>
         <Damage>
-          <float>31</float>
+          <float>41</float>
         </Damage>
       </AttackData>
       <AttackData>
         <StamCost>1.25</StamCost>
-        <Knockback>95</Knockback>
+        <Knockback>130</Knockback>
         <AttackSpeed>1</AttackSpeed>
         <Damage>
-          <float>31</float>
+          <float>41</float>
         </Damage>
       </AttackData>
     </Attacks>
   </StatsHolder>
-  <EffectTransforms />
+  <EffectTransforms>
+    <DM_EffectTransform>
+      <TransformName>HitEffects</TransformName>
+      <Effects>
+        <DM_Effect xsi:type="DM_AddStatusEffectBuildUp">
+          <Delay>0</Delay>
+          <SyncType>OwnerSync</SyncType>
+          <OverrideCategory>None</OverrideCategory>
+          <StatusEffect>Confusion</StatusEffect>
+          <Buildup>48</Buildup>
+        </DM_Effect>
+      </Effects>
+      <EffectConditions />
+      <ChildEffects />
+    </DM_EffectTransform>
+  </EffectTransforms>
   <EquipSlot>RightHand</EquipSlot>
   <TwoHandType>TwoHandedRight</TwoHandType>
   <IKType>None</IKType>

@@ -61,11 +61,11 @@
     <AttackSpeed>1</AttackSpeed>
     <BaseDamage>
       <Damages>
-        <Damage>18</Damage>
+        <Damage>24</Damage>
         <Damage_Type>Physical</Damage_Type>
       </Damages>
       <Damages>
-        <Damage>6</Damage>
+        <Damage>8</Damage>
         <Damage_Type>Fire</Damage_Type>
       </Damages>
     </BaseDamage>

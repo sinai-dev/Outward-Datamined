@@ -3,15 +3,15 @@
   <SceneName>The Slide</SceneName>
   <Enemies>
     <QuantityHolder>
-      <Name>Rock Mantis (2)</Name>
+      <Name>Rock Mantis (6)</Name>
       <Quantity>2</Quantity>
     </QuantityHolder>
     <QuantityHolder>
-      <Name>Shell Horror (1)</Name>
+      <Name>Shell Horror (4)</Name>
       <Quantity>1</Quantity>
     </QuantityHolder>
     <QuantityHolder>
-      <Name>Crescent Shark (1)</Name>
+      <Name>Crescent Shark (2)</Name>
       <Quantity>1</Quantity>
     </QuantityHolder>
     <QuantityHolder>

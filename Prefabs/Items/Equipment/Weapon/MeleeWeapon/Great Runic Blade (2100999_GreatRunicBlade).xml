@@ -24,6 +24,8 @@
     <string>Item</string>
     <string>2 Handed</string>
     <string>Lexicon</string>
+    <string>Family</string>
+    <string>Runic</string>
   </Tags>
   <StatsHolder xsi:type="DM_WeaponStats">
     <BaseValue>0</BaseValue>

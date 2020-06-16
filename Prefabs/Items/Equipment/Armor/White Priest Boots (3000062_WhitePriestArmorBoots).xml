@@ -22,6 +22,8 @@
     <string>Boots</string>
     <string>Equipment</string>
     <string>Item</string>
+    <string>White Priest</string>
+    <string>Family</string>
   </Tags>
   <StatsHolder xsi:type="DM_EquipmentStats">
     <BaseValue>200</BaseValue>

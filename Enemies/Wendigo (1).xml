@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <DM_Enemy xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Name>Wendigo</Name>
-  <GameObject_Name>Wendigo</GameObject_Name>
+  <GameObject_Name>Wendigo_01_SmallDungeon_01</GameObject_Name>
   <Unique_ID>1</Unique_ID>
   <Locations_Found>
-    <string>Chersonese:Chersonese</string>
-    <string>Chersonese:Corrupted Tombs</string>
-    <string>Hallowed Marsh:Abandoned Shed</string>
+    <string>Antique Plateau:Wendigo Lair</string>
   </Locations_Found>
   <Max_Health>450</Max_Health>
   <Health_Regen_Per_Second>1.5</Health_Regen_Per_Second>

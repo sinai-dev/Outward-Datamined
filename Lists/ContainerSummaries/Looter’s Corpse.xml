@@ -4,6 +4,42 @@
   <ItemID>0</ItemID>
   <All_Locations>
     <QuantityHolder>
+      <Name>Antique Plateau:Abandoned Living Quarters</Name>
+      <Quantity>4</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Antique Plateau:Forgotten Research Laboratory</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Antique Plateau:Ancient Foundry</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Antique Plateau:Ruined Warehouse</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Antique Plateau:Lost Golem Manufacturing Facility</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Antique Plateau:Crumbling Loading Docks</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Antique Plateau:Wendigo Lair</Name>
+      <Quantity>2</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Antique Plateau:Blood Mage Hideout</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Antique Plateau:Bandit Hideout</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
       <Name>Chersonese:Vendavel Fortress</Name>
       <Quantity>2</Quantity>
     </QuantityHolder>
@@ -34,6 +70,138 @@
   </All_Locations>
   <DropTables>
     <DroptableSummary>
+      <DropTableName>DropTable_Neutral_Alchemy_Low_2</DropTableName>
+      <Locations>
+        <string>Abandoned Living Quarters</string>
+      </Locations>
+    </DroptableSummary>
+    <DroptableSummary>
+      <DropTableName>DropTable_Neutral_Survival_Medium_1</DropTableName>
+      <Locations>
+        <string>Abandoned Living Quarters</string>
+        <string>Ancient Foundry</string>
+        <string>Wendigo Lair</string>
+        <string>Bandit Hideout</string>
+        <string>Royal Manticore’s Lair</string>
+      </Locations>
+    </DroptableSummary>
+    <DroptableSummary>
+      <DropTableName>DropTable_Neutral_StandardRecipe_Low_1</DropTableName>
+      <Locations>
+        <string>Abandoned Living Quarters</string>
+        <string>Bandit Hideout</string>
+        <string>Vendavel Fortress</string>
+        <string>Corrupted Tombs</string>
+        <string>Ancient Hive</string>
+      </Locations>
+    </DroptableSummary>
+    <DroptableSummary>
+      <DropTableName>DropTable_AntiqueField_TrogPrisonKey</DropTableName>
+      <Locations>
+        <string>Abandoned Living Quarters</string>
+      </Locations>
+    </DroptableSummary>
+    <DroptableSummary>
+      <DropTableName>DropTable_AntiqueField_Food_1</DropTableName>
+      <Locations>
+        <string>Abandoned Living Quarters</string>
+        <string>Forgotten Research Laboratory</string>
+        <string>Ruined Warehouse</string>
+        <string>Lost Golem Manufacturing Facility</string>
+        <string>Crumbling Loading Docks</string>
+        <string>Wendigo Lair</string>
+      </Locations>
+    </DroptableSummary>
+    <DroptableSummary>
+      <DropTableName>DropTable_AntiqueField_Recipe_Basic_1</DropTableName>
+      <Locations>
+        <string>Abandoned Living Quarters</string>
+        <string>Forgotten Research Laboratory</string>
+        <string>Ancient Foundry</string>
+        <string>Ruined Warehouse</string>
+        <string>Lost Golem Manufacturing Facility</string>
+        <string>Crumbling Loading Docks</string>
+        <string>Wendigo Lair</string>
+      </Locations>
+    </DroptableSummary>
+    <DroptableSummary>
+      <DropTableName>DropTable_Neutral_Cloth_Poor_1</DropTableName>
+      <Locations>
+        <string>Abandoned Living Quarters</string>
+        <string>Vendavel Fortress</string>
+        <string>Corrupted Tombs</string>
+        <string>Hallowed Marsh</string>
+      </Locations>
+    </DroptableSummary>
+    <DroptableSummary>
+      <DropTableName>DropTable_AntiqueField_Recipe_Enchantment_1</DropTableName>
+      <Locations>
+        <string>Abandoned Living Quarters</string>
+        <string>Forgotten Research Laboratory</string>
+        <string>Ancient Foundry</string>
+        <string>Ruined Warehouse</string>
+        <string>Lost Golem Manufacturing Facility</string>
+        <string>Crumbling Loading Docks</string>
+      </Locations>
+    </DroptableSummary>
+    <DroptableSummary>
+      <DropTableName>DropTable_Neutral_Food_1</DropTableName>
+      <Locations>
+        <string>Abandoned Living Quarters</string>
+        <string>Ancient Foundry</string>
+        <string>Wendigo Lair</string>
+        <string>Blood Mage Hideout</string>
+        <string>Bandit Hideout</string>
+        <string>Vendavel Fortress</string>
+        <string>Corrupted Tombs</string>
+        <string>Hallowed Marsh</string>
+        <string>Ancient Hive</string>
+      </Locations>
+    </DroptableSummary>
+    <DroptableSummary>
+      <DropTableName>DropTable_AntiqueField_Recipe_Weapon_1</DropTableName>
+      <Locations>
+        <string>Abandoned Living Quarters</string>
+        <string>Wendigo Lair</string>
+        <string>Blood Mage Hideout</string>
+      </Locations>
+    </DroptableSummary>
+    <DroptableSummary>
+      <DropTableName>DropTable_Neutral_Consumable_Low_2</DropTableName>
+      <Locations>
+        <string>Forgotten Research Laboratory</string>
+        <string>Lost Golem Manufacturing Facility</string>
+        <string>Vendavel Fortress</string>
+        <string>Voltaic Hatchery</string>
+      </Locations>
+    </DroptableSummary>
+    <DroptableSummary>
+      <DropTableName>DropTable_Neutral_Consumable_High_1</DropTableName>
+      <Locations>
+        <string>Ruined Warehouse</string>
+      </Locations>
+    </DroptableSummary>
+    <DroptableSummary>
+      <DropTableName>DropTable_Neutral_Valuable_Low_1</DropTableName>
+      <Locations>
+        <string>Crumbling Loading Docks</string>
+        <string>Wendigo Lair</string>
+        <string>Blood Mage Hideout</string>
+        <string>Bandit Hideout</string>
+        <string>Blister Burrow</string>
+        <string>Corrupted Tombs</string>
+        <string>Ancient Hive</string>
+      </Locations>
+    </DroptableSummary>
+    <DroptableSummary>
+      <DropTableName>DropTable_Neutral_Magic_Low_2</DropTableName>
+      <Locations>
+        <string>Blood Mage Hideout</string>
+        <string>Wendigo Lair</string>
+        <string>Corrupted Tombs</string>
+      </Locations>
+    </DroptableSummary>
+    <DroptableSummary>
       <DropTableName>DropTable_Chersonese_Equipment_Medium_1</DropTableName>
       <Locations>
         <string>Vendavel Fortress</string>
@@ -48,46 +216,6 @@
         <string>Hallowed Marsh</string>
         <string>Ancient Hive</string>
         <string>Royal Manticore’s Lair</string>
-      </Locations>
-    </DroptableSummary>
-    <DroptableSummary>
-      <DropTableName>DropTable_Neutral_Food_1</DropTableName>
-      <Locations>
-        <string>Vendavel Fortress</string>
-        <string>Corrupted Tombs</string>
-        <string>Hallowed Marsh</string>
-        <string>Ancient Hive</string>
-      </Locations>
-    </DroptableSummary>
-    <DroptableSummary>
-      <DropTableName>DropTable_Neutral_StandardRecipe_Low_1</DropTableName>
-      <Locations>
-        <string>Vendavel Fortress</string>
-        <string>Corrupted Tombs</string>
-        <string>Ancient Hive</string>
-      </Locations>
-    </DroptableSummary>
-    <DroptableSummary>
-      <DropTableName>DropTable_Neutral_Cloth_Poor_1</DropTableName>
-      <Locations>
-        <string>Vendavel Fortress</string>
-        <string>Corrupted Tombs</string>
-        <string>Hallowed Marsh</string>
-      </Locations>
-    </DroptableSummary>
-    <DroptableSummary>
-      <DropTableName>DropTable_Neutral_Consumable_Low_2</DropTableName>
-      <Locations>
-        <string>Vendavel Fortress</string>
-        <string>Voltaic Hatchery</string>
-      </Locations>
-    </DroptableSummary>
-    <DroptableSummary>
-      <DropTableName>DropTable_Neutral_Valuable_Low_1</DropTableName>
-      <Locations>
-        <string>Blister Burrow</string>
-        <string>Corrupted Tombs</string>
-        <string>Ancient Hive</string>
       </Locations>
     </DroptableSummary>
     <DroptableSummary>
@@ -128,18 +256,6 @@
       <Locations>
         <string>Voltaic Hatchery</string>
         <string>Corrupted Tombs</string>
-      </Locations>
-    </DroptableSummary>
-    <DroptableSummary>
-      <DropTableName>DropTable_Neutral_Magic_Low_2</DropTableName>
-      <Locations>
-        <string>Corrupted Tombs</string>
-      </Locations>
-    </DroptableSummary>
-    <DroptableSummary>
-      <DropTableName>DropTable_Neutral_Survival_Medium_1</DropTableName>
-      <Locations>
-        <string>Royal Manticore’s Lair</string>
       </Locations>
     </DroptableSummary>
   </DropTables>

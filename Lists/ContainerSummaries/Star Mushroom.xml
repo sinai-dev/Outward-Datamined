@@ -4,6 +4,18 @@
   <ItemID>0</ItemID>
   <All_Locations>
     <QuantityHolder>
+      <Name>Antique Plateau:Abandoned Living Quarters</Name>
+      <Quantity>2</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Antique Plateau:Bandit Hideout</Name>
+      <Quantity>2</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Antique Plateau:Troglodyte Warren</Name>
+      <Quantity>4</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
       <Name>Chersonese:Vendavel Fortress</Name>
       <Quantity>2</Quantity>
     </QuantityHolder>
@@ -108,6 +120,9 @@
     <DroptableSummary>
       <DropTableName>DropTable_StarMushroom</DropTableName>
       <Locations>
+        <string>Abandoned Living Quarters</string>
+        <string>Bandit Hideout</string>
+        <string>Troglodyte Warren</string>
         <string>Vendavel Fortress</string>
         <string>Blister Burrow</string>
         <string>Ghost Pass</string>

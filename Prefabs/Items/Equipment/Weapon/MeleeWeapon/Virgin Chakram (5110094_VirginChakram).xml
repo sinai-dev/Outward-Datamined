@@ -23,6 +23,8 @@
     <string>Item</string>
     <string>Chakram</string>
     <string>Trinket</string>
+    <string>Virgin</string>
+    <string>Family</string>
   </Tags>
   <StatsHolder xsi:type="DM_WeaponStats">
     <BaseValue>800</BaseValue>
@@ -62,7 +64,7 @@
     <AttackSpeed>1</AttackSpeed>
     <BaseDamage>
       <Damages>
-        <Damage>37</Damage>
+        <Damage>34</Damage>
         <Damage_Type>Physical</Damage_Type>
       </Damages>
     </BaseDamage>
@@ -75,7 +77,7 @@
         <Knockback>38</Knockback>
         <AttackSpeed>1</AttackSpeed>
         <Damage>
-          <float>37</float>
+          <float>34</float>
         </Damage>
       </AttackData>
     </Attacks>

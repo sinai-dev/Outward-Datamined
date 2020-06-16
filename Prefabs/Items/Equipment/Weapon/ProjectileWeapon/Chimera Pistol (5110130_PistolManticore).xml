@@ -27,7 +27,7 @@
   <StatsHolder xsi:type="DM_WeaponStats">
     <BaseValue>2000</BaseValue>
     <RawWeight>2</RawWeight>
-    <MaxDurability>200</MaxDurability>
+    <MaxDurability>100</MaxDurability>
     <Damage_Resistance>
       <float>0</float>
       <float>0</float>
@@ -62,7 +62,7 @@
     <AttackSpeed>1</AttackSpeed>
     <BaseDamage>
       <Damages>
-        <Damage>103</Damage>
+        <Damage>95</Damage>
         <Damage_Type>Physical</Damage_Type>
       </Damages>
     </BaseDamage>
@@ -75,7 +75,7 @@
         <Knockback>70</Knockback>
         <AttackSpeed>1</AttackSpeed>
         <Damage>
-          <float>103</float>
+          <float>95</float>
         </Damage>
       </AttackData>
       <AttackData>
@@ -83,7 +83,7 @@
         <Knockback>70</Knockback>
         <AttackSpeed>1</AttackSpeed>
         <Damage>
-          <float>103</float>
+          <float>95</float>
         </Damage>
       </AttackData>
       <AttackData>
@@ -91,7 +91,7 @@
         <Knockback>70</Knockback>
         <AttackSpeed>1</AttackSpeed>
         <Damage>
-          <float>103</float>
+          <float>95</float>
         </Damage>
       </AttackData>
       <AttackData>
@@ -99,7 +99,7 @@
         <Knockback>70</Knockback>
         <AttackSpeed>1</AttackSpeed>
         <Damage>
-          <float>103</float>
+          <float>95</float>
         </Damage>
       </AttackData>
       <AttackData>
@@ -107,7 +107,7 @@
         <Knockback>70</Knockback>
         <AttackSpeed>1</AttackSpeed>
         <Damage>
-          <float>103</float>
+          <float>95</float>
         </Damage>
       </AttackData>
     </Attacks>

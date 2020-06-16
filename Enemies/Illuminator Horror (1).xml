@@ -1,17 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <DM_Enemy xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Name>Illuminator Horror</Name>
-  <GameObject_Name>IlluminatorHorror</GameObject_Name>
+  <GameObject_Name>IlluminatorHorror_02</GameObject_Name>
   <Unique_ID>1</Unique_ID>
   <Locations_Found>
-    <string>Chersonese:Chersonese</string>
-    <string>Chersonese:Ghost Pass</string>
-    <string>Chersonese:Corrupted Tombs</string>
-    <string>Hallowed Marsh:Monsoon</string>
-    <string>Hallowed Marsh:Dead Tree</string>
-    <string>Abrassar:Abrassar</string>
-    <string>Enmerkar Forest:Enmerkar Forest</string>
-    <string>Enmerkar Forest:Cabal of Wind Temple</string>
+    <string>Antique Plateau:Forgotten Research Laboratory</string>
+    <string>Antique Plateau:Lost Golem Manufacturing Facility</string>
+    <string>Antique Plateau:Compromised Mana Transfer Station</string>
+    <string>Antique Plateau:Old Harmattan</string>
   </Locations_Found>
   <Max_Health>300</Max_Health>
   <Health_Regen_Per_Second>0</Health_Regen_Per_Second>

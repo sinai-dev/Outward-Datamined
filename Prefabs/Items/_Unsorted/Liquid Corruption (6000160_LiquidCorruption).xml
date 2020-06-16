@@ -4,7 +4,7 @@
   <saveDir>/_Unsorted</saveDir>
   <ItemID>6000160</ItemID>
   <Name>Liquid Corruption</Name>
-  <Description />
+  <Description>Vile liquid, full of decay.</Description>
   <LegacyItemID>-1</LegacyItemID>
   <IsPickable>true</IsPickable>
   <IsUsable>false</IsUsable>
@@ -24,9 +24,9 @@
     <string>Misc</string>
   </Tags>
   <StatsHolder>
-    <BaseValue>1</BaseValue>
+    <BaseValue>30</BaseValue>
     <RawWeight>0.1</RawWeight>
-    <MaxDurability>100</MaxDurability>
+    <MaxDurability>-1</MaxDurability>
   </StatsHolder>
   <EffectTransforms />
 </DM_Item>

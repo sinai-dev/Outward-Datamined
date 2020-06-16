@@ -105,8 +105,6 @@
           <YMagnitudeForce>0</YMagnitudeForce>
           <DefenseLength>3</DefenseLength>
           <DefenseRange>6</DefenseRange>
-          <PhysicsLayerMask>4214784</PhysicsLayerMask>
-          <OnlyExplodeOnLayerMask>true</OnlyExplodeOnLayerMask>
           <ImpactSoundMaterial>Fire</ImpactSoundMaterial>
           <LightIntensityFade>
             <x>10</x>
@@ -205,8 +203,6 @@
                   <YMagnitudeForce>1.6</YMagnitudeForce>
                   <DefenseLength>3</DefenseLength>
                   <DefenseRange>6</DefenseRange>
-                  <PhysicsLayerMask>4198400</PhysicsLayerMask>
-                  <OnlyExplodeOnLayerMask>true</OnlyExplodeOnLayerMask>
                   <ImpactSoundMaterial>Fire</ImpactSoundMaterial>
                   <LightIntensityFade>
                     <x>10</x>
@@ -277,12 +273,16 @@
                                   <OverrideCategory>None</OverrideCategory>
                                   <Damage>
                                     <Damages>
-                                      <Damage>35</Damage>
+                                      <Damage>15</Damage>
                                       <Damage_Type>Physical</Damage_Type>
+                                    </Damages>
+                                    <Damages>
+                                      <Damage>30</Damage>
+                                      <Damage_Type>Fire</Damage_Type>
                                     </Damages>
                                   </Damage>
                                   <Damages_AI />
-                                  <Knockback>60</Knockback>
+                                  <Knockback>75</Knockback>
                                   <HitInventory>true</HitInventory>
                                 </DM_Effect>
                               </Effects>
@@ -315,29 +315,33 @@
           <SyncType>OwnerSync</SyncType>
           <OverrideCategory>None</OverrideCategory>
           <Sounds>
-            <Sounds>CS_SpecterMelee_SpecialAttackA_Grunt2</Sounds>
+            <Sounds>CS_GolemShielded_AttackBuildUp_03</Sounds>
           </Sounds>
           <Follow>false</Follow>
           <MinPitch>1</MinPitch>
           <MaxPitch>1</MaxPitch>
         </DM_Effect>
-      </Effects>
-      <EffectConditions />
-      <ChildEffects />
-    </DM_EffectTransform>
-    <DM_EffectTransform>
-      <TransformName>ActivationEffects2</TransformName>
-      <Effects>
         <DM_Effect xsi:type="DM_PlaySoundEffect">
           <Delay>0</Delay>
           <SyncType>OwnerSync</SyncType>
           <OverrideCategory>None</OverrideCategory>
           <Sounds>
-            <Sounds>CS_Specter_Range_WeaponLoad</Sounds>
+            <Sounds>CS_GolemShielded_AttackGrunt_09</Sounds>
           </Sounds>
           <Follow>false</Follow>
           <MinPitch>1</MinPitch>
-          <MaxPitch>1.1</MaxPitch>
+          <MaxPitch>1</MaxPitch>
+        </DM_Effect>
+        <DM_Effect xsi:type="DM_PlaySoundEffect">
+          <Delay>0</Delay>
+          <SyncType>OwnerSync</SyncType>
+          <OverrideCategory>None</OverrideCategory>
+          <Sounds>
+            <Sounds>CS_GolemShielded_AttackShot_Explosion_08</Sounds>
+          </Sounds>
+          <Follow>false</Follow>
+          <MinPitch>1</MinPitch>
+          <MaxPitch>1</MaxPitch>
         </DM_Effect>
       </Effects>
       <EffectConditions />

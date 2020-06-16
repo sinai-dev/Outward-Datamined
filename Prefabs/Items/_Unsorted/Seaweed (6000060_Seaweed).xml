@@ -4,7 +4,7 @@
   <saveDir>/_Unsorted</saveDir>
   <ItemID>6000060</ItemID>
   <Name>Seaweed</Name>
-  <Description>Algae that, when infused in water in a cooking pot, produces an indigestion-curing tea.</Description>
+  <Description>Algae that, when infused in water in a cooking pot, produces a medicinal tea.</Description>
   <LegacyItemID>-1</LegacyItemID>
   <IsPickable>true</IsPickable>
   <IsUsable>false</IsUsable>

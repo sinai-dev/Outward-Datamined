@@ -62,8 +62,12 @@
     <AttackSpeed>0.8</AttackSpeed>
     <BaseDamage>
       <Damages>
-        <Damage>61</Damage>
+        <Damage>42.7</Damage>
         <Damage_Type>Physical</Damage_Type>
+      </Damages>
+      <Damages>
+        <Damage>18.3000011</Damage>
+        <Damage_Type>Electric</Damage_Type>
       </Damages>
     </BaseDamage>
     <Impact>75</Impact>
@@ -75,7 +79,8 @@
         <Knockback>75</Knockback>
         <AttackSpeed>0.8</AttackSpeed>
         <Damage>
-          <float>61</float>
+          <float>42.7</float>
+          <float>18.3000011</float>
         </Damage>
       </AttackData>
       <AttackData>
@@ -83,7 +88,8 @@
         <Knockback>75</Knockback>
         <AttackSpeed>0.8</AttackSpeed>
         <Damage>
-          <float>61</float>
+          <float>42.7</float>
+          <float>18.3000011</float>
         </Damage>
       </AttackData>
       <AttackData>
@@ -91,7 +97,8 @@
         <Knockback>150</Knockback>
         <AttackSpeed>0.8</AttackSpeed>
         <Damage>
-          <float>45.75</float>
+          <float>32.0249977</float>
+          <float>13.725</float>
         </Damage>
       </AttackData>
       <AttackData>
@@ -99,7 +106,8 @@
         <Knockback>105</Knockback>
         <AttackSpeed>0.96</AttackSpeed>
         <Damage>
-          <float>85.4</float>
+          <float>59.78</float>
+          <float>25.62</float>
         </Damage>
       </AttackData>
       <AttackData>
@@ -107,7 +115,8 @@
         <Knockback>105</Knockback>
         <AttackSpeed>0.96</AttackSpeed>
         <Damage>
-          <float>85.4</float>
+          <float>59.78</float>
+          <float>25.62</float>
         </Damage>
       </AttackData>
     </Attacks>

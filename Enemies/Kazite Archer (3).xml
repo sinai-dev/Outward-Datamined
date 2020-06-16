@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DM_Enemy xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Name>Kazite Archer</Name>
+  <GameObject_Name>NewBanditEquip_KaziteLieutenantArcher_AntiqueField</GameObject_Name>
+  <Unique_ID>3</Unique_ID>
+  <Locations_Found>
+    <string>Antique Plateau:Antique Plateau</string>
+    <string>Antique Plateau:Abandoned Living Quarters</string>
+  </Locations_Found>
+  <Max_Health>175</Max_Health>
+  <Health_Regen_Per_Second>0</Health_Regen_Per_Second>
+  <Impact_Resistance>38</Impact_Resistance>
+  <Protection>
+    <float>5</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+  </Protection>
+  <Damage_Resistances>
+    <float>49</float>
+    <float>0</float>
+    <float>-40</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+  </Damage_Resistances>
+  <Damage_Bonuses>
+    <float>100</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+  </Damage_Bonuses>
+  <Collider_Radius>0.4</Collider_Radius>
+  <True_WeaponDamage>
+    <Damages>
+      <Damage>66</Damage>
+      <Damage_Type>Physical</Damage_Type>
+    </Damages>
+  </True_WeaponDamage>
+  <Weapon_Impact>18</Weapon_Impact>
+  <Status_Immunities />
+  <Starting_Equipment>
+    <string>Kazite Light Helmet (3100241)</string>
+    <string>Black Plate Armor (3100093)</string>
+    <string>Black Plate Boots (3100095)</string>
+    <string>Kazite Bow (2200080)</string>
+    <string>Arrow (5200001)</string>
+  </Starting_Equipment>
+  <Skill_Knowledge />
+  <Faction>Bandits</Faction>
+  <Allied_To_Same_Faction>true</Allied_To_Same_Faction>
+  <Guaranteed_Drops>
+    <DropTableEntry>
+      <Item_Name>Kazite Blade</Item_Name>
+      <Item_ID>2000210</Item_ID>
+      <Min_Quantity>1</Min_Quantity>
+      <Max_Quantity>1</Max_Quantity>
+    </DropTableEntry>
+    <DropTableEntry>
+      <Item_Name>Kazite Bow</Item_Name>
+      <Item_ID>2200080</Item_ID>
+      <Min_Quantity>1</Min_Quantity>
+      <Max_Quantity>1</Max_Quantity>
+    </DropTableEntry>
+    <DropTableEntry>
+      <Item_Name>Arrow</Item_Name>
+      <Item_ID>5200001</Item_ID>
+      <Min_Quantity>1</Min_Quantity>
+      <Max_Quantity>1</Max_Quantity>
+    </DropTableEntry>
+  </Guaranteed_Drops>
+  <DropTable_Names>
+    <string>DropTable_BanditArcher_KaziteLieutArcher_Antique_DLC1</string>
+  </DropTable_Names>
+</DM_Enemy>

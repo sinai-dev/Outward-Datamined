@@ -3,7 +3,7 @@
   <SceneName>Face of the Ancients</SceneName>
   <Enemies>
     <QuantityHolder>
-      <Name>Ghost (1)</Name>
+      <Name>Ghost (5)</Name>
       <Quantity>3</Quantity>
     </QuantityHolder>
     <QuantityHolder>

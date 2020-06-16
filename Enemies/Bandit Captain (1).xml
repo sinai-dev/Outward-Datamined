@@ -4,7 +4,7 @@
   <GameObject_Name>NewBanditEquip_StandardCaptain1_C</GameObject_Name>
   <Unique_ID>1</Unique_ID>
   <Locations_Found>
-    <string>Chersonese:Montcalm Clan Fort</string>
+    <string>Antique Plateau:Antique Plateau</string>
   </Locations_Found>
   <Max_Health>175</Max_Health>
   <Health_Regen_Per_Second>0</Health_Regen_Per_Second>
@@ -55,18 +55,6 @@
   <Faction>Bandits</Faction>
   <Allied_To_Same_Faction>true</Allied_To_Same_Faction>
   <Guaranteed_Drops>
-    <DropTableEntry>
-      <Item_Name>Tiny Aquamarine</Item_Name>
-      <Item_ID>6200070</Item_ID>
-      <Min_Quantity>1</Min_Quantity>
-      <Max_Quantity>1</Max_Quantity>
-    </DropTableEntry>
-    <DropTableEntry>
-      <Item_Name>Montcalm Key</Item_Name>
-      <Item_ID>5600060</Item_ID>
-      <Min_Quantity>1</Min_Quantity>
-      <Max_Quantity>1</Max_Quantity>
-    </DropTableEntry>
     <DropTableEntry>
       <Item_Name>Cleaver Halberd</Item_Name>
       <Item_ID>2140010</Item_ID>

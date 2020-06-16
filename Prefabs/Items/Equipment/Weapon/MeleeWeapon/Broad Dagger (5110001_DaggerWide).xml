@@ -26,6 +26,7 @@ This off-hand weapon requires Dagger Skills to be used.</Description>
     <string>Dague</string>
     <string>Trinket</string>
     <string>DecraftPalladium_Small</string>
+    <string>Decraft</string>
   </Tags>
   <StatsHolder xsi:type="DM_WeaponStats">
     <BaseValue>200</BaseValue>

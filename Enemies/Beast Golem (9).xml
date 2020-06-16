@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DM_Enemy xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Name>Beast Golem</Name>
+  <GameObject_Name>BeastGolem_Floor03_02</GameObject_Name>
+  <Unique_ID>9</Unique_ID>
+  <Locations_Found>
+    <string>Antique Plateau:Forgotten Research Laboratory</string>
+  </Locations_Found>
+  <Max_Health>225</Max_Health>
+  <Health_Regen_Per_Second>0</Health_Regen_Per_Second>
+  <Impact_Resistance>30</Impact_Resistance>
+  <Protection>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+  </Protection>
+  <Damage_Resistances>
+    <float>30</float>
+    <float>-40</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+  </Damage_Resistances>
+  <Damage_Bonuses>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+  </Damage_Bonuses>
+  <Collider_Radius>0.8</Collider_Radius>
+  <True_WeaponDamage>
+    <Damages>
+      <Damage>26</Damage>
+      <Damage_Type>Physical</Damage_Type>
+    </Damages>
+  </True_WeaponDamage>
+  <Weapon_Impact>50</Weapon_Impact>
+  <Status_Immunities>
+    <string>Bleeding</string>
+    <string>Poison</string>
+    <string>Burning</string>
+  </Status_Immunities>
+  <Starting_Equipment>
+    <string>- (2400240)</string>
+  </Starting_Equipment>
+  <Skill_Knowledge>
+    <string>SideBite (8300130)</string>
+    <string>SideBite2 (8300131)</string>
+  </Skill_Knowledge>
+  <Faction>Mercs</Faction>
+  <Allied_To_Same_Faction>true</Allied_To_Same_Faction>
+  <Guaranteed_Drops />
+  <DropTable_Names>
+    <string>DropTable_GolemBeast</string>
+  </DropTable_Names>
+</DM_Enemy>

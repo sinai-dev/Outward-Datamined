@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <DM_Enemy xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Name>Shell Horror</Name>
-  <GameObject_Name>ShellHorror Weak</GameObject_Name>
+  <GameObject_Name>ShellHorror_03</GameObject_Name>
   <Unique_ID>3</Unique_ID>
   <Locations_Found>
-    <string>Other:In Between</string>
+    <string>Antique Plateau:Old Harmattan</string>
   </Locations_Found>
-  <Max_Health>50</Max_Health>
+  <Max_Health>750</Max_Health>
   <Health_Regen_Per_Second>2.5</Health_Regen_Per_Second>
   <Impact_Resistance>60</Impact_Resistance>
   <Protection>
@@ -36,22 +36,24 @@
   <Collider_Radius>0.8</Collider_Radius>
   <True_WeaponDamage>
     <Damages>
-      <Damage>1</Damage>
+      <Damage>36.75</Damage>
       <Damage_Type>Physical</Damage_Type>
     </Damages>
     <Damages>
-      <Damage>1</Damage>
+      <Damage>12.25</Damage>
       <Damage_Type>Decay</Damage_Type>
     </Damages>
   </True_WeaponDamage>
-  <Weapon_Impact>10</Weapon_Impact>
+  <Weapon_Impact>86</Weapon_Impact>
   <Status_Immunities />
   <Starting_Equipment>
-    <string>ShellHorrorClawWeak (2400131)</string>
+    <string>- (2400130)</string>
   </Starting_Equipment>
   <Skill_Knowledge />
   <Faction>Hounds</Faction>
   <Allied_To_Same_Faction>true</Allied_To_Same_Faction>
   <Guaranteed_Drops />
-  <DropTable_Names />
+  <DropTable_Names>
+    <string>DropTable_ShelledHorror</string>
+  </DropTable_Names>
 </DM_Enemy>

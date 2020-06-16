@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <DM_Enemy xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Name>Ghost</Name>
-  <GameObject_Name>NewGhostOneHandedRedLady</GameObject_Name>
+  <GameObject_Name>NewGhostOneHanded_SmallDungeon_05_02</GameObject_Name>
   <Unique_ID>4</Unique_ID>
   <Locations_Found>
-    <string>Enmerkar Forest:Vigil Pylon</string>
+    <string>Antique Plateau:Abandoned Storage</string>
   </Locations_Found>
-  <Max_Health>100</Max_Health>
+  <Max_Health>150</Max_Health>
   <Health_Regen_Per_Second>0</Health_Regen_Per_Second>
-  <Impact_Resistance>20</Impact_Resistance>
+  <Impact_Resistance>30</Impact_Resistance>
   <Protection>
     <float>0</float>
     <float>0</float>
@@ -39,23 +39,19 @@
       <Damage>20</Damage>
       <Damage_Type>Ethereal</Damage_Type>
     </Damages>
-    <Damages>
-      <Damage>5</Damage>
-      <Damage_Type>Fire</Damage_Type>
-    </Damages>
   </True_WeaponDamage>
-  <Weapon_Impact>36.8</Weapon_Impact>
+  <Weapon_Impact>37</Weapon_Impact>
   <Status_Immunities>
     <string>Bleeding</string>
     <string>Poison</string>
   </Status_Immunities>
   <Starting_Equipment>
-    <string>NewGhostRedLadyOneHandedSword (2400285)</string>
+    <string>- (2400281)</string>
   </Starting_Equipment>
   <Skill_Knowledge>
     <string>GhostSoulSyphon (8300210)</string>
   </Skill_Knowledge>
-  <Faction>Deer</Faction>
+  <Faction>Bandits</Faction>
   <Allied_To_Same_Faction>true</Allied_To_Same_Faction>
   <Guaranteed_Drops />
   <DropTable_Names>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DM_Enemy xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Name>Kazite Bandit</Name>
+  <GameObject_Name>NewBanditEquip_KaziteBasic2_D</GameObject_Name>
+  <Unique_ID>10</Unique_ID>
+  <Locations_Found>
+    <string>Chersonese:Cierzo (Destroyed)</string>
+    <string>Chersonese:Cierzo Storage</string>
+  </Locations_Found>
+  <Max_Health>125</Max_Health>
+  <Health_Regen_Per_Second>0</Health_Regen_Per_Second>
+  <Impact_Resistance>43</Impact_Resistance>
+  <Protection>
+    <float>5</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+  </Protection>
+  <Damage_Resistances>
+    <float>45</float>
+    <float>20</float>
+    <float>-20</float>
+    <float>20</float>
+    <float>20</float>
+    <float>20</float>
+  </Damage_Resistances>
+  <Damage_Bonuses>
+    <float>15</float>
+    <float>15</float>
+    <float>15</float>
+    <float>15</float>
+    <float>15</float>
+    <float>15</float>
+  </Damage_Bonuses>
+  <Collider_Radius>0.4</Collider_Radius>
+  <True_WeaponDamage>
+    <Damages>
+      <Damage>33.35</Damage>
+      <Damage_Type>Physical</Damage_Type>
+    </Damages>
+  </True_WeaponDamage>
+  <Weapon_Impact>22</Weapon_Impact>
+  <Status_Immunities />
+  <Starting_Equipment>
+    <string>Kazite Oni Mask (3100113)</string>
+    <string>Kazite Armor (3100110)</string>
+    <string>Kazite Boots (3100114)</string>
+    <string>Old Legion Spear (2130070)</string>
+    <string>Stat Booster 1 (5400000)</string>
+  </Starting_Equipment>
+  <Skill_Knowledge />
+  <Faction>Bandits</Faction>
+  <Allied_To_Same_Faction>true</Allied_To_Same_Faction>
+  <Guaranteed_Drops>
+    <DropTableEntry>
+      <Item_Name>Old Legion Spear</Item_Name>
+      <Item_ID>2130070</Item_ID>
+      <Min_Quantity>1</Min_Quantity>
+      <Max_Quantity>1</Max_Quantity>
+    </DropTableEntry>
+  </Guaranteed_Drops>
+  <DropTable_Names>
+    <string>DropTable_BanditMelee_Kazite_Low</string>
+  </DropTable_Names>
+</DM_Enemy>

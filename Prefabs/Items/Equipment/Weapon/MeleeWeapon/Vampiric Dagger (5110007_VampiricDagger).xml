@@ -4,7 +4,7 @@
   <saveDir>/Equipment/Weapon/MeleeWeapon</saveDir>
   <ItemID>5110007</ItemID>
   <Name>Vampiric Dagger</Name>
-  <Description />
+  <Description>Inflicts Blood Leech. This off-hand weapon requires Dagger Skills to be used.</Description>
   <LegacyItemID>-1</LegacyItemID>
   <IsPickable>true</IsPickable>
   <IsUsable>false</IsUsable>
@@ -25,9 +25,9 @@
     <string>Trinket</string>
   </Tags>
   <StatsHolder xsi:type="DM_WeaponStats">
-    <BaseValue>10</BaseValue>
+    <BaseValue>800</BaseValue>
     <RawWeight>1</RawWeight>
-    <MaxDurability>100</MaxDurability>
+    <MaxDurability>200</MaxDurability>
     <Damage_Resistance>
       <float>0</float>
       <float>0</float>
@@ -62,20 +62,20 @@
     <AttackSpeed>1</AttackSpeed>
     <BaseDamage>
       <Damages>
-        <Damage>19</Damage>
+        <Damage>32</Damage>
         <Damage_Type>Physical</Damage_Type>
       </Damages>
     </BaseDamage>
-    <Impact>25</Impact>
+    <Impact>38</Impact>
     <StamCost>0</StamCost>
     <AutoGenerateAttackData>false</AutoGenerateAttackData>
     <Attacks>
       <AttackData>
         <StamCost>0</StamCost>
-        <Knockback>25</Knockback>
+        <Knockback>38</Knockback>
         <AttackSpeed>1</AttackSpeed>
         <Damage>
-          <float>19</float>
+          <float>32</float>
         </Damage>
       </AttackData>
     </Attacks>

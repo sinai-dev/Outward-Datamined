@@ -31,7 +31,7 @@
       <Quantity>1</Quantity>
     </QuantityHolder>
     <QuantityHolder>
-      <Name>Molten Forge Golem (1)</Name>
+      <Name>Molten Forge Golem (5)</Name>
       <Quantity>1</Quantity>
     </QuantityHolder>
     <QuantityHolder>
@@ -39,11 +39,11 @@
       <Quantity>1</Quantity>
     </QuantityHolder>
     <QuantityHolder>
-      <Name>Illuminator Horror (1)</Name>
+      <Name>Illuminator Horror (4)</Name>
       <Quantity>3</Quantity>
     </QuantityHolder>
     <QuantityHolder>
-      <Name>Forge Golem (1)</Name>
+      <Name>Forge Golem (4)</Name>
       <Quantity>2</Quantity>
     </QuantityHolder>
     <QuantityHolder>
@@ -51,7 +51,7 @@
       <Quantity>1</Quantity>
     </QuantityHolder>
     <QuantityHolder>
-      <Name>Wendigo (1)</Name>
+      <Name>Wendigo (2)</Name>
       <Quantity>1</Quantity>
     </QuantityHolder>
     <QuantityHolder>
@@ -75,7 +75,7 @@
       <Quantity>1</Quantity>
     </QuantityHolder>
     <QuantityHolder>
-      <Name>Shell Horror (1)</Name>
+      <Name>Shell Horror (4)</Name>
       <Quantity>1</Quantity>
     </QuantityHolder>
     <QuantityHolder>
@@ -134,7 +134,7 @@
   </Loot_Containers>
   <Gatherables>
     <QuantityHolder>
-      <Name>Tree</Name>
+      <Name>Wood</Name>
       <Quantity>3</Quantity>
     </QuantityHolder>
     <QuantityHolder>

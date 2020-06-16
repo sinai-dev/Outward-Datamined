@@ -120,7 +120,22 @@
       </AttackData>
     </Attacks>
   </StatsHolder>
-  <EffectTransforms />
+  <EffectTransforms>
+    <DM_EffectTransform>
+      <TransformName>HitEffects</TransformName>
+      <Effects>
+        <DM_Effect xsi:type="DM_AffectCorruption">
+          <Delay>0</Delay>
+          <SyncType>OwnerSync</SyncType>
+          <OverrideCategory>None</OverrideCategory>
+          <AffectQuantity>6</AffectQuantity>
+          <IsRaw>false</IsRaw>
+        </DM_Effect>
+      </Effects>
+      <EffectConditions />
+      <ChildEffects />
+    </DM_EffectTransform>
+  </EffectTransforms>
   <EquipSlot>RightHand</EquipSlot>
   <TwoHandType>None</TwoHandType>
   <IKType>None</IKType>

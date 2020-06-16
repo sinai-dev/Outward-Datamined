@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SceneSummary xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SceneName>Wendigo Lair</SceneName>
+  <Enemies>
+    <QuantityHolder>
+      <Name>Wendigo (1)</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Arcane Elemental (23)</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+  </Enemies>
+  <Merchants />
+  <Loot_Containers>
+    <QuantityHolder>
+      <Name>Looter’s Corpse</Name>
+      <Quantity>2</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Scavenger’s Corpse</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Soldier’s Corpse</Name>
+      <Quantity>2</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Worker’s Corpse</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+  </Loot_Containers>
+  <Gatherables>
+    <QuantityHolder>
+      <Name>Green Mushroom</Name>
+      <Quantity>2</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Mana Stone</Name>
+      <Quantity>4</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Palladium vein</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+  </Gatherables>
+  <Item_Spawns>
+    <DM_ItemSpawn>
+      <Name>Explorer Lantern</Name>
+      <Item_ID>5100000</Item_ID>
+      <Quantity>1</Quantity>
+      <positions>
+        <Vector3>
+          <x>2157.847</x>
+          <y>-24.1890869</y>
+          <z>13.67313</z>
+        </Vector3>
+      </positions>
+    </DM_ItemSpawn>
+  </Item_Spawns>
+  <UniqueContainerList>
+    <string>Looter’s Corpse_6e16sXCReE6fPa7hQhC-yQ</string>
+    <string>Scavenger’s Corpse_G6RpyXzopU2O3fYx2tAeAA</string>
+    <string>Soldier’s Corpse_Nh4gj9vyAEOV_hxAJRUC0w</string>
+    <string>Looter’s Corpse_0OHFGaoM10GGjZEl8_2y6g</string>
+    <string>Worker’s Corpse_C4xpTRBrIk26tskoe4xwaQ</string>
+    <string>Soldier’s Corpse_Cxm51PAg9EWZcV18YLfikw</string>
+  </UniqueContainerList>
+</SceneSummary>

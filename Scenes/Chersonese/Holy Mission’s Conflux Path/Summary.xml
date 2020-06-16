@@ -3,7 +3,7 @@
   <SceneName>Holy Mission’s Conflux Path</SceneName>
   <Enemies>
     <QuantityHolder>
-      <Name>Mana Mantis (1)</Name>
+      <Name>Mana Mantis (4)</Name>
       <Quantity>3</Quantity>
     </QuantityHolder>
     <QuantityHolder>
@@ -19,7 +19,7 @@
       <Quantity>3</Quantity>
     </QuantityHolder>
     <QuantityHolder>
-      <Name>Troglodyte Grenadier (1)</Name>
+      <Name>Troglodyte Grenadier (3)</Name>
       <Quantity>1</Quantity>
     </QuantityHolder>
   </Enemies>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SceneSummary xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SceneName>Abandoned Storage</SceneName>
+  <Enemies>
+    <QuantityHolder>
+      <Name>Ghost (1)</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Ghost (4)</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>The Butcher of Men (1)</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Arcane Elemental (20)</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+  </Enemies>
+  <Merchants />
+  <Loot_Containers>
+    <QuantityHolder>
+      <Name>Junk Pile</Name>
+      <Quantity>5</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Chest</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+  </Loot_Containers>
+  <Gatherables>
+    <QuantityHolder>
+      <Name>Ghost Plant</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+  </Gatherables>
+  <Item_Spawns />
+  <UniqueContainerList>
+    <string>Junk Pile_cOvI5xSNJk6FSaxUvx0JUg</string>
+    <string>Chest_w_fHa_G4RU6-iBLqsE6Jhg</string>
+    <string>Junk Pile_QAw3GAzRTEilL18Q1JQ6sA</string>
+    <string>Junk Pile_Ah05Vj2o_UWQoSOT2rdn6Q</string>
+    <string>Junk Pile_w5Lwdu5KdEeVYHmghM2e5w</string>
+    <string>Junk Pile_Cgq7tECSgE62-o8Ithx5yQ</string>
+  </UniqueContainerList>
+</SceneSummary>

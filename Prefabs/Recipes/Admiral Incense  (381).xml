@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DM_Recipe xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Name>Admiral Incense </Name>
+  <RecipeID>381</RecipeID>
+  <UID />
+  <StationType>Alchemy</StationType>
+  <Ingredients>
+    <string>Dreamer’s Root</string>
+    <string>Dreamer’s Root</string>
+    <string>Elemental Particle – Light</string>
+  </Ingredients>
+  <Results>
+    <ItemQty>
+      <ItemName>Admiral Incense </ItemName>
+      <ItemID>6000190</ItemID>
+      <Quantity>4</Quantity>
+    </ItemQty>
+  </Results>
+</DM_Recipe>

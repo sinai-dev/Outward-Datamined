@@ -4,6 +4,38 @@
   <ItemID>0</ItemID>
   <All_Locations>
     <QuantityHolder>
+      <Name>Antique Plateau:Antique Plateau</Name>
+      <Quantity>18</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Antique Plateau:Abandoned Living Quarters</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Antique Plateau:Ruined Warehouse</Name>
+      <Quantity>6</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Antique Plateau:Crumbling Loading Docks</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Antique Plateau:Destroyed Test Chambers</Name>
+      <Quantity>2</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Antique Plateau:Corrupted Cave</Name>
+      <Quantity>7</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Antique Plateau:Bandit Hideout</Name>
+      <Quantity>3</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Antique Plateau:Old Harmattan Basement</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
       <Name>Chersonese:Chersonese</Name>
       <Quantity>17</Quantity>
     </QuantityHolder>
@@ -110,8 +142,21 @@
   </All_Locations>
   <DropTables>
     <DroptableSummary>
+      <DropTableName>DropTable_IronOre_Tourmaline</DropTableName>
+      <Locations>
+        <string>Antique Plateau</string>
+        <string>Abandoned Living Quarters</string>
+        <string>Ruined Warehouse</string>
+        <string>Destroyed Test Chambers</string>
+        <string>Corrupted Cave</string>
+        <string>Bandit Hideout</string>
+        <string>Old Harmattan Basement</string>
+      </Locations>
+    </DroptableSummary>
+    <DroptableSummary>
       <DropTableName>DropTable_IronOre</DropTableName>
       <Locations>
+        <string>Crumbling Loading Docks</string>
         <string>Chersonese</string>
         <string>Vendavel Fortress</string>
         <string>Blister Burrow</string>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DM_Enemy xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Name>Nicolas</Name>
+  <GameObject_Name>CageArmorBoss</GameObject_Name>
+  <Unique_ID>1</Unique_ID>
+  <Locations_Found>
+    <string>Other:Unknown Arena</string>
+  </Locations_Found>
+  <Max_Health>300</Max_Health>
+  <Health_Regen_Per_Second>0</Health_Regen_Per_Second>
+  <Impact_Resistance>95</Impact_Resistance>
+  <Protection>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+  </Protection>
+  <Damage_Resistances>
+    <float>95</float>
+    <float>70</float>
+    <float>70</float>
+    <float>70</float>
+    <float>70</float>
+    <float>70</float>
+  </Damage_Resistances>
+  <Damage_Bonuses>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+  </Damage_Bonuses>
+  <Collider_Radius>0.4</Collider_Radius>
+  <True_WeaponDamage>
+    <Damages>
+      <Damage>5</Damage>
+      <Damage_Type>Physical</Damage_Type>
+    </Damages>
+    <Damages>
+      <Damage>5</Damage>
+      <Damage_Type>Ethereal</Damage_Type>
+    </Damages>
+    <Damages>
+      <Damage>5</Damage>
+      <Damage_Type>Decay</Damage_Type>
+    </Damages>
+    <Damages>
+      <Damage>5</Damage>
+      <Damage_Type>Electric</Damage_Type>
+    </Damages>
+    <Damages>
+      <Damage>5</Damage>
+      <Damage_Type>Frost</Damage_Type>
+    </Damages>
+    <Damages>
+      <Damage>5</Damage>
+      <Damage_Type>Fire</Damage_Type>
+    </Damages>
+  </True_WeaponDamage>
+  <Weapon_Impact>75</Weapon_Impact>
+  <Status_Immunities />
+  <Starting_Equipment>
+    <string>CageArmorFist (2400400)</string>
+  </Starting_Equipment>
+  <Skill_Knowledge>
+    <string>CageFlurry (8300490)</string>
+    <string>Cage Blast (8300491)</string>
+    <string>Cage Boss Teleport (8300492)</string>
+    <string>Cage Boss Buff (8300493)</string>
+  </Skill_Knowledge>
+  <Faction>Bandits</Faction>
+  <Allied_To_Same_Faction>true</Allied_To_Same_Faction>
+  <Guaranteed_Drops />
+  <DropTable_Names />
+</DM_Enemy>

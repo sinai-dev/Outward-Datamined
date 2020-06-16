@@ -3,7 +3,7 @@
   <SceneName>Blue Chamber’s Conflux Path</SceneName>
   <Enemies>
     <QuantityHolder>
-      <Name>Mana Mantis (1)</Name>
+      <Name>Mana Mantis (4)</Name>
       <Quantity>1</Quantity>
     </QuantityHolder>
     <QuantityHolder>

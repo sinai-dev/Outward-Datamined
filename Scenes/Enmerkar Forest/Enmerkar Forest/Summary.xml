@@ -19,7 +19,7 @@
       <Quantity>1</Quantity>
     </QuantityHolder>
     <QuantityHolder>
-      <Name>Illuminator Horror (1)</Name>
+      <Name>Illuminator Horror (4)</Name>
       <Quantity>7</Quantity>
     </QuantityHolder>
     <QuantityHolder>
@@ -27,7 +27,7 @@
       <Quantity>6</Quantity>
     </QuantityHolder>
     <QuantityHolder>
-      <Name>Ghost (1)</Name>
+      <Name>Ghost (5)</Name>
       <Quantity>4</Quantity>
     </QuantityHolder>
     <QuantityHolder>
@@ -43,7 +43,7 @@
       <Quantity>1</Quantity>
     </QuantityHolder>
     <QuantityHolder>
-      <Name>Beast Golem (1)</Name>
+      <Name>Beast Golem (3)</Name>
       <Quantity>5</Quantity>
     </QuantityHolder>
     <QuantityHolder>
@@ -63,7 +63,7 @@
       <Quantity>5</Quantity>
     </QuantityHolder>
     <QuantityHolder>
-      <Name>Immaculate (2)</Name>
+      <Name>Immaculate (6)</Name>
       <Quantity>1</Quantity>
     </QuantityHolder>
     <QuantityHolder>
@@ -75,7 +75,7 @@
       <Quantity>4</Quantity>
     </QuantityHolder>
     <QuantityHolder>
-      <Name>Ghost (2)</Name>
+      <Name>Ghost (3)</Name>
       <Quantity>1</Quantity>
     </QuantityHolder>
     <QuantityHolder>
@@ -134,7 +134,7 @@
   </Loot_Containers>
   <Gatherables>
     <QuantityHolder>
-      <Name>Tree</Name>
+      <Name>Wood</Name>
       <Quantity>3</Quantity>
     </QuantityHolder>
     <QuantityHolder>

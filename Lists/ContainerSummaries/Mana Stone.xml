@@ -4,6 +4,18 @@
   <ItemID>0</ItemID>
   <All_Locations>
     <QuantityHolder>
+      <Name>Antique Plateau:Antique Plateau</Name>
+      <Quantity>13</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Antique Plateau:Wendigo Lair</Name>
+      <Quantity>4</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Antique Plateau:Troglodyte Warren</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
       <Name>Chersonese:Chersonese</Name>
       <Quantity>14</Quantity>
     </QuantityHolder>
@@ -56,6 +68,9 @@
     <DroptableSummary>
       <DropTableName>DropTable_ManaStone</DropTableName>
       <Locations>
+        <string>Antique Plateau</string>
+        <string>Wendigo Lair</string>
+        <string>Troglodyte Warren</string>
         <string>Chersonese</string>
         <string>Blister Burrow</string>
         <string>Ghost Pass</string>
@@ -68,6 +83,12 @@
         <string>Abrassar</string>
         <string>Ancestor’s Resting Place</string>
         <string>Dolmen Crypt</string>
+      </Locations>
+    </DroptableSummary>
+    <DroptableSummary>
+      <DropTableName>DropTable_ManaStoneCold</DropTableName>
+      <Locations>
+        <string>Wendigo Lair</string>
       </Locations>
     </DroptableSummary>
   </DropTables>

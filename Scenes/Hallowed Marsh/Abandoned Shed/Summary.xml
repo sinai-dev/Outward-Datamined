@@ -3,7 +3,7 @@
   <SceneName>Abandoned Shed</SceneName>
   <Enemies>
     <QuantityHolder>
-      <Name>Wendigo (1)</Name>
+      <Name>Wendigo (2)</Name>
       <Quantity>1</Quantity>
     </QuantityHolder>
   </Enemies>

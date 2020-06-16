@@ -4,6 +4,10 @@
   <ItemID>0</ItemID>
   <All_Locations>
     <QuantityHolder>
+      <Name>Antique Plateau:Harmattan</Name>
+      <Quantity>2</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
       <Name>Chersonese:Cierzo</Name>
       <Quantity>1</Quantity>
     </QuantityHolder>
@@ -21,6 +25,12 @@
     </QuantityHolder>
   </All_Locations>
   <DropTables>
+    <DroptableSummary>
+      <DropTableName>DropTable_AntiqueField_PlayerHouse_3</DropTableName>
+      <Locations>
+        <string>Harmattan</string>
+      </Locations>
+    </DroptableSummary>
     <DroptableSummary>
       <DropTableName>DropTable_Neutral_Survival_Low_2</DropTableName>
       <Locations>

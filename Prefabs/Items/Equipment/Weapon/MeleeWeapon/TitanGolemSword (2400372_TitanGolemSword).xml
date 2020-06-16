@@ -61,52 +61,52 @@
     <AttackSpeed>1</AttackSpeed>
     <BaseDamage>
       <Damages>
-        <Damage>36</Damage>
+        <Damage>46</Damage>
         <Damage_Type>Physical</Damage_Type>
       </Damages>
     </BaseDamage>
-    <Impact>60</Impact>
+    <Impact>100</Impact>
     <StamCost>1.25</StamCost>
     <AutoGenerateAttackData>false</AutoGenerateAttackData>
     <Attacks>
       <AttackData>
         <StamCost>1.25</StamCost>
-        <Knockback>60</Knockback>
+        <Knockback>100</Knockback>
         <AttackSpeed>1</AttackSpeed>
         <Damage>
-          <float>36</float>
+          <float>46</float>
         </Damage>
       </AttackData>
       <AttackData>
         <StamCost>1.25</StamCost>
-        <Knockback>86</Knockback>
+        <Knockback>100</Knockback>
         <AttackSpeed>1</AttackSpeed>
         <Damage>
-          <float>31</float>
+          <float>41</float>
         </Damage>
       </AttackData>
       <AttackData>
         <StamCost>1.25</StamCost>
-        <Knockback>86</Knockback>
+        <Knockback>95</Knockback>
         <AttackSpeed>1</AttackSpeed>
         <Damage>
-          <float>31</float>
+          <float>41</float>
         </Damage>
       </AttackData>
       <AttackData>
         <StamCost>1.25</StamCost>
-        <Knockback>86</Knockback>
+        <Knockback>100</Knockback>
         <AttackSpeed>1</AttackSpeed>
         <Damage>
-          <float>31</float>
+          <float>41</float>
         </Damage>
       </AttackData>
       <AttackData>
         <StamCost>1.25</StamCost>
-        <Knockback>86</Knockback>
+        <Knockback>100</Knockback>
         <AttackSpeed>1</AttackSpeed>
         <Damage>
-          <float>31</float>
+          <float>41</float>
         </Damage>
       </AttackData>
     </Attacks>
@@ -119,8 +119,8 @@
           <Delay>0</Delay>
           <SyncType>OwnerSync</SyncType>
           <OverrideCategory>None</OverrideCategory>
-          <StatusEffect>Weaken</StatusEffect>
-          <Buildup>45</Buildup>
+          <StatusEffect>Pain</StatusEffect>
+          <Buildup>30</Buildup>
         </DM_Effect>
       </Effects>
       <EffectConditions />

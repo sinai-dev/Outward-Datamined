@@ -22,6 +22,8 @@
     <string>Armor</string>
     <string>Equipment</string>
     <string>Item</string>
+    <string>Scavenger</string>
+    <string>Family</string>
   </Tags>
   <StatsHolder xsi:type="DM_EquipmentStats">
     <BaseValue>675</BaseValue>

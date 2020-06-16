@@ -4,6 +4,10 @@
   <ItemID>0</ItemID>
   <All_Locations>
     <QuantityHolder>
+      <Name>Antique Plateau:Antique Plateau</Name>
+      <Quantity>6</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
       <Name>Chersonese:Chersonese</Name>
       <Quantity>16</Quantity>
     </QuantityHolder>
@@ -32,6 +36,7 @@
     <DroptableSummary>
       <DropTableName>DropTable_Salt</DropTableName>
       <Locations>
+        <string>Antique Plateau</string>
         <string>Chersonese</string>
         <string>Starfish Cave</string>
         <string>Hallowed Marsh</string>

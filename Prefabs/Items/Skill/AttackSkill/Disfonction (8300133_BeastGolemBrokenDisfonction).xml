@@ -49,26 +49,6 @@
       <EffectConditions />
       <ChildEffects />
     </DM_EffectTransform>
-    <DM_EffectTransform>
-      <TransformName>ActivationEffects</TransformName>
-      <Effects>
-        <DM_Effect xsi:type="DM_PlaySoundEffect">
-          <Delay>0</Delay>
-          <SyncType>OwnerSync</SyncType>
-          <OverrideCategory>None</OverrideCategory>
-          <Sounds>
-            <Sounds>CS_BeastGolem_Attack_Grunt1</Sounds>
-            <Sounds>CS_BeastGolem_Attack_Grunt2</Sounds>
-            <Sounds>CS_BeastGolem_Attack_Grunt3</Sounds>
-          </Sounds>
-          <Follow>false</Follow>
-          <MinPitch>1</MinPitch>
-          <MaxPitch>1</MaxPitch>
-        </DM_Effect>
-      </Effects>
-      <EffectConditions />
-      <ChildEffects />
-    </DM_EffectTransform>
   </EffectTransforms>
   <Cooldown>15</Cooldown>
   <StaminaCost>0</StaminaCost>

@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <DM_Enemy xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Name>Troglodyte Grenadier</Name>
-  <GameObject_Name>EliteTroglodyteGrenadier</GameObject_Name>
+  <GameObject_Name>TroglodyteGrenadier_02</GameObject_Name>
   <Unique_ID>2</Unique_ID>
   <Locations_Found>
-    <string>Other:Unknown Arena</string>
+    <string>Antique Plateau:Abandoned Living Quarters</string>
   </Locations_Found>
-  <Max_Health>220</Max_Health>
+  <Max_Health>120</Max_Health>
   <Health_Regen_Per_Second>0</Health_Regen_Per_Second>
   <Impact_Resistance>10</Impact_Resistance>
   <Protection>
@@ -46,10 +46,12 @@
     <string>- (2400190)</string>
   </Starting_Equipment>
   <Skill_Knowledge>
-    <string>TrogThrowGrenade (8300068)</string>
+    <string>TrogThrowGrenade (8300060)</string>
   </Skill_Knowledge>
-  <Faction>Bandits</Faction>
+  <Faction>Mercs</Faction>
   <Allied_To_Same_Faction>true</Allied_To_Same_Faction>
   <Guaranteed_Drops />
-  <DropTable_Names />
+  <DropTable_Names>
+    <string>DropTable_TroglodyteGrenadier</string>
+  </DropTable_Names>
 </DM_Enemy>

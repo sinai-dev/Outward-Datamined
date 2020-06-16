@@ -4,6 +4,34 @@
   <ItemID>0</ItemID>
   <All_Locations>
     <QuantityHolder>
+      <Name>Antique Plateau:Antique Plateau</Name>
+      <Quantity>9</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Antique Plateau:Abandoned Living Quarters</Name>
+      <Quantity>8</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Antique Plateau:Ruined Warehouse</Name>
+      <Quantity>3</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Antique Plateau:Destroyed Test Chambers</Name>
+      <Quantity>5</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Antique Plateau:Wendigo Lair</Name>
+      <Quantity>2</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Antique Plateau:Troglodyte Warren</Name>
+      <Quantity>10</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Antique Plateau:Immaculate's Camp</Name>
+      <Quantity>2</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
       <Name>Chersonese:Vendavel Fortress</Name>
       <Quantity>2</Quantity>
     </QuantityHolder>
@@ -108,6 +136,13 @@
     <DroptableSummary>
       <DropTableName>DropTable_GreenMushroom</DropTableName>
       <Locations>
+        <string>Antique Plateau</string>
+        <string>Abandoned Living Quarters</string>
+        <string>Ruined Warehouse</string>
+        <string>Destroyed Test Chambers</string>
+        <string>Wendigo Lair</string>
+        <string>Troglodyte Warren</string>
+        <string>Immaculate's Camp</string>
         <string>Vendavel Fortress</string>
         <string>Blister Burrow</string>
         <string>Ghost Pass</string>

@@ -1,0 +1,744 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DM_AttackSkill xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <gameObjectName>8201011_Rupture</gameObjectName>
+  <saveDir>/Skill/AttackSkill</saveDir>
+  <ItemID>8201011</ItemID>
+  <Name>Rupture</Name>
+  <Description>Detonate all Hexes on nearby enemies, and all Souls, for related damage.</Description>
+  <LegacyItemID>-1</LegacyItemID>
+  <IsPickable>false</IsPickable>
+  <IsUsable>false</IsUsable>
+  <QtyRemovedOnUse>0</QtyRemovedOnUse>
+  <GroupItemInDisplay>false</GroupItemInDisplay>
+  <HasPhysicsWhenWorld>false</HasPhysicsWhenWorld>
+  <RepairedInRest>true</RepairedInRest>
+  <BehaviorOnNoDurability>NotSet</BehaviorOnNoDurability>
+  <CastType>Rupture</CastType>
+  <CastModifier>Immobilized</CastModifier>
+  <CastLocomotionEnabled>false</CastLocomotionEnabled>
+  <MobileCastMovementMult>-1</MobileCastMovementMult>
+  <CastSheatheRequired>1</CastSheatheRequired>
+  <Tags />
+  <EffectTransforms>
+    <DM_EffectTransform>
+      <TransformName>Effects</TransformName>
+      <Effects>
+        <DM_Effect xsi:type="DM_ShootBlast">
+          <Delay>0</Delay>
+          <SyncType>OwnerSync</SyncType>
+          <OverrideCategory>None</OverrideCategory>
+          <CastPosition>Local</CastPosition>
+          <LocalPositionAdd>
+            <x>0</x>
+            <y>0.5</y>
+            <z>0</z>
+          </LocalPositionAdd>
+          <NoAim>false</NoAim>
+          <TargetType>Enemies</TargetType>
+          <TransformName>ShooterTransform</TransformName>
+          <BaseBlast>RuptureBlast</BaseBlast>
+          <Radius>20</Radius>
+          <RefreshTime>0.1</RefreshTime>
+          <BlastLifespan>0</BlastLifespan>
+          <InstantiatedAmount>1</InstantiatedAmount>
+          <Interruptible>false</Interruptible>
+          <MaxHitTargetCount>-1</MaxHitTargetCount>
+          <AffectHitTargetCenter>false</AffectHitTargetCenter>
+          <HitOnShoot>true</HitOnShoot>
+          <IgnoreShooter>false</IgnoreShooter>
+          <IgnoreStop>false</IgnoreStop>
+          <NoTargetForwardMultiplier>5</NoTargetForwardMultiplier>
+          <ParentToShootTransform>false</ParentToShootTransform>
+          <UseTargetCharacterPositionType>false</UseTargetCharacterPositionType>
+          <ImpactSoundMaterial>Fire</ImpactSoundMaterial>
+          <DontPlayHitSound>false</DontPlayHitSound>
+          <FXIsWorld>false</FXIsWorld>
+          <BlastEffects>
+            <DM_EffectTransform>
+              <TransformName>Scorch</TransformName>
+              <Effects />
+              <EffectConditions>
+                <DM_EffectCondition xsi:type="DM_HasStatusEffectEffectCondition">
+                  <Invert>false</Invert>
+                  <DiseaseAge>0</DiseaseAge>
+                  <CheckOwner>false</CheckOwner>
+                  <StatusSelectorType>StatusSpecific</StatusSelectorType>
+                  <SelectorValue>Burn</SelectorValue>
+                </DM_EffectCondition>
+              </EffectConditions>
+              <ChildEffects>
+                <DM_EffectTransform>
+                  <TransformName>Effects</TransformName>
+                  <Effects>
+                    <DM_Effect xsi:type="DM_RemoveStatusEffect">
+                      <Delay>0</Delay>
+                      <SyncType>OwnerSync</SyncType>
+                      <OverrideCategory>None</OverrideCategory>
+                      <Status_Name>Burn</Status_Name>
+                      <Status_Tag />
+                      <CleanseType>StatusSpecific</CleanseType>
+                    </DM_Effect>
+                    <DM_Effect xsi:type="DM_ShootBlast">
+                      <Delay>0</Delay>
+                      <SyncType>OwnerSync</SyncType>
+                      <OverrideCategory>None</OverrideCategory>
+                      <CastPosition>Given</CastPosition>
+                      <LocalPositionAdd>
+                        <x>0</x>
+                        <y>1.5</y>
+                        <z>0</z>
+                      </LocalPositionAdd>
+                      <NoAim>false</NoAim>
+                      <TargetType>Enemies</TargetType>
+                      <TransformName>ShooterTransform</TransformName>
+                      <BaseBlast>RuptureBlast_Scorch</BaseBlast>
+                      <Radius>2.5</Radius>
+                      <RefreshTime>0.1</RefreshTime>
+                      <BlastLifespan>0</BlastLifespan>
+                      <InstantiatedAmount>1</InstantiatedAmount>
+                      <Interruptible>false</Interruptible>
+                      <MaxHitTargetCount>-1</MaxHitTargetCount>
+                      <AffectHitTargetCenter>false</AffectHitTargetCenter>
+                      <HitOnShoot>true</HitOnShoot>
+                      <IgnoreShooter>false</IgnoreShooter>
+                      <IgnoreStop>false</IgnoreStop>
+                      <NoTargetForwardMultiplier>5</NoTargetForwardMultiplier>
+                      <ParentToShootTransform>false</ParentToShootTransform>
+                      <UseTargetCharacterPositionType>false</UseTargetCharacterPositionType>
+                      <ImpactSoundMaterial>Fire</ImpactSoundMaterial>
+                      <DontPlayHitSound>false</DontPlayHitSound>
+                      <FXIsWorld>false</FXIsWorld>
+                      <BlastEffects>
+                        <DM_EffectTransform>
+                          <TransformName>Effects</TransformName>
+                          <Effects>
+                            <DM_Effect xsi:type="DM_PunctualDamage">
+                              <Delay>0</Delay>
+                              <SyncType>OwnerSync</SyncType>
+                              <OverrideCategory>None</OverrideCategory>
+                              <Damage>
+                                <Damages>
+                                  <Damage>50</Damage>
+                                  <Damage_Type>Fire</Damage_Type>
+                                </Damages>
+                              </Damage>
+                              <Damages_AI />
+                              <Knockback>33</Knockback>
+                              <HitInventory>true</HitInventory>
+                            </DM_Effect>
+                          </Effects>
+                          <EffectConditions />
+                          <ChildEffects />
+                        </DM_EffectTransform>
+                      </BlastEffects>
+                    </DM_Effect>
+                  </Effects>
+                  <EffectConditions />
+                  <ChildEffects />
+                </DM_EffectTransform>
+              </ChildEffects>
+            </DM_EffectTransform>
+            <DM_EffectTransform>
+              <TransformName>Chill</TransformName>
+              <Effects />
+              <EffectConditions>
+                <DM_EffectCondition xsi:type="DM_HasStatusEffectEffectCondition">
+                  <Invert>false</Invert>
+                  <DiseaseAge>0</DiseaseAge>
+                  <CheckOwner>false</CheckOwner>
+                  <StatusSelectorType>StatusSpecific</StatusSelectorType>
+                  <SelectorValue>Chill</SelectorValue>
+                </DM_EffectCondition>
+              </EffectConditions>
+              <ChildEffects>
+                <DM_EffectTransform>
+                  <TransformName>Effects</TransformName>
+                  <Effects>
+                    <DM_Effect xsi:type="DM_RemoveStatusEffect">
+                      <Delay>0</Delay>
+                      <SyncType>OwnerSync</SyncType>
+                      <OverrideCategory>None</OverrideCategory>
+                      <Status_Name>Chill</Status_Name>
+                      <Status_Tag />
+                      <CleanseType>StatusSpecific</CleanseType>
+                    </DM_Effect>
+                    <DM_Effect xsi:type="DM_ShootBlast">
+                      <Delay>0</Delay>
+                      <SyncType>OwnerSync</SyncType>
+                      <OverrideCategory>None</OverrideCategory>
+                      <CastPosition>Given</CastPosition>
+                      <LocalPositionAdd>
+                        <x>0</x>
+                        <y>1.5</y>
+                        <z>0</z>
+                      </LocalPositionAdd>
+                      <NoAim>false</NoAim>
+                      <TargetType>Enemies</TargetType>
+                      <TransformName>ShooterTransform</TransformName>
+                      <BaseBlast>RuptureBlast_Chill</BaseBlast>
+                      <Radius>2.5</Radius>
+                      <RefreshTime>0.1</RefreshTime>
+                      <BlastLifespan>0</BlastLifespan>
+                      <InstantiatedAmount>1</InstantiatedAmount>
+                      <Interruptible>false</Interruptible>
+                      <MaxHitTargetCount>-1</MaxHitTargetCount>
+                      <AffectHitTargetCenter>false</AffectHitTargetCenter>
+                      <HitOnShoot>true</HitOnShoot>
+                      <IgnoreShooter>false</IgnoreShooter>
+                      <IgnoreStop>false</IgnoreStop>
+                      <NoTargetForwardMultiplier>5</NoTargetForwardMultiplier>
+                      <ParentToShootTransform>false</ParentToShootTransform>
+                      <UseTargetCharacterPositionType>false</UseTargetCharacterPositionType>
+                      <ImpactSoundMaterial>Fire</ImpactSoundMaterial>
+                      <DontPlayHitSound>false</DontPlayHitSound>
+                      <FXIsWorld>false</FXIsWorld>
+                      <BlastEffects>
+                        <DM_EffectTransform>
+                          <TransformName>Effects</TransformName>
+                          <Effects>
+                            <DM_Effect xsi:type="DM_PunctualDamage">
+                              <Delay>0</Delay>
+                              <SyncType>OwnerSync</SyncType>
+                              <OverrideCategory>None</OverrideCategory>
+                              <Damage>
+                                <Damages>
+                                  <Damage>50</Damage>
+                                  <Damage_Type>Frost</Damage_Type>
+                                </Damages>
+                              </Damage>
+                              <Damages_AI />
+                              <Knockback>33</Knockback>
+                              <HitInventory>true</HitInventory>
+                            </DM_Effect>
+                          </Effects>
+                          <EffectConditions />
+                          <ChildEffects />
+                        </DM_EffectTransform>
+                      </BlastEffects>
+                    </DM_Effect>
+                  </Effects>
+                  <EffectConditions />
+                  <ChildEffects />
+                </DM_EffectTransform>
+              </ChildEffects>
+            </DM_EffectTransform>
+            <DM_EffectTransform>
+              <TransformName>Curse</TransformName>
+              <Effects />
+              <EffectConditions>
+                <DM_EffectCondition xsi:type="DM_HasStatusEffectEffectCondition">
+                  <Invert>false</Invert>
+                  <DiseaseAge>0</DiseaseAge>
+                  <CheckOwner>false</CheckOwner>
+                  <StatusSelectorType>StatusSpecific</StatusSelectorType>
+                  <SelectorValue>Curse</SelectorValue>
+                </DM_EffectCondition>
+              </EffectConditions>
+              <ChildEffects>
+                <DM_EffectTransform>
+                  <TransformName>Effects</TransformName>
+                  <Effects>
+                    <DM_Effect xsi:type="DM_RemoveStatusEffect">
+                      <Delay>0</Delay>
+                      <SyncType>OwnerSync</SyncType>
+                      <OverrideCategory>None</OverrideCategory>
+                      <Status_Name>Curse</Status_Name>
+                      <Status_Tag />
+                      <CleanseType>StatusSpecific</CleanseType>
+                    </DM_Effect>
+                    <DM_Effect xsi:type="DM_ShootBlast">
+                      <Delay>0</Delay>
+                      <SyncType>OwnerSync</SyncType>
+                      <OverrideCategory>None</OverrideCategory>
+                      <CastPosition>Given</CastPosition>
+                      <LocalPositionAdd>
+                        <x>0</x>
+                        <y>1.5</y>
+                        <z>0</z>
+                      </LocalPositionAdd>
+                      <NoAim>false</NoAim>
+                      <TargetType>Enemies</TargetType>
+                      <TransformName>ShooterTransform</TransformName>
+                      <BaseBlast>RuptureBlast_Curse</BaseBlast>
+                      <Radius>2.5</Radius>
+                      <RefreshTime>0.1</RefreshTime>
+                      <BlastLifespan>0</BlastLifespan>
+                      <InstantiatedAmount>1</InstantiatedAmount>
+                      <Interruptible>false</Interruptible>
+                      <MaxHitTargetCount>-1</MaxHitTargetCount>
+                      <AffectHitTargetCenter>false</AffectHitTargetCenter>
+                      <HitOnShoot>true</HitOnShoot>
+                      <IgnoreShooter>false</IgnoreShooter>
+                      <IgnoreStop>false</IgnoreStop>
+                      <NoTargetForwardMultiplier>5</NoTargetForwardMultiplier>
+                      <ParentToShootTransform>false</ParentToShootTransform>
+                      <UseTargetCharacterPositionType>false</UseTargetCharacterPositionType>
+                      <ImpactSoundMaterial>Fire</ImpactSoundMaterial>
+                      <DontPlayHitSound>false</DontPlayHitSound>
+                      <FXIsWorld>false</FXIsWorld>
+                      <BlastEffects>
+                        <DM_EffectTransform>
+                          <TransformName>Effects</TransformName>
+                          <Effects>
+                            <DM_Effect xsi:type="DM_PunctualDamage">
+                              <Delay>0</Delay>
+                              <SyncType>OwnerSync</SyncType>
+                              <OverrideCategory>None</OverrideCategory>
+                              <Damage>
+                                <Damages>
+                                  <Damage>50</Damage>
+                                  <Damage_Type>Decay</Damage_Type>
+                                </Damages>
+                              </Damage>
+                              <Damages_AI />
+                              <Knockback>33</Knockback>
+                              <HitInventory>true</HitInventory>
+                            </DM_Effect>
+                          </Effects>
+                          <EffectConditions />
+                          <ChildEffects />
+                        </DM_EffectTransform>
+                      </BlastEffects>
+                    </DM_Effect>
+                  </Effects>
+                  <EffectConditions />
+                  <ChildEffects />
+                </DM_EffectTransform>
+              </ChildEffects>
+            </DM_EffectTransform>
+            <DM_EffectTransform>
+              <TransformName>Doom</TransformName>
+              <Effects />
+              <EffectConditions>
+                <DM_EffectCondition xsi:type="DM_HasStatusEffectEffectCondition">
+                  <Invert>false</Invert>
+                  <DiseaseAge>0</DiseaseAge>
+                  <CheckOwner>false</CheckOwner>
+                  <StatusSelectorType>StatusSpecific</StatusSelectorType>
+                  <SelectorValue>Doom</SelectorValue>
+                </DM_EffectCondition>
+              </EffectConditions>
+              <ChildEffects>
+                <DM_EffectTransform>
+                  <TransformName>Effects</TransformName>
+                  <Effects>
+                    <DM_Effect xsi:type="DM_RemoveStatusEffect">
+                      <Delay>0</Delay>
+                      <SyncType>OwnerSync</SyncType>
+                      <OverrideCategory>None</OverrideCategory>
+                      <Status_Name>Doom</Status_Name>
+                      <Status_Tag />
+                      <CleanseType>StatusSpecific</CleanseType>
+                    </DM_Effect>
+                    <DM_Effect xsi:type="DM_ShootBlast">
+                      <Delay>0</Delay>
+                      <SyncType>OwnerSync</SyncType>
+                      <OverrideCategory>None</OverrideCategory>
+                      <CastPosition>Given</CastPosition>
+                      <LocalPositionAdd>
+                        <x>0</x>
+                        <y>1.5</y>
+                        <z>0</z>
+                      </LocalPositionAdd>
+                      <NoAim>false</NoAim>
+                      <TargetType>Enemies</TargetType>
+                      <TransformName>ShooterTransform</TransformName>
+                      <BaseBlast>RuptureBlast_Doom</BaseBlast>
+                      <Radius>2.5</Radius>
+                      <RefreshTime>0.1</RefreshTime>
+                      <BlastLifespan>0</BlastLifespan>
+                      <InstantiatedAmount>1</InstantiatedAmount>
+                      <Interruptible>false</Interruptible>
+                      <MaxHitTargetCount>-1</MaxHitTargetCount>
+                      <AffectHitTargetCenter>false</AffectHitTargetCenter>
+                      <HitOnShoot>true</HitOnShoot>
+                      <IgnoreShooter>false</IgnoreShooter>
+                      <IgnoreStop>false</IgnoreStop>
+                      <NoTargetForwardMultiplier>5</NoTargetForwardMultiplier>
+                      <ParentToShootTransform>false</ParentToShootTransform>
+                      <UseTargetCharacterPositionType>false</UseTargetCharacterPositionType>
+                      <ImpactSoundMaterial>Fire</ImpactSoundMaterial>
+                      <DontPlayHitSound>false</DontPlayHitSound>
+                      <FXIsWorld>false</FXIsWorld>
+                      <BlastEffects>
+                        <DM_EffectTransform>
+                          <TransformName>Effects</TransformName>
+                          <Effects>
+                            <DM_Effect xsi:type="DM_PunctualDamage">
+                              <Delay>0</Delay>
+                              <SyncType>OwnerSync</SyncType>
+                              <OverrideCategory>None</OverrideCategory>
+                              <Damage>
+                                <Damages>
+                                  <Damage>50</Damage>
+                                  <Damage_Type>Electric</Damage_Type>
+                                </Damages>
+                              </Damage>
+                              <Damages_AI />
+                              <Knockback>33</Knockback>
+                              <HitInventory>true</HitInventory>
+                            </DM_Effect>
+                          </Effects>
+                          <EffectConditions />
+                          <ChildEffects />
+                        </DM_EffectTransform>
+                      </BlastEffects>
+                    </DM_Effect>
+                  </Effects>
+                  <EffectConditions />
+                  <ChildEffects />
+                </DM_EffectTransform>
+              </ChildEffects>
+            </DM_EffectTransform>
+            <DM_EffectTransform>
+              <TransformName>Haunt</TransformName>
+              <Effects />
+              <EffectConditions>
+                <DM_EffectCondition xsi:type="DM_HasStatusEffectEffectCondition">
+                  <Invert>false</Invert>
+                  <DiseaseAge>0</DiseaseAge>
+                  <CheckOwner>false</CheckOwner>
+                  <StatusSelectorType>StatusSpecific</StatusSelectorType>
+                  <SelectorValue>Haunted</SelectorValue>
+                </DM_EffectCondition>
+              </EffectConditions>
+              <ChildEffects>
+                <DM_EffectTransform>
+                  <TransformName>Effects</TransformName>
+                  <Effects>
+                    <DM_Effect xsi:type="DM_RemoveStatusEffect">
+                      <Delay>0</Delay>
+                      <SyncType>OwnerSync</SyncType>
+                      <OverrideCategory>None</OverrideCategory>
+                      <Status_Name>Haunted</Status_Name>
+                      <Status_Tag />
+                      <CleanseType>StatusSpecific</CleanseType>
+                    </DM_Effect>
+                    <DM_Effect xsi:type="DM_ShootBlast">
+                      <Delay>0</Delay>
+                      <SyncType>OwnerSync</SyncType>
+                      <OverrideCategory>None</OverrideCategory>
+                      <CastPosition>Given</CastPosition>
+                      <LocalPositionAdd>
+                        <x>0</x>
+                        <y>1.5</y>
+                        <z>0</z>
+                      </LocalPositionAdd>
+                      <NoAim>false</NoAim>
+                      <TargetType>Enemies</TargetType>
+                      <TransformName>ShooterTransform</TransformName>
+                      <BaseBlast>RuptureBlast_Haunt</BaseBlast>
+                      <Radius>2.5</Radius>
+                      <RefreshTime>0.1</RefreshTime>
+                      <BlastLifespan>0</BlastLifespan>
+                      <InstantiatedAmount>1</InstantiatedAmount>
+                      <Interruptible>false</Interruptible>
+                      <MaxHitTargetCount>-1</MaxHitTargetCount>
+                      <AffectHitTargetCenter>false</AffectHitTargetCenter>
+                      <HitOnShoot>true</HitOnShoot>
+                      <IgnoreShooter>false</IgnoreShooter>
+                      <IgnoreStop>false</IgnoreStop>
+                      <NoTargetForwardMultiplier>5</NoTargetForwardMultiplier>
+                      <ParentToShootTransform>false</ParentToShootTransform>
+                      <UseTargetCharacterPositionType>false</UseTargetCharacterPositionType>
+                      <ImpactSoundMaterial>Fire</ImpactSoundMaterial>
+                      <DontPlayHitSound>false</DontPlayHitSound>
+                      <FXIsWorld>false</FXIsWorld>
+                      <BlastEffects>
+                        <DM_EffectTransform>
+                          <TransformName>Effects</TransformName>
+                          <Effects>
+                            <DM_Effect xsi:type="DM_PunctualDamage">
+                              <Delay>0</Delay>
+                              <SyncType>OwnerSync</SyncType>
+                              <OverrideCategory>None</OverrideCategory>
+                              <Damage>
+                                <Damages>
+                                  <Damage>50</Damage>
+                                  <Damage_Type>Ethereal</Damage_Type>
+                                </Damages>
+                              </Damage>
+                              <Damages_AI />
+                              <Knockback>33</Knockback>
+                              <HitInventory>true</HitInventory>
+                            </DM_Effect>
+                          </Effects>
+                          <EffectConditions />
+                          <ChildEffects />
+                        </DM_EffectTransform>
+                      </BlastEffects>
+                    </DM_Effect>
+                  </Effects>
+                  <EffectConditions />
+                  <ChildEffects />
+                </DM_EffectTransform>
+              </ChildEffects>
+            </DM_EffectTransform>
+            <DM_EffectTransform>
+              <TransformName>Pain</TransformName>
+              <Effects />
+              <EffectConditions>
+                <DM_EffectCondition xsi:type="DM_HasStatusEffectEffectCondition">
+                  <Invert>false</Invert>
+                  <DiseaseAge>0</DiseaseAge>
+                  <CheckOwner>false</CheckOwner>
+                  <StatusSelectorType>StatusSpecific</StatusSelectorType>
+                  <SelectorValue>Pain</SelectorValue>
+                </DM_EffectCondition>
+              </EffectConditions>
+              <ChildEffects>
+                <DM_EffectTransform>
+                  <TransformName>Effects</TransformName>
+                  <Effects>
+                    <DM_Effect xsi:type="DM_RemoveStatusEffect">
+                      <Delay>0</Delay>
+                      <SyncType>OwnerSync</SyncType>
+                      <OverrideCategory>None</OverrideCategory>
+                      <Status_Name>Pain</Status_Name>
+                      <Status_Tag />
+                      <CleanseType>StatusSpecific</CleanseType>
+                    </DM_Effect>
+                    <DM_Effect xsi:type="DM_ShootBlast">
+                      <Delay>0</Delay>
+                      <SyncType>OwnerSync</SyncType>
+                      <OverrideCategory>None</OverrideCategory>
+                      <CastPosition>Given</CastPosition>
+                      <LocalPositionAdd>
+                        <x>0</x>
+                        <y>1.5</y>
+                        <z>0</z>
+                      </LocalPositionAdd>
+                      <NoAim>false</NoAim>
+                      <TargetType>Enemies</TargetType>
+                      <TransformName>ShooterTransform</TransformName>
+                      <BaseBlast>RuptureBlast_Pain</BaseBlast>
+                      <Radius>2.5</Radius>
+                      <RefreshTime>0.1</RefreshTime>
+                      <BlastLifespan>0</BlastLifespan>
+                      <InstantiatedAmount>1</InstantiatedAmount>
+                      <Interruptible>false</Interruptible>
+                      <MaxHitTargetCount>-1</MaxHitTargetCount>
+                      <AffectHitTargetCenter>false</AffectHitTargetCenter>
+                      <HitOnShoot>true</HitOnShoot>
+                      <IgnoreShooter>false</IgnoreShooter>
+                      <IgnoreStop>false</IgnoreStop>
+                      <NoTargetForwardMultiplier>5</NoTargetForwardMultiplier>
+                      <ParentToShootTransform>false</ParentToShootTransform>
+                      <UseTargetCharacterPositionType>false</UseTargetCharacterPositionType>
+                      <ImpactSoundMaterial>Fire</ImpactSoundMaterial>
+                      <DontPlayHitSound>false</DontPlayHitSound>
+                      <FXIsWorld>false</FXIsWorld>
+                      <BlastEffects>
+                        <DM_EffectTransform>
+                          <TransformName>Effects</TransformName>
+                          <Effects>
+                            <DM_Effect xsi:type="DM_PunctualDamage">
+                              <Delay>0</Delay>
+                              <SyncType>OwnerSync</SyncType>
+                              <OverrideCategory>None</OverrideCategory>
+                              <Damage>
+                                <Damages>
+                                  <Damage>50</Damage>
+                                  <Damage_Type>Physical</Damage_Type>
+                                </Damages>
+                              </Damage>
+                              <Damages_AI />
+                              <Knockback>0</Knockback>
+                              <HitInventory>true</HitInventory>
+                            </DM_Effect>
+                          </Effects>
+                          <EffectConditions />
+                          <ChildEffects />
+                        </DM_EffectTransform>
+                      </BlastEffects>
+                    </DM_Effect>
+                  </Effects>
+                  <EffectConditions />
+                  <ChildEffects />
+                </DM_EffectTransform>
+              </ChildEffects>
+            </DM_EffectTransform>
+            <DM_EffectTransform>
+              <TransformName>Confusion</TransformName>
+              <Effects />
+              <EffectConditions>
+                <DM_EffectCondition xsi:type="DM_HasStatusEffectEffectCondition">
+                  <Invert>false</Invert>
+                  <DiseaseAge>0</DiseaseAge>
+                  <CheckOwner>false</CheckOwner>
+                  <StatusSelectorType>StatusSpecific</StatusSelectorType>
+                  <SelectorValue>Confusion</SelectorValue>
+                </DM_EffectCondition>
+              </EffectConditions>
+              <ChildEffects>
+                <DM_EffectTransform>
+                  <TransformName>Effects</TransformName>
+                  <Effects>
+                    <DM_Effect xsi:type="DM_RemoveStatusEffect">
+                      <Delay>0</Delay>
+                      <SyncType>OwnerSync</SyncType>
+                      <OverrideCategory>None</OverrideCategory>
+                      <Status_Name>Confusion</Status_Name>
+                      <Status_Tag />
+                      <CleanseType>StatusSpecific</CleanseType>
+                    </DM_Effect>
+                    <DM_Effect xsi:type="DM_ShootBlast">
+                      <Delay>0</Delay>
+                      <SyncType>OwnerSync</SyncType>
+                      <OverrideCategory>None</OverrideCategory>
+                      <CastPosition>Given</CastPosition>
+                      <LocalPositionAdd>
+                        <x>0</x>
+                        <y>1.5</y>
+                        <z>0</z>
+                      </LocalPositionAdd>
+                      <NoAim>false</NoAim>
+                      <TargetType>Enemies</TargetType>
+                      <TransformName>ShooterTransform</TransformName>
+                      <BaseBlast>RuptureBlast_Confusion</BaseBlast>
+                      <Radius>2.5</Radius>
+                      <RefreshTime>0.1</RefreshTime>
+                      <BlastLifespan>0</BlastLifespan>
+                      <InstantiatedAmount>1</InstantiatedAmount>
+                      <Interruptible>false</Interruptible>
+                      <MaxHitTargetCount>-1</MaxHitTargetCount>
+                      <AffectHitTargetCenter>false</AffectHitTargetCenter>
+                      <HitOnShoot>true</HitOnShoot>
+                      <IgnoreShooter>false</IgnoreShooter>
+                      <IgnoreStop>false</IgnoreStop>
+                      <NoTargetForwardMultiplier>5</NoTargetForwardMultiplier>
+                      <ParentToShootTransform>false</ParentToShootTransform>
+                      <UseTargetCharacterPositionType>false</UseTargetCharacterPositionType>
+                      <ImpactSoundMaterial>Fire</ImpactSoundMaterial>
+                      <DontPlayHitSound>false</DontPlayHitSound>
+                      <FXIsWorld>false</FXIsWorld>
+                      <BlastEffects>
+                        <DM_EffectTransform>
+                          <TransformName>Effects</TransformName>
+                          <Effects>
+                            <DM_Effect xsi:type="DM_PunctualDamage">
+                              <Delay>0</Delay>
+                              <SyncType>OwnerSync</SyncType>
+                              <OverrideCategory>None</OverrideCategory>
+                              <Damage />
+                              <Damages_AI />
+                              <Knockback>50</Knockback>
+                              <HitInventory>true</HitInventory>
+                            </DM_Effect>
+                          </Effects>
+                          <EffectConditions />
+                          <ChildEffects />
+                        </DM_EffectTransform>
+                      </BlastEffects>
+                    </DM_Effect>
+                  </Effects>
+                  <EffectConditions />
+                  <ChildEffects />
+                </DM_EffectTransform>
+              </ChildEffects>
+            </DM_EffectTransform>
+            <DM_EffectTransform>
+              <TransformName>RevealedSoul</TransformName>
+              <Effects />
+              <EffectConditions />
+              <ChildEffects>
+                <DM_EffectTransform>
+                  <TransformName>Effects</TransformName>
+                  <Effects>
+                    <DM_Effect xsi:type="DM_ShootBlast">
+                      <Delay>0</Delay>
+                      <SyncType>OwnerSync</SyncType>
+                      <OverrideCategory>None</OverrideCategory>
+                      <CastPosition>Given</CastPosition>
+                      <LocalPositionAdd>
+                        <x>0</x>
+                        <y>1.5</y>
+                        <z>0</z>
+                      </LocalPositionAdd>
+                      <NoAim>false</NoAim>
+                      <TargetType>Enemies</TargetType>
+                      <TransformName>ShooterTransform</TransformName>
+                      <BaseBlast>RuptureBlast_RevealedSoul</BaseBlast>
+                      <Radius>2.5</Radius>
+                      <RefreshTime>0.1</RefreshTime>
+                      <BlastLifespan>0</BlastLifespan>
+                      <InstantiatedAmount>1</InstantiatedAmount>
+                      <Interruptible>false</Interruptible>
+                      <MaxHitTargetCount>-1</MaxHitTargetCount>
+                      <AffectHitTargetCenter>false</AffectHitTargetCenter>
+                      <HitOnShoot>true</HitOnShoot>
+                      <IgnoreShooter>false</IgnoreShooter>
+                      <IgnoreStop>false</IgnoreStop>
+                      <NoTargetForwardMultiplier>5</NoTargetForwardMultiplier>
+                      <ParentToShootTransform>false</ParentToShootTransform>
+                      <UseTargetCharacterPositionType>false</UseTargetCharacterPositionType>
+                      <ImpactSoundMaterial>Fire</ImpactSoundMaterial>
+                      <DontPlayHitSound>false</DontPlayHitSound>
+                      <FXIsWorld>false</FXIsWorld>
+                      <BlastEffects>
+                        <DM_EffectTransform>
+                          <TransformName>Effects</TransformName>
+                          <Effects>
+                            <DM_Effect xsi:type="DM_PunctualDamage">
+                              <Delay>0</Delay>
+                              <SyncType>OwnerSync</SyncType>
+                              <OverrideCategory>None</OverrideCategory>
+                              <Damage>
+                                <Damages>
+                                  <Damage>100</Damage>
+                                  <Damage_Type>Ethereal</Damage_Type>
+                                </Damages>
+                              </Damage>
+                              <Damages_AI />
+                              <Knockback>66</Knockback>
+                              <HitInventory>true</HitInventory>
+                            </DM_Effect>
+                          </Effects>
+                          <EffectConditions />
+                          <ChildEffects />
+                        </DM_EffectTransform>
+                      </BlastEffects>
+                    </DM_Effect>
+                  </Effects>
+                  <EffectConditions />
+                  <ChildEffects />
+                </DM_EffectTransform>
+              </ChildEffects>
+            </DM_EffectTransform>
+          </BlastEffects>
+        </DM_Effect>
+      </Effects>
+      <EffectConditions />
+      <ChildEffects />
+    </DM_EffectTransform>
+    <DM_EffectTransform>
+      <TransformName>ActivationEffects</TransformName>
+      <Effects>
+        <DM_Effect xsi:type="DM_PlaySoundEffect">
+          <Delay>0</Delay>
+          <SyncType>OwnerSync</SyncType>
+          <OverrideCategory>None</OverrideCategory>
+          <Sounds>
+            <Sounds>SFX_SKILL_Spark</Sounds>
+          </Sounds>
+          <Follow>false</Follow>
+          <MinPitch>1</MinPitch>
+          <MaxPitch>1</MaxPitch>
+        </DM_Effect>
+      </Effects>
+      <EffectConditions />
+      <ChildEffects />
+    </DM_EffectTransform>
+  </EffectTransforms>
+  <Cooldown>10</Cooldown>
+  <StaminaCost>0</StaminaCost>
+  <ManaCost>10</ManaCost>
+  <DurabilityCost>0</DurabilityCost>
+  <DurabilityCostPercent>0</DurabilityCostPercent>
+  <RequiredItems />
+  <AmmunitionTypes />
+  <RequiredOffHandTypes />
+  <RequiredWeaponTypes />
+  <RequiredWeaponTags />
+  <RequireImbue>false</RequireImbue>
+</DM_AttackSkill>

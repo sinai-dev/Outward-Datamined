@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DM_Recipe xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Name>Arcane Dampener</Name>
+  <RecipeID>348</RecipeID>
+  <UID />
+  <StationType>Survival</StationType>
+  <Ingredients>
+    <string>Dreamer’s Root</string>
+    <string>Crystal Powder</string>
+    <string>Boozu’s Hide</string>
+  </Ingredients>
+  <Results>
+    <ItemQty>
+      <ItemName>Arcane Dampener</ItemName>
+      <ItemID>6500160</ItemID>
+      <Quantity>1</Quantity>
+    </ItemQty>
+  </Results>
+</DM_Recipe>

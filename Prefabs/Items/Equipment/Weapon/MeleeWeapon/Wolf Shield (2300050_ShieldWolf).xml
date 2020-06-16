@@ -23,6 +23,7 @@
     <string>Weapon</string>
     <string>Item</string>
     <string>DecraftPalladium_Small</string>
+    <string>Decraft</string>
   </Tags>
   <StatsHolder xsi:type="DM_WeaponStats">
     <BaseValue>800</BaseValue>
@@ -62,52 +63,52 @@
     <AttackSpeed>0</AttackSpeed>
     <BaseDamage>
       <Damages>
-        <Damage>35</Damage>
+        <Damage>41</Damage>
         <Damage_Type>Physical</Damage_Type>
       </Damages>
     </BaseDamage>
-    <Impact>54</Impact>
+    <Impact>44</Impact>
     <StamCost>0</StamCost>
     <AutoGenerateAttackData>false</AutoGenerateAttackData>
     <Attacks>
       <AttackData>
         <StamCost>0</StamCost>
-        <Knockback>54</Knockback>
+        <Knockback>44</Knockback>
         <AttackSpeed>0</AttackSpeed>
         <Damage>
-          <float>35</float>
+          <float>41</float>
         </Damage>
       </AttackData>
       <AttackData>
         <StamCost>0</StamCost>
-        <Knockback>54</Knockback>
+        <Knockback>44</Knockback>
         <AttackSpeed>0</AttackSpeed>
         <Damage>
-          <float>35</float>
+          <float>41</float>
         </Damage>
       </AttackData>
       <AttackData>
         <StamCost>0</StamCost>
-        <Knockback>54</Knockback>
+        <Knockback>44</Knockback>
         <AttackSpeed>0</AttackSpeed>
         <Damage>
-          <float>35</float>
+          <float>41</float>
         </Damage>
       </AttackData>
       <AttackData>
         <StamCost>0</StamCost>
-        <Knockback>54</Knockback>
+        <Knockback>44</Knockback>
         <AttackSpeed>0</AttackSpeed>
         <Damage>
-          <float>35</float>
+          <float>41</float>
         </Damage>
       </AttackData>
       <AttackData>
         <StamCost>0</StamCost>
-        <Knockback>54</Knockback>
+        <Knockback>44</Knockback>
         <AttackSpeed>0</AttackSpeed>
         <Damage>
-          <float>35</float>
+          <float>41</float>
         </Damage>
       </AttackData>
     </Attacks>

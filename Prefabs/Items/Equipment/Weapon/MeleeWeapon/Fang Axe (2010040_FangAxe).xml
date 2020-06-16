@@ -19,10 +19,13 @@
   <MobileCastMovementMult>-1</MobileCastMovementMult>
   <CastSheatheRequired>1</CastSheatheRequired>
   <Tags>
-    <string>Axe</string>
+    <string>Shield</string>
     <string>Weapon</string>
     <string>Item</string>
     <string>DecraftIron_Small</string>
+    <string>Decraft</string>
+    <string>Fang</string>
+    <string>Family</string>
   </Tags>
   <StatsHolder xsi:type="DM_WeaponStats">
     <BaseValue>25</BaseValue>

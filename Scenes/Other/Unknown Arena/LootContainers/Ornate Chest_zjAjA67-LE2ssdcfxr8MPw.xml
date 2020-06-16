@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DM_LootContainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Name>Ornate Chest</Name>
+  <ItemID>1000120</ItemID>
+  <UID>zjAjA67-LE2ssdcfxr8MPw</UID>
+  <DropTables>
+    <string>DropTable_AntiqueField_Bosse_BirdWarrior_2</string>
+  </DropTables>
+</DM_LootContainer>

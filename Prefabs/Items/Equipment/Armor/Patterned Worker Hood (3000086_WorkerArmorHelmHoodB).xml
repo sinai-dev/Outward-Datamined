@@ -23,6 +23,8 @@
     <string>Helmet</string>
     <string>Equipment</string>
     <string>Item</string>
+    <string>Worker</string>
+    <string>Family</string>
   </Tags>
   <StatsHolder xsi:type="DM_EquipmentStats">
     <BaseValue>6</BaseValue>

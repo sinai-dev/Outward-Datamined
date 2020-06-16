@@ -23,6 +23,7 @@
     <string>Item</string>
     <string>Trinket</string>
     <string>Lexicon</string>
+    <string>Family</string>
   </Tags>
   <StatsHolder xsi:type="DM_EquipmentStats">
     <BaseValue>75</BaseValue>

@@ -25,7 +25,7 @@
           <OverrideCategory>None</OverrideCategory>
           <Damage>
             <Damages>
-              <Damage>0.3</Damage>
+              <Damage>0.5</Damage>
               <Damage_Type>Fire</Damage_Type>
             </Damages>
           </Damage>

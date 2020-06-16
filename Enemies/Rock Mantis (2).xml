@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <DM_Enemy xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Name>Rock Mantis</Name>
-  <GameObject_Name>BigMantis</GameObject_Name>
+  <GameObject_Name>Mantis_LakeDistrict_04</GameObject_Name>
   <Unique_ID>2</Unique_ID>
   <Locations_Found>
-    <string>Abrassar:The Slide</string>
+    <string>Antique Plateau:Antique Plateau</string>
   </Locations_Found>
   <Max_Health>350</Max_Health>
   <Health_Regen_Per_Second>0</Health_Regen_Per_Second>
@@ -49,7 +49,7 @@
     <string>MantisHide (8300040)</string>
     <string>MantisUnhide (8300041)</string>
   </Skill_Knowledge>
-  <Faction>Hounds</Faction>
+  <Faction>Golden</Faction>
   <Allied_To_Same_Faction>true</Allied_To_Same_Faction>
   <Guaranteed_Drops />
   <DropTable_Names>

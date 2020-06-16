@@ -22,6 +22,9 @@
     <string>Helmet</string>
     <string>Equipment</string>
     <string>Item</string>
+    <string>Pathfinder</string>
+    <string>Family</string>
+    <string>Ash</string>
   </Tags>
   <StatsHolder xsi:type="DM_EquipmentStats">
     <BaseValue>250</BaseValue>

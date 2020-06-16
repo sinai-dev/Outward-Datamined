@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DM_Recipe xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Name>Grilled Nightmare Mushroom</Name>
+  <RecipeID>355</RecipeID>
+  <UID />
+  <StationType>Cooking</StationType>
+  <Ingredients>
+    <string>Nightmare Mushroom</string>
+  </Ingredients>
+  <Results>
+    <ItemQty>
+      <ItemName>Grilled Nightmare Mushroom</ItemName>
+      <ItemID>4100650</ItemID>
+      <Quantity>1</Quantity>
+    </ItemQty>
+  </Results>
+</DM_Recipe>

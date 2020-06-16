@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DM_Enemy xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Name>Jade Lich</Name>
+  <GameObject_Name>TitanGolemHammer</GameObject_Name>
+  <Unique_ID>2</Unique_ID>
+  <Locations_Found>
+    <string>Antique Plateau:Ruined Warehouse</string>
+  </Locations_Found>
+  <Max_Health>1100</Max_Health>
+  <Health_Regen_Per_Second>0</Health_Regen_Per_Second>
+  <Impact_Resistance>75</Impact_Resistance>
+  <Protection>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+  </Protection>
+  <Damage_Resistances>
+    <float>60</float>
+    <float>40</float>
+    <float>40</float>
+    <float>40</float>
+    <float>40</float>
+    <float>40</float>
+  </Damage_Resistances>
+  <Damage_Bonuses>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+  </Damage_Bonuses>
+  <Collider_Radius>0.7</Collider_Radius>
+  <True_WeaponDamage>
+    <Damages>
+      <Damage>41</Damage>
+      <Damage_Type>Physical</Damage_Type>
+    </Damages>
+  </True_WeaponDamage>
+  <Weapon_Impact>95</Weapon_Impact>
+  <Status_Immunities>
+    <string>Bleeding</string>
+    <string>Poison</string>
+    <string>Burning</string>
+    <string>Confusion</string>
+  </Status_Immunities>
+  <Starting_Equipment>
+    <string>TitanGolemHammer (2400370)</string>
+  </Starting_Equipment>
+  <Skill_Knowledge>
+    <string>TitanGolemHammerBlast (8300440)</string>
+    <string>TitanGolemHammerBlast (8300441)</string>
+    <string>TitanGolemHammerBlast (8300442)</string>
+    <string>TitanGolemHammerBlastRange (8300443)</string>
+    <string>TitanGolemHammerBlastRange (8300444)</string>
+  </Skill_Knowledge>
+  <Faction>Merchants</Faction>
+  <Allied_To_Same_Faction>true</Allied_To_Same_Faction>
+  <Guaranteed_Drops />
+  <DropTable_Names />
+</DM_Enemy>

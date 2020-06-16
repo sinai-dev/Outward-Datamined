@@ -4,7 +4,8 @@
   <saveDir>/Equipment/Weapon/MeleeWeapon</saveDir>
   <ItemID>5110009</ItemID>
   <Name>Wolf Dagger</Name>
-  <Description />
+  <Description>Inflicts Cripple.
+This off-hand weapon requires Dagger Skills to be used.</Description>
   <LegacyItemID>-1</LegacyItemID>
   <IsPickable>true</IsPickable>
   <IsUsable>false</IsUsable>
@@ -25,9 +26,9 @@
     <string>Trinket</string>
   </Tags>
   <StatsHolder xsi:type="DM_WeaponStats">
-    <BaseValue>10</BaseValue>
-    <RawWeight>1</RawWeight>
-    <MaxDurability>100</MaxDurability>
+    <BaseValue>800</BaseValue>
+    <RawWeight>2</RawWeight>
+    <MaxDurability>275</MaxDurability>
     <Damage_Resistance>
       <float>0</float>
       <float>0</float>
@@ -62,25 +63,40 @@
     <AttackSpeed>1</AttackSpeed>
     <BaseDamage>
       <Damages>
-        <Damage>19</Damage>
+        <Damage>35</Damage>
         <Damage_Type>Physical</Damage_Type>
       </Damages>
     </BaseDamage>
-    <Impact>25</Impact>
+    <Impact>33</Impact>
     <StamCost>0</StamCost>
     <AutoGenerateAttackData>false</AutoGenerateAttackData>
     <Attacks>
       <AttackData>
         <StamCost>0</StamCost>
-        <Knockback>25</Knockback>
+        <Knockback>33</Knockback>
         <AttackSpeed>1</AttackSpeed>
         <Damage>
-          <float>19</float>
+          <float>35</float>
         </Damage>
       </AttackData>
     </Attacks>
   </StatsHolder>
-  <EffectTransforms />
+  <EffectTransforms>
+    <DM_EffectTransform>
+      <TransformName>HitEffects</TransformName>
+      <Effects>
+        <DM_Effect xsi:type="DM_AddStatusEffectBuildUp">
+          <Delay>0</Delay>
+          <SyncType>OwnerSync</SyncType>
+          <OverrideCategory>None</OverrideCategory>
+          <StatusEffect>Cripple</StatusEffect>
+          <Buildup>60</Buildup>
+        </DM_Effect>
+      </Effects>
+      <EffectConditions />
+      <ChildEffects />
+    </DM_EffectTransform>
+  </EffectTransforms>
   <EquipSlot>LeftHand</EquipSlot>
   <TwoHandType>None</TwoHandType>
   <IKType>None</IKType>

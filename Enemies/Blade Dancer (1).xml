@@ -1,17 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <DM_Enemy xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Name>Blade Dancer</Name>
-  <GameObject_Name>BladeDancer</GameObject_Name>
+  <GameObject_Name>BoozuProudBeast</GameObject_Name>
   <Unique_ID>1</Unique_ID>
   <Locations_Found>
-    <string>Hallowed Marsh:Hallowed Marsh</string>
-    <string>Hallowed Marsh:Dark Ziggurat Interior</string>
-    <string>Hallowed Marsh:Ziggurat Passage</string>
-    <string>Hallowed Marsh:Abandoned Ziggurat</string>
+    <string>Other:Unknown Arena</string>
   </Locations_Found>
-  <Max_Health>345</Max_Health>
+  <Max_Health>4000</Max_Health>
   <Health_Regen_Per_Second>0</Health_Regen_Per_Second>
-  <Impact_Resistance>40</Impact_Resistance>
+  <Impact_Resistance>80</Impact_Resistance>
   <Protection>
     <float>0</float>
     <float>0</float>
@@ -21,12 +18,12 @@
     <float>0</float>
   </Protection>
   <Damage_Resistances>
-    <float>30</float>
-    <float>-40</float>
+    <float>35</float>
     <float>40</float>
+    <float>0</float>
+    <float>-25</float>
+    <float>25</float>
     <float>-40</float>
-    <float>0</float>
-    <float>0</float>
   </Damage_Resistances>
   <Damage_Bonuses>
     <float>0</float>
@@ -39,29 +36,27 @@
   <Collider_Radius>0.8</Collider_Radius>
   <True_WeaponDamage>
     <Damages>
-      <Damage>14</Damage>
+      <Damage>30</Damage>
       <Damage_Type>Physical</Damage_Type>
     </Damages>
     <Damages>
-      <Damage>14</Damage>
-      <Damage_Type>Decay</Damage_Type>
+      <Damage>15</Damage>
+      <Damage_Type>Ethereal</Damage_Type>
     </Damages>
   </True_WeaponDamage>
-  <Weapon_Impact>83</Weapon_Impact>
-  <Status_Immunities>
-    <string>Poison</string>
-    <string>Bleeding</string>
-  </Status_Immunities>
+  <Weapon_Impact>120</Weapon_Impact>
+  <Status_Immunities />
   <Starting_Equipment>
-    <string>- (2400230)</string>
+    <string>Boozu Proud Beast Horn (2400311)</string>
   </Starting_Equipment>
   <Skill_Knowledge>
-    <string>SideBite (8300150)</string>
+    <string>Boozu ProudBeast Trashing (8300460)</string>
+    <string>Boozu ProudBeast Normal1 (8300461)</string>
+    <string>Boozu ProudBeast Special1 (8300462)</string>
+    <string>Boozu ProudBeast Run Double (8300463)</string>
   </Skill_Knowledge>
   <Faction>Merchants</Faction>
   <Allied_To_Same_Faction>true</Allied_To_Same_Faction>
   <Guaranteed_Drops />
-  <DropTable_Names>
-    <string>DropTable_BladeDancer</string>
-  </DropTable_Names>
+  <DropTable_Names />
 </DM_Enemy>

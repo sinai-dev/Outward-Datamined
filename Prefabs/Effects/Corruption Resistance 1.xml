@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DM_StatusEffect xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <PresetID>587</PresetID>
+  <Identifier>Corruption Resistance 1</Identifier>
+  <Name>Corruption Resistance 1</Name>
+  <Description>Increase Corruption Resistance by [E1V1]%.</Description>
+  <Lifespan>300</Lifespan>
+  <LengthType>Short</LengthType>
+  <RefreshRate>5</RefreshRate>
+  <BuildupRecoverySpeed>3</BuildupRecoverySpeed>
+  <IgnoreBuildupIfApplied>false</IgnoreBuildupIfApplied>
+  <DisplayedInHUD>true</DisplayedInHUD>
+  <IsHidden>false</IsHidden>
+  <Tags />
+  <Effects>
+    <DM_EffectTransform>
+      <TransformName>ActivationEffects</TransformName>
+      <Effects>
+        <DM_Effect xsi:type="DM_AffectStat">
+          <Delay>0</Delay>
+          <SyncType>OwnerSync</SyncType>
+          <OverrideCategory>None</OverrideCategory>
+          <Stat_Tag>CorruptionResistance</Stat_Tag>
+          <AffectQuantity>20</AffectQuantity>
+          <IsModifier>false</IsModifier>
+        </DM_Effect>
+      </Effects>
+      <EffectConditions />
+      <ChildEffects />
+    </DM_EffectTransform>
+  </Effects>
+</DM_StatusEffect>

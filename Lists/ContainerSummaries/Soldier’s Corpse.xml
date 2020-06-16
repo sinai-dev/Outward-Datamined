@@ -4,6 +4,22 @@
   <ItemID>0</ItemID>
   <All_Locations>
     <QuantityHolder>
+      <Name>Antique Plateau:Ruined Warehouse</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Antique Plateau:Crumbling Loading Docks</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Antique Plateau:Compromised Mana Transfer Station</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Antique Plateau:Wendigo Lair</Name>
+      <Quantity>2</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
       <Name>Chersonese:Chersonese</Name>
       <Quantity>1</Quantity>
     </QuantityHolder>
@@ -33,6 +49,71 @@
     </QuantityHolder>
   </All_Locations>
   <DropTables>
+    <DroptableSummary>
+      <DropTableName>DropTable_AntiqueField_Food_1</DropTableName>
+      <Locations>
+        <string>Ruined Warehouse</string>
+        <string>Crumbling Loading Docks</string>
+        <string>Wendigo Lair</string>
+      </Locations>
+    </DroptableSummary>
+    <DroptableSummary>
+      <DropTableName>DropTable_Neutral_Consumable_Low_2</DropTableName>
+      <Locations>
+        <string>Ruined Warehouse</string>
+        <string>Crumbling Loading Docks</string>
+        <string>Compromised Mana Transfer Station</string>
+        <string>Wendigo Lair</string>
+        <string>Hallowed Marsh</string>
+        <string>Dead Roots</string>
+        <string>Forest Hives</string>
+      </Locations>
+    </DroptableSummary>
+    <DroptableSummary>
+      <DropTableName>DropTable_AntiqueField_Recipe_Weapon_1</DropTableName>
+      <Locations>
+        <string>Ruined Warehouse</string>
+        <string>Crumbling Loading Docks</string>
+        <string>Wendigo Lair</string>
+      </Locations>
+    </DroptableSummary>
+    <DroptableSummary>
+      <DropTableName>DropTable_AntiqueField_Recipe_Enchantment_1</DropTableName>
+      <Locations>
+        <string>Ruined Warehouse</string>
+        <string>Crumbling Loading Docks</string>
+        <string>Compromised Mana Transfer Station</string>
+      </Locations>
+    </DroptableSummary>
+    <DroptableSummary>
+      <DropTableName>DropTable_Neutral_Food_1</DropTableName>
+      <Locations>
+        <string>Compromised Mana Transfer Station</string>
+        <string>Wendigo Lair</string>
+        <string>Hallowed Marsh</string>
+        <string>Dead Roots</string>
+        <string>Ancient Hive</string>
+      </Locations>
+    </DroptableSummary>
+    <DroptableSummary>
+      <DropTableName>DropTable_Neutral_StandardRecipe_High_1</DropTableName>
+      <Locations>
+        <string>Compromised Mana Transfer Station</string>
+        <string>Heroic Kingdom’s Conflux Path</string>
+      </Locations>
+    </DroptableSummary>
+    <DroptableSummary>
+      <DropTableName>DropTable_AntiqueField_Recipe_Basic_1</DropTableName>
+      <Locations>
+        <string>Wendigo Lair</string>
+      </Locations>
+    </DroptableSummary>
+    <DroptableSummary>
+      <DropTableName>DropTable_AntiqueField_Equipment_Low_1</DropTableName>
+      <Locations>
+        <string>Wendigo Lair</string>
+      </Locations>
+    </DroptableSummary>
     <DroptableSummary>
       <DropTableName>DropTable_Chersonese_Equipment_Low_1</DropTableName>
       <Locations>
@@ -102,31 +183,9 @@
       </Locations>
     </DroptableSummary>
     <DroptableSummary>
-      <DropTableName>DropTable_Neutral_StandardRecipe_High_1</DropTableName>
-      <Locations>
-        <string>Heroic Kingdom’s Conflux Path</string>
-      </Locations>
-    </DroptableSummary>
-    <DroptableSummary>
       <DropTableName>DropTable_HallowedMarsh_Food_1</DropTableName>
       <Locations>
         <string>Hallowed Marsh</string>
-      </Locations>
-    </DroptableSummary>
-    <DroptableSummary>
-      <DropTableName>DropTable_Neutral_Food_1</DropTableName>
-      <Locations>
-        <string>Hallowed Marsh</string>
-        <string>Dead Roots</string>
-        <string>Ancient Hive</string>
-      </Locations>
-    </DroptableSummary>
-    <DroptableSummary>
-      <DropTableName>DropTable_Neutral_Consumable_Low_2</DropTableName>
-      <Locations>
-        <string>Hallowed Marsh</string>
-        <string>Dead Roots</string>
-        <string>Forest Hives</string>
       </Locations>
     </DroptableSummary>
     <DroptableSummary>

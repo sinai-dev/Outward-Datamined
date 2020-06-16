@@ -58,15 +58,7 @@ Create a magic circle on the ground. Certain skills have additional effects when
           <TransformName>WindAltarAtivatedInRegion</TransformName>
           <Effects />
           <EffectConditions>
-            <DM_EffectCondition xsi:type="DM_QuestEventAreaCondition">
-              <Invert>false</Invert>
-              <EventUIDs>
-                <string>WBC6bMdYfU-Thg0SFDsESA</string>
-                <string>9MwTJ8U_LkGxh4ac06-Y-Q</string>
-                <string>XeAaNghBlE-RjQhbc2obKA</string>
-                <string>qjv74cVfy0GiHM-dT3arvw</string>
-              </EventUIDs>
-            </DM_EffectCondition>
+            <DM_EffectCondition xsi:nil="true" />
           </EffectConditions>
           <ChildEffects />
         </DM_EffectTransform>

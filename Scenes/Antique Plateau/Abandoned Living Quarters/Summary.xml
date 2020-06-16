@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SceneSummary xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SceneName>Abandoned Living Quarters</SceneName>
+  <Enemies>
+    <QuantityHolder>
+      <Name>Armored Troglodyte (1)</Name>
+      <Quantity>4</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Troglodyte Knight (1)</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Mana Troglodyte (1)</Name>
+      <Quantity>2</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Troglodyte Grenadier (1)</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Kazite Bandit (1)</Name>
+      <Quantity>3</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Kazite Archer (3)</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Troglodyte Grenadier (2)</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Kazite Lieutenant (2)</Name>
+      <Quantity>3</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Troglodyte Knight (2)</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Troglodyte Knight (3)</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Troglodyte (1)</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Troglodyte Knight (4)</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Kazite Bandit (2)</Name>
+      <Quantity>2</Quantity>
+    </QuantityHolder>
+  </Enemies>
+  <Merchants>
+    <string>Pholiota (1FtDDHEvok2lDbuqYPjSbg)</string>
+    <string>Pholiota (ZApQcSYEbkSgOkyRCsdEYA)</string>
+  </Merchants>
+  <Loot_Containers>
+    <QuantityHolder>
+      <Name>Looter’s Corpse</Name>
+      <Quantity>4</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Chest</Name>
+      <Quantity>3</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Junk Pile</Name>
+      <Quantity>8</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Scavenger’s Corpse</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Trog Chest</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+  </Loot_Containers>
+  <Gatherables>
+    <QuantityHolder>
+      <Name>Dreamer’s Root</Name>
+      <Quantity>2</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Green Mushroom</Name>
+      <Quantity>8</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Star Mushroom</Name>
+      <Quantity>2</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Iron vein</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Krimp</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Blood Mushroom</Name>
+      <Quantity>3</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Ghost Plant</Name>
+      <Quantity>2</Quantity>
+    </QuantityHolder>
+  </Gatherables>
+  <Item_Spawns>
+    <DM_ItemSpawn>
+      <Name>Campfire</Name>
+      <Item_ID>5000100</Item_ID>
+      <Quantity>3</Quantity>
+      <positions>
+        <Vector3>
+          <x>-107.68</x>
+          <y>-10</y>
+          <z>57.33</z>
+        </Vector3>
+        <Vector3>
+          <x>-80</x>
+          <y>-9.765</y>
+          <z>-34.01</z>
+        </Vector3>
+        <Vector3>
+          <x>0.594459534</x>
+          <y>0.307340622</y>
+          <z>13.2473526</z>
+        </Vector3>
+      </positions>
+    </DM_ItemSpawn>
+    <DM_ItemSpawn>
+      <Name>Train Key B</Name>
+      <Item_ID>5600080</Item_ID>
+      <Quantity>1</Quantity>
+      <positions>
+        <Vector3>
+          <x>-77.616</x>
+          <y>-9.957</y>
+          <z>88.003</z>
+        </Vector3>
+      </positions>
+    </DM_ItemSpawn>
+  </Item_Spawns>
+  <UniqueContainerList>
+    <string>Looter’s Corpse_0dkMjoaPF0285Jhym-cPow</string>
+    <string>Chest_G46GdeZOp0apwlvnh2Drwg</string>
+    <string>Junk Pile_g1iTSKWG8UeTW4it12FPLg</string>
+    <string>Looter’s Corpse_pymPMYydxkeGAXIoQWxhyA</string>
+    <string>Junk Pile_zXUBBHCjUka5DvvmBkccJQ</string>
+    <string>Chest_pDiunkBYUEmwDI4BP44lTg</string>
+    <string>Chest_EGCgpHTQZkmVcpXQ2uJ-Xw</string>
+    <string>Looter’s Corpse_4t1zzcpwFEuEKVKahGOkcA</string>
+    <string>Junk Pile_8cgLyv75N0a5exjw7ojiow</string>
+    <string>Junk Pile_85S4DBV4w0OGN2M4K_Nvww</string>
+    <string>Junk Pile_KLOL6HqeD0C22wEK5dfi_Q</string>
+    <string>Scavenger’s Corpse_stGP7SkirkecN3P4x-qcTQ</string>
+    <string>Junk Pile_wTe_QTAt50i6GKj7W-Rwyw</string>
+    <string>Junk Pile_YAFswiPORUuwU5v8H25wWw</string>
+    <string>Trog Chest_y1B4ouC770-7kBHvRtYg2w</string>
+    <string>Looter’s Corpse_VFpcdhqorUGj6v1c2l0SWQ</string>
+    <string>Junk Pile_8MZPKR4VR0qVhtu3IYf8HQ</string>
+  </UniqueContainerList>
+</SceneSummary>

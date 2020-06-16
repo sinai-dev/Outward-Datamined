@@ -2,8 +2,8 @@
 <DM_StatusEffect xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <PresetID>1005</PresetID>
   <Identifier>Defiled Negative</Identifier>
-  <Name>StatusEffect_Corruption_DefiledName</Name>
-  <Description>StatusEffect_Corruption_DefiledNegativeDesc</Description>
+  <Name>Defiled</Name>
+  <Description>Hunger rate +[E2V1]%. Physical and Impact Resistance [E5V1]%. Lightning Resistance and Damage [E1V1]%. Attack Speed [E4V1]%. </Description>
   <Lifespan>-1</Lifespan>
   <LengthType>Short</LengthType>
   <RefreshRate>1</RefreshRate>
@@ -125,17 +125,18 @@
           <EffectConditions>
             <DM_EffectCondition xsi:type="DM_ProbabilityCondition">
               <Invert>false</Invert>
-              <ChancePercent>100</ChancePercent>
+              <ChancePercent>30</ChancePercent>
             </DM_EffectCondition>
             <DM_EffectCondition xsi:type="DM_TimeDelayCondition">
               <Invert>false</Invert>
               <DelayRange>
-                <x>10</x>
-                <y>20</y>
+                <x>240</x>
+                <y>300</y>
               </DelayRange>
               <TimeFormat>Seconds</TimeFormat>
               <IgnoreFirstCheck>true</IgnoreFirstCheck>
             </DM_EffectCondition>
+            <DM_EffectCondition xsi:nil="true" />
           </EffectConditions>
           <ChildEffects />
         </DM_EffectTransform>

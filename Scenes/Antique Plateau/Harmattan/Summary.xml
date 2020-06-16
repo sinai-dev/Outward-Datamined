@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SceneSummary xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SceneName>Harmattan</SceneName>
+  <Enemies />
+  <Merchants>
+    <string>Soroborean Caravanner (WN0BVRJwtE-goNLvproxgw)</string>
+    <string>Robyn Garnet, Alchemist (3qimTq1wT0ykxJ45zP4EnQ)</string>
+    <string>Robyn Garnet, Alchemist (YMvgNzX7JEG6PnQdK1Z-Dg)</string>
+    <string>Cera Carillion, Weaponsmith (S2xTSwGaa0KCMaKFJ-57QA)</string>
+    <string>David Parks, Craftsman (cj2nLjbWIUumV4-JgH9x5Q)</string>
+    <string>Ibolya Battleborn, Chef (YPcNrGC_o060vE8TZaCq7A)</string>
+    <string>Ibolya Battleborn, Chef (xlkX6BDg7kumwrn4tBJODA)</string>
+    <string>Lawrence Dakers, Hunter (i55dlUkx-Eqz9tpYmtRiyQ)</string>
+    <string>David Parks, Craftsman (MGQFz1eHf0C0MTf7AnEBmg)</string>
+    <string>Bradley Auteil, Armory (C1sEe23suUqoSTXAMvfZWg)</string>
+    <string>Lawrence Dakers, Hunter (PMWNwz0r30SMRb-kx3WavA)</string>
+    <string>Bradley Auteil, Armory (V469LlVthUejkfpzEOSCyQ)</string>
+    <string>Cera Carillion, Weaponsmith (tqKX9nPbE0KljbVM6lkbKw)</string>
+    <string>Felix Jimson, Shopkeeper (L6BrQy5mF0uaMWE0FEpiVg)</string>
+    <string>Pelletier Baker, Chef (Elc5BIFbGk2iT7q3_8UhFw)</string>
+    <string>Howard Brock, Blacksmith (Zdg-qTDRa0-qOzzNSbtvzg)</string>
+    <string>Ryan Sullivan, Arcanist (fIub2lj7lkqiKMr3VPia6Q)</string>
+  </Merchants>
+  <Loot_Containers>
+    <QuantityHolder>
+      <Name>Stash</Name>
+      <Quantity>2</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Chest</Name>
+      <Quantity>5</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Junk Pile</Name>
+      <Quantity>8</Quantity>
+    </QuantityHolder>
+  </Loot_Containers>
+  <Gatherables>
+    <QuantityHolder>
+      <Name>Wood</Name>
+      <Quantity>3</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Crawlberry</Name>
+      <Quantity>4</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Purpkin</Name>
+      <Quantity>2</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Wheat</Name>
+      <Quantity>5</Quantity>
+    </QuantityHolder>
+  </Gatherables>
+  <Item_Spawns>
+    <DM_ItemSpawn>
+      <Name>Flour</Name>
+      <Item_ID>4100690</Item_ID>
+      <Quantity>2</Quantity>
+      <positions>
+        <Vector3>
+          <x>-373.5511</x>
+          <y>-1510.846</y>
+          <z>782.3127</z>
+        </Vector3>
+        <Vector3>
+          <x>-373.809326</x>
+          <y>-1510.84558</y>
+          <z>782.2122</z>
+        </Vector3>
+      </positions>
+    </DM_ItemSpawn>
+    <DM_ItemSpawn>
+      <Name>Dark Stone</Name>
+      <Item_ID>6500031</Item_ID>
+      <Quantity>2</Quantity>
+      <positions>
+        <Vector3>
+          <x>-384.334869</x>
+          <y>-1516.97034</y>
+          <z>778.3318</z>
+        </Vector3>
+        <Vector3>
+          <x>-384.8366</x>
+          <y>-1516.97839</y>
+          <z>778.8583</z>
+        </Vector3>
+      </positions>
+    </DM_ItemSpawn>
+    <DM_ItemSpawn>
+      <Name>Boozu’s Milk</Name>
+      <Item_ID>4000380</Item_ID>
+      <Quantity>5</Quantity>
+      <positions>
+        <Vector3>
+          <x>-371.3876</x>
+          <y>-1510.6095</y>
+          <z>789.85675</z>
+        </Vector3>
+        <Vector3>
+          <x>-371.552277</x>
+          <y>-1510.60779</y>
+          <z>790.0656</z>
+        </Vector3>
+        <Vector3>
+          <x>-371.199646</x>
+          <y>-1510.61047</y>
+          <z>789.820251</z>
+        </Vector3>
+        <Vector3>
+          <x>-371.583527</x>
+          <y>-1510.6062</y>
+          <z>790.3071</z>
+        </Vector3>
+        <Vector3>
+          <x>-371.217957</x>
+          <y>-1510.61145</y>
+          <z>789.6416</z>
+        </Vector3>
+      </positions>
+    </DM_ItemSpawn>
+    <DM_ItemSpawn>
+      <Name>Pitchfork</Name>
+      <Item_ID>2130040</Item_ID>
+      <Quantity>1</Quantity>
+      <positions>
+        <Vector3>
+          <x>61.412</x>
+          <y>80.49583</y>
+          <z>918.128</z>
+        </Vector3>
+      </positions>
+    </DM_ItemSpawn>
+    <DM_ItemSpawn>
+      <Name>Wheat</Name>
+      <Item_ID>6600010</Item_ID>
+      <Quantity>3</Quantity>
+      <positions>
+        <Vector3>
+          <x>-374.288818</x>
+          <y>-1510.87183</y>
+          <z>781.6688</z>
+        </Vector3>
+        <Vector3>
+          <x>-374.001038</x>
+          <y>-1510.872</y>
+          <z>781.83844</z>
+        </Vector3>
+        <Vector3>
+          <x>-373.906281</x>
+          <y>-1510.8728</y>
+          <z>781.92334</z>
+        </Vector3>
+      </positions>
+    </DM_ItemSpawn>
+    <DM_ItemSpawn>
+      <Name>Sugar</Name>
+      <Item_ID>6600011</Item_ID>
+      <Quantity>4</Quantity>
+      <positions>
+        <Vector3>
+          <x>-370.815948</x>
+          <y>-1510.61389</y>
+          <z>789.133362</z>
+        </Vector3>
+        <Vector3>
+          <x>-370.550476</x>
+          <y>-1510.61621</y>
+          <z>788.8855</z>
+        </Vector3>
+        <Vector3>
+          <x>-371.016144</x>
+          <y>-1510.61133</y>
+          <z>789.4454</z>
+        </Vector3>
+        <Vector3>
+          <x>-370.682068</x>
+          <y>-1510.61511</y>
+          <z>789.007141</z>
+        </Vector3>
+      </positions>
+    </DM_ItemSpawn>
+    <DM_ItemSpawn>
+      <Name>Rondel Dagger</Name>
+      <Item_ID>5110000</Item_ID>
+      <Quantity>1</Quantity>
+      <positions>
+        <Vector3>
+          <x>24.0699</x>
+          <y>69.4553</y>
+          <z>795.6782</z>
+        </Vector3>
+      </positions>
+    </DM_ItemSpawn>
+    <DM_ItemSpawn>
+      <Name>Pure Chitin</Name>
+      <Item_ID>6600122</Item_ID>
+      <Quantity>1</Quantity>
+      <positions>
+        <Vector3>
+          <x>-384.586334</x>
+          <y>-1516.84937</y>
+          <z>778.3324</z>
+        </Vector3>
+      </positions>
+    </DM_ItemSpawn>
+    <DM_ItemSpawn>
+      <Name>Bed</Name>
+      <Item_ID>5000002</Item_ID>
+      <Quantity>19</Quantity>
+      <positions>
+        <Vector3>
+          <x>-178.057175</x>
+          <y>-1517.58008</y>
+          <z>592.581848</z>
+        </Vector3>
+        <Vector3>
+          <x>-389.0152</x>
+          <y>-1506.5011</y>
+          <z>590.6378</z>
+        </Vector3>
+        <Vector3>
+          <x>-173.887177</x>
+          <y>-1517.58008</y>
+          <z>600.851868</z>
+        </Vector3>
+        <Vector3>
+          <x>-171.057175</x>
+          <y>-1517.58008</y>
+          <z>595.721863</z>
+        </Vector3>
+        <Vector3>
+          <x>-173.03717</x>
+          <y>-1517.58008</y>
+          <z>608.5289</z>
+        </Vector3>
+        <Vector3>
+          <x>-177.777176</x>
+          <y>-1517.58008</y>
+          <z>603.690857</z>
+        </Vector3>
+        <Vector3>
+          <x>-177.707184</x>
+          <y>-1517.58008</y>
+          <z>600.851868</z>
+        </Vector3>
+        <Vector3>
+          <x>-401.277161</x>
+          <y>-1506.5011</y>
+          <z>586.851868</z>
+        </Vector3>
+        <Vector3>
+          <x>-175.147171</x>
+          <y>-1517.58008</y>
+          <z>592.581848</z>
+        </Vector3>
+        <Vector3>
+          <x>-392.8172</x>
+          <y>-1506.5011</y>
+          <z>590.1119</z>
+        </Vector3>
+        <Vector3>
+          <x>-179.294174</x>
+          <y>-1517.58008</y>
+          <z>608.6329</z>
+        </Vector3>
+        <Vector3>
+          <x>-171.057175</x>
+          <y>-1517.58008</y>
+          <z>592.878845</z>
+        </Vector3>
+        <Vector3>
+          <x>-381.282166</x>
+          <y>-1506.5011</y>
+          <z>585.438843</z>
+        </Vector3>
+        <Vector3>
+          <x>-172.810181</x>
+          <y>-1517.58008</y>
+          <z>603.690857</z>
+        </Vector3>
+        <Vector3>
+          <x>-176.060181</x>
+          <y>-1517.58008</y>
+          <z>608.6329</z>
+        </Vector3>
+        <Vector3>
+          <x>-396.170166</x>
+          <y>-1506.5011</y>
+          <z>588.0549</z>
+        </Vector3>
+        <Vector3>
+          <x>-381.673157</x>
+          <y>-1506.5011</y>
+          <z>590.2808</z>
+        </Vector3>
+        <Vector3>
+          <x>-171.057175</x>
+          <y>-1517.58008</y>
+          <z>598.5098</z>
+        </Vector3>
+        <Vector3>
+          <x>-175.918182</x>
+          <y>-1517.58008</y>
+          <z>603.690857</z>
+        </Vector3>
+      </positions>
+    </DM_ItemSpawn>
+    <DM_ItemSpawn>
+      <Name>Bed</Name>
+      <Item_ID>5000001</Item_ID>
+      <Quantity>2</Quantity>
+      <positions>
+        <Vector3>
+          <x>-371.5236</x>
+          <y>-1517.93262</y>
+          <z>790.8523</z>
+        </Vector3>
+        <Vector3>
+          <x>-369.1226</x>
+          <y>-1517.93225</y>
+          <z>787.408264</z>
+        </Vector3>
+      </positions>
+    </DM_ItemSpawn>
+  </Item_Spawns>
+  <UniqueContainerList>
+    <string>Stash_ImqRiGAT80aE2WtUHfdcMw</string>
+    <string>Chest_s9Eie4JWY0GPcffk7pV9Kw</string>
+    <string>Junk Pile_102gSeuru0e4okceq-2kIw</string>
+    <string>Chest_M4rQP4nIUECyklTUIgRXig</string>
+    <string>Junk Pile_oDB2glaLyk2x24m9q3Nv5A</string>
+    <string>Chest_AFrYXgsTR0KQ4aRElKkvgQ</string>
+    <string>Chest_u-iCcY3a_0aOmU5JdE5dow</string>
+    <string>Junk Pile_kKQg6foZqESlIB-Zb637Nw</string>
+    <string>Junk Pile_SqJtonHbNUSMErWSRjL2pw</string>
+    <string>Junk Pile_uR8kXLLJvk6qkzm3uvPoqA</string>
+    <string>Junk Pile_3qHa16SM4ESjORR1eHvL6A</string>
+    <string>Junk Pile_UHj9kRYotEOKZYUKlPhvnw</string>
+    <string>Junk Pile_sdU3xGgf_k6GEqYu6lHt_g</string>
+  </UniqueContainerList>
+</SceneSummary>

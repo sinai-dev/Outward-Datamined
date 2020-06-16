@@ -3,7 +3,7 @@
   <SceneName>Cabal of Wind Outpost</SceneName>
   <Enemies>
     <QuantityHolder>
-      <Name>Shell Horror (1)</Name>
+      <Name>Shell Horror (4)</Name>
       <Quantity>1</Quantity>
     </QuantityHolder>
   </Enemies>

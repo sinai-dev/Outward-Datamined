@@ -4,6 +4,7 @@
   <GameObject_Name>NewBanditEquip_StandardLieutenant1_D</GameObject_Name>
   <Unique_ID>1</Unique_ID>
   <Locations_Found>
+    <string>Antique Plateau:Antique Plateau</string>
     <string>Chersonese:Chersonese</string>
     <string>Chersonese:Montcalm Clan Fort</string>
     <string>Enmerkar Forest:Ancestor’s Resting Place</string>

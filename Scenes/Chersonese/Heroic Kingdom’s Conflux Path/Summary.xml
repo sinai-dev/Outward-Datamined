@@ -3,11 +3,11 @@
   <SceneName>Heroic Kingdom’s Conflux Path</SceneName>
   <Enemies>
     <QuantityHolder>
-      <Name>Mana Mantis (1)</Name>
+      <Name>Mana Mantis (4)</Name>
       <Quantity>2</Quantity>
     </QuantityHolder>
     <QuantityHolder>
-      <Name>Troglodyte Grenadier (1)</Name>
+      <Name>Troglodyte Grenadier (3)</Name>
       <Quantity>2</Quantity>
     </QuantityHolder>
     <QuantityHolder>
@@ -31,7 +31,7 @@
       <Quantity>1</Quantity>
     </QuantityHolder>
     <QuantityHolder>
-      <Name>Sword Golem (1)</Name>
+      <Name>Sword Golem (5)</Name>
       <Quantity>1</Quantity>
     </QuantityHolder>
   </Enemies>

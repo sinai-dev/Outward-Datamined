@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DM_Enemy xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Name>Boozu</Name>
+  <GameObject_Name>Boozu</GameObject_Name>
+  <Unique_ID>6</Unique_ID>
+  <Locations_Found>
+    <string>Antique Plateau:Antique Plateau</string>
+  </Locations_Found>
+  <Max_Health>345</Max_Health>
+  <Health_Regen_Per_Second>0</Health_Regen_Per_Second>
+  <Impact_Resistance>40</Impact_Resistance>
+  <Protection>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+  </Protection>
+  <Damage_Resistances>
+    <float>30</float>
+    <float>-20</float>
+    <float>40</float>
+    <float>-20</float>
+    <float>25</float>
+    <float>-40</float>
+  </Damage_Resistances>
+  <Damage_Bonuses>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+  </Damage_Bonuses>
+  <Collider_Radius>0.8</Collider_Radius>
+  <True_WeaponDamage>
+    <Damages>
+      <Damage>31</Damage>
+      <Damage_Type>Physical</Damage_Type>
+    </Damages>
+  </True_WeaponDamage>
+  <Weapon_Impact>86</Weapon_Impact>
+  <Status_Immunities>
+    <string>Poison</string>
+    <string>Bleeding</string>
+  </Status_Immunities>
+  <Starting_Equipment>
+    <string>Boozu Horn (2400310)</string>
+  </Starting_Equipment>
+  <Skill_Knowledge>
+    <string>Boozu Trashing (8300320)</string>
+    <string>Boozu threaten (8300321)</string>
+  </Skill_Knowledge>
+  <Faction>Deer</Faction>
+  <Allied_To_Same_Faction>true</Allied_To_Same_Faction>
+  <Guaranteed_Drops />
+  <DropTable_Names>
+    <string>DropTable_Boozu_DLC1</string>
+  </DropTable_Names>
+</DM_Enemy>

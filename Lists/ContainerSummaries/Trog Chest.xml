@@ -4,6 +4,18 @@
   <ItemID>0</ItemID>
   <All_Locations>
     <QuantityHolder>
+      <Name>Antique Plateau:Abandoned Living Quarters</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Antique Plateau:Destroyed Test Chambers</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Antique Plateau:Troglodyte Warren</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
       <Name>Chersonese:Blister Burrow</Name>
       <Quantity>1</Quantity>
     </QuantityHolder>
@@ -32,6 +44,9 @@
     <DroptableSummary>
       <DropTableName>DropTable_Neutral_Troglodyte_2</DropTableName>
       <Locations>
+        <string>Abandoned Living Quarters</string>
+        <string>Destroyed Test Chambers</string>
+        <string>Troglodyte Warren</string>
         <string>Blister Burrow</string>
         <string>Blue Chamber’s Conflux Path</string>
         <string>Trog Infiltration</string>
@@ -41,23 +56,34 @@
       </Locations>
     </DroptableSummary>
     <DroptableSummary>
-      <DropTableName>DropTable_Chersonese_Equipment_Low_1</DropTableName>
+      <DropTableName>DropTable_Neutral_Survival_Medium_1</DropTableName>
       <Locations>
-        <string>Blister Burrow</string>
+        <string>Abandoned Living Quarters</string>
+        <string>Blue Chamber’s Conflux Path</string>
       </Locations>
     </DroptableSummary>
     <DroptableSummary>
       <DropTableName>DropTable_Neutral_StandardRecipe_Low_1</DropTableName>
       <Locations>
+        <string>Abandoned Living Quarters</string>
+        <string>Destroyed Test Chambers</string>
+        <string>Troglodyte Warren</string>
         <string>Blister Burrow</string>
         <string>Trog Infiltration</string>
         <string>Under Island</string>
       </Locations>
     </DroptableSummary>
     <DroptableSummary>
-      <DropTableName>DropTable_Neutral_Survival_Medium_1</DropTableName>
+      <DropTableName>DropTable_AntiqueField_Recipe_Enchantment_1</DropTableName>
       <Locations>
-        <string>Blue Chamber’s Conflux Path</string>
+        <string>Abandoned Living Quarters</string>
+        <string>Destroyed Test Chambers</string>
+      </Locations>
+    </DroptableSummary>
+    <DroptableSummary>
+      <DropTableName>DropTable_Chersonese_Equipment_Low_1</DropTableName>
+      <Locations>
+        <string>Blister Burrow</string>
       </Locations>
     </DroptableSummary>
     <DroptableSummary>

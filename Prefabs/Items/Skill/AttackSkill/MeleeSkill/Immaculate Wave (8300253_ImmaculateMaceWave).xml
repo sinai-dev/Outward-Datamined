@@ -135,8 +135,6 @@
           <YMagnitudeForce>0</YMagnitudeForce>
           <DefenseLength>0</DefenseLength>
           <DefenseRange>6</DefenseRange>
-          <PhysicsLayerMask>4198400</PhysicsLayerMask>
-          <OnlyExplodeOnLayerMask>true</OnlyExplodeOnLayerMask>
           <ImpactSoundMaterial>Metal_Sharp</ImpactSoundMaterial>
           <LightIntensityFade>
             <x>10</x>
@@ -166,6 +164,13 @@
                   <Damages_AI />
                   <Knockback>80</Knockback>
                   <HitInventory>true</HitInventory>
+                </DM_Effect>
+                <DM_Effect xsi:type="DM_AffectCorruption">
+                  <Delay>0</Delay>
+                  <SyncType>OwnerSync</SyncType>
+                  <OverrideCategory>None</OverrideCategory>
+                  <AffectQuantity>7</AffectQuantity>
+                  <IsRaw>false</IsRaw>
                 </DM_Effect>
               </Effects>
               <EffectConditions />

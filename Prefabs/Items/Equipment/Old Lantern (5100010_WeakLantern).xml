@@ -25,6 +25,7 @@
     <string>Item</string>
     <string>PressurePlateTrapComponent</string>
     <string>DecraftIron_Small</string>
+    <string>Decraft</string>
   </Tags>
   <StatsHolder xsi:type="DM_EquipmentStats">
     <BaseValue>15</BaseValue>

@@ -24,6 +24,9 @@
     <string>Item</string>
     <string>Bludgeon</string>
     <string>DecraftPalladium_Large</string>
+    <string>Decraft</string>
+    <string>Palladium</string>
+    <string>Family</string>
   </Tags>
   <StatsHolder xsi:type="DM_WeaponStats">
     <BaseValue>1000</BaseValue>

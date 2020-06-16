@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DM_Skill xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <gameObjectName>8200033_BloodSigil</gameObjectName>
+  <saveDir>/Skill</saveDir>
+  <ItemID>8200033</ItemID>
+  <Name>Blood Sigil</Name>
+  <Description>Requires Dark Stone and increases Corruption by 5%, Creates a Blood Sigil.</Description>
+  <LegacyItemID>-1</LegacyItemID>
+  <IsPickable>false</IsPickable>
+  <IsUsable>false</IsUsable>
+  <QtyRemovedOnUse>1</QtyRemovedOnUse>
+  <GroupItemInDisplay>false</GroupItemInDisplay>
+  <HasPhysicsWhenWorld>false</HasPhysicsWhenWorld>
+  <RepairedInRest>true</RepairedInRest>
+  <BehaviorOnNoDurability>NotSet</BehaviorOnNoDurability>
+  <CastType>CastFireStone</CastType>
+  <CastModifier>Immobilized</CastModifier>
+  <CastLocomotionEnabled>false</CastLocomotionEnabled>
+  <MobileCastMovementMult>-1</MobileCastMovementMult>
+  <CastSheatheRequired>1</CastSheatheRequired>
+  <Tags />
+  <EffectTransforms>
+    <DM_EffectTransform>
+      <TransformName>Effects</TransformName>
+      <Effects>
+        <DM_Effect xsi:type="DM_Summon">
+          <Delay>0</Delay>
+          <SyncType>OwnerSync</SyncType>
+          <OverrideCategory>None</OverrideCategory>
+          <Prefab>8000011</Prefab>
+          <SummonPrefabType>Item</SummonPrefabType>
+          <BufferSize>1</BufferSize>
+          <LimitOfOne>false</LimitOfOne>
+          <SummonMode>CreateNew</SummonMode>
+          <PositionType>InFrontOfTarget</PositionType>
+          <MinDistance>0</MinDistance>
+          <MaxDistance>0.2</MaxDistance>
+          <SameDirectionAsSummoner>true</SameDirectionAsSummoner>
+          <SummonLocalForward>
+            <x>0</x>
+            <y>0</y>
+            <z>0</z>
+          </SummonLocalForward>
+          <IgnoreOnDestroy>false</IgnoreOnDestroy>
+        </DM_Effect>
+        <DM_Effect xsi:type="DM_AffectCorruption">
+          <Delay>0</Delay>
+          <SyncType>OwnerSync</SyncType>
+          <OverrideCategory>None</OverrideCategory>
+          <AffectQuantity>20</AffectQuantity>
+          <IsRaw>false</IsRaw>
+        </DM_Effect>
+      </Effects>
+      <EffectConditions />
+      <ChildEffects />
+    </DM_EffectTransform>
+    <DM_EffectTransform>
+      <TransformName>ActivationEffects</TransformName>
+      <Effects>
+        <DM_Effect xsi:type="DM_PlaySoundEffect">
+          <Delay>0</Delay>
+          <SyncType>OwnerSync</SyncType>
+          <OverrideCategory>None</OverrideCategory>
+          <Sounds>
+            <Sounds>SFX_SKILL_FireSigile_Preparation</Sounds>
+          </Sounds>
+          <Follow>false</Follow>
+          <MinPitch>1</MinPitch>
+          <MaxPitch>1</MaxPitch>
+        </DM_Effect>
+        <DM_Effect xsi:type="DM_PlaySoundEffect">
+          <Delay>1.5</Delay>
+          <SyncType>OwnerSync</SyncType>
+          <OverrideCategory>None</OverrideCategory>
+          <Sounds>
+            <Sounds>SFX_SKILL_FireSigile_Release</Sounds>
+          </Sounds>
+          <Follow>false</Follow>
+          <MinPitch>1</MinPitch>
+          <MaxPitch>1</MaxPitch>
+        </DM_Effect>
+      </Effects>
+      <EffectConditions />
+      <ChildEffects />
+    </DM_EffectTransform>
+  </EffectTransforms>
+  <Cooldown>0</Cooldown>
+  <StaminaCost>0</StaminaCost>
+  <ManaCost>7</ManaCost>
+  <DurabilityCost>0</DurabilityCost>
+  <DurabilityCostPercent>0</DurabilityCostPercent>
+  <RequiredItems>
+    <SkillItemReq>
+      <ItemID>6500031</ItemID>
+      <Quantity>1</Quantity>
+      <Consume>true</Consume>
+    </SkillItemReq>
+  </RequiredItems>
+</DM_Skill>

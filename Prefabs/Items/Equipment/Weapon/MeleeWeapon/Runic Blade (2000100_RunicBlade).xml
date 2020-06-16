@@ -22,6 +22,8 @@
     <string>Blade</string>
     <string>Weapon</string>
     <string>Item</string>
+    <string>Runic</string>
+    <string>Family</string>
   </Tags>
   <StatsHolder xsi:type="DM_WeaponStats">
     <BaseValue>0</BaseValue>

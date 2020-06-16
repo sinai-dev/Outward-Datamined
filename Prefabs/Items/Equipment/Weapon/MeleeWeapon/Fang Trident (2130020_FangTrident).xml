@@ -24,6 +24,9 @@
     <string>Item</string>
     <string>Spear</string>
     <string>DecraftIron_Small</string>
+    <string>Decraft</string>
+    <string>Fang</string>
+    <string>Family</string>
   </Tags>
   <StatsHolder xsi:type="DM_WeaponStats">
     <BaseValue>40</BaseValue>

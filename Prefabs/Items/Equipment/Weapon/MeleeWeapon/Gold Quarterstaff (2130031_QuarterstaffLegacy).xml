@@ -23,6 +23,8 @@
     <string>Weapon</string>
     <string>Item</string>
     <string>Spear</string>
+    <string>Gold</string>
+    <string>Family</string>
   </Tags>
   <StatsHolder xsi:type="DM_WeaponStats">
     <BaseValue>250</BaseValue>

@@ -4,6 +4,9 @@
   <GameObject_Name>Mantis</GameObject_Name>
   <Unique_ID>1</Unique_ID>
   <Locations_Found>
+    <string>Antique Plateau:Antique Plateau</string>
+    <string>Antique Plateau:Ancient Foundry</string>
+    <string>Antique Plateau:Crumbling Loading Docks</string>
     <string>Chersonese:Chersonese</string>
     <string>Chersonese:Heroic Kingdom’s Conflux Path</string>
     <string>Abrassar:Abrassar</string>
@@ -53,7 +56,7 @@
     <string>MantisHide (8300040)</string>
     <string>MantisUnhide (8300041)</string>
   </Skill_Knowledge>
-  <Faction>Hounds</Faction>
+  <Faction>Golden</Faction>
   <Allied_To_Same_Faction>true</Allied_To_Same_Faction>
   <Guaranteed_Drops />
   <DropTable_Names>

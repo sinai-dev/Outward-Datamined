@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DM_DropTable xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Name>DropTable_AntiqueField_Bosse_Opulence_2</Name>
+  <Guaranteed_Drops>
+    <DropTableEntry>
+      <Item_Name>Enchanted Mask</Item_Name>
+      <Item_ID>6600229</Item_ID>
+      <Min_Quantity>1</Min_Quantity>
+      <Max_Quantity>1</Max_Quantity>
+    </DropTableEntry>
+    <DropTableEntry>
+      <Item_Name>Metalized Bones</Item_Name>
+      <Item_ID>6600230</Item_ID>
+      <Min_Quantity>1</Min_Quantity>
+      <Max_Quantity>1</Max_Quantity>
+    </DropTableEntry>
+  </Guaranteed_Drops>
+  <Random_Tables />
+</DM_DropTable>

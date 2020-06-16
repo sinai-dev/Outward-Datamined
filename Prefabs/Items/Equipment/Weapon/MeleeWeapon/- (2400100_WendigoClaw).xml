@@ -131,6 +131,13 @@
           <StatusEffect>Chill</StatusEffect>
           <Buildup>100</Buildup>
         </DM_Effect>
+        <DM_Effect xsi:type="DM_AffectCorruption">
+          <Delay>0</Delay>
+          <SyncType>OwnerSync</SyncType>
+          <OverrideCategory>None</OverrideCategory>
+          <AffectQuantity>5</AffectQuantity>
+          <IsRaw>false</IsRaw>
+        </DM_Effect>
       </Effects>
       <EffectConditions />
       <ChildEffects />

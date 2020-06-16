@@ -23,6 +23,8 @@
     <string>Equipment</string>
     <string>Item</string>
     <string>Basic Boots</string>
+    <string>Makeshift</string>
+    <string>Family</string>
   </Tags>
   <StatsHolder xsi:type="DM_EquipmentStats">
     <BaseValue>10</BaseValue>

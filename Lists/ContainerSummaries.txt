@@ -1,43 +1,51 @@
-Tree
-Junk Pile
-Hollowed Trunk
-Seaweed
-Gaberries
-Ornate Chest
+Wood
 Stash
 Chest
-Crabeye
-Fishing Spot (DropTable_FishingSpotChersoneseBeach)
-Supply Cache
+Junk Pile
+Crawlberry
+Purpkin
+Wheat
+Ornate Chest
 Adventurer’s Corpse
-Soldier’s Corpse
+Supply Cache
+Hollowed Trunk
 Broken Tent
 Worker’s Corpse
-Turmmip
-Fishing Spot (DropTable_FishingSpotChersoneseRiver)
-Ghost Plant
-Salt Crystal
-Rich Iron vein
-Mana Stone
 Iron vein
 Oil
+Dreamer’s Root
+Mana Stone
+Fishing Spot (DropTable_FishingSpotAntiquePlateau_MagicalLake)
+Veaber Eggs
+Seaweed
+Fishing Spot (DropTable_FishingSpotAntiquePlateau)
+Rich Iron vein
+Nightmare Mushrooms
+Salt Crystal
+Ghost Plant
+Green Mushroom
+Looter’s Corpse
+Scavenger’s Corpse
+Trog Chest
+Star Mushroom
+Krimp
+Blood Mushroom
+Corpse
+Soldier’s Corpse
+Knight’s Corpse
+Palladium vein
+Gaberries
+Crabeye
+Fishing Spot (DropTable_FishingSpotChersoneseBeach)
+Turmmip
+Fishing Spot (DropTable_FishingSpotChersoneseRiver)
 Blue Sand
 Greasy Fern
 Ammolite
 Pearlbird Nest
-Looter’s Corpse
-Star Mushroom
-Blood Mushroom
-Green Mushroom
-Trog Chest
-Corpse
-Palladium vein
 Fishing Spot (DropTable_FishingSpotChersoneseCave)
-Scavenger’s Corpse
-Knight’s Corpse
 Legacy Chest
 Livweedi
-Krimp
 Firefly Powder
 Marshmelon
 Fishing Spot (DropTable_FishingSpotHallowedMarsh)

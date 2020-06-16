@@ -25,7 +25,7 @@
     <string>Pole Arm</string>
   </Tags>
   <StatsHolder xsi:type="DM_WeaponStats">
-    <BaseValue>250</BaseValue>
+    <BaseValue>200</BaseValue>
     <RawWeight>5</RawWeight>
     <MaxDurability>225</MaxDurability>
     <Damage_Resistance>
@@ -45,7 +45,7 @@
       <float>0</float>
       <float>0</float>
       <float>0</float>
-      <float>10</float>
+      <float>20</float>
       <float>0</float>
       <float>0</float>
       <float>0</float>

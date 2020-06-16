@@ -3,7 +3,7 @@
   <SceneName>Hallowed Marsh</SceneName>
   <Enemies>
     <QuantityHolder>
-      <Name>Blade Dancer (1)</Name>
+      <Name>Blade Dancer (2)</Name>
       <Quantity>7</Quantity>
     </QuantityHolder>
     <QuantityHolder>
@@ -111,7 +111,7 @@
   </Loot_Containers>
   <Gatherables>
     <QuantityHolder>
-      <Name>Tree</Name>
+      <Name>Wood</Name>
       <Quantity>3</Quantity>
     </QuantityHolder>
     <QuantityHolder>

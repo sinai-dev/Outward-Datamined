@@ -4,6 +4,22 @@
   <ItemID>0</ItemID>
   <All_Locations>
     <QuantityHolder>
+      <Name>Antique Plateau:Antique Plateau</Name>
+      <Quantity>9</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Antique Plateau:Ruined Warehouse</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Antique Plateau:Destroyed Test Chambers</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Antique Plateau:Corrupted Cave</Name>
+      <Quantity>2</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
       <Name>Chersonese:Chersonese</Name>
       <Quantity>6</Quantity>
     </QuantityHolder>
@@ -26,8 +42,17 @@
   </All_Locations>
   <DropTables>
     <DroptableSummary>
+      <DropTableName>DropTable_IronOreRich_Tourmaline</DropTableName>
+      <Locations>
+        <string>Antique Plateau</string>
+        <string>Ruined Warehouse</string>
+        <string>Corrupted Cave</string>
+      </Locations>
+    </DroptableSummary>
+    <DroptableSummary>
       <DropTableName>DropTable_IronOreRich</DropTableName>
       <Locations>
+        <string>Destroyed Test Chambers</string>
         <string>Chersonese</string>
         <string>Hallowed Marsh</string>
         <string>Under Island</string>

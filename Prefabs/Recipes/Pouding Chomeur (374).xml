@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DM_Recipe xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Name>Pouding Chomeur</Name>
+  <RecipeID>374</RecipeID>
+  <UID />
+  <StationType>Cooking</StationType>
+  <Ingredients>
+    <string>Flour</string>
+    <string>Egg</string>
+    <string>Sugar</string>
+    <string>Boozu’s Milk</string>
+  </Ingredients>
+  <Results>
+    <ItemQty>
+      <ItemName>Pouding Chomeur</ItemName>
+      <ItemID>4100730</ItemID>
+      <Quantity>3</Quantity>
+    </ItemQty>
+  </Results>
+</DM_Recipe>

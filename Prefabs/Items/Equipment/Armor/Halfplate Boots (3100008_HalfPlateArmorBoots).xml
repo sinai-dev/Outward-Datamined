@@ -23,6 +23,9 @@
     <string>Equipment</string>
     <string>Item</string>
     <string>DecraftIron_Small</string>
+    <string>Decraft</string>
+    <string>Halfplate</string>
+    <string>Family</string>
   </Tags>
   <StatsHolder xsi:type="DM_EquipmentStats">
     <BaseValue>75</BaseValue>

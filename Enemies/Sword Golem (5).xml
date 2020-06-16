@@ -4,6 +4,10 @@
   <GameObject_Name>Golem</GameObject_Name>
   <Unique_ID>5</Unique_ID>
   <Locations_Found>
+    <string>Antique Plateau:Antique Plateau</string>
+    <string>Chersonese:Heroic Kingdom’s Conflux Path</string>
+    <string>Hallowed Marsh:Dark Ziggurat Interior</string>
+    <string>Abrassar:Abrassar</string>
     <string>Abrassar:Electric Lab</string>
   </Locations_Found>
   <Max_Health>400</Max_Health>
@@ -50,8 +54,10 @@
     <string>- (2400140)</string>
   </Starting_Equipment>
   <Skill_Knowledge />
-  <Faction>Tuanosaurs</Faction>
+  <Faction>Hounds</Faction>
   <Allied_To_Same_Faction>true</Allied_To_Same_Faction>
   <Guaranteed_Drops />
-  <DropTable_Names />
+  <DropTable_Names>
+    <string>DropTable_GolemGalvanic</string>
+  </DropTable_Names>
 </DM_Enemy>

@@ -112,6 +112,7 @@ Temporarily adds Lightning Damage to your melee weapon, also making the weapon a
     <WeaponType>Axe_2H</WeaponType>
     <WeaponType>Mace_2H</WeaponType>
     <WeaponType>Spear_2H</WeaponType>
+    <WeaponType>FistW_2H</WeaponType>
   </RequiredWeaponTypes>
   <RequiredWeaponTags />
   <RequireImbue>false</RequireImbue>

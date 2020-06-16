@@ -23,6 +23,8 @@
     <string>Item</string>
     <string>Chakram</string>
     <string>Trinket</string>
+    <string>Ornate</string>
+    <string>Family</string>
   </Tags>
   <StatsHolder xsi:type="DM_WeaponStats">
     <BaseValue>900</BaseValue>

@@ -3,11 +3,11 @@
   <SceneName>Monsoon</SceneName>
   <Enemies>
     <QuantityHolder>
-      <Name>The Butcher of Men (1)</Name>
+      <Name>The Butcher of Men (2)</Name>
       <Quantity>1</Quantity>
     </QuantityHolder>
     <QuantityHolder>
-      <Name>Shell Horror (1)</Name>
+      <Name>Shell Horror (4)</Name>
       <Quantity>2</Quantity>
     </QuantityHolder>
     <QuantityHolder>
@@ -15,7 +15,7 @@
       <Quantity>4</Quantity>
     </QuantityHolder>
     <QuantityHolder>
-      <Name>Illuminator Horror (1)</Name>
+      <Name>Illuminator Horror (4)</Name>
       <Quantity>3</Quantity>
     </QuantityHolder>
   </Enemies>
@@ -38,7 +38,7 @@
   </Loot_Containers>
   <Gatherables>
     <QuantityHolder>
-      <Name>Tree</Name>
+      <Name>Wood</Name>
       <Quantity>3</Quantity>
     </QuantityHolder>
     <QuantityHolder>

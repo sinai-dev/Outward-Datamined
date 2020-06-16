@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DM_Recipe xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Name>Crawlberry Tartine </Name>
+  <RecipeID>391</RecipeID>
+  <UID />
+  <StationType>Cooking</StationType>
+  <Ingredients>
+    <string>Bread</string>
+    <string>Crawlberry Jam</string>
+  </Ingredients>
+  <Results>
+    <ItemQty>
+      <ItemName>Crawlberry Tartine </ItemName>
+      <ItemID>4000291</ItemID>
+      <Quantity>3</Quantity>
+    </ItemQty>
+  </Results>
+</DM_Recipe>

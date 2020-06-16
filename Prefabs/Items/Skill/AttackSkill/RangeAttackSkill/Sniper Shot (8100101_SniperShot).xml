@@ -68,8 +68,6 @@ Let loose a very strong arrow shot with a long windup, making it a poor option i
           <YMagnitudeForce>0</YMagnitudeForce>
           <DefenseLength>3</DefenseLength>
           <DefenseRange>3</DefenseRange>
-          <PhysicsLayerMask>0</PhysicsLayerMask>
-          <OnlyExplodeOnLayerMask>false</OnlyExplodeOnLayerMask>
           <ImpactSoundMaterial>Metal_Sharp</ImpactSoundMaterial>
           <LightIntensityFade>
             <x>10</x>

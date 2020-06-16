@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SceneSummary xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SceneName>Bandit Hideout</SceneName>
+  <Enemies>
+    <QuantityHolder>
+      <Name>Kazite Bandit (6)</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Kazite Bandit (7)</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Kazite Archer (4)</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Kazite Bandit (8)</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Arcane Elemental (21)</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+  </Enemies>
+  <Merchants>
+    <string>Pholiota (sDPslsm3JkKP1SuHDNJ-9g)</string>
+  </Merchants>
+  <Loot_Containers>
+    <QuantityHolder>
+      <Name>Chest</Name>
+      <Quantity>4</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Junk Pile</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Looter’s Corpse</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+  </Loot_Containers>
+  <Gatherables>
+    <QuantityHolder>
+      <Name>Blood Mushroom</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Iron vein</Name>
+      <Quantity>3</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Star Mushroom</Name>
+      <Quantity>2</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Nightmare Mushrooms</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+  </Gatherables>
+  <Item_Spawns>
+    <DM_ItemSpawn>
+      <Name>Explorer Lantern</Name>
+      <Item_ID>5100000</Item_ID>
+      <Quantity>1</Quantity>
+      <positions>
+        <Vector3>
+          <x>921.587</x>
+          <y>3.28000069</y>
+          <z>99.471</z>
+        </Vector3>
+      </positions>
+    </DM_ItemSpawn>
+  </Item_Spawns>
+  <UniqueContainerList>
+    <string>Chest_GUWgGXJwsU6CoyecarAXoA</string>
+    <string>Junk Pile_FGVuuIU4W0qEpo5uA96aNw</string>
+    <string>Chest_MlLg0YSUuEejyHM_UI5iAg</string>
+    <string>Chest_jItqblU4I0Kk9EGbIUhwMQ</string>
+    <string>Chest_JWXI62Ql3Eu7E0RTIzrhXQ</string>
+    <string>Looter’s Corpse_alQJVNTKlEi5bJkZvN_FVQ</string>
+  </UniqueContainerList>
+</SceneSummary>

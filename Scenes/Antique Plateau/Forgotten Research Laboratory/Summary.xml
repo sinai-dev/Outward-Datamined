@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SceneSummary xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SceneName>Forgotten Research Laboratory</SceneName>
+  <Enemies>
+    <QuantityHolder>
+      <Name>Sublime Shell (3)</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Sword Golem (6)</Name>
+      <Quantity>2</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Beast Golem (6)</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Beast Golem (7)</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Sword Golem (7)</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Illuminator Horror (1)</Name>
+      <Quantity>2</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Sword Golem (8)</Name>
+      <Quantity>2</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Pure Illuminator (2)</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Grotesque (1)</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Galvanic Golem (2)</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Beast Golem (8)</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Sublime Shell (4)</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Beast Golem (9)</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Beast Golem (10)</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Grotesque (2)</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Beast Golem (11)</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Illuminator Horror (2)</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Illuminator Horror (3)</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Illuminator Horror (4)</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Immaculate Raider (1)</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Grotesque (3)</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Molten Forge Golem (1)</Name>
+      <Quantity>6</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Jade Lich (1)</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Arcane Elemental (11)</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Arcane Elemental (12)</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Arcane Elemental (13)</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Arcane Elemental (14)</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+  </Enemies>
+  <Merchants>
+    <string>Pholiota (aZ1UeIcKAUmPM8rQqDdXnQ)</string>
+    <string>Pholiota (F9dSJ6Jb5UyoN-mbnuM-Dw)</string>
+  </Merchants>
+  <Loot_Containers>
+    <QuantityHolder>
+      <Name>Junk Pile</Name>
+      <Quantity>10</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Corpse</Name>
+      <Quantity>3</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Ornate Chest</Name>
+      <Quantity>2</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Chest</Name>
+      <Quantity>7</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Looter’s Corpse</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Scavenger’s Corpse</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Worker’s Corpse</Name>
+      <Quantity>2</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Adventurer’s Corpse</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+  </Loot_Containers>
+  <Gatherables />
+  <Item_Spawns>
+    <DM_ItemSpawn>
+      <Name>Misplaced Lab Lever</Name>
+      <Item_ID>5600140</Item_ID>
+      <Quantity>1</Quantity>
+      <positions>
+        <Vector3>
+          <x>-8.700077</x>
+          <y>-40.001</y>
+          <z>64.79523</z>
+        </Vector3>
+      </positions>
+    </DM_ItemSpawn>
+  </Item_Spawns>
+  <UniqueContainerList>
+    <string>Junk Pile_7v4bOgC7PES35V1yWXOWdA</string>
+    <string>Corpse_E9yzCZMHEEaiVNtnFZZ7IQ</string>
+    <string>Junk Pile_CZCtD-aapU6LQlern_qctg</string>
+    <string>Ornate Chest_fkYdK-l-S0ml7_B6VNVfYQ</string>
+    <string>Chest_xbIekD_JXESRCqM3pqFGNg</string>
+    <string>Junk Pile_gwcZfUlTmk-WM6nFNEePWA</string>
+    <string>Junk Pile_Ht0muy9htE6WIsKFsRwaTw</string>
+    <string>Corpse_iZMnW93wn0OjVp9gf0EkEQ</string>
+    <string>Looter’s Corpse_dp5da4xTqE2Z6tJVHb_m7Q</string>
+    <string>Junk Pile_Fl76YfdgBE-X0jYlNaNpHQ</string>
+    <string>Chest_2v1ioLrD5kqpC1emBJ4Fwg</string>
+    <string>Ornate Chest_LGuhaI6xkEaBxzCy38klBg</string>
+    <string>Scavenger’s Corpse_8S0TjMsi30-YM9yfMlVBtg</string>
+    <string>Chest_wCk8BXjgoE2MxEvBx6yeoA</string>
+    <string>Junk Pile_d8ysVvhyd06XDfyILpbn4w</string>
+    <string>Corpse_ULGc-lh4s0eoKR07AQO3PA</string>
+    <string>Worker’s Corpse_0KXaHUYWEkmKEQ4ZYKQy2Q</string>
+    <string>Chest_cIzuPs0YaUOhYJcqb1jRwQ</string>
+    <string>Chest_zbsc7iaEzUa05rSg5sd9Xw</string>
+    <string>Adventurer’s Corpse_xx-5JygRlEmy_8nTFnITJw</string>
+    <string>Junk Pile_CGZVQdYFF0qwyKngO6kMNA</string>
+    <string>Chest_I-eS5YFDBU66yfkvzfmiLw</string>
+    <string>Worker’s Corpse_30Pcjwiwukq0DezQ9hAWBw</string>
+    <string>Junk Pile_Mcbn-zEdj0uKb9pWtxAOsg</string>
+    <string>Chest_fIzdyj5qqEGDgkHYAvdWuQ</string>
+    <string>Junk Pile_Eh4pbkCy2k26NSSlRKW1Rg</string>
+    <string>Junk Pile_C2GG_u_FwUqijg4fsxgCGw</string>
+  </UniqueContainerList>
+</SceneSummary>

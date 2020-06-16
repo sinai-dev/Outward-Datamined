@@ -38,13 +38,18 @@
           <OverrideCategory>None</OverrideCategory>
           <AffectQuantity>325</AffectQuantity>
         </DM_Effect>
-        <DM_Effect xsi:type="DM_AddBoonEffect">
+        <DM_Effect xsi:type="DM_AffectFatigue">
           <Delay>0</Delay>
           <SyncType>OwnerSync</SyncType>
           <OverrideCategory>None</OverrideCategory>
-          <StatusEffect>Warm</StatusEffect>
+          <AffectQuantity>-250</AffectQuantity>
+        </DM_Effect>
+        <DM_Effect xsi:type="DM_AddStatusEffect">
+          <Delay>0</Delay>
+          <SyncType>OwnerSync</SyncType>
+          <OverrideCategory>None</OverrideCategory>
+          <StatusEffect>Environment Cold Resistance</StatusEffect>
           <ChanceToContract>100</ChanceToContract>
-          <AmplifiedEffect>Warm Amplified</AmplifiedEffect>
         </DM_Effect>
         <DM_Effect xsi:type="DM_AddStatusEffect">
           <Delay>0</Delay>

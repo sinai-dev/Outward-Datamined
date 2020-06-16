@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DM_Armor xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <gameObjectName>3100250_HarmattanGuardArmor</gameObjectName>
+  <saveDir>/Equipment/Armor</saveDir>
+  <ItemID>3100250</ItemID>
+  <Name>Antique Plate Garb</Name>
+  <Description />
+  <LegacyItemID>-1</LegacyItemID>
+  <IsPickable>true</IsPickable>
+  <IsUsable>false</IsUsable>
+  <QtyRemovedOnUse>1</QtyRemovedOnUse>
+  <GroupItemInDisplay>false</GroupItemInDisplay>
+  <HasPhysicsWhenWorld>false</HasPhysicsWhenWorld>
+  <RepairedInRest>true</RepairedInRest>
+  <BehaviorOnNoDurability>NotSet</BehaviorOnNoDurability>
+  <CastType>NONE</CastType>
+  <CastModifier>Immobilized</CastModifier>
+  <CastLocomotionEnabled>false</CastLocomotionEnabled>
+  <MobileCastMovementMult>-1</MobileCastMovementMult>
+  <CastSheatheRequired>1</CastSheatheRequired>
+  <Tags>
+    <string>Armor</string>
+    <string>Equipment</string>
+    <string>Item</string>
+    <string>Garb</string>
+    <string>Family</string>
+  </Tags>
+  <StatsHolder xsi:type="DM_EquipmentStats">
+    <BaseValue>360</BaseValue>
+    <RawWeight>8</RawWeight>
+    <MaxDurability>195</MaxDurability>
+    <Damage_Resistance>
+      <float>15</float>
+      <float>0</float>
+      <float>0</float>
+      <float>0</float>
+      <float>0</float>
+      <float>0</float>
+      <float>0</float>
+      <float>0</float>
+      <float>0</float>
+    </Damage_Resistance>
+    <Impact_Resistance>8</Impact_Resistance>
+    <Damage_Protection>4</Damage_Protection>
+    <Damage_Bonus>
+      <float>0</float>
+      <float>10</float>
+      <float>0</float>
+      <float>0</float>
+      <float>0</float>
+      <float>15</float>
+      <float>0</float>
+      <float>0</float>
+      <float>0</float>
+    </Damage_Bonus>
+    <Stamina_Use_Penalty>0</Stamina_Use_Penalty>
+    <Mana_Use_Modifier>0</Mana_Use_Modifier>
+    <Movement_Penalty>0</Movement_Penalty>
+    <Pouch_Bonus>0</Pouch_Bonus>
+    <Heat_Protection>0</Heat_Protection>
+    <Cold_Protection>15</Cold_Protection>
+    <Corruption_Protection>0</Corruption_Protection>
+  </StatsHolder>
+  <EffectTransforms />
+  <EquipSlot>Chest</EquipSlot>
+  <TwoHandType>None</TwoHandType>
+  <IKType>None</IKType>
+  <VisualDetectabilityAdd>0</VisualDetectabilityAdd>
+  <Class>Light</Class>
+  <GearSoundMaterial>Cloth</GearSoundMaterial>
+  <ImpactSoundMaterial>Cloth</ImpactSoundMaterial>
+</DM_Armor>

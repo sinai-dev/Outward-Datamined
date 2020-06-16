@@ -25,6 +25,7 @@ Blocking with a shield is more advantageous than blocking with a weapon.</Descri
     <string>Weapon</string>
     <string>Item</string>
     <string>DecraftIron_Small</string>
+    <string>Decraft</string>
   </Tags>
   <StatsHolder xsi:type="DM_WeaponStats">
     <BaseValue>20</BaseValue>

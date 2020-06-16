@@ -25,9 +25,9 @@
     <string>Trinket</string>
   </Tags>
   <StatsHolder xsi:type="DM_WeaponStats">
-    <BaseValue>10</BaseValue>
+    <BaseValue>2000</BaseValue>
     <RawWeight>1</RawWeight>
-    <MaxDurability>100</MaxDurability>
+    <MaxDurability>150</MaxDurability>
     <Damage_Resistance>
       <float>0</float>
       <float>0</float>
@@ -62,25 +62,45 @@
     <AttackSpeed>1</AttackSpeed>
     <BaseDamage>
       <Damages>
-        <Damage>19</Damage>
+        <Damage>33.75</Damage>
         <Damage_Type>Physical</Damage_Type>
       </Damages>
+      <Damages>
+        <Damage>11.25</Damage>
+        <Damage_Type>Decay</Damage_Type>
+      </Damages>
     </BaseDamage>
-    <Impact>25</Impact>
+    <Impact>32</Impact>
     <StamCost>0</StamCost>
     <AutoGenerateAttackData>false</AutoGenerateAttackData>
     <Attacks>
       <AttackData>
         <StamCost>0</StamCost>
-        <Knockback>25</Knockback>
+        <Knockback>32</Knockback>
         <AttackSpeed>1</AttackSpeed>
         <Damage>
-          <float>19</float>
+          <float>33.75</float>
+          <float>11.25</float>
         </Damage>
       </AttackData>
     </Attacks>
   </StatsHolder>
-  <EffectTransforms />
+  <EffectTransforms>
+    <DM_EffectTransform>
+      <TransformName>HitEffects</TransformName>
+      <Effects>
+        <DM_Effect xsi:type="DM_AddStatusEffectBuildUp">
+          <Delay>0</Delay>
+          <SyncType>OwnerSync</SyncType>
+          <OverrideCategory>None</OverrideCategory>
+          <StatusEffect>Poisoned</StatusEffect>
+          <Buildup>60</Buildup>
+        </DM_Effect>
+      </Effects>
+      <EffectConditions />
+      <ChildEffects />
+    </DM_EffectTransform>
+  </EffectTransforms>
   <EquipSlot>LeftHand</EquipSlot>
   <TwoHandType>None</TwoHandType>
   <IKType>None</IKType>

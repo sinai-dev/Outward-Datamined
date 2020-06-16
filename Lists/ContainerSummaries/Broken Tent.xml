@@ -4,6 +4,10 @@
   <ItemID>0</ItemID>
   <All_Locations>
     <QuantityHolder>
+      <Name>Antique Plateau:Antique Plateau</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
       <Name>Chersonese:Chersonese</Name>
       <Quantity>1</Quantity>
     </QuantityHolder>
@@ -20,6 +24,7 @@
     <DroptableSummary>
       <DropTableName>DropTable_Neutral_Consumable_Low_2</DropTableName>
       <Locations>
+        <string>Antique Plateau</string>
         <string>Chersonese</string>
         <string>Corrupted Tombs</string>
       </Locations>
@@ -27,6 +32,7 @@
     <DroptableSummary>
       <DropTableName>DropTable_Neutral_Survival_Low_2</DropTableName>
       <Locations>
+        <string>Antique Plateau</string>
         <string>Chersonese</string>
         <string>Corrupted Tombs</string>
       </Locations>
@@ -34,6 +40,7 @@
     <DroptableSummary>
       <DropTableName>DropTable_Neutral_Alchemy_Low_2</DropTableName>
       <Locations>
+        <string>Antique Plateau</string>
         <string>Chersonese</string>
         <string>Corrupted Tombs</string>
       </Locations>
@@ -41,6 +48,7 @@
     <DroptableSummary>
       <DropTableName>DropTable_Neutral_StandardRecipe_Low_1</DropTableName>
       <Locations>
+        <string>Antique Plateau</string>
         <string>Chersonese</string>
       </Locations>
     </DroptableSummary>

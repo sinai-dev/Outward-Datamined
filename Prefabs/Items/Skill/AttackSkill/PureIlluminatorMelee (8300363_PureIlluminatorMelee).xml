@@ -37,7 +37,7 @@
       <ChildEffects />
     </DM_EffectTransform>
   </EffectTransforms>
-  <Cooldown>5</Cooldown>
+  <Cooldown>3</Cooldown>
   <StaminaCost>0</StaminaCost>
   <ManaCost>0</ManaCost>
   <DurabilityCost>0</DurabilityCost>

@@ -23,6 +23,8 @@
     <string>Equipment</string>
     <string>Item</string>
     <string>Basic Armor</string>
+    <string>Desert</string>
+    <string>Family</string>
   </Tags>
   <StatsHolder xsi:type="DM_EquipmentStats">
     <BaseValue>112</BaseValue>

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SceneSummary xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SceneName>Ancient Foundry</SceneName>
+  <Enemies>
+    <QuantityHolder>
+      <Name>Rusty Beast Golem (2)</Name>
+      <Quantity>3</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Burning Man (1)</Name>
+      <Quantity>2</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Rusty Sword Golem (8)</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Rusty Sword Golem (9)</Name>
+      <Quantity>6</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Forge Golem (1)</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Molten Forge Golem (2)</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Forge Golem (2)</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Rusty Sword Golem (10)</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Forge Golem (3)</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Rock Mantis (1)</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+  </Enemies>
+  <Merchants>
+    <string>Pholiota (ZApQcSYEbkSgOkyRCsdEYA)</string>
+    <string>Pholiota (U-wDK2XV-kuKj39cW3AuxQ)</string>
+  </Merchants>
+  <Loot_Containers>
+    <QuantityHolder>
+      <Name>Junk Pile</Name>
+      <Quantity>12</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Adventurer’s Corpse</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Worker’s Corpse</Name>
+      <Quantity>3</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Chest</Name>
+      <Quantity>5</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Looter’s Corpse</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+  </Loot_Containers>
+  <Gatherables />
+  <Item_Spawns>
+    <DM_ItemSpawn>
+      <Name>Warehouse Key</Name>
+      <Item_ID>5600120</Item_ID>
+      <Quantity>1</Quantity>
+      <positions>
+        <Vector3>
+          <x>13.873</x>
+          <y>5.412</y>
+          <z>44.039</z>
+        </Vector3>
+      </positions>
+    </DM_ItemSpawn>
+    <DM_ItemSpawn>
+      <Name>Explorer Lantern</Name>
+      <Item_ID>5100000</Item_ID>
+      <Quantity>1</Quantity>
+      <positions>
+        <Vector3>
+          <x>69.2780762</x>
+          <y>0.4</y>
+          <z>115.366089</z>
+        </Vector3>
+      </positions>
+    </DM_ItemSpawn>
+  </Item_Spawns>
+  <UniqueContainerList>
+    <string>Junk Pile_7pFfe97VKk6QhJ7A8JMpNw</string>
+    <string>Junk Pile_8b5zuJlXT0eK5XVR9WbF2w</string>
+    <string>Junk Pile_2RK-hJ0TkkWjbfr_rMqWPg</string>
+    <string>Adventurer’s Corpse_HGWCr4UrhUKSDbt3Y7TS-w</string>
+    <string>Worker’s Corpse_bV6c0boRdkys7igjLbTM1w</string>
+    <string>Junk Pile_Bteg3Wf28Uy21rZj4ZwAeg</string>
+    <string>Junk Pile_dELpIjiYxkKK27ZUreArxg</string>
+    <string>Chest_rjIwdjufNkaewP6lJf7wSg</string>
+    <string>Junk Pile_xacFbljAWE-FUNqQgyrnSw</string>
+    <string>Chest_Dj_Pc2n31EmRSyGC4gkjNg</string>
+    <string>Junk Pile_7vzry__Xu0iiuPRIa2uTSg</string>
+    <string>Chest_UQkHWXtkaEa3AsmU5Za-rg</string>
+    <string>Junk Pile_QX7uUyKZuUWIIQNFKhmJJw</string>
+    <string>Junk Pile_n9XMYzYxQE2WEZtfJy0slw</string>
+    <string>Worker’s Corpse_5Jf-GkAvOk6fDmqiorUxrQ</string>
+    <string>Junk Pile_yZCVRFp9RkertuVO8chiKg</string>
+    <string>Junk Pile_FgaSRXElP0SbA-6_kHnJdg</string>
+    <string>Junk Pile_DAyfi_vZjEWwzKSzUpg4Zg</string>
+    <string>Chest_l7SchtU2GkOjACOqJrOyVQ</string>
+    <string>Chest_Ah17QnSowEqp-aO3EWYEdQ</string>
+    <string>Looter’s Corpse_bUN4sttSN0WGadRKw3Fbmw</string>
+    <string>Worker’s Corpse_5UwLiLpzS02pz9W5BcPqUg</string>
+  </UniqueContainerList>
+</SceneSummary>

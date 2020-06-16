@@ -7,19 +7,19 @@
       <Quantity>2</Quantity>
     </QuantityHolder>
     <QuantityHolder>
-      <Name>Blade Dancer (1)</Name>
+      <Name>Blade Dancer (2)</Name>
       <Quantity>2</Quantity>
     </QuantityHolder>
     <QuantityHolder>
-      <Name>Jade Lich (1)</Name>
+      <Name>Jade Lich (5)</Name>
       <Quantity>1</Quantity>
     </QuantityHolder>
     <QuantityHolder>
-      <Name>Forge Golem (1)</Name>
+      <Name>Forge Golem (4)</Name>
       <Quantity>1</Quantity>
     </QuantityHolder>
     <QuantityHolder>
-      <Name>Beast Golem (1)</Name>
+      <Name>Beast Golem (3)</Name>
       <Quantity>1</Quantity>
     </QuantityHolder>
     <QuantityHolder>
@@ -27,7 +27,7 @@
       <Quantity>2</Quantity>
     </QuantityHolder>
     <QuantityHolder>
-      <Name>Sword Golem (1)</Name>
+      <Name>Sword Golem (5)</Name>
       <Quantity>1</Quantity>
     </QuantityHolder>
   </Enemies>

@@ -23,6 +23,7 @@
     <string>Weapon</string>
     <string>Item</string>
     <string>DecraftIron_Small</string>
+    <string>Decraft</string>
   </Tags>
   <StatsHolder xsi:type="DM_WeaponStats">
     <BaseValue>10</BaseValue>
@@ -53,7 +54,7 @@
       <float>0</float>
     </Damage_Bonus>
     <Stamina_Use_Penalty>0</Stamina_Use_Penalty>
-    <Mana_Use_Modifier>0</Mana_Use_Modifier>
+    <Mana_Use_Modifier>1</Mana_Use_Modifier>
     <Movement_Penalty>0</Movement_Penalty>
     <Pouch_Bonus>0</Pouch_Bonus>
     <Heat_Protection>0</Heat_Protection>

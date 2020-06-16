@@ -28,8 +28,7 @@
           <SyncType>OwnerSync</SyncType>
           <OverrideCategory>None</OverrideCategory>
           <Sounds>
-            <Sounds>CS_Giant_FastAttack_Grunt1</Sounds>
-            <Sounds>CS_Giant_FastAttack_Grunt2</Sounds>
+            <Sounds>CS_GiantHorror_Attack_Grunt_03</Sounds>
           </Sounds>
           <Follow>false</Follow>
           <MinPitch>1</MinPitch>
@@ -89,6 +88,13 @@
                   <Damages_AI />
                   <Knockback>0</Knockback>
                   <HitInventory>true</HitInventory>
+                </DM_Effect>
+                <DM_Effect xsi:type="DM_AffectCorruption">
+                  <Delay>0</Delay>
+                  <SyncType>OwnerSync</SyncType>
+                  <OverrideCategory>None</OverrideCategory>
+                  <AffectQuantity>3</AffectQuantity>
+                  <IsRaw>false</IsRaw>
                 </DM_Effect>
               </Effects>
               <EffectConditions />

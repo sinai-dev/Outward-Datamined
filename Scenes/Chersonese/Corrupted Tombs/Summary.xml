@@ -7,11 +7,11 @@
       <Quantity>1</Quantity>
     </QuantityHolder>
     <QuantityHolder>
-      <Name>Illuminator Horror (1)</Name>
+      <Name>Illuminator Horror (4)</Name>
       <Quantity>3</Quantity>
     </QuantityHolder>
     <QuantityHolder>
-      <Name>Ghost (3)</Name>
+      <Name>Ghost (6)</Name>
       <Quantity>5</Quantity>
     </QuantityHolder>
     <QuantityHolder>
@@ -19,7 +19,7 @@
       <Quantity>1</Quantity>
     </QuantityHolder>
     <QuantityHolder>
-      <Name>Wendigo (1)</Name>
+      <Name>Wendigo (2)</Name>
       <Quantity>1</Quantity>
     </QuantityHolder>
   </Enemies>
@@ -56,7 +56,7 @@
   </Loot_Containers>
   <Gatherables>
     <QuantityHolder>
-      <Name>Tree</Name>
+      <Name>Wood</Name>
       <Quantity>3</Quantity>
     </QuantityHolder>
     <QuantityHolder>

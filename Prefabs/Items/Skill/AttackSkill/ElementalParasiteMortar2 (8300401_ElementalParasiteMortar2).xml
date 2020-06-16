@@ -105,8 +105,6 @@
           <YMagnitudeForce>0.15</YMagnitudeForce>
           <DefenseLength>3</DefenseLength>
           <DefenseRange>6</DefenseRange>
-          <PhysicsLayerMask>0</PhysicsLayerMask>
-          <OnlyExplodeOnLayerMask>false</OnlyExplodeOnLayerMask>
           <ImpactSoundMaterial>Flesh</ImpactSoundMaterial>
           <LightIntensityFade>
             <x>10</x>
@@ -185,6 +183,13 @@
                           <Knockback>0</Knockback>
                           <HitInventory>true</HitInventory>
                         </DM_Effect>
+                        <DM_Effect xsi:type="DM_AffectCorruption">
+                          <Delay>0</Delay>
+                          <SyncType>OwnerSync</SyncType>
+                          <OverrideCategory>None</OverrideCategory>
+                          <AffectQuantity>2</AffectQuantity>
+                          <IsRaw>false</IsRaw>
+                        </DM_Effect>
                       </Effects>
                       <EffectConditions />
                       <ChildEffects />
@@ -209,7 +214,7 @@
           <SyncType>OwnerSync</SyncType>
           <OverrideCategory>None</OverrideCategory>
           <Sounds>
-            <Sounds>CS_Tuanosaur_AttackSpit_Grunt2</Sounds>
+            <Sounds>CS_GiantHorror_Attack_Snort_03</Sounds>
           </Sounds>
           <Follow>false</Follow>
           <MinPitch>1</MinPitch>

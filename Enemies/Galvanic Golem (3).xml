@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DM_Enemy xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Name>Galvanic Golem</Name>
+  <GameObject_Name>GolemShielded_WithKey</GameObject_Name>
+  <Unique_ID>3</Unique_ID>
+  <Locations_Found>
+    <string>Antique Plateau:Destroyed Test Chambers</string>
+  </Locations_Found>
+  <Max_Health>500</Max_Health>
+  <Health_Regen_Per_Second>0</Health_Regen_Per_Second>
+  <Impact_Resistance>60</Impact_Resistance>
+  <Protection>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+  </Protection>
+  <Damage_Resistances>
+    <float>55</float>
+    <float>-50</float>
+    <float>40</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+  </Damage_Resistances>
+  <Damage_Bonuses>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+  </Damage_Bonuses>
+  <Collider_Radius>0.5</Collider_Radius>
+  <True_WeaponDamage />
+  <Weapon_Impact>0</Weapon_Impact>
+  <Status_Immunities>
+    <string>Bleeding</string>
+    <string>Poison</string>
+    <string>Burning</string>
+  </Status_Immunities>
+  <Starting_Equipment />
+  <Skill_Knowledge>
+    <string>Golem_Multishot (8300310)</string>
+    <string>Golem_Mortar (8300311)</string>
+    <string>GolemShieled Homing (8300312)</string>
+    <string>GolemShieled Homing Short (8300313)</string>
+    <string>IlluminatorHoming (8300314)</string>
+  </Skill_Knowledge>
+  <Faction>Mercs</Faction>
+  <Allied_To_Same_Faction>true</Allied_To_Same_Faction>
+  <Guaranteed_Drops>
+    <DropTableEntry>
+      <Item_Name>Lower Test Chamber Key</Item_Name>
+      <Item_ID>5600122</Item_ID>
+      <Min_Quantity>1</Min_Quantity>
+      <Max_Quantity>1</Max_Quantity>
+    </DropTableEntry>
+  </Guaranteed_Drops>
+  <DropTable_Names>
+    <string>DropTable_GolemShielded_DLC1</string>
+  </DropTable_Names>
+</DM_Enemy>
