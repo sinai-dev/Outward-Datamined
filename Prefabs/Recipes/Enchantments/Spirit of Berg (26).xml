@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DM_EnchantmentRecipe xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <RecipeID>26</RecipeID>
+  <Name>Spirit of Berg</Name>
+  <CompatibleEquipment>
+    <CompatibleEquipments>
+      <IngredientData>
+        <IngredientTag>Copal</IngredientTag>
+        <SpecificItemID>0</SpecificItemID>
+        <Type>Generic</Type>
+      </IngredientData>
+    </CompatibleEquipments>
+    <EquipmentTag>Armor</EquipmentTag>
+  </CompatibleEquipment>
+  <PillarDatas>
+    <PillarData>
+      <CompatibleIngredients>
+        <IngredientData>
+          <SpecificItemID>6000250</SpecificItemID>
+          <Type>Specific</Type>
+        </IngredientData>
+      </CompatibleIngredients>
+      <Direction>East</Direction>
+      <IsFar>true</IsFar>
+    </PillarData>
+    <PillarData>
+      <CompatibleIngredients>
+        <IngredientData>
+          <SpecificItemID>6000250</SpecificItemID>
+          <Type>Specific</Type>
+        </IngredientData>
+      </CompatibleIngredients>
+      <Direction>East</Direction>
+      <IsFar>false</IsFar>
+    </PillarData>
+    <PillarData>
+      <CompatibleIngredients>
+        <IngredientData>
+          <SpecificItemID>6000250</SpecificItemID>
+          <Type>Specific</Type>
+        </IngredientData>
+      </CompatibleIngredients>
+      <Direction>West</Direction>
+      <IsFar>true</IsFar>
+    </PillarData>
+  </PillarDatas>
+  <Weather />
+  <TimeOfDay />
+  <Temperatures />
+  <WindAltarActivated>false</WindAltarActivated>
+  <Regions>
+    <AreaEnum>Emercar</AreaEnum>
+  </Regions>
+  <Result>
+    <Name>Spirit of Berg</Name>
+    <Description />
+    <Effects />
+    <AdditionalDamages />
+    <StatModifications>
+      <StatModification>
+        <Name>StaminaCostReduction</Name>
+        <Type>Modifier</Type>
+        <Value>10</Value>
+      </StatModification>
+    </StatModifications>
+    <DamageBonus />
+    <DamageModifier>
+      <Damages>
+        <Damage>25</Damage>
+        <Damage_Type>Ethereal</Damage_Type>
+      </Damages>
+    </DamageModifier>
+    <ElementalResistances />
+    <HealthAbsorbRatio>0</HealthAbsorbRatio>
+    <ManaAbsorbRatio>0</ManaAbsorbRatio>
+    <StaminaAbsorbRatio>0</StaminaAbsorbRatio>
+    <Indescructible>false</Indescructible>
+    <TrackDamageRatio>-1</TrackDamageRatio>
+  </Result>
+</DM_EnchantmentRecipe>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DM_EnchantmentRecipe xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <RecipeID>77</RecipeID>
+  <Name>Arcane Unison</Name>
+  <CompatibleEquipment>
+    <CompatibleEquipments>
+      <IngredientData>
+        <SpecificItemID>3000190</SpecificItemID>
+        <Type>Specific</Type>
+      </IngredientData>
+      <IngredientData>
+        <SpecificItemID>3100260</SpecificItemID>
+        <Type>Specific</Type>
+      </IngredientData>
+    </CompatibleEquipments>
+    <EquipmentTag>Armor</EquipmentTag>
+  </CompatibleEquipment>
+  <PillarDatas>
+    <PillarData>
+      <CompatibleIngredients>
+        <IngredientData>
+          <SpecificItemID>6000230</SpecificItemID>
+          <Type>Specific</Type>
+        </IngredientData>
+      </CompatibleIngredients>
+      <Direction>East</Direction>
+      <IsFar>false</IsFar>
+    </PillarData>
+    <PillarData>
+      <CompatibleIngredients>
+        <IngredientData>
+          <SpecificItemID>6000230</SpecificItemID>
+          <Type>Specific</Type>
+        </IngredientData>
+      </CompatibleIngredients>
+      <Direction>South</Direction>
+      <IsFar>false</IsFar>
+    </PillarData>
+    <PillarData>
+      <CompatibleIngredients>
+        <IngredientData>
+          <SpecificItemID>6000230</SpecificItemID>
+          <Type>Specific</Type>
+        </IngredientData>
+      </CompatibleIngredients>
+      <Direction>West</Direction>
+      <IsFar>false</IsFar>
+    </PillarData>
+  </PillarDatas>
+  <Weather />
+  <TimeOfDay />
+  <Temperatures />
+  <WindAltarActivated>false</WindAltarActivated>
+  <Regions>
+    <AreaEnum>ChersoDungeon4</AreaEnum>
+    <AreaEnum>ChersoDungeon4_BC</AreaEnum>
+    <AreaEnum>ChersoDungeon4_HM</AreaEnum>
+    <AreaEnum>ChersoDungeon4_LV</AreaEnum>
+  </Regions>
+  <Result>
+    <Name>Arcane Unison</Name>
+    <Description />
+    <Effects />
+    <AdditionalDamages />
+    <StatModifications>
+      <StatModification>
+        <Name>CooldownReduction</Name>
+        <Type>Modifier</Type>
+        <Value>5</Value>
+      </StatModification>
+      <StatModification>
+        <Name>ManaRegen</Name>
+        <Type>Bonus</Type>
+        <Value>0.1</Value>
+      </StatModification>
+    </StatModifications>
+    <DamageBonus />
+    <DamageModifier />
+    <ElementalResistances />
+    <HealthAbsorbRatio>0</HealthAbsorbRatio>
+    <ManaAbsorbRatio>0</ManaAbsorbRatio>
+    <StaminaAbsorbRatio>0</StaminaAbsorbRatio>
+    <Indescructible>false</Indescructible>
+    <TrackDamageRatio>-1</TrackDamageRatio>
+  </Result>
+</DM_EnchantmentRecipe>

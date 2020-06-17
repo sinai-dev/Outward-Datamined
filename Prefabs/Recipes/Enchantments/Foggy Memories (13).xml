@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DM_EnchantmentRecipe xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <RecipeID>13</RecipeID>
+  <Name>Foggy Memories</Name>
+  <CompatibleEquipment>
+    <CompatibleEquipments>
+      <IngredientData>
+        <IngredientTag>Junk</IngredientTag>
+        <SpecificItemID>0</SpecificItemID>
+        <Type>Generic</Type>
+      </IngredientData>
+      <IngredientData>
+        <IngredientTag>Iron</IngredientTag>
+        <SpecificItemID>0</SpecificItemID>
+        <Type>Generic</Type>
+      </IngredientData>
+      <IngredientData>
+        <IngredientTag>Gold</IngredientTag>
+        <SpecificItemID>0</SpecificItemID>
+        <Type>Generic</Type>
+      </IngredientData>
+      <IngredientData>
+        <IngredientTag>Virgin</IngredientTag>
+        <SpecificItemID>0</SpecificItemID>
+        <Type>Generic</Type>
+      </IngredientData>
+    </CompatibleEquipments>
+    <EquipmentTag>Weapon</EquipmentTag>
+  </CompatibleEquipment>
+  <PillarDatas>
+    <PillarData>
+      <CompatibleIngredients>
+        <IngredientData>
+          <SpecificItemID>6000210</SpecificItemID>
+          <Type>Specific</Type>
+        </IngredientData>
+      </CompatibleIngredients>
+      <Direction>North</Direction>
+      <IsFar>false</IsFar>
+    </PillarData>
+    <PillarData>
+      <CompatibleIngredients>
+        <IngredientData>
+          <SpecificItemID>6000210</SpecificItemID>
+          <Type>Specific</Type>
+        </IngredientData>
+      </CompatibleIngredients>
+      <Direction>South</Direction>
+      <IsFar>true</IsFar>
+    </PillarData>
+  </PillarDatas>
+  <Weather>
+    <WeatherCondition>
+      <Invert>false</Invert>
+      <WeatherType>SeasonEffect</WeatherType>
+    </WeatherCondition>
+  </Weather>
+  <TimeOfDay />
+  <Temperatures />
+  <WindAltarActivated>false</WindAltarActivated>
+  <Regions>
+    <AreaEnum>Emercar</AreaEnum>
+  </Regions>
+  <Result>
+    <Name>Foggy Memories</Name>
+    <Description />
+    <Effects>
+      <DM_Effect xsi:type="DM_AddStatusEffectBuildUp">
+        <Delay>0</Delay>
+        <SyncType>OwnerSync</SyncType>
+        <OverrideCategory>None</OverrideCategory>
+        <StatusEffect>Sapped</StatusEffect>
+        <Buildup>35</Buildup>
+      </DM_Effect>
+    </Effects>
+    <AdditionalDamages>
+      <AdditionalDamage>
+        <BonusDamageType>Ethereal</BonusDamageType>
+        <ConversionRatio>0.329999983</ConversionRatio>
+        <SourceDamageType>Physical</SourceDamageType>
+      </AdditionalDamage>
+    </AdditionalDamages>
+    <StatModifications />
+    <DamageBonus />
+    <DamageModifier />
+    <ElementalResistances />
+    <HealthAbsorbRatio>0</HealthAbsorbRatio>
+    <ManaAbsorbRatio>0</ManaAbsorbRatio>
+    <StaminaAbsorbRatio>0</StaminaAbsorbRatio>
+    <Indescructible>false</Indescructible>
+    <TrackDamageRatio>-1</TrackDamageRatio>
+  </Result>
+</DM_EnchantmentRecipe>
