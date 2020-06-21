@@ -3,7 +3,7 @@
   <SceneName>Vigil Pylon</SceneName>
   <Enemies>
     <QuantityHolder>
-      <Name>Ghost (7)</Name>
+      <Name>Ghost (4)</Name>
       <Quantity>7</Quantity>
     </QuantityHolder>
     <QuantityHolder>

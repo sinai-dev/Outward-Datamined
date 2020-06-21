@@ -4,7 +4,7 @@
   <saveDir>/Equipment/Weapon/MeleeWeapon</saveDir>
   <ItemID>5110096</ItemID>
   <Name>Wolf Chakram</Name>
-  <Description>Inflicts Cripple. Chakram spells are necessary to use this off-hand weapon.</Description>
+  <Description />
   <LegacyItemID>-1</LegacyItemID>
   <IsPickable>true</IsPickable>
   <IsUsable>false</IsUsable>
@@ -26,8 +26,8 @@
   </Tags>
   <StatsHolder xsi:type="DM_WeaponStats">
     <BaseValue>800</BaseValue>
-    <RawWeight>2</RawWeight>
-    <MaxDurability>375</MaxDurability>
+    <RawWeight>1</RawWeight>
+    <MaxDurability>300</MaxDurability>
     <Damage_Resistance>
       <float>0</float>
       <float>0</float>
@@ -62,40 +62,25 @@
     <AttackSpeed>1</AttackSpeed>
     <BaseDamage>
       <Damages>
-        <Damage>39</Damage>
+        <Damage>37</Damage>
         <Damage_Type>Physical</Damage_Type>
       </Damages>
     </BaseDamage>
-    <Impact>33</Impact>
+    <Impact>38</Impact>
     <StamCost>0</StamCost>
     <AutoGenerateAttackData>false</AutoGenerateAttackData>
     <Attacks>
       <AttackData>
         <StamCost>0</StamCost>
-        <Knockback>33</Knockback>
+        <Knockback>38</Knockback>
         <AttackSpeed>1</AttackSpeed>
         <Damage>
-          <float>39</float>
+          <float>37</float>
         </Damage>
       </AttackData>
     </Attacks>
   </StatsHolder>
-  <EffectTransforms>
-    <DM_EffectTransform>
-      <TransformName>HitEffects</TransformName>
-      <Effects>
-        <DM_Effect xsi:type="DM_AddStatusEffectBuildUp">
-          <Delay>0</Delay>
-          <SyncType>OwnerSync</SyncType>
-          <OverrideCategory>None</OverrideCategory>
-          <StatusEffect>Cripple</StatusEffect>
-          <Buildup>60</Buildup>
-        </DM_Effect>
-      </Effects>
-      <EffectConditions />
-      <ChildEffects />
-    </DM_EffectTransform>
-  </EffectTransforms>
+  <EffectTransforms />
   <EquipSlot>LeftHand</EquipSlot>
   <TwoHandType>None</TwoHandType>
   <IKType>None</IKType>

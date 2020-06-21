@@ -4,7 +4,7 @@
   <saveDir>/Equipment/Weapon/ProjectileWeapon</saveDir>
   <ItemID>5110180</ItemID>
   <Name>Galvanic Pistol</Name>
-  <Description>Inflicts Pain. Needs the Fire/Reload skill to shoot a bullet.</Description>
+  <Description />
   <LegacyItemID>-1</LegacyItemID>
   <IsPickable>true</IsPickable>
   <IsUsable>false</IsUsable>
@@ -25,9 +25,9 @@
     <string>Weapon</string>
   </Tags>
   <StatsHolder xsi:type="DM_WeaponStats">
-    <BaseValue>900</BaseValue>
-    <RawWeight>1</RawWeight>
-    <MaxDurability>200</MaxDurability>
+    <BaseValue>400</BaseValue>
+    <RawWeight>2</RawWeight>
+    <MaxDurability>150</MaxDurability>
     <Damage_Resistance>
       <float>0</float>
       <float>0</float>
@@ -62,72 +62,66 @@
     <AttackSpeed>1</AttackSpeed>
     <BaseDamage>
       <Damages>
-        <Damage>81</Damage>
+        <Damage>60.35</Damage>
         <Damage_Type>Physical</Damage_Type>
       </Damages>
+      <Damages>
+        <Damage>24.65</Damage>
+        <Damage_Type>Fire</Damage_Type>
+      </Damages>
     </BaseDamage>
-    <Impact>65</Impact>
+    <Impact>60</Impact>
     <StamCost>0</StamCost>
     <AutoGenerateAttackData>false</AutoGenerateAttackData>
     <Attacks>
       <AttackData>
         <StamCost>0</StamCost>
-        <Knockback>65</Knockback>
+        <Knockback>60</Knockback>
         <AttackSpeed>1</AttackSpeed>
         <Damage>
-          <float>81</float>
+          <float>60.35</float>
+          <float>24.65</float>
         </Damage>
       </AttackData>
       <AttackData>
         <StamCost>0</StamCost>
-        <Knockback>65</Knockback>
+        <Knockback>60</Knockback>
         <AttackSpeed>1</AttackSpeed>
         <Damage>
-          <float>81</float>
+          <float>60.35</float>
+          <float>24.65</float>
         </Damage>
       </AttackData>
       <AttackData>
         <StamCost>0</StamCost>
-        <Knockback>65</Knockback>
+        <Knockback>60</Knockback>
         <AttackSpeed>1</AttackSpeed>
         <Damage>
-          <float>81</float>
+          <float>60.35</float>
+          <float>24.65</float>
         </Damage>
       </AttackData>
       <AttackData>
         <StamCost>0</StamCost>
-        <Knockback>65</Knockback>
+        <Knockback>60</Knockback>
         <AttackSpeed>1</AttackSpeed>
         <Damage>
-          <float>81</float>
+          <float>60.35</float>
+          <float>24.65</float>
         </Damage>
       </AttackData>
       <AttackData>
         <StamCost>0</StamCost>
-        <Knockback>65</Knockback>
+        <Knockback>60</Knockback>
         <AttackSpeed>1</AttackSpeed>
         <Damage>
-          <float>81</float>
+          <float>60.35</float>
+          <float>24.65</float>
         </Damage>
       </AttackData>
     </Attacks>
   </StatsHolder>
-  <EffectTransforms>
-    <DM_EffectTransform>
-      <TransformName>HitEffects</TransformName>
-      <Effects>
-        <DM_Effect xsi:type="DM_AddStatusEffectBuildUp">
-          <Delay>0</Delay>
-          <SyncType>OwnerSync</SyncType>
-          <OverrideCategory>None</OverrideCategory>
-          <StatusEffect>Pain</StatusEffect>
-          <Buildup>60</Buildup>
-        </DM_Effect>
-      </Effects>
-      <EffectConditions />
-      <ChildEffects />
-    </DM_EffectTransform>
-  </EffectTransforms>
+  <EffectTransforms />
   <EquipSlot>LeftHand</EquipSlot>
   <TwoHandType>None</TwoHandType>
   <IKType>None</IKType>

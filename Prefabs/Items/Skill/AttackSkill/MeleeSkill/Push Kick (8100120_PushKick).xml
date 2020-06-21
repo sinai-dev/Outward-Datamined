@@ -89,7 +89,7 @@
                       <OverrideCategory>None</OverrideCategory>
                       <Damage>
                         <Damages>
-                          <Damage>60</Damage>
+                          <Damage>50</Damage>
                           <Damage_Type>Frost</Damage_Type>
                         </Damages>
                       </Damage>
@@ -168,5 +168,5 @@
   <Impact>-1</Impact>
   <LinecastCount>3</LinecastCount>
   <Radius>0.15</Radius>
-  <Unblockable>false</Unblockable>
+  <Unblockable>true</Unblockable>
 </DM_MeleeSkill>

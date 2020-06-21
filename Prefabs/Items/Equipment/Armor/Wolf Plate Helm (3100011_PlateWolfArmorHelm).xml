@@ -22,10 +22,7 @@
     <string>Helmet</string>
     <string>Equipment</string>
     <string>Item</string>
-    <string>Wolf</string>
-    <string>Family</string>
     <string>DecraftPalladium_Small</string>
-    <string>Decraft</string>
   </Tags>
   <StatsHolder xsi:type="DM_EquipmentStats">
     <BaseValue>350</BaseValue>

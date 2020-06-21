@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <DM_Enemy xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Name>Molten Forge Golem</Name>
-  <GameObject_Name>ForgeGolemRustLichMinion</GameObject_Name>
+  <GameObject_Name>ForgeGolemRedHot</GameObject_Name>
   <Unique_ID>1</Unique_ID>
   <Locations_Found>
-    <string>Antique Plateau:Forgotten Research Laboratory</string>
+    <string>Chersonese:Chersonese</string>
   </Locations_Found>
-  <Max_Health>110</Max_Health>
+  <Max_Health>225</Max_Health>
   <Health_Regen_Per_Second>0</Health_Regen_Per_Second>
-  <Impact_Resistance>0</Impact_Resistance>
+  <Impact_Resistance>30</Impact_Resistance>
   <Protection>
     <float>0</float>
     <float>0</float>
@@ -36,11 +36,11 @@
   <Collider_Radius>0.64</Collider_Radius>
   <True_WeaponDamage>
     <Damages>
-      <Damage>24</Damage>
+      <Damage>18</Damage>
       <Damage_Type>Physical</Damage_Type>
     </Damages>
     <Damages>
-      <Damage>8</Damage>
+      <Damage>6</Damage>
       <Damage_Type>Fire</Damage_Type>
     </Damages>
   </True_WeaponDamage>
@@ -51,18 +51,21 @@
     <string>Burning</string>
   </Status_Immunities>
   <Starting_Equipment>
-    <string>Forge Golem Red Hot Beak (2400202)</string>
+    <string>- (2400201)</string>
   </Starting_Equipment>
   <Skill_Knowledge>
-    <string>Forge Golem RustLichMinion Projectile (8300121)</string>
-    <string>Forge Golem RustLichMinion Projectile (8300122)</string>
-    <string>Forge golem RustLichMinion FlameThrower (8300123)</string>
-    <string>Forge golem RustLichMinion FlameThrower (8300124)</string>
-    <string>Forge golem RustLichMinion FlameThrower (8300125)</string>
+    <string>Forge Golem Light Shot (8300120)</string>
   </Skill_Knowledge>
-  <Faction>Merchants</Faction>
+  <Faction>Mercs</Faction>
   <Allied_To_Same_Faction>true</Allied_To_Same_Faction>
-  <Guaranteed_Drops />
+  <Guaranteed_Drops>
+    <DropTableEntry>
+      <Item_Name>Vigil Lock Key</Item_Name>
+      <Item_ID>5600025</Item_ID>
+      <Min_Quantity>1</Min_Quantity>
+      <Max_Quantity>1</Max_Quantity>
+    </DropTableEntry>
+  </Guaranteed_Drops>
   <DropTable_Names>
     <string>DropTable_GolemForgeHelperRedHot</string>
   </DropTable_Names>

@@ -3,7 +3,7 @@
   <SceneName>Vigil Tomb</SceneName>
   <Enemies>
     <QuantityHolder>
-      <Name>Ghost (5)</Name>
+      <Name>Ghost (1)</Name>
       <Quantity>2</Quantity>
     </QuantityHolder>
   </Enemies>

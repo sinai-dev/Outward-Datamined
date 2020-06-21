@@ -2,8 +2,8 @@
 <DM_StatusEffect xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <PresetID>1003</PresetID>
   <Identifier>Corrupt Negative</Identifier>
-  <Name>Corrupted</Name>
-  <Description>Hunger rate +[E2V1]%. Lightning Resistance [E1V1]%. </Description>
+  <Name>StatusEffect_Corruption_CorruptName</Name>
+  <Description>StatusEffect_Corruption_CorruptNegativeDesc</Description>
   <Lifespan>-1</Lifespan>
   <LengthType>Short</LengthType>
   <RefreshRate>0.1</RefreshRate>

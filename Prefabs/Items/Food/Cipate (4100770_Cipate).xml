@@ -4,60 +4,45 @@
   <saveDir>/Food</saveDir>
   <ItemID>4100770</ItemID>
   <Name>Cipate</Name>
-  <Description>A crustless meat pie with layers upon layers of meat. Provides excellent healing over time.</Description>
+  <Description />
   <LegacyItemID>-1</LegacyItemID>
   <IsPickable>true</IsPickable>
   <IsUsable>true</IsUsable>
   <QtyRemovedOnUse>1</QtyRemovedOnUse>
-  <GroupItemInDisplay>true</GroupItemInDisplay>
+  <GroupItemInDisplay>false</GroupItemInDisplay>
   <HasPhysicsWhenWorld>false</HasPhysicsWhenWorld>
   <RepairedInRest>true</RepairedInRest>
   <BehaviorOnNoDurability>NotSet</BehaviorOnNoDurability>
-  <CastType>Eat</CastType>
+  <CastType>Potion</CastType>
   <CastModifier>Immobilized</CastModifier>
   <CastLocomotionEnabled>false</CastLocomotionEnabled>
   <MobileCastMovementMult>-1</MobileCastMovementMult>
   <CastSheatheRequired>1</CastSheatheRequired>
-  <PerishTime>21 Days, 22 Hours, 18 Minutes, 56 Seconds</PerishTime>
   <Tags>
     <string>Consummable</string>
     <string>Item</string>
   </Tags>
   <StatsHolder>
-    <BaseValue>30</BaseValue>
+    <BaseValue>15</BaseValue>
     <RawWeight>0.5</RawWeight>
-    <MaxDurability>100</MaxDurability>
+    <MaxDurability>-1</MaxDurability>
   </StatsHolder>
   <EffectTransforms>
     <DM_EffectTransform>
       <TransformName>Effects</TransformName>
       <Effects>
-        <DM_Effect xsi:type="DM_AffectFood">
+        <DM_Effect xsi:type="DM_AffectDrink">
           <Delay>0</Delay>
           <SyncType>OwnerSync</SyncType>
           <OverrideCategory>None</OverrideCategory>
-          <AffectQuantity>220</AffectQuantity>
+          <AffectQuantity>50</AffectQuantity>
         </DM_Effect>
         <DM_Effect xsi:type="DM_AddStatusEffect">
           <Delay>0</Delay>
           <SyncType>OwnerSync</SyncType>
           <OverrideCategory>None</OverrideCategory>
-          <StatusEffect>Stability Up</StatusEffect>
-          <ChanceToContract>100</ChanceToContract>
-        </DM_Effect>
-        <DM_Effect xsi:type="DM_AddStatusEffect">
-          <Delay>0</Delay>
-          <SyncType>OwnerSync</SyncType>
-          <OverrideCategory>None</OverrideCategory>
-          <StatusEffect>Health Recovery 3</StatusEffect>
-          <ChanceToContract>100</ChanceToContract>
-        </DM_Effect>
-        <DM_Effect xsi:type="DM_AddStatusEffect">
-          <Delay>0</Delay>
-          <SyncType>OwnerSync</SyncType>
-          <OverrideCategory>None</OverrideCategory>
-          <StatusEffect>Environment Cold Resistance</StatusEffect>
-          <ChanceToContract>100</ChanceToContract>
+          <StatusEffect>Gaberry Wine</StatusEffect>
+          <ChanceToContract>101</ChanceToContract>
         </DM_Effect>
       </Effects>
       <EffectConditions />

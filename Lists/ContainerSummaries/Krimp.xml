@@ -4,10 +4,6 @@
   <ItemID>0</ItemID>
   <All_Locations>
     <QuantityHolder>
-      <Name>Antique Plateau:Abandoned Living Quarters</Name>
-      <Quantity>1</Quantity>
-    </QuantityHolder>
-    <QuantityHolder>
       <Name>Hallowed Marsh:Monsoon</Name>
       <Quantity>2</Quantity>
     </QuantityHolder>
@@ -52,7 +48,6 @@
     <DroptableSummary>
       <DropTableName>DropTable_Krimpnut</DropTableName>
       <Locations>
-        <string>Abandoned Living Quarters</string>
         <string>Monsoon</string>
         <string>Jade Quarry</string>
         <string>Reptilian Lair</string>

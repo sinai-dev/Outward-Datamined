@@ -20,40 +20,8 @@
           <Delay>0</Delay>
           <SyncType>OwnerSync</SyncType>
           <OverrideCategory>None</OverrideCategory>
-          <Stat_Tag>FrostResistance</Stat_Tag>
-          <AffectQuantity>20</AffectQuantity>
-          <IsModifier>false</IsModifier>
-        </DM_Effect>
-        <DM_Effect xsi:type="DM_AffectStat">
-          <Delay>0</Delay>
-          <SyncType>OwnerSync</SyncType>
-          <OverrideCategory>None</OverrideCategory>
-          <Stat_Tag>FireResistance</Stat_Tag>
-          <AffectQuantity>20</AffectQuantity>
-          <IsModifier>false</IsModifier>
-        </DM_Effect>
-        <DM_Effect xsi:type="DM_AffectStat">
-          <Delay>0</Delay>
-          <SyncType>OwnerSync</SyncType>
-          <OverrideCategory>None</OverrideCategory>
-          <Stat_Tag>ElectricResistance</Stat_Tag>
-          <AffectQuantity>20</AffectQuantity>
-          <IsModifier>false</IsModifier>
-        </DM_Effect>
-        <DM_Effect xsi:type="DM_AffectStat">
-          <Delay>0</Delay>
-          <SyncType>OwnerSync</SyncType>
-          <OverrideCategory>None</OverrideCategory>
-          <Stat_Tag>DecayResistance</Stat_Tag>
-          <AffectQuantity>20</AffectQuantity>
-          <IsModifier>false</IsModifier>
-        </DM_Effect>
-        <DM_Effect xsi:type="DM_AffectStat">
-          <Delay>0</Delay>
-          <SyncType>OwnerSync</SyncType>
-          <OverrideCategory>None</OverrideCategory>
           <Stat_Tag>EtherealResistance</Stat_Tag>
-          <AffectQuantity>20</AffectQuantity>
+          <AffectQuantity>40</AffectQuantity>
           <IsModifier>false</IsModifier>
         </DM_Effect>
       </Effects>

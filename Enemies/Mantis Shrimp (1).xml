@@ -4,7 +4,6 @@
   <GameObject_Name>MantisShrimp</GameObject_Name>
   <Unique_ID>1</Unique_ID>
   <Locations_Found>
-    <string>Antique Plateau:Antique Plateau</string>
     <string>Chersonese:Chersonese</string>
     <string>Chersonese:Voltaic Hatchery</string>
     <string>Chersonese:Starfish Cave</string>
@@ -56,7 +55,7 @@
     <string>LightningBolt (8300070)</string>
     <string>ShrimpExplosion (8300071)</string>
   </Skill_Knowledge>
-  <Faction>Golden</Faction>
+  <Faction>Tuanosaurs</Faction>
   <Allied_To_Same_Faction>true</Allied_To_Same_Faction>
   <Guaranteed_Drops />
   <DropTable_Names>

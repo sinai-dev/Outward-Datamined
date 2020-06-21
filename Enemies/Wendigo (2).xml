@@ -4,9 +4,7 @@
   <GameObject_Name>Wendigo</GameObject_Name>
   <Unique_ID>2</Unique_ID>
   <Locations_Found>
-    <string>Chersonese:Chersonese</string>
-    <string>Chersonese:Corrupted Tombs</string>
-    <string>Hallowed Marsh:Abandoned Shed</string>
+    <string>Chersonese:Bandits' Prison</string>
   </Locations_Found>
   <Max_Health>450</Max_Health>
   <Health_Regen_Per_Second>1.5</Health_Regen_Per_Second>
@@ -56,7 +54,14 @@
   </Skill_Knowledge>
   <Faction>Mercs</Faction>
   <Allied_To_Same_Faction>true</Allied_To_Same_Faction>
-  <Guaranteed_Drops />
+  <Guaranteed_Drops>
+    <DropTableEntry>
+      <Item_Name>Bandit Camp Key</Item_Name>
+      <Item_ID>5600023</Item_ID>
+      <Min_Quantity>1</Min_Quantity>
+      <Max_Quantity>1</Max_Quantity>
+    </DropTableEntry>
+  </Guaranteed_Drops>
   <DropTable_Names>
     <string>DropTable_Wendigo</string>
   </DropTable_Names>

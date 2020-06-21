@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <DM_Enemy xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Name>Mantis Shrimp</Name>
-  <GameObject_Name>MantisShrimp_Cultural_01</GameObject_Name>
+  <GameObject_Name>EliteMantisShrimp</GameObject_Name>
   <Unique_ID>2</Unique_ID>
   <Locations_Found>
-    <string>Antique Plateau:Antique Plateau</string>
+    <string>Other:Unknown Arena</string>
   </Locations_Found>
-  <Max_Health>250</Max_Health>
-  <Health_Regen_Per_Second>0</Health_Regen_Per_Second>
-  <Impact_Resistance>30</Impact_Resistance>
+  <Max_Health>3500</Max_Health>
+  <Health_Regen_Per_Second>1.5</Health_Regen_Per_Second>
+  <Impact_Resistance>85</Impact_Resistance>
   <Protection>
     <float>0</float>
     <float>0</float>
@@ -18,9 +18,9 @@
     <float>0</float>
   </Protection>
   <Damage_Resistances>
-    <float>20</float>
+    <float>60</float>
     <float>0</float>
-    <float>-40</float>
+    <float>0</float>
     <float>40</float>
     <float>-40</float>
     <float>0</float>
@@ -46,13 +46,13 @@
     <string>- (2400090)</string>
   </Starting_Equipment>
   <Skill_Knowledge>
-    <string>LightningBolt (8300070)</string>
-    <string>ShrimpExplosion (8300071)</string>
+    <string>ShrimpExplosion (8300072)</string>
+    <string>LightningBolt (8300074)</string>
+    <string>ShrimpExplosion (8300073)</string>
+    <string>LightningBolt (8300075)</string>
   </Skill_Knowledge>
-  <Faction>Golden</Faction>
+  <Faction>Bandits</Faction>
   <Allied_To_Same_Faction>true</Allied_To_Same_Faction>
   <Guaranteed_Drops />
-  <DropTable_Names>
-    <string>DropTable_MantisShrimp</string>
-  </DropTable_Names>
+  <DropTable_Names />
 </DM_Enemy>

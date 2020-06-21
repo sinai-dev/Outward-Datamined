@@ -22,8 +22,6 @@
     <string>Armor</string>
     <string>Equipment</string>
     <string>Item</string>
-    <string>Copal</string>
-    <string>Family</string>
   </Tags>
   <StatsHolder xsi:type="DM_EquipmentStats">
     <BaseValue>550</BaseValue>

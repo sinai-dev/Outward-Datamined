@@ -26,9 +26,6 @@ This off-hand weapon requires Dagger Skills to be used.</Description>
     <string>Dague</string>
     <string>Trinket</string>
     <string>DecraftIron_Small</string>
-    <string>Decraft</string>
-    <string>Iron</string>
-    <string>Family</string>
   </Tags>
   <StatsHolder xsi:type="DM_WeaponStats">
     <BaseValue>50</BaseValue>

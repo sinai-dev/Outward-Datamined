@@ -3,15 +3,15 @@
   <SceneName>Ghost Pass</SceneName>
   <Enemies>
     <QuantityHolder>
-      <Name>Ghost (5)</Name>
+      <Name>Ghost (1)</Name>
       <Quantity>7</Quantity>
     </QuantityHolder>
     <QuantityHolder>
-      <Name>Ghost (3)</Name>
+      <Name>Ghost (2)</Name>
       <Quantity>2</Quantity>
     </QuantityHolder>
     <QuantityHolder>
-      <Name>Illuminator Horror (4)</Name>
+      <Name>Illuminator Horror (1)</Name>
       <Quantity>2</Quantity>
     </QuantityHolder>
   </Enemies>

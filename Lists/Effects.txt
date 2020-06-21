@@ -18,12 +18,6 @@
 72	Mist Amplified
 73	Bless Amplified
 74	Possessed Amplified
-577	Titanic Golem 1
-578	Titanic Golem 2
-579	Titanic Golem 3
-596	EliteSupremeShellRage
-597	SupremeShellRage
-598	EliteSupremeShellDiscipline
 500	Cold1
 501	Cold2
 510	Infection1
@@ -97,23 +91,9 @@
 561	Alert
 562	Unerring Read
 563	Prime
-569	Harmattant Inn A
 56	Stun
-570	Harmattant Inn B
-571	Lockwell's Revelation Tired
-572	Lockwell's Revelation Very Tired
-573	Gift of Blood
-574	Gift of Blood Ally
-575	Blood Leech Victim
-576	Blood Leech
 57	Force Bubble
-582	Corruption Recovery 1
-583	Corruption Recovery 2
-587	Corruption Resistance 1
-588	Corruption Resistance 2
 58	Wind Imbue Stats
-592	ExtremeManaRegen1
-595	Scourge Tent Buff
 59	Passive Mana Regen
 5	Mana Ratio Recovery 3
 66	Immolate

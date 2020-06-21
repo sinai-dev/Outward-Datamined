@@ -2,9 +2,9 @@
 <DM_StatusEffect xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <PresetID>561</PresetID>
   <Identifier>Alert</Identifier>
-  <Name>Alert {1}</Name>
-  <Description>Extend the period of invulnerability when dodging but makes you more vulnerable to damage. </Description>
-  <Lifespan>240</Lifespan>
+  <Name>StatusEffect_Alert_Name</Name>
+  <Description>StatusEffect_Alert_Desc</Description>
+  <Lifespan>-1</Lifespan>
   <LengthType>Short</LengthType>
   <RefreshRate>60</RefreshRate>
   <BuildupRecoverySpeed>3</BuildupRecoverySpeed>

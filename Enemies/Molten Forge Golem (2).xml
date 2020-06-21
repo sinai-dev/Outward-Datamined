@@ -4,8 +4,6 @@
   <GameObject_Name>ForgeGolemRedHot</GameObject_Name>
   <Unique_ID>2</Unique_ID>
   <Locations_Found>
-    <string>Antique Plateau:Ancient Foundry</string>
-    <string>Antique Plateau:Destroyed Test Chambers</string>
     <string>Hallowed Marsh:Dark Ziggurat Interior</string>
     <string>Abrassar:Electric Lab</string>
     <string>Enmerkar Forest:Vigil Pylon</string>
@@ -60,7 +58,7 @@
   <Skill_Knowledge>
     <string>Forge Golem Light Shot (8300120)</string>
   </Skill_Knowledge>
-  <Faction>Mercs</Faction>
+  <Faction>Bandits</Faction>
   <Allied_To_Same_Faction>true</Allied_To_Same_Faction>
   <Guaranteed_Drops />
   <DropTable_Names>

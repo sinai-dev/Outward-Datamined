@@ -24,9 +24,6 @@
     <string>Item</string>
     <string>Blade</string>
     <string>DecraftPalladium_Small</string>
-    <string>Decraft</string>
-    <string>Gold</string>
-    <string>Family</string>
   </Tags>
   <StatsHolder xsi:type="DM_WeaponStats">
     <BaseValue>1000</BaseValue>

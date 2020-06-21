@@ -86,6 +86,8 @@ Strong shot that goes through enemies and hits other foes behind. Inflicts Extre
           <YMagnitudeForce>0</YMagnitudeForce>
           <DefenseLength>3</DefenseLength>
           <DefenseRange>3</DefenseRange>
+          <PhysicsLayerMask>67111424</PhysicsLayerMask>
+          <OnlyExplodeOnLayerMask>false</OnlyExplodeOnLayerMask>
           <ImpactSoundMaterial>Metal_Sharp</ImpactSoundMaterial>
           <LightIntensityFade>
             <x>10</x>

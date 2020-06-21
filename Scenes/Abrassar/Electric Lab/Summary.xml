@@ -3,19 +3,19 @@
   <SceneName>Electric Lab</SceneName>
   <Enemies>
     <QuantityHolder>
-      <Name>Forge Golem (4)</Name>
+      <Name>Forge Golem (1)</Name>
       <Quantity>4</Quantity>
     </QuantityHolder>
     <QuantityHolder>
-      <Name>Sword Golem (5)</Name>
+      <Name>Sword Golem (1)</Name>
       <Quantity>1</Quantity>
     </QuantityHolder>
     <QuantityHolder>
-      <Name>Beast Golem (3)</Name>
+      <Name>Beast Golem (1)</Name>
       <Quantity>2</Quantity>
     </QuantityHolder>
     <QuantityHolder>
-      <Name>Ghost (5)</Name>
+      <Name>Ghost (1)</Name>
       <Quantity>1</Quantity>
     </QuantityHolder>
     <QuantityHolder>
@@ -23,7 +23,7 @@
       <Quantity>2</Quantity>
     </QuantityHolder>
     <QuantityHolder>
-      <Name>Ghost (3)</Name>
+      <Name>Ghost (2)</Name>
       <Quantity>1</Quantity>
     </QuantityHolder>
     <QuantityHolder>
@@ -31,7 +31,7 @@
       <Quantity>3</Quantity>
     </QuantityHolder>
     <QuantityHolder>
-      <Name>Sword Golem (16)</Name>
+      <Name>Sword Golem (5)</Name>
       <Quantity>1</Quantity>
     </QuantityHolder>
   </Enemies>

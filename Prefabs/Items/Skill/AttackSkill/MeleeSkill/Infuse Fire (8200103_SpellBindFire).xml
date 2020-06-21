@@ -114,7 +114,6 @@ Temporarily adds Fire damage to your melee weapon and inflicts Burning on enemie
     <WeaponType>Axe_2H</WeaponType>
     <WeaponType>Mace_2H</WeaponType>
     <WeaponType>Spear_2H</WeaponType>
-    <WeaponType>FistW_2H</WeaponType>
   </RequiredWeaponTypes>
   <RequiredWeaponTags />
   <RequireImbue>false</RequireImbue>

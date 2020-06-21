@@ -4,10 +4,6 @@
   <ItemID>0</ItemID>
   <All_Locations>
     <QuantityHolder>
-      <Name>Antique Plateau:Antique Plateau</Name>
-      <Quantity>20</Quantity>
-    </QuantityHolder>
-    <QuantityHolder>
       <Name>Chersonese:Chersonese</Name>
       <Quantity>20</Quantity>
     </QuantityHolder>
@@ -28,23 +24,10 @@
     <DroptableSummary>
       <DropTableName>DropTable_Neutral_WeaponStash_3</DropTableName>
       <Locations>
-        <string>Antique Plateau</string>
         <string>Chersonese</string>
         <string>Hallowed Marsh</string>
         <string>Abrassar</string>
         <string>Enmerkar Forest</string>
-      </Locations>
-    </DroptableSummary>
-    <DroptableSummary>
-      <DropTableName>DropTable_AntiqueField_Recipe_Enchantment_1</DropTableName>
-      <Locations>
-        <string>Antique Plateau</string>
-      </Locations>
-    </DroptableSummary>
-    <DroptableSummary>
-      <DropTableName>DropTable_AntiqueField_Recipe_Basic_1</DropTableName>
-      <Locations>
-        <string>Antique Plateau</string>
       </Locations>
     </DroptableSummary>
   </DropTables>

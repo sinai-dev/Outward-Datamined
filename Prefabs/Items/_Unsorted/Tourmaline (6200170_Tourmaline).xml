@@ -4,7 +4,7 @@
   <saveDir>/_Unsorted</saveDir>
   <ItemID>6200170</ItemID>
   <Name>Tourmaline</Name>
-  <Description>A moderately sized precious stone.</Description>
+  <Description />
   <LegacyItemID>-1</LegacyItemID>
   <IsPickable>true</IsPickable>
   <IsUsable>false</IsUsable>
@@ -27,7 +27,7 @@
     <string>Valuable</string>
   </Tags>
   <StatsHolder>
-    <BaseValue>60</BaseValue>
+    <BaseValue>49</BaseValue>
     <RawWeight>0.2</RawWeight>
     <MaxDurability>-1</MaxDurability>
   </StatsHolder>

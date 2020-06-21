@@ -25,7 +25,6 @@ Its bold color makes it stand out in the snowy landscape.</Description>
     <string>Weapon</string>
     <string>Item</string>
     <string>DecraftPalladium_Small</string>
-    <string>Decraft</string>
   </Tags>
   <StatsHolder xsi:type="DM_WeaponStats">
     <BaseValue>900</BaseValue>

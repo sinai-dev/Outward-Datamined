@@ -4,7 +4,6 @@
   <GameObject_Name>Troglodyte</GameObject_Name>
   <Unique_ID>1</Unique_ID>
   <Locations_Found>
-    <string>Antique Plateau:Abandoned Living Quarters</string>
     <string>Chersonese:Blister Burrow</string>
     <string>Chersonese:Blue Chamber’s Conflux Path</string>
     <string>Chersonese:Holy Mission’s Conflux Path</string>
@@ -53,7 +52,7 @@
     <string>Troglodyte Trident (2130080)</string>
   </Starting_Equipment>
   <Skill_Knowledge />
-  <Faction>Mercs</Faction>
+  <Faction>Bandits</Faction>
   <Allied_To_Same_Faction>true</Allied_To_Same_Faction>
   <Guaranteed_Drops>
     <DropTableEntry>

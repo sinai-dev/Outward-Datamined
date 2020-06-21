@@ -23,9 +23,6 @@
     <string>Equipment</string>
     <string>Item</string>
     <string>DecraftHide_Small</string>
-    <string>Decraft</string>
-    <string>Scavenger</string>
-    <string>Family</string>
   </Tags>
   <StatsHolder xsi:type="DM_EquipmentStats">
     <BaseValue>62</BaseValue>

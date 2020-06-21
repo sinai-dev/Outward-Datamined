@@ -131,13 +131,6 @@
           <StatusEffect>Curse</StatusEffect>
           <Buildup>75</Buildup>
         </DM_Effect>
-        <DM_Effect xsi:type="DM_AffectCorruption">
-          <Delay>0</Delay>
-          <SyncType>OwnerSync</SyncType>
-          <OverrideCategory>None</OverrideCategory>
-          <AffectQuantity>7</AffectQuantity>
-          <IsRaw>false</IsRaw>
-        </DM_Effect>
       </Effects>
       <EffectConditions />
       <ChildEffects />

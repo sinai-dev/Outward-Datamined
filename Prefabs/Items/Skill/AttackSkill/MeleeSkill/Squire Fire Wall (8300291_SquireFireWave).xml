@@ -135,6 +135,8 @@
           <YMagnitudeForce>0</YMagnitudeForce>
           <DefenseLength>0</DefenseLength>
           <DefenseRange>6</DefenseRange>
+          <PhysicsLayerMask>4198400</PhysicsLayerMask>
+          <OnlyExplodeOnLayerMask>true</OnlyExplodeOnLayerMask>
           <ImpactSoundMaterial>Metal_Sharp</ImpactSoundMaterial>
           <LightIntensityFade>
             <x>10</x>

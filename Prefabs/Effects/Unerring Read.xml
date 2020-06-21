@@ -2,8 +2,8 @@
 <DM_StatusEffect xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <PresetID>562</PresetID>
   <Identifier>Unerring Read</Identifier>
-  <Name>Unerring Read</Name>
-  <Description />
+  <Name>StatusEffect_UnerringRead_Name</Name>
+  <Description>StatusEffect_UnerringRead_Desc</Description>
   <Lifespan>20</Lifespan>
   <LengthType>Short</LengthType>
   <RefreshRate>1</RefreshRate>

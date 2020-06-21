@@ -28,7 +28,8 @@
           <SyncType>OwnerSync</SyncType>
           <OverrideCategory>None</OverrideCategory>
           <Sounds>
-            <Sounds>CS_SupremeShell_RageScream_03</Sounds>
+            <Sounds>CS_Human_Yelling6</Sounds>
+            <Sounds>CS_Human_Yelling5</Sounds>
           </Sounds>
           <Follow>true</Follow>
           <MinPitch>1</MinPitch>
@@ -118,7 +119,7 @@
           <Delay>0</Delay>
           <SyncType>OwnerSync</SyncType>
           <OverrideCategory>None</OverrideCategory>
-          <StatusEffect>SupremeShellRage</StatusEffect>
+          <StatusEffect>Rage</StatusEffect>
           <ChanceToContract>100</ChanceToContract>
           <AmplifiedEffect>Rage Amplified</AmplifiedEffect>
         </DM_Effect>
@@ -137,7 +138,7 @@
           <EffectConditions>
             <DM_EffectCondition xsi:type="DM_StatusEffectCondition">
               <Invert>false</Invert>
-              <StatusIdentifier>EliteSupremeShellRage</StatusIdentifier>
+              <StatusIdentifier>Rage</StatusIdentifier>
             </DM_EffectCondition>
           </EffectConditions>
           <ChildEffects />

@@ -104,6 +104,8 @@
           <YMagnitudeForce>0</YMagnitudeForce>
           <DefenseLength>3</DefenseLength>
           <DefenseRange>3</DefenseRange>
+          <PhysicsLayerMask>0</PhysicsLayerMask>
+          <OnlyExplodeOnLayerMask>false</OnlyExplodeOnLayerMask>
           <ImpactSoundMaterial>Metal_Sharp</ImpactSoundMaterial>
           <LightIntensityFade>
             <x>10</x>
@@ -138,8 +140,8 @@
                   <Delay>0</Delay>
                   <SyncType>OwnerSync</SyncType>
                   <OverrideCategory>None</OverrideCategory>
-                  <StatusEffect>Sapped</StatusEffect>
-                  <Buildup>45</Buildup>
+                  <StatusEffect>Burn</StatusEffect>
+                  <Buildup>34</Buildup>
                 </DM_Effect>
               </Effects>
               <EffectConditions />

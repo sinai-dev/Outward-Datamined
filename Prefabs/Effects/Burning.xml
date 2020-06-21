@@ -2,7 +2,7 @@
 <DM_StatusEffect xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <PresetID>36</PresetID>
   <Identifier>Burning</Identifier>
-  <Name>Burning</Name>
+  <Name>Scorched</Name>
   <Description>Take [E1V1] Fire Damage per second.</Description>
   <Lifespan>40</Lifespan>
   <LengthType>Short</LengthType>

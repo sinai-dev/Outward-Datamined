@@ -4,7 +4,7 @@
   <saveDir>/Consumable</saveDir>
   <ItemID>4300210</ItemID>
   <Name>Warrior Elixir</Name>
-  <Description>Powerful concoction that temporarily increases the Physical Damage and Impact your attacks deal and grants the Discipline boon.</Description>
+  <Description>Powerful concoction that temporarily increases the Physical Damage and Impact your attacks deal dealt and grants the Discipline boon.</Description>
   <LegacyItemID>-1</LegacyItemID>
   <IsPickable>true</IsPickable>
   <IsUsable>true</IsUsable>

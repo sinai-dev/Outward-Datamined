@@ -23,9 +23,6 @@
     <string>Weapon</string>
     <string>Item</string>
     <string>DecraftIron_Small</string>
-    <string>Decraft</string>
-    <string>Brutal</string>
-    <string>Family</string>
   </Tags>
   <StatsHolder xsi:type="DM_WeaponStats">
     <BaseValue>200</BaseValue>

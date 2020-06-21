@@ -23,8 +23,6 @@
     <string>Armor</string>
     <string>Equipment</string>
     <string>Item</string>
-    <string>LightCloths</string>
-    <string>Family</string>
   </Tags>
   <StatsHolder xsi:type="DM_EquipmentStats">
     <BaseValue>35</BaseValue>

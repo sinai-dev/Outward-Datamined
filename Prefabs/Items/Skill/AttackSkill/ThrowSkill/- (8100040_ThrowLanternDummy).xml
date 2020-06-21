@@ -65,6 +65,8 @@
           <YMagnitudeForce>0</YMagnitudeForce>
           <DefenseLength>0</DefenseLength>
           <DefenseRange>3</DefenseRange>
+          <PhysicsLayerMask>0</PhysicsLayerMask>
+          <OnlyExplodeOnLayerMask>false</OnlyExplodeOnLayerMask>
           <ImpactSoundMaterial>Goo</ImpactSoundMaterial>
           <LightIntensityFade>
             <x>0</x>

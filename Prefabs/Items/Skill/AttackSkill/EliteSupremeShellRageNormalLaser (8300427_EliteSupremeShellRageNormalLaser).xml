@@ -28,8 +28,8 @@
           <SyncType>OwnerSync</SyncType>
           <OverrideCategory>None</OverrideCategory>
           <Sounds>
-            <Sounds>CS_SupremeShell_Attack_Grunt_02</Sounds>
-            <Sounds>CS_SupremeShell_Rage_Scream_02</Sounds>
+            <Sounds>CS_Human_Yelling6</Sounds>
+            <Sounds>CS_Human_Yelling5</Sounds>
           </Sounds>
           <Follow>true</Follow>
           <MinPitch>1</MinPitch>
@@ -82,24 +82,17 @@
                   <OverrideCategory>None</OverrideCategory>
                   <Damage>
                     <Damages>
-                      <Damage>15</Damage>
-                      <Damage_Type>Decay</Damage_Type>
+                      <Damage>10</Damage>
+                      <Damage_Type>Physical</Damage_Type>
                     </Damages>
                     <Damages>
                       <Damage>5</Damage>
-                      <Damage_Type>Raw</Damage_Type>
+                      <Damage_Type>Decay</Damage_Type>
                     </Damages>
                   </Damage>
                   <Damages_AI />
                   <Knockback>100</Knockback>
                   <HitInventory>true</HitInventory>
-                </DM_Effect>
-                <DM_Effect xsi:type="DM_AffectCorruption">
-                  <Delay>0</Delay>
-                  <SyncType>OwnerSync</SyncType>
-                  <OverrideCategory>None</OverrideCategory>
-                  <AffectQuantity>70</AffectQuantity>
-                  <IsRaw>false</IsRaw>
                 </DM_Effect>
               </Effects>
               <EffectConditions />
@@ -122,7 +115,7 @@
           <EffectConditions>
             <DM_EffectCondition xsi:type="DM_StatusEffectCondition">
               <Invert>false</Invert>
-              <StatusIdentifier>EliteSupremeShellRage</StatusIdentifier>
+              <StatusIdentifier>Rage</StatusIdentifier>
             </DM_EffectCondition>
           </EffectConditions>
           <ChildEffects />

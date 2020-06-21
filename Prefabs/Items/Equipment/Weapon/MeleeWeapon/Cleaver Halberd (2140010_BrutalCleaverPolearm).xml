@@ -24,9 +24,6 @@
     <string>Item</string>
     <string>Pole Arm</string>
     <string>DecraftIron_Small</string>
-    <string>Decraft</string>
-    <string>Brutal</string>
-    <string>Family</string>
   </Tags>
   <StatsHolder xsi:type="DM_WeaponStats">
     <BaseValue>250</BaseValue>

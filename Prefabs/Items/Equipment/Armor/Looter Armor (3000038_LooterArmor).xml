@@ -19,10 +19,10 @@
   <MobileCastMovementMult>-1</MobileCastMovementMult>
   <CastSheatheRequired>1</CastSheatheRequired>
   <Tags>
-    <string>Item</string>
     <string>Basic Armor</string>
     <string>Armor</string>
     <string>Equipment</string>
+    <string>Item</string>
   </Tags>
   <StatsHolder xsi:type="DM_EquipmentStats">
     <BaseValue>17</BaseValue>
@@ -39,7 +39,7 @@
       <float>0</float>
       <float>0</float>
     </Damage_Resistance>
-    <Impact_Resistance>5</Impact_Resistance>
+    <Impact_Resistance>11</Impact_Resistance>
     <Damage_Protection>0</Damage_Protection>
     <Damage_Bonus>
       <float>0</float>

@@ -3,7 +3,7 @@
   <SceneName>In Between</SceneName>
   <Enemies>
     <QuantityHolder>
-      <Name>Shell Horror (6)</Name>
+      <Name>Shell Horror (3)</Name>
       <Quantity>6</Quantity>
     </QuantityHolder>
   </Enemies>

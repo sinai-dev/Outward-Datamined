@@ -1,10 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <DM_Enemy xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Name>Beast Golem</Name>
-  <GameObject_Name>BeastGolem_OldHarmattan_01</GameObject_Name>
+  <GameObject_Name>BeastGolem</GameObject_Name>
   <Unique_ID>1</Unique_ID>
   <Locations_Found>
-    <string>Antique Plateau:Antique Plateau</string>
+    <string>Hallowed Marsh:Dark Ziggurat Interior</string>
+    <string>Abrassar:Abrassar</string>
+    <string>Abrassar:Electric Lab</string>
+    <string>Enmerkar Forest:Enmerkar Forest</string>
+    <string>Enmerkar Forest:Tree Husk</string>
   </Locations_Found>
   <Max_Health>225</Max_Health>
   <Health_Regen_Per_Second>0</Health_Regen_Per_Second>
@@ -53,7 +57,7 @@
     <string>SideBite (8300130)</string>
     <string>SideBite2 (8300131)</string>
   </Skill_Knowledge>
-  <Faction>Hounds</Faction>
+  <Faction>Bandits</Faction>
   <Allied_To_Same_Faction>true</Allied_To_Same_Faction>
   <Guaranteed_Drops />
   <DropTable_Names>

@@ -2,8 +2,8 @@
 <DM_StatusEffect xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <PresetID>559</PresetID>
   <Identifier>Sapped</Identifier>
-  <Name>Sapped</Name>
-  <Description>Elemental Damage [E1V1]%.</Description>
+  <Name>StatusEffect_Sapped_Name</Name>
+  <Description>StatusEffect_Sapped_Desc</Description>
   <Lifespan>60</Lifespan>
   <LengthType>Short</LengthType>
   <RefreshRate>60</RefreshRate>

@@ -23,9 +23,6 @@
     <string>Equipment</string>
     <string>Item</string>
     <string>DecraftIron_Small</string>
-    <string>Decraft</string>
-    <string>Runic</string>
-    <string>Family</string>
   </Tags>
   <StatsHolder xsi:type="DM_EquipmentStats">
     <BaseValue>350</BaseValue>

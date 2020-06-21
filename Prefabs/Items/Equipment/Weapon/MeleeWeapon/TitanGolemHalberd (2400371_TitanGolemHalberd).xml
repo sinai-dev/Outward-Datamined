@@ -61,52 +61,52 @@
     <AttackSpeed>1</AttackSpeed>
     <BaseDamage>
       <Damages>
-        <Damage>45</Damage>
+        <Damage>28</Damage>
         <Damage_Type>Physical</Damage_Type>
       </Damages>
     </BaseDamage>
-    <Impact>110</Impact>
+    <Impact>70</Impact>
     <StamCost>1.25</StamCost>
     <AutoGenerateAttackData>false</AutoGenerateAttackData>
     <Attacks>
       <AttackData>
         <StamCost>1.25</StamCost>
-        <Knockback>110</Knockback>
+        <Knockback>70</Knockback>
         <AttackSpeed>1</AttackSpeed>
         <Damage>
-          <float>45</float>
+          <float>28</float>
         </Damage>
       </AttackData>
       <AttackData>
         <StamCost>1.25</StamCost>
-        <Knockback>130</Knockback>
+        <Knockback>70</Knockback>
         <AttackSpeed>1</AttackSpeed>
         <Damage>
-          <float>60</float>
+          <float>28</float>
         </Damage>
       </AttackData>
       <AttackData>
         <StamCost>1.25</StamCost>
-        <Knockback>110</Knockback>
+        <Knockback>86</Knockback>
         <AttackSpeed>1</AttackSpeed>
         <Damage>
-          <float>45</float>
+          <float>31</float>
         </Damage>
       </AttackData>
       <AttackData>
         <StamCost>1.25</StamCost>
-        <Knockback>130</Knockback>
+        <Knockback>86</Knockback>
         <AttackSpeed>1</AttackSpeed>
         <Damage>
-          <float>38</float>
+          <float>31</float>
         </Damage>
       </AttackData>
       <AttackData>
         <StamCost>1.25</StamCost>
-        <Knockback>110</Knockback>
+        <Knockback>86</Knockback>
         <AttackSpeed>1</AttackSpeed>
         <Damage>
-          <float>41</float>
+          <float>31</float>
         </Damage>
       </AttackData>
     </Attacks>
@@ -119,7 +119,7 @@
           <Delay>0</Delay>
           <SyncType>OwnerSync</SyncType>
           <OverrideCategory>None</OverrideCategory>
-          <StatusEffect>Bleeding +</StatusEffect>
+          <StatusEffect>Bleeding</StatusEffect>
           <Buildup>45</Buildup>
         </DM_Effect>
       </Effects>

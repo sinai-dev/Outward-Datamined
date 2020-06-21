@@ -4,38 +4,6 @@
   <ItemID>0</ItemID>
   <All_Locations>
     <QuantityHolder>
-      <Name>Antique Plateau:Antique Plateau</Name>
-      <Quantity>2</Quantity>
-    </QuantityHolder>
-    <QuantityHolder>
-      <Name>Antique Plateau:Forgotten Research Laboratory</Name>
-      <Quantity>2</Quantity>
-    </QuantityHolder>
-    <QuantityHolder>
-      <Name>Antique Plateau:Ruined Warehouse</Name>
-      <Quantity>2</Quantity>
-    </QuantityHolder>
-    <QuantityHolder>
-      <Name>Antique Plateau:Crumbling Loading Docks</Name>
-      <Quantity>1</Quantity>
-    </QuantityHolder>
-    <QuantityHolder>
-      <Name>Antique Plateau:Destroyed Test Chambers</Name>
-      <Quantity>1</Quantity>
-    </QuantityHolder>
-    <QuantityHolder>
-      <Name>Antique Plateau:Compromised Mana Transfer Station</Name>
-      <Quantity>1</Quantity>
-    </QuantityHolder>
-    <QuantityHolder>
-      <Name>Other:Unknown Arena</Name>
-      <Quantity>15</Quantity>
-    </QuantityHolder>
-    <QuantityHolder>
-      <Name>Antique Plateau:Blood Mage Hideout</Name>
-      <Quantity>3</Quantity>
-    </QuantityHolder>
-    <QuantityHolder>
       <Name>Chersonese:Cierzo</Name>
       <Quantity>1</Quantity>
     </QuantityHolder>
@@ -74,6 +42,10 @@
     <QuantityHolder>
       <Name>Chersonese:Mansion's Cellar</Name>
       <Quantity>1</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Other:Unknown Arena</Name>
+      <Quantity>12</Quantity>
     </QuantityHolder>
     <QuantityHolder>
       <Name>Hallowed Marsh:Jade Quarry</Name>
@@ -154,277 +126,6 @@
   </All_Locations>
   <DropTables>
     <DroptableSummary>
-      <DropTableName>DropTable_AntiqueField_PureChittin_1</DropTableName>
-      <Locations>
-        <string>Antique Plateau</string>
-      </Locations>
-    </DroptableSummary>
-    <DroptableSummary>
-      <DropTableName>DropTable_AntiqueField_Equipment_High_1</DropTableName>
-      <Locations>
-        <string>Antique Plateau</string>
-        <string>Forgotten Research Laboratory</string>
-        <string>Ruined Warehouse</string>
-        <string>Crumbling Loading Docks</string>
-        <string>Destroyed Test Chambers</string>
-        <string>Compromised Mana Transfer Station</string>
-        <string>Blood Mage Hideout</string>
-      </Locations>
-    </DroptableSummary>
-    <DroptableSummary>
-      <DropTableName>DropTable_AntiqueField_Equipment_Medium_1</DropTableName>
-      <Locations>
-        <string>Antique Plateau</string>
-      </Locations>
-    </DroptableSummary>
-    <DroptableSummary>
-      <DropTableName>DropTable_Neutral_Consumable_High_1</DropTableName>
-      <Locations>
-        <string>Antique Plateau</string>
-        <string>Forgotten Research Laboratory</string>
-        <string>Ruined Warehouse</string>
-        <string>Crumbling Loading Docks</string>
-        <string>Destroyed Test Chambers</string>
-        <string>Compromised Mana Transfer Station</string>
-        <string>Cierzo</string>
-        <string>Vendavel Fortress</string>
-        <string>Ghost Pass</string>
-        <string>Voltaic Hatchery</string>
-        <string>Bandits' Prison</string>
-        <string>Mansion's Cellar</string>
-        <string>Dark Ziggurat Interior</string>
-        <string>Spire of Light</string>
-        <string>Ziggurat Passage</string>
-        <string>Abandoned Ziggurat</string>
-        <string>Abrassar</string>
-        <string>Undercity Passage</string>
-        <string>The Slide</string>
-        <string>Sand Rose Cave</string>
-        <string>Cabal of Wind Outpost</string>
-        <string>Enmerkar Forest</string>
-        <string>Royal Manticore’s Lair</string>
-      </Locations>
-    </DroptableSummary>
-    <DroptableSummary>
-      <DropTableName>DropTable_Neutral_Magic_High_1</DropTableName>
-      <Locations>
-        <string>Antique Plateau</string>
-        <string>Forgotten Research Laboratory</string>
-        <string>Ruined Warehouse</string>
-        <string>Destroyed Test Chambers</string>
-        <string>Compromised Mana Transfer Station</string>
-        <string>Blood Mage Hideout</string>
-        <string>Chersonese</string>
-        <string>Vendavel Fortress</string>
-        <string>Ghost Pass</string>
-        <string>Montcalm Clan Fort</string>
-        <string>Jade Quarry</string>
-        <string>Abandoned Ziggurat</string>
-        <string>Abrassar</string>
-        <string>Undercity Passage</string>
-        <string>Ancient Hive</string>
-        <string>Cabal of Wind Outpost</string>
-        <string>Royal Manticore’s Lair</string>
-      </Locations>
-    </DroptableSummary>
-    <DroptableSummary>
-      <DropTableName>DropTable_Neutral_Alchemy_High_1</DropTableName>
-      <Locations>
-        <string>Antique Plateau</string>
-        <string>Forgotten Research Laboratory</string>
-        <string>Ruined Warehouse</string>
-        <string>Crumbling Loading Docks</string>
-        <string>Destroyed Test Chambers</string>
-        <string>Cierzo (Destroyed)</string>
-        <string>Voltaic Hatchery</string>
-        <string>Dark Ziggurat Interior</string>
-        <string>Spire of Light</string>
-        <string>Ziggurat Passage</string>
-        <string>Abrassar</string>
-        <string>The Slide</string>
-        <string>Ancient Hive</string>
-        <string>Sand Rose Cave</string>
-        <string>Enmerkar Forest</string>
-        <string>Royal Manticore’s Lair</string>
-        <string>Cabal of Wind Temple</string>
-        <string>Face of the Ancients</string>
-        <string>Vigil Pylon</string>
-      </Locations>
-    </DroptableSummary>
-    <DroptableSummary>
-      <DropTableName>DropTable_AntiqueField_Recipe_Weapon_1</DropTableName>
-      <Locations>
-        <string>Antique Plateau</string>
-        <string>Ruined Warehouse</string>
-        <string>Crumbling Loading Docks</string>
-        <string>Destroyed Test Chambers</string>
-        <string>Blood Mage Hideout</string>
-      </Locations>
-    </DroptableSummary>
-    <DroptableSummary>
-      <DropTableName>DropTable_AntiqueField_Recipe_Enchantment_1</DropTableName>
-      <Locations>
-        <string>Antique Plateau</string>
-        <string>Forgotten Research Laboratory</string>
-        <string>Ruined Warehouse</string>
-        <string>Crumbling Loading Docks</string>
-        <string>Destroyed Test Chambers</string>
-        <string>Compromised Mana Transfer Station</string>
-        <string>Blood Mage Hideout</string>
-      </Locations>
-    </DroptableSummary>
-    <DroptableSummary>
-      <DropTableName>DropTable_AntiqueField_Tourmaline_1</DropTableName>
-      <Locations>
-        <string>Antique Plateau</string>
-      </Locations>
-    </DroptableSummary>
-    <DroptableSummary>
-      <DropTableName>DropTable_AntiqueField_Consumable_1</DropTableName>
-      <Locations>
-        <string>Antique Plateau</string>
-        <string>Blood Mage Hideout</string>
-      </Locations>
-    </DroptableSummary>
-    <DroptableSummary>
-      <DropTableName>DropTable_AntiqueField_Alchemy_1</DropTableName>
-      <Locations>
-        <string>Antique Plateau</string>
-        <string>Blood Mage Hideout</string>
-      </Locations>
-    </DroptableSummary>
-    <DroptableSummary>
-      <DropTableName>DropTable_AntiqueField_Recipe_Basic_1</DropTableName>
-      <Locations>
-        <string>Antique Plateau</string>
-      </Locations>
-    </DroptableSummary>
-    <DroptableSummary>
-      <DropTableName>DropTable_Neutral_Cloth_Rich_1</DropTableName>
-      <Locations>
-        <string>Antique Plateau</string>
-        <string>Crumbling Loading Docks</string>
-        <string>Compromised Mana Transfer Station</string>
-        <string>Vigil Pylon</string>
-      </Locations>
-    </DroptableSummary>
-    <DroptableSummary>
-      <DropTableName>DropTable_AntiqueField_Equipment_HighDungeon_1</DropTableName>
-      <Locations>
-        <string>Forgotten Research Laboratory</string>
-        <string>Ruined Warehouse</string>
-        <string>Destroyed Test Chambers</string>
-        <string>Compromised Mana Transfer Station</string>
-        <string>Blood Mage Hideout</string>
-      </Locations>
-    </DroptableSummary>
-    <DroptableSummary>
-      <DropTableName>DropTable_Neutral_Alchemy_Low_2</DropTableName>
-      <Locations>
-        <string>Forgotten Research Laboratory</string>
-        <string>Vendavel Fortress</string>
-        <string>Corrupted Tombs</string>
-        <string>Dead Tree</string>
-        <string>Enmerkar Forest</string>
-        <string>Forest Hives</string>
-        <string>Face of the Ancients</string>
-        <string>Ancestor’s Resting Place</string>
-      </Locations>
-    </DroptableSummary>
-    <DroptableSummary>
-      <DropTableName>DropTable_Neutral_Recipe_Dungeon_1</DropTableName>
-      <Locations>
-        <string>Forgotten Research Laboratory</string>
-        <string>Ruined Warehouse</string>
-        <string>Compromised Mana Transfer Station</string>
-        <string>Cierzo</string>
-        <string>Ghost Pass</string>
-        <string>Voltaic Hatchery</string>
-        <string>Corrupted Tombs</string>
-        <string>Bandits' Prison</string>
-        <string>Dark Ziggurat Interior</string>
-        <string>Spire of Light</string>
-        <string>Ziggurat Passage</string>
-        <string>Dead Tree</string>
-        <string>Undercity Passage</string>
-        <string>The Slide</string>
-        <string>Ancient Hive</string>
-        <string>Cabal of Wind Outpost</string>
-        <string>Enmerkar Forest</string>
-        <string>Royal Manticore’s Lair</string>
-        <string>Cabal of Wind Temple</string>
-        <string>Ancestor’s Resting Place</string>
-        <string>Vigil Pylon</string>
-      </Locations>
-    </DroptableSummary>
-    <DroptableSummary>
-      <DropTableName>DropTable_Neutral_Valuable_High_1</DropTableName>
-      <Locations>
-        <string>Forgotten Research Laboratory</string>
-        <string>Ruined Warehouse</string>
-        <string>Crumbling Loading Docks</string>
-        <string>Compromised Mana Transfer Station</string>
-        <string>Cierzo</string>
-        <string>Ghost Pass</string>
-        <string>Bandits' Prison</string>
-        <string>Mansion's Cellar</string>
-        <string>Dark Ziggurat Interior</string>
-        <string>Spire of Light</string>
-        <string>Ziggurat Passage</string>
-        <string>Dead Tree</string>
-        <string>Abandoned Ziggurat</string>
-        <string>Abrassar</string>
-        <string>Undercity Passage</string>
-        <string>The Slide</string>
-        <string>Ancient Hive</string>
-        <string>Sand Rose Cave</string>
-        <string>Cabal of Wind Outpost</string>
-        <string>Forest Hives</string>
-        <string>Cabal of Wind Temple</string>
-        <string>Face of the Ancients</string>
-        <string>Vigil Pylon</string>
-      </Locations>
-    </DroptableSummary>
-    <DroptableSummary>
-      <DropTableName>DropTable_AntiqueField_Dungeon2F</DropTableName>
-      <Locations>
-        <string>Forgotten Research Laboratory</string>
-      </Locations>
-    </DroptableSummary>
-    <DroptableSummary>
-      <DropTableName>DropTable_Neutral_Magic_Low_2</DropTableName>
-      <Locations>
-        <string>Forgotten Research Laboratory</string>
-        <string>Blood Mage Hideout</string>
-        <string>Corrupted Tombs</string>
-        <string>Montcalm Clan Fort</string>
-      </Locations>
-    </DroptableSummary>
-    <DroptableSummary>
-      <DropTableName>DropTable_AntiqueField_Dungeon2D</DropTableName>
-      <Locations>
-        <string>Forgotten Research Laboratory</string>
-      </Locations>
-    </DroptableSummary>
-    <DroptableSummary>
-      <DropTableName>DropTable_AntiqueField_Bosse_Opulence_2</DropTableName>
-      <Locations>
-        <string>Unknown Arena</string>
-      </Locations>
-    </DroptableSummary>
-    <DroptableSummary>
-      <DropTableName>DropTable_AntiqueField_Bosse_BirdWarrior_2</DropTableName>
-      <Locations>
-        <string>Unknown Arena</string>
-      </Locations>
-    </DroptableSummary>
-    <DroptableSummary>
-      <DropTableName>DropTable_AntiqueField_Bosse_ProudBeast_2</DropTableName>
-      <Locations>
-        <string>Unknown Arena</string>
-      </Locations>
-    </DroptableSummary>
-    <DroptableSummary>
       <DropTableName>DropTable_Chersonese_Equipment_High_1</DropTableName>
       <Locations>
         <string>Cierzo</string>
@@ -436,6 +137,75 @@
         <string>Montcalm Clan Fort</string>
         <string>Bandits' Prison</string>
         <string>Mansion's Cellar</string>
+      </Locations>
+    </DroptableSummary>
+    <DroptableSummary>
+      <DropTableName>DropTable_Neutral_Consumable_High_1</DropTableName>
+      <Locations>
+        <string>Cierzo</string>
+        <string>Vendavel Fortress</string>
+        <string>Ghost Pass</string>
+        <string>Voltaic Hatchery</string>
+        <string>Bandits' Prison</string>
+        <string>Mansion's Cellar</string>
+        <string>Dark Ziggurat Interior</string>
+        <string>Spire of Light</string>
+        <string>Ziggurat Passage</string>
+        <string>Abandoned Ziggurat</string>
+        <string>Abrassar</string>
+        <string>Undercity Passage</string>
+        <string>The Slide</string>
+        <string>Sand Rose Cave</string>
+        <string>Cabal of Wind Outpost</string>
+        <string>Enmerkar Forest</string>
+        <string>Royal Manticore’s Lair</string>
+      </Locations>
+    </DroptableSummary>
+    <DroptableSummary>
+      <DropTableName>DropTable_Neutral_Valuable_High_1</DropTableName>
+      <Locations>
+        <string>Cierzo</string>
+        <string>Ghost Pass</string>
+        <string>Bandits' Prison</string>
+        <string>Mansion's Cellar</string>
+        <string>Dark Ziggurat Interior</string>
+        <string>Spire of Light</string>
+        <string>Ziggurat Passage</string>
+        <string>Dead Tree</string>
+        <string>Abandoned Ziggurat</string>
+        <string>Abrassar</string>
+        <string>Undercity Passage</string>
+        <string>The Slide</string>
+        <string>Ancient Hive</string>
+        <string>Sand Rose Cave</string>
+        <string>Cabal of Wind Outpost</string>
+        <string>Forest Hives</string>
+        <string>Cabal of Wind Temple</string>
+        <string>Face of the Ancients</string>
+        <string>Vigil Pylon</string>
+      </Locations>
+    </DroptableSummary>
+    <DroptableSummary>
+      <DropTableName>DropTable_Neutral_Recipe_Dungeon_1</DropTableName>
+      <Locations>
+        <string>Cierzo</string>
+        <string>Ghost Pass</string>
+        <string>Voltaic Hatchery</string>
+        <string>Corrupted Tombs</string>
+        <string>Bandits' Prison</string>
+        <string>Dark Ziggurat Interior</string>
+        <string>Spire of Light</string>
+        <string>Ziggurat Passage</string>
+        <string>Dead Tree</string>
+        <string>Undercity Passage</string>
+        <string>The Slide</string>
+        <string>Ancient Hive</string>
+        <string>Cabal of Wind Outpost</string>
+        <string>Enmerkar Forest</string>
+        <string>Royal Manticore’s Lair</string>
+        <string>Cabal of Wind Temple</string>
+        <string>Ancestor’s Resting Place</string>
+        <string>Vigil Pylon</string>
       </Locations>
     </DroptableSummary>
     <DroptableSummary>
@@ -470,10 +240,45 @@
       </Locations>
     </DroptableSummary>
     <DroptableSummary>
+      <DropTableName>DropTable_Neutral_Alchemy_High_1</DropTableName>
+      <Locations>
+        <string>Cierzo (Destroyed)</string>
+        <string>Voltaic Hatchery</string>
+        <string>Dark Ziggurat Interior</string>
+        <string>Spire of Light</string>
+        <string>Ziggurat Passage</string>
+        <string>Abrassar</string>
+        <string>The Slide</string>
+        <string>Ancient Hive</string>
+        <string>Sand Rose Cave</string>
+        <string>Enmerkar Forest</string>
+        <string>Royal Manticore’s Lair</string>
+        <string>Cabal of Wind Temple</string>
+        <string>Face of the Ancients</string>
+        <string>Vigil Pylon</string>
+      </Locations>
+    </DroptableSummary>
+    <DroptableSummary>
       <DropTableName>DropTable_Chersonese_Equipment_Medium_1</DropTableName>
       <Locations>
         <string>Chersonese</string>
         <string>Montcalm Clan Fort</string>
+      </Locations>
+    </DroptableSummary>
+    <DroptableSummary>
+      <DropTableName>DropTable_Neutral_Magic_High_1</DropTableName>
+      <Locations>
+        <string>Chersonese</string>
+        <string>Vendavel Fortress</string>
+        <string>Ghost Pass</string>
+        <string>Montcalm Clan Fort</string>
+        <string>Jade Quarry</string>
+        <string>Abandoned Ziggurat</string>
+        <string>Abrassar</string>
+        <string>Undercity Passage</string>
+        <string>Ancient Hive</string>
+        <string>Cabal of Wind Outpost</string>
+        <string>Royal Manticore’s Lair</string>
       </Locations>
     </DroptableSummary>
     <DroptableSummary>
@@ -485,12 +290,31 @@
       </Locations>
     </DroptableSummary>
     <DroptableSummary>
+      <DropTableName>DropTable_Neutral_Alchemy_Low_2</DropTableName>
+      <Locations>
+        <string>Vendavel Fortress</string>
+        <string>Corrupted Tombs</string>
+        <string>Dead Tree</string>
+        <string>Enmerkar Forest</string>
+        <string>Forest Hives</string>
+        <string>Face of the Ancients</string>
+        <string>Ancestor’s Resting Place</string>
+      </Locations>
+    </DroptableSummary>
+    <DroptableSummary>
       <DropTableName>DropTable_Neutral_Survival_High_1</DropTableName>
       <Locations>
         <string>Voltaic Hatchery</string>
         <string>Jade Quarry</string>
         <string>Abrassar</string>
         <string>Undercity Passage</string>
+      </Locations>
+    </DroptableSummary>
+    <DroptableSummary>
+      <DropTableName>DropTable_Neutral_Magic_Low_2</DropTableName>
+      <Locations>
+        <string>Corrupted Tombs</string>
+        <string>Montcalm Clan Fort</string>
       </Locations>
     </DroptableSummary>
     <DroptableSummary>
@@ -664,6 +488,12 @@
       <DropTableName>DropTable_Enmerkar_Equipment_Medium_1</DropTableName>
       <Locations>
         <string>Ancestor’s Resting Place</string>
+      </Locations>
+    </DroptableSummary>
+    <DroptableSummary>
+      <DropTableName>DropTable_Neutral_Cloth_Rich_1</DropTableName>
+      <Locations>
+        <string>Vigil Pylon</string>
       </Locations>
     </DroptableSummary>
     <DroptableSummary>

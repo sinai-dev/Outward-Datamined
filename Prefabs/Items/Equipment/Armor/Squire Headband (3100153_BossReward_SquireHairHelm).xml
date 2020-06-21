@@ -6,7 +6,7 @@
   <Name>Squire Headband</Name>
   <Description />
   <LegacyItemID>-1</LegacyItemID>
-  <IsPickable>false</IsPickable>
+  <IsPickable>true</IsPickable>
   <IsUsable>false</IsUsable>
   <QtyRemovedOnUse>1</QtyRemovedOnUse>
   <GroupItemInDisplay>false</GroupItemInDisplay>

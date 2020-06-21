@@ -10,7 +10,7 @@
   </Locations_Found>
   <Max_Health>90</Max_Health>
   <Health_Regen_Per_Second>0</Health_Regen_Per_Second>
-  <Impact_Resistance>17</Impact_Resistance>
+  <Impact_Resistance>23</Impact_Resistance>
   <Protection>
     <float>0</float>
     <float>0</float>

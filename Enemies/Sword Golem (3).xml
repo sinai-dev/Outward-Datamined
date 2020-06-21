@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <DM_Enemy xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Name>Sword Golem</Name>
-  <GameObject_Name>Golem_02</GameObject_Name>
+  <GameObject_Name>TsarGolem_A</GameObject_Name>
   <Unique_ID>3</Unique_ID>
   <Locations_Found>
-    <string>Antique Plateau:Antique Plateau</string>
+    <string>Abrassar:Abrassar</string>
   </Locations_Found>
   <Max_Health>400</Max_Health>
   <Health_Regen_Per_Second>0</Health_Regen_Per_Second>
@@ -50,7 +50,7 @@
     <string>- (2400140)</string>
   </Starting_Equipment>
   <Skill_Knowledge />
-  <Faction>Hounds</Faction>
+  <Faction>Mercs</Faction>
   <Allied_To_Same_Faction>true</Allied_To_Same_Faction>
   <Guaranteed_Drops />
   <DropTable_Names>

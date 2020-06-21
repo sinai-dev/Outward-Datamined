@@ -4,7 +4,7 @@
   <saveDir>/_Unsorted</saveDir>
   <ItemID>6600010</ItemID>
   <Name>Wheat</Name>
-  <Description>A versatile grain used in many cooking recipes.</Description>
+  <Description />
   <LegacyItemID>-1</LegacyItemID>
   <IsPickable>true</IsPickable>
   <IsUsable>false</IsUsable>
@@ -24,8 +24,8 @@
     <string>Misc</string>
   </Tags>
   <StatsHolder>
-    <BaseValue>3</BaseValue>
-    <RawWeight>0.5</RawWeight>
+    <BaseValue>2</BaseValue>
+    <RawWeight>0.2</RawWeight>
     <MaxDurability>-1</MaxDurability>
   </StatsHolder>
   <EffectTransforms />

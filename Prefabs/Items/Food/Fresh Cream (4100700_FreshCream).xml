@@ -4,60 +4,45 @@
   <saveDir>/Food</saveDir>
   <ItemID>4100700</ItemID>
   <Name>Fresh Cream</Name>
-  <Description>Thick, delicious cream used in cooking. Provides Corruption resistance.</Description>
+  <Description />
   <LegacyItemID>-1</LegacyItemID>
   <IsPickable>true</IsPickable>
   <IsUsable>true</IsUsable>
   <QtyRemovedOnUse>1</QtyRemovedOnUse>
-  <GroupItemInDisplay>true</GroupItemInDisplay>
+  <GroupItemInDisplay>false</GroupItemInDisplay>
   <HasPhysicsWhenWorld>false</HasPhysicsWhenWorld>
   <RepairedInRest>true</RepairedInRest>
   <BehaviorOnNoDurability>NotSet</BehaviorOnNoDurability>
-  <CastType>Eat</CastType>
+  <CastType>Potion</CastType>
   <CastModifier>Immobilized</CastModifier>
   <CastLocomotionEnabled>false</CastLocomotionEnabled>
   <MobileCastMovementMult>-1</MobileCastMovementMult>
   <CastSheatheRequired>1</CastSheatheRequired>
-  <PerishTime>6 Days, 0 Hours, 55 Minutes, 39 Seconds</PerishTime>
   <Tags>
     <string>Consummable</string>
     <string>Item</string>
   </Tags>
   <StatsHolder>
-    <BaseValue>8</BaseValue>
-    <RawWeight>0.1</RawWeight>
-    <MaxDurability>100</MaxDurability>
+    <BaseValue>15</BaseValue>
+    <RawWeight>0.5</RawWeight>
+    <MaxDurability>-1</MaxDurability>
   </StatsHolder>
   <EffectTransforms>
     <DM_EffectTransform>
       <TransformName>Effects</TransformName>
       <Effects>
-        <DM_Effect xsi:type="DM_AffectFood">
+        <DM_Effect xsi:type="DM_AffectDrink">
           <Delay>0</Delay>
           <SyncType>OwnerSync</SyncType>
           <OverrideCategory>None</OverrideCategory>
-          <AffectQuantity>75</AffectQuantity>
+          <AffectQuantity>50</AffectQuantity>
         </DM_Effect>
         <DM_Effect xsi:type="DM_AddStatusEffect">
           <Delay>0</Delay>
           <SyncType>OwnerSync</SyncType>
           <OverrideCategory>None</OverrideCategory>
-          <StatusEffect>Health Recovery 2</StatusEffect>
-          <ChanceToContract>100</ChanceToContract>
-        </DM_Effect>
-        <DM_Effect xsi:type="DM_AddStatusEffect">
-          <Delay>0</Delay>
-          <SyncType>OwnerSync</SyncType>
-          <OverrideCategory>None</OverrideCategory>
-          <StatusEffect>Stamina Recovery 3</StatusEffect>
-          <ChanceToContract>100</ChanceToContract>
-        </DM_Effect>
-        <DM_Effect xsi:type="DM_AddStatusEffect">
-          <Delay>0</Delay>
-          <SyncType>OwnerSync</SyncType>
-          <OverrideCategory>None</OverrideCategory>
-          <StatusEffect>Corruption Resistance 1</StatusEffect>
-          <ChanceToContract>100</ChanceToContract>
+          <StatusEffect>Gaberry Wine</StatusEffect>
+          <ChanceToContract>101</ChanceToContract>
         </DM_Effect>
       </Effects>
       <EffectConditions />

@@ -52,8 +52,8 @@ Lunging attack that ignores all defenses and inflicts Pain.</Description>
           <OverrideCategory>None</OverrideCategory>
           <Damage>
             <Damages>
-              <Damage>25</Damage>
-              <Damage_Type>Raw</Damage_Type>
+              <Damage>0</Damage>
+              <Damage_Type>Physical</Damage_Type>
             </Damages>
           </Damage>
           <Damages_AI />
@@ -137,7 +137,6 @@ Lunging attack that ignores all defenses and inflicts Pain.</Description>
     <WeaponType>Axe_2H</WeaponType>
     <WeaponType>Mace_2H</WeaponType>
     <WeaponType>Spear_2H</WeaponType>
-    <WeaponType>FistW_2H</WeaponType>
   </RequiredWeaponTypes>
   <RequiredWeaponTags />
   <RequireImbue>false</RequireImbue>

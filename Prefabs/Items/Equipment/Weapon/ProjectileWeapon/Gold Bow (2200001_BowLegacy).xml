@@ -22,8 +22,6 @@
     <string>Bow</string>
     <string>Weapon</string>
     <string>Item</string>
-    <string>Gold</string>
-    <string>Family</string>
   </Tags>
   <StatsHolder xsi:type="DM_WeaponStats">
     <BaseValue>250</BaseValue>
@@ -159,6 +157,8 @@
           <YMagnitudeForce>0</YMagnitudeForce>
           <DefenseLength>0</DefenseLength>
           <DefenseRange>0</DefenseRange>
+          <PhysicsLayerMask>0</PhysicsLayerMask>
+          <OnlyExplodeOnLayerMask>false</OnlyExplodeOnLayerMask>
           <ImpactSoundMaterial>Goo</ImpactSoundMaterial>
           <LightIntensityFade>
             <x>0</x>

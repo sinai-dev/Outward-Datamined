@@ -4,7 +4,7 @@
   <saveDir>/_Unsorted</saveDir>
   <ItemID>6600122</ItemID>
   <Name>Pure Chitin</Name>
-  <Description>The shimmering Chitin of an enhanced Scourge Beast. Can be used in many crafting recipes.</Description>
+  <Description />
   <LegacyItemID>-1</LegacyItemID>
   <IsPickable>true</IsPickable>
   <IsUsable>false</IsUsable>
@@ -24,8 +24,8 @@
     <string>Misc</string>
   </Tags>
   <StatsHolder>
-    <BaseValue>100</BaseValue>
-    <RawWeight>0.4</RawWeight>
+    <BaseValue>200</BaseValue>
+    <RawWeight>4</RawWeight>
     <MaxDurability>-1</MaxDurability>
   </StatsHolder>
   <EffectTransforms />

@@ -22,8 +22,6 @@
     <string>Helmet</string>
     <string>Equipment</string>
     <string>Item</string>
-    <string>Fur</string>
-    <string>Family</string>
   </Tags>
   <StatsHolder xsi:type="DM_EquipmentStats">
     <BaseValue>250</BaseValue>

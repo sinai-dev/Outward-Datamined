@@ -24,7 +24,6 @@
     <string>Item</string>
     <string>Bludgeon</string>
     <string>DecraftPalladium_Small</string>
-    <string>Decraft</string>
   </Tags>
   <StatsHolder xsi:type="DM_WeaponStats">
     <BaseValue>1000</BaseValue>
@@ -64,52 +63,52 @@
     <AttackSpeed>1</AttackSpeed>
     <BaseDamage>
       <Damages>
-        <Damage>42</Damage>
+        <Damage>40</Damage>
         <Damage_Type>Physical</Damage_Type>
       </Damages>
     </BaseDamage>
-    <Impact>39</Impact>
+    <Impact>47</Impact>
     <StamCost>7.15</StamCost>
     <AutoGenerateAttackData>false</AutoGenerateAttackData>
     <Attacks>
       <AttackData>
         <StamCost>7.15</StamCost>
-        <Knockback>39</Knockback>
+        <Knockback>47</Knockback>
         <AttackSpeed>1</AttackSpeed>
         <Damage>
-          <float>42</float>
+          <float>40</float>
         </Damage>
       </AttackData>
       <AttackData>
         <StamCost>7.15</StamCost>
-        <Knockback>39</Knockback>
+        <Knockback>47</Knockback>
         <AttackSpeed>1</AttackSpeed>
         <Damage>
-          <float>42</float>
+          <float>40</float>
         </Damage>
       </AttackData>
       <AttackData>
         <StamCost>8.58</StamCost>
-        <Knockback>78</Knockback>
+        <Knockback>94</Knockback>
         <AttackSpeed>1</AttackSpeed>
         <Damage>
-          <float>31.5</float>
+          <float>30</float>
         </Damage>
       </AttackData>
       <AttackData>
         <StamCost>8.58</StamCost>
-        <Knockback>54.6</Knockback>
+        <Knockback>65.8</Knockback>
         <AttackSpeed>1.2</AttackSpeed>
         <Damage>
-          <float>58.8</float>
+          <float>56</float>
         </Damage>
       </AttackData>
       <AttackData>
         <StamCost>8.58</StamCost>
-        <Knockback>54.6</Knockback>
+        <Knockback>65.8</Knockback>
         <AttackSpeed>1.2</AttackSpeed>
         <Damage>
-          <float>58.8</float>
+          <float>56</float>
         </Damage>
       </AttackData>
     </Attacks>

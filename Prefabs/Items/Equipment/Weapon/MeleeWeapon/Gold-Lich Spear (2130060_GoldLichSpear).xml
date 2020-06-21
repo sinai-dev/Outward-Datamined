@@ -24,9 +24,6 @@
     <string>Item</string>
     <string>Spear</string>
     <string>DecraftPalladium_Small</string>
-    <string>Decraft</string>
-    <string>Gold</string>
-    <string>Family</string>
   </Tags>
   <StatsHolder xsi:type="DM_WeaponStats">
     <BaseValue>1000</BaseValue>
@@ -66,11 +63,11 @@
     <AttackSpeed>1</AttackSpeed>
     <BaseDamage>
       <Damages>
-        <Damage>25.3499985</Damage>
+        <Damage>27.9499989</Damage>
         <Damage_Type>Physical</Damage_Type>
       </Damages>
       <Damages>
-        <Damage>13.65</Damage>
+        <Damage>15.05</Damage>
         <Damage_Type>Electric</Damage_Type>
       </Damages>
     </BaseDamage>
@@ -83,8 +80,8 @@
         <Knockback>24</Knockback>
         <AttackSpeed>1</AttackSpeed>
         <Damage>
-          <float>25.3499985</float>
-          <float>13.65</float>
+          <float>27.9499989</float>
+          <float>15.05</float>
         </Damage>
       </AttackData>
       <AttackData>
@@ -92,8 +89,8 @@
         <Knockback>24</Knockback>
         <AttackSpeed>1</AttackSpeed>
         <Damage>
-          <float>25.3499985</float>
-          <float>13.65</float>
+          <float>27.9499989</float>
+          <float>15.05</float>
         </Damage>
       </AttackData>
       <AttackData>
@@ -101,8 +98,8 @@
         <Knockback>28.8</Knockback>
         <AttackSpeed>1.2</AttackSpeed>
         <Damage>
-          <float>35.4899979</float>
-          <float>19.1099987</float>
+          <float>39.1299973</float>
+          <float>21.07</float>
         </Damage>
       </AttackData>
       <AttackData>
@@ -110,8 +107,8 @@
         <Knockback>28.8</Knockback>
         <AttackSpeed>1.1</AttackSpeed>
         <Damage>
-          <float>32.954998</float>
-          <float>17.745</float>
+          <float>36.335</float>
+          <float>19.565</float>
         </Damage>
       </AttackData>
       <AttackData>
@@ -119,8 +116,8 @@
         <Knockback>26.4</Knockback>
         <AttackSpeed>1.1</AttackSpeed>
         <Damage>
-          <float>30.4199982</float>
-          <float>16.38</float>
+          <float>33.5399971</float>
+          <float>18.06</float>
         </Damage>
       </AttackData>
     </Attacks>

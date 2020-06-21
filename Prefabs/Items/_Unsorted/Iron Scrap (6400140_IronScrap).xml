@@ -27,7 +27,6 @@ Decrafting using the “Manual Recipe” of the Survival Crafting menu.</Descrip
     <string>Item</string>
     <string>Misc</string>
     <string>DecraftIron_Small</string>
-    <string>Decraft</string>
   </Tags>
   <StatsHolder>
     <BaseValue>3</BaseValue>

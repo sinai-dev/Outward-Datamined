@@ -4,8 +4,6 @@
   <GameObject_Name>TroglodyteArmored</GameObject_Name>
   <Unique_ID>1</Unique_ID>
   <Locations_Found>
-    <string>Antique Plateau:Abandoned Living Quarters</string>
-    <string>Antique Plateau:Destroyed Test Chambers</string>
     <string>Chersonese:Blue Chamber’s Conflux Path</string>
     <string>Chersonese:Holy Mission’s Conflux Path</string>
     <string>Chersonese:Heroic Kingdom’s Conflux Path</string>
@@ -53,7 +51,7 @@
     <string>Mushroom Halberd (2140050)</string>
   </Starting_Equipment>
   <Skill_Knowledge />
-  <Faction>Mercs</Faction>
+  <Faction>Bandits</Faction>
   <Allied_To_Same_Faction>true</Allied_To_Same_Faction>
   <Guaranteed_Drops>
     <DropTableEntry>

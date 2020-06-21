@@ -22,8 +22,6 @@
     <string>Boots</string>
     <string>Equipment</string>
     <string>Item</string>
-    <string>Ash</string>
-    <string>Family</string>
   </Tags>
   <StatsHolder xsi:type="DM_EquipmentStats">
     <BaseValue>100</BaseValue>

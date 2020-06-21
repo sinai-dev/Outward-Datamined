@@ -3,7 +3,7 @@
   <SceneName>Bandits' Prison</SceneName>
   <Enemies>
     <QuantityHolder>
-      <Name>Wendigo (3)</Name>
+      <Name>Wendigo (2)</Name>
       <Quantity>1</Quantity>
     </QuantityHolder>
   </Enemies>

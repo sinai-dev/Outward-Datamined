@@ -69,51 +69,6 @@ Simple attack with the dagger.</Description>
       <EffectConditions />
       <ChildEffects />
     </DM_EffectTransform>
-    <DM_EffectTransform>
-      <TransformName>LifeSyphonHit</TransformName>
-      <Effects>
-        <DM_Effect xsi:type="DM_AddStatusEffect">
-          <Delay>0</Delay>
-          <SyncType>OwnerSync</SyncType>
-          <OverrideCategory>None</OverrideCategory>
-          <StatusEffect>Blood Leech Victim</StatusEffect>
-          <ChanceToContract>100</ChanceToContract>
-        </DM_Effect>
-        <DM_Effect xsi:type="DM_AddStatusEffect">
-          <Delay>0</Delay>
-          <SyncType>OwnerSync</SyncType>
-          <OverrideCategory>None</OverrideCategory>
-          <StatusEffect>Blood Leech</StatusEffect>
-          <ChanceToContract>100</ChanceToContract>
-        </DM_Effect>
-        <DM_Effect xsi:type="DM_AffectCorruption">
-          <Delay>0</Delay>
-          <SyncType>OwnerSync</SyncType>
-          <OverrideCategory>None</OverrideCategory>
-          <AffectQuantity>30</AffectQuantity>
-          <IsRaw>false</IsRaw>
-        </DM_Effect>
-      </Effects>
-      <EffectConditions>
-        <DM_EffectCondition xsi:type="DM_ProximityCondition">
-          <Invert>false</Invert>
-          <RequiredItems>
-            <SkillItemReq>
-              <ItemID>8000011</ItemID>
-              <Quantity>1</Quantity>
-              <Consume>false</Consume>
-            </SkillItemReq>
-          </RequiredItems>
-          <MaxDistance>2.25</MaxDistance>
-          <Offset>
-            <x>0</x>
-            <y>-0.5</y>
-            <z>0</z>
-          </Offset>
-        </DM_EffectCondition>
-      </EffectConditions>
-      <ChildEffects />
-    </DM_EffectTransform>
   </EffectTransforms>
   <Cooldown>0.5</Cooldown>
   <StaminaCost>2</StaminaCost>

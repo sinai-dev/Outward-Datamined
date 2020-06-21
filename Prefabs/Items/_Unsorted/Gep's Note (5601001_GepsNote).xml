@@ -26,10 +26,5 @@ Have a flask of my own personal brew, on me! You owe me one, pal!
     <string>Misc</string>
     <string>Item</string>
   </Tags>
-  <StatsHolder>
-    <BaseValue>1</BaseValue>
-    <RawWeight>0</RawWeight>
-    <MaxDurability>-1</MaxDurability>
-  </StatsHolder>
   <EffectTransforms />
 </DM_Item>

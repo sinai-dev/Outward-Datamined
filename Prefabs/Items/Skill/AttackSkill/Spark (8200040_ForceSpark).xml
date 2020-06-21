@@ -166,6 +166,8 @@ This spell can light campfires.</Description>
               <YMagnitudeForce>0</YMagnitudeForce>
               <DefenseLength>3</DefenseLength>
               <DefenseRange>6</DefenseRange>
+              <PhysicsLayerMask>0</PhysicsLayerMask>
+              <OnlyExplodeOnLayerMask>false</OnlyExplodeOnLayerMask>
               <ImpactSoundMaterial>Fire</ImpactSoundMaterial>
               <LightIntensityFade>
                 <x>10</x>
@@ -222,7 +224,7 @@ This spell can light campfires.</Description>
                               <OverrideCategory>None</OverrideCategory>
                               <Damage>
                                 <Damages>
-                                  <Damage>60</Damage>
+                                  <Damage>45</Damage>
                                   <Damage_Type>Fire</Damage_Type>
                                 </Damages>
                               </Damage>
@@ -370,7 +372,7 @@ This spell can light campfires.</Description>
                       <OverrideCategory>None</OverrideCategory>
                       <Damage>
                         <Damages>
-                          <Damage>85</Damage>
+                          <Damage>70</Damage>
                           <Damage_Type>Electric</Damage_Type>
                         </Damages>
                       </Damage>

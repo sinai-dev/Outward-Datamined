@@ -4,18 +4,6 @@
   <ItemID>0</ItemID>
   <All_Locations>
     <QuantityHolder>
-      <Name>Antique Plateau:Ruined Warehouse</Name>
-      <Quantity>2</Quantity>
-    </QuantityHolder>
-    <QuantityHolder>
-      <Name>Antique Plateau:Destroyed Test Chambers</Name>
-      <Quantity>1</Quantity>
-    </QuantityHolder>
-    <QuantityHolder>
-      <Name>Antique Plateau:Wendigo Lair</Name>
-      <Quantity>1</Quantity>
-    </QuantityHolder>
-    <QuantityHolder>
       <Name>Chersonese:Ghost Pass</Name>
       <Quantity>1</Quantity>
     </QuantityHolder>
@@ -90,16 +78,8 @@
   </All_Locations>
   <DropTables>
     <DroptableSummary>
-      <DropTableName>DropTable_PalladiumOreTourmaline</DropTableName>
-      <Locations>
-        <string>Ruined Warehouse</string>
-        <string>Wendigo Lair</string>
-      </Locations>
-    </DroptableSummary>
-    <DroptableSummary>
       <DropTableName>DropTable_PalladiumOre</DropTableName>
       <Locations>
-        <string>Destroyed Test Chambers</string>
         <string>Ghost Pass</string>
         <string>Blue Chamber’s Conflux Path</string>
         <string>Conflux Chambers</string>

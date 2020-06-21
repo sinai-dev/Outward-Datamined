@@ -309,6 +309,5 @@ This skill lowers the durability of the torch or lantern used.</Description>
     <int>5100070</int>
     <int>5100080</int>
     <int>5100090</int>
-    <int>5100100</int>
   </CompatibleItemIDs>
 </DM_TrinketSkill>

@@ -28,18 +28,7 @@
           <SyncType>OwnerSync</SyncType>
           <OverrideCategory>None</OverrideCategory>
           <Sounds>
-            <Sounds>CS_GolemShielded_ActionBreath_01</Sounds>
-          </Sounds>
-          <Follow>false</Follow>
-          <MinPitch>1</MinPitch>
-          <MaxPitch>1</MaxPitch>
-        </DM_Effect>
-        <DM_Effect xsi:type="DM_PlaySoundEffect">
-          <Delay>0</Delay>
-          <SyncType>OwnerSync</SyncType>
-          <OverrideCategory>None</OverrideCategory>
-          <Sounds>
-            <Sounds>CS_GolemShielded_AttackBuildUp_01</Sounds>
+            <Sounds>CS_ObsidienElmt_SpecialAttack_Grunt3</Sounds>
           </Sounds>
           <Follow>false</Follow>
           <MinPitch>1</MinPitch>
@@ -134,6 +123,8 @@
           <YMagnitudeForce>0</YMagnitudeForce>
           <DefenseLength>0</DefenseLength>
           <DefenseRange>0</DefenseRange>
+          <PhysicsLayerMask>0</PhysicsLayerMask>
+          <OnlyExplodeOnLayerMask>false</OnlyExplodeOnLayerMask>
           <ImpactSoundMaterial>Fire</ImpactSoundMaterial>
           <LightIntensityFade>
             <x>10</x>
@@ -211,13 +202,6 @@
                           <Damages_AI />
                           <Knockback>5</Knockback>
                           <HitInventory>true</HitInventory>
-                        </DM_Effect>
-                        <DM_Effect xsi:type="DM_AddStatusEffectBuildUp">
-                          <Delay>0</Delay>
-                          <SyncType>OwnerSync</SyncType>
-                          <OverrideCategory>None</OverrideCategory>
-                          <StatusEffect>Sapped</StatusEffect>
-                          <Buildup>20</Buildup>
                         </DM_Effect>
                       </Effects>
                       <EffectConditions />

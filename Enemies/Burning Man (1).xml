@@ -4,7 +4,6 @@
   <GameObject_Name>BurningMan</GameObject_Name>
   <Unique_ID>1</Unique_ID>
   <Locations_Found>
-    <string>Antique Plateau:Ancient Foundry</string>
     <string>Hallowed Marsh:Ziggurat Passage</string>
     <string>Abrassar:Abrassar</string>
     <string>Enmerkar Forest:Face of the Ancients</string>
@@ -59,7 +58,7 @@
     <string>BurningManFlamethrower (8300190)</string>
     <string>BurningManBlast (8300191)</string>
   </Skill_Knowledge>
-  <Faction>Mercs</Faction>
+  <Faction>Deer</Faction>
   <Allied_To_Same_Faction>true</Allied_To_Same_Faction>
   <Guaranteed_Drops />
   <DropTable_Names>

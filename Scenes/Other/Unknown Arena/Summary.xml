@@ -3,18 +3,6 @@
   <SceneName>Unknown Arena</SceneName>
   <Enemies>
     <QuantityHolder>
-      <Name>Nicolas (1)</Name>
-      <Quantity>1</Quantity>
-    </QuantityHolder>
-    <QuantityHolder>
-      <Name>Blade Dancer (1)</Name>
-      <Quantity>1</Quantity>
-    </QuantityHolder>
-    <QuantityHolder>
-      <Name>Immaculate (4)</Name>
-      <Quantity>1</Quantity>
-    </QuantityHolder>
-    <QuantityHolder>
       <Name>Mana Troglodyte (2)</Name>
       <Quantity>1</Quantity>
     </QuantityHolder>
@@ -23,7 +11,7 @@
       <Quantity>2</Quantity>
     </QuantityHolder>
     <QuantityHolder>
-      <Name>Troglodyte Grenadier (4)</Name>
+      <Name>Troglodyte Grenadier (2)</Name>
       <Quantity>2</Quantity>
     </QuantityHolder>
     <QuantityHolder>
@@ -31,7 +19,7 @@
       <Quantity>2</Quantity>
     </QuantityHolder>
     <QuantityHolder>
-      <Name>Mantis Shrimp (3)</Name>
+      <Name>Mantis Shrimp (2)</Name>
       <Quantity>1</Quantity>
     </QuantityHolder>
     <QuantityHolder>
@@ -59,11 +47,11 @@
       <Quantity>1</Quantity>
     </QuantityHolder>
     <QuantityHolder>
-      <Name>Beast Golem (12)</Name>
+      <Name>Beast Golem (2)</Name>
       <Quantity>1</Quantity>
     </QuantityHolder>
     <QuantityHolder>
-      <Name>Crescent Shark (3)</Name>
+      <Name>Crescent Shark (2)</Name>
       <Quantity>3</Quantity>
     </QuantityHolder>
     <QuantityHolder>
@@ -79,11 +67,11 @@
       <Quantity>1</Quantity>
     </QuantityHolder>
     <QuantityHolder>
-      <Name>Jade Lich (5)</Name>
+      <Name>Jade Lich (1)</Name>
       <Quantity>1</Quantity>
     </QuantityHolder>
     <QuantityHolder>
-      <Name>Immaculate (7)</Name>
+      <Name>Immaculate (3)</Name>
       <Quantity>1</Quantity>
     </QuantityHolder>
     <QuantityHolder>
@@ -95,13 +83,13 @@
   <Loot_Containers>
     <QuantityHolder>
       <Name>Ornate Chest</Name>
-      <Quantity>15</Quantity>
+      <Quantity>12</Quantity>
     </QuantityHolder>
   </Loot_Containers>
   <Gatherables>
     <QuantityHolder>
-      <Name>Wood</Name>
-      <Quantity>6</Quantity>
+      <Name>Tree</Name>
+      <Quantity>3</Quantity>
     </QuantityHolder>
   </Gatherables>
   <Item_Spawns>
@@ -119,9 +107,6 @@
     </DM_ItemSpawn>
   </Item_Spawns>
   <UniqueContainerList>
-    <string>Ornate Chest_FDWxBAJitUm_ZlId0o_txg</string>
-    <string>Ornate Chest_zjAjA67-LE2ssdcfxr8MPw</string>
-    <string>Ornate Chest_bJysLf1XHECgy2HH17XIHg</string>
     <string>Ornate Chest_riHfSZ6JkE6wrtxXVUD1OQ</string>
     <string>Ornate Chest_SGpCloS6pU2DHlaD_ECgqQ</string>
     <string>Ornate Chest_LLhQ-zzoVUy7BXHvId_GiA</string>

@@ -165,6 +165,8 @@ Can be combined with other spells for powerful effects.</Description>
               <YMagnitudeForce>0</YMagnitudeForce>
               <DefenseLength>3</DefenseLength>
               <DefenseRange>3</DefenseRange>
+              <PhysicsLayerMask>0</PhysicsLayerMask>
+              <OnlyExplodeOnLayerMask>false</OnlyExplodeOnLayerMask>
               <ImpactSoundMaterial>Metal_Sharp</ImpactSoundMaterial>
               <LightIntensityFade>
                 <x>10</x>
@@ -293,6 +295,8 @@ Can be combined with other spells for powerful effects.</Description>
               <YMagnitudeForce>0</YMagnitudeForce>
               <DefenseLength>3</DefenseLength>
               <DefenseRange>3</DefenseRange>
+              <PhysicsLayerMask>4198400</PhysicsLayerMask>
+              <OnlyExplodeOnLayerMask>true</OnlyExplodeOnLayerMask>
               <ImpactSoundMaterial>Metal_Sharp</ImpactSoundMaterial>
               <LightIntensityFade>
                 <x>10</x>
@@ -315,7 +319,7 @@ Can be combined with other spells for powerful effects.</Description>
                       <OverrideCategory>None</OverrideCategory>
                       <Damage>
                         <Damages>
-                          <Damage>25</Damage>
+                          <Damage>16</Damage>
                           <Damage_Type>Ethereal</Damage_Type>
                         </Damages>
                       </Damage>
@@ -386,7 +390,7 @@ Can be combined with other spells for powerful effects.</Description>
               <TransformName>ShooterTransform</TransformName>
               <BaseProjectile>Tendrils</BaseProjectile>
               <ProjectileShots />
-              <Lifespan>0.8</Lifespan>
+              <Lifespan>0.5</Lifespan>
               <LateShootTime>0.1</LateShootTime>
               <Unblockable>false</Unblockable>
               <EffectsOnlyIfHitCharacter>false</EffectsOnlyIfHitCharacter>
@@ -414,6 +418,8 @@ Can be combined with other spells for powerful effects.</Description>
               <YMagnitudeForce>0</YMagnitudeForce>
               <DefenseLength>3</DefenseLength>
               <DefenseRange>3</DefenseRange>
+              <PhysicsLayerMask>4198400</PhysicsLayerMask>
+              <OnlyExplodeOnLayerMask>true</OnlyExplodeOnLayerMask>
               <ImpactSoundMaterial>Fire</ImpactSoundMaterial>
               <LightIntensityFade>
                 <x>10</x>
@@ -464,13 +470,6 @@ Can be combined with other spells for powerful effects.</Description>
               <Follow>false</Follow>
               <MinPitch>1</MinPitch>
               <MaxPitch>1</MaxPitch>
-            </DM_Effect>
-            <DM_Effect xsi:type="DM_AffectCorruption">
-              <Delay>0</Delay>
-              <SyncType>OwnerSync</SyncType>
-              <OverrideCategory>None</OverrideCategory>
-              <AffectQuantity>30</AffectQuantity>
-              <IsRaw>false</IsRaw>
             </DM_Effect>
           </Effects>
           <EffectConditions>

@@ -86,6 +86,8 @@
           <YMagnitudeForce>1.6</YMagnitudeForce>
           <DefenseLength>3</DefenseLength>
           <DefenseRange>3</DefenseRange>
+          <PhysicsLayerMask>0</PhysicsLayerMask>
+          <OnlyExplodeOnLayerMask>false</OnlyExplodeOnLayerMask>
           <ImpactSoundMaterial>Metal_Sharp</ImpactSoundMaterial>
           <LightIntensityFade>
             <x>10</x>
@@ -108,24 +110,13 @@
                   <OverrideCategory>None</OverrideCategory>
                   <Damage>
                     <Damages>
-                      <Damage>10</Damage>
+                      <Damage>20</Damage>
                       <Damage_Type>Physical</Damage_Type>
-                    </Damages>
-                    <Damages>
-                      <Damage>10</Damage>
-                      <Damage_Type>Electric</Damage_Type>
                     </Damages>
                   </Damage>
                   <Damages_AI />
                   <Knockback>20</Knockback>
                   <HitInventory>true</HitInventory>
-                </DM_Effect>
-                <DM_Effect xsi:type="DM_AddStatusEffectBuildUp">
-                  <Delay>0</Delay>
-                  <SyncType>OwnerSync</SyncType>
-                  <OverrideCategory>None</OverrideCategory>
-                  <StatusEffect>Sapped</StatusEffect>
-                  <Buildup>30</Buildup>
                 </DM_Effect>
               </Effects>
               <EffectConditions />
@@ -196,6 +187,8 @@
           <YMagnitudeForce>1.6</YMagnitudeForce>
           <DefenseLength>3</DefenseLength>
           <DefenseRange>3</DefenseRange>
+          <PhysicsLayerMask>0</PhysicsLayerMask>
+          <OnlyExplodeOnLayerMask>false</OnlyExplodeOnLayerMask>
           <ImpactSoundMaterial>Metal_Sharp</ImpactSoundMaterial>
           <LightIntensityFade>
             <x>10</x>
@@ -218,24 +211,13 @@
                   <OverrideCategory>None</OverrideCategory>
                   <Damage>
                     <Damages>
-                      <Damage>10</Damage>
+                      <Damage>20</Damage>
                       <Damage_Type>Physical</Damage_Type>
-                    </Damages>
-                    <Damages>
-                      <Damage>10</Damage>
-                      <Damage_Type>Electric</Damage_Type>
                     </Damages>
                   </Damage>
                   <Damages_AI />
                   <Knockback>20</Knockback>
                   <HitInventory>true</HitInventory>
-                </DM_Effect>
-                <DM_Effect xsi:type="DM_AddStatusEffectBuildUp">
-                  <Delay>0</Delay>
-                  <SyncType>OwnerSync</SyncType>
-                  <OverrideCategory>None</OverrideCategory>
-                  <StatusEffect>Sapped</StatusEffect>
-                  <Buildup>30</Buildup>
                 </DM_Effect>
               </Effects>
               <EffectConditions />
@@ -306,6 +288,8 @@
           <YMagnitudeForce>1.6</YMagnitudeForce>
           <DefenseLength>3</DefenseLength>
           <DefenseRange>3</DefenseRange>
+          <PhysicsLayerMask>0</PhysicsLayerMask>
+          <OnlyExplodeOnLayerMask>false</OnlyExplodeOnLayerMask>
           <ImpactSoundMaterial>Metal_Sharp</ImpactSoundMaterial>
           <LightIntensityFade>
             <x>10</x>
@@ -328,24 +312,13 @@
                   <OverrideCategory>None</OverrideCategory>
                   <Damage>
                     <Damages>
-                      <Damage>10</Damage>
+                      <Damage>20</Damage>
                       <Damage_Type>Physical</Damage_Type>
-                    </Damages>
-                    <Damages>
-                      <Damage>10</Damage>
-                      <Damage_Type>Electric</Damage_Type>
                     </Damages>
                   </Damage>
                   <Damages_AI />
                   <Knockback>20</Knockback>
                   <HitInventory>true</HitInventory>
-                </DM_Effect>
-                <DM_Effect xsi:type="DM_AddStatusEffectBuildUp">
-                  <Delay>0</Delay>
-                  <SyncType>OwnerSync</SyncType>
-                  <OverrideCategory>None</OverrideCategory>
-                  <StatusEffect>Sapped</StatusEffect>
-                  <Buildup>30</Buildup>
                 </DM_Effect>
               </Effects>
               <EffectConditions />
@@ -365,23 +338,29 @@
           <SyncType>OwnerSync</SyncType>
           <OverrideCategory>None</OverrideCategory>
           <Sounds>
-            <Sounds>CS_GolemShielded_ActionBreath_07</Sounds>
-            <Sounds>CS_GolemShielded_AttackGrunt_03</Sounds>
+            <Sounds>CS_SpecterMelee_SpecialAttackA_Grunt2</Sounds>
           </Sounds>
           <Follow>false</Follow>
           <MinPitch>1</MinPitch>
           <MaxPitch>1</MaxPitch>
         </DM_Effect>
+      </Effects>
+      <EffectConditions />
+      <ChildEffects />
+    </DM_EffectTransform>
+    <DM_EffectTransform>
+      <TransformName>ActivationEffects2</TransformName>
+      <Effects>
         <DM_Effect xsi:type="DM_PlaySoundEffect">
           <Delay>0</Delay>
           <SyncType>OwnerSync</SyncType>
           <OverrideCategory>None</OverrideCategory>
           <Sounds>
-            <Sounds>CS_GolemShielded_AttackBuildUp_04</Sounds>
+            <Sounds>CS_Specter_Range_WeaponLoad</Sounds>
           </Sounds>
           <Follow>false</Follow>
           <MinPitch>1</MinPitch>
-          <MaxPitch>1</MaxPitch>
+          <MaxPitch>1.1</MaxPitch>
         </DM_Effect>
       </Effects>
       <EffectConditions />

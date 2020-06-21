@@ -6,7 +6,7 @@
   <Name>Standard Bludgeon</Name>
   <Description />
   <LegacyItemID>-1</LegacyItemID>
-  <IsPickable>false</IsPickable>
+  <IsPickable>true</IsPickable>
   <IsUsable>false</IsUsable>
   <QtyRemovedOnUse>1</QtyRemovedOnUse>
   <GroupItemInDisplay>false</GroupItemInDisplay>
@@ -52,7 +52,7 @@
       <float>0</float>
     </Damage_Bonus>
     <Stamina_Use_Penalty>0</Stamina_Use_Penalty>
-    <Mana_Use_Modifier>1</Mana_Use_Modifier>
+    <Mana_Use_Modifier>0</Mana_Use_Modifier>
     <Movement_Penalty>0</Movement_Penalty>
     <Pouch_Bonus>0</Pouch_Bonus>
     <Heat_Protection>0</Heat_Protection>

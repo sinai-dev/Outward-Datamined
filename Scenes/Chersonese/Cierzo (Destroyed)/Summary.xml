@@ -3,11 +3,11 @@
   <SceneName>Cierzo (Destroyed)</SceneName>
   <Enemies>
     <QuantityHolder>
-      <Name>Kazite Archer (5)</Name>
+      <Name>Kazite Archer (1)</Name>
       <Quantity>3</Quantity>
     </QuantityHolder>
     <QuantityHolder>
-      <Name>Kazite Lieutenant (5)</Name>
+      <Name>Kazite Lieutenant (1)</Name>
       <Quantity>2</Quantity>
     </QuantityHolder>
     <QuantityHolder>
@@ -15,11 +15,11 @@
       <Quantity>1</Quantity>
     </QuantityHolder>
     <QuantityHolder>
-      <Name>Kazite Bandit (9)</Name>
+      <Name>Kazite Bandit (1)</Name>
       <Quantity>8</Quantity>
     </QuantityHolder>
     <QuantityHolder>
-      <Name>Kazite Bandit (10)</Name>
+      <Name>Kazite Bandit (2)</Name>
       <Quantity>4</Quantity>
     </QuantityHolder>
     <QuantityHolder>
@@ -48,7 +48,7 @@
   </Loot_Containers>
   <Gatherables>
     <QuantityHolder>
-      <Name>Wood</Name>
+      <Name>Tree</Name>
       <Quantity>3</Quantity>
     </QuantityHolder>
     <QuantityHolder>

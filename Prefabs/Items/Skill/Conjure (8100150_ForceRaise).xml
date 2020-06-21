@@ -68,7 +68,7 @@
                       <OverrideCategory>None</OverrideCategory>
                       <Damage>
                         <Damages>
-                          <Damage>165</Damage>
+                          <Damage>150</Damage>
                           <Damage_Type>Electric</Damage_Type>
                         </Damages>
                       </Damage>
@@ -334,6 +334,8 @@
                       <YMagnitudeForce>0</YMagnitudeForce>
                       <DefenseLength>3</DefenseLength>
                       <DefenseRange>3</DefenseRange>
+                      <PhysicsLayerMask>0</PhysicsLayerMask>
+                      <OnlyExplodeOnLayerMask>false</OnlyExplodeOnLayerMask>
                       <ImpactSoundMaterial>Metal_Sharp</ImpactSoundMaterial>
                       <LightIntensityFade>
                         <x>10</x>
@@ -356,7 +358,7 @@
                               <OverrideCategory>None</OverrideCategory>
                               <Damage>
                                 <Damages>
-                                  <Damage>15</Damage>
+                                  <Damage>10</Damage>
                                   <Damage_Type>Decay</Damage_Type>
                                 </Damages>
                               </Damage>
@@ -376,13 +378,6 @@
                 </DM_EffectTransform>
               </BlastEffects>
             </DM_Effect>
-            <DM_Effect xsi:type="DM_AffectCorruption">
-              <Delay>0</Delay>
-              <SyncType>OwnerSync</SyncType>
-              <OverrideCategory>None</OverrideCategory>
-              <AffectQuantity>60</AffectQuantity>
-              <IsRaw>false</IsRaw>
-            </DM_Effect>
           </Effects>
           <EffectConditions>
             <DM_EffectCondition xsi:type="DM_ProximityCondition">
@@ -394,7 +389,7 @@
                   <Consume>false</Consume>
                 </SkillItemReq>
               </RequiredItems>
-              <MaxDistance>20</MaxDistance>
+              <MaxDistance>2.25</MaxDistance>
               <Offset>
                 <x>0</x>
                 <y>0</y>

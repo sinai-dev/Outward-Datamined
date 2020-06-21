@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <DM_Enemy xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Name>Mana Mantis</Name>
-  <GameObject_Name>MantisMana_ReligousDistrict_03</GameObject_Name>
+  <GameObject_Name>MantisMana</GameObject_Name>
   <Unique_ID>1</Unique_ID>
   <Locations_Found>
-    <string>Antique Plateau:Antique Plateau</string>
+    <string>Chersonese:Blue Chamber’s Conflux Path</string>
+    <string>Chersonese:Holy Mission’s Conflux Path</string>
+    <string>Chersonese:Heroic Kingdom’s Conflux Path</string>
+    <string>Enmerkar Forest:Ancestor’s Resting Place</string>
   </Locations_Found>
   <Max_Health>250</Max_Health>
   <Health_Regen_Per_Second>0</Health_Regen_Per_Second>
@@ -54,7 +57,7 @@
     <string>MantisUnhide (8300041)</string>
     <string>ShrimpExplosion (8300042)</string>
   </Skill_Knowledge>
-  <Faction>Golden</Faction>
+  <Faction>Hounds</Faction>
   <Allied_To_Same_Faction>true</Allied_To_Same_Faction>
   <Guaranteed_Drops />
   <DropTable_Names>

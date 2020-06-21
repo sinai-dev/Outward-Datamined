@@ -4,7 +4,7 @@
   <saveDir>/Consumable</saveDir>
   <ItemID>4300290</ItemID>
   <Name>Purity Potion</Name>
-  <Description>Substantially decreases Corruption.</Description>
+  <Description />
   <LegacyItemID>-1</LegacyItemID>
   <IsPickable>true</IsPickable>
   <IsUsable>true</IsUsable>
@@ -24,7 +24,7 @@
     <string>Item</string>
   </Tags>
   <StatsHolder>
-    <BaseValue>90</BaseValue>
+    <BaseValue>60</BaseValue>
     <RawWeight>0.5</RawWeight>
     <MaxDurability>-1</MaxDurability>
   </StatsHolder>
@@ -32,12 +32,25 @@
     <DM_EffectTransform>
       <TransformName>Effects</TransformName>
       <Effects>
-        <DM_Effect xsi:type="DM_AffectCorruption">
+        <DM_Effect xsi:type="DM_AffectBurntStamina">
           <Delay>0</Delay>
           <SyncType>OwnerSync</SyncType>
           <OverrideCategory>None</OverrideCategory>
-          <AffectQuantity>-500</AffectQuantity>
-          <IsRaw>true</IsRaw>
+          <AffectQuantity>50</AffectQuantity>
+          <IsModifier>false</IsModifier>
+        </DM_Effect>
+        <DM_Effect xsi:type="DM_AffectStamina">
+          <Delay>0</Delay>
+          <SyncType>OwnerSync</SyncType>
+          <OverrideCategory>None</OverrideCategory>
+          <AffectQuantity>100</AffectQuantity>
+        </DM_Effect>
+        <DM_Effect xsi:type="DM_AddStatusEffect">
+          <Delay>0</Delay>
+          <SyncType>OwnerSync</SyncType>
+          <OverrideCategory>None</OverrideCategory>
+          <StatusEffect>Stamina Recovery 5</StatusEffect>
+          <ChanceToContract>100</ChanceToContract>
         </DM_Effect>
       </Effects>
       <EffectConditions />

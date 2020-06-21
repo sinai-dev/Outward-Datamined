@@ -3,7 +3,7 @@
   <SceneName>Abandoned Ziggurat</SceneName>
   <Enemies>
     <QuantityHolder>
-      <Name>Blade Dancer (2)</Name>
+      <Name>Blade Dancer (1)</Name>
       <Quantity>2</Quantity>
     </QuantityHolder>
   </Enemies>

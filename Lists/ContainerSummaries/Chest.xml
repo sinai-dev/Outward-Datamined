@@ -4,66 +4,6 @@
   <ItemID>0</ItemID>
   <All_Locations>
     <QuantityHolder>
-      <Name>Antique Plateau:Harmattan</Name>
-      <Quantity>5</Quantity>
-    </QuantityHolder>
-    <QuantityHolder>
-      <Name>Antique Plateau:Antique Plateau</Name>
-      <Quantity>16</Quantity>
-    </QuantityHolder>
-    <QuantityHolder>
-      <Name>Antique Plateau:Abandoned Living Quarters</Name>
-      <Quantity>3</Quantity>
-    </QuantityHolder>
-    <QuantityHolder>
-      <Name>Antique Plateau:Forgotten Research Laboratory</Name>
-      <Quantity>7</Quantity>
-    </QuantityHolder>
-    <QuantityHolder>
-      <Name>Antique Plateau:Ancient Foundry</Name>
-      <Quantity>5</Quantity>
-    </QuantityHolder>
-    <QuantityHolder>
-      <Name>Antique Plateau:Ruined Warehouse</Name>
-      <Quantity>2</Quantity>
-    </QuantityHolder>
-    <QuantityHolder>
-      <Name>Antique Plateau:Lost Golem Manufacturing Facility</Name>
-      <Quantity>2</Quantity>
-    </QuantityHolder>
-    <QuantityHolder>
-      <Name>Antique Plateau:Crumbling Loading Docks</Name>
-      <Quantity>2</Quantity>
-    </QuantityHolder>
-    <QuantityHolder>
-      <Name>Antique Plateau:Destroyed Test Chambers</Name>
-      <Quantity>3</Quantity>
-    </QuantityHolder>
-    <QuantityHolder>
-      <Name>Antique Plateau:Compromised Mana Transfer Station</Name>
-      <Quantity>4</Quantity>
-    </QuantityHolder>
-    <QuantityHolder>
-      <Name>Antique Plateau:Immaculate's Camp</Name>
-      <Quantity>1</Quantity>
-    </QuantityHolder>
-    <QuantityHolder>
-      <Name>Antique Plateau:Bandit Hideout</Name>
-      <Quantity>4</Quantity>
-    </QuantityHolder>
-    <QuantityHolder>
-      <Name>Antique Plateau:Abandoned Storage</Name>
-      <Quantity>1</Quantity>
-    </QuantityHolder>
-    <QuantityHolder>
-      <Name>Antique Plateau:Corrupted Cave</Name>
-      <Quantity>1</Quantity>
-    </QuantityHolder>
-    <QuantityHolder>
-      <Name>Antique Plateau:Old Harmattan Basement</Name>
-      <Quantity>1</Quantity>
-    </QuantityHolder>
-    <QuantityHolder>
       <Name>Chersonese:Cierzo</Name>
       <Quantity>1</Quantity>
     </QuantityHolder>
@@ -286,146 +226,76 @@
   </All_Locations>
   <DropTables>
     <DroptableSummary>
-      <DropTableName>DropTable_AntiqueField_Equipment_Low_1</DropTableName>
-      <Locations>
-        <string>Harmattan</string>
-      </Locations>
-    </DroptableSummary>
-    <DroptableSummary>
-      <DropTableName>DropTable_AntiqueField_Alchemy_1</DropTableName>
-      <Locations>
-        <string>Harmattan</string>
-        <string>Antique Plateau</string>
-        <string>Ruined Warehouse</string>
-        <string>Crumbling Loading Docks</string>
-        <string>Immaculate's Camp</string>
-        <string>Abandoned Storage</string>
-        <string>Corrupted Cave</string>
-        <string>Old Harmattan Basement</string>
-      </Locations>
-    </DroptableSummary>
-    <DroptableSummary>
-      <DropTableName>DropTable_Neutral_Valuable_Low_1</DropTableName>
-      <Locations>
-        <string>Harmattan</string>
-        <string>Forgotten Research Laboratory</string>
-        <string>Ancient Foundry</string>
-        <string>Destroyed Test Chambers</string>
-        <string>Bandit Hideout</string>
-        <string>Chersonese</string>
-        <string>Hallowed Marsh</string>
-        <string>Dead Roots</string>
-        <string>Immaculate's Camp</string>
-        <string>Berg</string>
-        <string>Enmerkar Forest</string>
-        <string>Face of the Ancients</string>
-        <string>Vigil Pylon</string>
-      </Locations>
-    </DroptableSummary>
-    <DroptableSummary>
-      <DropTableName>DropTable_Neutral_Cloth_Poor_1</DropTableName>
-      <Locations>
-        <string>Harmattan</string>
-        <string>Berg</string>
-        <string>Enmerkar Forest</string>
-      </Locations>
-    </DroptableSummary>
-    <DroptableSummary>
       <DropTableName>DropTable_Neutral_Cloth_Rich_1</DropTableName>
       <Locations>
-        <string>Harmattan</string>
-        <string>Antique Plateau</string>
-        <string>Abandoned Living Quarters</string>
-        <string>Forgotten Research Laboratory</string>
-        <string>Bandit Hideout</string>
         <string>Cierzo</string>
         <string>Cierzo (Destroyed)</string>
         <string>Levant</string>
       </Locations>
     </DroptableSummary>
     <DroptableSummary>
-      <DropTableName>DropTable_AntiqueField_Consumable_1</DropTableName>
+      <DropTableName>DropTable_Neutral_Consumable_Low_2</DropTableName>
       <Locations>
-        <string>Harmattan</string>
-        <string>Forgotten Research Laboratory</string>
-        <string>Ruined Warehouse</string>
-        <string>Immaculate's Camp</string>
-        <string>Bandit Hideout</string>
-      </Locations>
-    </DroptableSummary>
-    <DroptableSummary>
-      <DropTableName>DropTable_Neutral_Magic_Low_2</DropTableName>
-      <Locations>
-        <string>Harmattan</string>
-        <string>Antique Plateau</string>
-        <string>Forgotten Research Laboratory</string>
-        <string>Ancient Foundry</string>
-        <string>Lost Golem Manufacturing Facility</string>
-        <string>Crumbling Loading Docks</string>
-        <string>Destroyed Test Chambers</string>
-        <string>Compromised Mana Transfer Station</string>
-        <string>Cierzo (Destroyed)</string>
+        <string>Cierzo</string>
         <string>Chersonese</string>
         <string>Ghost Pass</string>
+        <string>Blue Chamber’s Conflux Path</string>
+        <string>Holy Mission’s Conflux Path</string>
+        <string>Heroic Kingdom’s Conflux Path</string>
         <string>Voltaic Hatchery</string>
-        <string>Corrupted Tombs</string>
-        <string>Vigil Tomb</string>
-        <string>Bandits' Prison</string>
+        <string>Montcalm Clan Fort</string>
+        <string>Immaculate's Cave</string>
         <string>Hallowed Marsh</string>
+        <string>Jade Quarry</string>
         <string>Giants’ Village</string>
         <string>Dark Ziggurat Interior</string>
         <string>Spire of Light</string>
         <string>Ziggurat Passage</string>
-        <string>Hollowed Lotus</string>
-        <string>Flooded Cellar</string>
+        <string>Dead Roots</string>
+        <string>Abrassar</string>
         <string>Undercity Passage</string>
         <string>Electric Lab</string>
-        <string>The Slide</string>
         <string>Stone Titan Caves</string>
-        <string>Ruined Outpost</string>
+        <string>Sand Rose Cave</string>
+        <string>Hive Prison</string>
+        <string>Captain's Cabin</string>
         <string>Enmerkar Forest</string>
-        <string>Cabal of Wind Temple</string>
-        <string>Face of the Ancients</string>
+        <string>Forest Hives</string>
         <string>Ancestor’s Resting Place</string>
         <string>Necropolis</string>
-        <string>Immaculate's Camp</string>
+        <string>Burnt Outpost</string>
+        <string>Tree Husk</string>
+        <string>Vigil Pylon</string>
       </Locations>
     </DroptableSummary>
     <DroptableSummary>
-      <DropTableName>DropTable_AntiqueField_Food_1</DropTableName>
+      <DropTableName>DropTable_Chersonese_Recipe_Weapon_1</DropTableName>
       <Locations>
-        <string>Harmattan</string>
+        <string>Cierzo (Destroyed)</string>
+        <string>Chersonese</string>
+        <string>Holy Mission’s Conflux Path</string>
       </Locations>
     </DroptableSummary>
     <DroptableSummary>
-      <DropTableName>DropTable_Neutral_Survival_High_1</DropTableName>
+      <DropTableName>DropTable_Chersonese_Equipment_High_1</DropTableName>
       <Locations>
-        <string>Antique Plateau</string>
-        <string>Abandoned Living Quarters</string>
-        <string>Forgotten Research Laboratory</string>
-        <string>Ancient Foundry</string>
-        <string>Destroyed Test Chambers</string>
-        <string>Bandit Hideout</string>
-        <string>Corrupted Cave</string>
+        <string>Cierzo (Destroyed)</string>
         <string>Chersonese</string>
         <string>Vendavel Fortress</string>
-        <string>Hallowed Marsh</string>
-        <string>Jade Quarry</string>
-        <string>Levant</string>
-        <string>Electric Lab</string>
+        <string>Ghost Pass</string>
+        <string>Holy Mission’s Conflux Path</string>
+        <string>Voltaic Hatchery</string>
+        <string>Conflux Chambers</string>
+        <string>Corrupted Tombs</string>
+        <string>Immaculate's Cave</string>
+        <string>Vigil Tomb</string>
+        <string>Bandits' Prison</string>
+        <string>Abandoned Shed</string>
       </Locations>
     </DroptableSummary>
     <DroptableSummary>
       <DropTableName>DropTable_Neutral_Alchemy_Low_2</DropTableName>
       <Locations>
-        <string>Antique Plateau</string>
-        <string>Abandoned Living Quarters</string>
-        <string>Ancient Foundry</string>
-        <string>Ruined Warehouse</string>
-        <string>Lost Golem Manufacturing Facility</string>
-        <string>Compromised Mana Transfer Station</string>
-        <string>Abandoned Storage</string>
-        <string>Old Harmattan Basement</string>
         <string>Cierzo (Destroyed)</string>
         <string>Chersonese</string>
         <string>Vendavel Fortress</string>
@@ -460,71 +330,97 @@
       </Locations>
     </DroptableSummary>
     <DroptableSummary>
-      <DropTableName>DropTable_AntiqueField_Recipe_Weapon_1</DropTableName>
+      <DropTableName>DropTable_Neutral_Valuable_High_1</DropTableName>
       <Locations>
-        <string>Antique Plateau</string>
-        <string>Forgotten Research Laboratory</string>
-        <string>Ancient Foundry</string>
-        <string>Crumbling Loading Docks</string>
-        <string>Destroyed Test Chambers</string>
-        <string>Compromised Mana Transfer Station</string>
-        <string>Bandit Hideout</string>
-        <string>Abandoned Storage</string>
-        <string>Corrupted Cave</string>
-        <string>Old Harmattan Basement</string>
+        <string>Cierzo (Destroyed)</string>
       </Locations>
     </DroptableSummary>
     <DroptableSummary>
-      <DropTableName>DropTable_AntiqueField_Equipment_Medium_1</DropTableName>
+      <DropTableName>DropTable_Neutral_Magic_Low_2</DropTableName>
       <Locations>
-        <string>Antique Plateau</string>
-        <string>Abandoned Living Quarters</string>
-        <string>Ancient Foundry</string>
-        <string>Lost Golem Manufacturing Facility</string>
+        <string>Cierzo (Destroyed)</string>
+        <string>Chersonese</string>
+        <string>Ghost Pass</string>
+        <string>Voltaic Hatchery</string>
+        <string>Corrupted Tombs</string>
+        <string>Vigil Tomb</string>
+        <string>Bandits' Prison</string>
+        <string>Hallowed Marsh</string>
+        <string>Giants’ Village</string>
+        <string>Dark Ziggurat Interior</string>
+        <string>Spire of Light</string>
+        <string>Ziggurat Passage</string>
+        <string>Hollowed Lotus</string>
+        <string>Flooded Cellar</string>
+        <string>Undercity Passage</string>
+        <string>Electric Lab</string>
+        <string>The Slide</string>
+        <string>Stone Titan Caves</string>
+        <string>Ruined Outpost</string>
+        <string>Enmerkar Forest</string>
+        <string>Cabal of Wind Temple</string>
+        <string>Face of the Ancients</string>
+        <string>Ancestor’s Resting Place</string>
+        <string>Necropolis</string>
         <string>Immaculate's Camp</string>
-        <string>Abandoned Storage</string>
       </Locations>
     </DroptableSummary>
     <DroptableSummary>
-      <DropTableName>DropTable_AntiqueField_Recipe_Enchantment_1</DropTableName>
+      <DropTableName>DropTable_Chersonese_Equipment_Medium_1</DropTableName>
       <Locations>
-        <string>Antique Plateau</string>
-        <string>Abandoned Living Quarters</string>
-        <string>Forgotten Research Laboratory</string>
-        <string>Ancient Foundry</string>
-        <string>Ruined Warehouse</string>
-        <string>Lost Golem Manufacturing Facility</string>
-        <string>Crumbling Loading Docks</string>
-        <string>Destroyed Test Chambers</string>
-        <string>Compromised Mana Transfer Station</string>
+        <string>Chersonese</string>
+        <string>Blue Chamber’s Conflux Path</string>
+        <string>Holy Mission’s Conflux Path</string>
+        <string>Heroic Kingdom’s Conflux Path</string>
+        <string>Montcalm Clan Fort</string>
+        <string>Mansion's Cellar</string>
+      </Locations>
+    </DroptableSummary>
+    <DroptableSummary>
+      <DropTableName>DropTable_Neutral_Survival_Medium_1</DropTableName>
+      <Locations>
+        <string>Chersonese</string>
+        <string>Ghost Pass</string>
+        <string>Holy Mission’s Conflux Path</string>
+        <string>Heroic Kingdom’s Conflux Path</string>
+        <string>Voltaic Hatchery</string>
+        <string>Mansion's Cellar</string>
+        <string>Bandits' Prison</string>
+        <string>Hallowed Marsh</string>
+        <string>Jade Quarry</string>
+        <string>Giants’ Village</string>
+        <string>Spire of Light</string>
+        <string>Dead Roots</string>
         <string>Immaculate's Camp</string>
-        <string>Bandit Hideout</string>
-        <string>Abandoned Storage</string>
-        <string>Corrupted Cave</string>
-        <string>Old Harmattan Basement</string>
+        <string>Levant</string>
+        <string>Abrassar</string>
+        <string>Undercity Passage</string>
+        <string>Electric Lab</string>
+        <string>River's End</string>
+        <string>Corsair's Headquarters</string>
+        <string>Dock's Storage</string>
+        <string>Enmerkar Forest</string>
+        <string>Forest Hives</string>
+        <string>Ancestor’s Resting Place</string>
+        <string>Necropolis</string>
+        <string>Vigil Pylon</string>
+        <string>Tree Husk</string>
       </Locations>
     </DroptableSummary>
     <DroptableSummary>
-      <DropTableName>DropTable_AntiqueField_Equipment_High_1</DropTableName>
+      <DropTableName>DropTable_Chersonese_Recipe_Basic_1</DropTableName>
       <Locations>
-        <string>Antique Plateau</string>
-        <string>Forgotten Research Laboratory</string>
-        <string>Ruined Warehouse</string>
-        <string>Lost Golem Manufacturing Facility</string>
-        <string>Crumbling Loading Docks</string>
-        <string>Destroyed Test Chambers</string>
-        <string>Compromised Mana Transfer Station</string>
-        <string>Bandit Hideout</string>
-        <string>Old Harmattan Basement</string>
+        <string>Chersonese</string>
+        <string>Holy Mission’s Conflux Path</string>
+        <string>Heroic Kingdom’s Conflux Path</string>
+        <string>Voltaic Hatchery</string>
+        <string>Montcalm Clan Fort</string>
+        <string>Vigil Tomb</string>
       </Locations>
     </DroptableSummary>
     <DroptableSummary>
       <DropTableName>DropTable_Neutral_StandardRecipe_High_1</DropTableName>
       <Locations>
-        <string>Antique Plateau</string>
-        <string>Forgotten Research Laboratory</string>
-        <string>Ruined Warehouse</string>
-        <string>Bandit Hideout</string>
         <string>Chersonese</string>
         <string>Ghost Pass</string>
         <string>Corrupted Tombs</string>
@@ -540,30 +436,40 @@
       </Locations>
     </DroptableSummary>
     <DroptableSummary>
-      <DropTableName>DropTable_Neutral_Magic_High_1</DropTableName>
+      <DropTableName>DropTable_Chersonese_Food_1</DropTableName>
       <Locations>
-        <string>Antique Plateau</string>
-        <string>Forgotten Research Laboratory</string>
-        <string>Lost Golem Manufacturing Facility</string>
-        <string>Crumbling Loading Docks</string>
-        <string>Destroyed Test Chambers</string>
-        <string>Blue Chamber’s Conflux Path</string>
-        <string>Holy Mission’s Conflux Path</string>
-        <string>Mansion's Cellar</string>
+        <string>Chersonese</string>
+        <string>Vendavel Fortress</string>
+        <string>Montcalm Clan Fort</string>
+      </Locations>
+    </DroptableSummary>
+    <DroptableSummary>
+      <DropTableName>DropTable_Neutral_Valuable_Low_1</DropTableName>
+      <Locations>
+        <string>Chersonese</string>
         <string>Hallowed Marsh</string>
-        <string>Ruined Outpost</string>
-        <string>Captain's Cabin</string>
+        <string>Dead Roots</string>
+        <string>Immaculate's Camp</string>
+        <string>Berg</string>
         <string>Enmerkar Forest</string>
-        <string>Cabal of Wind Temple</string>
-        <string>Necropolis</string>
-        <string>Burnt Outpost</string>
+        <string>Face of the Ancients</string>
+        <string>Vigil Pylon</string>
+      </Locations>
+    </DroptableSummary>
+    <DroptableSummary>
+      <DropTableName>DropTable_Neutral_Survival_High_1</DropTableName>
+      <Locations>
+        <string>Chersonese</string>
+        <string>Vendavel Fortress</string>
+        <string>Hallowed Marsh</string>
+        <string>Jade Quarry</string>
+        <string>Levant</string>
+        <string>Electric Lab</string>
       </Locations>
     </DroptableSummary>
     <DroptableSummary>
       <DropTableName>DropTable_Neutral_StandardRecipe_Low_1</DropTableName>
       <Locations>
-        <string>Abandoned Living Quarters</string>
-        <string>Compromised Mana Transfer Station</string>
         <string>Vendavel Fortress</string>
         <string>Blue Chamber’s Conflux Path</string>
         <string>Conflux Chambers</string>
@@ -585,14 +491,35 @@
       </Locations>
     </DroptableSummary>
     <DroptableSummary>
+      <DropTableName>DropTable_Neutral_Recipe_Dungeon_1</DropTableName>
+      <Locations>
+        <string>Ghost Pass</string>
+        <string>Heroic Kingdom’s Conflux Path</string>
+        <string>Voltaic Hatchery</string>
+        <string>Dark Ziggurat Interior</string>
+        <string>Spire of Light</string>
+        <string>Stone Titan Caves</string>
+        <string>Dock's Storage</string>
+      </Locations>
+    </DroptableSummary>
+    <DroptableSummary>
+      <DropTableName>DropTable_Neutral_Magic_High_1</DropTableName>
+      <Locations>
+        <string>Blue Chamber’s Conflux Path</string>
+        <string>Holy Mission’s Conflux Path</string>
+        <string>Mansion's Cellar</string>
+        <string>Hallowed Marsh</string>
+        <string>Ruined Outpost</string>
+        <string>Captain's Cabin</string>
+        <string>Enmerkar Forest</string>
+        <string>Cabal of Wind Temple</string>
+        <string>Necropolis</string>
+        <string>Burnt Outpost</string>
+      </Locations>
+    </DroptableSummary>
+    <DroptableSummary>
       <DropTableName>DropTable_Neutral_Survival_Low_2</DropTableName>
       <Locations>
-        <string>Abandoned Living Quarters</string>
-        <string>Forgotten Research Laboratory</string>
-        <string>Ruined Warehouse</string>
-        <string>Destroyed Test Chambers</string>
-        <string>Bandit Hideout</string>
-        <string>Corrupted Cave</string>
         <string>Holy Mission’s Conflux Path</string>
         <string>Heroic Kingdom’s Conflux Path</string>
         <string>Conflux Chambers</string>
@@ -617,214 +544,9 @@
       </Locations>
     </DroptableSummary>
     <DroptableSummary>
-      <DropTableName>DropTable_AntiqueField_Recipe_Basic_1</DropTableName>
-      <Locations>
-        <string>Abandoned Living Quarters</string>
-        <string>Lost Golem Manufacturing Facility</string>
-        <string>Destroyed Test Chambers</string>
-        <string>Compromised Mana Transfer Station</string>
-        <string>Immaculate's Camp</string>
-        <string>Bandit Hideout</string>
-      </Locations>
-    </DroptableSummary>
-    <DroptableSummary>
-      <DropTableName>DropTable_Neutral_Consumable_Low_2</DropTableName>
-      <Locations>
-        <string>Abandoned Living Quarters</string>
-        <string>Forgotten Research Laboratory</string>
-        <string>Ancient Foundry</string>
-        <string>Ruined Warehouse</string>
-        <string>Destroyed Test Chambers</string>
-        <string>Compromised Mana Transfer Station</string>
-        <string>Bandit Hideout</string>
-        <string>Cierzo</string>
-        <string>Chersonese</string>
-        <string>Ghost Pass</string>
-        <string>Blue Chamber’s Conflux Path</string>
-        <string>Holy Mission’s Conflux Path</string>
-        <string>Heroic Kingdom’s Conflux Path</string>
-        <string>Voltaic Hatchery</string>
-        <string>Montcalm Clan Fort</string>
-        <string>Immaculate's Cave</string>
-        <string>Hallowed Marsh</string>
-        <string>Jade Quarry</string>
-        <string>Giants’ Village</string>
-        <string>Dark Ziggurat Interior</string>
-        <string>Spire of Light</string>
-        <string>Ziggurat Passage</string>
-        <string>Dead Roots</string>
-        <string>Abrassar</string>
-        <string>Undercity Passage</string>
-        <string>Electric Lab</string>
-        <string>Stone Titan Caves</string>
-        <string>Sand Rose Cave</string>
-        <string>Hive Prison</string>
-        <string>Captain's Cabin</string>
-        <string>Enmerkar Forest</string>
-        <string>Forest Hives</string>
-        <string>Ancestor’s Resting Place</string>
-        <string>Necropolis</string>
-        <string>Burnt Outpost</string>
-        <string>Tree Husk</string>
-        <string>Vigil Pylon</string>
-      </Locations>
-    </DroptableSummary>
-    <DroptableSummary>
-      <DropTableName>DropTable_Neutral_Survival_Medium_1</DropTableName>
-      <Locations>
-        <string>Abandoned Living Quarters</string>
-        <string>Forgotten Research Laboratory</string>
-        <string>Destroyed Test Chambers</string>
-        <string>Immaculate's Camp</string>
-        <string>Bandit Hideout</string>
-        <string>Chersonese</string>
-        <string>Ghost Pass</string>
-        <string>Holy Mission’s Conflux Path</string>
-        <string>Heroic Kingdom’s Conflux Path</string>
-        <string>Voltaic Hatchery</string>
-        <string>Mansion's Cellar</string>
-        <string>Bandits' Prison</string>
-        <string>Hallowed Marsh</string>
-        <string>Jade Quarry</string>
-        <string>Giants’ Village</string>
-        <string>Spire of Light</string>
-        <string>Dead Roots</string>
-        <string>Levant</string>
-        <string>Abrassar</string>
-        <string>Undercity Passage</string>
-        <string>Electric Lab</string>
-        <string>River's End</string>
-        <string>Corsair's Headquarters</string>
-        <string>Dock's Storage</string>
-        <string>Enmerkar Forest</string>
-        <string>Forest Hives</string>
-        <string>Ancestor’s Resting Place</string>
-        <string>Necropolis</string>
-        <string>Vigil Pylon</string>
-        <string>Tree Husk</string>
-      </Locations>
-    </DroptableSummary>
-    <DroptableSummary>
-      <DropTableName>DropTable_AntiqueField_Dungeon2A</DropTableName>
-      <Locations>
-        <string>Forgotten Research Laboratory</string>
-      </Locations>
-    </DroptableSummary>
-    <DroptableSummary>
-      <DropTableName>DropTable_Neutral_Valuable_High_1</DropTableName>
-      <Locations>
-        <string>Forgotten Research Laboratory</string>
-        <string>Crumbling Loading Docks</string>
-        <string>Bandit Hideout</string>
-        <string>Cierzo (Destroyed)</string>
-      </Locations>
-    </DroptableSummary>
-    <DroptableSummary>
-      <DropTableName>DropTable_AntiqueField_Dungeon2E</DropTableName>
-      <Locations>
-        <string>Forgotten Research Laboratory</string>
-      </Locations>
-    </DroptableSummary>
-    <DroptableSummary>
-      <DropTableName>DropTable_AntiqueField_Dungeon2B</DropTableName>
-      <Locations>
-        <string>Forgotten Research Laboratory</string>
-      </Locations>
-    </DroptableSummary>
-    <DroptableSummary>
-      <DropTableName>DropTable_AntiqueField_Dungeon2C</DropTableName>
-      <Locations>
-        <string>Forgotten Research Laboratory</string>
-      </Locations>
-    </DroptableSummary>
-    <DroptableSummary>
-      <DropTableName>DropTable_Neutral_Consumable_High_1</DropTableName>
-      <Locations>
-        <string>Ancient Foundry</string>
-        <string>Lost Golem Manufacturing Facility</string>
-        <string>Crumbling Loading Docks</string>
-        <string>Compromised Mana Transfer Station</string>
-        <string>Reptilian Lair</string>
-        <string>Abandoned Shed</string>
-        <string>Face of the Ancients</string>
-        <string>Immaculate's Camp</string>
-        <string>Dolmen Crypt</string>
-      </Locations>
-    </DroptableSummary>
-    <DroptableSummary>
-      <DropTableName>DropTable_Neutral_Recipe_Dungeon_1</DropTableName>
-      <Locations>
-        <string>Ruined Warehouse</string>
-        <string>Ghost Pass</string>
-        <string>Heroic Kingdom’s Conflux Path</string>
-        <string>Voltaic Hatchery</string>
-        <string>Dark Ziggurat Interior</string>
-        <string>Spire of Light</string>
-        <string>Stone Titan Caves</string>
-        <string>Dock's Storage</string>
-      </Locations>
-    </DroptableSummary>
-    <DroptableSummary>
       <DropTableName>DropTable_Neutral_Alchemy_High_1</DropTableName>
       <Locations>
-        <string>Lost Golem Manufacturing Facility</string>
-        <string>Old Harmattan Basement</string>
         <string>Heroic Kingdom’s Conflux Path</string>
-      </Locations>
-    </DroptableSummary>
-    <DroptableSummary>
-      <DropTableName>DropTable_Chersonese_Recipe_Weapon_1</DropTableName>
-      <Locations>
-        <string>Cierzo (Destroyed)</string>
-        <string>Chersonese</string>
-        <string>Holy Mission’s Conflux Path</string>
-      </Locations>
-    </DroptableSummary>
-    <DroptableSummary>
-      <DropTableName>DropTable_Chersonese_Equipment_High_1</DropTableName>
-      <Locations>
-        <string>Cierzo (Destroyed)</string>
-        <string>Chersonese</string>
-        <string>Vendavel Fortress</string>
-        <string>Ghost Pass</string>
-        <string>Holy Mission’s Conflux Path</string>
-        <string>Voltaic Hatchery</string>
-        <string>Conflux Chambers</string>
-        <string>Corrupted Tombs</string>
-        <string>Immaculate's Cave</string>
-        <string>Vigil Tomb</string>
-        <string>Bandits' Prison</string>
-        <string>Abandoned Shed</string>
-      </Locations>
-    </DroptableSummary>
-    <DroptableSummary>
-      <DropTableName>DropTable_Chersonese_Equipment_Medium_1</DropTableName>
-      <Locations>
-        <string>Chersonese</string>
-        <string>Blue Chamber’s Conflux Path</string>
-        <string>Holy Mission’s Conflux Path</string>
-        <string>Heroic Kingdom’s Conflux Path</string>
-        <string>Montcalm Clan Fort</string>
-        <string>Mansion's Cellar</string>
-      </Locations>
-    </DroptableSummary>
-    <DroptableSummary>
-      <DropTableName>DropTable_Chersonese_Recipe_Basic_1</DropTableName>
-      <Locations>
-        <string>Chersonese</string>
-        <string>Holy Mission’s Conflux Path</string>
-        <string>Heroic Kingdom’s Conflux Path</string>
-        <string>Voltaic Hatchery</string>
-        <string>Montcalm Clan Fort</string>
-        <string>Vigil Tomb</string>
-      </Locations>
-    </DroptableSummary>
-    <DroptableSummary>
-      <DropTableName>DropTable_Chersonese_Food_1</DropTableName>
-      <Locations>
-        <string>Chersonese</string>
-        <string>Vendavel Fortress</string>
-        <string>Montcalm Clan Fort</string>
       </Locations>
     </DroptableSummary>
     <DroptableSummary>
@@ -888,6 +610,16 @@
         <string>Hallowed Marsh</string>
         <string>Jade Quarry</string>
         <string>Immaculate's Camp</string>
+      </Locations>
+    </DroptableSummary>
+    <DroptableSummary>
+      <DropTableName>DropTable_Neutral_Consumable_High_1</DropTableName>
+      <Locations>
+        <string>Reptilian Lair</string>
+        <string>Abandoned Shed</string>
+        <string>Face of the Ancients</string>
+        <string>Immaculate's Camp</string>
+        <string>Dolmen Crypt</string>
       </Locations>
     </DroptableSummary>
     <DroptableSummary>
@@ -962,6 +694,13 @@
     </DroptableSummary>
     <DroptableSummary>
       <DropTableName>DropTable_Enmerkar_Equipment_Low_1</DropTableName>
+      <Locations>
+        <string>Berg</string>
+        <string>Enmerkar Forest</string>
+      </Locations>
+    </DroptableSummary>
+    <DroptableSummary>
+      <DropTableName>DropTable_Neutral_Cloth_Poor_1</DropTableName>
       <Locations>
         <string>Berg</string>
         <string>Enmerkar Forest</string>

@@ -22,8 +22,6 @@
     <string>Boots</string>
     <string>Equipment</string>
     <string>Item</string>
-    <string>Desert</string>
-    <string>Family</string>
     <string>Basic Boots</string>
   </Tags>
   <StatsHolder xsi:type="DM_EquipmentStats">

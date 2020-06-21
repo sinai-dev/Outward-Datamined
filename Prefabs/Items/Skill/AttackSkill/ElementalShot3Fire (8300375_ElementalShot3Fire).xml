@@ -59,53 +59,15 @@
             <DM_ProjectileShot>
               <LocalDirectionOffset>
                 <x>0</x>
-                <y>-0.03</y>
+                <y>0</y>
                 <z>0</z>
               </LocalDirectionOffset>
               <LockDirection>
-                <x>-999</x>
-                <y>-999</y>
-                <z>-999</z>
-              </LockDirection>
-              <MustShoot>true</MustShoot>
-              <NoBaseDir>false</NoBaseDir>
-              <RandomLocalDirectionAdd>
                 <x>0</x>
                 <y>0</y>
                 <z>0</z>
-              </RandomLocalDirectionAdd>
-            </DM_ProjectileShot>
-            <DM_ProjectileShot>
-              <LocalDirectionOffset>
-                <x>0.2</x>
-                <y>-0.03</y>
-                <z>0</z>
-              </LocalDirectionOffset>
-              <LockDirection>
-                <x>-999</x>
-                <y>-999</y>
-                <z>-999</z>
               </LockDirection>
-              <MustShoot>true</MustShoot>
-              <NoBaseDir>false</NoBaseDir>
-              <RandomLocalDirectionAdd>
-                <x>0</x>
-                <y>0</y>
-                <z>0</z>
-              </RandomLocalDirectionAdd>
-            </DM_ProjectileShot>
-            <DM_ProjectileShot>
-              <LocalDirectionOffset>
-                <x>-0.2</x>
-                <y>-0.03</y>
-                <z>0</z>
-              </LocalDirectionOffset>
-              <LockDirection>
-                <x>-999</x>
-                <y>-999</y>
-                <z>-999</z>
-              </LockDirection>
-              <MustShoot>true</MustShoot>
+              <MustShoot>false</MustShoot>
               <NoBaseDir>false</NoBaseDir>
               <RandomLocalDirectionAdd>
                 <x>0</x>
@@ -121,7 +83,7 @@
           <EndMode>Normal</EndMode>
           <DisableOnHit>false</DisableOnHit>
           <IgnoreShooterCollision>true</IgnoreShooterCollision>
-          <TargetingMode>NONE</TargetingMode>
+          <TargetingMode>OwnerTarget</TargetingMode>
           <TargetCountPerProjectile>1</TargetCountPerProjectile>
           <TargetRange>0</TargetRange>
           <AutoTarget>false</AutoTarget>
@@ -138,10 +100,12 @@
             <y>0</y>
             <z>0</z>
           </AddRotationForce>
-          <YMagnitudeAffect>0.002</YMagnitudeAffect>
+          <YMagnitudeAffect>0</YMagnitudeAffect>
           <YMagnitudeForce>0</YMagnitudeForce>
           <DefenseLength>3</DefenseLength>
           <DefenseRange>3</DefenseRange>
+          <PhysicsLayerMask>0</PhysicsLayerMask>
+          <OnlyExplodeOnLayerMask>false</OnlyExplodeOnLayerMask>
           <ImpactSoundMaterial>Metal_Sharp</ImpactSoundMaterial>
           <LightIntensityFade>
             <x>10</x>
@@ -176,8 +140,8 @@
                   <Delay>0</Delay>
                   <SyncType>OwnerSync</SyncType>
                   <OverrideCategory>None</OverrideCategory>
-                  <StatusEffect>Sapped</StatusEffect>
-                  <Buildup>30</Buildup>
+                  <StatusEffect>Burn</StatusEffect>
+                  <Buildup>34</Buildup>
                 </DM_Effect>
               </Effects>
               <EffectConditions />

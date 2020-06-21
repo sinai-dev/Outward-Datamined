@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<DM_LootContainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <Name>Stash</Name>
-  <ItemID>1000000</ItemID>
-  <UID>ImqRiGAT80aE2WtUHfdcMw</UID>
-  <DropTables>
-    <string>DropTable_AntiqueField_PlayerHouse_3</string>
-  </DropTables>
-</DM_LootContainer>

@@ -125,6 +125,8 @@ Some abilities load special bullets into your pistol, which are fired using this
           <YMagnitudeForce>0</YMagnitudeForce>
           <DefenseLength>3</DefenseLength>
           <DefenseRange>3</DefenseRange>
+          <PhysicsLayerMask>0</PhysicsLayerMask>
+          <OnlyExplodeOnLayerMask>false</OnlyExplodeOnLayerMask>
           <ImpactSoundMaterial>Fire</ImpactSoundMaterial>
           <LightIntensityFade>
             <x>10</x>
@@ -259,6 +261,8 @@ Some abilities load special bullets into your pistol, which are fired using this
           <YMagnitudeForce>0</YMagnitudeForce>
           <DefenseLength>3</DefenseLength>
           <DefenseRange>3</DefenseRange>
+          <PhysicsLayerMask>0</PhysicsLayerMask>
+          <OnlyExplodeOnLayerMask>false</OnlyExplodeOnLayerMask>
           <ImpactSoundMaterial>Metal_Sharp</ImpactSoundMaterial>
           <LightIntensityFade>
             <x>10</x>
@@ -404,6 +408,8 @@ Some abilities load special bullets into your pistol, which are fired using this
           <YMagnitudeForce>0</YMagnitudeForce>
           <DefenseLength>3</DefenseLength>
           <DefenseRange>3</DefenseRange>
+          <PhysicsLayerMask>0</PhysicsLayerMask>
+          <OnlyExplodeOnLayerMask>false</OnlyExplodeOnLayerMask>
           <ImpactSoundMaterial>Metal_Sharp</ImpactSoundMaterial>
           <LightIntensityFade>
             <x>10</x>
@@ -638,6 +644,8 @@ Some abilities load special bullets into your pistol, which are fired using this
           <YMagnitudeForce>0</YMagnitudeForce>
           <DefenseLength>3</DefenseLength>
           <DefenseRange>3</DefenseRange>
+          <PhysicsLayerMask>0</PhysicsLayerMask>
+          <OnlyExplodeOnLayerMask>false</OnlyExplodeOnLayerMask>
           <ImpactSoundMaterial>Metal_Sharp</ImpactSoundMaterial>
           <LightIntensityFade>
             <x>10</x>

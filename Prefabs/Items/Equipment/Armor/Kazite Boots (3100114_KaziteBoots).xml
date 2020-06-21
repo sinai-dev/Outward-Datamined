@@ -22,8 +22,6 @@
     <string>Boots</string>
     <string>Equipment</string>
     <string>Item</string>
-    <string>Kazite</string>
-    <string>Family</string>
   </Tags>
   <StatsHolder xsi:type="DM_EquipmentStats">
     <BaseValue>150</BaseValue>

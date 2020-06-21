@@ -66,6 +66,8 @@
           <YMagnitudeForce>0</YMagnitudeForce>
           <DefenseLength>3</DefenseLength>
           <DefenseRange>3</DefenseRange>
+          <PhysicsLayerMask>0</PhysicsLayerMask>
+          <OnlyExplodeOnLayerMask>true</OnlyExplodeOnLayerMask>
           <ImpactSoundMaterial>Fire</ImpactSoundMaterial>
           <LightIntensityFade>
             <x>10</x>
@@ -164,6 +166,8 @@
                   <YMagnitudeForce>0</YMagnitudeForce>
                   <DefenseLength>0</DefenseLength>
                   <DefenseRange>0</DefenseRange>
+                  <PhysicsLayerMask>0</PhysicsLayerMask>
+                  <OnlyExplodeOnLayerMask>false</OnlyExplodeOnLayerMask>
                   <ImpactSoundMaterial>NONE</ImpactSoundMaterial>
                   <LightIntensityFade>
                     <x>10</x>
@@ -204,20 +208,6 @@
                           <Damages_AI />
                           <Knockback>50</Knockback>
                           <HitInventory>true</HitInventory>
-                        </DM_Effect>
-                        <DM_Effect xsi:type="DM_AffectCorruption">
-                          <Delay>0</Delay>
-                          <SyncType>OwnerSync</SyncType>
-                          <OverrideCategory>None</OverrideCategory>
-                          <AffectQuantity>10</AffectQuantity>
-                          <IsRaw>false</IsRaw>
-                        </DM_Effect>
-                        <DM_Effect xsi:type="DM_AddStatusEffectBuildUp">
-                          <Delay>0</Delay>
-                          <SyncType>OwnerSync</SyncType>
-                          <OverrideCategory>None</OverrideCategory>
-                          <StatusEffect>Sapped</StatusEffect>
-                          <Buildup>85</Buildup>
                         </DM_Effect>
                       </Effects>
                       <EffectConditions />

@@ -23,9 +23,6 @@
     <string>Weapon</string>
     <string>Item</string>
     <string>Pole Arm</string>
-    <string>Basic Trog</string>
-    <string>Trog</string>
-    <string>Family</string>
   </Tags>
   <StatsHolder xsi:type="DM_WeaponStats">
     <BaseValue>1000</BaseValue>

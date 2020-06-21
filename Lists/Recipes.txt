@@ -109,7 +109,7 @@
 19	Cooking	Alpha Jerky (5)	Raw Alpha Meat,Raw Alpha Meat,Salt,Salt
 1	Cooking	Clean Water (1),Salt (1)	Salt Water
 200	Survival	Mace of Seasons (1)	Gep’s Generosity,Pearlbird’s Courage,Elatt’s Relic,Leyline Figment
-201	Survival	Squire Attire (1)	Pearlbird’s Courage,Elatt’s Relic,Haunted Memory,Calixa’s Relic
+201	Survival	Squire Attire (1)	Pearlbird’s Courage,Elatt’s Relic,Calixa’s Relic,Haunted Memory
 202	Survival	Squire Boots (1)	Gep’s Generosity,Elatt’s Relic,Haunted Memory,Leyline Figment
 203	Survival	Squire Headband (1)	Gep’s Generosity,Elatt’s Relic,Scourge’s Tears,Haunted Memory
 204	Survival	Pilgrim Armor (1)	Pearlbird’s Courage,Scourge’s Tears,Leyline Figment,Vendavel's Hospitality
@@ -129,110 +129,15 @@
 28	Survival	Fang Greatclub (1)	Iron Greathammer,Predator Bones,Predator Bones,Linen Cloth
 29	Survival	Fang Halberd (1)	Iron Halberd,Predator Bones,Predator Bones,Linen Cloth
 2	Cooking	Clean Water (1)	River Water
-300	Survival	Virgin Sword (1)	Gold Machete,Pure Chitin,Palladium Scrap,Palladium Scrap
-301	Survival	Virgin Greatsword (1)	Prayer Claymore,Palladium Scrap,Palladium Scrap,Pure Chitin
-302	Survival	Virgin Mace (1)	Gold Club,Palladium Scrap,Palladium Scrap,Pure Chitin
-303	Survival	Virgin Greatmace (1)	Brutal Greatmace,Palladium Scrap,Palladium Scrap,Pure Chitin
-304	Survival	Virgin Axe (1)	Gold Hatchet,Palladium Scrap,Palladium Scrap,Pure Chitin
-305	Survival	Virgin Greataxe (1)	Gold Greataxe,Palladium Scrap,Palladium Scrap,Pure Chitin
-306	Survival	Virgin Chakram (1)	Virgin Chakram,Palladium Scrap,Palladium Scrap,Pure Chitin
-307	Survival	Virgin Shield (1)	Virgin Shield,Palladium Scrap,Palladium Scrap,Pure Chitin
-308	Survival	Virgin Bow (1)	Virgin Bow,Palladium Scrap,Palladium Scrap,Pure Chitin
-309	Survival	Virgin Halberd (1)	Gold Guisarme,Palladium Scrap,Palladium Scrap,Pure Chitin
 30	Survival	Fang Shield (1)	Round Shield,Predator Bones,Linen Cloth
-310	Survival	Virgin Spear (1)	Gold Harpoon,Palladium Scrap,Palladium Scrap,Pure Chitin
-311	Survival	Galvanic Mace (1)	Iron Mace,Shield Golem Scraps,Crystal Powder,Palladium Scrap
-312	Survival	Galvanic Greatmace (1)	Iron Greathammer,Shield Golem Scraps,Crystal Powder,Palladium Scrap
-313	Survival	Galvanic Axe (1)	Iron Axe,Shield Golem Scraps,Crystal Powder,Palladium Scrap
-314	Survival	Galvanic Greataxe (1)	Iron Greataxe,Shield Golem Scraps,Crystal Powder,Palladium Scrap
-315	Survival	Galvanic Dagger (1)	Shiv Dagger,Shield Golem Scraps,Crystal Powder,Palladium Scrap
-316	Survival	Galvanic Pistol (1)	Flintlock Pistol,Shield Golem Scraps,Crystal Powder,Palladium Scrap
-317	Survival	Galvanic Bow (1)	Simple Bow,Shield Golem Scraps,Crystal Powder,Palladium Scrap
-318	Survival	Galvanic Halberd (1)	Iron Halberd,Shield Golem Scraps,Crystal Powder,Palladium Scrap
-319	Survival	Galvanic Spear (1)	Iron Spear,Shield Golem Scraps,Crystal Powder,Palladium Scrap
 31	Survival	Improvised Bedroll (1)	Hide,Hide
-320	Survival	Galvanic Shield (1)	Round Shield,Shield Golem Scraps,Crystal Powder,Palladium Scrap
-321	Survival	Galvanic Fists (1)	Beast Golem Scraps,Shield Golem Scraps,Palladium Wristband,Palladium Wristband
-322	Survival	Horror Sword (1)	Fang Sword,Horror Chitin,Occult Remains,Palladium Scrap
-323	Survival	Horror Greatsword (1)	Fang Greatsword,Horror Chitin,Occult Remains,Palladium Scrap
-324	Survival	Horror Mace (1)	Fang Club,Horror Chitin,Occult Remains,Palladium Scrap
-325	Survival	Horror Greatmace (1)	Fang Greatclub,Horror Chitin,Occult Remains,Palladium Scrap
-326	Survival	Horror Greataxe (1)	Fang Greataxe,Horror Chitin,Occult Remains,Palladium Scrap
-327	Survival	Horror Chakram (1)	Thorn Chakram,Horror Chitin,Occult Remains,Palladium Scrap
-328	Survival	Horror Halberd (1)	Fang Halberd,Horror Chitin,Occult Remains,Palladium Scrap
-329	Survival	Horror Spear (1)	Fang Trident,Horror Chitin,Occult Remains,Palladium Scrap
 32	Survival	Bandages (1)	Linen Cloth,Linen Cloth
-330	Survival	Horror Fists (1)	Horror Chitin,Horror Chitin,Palladium Wristband,Palladium Wristband
-331	Survival	Horror Armor (1)	Halfplate Armor,Pure Chitin,Horror Chitin,Palladium Scrap
-332	Survival	Horror Helm (1)	Halfplate Helm,Pure Chitin,Horror Chitin,Palladium Scrap
-333	Survival	Horror Greaves (1)	Halfplate Boots,Pure Chitin,Horror Chitin,Palladium Scrap
-334	Survival	Cloth Knuckles (1)	Linen Cloth,Linen Cloth,Linen Cloth
-335	Survival	Fang Knuckles (1)	Iron Wristband,Iron Wristband,Iron Knuckles,Predator Bones
-336	Survival	Iron Knuckles (1)	Iron Wristband,Iron Wristband,Iron Scrap,Boozu’s Hide
-337	Survival	Caged Armor Chestplate (1)	Gep’s Generosity,Vendavel's Hospitality,Pearlbird’s Courage,Metalized Bones
-338	Survival	Caged Armor Helm (1)	Pearlbird’s Courage,Leyline Figment,Vendavel's Hospitality,Enchanted Mask
-339	Survival	Caged Armor Boots (1)	Gep’s Generosity,Elatt’s Relic,Calixa’s Relic,Flowering Corruption
 33	Survival	Quarterstaff (1)	Wood,Wood,Linen Cloth
-340	Survival	Cage Pistol (1)	Haunted Memory,Scourge’s Tears,Flowering Corruption,Enchanted Mask
-341	Survival	Enchanting Table Shield (1)	Enchanting Pedestal
-342	Survival	Enchanting Pedestal (1)	Enchanting Table Shield
-343	Survival	Kazite Light Armor (1)	Light Kazite Shirt,Linen Cloth
-344	Survival	Light Kazite Shirt (1),Linen Cloth (1)	Kazite Light Armor
-345	Survival	Scourge Cocoon (1)	Occult Remains,Horror Chitin,Veaber’s Egg,Veaber’s Egg
-346	Survival	Boozu Hide Backpack (1)	Scaled Satchel,Boozu’s Hide,Boozu’s Hide,Boozu’s Hide
-347	Survival	Virgin Lantern (1)	Virgin Lantern,Crystal Powder
-348	Survival	Arcane Dampener (1)	Dreamer’s Root,Crystal Powder,Boozu’s Hide
 34	Survival	Makeshift Torch (1)	Wood,Linen Cloth
-350	Cooking	Boiled Crawlberry (1)	Crawlberry
-351	Cooking	Boiled Purpkin (1)	Purpkin
-352	Cooking	Cooked Boozu’s Meat (1)	Boozu’s Meat
-353	Cooking	Grilled Eel (1)	Antique Eel
-354	Cooking	Grilled Manaheart Bass (1)	Manaheart Bass
-355	Cooking	Grilled Nightmare Mushroom (1)	Nightmare Mushroom
-356	Cooking	Boiled Veaber Egg (1)	Veaber’s Egg
-357	Cooking	Boiled Dreamer’s Root (1)	Dreamer’s Root
-358	Cooking	Warm Boozu’s Milk (1)	Boozu’s Milk
-359	Cooking	Clean Water (1),Sugar (1)	Leyline Water
 35	Survival	Primitive Satchel (1)	Hide,Hide,Linen Cloth
-360	Alchemy	Energizing Potion (3)	Leyline Water,Crystal Powder,Stingleaf
-361	Alchemy	Invigorating Potion (3)	Water,Sugar,Dreamer’s Root
-362	Alchemy	Purity Potion (3)	Sanctifier Potion,Elemental Particle
-363	Alchemy	Quartz Potion (3)	Water,Boozu’s Hide,Dreamer’s Root
-364	Alchemy	Sanctifier Potion (3)	Leyline Water,Purifying Quartz,Dreamer’s Root,Occult Remains
-365	Alchemy	Innocence Potion (3)	Thick Oil,Purifying Quartz,Dark Stone,Boozu’s Milk
-366	Alchemy	Illuminating Potion (1)	Leyline Water,Nightmare Mushroom,Gaberry Wine,Liquid Corruption
-367	Alchemy	Horror’s Potion (1)	Life Potion,Seaweed,Rancid Water,Liquid Corruption
-368	Alchemy	Alertness Potion (3)	Water,Nightmare Mushroom,Stingleaf
-369	Alchemy	Spiked Alertness Potion (1)	Alertness Potion,Stingleaf
 36	Survival	Arrow (3)	Wood,Iron Scrap
-370	Cooking	Flour (1)	Wheat,Wheat
-371	Cooking	Fresh Cream (1)	Boozu’s Milk,Boozu’s Milk,Boozu’s Milk,Boozu’s Milk
-372	Cooking	Crawlberry Jam (1)	Crawlberry,Crawlberry,Sugar
-373	Cooking	Purpkin Pie (3)	Purpkin,Flour,Veaber’s Egg,Sugar
-374	Cooking	Pouding Chomeur (3)	Flour,Egg,Sugar,Boozu’s Milk
-375	Cooking	Angel Food Cake (3)	Flour,Egg,Sugar
-376	Cooking	Bagatelle (3)	Crawlberry Jam,Crawlberry Jam,Sugar,Fresh Cream
-377	Cooking	Cheese Cake (3)	Fresh Cream,Fresh Cream,Egg,Sugar
-378	Cooking	Cipate (1)	Boozu’s Meat,Salt,Egg,Flour
-379	Survival	Horror Pistol (1)	Cannon Pistol,Horror Chitin,Occult Remains,Palladium Scrap
 37	Survival	Plank Shield (1)	Wood,Linen Cloth,Linen Cloth
-380	Alchemy	Monarch Incense  (4)	Dreamer’s Root,Dreamer’s Root,Elemental Particle – Fire
-381	Alchemy	Admiral Incense  (4)	Dreamer’s Root,Dreamer’s Root,Elemental Particle – Light
-382	Alchemy	Pale Beauty Incense  (4)	Dreamer’s Root,Dreamer’s Root,Elemental Particle – Ether
-383	Alchemy	Chrysalis Incense  (4)	Dreamer’s Root,Dreamer’s Root,Elemental Particle – Ice
-384	Alchemy	Cecropia Incense  (4)	Dreamer’s Root,Dreamer’s Root,Elemental Particle – Decay
-385	Alchemy	Morpho Incense  (4)	Purifying Quartz,Tourmaline,Elemental Particle – Ice,Chrysalis Incense 
-386	Alchemy	Sylphina Incense  (4)	Purifying Quartz,Tourmaline,Elemental Particle – Ether,Pale Beauty Incense 
-387	Alchemy	Comet Incense  (4)	Purifying Quartz,Tourmaline,Elemental Particle – Decay,Cecropia Incense 
-388	Alchemy	Luna Incense  (4)	Purifying Quartz,Tourmaline,Elemental Particle – Light,Admiral Incense 
-389	Alchemy	Apollo Incense  (4)	Purifying Quartz,Tourmaline,Elemental Particle – Fire,Monarch Incense 
 38	Survival	Tripwire Trap (2)	Wood,Linen Cloth,Iron Scrap,Iron Scrap
-390	Cooking	Bread (3)	Flour,Water,Salt
-391	Cooking	Crawlberry Tartine  (3)	Bread,Crawlberry Jam
-393	Survival	Shadow Kazite Light Armor (1)	Shadow Light Kazite Shirt,Linen Cloth
-394	Survival	Shadow Light Kazite Shirt (1),Linen Cloth (1)	Shadow Kazite Light Armor
-395	Survival	Great Life Potion (1),Linen Cloth (1)	DecraftGreaterHealth_Small
-396	Survival	Great Life Potion (2)	DecraftGreaterHealth_Large
 39	Survival	Iron Scrap (1)	DecraftIron_Small
 3	Cooking	Cooked Meat (1)	Raw Meat
 40	Survival	Iron Scrap (2)	DecraftIron_Large

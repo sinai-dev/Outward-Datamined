@@ -3,11 +3,11 @@
   <SceneName>Royal Manticore’s Lair</SceneName>
   <Enemies>
     <QuantityHolder>
-      <Name>Troglodyte Grenadier (3)</Name>
+      <Name>Troglodyte Grenadier (1)</Name>
       <Quantity>1</Quantity>
     </QuantityHolder>
     <QuantityHolder>
-      <Name>Troglodyte Knight (5)</Name>
+      <Name>Troglodyte Knight (1)</Name>
       <Quantity>2</Quantity>
     </QuantityHolder>
     <QuantityHolder>
@@ -48,7 +48,7 @@
   </Loot_Containers>
   <Gatherables>
     <QuantityHolder>
-      <Name>Wood</Name>
+      <Name>Tree</Name>
       <Quantity>3</Quantity>
     </QuantityHolder>
     <QuantityHolder>

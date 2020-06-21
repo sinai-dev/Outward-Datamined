@@ -69,6 +69,8 @@ Using this skill destroys the lantern.</Description>
           <YMagnitudeForce>0</YMagnitudeForce>
           <DefenseLength>0</DefenseLength>
           <DefenseRange>5</DefenseRange>
+          <PhysicsLayerMask>0</PhysicsLayerMask>
+          <OnlyExplodeOnLayerMask>false</OnlyExplodeOnLayerMask>
           <ImpactSoundMaterial>Goo</ImpactSoundMaterial>
           <LightIntensityFade>
             <x>0</x>
@@ -239,6 +241,5 @@ Using this skill destroys the lantern.</Description>
     <int>5100010</int>
     <int>5100080</int>
     <int>5100090</int>
-    <int>5100100</int>
   </ThrowableItemIDs>
 </DM_ThrowSkill>

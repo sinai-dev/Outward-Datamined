@@ -2,7 +2,7 @@
 <DM_StatusEffect xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <PresetID>420</PresetID>
   <Identifier>Drowsy</Identifier>
-  <Name>Needs: Very Tired</Name>
+  <Name>Needs: Tired</Name>
   <Description>Stamina Regen [E1V1]%. Mana Regen [E2V1] per second.</Description>
   <Lifespan>-1</Lifespan>
   <LengthType>Short</LengthType>
@@ -14,7 +14,7 @@
   <Tags />
   <Effects>
     <DM_EffectTransform>
-      <TransformName>RestaurationEffects</TransformName>
+      <TransformName>ActivationEffects</TransformName>
       <Effects>
         <DM_Effect xsi:type="DM_AffectStat">
           <Delay>0</Delay>

@@ -61,52 +61,52 @@
     <AttackSpeed>1</AttackSpeed>
     <BaseDamage>
       <Damages>
-        <Damage>46</Damage>
+        <Damage>36</Damage>
         <Damage_Type>Physical</Damage_Type>
       </Damages>
     </BaseDamage>
-    <Impact>100</Impact>
+    <Impact>60</Impact>
     <StamCost>1.25</StamCost>
     <AutoGenerateAttackData>false</AutoGenerateAttackData>
     <Attacks>
       <AttackData>
         <StamCost>1.25</StamCost>
-        <Knockback>100</Knockback>
+        <Knockback>60</Knockback>
         <AttackSpeed>1</AttackSpeed>
         <Damage>
-          <float>46</float>
+          <float>36</float>
         </Damage>
       </AttackData>
       <AttackData>
         <StamCost>1.25</StamCost>
-        <Knockback>100</Knockback>
+        <Knockback>86</Knockback>
         <AttackSpeed>1</AttackSpeed>
         <Damage>
-          <float>41</float>
+          <float>31</float>
         </Damage>
       </AttackData>
       <AttackData>
         <StamCost>1.25</StamCost>
-        <Knockback>95</Knockback>
+        <Knockback>86</Knockback>
         <AttackSpeed>1</AttackSpeed>
         <Damage>
-          <float>41</float>
+          <float>31</float>
         </Damage>
       </AttackData>
       <AttackData>
         <StamCost>1.25</StamCost>
-        <Knockback>100</Knockback>
+        <Knockback>86</Knockback>
         <AttackSpeed>1</AttackSpeed>
         <Damage>
-          <float>41</float>
+          <float>31</float>
         </Damage>
       </AttackData>
       <AttackData>
         <StamCost>1.25</StamCost>
-        <Knockback>100</Knockback>
+        <Knockback>86</Knockback>
         <AttackSpeed>1</AttackSpeed>
         <Damage>
-          <float>41</float>
+          <float>31</float>
         </Damage>
       </AttackData>
     </Attacks>
@@ -119,8 +119,8 @@
           <Delay>0</Delay>
           <SyncType>OwnerSync</SyncType>
           <OverrideCategory>None</OverrideCategory>
-          <StatusEffect>Pain</StatusEffect>
-          <Buildup>30</Buildup>
+          <StatusEffect>Weaken</StatusEffect>
+          <Buildup>45</Buildup>
         </DM_Effect>
       </Effects>
       <EffectConditions />

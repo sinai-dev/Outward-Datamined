@@ -1,11 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <DM_Enemy xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Name>Shell Horror</Name>
-  <GameObject_Name>ShellHorror_01</GameObject_Name>
+  <GameObject_Name>ShellHorror</GameObject_Name>
   <Unique_ID>1</Unique_ID>
   <Locations_Found>
-    <string>Antique Plateau:Compromised Mana Transfer Station</string>
-    <string>Antique Plateau:Old Harmattan</string>
+    <string>Chersonese:Chersonese</string>
+    <string>Hallowed Marsh:Monsoon</string>
+    <string>Abrassar:Abrassar</string>
+    <string>Abrassar:The Slide</string>
+    <string>Abrassar:Sand Rose Cave</string>
+    <string>Abrassar:Cabal of Wind Outpost</string>
+    <string>Enmerkar Forest:Cabal of Wind Temple</string>
   </Locations_Found>
   <Max_Health>750</Max_Health>
   <Health_Regen_Per_Second>2.5</Health_Regen_Per_Second>
@@ -51,7 +56,7 @@
     <string>- (2400130)</string>
   </Starting_Equipment>
   <Skill_Knowledge />
-  <Faction>Mercs</Faction>
+  <Faction>Hounds</Faction>
   <Allied_To_Same_Faction>true</Allied_To_Same_Faction>
   <Guaranteed_Drops />
   <DropTable_Names>

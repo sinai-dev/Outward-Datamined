@@ -25,9 +25,9 @@
     <string>Weapon</string>
   </Tags>
   <StatsHolder xsi:type="DM_WeaponStats">
-    <BaseValue>800</BaseValue>
-    <RawWeight>1</RawWeight>
-    <MaxDurability>200</MaxDurability>
+    <BaseValue>400</BaseValue>
+    <RawWeight>2</RawWeight>
+    <MaxDurability>150</MaxDurability>
     <Damage_Resistance>
       <float>0</float>
       <float>0</float>
@@ -62,8 +62,12 @@
     <AttackSpeed>1</AttackSpeed>
     <BaseDamage>
       <Damages>
-        <Damage>80</Damage>
+        <Damage>60.35</Damage>
         <Damage_Type>Physical</Damage_Type>
+      </Damages>
+      <Damages>
+        <Damage>24.65</Damage>
+        <Damage_Type>Fire</Damage_Type>
       </Damages>
     </BaseDamage>
     <Impact>60</Impact>
@@ -75,7 +79,8 @@
         <Knockback>60</Knockback>
         <AttackSpeed>1</AttackSpeed>
         <Damage>
-          <float>80</float>
+          <float>60.35</float>
+          <float>24.65</float>
         </Damage>
       </AttackData>
       <AttackData>
@@ -83,7 +88,8 @@
         <Knockback>60</Knockback>
         <AttackSpeed>1</AttackSpeed>
         <Damage>
-          <float>80</float>
+          <float>60.35</float>
+          <float>24.65</float>
         </Damage>
       </AttackData>
       <AttackData>
@@ -91,7 +97,8 @@
         <Knockback>60</Knockback>
         <AttackSpeed>1</AttackSpeed>
         <Damage>
-          <float>80</float>
+          <float>60.35</float>
+          <float>24.65</float>
         </Damage>
       </AttackData>
       <AttackData>
@@ -99,7 +106,8 @@
         <Knockback>60</Knockback>
         <AttackSpeed>1</AttackSpeed>
         <Damage>
-          <float>80</float>
+          <float>60.35</float>
+          <float>24.65</float>
         </Damage>
       </AttackData>
       <AttackData>
@@ -107,7 +115,8 @@
         <Knockback>60</Knockback>
         <AttackSpeed>1</AttackSpeed>
         <Damage>
-          <float>80</float>
+          <float>60.35</float>
+          <float>24.65</float>
         </Damage>
       </AttackData>
     </Attacks>

@@ -3,7 +3,7 @@
   <SceneName>Captain's Cabin</SceneName>
   <Enemies>
     <QuantityHolder>
-      <Name>Crescent Shark (2)</Name>
+      <Name>Crescent Shark (1)</Name>
       <Quantity>1</Quantity>
     </QuantityHolder>
   </Enemies>

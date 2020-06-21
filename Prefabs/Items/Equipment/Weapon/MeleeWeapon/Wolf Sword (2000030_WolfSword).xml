@@ -23,7 +23,6 @@
     <string>Weapon</string>
     <string>Item</string>
     <string>DecraftPalladium_Small</string>
-    <string>Decraft</string>
   </Tags>
   <StatsHolder xsi:type="DM_WeaponStats">
     <BaseValue>800</BaseValue>
@@ -63,52 +62,52 @@
     <AttackSpeed>1</AttackSpeed>
     <BaseDamage>
       <Damages>
-        <Damage>31</Damage>
+        <Damage>28</Damage>
         <Damage_Type>Physical</Damage_Type>
       </Damages>
     </BaseDamage>
-    <Impact>19</Impact>
+    <Impact>23</Impact>
     <StamCost>5.2</StamCost>
     <AutoGenerateAttackData>false</AutoGenerateAttackData>
     <Attacks>
       <AttackData>
         <StamCost>5.2</StamCost>
-        <Knockback>19</Knockback>
+        <Knockback>23</Knockback>
         <AttackSpeed>1</AttackSpeed>
         <Damage>
-          <float>31</float>
+          <float>28</float>
         </Damage>
       </AttackData>
       <AttackData>
         <StamCost>5.2</StamCost>
-        <Knockback>19</Knockback>
+        <Knockback>23</Knockback>
         <AttackSpeed>1</AttackSpeed>
         <Damage>
-          <float>31</float>
+          <float>28</float>
         </Damage>
       </AttackData>
       <AttackData>
         <StamCost>6.24</StamCost>
-        <Knockback>24.7</Knockback>
+        <Knockback>29.9</Knockback>
         <AttackSpeed>1.1</AttackSpeed>
         <Damage>
-          <float>40.3</float>
+          <float>36.4</float>
         </Damage>
       </AttackData>
       <AttackData>
         <StamCost>5.72</StamCost>
-        <Knockback>20.9</Knockback>
+        <Knockback>25.3</Knockback>
         <AttackSpeed>1.1</AttackSpeed>
         <Damage>
-          <float>34.1</float>
+          <float>30.8</float>
         </Damage>
       </AttackData>
       <AttackData>
         <StamCost>5.72</StamCost>
-        <Knockback>20.9</Knockback>
+        <Knockback>25.3</Knockback>
         <AttackSpeed>1.1</AttackSpeed>
         <Damage>
-          <float>34.1</float>
+          <float>30.8</float>
         </Damage>
       </AttackData>
     </Attacks>

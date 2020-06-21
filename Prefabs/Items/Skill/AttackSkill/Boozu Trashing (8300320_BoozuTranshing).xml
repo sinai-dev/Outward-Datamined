@@ -86,6 +86,8 @@
           <YMagnitudeForce>0.3</YMagnitudeForce>
           <DefenseLength>3</DefenseLength>
           <DefenseRange>6</DefenseRange>
+          <PhysicsLayerMask>0</PhysicsLayerMask>
+          <OnlyExplodeOnLayerMask>false</OnlyExplodeOnLayerMask>
           <ImpactSoundMaterial>Fire</ImpactSoundMaterial>
           <LightIntensityFade>
             <x>10</x>
@@ -164,19 +166,12 @@
                           <Knockback>30</Knockback>
                           <HitInventory>true</HitInventory>
                         </DM_Effect>
-                        <DM_Effect xsi:type="DM_AffectCorruption">
+                        <DM_Effect xsi:type="DM_AddStatusEffect">
                           <Delay>0</Delay>
                           <SyncType>OwnerSync</SyncType>
                           <OverrideCategory>None</OverrideCategory>
-                          <AffectQuantity>7</AffectQuantity>
-                          <IsRaw>false</IsRaw>
-                        </DM_Effect>
-                        <DM_Effect xsi:type="DM_AddStatusEffectBuildUp">
-                          <Delay>0</Delay>
-                          <SyncType>OwnerSync</SyncType>
-                          <OverrideCategory>None</OverrideCategory>
-                          <StatusEffect>Sapped</StatusEffect>
-                          <Buildup>65</Buildup>
+                          <StatusEffect>Poisoned</StatusEffect>
+                          <ChanceToContract>66</ChanceToContract>
                         </DM_Effect>
                       </Effects>
                       <EffectConditions />
@@ -253,6 +248,8 @@
           <YMagnitudeForce>0.3</YMagnitudeForce>
           <DefenseLength>3</DefenseLength>
           <DefenseRange>6</DefenseRange>
+          <PhysicsLayerMask>0</PhysicsLayerMask>
+          <OnlyExplodeOnLayerMask>false</OnlyExplodeOnLayerMask>
           <ImpactSoundMaterial>Fire</ImpactSoundMaterial>
           <LightIntensityFade>
             <x>10</x>
@@ -331,19 +328,12 @@
                           <Knockback>30</Knockback>
                           <HitInventory>true</HitInventory>
                         </DM_Effect>
-                        <DM_Effect xsi:type="DM_AffectCorruption">
+                        <DM_Effect xsi:type="DM_AddStatusEffect">
                           <Delay>0</Delay>
                           <SyncType>OwnerSync</SyncType>
                           <OverrideCategory>None</OverrideCategory>
-                          <AffectQuantity>7</AffectQuantity>
-                          <IsRaw>false</IsRaw>
-                        </DM_Effect>
-                        <DM_Effect xsi:type="DM_AddStatusEffectBuildUp">
-                          <Delay>0</Delay>
-                          <SyncType>OwnerSync</SyncType>
-                          <OverrideCategory>None</OverrideCategory>
-                          <StatusEffect>Sapped</StatusEffect>
-                          <Buildup>65</Buildup>
+                          <StatusEffect>Poisoned</StatusEffect>
+                          <ChanceToContract>66</ChanceToContract>
                         </DM_Effect>
                       </Effects>
                       <EffectConditions />
@@ -420,6 +410,8 @@
           <YMagnitudeForce>0.3</YMagnitudeForce>
           <DefenseLength>3</DefenseLength>
           <DefenseRange>6</DefenseRange>
+          <PhysicsLayerMask>0</PhysicsLayerMask>
+          <OnlyExplodeOnLayerMask>false</OnlyExplodeOnLayerMask>
           <ImpactSoundMaterial>Fire</ImpactSoundMaterial>
           <LightIntensityFade>
             <x>10</x>
@@ -498,19 +490,12 @@
                           <Knockback>30</Knockback>
                           <HitInventory>true</HitInventory>
                         </DM_Effect>
-                        <DM_Effect xsi:type="DM_AffectCorruption">
+                        <DM_Effect xsi:type="DM_AddStatusEffect">
                           <Delay>0</Delay>
                           <SyncType>OwnerSync</SyncType>
                           <OverrideCategory>None</OverrideCategory>
-                          <AffectQuantity>7</AffectQuantity>
-                          <IsRaw>false</IsRaw>
-                        </DM_Effect>
-                        <DM_Effect xsi:type="DM_AddStatusEffectBuildUp">
-                          <Delay>0</Delay>
-                          <SyncType>OwnerSync</SyncType>
-                          <OverrideCategory>None</OverrideCategory>
-                          <StatusEffect>Sapped</StatusEffect>
-                          <Buildup>65</Buildup>
+                          <StatusEffect>Poisoned</StatusEffect>
+                          <ChanceToContract>66</ChanceToContract>
                         </DM_Effect>
                       </Effects>
                       <EffectConditions />
@@ -587,6 +572,8 @@
           <YMagnitudeForce>0.3</YMagnitudeForce>
           <DefenseLength>3</DefenseLength>
           <DefenseRange>6</DefenseRange>
+          <PhysicsLayerMask>0</PhysicsLayerMask>
+          <OnlyExplodeOnLayerMask>false</OnlyExplodeOnLayerMask>
           <ImpactSoundMaterial>Fire</ImpactSoundMaterial>
           <LightIntensityFade>
             <x>10</x>
@@ -665,19 +652,12 @@
                           <Knockback>30</Knockback>
                           <HitInventory>true</HitInventory>
                         </DM_Effect>
-                        <DM_Effect xsi:type="DM_AffectCorruption">
+                        <DM_Effect xsi:type="DM_AddStatusEffect">
                           <Delay>0</Delay>
                           <SyncType>OwnerSync</SyncType>
                           <OverrideCategory>None</OverrideCategory>
-                          <AffectQuantity>7</AffectQuantity>
-                          <IsRaw>false</IsRaw>
-                        </DM_Effect>
-                        <DM_Effect xsi:type="DM_AddStatusEffectBuildUp">
-                          <Delay>0</Delay>
-                          <SyncType>OwnerSync</SyncType>
-                          <OverrideCategory>None</OverrideCategory>
-                          <StatusEffect>Sapped</StatusEffect>
-                          <Buildup>65</Buildup>
+                          <StatusEffect>Poisoned</StatusEffect>
+                          <ChanceToContract>66</ChanceToContract>
                         </DM_Effect>
                       </Effects>
                       <EffectConditions />

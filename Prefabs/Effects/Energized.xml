@@ -2,9 +2,9 @@
 <DM_StatusEffect xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <PresetID>560</PresetID>
   <Identifier>Energized</Identifier>
-  <Name>Energized</Name>
-  <Description>Reduce skill cooldowns by 10%</Description>
-  <Lifespan>300</Lifespan>
+  <Name>StatusEffect_Energized_Name</Name>
+  <Description>StatusEffect_Energized_Desc</Description>
+  <Lifespan>60</Lifespan>
   <LengthType>Short</LengthType>
   <RefreshRate>60</RefreshRate>
   <BuildupRecoverySpeed>3</BuildupRecoverySpeed>
@@ -21,7 +21,7 @@
           <SyncType>OwnerSync</SyncType>
           <OverrideCategory>None</OverrideCategory>
           <Stat_Tag>SkillCooldownModifier</Stat_Tag>
-          <AffectQuantity>-10</AffectQuantity>
+          <AffectQuantity>-80</AffectQuantity>
           <IsModifier>true</IsModifier>
         </DM_Effect>
       </Effects>

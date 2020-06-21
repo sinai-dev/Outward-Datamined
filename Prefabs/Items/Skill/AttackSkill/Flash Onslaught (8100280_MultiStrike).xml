@@ -88,6 +88,8 @@ Attack all enemies within a close distance with increased Damage and Impact. Usi
           <YMagnitudeForce>0</YMagnitudeForce>
           <DefenseLength>3</DefenseLength>
           <DefenseRange>3</DefenseRange>
+          <PhysicsLayerMask>0</PhysicsLayerMask>
+          <OnlyExplodeOnLayerMask>true</OnlyExplodeOnLayerMask>
           <ImpactSoundMaterial>Metal_Sharp</ImpactSoundMaterial>
           <LightIntensityFade>
             <x>10</x>
@@ -219,7 +221,6 @@ Attack all enemies within a close distance with increased Damage and Impact. Usi
     <WeaponType>Axe_2H</WeaponType>
     <WeaponType>Mace_2H</WeaponType>
     <WeaponType>Spear_2H</WeaponType>
-    <WeaponType>FistW_2H</WeaponType>
   </RequiredWeaponTypes>
   <RequiredWeaponTags />
   <RequireImbue>false</RequireImbue>

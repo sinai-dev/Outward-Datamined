@@ -3,7 +3,7 @@
   <SceneName>Worn Hunter's Cabin</SceneName>
   <Enemies>
     <QuantityHolder>
-      <Name>Ghost (3)</Name>
+      <Name>Ghost (2)</Name>
       <Quantity>1</Quantity>
     </QuantityHolder>
   </Enemies>

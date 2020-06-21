@@ -175,6 +175,8 @@ Shooting it requires the use of the Fire/Reload skill.</Description>
                   <YMagnitudeForce>0</YMagnitudeForce>
                   <DefenseLength>3</DefenseLength>
                   <DefenseRange>3</DefenseRange>
+                  <PhysicsLayerMask>4194304</PhysicsLayerMask>
+                  <OnlyExplodeOnLayerMask>false</OnlyExplodeOnLayerMask>
                   <ImpactSoundMaterial>Metal_Sharp</ImpactSoundMaterial>
                   <LightIntensityFade>
                     <x>10</x>

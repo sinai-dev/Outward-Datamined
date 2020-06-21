@@ -4,7 +4,7 @@
   <saveDir>/_Unsorted</saveDir>
   <ItemID>6000100</ItemID>
   <Name>Frankincense</Name>
-  <Description>Aromatic resin used in incense and perfumes. A core enchanting ingredient.</Description>
+  <Description />
   <LegacyItemID>-1</LegacyItemID>
   <IsPickable>true</IsPickable>
   <IsUsable>false</IsUsable>
@@ -26,7 +26,7 @@
   <StatsHolder>
     <BaseValue>1</BaseValue>
     <RawWeight>0.1</RawWeight>
-    <MaxDurability>-1</MaxDurability>
+    <MaxDurability>100</MaxDurability>
   </StatsHolder>
   <EffectTransforms />
 </DM_Item>
