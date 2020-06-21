@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DM_EnchantmentRecipe xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <RecipeID>7</RecipeID>
+  <Name>Wendigo's Breath</Name>
+  <CompatibleEquipment>
+    <CompatibleEquipments>
+      <IngredientData>
+        <IngredientTag>Virgin</IngredientTag>
+        <SpecificItemID>0</SpecificItemID>
+        <Type>Generic</Type>
+      </IngredientData>
+    </CompatibleEquipments>
+    <EquipmentTag>Weapon</EquipmentTag>
+  </CompatibleEquipment>
+  <PillarDatas>
+    <PillarData>
+      <CompatibleIngredients>
+        <IngredientData>
+          <SpecificItemID>6000240</SpecificItemID>
+          <Type>Specific</Type>
+        </IngredientData>
+      </CompatibleIngredients>
+      <Direction>North</Direction>
+      <IsFar>true</IsFar>
+    </PillarData>
+    <PillarData>
+      <CompatibleIngredients>
+        <IngredientData>
+          <SpecificItemID>6000240</SpecificItemID>
+          <Type>Specific</Type>
+        </IngredientData>
+      </CompatibleIngredients>
+      <Direction>East</Direction>
+      <IsFar>true</IsFar>
+    </PillarData>
+    <PillarData>
+      <CompatibleIngredients>
+        <IngredientData>
+          <SpecificItemID>6000240</SpecificItemID>
+          <Type>Specific</Type>
+        </IngredientData>
+      </CompatibleIngredients>
+      <Direction>South</Direction>
+      <IsFar>false</IsFar>
+    </PillarData>
+  </PillarDatas>
+  <Weather />
+  <TimeOfDay />
+  <Temperatures />
+  <WindAltarActivated>false</WindAltarActivated>
+  <Regions />
+  <Result>
+    <Name>Wendigo's Breath</Name>
+    <Description />
+    <Effects>
+      <DM_Effect xsi:type="DM_ShootEnchantmentBlast">
+        <Delay>0</Delay>
+        <SyncType>OwnerSync</SyncType>
+        <OverrideCategory>None</OverrideCategory>
+        <CastPosition>Given</CastPosition>
+        <LocalPositionAdd>
+          <x>0</x>
+          <y>1.5</y>
+          <z>0</z>
+        </LocalPositionAdd>
+        <NoAim>false</NoAim>
+        <TargetType>Enemies</TargetType>
+        <TransformName>ShooterTransform</TransformName>
+        <BaseBlast>FrostBlast_Enchantment</BaseBlast>
+        <Radius>3</Radius>
+        <RefreshTime>0.1</RefreshTime>
+        <BlastLifespan>0</BlastLifespan>
+        <InstantiatedAmount>1</InstantiatedAmount>
+        <Interruptible>false</Interruptible>
+        <MaxHitTargetCount>-1</MaxHitTargetCount>
+        <AffectHitTargetCenter>false</AffectHitTargetCenter>
+        <HitOnShoot>true</HitOnShoot>
+        <IgnoreShooter>false</IgnoreShooter>
+        <IgnoreStop>false</IgnoreStop>
+        <NoTargetForwardMultiplier>5</NoTargetForwardMultiplier>
+        <ParentToShootTransform>false</ParentToShootTransform>
+        <UseTargetCharacterPositionType>false</UseTargetCharacterPositionType>
+        <ImpactSoundMaterial>Fire</ImpactSoundMaterial>
+        <DontPlayHitSound>false</DontPlayHitSound>
+        <FXIsWorld>false</FXIsWorld>
+        <BlastEffects>
+          <DM_EffectTransform>
+            <TransformName>Effects</TransformName>
+            <Effects>
+              <DM_Effect xsi:type="DM_WeaponDamage">
+                <Delay>0</Delay>
+                <SyncType>Everyone</SyncType>
+                <OverrideCategory>None</OverrideCategory>
+                <Damage />
+                <Damages_AI />
+                <Knockback>5</Knockback>
+                <HitInventory>true</HitInventory>
+                <OverrideType>Frost</OverrideType>
+                <ForceOnlyLeftHand>false</ForceOnlyLeftHand>
+                <Damage_Multiplier>0</Damage_Multiplier>
+                <Damage_Multiplier_Kback>-1</Damage_Multiplier_Kback>
+                <Damage_Multiplier_Kdown>-1</Damage_Multiplier_Kdown>
+                <Impact_Multiplier>0</Impact_Multiplier>
+                <Impact_Multiplier_Kback>-1</Impact_Multiplier_Kback>
+                <Impact_Multiplier_Kdown>-1</Impact_Multiplier_Kdown>
+              </DM_Effect>
+            </Effects>
+            <EffectConditions />
+            <ChildEffects />
+          </DM_EffectTransform>
+        </BlastEffects>
+        <Multiplier>0.329999983</Multiplier>
+      </DM_Effect>
+    </Effects>
+    <AdditionalDamages />
+    <StatModifications />
+    <DamageBonus />
+    <DamageModifier />
+    <ElementalResistances />
+    <HealthAbsorbRatio>0</HealthAbsorbRatio>
+    <ManaAbsorbRatio>0</ManaAbsorbRatio>
+    <StaminaAbsorbRatio>0</StaminaAbsorbRatio>
+    <Indescructible>false</Indescructible>
+    <TrackDamageRatio>-1</TrackDamageRatio>
+  </Result>
+</DM_EnchantmentRecipe>

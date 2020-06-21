@@ -12,6 +12,7 @@
   <DisplayedInHUD>true</DisplayedInHUD>
   <IsHidden>false</IsHidden>
   <Tags>
+    <string>Confusion</string>
     <string>Hex</string>
     <string>Status Type</string>
   </Tags>

@@ -25,6 +25,7 @@ Its bold color makes it stand out in the snowy landscape.</Description>
     <string>Weapon</string>
     <string>Item</string>
     <string>DecraftPalladium_Small</string>
+    <string>Decraft</string>
   </Tags>
   <StatsHolder xsi:type="DM_WeaponStats">
     <BaseValue>900</BaseValue>
@@ -61,6 +62,10 @@ Its bold color makes it stand out in the snowy landscape.</Description>
     <Heat_Protection>0</Heat_Protection>
     <Cold_Protection>0</Cold_Protection>
     <Corruption_Protection>0</Corruption_Protection>
+    <Cooldown_Reduction>-0</Cooldown_Reduction>
+    <Hunger_Affect>0</Hunger_Affect>
+    <Thirst_Affect>0</Thirst_Affect>
+    <Fatigue_Affect>0</Fatigue_Affect>
     <AttackSpeed>0</AttackSpeed>
     <BaseDamage>
       <Damages>
@@ -124,4 +129,6 @@ Its bold color makes it stand out in the snowy landscape.</Description>
   <SwingSound>Default</SwingSound>
   <SpecialIsZoom>false</SpecialIsZoom>
   <MaxProjectileShots>-1</MaxProjectileShots>
+  <BaseHealthAbsorbRatio>0</BaseHealthAbsorbRatio>
+  <BaseMaxHealthAbsorbRatio>0</BaseMaxHealthAbsorbRatio>
 </DM_Weapon>

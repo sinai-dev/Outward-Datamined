@@ -3,7 +3,7 @@
   <SceneName>The Slide</SceneName>
   <Enemies>
     <QuantityHolder>
-      <Name>Rock Mantis (2)</Name>
+      <Name>Rock Mantis (1)</Name>
       <Quantity>2</Quantity>
     </QuantityHolder>
     <QuantityHolder>

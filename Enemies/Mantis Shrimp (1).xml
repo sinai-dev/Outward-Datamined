@@ -11,6 +11,7 @@
     <string>Abrassar:The Slide</string>
     <string>Abrassar:River's End</string>
     <string>Enmerkar Forest:Enmerkar Forest</string>
+    <string>Antique Plateau:Antique Plateau</string>
   </Locations_Found>
   <Max_Health>250</Max_Health>
   <Health_Regen_Per_Second>0</Health_Regen_Per_Second>

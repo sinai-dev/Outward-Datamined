@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DM_Recipe xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Name>Virgin Sword</Name>
+  <RecipeID>300</RecipeID>
+  <UID />
+  <StationType>Survival</StationType>
+  <Ingredients>
+    <string>Gold Machete</string>
+    <string>Pure Chitin</string>
+    <string>Palladium Scrap</string>
+    <string>Palladium Scrap</string>
+  </Ingredients>
+  <Results>
+    <ItemQty>
+      <ItemName>Virgin Sword</ItemName>
+      <ItemID>2000200</ItemID>
+      <Quantity>1</Quantity>
+    </ItemQty>
+  </Results>
+</DM_Recipe>

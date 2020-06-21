@@ -1,0 +1,467 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DM_Merchant xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Name>Pholiota</Name>
+  <UID>L9el2swDEUmaYdq87mVvFw</UID>
+  <DropTable>
+    <Name>Crumbling Loading Docks - Pholiota</Name>
+    <Guaranteed_Drops>
+      <DropTableEntry>
+        <Item_Name>Gold Ingot</Item_Name>
+        <Item_ID>6300030</Item_ID>
+        <Min_Quantity>3</Min_Quantity>
+        <Max_Quantity>5</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Blood Mushroom</Item_Name>
+        <Item_ID>4000150</Item_ID>
+        <Min_Quantity>8</Min_Quantity>
+        <Max_Quantity>12</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Star Mushroom</Item_Name>
+        <Item_ID>4000180</Item_ID>
+        <Min_Quantity>8</Min_Quantity>
+        <Max_Quantity>12</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Common Mushroom</Item_Name>
+        <Item_ID>4000220</Item_ID>
+        <Min_Quantity>8</Min_Quantity>
+        <Max_Quantity>12</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Nightmare Mushroom</Item_Name>
+        <Item_ID>4000340</Item_ID>
+        <Min_Quantity>8</Min_Quantity>
+        <Max_Quantity>12</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Dry Mushroom Bar</Item_Name>
+        <Item_ID>4100250</Item_ID>
+        <Min_Quantity>6</Min_Quantity>
+        <Max_Quantity>10</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Pungent Paste</Item_Name>
+        <Item_ID>4100190</Item_ID>
+        <Min_Quantity>4</Min_Quantity>
+        <Max_Quantity>6</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Miner’s Omelet</Item_Name>
+        <Item_ID>4100280</Item_ID>
+        <Min_Quantity>3</Min_Quantity>
+        <Max_Quantity>5</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Invigorating Potion</Item_Name>
+        <Item_ID>4300280</Item_ID>
+        <Min_Quantity>4</Min_Quantity>
+        <Max_Quantity>8</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Energizing Potion</Item_Name>
+        <Item_ID>4300281</Item_ID>
+        <Min_Quantity>4</Min_Quantity>
+        <Max_Quantity>8</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Purity Potion</Item_Name>
+        <Item_ID>4300290</Item_ID>
+        <Min_Quantity>4</Min_Quantity>
+        <Max_Quantity>8</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Quartz Potion</Item_Name>
+        <Item_ID>4300300</Item_ID>
+        <Min_Quantity>4</Min_Quantity>
+        <Max_Quantity>8</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Sanctifier Potion</Item_Name>
+        <Item_ID>4300310</Item_ID>
+        <Min_Quantity>2</Min_Quantity>
+        <Max_Quantity>5</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Innocence Potion</Item_Name>
+        <Item_ID>4300320</Item_ID>
+        <Min_Quantity>2</Min_Quantity>
+        <Max_Quantity>5</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Illuminating Potion</Item_Name>
+        <Item_ID>4300330</Item_ID>
+        <Min_Quantity>2</Min_Quantity>
+        <Max_Quantity>5</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Horror’s Potion</Item_Name>
+        <Item_ID>4300340</Item_ID>
+        <Min_Quantity>2</Min_Quantity>
+        <Max_Quantity>5</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Alertness Potion</Item_Name>
+        <Item_ID>4300350</Item_ID>
+        <Min_Quantity>4</Min_Quantity>
+        <Max_Quantity>8</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Spiked Alertness Potion</Item_Name>
+        <Item_ID>4300360</Item_ID>
+        <Min_Quantity>2</Min_Quantity>
+        <Max_Quantity>5</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Tourmaline</Item_Name>
+        <Item_ID>6200170</Item_ID>
+        <Min_Quantity>1</Min_Quantity>
+        <Max_Quantity>2</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Wood</Item_Name>
+        <Item_ID>6100010</Item_ID>
+        <Min_Quantity>10</Min_Quantity>
+        <Max_Quantity>20</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Cooking: Purpkin Pie</Item_Name>
+        <Item_ID>5700230</Item_ID>
+        <Min_Quantity>1</Min_Quantity>
+        <Max_Quantity>1</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Cooking: Angel Food Cake</Item_Name>
+        <Item_ID>5700250</Item_ID>
+        <Min_Quantity>1</Min_Quantity>
+        <Max_Quantity>1</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Cooking: Pouding Chomeur</Item_Name>
+        <Item_ID>5700240</Item_ID>
+        <Min_Quantity>1</Min_Quantity>
+        <Max_Quantity>1</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Cooking: Bagatelle</Item_Name>
+        <Item_ID>5700260</Item_ID>
+        <Min_Quantity>1</Min_Quantity>
+        <Max_Quantity>1</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Cooking: Cheese Cake</Item_Name>
+        <Item_ID>5700270</Item_ID>
+        <Min_Quantity>1</Min_Quantity>
+        <Max_Quantity>1</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Cooking: Cipate</Item_Name>
+        <Item_ID>5700280</Item_ID>
+        <Min_Quantity>1</Min_Quantity>
+        <Max_Quantity>1</Max_Quantity>
+      </DropTableEntry>
+    </Guaranteed_Drops>
+    <Random_Tables>
+      <DropGeneratorHolder>
+        <MinNumberOfDrops>2</MinNumberOfDrops>
+        <MaxNumberOfDrops>5</MaxNumberOfDrops>
+        <MaxDiceValue>85</MaxDiceValue>
+        <EmptyDrop>0</EmptyDrop>
+        <RegenTime>-1</RegenTime>
+        <ChanceReduction>0</ChanceReduction>
+        <ChanceRegenQty>10</ChanceRegenQty>
+        <Item_Drops>
+          <DropTableChanceEntry>
+            <Item_Name>Tourmaline</Item_Name>
+            <Item_ID>6200170</Item_ID>
+            <Min_Quantity>1</Min_Quantity>
+            <Max_Quantity>2</Max_Quantity>
+            <Drop_Chance>5.88</Drop_Chance>
+            <Dice_Range>4</Dice_Range>
+            <ChanceReduction>0</ChanceReduction>
+            <ChanceRegenDelay>-1</ChanceRegenDelay>
+            <ChanceRegenQty>0</ChanceRegenQty>
+          </DropTableChanceEntry>
+          <DropTableChanceEntry>
+            <Item_Name>Purpkin Pie</Item_Name>
+            <Item_ID>4100720</Item_ID>
+            <Min_Quantity>3</Min_Quantity>
+            <Max_Quantity>5</Max_Quantity>
+            <Drop_Chance>11.76</Drop_Chance>
+            <Dice_Range>9</Dice_Range>
+            <ChanceReduction>0</ChanceReduction>
+            <ChanceRegenDelay>-1</ChanceRegenDelay>
+            <ChanceRegenQty>0</ChanceRegenQty>
+          </DropTableChanceEntry>
+          <DropTableChanceEntry>
+            <Item_Name>Pouding Chomeur</Item_Name>
+            <Item_ID>4100730</Item_ID>
+            <Min_Quantity>3</Min_Quantity>
+            <Max_Quantity>5</Max_Quantity>
+            <Drop_Chance>11.76</Drop_Chance>
+            <Dice_Range>9</Dice_Range>
+            <ChanceReduction>0</ChanceReduction>
+            <ChanceRegenDelay>-1</ChanceRegenDelay>
+            <ChanceRegenQty>0</ChanceRegenQty>
+          </DropTableChanceEntry>
+          <DropTableChanceEntry>
+            <Item_Name>Angel Food Cake</Item_Name>
+            <Item_ID>4100740</Item_ID>
+            <Min_Quantity>3</Min_Quantity>
+            <Max_Quantity>5</Max_Quantity>
+            <Drop_Chance>11.76</Drop_Chance>
+            <Dice_Range>9</Dice_Range>
+            <ChanceReduction>0</ChanceReduction>
+            <ChanceRegenDelay>-1</ChanceRegenDelay>
+            <ChanceRegenQty>0</ChanceRegenQty>
+          </DropTableChanceEntry>
+          <DropTableChanceEntry>
+            <Item_Name>Bagatelle</Item_Name>
+            <Item_ID>4100750</Item_ID>
+            <Min_Quantity>3</Min_Quantity>
+            <Max_Quantity>5</Max_Quantity>
+            <Drop_Chance>11.76</Drop_Chance>
+            <Dice_Range>9</Dice_Range>
+            <ChanceReduction>0</ChanceReduction>
+            <ChanceRegenDelay>-1</ChanceRegenDelay>
+            <ChanceRegenQty>0</ChanceRegenQty>
+          </DropTableChanceEntry>
+          <DropTableChanceEntry>
+            <Item_Name>Cheese Cake</Item_Name>
+            <Item_ID>4100760</Item_ID>
+            <Min_Quantity>3</Min_Quantity>
+            <Max_Quantity>5</Max_Quantity>
+            <Drop_Chance>11.76</Drop_Chance>
+            <Dice_Range>9</Dice_Range>
+            <ChanceReduction>0</ChanceReduction>
+            <ChanceRegenDelay>-1</ChanceRegenDelay>
+            <ChanceRegenQty>0</ChanceRegenQty>
+          </DropTableChanceEntry>
+          <DropTableChanceEntry>
+            <Item_Name>Cipate</Item_Name>
+            <Item_ID>4100770</Item_ID>
+            <Min_Quantity>3</Min_Quantity>
+            <Max_Quantity>5</Max_Quantity>
+            <Drop_Chance>11.76</Drop_Chance>
+            <Dice_Range>9</Dice_Range>
+            <ChanceReduction>0</ChanceReduction>
+            <ChanceRegenDelay>-1</ChanceRegenDelay>
+            <ChanceRegenQty>0</ChanceRegenQty>
+          </DropTableChanceEntry>
+          <DropTableChanceEntry>
+            <Item_Name>Fresh Cream</Item_Name>
+            <Item_ID>4100700</Item_ID>
+            <Min_Quantity>3</Min_Quantity>
+            <Max_Quantity>5</Max_Quantity>
+            <Drop_Chance>11.76</Drop_Chance>
+            <Dice_Range>9</Dice_Range>
+            <ChanceReduction>0</ChanceReduction>
+            <ChanceRegenDelay>-1</ChanceRegenDelay>
+            <ChanceRegenQty>0</ChanceRegenQty>
+          </DropTableChanceEntry>
+          <DropTableChanceEntry>
+            <Item_Name>Boozu’s Milk</Item_Name>
+            <Item_ID>4000380</Item_ID>
+            <Min_Quantity>3</Min_Quantity>
+            <Max_Quantity>5</Max_Quantity>
+            <Drop_Chance>11.76</Drop_Chance>
+            <Dice_Range>9</Dice_Range>
+            <ChanceReduction>0</ChanceReduction>
+            <ChanceRegenDelay>-1</ChanceRegenDelay>
+            <ChanceRegenQty>0</ChanceRegenQty>
+          </DropTableChanceEntry>
+        </Item_Drops>
+      </DropGeneratorHolder>
+      <DropGeneratorHolder>
+        <MinNumberOfDrops>5</MinNumberOfDrops>
+        <MaxNumberOfDrops>5</MaxNumberOfDrops>
+        <MaxDiceValue>90</MaxDiceValue>
+        <EmptyDrop>0</EmptyDrop>
+        <RegenTime>-1</RegenTime>
+        <ChanceReduction>0</ChanceReduction>
+        <ChanceRegenQty>10</ChanceRegenQty>
+        <Item_Drops>
+          <DropTableChanceEntry>
+            <Item_Name>Poison Varnish</Item_Name>
+            <Item_ID>4400021</Item_ID>
+            <Min_Quantity>3</Min_Quantity>
+            <Max_Quantity>5</Max_Quantity>
+            <Drop_Chance>11.11</Drop_Chance>
+            <Dice_Range>9</Dice_Range>
+            <ChanceReduction>0</ChanceReduction>
+            <ChanceRegenDelay>-1</ChanceRegenDelay>
+            <ChanceRegenQty>0</ChanceRegenQty>
+          </DropTableChanceEntry>
+          <DropTableChanceEntry>
+            <Item_Name>Bolt Varnish</Item_Name>
+            <Item_ID>4400031</Item_ID>
+            <Min_Quantity>3</Min_Quantity>
+            <Max_Quantity>5</Max_Quantity>
+            <Drop_Chance>11.11</Drop_Chance>
+            <Dice_Range>9</Dice_Range>
+            <ChanceReduction>0</ChanceReduction>
+            <ChanceRegenDelay>-1</ChanceRegenDelay>
+            <ChanceRegenQty>0</ChanceRegenQty>
+          </DropTableChanceEntry>
+          <DropTableChanceEntry>
+            <Item_Name>Fire Varnish</Item_Name>
+            <Item_ID>4400041</Item_ID>
+            <Min_Quantity>3</Min_Quantity>
+            <Max_Quantity>5</Max_Quantity>
+            <Drop_Chance>11.11</Drop_Chance>
+            <Dice_Range>9</Dice_Range>
+            <ChanceReduction>0</ChanceReduction>
+            <ChanceRegenDelay>-1</ChanceRegenDelay>
+            <ChanceRegenQty>0</ChanceRegenQty>
+          </DropTableChanceEntry>
+          <DropTableChanceEntry>
+            <Item_Name>Ice Varnish</Item_Name>
+            <Item_ID>4400051</Item_ID>
+            <Min_Quantity>3</Min_Quantity>
+            <Max_Quantity>5</Max_Quantity>
+            <Drop_Chance>11.11</Drop_Chance>
+            <Dice_Range>9</Dice_Range>
+            <ChanceReduction>0</ChanceReduction>
+            <ChanceRegenDelay>-1</ChanceRegenDelay>
+            <ChanceRegenQty>0</ChanceRegenQty>
+          </DropTableChanceEntry>
+          <DropTableChanceEntry>
+            <Item_Name>Spiritual Varnish</Item_Name>
+            <Item_ID>4400060</Item_ID>
+            <Min_Quantity>3</Min_Quantity>
+            <Max_Quantity>5</Max_Quantity>
+            <Drop_Chance>11.11</Drop_Chance>
+            <Dice_Range>9</Dice_Range>
+            <ChanceReduction>0</ChanceReduction>
+            <ChanceRegenDelay>-1</ChanceRegenDelay>
+            <ChanceRegenQty>0</ChanceRegenQty>
+          </DropTableChanceEntry>
+          <DropTableChanceEntry>
+            <Item_Name>Dark Varnish</Item_Name>
+            <Item_ID>4400070</Item_ID>
+            <Min_Quantity>3</Min_Quantity>
+            <Max_Quantity>5</Max_Quantity>
+            <Drop_Chance>11.11</Drop_Chance>
+            <Dice_Range>9</Dice_Range>
+            <ChanceReduction>0</ChanceReduction>
+            <ChanceRegenDelay>-1</ChanceRegenDelay>
+            <ChanceRegenQty>0</ChanceRegenQty>
+          </DropTableChanceEntry>
+          <DropTableChanceEntry>
+            <Item_Name>Great Life Potion</Item_Name>
+            <Item_ID>4300240</Item_ID>
+            <Min_Quantity>3</Min_Quantity>
+            <Max_Quantity>5</Max_Quantity>
+            <Drop_Chance>11.11</Drop_Chance>
+            <Dice_Range>9</Dice_Range>
+            <ChanceReduction>0</ChanceReduction>
+            <ChanceRegenDelay>-1</ChanceRegenDelay>
+            <ChanceRegenQty>0</ChanceRegenQty>
+          </DropTableChanceEntry>
+          <DropTableChanceEntry>
+            <Item_Name>Great Astral Potion</Item_Name>
+            <Item_ID>4300250</Item_ID>
+            <Min_Quantity>3</Min_Quantity>
+            <Max_Quantity>5</Max_Quantity>
+            <Drop_Chance>11.11</Drop_Chance>
+            <Dice_Range>9</Dice_Range>
+            <ChanceReduction>0</ChanceReduction>
+            <ChanceRegenDelay>-1</ChanceRegenDelay>
+            <ChanceRegenQty>0</ChanceRegenQty>
+          </DropTableChanceEntry>
+          <DropTableChanceEntry>
+            <Item_Name>Great Endurance Potion</Item_Name>
+            <Item_ID>4300260</Item_ID>
+            <Min_Quantity>3</Min_Quantity>
+            <Max_Quantity>5</Max_Quantity>
+            <Drop_Chance>11.11</Drop_Chance>
+            <Dice_Range>9</Dice_Range>
+            <ChanceReduction>0</ChanceReduction>
+            <ChanceRegenDelay>-1</ChanceRegenDelay>
+            <ChanceRegenQty>0</ChanceRegenQty>
+          </DropTableChanceEntry>
+        </Item_Drops>
+      </DropGeneratorHolder>
+      <DropGeneratorHolder>
+        <MinNumberOfDrops>2</MinNumberOfDrops>
+        <MaxNumberOfDrops>2</MaxNumberOfDrops>
+        <MaxDiceValue>39</MaxDiceValue>
+        <EmptyDrop>0</EmptyDrop>
+        <RegenTime>-1</RegenTime>
+        <ChanceReduction>0</ChanceReduction>
+        <ChanceRegenQty>10</ChanceRegenQty>
+        <Item_Drops>
+          <DropTableChanceEntry>
+            <Item_Name>Wolf Medic Armor</Item_Name>
+            <Item_ID>3100220</Item_ID>
+            <Min_Quantity>1</Min_Quantity>
+            <Max_Quantity>1</Max_Quantity>
+            <Drop_Chance>7.69</Drop_Chance>
+            <Dice_Range>2</Dice_Range>
+            <ChanceReduction>0</ChanceReduction>
+            <ChanceRegenDelay>-1</ChanceRegenDelay>
+            <ChanceRegenQty>0</ChanceRegenQty>
+          </DropTableChanceEntry>
+          <DropTableChanceEntry>
+            <Item_Name>Wolf Medic Helmet</Item_Name>
+            <Item_ID>3100221</Item_ID>
+            <Min_Quantity>1</Min_Quantity>
+            <Max_Quantity>1</Max_Quantity>
+            <Drop_Chance>7.69</Drop_Chance>
+            <Dice_Range>2</Dice_Range>
+            <ChanceReduction>0</ChanceReduction>
+            <ChanceRegenDelay>-1</ChanceRegenDelay>
+            <ChanceRegenQty>0</ChanceRegenQty>
+          </DropTableChanceEntry>
+          <DropTableChanceEntry>
+            <Item_Name>Wolf Medic Boots</Item_Name>
+            <Item_ID>3100222</Item_ID>
+            <Min_Quantity>1</Min_Quantity>
+            <Max_Quantity>1</Max_Quantity>
+            <Drop_Chance>7.69</Drop_Chance>
+            <Dice_Range>2</Dice_Range>
+            <ChanceReduction>0</ChanceReduction>
+            <ChanceRegenDelay>-1</ChanceRegenDelay>
+            <ChanceRegenQty>0</ChanceRegenQty>
+          </DropTableChanceEntry>
+          <DropTableChanceEntry>
+            <Item_Name>Wolf Mage Armor</Item_Name>
+            <Item_ID>3100210</Item_ID>
+            <Min_Quantity>1</Min_Quantity>
+            <Max_Quantity>1</Max_Quantity>
+            <Drop_Chance>25.64</Drop_Chance>
+            <Dice_Range>9</Dice_Range>
+            <ChanceReduction>0</ChanceReduction>
+            <ChanceRegenDelay>-1</ChanceRegenDelay>
+            <ChanceRegenQty>0</ChanceRegenQty>
+          </DropTableChanceEntry>
+          <DropTableChanceEntry>
+            <Item_Name>Wolf Mage Helmet</Item_Name>
+            <Item_ID>3100211</Item_ID>
+            <Min_Quantity>1</Min_Quantity>
+            <Max_Quantity>1</Max_Quantity>
+            <Drop_Chance>25.64</Drop_Chance>
+            <Dice_Range>9</Dice_Range>
+            <ChanceReduction>0</ChanceReduction>
+            <ChanceRegenDelay>-1</ChanceRegenDelay>
+            <ChanceRegenQty>0</ChanceRegenQty>
+          </DropTableChanceEntry>
+          <DropTableChanceEntry>
+            <Item_Name>Wolf Mage Boots</Item_Name>
+            <Item_ID>3100212</Item_ID>
+            <Min_Quantity>1</Min_Quantity>
+            <Max_Quantity>1</Max_Quantity>
+            <Drop_Chance>25.64</Drop_Chance>
+            <Dice_Range>9</Dice_Range>
+            <ChanceReduction>0</ChanceReduction>
+            <ChanceRegenDelay>-1</ChanceRegenDelay>
+            <ChanceRegenQty>0</ChanceRegenQty>
+          </DropTableChanceEntry>
+        </Item_Drops>
+      </DropGeneratorHolder>
+    </Random_Tables>
+  </DropTable>
+  <BuyModifiers />
+  <SellModifiers />
+</DM_Merchant>

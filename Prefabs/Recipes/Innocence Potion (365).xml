@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DM_Recipe xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Name>Innocence Potion</Name>
+  <RecipeID>365</RecipeID>
+  <UID />
+  <StationType>Alchemy</StationType>
+  <Ingredients>
+    <string>Thick Oil</string>
+    <string>Purifying Quartz</string>
+    <string>Dark Stone</string>
+    <string>Boozu’s Milk</string>
+  </Ingredients>
+  <Results>
+    <ItemQty>
+      <ItemName>Innocence Potion</ItemName>
+      <ItemID>4300320</ItemID>
+      <Quantity>3</Quantity>
+    </ItemQty>
+  </Results>
+</DM_Recipe>

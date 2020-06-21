@@ -4,7 +4,7 @@
   <saveDir>/Equipment/Weapon/MeleeWeapon</saveDir>
   <ItemID>5110097</ItemID>
   <Name>Tsar Chakram</Name>
-  <Description />
+  <Description>Chakram spells are necessary to use this off-hand weapon.</Description>
   <LegacyItemID>-1</LegacyItemID>
   <IsPickable>true</IsPickable>
   <IsUsable>false</IsUsable>
@@ -25,9 +25,9 @@
     <string>Trinket</string>
   </Tags>
   <StatsHolder xsi:type="DM_WeaponStats">
-    <BaseValue>800</BaseValue>
+    <BaseValue>2000</BaseValue>
     <RawWeight>1</RawWeight>
-    <MaxDurability>300</MaxDurability>
+    <MaxDurability>-1</MaxDurability>
     <Damage_Resistance>
       <float>0</float>
       <float>0</float>
@@ -59,23 +59,27 @@
     <Heat_Protection>0</Heat_Protection>
     <Cold_Protection>0</Cold_Protection>
     <Corruption_Protection>0</Corruption_Protection>
+    <Cooldown_Reduction>-0</Cooldown_Reduction>
+    <Hunger_Affect>1</Hunger_Affect>
+    <Thirst_Affect>1</Thirst_Affect>
+    <Fatigue_Affect>1</Fatigue_Affect>
     <AttackSpeed>1</AttackSpeed>
     <BaseDamage>
       <Damages>
-        <Damage>37</Damage>
+        <Damage>60</Damage>
         <Damage_Type>Physical</Damage_Type>
       </Damages>
     </BaseDamage>
-    <Impact>38</Impact>
+    <Impact>48</Impact>
     <StamCost>0</StamCost>
     <AutoGenerateAttackData>false</AutoGenerateAttackData>
     <Attacks>
       <AttackData>
         <StamCost>0</StamCost>
-        <Knockback>38</Knockback>
+        <Knockback>48</Knockback>
         <AttackSpeed>1</AttackSpeed>
         <Damage>
-          <float>37</float>
+          <float>60</float>
         </Damage>
       </AttackData>
     </Attacks>
@@ -90,4 +94,6 @@
   <SwingSound>Default</SwingSound>
   <SpecialIsZoom>false</SpecialIsZoom>
   <MaxProjectileShots>-1</MaxProjectileShots>
+  <BaseHealthAbsorbRatio>0</BaseHealthAbsorbRatio>
+  <BaseMaxHealthAbsorbRatio>0</BaseMaxHealthAbsorbRatio>
 </DM_Weapon>

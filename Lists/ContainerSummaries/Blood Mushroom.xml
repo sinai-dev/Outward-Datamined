@@ -99,6 +99,26 @@
       <Name>Enmerkar Forest:Necropolis</Name>
       <Quantity>2</Quantity>
     </QuantityHolder>
+    <QuantityHolder>
+      <Name>Antique Plateau:Abandoned Living Quarters</Name>
+      <Quantity>3</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Antique Plateau:Destroyed Test Chambers</Name>
+      <Quantity>3</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Antique Plateau:Troglodyte Warren</Name>
+      <Quantity>4</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Antique Plateau:Blood Mage Hideout</Name>
+      <Quantity>7</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Antique Plateau:Bandit Hideout</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
   </All_Locations>
   <DropTables>
     <DroptableSummary>
@@ -128,6 +148,11 @@
         <string>Face of the Ancients</string>
         <string>Ancestor’s Resting Place</string>
         <string>Necropolis</string>
+        <string>Abandoned Living Quarters</string>
+        <string>Destroyed Test Chambers</string>
+        <string>Troglodyte Warren</string>
+        <string>Blood Mage Hideout</string>
+        <string>Bandit Hideout</string>
       </Locations>
     </DroptableSummary>
   </DropTables>

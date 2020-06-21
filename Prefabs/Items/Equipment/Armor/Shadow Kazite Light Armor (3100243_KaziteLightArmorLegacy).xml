@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DM_Armor xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <gameObjectName>3100243_KaziteLightArmorLegacy</gameObjectName>
+  <saveDir>/Equipment/Armor</saveDir>
+  <ItemID>3100243</ItemID>
+  <Name>Shadow Kazite Light Armor</Name>
+  <Description>A darkened piece of Kazite Light Armor, passed down by your ancestors.</Description>
+  <LegacyItemID>-1</LegacyItemID>
+  <IsPickable>true</IsPickable>
+  <IsUsable>false</IsUsable>
+  <QtyRemovedOnUse>1</QtyRemovedOnUse>
+  <GroupItemInDisplay>false</GroupItemInDisplay>
+  <HasPhysicsWhenWorld>false</HasPhysicsWhenWorld>
+  <RepairedInRest>true</RepairedInRest>
+  <BehaviorOnNoDurability>NotSet</BehaviorOnNoDurability>
+  <CastType>NONE</CastType>
+  <CastModifier>Immobilized</CastModifier>
+  <CastLocomotionEnabled>false</CastLocomotionEnabled>
+  <MobileCastMovementMult>-1</MobileCastMovementMult>
+  <CastSheatheRequired>1</CastSheatheRequired>
+  <Tags>
+    <string>Armor</string>
+    <string>Equipment</string>
+    <string>Item</string>
+  </Tags>
+  <StatsHolder xsi:type="DM_EquipmentStats">
+    <BaseValue>550</BaseValue>
+    <RawWeight>8</RawWeight>
+    <MaxDurability>300</MaxDurability>
+    <Damage_Resistance>
+      <float>20</float>
+      <float>0</float>
+      <float>0</float>
+      <float>0</float>
+      <float>0</float>
+      <float>0</float>
+      <float>0</float>
+      <float>0</float>
+      <float>0</float>
+    </Damage_Resistance>
+    <Impact_Resistance>14</Impact_Resistance>
+    <Damage_Protection>2</Damage_Protection>
+    <Damage_Bonus>
+      <float>0</float>
+      <float>0</float>
+      <float>0</float>
+      <float>0</float>
+      <float>0</float>
+      <float>0</float>
+      <float>0</float>
+      <float>0</float>
+      <float>0</float>
+    </Damage_Bonus>
+    <Stamina_Use_Penalty>3</Stamina_Use_Penalty>
+    <Mana_Use_Modifier>0</Mana_Use_Modifier>
+    <Movement_Penalty>3</Movement_Penalty>
+    <Pouch_Bonus>0</Pouch_Bonus>
+    <Heat_Protection>0</Heat_Protection>
+    <Cold_Protection>12</Cold_Protection>
+    <Corruption_Protection>0</Corruption_Protection>
+    <Cooldown_Reduction>-10</Cooldown_Reduction>
+    <Hunger_Affect>1</Hunger_Affect>
+    <Thirst_Affect>1</Thirst_Affect>
+    <Fatigue_Affect>1</Fatigue_Affect>
+  </StatsHolder>
+  <EffectTransforms />
+  <EquipSlot>Chest</EquipSlot>
+  <TwoHandType>None</TwoHandType>
+  <IKType>None</IKType>
+  <VisualDetectabilityAdd>0</VisualDetectabilityAdd>
+  <Class>Medium</Class>
+  <GearSoundMaterial>Cloth</GearSoundMaterial>
+  <ImpactSoundMaterial>Cloth</ImpactSoundMaterial>
+</DM_Armor>

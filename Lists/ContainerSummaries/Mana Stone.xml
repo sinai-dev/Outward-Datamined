@@ -51,6 +51,18 @@
       <Name>Enmerkar Forest:Dolmen Crypt</Name>
       <Quantity>3</Quantity>
     </QuantityHolder>
+    <QuantityHolder>
+      <Name>Antique Plateau:Antique Plateau</Name>
+      <Quantity>13</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Antique Plateau:Wendigo Lair</Name>
+      <Quantity>4</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Antique Plateau:Troglodyte Warren</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
   </All_Locations>
   <DropTables>
     <DroptableSummary>
@@ -68,6 +80,15 @@
         <string>Abrassar</string>
         <string>Ancestor’s Resting Place</string>
         <string>Dolmen Crypt</string>
+        <string>Antique Plateau</string>
+        <string>Wendigo Lair</string>
+        <string>Troglodyte Warren</string>
+      </Locations>
+    </DroptableSummary>
+    <DroptableSummary>
+      <DropTableName>DropTable_ManaStoneCold</DropTableName>
+      <Locations>
+        <string>Wendigo Lair</string>
       </Locations>
     </DroptableSummary>
   </DropTables>

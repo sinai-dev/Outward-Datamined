@@ -9,7 +9,7 @@
   <IsPickable>true</IsPickable>
   <IsUsable>true</IsUsable>
   <QtyRemovedOnUse>1</QtyRemovedOnUse>
-  <GroupItemInDisplay>false</GroupItemInDisplay>
+  <GroupItemInDisplay>true</GroupItemInDisplay>
   <HasPhysicsWhenWorld>false</HasPhysicsWhenWorld>
   <RepairedInRest>true</RepairedInRest>
   <BehaviorOnNoDurability>NotSet</BehaviorOnNoDurability>

@@ -35,6 +35,10 @@
       <Name>Abrassar:Abrassar</Name>
       <Quantity>7</Quantity>
     </QuantityHolder>
+    <QuantityHolder>
+      <Name>Antique Plateau:Antique Plateau</Name>
+      <Quantity>13</Quantity>
+    </QuantityHolder>
   </All_Locations>
   <DropTables>
     <DroptableSummary>
@@ -48,6 +52,7 @@
         <string>Ziggurat Passage</string>
         <string>Steakosaur's Burrow</string>
         <string>Abrassar</string>
+        <string>Antique Plateau</string>
       </Locations>
     </DroptableSummary>
   </DropTables>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DM_LootContainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Name>Looter’s Corpse</Name>
+  <ItemID>1000101</ItemID>
+  <UID>0OHFGaoM10GGjZEl8_2y6g</UID>
+  <DropTables>
+    <string>DropTable_Neutral_Magic_Low_2</string>
+    <string>DropTable_AntiqueField_Food_1</string>
+    <string>DropTable_AntiqueField_Recipe_Basic_1</string>
+  </DropTables>
+</DM_LootContainer>

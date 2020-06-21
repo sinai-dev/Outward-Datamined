@@ -9,6 +9,9 @@
     <string>Abrassar:Electric Lab</string>
     <string>Enmerkar Forest:Enmerkar Forest</string>
     <string>Enmerkar Forest:Tree Husk</string>
+    <string>Antique Plateau:Antique Plateau</string>
+    <string>Antique Plateau:Forgotten Research Laboratory</string>
+    <string>Antique Plateau:Crumbling Loading Docks</string>
   </Locations_Found>
   <Max_Health>225</Max_Health>
   <Health_Regen_Per_Second>0</Health_Regen_Per_Second>

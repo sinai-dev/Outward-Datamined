@@ -19,6 +19,38 @@
       <Name>Enmerkar Forest:Forest Hives</Name>
       <Quantity>1</Quantity>
     </QuantityHolder>
+    <QuantityHolder>
+      <Name>Antique Plateau:Abandoned Living Quarters</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Antique Plateau:Forgotten Research Laboratory</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Antique Plateau:Ruined Warehouse</Name>
+      <Quantity>2</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Antique Plateau:Lost Golem Manufacturing Facility</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Antique Plateau:Crumbling Loading Docks</Name>
+      <Quantity>2</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Antique Plateau:Destroyed Test Chambers</Name>
+      <Quantity>2</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Antique Plateau:Compromised Mana Transfer Station</Name>
+      <Quantity>2</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Antique Plateau:Wendigo Lair</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
   </All_Locations>
   <DropTables>
     <DroptableSummary>
@@ -35,6 +67,9 @@
         <string>The Slide</string>
         <string>Royal Manticore’s Lair</string>
         <string>Forest Hives</string>
+        <string>Abandoned Living Quarters</string>
+        <string>Forgotten Research Laboratory</string>
+        <string>Compromised Mana Transfer Station</string>
       </Locations>
     </DroptableSummary>
     <DroptableSummary>
@@ -53,6 +88,9 @@
       <DropTableName>DropTable_Neutral_Consumable_Low_2</DropTableName>
       <Locations>
         <string>The Slide</string>
+        <string>Abandoned Living Quarters</string>
+        <string>Crumbling Loading Docks</string>
+        <string>Compromised Mana Transfer Station</string>
       </Locations>
     </DroptableSummary>
     <DroptableSummary>
@@ -71,6 +109,7 @@
       <DropTableName>DropTable_Neutral_Survival_High_1</DropTableName>
       <Locations>
         <string>Royal Manticore’s Lair</string>
+        <string>Wendigo Lair</string>
       </Locations>
     </DroptableSummary>
     <DroptableSummary>
@@ -78,12 +117,92 @@
       <Locations>
         <string>Royal Manticore’s Lair</string>
         <string>Forest Hives</string>
+        <string>Lost Golem Manufacturing Facility</string>
+        <string>Crumbling Loading Docks</string>
+        <string>Compromised Mana Transfer Station</string>
       </Locations>
     </DroptableSummary>
     <DroptableSummary>
       <DropTableName>DropTable_Neutral_Magic_Low_2</DropTableName>
       <Locations>
         <string>Forest Hives</string>
+      </Locations>
+    </DroptableSummary>
+    <DroptableSummary>
+      <DropTableName>DropTable_AntiqueField_Recipe_Basic_1</DropTableName>
+      <Locations>
+        <string>Abandoned Living Quarters</string>
+        <string>Forgotten Research Laboratory</string>
+        <string>Destroyed Test Chambers</string>
+      </Locations>
+    </DroptableSummary>
+    <DroptableSummary>
+      <DropTableName>DropTable_AntiqueField_Recipe_Enchantment_1</DropTableName>
+      <Locations>
+        <string>Abandoned Living Quarters</string>
+        <string>Forgotten Research Laboratory</string>
+        <string>Ruined Warehouse</string>
+        <string>Lost Golem Manufacturing Facility</string>
+        <string>Crumbling Loading Docks</string>
+        <string>Destroyed Test Chambers</string>
+        <string>Compromised Mana Transfer Station</string>
+      </Locations>
+    </DroptableSummary>
+    <DroptableSummary>
+      <DropTableName>DropTable_AntiqueField_Food_1</DropTableName>
+      <Locations>
+        <string>Forgotten Research Laboratory</string>
+        <string>Lost Golem Manufacturing Facility</string>
+        <string>Crumbling Loading Docks</string>
+        <string>Destroyed Test Chambers</string>
+        <string>Compromised Mana Transfer Station</string>
+        <string>Wendigo Lair</string>
+      </Locations>
+    </DroptableSummary>
+    <DroptableSummary>
+      <DropTableName>DropTable_Neutral_Food_1</DropTableName>
+      <Locations>
+        <string>Ruined Warehouse</string>
+        <string>Crumbling Loading Docks</string>
+        <string>Destroyed Test Chambers</string>
+        <string>Compromised Mana Transfer Station</string>
+      </Locations>
+    </DroptableSummary>
+    <DroptableSummary>
+      <DropTableName>DropTable_Neutral_Valuable_High_1</DropTableName>
+      <Locations>
+        <string>Ruined Warehouse</string>
+        <string>Lost Golem Manufacturing Facility</string>
+        <string>Crumbling Loading Docks</string>
+        <string>Destroyed Test Chambers</string>
+        <string>Wendigo Lair</string>
+      </Locations>
+    </DroptableSummary>
+    <DroptableSummary>
+      <DropTableName>DropTable_Neutral_StandardRecipe_High_1</DropTableName>
+      <Locations>
+        <string>Ruined Warehouse</string>
+        <string>Wendigo Lair</string>
+      </Locations>
+    </DroptableSummary>
+    <DroptableSummary>
+      <DropTableName>DropTable_Neutral_Cloth_Rich_1</DropTableName>
+      <Locations>
+        <string>Ruined Warehouse</string>
+      </Locations>
+    </DroptableSummary>
+    <DroptableSummary>
+      <DropTableName>DropTable_AntiqueField_Recipe_Weapon_1</DropTableName>
+      <Locations>
+        <string>Ruined Warehouse</string>
+        <string>Crumbling Loading Docks</string>
+        <string>Compromised Mana Transfer Station</string>
+      </Locations>
+    </DroptableSummary>
+    <DroptableSummary>
+      <DropTableName>DropTable_Neutral_Recipe_Dungeon_1</DropTableName>
+      <Locations>
+        <string>Destroyed Test Chambers</string>
       </Locations>
     </DroptableSummary>
   </DropTables>

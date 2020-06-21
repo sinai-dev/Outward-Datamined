@@ -23,6 +23,10 @@
       <Name>Enmerkar Forest:Enmerkar Forest</Name>
       <Quantity>7</Quantity>
     </QuantityHolder>
+    <QuantityHolder>
+      <Name>Antique Plateau:Destroyed Test Chambers</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
   </All_Locations>
   <DropTables>
     <DroptableSummary>
@@ -33,6 +37,7 @@
         <string>Under Island</string>
         <string>Abrassar</string>
         <string>Enmerkar Forest</string>
+        <string>Destroyed Test Chambers</string>
       </Locations>
     </DroptableSummary>
   </DropTables>

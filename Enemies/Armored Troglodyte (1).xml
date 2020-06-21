@@ -10,6 +10,8 @@
     <string>Hallowed Marsh:Jade Quarry</string>
     <string>Hallowed Marsh:Under Island</string>
     <string>Enmerkar Forest:Royal Manticore’s Lair</string>
+    <string>Antique Plateau:Abandoned Living Quarters</string>
+    <string>Antique Plateau:Destroyed Test Chambers</string>
   </Locations_Found>
   <Max_Health>225</Max_Health>
   <Health_Regen_Per_Second>0</Health_Regen_Per_Second>

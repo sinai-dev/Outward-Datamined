@@ -1,0 +1,342 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SceneSummary xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SceneName>Antique Plateau</SceneName>
+  <Enemies>
+    <QuantityHolder>
+      <Name>Bloody Beast (1)</Name>
+      <Quantity>15</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Beast Golem (1)</Name>
+      <Quantity>8</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Rusty Sword Golem (1)</Name>
+      <Quantity>8</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Rock Mantis (1)</Name>
+      <Quantity>7</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Kazite Archer (2)</Name>
+      <Quantity>5</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Boozu (1)</Name>
+      <Quantity>9</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Kazite Bandit (3)</Name>
+      <Quantity>4</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Kazite Bandit (4)</Name>
+      <Quantity>7</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Bandit Captain (2)</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Veaber (1)</Name>
+      <Quantity>16</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Kazite Lieutenant (2)</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Kazite Lieutenant (3)</Name>
+      <Quantity>5</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Blood Sorcerer (1)</Name>
+      <Quantity>10</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Sublime Shell (1)</Name>
+      <Quantity>2</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Mana Mantis (1)</Name>
+      <Quantity>4</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Rusty Beast Golem (1)</Name>
+      <Quantity>5</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Bandit Lieutenant (1)</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Bonded Beastmaster (1)</Name>
+      <Quantity>5</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Bandit Archer (1)</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Pure Illuminator (1)</Name>
+      <Quantity>2</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Mantis Shrimp (1)</Name>
+      <Quantity>3</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Sword Golem (1)</Name>
+      <Quantity>8</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Galvanic Golem (1)</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Arcane Elemental (1)</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Arcane Elemental (2)</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Arcane Elemental (3)</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Arcane Elemental (4)</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Arcane Elemental (5)</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Arcane Elemental (6)</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Arcane Elemental (7)</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Arcane Elemental (8)</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Arcane Elemental (9)</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Arcane Elemental (10)</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+  </Enemies>
+  <Merchants>
+    <string>Soroborean Caravanner (-MSrkT502k63y3CV2j98TQ)</string>
+  </Merchants>
+  <Loot_Containers>
+    <QuantityHolder>
+      <Name>Ornate Chest</Name>
+      <Quantity>2</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Junk Pile</Name>
+      <Quantity>8</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Adventurer’s Corpse</Name>
+      <Quantity>11</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Chest</Name>
+      <Quantity>16</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Supply Cache</Name>
+      <Quantity>20</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Hollowed Trunk</Name>
+      <Quantity>10</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Broken Tent</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Worker’s Corpse</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+  </Loot_Containers>
+  <Gatherables>
+    <QuantityHolder>
+      <Name>Wood</Name>
+      <Quantity>3</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Iron vein (Tourmaline)</Name>
+      <Quantity>18</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Oil</Name>
+      <Quantity>13</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Wheat</Name>
+      <Quantity>38</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Crawlberry</Name>
+      <Quantity>80</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Dreamer’s Root</Name>
+      <Quantity>41</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Purpkin</Name>
+      <Quantity>25</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Mana Stone</Name>
+      <Quantity>13</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Fishing Spot (DropTable_FishingSpotAntiquePlateau_MagicalLake)</Name>
+      <Quantity>11</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Veaber Eggs</Name>
+      <Quantity>15</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Seaweed</Name>
+      <Quantity>19</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Fishing Spot (DropTable_FishingSpotAntiquePlateau)</Name>
+      <Quantity>24</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Rich Iron vein (Tourmaline)</Name>
+      <Quantity>9</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Nightmare Mushrooms</Name>
+      <Quantity>15</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Salt Crystal</Name>
+      <Quantity>6</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Ghost Plant</Name>
+      <Quantity>2</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Green Mushroom</Name>
+      <Quantity>9</Quantity>
+    </QuantityHolder>
+  </Gatherables>
+  <Item_Spawns>
+    <DM_ItemSpawn>
+      <Name>Gemstone Key C</Name>
+      <Item_ID>5600092</Item_ID>
+      <Quantity>1</Quantity>
+      <positions>
+        <Vector3>
+          <x>1840.3363</x>
+          <y>43.4719467</y>
+          <z>1066.40649</z>
+        </Vector3>
+      </positions>
+    </DM_ItemSpawn>
+    <DM_ItemSpawn>
+      <Name>Gemstone Key D</Name>
+      <Item_ID>5600093</Item_ID>
+      <Quantity>1</Quantity>
+      <positions>
+        <Vector3>
+          <x>999.606567</x>
+          <y>29.0719452</y>
+          <z>274.308533</z>
+        </Vector3>
+      </positions>
+    </DM_ItemSpawn>
+  </Item_Spawns>
+  <UniqueContainerList>
+    <string>Ornate Chest_nWgNL5BFokm_R54z0fWxHw</string>
+    <string>Junk Pile_sVNXZqV3t0OvMsniqyJ5rA</string>
+    <string>Adventurer’s Corpse_Cgpp7CMtR0qcc501tUFTHQ</string>
+    <string>Junk Pile_5wWcTB-CjUONWRc9UWgXwQ</string>
+    <string>Chest_Qz6is7c4HEGXi21enP0sTw</string>
+    <string>Chest_Ni8u3QVobkalJt0sFYn2mw</string>
+    <string>Adventurer’s Corpse_ZQugPURwf0CgBw3YeR59mQ</string>
+    <string>Adventurer’s Corpse_vTbM4njCkE6pSSybjTZ9yQ</string>
+    <string>Chest_K99VLcmtmkShWnbXtEN-bg</string>
+    <string>Supply Cache_w2teGHuXQEeDAZrYFNhz7Q</string>
+    <string>Supply Cache_YEfxIRm150KQUjjmTcVXkQ</string>
+    <string>Chest_-lJusAVLJ0ygySkqpuxsIg</string>
+    <string>Adventurer’s Corpse_5lD_xP_uWUKz99rBFFbYeA</string>
+    <string>Hollowed Trunk_KPbnRHJ86kWQxjmp3uOckw</string>
+    <string>Junk Pile_MjVt8-ZOuki3HAZVXWuByw</string>
+    <string>Supply Cache_Q_L7kgjLvkK6S-STO25oCA</string>
+    <string>Chest_yOcUsf0qFEmJt1luSsCbfw</string>
+    <string>Supply Cache_42mZwK_EoEWu5SqbPw3WaA</string>
+    <string>Supply Cache_ZuAADjG_2Em36ZAAJ4zPFA</string>
+    <string>Supply Cache_2OBE-sYfv0-8sYXQyTxXXQ</string>
+    <string>Chest_HKxkOe3KdUiFBZxL37hvSQ</string>
+    <string>Chest_-qAixr4Pv0q5VzZG615SuQ</string>
+    <string>Supply Cache_OFQO_vQIcEKT0V9OcQOedQ</string>
+    <string>Chest_ixa6gTe1BEayWjK3kA849A</string>
+    <string>Supply Cache_32BoQVCKuUmELV1M7to_sQ</string>
+    <string>Hollowed Trunk_QG-v5Eia6EKhHy6Gi-QiMg</string>
+    <string>Adventurer’s Corpse_WK8StcLJuk6Bvw8wJdEXbw</string>
+    <string>Hollowed Trunk_0xVF_mYaXEih_oisdffISw</string>
+    <string>Hollowed Trunk_3GaZDZ-XvUGNBiGRudKv-g</string>
+    <string>Supply Cache_LgiHtOFBXEmTsjXv10ph4Q</string>
+    <string>Supply Cache_z0I3aqrbf0KEwKJ3iIDwMQ</string>
+    <string>Chest_W0p8g-5fvE-aKwDSfLbDvQ</string>
+    <string>Chest_EpDIu22AoE2eMmB70LGwMw</string>
+    <string>Chest_ITS0zG1GPk-IPcuI-yeITg</string>
+    <string>Adventurer’s Corpse_cJEBEamiIEmTVofo6F0E_A</string>
+    <string>Supply Cache_OtRA2KoOhUq9E8xb0gq1xA</string>
+    <string>Junk Pile_5AP66B6QGUeVM8U5q5UICA</string>
+    <string>Hollowed Trunk_zTv0oGqBJUyWHyIOvEvwxg</string>
+    <string>Adventurer’s Corpse_FrOLa4d2REu67wQJOwtFfQ</string>
+    <string>Hollowed Trunk_An60oyx9UU6qt4FzYd2Viw</string>
+    <string>Junk Pile_8fj9kQ_QiEWBhEyYvm7jAg</string>
+    <string>Supply Cache_udmqs8MQpE29A9Zvs1E8rw</string>
+    <string>Adventurer’s Corpse_K46jLKydDE6VthE5IeN7ug</string>
+    <string>Supply Cache_wmjLeYiwl0uRPZ07tuiG2g</string>
+    <string>Broken Tent_MhXFDu6oS0adGfLHRy0qAw</string>
+    <string>Chest_sfOaDggZMUmt5XSAWwKXfQ</string>
+    <string>Supply Cache_f_afRS2DLUKTqcD9ygDE9Q</string>
+    <string>Chest_vnnmaQguyEqGgYadM6-XSQ</string>
+    <string>Adventurer’s Corpse_5oHQIfcr9UehlpzgMK9fXg</string>
+    <string>Hollowed Trunk_uY40UrEENU6sNAmLzwujSQ</string>
+    <string>Adventurer’s Corpse_QND-PaA8_k6HLybAJ_lBxg</string>
+    <string>Worker’s Corpse_q0bB1_joLEGyNvtTg2DTpQ</string>
+    <string>Hollowed Trunk_h5sCfRN2NE24c5iuAFSt9Q</string>
+    <string>Supply Cache_Nb6yq_Ik7k21NcpxDpcfKw</string>
+    <string>Chest_hl2RdHFV80K-qHDf0amUDA</string>
+    <string>Supply Cache_JpD9X56YtkK2GFt1F367Hg</string>
+    <string>Supply Cache_CNBWxM5eH0-iIFOoDOYkqg</string>
+    <string>Ornate Chest_VH18jgvG1E-I3eaENvY0rw</string>
+    <string>Hollowed Trunk_CyCw5vqVska-Vb_E_n4znA</string>
+    <string>Junk Pile_qrEzxq_aQUKkeMJ4DKIyvA</string>
+    <string>Hollowed Trunk_hJPxCbIPSEeb-IRZEhwCxw</string>
+    <string>Supply Cache_zUFPuNpEOUeojL3D0JY_6Q</string>
+    <string>Chest_UpeccncLSkmsmT_IlAS4Lw</string>
+    <string>Adventurer’s Corpse__xAsUQ3nsEmUysrLl80BbQ</string>
+    <string>Chest_LecIdd4e60i9zU8_ecQS_A</string>
+    <string>Supply Cache_CZ-KO6fjl06LvftNfOeNmQ</string>
+    <string>Junk Pile_oht7CPauUU-O8duDlSWGjA</string>
+    <string>Junk Pile_d-gWiPE6CUGmyfJucj7_PQ</string>
+    <string>Supply Cache_WVJ5TXA6nUGfhsSvBgRcGA</string>
+  </UniqueContainerList>
+</SceneSummary>

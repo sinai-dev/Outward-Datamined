@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DM_LootContainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Name>Supply Cache</Name>
+  <ItemID>1000110</ItemID>
+  <UID>YEfxIRm150KQUjjmTcVXkQ</UID>
+  <DropTables>
+    <string>DropTable_Neutral_WeaponStash_3</string>
+    <string>DropTable_AntiqueField_Recipe_Enchantment_1</string>
+  </DropTables>
+</DM_LootContainer>

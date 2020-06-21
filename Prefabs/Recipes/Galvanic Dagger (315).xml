@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DM_Recipe xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Name>Galvanic Dagger</Name>
+  <RecipeID>315</RecipeID>
+  <UID />
+  <StationType>Survival</StationType>
+  <Ingredients>
+    <string>Shiv Dagger</string>
+    <string>Shield Golem Scraps</string>
+    <string>Crystal Powder</string>
+    <string>Palladium Scrap</string>
+  </Ingredients>
+  <Results>
+    <ItemQty>
+      <ItemName>Galvanic Dagger</ItemName>
+      <ItemID>5110008</ItemID>
+      <Quantity>1</Quantity>
+    </ItemQty>
+  </Results>
+</DM_Recipe>

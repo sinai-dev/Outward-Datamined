@@ -31,11 +31,11 @@
       <Quantity>4</Quantity>
     </QuantityHolder>
     <QuantityHolder>
-      <Name>Obsidian Elemental (2)</Name>
+      <Name>Obsidian Elemental (1)</Name>
       <Quantity>1</Quantity>
     </QuantityHolder>
     <QuantityHolder>
-      <Name>Burning Man (2)</Name>
+      <Name>Burning Man (1)</Name>
       <Quantity>4</Quantity>
     </QuantityHolder>
     <QuantityHolder>
@@ -63,24 +63,20 @@
       <Quantity>5</Quantity>
     </QuantityHolder>
     <QuantityHolder>
-      <Name>Immaculate (2)</Name>
-      <Quantity>1</Quantity>
+      <Name>Immaculate (1)</Name>
+      <Quantity>2</Quantity>
     </QuantityHolder>
     <QuantityHolder>
       <Name>Alpha Coralhorn (1)</Name>
-      <Quantity>4</Quantity>
-    </QuantityHolder>
-    <QuantityHolder>
-      <Name>Alpha Coralhorn (2)</Name>
-      <Quantity>4</Quantity>
+      <Quantity>8</Quantity>
     </QuantityHolder>
     <QuantityHolder>
       <Name>Ghost (2)</Name>
       <Quantity>1</Quantity>
     </QuantityHolder>
     <QuantityHolder>
-      <Name>Ash Giant (5)</Name>
-      <Quantity>1</Quantity>
+      <Name>Ash Giant (1)</Name>
+      <Quantity>2</Quantity>
     </QuantityHolder>
     <QuantityHolder>
       <Name>The Royal Manticore (1)</Name>
@@ -91,15 +87,7 @@
       <Quantity>1</Quantity>
     </QuantityHolder>
     <QuantityHolder>
-      <Name>Immaculate (1)</Name>
-      <Quantity>1</Quantity>
-    </QuantityHolder>
-    <QuantityHolder>
       <Name>Bandit Manhunter (1)</Name>
-      <Quantity>1</Quantity>
-    </QuantityHolder>
-    <QuantityHolder>
-      <Name>Ash Giant (1)</Name>
       <Quantity>1</Quantity>
     </QuantityHolder>
     <QuantityHolder>
@@ -134,7 +122,7 @@
   </Loot_Containers>
   <Gatherables>
     <QuantityHolder>
-      <Name>Tree</Name>
+      <Name>Wood</Name>
       <Quantity>3</Quantity>
     </QuantityHolder>
     <QuantityHolder>

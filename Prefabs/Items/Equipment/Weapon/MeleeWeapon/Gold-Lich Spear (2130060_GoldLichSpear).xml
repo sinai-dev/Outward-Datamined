@@ -24,6 +24,9 @@
     <string>Item</string>
     <string>Spear</string>
     <string>DecraftPalladium_Small</string>
+    <string>Decraft</string>
+    <string>Gold</string>
+    <string>Family</string>
   </Tags>
   <StatsHolder xsi:type="DM_WeaponStats">
     <BaseValue>1000</BaseValue>
@@ -60,14 +63,18 @@
     <Heat_Protection>0</Heat_Protection>
     <Cold_Protection>0</Cold_Protection>
     <Corruption_Protection>0</Corruption_Protection>
+    <Cooldown_Reduction>-0</Cooldown_Reduction>
+    <Hunger_Affect>1</Hunger_Affect>
+    <Thirst_Affect>1</Thirst_Affect>
+    <Fatigue_Affect>1</Fatigue_Affect>
     <AttackSpeed>1</AttackSpeed>
     <BaseDamage>
       <Damages>
-        <Damage>27.9499989</Damage>
+        <Damage>25.3499985</Damage>
         <Damage_Type>Physical</Damage_Type>
       </Damages>
       <Damages>
-        <Damage>15.05</Damage>
+        <Damage>13.65</Damage>
         <Damage_Type>Electric</Damage_Type>
       </Damages>
     </BaseDamage>
@@ -80,8 +87,8 @@
         <Knockback>24</Knockback>
         <AttackSpeed>1</AttackSpeed>
         <Damage>
-          <float>27.9499989</float>
-          <float>15.05</float>
+          <float>25.3499985</float>
+          <float>13.65</float>
         </Damage>
       </AttackData>
       <AttackData>
@@ -89,8 +96,8 @@
         <Knockback>24</Knockback>
         <AttackSpeed>1</AttackSpeed>
         <Damage>
-          <float>27.9499989</float>
-          <float>15.05</float>
+          <float>25.3499985</float>
+          <float>13.65</float>
         </Damage>
       </AttackData>
       <AttackData>
@@ -98,8 +105,8 @@
         <Knockback>28.8</Knockback>
         <AttackSpeed>1.2</AttackSpeed>
         <Damage>
-          <float>39.1299973</float>
-          <float>21.07</float>
+          <float>35.4899979</float>
+          <float>19.1099987</float>
         </Damage>
       </AttackData>
       <AttackData>
@@ -107,8 +114,8 @@
         <Knockback>28.8</Knockback>
         <AttackSpeed>1.1</AttackSpeed>
         <Damage>
-          <float>36.335</float>
-          <float>19.565</float>
+          <float>32.954998</float>
+          <float>17.745</float>
         </Damage>
       </AttackData>
       <AttackData>
@@ -116,8 +123,8 @@
         <Knockback>26.4</Knockback>
         <AttackSpeed>1.1</AttackSpeed>
         <Damage>
-          <float>33.5399971</float>
-          <float>18.06</float>
+          <float>30.4199982</float>
+          <float>16.38</float>
         </Damage>
       </AttackData>
     </Attacks>
@@ -147,4 +154,6 @@
   <SwingSound>Default</SwingSound>
   <SpecialIsZoom>false</SpecialIsZoom>
   <MaxProjectileShots>-1</MaxProjectileShots>
+  <BaseHealthAbsorbRatio>0</BaseHealthAbsorbRatio>
+  <BaseMaxHealthAbsorbRatio>0</BaseMaxHealthAbsorbRatio>
 </DM_Weapon>

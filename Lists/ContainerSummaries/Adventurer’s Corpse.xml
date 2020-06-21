@@ -51,6 +51,38 @@
       <Name>Enmerkar Forest:Dolmen Crypt</Name>
       <Quantity>1</Quantity>
     </QuantityHolder>
+    <QuantityHolder>
+      <Name>Antique Plateau:Antique Plateau</Name>
+      <Quantity>11</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Antique Plateau:Forgotten Research Laboratory</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Antique Plateau:Ancient Foundry</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Antique Plateau:Lost Golem Manufacturing Facility</Name>
+      <Quantity>2</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Antique Plateau:Crumbling Loading Docks</Name>
+      <Quantity>2</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Antique Plateau:Destroyed Test Chambers</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Antique Plateau:Compromised Mana Transfer Station</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Antique Plateau:Blood Mage Hideout</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
   </All_Locations>
   <DropTables>
     <DroptableSummary>
@@ -70,6 +102,9 @@
         <string>Stone Titan Caves</string>
         <string>Ancient Hive</string>
         <string>Sand Rose Cave</string>
+        <string>Antique Plateau</string>
+        <string>Destroyed Test Chambers</string>
+        <string>Compromised Mana Transfer Station</string>
       </Locations>
     </DroptableSummary>
     <DroptableSummary>
@@ -79,6 +114,8 @@
         <string>Conflux Chambers</string>
         <string>Ziggurat Passage</string>
         <string>The Slide</string>
+        <string>Antique Plateau</string>
+        <string>Crumbling Loading Docks</string>
       </Locations>
     </DroptableSummary>
     <DroptableSummary>
@@ -104,6 +141,10 @@
         <string>Blister Burrow</string>
         <string>Reptilian Lair</string>
         <string>Sand Rose Cave</string>
+        <string>Forgotten Research Laboratory</string>
+        <string>Lost Golem Manufacturing Facility</string>
+        <string>Crumbling Loading Docks</string>
+        <string>Blood Mage Hideout</string>
       </Locations>
     </DroptableSummary>
     <DroptableSummary>
@@ -139,6 +180,7 @@
       <DropTableName>DropTable_Neutral_Alchemy_Low_2</DropTableName>
       <Locations>
         <string>Hallowed Marsh</string>
+        <string>Lost Golem Manufacturing Facility</string>
       </Locations>
     </DroptableSummary>
     <DroptableSummary>
@@ -173,6 +215,9 @@
         <string>Ziggurat Passage</string>
         <string>The Slide</string>
         <string>Dolmen Crypt</string>
+        <string>Lost Golem Manufacturing Facility</string>
+        <string>Crumbling Loading Docks</string>
+        <string>Compromised Mana Transfer Station</string>
       </Locations>
     </DroptableSummary>
     <DroptableSummary>
@@ -199,12 +244,14 @@
       <Locations>
         <string>Ancient Hive</string>
         <string>Sand Rose Cave</string>
+        <string>Crumbling Loading Docks</string>
       </Locations>
     </DroptableSummary>
     <DroptableSummary>
       <DropTableName>DropTable_Neutral_StandardRecipe_High_1</DropTableName>
       <Locations>
         <string>Sand Rose Cave</string>
+        <string>Antique Plateau</string>
       </Locations>
     </DroptableSummary>
     <DroptableSummary>
@@ -217,6 +264,77 @@
       <DropTableName>DropTable_Neutral_Consumable_High_1</DropTableName>
       <Locations>
         <string>Dolmen Crypt</string>
+        <string>Antique Plateau</string>
+      </Locations>
+    </DroptableSummary>
+    <DroptableSummary>
+      <DropTableName>DropTable_AntiqueField_Equipment_Low_1</DropTableName>
+      <Locations>
+        <string>Antique Plateau</string>
+      </Locations>
+    </DroptableSummary>
+    <DroptableSummary>
+      <DropTableName>DropTable_AntiqueField_Food_1</DropTableName>
+      <Locations>
+        <string>Antique Plateau</string>
+        <string>Forgotten Research Laboratory</string>
+        <string>Ancient Foundry</string>
+        <string>Lost Golem Manufacturing Facility</string>
+        <string>Crumbling Loading Docks</string>
+        <string>Blood Mage Hideout</string>
+      </Locations>
+    </DroptableSummary>
+    <DroptableSummary>
+      <DropTableName>DropTable_AntiqueField_Recipe_Basic_1</DropTableName>
+      <Locations>
+        <string>Antique Plateau</string>
+        <string>Forgotten Research Laboratory</string>
+        <string>Lost Golem Manufacturing Facility</string>
+        <string>Crumbling Loading Docks</string>
+        <string>Destroyed Test Chambers</string>
+        <string>Blood Mage Hideout</string>
+      </Locations>
+    </DroptableSummary>
+    <DroptableSummary>
+      <DropTableName>DropTable_AntiqueField_Recipe_Enchantment_1</DropTableName>
+      <Locations>
+        <string>Forgotten Research Laboratory</string>
+        <string>Ancient Foundry</string>
+        <string>Lost Golem Manufacturing Facility</string>
+        <string>Crumbling Loading Docks</string>
+        <string>Destroyed Test Chambers</string>
+        <string>Compromised Mana Transfer Station</string>
+      </Locations>
+    </DroptableSummary>
+    <DroptableSummary>
+      <DropTableName>DropTable_AntiqueField_Equipment_High_1</DropTableName>
+      <Locations>
+        <string>Ancient Foundry</string>
+      </Locations>
+    </DroptableSummary>
+    <DroptableSummary>
+      <DropTableName>DropTable_AntiqueField_Recipe_Weapon_1</DropTableName>
+      <Locations>
+        <string>Ancient Foundry</string>
+      </Locations>
+    </DroptableSummary>
+    <DroptableSummary>
+      <DropTableName>DropTable_Neutral_Magic_High_1</DropTableName>
+      <Locations>
+        <string>Destroyed Test Chambers</string>
+        <string>Compromised Mana Transfer Station</string>
+      </Locations>
+    </DroptableSummary>
+    <DroptableSummary>
+      <DropTableName>DropTable_AntiqueField_Consumable_1</DropTableName>
+      <Locations>
+        <string>Destroyed Test Chambers</string>
+      </Locations>
+    </DroptableSummary>
+    <DroptableSummary>
+      <DropTableName>DropTable_AntiqueField_Alchemy_1</DropTableName>
+      <Locations>
+        <string>Blood Mage Hideout</string>
       </Locations>
     </DroptableSummary>
   </DropTables>

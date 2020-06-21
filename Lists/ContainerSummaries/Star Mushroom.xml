@@ -103,6 +103,18 @@
       <Name>Enmerkar Forest:Necropolis</Name>
       <Quantity>2</Quantity>
     </QuantityHolder>
+    <QuantityHolder>
+      <Name>Antique Plateau:Abandoned Living Quarters</Name>
+      <Quantity>2</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Antique Plateau:Bandit Hideout</Name>
+      <Quantity>2</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Antique Plateau:Troglodyte Warren</Name>
+      <Quantity>4</Quantity>
+    </QuantityHolder>
   </All_Locations>
   <DropTables>
     <DroptableSummary>
@@ -133,6 +145,9 @@
         <string>Forest Hives</string>
         <string>Face of the Ancients</string>
         <string>Necropolis</string>
+        <string>Abandoned Living Quarters</string>
+        <string>Bandit Hideout</string>
+        <string>Troglodyte Warren</string>
       </Locations>
     </DroptableSummary>
   </DropTables>

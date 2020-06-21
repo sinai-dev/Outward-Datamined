@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DM_LootContainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Name>Trog Chest</Name>
+  <ItemID>1000060</ItemID>
+  <UID>y1B4ouC770-7kBHvRtYg2w</UID>
+  <DropTables>
+    <string>DropTable_Neutral_Troglodyte_2</string>
+    <string>DropTable_Neutral_Survival_Medium_1</string>
+    <string>DropTable_Neutral_StandardRecipe_Low_1</string>
+    <string>DropTable_Neutral_Troglodyte_2</string>
+    <string>DropTable_AntiqueField_Recipe_Enchantment_1</string>
+  </DropTables>
+</DM_LootContainer>

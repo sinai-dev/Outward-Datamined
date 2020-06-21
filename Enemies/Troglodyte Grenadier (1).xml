@@ -10,6 +10,9 @@
     <string>Hallowed Marsh:Under Island</string>
     <string>Abrassar:Undercity Passage</string>
     <string>Enmerkar Forest:Royal Manticore’s Lair</string>
+    <string>Antique Plateau:Abandoned Living Quarters</string>
+    <string>Antique Plateau:Destroyed Test Chambers</string>
+    <string>Antique Plateau:Troglodyte Warren</string>
   </Locations_Found>
   <Max_Health>120</Max_Health>
   <Health_Regen_Per_Second>0</Health_Regen_Per_Second>

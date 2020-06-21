@@ -58,6 +58,10 @@
     <Heat_Protection>0</Heat_Protection>
     <Cold_Protection>0</Cold_Protection>
     <Corruption_Protection>0</Corruption_Protection>
+    <Cooldown_Reduction>-0</Cooldown_Reduction>
+    <Hunger_Affect>0</Hunger_Affect>
+    <Thirst_Affect>0</Thirst_Affect>
+    <Fatigue_Affect>0</Fatigue_Affect>
     <AttackSpeed>1</AttackSpeed>
     <BaseDamage>
       <Damages>
@@ -122,6 +126,13 @@
           <StatusEffect>Infection1</StatusEffect>
           <ChanceToContract>10</ChanceToContract>
         </DM_Effect>
+        <DM_Effect xsi:type="DM_AddStatusEffectBuildUp">
+          <Delay>0</Delay>
+          <SyncType>OwnerSync</SyncType>
+          <OverrideCategory>None</OverrideCategory>
+          <StatusEffect>Weaken</StatusEffect>
+          <Buildup>30</Buildup>
+        </DM_Effect>
       </Effects>
       <EffectConditions />
       <ChildEffects />
@@ -136,4 +147,6 @@
   <SwingSound>Default</SwingSound>
   <SpecialIsZoom>false</SpecialIsZoom>
   <MaxProjectileShots>-1</MaxProjectileShots>
+  <BaseHealthAbsorbRatio>0</BaseHealthAbsorbRatio>
+  <BaseMaxHealthAbsorbRatio>0</BaseMaxHealthAbsorbRatio>
 </DM_Weapon>

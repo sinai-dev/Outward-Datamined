@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DM_Recipe xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Name>Boiled Dreamer’s Root</Name>
+  <RecipeID>357</RecipeID>
+  <UID />
+  <StationType>Cooking</StationType>
+  <Ingredients>
+    <string>Dreamer’s Root</string>
+  </Ingredients>
+  <Results>
+    <ItemQty>
+      <ItemName>Boiled Dreamer’s Root</ItemName>
+      <ItemID>4100670</ItemID>
+      <Quantity>1</Quantity>
+    </ItemQty>
+  </Results>
+</DM_Recipe>

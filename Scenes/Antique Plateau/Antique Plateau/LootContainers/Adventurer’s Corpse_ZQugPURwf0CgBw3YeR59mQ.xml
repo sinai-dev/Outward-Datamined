@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DM_LootContainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Name>Adventurer’s Corpse</Name>
+  <ItemID>1000092</ItemID>
+  <UID>ZQugPURwf0CgBw3YeR59mQ</UID>
+  <DropTables>
+    <string>DropTable_Neutral_Consumable_High_1</string>
+    <string>DropTable_Neutral_Food_1</string>
+    <string>DropTable_Neutral_Magic_Low_2</string>
+    <string>DropTable_Neutral_StandardRecipe_High_1</string>
+  </DropTables>
+</DM_LootContainer>

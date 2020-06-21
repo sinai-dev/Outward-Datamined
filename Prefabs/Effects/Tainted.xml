@@ -2,8 +2,8 @@
 <DM_StatusEffect xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <PresetID>1001</PresetID>
   <Identifier>Tainted</Identifier>
-  <Name>StatusEffect_Corruption_TaintedName</Name>
-  <Description>StatusEffect_Corruption_TaintedDesc</Description>
+  <Name>Tainted</Name>
+  <Description>Hunger rate +[E2V1]%. Lightning Resistance [E1V1]%.</Description>
   <Lifespan>-1</Lifespan>
   <LengthType>Short</LengthType>
   <RefreshRate>0.1</RefreshRate>

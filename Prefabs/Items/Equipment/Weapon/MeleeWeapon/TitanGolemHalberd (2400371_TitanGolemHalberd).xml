@@ -58,55 +58,59 @@
     <Heat_Protection>0</Heat_Protection>
     <Cold_Protection>0</Cold_Protection>
     <Corruption_Protection>0</Corruption_Protection>
+    <Cooldown_Reduction>-0</Cooldown_Reduction>
+    <Hunger_Affect>1</Hunger_Affect>
+    <Thirst_Affect>1</Thirst_Affect>
+    <Fatigue_Affect>1</Fatigue_Affect>
     <AttackSpeed>1</AttackSpeed>
     <BaseDamage>
       <Damages>
-        <Damage>28</Damage>
+        <Damage>45</Damage>
         <Damage_Type>Physical</Damage_Type>
       </Damages>
     </BaseDamage>
-    <Impact>70</Impact>
+    <Impact>110</Impact>
     <StamCost>1.25</StamCost>
     <AutoGenerateAttackData>false</AutoGenerateAttackData>
     <Attacks>
       <AttackData>
         <StamCost>1.25</StamCost>
-        <Knockback>70</Knockback>
+        <Knockback>110</Knockback>
         <AttackSpeed>1</AttackSpeed>
         <Damage>
-          <float>28</float>
+          <float>45</float>
         </Damage>
       </AttackData>
       <AttackData>
         <StamCost>1.25</StamCost>
-        <Knockback>70</Knockback>
+        <Knockback>130</Knockback>
         <AttackSpeed>1</AttackSpeed>
         <Damage>
-          <float>28</float>
+          <float>60</float>
         </Damage>
       </AttackData>
       <AttackData>
         <StamCost>1.25</StamCost>
-        <Knockback>86</Knockback>
+        <Knockback>110</Knockback>
         <AttackSpeed>1</AttackSpeed>
         <Damage>
-          <float>31</float>
+          <float>45</float>
         </Damage>
       </AttackData>
       <AttackData>
         <StamCost>1.25</StamCost>
-        <Knockback>86</Knockback>
+        <Knockback>130</Knockback>
         <AttackSpeed>1</AttackSpeed>
         <Damage>
-          <float>31</float>
+          <float>38</float>
         </Damage>
       </AttackData>
       <AttackData>
         <StamCost>1.25</StamCost>
-        <Knockback>86</Knockback>
+        <Knockback>110</Knockback>
         <AttackSpeed>1</AttackSpeed>
         <Damage>
-          <float>31</float>
+          <float>41</float>
         </Damage>
       </AttackData>
     </Attacks>
@@ -119,7 +123,7 @@
           <Delay>0</Delay>
           <SyncType>OwnerSync</SyncType>
           <OverrideCategory>None</OverrideCategory>
-          <StatusEffect>Bleeding</StatusEffect>
+          <StatusEffect>Bleeding +</StatusEffect>
           <Buildup>45</Buildup>
         </DM_Effect>
       </Effects>
@@ -136,4 +140,6 @@
   <SwingSound>Default</SwingSound>
   <SpecialIsZoom>false</SpecialIsZoom>
   <MaxProjectileShots>-1</MaxProjectileShots>
+  <BaseHealthAbsorbRatio>0</BaseHealthAbsorbRatio>
+  <BaseMaxHealthAbsorbRatio>0</BaseMaxHealthAbsorbRatio>
 </DM_Weapon>

@@ -8,6 +8,10 @@
     <string>Hallowed Marsh:Dark Ziggurat Interior</string>
     <string>Abrassar:Abrassar</string>
     <string>Abrassar:Electric Lab</string>
+    <string>Antique Plateau:Antique Plateau</string>
+    <string>Antique Plateau:Forgotten Research Laboratory</string>
+    <string>Antique Plateau:Crumbling Loading Docks</string>
+    <string>Antique Plateau:Destroyed Test Chambers</string>
   </Locations_Found>
   <Max_Health>400</Max_Health>
   <Health_Regen_Per_Second>0</Health_Regen_Per_Second>

@@ -19,6 +19,18 @@
       <Name>Abrassar:Hive Prison</Name>
       <Quantity>2</Quantity>
     </QuantityHolder>
+    <QuantityHolder>
+      <Name>Antique Plateau:Forgotten Research Laboratory</Name>
+      <Quantity>3</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Antique Plateau:Destroyed Test Chambers</Name>
+      <Quantity>2</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Antique Plateau:Blood Mage Hideout</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
   </All_Locations>
   <DropTables>
     <DroptableSummary>
@@ -27,6 +39,9 @@
         <string>Blister Burrow</string>
         <string>Abrassar</string>
         <string>Hive Prison</string>
+        <string>Forgotten Research Laboratory</string>
+        <string>Destroyed Test Chambers</string>
+        <string>Blood Mage Hideout</string>
       </Locations>
     </DroptableSummary>
     <DroptableSummary>
@@ -42,6 +57,9 @@
       <Locations>
         <string>Blister Burrow</string>
         <string>Abrassar</string>
+        <string>Forgotten Research Laboratory</string>
+        <string>Destroyed Test Chambers</string>
+        <string>Blood Mage Hideout</string>
       </Locations>
     </DroptableSummary>
     <DroptableSummary>
@@ -50,6 +68,9 @@
         <string>Trog Infiltration</string>
         <string>Abrassar</string>
         <string>Hive Prison</string>
+        <string>Forgotten Research Laboratory</string>
+        <string>Destroyed Test Chambers</string>
+        <string>Blood Mage Hideout</string>
       </Locations>
     </DroptableSummary>
     <DroptableSummary>
@@ -63,6 +84,7 @@
       <DropTableName>DropTable_Neutral_Alchemy_Low_2</DropTableName>
       <Locations>
         <string>Abrassar</string>
+        <string>Forgotten Research Laboratory</string>
       </Locations>
     </DroptableSummary>
     <DroptableSummary>
@@ -70,12 +92,31 @@
       <Locations>
         <string>Abrassar</string>
         <string>Hive Prison</string>
+        <string>Forgotten Research Laboratory</string>
       </Locations>
     </DroptableSummary>
     <DroptableSummary>
       <DropTableName>DropTable_Neutral_Survival_High_1</DropTableName>
       <Locations>
         <string>Hive Prison</string>
+      </Locations>
+    </DroptableSummary>
+    <DroptableSummary>
+      <DropTableName>DropTable_AntiqueField_Consumable_1</DropTableName>
+      <Locations>
+        <string>Forgotten Research Laboratory</string>
+      </Locations>
+    </DroptableSummary>
+    <DroptableSummary>
+      <DropTableName>DropTable_Neutral_Consumable_High_1</DropTableName>
+      <Locations>
+        <string>Destroyed Test Chambers</string>
+      </Locations>
+    </DroptableSummary>
+    <DroptableSummary>
+      <DropTableName>DropTable_AntiqueField_Alchemy_1</DropTableName>
+      <Locations>
+        <string>Destroyed Test Chambers</string>
       </Locations>
     </DroptableSummary>
   </DropTables>

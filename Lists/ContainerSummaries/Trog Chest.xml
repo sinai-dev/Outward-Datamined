@@ -27,6 +27,18 @@
       <Name>Enmerkar Forest:Royal Manticore’s Lair</Name>
       <Quantity>1</Quantity>
     </QuantityHolder>
+    <QuantityHolder>
+      <Name>Antique Plateau:Abandoned Living Quarters</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Antique Plateau:Destroyed Test Chambers</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Antique Plateau:Troglodyte Warren</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
   </All_Locations>
   <DropTables>
     <DroptableSummary>
@@ -38,6 +50,9 @@
         <string>Jade Quarry</string>
         <string>Under Island</string>
         <string>Royal Manticore’s Lair</string>
+        <string>Abandoned Living Quarters</string>
+        <string>Destroyed Test Chambers</string>
+        <string>Troglodyte Warren</string>
       </Locations>
     </DroptableSummary>
     <DroptableSummary>
@@ -52,12 +67,16 @@
         <string>Blister Burrow</string>
         <string>Trog Infiltration</string>
         <string>Under Island</string>
+        <string>Abandoned Living Quarters</string>
+        <string>Destroyed Test Chambers</string>
+        <string>Troglodyte Warren</string>
       </Locations>
     </DroptableSummary>
     <DroptableSummary>
       <DropTableName>DropTable_Neutral_Survival_Medium_1</DropTableName>
       <Locations>
         <string>Blue Chamber’s Conflux Path</string>
+        <string>Abandoned Living Quarters</string>
       </Locations>
     </DroptableSummary>
     <DroptableSummary>
@@ -106,6 +125,13 @@
       <DropTableName>DropTable_Enmerkar_Recipe_Basic_1</DropTableName>
       <Locations>
         <string>Royal Manticore’s Lair</string>
+      </Locations>
+    </DroptableSummary>
+    <DroptableSummary>
+      <DropTableName>DropTable_AntiqueField_Recipe_Enchantment_1</DropTableName>
+      <Locations>
+        <string>Abandoned Living Quarters</string>
+        <string>Destroyed Test Chambers</string>
       </Locations>
     </DroptableSummary>
   </DropTables>

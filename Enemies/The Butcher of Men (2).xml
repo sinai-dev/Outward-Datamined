@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DM_Enemy xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Name>The Butcher of Men</Name>
+  <GameObject_Name>ImmaculateButcher_Hostile_Q1</GameObject_Name>
+  <Unique_ID>2</Unique_ID>
+  <Locations_Found>
+    <string>Antique Plateau:Abandoned Storage</string>
+  </Locations_Found>
+  <Max_Health>900</Max_Health>
+  <Health_Regen_Per_Second>1.5</Health_Regen_Per_Second>
+  <Impact_Resistance>70</Impact_Resistance>
+  <Protection>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+  </Protection>
+  <Damage_Resistances>
+    <float>20</float>
+    <float>0</float>
+    <float>0</float>
+    <float>-50</float>
+    <float>0</float>
+    <float>0</float>
+  </Damage_Resistances>
+  <Damage_Bonuses>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+  </Damage_Bonuses>
+  <Collider_Radius>0.7</Collider_Radius>
+  <True_WeaponDamage>
+    <Damages>
+      <Damage>22.5</Damage>
+      <Damage_Type>Physical</Damage_Type>
+    </Damages>
+    <Damages>
+      <Damage>7.5</Damage>
+      <Damage_Type>Decay</Damage_Type>
+    </Damages>
+  </True_WeaponDamage>
+  <Weapon_Impact>75</Weapon_Impact>
+  <Status_Immunities />
+  <Starting_Equipment>
+    <string>- (2400250)</string>
+  </Starting_Equipment>
+  <Skill_Knowledge>
+    <string>ImmaculateDoubleAttack (8300250)</string>
+  </Skill_Knowledge>
+  <Faction>Hounds</Faction>
+  <Allied_To_Same_Faction>true</Allied_To_Same_Faction>
+  <Guaranteed_Drops />
+  <DropTable_Names>
+    <string>DropTable_ImmaculateHorrorBoss</string>
+  </DropTable_Names>
+</DM_Enemy>

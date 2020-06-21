@@ -6,8 +6,10 @@
   <Locations_Found>
     <string>Hallowed Marsh:Ziggurat Passage</string>
     <string>Abrassar:Abrassar</string>
+    <string>Enmerkar Forest:Enmerkar Forest</string>
     <string>Enmerkar Forest:Face of the Ancients</string>
     <string>Enmerkar Forest:Vigil Pylon</string>
+    <string>Antique Plateau:Ancient Foundry</string>
   </Locations_Found>
   <Max_Health>250</Max_Health>
   <Health_Regen_Per_Second>0</Health_Regen_Per_Second>

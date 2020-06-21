@@ -15,6 +15,26 @@
       <Name>Enmerkar Forest:Tree Husk</Name>
       <Quantity>2</Quantity>
     </QuantityHolder>
+    <QuantityHolder>
+      <Name>Antique Plateau:Antique Plateau</Name>
+      <Quantity>2</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Antique Plateau:Abandoned Living Quarters</Name>
+      <Quantity>2</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Antique Plateau:Crumbling Loading Docks</Name>
+      <Quantity>2</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Antique Plateau:Old Harmattan Basement</Name>
+      <Quantity>5</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Antique Plateau:Abandoned Storage</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
   </All_Locations>
   <DropTables>
     <DroptableSummary>
@@ -23,6 +43,11 @@
         <string>Chersonese</string>
         <string>Enmerkar Forest</string>
         <string>Tree Husk</string>
+        <string>Antique Plateau</string>
+        <string>Abandoned Living Quarters</string>
+        <string>Crumbling Loading Docks</string>
+        <string>Old Harmattan Basement</string>
+        <string>Abandoned Storage</string>
       </Locations>
     </DroptableSummary>
   </DropTables>

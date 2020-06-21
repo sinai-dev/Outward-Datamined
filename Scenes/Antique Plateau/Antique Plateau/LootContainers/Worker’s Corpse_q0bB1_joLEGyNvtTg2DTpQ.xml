@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DM_LootContainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Name>Worker’s Corpse</Name>
+  <ItemID>1000091</ItemID>
+  <UID>q0bB1_joLEGyNvtTg2DTpQ</UID>
+  <DropTables />
+</DM_LootContainer>

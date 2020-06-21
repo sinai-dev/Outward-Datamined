@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DM_Enemy xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Name>Jade Lich</Name>
+  <GameObject_Name>LichRust</GameObject_Name>
+  <Unique_ID>2</Unique_ID>
+  <Locations_Found>
+    <string>Antique Plateau:Forgotten Research Laboratory</string>
+  </Locations_Found>
+  <Max_Health>850</Max_Health>
+  <Health_Regen_Per_Second>0</Health_Regen_Per_Second>
+  <Impact_Resistance>7000</Impact_Resistance>
+  <Protection>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+  </Protection>
+  <Damage_Resistances>
+    <float>40</float>
+    <float>-40</float>
+    <float>40</float>
+    <float>-20</float>
+    <float>20</float>
+    <float>40</float>
+  </Damage_Resistances>
+  <Damage_Bonuses>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+  </Damage_Bonuses>
+  <Collider_Radius>0.7</Collider_Radius>
+  <True_WeaponDamage>
+    <Damages>
+      <Damage>14.85</Damage>
+      <Damage_Type>Physical</Damage_Type>
+    </Damages>
+    <Damages>
+      <Damage>30.15</Damage>
+      <Damage_Type>Electric</Damage_Type>
+    </Damages>
+  </True_WeaponDamage>
+  <Weapon_Impact>97</Weapon_Impact>
+  <Status_Immunities>
+    <string>Bleeding</string>
+    <string>Poison</string>
+    <string>Burning</string>
+  </Status_Immunities>
+  <Starting_Equipment>
+    <string>- (2400270)</string>
+  </Starting_Equipment>
+  <Skill_Knowledge>
+    <string>LichRustDashAttack (8300430)</string>
+    <string>LichRustProjectile (8300431)</string>
+    <string>LichRustFlameThrower (8300432)</string>
+    <string>LichRustReanimate (8300433)</string>
+    <string>LichRustTeleport (8300434)</string>
+    <string>LichRustLinkProjectiles (8300435)</string>
+    <string>LichRustLinkProjectilesTriple (8300436)</string>
+    <string>LichRustLinkProjectilesQuadruple (8300437)</string>
+  </Skill_Knowledge>
+  <Faction>Merchants</Faction>
+  <Allied_To_Same_Faction>true</Allied_To_Same_Faction>
+  <Guaranteed_Drops />
+  <DropTable_Names />
+</DM_Enemy>

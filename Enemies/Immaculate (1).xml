@@ -15,6 +15,9 @@
     <string>Abrassar:Immaculate's Camp</string>
     <string>Enmerkar Forest:Enmerkar Forest</string>
     <string>Enmerkar Forest:Immaculate's Camp</string>
+    <string>Antique Plateau:Ruined Warehouse</string>
+    <string>Antique Plateau:Old Harmattan</string>
+    <string>Antique Plateau:Immaculate's Camp</string>
   </Locations_Found>
   <Max_Health>775</Max_Health>
   <Health_Regen_Per_Second>1.5</Health_Regen_Per_Second>

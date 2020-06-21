@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DM_LootContainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Name>Chest</Name>
+  <ItemID>1000000</ItemID>
+  <UID>K99VLcmtmkShWnbXtEN-bg</UID>
+  <DropTables>
+    <string>DropTable_Neutral_Survival_High_1</string>
+    <string>DropTable_Neutral_Magic_Low_2</string>
+    <string>DropTable_Neutral_Alchemy_Low_2</string>
+    <string>DropTable_AntiqueField_Recipe_Weapon_1</string>
+    <string>DropTable_AntiqueField_Equipment_Medium_1</string>
+    <string>DropTable_AntiqueField_Recipe_Enchantment_1</string>
+  </DropTables>
+</DM_LootContainer>

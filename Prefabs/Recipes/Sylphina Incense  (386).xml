@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DM_Recipe xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Name>Sylphina Incense </Name>
+  <RecipeID>386</RecipeID>
+  <UID />
+  <StationType>Alchemy</StationType>
+  <Ingredients>
+    <string>Purifying Quartz</string>
+    <string>Tourmaline</string>
+    <string>Elemental Particle – Ether</string>
+    <string>Pale Beauty Incense </string>
+  </Ingredients>
+  <Results>
+    <ItemQty>
+      <ItemName>Sylphina Incense</ItemName>
+      <ItemID>6000250</ItemID>
+      <Quantity>4</Quantity>
+    </ItemQty>
+  </Results>
+</DM_Recipe>

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SceneSummary xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SceneName>Compromised Mana Transfer Station</SceneName>
+  <Enemies>
+    <QuantityHolder>
+      <Name>Illuminator Horror (1)</Name>
+      <Quantity>5</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Shell Horror (1)</Name>
+      <Quantity>2</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Pure Illuminator (1)</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Arcane Elemental (14)</Name>
+      <Quantity>3</Quantity>
+    </QuantityHolder>
+  </Enemies>
+  <Merchants>
+    <string>Pholiota (ZApQcSYEbkSgOkyRCsdEYA)</string>
+    <string>Pholiota (aZ1UeIcKAUmPM8rQqDdXnQ)</string>
+  </Merchants>
+  <Loot_Containers>
+    <QuantityHolder>
+      <Name>Junk Pile</Name>
+      <Quantity>6</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Chest</Name>
+      <Quantity>4</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Knight’s Corpse</Name>
+      <Quantity>3</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Soldier’s Corpse</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Adventurer’s Corpse</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Worker’s Corpse</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Scavenger’s Corpse</Name>
+      <Quantity>2</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Ornate Chest</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+  </Loot_Containers>
+  <Gatherables>
+    <QuantityHolder>
+      <Name>Nightmare Mushrooms</Name>
+      <Quantity>4</Quantity>
+    </QuantityHolder>
+  </Gatherables>
+  <Item_Spawns>
+    <DM_ItemSpawn>
+      <Name>Gemstone Key B</Name>
+      <Item_ID>5600091</Item_ID>
+      <Quantity>1</Quantity>
+      <positions>
+        <Vector3>
+          <x>-18.8119965</x>
+          <y>-4.124</y>
+          <z>-48.636</z>
+        </Vector3>
+      </positions>
+    </DM_ItemSpawn>
+    <DM_ItemSpawn>
+      <Name>Mana Transfer Elevator Key</Name>
+      <Item_ID>5600160</Item_ID>
+      <Quantity>1</Quantity>
+      <positions>
+        <Vector3>
+          <x>-191.522</x>
+          <y>0.9299998</y>
+          <z>152.231</z>
+        </Vector3>
+      </positions>
+    </DM_ItemSpawn>
+  </Item_Spawns>
+  <UniqueContainerList>
+    <string>Junk Pile_6esgDBBKSEeISDJd0P3ppQ</string>
+    <string>Chest_yK9RBVJ2z0-h9-40y5MFcw</string>
+    <string>Knight’s Corpse_n57ZXxfth0yJ36Fhc6z7NQ</string>
+    <string>Chest_p0901SmxpEehn3vJjQ0rYA</string>
+    <string>Soldier’s Corpse_N_XNt930zUqsgjyjxQv6Wg</string>
+    <string>Chest_4s2ldZRONUqaj-0PrJ6Y8A</string>
+    <string>Junk Pile_psgsfc54Yk-miVqus5mZCg</string>
+    <string>Knight’s Corpse_u5NE9aT-UES2zjlYY6DrRw</string>
+    <string>Junk Pile_GFG33zTgrkiqvNIMjBzjHA</string>
+    <string>Adventurer’s Corpse_9v6t4IeO5kO7fgNbe1cu1Q</string>
+    <string>Knight’s Corpse_X4PlMiNoW0GaVv7BEjqffA</string>
+    <string>Junk Pile_DfhirYw_OkmDCIM4CH8IdQ</string>
+    <string>Worker’s Corpse_r66thEjkfEOtMpJ-4W3_0w</string>
+    <string>Junk Pile_Xau5021gmUq497ZYs9j8SQ</string>
+    <string>Scavenger’s Corpse_mTSNdUniXEOD-Tue4s6-mw</string>
+    <string>Ornate Chest_j-2BGU-fT0yUbYSYFDW0Lg</string>
+    <string>Chest_E0mH6KR0lkuYSqRuy-rWAQ</string>
+    <string>Scavenger’s Corpse_ortBpYOFU0uk_RCkacAjlg</string>
+    <string>Junk Pile_GDJkgABs2kGySF15a0wYIw</string>
+  </UniqueContainerList>
+</SceneSummary>

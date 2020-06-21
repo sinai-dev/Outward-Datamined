@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DM_Recipe xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Name>Angel Food Cake</Name>
+  <RecipeID>375</RecipeID>
+  <UID />
+  <StationType>Cooking</StationType>
+  <Ingredients>
+    <string>Flour</string>
+    <string>Egg</string>
+    <string>Sugar</string>
+  </Ingredients>
+  <Results>
+    <ItemQty>
+      <ItemName>Angel Food Cake</ItemName>
+      <ItemID>4100740</ItemID>
+      <Quantity>3</Quantity>
+    </ItemQty>
+  </Results>
+</DM_Recipe>

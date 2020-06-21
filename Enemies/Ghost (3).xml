@@ -5,6 +5,7 @@
   <Unique_ID>3</Unique_ID>
   <Locations_Found>
     <string>Chersonese:Corrupted Tombs</string>
+    <string>Antique Plateau:Abandoned Storage</string>
   </Locations_Found>
   <Max_Health>125</Max_Health>
   <Health_Regen_Per_Second>0</Health_Regen_Per_Second>

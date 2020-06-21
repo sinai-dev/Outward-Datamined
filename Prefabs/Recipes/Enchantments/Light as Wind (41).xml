@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DM_EnchantmentRecipe xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <RecipeID>41</RecipeID>
+  <Name>Light as Wind</Name>
+  <CompatibleEquipment>
+    <CompatibleEquipments>
+      <IngredientData>
+        <SpecificItemID>3100093</SpecificItemID>
+        <Type>Specific</Type>
+      </IngredientData>
+      <IngredientData>
+        <SpecificItemID>3100180</SpecificItemID>
+        <Type>Specific</Type>
+      </IngredientData>
+    </CompatibleEquipments>
+    <EquipmentTag>Armor</EquipmentTag>
+  </CompatibleEquipment>
+  <PillarDatas>
+    <PillarData>
+      <CompatibleIngredients>
+        <IngredientData>
+          <SpecificItemID>6000230</SpecificItemID>
+          <Type>Specific</Type>
+        </IngredientData>
+      </CompatibleIngredients>
+      <Direction>East</Direction>
+      <IsFar>true</IsFar>
+    </PillarData>
+    <PillarData>
+      <CompatibleIngredients>
+        <IngredientData>
+          <SpecificItemID>6000230</SpecificItemID>
+          <Type>Specific</Type>
+        </IngredientData>
+      </CompatibleIngredients>
+      <Direction>West</Direction>
+      <IsFar>true</IsFar>
+    </PillarData>
+  </PillarDatas>
+  <Weather />
+  <TimeOfDay />
+  <Temperatures />
+  <WindAltarActivated>true</WindAltarActivated>
+  <Regions />
+  <Result>
+    <Name>Light as Wind</Name>
+    <Description />
+    <Effects />
+    <AdditionalDamages />
+    <StatModifications>
+      <StatModification>
+        <Name>StaminaCostReduction</Name>
+        <Type>Modifier</Type>
+        <Value>11</Value>
+      </StatModification>
+      <StatModification>
+        <Name>Weight</Name>
+        <Type>Bonus</Type>
+        <Value>-9</Value>
+      </StatModification>
+    </StatModifications>
+    <DamageBonus />
+    <DamageModifier />
+    <ElementalResistances />
+    <HealthAbsorbRatio>0</HealthAbsorbRatio>
+    <ManaAbsorbRatio>0</ManaAbsorbRatio>
+    <StaminaAbsorbRatio>0</StaminaAbsorbRatio>
+    <Indescructible>false</Indescructible>
+    <TrackDamageRatio>-1</TrackDamageRatio>
+  </Result>
+</DM_EnchantmentRecipe>

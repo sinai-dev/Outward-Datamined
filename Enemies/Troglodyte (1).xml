@@ -11,6 +11,7 @@
     <string>Chersonese:Cierzo Storage</string>
     <string>Hallowed Marsh:Under Island</string>
     <string>Enmerkar Forest:Royal Manticore’s Lair</string>
+    <string>Antique Plateau:Abandoned Living Quarters</string>
   </Locations_Found>
   <Max_Health>90</Max_Health>
   <Health_Regen_Per_Second>0</Health_Regen_Per_Second>

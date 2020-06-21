@@ -12,6 +12,8 @@
     <string>Enmerkar Forest:Face of the Ancients</string>
     <string>Enmerkar Forest:Necropolis</string>
     <string>Enmerkar Forest:Dolmen Crypt</string>
+    <string>Antique Plateau:Old Harmattan Basement</string>
+    <string>Antique Plateau:Abandoned Storage</string>
   </Locations_Found>
   <Max_Health>150</Max_Health>
   <Health_Regen_Per_Second>0</Health_Regen_Per_Second>

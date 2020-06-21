@@ -7,8 +7,12 @@
     <string>Chersonese:Chersonese</string>
     <string>Chersonese:Heroic Kingdom’s Conflux Path</string>
     <string>Abrassar:Abrassar</string>
+    <string>Abrassar:The Slide</string>
     <string>Abrassar:Ancient Hive</string>
     <string>Enmerkar Forest:Ancestor’s Resting Place</string>
+    <string>Antique Plateau:Antique Plateau</string>
+    <string>Antique Plateau:Ancient Foundry</string>
+    <string>Antique Plateau:Crumbling Loading Docks</string>
   </Locations_Found>
   <Max_Health>350</Max_Health>
   <Health_Regen_Per_Second>0</Health_Regen_Per_Second>

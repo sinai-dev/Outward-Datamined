@@ -2,7 +2,7 @@
 <DM_StatusEffect xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <PresetID>27</PresetID>
   <Identifier>Burn</Identifier>
-  <Name>Burn</Name>
+  <Name>Scorched</Name>
   <Description>Fire Damage and Resistance [E1V1]%.</Description>
   <Lifespan>240</Lifespan>
   <LengthType>Short</LengthType>
@@ -12,6 +12,7 @@
   <DisplayedInHUD>true</DisplayedInHUD>
   <IsHidden>false</IsHidden>
   <Tags>
+    <string>Scorch</string>
     <string>Hex</string>
     <string>Status Type</string>
   </Tags>

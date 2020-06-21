@@ -24,7 +24,7 @@
     </QuantityHolder>
     <QuantityHolder>
       <Name>Pearlbird (1)</Name>
-      <Quantity>11</Quantity>
+      <Quantity>12</Quantity>
     </QuantityHolder>
     <QuantityHolder>
       <Name>Bandit Lieutenant (1)</Name>
@@ -79,10 +79,6 @@
       <Quantity>1</Quantity>
     </QuantityHolder>
     <QuantityHolder>
-      <Name>Pearlbird (2)</Name>
-      <Quantity>1</Quantity>
-    </QuantityHolder>
-    <QuantityHolder>
       <Name>Pearlbird Cutthroat (1)</Name>
       <Quantity>1</Quantity>
     </QuantityHolder>
@@ -134,7 +130,7 @@
   </Loot_Containers>
   <Gatherables>
     <QuantityHolder>
-      <Name>Tree</Name>
+      <Name>Wood</Name>
       <Quantity>3</Quantity>
     </QuantityHolder>
     <QuantityHolder>

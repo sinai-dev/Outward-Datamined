@@ -27,7 +27,7 @@
   <StatsHolder xsi:type="DM_WeaponStats">
     <BaseValue>2000</BaseValue>
     <RawWeight>2</RawWeight>
-    <MaxDurability>200</MaxDurability>
+    <MaxDurability>100</MaxDurability>
     <Damage_Resistance>
       <float>0</float>
       <float>0</float>
@@ -59,10 +59,14 @@
     <Heat_Protection>0</Heat_Protection>
     <Cold_Protection>0</Cold_Protection>
     <Corruption_Protection>0</Corruption_Protection>
+    <Cooldown_Reduction>-0</Cooldown_Reduction>
+    <Hunger_Affect>0</Hunger_Affect>
+    <Thirst_Affect>0</Thirst_Affect>
+    <Fatigue_Affect>0</Fatigue_Affect>
     <AttackSpeed>1</AttackSpeed>
     <BaseDamage>
       <Damages>
-        <Damage>103</Damage>
+        <Damage>95</Damage>
         <Damage_Type>Physical</Damage_Type>
       </Damages>
     </BaseDamage>
@@ -75,7 +79,7 @@
         <Knockback>70</Knockback>
         <AttackSpeed>1</AttackSpeed>
         <Damage>
-          <float>103</float>
+          <float>95</float>
         </Damage>
       </AttackData>
       <AttackData>
@@ -83,7 +87,7 @@
         <Knockback>70</Knockback>
         <AttackSpeed>1</AttackSpeed>
         <Damage>
-          <float>103</float>
+          <float>95</float>
         </Damage>
       </AttackData>
       <AttackData>
@@ -91,7 +95,7 @@
         <Knockback>70</Knockback>
         <AttackSpeed>1</AttackSpeed>
         <Damage>
-          <float>103</float>
+          <float>95</float>
         </Damage>
       </AttackData>
       <AttackData>
@@ -99,7 +103,7 @@
         <Knockback>70</Knockback>
         <AttackSpeed>1</AttackSpeed>
         <Damage>
-          <float>103</float>
+          <float>95</float>
         </Damage>
       </AttackData>
       <AttackData>
@@ -107,7 +111,7 @@
         <Knockback>70</Knockback>
         <AttackSpeed>1</AttackSpeed>
         <Damage>
-          <float>103</float>
+          <float>95</float>
         </Damage>
       </AttackData>
     </Attacks>
@@ -137,4 +141,6 @@
   <SwingSound>Default</SwingSound>
   <SpecialIsZoom>false</SpecialIsZoom>
   <MaxProjectileShots>1</MaxProjectileShots>
+  <BaseHealthAbsorbRatio>0</BaseHealthAbsorbRatio>
+  <BaseMaxHealthAbsorbRatio>0</BaseMaxHealthAbsorbRatio>
 </DM_Weapon>

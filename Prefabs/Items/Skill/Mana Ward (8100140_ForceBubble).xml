@@ -23,6 +23,24 @@ Can be combined with other spells for powerful effects.</Description>
   <Tags />
   <EffectTransforms>
     <DM_EffectTransform>
+      <TransformName>ActivationEffects</TransformName>
+      <Effects>
+        <DM_Effect xsi:type="DM_PlaySoundEffect">
+          <Delay>0</Delay>
+          <SyncType>OwnerSync</SyncType>
+          <OverrideCategory>None</OverrideCategory>
+          <Sounds>
+            <Sounds>SFX_SKILL_Possessed</Sounds>
+          </Sounds>
+          <Follow>false</Follow>
+          <MinPitch>1</MinPitch>
+          <MaxPitch>1</MaxPitch>
+        </DM_Effect>
+      </Effects>
+      <EffectConditions />
+      <ChildEffects />
+    </DM_EffectTransform>
+    <DM_EffectTransform>
       <TransformName>Effect</TransformName>
       <Effects>
         <DM_Effect xsi:type="DM_AddStatusEffect">
@@ -144,7 +162,7 @@ Can be combined with other spells for powerful effects.</Description>
                       <OverrideCategory>None</OverrideCategory>
                       <Damage>
                         <Damages>
-                          <Damage>65</Damage>
+                          <Damage>100</Damage>
                           <Damage_Type>Frost</Damage_Type>
                         </Damages>
                       </Damage>
@@ -211,22 +229,114 @@ Can be combined with other spells for powerful effects.</Description>
       </ChildEffects>
     </DM_EffectTransform>
     <DM_EffectTransform>
-      <TransformName>ActivationEffects</TransformName>
-      <Effects>
-        <DM_Effect xsi:type="DM_PlaySoundEffect">
-          <Delay>0</Delay>
-          <SyncType>OwnerSync</SyncType>
-          <OverrideCategory>None</OverrideCategory>
-          <Sounds>
-            <Sounds>SFX_SKILL_Possessed</Sounds>
-          </Sounds>
-          <Follow>false</Follow>
-          <MinPitch>1</MinPitch>
-          <MaxPitch>1</MaxPitch>
-        </DM_Effect>
-      </Effects>
+      <TransformName>GiftOfBlood</TransformName>
+      <Effects />
       <EffectConditions />
-      <ChildEffects />
+      <ChildEffects>
+        <DM_EffectTransform>
+          <TransformName>ExtraEffects</TransformName>
+          <Effects>
+            <DM_Effect xsi:type="DM_PlaySoundEffect">
+              <Delay>0</Delay>
+              <SyncType>OwnerSync</SyncType>
+              <OverrideCategory>None</OverrideCategory>
+              <Sounds>
+                <Sounds>SFX_SKILL_BloodBullet_Preparation</Sounds>
+              </Sounds>
+              <Follow>false</Follow>
+              <MinPitch>1</MinPitch>
+              <MaxPitch>1</MaxPitch>
+            </DM_Effect>
+            <DM_Effect xsi:type="DM_AddStatusEffect">
+              <Delay>0</Delay>
+              <SyncType>OwnerSync</SyncType>
+              <OverrideCategory>None</OverrideCategory>
+              <StatusEffect>Gift of Blood</StatusEffect>
+              <ChanceToContract>100</ChanceToContract>
+            </DM_Effect>
+            <DM_Effect xsi:type="DM_ShootBlast">
+              <Delay>0</Delay>
+              <SyncType>OwnerSync</SyncType>
+              <OverrideCategory>None</OverrideCategory>
+              <CastPosition>Local</CastPosition>
+              <LocalPositionAdd>
+                <x>0</x>
+                <y>1.5</y>
+                <z>0</z>
+              </LocalPositionAdd>
+              <NoAim>false</NoAim>
+              <TargetType>Allies</TargetType>
+              <TransformName>ShooterTransform</TransformName>
+              <BaseBlast>GiftOfBloodAllyBlast</BaseBlast>
+              <Radius>4</Radius>
+              <RefreshTime>0.1</RefreshTime>
+              <BlastLifespan>0</BlastLifespan>
+              <InstantiatedAmount>1</InstantiatedAmount>
+              <Interruptible>false</Interruptible>
+              <MaxHitTargetCount>-1</MaxHitTargetCount>
+              <AffectHitTargetCenter>false</AffectHitTargetCenter>
+              <HitOnShoot>true</HitOnShoot>
+              <IgnoreShooter>true</IgnoreShooter>
+              <IgnoreStop>false</IgnoreStop>
+              <NoTargetForwardMultiplier>5</NoTargetForwardMultiplier>
+              <ParentToShootTransform>false</ParentToShootTransform>
+              <UseTargetCharacterPositionType>false</UseTargetCharacterPositionType>
+              <ImpactSoundMaterial>Fire</ImpactSoundMaterial>
+              <DontPlayHitSound>false</DontPlayHitSound>
+              <FXIsWorld>false</FXIsWorld>
+              <BlastEffects>
+                <DM_EffectTransform>
+                  <TransformName>Effects</TransformName>
+                  <Effects>
+                    <DM_Effect xsi:type="DM_AddStatusEffect">
+                      <Delay>0</Delay>
+                      <SyncType>OwnerSync</SyncType>
+                      <OverrideCategory>None</OverrideCategory>
+                      <StatusEffect>Gift of Blood Ally</StatusEffect>
+                      <ChanceToContract>100</ChanceToContract>
+                    </DM_Effect>
+                    <DM_Effect xsi:type="DM_AffectCorruption">
+                      <Delay>0</Delay>
+                      <SyncType>OwnerSync</SyncType>
+                      <OverrideCategory>None</OverrideCategory>
+                      <AffectQuantity>8</AffectQuantity>
+                      <IsRaw>true</IsRaw>
+                    </DM_Effect>
+                  </Effects>
+                  <EffectConditions />
+                  <ChildEffects />
+                </DM_EffectTransform>
+              </BlastEffects>
+            </DM_Effect>
+            <DM_Effect xsi:type="DM_AffectCorruption">
+              <Delay>0</Delay>
+              <SyncType>OwnerSync</SyncType>
+              <OverrideCategory>None</OverrideCategory>
+              <AffectQuantity>30</AffectQuantity>
+              <IsRaw>false</IsRaw>
+            </DM_Effect>
+          </Effects>
+          <EffectConditions>
+            <DM_EffectCondition xsi:type="DM_ProximityCondition">
+              <Invert>false</Invert>
+              <RequiredItems>
+                <SkillItemReq>
+                  <ItemID>8000011</ItemID>
+                  <Quantity>1</Quantity>
+                  <Consume>false</Consume>
+                </SkillItemReq>
+              </RequiredItems>
+              <MaxDistance>2.25</MaxDistance>
+              <Offset>
+                <x>0</x>
+                <y>-0.5</y>
+                <z>0</z>
+              </Offset>
+            </DM_EffectCondition>
+          </EffectConditions>
+          <ChildEffects />
+        </DM_EffectTransform>
+      </ChildEffects>
     </DM_EffectTransform>
   </EffectTransforms>
   <Cooldown>20</Cooldown>

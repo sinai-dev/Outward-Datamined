@@ -75,6 +75,18 @@
       <Name>Enmerkar Forest:Necropolis</Name>
       <Quantity>1</Quantity>
     </QuantityHolder>
+    <QuantityHolder>
+      <Name>Antique Plateau:Ruined Warehouse</Name>
+      <Quantity>2</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Antique Plateau:Destroyed Test Chambers</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Antique Plateau:Wendigo Lair</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
   </All_Locations>
   <DropTables>
     <DroptableSummary>
@@ -98,6 +110,14 @@
         <string>Face of the Ancients</string>
         <string>Ancestor’s Resting Place</string>
         <string>Necropolis</string>
+        <string>Destroyed Test Chambers</string>
+      </Locations>
+    </DroptableSummary>
+    <DroptableSummary>
+      <DropTableName>DropTable_PalladiumOreTourmaline</DropTableName>
+      <Locations>
+        <string>Ruined Warehouse</string>
+        <string>Wendigo Lair</string>
       </Locations>
     </DroptableSummary>
   </DropTables>

@@ -24,24 +24,12 @@
       <TransformName>ActivationEffects</TransformName>
       <Effects>
         <DM_Effect xsi:type="DM_PlaySoundEffect">
-          <Delay>0.5</Delay>
+          <Delay>0</Delay>
           <SyncType>OwnerSync</SyncType>
           <OverrideCategory>None</OverrideCategory>
           <Sounds>
-            <Sounds>CS_Immaculate_Attack_Grunt1</Sounds>
-            <Sounds>CS_Immaculate_Attack_Grunt2</Sounds>
-          </Sounds>
-          <Follow>false</Follow>
-          <MinPitch>1</MinPitch>
-          <MaxPitch>1</MaxPitch>
-        </DM_Effect>
-        <DM_Effect xsi:type="DM_PlaySoundEffect">
-          <Delay>1.5</Delay>
-          <SyncType>OwnerSync</SyncType>
-          <OverrideCategory>None</OverrideCategory>
-          <Sounds>
-            <Sounds>CS_Immaculate_Attack_Grunt1</Sounds>
-            <Sounds>CS_Immaculate_Attack_Grunt2</Sounds>
+            <Sounds>CS_SupremeShell_AttackSwingWhoosh_07</Sounds>
+            <Sounds>CS_SupremeShell_AttackSwingWhoosh_06</Sounds>
           </Sounds>
           <Follow>false</Follow>
           <MinPitch>1</MinPitch>
@@ -62,7 +50,7 @@
           <EffectConditions>
             <DM_EffectCondition xsi:type="DM_StatusEffectCondition">
               <Invert>false</Invert>
-              <StatusIdentifier>Rage</StatusIdentifier>
+              <StatusIdentifier>SupremeShellRage</StatusIdentifier>
             </DM_EffectCondition>
           </EffectConditions>
           <ChildEffects />

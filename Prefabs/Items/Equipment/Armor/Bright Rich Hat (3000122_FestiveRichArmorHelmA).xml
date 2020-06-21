@@ -23,6 +23,7 @@
     <string>Equipment</string>
     <string>Item</string>
     <string>DecraftHide_Small</string>
+    <string>Decraft</string>
   </Tags>
   <StatsHolder xsi:type="DM_EquipmentStats">
     <BaseValue>50</BaseValue>
@@ -59,6 +60,10 @@
     <Heat_Protection>7</Heat_Protection>
     <Cold_Protection>0</Cold_Protection>
     <Corruption_Protection>0</Corruption_Protection>
+    <Cooldown_Reduction>-0</Cooldown_Reduction>
+    <Hunger_Affect>0</Hunger_Affect>
+    <Thirst_Affect>0</Thirst_Affect>
+    <Fatigue_Affect>0</Fatigue_Affect>
   </StatsHolder>
   <EffectTransforms />
   <EquipSlot>Helmet</EquipSlot>

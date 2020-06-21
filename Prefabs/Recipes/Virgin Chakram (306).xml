@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DM_Recipe xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Name>Virgin Chakram</Name>
+  <RecipeID>306</RecipeID>
+  <UID />
+  <StationType>Survival</StationType>
+  <Ingredients>
+    <string>Virgin Chakram</string>
+    <string>Palladium Scrap</string>
+    <string>Palladium Scrap</string>
+    <string>Pure Chitin</string>
+  </Ingredients>
+  <Results>
+    <ItemQty>
+      <ItemName>Virgin Chakram</ItemName>
+      <ItemID>5110094</ItemID>
+      <Quantity>1</Quantity>
+    </ItemQty>
+  </Results>
+</DM_Recipe>

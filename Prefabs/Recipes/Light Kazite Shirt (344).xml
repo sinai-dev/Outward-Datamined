@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DM_Recipe xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Name>Light Kazite Shirt</Name>
+  <RecipeID>344</RecipeID>
+  <UID />
+  <StationType>Survival</StationType>
+  <Ingredients>
+    <string>Kazite Light Armor</string>
+  </Ingredients>
+  <Results>
+    <ItemQty>
+      <ItemName>Light Kazite Shirt</ItemName>
+      <ItemID>3100246</ItemID>
+      <Quantity>1</Quantity>
+    </ItemQty>
+    <ItemQty>
+      <ItemName>Linen Cloth</ItemName>
+      <ItemID>6500090</ItemID>
+      <Quantity>1</Quantity>
+    </ItemQty>
+  </Results>
+</DM_Recipe>

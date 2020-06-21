@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DM_EnchantmentRecipe xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <RecipeID>51</RecipeID>
+  <Name>Twang</Name>
+  <CompatibleEquipment>
+    <CompatibleEquipments>
+      <IngredientData>
+        <SpecificItemID>2200001</SpecificItemID>
+        <Type>Specific</Type>
+      </IngredientData>
+    </CompatibleEquipments>
+    <EquipmentTag>Bow</EquipmentTag>
+  </CompatibleEquipment>
+  <PillarDatas>
+    <PillarData>
+      <CompatibleIngredients>
+        <IngredientData>
+          <SpecificItemID>6000210</SpecificItemID>
+          <Type>Specific</Type>
+        </IngredientData>
+      </CompatibleIngredients>
+      <Direction>East</Direction>
+      <IsFar>false</IsFar>
+    </PillarData>
+    <PillarData>
+      <CompatibleIngredients>
+        <IngredientData>
+          <SpecificItemID>6000210</SpecificItemID>
+          <Type>Specific</Type>
+        </IngredientData>
+      </CompatibleIngredients>
+      <Direction>South</Direction>
+      <IsFar>false</IsFar>
+    </PillarData>
+    <PillarData>
+      <CompatibleIngredients>
+        <IngredientData>
+          <SpecificItemID>6000210</SpecificItemID>
+          <Type>Specific</Type>
+        </IngredientData>
+      </CompatibleIngredients>
+      <Direction>West</Direction>
+      <IsFar>true</IsFar>
+    </PillarData>
+  </PillarDatas>
+  <Weather />
+  <TimeOfDay />
+  <Temperatures />
+  <WindAltarActivated>false</WindAltarActivated>
+  <Regions />
+  <Result>
+    <Name>Twang</Name>
+    <Description />
+    <Effects>
+      <DM_Effect xsi:type="DM_AddStatusEffectBuildUp">
+        <Delay>0</Delay>
+        <SyncType>OwnerSync</SyncType>
+        <OverrideCategory>None</OverrideCategory>
+        <StatusEffect>Sapped</StatusEffect>
+        <Buildup>30</Buildup>
+      </DM_Effect>
+    </Effects>
+    <AdditionalDamages />
+    <StatModifications />
+    <DamageBonus>
+      <Damages>
+        <Damage>10</Damage>
+        <Damage_Type>Electric</Damage_Type>
+      </Damages>
+    </DamageBonus>
+    <DamageModifier />
+    <ElementalResistances />
+    <HealthAbsorbRatio>0</HealthAbsorbRatio>
+    <ManaAbsorbRatio>0</ManaAbsorbRatio>
+    <StaminaAbsorbRatio>0</StaminaAbsorbRatio>
+    <Indescructible>false</Indescructible>
+    <TrackDamageRatio>-1</TrackDamageRatio>
+  </Result>
+</DM_EnchantmentRecipe>

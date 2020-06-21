@@ -4,7 +4,7 @@
   <saveDir>/Equipment/Weapon/ProjectileWeapon</saveDir>
   <ItemID>5110210</ItemID>
   <Name>Wolf Pistol</Name>
-  <Description />
+  <Description>Inflicts Cripple. Needs the Fire/Reload skill to shoot a bullet.</Description>
   <LegacyItemID>-1</LegacyItemID>
   <IsPickable>true</IsPickable>
   <IsUsable>false</IsUsable>
@@ -25,9 +25,9 @@
     <string>Weapon</string>
   </Tags>
   <StatsHolder xsi:type="DM_WeaponStats">
-    <BaseValue>400</BaseValue>
+    <BaseValue>800</BaseValue>
     <RawWeight>2</RawWeight>
-    <MaxDurability>150</MaxDurability>
+    <MaxDurability>275</MaxDurability>
     <Damage_Resistance>
       <float>0</float>
       <float>0</float>
@@ -59,69 +59,79 @@
     <Heat_Protection>0</Heat_Protection>
     <Cold_Protection>0</Cold_Protection>
     <Corruption_Protection>0</Corruption_Protection>
+    <Cooldown_Reduction>-0</Cooldown_Reduction>
+    <Hunger_Affect>1</Hunger_Affect>
+    <Thirst_Affect>1</Thirst_Affect>
+    <Fatigue_Affect>1</Fatigue_Affect>
     <AttackSpeed>1</AttackSpeed>
     <BaseDamage>
       <Damages>
-        <Damage>60.35</Damage>
+        <Damage>87</Damage>
         <Damage_Type>Physical</Damage_Type>
       </Damages>
-      <Damages>
-        <Damage>24.65</Damage>
-        <Damage_Type>Fire</Damage_Type>
-      </Damages>
     </BaseDamage>
-    <Impact>60</Impact>
+    <Impact>53</Impact>
     <StamCost>0</StamCost>
     <AutoGenerateAttackData>false</AutoGenerateAttackData>
     <Attacks>
       <AttackData>
         <StamCost>0</StamCost>
-        <Knockback>60</Knockback>
+        <Knockback>53</Knockback>
         <AttackSpeed>1</AttackSpeed>
         <Damage>
-          <float>60.35</float>
-          <float>24.65</float>
+          <float>87</float>
         </Damage>
       </AttackData>
       <AttackData>
         <StamCost>0</StamCost>
-        <Knockback>60</Knockback>
+        <Knockback>53</Knockback>
         <AttackSpeed>1</AttackSpeed>
         <Damage>
-          <float>60.35</float>
-          <float>24.65</float>
+          <float>87</float>
         </Damage>
       </AttackData>
       <AttackData>
         <StamCost>0</StamCost>
-        <Knockback>60</Knockback>
+        <Knockback>53</Knockback>
         <AttackSpeed>1</AttackSpeed>
         <Damage>
-          <float>60.35</float>
-          <float>24.65</float>
+          <float>87</float>
         </Damage>
       </AttackData>
       <AttackData>
         <StamCost>0</StamCost>
-        <Knockback>60</Knockback>
+        <Knockback>53</Knockback>
         <AttackSpeed>1</AttackSpeed>
         <Damage>
-          <float>60.35</float>
-          <float>24.65</float>
+          <float>87</float>
         </Damage>
       </AttackData>
       <AttackData>
         <StamCost>0</StamCost>
-        <Knockback>60</Knockback>
+        <Knockback>53</Knockback>
         <AttackSpeed>1</AttackSpeed>
         <Damage>
-          <float>60.35</float>
-          <float>24.65</float>
+          <float>87</float>
         </Damage>
       </AttackData>
     </Attacks>
   </StatsHolder>
-  <EffectTransforms />
+  <EffectTransforms>
+    <DM_EffectTransform>
+      <TransformName>HitEffects</TransformName>
+      <Effects>
+        <DM_Effect xsi:type="DM_AddStatusEffectBuildUp">
+          <Delay>0</Delay>
+          <SyncType>OwnerSync</SyncType>
+          <OverrideCategory>None</OverrideCategory>
+          <StatusEffect>Cripple</StatusEffect>
+          <Buildup>60</Buildup>
+        </DM_Effect>
+      </Effects>
+      <EffectConditions />
+      <ChildEffects />
+    </DM_EffectTransform>
+  </EffectTransforms>
   <EquipSlot>LeftHand</EquipSlot>
   <TwoHandType>None</TwoHandType>
   <IKType>None</IKType>
@@ -131,4 +141,6 @@
   <SwingSound>Default</SwingSound>
   <SpecialIsZoom>false</SpecialIsZoom>
   <MaxProjectileShots>1</MaxProjectileShots>
+  <BaseHealthAbsorbRatio>0</BaseHealthAbsorbRatio>
+  <BaseMaxHealthAbsorbRatio>0</BaseMaxHealthAbsorbRatio>
 </DM_Weapon>

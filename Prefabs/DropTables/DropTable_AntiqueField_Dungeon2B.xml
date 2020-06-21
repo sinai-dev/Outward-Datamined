@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DM_DropTable xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Name>DropTable_AntiqueField_Dungeon2B</Name>
+  <Guaranteed_Drops />
+  <Random_Tables>
+    <DropGeneratorHolder>
+      <MinNumberOfDrops>2</MinNumberOfDrops>
+      <MaxNumberOfDrops>2</MaxNumberOfDrops>
+      <MaxDiceValue>50</MaxDiceValue>
+      <EmptyDrop>0</EmptyDrop>
+      <RegenTime>-1</RegenTime>
+      <ChanceReduction>0</ChanceReduction>
+      <ChanceRegenQty>10</ChanceRegenQty>
+      <Item_Drops>
+        <DropTableChanceEntry>
+          <Item_Name>Dreamer’s Root</Item_Name>
+          <Item_ID>4000360</Item_ID>
+          <Min_Quantity>3</Min_Quantity>
+          <Max_Quantity>4</Max_Quantity>
+          <Drop_Chance>20</Drop_Chance>
+          <Dice_Range>9</Dice_Range>
+          <ChanceReduction>0</ChanceReduction>
+          <ChanceRegenDelay>-1</ChanceRegenDelay>
+          <ChanceRegenQty>0</ChanceRegenQty>
+        </DropTableChanceEntry>
+        <DropTableChanceEntry>
+          <Item_Name>Dark Stone</Item_Name>
+          <Item_ID>6500031</Item_ID>
+          <Min_Quantity>2</Min_Quantity>
+          <Max_Quantity>3</Max_Quantity>
+          <Drop_Chance>20</Drop_Chance>
+          <Dice_Range>9</Dice_Range>
+          <ChanceReduction>0</ChanceReduction>
+          <ChanceRegenDelay>-1</ChanceRegenDelay>
+          <ChanceRegenQty>0</ChanceRegenQty>
+        </DropTableChanceEntry>
+        <DropTableChanceEntry>
+          <Item_Name>Pure Chitin</Item_Name>
+          <Item_ID>6600122</Item_ID>
+          <Min_Quantity>1</Min_Quantity>
+          <Max_Quantity>2</Max_Quantity>
+          <Drop_Chance>20</Drop_Chance>
+          <Dice_Range>9</Dice_Range>
+          <ChanceReduction>0</ChanceReduction>
+          <ChanceRegenDelay>-1</ChanceRegenDelay>
+          <ChanceRegenQty>0</ChanceRegenQty>
+        </DropTableChanceEntry>
+        <DropTableChanceEntry>
+          <Item_Name>Purifying Quartz</Item_Name>
+          <Item_ID>6000170</Item_ID>
+          <Min_Quantity>1</Min_Quantity>
+          <Max_Quantity>2</Max_Quantity>
+          <Drop_Chance>20</Drop_Chance>
+          <Dice_Range>9</Dice_Range>
+          <ChanceReduction>0</ChanceReduction>
+          <ChanceRegenDelay>-1</ChanceRegenDelay>
+          <ChanceRegenQty>0</ChanceRegenQty>
+        </DropTableChanceEntry>
+        <DropTableChanceEntry>
+          <Item_Name>Shield Golem Scraps</Item_Name>
+          <Item_ID>6400141</Item_ID>
+          <Min_Quantity>1</Min_Quantity>
+          <Max_Quantity>2</Max_Quantity>
+          <Drop_Chance>20</Drop_Chance>
+          <Dice_Range>9</Dice_Range>
+          <ChanceReduction>0</ChanceReduction>
+          <ChanceRegenDelay>-1</ChanceRegenDelay>
+          <ChanceRegenQty>0</ChanceRegenQty>
+        </DropTableChanceEntry>
+      </Item_Drops>
+    </DropGeneratorHolder>
+  </Random_Tables>
+</DM_DropTable>

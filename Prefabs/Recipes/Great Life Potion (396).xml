@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DM_Recipe xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Name>Great Life Potion</Name>
+  <RecipeID>396</RecipeID>
+  <UID />
+  <StationType>Survival</StationType>
+  <Ingredients>
+    <string>DecraftGreaterHealth_Large</string>
+  </Ingredients>
+  <Results>
+    <ItemQty>
+      <ItemName>Great Life Potion</ItemName>
+      <ItemID>4300240</ItemID>
+      <Quantity>2</Quantity>
+    </ItemQty>
+  </Results>
+</DM_Recipe>

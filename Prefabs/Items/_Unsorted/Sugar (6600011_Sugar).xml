@@ -4,7 +4,7 @@
   <saveDir>/_Unsorted</saveDir>
   <ItemID>6600011</ItemID>
   <Name>Sugar</Name>
-  <Description />
+  <Description>A sweet powder used in desserts.</Description>
   <LegacyItemID>-1</LegacyItemID>
   <IsPickable>true</IsPickable>
   <IsUsable>false</IsUsable>
@@ -25,7 +25,7 @@
   </Tags>
   <StatsHolder>
     <BaseValue>2</BaseValue>
-    <RawWeight>0.2</RawWeight>
+    <RawWeight>0.1</RawWeight>
     <MaxDurability>-1</MaxDurability>
   </StatsHolder>
   <EffectTransforms />

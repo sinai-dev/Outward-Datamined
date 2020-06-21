@@ -68,12 +68,19 @@
                     </Damages>
                     <Damages>
                       <Damage>5</Damage>
-                      <Damage_Type>Decay</Damage_Type>
+                      <Damage_Type>Raw</Damage_Type>
                     </Damages>
                   </Damage>
                   <Damages_AI />
                   <Knockback>100</Knockback>
                   <HitInventory>true</HitInventory>
+                </DM_Effect>
+                <DM_Effect xsi:type="DM_AffectCorruption">
+                  <Delay>0</Delay>
+                  <SyncType>OwnerSync</SyncType>
+                  <OverrideCategory>None</OverrideCategory>
+                  <AffectQuantity>75</AffectQuantity>
+                  <IsRaw>false</IsRaw>
                 </DM_Effect>
               </Effects>
               <EffectConditions />
@@ -93,7 +100,7 @@
           <SyncType>OwnerSync</SyncType>
           <OverrideCategory>None</OverrideCategory>
           <Sounds>
-            <Sounds>CS_Immaculate_SpecialAttack1_Grunt3</Sounds>
+            <Sounds>CS_SupremeShell_SkillLaser_Shot_02</Sounds>
           </Sounds>
           <Follow>false</Follow>
           <MinPitch>1</MinPitch>
@@ -114,7 +121,7 @@
           <EffectConditions>
             <DM_EffectCondition xsi:type="DM_StatusEffectCondition">
               <Invert>false</Invert>
-              <StatusIdentifier>Rage</StatusIdentifier>
+              <StatusIdentifier>EliteSupremeShellRage</StatusIdentifier>
             </DM_EffectCondition>
           </EffectConditions>
           <ChildEffects />

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DM_Recipe xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Name>Boozu Hide Backpack</Name>
+  <RecipeID>346</RecipeID>
+  <UID />
+  <StationType>Survival</StationType>
+  <Ingredients>
+    <string>Scaled Satchel</string>
+    <string>Boozu’s Hide</string>
+    <string>Boozu’s Hide</string>
+    <string>Boozu’s Hide</string>
+  </Ingredients>
+  <Results>
+    <ItemQty>
+      <ItemName>Boozu Hide Backpack</ItemName>
+      <ItemID>5300190</ItemID>
+      <Quantity>1</Quantity>
+    </ItemQty>
+  </Results>
+</DM_Recipe>

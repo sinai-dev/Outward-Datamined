@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <DM_Enemy xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Name>Sword Golem</Name>
-  <GameObject_Name>TsarGolem_A</GameObject_Name>
+  <GameObject_Name>Golem_KeyB</GameObject_Name>
   <Unique_ID>3</Unique_ID>
   <Locations_Found>
-    <string>Abrassar:Abrassar</string>
+    <string>Antique Plateau:Crumbling Loading Docks</string>
   </Locations_Found>
   <Max_Health>400</Max_Health>
   <Health_Regen_Per_Second>0</Health_Regen_Per_Second>
@@ -52,7 +52,14 @@
   <Skill_Knowledge />
   <Faction>Mercs</Faction>
   <Allied_To_Same_Faction>true</Allied_To_Same_Faction>
-  <Guaranteed_Drops />
+  <Guaranteed_Drops>
+    <DropTableEntry>
+      <Item_Name>Loading Docks Key</Item_Name>
+      <Item_ID>5600111</Item_ID>
+      <Min_Quantity>1</Min_Quantity>
+      <Max_Quantity>1</Max_Quantity>
+    </DropTableEntry>
+  </Guaranteed_Drops>
   <DropTable_Names>
     <string>DropTable_GolemGalvanic</string>
   </DropTable_Names>

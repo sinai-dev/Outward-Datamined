@@ -1,4 +1,4 @@
-Tree
+Wood
 Junk Pile
 Hollowed Trunk
 Seaweed
@@ -48,3 +48,13 @@ Fishing Spot (DropTable_FishingSpotEmercarA)
 Fishing Spot (DropTable_FishingSpotEmercarB)
 Petrified Wood
 Yellow Copal
+Crawlberry
+Purpkin
+Wheat
+Iron vein (Tourmaline)
+Dreamer’s Root
+Fishing Spot (DropTable_FishingSpotAntiquePlateau_MagicalLake)
+Veaber Eggs
+Fishing Spot (DropTable_FishingSpotAntiquePlateau)
+Rich Iron vein (Tourmaline)
+Nightmare Mushrooms

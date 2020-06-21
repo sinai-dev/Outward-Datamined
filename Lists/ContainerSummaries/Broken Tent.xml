@@ -15,6 +15,10 @@
       <Name>Hallowed Marsh:Hallowed Marsh</Name>
       <Quantity>2</Quantity>
     </QuantityHolder>
+    <QuantityHolder>
+      <Name>Antique Plateau:Antique Plateau</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
   </All_Locations>
   <DropTables>
     <DroptableSummary>
@@ -22,6 +26,7 @@
       <Locations>
         <string>Chersonese</string>
         <string>Corrupted Tombs</string>
+        <string>Antique Plateau</string>
       </Locations>
     </DroptableSummary>
     <DroptableSummary>
@@ -29,6 +34,7 @@
       <Locations>
         <string>Chersonese</string>
         <string>Corrupted Tombs</string>
+        <string>Antique Plateau</string>
       </Locations>
     </DroptableSummary>
     <DroptableSummary>
@@ -36,12 +42,14 @@
       <Locations>
         <string>Chersonese</string>
         <string>Corrupted Tombs</string>
+        <string>Antique Plateau</string>
       </Locations>
     </DroptableSummary>
     <DroptableSummary>
       <DropTableName>DropTable_Neutral_StandardRecipe_Low_1</DropTableName>
       <Locations>
         <string>Chersonese</string>
+        <string>Antique Plateau</string>
       </Locations>
     </DroptableSummary>
     <DroptableSummary>

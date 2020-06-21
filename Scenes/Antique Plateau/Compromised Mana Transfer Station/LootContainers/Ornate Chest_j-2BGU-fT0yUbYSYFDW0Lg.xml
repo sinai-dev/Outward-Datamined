@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DM_LootContainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Name>Ornate Chest</Name>
+  <ItemID>1000040</ItemID>
+  <UID>j-2BGU-fT0yUbYSYFDW0Lg</UID>
+  <DropTables>
+    <string>DropTable_AntiqueField_Equipment_HighDungeon_1</string>
+    <string>DropTable_AntiqueField_Equipment_High_1</string>
+    <string>DropTable_Neutral_Valuable_High_1</string>
+    <string>DropTable_Neutral_Consumable_High_1</string>
+    <string>DropTable_Neutral_Magic_High_1</string>
+    <string>DropTable_Neutral_Cloth_Rich_1</string>
+    <string>DropTable_Neutral_Recipe_Dungeon_1</string>
+    <string>DropTable_AntiqueField_Recipe_Enchantment_1</string>
+  </DropTables>
+</DM_LootContainer>

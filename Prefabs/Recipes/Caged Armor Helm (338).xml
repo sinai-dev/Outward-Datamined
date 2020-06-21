@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DM_Recipe xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Name>Caged Armor Helm</Name>
+  <RecipeID>338</RecipeID>
+  <UID />
+  <StationType>Survival</StationType>
+  <Ingredients>
+    <string>Pearlbird’s Courage</string>
+    <string>Leyline Figment</string>
+    <string>Vendavel's Hospitality</string>
+    <string>Enchanted Mask</string>
+  </Ingredients>
+  <Results>
+    <ItemQty>
+      <ItemName>Caged Armor Helm</ItemName>
+      <ItemID>3100271</ItemID>
+      <Quantity>1</Quantity>
+    </ItemQty>
+  </Results>
+</DM_Recipe>

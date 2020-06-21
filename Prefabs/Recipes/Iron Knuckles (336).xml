@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DM_Recipe xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Name>Iron Knuckles</Name>
+  <RecipeID>336</RecipeID>
+  <UID />
+  <StationType>Survival</StationType>
+  <Ingredients>
+    <string>Iron Wristband</string>
+    <string>Iron Wristband</string>
+    <string>Iron Scrap</string>
+    <string>Boozu’s Hide</string>
+  </Ingredients>
+  <Results>
+    <ItemQty>
+      <ItemName>Iron Knuckles</ItemName>
+      <ItemID>2160000</ItemID>
+      <Quantity>1</Quantity>
+    </ItemQty>
+  </Results>
+</DM_Recipe>

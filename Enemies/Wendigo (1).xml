@@ -7,6 +7,7 @@
     <string>Chersonese:Chersonese</string>
     <string>Chersonese:Corrupted Tombs</string>
     <string>Hallowed Marsh:Abandoned Shed</string>
+    <string>Antique Plateau:Wendigo Lair</string>
   </Locations_Found>
   <Max_Health>450</Max_Health>
   <Health_Regen_Per_Second>1.5</Health_Regen_Per_Second>

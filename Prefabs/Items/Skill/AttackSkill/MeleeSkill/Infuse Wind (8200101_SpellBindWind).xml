@@ -48,15 +48,7 @@ Your stamina burn increases more quickly, however.</Description>
           <TransformName>WindAltarAtivatedInRegion</TransformName>
           <Effects />
           <EffectConditions>
-            <DM_EffectCondition xsi:type="DM_QuestEventAreaCondition">
-              <Invert>false</Invert>
-              <EventUIDs>
-                <string>WBC6bMdYfU-Thg0SFDsESA</string>
-                <string>9MwTJ8U_LkGxh4ac06-Y-Q</string>
-                <string>XeAaNghBlE-RjQhbc2obKA</string>
-                <string>qjv74cVfy0GiHM-dT3arvw</string>
-              </EventUIDs>
-            </DM_EffectCondition>
+            <DM_EffectCondition xsi:nil="true" />
           </EffectConditions>
           <ChildEffects />
         </DM_EffectTransform>
@@ -110,6 +102,7 @@ Your stamina burn increases more quickly, however.</Description>
     <WeaponType>Axe_2H</WeaponType>
     <WeaponType>Mace_2H</WeaponType>
     <WeaponType>Spear_2H</WeaponType>
+    <WeaponType>FistW_2H</WeaponType>
   </RequiredWeaponTypes>
   <RequiredWeaponTags />
   <RequireImbue>false</RequireImbue>

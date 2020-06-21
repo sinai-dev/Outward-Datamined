@@ -27,6 +27,10 @@
       <Name>Enmerkar Forest:Enmerkar Forest</Name>
       <Quantity>5</Quantity>
     </QuantityHolder>
+    <QuantityHolder>
+      <Name>Antique Plateau:Antique Plateau</Name>
+      <Quantity>6</Quantity>
+    </QuantityHolder>
   </All_Locations>
   <DropTables>
     <DroptableSummary>
@@ -38,6 +42,7 @@
         <string>Giants’ Village</string>
         <string>Abrassar</string>
         <string>Enmerkar Forest</string>
+        <string>Antique Plateau</string>
       </Locations>
     </DroptableSummary>
   </DropTables>

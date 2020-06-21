@@ -47,6 +47,26 @@
       <Name>Enmerkar Forest:Damp Hunter's Cabin</Name>
       <Quantity>1</Quantity>
     </QuantityHolder>
+    <QuantityHolder>
+      <Name>Antique Plateau:Ruined Warehouse</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Antique Plateau:Lost Golem Manufacturing Facility</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Antique Plateau:Crumbling Loading Docks</Name>
+      <Quantity>2</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Antique Plateau:Destroyed Test Chambers</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Antique Plateau:Compromised Mana Transfer Station</Name>
+      <Quantity>3</Quantity>
+    </QuantityHolder>
   </All_Locations>
   <DropTables>
     <DroptableSummary>
@@ -111,6 +131,8 @@
         <string>Jade Quarry</string>
         <string>Face of the Ancients</string>
         <string>Damp Hunter's Cabin</string>
+        <string>Crumbling Loading Docks</string>
+        <string>Compromised Mana Transfer Station</string>
       </Locations>
     </DroptableSummary>
     <DroptableSummary>
@@ -125,6 +147,8 @@
       <DropTableName>DropTable_Neutral_StandardRecipe_High_1</DropTableName>
       <Locations>
         <string>Jade Quarry</string>
+        <string>Ruined Warehouse</string>
+        <string>Lost Golem Manufacturing Facility</string>
       </Locations>
     </DroptableSummary>
     <DroptableSummary>
@@ -138,6 +162,7 @@
       <DropTableName>DropTable_Neutral_Alchemy_Low_2</DropTableName>
       <Locations>
         <string>Under Island</string>
+        <string>Compromised Mana Transfer Station</string>
       </Locations>
     </DroptableSummary>
     <DroptableSummary>
@@ -192,6 +217,65 @@
       <DropTableName>DropTable_Enmerkar_Recipe_Basic_1</DropTableName>
       <Locations>
         <string>Face of the Ancients</string>
+      </Locations>
+    </DroptableSummary>
+    <DroptableSummary>
+      <DropTableName>DropTable_AntiqueField_Equipment_High_1</DropTableName>
+      <Locations>
+        <string>Ruined Warehouse</string>
+        <string>Crumbling Loading Docks</string>
+      </Locations>
+    </DroptableSummary>
+    <DroptableSummary>
+      <DropTableName>DropTable_AntiqueField_Food_1</DropTableName>
+      <Locations>
+        <string>Ruined Warehouse</string>
+        <string>Lost Golem Manufacturing Facility</string>
+        <string>Destroyed Test Chambers</string>
+        <string>Compromised Mana Transfer Station</string>
+      </Locations>
+    </DroptableSummary>
+    <DroptableSummary>
+      <DropTableName>DropTable_AntiqueField_Recipe_Enchantment_1</DropTableName>
+      <Locations>
+        <string>Ruined Warehouse</string>
+        <string>Lost Golem Manufacturing Facility</string>
+        <string>Crumbling Loading Docks</string>
+        <string>Destroyed Test Chambers</string>
+        <string>Compromised Mana Transfer Station</string>
+      </Locations>
+    </DroptableSummary>
+    <DroptableSummary>
+      <DropTableName>DropTable_Neutral_Consumable_High_1</DropTableName>
+      <Locations>
+        <string>Lost Golem Manufacturing Facility</string>
+        <string>Compromised Mana Transfer Station</string>
+      </Locations>
+    </DroptableSummary>
+    <DroptableSummary>
+      <DropTableName>DropTable_AntiqueField_Consumable_1</DropTableName>
+      <Locations>
+        <string>Lost Golem Manufacturing Facility</string>
+      </Locations>
+    </DroptableSummary>
+    <DroptableSummary>
+      <DropTableName>DropTable_AntiqueField_Recipe_Weapon_1</DropTableName>
+      <Locations>
+        <string>Crumbling Loading Docks</string>
+        <string>Compromised Mana Transfer Station</string>
+      </Locations>
+    </DroptableSummary>
+    <DroptableSummary>
+      <DropTableName>DropTable_AntiqueField_Equipment_Medium_1</DropTableName>
+      <Locations>
+        <string>Destroyed Test Chambers</string>
+      </Locations>
+    </DroptableSummary>
+    <DroptableSummary>
+      <DropTableName>DropTable_AntiqueField_Recipe_Basic_1</DropTableName>
+      <Locations>
+        <string>Destroyed Test Chambers</string>
+        <string>Compromised Mana Transfer Station</string>
       </Locations>
     </DroptableSummary>
   </DropTables>

@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SceneSummary xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SceneName>Destroyed Test Chambers</SceneName>
+  <Enemies>
+    <QuantityHolder>
+      <Name>Forge Golem (1)</Name>
+      <Quantity>4</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Mana Troglodyte (1)</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Molten Forge Golem (2)</Name>
+      <Quantity>3</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Troglodyte Grenadier (1)</Name>
+      <Quantity>4</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Sword Golem (4)</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Armored Troglodyte (1)</Name>
+      <Quantity>4</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Troglodyte Knight (1)</Name>
+      <Quantity>3</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Galvanic Golem (2)</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Sword Golem (1)</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Galvanic Golem (1)</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Arcane Elemental (12)</Name>
+      <Quantity>5</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Arcane Elemental (13)</Name>
+      <Quantity>3</Quantity>
+    </QuantityHolder>
+  </Enemies>
+  <Merchants>
+    <string>Pholiota (gx9KUeKmGkWdRq6iBN--5A)</string>
+    <string>Pholiota (IVj5NRk4ekS12qLt6JXePQ)</string>
+  </Merchants>
+  <Loot_Containers>
+    <QuantityHolder>
+      <Name>Scavenger’s Corpse</Name>
+      <Quantity>2</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Worker’s Corpse</Name>
+      <Quantity>2</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Ornate Chest</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Corpse</Name>
+      <Quantity>2</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Adventurer’s Corpse</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Knight’s Corpse</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Chest</Name>
+      <Quantity>3</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Junk Pile</Name>
+      <Quantity>5</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Trog Chest</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+  </Loot_Containers>
+  <Gatherables>
+    <QuantityHolder>
+      <Name>Iron vein (Tourmaline)</Name>
+      <Quantity>2</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Green Mushroom</Name>
+      <Quantity>5</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Blood Mushroom</Name>
+      <Quantity>3</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Rich Iron vein</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Palladium vein</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+  </Gatherables>
+  <Item_Spawns>
+    <DM_ItemSpawn>
+      <Name>Train Key A</Name>
+      <Item_ID>5600121</Item_ID>
+      <Quantity>1</Quantity>
+      <positions>
+        <Vector3>
+          <x>-10.919</x>
+          <y>110</y>
+          <z>90.394</z>
+        </Vector3>
+      </positions>
+    </DM_ItemSpawn>
+  </Item_Spawns>
+  <UniqueContainerList>
+    <string>Scavenger’s Corpse_urU7cfFYtE2AkMWKUt489g</string>
+    <string>Worker’s Corpse_usPJRkgYWk6BBjZDoSZszg</string>
+    <string>Ornate Chest_IA9X2W40Lkac92TvVP6qNw</string>
+    <string>Corpse_GDHMU1V7zUuUj4odX3-d-g</string>
+    <string>Adventurer’s Corpse_fDyIl0escUWPpdEK4SwNOw</string>
+    <string>Knight’s Corpse_JfpAWJrG80S1g4COGPtCAA</string>
+    <string>Chest_ctuvIewZc0GNUXQiNzwJQA</string>
+    <string>Junk Pile__6DC-j1AXES-3nvQZKMeTw</string>
+    <string>Worker’s Corpse_EOYLX5UfIky0gFqXsOKHDw</string>
+    <string>Scavenger’s Corpse_VDJ_wYxLMU-Uu4eo671ZUQ</string>
+    <string>Junk Pile_9VrTs1l8uUud_jJqdX4FKA</string>
+    <string>Corpse_fTBx36cnKU6P6w0nxfVy0Q</string>
+    <string>Junk Pile_qzQ1Ij6sM06nD1TSTRa2rg</string>
+    <string>Junk Pile_med5pl-13EOdKvLLrYpIKw</string>
+    <string>Trog Chest_UjbO8q8xl0WOU7fsrSHUcQ</string>
+    <string>Junk Pile_qRAnAAEVJEmrtxsS-nkE9Q</string>
+    <string>Chest_YzAvAnWkrUGpSp5Hl92noQ</string>
+    <string>Chest_VnfRpPr9ekaFhTp-gkOQCg</string>
+  </UniqueContainerList>
+</SceneSummary>

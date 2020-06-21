@@ -15,6 +15,10 @@
       <Name>Chersonese:Starfish Cave</Name>
       <Quantity>3</Quantity>
     </QuantityHolder>
+    <QuantityHolder>
+      <Name>Antique Plateau:Antique Plateau</Name>
+      <Quantity>19</Quantity>
+    </QuantityHolder>
   </All_Locations>
   <DropTables>
     <DroptableSummary>
@@ -23,6 +27,7 @@
         <string>Shipwreck Beach</string>
         <string>Chersonese</string>
         <string>Starfish Cave</string>
+        <string>Antique Plateau</string>
       </Locations>
     </DroptableSummary>
   </DropTables>

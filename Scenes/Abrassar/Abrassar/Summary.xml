@@ -60,7 +60,7 @@
     </QuantityHolder>
     <QuantityHolder>
       <Name>Sword Golem (1)</Name>
-      <Quantity>2</Quantity>
+      <Quantity>5</Quantity>
     </QuantityHolder>
     <QuantityHolder>
       <Name>Crescent Shark (1)</Name>
@@ -69,10 +69,6 @@
     <QuantityHolder>
       <Name>Desert Bandit (6)</Name>
       <Quantity>7</Quantity>
-    </QuantityHolder>
-    <QuantityHolder>
-      <Name>Sword Golem (2)</Name>
-      <Quantity>1</Quantity>
     </QuantityHolder>
     <QuantityHolder>
       <Name>Manticore (1)</Name>
@@ -97,14 +93,6 @@
     <QuantityHolder>
       <Name>Illuminator Horror (1)</Name>
       <Quantity>2</Quantity>
-    </QuantityHolder>
-    <QuantityHolder>
-      <Name>Sword Golem (3)</Name>
-      <Quantity>1</Quantity>
-    </QuantityHolder>
-    <QuantityHolder>
-      <Name>Sword Golem (4)</Name>
-      <Quantity>1</Quantity>
     </QuantityHolder>
     <QuantityHolder>
       <Name>Luke the Pearlescent (1)</Name>
@@ -144,7 +132,7 @@
   </Loot_Containers>
   <Gatherables>
     <QuantityHolder>
-      <Name>Tree</Name>
+      <Name>Wood</Name>
       <Quantity>3</Quantity>
     </QuantityHolder>
     <QuantityHolder>

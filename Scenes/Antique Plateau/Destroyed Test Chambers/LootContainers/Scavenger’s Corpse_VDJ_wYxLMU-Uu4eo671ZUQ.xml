@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DM_LootContainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Name>Scavenger’s Corpse</Name>
+  <ItemID>1000098</ItemID>
+  <UID>VDJ_wYxLMU-Uu4eo671ZUQ</UID>
+  <DropTables>
+    <string>DropTable_Neutral_Food_1</string>
+    <string>DropTable_Neutral_Valuable_High_1</string>
+    <string>DropTable_AntiqueField_Recipe_Basic_1</string>
+    <string>DropTable_AntiqueField_Recipe_Enchantment_1</string>
+  </DropTables>
+</DM_LootContainer>

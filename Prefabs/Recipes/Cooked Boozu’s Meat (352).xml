@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DM_Recipe xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Name>Cooked Boozu’s Meat</Name>
+  <RecipeID>352</RecipeID>
+  <UID />
+  <StationType>Cooking</StationType>
+  <Ingredients>
+    <string>Boozu’s Meat</string>
+  </Ingredients>
+  <Results>
+    <ItemQty>
+      <ItemName>Cooked Boozu’s Meat</ItemName>
+      <ItemID>4100620</ItemID>
+      <Quantity>1</Quantity>
+    </ItemQty>
+  </Results>
+</DM_Recipe>

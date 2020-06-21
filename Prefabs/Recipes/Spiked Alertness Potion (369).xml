@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DM_Recipe xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Name>Spiked Alertness Potion</Name>
+  <RecipeID>369</RecipeID>
+  <UID />
+  <StationType>Alchemy</StationType>
+  <Ingredients>
+    <string>Alertness Potion</string>
+    <string>Stingleaf</string>
+  </Ingredients>
+  <Results>
+    <ItemQty>
+      <ItemName>Spiked Alertness Potion</ItemName>
+      <ItemID>4300360</ItemID>
+      <Quantity>1</Quantity>
+    </ItemQty>
+  </Results>
+</DM_Recipe>

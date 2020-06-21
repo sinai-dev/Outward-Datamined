@@ -10,6 +10,8 @@
     <string>Chersonese:Heroic Kingdom’s Conflux Path</string>
     <string>Hallowed Marsh:Jade Quarry</string>
     <string>Hallowed Marsh:Under Island</string>
+    <string>Antique Plateau:Abandoned Living Quarters</string>
+    <string>Antique Plateau:Destroyed Test Chambers</string>
   </Locations_Found>
   <Max_Health>200</Max_Health>
   <Health_Regen_Per_Second>0</Health_Regen_Per_Second>

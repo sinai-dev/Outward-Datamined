@@ -34,6 +34,8 @@
 1000101	Looter’s Corpse	1000101_ChestHumanCorpseLooterB	/ItemContainer/SelfFilledItemContainer/TreasureChest
 1000110	Supply Cache	1000110_ChestWeaponSashA	/ItemContainer/SelfFilledItemContainer/TreasureChest
 1000120	Ornate Chest	1000120_ChestEliteA	/ItemContainer/SelfFilledItemContainer/TreasureChest
+1000130	Trunk Loot	1000130_ChestTrunkCaldera	/ItemContainer/SelfFilledItemContainer/TreasureChest
+1000200	Blood Altar	1000200_VampiricTransmuteTable	/ItemContainer/SingleItemContainer/VampiricTransmutationTable
 1000800	Corpse	1000800_Corpse	/ItemContainer/SelfFilledItemContainer/TreasureChest
 1001000	Junk Pile	1001000_JunkPileA	/ItemContainer/SelfFilledItemContainer/TreasureChest
 1900000	Stack	1900000_GroupContainer	/ItemContainer/GroupContainer
@@ -69,6 +71,11 @@
 2000151	Strange Rusted Sword	2000151_CrystalSwordBrandBroken	/Equipment/Weapon/MeleeWeapon
 2000160	Tsar Sword	2000160_TsarSword	/Equipment/Weapon/MeleeWeapon
 2000170	Maelstrom Blade	2000170_BossReward_MaelstromBlade	/Equipment/Weapon/MeleeWeapon
+2000180	Horror Sword	2000180_HorrorSword	/Equipment/Weapon/MeleeWeapon
+2000190	Vampiric Sword	2000190_VampiricSword	/Equipment/Weapon/MeleeWeapon
+2000200	Virgin Sword	2000200_VirginSword	/Equipment/Weapon/MeleeWeapon
+2000210	Kazite Blade	2000210_KaziteBlade	/Equipment/Weapon/MeleeWeapon
+2000221	Blood Sword	2000221_BloodSword_AIOnly	/Equipment/Weapon/MeleeWeapon
 2010000	Iron Axe	2010000_IronAxe	/Equipment/Weapon/MeleeWeapon
 2010002	Etheral Axe	2010002_GhostAxe	/Equipment/Weapon/MeleeWeapon
 2010020	Living Wood Axe	2010020_axeWood	/Equipment/Weapon/MeleeWeapon
@@ -86,9 +93,14 @@
 2010120	Tsar Axe	2010120_TsarAxe	/Equipment/Weapon/MeleeWeapon
 2010130	Pain in the Axe	2010130_BossReward_PainInTheAxe	/Equipment/Weapon/MeleeWeapon
 2010140	Butcher Cleaver	2010140_AmethystAxe_Legacy	/Equipment/Weapon/MeleeWeapon
+2010150	Galvanic Axe	2010150_GalvanicAxe	/Equipment/Weapon/MeleeWeapon
+2010160	Vampiric Axe	2010160_VampiricAxe	/Equipment/Weapon/MeleeWeapon
+2010170	Virgin Axe	2010170_VirginAxe	/Equipment/Weapon/MeleeWeapon
+2010180	Kazite Cleaver	2010180_KaziteAxe	/Equipment/Weapon/MeleeWeapon
+2010190	Wolf Axe	2010190_WolfAxe	/Equipment/Weapon/MeleeWeapon
 2020010	Iron Mace	2020010_IronMace	/Equipment/Weapon/MeleeWeapon
 2020020	Brutal Club	2020020_BrutalClub	/Equipment/Weapon/MeleeWeapon
-2020030	Jade-Lich Mace 	2020030_MaceJadeLich	/Equipment/Weapon/MeleeWeapon
+2020030	Jade-Lich Mace	2020030_MaceJadeLich	/Equipment/Weapon/MeleeWeapon
 2020040	Marble Morningstar	2020040_MarbleMorningstar	/Equipment/Weapon/MeleeWeapon
 2020050	Fang Club	2020050_FangClub	/Equipment/Weapon/MeleeWeapon
 2020051	Savage Club	2020051_FangClubLegacy	/Equipment/Weapon/MeleeWeapon
@@ -105,6 +117,12 @@
 2020140	Skycrown Mace	2020140_MaceSkycrown	/Equipment/Weapon/MeleeWeapon
 2020160	Mace of Seasons	2020160_BossReward_MaceOfSeason	/Equipment/Weapon/MeleeWeapon
 2020170	CalixaMaceGun	2020170_EliteCalixaWeapon	/Equipment/Weapon/MeleeWeapon
+2020180	Horror Mace	2020180_HorrorMace	/Equipment/Weapon/MeleeWeapon
+2020190	Vampiric Mace	2020190_VampiricMace	/Equipment/Weapon/MeleeWeapon
+2020200	Galvanic Mace	2020200_GalvanicMace	/Equipment/Weapon/MeleeWeapon
+2020210	Virgin Mace	2020210_VirginMace	/Equipment/Weapon/MeleeWeapon
+2020220	Kazite Hammer	2020220_KaziteMace	/Equipment/Weapon/MeleeWeapon
+2020230	Wolf Mace	2020230_WolfMace	/Equipment/Weapon/MeleeWeapon
 2100000	Prayer Claymore	2100000_PrayerClaymore	/Equipment/Weapon/MeleeWeapon
 2100001	Sinner Claymore	2100001_PrayerClaymoreLegacy	/Equipment/Weapon/MeleeWeapon
 2100010	Wolf Claymore	2100010_WolfClaymore	/Equipment/Weapon/MeleeWeapon
@@ -125,6 +143,13 @@
 2100140	Tsar Claymore	2100140_TsarClaymore	/Equipment/Weapon/MeleeWeapon
 2100150	Royal Great-Kopesh	2100150_KhopeshRoyalClaymore	/Equipment/Weapon/MeleeWeapon
 2100160	Thermal Claymore	2100160_BossReward_ThermalClaymore	/Equipment/Weapon/MeleeWeapon
+2100170	Horror Greatsword	2100170_HorrorClaymore	/Equipment/Weapon/MeleeWeapon
+2100180	Vampiric Greatsword	2100180_VampiricClaymore	/Equipment/Weapon/MeleeWeapon
+2100190	Virgin Greatsword	2100190_VirginClaymore	/Equipment/Weapon/MeleeWeapon
+2100200	Kazite Greatblade	2100200_KaziteGreatblade	/Equipment/Weapon/MeleeWeapon
+2100210	Junk Claymore	2100210_JunkClaymore	/Equipment/Weapon/MeleeWeapon
+2100211	Golden Junk Claymore	2100211_JunkClaymoreLegacy	/Equipment/Weapon/MeleeWeapon
+2100221	Great BloodSword	2100221_GreatBloodSword_AIOnly	/Equipment/Weapon/MeleeWeapon
 2100999	Great Runic Blade	2100999_GreatRunicBlade	/Equipment/Weapon/MeleeWeapon
 2110000	Brutal Greataxe	2110000_BrutalGreataxe	/Equipment/Weapon/MeleeWeapon
 2110001	-	2110001_AxeGreatGlowyRed	/Equipment/Weapon/MeleeWeapon
@@ -144,6 +169,12 @@
 2110090	Tsar Greataxe	2110090_TsarGreataxe	/Equipment/Weapon/MeleeWeapon
 2110100	Worldedge Greataxe	2110100_GreataxeWorldedge	/Equipment/Weapon/MeleeWeapon
 2110110	Kelvin’s Greataxe	2110110_BossReward_KelvinGreataxe	/Equipment/Weapon/MeleeWeapon
+2110120	Horror Greataxe	2110120_HorrorGreatAxe	/Equipment/Weapon/MeleeWeapon
+2110130	Vampiric Greataxe	2110130_VampiricGreatAxe	/Equipment/Weapon/MeleeWeapon
+2110140	Galvanic Greataxe	2110140_GalvanicGreatAxe	/Equipment/Weapon/MeleeWeapon
+2110150	Virgin Greataxe	2110150_VirginGreataxe	/Equipment/Weapon/MeleeWeapon
+2110160	Kazite Greatcleaver	2110160_KaziteGreataxe	/Equipment/Weapon/MeleeWeapon
+2110170	Wolf Greataxe	2110170_WolfGreataxe	/Equipment/Weapon/MeleeWeapon
 2120000	Brutal Greatmace	2120000_BrutalGreatmace	/Equipment/Weapon/MeleeWeapon
 2120010	Wolf Greathammer	2120010_WolfGreathammer	/Equipment/Weapon/MeleeWeapon
 2120020	Fang Greatclub	2120020_FangGreatclub	/Equipment/Weapon/MeleeWeapon
@@ -160,6 +191,11 @@
 2120120	Obsidian Greatmace	2120120_ObsidianGreatmace	/Equipment/Weapon/MeleeWeapon
 2120130	Tsar Greathammer	2120130_TsarGreathammer	/Equipment/Weapon/MeleeWeapon
 2120140	Challenger Greathammer	2120140_BossReward_ChallengerGreatHammer	/Equipment/Weapon/MeleeWeapon
+2120150	Horror Greatmace	2120150_HorrorGreatMace	/Equipment/Weapon/MeleeWeapon
+2120160	Vampiric Greatmace	2120160_VampiricGreatMace	/Equipment/Weapon/MeleeWeapon
+2120170	Galvanic Greatmace	2120170_GalvanicGreatMace	/Equipment/Weapon/MeleeWeapon
+2120180	Virgin Greatmace	2120180_VirginGreatmace	/Equipment/Weapon/MeleeWeapon
+2120190	Kazite Greathammer	2120190_KaziteGreatmace	/Equipment/Weapon/MeleeWeapon
 2130000	Brutal Spear	2130000_BrutalSpear	/Equipment/Weapon/MeleeWeapon
 2130010	Worn Guisarme	2130010_OldGuisarme	/Equipment/Weapon/MeleeWeapon
 2130011	Gold Guisarme	2130011_OldGuisarmeLegacy	/Equipment/Weapon/MeleeWeapon
@@ -186,6 +222,13 @@
 2130140	Palladium Spear	2130140_PalladiumSpear	/Equipment/Weapon/MeleeWeapon
 2130150	Tsar Spear	2130150_TsarSpear	/Equipment/Weapon/MeleeWeapon
 2130160	Griigmerk kÄramerk	2130160_BossReward_GriigmerkKaramerkSpear	/Equipment/Weapon/MeleeWeapon
+2130170	Horror Spear	2130170_HorrorSpear	/Equipment/Weapon/MeleeWeapon
+2130180	Vampiric Spear	2130180_VampiricSpear	/Equipment/Weapon/MeleeWeapon
+2130190	Galvanic Spear	2130190_GalvanicSpear	/Equipment/Weapon/MeleeWeapon
+2130200	Virgin Spear	2130200_VirginSpear	/Equipment/Weapon/MeleeWeapon
+2130210	Kazite Lance	2130210_KaziteSpear	/Equipment/Weapon/MeleeWeapon
+2130220	Wolf Spear	2130220_WolfSpear	/Equipment/Weapon/MeleeWeapon
+2130230	BloodSpear	2130230_BloodSpearAIOnly	/Equipment/Weapon/MeleeWeapon
 2140000	Iron Halberd	2140000_IronHalberd	/Equipment/Weapon/MeleeWeapon
 2140010	Cleaver Halberd	2140010_BrutalCleaverPolearm	/Equipment/Weapon/MeleeWeapon
 2140011	Sanguine Cleaver	2140011_BrutalCleaverPolearmLegacy	/Equipment/Weapon/MeleeWeapon
@@ -202,6 +245,12 @@
 2140110	Tsar Halberd	2140110_TsarHalberd	/Equipment/Weapon/MeleeWeapon
 2140120	Dreamer Halberd	2140120_DreamerImmaculateHalberd	/Equipment/Weapon/MeleeWeapon
 2140130	Ghost Reaper	2140130_BossReward_GhostReaper	/Equipment/Weapon/MeleeWeapon
+2140135	Horror Halberd	2140135_HorrorHalberd	/Equipment/Weapon/MeleeWeapon
+2140140	Vampiric Halberd	2140140_VampiricHalberd	/Equipment/Weapon/MeleeWeapon
+2140150	Galvanic Halberd	2140150_GalvanicHalberd	/Equipment/Weapon/MeleeWeapon
+2140160	Virgin Halberd	2140160_VirginHalberd	/Equipment/Weapon/MeleeWeapon
+2140170	Kazite Partizan	2140170_KaziteHalberd	/Equipment/Weapon/MeleeWeapon
+2140180	Wolf Halberd	2140180_WolfHalberd	/Equipment/Weapon/MeleeWeapon
 2150000	Scholar’s Staff	2150000_StaffGreen	/Equipment/Weapon/MeleeWeapon
 2150001	Mage’s Poking Stick	2150001_StaffWizardQuest	/Equipment/Weapon/MeleeWeapon
 2150010	Jade-Lich Staff	2150010_StaffJadeLich	/Equipment/Weapon/MeleeWeapon
@@ -212,12 +261,35 @@
 2150042	Elite Queen Trog Mana Staff	2150042_EliteTrogQueenStaffMana	/Equipment/Weapon/MeleeWeapon
 2150050	Master’s Staff	2150050_StaffMaster	/Equipment/Weapon/MeleeWeapon
 2150051	Ivory Master’s Staff	2150051_StaffMasterLegacy	/Equipment/Weapon/MeleeWeapon
+2160000	Iron Knuckles	2160000_IronFists	/Equipment/Weapon/MeleeWeapon/DualMeleeWeapon
+2160010	Brutal Knuckles	2160010_BrutalKnuckles	/Equipment/Weapon/MeleeWeapon/DualMeleeWeapon
+2160020	Cloth Knuckles	2160020_ClothKnuckles	/Equipment/Weapon/MeleeWeapon/DualMeleeWeapon
+2160021	Golden Iron Knuckles	2160021_ClothKnucklesLegacy	/Equipment/Weapon/MeleeWeapon/DualMeleeWeapon
+2160030	Fang Knuckles	2160030_FangKnuckles	/Equipment/Weapon/MeleeWeapon/DualMeleeWeapon
+2160031	Savage Fang Knuckles	2160031_FangKnucklesLegacy	/Equipment/Weapon/MeleeWeapon/DualMeleeWeapon
+2160040	Galvanic Fists	2160040_GolemFists	/Equipment/Weapon/MeleeWeapon/DualMeleeWeapon
+2160050	Golden Knuckles	2160050_GoldenKnuckles	/Equipment/Weapon/MeleeWeapon/DualMeleeWeapon
+2160060	Horror Fists	2160060_HorrorFists	/Equipment/Weapon/MeleeWeapon/DualMeleeWeapon
+2160070	Marble Fists	2160070_MarbleFists	/Equipment/Weapon/MeleeWeapon/DualMeleeWeapon
+2160080	Palladium Knuckles	2160080_PalladiumKnuckles	/Equipment/Weapon/MeleeWeapon/DualMeleeWeapon
+2160090	Porcelain Fists	2160090_ProcelainFists	/Equipment/Weapon/MeleeWeapon/DualMeleeWeapon
+2160100	Tsar Fists	2160100_TsarFists	/Equipment/Weapon/MeleeWeapon/DualMeleeWeapon
+2160110	Wolf Knuckles	2160110_WolfFists	/Equipment/Weapon/MeleeWeapon/DualMeleeWeapon
+2160120	Kazite Cestus	2160120_KaziteFists	/Equipment/Weapon/MeleeWeapon/DualMeleeWeapon
+2160130	Virgin Knuckles	2160130_VirginFists	/Equipment/Weapon/MeleeWeapon/DualMeleeWeapon
+2160140	Vampiric Knuckles	2160140_VampiricFists	/Equipment/Weapon/MeleeWeapon/DualMeleeWeapon
 2200000	Simple Bow	2200000_Bow	/Equipment/Weapon/ProjectileWeapon
 2200001	Gold Bow	2200001_BowLegacy	/Equipment/Weapon/ProjectileWeapon
 2200010	Recurve Bow	2200010_BowRecurve	/Equipment/Weapon/ProjectileWeapon
 2200020	War Bow	2200020_BowWarbow	/Equipment/Weapon/ProjectileWeapon
 2200030	Horror Bow	2200030_BowHorror	/Equipment/Weapon/ProjectileWeapon
 2200040	Coralhorn Bow	2200040_CoralhornBow	/Equipment/Weapon/ProjectileWeapon
+2200050	Vampiric Bow	2200050_VampiricBow	/Equipment/Weapon/ProjectileWeapon
+2200060	Galvanic Bow	2200060_GalvanicBow	/Equipment/Weapon/ProjectileWeapon
+2200070	Virgin Bow	2200070_VirginBow	/Equipment/Weapon/ProjectileWeapon
+2200080	Kazite Bow	2200080_KaziteBow	/Equipment/Weapon/ProjectileWeapon
+2200090	Wolf Bow	2200090_WolfBow	/Equipment/Weapon/ProjectileWeapon
+2200100	Tsar Bow	2200100_TsarBow	/Equipment/Weapon/ProjectileWeapon
 2300000	Round Shield	2300000_ShieldRound	/Equipment/Weapon/MeleeWeapon
 2300030	Zhorn’s Demon Shield	2300030_ShieldDemon	/Equipment/Weapon/MeleeWeapon
 2300040	Tower Shield	2300040_ShieldTower	/Equipment/Weapon/MeleeWeapon
@@ -241,12 +313,18 @@
 2300200	Golden Shield	2300200_ShieldPlankLegacy	/Equipment/Weapon/MeleeWeapon
 2300210	Savage Shield	2300210_ShieldFangLegacy	/Equipment/Weapon/MeleeWeapon
 2300220	Spore Shield	2300220_ShieldMushroomLegacy	/Equipment/Weapon/MeleeWeapon
+2300230	Galvanic Shield	2300230_GalvanicShield	/Equipment/Weapon/MeleeWeapon
+2300240	Vampiric Shield	2300240_VampiricShield	/Equipment/Weapon/MeleeWeapon
+2300250	Virgin Shield	2300250_VirginShield	/Equipment/Weapon/MeleeWeapon
+2300260	Kazite Scutum	2300260_KaziteShield	/Equipment/Weapon/MeleeWeapon
+2300270	Enchanting Table Shield	2300270_EnchantingTableShield	/Equipment/Weapon/MeleeWeapon
 2400000	-	2400000_TuanosaurClaws	/Equipment/Weapon/MeleeWeapon
 2400001	-	2400001_TuanosaurAlphaClaws	/Equipment/Weapon/MeleeWeapon
 2400002	-	2400002_GalvanicGolem1HRapier	/Equipment/Weapon/MeleeWeapon
 2400003	-	2400003_HoundTeeth	/Equipment/Weapon/MeleeWeapon
 2400010	-	2400010_PhytosaurHorn	/Equipment/Weapon/MeleeWeapon
 2400020	-	2400020_StekoTeeth	/Equipment/Weapon/MeleeWeapon
+2400021	Steko Runic Beast Teethz	2400021_StekoTeethRunicBeast	/Equipment/Weapon/MeleeWeapon
 2400030	-	2400030_AssassinBugTongue	/Equipment/Weapon/MeleeWeapon
 2400040	-	2400040_BeetleHorn	/Equipment/Weapon/MeleeWeapon
 2400050	-	2400050_MantisClaws	/Equipment/Weapon/MeleeWeapon
@@ -292,15 +370,25 @@
 2400290	Lich Gold TwoHanded Spear	2400290_LichGoldTwoHandedSpear	/Equipment/Weapon/MeleeWeapon
 2400300	PiplatTeethAndTail	2400300_PyplaTeethAndTail	/Equipment/Weapon/MeleeWeapon
 2400310	Boozu Horn	2400310_BoozuHorn	/Equipment/Weapon/MeleeWeapon
+2400311	Boozu Proud Beast Horn	2400311_BoozuProudBeastHorn	/Equipment/Weapon/MeleeWeapon
 2400320	Grotesque	2400320_GrotesqueClaw	/Equipment/Weapon/MeleeWeapon
 2400330	SupremeShellFist	2400330_SupremeShellFist	/Equipment/Weapon/MeleeWeapon
+2400331	EliteSupremeShellFist	2400331_EliteSupremeShellFist	/Equipment/Weapon/MeleeWeapon
 2400340	PureIlluminatorHand	2400340_PureIlluminatorHand	/Equipment/Weapon/MeleeWeapon
 2400350	Giant horror	2400350_GiantHorrorArms	/Equipment/Weapon/MeleeWeapon
 2400360	ElementalParasiteEye	2400360_ElementalParasiteEye	/Equipment/Weapon/MeleeWeapon
 2400370	TitanGolemHammer	2400370_TitanGolemHammer	/Equipment/Weapon/MeleeWeapon
 2400371	TitanGolemHalberd	2400371_TitanGolemHalberd	/Equipment/Weapon/MeleeWeapon
 2400372	TitanGolemSword	2400372_TitanGolemSword	/Equipment/Weapon/MeleeWeapon
+2400400	CageArmorFist	2400400_CageArmorBoss	/Equipment/Weapon/MeleeWeapon
 504	Test weapon of Dooooom	504_TestWeaponOfDoom	/Equipment/Weapon/MeleeWeapon
+2400440	MyrmClawTongue	2400440_MyrmClawsTongue	/Equipment/Weapon/MeleeWeapon
+2400450	BeetleFrost Horn	2400450_BeetleFrostHorn	/Equipment/Weapon/MeleeWeapon
+2400460	Lionman Electric Mace	2400460_LionmanElectricMace	/Equipment/Weapon/MeleeWeapon
+2400461	Lionman Frost Staff	2400461_LionmanElderFrostStaff	/Equipment/Weapon/MeleeWeapon
+2400490	GargoyleUrn	2400490_GargoyleUrn	/Equipment/Weapon/MeleeWeapon
+2400510	Giant Crossbow	2400510_GiantCrossbow	/Equipment/Weapon/MeleeWeapon
+2400520	CrimsonStaff	2400520_CrimsonStaff	/Equipment/Weapon/MeleeWeapon
 3000000	Trader Garb	3000000_TraderArmor	/Equipment/Armor
 3000001	Straw Hat	3000001_TraderHelm	/Equipment/Armor
 3000002	Trader Boots	3000002_TraderBoots	/Equipment/Armor
@@ -449,6 +537,9 @@
 3000340	White Arcane Robe	3000340_ArcaneRobeArmorLegacy	/Equipment/Armor
 3000341	White Arcane Hood	3000341_ArcaneRobeArmorHelmLegacy	/Equipment/Armor
 3000350	Red Clansage Robe	3000350_ClansageArmorLegacy	/Equipment/Armor
+3000360	Rust Lich Armor	3000360_RustLichArmor	/Equipment/Armor
+3000361	Rust Lich Helmet	3000361_RustLichHelm	/Equipment/Armor
+3000362	Rust Lich Boots	3000362_RustLichBoots	/Equipment/Armor
 3100000	Elite Plate Armor	3100000_ElitePlateArmor	/Equipment/Armor
 3100001	Elite Plate Helm	3100001_ElitePlateArmorHelm	/Equipment/Armor
 3100002	Elite Plate Boots	3100002_ElitePlateArmorBoots	/Equipment/Armor
@@ -524,6 +615,32 @@
 3100200	White Kintsugi Armor	3100200_KintsugiArmorLegacy	/Equipment/Armor
 3100201	White Kintsugi Helmet	3100201_KintsugiArmorHelmLegacy	/Equipment/Armor
 3100202	White Kintsugi Boots	3100202_KintsugiArmorBootsLegacy	/Equipment/Armor
+3100210	Wolf Mage Armor	3100210_WolfMageArmor	/Equipment/Armor
+3100211	Wolf Mage Helmet	3100211_WolfMageHelmet	/Equipment/Armor
+3100212	Wolf Mage Boots	3100212_WolfMageBoots	/Equipment/Armor
+3100220	Wolf Medic Armor	3100220_WolfMedicArmor	/Equipment/Armor
+3100221	Wolf Medic Helmet	3100221_WolfMedicHelmet	/Equipment/Armor
+3100222	Wolf Medic Boots	3100222_WolfMedicBoots	/Equipment/Armor
+3100230	Horror Armor	3100230_HorrorArmor	/Equipment/Armor
+3100231	Horror Helm	3100231_HorrorHelmet	/Equipment/Armor
+3100232	Horror Greaves	3100232_HorrorBoots	/Equipment/Armor
+3100240	Kazite Light Armor	3100240_KaziteLightArmor	/Equipment/Armor
+3100241	Kazite Light Helmet	3100241_KaziteLightHelmet	/Equipment/Armor
+3100242	Kazite Light Boots	3100242_KaziteLightBoots	/Equipment/Armor
+3100243	Shadow Kazite Light Armor	3100243_KaziteLightArmorLegacy	/Equipment/Armor
+3100244	Shadow Kazite Light Helmet	3100244_KaziteLightHelmetLegacy	/Equipment/Armor
+3100245	Shadow Kazite Light Boots	3100245_KaziteLightBootsLegacy	/Equipment/Armor
+3100246	Light Kazite Shirt	3100246_KaziteLightArmorNoCoat	/Equipment/Armor
+3100247	Shadow Light Kazite Shirt	3100247_KaziteLightArmorLegacyNoCoat	/Equipment/Armor
+3100250	Antique Plate Garb	3100250_HarmattanGuardArmor	/Equipment/Armor
+3100251	Antique Plate Sallet	3100251_HarmattanGuardHelm	/Equipment/Armor
+3100252	Antique Plate Boots	3100252_HarmattanGuardBoots	/Equipment/Armor
+3100260	Virgin Armor	3100260_VirginArmor	/Equipment/Armor
+3100261	Virgin Helmet	3100261_VirginHelmet	/Equipment/Armor
+3100262	Virgin Boots	3100262_VirginBoots	/Equipment/Armor
+3100270	Caged Armor Chestplate	3100270_CagedArmor	/Equipment/Armor
+3100271	Caged Armor Helm	3100271_CagedHelmet	/Equipment/Armor
+3100272	Caged Armor Boots	3100272_CagedBoots	/Equipment/Armor
 3200000	-	3200000_EmptyArmor	/Equipment/Armor
 3200001	-	3200001_EmptyHelm	/Equipment/Armor
 3200002	-	3200002_EmptyBoots	/Equipment/Armor
@@ -582,14 +699,14 @@
 4000280	Krimp Nut	4000280_KrimpNut	/Food
 4000290	Crawlberry	4000290_Crawlberry	/Food
 4000300	Purpkin	4000300_Purpkin	/Food
-4000310	Boozu Meat	4000310_BoozuMeat	/Food
-4000320	Eel	4000320_Eel	/Food
-4000330	Mana Heart Bass	4000330_ManaHeartBass	/Food
+4000310	Boozu’s Meat	4000310_BoozuMeat	/Food
+4000320	Antique Eel	4000320_Eel	/Food
+4000330	Manaheart Bass	4000330_ManaHeartBass	/Food
 4000340	Nightmare Mushroom	4000340_NightmareMushroom	/Food
-4000350	Veaber Egg	4000350_VeaberEgg	/Food
-4000360	Dreamer Root	4000360_DreamerRoot	/Food
-4000370	Leyline water	4000370_LeylineWater	/Food
-4000380	Boozu Milk	4000380_BoozuMilk	/Food
+4000350	Veaber’s Egg	4000350_VeaberEgg	/Food
+4000360	Dreamer’s Root	4000360_DreamerRoot	/Food
+4000380	Boozu’s Milk	4000380_BoozuMilk	/Food
+4000291	Crawlberry Tartine	4000291_CrawlberriesTartine	/Food
 4100000	Food Waste	4100000_FoodWastes	/Food
 4100010	Cooked Meat	4100010_CookedMeat	/Food
 4100011	Cooked Alpha Meat	4100011_CookedAlphaMeat	/Food
@@ -641,13 +758,13 @@
 4100590	Gaberry Wine	4100590_GaberryWine	/Food
 4100600	Boiled Crawlberry	4100600_BoiledCrawlberry	/Food
 4100610	Boiled Purpkin	4100610_BoiledPurpkin	/Food
-4100620	Cooked Boozu Meat	4100620_CookedBoozuMeat	/Food
+4100620	Cooked Boozu’s Meat	4100620_CookedBoozuMeat	/Food
 4100630	Grilled Eel	4100630_GrilledEel	/Food
-4100640	Grilled Mana Heart Bass	4100640_GrilledManaHeartBass	/Food
+4100640	Grilled Manaheart Bass	4100640_GrilledManaHeartBass	/Food
 4100650	Grilled Nightmare Mushroom	4100650_GrilledNightmareMushroom	/Food
 4100660	Boiled Veaber Egg	4100660_BoiledVieberEgg	/Food
-4100670	Boiled Dream Root	4100670_BoiledDreamerRoot	/Food
-4100680	Boiled Boozu Milk	4100680_BoiledBoozuMilk	/Food
+4100670	Boiled Dreamer’s Root	4100670_BoiledDreamerRoot	/Food
+4100680	Warm Boozu’s Milk	4100680_BoiledBoozuMilk	/Food
 4100690	Flour	4100690_Flour	/Food
 4100700	Fresh Cream	4100700_FreshCream	/Food
 4100710	Crawlberry Jam	4100710_CrawlberryJam	/Food
@@ -693,13 +810,13 @@
 4300280	Invigorating Potion	4300280_InvigoratingPotion	/Consumable
 4300281	Energizing Potion	4300281_EnergizingPotion	/Consumable
 4300290	Purity Potion	4300290_PurityPotion	/Consumable
-4300300	Depravity Potion	4300300_DepravityPotion	/Consumable
-4300310	Expulsion Potion	4300310_ExpulsionPotion	/Consumable
-4300320	Scourge Potion	4300320_ScourgePotion	/Consumable
+4300300	Quartz Potion	4300300_DepravityPotion	/Consumable
+4300310	Sanctifier Potion	4300310_ExpulsionPotion	/Consumable
+4300320	Innocence Potion	4300320_ScourgePotion	/Consumable
 4300330	Illuminating Potion	4300330_IlluminatingPotion	/Consumable
-4300340	Horror Potion	4300340_HorrorPotion	/Consumable
+4300340	Horror’s Potion	4300340_HorrorPotion	/Consumable
 4300350	Alertness Potion	4300350_AlertnessPotion	/Consumable
-4300360	Max Alertness Potion	4300360_MaxAlertnessPotion	/Consumable
+4300360	Spiked Alertness Potion	4300360_MaxAlertnessPotion	/Consumable
 4400010	Bandages	4400010_Bandages	/Consumable
 4400020	Poison Rag	4400020_PoisonRag	/InfuseConsumable
 4400021	Poison Varnish	4400021_PoisonVarnish	/InfuseConsumable
@@ -732,22 +849,23 @@
 5000061	Mage Tent	5000061_TentMage	/_Unsorted
 5000070	Plant Tent	5000070_TentPlantKit	/_Unsorted
 5000071	Plant Tent	5000071_TentPlant	/_Unsorted
-5000080	Scourge Cocoon Kit	5000080_ScourgeCocoonKit	/_Unsorted
+5000080	Scourge Cocoon	5000080_ScourgeCocoonKit	/_Unsorted
+5000081	Scourge Cocoon	5000081_ScourgeCocoon	/_Unsorted
 5000100	Campfire	5000100_Campfire	/ItemContainer/FueledContainer
 5000101	Campfire Kit	5000101_CampfireKit	/_Unsorted
 5000110	Campfire Kit	5000110_FirepitNPC	/ItemContainer/FueledContainer
-5000200	Echantment Table Kit	5000200_EnchantmentTableKit	/_Unsorted
-5000201	Enchantment Table	5000201_EnchantmentTable	/ItemContainer/EnchantmentTable
-5000202	Enchantment Pillar	5000202_EnchantmentPillar	/ItemContainer
-5000203	Enchantment Pillar	5000203_EnchantmentPillarKit	/_Unsorted
+5000200	Enchanting Pedestal	5000200_EnchantmentTableKit	/_Unsorted
+5000201	Enchanting Pedestal	5000201_EnchantmentTable	/ItemContainer/SingleItemContainer/EnchantmentTable
+5000202	Enchanting Pillar	5000202_EnchantmentPillar	/ItemContainer/SingleItemContainer
+5000203	Enchanting Pillar	5000203_EnchantmentPillarKit	/_Unsorted
 5010100	Cooking Pot	5010100_CookingPotKit	/_Unsorted
 5010111	Cooking Pot	5010111_CookingPotAddOn	/CraftingStation
 5010200	Alchemy Kit	5010200_AlchemySetKit	/_Unsorted
 5010211	Alchemy Kit	5010211_AlchemySetAddOn	/CraftingStation
 5020010	Tripwire Trap	5020010_TripWireTrapKit	/_Unsorted
-5020011	Tripwire Trap	5020011_TripWireTrap	/ItemContainer/DeployableTrap
+5020011	Tripwire Trap	5020011_TripWireTrap	/ItemContainer/SingleItemContainer/DeployableTrap
 5020020	Pressure Plate Trap	5020020_PressurePlateTrapKit	/_Unsorted
-5020021	Pressure Plate Trap	5020021_PressurePlateTrap	/ItemContainer/DeployableTrap
+5020021	Pressure Plate Trap	5020021_PressurePlateTrap	/ItemContainer/SingleItemContainer/DeployableTrap
 5100000	Explorer Lantern	5100000_Lantern	/Equipment
 5100010	Old Lantern	5100010_WeakLantern	/Equipment
 5100020	Glowstone Lantern	5100020_LanternGlowstoneOLD	/Equipment
@@ -758,6 +876,7 @@
 5100070	Ice-Flame Torch	5100070_ColdTorch	/Equipment
 5100080	Lantern of Souls	5100080_LanternSoul	/Equipment
 5100090	Coil Lantern	5100090_LanternCoil	/Equipment
+5100100	Virgin Lantern	5100100_VirginLantern	/Equipment
 5100500	Lexicon	5100500_BookLexicon	/Equipment
 5100510	Light Mender’s Lexicon	5100510_BookLexiconGlowstone	/Equipment
 5110000	Rondel Dagger	5110000_RondelDagger	/Equipment/Weapon/MeleeWeapon
@@ -779,6 +898,7 @@
 5110090	Thorn Chakram	5110090_ChakramThorn	/Equipment/Weapon/MeleeWeapon
 5110091	Horror Chakram	5110091_HorrorChakram	/Equipment/Weapon/MeleeWeapon
 5110092	Galvanic Chakram	5110092_GalvanicChakram	/Equipment/Weapon/MeleeWeapon
+5110093	Vampire Chakram	5110093_VampiricChakram	/Equipment/Weapon/MeleeWeapon
 5110094	Virgin Chakram	5110094_VirginChakram	/Equipment/Weapon/MeleeWeapon
 5110095	Kazite Chakram	5110095_KaziteChakram	/Equipment/Weapon/MeleeWeapon
 5110096	Wolf Chakram	5110096_WolfChakram	/Equipment/Weapon/MeleeWeapon
@@ -792,7 +912,7 @@
 5110160	Horror Pistol	5110160_HorrorPistol	/Equipment/Weapon/ProjectileWeapon
 5110170	Vampiric Pistol	5110170_VampiricPistol	/Equipment/Weapon/ProjectileWeapon
 5110180	Galvanic Pistol	5110180_GalvanicPistol	/Equipment/Weapon/ProjectileWeapon
-5110190	Virgin Pistol	5110190_VirginPistol	/Equipment/Weapon/ProjectileWeapon
+5110190	Cage Pistol	5110190_VirginPistol	/Equipment/Weapon/ProjectileWeapon
 5110200	Kazite Pistol	5110200_KazitePistol	/Equipment/Weapon/ProjectileWeapon
 5110210	Wolf Pistol	5110210_WolfPistol	/Equipment/Weapon/ProjectileWeapon
 5200001	Arrow	5200001_IronArrow	/Equipment/Weapon/Ammunition
@@ -812,6 +932,7 @@
 5300160	Preservation Backpack	5300160_PreservationBackpack	/Equipment/Bag
 5300170	Light Mender’s Backpack	5300170_MageBackpack	/Equipment/Bag
 5300180	Zhorn’s Hunting Backpack	5300180_HornBackpack	/Equipment/Bag
+5300190	Boozu Hide Backpack	5300190_BoozuBackpack	/Equipment/Bag
 5400000	Stat Booster 1	5400000_BackpackStatBooster1	/Equipment/Bag
 5400010	Stat Booster 2	5400010_BackpackStatBooster2	/Equipment/Bag
 5400020	Stat Booster 3	5400020_BackpackStatBooster3	/Equipment/Bag
@@ -823,7 +944,7 @@
 5600001	River Water	5600001_RiverWater	/WaterItem
 5600002	Salt Water	5600002_SaltedWater	/WaterItem
 5600003	Rancid Water	5600003_RancidWater	/WaterItem
-5600004	Magic Water	5600004_MagicWater	/WaterItem
+5600004	Leyline Water	5600004_MagicWater	/WaterItem
 5600010	Flint and Steel	5600010_FlintAndSteel	/_Unsorted
 5600020	Hangman's Key	5600020_HangmanKey	/_Unsorted
 5600021	Old Levant's Key	5600021_OldLevanKey	/_Unsorted
@@ -841,174 +962,300 @@
 5600040	Skill Storage Tablet	5600040_SkillStorageTablet	/_Unsorted
 5600050	Writ of Tribal Favor	5600050_TribalFavor	/_Unsorted
 5600060	Montcalm Key	5600060_MontcalmKey	/_Unsorted
-5600070	Living quarter undergroud city key	5600070_AntiqueFieldD1Key1	/_Unsorted
-5600080	Key to dungeon F	5600080_FKey	/_Unsorted
-5600090	D2 BigDoor Key A	5600090_BigGateKeyA	/_Unsorted
-5600091	D2 BigDoor Key B	5600091_BigGateKeyB	/_Unsorted
-5600092	D2 BigDoor Key C	5600092_BigGateKeyC	/_Unsorted
-5600093	D2 BigDoor Key D	5600093_BigGateKeyD	/_Unsorted
-5600100	KeyD3B	5600100_KeyD3B	/_Unsorted
-5600101	KeyD3C	5600101_KeyD3C	/_Unsorted
-5600110	Activate the side elevators	5600110_AntiqueFieldD6KeyA	/_Unsorted
-5600111	Door Key for D6	5600111_AntiqueFieldD6KeyB	/_Unsorted
-5600120	Key D	5600120_DKey	/_Unsorted
-5600121	C Key D7	5600121_AntiqueFieldD7KeyC	/_Unsorted
-5600122	B Key D7	5600122_AntiqueFieldD7KeyB	/_Unsorted
-5600130	D2 Key from boss	5600130_AntiqueFieldD2Key1	/_Unsorted
-5600140	D2Key2_AntiqueField	5600140_AntiqueFieldD2Key2	/_Unsorted
-5600150	TEMP - Key Battlefield A	5600150_AKey_Battlefield	/_Unsorted
-5600151	TEMP - Key B Battlefield	5600151_BKey_Battlefield	/_Unsorted
-5600160	Key G for D8	5600160_AntiqueFieldD8KeyG	/_Unsorted
+5600070	Lower Living Quarters Key	5600070_AntiqueFieldD1Key1	/_Unsorted
+5600080	Train Key B	5600080_FKey	/_Unsorted
+5600090	Gemstone Key A	5600090_BigGateKeyA	/_Unsorted
+5600091	Gemstone Key B	5600091_BigGateKeyB	/_Unsorted
+5600092	Gemstone Key C	5600092_BigGateKeyC	/_Unsorted
+5600093	Gemstone Key D	5600093_BigGateKeyD	/_Unsorted
+5600100	Foundry Assembly Line Key	5600100_KeyD3B	/_Unsorted
+5600101	Lower Foundry Key	5600101_KeyD3C	/_Unsorted
+5600110	Loading Docks Elevator Key	5600110_AntiqueFieldD6KeyA	/_Unsorted
+5600111	Loading Docks Key	5600111_AntiqueFieldD6KeyB	/_Unsorted
+5600120	Warehouse Key	5600120_DKey	/_Unsorted
+5600121	Train Key A	5600121_AntiqueFieldD7KeyC	/_Unsorted
+5600122	Lower Test Chamber Key	5600122_AntiqueFieldD7KeyB	/_Unsorted
+5600130	Lower Laboratory Key	5600130_AntiqueFieldD2Key1	/_Unsorted
+5600140	Misplaced Lab Lever	5600140_AntiqueFieldD2Key2	/_Unsorted
+5600150	Old Harmattan South Key	5600150_AKey_Battlefield	/_Unsorted
+5600151	Old Harmattan North Key	5600151_BKey_Battlefield	/_Unsorted
+5600160	Mana Transfer Elevator Key	5600160_AntiqueFieldD8KeyG	/_Unsorted
+5600170	Troglodyte Cage Key	5600170_TrogPrisonKeyA	/_Unsorted
+5600171	Bandit Cage key	5600171_TrogPrisonKeyB	/_Unsorted
 5601001	Gep's Note	5601001_GepsNote	/_Unsorted
 5601002	-	5601002_ClueNoteA	/WrittenNote
 5601003	Watchers' Note	5601003_WatchersNote	/WrittenNote
 5601010	Chemist’s Broken Flask	5601010_ChemistBrokenFlask	/_Unsorted
 5602000	-	5602000_BestiaryManticore	/WrittenNote
-5700011	Cooking: Bitter Spicy Tea	5700011_BitterSpicyTea_Recipe	/RecipeItem
-5700013	Cooking: Ocean Fricassee	5700013_OceanFricassee_Recipe	/RecipeItem
+5700011	Cooking_ Bitter Spicy Tea	5700011_BitterSpicyTea_Recipe	/RecipeItem
+5700013	Cooking_ Ocean Fricassee	5700013_OceanFricassee_Recipe	/RecipeItem
 5700014	-	5700014_MeatPorridge_Recipe	/RecipeItem
-5700015	Cooking: Miner’s Omelet	5700015_Miner_sOmelet_Recipe	/RecipeItem
-5700016	Cooking: Pungent Paste	5700016_PungentPaste_Recipe	/RecipeItem
-5700017	Cooking: Gaberries Jam	5700017_GaberryJam_Recipe	/RecipeItem
-5700018	Cooking: Jerky	5700018_MeatJerky_Recipe	/RecipeItem
-5700019	Cooking: Alpha Jerky	5700019_AlphaJerky_Recipe	/RecipeItem
-5700020	Cooking: Dry Mushroom Bar	5700020_DryMushroomBar_Recipe	/RecipeItem
-5700021	Cooking: Turmmip Potage	5700021_TurmmipPotage_Recipe	/RecipeItem
-5700022	Crafting: Fang Axe	5700022_FangAxe_RecipeWeapon	/RecipeItem
-5700023	Crafting: Fang Sword	5700023_FangSword_RecipeWeapon	/RecipeItem
-5700024	Crafting: Fang Club	5700024_FangClub_RecipeWeapon	/RecipeItem
-5700025	Crafting: Fang Trident	5700025_FangTrident_RecipeWeapon	/RecipeItem
-5700026	Crafting: Fang Greataxe	5700026_FangGreataxe_RecipeWeapon	/RecipeItem
-5700027	Crafting: Fang Greatsword	5700027_FangGreatsword_RecipeWeapon	/RecipeItem
-5700028	Crafting: Fang Greatclub	5700028_FangGreatclub_RecipeWeapon	/RecipeItem
-5700029	Crafting: Fang Halberd	5700029_FangHalberd_RecipeWeapon	/RecipeItem
-5700030	Crafting: Fang Shield	5700030_FangShield_RecipeWeapon	/RecipeItem
-5700038	Crafting: Tripwire Trap	5700038_TripwireTrap_Recipe	/RecipeItem
-5700046	Cooking: Cierzo Ceviche	5700046_CierzoCevicheRecipe	/RecipeItem
-5700047	Cooking: Luxe Lichette	5700047_LuxeLichetteRecipe	/RecipeItem
-5700048	Cooking: Pot-au-Feu du Pirate	5700048_PotAuFeuDuPirateRecipe	/RecipeItem
-5700049	Cooking: Alpha Sandwich	5700049_AlphaSandwich_Recipe	/RecipeItem
-5700050	Cooking: Gaberry Tartine	5700050_GaberryTartine_Recipe	/RecipeItem
-5700058	Cooking: Ragout du Marais 	5700058_RagoutDuMarais_Recipe	/RecipeItem
-5700059	Cooking: Savage Stew	5700059_SavagePorridge_Recipe	/RecipeItem
-5700060	Cooking: Marshmelon Jelly	5700060_MarshmelonJelly_Recipe	/RecipeItem
-5700061	Cooking: Marshmelon Tartine	5700061_MarshmelonTartine_Recipe	/RecipeItem
-5700065	Cooking: Diademe de Gibier	5700065_DiademeDeGibier_Recipe	/RecipeItem
-5700066	Cooking: Spiny Meringue	5700066_SpinyMeringue_Recipe	/RecipeItem
-5700067	Cooking: Cactus Pie	5700067_CactusPie_Recipe	/RecipeItem
-5700068	Cooking: Bread of the Wild	5700068_BreadOfTheWild_Recipe	/RecipeItem
-5700069	Cooking: Fungal Cleanser	5700069_MyconicCleanser_Recipe	/RecipeItem
-5700070	Cooking: Stringy Salad	5700070_StrignySalad_Recipe	/RecipeItem
-5700073	Cooking: Soothing Tea	5700073_SoothingTea_Recipe	/RecipeItem
-5700074	Cooking: Needle Tea	5700074_NeedleTea_Recipe	/RecipeItem
-5700075	Cooking: Mineral Tea	5700075_MineralTea_Recipe	/RecipeItem
-5700076	Alchemy: Fire Stone	5700076_FireStone_Recipe	/RecipeItem
-5700077	Crafting: Horror Bow	5700077_HorrorBow_RecipeWeapon	/RecipeItem
-5700078	Crafting: Horror Axe	5700078_HorrorAxe_RecipeWeapon	/RecipeItem
-5700079	Crafting: Horror Shield	5700079_HorrorShield_RecipeWeapon	/RecipeItem
-5700080	Crafting: Manticore Greatmace	5700080_ManticoreGreatmace_RecipeWeapon	/RecipeItem
-5700081	Crafting: Assassin Sword	5700081_AssassinSword_RecipeWeapon	/RecipeItem
-5700082	Crafting: Assassin Claymore	5700082_AssassinClaymore_RecipeWeapon	/RecipeItem
-5700083	Crafting: Mantis Greatpick	5700083_MantisGreatpick_RecipeWeapon	/RecipeItem
-5700084	Crafting: Crescent Greataxe	5700084_CrescentGreataxe_RecipeWeapon	/RecipeItem
-5700085	Crafting: Crescent Scythe	5700085_CrescentScythe_RecipeWeapon	/RecipeItem
-5700086	Crafting: Thorny Spear	5700086_ThornfishSpear_RecipeWeapon	/RecipeItem
-5700087	Crafting: Thorny Claymore	5700087_ThornfishClaymore_RecipeWeapon	/RecipeItem
-5700088	Crafting: Beast Golem Axe	5700088_BeastGolemAxe_RecipeWeapon	/RecipeItem
-5700089	Crafting: Beast Golem Halberd	5700089_BeastGolemHalberd_RecipeWeapon	/RecipeItem
-5700090	Crafting: Tuanosaur Axe	5700090_TuanosaurAxe_RecipeWeapon	/RecipeItem
-5700091	Crafting: Tuanosaur Greataxe	5700091_TuanosaurGreataxe_RecipeWeapon	/RecipeItem
-5700092	Crafting: Phytosaur Spear	5700092_PhytosaurSpear_RecipeWeapon	/RecipeItem
-5700093	Crafting: Makeshift Leather Hat	5700093_MakeshiftLeatherHat_RecipeArmor	/RecipeItem
-5700094	Crafting: Makeshift Leather Attire	5700094_MakeshiftLeatherAttire_RecipeArmor	/RecipeItem
-5700095	Crafting: Makeshift Leather Boots	5700095_MakeshiftLeatherBoots_RecipeArmor	/RecipeItem
-5700096	Crafting: Scaled Leather Hat	5700096_ScaledLeatherHat_RecipeArmor	/RecipeItem
-5700097	Crafting: Scaled Leather Attire	5700097_ScaledLeatherAttire_RecipeArmor	/RecipeItem
-5700098	Crafting: Scaled Leather Boots	5700098_ScaledLeatherBoots_RecipeArmor	/RecipeItem
-5700099	Crafting: Poison Rag	5700099_PoisonRag_RecipeAlchemy	/RecipeItem
-5700100	Crafting: Bolt Rag	5700100_LightRag_RecipeAlchemy	/RecipeItem
-5700101	Crafting: Fire Rag	5700101_FireRag_RecipeAlchemy	/RecipeItem
-5700102	Crafting: Ice Rag	5700102_IceRag_RecipeAlchemy	/RecipeItem
-5700103	Alchemy: Poison Varnish	5700103_PoisonVarnish_RecipeAlchemy	/RecipeItem
-5700104	Alchemy: Bolt Varnish	5700104_LightVarnish_RecipeAlchemy	/RecipeItem
-5700105	Alchemy: Fire Varnish	5700105_FireVarnish_RecipeAlchemy	/RecipeItem
-5700106	Alchemy: Ice Varnish	5700106_IceVarnish_RecipeAlchemy	/RecipeItem
-5700107	Alchemy: Spiritual Varnish	5700107_SpiritualVarnish_RecipeAlchemy	/RecipeItem
-5700108	Alchemy: Astral Potion	5700108_ManaPotion_RecipeAlchemy	/RecipeItem
-5700109	Alchemy: Endurance Potion	5700109_StaminaPotion_RecipeAlchemy	/RecipeItem
-5700110	Alchemy: Life Potion	5700110_HealthPotion_RecipeAlchemy	/RecipeItem
-5700111	Alchemy: Antidote	5700111_Antidote_RecipeAlchemy	/RecipeItem
-5700112	Alchemy: Rage Potion	5700112_RagePotion_RecipeAlchemy	/RecipeItem
-5700113	Alchemy: Discipline Potion	5700113_DisciplinePotion_RecipeAlchemy	/RecipeItem
-5700114	Alchemy: Warm Potion	5700114_WarmPotion_RecipeAlchemy	/RecipeItem
-5700115	Alchemy: Cool Potion	5700115_CoolPotion_RecipeAlchemy	/RecipeItem
-5700116	Alchemy: Mist Potion	5700116_MistPotion_RecipeAlchemy	/RecipeItem
-5700117	Alchemy: Blessed Potion	5700117_BlessedPotion_RecipeAlchemy	/RecipeItem
-5700118	Alchemy: Possessed Potion	5700118_PossessedPotion_RecipeAlchemy	/RecipeItem
-5700119	Alchemy: Stealth Potion	5700119_StealthPotion_RecipeAlchemy	/RecipeItem
-5700120	Crafting: Coralhorn Bow	5700120_CoralhornBow_RecipeWeapon	/RecipeItem
-5700121	Alchemy: Elemental Immunity Potion	5700121_ElementalImmunityPotion_RecipeAlchemy	/RecipeItem
-5700122	Alchemy: Elemental Res. Potion	5700122_ElementalResistancePotion_RecipeAlchemy	/RecipeItem
-5700123	Alchemy: Weather Def. Potion	5700123_EnvironmentalResistancePotion_RecipeAlchemy	/RecipeItem
-5700124	Alchemy: Stability Potion	5700124_StabilityUpPotion_RecipeAlchemy	/RecipeItem
-5700125	Alchemy: Assassin’s Elixir	5700125_SpeedUpElixir_RecipeAlchemy	/RecipeItem
-5700126	Alchemy: Hex Cleaner	5700126_HexCleaner_RecipeAlchemy	/RecipeItem
-5700127	Alchemy: Stoneflesh Elixir	5700127_StoneFleshElixir_RecipeAlchemy	/RecipeItem
-5700128	Alchemy: Warrior Elixir	5700128_WarriorElixir_RecipeAlchemy	/RecipeItem
-5700129	Alchemy: Survivor Elixir	5700129_SurvivorElixir_RecipeAlchemy	/RecipeItem
-5700130	Alchemy: Golem Elixir	5700130_GolemElixir_RecipeAlchemy	/RecipeItem
-5700132	Alchemy: Dark Varnish	5700132_DarkVarnish_RecipeAlchemy	/RecipeItem
-5700137	Crafting: Ice-Flame Torch	5700137_ColdTorch_RecipeWeapon	/RecipeItem
-5700138	Crafting: Golem Rapier	5700138_GolemRapier_RecipeWeapon	/RecipeItem
-5700139	Crafting: Bullets	5700139_Bullets_Recipe	/RecipeItem
-5700146	Alchemy: Great Life Potion	5700146_MegaHealthPotion_RecipeAlchemy	/RecipeItem
-5700147	Alchemy: Great Astral Potion	5700147_MegaManaPotion_RecipeAlchemy	/RecipeItem
-5700148	Alchemy: Great Endurance Potion	5700148_MegaStaminaPotion_RecipeAlchemy	/RecipeItem
-5700152	Cooking: Bouillon du Predateur	5700152_BouillonDuPredateur_Recipe	/RecipeItem
-5700157	Crafting: Obsidian Mace	5700157_ObsidianMace_RecipeWeapon	/RecipeItem
-5700158	Crafting: Obsidian Greatmace	5700158_ObsidianGreatmace_RecipeWeapon	/RecipeItem
-5700159	Crafting: Obsidian Pistol	5700159_ObsidianPistol_RecipeWeapon	/RecipeItem
-5700161	Crafting: Manticore Dagger	5700161_ManticoreDagger_RecipeWeapon	/RecipeItem
-5700162	Crafting: Shiv Dagger	5700162_ShivDagger_RecipeWeapon	/RecipeItem
-5700163	Crafting: Bone Pistol	5700163_BonePistol_RecipeWeapon	/RecipeItem
-5700166	Crafting: Gold-Lich Claymore	5700166_GoldLichClaymore_RecipeWeapon	/RecipeItem
-5700167	Crafting: Gold-Lich Spear	5700167_GoldLichSpear_RecipeWeapon	/RecipeItem
-5700168	Crafting: Gold-Lich Sword	5700168_GoldLichSword_RecipeWeapon	/RecipeItem
-5700169	Crafting: Gold-Lich Mace	5700169_GoldLichMace_RecipeWeapon	/RecipeItem
-5700170	Crafting: Gold-Lich Shield	5700170_GoldLichShield_RecipeWeapon	/RecipeItem
-5700171	Crafting: Spikes – Iron	5700171_IronSpikes_Recipe	/RecipeItem
-5700172	Crafting: Spikes – Palladium	5700172_PalladiumSpikes_Recipe	/RecipeItem
-5700173	Alchemy: Charge – Incendiary	5700173_ChargeTrapIncendiary_Recipe	/RecipeItem
-5700174	Alchemy: Charge – Toxic	5700174_ChargeTrapToxic_Recipe	/RecipeItem
-5700175	Alchemy: Charge – Nerve Gas	5700175_ChargeTrapNerveGas_Recipe	/RecipeItem
+5700015	Cooking_ Miner’s Omelet	5700015_Miner_sOmelet_Recipe	/RecipeItem
+5700016	Cooking_ Pungent Paste	5700016_PungentPaste_Recipe	/RecipeItem
+5700017	Cooking_ Gaberries Jam	5700017_GaberryJam_Recipe	/RecipeItem
+5700018	Cooking_ Jerky	5700018_MeatJerky_Recipe	/RecipeItem
+5700019	Cooking_ Alpha Jerky	5700019_AlphaJerky_Recipe	/RecipeItem
+5700020	Cooking_ Dry Mushroom Bar	5700020_DryMushroomBar_Recipe	/RecipeItem
+5700021	Cooking_ Turmmip Potage	5700021_TurmmipPotage_Recipe	/RecipeItem
+5700022	Crafting_ Fang Axe	5700022_FangAxe_RecipeWeapon	/RecipeItem
+5700023	Crafting_ Fang Sword	5700023_FangSword_RecipeWeapon	/RecipeItem
+5700024	Crafting_ Fang Club	5700024_FangClub_RecipeWeapon	/RecipeItem
+5700025	Crafting_ Fang Trident	5700025_FangTrident_RecipeWeapon	/RecipeItem
+5700026	Crafting_ Fang Greataxe	5700026_FangGreataxe_RecipeWeapon	/RecipeItem
+5700027	Crafting_ Fang Greatsword	5700027_FangGreatsword_RecipeWeapon	/RecipeItem
+5700028	Crafting_ Fang Greatclub	5700028_FangGreatclub_RecipeWeapon	/RecipeItem
+5700029	Crafting_ Fang Halberd	5700029_FangHalberd_RecipeWeapon	/RecipeItem
+5700030	Crafting_ Fang Shield	5700030_FangShield_RecipeWeapon	/RecipeItem
+5700038	Crafting_ Tripwire Trap	5700038_TripwireTrap_Recipe	/RecipeItem
+5700046	Cooking_ Cierzo Ceviche	5700046_CierzoCevicheRecipe	/RecipeItem
+5700047	Cooking_ Luxe Lichette	5700047_LuxeLichetteRecipe	/RecipeItem
+5700048	Cooking_ Pot-au-Feu du Pirate	5700048_PotAuFeuDuPirateRecipe	/RecipeItem
+5700049	Cooking_ Alpha Sandwich	5700049_AlphaSandwich_Recipe	/RecipeItem
+5700050	Cooking_ Gaberry Tartine	5700050_GaberryTartine_Recipe	/RecipeItem
+5700058	Cooking_ Ragout du Marais	5700058_RagoutDuMarais_Recipe	/RecipeItem
+5700059	Cooking_ Savage Stew	5700059_SavagePorridge_Recipe	/RecipeItem
+5700060	Cooking_ Marshmelon Jelly	5700060_MarshmelonJelly_Recipe	/RecipeItem
+5700061	Cooking_ Marshmelon Tartine	5700061_MarshmelonTartine_Recipe	/RecipeItem
+5700065	Cooking_ Diademe de Gibier	5700065_DiademeDeGibier_Recipe	/RecipeItem
+5700066	Cooking_ Spiny Meringue	5700066_SpinyMeringue_Recipe	/RecipeItem
+5700067	Cooking_ Cactus Pie	5700067_CactusPie_Recipe	/RecipeItem
+5700068	Cooking_ Bread of the Wild	5700068_BreadOfTheWild_Recipe	/RecipeItem
+5700069	Cooking_ Fungal Cleanser	5700069_MyconicCleanser_Recipe	/RecipeItem
+5700070	Cooking_ Stringy Salad	5700070_StrignySalad_Recipe	/RecipeItem
+5700073	Cooking_ Soothing Tea	5700073_SoothingTea_Recipe	/RecipeItem
+5700074	Cooking_ Needle Tea	5700074_NeedleTea_Recipe	/RecipeItem
+5700075	Cooking_ Mineral Tea	5700075_MineralTea_Recipe	/RecipeItem
+5700076	Alchemy_ Fire Stone	5700076_FireStone_Recipe	/RecipeItem
+5700077	Crafting_ Horror Bow	5700077_HorrorBow_RecipeWeapon	/RecipeItem
+5700078	Crafting_ Horror Axe	5700078_HorrorAxe_RecipeWeapon	/RecipeItem
+5700079	Crafting_ Horror Shield	5700079_HorrorShield_RecipeWeapon	/RecipeItem
+5700080	Crafting_ Manticore Greatmace	5700080_ManticoreGreatmace_RecipeWeapon	/RecipeItem
+5700081	Crafting_ Assassin Sword	5700081_AssassinSword_RecipeWeapon	/RecipeItem
+5700082	Crafting_ Assassin Claymore	5700082_AssassinClaymore_RecipeWeapon	/RecipeItem
+5700083	Crafting_ Mantis Greatpick	5700083_MantisGreatpick_RecipeWeapon	/RecipeItem
+5700084	Crafting_ Crescent Greataxe	5700084_CrescentGreataxe_RecipeWeapon	/RecipeItem
+5700085	Crafting_ Crescent Scythe	5700085_CrescentScythe_RecipeWeapon	/RecipeItem
+5700086	Crafting_ Thorny Spear	5700086_ThornfishSpear_RecipeWeapon	/RecipeItem
+5700087	Crafting_ Thorny Claymore	5700087_ThornfishClaymore_RecipeWeapon	/RecipeItem
+5700088	Crafting_ Beast Golem Axe	5700088_BeastGolemAxe_RecipeWeapon	/RecipeItem
+5700089	Crafting_ Beast Golem Halberd	5700089_BeastGolemHalberd_RecipeWeapon	/RecipeItem
+5700090	Crafting_ Tuanosaur Axe	5700090_TuanosaurAxe_RecipeWeapon	/RecipeItem
+5700091	Crafting_ Tuanosaur Greataxe	5700091_TuanosaurGreataxe_RecipeWeapon	/RecipeItem
+5700092	Crafting_ Phytosaur Spear	5700092_PhytosaurSpear_RecipeWeapon	/RecipeItem
+5700093	Crafting_ Makeshift Leather Hat	5700093_MakeshiftLeatherHat_RecipeArmor	/RecipeItem
+5700094	Crafting_ Makeshift Leather Attire	5700094_MakeshiftLeatherAttire_RecipeArmor	/RecipeItem
+5700095	Crafting_ Makeshift Leather Boots	5700095_MakeshiftLeatherBoots_RecipeArmor	/RecipeItem
+5700096	Crafting_ Scaled Leather Hat	5700096_ScaledLeatherHat_RecipeArmor	/RecipeItem
+5700097	Crafting_ Scaled Leather Attire	5700097_ScaledLeatherAttire_RecipeArmor	/RecipeItem
+5700098	Crafting_ Scaled Leather Boots	5700098_ScaledLeatherBoots_RecipeArmor	/RecipeItem
+5700099	Crafting_ Poison Rag	5700099_PoisonRag_RecipeAlchemy	/RecipeItem
+5700100	Crafting_ Bolt Rag	5700100_LightRag_RecipeAlchemy	/RecipeItem
+5700101	Crafting_ Fire Rag	5700101_FireRag_RecipeAlchemy	/RecipeItem
+5700102	Crafting_ Ice Rag	5700102_IceRag_RecipeAlchemy	/RecipeItem
+5700103	Alchemy_ Poison Varnish	5700103_PoisonVarnish_RecipeAlchemy	/RecipeItem
+5700104	Alchemy_ Bolt Varnish	5700104_LightVarnish_RecipeAlchemy	/RecipeItem
+5700105	Alchemy_ Fire Varnish	5700105_FireVarnish_RecipeAlchemy	/RecipeItem
+5700106	Alchemy_ Ice Varnish	5700106_IceVarnish_RecipeAlchemy	/RecipeItem
+5700107	Alchemy_ Spiritual Varnish	5700107_SpiritualVarnish_RecipeAlchemy	/RecipeItem
+5700108	Alchemy_ Astral Potion	5700108_ManaPotion_RecipeAlchemy	/RecipeItem
+5700109	Alchemy_ Endurance Potion	5700109_StaminaPotion_RecipeAlchemy	/RecipeItem
+5700110	Alchemy_ Life Potion	5700110_HealthPotion_RecipeAlchemy	/RecipeItem
+5700111	Alchemy_ Antidote	5700111_Antidote_RecipeAlchemy	/RecipeItem
+5700112	Alchemy_ Rage Potion	5700112_RagePotion_RecipeAlchemy	/RecipeItem
+5700113	Alchemy_ Discipline Potion	5700113_DisciplinePotion_RecipeAlchemy	/RecipeItem
+5700114	Alchemy_ Warm Potion	5700114_WarmPotion_RecipeAlchemy	/RecipeItem
+5700115	Alchemy_ Cool Potion	5700115_CoolPotion_RecipeAlchemy	/RecipeItem
+5700116	Alchemy_ Mist Potion	5700116_MistPotion_RecipeAlchemy	/RecipeItem
+5700117	Alchemy_ Blessed Potion	5700117_BlessedPotion_RecipeAlchemy	/RecipeItem
+5700118	Alchemy_ Possessed Potion	5700118_PossessedPotion_RecipeAlchemy	/RecipeItem
+5700119	Alchemy_ Stealth Potion	5700119_StealthPotion_RecipeAlchemy	/RecipeItem
+5700120	Crafting_ Coralhorn Bow	5700120_CoralhornBow_RecipeWeapon	/RecipeItem
+5700121	Alchemy_ Elemental Immunity Potion	5700121_ElementalImmunityPotion_RecipeAlchemy	/RecipeItem
+5700122	Alchemy_ Elemental Res. Potion	5700122_ElementalResistancePotion_RecipeAlchemy	/RecipeItem
+5700123	Alchemy_ Weather Def. Potion	5700123_EnvironmentalResistancePotion_RecipeAlchemy	/RecipeItem
+5700124	Alchemy_ Stability Potion	5700124_StabilityUpPotion_RecipeAlchemy	/RecipeItem
+5700125	Alchemy_ Assassin’s Elixir	5700125_SpeedUpElixir_RecipeAlchemy	/RecipeItem
+5700126	Alchemy_ Hex Cleaner	5700126_HexCleaner_RecipeAlchemy	/RecipeItem
+5700127	Alchemy_ Stoneflesh Elixir	5700127_StoneFleshElixir_RecipeAlchemy	/RecipeItem
+5700128	Alchemy_ Warrior Elixir	5700128_WarriorElixir_RecipeAlchemy	/RecipeItem
+5700129	Alchemy_ Survivor Elixir	5700129_SurvivorElixir_RecipeAlchemy	/RecipeItem
+5700130	Alchemy_ Golem Elixir	5700130_GolemElixir_RecipeAlchemy	/RecipeItem
+5700132	Alchemy_ Dark Varnish	5700132_DarkVarnish_RecipeAlchemy	/RecipeItem
+5700137	Crafting_ Ice-Flame Torch	5700137_ColdTorch_RecipeWeapon	/RecipeItem
+5700138	Crafting_ Golem Rapier	5700138_GolemRapier_RecipeWeapon	/RecipeItem
+5700139	Crafting_ Bullets	5700139_Bullets_Recipe	/RecipeItem
+5700146	Alchemy_ Great Life Potion	5700146_MegaHealthPotion_RecipeAlchemy	/RecipeItem
+5700147	Alchemy_ Great Astral Potion	5700147_MegaManaPotion_RecipeAlchemy	/RecipeItem
+5700148	Alchemy_ Great Endurance Potion	5700148_MegaStaminaPotion_RecipeAlchemy	/RecipeItem
+5700152	Cooking_ Bouillon du Predateur	5700152_BouillonDuPredateur_Recipe	/RecipeItem
+5700157	Crafting_ Obsidian Mace	5700157_ObsidianMace_RecipeWeapon	/RecipeItem
+5700158	Crafting_ Obsidian Greatmace	5700158_ObsidianGreatmace_RecipeWeapon	/RecipeItem
+5700159	Crafting_ Obsidian Pistol	5700159_ObsidianPistol_RecipeWeapon	/RecipeItem
+5700161	Crafting_ Manticore Dagger	5700161_ManticoreDagger_RecipeWeapon	/RecipeItem
+5700162	Crafting_ Shiv Dagger	5700162_ShivDagger_RecipeWeapon	/RecipeItem
+5700163	Crafting_ Bone Pistol	5700163_BonePistol_RecipeWeapon	/RecipeItem
+5700166	Crafting_ Gold-Lich Claymore	5700166_GoldLichClaymore_RecipeWeapon	/RecipeItem
+5700167	Crafting_ Gold-Lich Spear	5700167_GoldLichSpear_RecipeWeapon	/RecipeItem
+5700168	Crafting_ Gold-Lich Sword	5700168_GoldLichSword_RecipeWeapon	/RecipeItem
+5700169	Crafting_ Gold-Lich Mace	5700169_GoldLichMace_RecipeWeapon	/RecipeItem
+5700170	Crafting_ Gold-Lich Shield	5700170_GoldLichShield_RecipeWeapon	/RecipeItem
+5700171	Crafting_ Spikes – Iron	5700171_IronSpikes_Recipe	/RecipeItem
+5700172	Crafting_ Spikes – Palladium	5700172_PalladiumSpikes_Recipe	/RecipeItem
+5700173	Alchemy_ Charge – Incendiary	5700173_ChargeTrapIncendiary_Recipe	/RecipeItem
+5700174	Alchemy_ Charge – Toxic	5700174_ChargeTrapToxic_Recipe	/RecipeItem
+5700175	Alchemy_ Charge – Nerve Gas	5700175_ChargeTrapNerveGas_Recipe	/RecipeItem
 5700176	-	5700176_WoodSpikes_Recipe	/RecipeItem
-5700178	Alchemy: Cold Stone	5700178_ColdStone_Recipe	/RecipeItem
-5700180	Crafting: Scaled Satchel	5700180_ScaledSatchel_Recipe	/RecipeItem
-5700182	Crafting: Ammolite Armor	5700182_AmmoliteArmor_Recipe	/RecipeItem
-5700183	Crafting: Ammolite Helm	5700183_AmmoliteHelmet_Recipe	/RecipeItem
-5700184	Crafting: Ammolite Boots	5700184_AmmoliteBoots_Recipe	/RecipeItem
-5700187	Crafting: Old Lantern	5700187_OldLantern_Recipe	/RecipeItem
-5700189	Crafting: Chitin Desert Tunic	5700189_DesertArmorInsect_RecipeArmor	/RecipeItem
-5700190	Recipe: Energizing Potion	5700190_EnergizingPotion_RecipeAlchemy	/RecipeItem
-5700191	Recipe: Invigorating Potion	5700191_InvigoratingPotion_RecipeAlchemy	/RecipeItem
-5700192	Recipe: Purity Potion	5700192_PurityPotion_RecipeAlchemy	/RecipeItem
-5700193	Recipe: Depravity Potion	5700193_DepravityPotion_RecipeAlchemy	/RecipeItem
-5700194	Recipe: Expulsion Potion	5700194_ExpulsionPotion_RecipeAlchemy	/RecipeItem
-5700195	Recipe: Scourge Potion	5700195_ScourgePotion_RecipeAlchemy	/RecipeItem
-5700196	Recipe: Illuminating Potion	5700196_IlluminatingPotion_RecipeAlchemy	/RecipeItem
-5700197	Recipe: HorrorPotion	5700197_HorrorPotion_RecipeAlchemy	/RecipeItem
-5700198	Recipe: Alertness Potion	5700198_AlertnessPotion_RecipeAlchemy	/RecipeItem
-5700199	Recipe: Max Alertness Potion	5700199_MaxAlertnessPotion_RecipeAlchemy	/RecipeItem
-5700200	Recipe: Flour	5700200_Flour_Recipe	/RecipeItem
-5700210	Recipe: FreshCream	5700210_FreshCream_Recipe	/RecipeItem
-5700220	Recipe: CrawlberryPie	5700220_CrawlberryJam_Recipe	/RecipeItem
-5700230	Recipe: PurpkinPie	5700230_PurpkinPie_Recipe	/RecipeItem
-5700240	Recipe: Pouding Chomeur	5700240_PoudingChomeur_Recipe	/RecipeItem
-5700250	Recipe: Angel Food Cake	5700250_AngelFoodCake_Recipe	/RecipeItem
-5700260	Recipe: Bagatelle	5700260_Bagatelle_Recipe	/RecipeItem
-5700270	Recipe: Cheese Cake	5700270_CheeseCake_Recipe	/RecipeItem
-5700280	Recipe: Cipate	5700280_Cipate_Recipe	/RecipeItem
-5700290	Recipe: Arcane Dampener	5700290_ArcaneDampener_Recipe	/RecipeItem
+5700178	Alchemy_ Cold Stone	5700178_ColdStone_Recipe	/RecipeItem
+5700180	Crafting_ Scaled Satchel	5700180_ScaledSatchel_Recipe	/RecipeItem
+5700182	Crafting_ Ammolite Armor	5700182_AmmoliteArmor_Recipe	/RecipeItem
+5700183	Crafting_ Ammolite Helm	5700183_AmmoliteHelmet_Recipe	/RecipeItem
+5700184	Crafting_ Ammolite Boots	5700184_AmmoliteBoots_Recipe	/RecipeItem
+5700187	Crafting_ Old Lantern	5700187_OldLantern_Recipe	/RecipeItem
+5700189	Crafting_ Chitin Desert Tunic	5700189_DesertArmorInsect_RecipeArmor	/RecipeItem
+5700190	Alchemy_ Energize Potion	5700190_EnergizingPotion_RecipeAlchemy	/RecipeItem
+5700191	Alchemy_ Invigorate Potion	5700191_InvigoratingPotion_RecipeAlchemy	/RecipeItem
+5700192	Alchemy_ Purity Potion	5700192_PurityPotion_RecipeAlchemy	/RecipeItem
+5700193	Alchemy_ Quartz Potion	5700193_DepravityPotion_RecipeAlchemy	/RecipeItem
+5700194	Alchemy_ Sanctifier Potion	5700194_ExpulsionPotion_RecipeAlchemy	/RecipeItem
+5700195	Alchemy_ Innocence Potion	5700195_ScourgePotion_RecipeAlchemy	/RecipeItem
+5700196	Alchemy_ Illuminating Potion	5700196_IlluminatingPotion_RecipeAlchemy	/RecipeItem
+5700197	Alchemy_ Horror’s Potion	5700197_HorrorPotion_RecipeAlchemy	/RecipeItem
+5700198	Alchemy_ Alertness Potion	5700198_AlertnessPotion_RecipeAlchemy	/RecipeItem
+5700199	Alchemy_ Spiked Alertness Potion	5700199_MaxAlertnessPotion_RecipeAlchemy	/RecipeItem
+5700200	Cooking_ Flour	5700200_Flour_Recipe	/RecipeItem
+5700210	Cooking_ Fresh Cream	5700210_FreshCream_Recipe	/RecipeItem
+5700220	Cooking_ Crawlberry Jam	5700220_CrawlberryJam_Recipe	/RecipeItem
+5700230	Cooking_ Purpkin Pie	5700230_PurpkinPie_Recipe	/RecipeItem
+5700240	Cooking_ Pouding Chomeur	5700240_PoudingChomeur_Recipe	/RecipeItem
+5700250	Cooking_ Angel Food Cake	5700250_AngelFoodCake_Recipe	/RecipeItem
+5700260	Cooking_ Bagatelle	5700260_Bagatelle_Recipe	/RecipeItem
+5700270	Cooking_ Cheese Cake	5700270_CheeseCake_Recipe	/RecipeItem
+5700280	Cooking_ Cipate	5700280_Cipate_Recipe	/RecipeItem
+5700290	Crafting_ Pressure Plate Arcane Dampener	5700290_ArcaneDampener_Recipe	/RecipeItem
+5700300	Recipe_ Virgin Sword	5700300_VirginSword_Recipe	/RecipeItem
+5700301	Recipe_ Virgin Claymore	5700301_VirginClaymore_Recipe	/RecipeItem
+5700302	Recipe_ Virgin Mace	5700302_VirginMace_Recipe	/RecipeItem
+5700303	Recipe_ Virgin Greathammer	5700303_VirginGreathammer_Recipe	/RecipeItem
+5700304	Recipe_ Virgin Axe	5700304_VirginAxe_Recipe	/RecipeItem
+5700305	Recipe_ Virgin Greataxe	5700305_VirginGreataxe_Recipe	/RecipeItem
+5700306	Recipe_ Virgin Chakram	5700306_VirginChakram_Recipe	/RecipeItem
+5700307	Recipe_ Virgin Bow	5700307_VirginBow_Recipe	/RecipeItem
+5700308	Recipe_ Virgin Halberd	5700308_VirginHalberd_Recipe	/RecipeItem
+5700309	Recipe_ Virgin Spear	5700309_VirginSpear_Recipe	/RecipeItem
+5700310	Recipe_ Virgin Shield	5700310_VirginShield_Recipe	/RecipeItem
+5700311	Crafting_ Galvanic Mace	5700311_GalvanicMace_Recipe	/RecipeItem
+5700312	Crafting_ Galvanic Great Mace	5700312_GalvanicGreathammer_Recipe	/RecipeItem
+5700313	Crafting_ Galvanic Axe	5700313_GalvanicAxe_Recipe	/RecipeItem
+5700314	Crafting_ Galvanic Great Axe	5700314_GalvanicGreataxe_Recipe	/RecipeItem
+5700315	Crafting_ Galvanic Dagger	5700315_GalvanicDagger_Recipe	/RecipeItem
+5700316	Crafting_ Galvanic Pistol	5700316_GalvanicPistol_Recipe	/RecipeItem
+5700317	Crafting_ Galvanic Bow	5700317_GalvanicBow_Recipe	/RecipeItem
+5700318	Crafting_ Galvanic Halberd	5700318_GalvanicHalberd_Recipe	/RecipeItem
+5700319	Crafting_ Galvanic Spear	5700319_GalvanicSpear_Recipe	/RecipeItem
+5700320	Crafting_ Galvanic Shield	5700320_GalvanicShield_Recipe	/RecipeItem
+5700321	Crafting_ Galvanic Fists	5700321_GalvanicFist_Recipe	/RecipeItem
+5700322	Crafting_ Horror Sword	5700322_HorrorSword_Recipe	/RecipeItem
+5700323	Crafting_ Horror Greatsword__	5700323_HorrorClaymore_Recipe	/RecipeItem
+5700324	Crafting_ Horror Mace	5700324_HorrorMace_Recipe	/RecipeItem
+5700325	Crafting_ Horror Great Mace	5700325_HorrorGreathammer_Recipe	/RecipeItem
+5700326	Crafting_ Horror Great Axe	5700326_HorrorGreataxe_Recipe	/RecipeItem
+5700327	Crafting_ Horror Spear	5700327_HorrorSpear_Recipe	/RecipeItem
+5700328	Crafting_ Horror Halberd	5700328_HorrorHalberd_Recipe	/RecipeItem
+5700329	Crafting_ Horror Pistol	5700329_HorrorPistol_Recipe	/RecipeItem
+5700330	Crafting_ Horror Chakram__	5700330_HorrorChakram_Recipe	/RecipeItem
+5700331	Crafting_ Horror Fist__	5700331_HorrorFist_Recipe	/RecipeItem
+5700332	Crafting_ Horror Armor	5700332_HorrorArmor_Recipe	/RecipeItem
+5700333	Crafting_ Horror Helmet	5700333_HorrorHelmet_Recipe	/RecipeItem
+5700334	Crafting_ Horror Boots	5700334_HorrorBoots_Recipe	/RecipeItem
+5700335	Crafting_ Cloth Knuckles	5700335_ClothKnuckles_Recipe	/RecipeItem
+5700336	Crafting_ Iron Knuckles	5700336_IronFist_Recipe	/RecipeItem
+5700337	Crafting_ Fang Knuckles	5700337_FangFist_Recipe	/RecipeItem
+5700338	Crafting_ Scourge Cocoon	5700338_ScourgeCocoon_Recipe	/RecipeItem
+5700339	Crafting_ Boozu Backpack	5700339_BoozuBackpack_Recipe	/RecipeItem
+5700340	Crafting_ Virgin Lantern Refill	5700340_VirginLanternRefill_Recipe	/RecipeItem
+5700341	Alchemy_ Monarch Incense	5700341_MonarchIncense_Recipe	/RecipeItem
+5700342	Alchemy_ Admiral Incense	5700342_AdmiralIncense_Recipe	/RecipeItem
+5700343	Alchemy_ Pale Beauty Incense	5700343_PaleBeautyIncense_Recipe	/RecipeItem
+5700344	Alchemy_ Chysalis Incense	5700344_ChysalisIncense_Recipe	/RecipeItem
+5700345	Alchemy_ Cecropia Incense	5700345_CecropiaIncense_Recipe	/RecipeItem
+5700346	Alchemy_ Morpho Incense	5700346_MorphoIncense_Recipe	/RecipeItem
+5700347	Alchemy_ Sylphina Incense	5700347_SylphinaIncense_Recipe	/RecipeItem
+5700348	Alchemy_ Comet Incense	5700348_CometIncense_Recipe	/RecipeItem
+5700349	Alchemy_ Luna Incense	5700349_LunaIncense_Recipe	/RecipeItem
+5700350	Alchemy_ Apollo Incense	5700350_ApolloIncense_Recipe	/RecipeItem
+5700351	Cooking_ Bread	5700351_Bread_Recipe	/RecipeItem
+5700352	Cooking_ Crawlberry Tartine	5700352_CrawlberryTartine_Recipe	/RecipeItem
+5700353	Alchemy_ Alpha Meat	5700353_AlphaMeat_Recipe	/RecipeItem
+5700397	Crafting_ Golden Knuckles	5700397_GoldLichKnuckles_Recipe	/RecipeItem
+5800001	Enchanting_ Castigation	5800001_Castigation_EnchantmentRecipe	/EnchantmentRecipeItem
+5800002	Enchanting_ Humiliation	5800002_Humiliation_EnchantmentRecipe	/EnchantmentRecipeItem
+5800003	Enchanting_ Thirst	5800003_Thirst_EnchantmentRecipe	/EnchantmentRecipeItem
+5800004	Enchanting_ Favorable Wind	5800004_FavorableWind_EnchantmentRecipe	/EnchantmentRecipeItem
+5800005	Enchanting_ Forge Fire	5800005_ForgeFire_EnchantmentRecipe	/EnchantmentRecipeItem
+5800006	Enchanting_ Wendigo’s Breath	5800006_Wendigo'sBreath_EnchantmentRecipe	/EnchantmentRecipeItem
+5800007	Enchanting_ Priest’s Prayers	5800007_Priest'sPrayers_EnchantmentRecipe	/EnchantmentRecipeItem
+5800008	Enchanting_ Scourge’s Outbreak	5800008_Scourge'sOutbreak_EnchantmentRecipe	/EnchantmentRecipeItem
+5800009	Enchanting_ Specter’s Wail	5800009_Specter'sWail_EnchantmentRecipe	/EnchantmentRecipeItem
+5800010	Enchanting_ Desert’s Sun	5800010_Desert'sSun_EnchantmentRecipe	/EnchantmentRecipeItem
+5800011	Enchanting_ Winter’s Cruelty	5800011_Winter'sCruelty_EnchantmentRecipe	/EnchantmentRecipeItem
+5800012	Enchanting_ Foggy Memories	5800012_FoggyMemories_EnchantmentRecipe	/EnchantmentRecipeItem
+5800013	Enchanting_ Rot	5800013_Rot_EnchantmentRecipe	/EnchantmentRecipeItem
+5800014	Enchanting_ Storm	5800014_Storm_EnchantmentRecipe	/EnchantmentRecipeItem
+5800015	Enchanting_ The Good Moon	5800015_TheGoodMoon_EnchantmentRecipe	/EnchantmentRecipeItem
+5800016	Enchanting_ Forbidden Knowledge	5800016_ForbiddenKnowledge_EnchantmentRecipe	/EnchantmentRecipeItem
+5800017	Enchanting_ Sanguine Flame	5800017_SanguineFlame_EnchantmentRecipe	/EnchantmentRecipeItem
+5800018	Enchanting_ Copper Flame	5800018_CopperFlame_EnchantmentRecipe	/EnchantmentRecipeItem
+5800019	Enchanting_ Angel Light	5800019_AngelLight_EnchantmentRecipe	/EnchantmentRecipeItem
+5800020	Enchanting_ Blaze Blue	5800020_BlazeBlue_EnchantmentRecipe	/EnchantmentRecipeItem
+5800021	Enchanting_ Rain	5800021_Rain_EnchantmentRecipe	/EnchantmentRecipeItem
+5800022	Enchanting_ Compass	5800022_Compass_EnchantmentRecipe	/EnchantmentRecipeItem
+5800023	Enchanting_ Guidance of Wind	5800023_GuidanceofWind_EnchantmentRecipe	/EnchantmentRecipeItem
+5800024	Enchanting_ Spirit of Cierzo	5800024_SpiritofCierzo_EnchantmentRecipe	/EnchantmentRecipeItem
+5800025	Enchanting_ Spirit of Berg	5800025_SpiritofBerg_EnchantmentRecipe	/EnchantmentRecipeItem
+5800026	Enchanting_ Spirit of Levant	5800026_SpiritofLevant_EnchantmentRecipe	/EnchantmentRecipeItem
+5800027	Enchanting_ Spirit of Harmattan	5800027_SpiritofHarmattan_EnchantmentRecipe	/EnchantmentRecipeItem
+5800028	Enchanting_ Spirit of Monsoon	5800028_SpiritofMonsoon_EnchantmentRecipe	/EnchantmentRecipeItem
+5800029	Enchanting_ Instinct	5800029_Instinct_EnchantmentRecipe	/EnchantmentRecipeItem
+5800030	Enchanting_ Adrenaline	5800030_Adrenaline_EnchantmentRecipe	/EnchantmentRecipeItem
+5800031	Enchanting_ Musing of a Philosopher	5800031_MusingofaPhilosopher_EnchantmentRecipe	/EnchantmentRecipeItem
+5800032	Enchanting_ Irrepressible Anger	5800032_IrrepressibleAnger_EnchantmentRecipe	/EnchantmentRecipeItem
+5800033	Enchanting_ Whiplash	5800033_Whiplash_EnchantmentRecipe	/EnchantmentRecipeItem
+5800034	Enchanting_ Aegis	5800034_Aegis_EnchantmentRecipe	/EnchantmentRecipeItem
+5800035	Enchanting_ Isolated Rumination	5800035_IsolatedRumination_EnchantmentRecipe	/EnchantmentRecipeItem
+5800036	Enchanting_ Primal Wind	5800036_PrimalWind_EnchantmentRecipe	/EnchantmentRecipeItem
+5800037	Enchanting_ Abundance	5800037_Abundance_EnchantmentRecipe	/EnchantmentRecipeItem
+5800038	Enchanting_ Light as Wind	5800038_LightasWind_EnchantmentRecipe	/EnchantmentRecipeItem
+5800039	Enchanting_ Unexpected Resilience	5800039_UnexpectedResilience_EnchantmentRecipe	/EnchantmentRecipeItem
+5800040	Enchanting_ Unsuspected Strength	5800040_UnsuspectedStrength_EnchantmentRecipe	/EnchantmentRecipeItem
+5800041	Enchanting_ Unassuming Ingenuity	5800041_UnassumingIngenuity_EnchantmentRecipe	/EnchantmentRecipeItem
+5800042	Enchanting_ Unwavering Determination	5800042_UnwaveringDetermination_EnchantmentRecipe	/EnchantmentRecipeItem
+5800043	Enchanting_ Crumbling Anger	5800043_CrumblingAnger_EnchantmentRecipe	/EnchantmentRecipeItem
+5800044	Enchanting_ War Memento	5800044_WarMemento_EnchantmentRecipe	/EnchantmentRecipeItem
+5800045	Enchanting_ Elatt’s Sanctity	5800045_Elatt'sSanctity_EnchantmentRecipe	/EnchantmentRecipeItem
+5800046	Enchanting_ Twang	5800046_Twang_EnchantmentRecipe	/EnchantmentRecipeItem
+5800047	Enchanting_ Filter	5800047_Filter_EnchantmentRecipe	/EnchantmentRecipeItem
+5800048	Enchanting_ Flux	5800048_Flux_EnchantmentRecipe	/EnchantmentRecipeItem
+5800049	Enchanting_ Warmaster	5800049_Warmaster_EnchantmentRecipe	/EnchantmentRecipeItem
+5800050	Enchanting_ Inner Cool	5800050_InnerCool_EnchantmentRecipe	/EnchantmentRecipeItem
+5800051	Enchanting_ Inner Warmth	5800051_InnerWarmth_EnchantmentRecipe	/EnchantmentRecipeItem
+5800052	Enchanting_ Cocoon	5800052_Cocoon_EnchantmentRecipe	/EnchantmentRecipeItem
+5800053	Enchanting_ Assassin	5800053_Assassin_EnchantmentRecipe	/EnchantmentRecipeItem
+5800054	Enchanting_ Economy	5800054_Economy_EnchantmentRecipe	/EnchantmentRecipeItem
+5800055	Enchanting_ Formless Material	5800055_FormlessMaterial_EnchantmentRecipe	/EnchantmentRecipeItem
+5800056	Enchanting_ Arcane Unison	5800056_ArcaneUnison_EnchantmentRecipe	/EnchantmentRecipeItem
+5800057	Enchanting_ Rascal’s Verve	5800057_Rascal'sVerve_EnchantmentRecipe	/EnchantmentRecipeItem
+5800058	Enchanting_ Beast of Burden	5800058_BeastofBurden_EnchantmentRecipe	/EnchantmentRecipeItem
+5800059	Enchanting_ Enkindle	5800059_Enkindle_EnchantmentRecipe	/EnchantmentRecipeItem
+5800060	Enchanting_ Snow	5800060_Snow_EnchantmentRecipe	/EnchantmentRecipeItem
+5800061	Enchanting_ Rainbow Hex	5800061_RainbowHex_EnchantmentRecipe	/EnchantmentRecipeItem
+5800062	Enchanting_ Abomination	5800062_Abomination_EnchantmentRecipe	/EnchantmentRecipeItem
+5800063	Enchanting_ Redemption	5800063_Redemption_EnchantmentRecipe	/EnchantmentRecipeItem
+5800064	Enchanting_ Weightless	5800064_Weightless_EnchantmentRecipe	/EnchantmentRecipeItem
+5800065	Enchanting_ Poltergeist	5800065_Poltergeist_EnchantmentRecipe	/EnchantmentRecipeItem
+5800066	Enchanting_ Stabilizing Forces	5800066_StabilizingForces_EnchantmentRecipe	/EnchantmentRecipeItem
+5800067	Enchanting_ Speed and Efficiency	5800067_SpeedandEfficiency_EnchantmentRecipe	/EnchantmentRecipeItem
+5800068	Enchanting_ Order and Discipline	5800068_OrderandDiscipline_EnchantmentRecipe	/EnchantmentRecipeItem
+5800069	Enchanting_ Chaos and Creativity	5800069_ChaosandCreativity_EnchantmentRecipe	/EnchantmentRecipeItem
 6000010	Firefly powder	6000010_FireflyPowder	/_Unsorted
 6000020	Greasy Fern	6000020_GreasyFern	/_Unsorted
 6000030	Livweedi	6000030_Livweedi	/_Unsorted
@@ -1016,16 +1263,24 @@
 6000060	Seaweed	6000060_Seaweed	/_Unsorted
 6000070	Salt	6000070_Salt	/_Unsorted
 6000080	-	6000080_Rafflampy	/_Unsorted
-6000090	-	6000090_Tannin	/_Unsorted
 6000100	Frankincense	6000100_Frankincense	/_Unsorted
-6000110	Elemental Particle Fire	6000110_ElementalParticleFire	/_Unsorted
-6000120	Elemental Particle Ice	6000120_ElementalParticleIce	/_Unsorted
-6000130	Elemental Particles Light	6000130_ElementalParticleLight	/_Unsorted
-6000140	Elemental Particle Decay	6000140_ElementalParticleDecay	/_Unsorted
-6000150	Elemental Particle Ether	6000150_ElementalParticleEther	/_Unsorted
+6000110	Elemental Particle – Fire	6000110_ElementalParticleFire	/_Unsorted
+6000120	Elemental Particle – Ice	6000120_ElementalParticleIce	/_Unsorted
+6000130	Elemental Particle – Light	6000130_ElementalParticleLight	/_Unsorted
+6000140	Elemental Particle – Decay	6000140_ElementalParticleDecay	/_Unsorted
+6000150	Elemental Particle – Ether	6000150_ElementalParticleEther	/_Unsorted
 6000160	Liquid Corruption	6000160_LiquidCorruption	/_Unsorted
 6000170	Purifying Quartz	6000170_PurifyingQuartz	/_Unsorted
 6000180	Apollo Incense	6000180_ApolloIncense	/_Unsorted
+6000190	Admiral Incense	6000190_AdmiralIncense	/_Unsorted
+6000200	Monarch Incense	6000200_MonarchIncense	/_Unsorted
+6000210	Pale Beauty Incense	6000210_PaleBeautyIncense	/_Unsorted
+6000220	Chrysalis Incense	6000220_ChrysalisIncense	/_Unsorted
+6000230	Luna Incense	6000230_LunaIncense	/_Unsorted
+6000240	Morpho Incense	6000240_MorphoIncense	/_Unsorted
+6000250	Sylphina Incense	6000250_SylphinaIncense	/_Unsorted
+6000260	Comet Incense	6000260_CometIncense	/_Unsorted
+6000270	Cecropia Incense	6000270_CecropiaIncense	/_Unsorted
 6100000	Everlasting Wood	6100000_EverlastingWood	/_Unsorted
 6100010	Wood	6100010_Wood	/_Unsorted
 6100020	Coal	6100020_Coal	/_Unsorted
@@ -1054,15 +1309,11 @@
 6400110	Blue Sand	6400110_BlueSand	/_Unsorted
 6400130	Mana Stone	6400130_ManaStone	/_Unsorted
 6400140	Iron Scrap	6400140_IronScrap	/_Unsorted
-6400141	Shield Golem Scrap	6400141_ShieldGolemScrap	/_Unsorted
+6400141	Shield Golem Scraps	6400141_ShieldGolemScrap	/_Unsorted
 6400150	-	6400150_Jade	/_Unsorted
 6500010	Fire Stone	6500010_FireStone	/_Unsorted
 6500020	Cold Stone	6500020_ColdStone	/_Unsorted
-6500030	-	6500030_DarkStone	/_Unsorted
-6500040	-	6500040_LightStone	/_Unsorted
-6500050	-	6500050_ElectricStone	/_Unsorted
-6500060	-	6500060_NecroStone	/_Unsorted
-6500070	-	6500070_DecayStone	/_Unsorted
+6500031	Dark Stone	6500031_DarkStone	/_Unsorted
 6500080	-	6500080_SoulCandle	/_Unsorted
 6500090	Linen Cloth	6500090_LinenClothes	/_Unsorted
 6500100	Spikes – Iron	6500100_IronSpikeTrap	/_Unsorted
@@ -1071,11 +1322,12 @@
 6500130	Charge – Toxic	6500130_ChargeTrapToxic	/_Unsorted
 6500140	Charge – Nerve Gas	6500140_ChargeTrapNerveGas	/_Unsorted
 6500150	Spikes – Wood	6500150_WoodSpikeTrap	/_Unsorted
+6500160	Arcane Dampener	6500160_ArcaneDampenerChargeTrap	/_Unsorted
 6600010	Wheat	6600010_Wheat	/_Unsorted
 6600011	Sugar	6600011_Sugar	/_Unsorted
-6600012	Sting Leaf	6600012_Stingleaf	/_Unsorted
+6600012	Stingleaf	6600012_Stingleaf	/_Unsorted
 6600020	Hide	6600020_Hide	/_Unsorted
-6600021	Boozu Hide	6600021_BoozuHide	/_Unsorted
+6600021	Boozu’s Hide	6600021_BoozuHide	/_Unsorted
 6600030	Scaled Leather	6600030_ScaledHide	/_Unsorted
 6600040	Crystal Powder	6600040_CrystalPowder	/Food
 6600050	Predator Bones	6600050_PredatorBones	/_Unsorted
@@ -1104,9 +1356,9 @@
 6600225	Calixa’s Relic	6600225_BossReward_Ing_CalixaRelic	/_Unsorted
 6600226	Leyline Figment	6600226_BossReward_Ing_LeylineFigment	/_Unsorted
 6600227	Vendavel's Hospitality	6600227_BossReward_Ing_VendavelHospitality	/_Unsorted
-6600228	DLC Special Boss 01	6600228_BossReward_Ing_DLCBoss_Special_01	/_Unsorted
-6600229	DLC Special Boss 02	6600229_BossReward_Ing_DLCBoss_Special_02	/_Unsorted
-6600230	DLC_Special Boss 03	6600230_BossReward_Ing_DLCBoss_Special_03	/_Unsorted
+6600228	Flowering Corruption	6600228_BossReward_Ing_DLCBoss_Special_01	/_Unsorted
+6600229	Enchanted Mask	6600229_BossReward_Ing_DLCBoss_Special_02	/_Unsorted
+6600230	Metalized Bones	6600230_BossReward_Ing_DLCBoss_Special_03	/_Unsorted
 7000001	Aurelie Test Quest	700000X_AurelieTestQuest	/Quest
 7000010	Test Quest - Find Lantern	7000010_TestQuest	/Quest
 7000011	Test Side Quest - Find Lantern	7000011_TestSideQuest	/Quest
@@ -1128,28 +1380,29 @@
 7011302	Sand Corsairs	7011302_HeroicKingdom_SandCorsairs_Quest	/Quest
 7011303	Mouths to Feed	7011303_HeroicKingdom_MouthToFeed_Quest	/Quest
 7011304	Heroic Peacemaker	7011304_HeroicKingdom_HeroicPeacemaker_Quest	/Quest
-7011400	QName_S_Prequest 1	7011400_Soroborian_PreQuest 1	/Quest
+7011400	Enrollment	7011400_Soroborian_PreQuest 1	/Quest
 7011401	Up the Ladder	7011401_Soroborian_BackgroundAssassin_Quest01	/Quest
 7011402	A Knife in the Back	7011402_Soroborian_SwitchToArcane_Quest02	/Quest
 7011403	Cloak and Dagger	7011403_Soroborian_SabotageMission_Quest03	/Quest
 7011404	A House Divided	7011404_Soroborian_DebatePreparation_Quest04	/Quest
 7011405	Bloody Business	7011405_Soroborian_BloodMage_SmallQuest	/Quest
+7011406	Rust and Vengeance	7011406_Soroborian_QuestParallel	/Quest
 7011501	Well-Earned Rest	7011501_Neutral_Tranquility_Quest	/Quest
 7011601	Helen’s Fungus	7011601_Neutral_TrogMush_Quest	/Quest
-7011602	Need: Cierzo Ceviche	7011602_Neutral_CierzoCook_Quest	/Quest
-7011603	Alchemy: Crystal Powder	7011603_Neutral_CierzoAlchemist_Quest	/Quest
+7011602	Need_ Cierzo Ceviche	7011602_Neutral_CierzoCook_Quest	/Quest
+7011603	Alchemy_ Crystal Powder	7011603_Neutral_CierzoAlchemist_Quest	/Quest
 7011604	Ledger to Berg	7011604_Neutral_CierzoGeneralStore_Quest	/Quest
-7011605	Craft: Blue Sand Armor	7011605_Neutral_CierzoBlacksmith_Quest	/Quest
-7011606	Need: Manticore Tail	7011606_Neutral_BergCook_Quest	/Quest
-7011607	Alchemy: Cold Stone	7011607_Neutral_BergAlchemist_Quest	/Quest
-7011608	Need: Beast Golem Scraps	7011608_Neutral_BergAssassin_Quest	/Quest
-7011609	Craft: Copal & Petrified Armor	7011609_Neutral_BergBlacksmith_Quest	/Quest
+7011605	Craft_ Blue Sand Armor	7011605_Neutral_CierzoBlacksmith_Quest	/Quest
+7011606	Need_ Manticore Tail	7011606_Neutral_BergCook_Quest	/Quest
+7011607	Alchemy_ Cold Stone	7011607_Neutral_BergAlchemist_Quest	/Quest
+7011608	Need_ Beast Golem Scraps	7011608_Neutral_BergAssassin_Quest	/Quest
+7011609	Craft_ Copal & Petrified Armor	7011609_Neutral_BergBlacksmith_Quest	/Quest
 7011610	Ledger to Levant	7011610_Neutral_MonsoonGeneralStore_Quest	/Quest
-7011611	Craft: Palladium Armor	7011611_Neutral_MonsoonBlacksmith_Quest	/Quest
+7011611	Craft_ Palladium Armor	7011611_Neutral_MonsoonBlacksmith_Quest	/Quest
 7011612	Ledger to Cierzo	7011612_Neutral_LevantGeneralStore_Quest	/Quest
-7011613	Need: Shark Cartilage	7011613_Neutral_LevantCook_Quest	/Quest
+7011613	Need_ Shark Cartilage	7011613_Neutral_LevantCook_Quest	/Quest
 7011614	Lost Merchant	7011614_Neutral_LevantSmuggler_Quest	/Quest
-7011615	Craft: Tsar & Tenebrous Armor	7011615_Neutral_LevantBlacksmith_Quest	/Quest
+7011615	Craft_ Tsar & Tenebrous Armor	7011615_Neutral_LevantBlacksmith_Quest	/Quest
 7011616	Treasure Hunt	7011616_Neutral_TreasureHunt_Quest	/Quest
 7011617	Silver for the Slums	7011617_Neutral_SlumsHelp_Quest	/Quest
 7011618	Strange Apparitions	7011618_Neutral_MageBackpack_Quest	/Quest
@@ -1163,6 +1416,12 @@
 7011626	Ledger to Monsoon	7011626_Neutral_BergGeneralStore_Quest	/Quest
 7011627	Purify the Water	7011627_Neutral_WaterMachine_Quest	/Quest
 7011628	A Myriad of Bones	7011628_Neutral_MyriadeHM_Quest	/Quest
+7011630	Need_ Fire Elemental Particles	7011630 _Soroborian_MarketArmor_Quest	/Quest
+7011631	Need_ Shield Golem Scrap	7011631 _Soroborian_MarketWeapon_Quest	/Quest
+7011632	Need_ Angel Food Cake	7011632 _Soroborian_MarketCamp_Quest	/Quest
+7011633	Need_ Manaheart Bass	7011633 _Soroborian_MarketFood_Quest	/Quest
+7011634	Need_ Tourmaline	7011634 _Soroborian_MarketGeneral_Quest	/Quest
+7011635	Craft_ Antique Garb Armor	7011635_Neutral_HarmattanBlacksmith_Quest	/Quest
 7021999	Cierzo's Inn	7021999_CierzosInn	/Quest
 7022999	Monsoon's Inn	7022999_MonsoonsInn	/Quest
 7023999	Levant's Inn	7023999_LevantsInn	/Quest
@@ -1178,9 +1437,9 @@
 7021010	Item	7021010_BreaktheWall	/Quest
 7021011	Item	7021011_CierzoDrownies	/Quest
 7022001	Item	7022001_PilgrimRoad	/Quest
-7091000	Cursed Water Quest - Herman's Meeting 	7091000_GreasyFernQuestBackup	/Quest
+7091000	Cursed Water Quest - Herman's Meeting	7091000_GreasyFernQuestBackup	/Quest
 7091002	TreasureHunt	7091002_TreasureHuntQuestBackup	/Quest
-7091201	Cursed Water Quest - Herman's Meeting 	7091201_Monsoon_WaterQuestBackup	/Quest
+7091201	Cursed Water Quest - Herman's Meeting	7091201_Monsoon_WaterQuestBackup	/Quest
 7091202	Monsoon - Find the alchemist	7091202_Monsoon_FindAlchemistQuestBackup	/Quest
 7312001	Karmock's Phylactery (Complete)	7312001_KarmocksPhylactery	/_Unsorted
 7312002	Karmock's Phylactery (Fragment)	7312002_KarmocksPhylacteryFragment	/ItemFragment
@@ -1192,8 +1451,8 @@
 7400060	Old Levant Banner	7400060_OldLevantBanner	/_Unsorted
 7400070	Conflux Supplies	7400070_ConfluxSupplies	/_Unsorted
 8000000	Soul	8000000_Soul	/_Unsorted
-8000001	Runic Trap	8000001_RunicTrap	/ItemContainer/DeployableTrap
-8000002	Runic Trap Amplified	8000002_RunicTrapAmplified	/ItemContainer/DeployableTrap
+8000001	Runic Trap	8000001_RunicTrap	/ItemContainer/SingleItemContainer/DeployableTrap
+8000002	Runic Trap Amplified	8000002_RunicTrapAmplified	/ItemContainer/SingleItemContainer/DeployableTrap
 8000010	Activated Firestone	8000010_ActivatedFireSigil	/_Unsorted
 8000011	Activated Bloodstone	8000011_ActivatedBloodSigil	/_Unsorted
 8000020	Soul candle	8000020_LitCandle	/_Unsorted
@@ -1220,10 +1479,10 @@
 8100140	Mana Ward	8100140_ForceBubble	/Skill
 8100150	Conjure	8100150_ForceRaise	/Skill
 8100190	Shield Charge	8100190_ShieldCharge	/Skill/AttackSkill/MeleeSkill
-8100210	Rune: Dez	8100210_DezRunes	/Skill/AttackSkill
-8100220	Rune: Shim	8100220_ShimRunes	/Skill/AttackSkill
-8100230	Rune: Egoth	8100230_EgothRunes	/Skill/AttackSkill
-8100240	Rune: Fal	8100240_FalRunes	/Skill/AttackSkill
+8100210	Rune_ Dez	8100210_DezRunes	/Skill/AttackSkill
+8100220	Rune_ Shim	8100220_ShimRunes	/Skill/AttackSkill
+8100230	Rune_ Egoth	8100230_EgothRunes	/Skill/AttackSkill
+8100240	Rune_ Fal	8100240_FalRunes	/Skill/AttackSkill
 8100250	Chakram Pierce	8100250_ChakramPierce	/Skill/AttackSkill/MeleeSkill
 8100251	Chakram Dance	8100251_ChakramDance	/Skill/AttackSkill/MeleeSkill
 8100252	Chakram Arc	8100252_ChakramArc	/Skill/AttackSkill/MeleeSkill
@@ -1247,6 +1506,7 @@
 8200030	Sigil of Wind	8200030_AirSigil	/Skill
 8200031	Sigil of Fire	8200031_FireSigil	/Skill
 8200032	Sigil of Ice	8200032_FrostSigil	/Skill
+8200033	Blood Sigil	8200033_BloodSigil	/Skill
 8200040	Spark	8200040_ForceSpark	/Skill/AttackSkill
 8200110	Enrage	8200110_AddRage	/Skill/AttackSkill
 8200120	Focus	8200120_AddDiscipline	/Skill/AttackSkill
@@ -1272,10 +1532,23 @@
 8200280	Doom	8200280_AddDoom	/Skill/AttackSkill
 8200290	Curse	8200290_AddCurse	/Skill/AttackSkill
 8200300	Call to Elements	8200300_CallToElements	/Skill/AttackSkill
-8200600	Fire/Reload	8200600_FireReload	/Skill/AttackSkill/PistolSkill
+8200600	Fire_Reload	8200600_FireReload	/Skill/AttackSkill/PistolSkill
 8200601	Frost Bullet	8200601_LoadFrostBullet	/Skill/AttackSkill/PistolSkill
 8200602	Blood Bullet	8200602_LoadBloodBullet	/Skill/AttackSkill/PistolSkill
 8200603	Shatter Bullet	8200603_LoadShatterBullet	/Skill/AttackSkill/PistolSkill
+8201000	Jinx	8201000_Jinx	/Skill/AttackSkill
+8201010	Torment	8201010_Torment	/Skill/AttackSkill
+8201011	Rupture	8201011_Rupture	/Skill/AttackSkill
+8201020	Scorch Hex	8201020_Scorch	/Skill/AttackSkill
+8201021	Chill Hex	8201021_Chill	/Skill/AttackSkill
+8201022	Doom Hex	8201022_Doom	/Skill/AttackSkill
+8201023	Curse Hex	8201023_Curse	/Skill/AttackSkill
+8201024	Haunt Hex	8201024_Haunt	/Skill/AttackSkill
+8201027	Bloodlust	8201027_BloodLust	/Skill/PassiveSkill/BloodLustPassiveSkill
+8201028	Nightmares	8201028_Nightmares	/Skill/PassiveSkill
+8201029	Cleanse	8201029_Cleanse	/Skill
+8201030	Lockwell's Revelation	8201030_LockwellsRevelation	/Skill/NeedPassiveSkill
+8201040	Prismatic Flurry	8201040_PrismaticFlurry	/Skill/AttackSkill/MeleeSkill
 8205000	Marathoner	8205000_Marathoner	/Skill/PassiveSkill
 8205010	Weather Tolerance	8205010_EnvironmentalResistance	/Skill/PassiveSkill
 8205020	Spellblade's Awakening	8205020_BonusBasicStats	/Skill/PassiveSkill
@@ -1314,6 +1587,16 @@
 8205330	Blood of Giants	8205330_BloodOfGiants	/Skill/PassiveSkill
 8205340	Ancestors' Memories	8205340_AncestorsMemories	/Skill/PassiveSkill
 8205350	Alchemical Experiment	8205350_AlchemicalExperiment	/Skill/PassiveSkill
+8205400	Efficiency	8205400_Efficiency	/Skill/PassiveSkill
+8205401	Metabolic Purge	8205401_MetabolicPurge	/Skill/PassiveSkill
+8205402	Daredevil	8205402_Daredevil	/Skill/PassiveSkill/LevelPassiveSkill
+8205403	Anticipation	8205403_Anticipation	/Skill/PassiveSkill/LevelPassiveSkill
+8205404	Blitz	8205404_Blitz	/Skill/PassiveSkill/LevelPassiveSkill
+8205420	Unerring Read	8205420_UnerringRead	/Skill
+8205421	Prime	8205421_Prime	/Skill
+8205422	Probe	8205422_Probe	/Skill/AttackSkill/MeleeSkill/LevelAttackSkill
+8205997	Preferential Treatment	8205997_Preferential Treatment	/Skill/PassiveSkill
+8205998	Logistics Expert	8205998_LogisticExpert	/Skill/PassiveSkill
 8205999	Exalted	8205999_Exalted	/Skill/PassiveSkill
 8300010	HoundPounce	8300010_HoundPounce	/Skill/AttackSkill/MeleeSkill
 8300020	Steko Call	8300020_StekoCall	/Skill
@@ -1435,12 +1718,27 @@
 8300362	PureIlluminatorExplosion	8300362_PureIlluminatorExplosion	/Skill/AttackSkill
 8300363	PureIlluminatorMelee	8300363_PureIlluminatorMelee	/Skill/AttackSkill
 8300370	ElementalShot1Fire	8300370_ElementalShot1Fire	/Skill/AttackSkill
+8300371	ElementalShot1Frost	8300371_ElementalShot1Frost	/Skill/AttackSkill
+8300372	ElementalShot1Light	8300372_ElementalShot1Light	/Skill/AttackSkill
+8300373	ElementalShot1Ethereal	8300373_ElementalShot1Ethereal	/Skill/AttackSkill
+8300374	ElementalShot1Decay	8300374_ElementalShot1Decay	/Skill/AttackSkill
 8300375	ElementalShot3Fire	8300375_ElementalShot3Fire	/Skill/AttackSkill
+8300376	ElementalShot3Frost	8300376_ElementalShot3Frost	/Skill/AttackSkill
+8300377	ElementalShot3Light	8300377_ElementalShot3Light	/Skill/AttackSkill
+8300378	ElementalShot3Ethereal	8300378_ElementalShot3Ethereal	/Skill/AttackSkill
+8300379	ElementalShot3Decay	8300379_ElementalShot3Decay	/Skill/AttackSkill
 8300380	ElementalBuffFire	8300380_ElementalBuffFire	/Skill/AttackSkill
+8300381	ElementalBuffFrost	8300381_ElementalBuffFrost	/Skill/AttackSkill
+8300382	ElementalBuffLight	8300382_ElementalBuffLight	/Skill/AttackSkill
+8300383	ElementalBuffEthereal	8300383_ElementalBuffEthereal	/Skill/AttackSkill
+8300384	ElementalBuffDecay	8300384_ElementalBuffDecay	/Skill/AttackSkill
 8300390	CorruptionSpiritShot	8300390_CorruptionSpiritShot	/Skill/AttackSkill
 8300400	ElementalParasiteMortar	8300400_ElementalParasiteMortar	/Skill/AttackSkill
 8300401	ElementalParasiteMortar2	8300401_ElementalParasiteMortar2	/Skill/AttackSkill
+8300402	ElementalParasite Ash	8300402_ElementalParasiteAsh	/Skill/AttackSkill
 8300410	GiantHorrorAsh	8300410_GiantHorrorAsh	/Skill/AttackSkill
+8300411	GiantHorror Decay Thrower	8300411_GiantHorrorDecayThrower	/Skill
+8300412	GiantHorror Detach	8300412_GiantHorrorDetach	/Skill
 8300420	EliteSupremeShellBash	8300420_EliteSupremeShellSlap	/Skill/AttackSkill
 8300421	EliteSupremeShellLazer	8300421_EliteSupremeShellLaser	/Skill
 8300423	EliteSupremeShellGroundPound	8300423_EliteSupremeShellGroundPound	/Skill/AttackSkill
@@ -1453,16 +1751,34 @@
 8300432	LichRustFlameThrower	8300432_LichRustFlameThrower	/Skill
 8300433	LichRustReanimate	8300433_LichRustReanimate	/Skill
 8300434	LichRustTeleport	8300434_LichRustTeleport	/Skill
+8300435	LichRustLinkProjectiles	8300435_LichRustLinkProjectilesDouble	/Skill
+8300436	LichRustLinkProjectilesTriple	8300436_LichRustLinkProjectilesTriple	/Skill
+8300437	LichRustLinkProjectilesQuadruple	8300437_LichRustLinkProjectilesQuadruple	/Skill
 8300440	TitanGolemHammerBlast	8300440_TitanGolemHammerBlast	/Skill/AttackSkill
 8300441	TitanGolemHammerBlast	8300441_TitanGolemBackAndForwardSwirl	/Skill/AttackSkill
 8300442	TitanGolemHammerBlast	8300442_TitanGolemLeftRightSwipe	/Skill/AttackSkill
 8300443	TitanGolemHammerBlastRange	8300443_TitanGolemHammerBlastRange	/Skill/AttackSkill
 8300444	TitanGolemHammerBlastRange	8300444_TitanGolemLeftRightSwipeRange	/Skill/AttackSkill
+8300450	Blood Mage Force Bubble	8300450_BloodMageForceBubble	/Skill
+8300451	BloodMage Chakram Pierce	8300451_BloodMageChakramPierce	/Skill/AttackSkill
+8300452	BloosMage Chakram Arc	8300452_BloodMageChakramArc	/Skill/AttackSkill/MeleeSkill
+8300453	BloodHeal	8300453_BloodMageHeal	/Skill/AttackSkill
+8300454	BloodMageBandage	8300454_BloodMageBandage	/Skill/AttackSkill
+8300460	Boozu ProudBeast Trashing	8300460_BoozuProudBeastTranshing	/Skill/AttackSkill
+8300461	Boozu ProudBeast Normal1	8300461_BoozuProudBeastNormal1	/Skill/AttackSkill
+8300462	Boozu ProudBeast Special1	8300462_BoozuProudBeastSpecial1	/Skill/AttackSkill
+8300463	Boozu ProudBeast Run Double	8300463_BoozuProudBeastRunDouble	/Skill/AttackSkill
+8300470	BeastBuff	8300470_BeastMasterBuff	/Skill/AttackSkill
+8300482	Runic Beast Weaken Shout	8300482_RunicBeastFireImbueBlast	/Skill/AttackSkill
+8300490	CageFlurry	8300490_CageBossFlurry	/Skill/AttackSkill
+8300491	Cage Blast	8300491_CageBossBlast	/Skill/AttackSkill
+8300492	Cage Boss Teleport	8300492_CageBossTeleport	/Skill/AttackSkill
+8300493	Cage Boss Buff	8300493_CageBossBuff	/Skill/AttackSkill
 8400020	Fireworks	8400020_Fireworks	/Skill
 9000000	Gold	9000000_GoldCurrency	/Currency
 9000010	Silver	9000010_SilverCurrency	/Currency
 9200010	Message	9200010_Message	/_Unsorted
-9200020	Goodluck Jim's Note 1 	9200020_Note	/_Unsorted
+9200020	Goodluck Jim's Note 1	9200020_Note	/_Unsorted
 9200021	Goodluck Jim's Note 2	9200021_Note	/_Unsorted
 9200022	Goodluck Jim's Note 3	9200022_Note	/_Unsorted
 9200023	Bandit Note, Intruder	9200023_Note	/_Unsorted

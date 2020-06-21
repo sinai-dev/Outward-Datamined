@@ -210,7 +210,7 @@ Red rune that does nothing on its own, but can produce combo effects by casting 
                           <Damage_Type>Ethereal</Damage_Type>
                         </Damages>
                         <Damages>
-                          <Damage>20</Damage>
+                          <Damage>40</Damage>
                           <Damage_Type>Decay</Damage_Type>
                         </Damages>
                       </Damage>
@@ -342,8 +342,6 @@ Red rune that does nothing on its own, but can produce combo effects by casting 
               <YMagnitudeForce>0</YMagnitudeForce>
               <DefenseLength>10</DefenseLength>
               <DefenseRange>3</DefenseRange>
-              <PhysicsLayerMask>0</PhysicsLayerMask>
-              <OnlyExplodeOnLayerMask>false</OnlyExplodeOnLayerMask>
               <ImpactSoundMaterial>Metal_Sharp</ImpactSoundMaterial>
               <LightIntensityFade>
                 <x>10</x>
@@ -537,8 +535,6 @@ Red rune that does nothing on its own, but can produce combo effects by casting 
               <YMagnitudeForce>0</YMagnitudeForce>
               <DefenseLength>10</DefenseLength>
               <DefenseRange>3</DefenseRange>
-              <PhysicsLayerMask>0</PhysicsLayerMask>
-              <OnlyExplodeOnLayerMask>false</OnlyExplodeOnLayerMask>
               <ImpactSoundMaterial>Metal_Sharp</ImpactSoundMaterial>
               <LightIntensityFade>
                 <x>10</x>

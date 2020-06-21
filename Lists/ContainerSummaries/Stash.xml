@@ -19,6 +19,10 @@
       <Name>Enmerkar Forest:Berg</Name>
       <Quantity>1</Quantity>
     </QuantityHolder>
+    <QuantityHolder>
+      <Name>Antique Plateau:Harmattan</Name>
+      <Quantity>2</Quantity>
+    </QuantityHolder>
   </All_Locations>
   <DropTables>
     <DroptableSummary>
@@ -94,6 +98,12 @@
       <DropTableName>DropTable_Neutral_Survival_Medium_1</DropTableName>
       <Locations>
         <string>Berg</string>
+      </Locations>
+    </DroptableSummary>
+    <DroptableSummary>
+      <DropTableName>DropTable_AntiqueField_PlayerHouse_3</DropTableName>
+      <Locations>
+        <string>Harmattan</string>
       </Locations>
     </DroptableSummary>
   </DropTables>

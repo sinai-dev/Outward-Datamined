@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DM_Recipe xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Name>Flour</Name>
+  <RecipeID>370</RecipeID>
+  <UID />
+  <StationType>Cooking</StationType>
+  <Ingredients>
+    <string>Wheat</string>
+    <string>Wheat</string>
+  </Ingredients>
+  <Results>
+    <ItemQty>
+      <ItemName>Flour</ItemName>
+      <ItemID>4100690</ItemID>
+      <Quantity>1</Quantity>
+    </ItemQty>
+  </Results>
+</DM_Recipe>

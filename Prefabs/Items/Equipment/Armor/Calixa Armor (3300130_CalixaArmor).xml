@@ -23,6 +23,7 @@
     <string>Equipment</string>
     <string>Item</string>
     <string>DecraftIron_Large</string>
+    <string>Decraft</string>
   </Tags>
   <StatsHolder xsi:type="DM_EquipmentStats">
     <BaseValue>350</BaseValue>
@@ -53,12 +54,16 @@
       <float>0</float>
     </Damage_Bonus>
     <Stamina_Use_Penalty>0</Stamina_Use_Penalty>
-    <Mana_Use_Modifier>0</Mana_Use_Modifier>
+    <Mana_Use_Modifier>1</Mana_Use_Modifier>
     <Movement_Penalty>0</Movement_Penalty>
     <Pouch_Bonus>0</Pouch_Bonus>
     <Heat_Protection>0</Heat_Protection>
     <Cold_Protection>0</Cold_Protection>
     <Corruption_Protection>0</Corruption_Protection>
+    <Cooldown_Reduction>-0</Cooldown_Reduction>
+    <Hunger_Affect>0</Hunger_Affect>
+    <Thirst_Affect>0</Thirst_Affect>
+    <Fatigue_Affect>0</Fatigue_Affect>
   </StatsHolder>
   <EffectTransforms />
   <EquipSlot>Chest</EquipSlot>

@@ -43,6 +43,10 @@
       <Name>Abrassar:Ancient Hive</Name>
       <Quantity>1</Quantity>
     </QuantityHolder>
+    <QuantityHolder>
+      <Name>Antique Plateau:Abandoned Living Quarters</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
   </All_Locations>
   <DropTables>
     <DroptableSummary>
@@ -58,6 +62,7 @@
         <string>The Slide</string>
         <string>Stone Titan Caves</string>
         <string>Ancient Hive</string>
+        <string>Abandoned Living Quarters</string>
       </Locations>
     </DroptableSummary>
   </DropTables>

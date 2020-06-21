@@ -175,6 +175,70 @@
       <Name>Enmerkar Forest:Vigil Pylon</Name>
       <Quantity>1</Quantity>
     </QuantityHolder>
+    <QuantityHolder>
+      <Name>Antique Plateau:Harmattan</Name>
+      <Quantity>8</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Antique Plateau:Antique Plateau</Name>
+      <Quantity>8</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Antique Plateau:Abandoned Living Quarters</Name>
+      <Quantity>8</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Antique Plateau:Forgotten Research Laboratory</Name>
+      <Quantity>10</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Antique Plateau:Ancient Foundry</Name>
+      <Quantity>12</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Antique Plateau:Ruined Warehouse</Name>
+      <Quantity>6</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Antique Plateau:Lost Golem Manufacturing Facility</Name>
+      <Quantity>9</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Antique Plateau:Crumbling Loading Docks</Name>
+      <Quantity>10</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Antique Plateau:Destroyed Test Chambers</Name>
+      <Quantity>5</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Antique Plateau:Compromised Mana Transfer Station</Name>
+      <Quantity>6</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Antique Plateau:Abandoned Storage</Name>
+      <Quantity>5</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Antique Plateau:Corrupted Cave</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Antique Plateau:Blood Mage Hideout</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Antique Plateau:Bandit Hideout</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Antique Plateau:Old Harmattan Basement</Name>
+      <Quantity>2</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Antique Plateau:Troglodyte Warren</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
   </All_Locations>
   <DropTables>
     <DroptableSummary>
@@ -200,6 +264,13 @@
         <string>Monsoon</string>
         <string>Levant</string>
         <string>Berg</string>
+        <string>Harmattan</string>
+        <string>Antique Plateau</string>
+        <string>Forgotten Research Laboratory</string>
+        <string>Ancient Foundry</string>
+        <string>Crumbling Loading Docks</string>
+        <string>Corrupted Cave</string>
+        <string>Bandit Hideout</string>
       </Locations>
     </DroptableSummary>
     <DroptableSummary>
@@ -235,6 +306,16 @@
         <string>Ancestor’s Resting Place</string>
         <string>Necropolis</string>
         <string>Tree Husk</string>
+        <string>Harmattan</string>
+        <string>Antique Plateau</string>
+        <string>Abandoned Living Quarters</string>
+        <string>Forgotten Research Laboratory</string>
+        <string>Ruined Warehouse</string>
+        <string>Lost Golem Manufacturing Facility</string>
+        <string>Crumbling Loading Docks</string>
+        <string>Compromised Mana Transfer Station</string>
+        <string>Blood Mage Hideout</string>
+        <string>Bandit Hideout</string>
       </Locations>
     </DroptableSummary>
     <DroptableSummary>
@@ -268,6 +349,13 @@
         <string>Necropolis</string>
         <string>Tree Husk</string>
         <string>Vigil Pylon</string>
+        <string>Abandoned Living Quarters</string>
+        <string>Forgotten Research Laboratory</string>
+        <string>Ancient Foundry</string>
+        <string>Lost Golem Manufacturing Facility</string>
+        <string>Crumbling Loading Docks</string>
+        <string>Abandoned Storage</string>
+        <string>Troglodyte Warren</string>
       </Locations>
     </DroptableSummary>
     <DroptableSummary>
@@ -282,6 +370,17 @@
         <string>Abrassar</string>
         <string>Berg</string>
         <string>Necropolis</string>
+        <string>Harmattan</string>
+        <string>Abandoned Living Quarters</string>
+        <string>Forgotten Research Laboratory</string>
+        <string>Ancient Foundry</string>
+        <string>Lost Golem Manufacturing Facility</string>
+        <string>Crumbling Loading Docks</string>
+        <string>Destroyed Test Chambers</string>
+        <string>Compromised Mana Transfer Station</string>
+        <string>Abandoned Storage</string>
+        <string>Troglodyte Warren</string>
+        <string>Old Harmattan Basement</string>
       </Locations>
     </DroptableSummary>
     <DroptableSummary>
@@ -304,6 +403,13 @@
         <string>Ancestor’s Resting Place</string>
         <string>Necropolis</string>
         <string>Worn Hunter's Cabin</string>
+        <string>Antique Plateau</string>
+        <string>Forgotten Research Laboratory</string>
+        <string>Ruined Warehouse</string>
+        <string>Lost Golem Manufacturing Facility</string>
+        <string>Destroyed Test Chambers</string>
+        <string>Compromised Mana Transfer Station</string>
+        <string>Old Harmattan Basement</string>
       </Locations>
     </DroptableSummary>
     <DroptableSummary>
@@ -355,6 +461,13 @@
         <string>Ancestor’s Resting Place</string>
         <string>Necropolis</string>
         <string>Vigil Pylon</string>
+        <string>Harmattan</string>
+        <string>Abandoned Living Quarters</string>
+        <string>Ancient Foundry</string>
+        <string>Lost Golem Manufacturing Facility</string>
+        <string>Destroyed Test Chambers</string>
+        <string>Corrupted Cave</string>
+        <string>Abandoned Storage</string>
       </Locations>
     </DroptableSummary>
     <DroptableSummary>
@@ -393,6 +506,7 @@
         <string>Necropolis</string>
         <string>Worn Hunter's Cabin</string>
         <string>Vigil Pylon</string>
+        <string>Antique Plateau</string>
       </Locations>
     </DroptableSummary>
     <DroptableSummary>
@@ -415,6 +529,7 @@
         <string>Giants’ Village</string>
         <string>Levant</string>
         <string>Berg</string>
+        <string>Harmattan</string>
       </Locations>
     </DroptableSummary>
     <DroptableSummary>
@@ -425,6 +540,8 @@
         <string>Spire of Light</string>
         <string>Abrassar</string>
         <string>Sand Rose Cave</string>
+        <string>Antique Plateau</string>
+        <string>Abandoned Living Quarters</string>
       </Locations>
     </DroptableSummary>
     <DroptableSummary>
@@ -454,6 +571,8 @@
         <string>Hermit's House</string>
         <string>Cabal of Wind Temple</string>
         <string>Worn Hunter's Cabin</string>
+        <string>Ruined Warehouse</string>
+        <string>Abandoned Storage</string>
       </Locations>
     </DroptableSummary>
     <DroptableSummary>
@@ -478,6 +597,16 @@
         <string>Ancestor’s Resting Place</string>
         <string>Necropolis</string>
         <string>Worn Hunter's Cabin</string>
+        <string>Harmattan</string>
+        <string>Abandoned Living Quarters</string>
+        <string>Forgotten Research Laboratory</string>
+        <string>Ancient Foundry</string>
+        <string>Ruined Warehouse</string>
+        <string>Lost Golem Manufacturing Facility</string>
+        <string>Crumbling Loading Docks</string>
+        <string>Compromised Mana Transfer Station</string>
+        <string>Blood Mage Hideout</string>
+        <string>Abandoned Storage</string>
       </Locations>
     </DroptableSummary>
     <DroptableSummary>
@@ -497,6 +626,15 @@
         <string>Cabal of Wind Temple</string>
         <string>Necropolis</string>
         <string>Tree Husk</string>
+        <string>Harmattan</string>
+        <string>Antique Plateau</string>
+        <string>Forgotten Research Laboratory</string>
+        <string>Ancient Foundry</string>
+        <string>Lost Golem Manufacturing Facility</string>
+        <string>Crumbling Loading Docks</string>
+        <string>Destroyed Test Chambers</string>
+        <string>Old Harmattan Basement</string>
+        <string>Abandoned Storage</string>
       </Locations>
     </DroptableSummary>
     <DroptableSummary>
@@ -508,6 +646,9 @@
         <string>Undercity Passage</string>
         <string>Sand Rose Cave</string>
         <string>Vigil Pylon</string>
+        <string>Antique Plateau</string>
+        <string>Abandoned Living Quarters</string>
+        <string>Troglodyte Warren</string>
       </Locations>
     </DroptableSummary>
     <DroptableSummary>
@@ -591,6 +732,7 @@
       <DropTableName>DropTable_Neutral_Recipe_Dungeon_1</DropTableName>
       <Locations>
         <string>Cabal of Wind Temple</string>
+        <string>Ruined Warehouse</string>
       </Locations>
     </DroptableSummary>
     <DroptableSummary>
@@ -600,6 +742,92 @@
         <string>Face of the Ancients</string>
         <string>Ancestor’s Resting Place</string>
         <string>Necropolis</string>
+      </Locations>
+    </DroptableSummary>
+    <DroptableSummary>
+      <DropTableName>DropTable_AntiqueField_Alchemy_1</DropTableName>
+      <Locations>
+        <string>Harmattan</string>
+        <string>Antique Plateau</string>
+        <string>Abandoned Living Quarters</string>
+        <string>Forgotten Research Laboratory</string>
+        <string>Ancient Foundry</string>
+        <string>Ruined Warehouse</string>
+        <string>Lost Golem Manufacturing Facility</string>
+        <string>Crumbling Loading Docks</string>
+        <string>Compromised Mana Transfer Station</string>
+        <string>Corrupted Cave</string>
+        <string>Old Harmattan Basement</string>
+        <string>Abandoned Storage</string>
+      </Locations>
+    </DroptableSummary>
+    <DroptableSummary>
+      <DropTableName>DropTable_AntiqueField_Consumable_1</DropTableName>
+      <Locations>
+        <string>Harmattan</string>
+        <string>Antique Plateau</string>
+        <string>Abandoned Living Quarters</string>
+        <string>Forgotten Research Laboratory</string>
+        <string>Ancient Foundry</string>
+        <string>Ruined Warehouse</string>
+        <string>Lost Golem Manufacturing Facility</string>
+        <string>Crumbling Loading Docks</string>
+        <string>Destroyed Test Chambers</string>
+        <string>Compromised Mana Transfer Station</string>
+        <string>Abandoned Storage</string>
+      </Locations>
+    </DroptableSummary>
+    <DroptableSummary>
+      <DropTableName>DropTable_AntiqueField_Equipment_Low_1</DropTableName>
+      <Locations>
+        <string>Harmattan</string>
+        <string>Antique Plateau</string>
+        <string>Forgotten Research Laboratory</string>
+        <string>Ancient Foundry</string>
+        <string>Lost Golem Manufacturing Facility</string>
+        <string>Destroyed Test Chambers</string>
+      </Locations>
+    </DroptableSummary>
+    <DroptableSummary>
+      <DropTableName>DropTable_AntiqueField_Recipe_Weapon_1</DropTableName>
+      <Locations>
+        <string>Antique Plateau</string>
+        <string>Forgotten Research Laboratory</string>
+        <string>Ancient Foundry</string>
+        <string>Lost Golem Manufacturing Facility</string>
+        <string>Crumbling Loading Docks</string>
+        <string>Destroyed Test Chambers</string>
+        <string>Compromised Mana Transfer Station</string>
+        <string>Abandoned Storage</string>
+      </Locations>
+    </DroptableSummary>
+    <DroptableSummary>
+      <DropTableName>DropTable_Neutral_Valuable_High_1</DropTableName>
+      <Locations>
+        <string>Antique Plateau</string>
+      </Locations>
+    </DroptableSummary>
+    <DroptableSummary>
+      <DropTableName>DropTable_AntiqueField_Recipe_Basic_1</DropTableName>
+      <Locations>
+        <string>Abandoned Living Quarters</string>
+        <string>Forgotten Research Laboratory</string>
+        <string>Ancient Foundry</string>
+        <string>Lost Golem Manufacturing Facility</string>
+        <string>Crumbling Loading Docks</string>
+        <string>Destroyed Test Chambers</string>
+        <string>Compromised Mana Transfer Station</string>
+        <string>Corrupted Cave</string>
+        <string>Blood Mage Hideout</string>
+        <string>Bandit Hideout</string>
+        <string>Old Harmattan Basement</string>
+        <string>Abandoned Storage</string>
+      </Locations>
+    </DroptableSummary>
+    <DroptableSummary>
+      <DropTableName>DropTable_AntiqueField_Equipment_Medium_1</DropTableName>
+      <Locations>
+        <string>Ruined Warehouse</string>
       </Locations>
     </DroptableSummary>
   </DropTables>

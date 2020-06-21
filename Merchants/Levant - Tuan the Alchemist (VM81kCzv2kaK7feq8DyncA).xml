@@ -481,6 +481,369 @@
           </DropTableChanceEntry>
         </Item_Drops>
       </DropGeneratorHolder>
+      <DropGeneratorHolder>
+        <MinNumberOfDrops>3</MinNumberOfDrops>
+        <MaxNumberOfDrops>3</MaxNumberOfDrops>
+        <MaxDiceValue>320</MaxDiceValue>
+        <EmptyDrop>0</EmptyDrop>
+        <RegenTime>-1</RegenTime>
+        <ChanceReduction>0</ChanceReduction>
+        <ChanceRegenQty>10</ChanceRegenQty>
+        <Item_Drops>
+          <DropTableChanceEntry>
+            <Item_Name>Crafting: Fang Axe</Item_Name>
+            <Item_ID>5700022</Item_ID>
+            <Min_Quantity>1</Min_Quantity>
+            <Max_Quantity>1</Max_Quantity>
+            <Drop_Chance>3.12</Drop_Chance>
+            <Dice_Range>9</Dice_Range>
+            <ChanceReduction>0</ChanceReduction>
+            <ChanceRegenDelay>-1</ChanceRegenDelay>
+            <ChanceRegenQty>0</ChanceRegenQty>
+          </DropTableChanceEntry>
+          <DropTableChanceEntry>
+            <Item_Name>Crafting: Fang Sword</Item_Name>
+            <Item_ID>5700023</Item_ID>
+            <Min_Quantity>1</Min_Quantity>
+            <Max_Quantity>1</Max_Quantity>
+            <Drop_Chance>3.12</Drop_Chance>
+            <Dice_Range>9</Dice_Range>
+            <ChanceReduction>0</ChanceReduction>
+            <ChanceRegenDelay>-1</ChanceRegenDelay>
+            <ChanceRegenQty>0</ChanceRegenQty>
+          </DropTableChanceEntry>
+          <DropTableChanceEntry>
+            <Item_Name>Crafting: Fang Club</Item_Name>
+            <Item_ID>5700024</Item_ID>
+            <Min_Quantity>1</Min_Quantity>
+            <Max_Quantity>1</Max_Quantity>
+            <Drop_Chance>3.12</Drop_Chance>
+            <Dice_Range>9</Dice_Range>
+            <ChanceReduction>0</ChanceReduction>
+            <ChanceRegenDelay>-1</ChanceRegenDelay>
+            <ChanceRegenQty>0</ChanceRegenQty>
+          </DropTableChanceEntry>
+          <DropTableChanceEntry>
+            <Item_Name>Crafting: Fang Trident</Item_Name>
+            <Item_ID>5700025</Item_ID>
+            <Min_Quantity>1</Min_Quantity>
+            <Max_Quantity>1</Max_Quantity>
+            <Drop_Chance>3.12</Drop_Chance>
+            <Dice_Range>9</Dice_Range>
+            <ChanceReduction>0</ChanceReduction>
+            <ChanceRegenDelay>-1</ChanceRegenDelay>
+            <ChanceRegenQty>0</ChanceRegenQty>
+          </DropTableChanceEntry>
+          <DropTableChanceEntry>
+            <Item_Name>Crafting: Fang Greataxe</Item_Name>
+            <Item_ID>5700026</Item_ID>
+            <Min_Quantity>1</Min_Quantity>
+            <Max_Quantity>1</Max_Quantity>
+            <Drop_Chance>3.12</Drop_Chance>
+            <Dice_Range>9</Dice_Range>
+            <ChanceReduction>0</ChanceReduction>
+            <ChanceRegenDelay>-1</ChanceRegenDelay>
+            <ChanceRegenQty>0</ChanceRegenQty>
+          </DropTableChanceEntry>
+          <DropTableChanceEntry>
+            <Item_Name>Crafting: Fang Greatsword</Item_Name>
+            <Item_ID>5700027</Item_ID>
+            <Min_Quantity>1</Min_Quantity>
+            <Max_Quantity>1</Max_Quantity>
+            <Drop_Chance>3.12</Drop_Chance>
+            <Dice_Range>9</Dice_Range>
+            <ChanceReduction>0</ChanceReduction>
+            <ChanceRegenDelay>-1</ChanceRegenDelay>
+            <ChanceRegenQty>0</ChanceRegenQty>
+          </DropTableChanceEntry>
+          <DropTableChanceEntry>
+            <Item_Name>Crafting: Fang Greatclub</Item_Name>
+            <Item_ID>5700028</Item_ID>
+            <Min_Quantity>1</Min_Quantity>
+            <Max_Quantity>1</Max_Quantity>
+            <Drop_Chance>3.12</Drop_Chance>
+            <Dice_Range>9</Dice_Range>
+            <ChanceReduction>0</ChanceReduction>
+            <ChanceRegenDelay>-1</ChanceRegenDelay>
+            <ChanceRegenQty>0</ChanceRegenQty>
+          </DropTableChanceEntry>
+          <DropTableChanceEntry>
+            <Item_Name>Crafting: Fang Halberd</Item_Name>
+            <Item_ID>5700029</Item_ID>
+            <Min_Quantity>1</Min_Quantity>
+            <Max_Quantity>1</Max_Quantity>
+            <Drop_Chance>3.12</Drop_Chance>
+            <Dice_Range>9</Dice_Range>
+            <ChanceReduction>0</ChanceReduction>
+            <ChanceRegenDelay>-1</ChanceRegenDelay>
+            <ChanceRegenQty>0</ChanceRegenQty>
+          </DropTableChanceEntry>
+          <DropTableChanceEntry>
+            <Item_Name>Crafting: Fang Shield</Item_Name>
+            <Item_ID>5700030</Item_ID>
+            <Min_Quantity>1</Min_Quantity>
+            <Max_Quantity>1</Max_Quantity>
+            <Drop_Chance>3.12</Drop_Chance>
+            <Dice_Range>9</Dice_Range>
+            <ChanceReduction>0</ChanceReduction>
+            <ChanceRegenDelay>-1</ChanceRegenDelay>
+            <ChanceRegenQty>0</ChanceRegenQty>
+          </DropTableChanceEntry>
+          <DropTableChanceEntry>
+            <Item_Name>Crafting: Assassin Sword</Item_Name>
+            <Item_ID>5700081</Item_ID>
+            <Min_Quantity>1</Min_Quantity>
+            <Max_Quantity>1</Max_Quantity>
+            <Drop_Chance>3.12</Drop_Chance>
+            <Dice_Range>9</Dice_Range>
+            <ChanceReduction>0</ChanceReduction>
+            <ChanceRegenDelay>-1</ChanceRegenDelay>
+            <ChanceRegenQty>0</ChanceRegenQty>
+          </DropTableChanceEntry>
+          <DropTableChanceEntry>
+            <Item_Name>Crafting: Assassin Claymore</Item_Name>
+            <Item_ID>5700082</Item_ID>
+            <Min_Quantity>1</Min_Quantity>
+            <Max_Quantity>1</Max_Quantity>
+            <Drop_Chance>3.12</Drop_Chance>
+            <Dice_Range>9</Dice_Range>
+            <ChanceReduction>0</ChanceReduction>
+            <ChanceRegenDelay>-1</ChanceRegenDelay>
+            <ChanceRegenQty>0</ChanceRegenQty>
+          </DropTableChanceEntry>
+          <DropTableChanceEntry>
+            <Item_Name>Crafting: Manticore Greatmace</Item_Name>
+            <Item_ID>5700080</Item_ID>
+            <Min_Quantity>1</Min_Quantity>
+            <Max_Quantity>1</Max_Quantity>
+            <Drop_Chance>3.12</Drop_Chance>
+            <Dice_Range>9</Dice_Range>
+            <ChanceReduction>0</ChanceReduction>
+            <ChanceRegenDelay>-1</ChanceRegenDelay>
+            <ChanceRegenQty>0</ChanceRegenQty>
+          </DropTableChanceEntry>
+          <DropTableChanceEntry>
+            <Item_Name>Crafting: Mantis Greatpick</Item_Name>
+            <Item_ID>5700083</Item_ID>
+            <Min_Quantity>1</Min_Quantity>
+            <Max_Quantity>1</Max_Quantity>
+            <Drop_Chance>3.12</Drop_Chance>
+            <Dice_Range>9</Dice_Range>
+            <ChanceReduction>0</ChanceReduction>
+            <ChanceRegenDelay>-1</ChanceRegenDelay>
+            <ChanceRegenQty>0</ChanceRegenQty>
+          </DropTableChanceEntry>
+          <DropTableChanceEntry>
+            <Item_Name>Crafting: Crescent Greataxe</Item_Name>
+            <Item_ID>5700084</Item_ID>
+            <Min_Quantity>1</Min_Quantity>
+            <Max_Quantity>1</Max_Quantity>
+            <Drop_Chance>3.12</Drop_Chance>
+            <Dice_Range>9</Dice_Range>
+            <ChanceReduction>0</ChanceReduction>
+            <ChanceRegenDelay>-1</ChanceRegenDelay>
+            <ChanceRegenQty>0</ChanceRegenQty>
+          </DropTableChanceEntry>
+          <DropTableChanceEntry>
+            <Item_Name>Crafting: Crescent Scythe</Item_Name>
+            <Item_ID>5700085</Item_ID>
+            <Min_Quantity>1</Min_Quantity>
+            <Max_Quantity>1</Max_Quantity>
+            <Drop_Chance>3.12</Drop_Chance>
+            <Dice_Range>9</Dice_Range>
+            <ChanceReduction>0</ChanceReduction>
+            <ChanceRegenDelay>-1</ChanceRegenDelay>
+            <ChanceRegenQty>0</ChanceRegenQty>
+          </DropTableChanceEntry>
+          <DropTableChanceEntry>
+            <Item_Name>Crafting: Thorny Spear</Item_Name>
+            <Item_ID>5700086</Item_ID>
+            <Min_Quantity>1</Min_Quantity>
+            <Max_Quantity>1</Max_Quantity>
+            <Drop_Chance>3.12</Drop_Chance>
+            <Dice_Range>9</Dice_Range>
+            <ChanceReduction>0</ChanceReduction>
+            <ChanceRegenDelay>-1</ChanceRegenDelay>
+            <ChanceRegenQty>0</ChanceRegenQty>
+          </DropTableChanceEntry>
+          <DropTableChanceEntry>
+            <Item_Name>Crafting: Thorny Claymore</Item_Name>
+            <Item_ID>5700087</Item_ID>
+            <Min_Quantity>1</Min_Quantity>
+            <Max_Quantity>1</Max_Quantity>
+            <Drop_Chance>3.12</Drop_Chance>
+            <Dice_Range>9</Dice_Range>
+            <ChanceReduction>0</ChanceReduction>
+            <ChanceRegenDelay>-1</ChanceRegenDelay>
+            <ChanceRegenQty>0</ChanceRegenQty>
+          </DropTableChanceEntry>
+          <DropTableChanceEntry>
+            <Item_Name>Crafting: Beast Golem Axe</Item_Name>
+            <Item_ID>5700088</Item_ID>
+            <Min_Quantity>1</Min_Quantity>
+            <Max_Quantity>1</Max_Quantity>
+            <Drop_Chance>3.12</Drop_Chance>
+            <Dice_Range>9</Dice_Range>
+            <ChanceReduction>0</ChanceReduction>
+            <ChanceRegenDelay>-1</ChanceRegenDelay>
+            <ChanceRegenQty>0</ChanceRegenQty>
+          </DropTableChanceEntry>
+          <DropTableChanceEntry>
+            <Item_Name>Crafting: Beast Golem Halberd</Item_Name>
+            <Item_ID>5700089</Item_ID>
+            <Min_Quantity>1</Min_Quantity>
+            <Max_Quantity>1</Max_Quantity>
+            <Drop_Chance>3.12</Drop_Chance>
+            <Dice_Range>9</Dice_Range>
+            <ChanceReduction>0</ChanceReduction>
+            <ChanceRegenDelay>-1</ChanceRegenDelay>
+            <ChanceRegenQty>0</ChanceRegenQty>
+          </DropTableChanceEntry>
+          <DropTableChanceEntry>
+            <Item_Name>Crafting: Tuanosaur Axe</Item_Name>
+            <Item_ID>5700090</Item_ID>
+            <Min_Quantity>1</Min_Quantity>
+            <Max_Quantity>1</Max_Quantity>
+            <Drop_Chance>3.12</Drop_Chance>
+            <Dice_Range>9</Dice_Range>
+            <ChanceReduction>0</ChanceReduction>
+            <ChanceRegenDelay>-1</ChanceRegenDelay>
+            <ChanceRegenQty>0</ChanceRegenQty>
+          </DropTableChanceEntry>
+          <DropTableChanceEntry>
+            <Item_Name>Crafting: Tuanosaur Greataxe</Item_Name>
+            <Item_ID>5700091</Item_ID>
+            <Min_Quantity>1</Min_Quantity>
+            <Max_Quantity>1</Max_Quantity>
+            <Drop_Chance>3.12</Drop_Chance>
+            <Dice_Range>9</Dice_Range>
+            <ChanceReduction>0</ChanceReduction>
+            <ChanceRegenDelay>-1</ChanceRegenDelay>
+            <ChanceRegenQty>0</ChanceRegenQty>
+          </DropTableChanceEntry>
+          <DropTableChanceEntry>
+            <Item_Name>Crafting: Phytosaur Spear</Item_Name>
+            <Item_ID>5700092</Item_ID>
+            <Min_Quantity>1</Min_Quantity>
+            <Max_Quantity>1</Max_Quantity>
+            <Drop_Chance>3.12</Drop_Chance>
+            <Dice_Range>9</Dice_Range>
+            <ChanceReduction>0</ChanceReduction>
+            <ChanceRegenDelay>-1</ChanceRegenDelay>
+            <ChanceRegenQty>0</ChanceRegenQty>
+          </DropTableChanceEntry>
+          <DropTableChanceEntry>
+            <Item_Name>Crafting: Obsidian Mace</Item_Name>
+            <Item_ID>5700157</Item_ID>
+            <Min_Quantity>1</Min_Quantity>
+            <Max_Quantity>1</Max_Quantity>
+            <Drop_Chance>3.12</Drop_Chance>
+            <Dice_Range>9</Dice_Range>
+            <ChanceReduction>0</ChanceReduction>
+            <ChanceRegenDelay>-1</ChanceRegenDelay>
+            <ChanceRegenQty>0</ChanceRegenQty>
+          </DropTableChanceEntry>
+          <DropTableChanceEntry>
+            <Item_Name>Crafting: Obsidian Greatmace</Item_Name>
+            <Item_ID>5700158</Item_ID>
+            <Min_Quantity>1</Min_Quantity>
+            <Max_Quantity>1</Max_Quantity>
+            <Drop_Chance>3.12</Drop_Chance>
+            <Dice_Range>9</Dice_Range>
+            <ChanceReduction>0</ChanceReduction>
+            <ChanceRegenDelay>-1</ChanceRegenDelay>
+            <ChanceRegenQty>0</ChanceRegenQty>
+          </DropTableChanceEntry>
+          <DropTableChanceEntry>
+            <Item_Name>Crafting: Obsidian Pistol</Item_Name>
+            <Item_ID>5700159</Item_ID>
+            <Min_Quantity>1</Min_Quantity>
+            <Max_Quantity>1</Max_Quantity>
+            <Drop_Chance>3.12</Drop_Chance>
+            <Dice_Range>9</Dice_Range>
+            <ChanceReduction>0</ChanceReduction>
+            <ChanceRegenDelay>-1</ChanceRegenDelay>
+            <ChanceRegenQty>0</ChanceRegenQty>
+          </DropTableChanceEntry>
+          <DropTableChanceEntry>
+            <Item_Name>Crafting: Manticore Dagger</Item_Name>
+            <Item_ID>5700161</Item_ID>
+            <Min_Quantity>1</Min_Quantity>
+            <Max_Quantity>1</Max_Quantity>
+            <Drop_Chance>3.12</Drop_Chance>
+            <Dice_Range>9</Dice_Range>
+            <ChanceReduction>0</ChanceReduction>
+            <ChanceRegenDelay>-1</ChanceRegenDelay>
+            <ChanceRegenQty>0</ChanceRegenQty>
+          </DropTableChanceEntry>
+          <DropTableChanceEntry>
+            <Item_Name>Crafting: Bone Pistol</Item_Name>
+            <Item_ID>5700163</Item_ID>
+            <Min_Quantity>1</Min_Quantity>
+            <Max_Quantity>1</Max_Quantity>
+            <Drop_Chance>3.12</Drop_Chance>
+            <Dice_Range>9</Dice_Range>
+            <ChanceReduction>0</ChanceReduction>
+            <ChanceRegenDelay>-1</ChanceRegenDelay>
+            <ChanceRegenQty>0</ChanceRegenQty>
+          </DropTableChanceEntry>
+          <DropTableChanceEntry>
+            <Item_Name>Crafting: Gold-Lich Claymore</Item_Name>
+            <Item_ID>5700166</Item_ID>
+            <Min_Quantity>1</Min_Quantity>
+            <Max_Quantity>1</Max_Quantity>
+            <Drop_Chance>3.12</Drop_Chance>
+            <Dice_Range>9</Dice_Range>
+            <ChanceReduction>0</ChanceReduction>
+            <ChanceRegenDelay>-1</ChanceRegenDelay>
+            <ChanceRegenQty>0</ChanceRegenQty>
+          </DropTableChanceEntry>
+          <DropTableChanceEntry>
+            <Item_Name>Crafting: Gold-Lich Spear</Item_Name>
+            <Item_ID>5700167</Item_ID>
+            <Min_Quantity>1</Min_Quantity>
+            <Max_Quantity>1</Max_Quantity>
+            <Drop_Chance>3.12</Drop_Chance>
+            <Dice_Range>9</Dice_Range>
+            <ChanceReduction>0</ChanceReduction>
+            <ChanceRegenDelay>-1</ChanceRegenDelay>
+            <ChanceRegenQty>0</ChanceRegenQty>
+          </DropTableChanceEntry>
+          <DropTableChanceEntry>
+            <Item_Name>Crafting: Gold-Lich Sword</Item_Name>
+            <Item_ID>5700168</Item_ID>
+            <Min_Quantity>1</Min_Quantity>
+            <Max_Quantity>1</Max_Quantity>
+            <Drop_Chance>3.12</Drop_Chance>
+            <Dice_Range>9</Dice_Range>
+            <ChanceReduction>0</ChanceReduction>
+            <ChanceRegenDelay>-1</ChanceRegenDelay>
+            <ChanceRegenQty>0</ChanceRegenQty>
+          </DropTableChanceEntry>
+          <DropTableChanceEntry>
+            <Item_Name>Crafting: Gold-Lich Mace</Item_Name>
+            <Item_ID>5700169</Item_ID>
+            <Min_Quantity>1</Min_Quantity>
+            <Max_Quantity>1</Max_Quantity>
+            <Drop_Chance>3.12</Drop_Chance>
+            <Dice_Range>9</Dice_Range>
+            <ChanceReduction>0</ChanceReduction>
+            <ChanceRegenDelay>-1</ChanceRegenDelay>
+            <ChanceRegenQty>0</ChanceRegenQty>
+          </DropTableChanceEntry>
+          <DropTableChanceEntry>
+            <Item_Name>Crafting: Gold-Lich Shield</Item_Name>
+            <Item_ID>5700170</Item_ID>
+            <Min_Quantity>1</Min_Quantity>
+            <Max_Quantity>1</Max_Quantity>
+            <Drop_Chance>3.12</Drop_Chance>
+            <Dice_Range>9</Dice_Range>
+            <ChanceReduction>0</ChanceReduction>
+            <ChanceRegenDelay>-1</ChanceRegenDelay>
+            <ChanceRegenQty>0</ChanceRegenQty>
+          </DropTableChanceEntry>
+        </Item_Drops>
+      </DropGeneratorHolder>
     </Random_Tables>
   </DropTable>
   <BuyModifiers>

@@ -2,8 +2,8 @@
 <DM_StatusEffect xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <PresetID>558</PresetID>
   <Identifier>Weaken</Identifier>
-  <Name>StatusEffect_Weaken_Name</Name>
-  <Description>StatusEffect_Weaken_Desc</Description>
+  <Name>Weaken</Name>
+  <Description>Physical and Impact Damage [E1V1]%.</Description>
   <Lifespan>60</Lifespan>
   <LengthType>Short</LengthType>
   <RefreshRate>60</RefreshRate>

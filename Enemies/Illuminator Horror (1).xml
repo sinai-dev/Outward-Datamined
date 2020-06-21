@@ -12,6 +12,10 @@
     <string>Abrassar:Abrassar</string>
     <string>Enmerkar Forest:Enmerkar Forest</string>
     <string>Enmerkar Forest:Cabal of Wind Temple</string>
+    <string>Antique Plateau:Forgotten Research Laboratory</string>
+    <string>Antique Plateau:Lost Golem Manufacturing Facility</string>
+    <string>Antique Plateau:Compromised Mana Transfer Station</string>
+    <string>Antique Plateau:Old Harmattan</string>
   </Locations_Found>
   <Max_Health>300</Max_Health>
   <Health_Regen_Per_Second>0</Health_Regen_Per_Second>

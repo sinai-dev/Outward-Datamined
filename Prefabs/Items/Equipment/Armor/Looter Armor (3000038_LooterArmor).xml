@@ -19,10 +19,10 @@
   <MobileCastMovementMult>-1</MobileCastMovementMult>
   <CastSheatheRequired>1</CastSheatheRequired>
   <Tags>
+    <string>Item</string>
     <string>Basic Armor</string>
     <string>Armor</string>
     <string>Equipment</string>
-    <string>Item</string>
   </Tags>
   <StatsHolder xsi:type="DM_EquipmentStats">
     <BaseValue>17</BaseValue>
@@ -39,7 +39,7 @@
       <float>0</float>
       <float>0</float>
     </Damage_Resistance>
-    <Impact_Resistance>11</Impact_Resistance>
+    <Impact_Resistance>5</Impact_Resistance>
     <Damage_Protection>0</Damage_Protection>
     <Damage_Bonus>
       <float>0</float>
@@ -59,6 +59,10 @@
     <Heat_Protection>0</Heat_Protection>
     <Cold_Protection>10</Cold_Protection>
     <Corruption_Protection>0</Corruption_Protection>
+    <Cooldown_Reduction>-0</Cooldown_Reduction>
+    <Hunger_Affect>0</Hunger_Affect>
+    <Thirst_Affect>0</Thirst_Affect>
+    <Fatigue_Affect>0</Fatigue_Affect>
   </StatsHolder>
   <EffectTransforms />
   <EquipSlot>Chest</EquipSlot>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DM_Enemy xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Name>Crescent Shark</Name>
+  <GameObject_Name>ElementalParasite</GameObject_Name>
+  <Unique_ID>3</Unique_ID>
+  <Locations_Found>
+    <string>Antique Plateau:Crumbling Loading Docks</string>
+  </Locations_Found>
+  <Max_Health>800</Max_Health>
+  <Health_Regen_Per_Second>0</Health_Regen_Per_Second>
+  <Impact_Resistance>30</Impact_Resistance>
+  <Protection>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+  </Protection>
+  <Damage_Resistances>
+    <float>15</float>
+    <float>20</float>
+    <float>100</float>
+    <float>-10</float>
+    <float>20</float>
+    <float>0</float>
+  </Damage_Resistances>
+  <Damage_Bonuses>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+  </Damage_Bonuses>
+  <Collider_Radius>0.4</Collider_Radius>
+  <True_WeaponDamage>
+    <Damages>
+      <Damage>24</Damage>
+      <Damage_Type>Physical</Damage_Type>
+    </Damages>
+    <Damages>
+      <Damage>8</Damage>
+      <Damage_Type>Ethereal</Damage_Type>
+    </Damages>
+  </True_WeaponDamage>
+  <Weapon_Impact>53</Weapon_Impact>
+  <Status_Immunities />
+  <Starting_Equipment>
+    <string>- (2400220)</string>
+  </Starting_Equipment>
+  <Skill_Knowledge>
+    <string>ElementalParasiteMortar (8300400)</string>
+    <string>ElementalParasiteMortar2 (8300401)</string>
+    <string>ElementalParasite Ash (8300402)</string>
+  </Skill_Knowledge>
+  <Faction>Merchants</Faction>
+  <Allied_To_Same_Faction>true</Allied_To_Same_Faction>
+  <Guaranteed_Drops />
+  <DropTable_Names />
+</DM_Enemy>

@@ -7,6 +7,8 @@
     <string>Hallowed Marsh:Dark Ziggurat Interior</string>
     <string>Abrassar:Electric Lab</string>
     <string>Enmerkar Forest:Vigil Pylon</string>
+    <string>Antique Plateau:Ancient Foundry</string>
+    <string>Antique Plateau:Destroyed Test Chambers</string>
   </Locations_Found>
   <Max_Health>225</Max_Health>
   <Health_Regen_Per_Second>0</Health_Regen_Per_Second>

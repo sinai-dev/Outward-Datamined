@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DM_Enemy xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Name>Arcane Elemental</Name>
+  <GameObject_Name>ElementalFire</GameObject_Name>
+  <Unique_ID>12</Unique_ID>
+  <Locations_Found>
+    <string>Antique Plateau:Destroyed Test Chambers</string>
+    <string>Antique Plateau:Corrupted Cave</string>
+  </Locations_Found>
+  <Max_Health>325</Max_Health>
+  <Health_Regen_Per_Second>0</Health_Regen_Per_Second>
+  <Impact_Resistance>30</Impact_Resistance>
+  <Protection>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+  </Protection>
+  <Damage_Resistances>
+    <float>10</float>
+    <float>0</float>
+    <float>0</float>
+    <float>40</float>
+    <float>0</float>
+    <float>0</float>
+  </Damage_Resistances>
+  <Damage_Bonuses>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+  </Damage_Bonuses>
+  <Collider_Radius>0.7</Collider_Radius>
+  <True_WeaponDamage>
+    <Damages>
+      <Damage>24</Damage>
+      <Damage_Type>Physical</Damage_Type>
+    </Damages>
+    <Damages>
+      <Damage>8</Damage>
+      <Damage_Type>Ethereal</Damage_Type>
+    </Damages>
+  </True_WeaponDamage>
+  <Weapon_Impact>53</Weapon_Impact>
+  <Status_Immunities />
+  <Starting_Equipment>
+    <string>- (2400220)</string>
+  </Starting_Equipment>
+  <Skill_Knowledge>
+    <string>ElementalShot3Fire (8300375)</string>
+    <string>ElementalShot1Fire (8300370)</string>
+    <string>ElementalBuffFire (8300380)</string>
+  </Skill_Knowledge>
+  <Faction>Mercs</Faction>
+  <Allied_To_Same_Faction>true</Allied_To_Same_Faction>
+  <Guaranteed_Drops />
+  <DropTable_Names>
+    <string>DropTable_ElementalFire_DLC1</string>
+  </DropTable_Names>
+</DM_Enemy>

@@ -107,6 +107,10 @@
       <Name>Enmerkar Forest:Ancestor’s Resting Place</Name>
       <Quantity>2</Quantity>
     </QuantityHolder>
+    <QuantityHolder>
+      <Name>Antique Plateau:Crumbling Loading Docks</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
   </All_Locations>
   <DropTables>
     <DroptableSummary>
@@ -138,6 +142,7 @@
         <string>Forest Hives</string>
         <string>Face of the Ancients</string>
         <string>Ancestor’s Resting Place</string>
+        <string>Crumbling Loading Docks</string>
       </Locations>
     </DroptableSummary>
   </DropTables>
