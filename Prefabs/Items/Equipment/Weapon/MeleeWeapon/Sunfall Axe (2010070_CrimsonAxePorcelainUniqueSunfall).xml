@@ -24,6 +24,7 @@ Inflicts Burning on enemies.</Description>
     <string>Axe</string>
     <string>Weapon</string>
     <string>Item</string>
+    <string>Main Weapon</string>
   </Tags>
   <StatsHolder xsi:type="DM_WeaponStats">
     <BaseValue>1000</BaseValue>

@@ -23,6 +23,7 @@
     <string>Weapon</string>
     <string>Item</string>
     <string>Axe</string>
+    <string>Main Weapon</string>
   </Tags>
   <StatsHolder xsi:type="DM_WeaponStats">
     <BaseValue>1000</BaseValue>

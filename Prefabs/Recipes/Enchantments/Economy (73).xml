@@ -62,12 +62,12 @@
     <StatModifications>
       <StatModification>
         <Name>StaminaCostReduction</Name>
-        <Type>Bonus</Type>
+        <Type>Modifier</Type>
         <Value>10</Value>
       </StatModification>
       <StatModification>
         <Name>ManaCostReduction</Name>
-        <Type>Bonus</Type>
+        <Type>Modifier</Type>
         <Value>15</Value>
       </StatModification>
     </StatModifications>

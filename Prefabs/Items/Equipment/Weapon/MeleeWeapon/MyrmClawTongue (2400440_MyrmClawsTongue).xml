@@ -22,6 +22,7 @@
     <string>MonsterWeapon</string>
     <string>Weapon</string>
     <string>Item</string>
+    <string>Main Weapon</string>
   </Tags>
   <StatsHolder xsi:type="DM_WeaponStats">
     <BaseValue>1</BaseValue>
@@ -103,12 +104,12 @@
       </AttackData>
       <AttackData>
         <StamCost>1.4</StamCost>
-        <Knockback>86</Knockback>
+        <Knockback>135</Knockback>
         <AttackSpeed>1</AttackSpeed>
         <Damage>
-          <float>36.75</float>
-          <float>12.25</float>
-          <float>-1</float>
+          <float>20</float>
+          <float>40</float>
+          <float>0</float>
         </Damage>
       </AttackData>
       <AttackData>

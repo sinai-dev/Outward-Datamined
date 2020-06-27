@@ -28,6 +28,7 @@
     <string>Basic Trog</string>
     <string>Trog</string>
     <string>Family</string>
+    <string>Main Weapon</string>
   </Tags>
   <StatsHolder xsi:type="DM_WeaponStats">
     <BaseValue>1000</BaseValue>

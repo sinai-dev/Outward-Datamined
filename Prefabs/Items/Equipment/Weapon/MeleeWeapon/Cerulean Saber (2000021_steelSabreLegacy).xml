@@ -24,6 +24,7 @@
     <string>Item</string>
     <string>DecraftIron_Small</string>
     <string>Decraft</string>
+    <string>Main Weapon</string>
   </Tags>
   <StatsHolder xsi:type="DM_WeaponStats">
     <BaseValue>800</BaseValue>

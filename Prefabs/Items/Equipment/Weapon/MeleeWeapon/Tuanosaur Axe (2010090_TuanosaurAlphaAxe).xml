@@ -24,6 +24,7 @@
     <string>Item</string>
     <string>DecraftPalladium_Small</string>
     <string>Decraft</string>
+    <string>Main Weapon</string>
   </Tags>
   <StatsHolder xsi:type="DM_WeaponStats">
     <BaseValue>450</BaseValue>

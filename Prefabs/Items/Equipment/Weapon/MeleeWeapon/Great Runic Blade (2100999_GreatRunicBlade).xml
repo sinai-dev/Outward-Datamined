@@ -26,6 +26,7 @@
     <string>Lexicon</string>
     <string>Family</string>
     <string>Runic</string>
+    <string>Main Weapon</string>
   </Tags>
   <StatsHolder xsi:type="DM_WeaponStats">
     <BaseValue>0</BaseValue>

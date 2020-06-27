@@ -22,6 +22,7 @@
     <string>Bludgeon</string>
     <string>Weapon</string>
     <string>Item</string>
+    <string>Main Weapon</string>
   </Tags>
   <StatsHolder xsi:type="DM_WeaponStats">
     <BaseValue>0</BaseValue>

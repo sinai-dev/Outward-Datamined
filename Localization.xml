@@ -50016,6 +50016,14 @@ His last words were “Pour a drink for me, partner!”</General>
       <EmoteTags />
     </DialogueLocalizationHolder>
     <DialogueLocalizationHolder>
+      <Key>LockedTrain_SO_Golem_01</Key>
+      <General>(&lt;color=#00CCFF&gt;&lt;b&gt;Unknown Runes&lt;/b&gt;&lt;/color&gt; line the device...It doesn’t appear to respond to you right now...Perhaps &lt;color=#00CCFF&gt;&lt;b&gt;some event in the future will give you the means to use it&lt;/b&gt;&lt;/color&gt;?)</General>
+      <Female />
+      <UniqueAudioName />
+      <AnimTags />
+      <EmoteTags />
+    </DialogueLocalizationHolder>
+    <DialogueLocalizationHolder>
       <Key>QuadKey_SO_Golem_01</Key>
       <General>(There is an ornate key here. The engravings on the handle suggest &lt;color=#00CCFF&gt;&lt;b&gt;this is part of a set of 4&lt;/b&gt;&lt;/color&gt;, and the complex design and precious &lt;color=#00CCFF&gt;&lt;b&gt;gemstone&lt;/b&gt;&lt;/color&gt; on the top suggests it was for something very important...You put it in a hidden pouch for safekeeping.)</General>
       <Female />
@@ -50338,14 +50346,6 @@ His last words were “Pour a drink for me, partner!”</General>
     <DialogueLocalizationHolder>
       <Key>AfterANYBoss_SO_Golem_01</Key>
       <General>My demands remain the same! Surrender all who serve Sorobor Academy by the end of &lt;color=#00CCFF&gt;&lt;b&gt;60 days&lt;/b&gt;&lt;/color&gt;, or reap the consequences!</General>
-      <Female />
-      <UniqueAudioName />
-      <AnimTags />
-      <EmoteTags />
-    </DialogueLocalizationHolder>
-    <DialogueLocalizationHolder>
-      <Key>AfterANYBoss_SO_Golem_01_LongTimer</Key>
-      <General>My demands remain the same! Surrender all who serve Sorobor Academy by the end of &lt;color=#00CCFF&gt;&lt;b&gt;100 days&lt;/b&gt;&lt;/color&gt;, or reap the consequences!</General>
       <Female />
       <UniqueAudioName />
       <AnimTags />
@@ -51801,7 +51801,7 @@ His last words were “Pour a drink for me, partner!”</General>
     </DialogueLocalizationHolder>
     <DialogueLocalizationHolder>
       <Key>TownGuard_SO_Harmattan_03</Key>
-      <General>To the East, there’s the ruined cultural district, and just north of that is what was once known as the Fourwinds District, were that old gang once held power. It’s mostly wild animals and Golems around there nowadays.</General>
+      <General>To the East, there’s the ruined cultural district, and just north of that is what was once known as the Fourwinds District, where that old gang once held power. It’s mostly wild animals and Golems around there nowadays.</General>
       <Female />
       <UniqueAudioName />
       <AnimTags />
@@ -55484,6 +55484,14 @@ His last words were “Pour a drink for me, partner!”</General>
     <LocalizationEntryHolder>
       <Key>name_unpc_hugolockwell_01_map</Key>
       <Value>Lockwell (Academic Provost)</Value>
+    </LocalizationEntryHolder>
+    <LocalizationEntryHolder>
+      <Key>Trap_Sapped</Key>
+      <Value>Arcane Dampener</Value>
+    </LocalizationEntryHolder>
+    <LocalizationEntryHolder>
+      <Key>Trap_Sapped_Desc</Key>
+      <Value>Weakens foes.</Value>
     </LocalizationEntryHolder>
     <LocalizationEntryHolder>
       <Key>Enchantment_1</Key>
@@ -62323,6 +62331,10 @@ This license is available with a FAQ at: http://scripts.sil.org/OFL
     </LocalizationEntryHolder>
     <LocalizationEntryHolder>
       <Key>ItemTag_Weapon</Key>
+      <Value>Weapon</Value>
+    </LocalizationEntryHolder>
+    <LocalizationEntryHolder>
+      <Key>ItemTag_MainWeapon</Key>
       <Value>Weapon</Value>
     </LocalizationEntryHolder>
     <LocalizationEntryHolder>

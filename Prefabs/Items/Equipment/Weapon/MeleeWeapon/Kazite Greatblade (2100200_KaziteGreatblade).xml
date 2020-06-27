@@ -25,6 +25,7 @@
     <string>Blade</string>
     <string>Kazite</string>
     <string>Family</string>
+    <string>Main Weapon</string>
   </Tags>
   <StatsHolder xsi:type="DM_WeaponStats">
     <BaseValue>250</BaseValue>

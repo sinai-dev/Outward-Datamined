@@ -26,6 +26,7 @@
     <string>Decraft</string>
     <string>Iron</string>
     <string>Family</string>
+    <string>Main Weapon</string>
   </Tags>
   <StatsHolder xsi:type="DM_WeaponStats">
     <BaseValue>20</BaseValue>

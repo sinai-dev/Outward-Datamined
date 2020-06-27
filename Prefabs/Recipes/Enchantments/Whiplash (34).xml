@@ -5,7 +5,7 @@
   <CompatibleEquipment>
     <CompatibleEquipments>
       <IngredientData>
-        <IngredientTag>Weapon</IngredientTag>
+        <IngredientTag>Main Weapon</IngredientTag>
         <SpecificItemID>0</SpecificItemID>
         <Type>Generic</Type>
       </IngredientData>

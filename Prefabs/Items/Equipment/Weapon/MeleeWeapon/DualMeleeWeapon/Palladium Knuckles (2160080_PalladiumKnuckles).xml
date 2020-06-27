@@ -25,6 +25,7 @@
     <string>Bludgeon</string>
     <string>Palladium</string>
     <string>Family</string>
+    <string>Main Weapon</string>
   </Tags>
   <StatsHolder xsi:type="DM_WeaponStats">
     <BaseValue>800</BaseValue>

@@ -57,7 +57,7 @@
     <StatModifications>
       <StatModification>
         <Name>ManaCostReduction</Name>
-        <Type>Bonus</Type>
+        <Type>Modifier</Type>
         <Value>5</Value>
       </StatModification>
       <StatModification>

@@ -23,8 +23,6 @@
     <string>Trinket</string>
     <string>Item</string>
     <string>Weapon</string>
-    <string>Virgin</string>
-    <string>Family</string>
   </Tags>
   <StatsHolder xsi:type="DM_WeaponStats">
     <BaseValue>2000</BaseValue>

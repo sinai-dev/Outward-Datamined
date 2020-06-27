@@ -27,6 +27,7 @@
     <string>Decraft</string>
     <string>Marble</string>
     <string>Family</string>
+    <string>Main Weapon</string>
   </Tags>
   <StatsHolder xsi:type="DM_WeaponStats">
     <BaseValue>1000</BaseValue>

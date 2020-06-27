@@ -25,6 +25,7 @@
     <string>Spear</string>
     <string>Virgin</string>
     <string>Family</string>
+    <string>Main Weapon</string>
   </Tags>
   <StatsHolder xsi:type="DM_WeaponStats">
     <BaseValue>1000</BaseValue>

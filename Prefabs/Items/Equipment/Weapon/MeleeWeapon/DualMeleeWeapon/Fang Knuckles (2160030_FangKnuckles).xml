@@ -25,6 +25,7 @@
     <string>2 Handed</string>
     <string>Weapon</string>
     <string>Bludgeon</string>
+    <string>Main Weapon</string>
   </Tags>
   <StatsHolder xsi:type="DM_WeaponStats">
     <BaseValue>50</BaseValue>
