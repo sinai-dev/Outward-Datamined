@@ -268,7 +268,7 @@
 2160030	Fang Knuckles	2160030_FangKnuckles	/Equipment/Weapon/MeleeWeapon/DualMeleeWeapon
 2160031	Savage Fang Knuckles	2160031_FangKnucklesLegacy	/Equipment/Weapon/MeleeWeapon/DualMeleeWeapon
 2160040	Galvanic Fists	2160040_GolemFists	/Equipment/Weapon/MeleeWeapon/DualMeleeWeapon
-2160050	Golden Knuckles	2160050_GoldenKnuckles	/Equipment/Weapon/MeleeWeapon/DualMeleeWeapon
+2160050	Gold-Lich Knuckles	2160050_GoldenKnuckles	/Equipment/Weapon/MeleeWeapon/DualMeleeWeapon
 2160060	Horror Fists	2160060_HorrorFists	/Equipment/Weapon/MeleeWeapon/DualMeleeWeapon
 2160070	Marble Fists	2160070_MarbleFists	/Equipment/Weapon/MeleeWeapon/DualMeleeWeapon
 2160080	Palladium Knuckles	2160080_PalladiumKnuckles	/Equipment/Weapon/MeleeWeapon/DualMeleeWeapon

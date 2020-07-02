@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <DM_Enemy xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Name>Arcane Elemental</Name>
-  <GameObject_Name>ElementalFire</GameObject_Name>
+  <GameObject_Name>ElementalEthereal</GameObject_Name>
   <Unique_ID>12</Unique_ID>
   <Locations_Found>
-    <string>Antique Plateau:Destroyed Test Chambers</string>
-    <string>Antique Plateau:Corrupted Cave</string>
+    <string>Antique Plateau:Ruined Warehouse</string>
+    <string>Antique Plateau:Abandoned Storage</string>
   </Locations_Found>
   <Max_Health>325</Max_Health>
   <Health_Regen_Per_Second>0</Health_Regen_Per_Second>
@@ -51,14 +51,14 @@
     <string>- (2400220)</string>
   </Starting_Equipment>
   <Skill_Knowledge>
-    <string>ElementalShot3Fire (8300375)</string>
-    <string>ElementalShot1Fire (8300370)</string>
-    <string>ElementalBuffFire (8300380)</string>
+    <string>ElementalShot3Ethereal (8300378)</string>
+    <string>ElementalShot1Ethereal (8300373)</string>
+    <string>ElementalBuffEthereal (8300383)</string>
   </Skill_Knowledge>
-  <Faction>Mercs</Faction>
+  <Faction>Hounds</Faction>
   <Allied_To_Same_Faction>true</Allied_To_Same_Faction>
   <Guaranteed_Drops />
   <DropTable_Names>
-    <string>DropTable_ElementalFire_DLC1</string>
+    <string>DropTable_ElementalEthereal_DLC1</string>
   </DropTable_Names>
 </DM_Enemy>

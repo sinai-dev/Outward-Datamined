@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <DM_Weapon xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <gameObjectName>5110180_GalvanicPistol</gameObjectName>
-  <saveDir>/Equipment/Weapon/ProjectileWeapon</saveDir>
-  <ItemID>5110180</ItemID>
-  <Name>Galvanic Pistol</Name>
-  <Description>Inflicts Pain. Needs the Fire/Reload skill to shoot a bullet.</Description>
+  <gameObjectName>2160050_GoldenKnuckles</gameObjectName>
+  <saveDir>/Equipment/Weapon/MeleeWeapon/DualMeleeWeapon</saveDir>
+  <ItemID>2160050</ItemID>
+  <Name>Gold-Lich Knuckles</Name>
+  <Description />
   <LegacyItemID>-1</LegacyItemID>
   <IsPickable>true</IsPickable>
   <IsUsable>false</IsUsable>
@@ -19,15 +19,16 @@
   <MobileCastMovementMult>-1</MobileCastMovementMult>
   <CastSheatheRequired>1</CastSheatheRequired>
   <Tags>
-    <string>Pistol</string>
-    <string>Trinket</string>
-    <string>Item</string>
+    <string>Bludgeon</string>
     <string>Weapon</string>
+    <string>Item</string>
+    <string>2 Handed</string>
+    <string>Main Weapon</string>
   </Tags>
   <StatsHolder xsi:type="DM_WeaponStats">
-    <BaseValue>900</BaseValue>
-    <RawWeight>1</RawWeight>
-    <MaxDurability>200</MaxDurability>
+    <BaseValue>500</BaseValue>
+    <RawWeight>3.5</RawWeight>
+    <MaxDurability>375</MaxDurability>
     <Damage_Resistance>
       <float>0</float>
       <float>0</float>
@@ -66,52 +67,61 @@
     <AttackSpeed>1</AttackSpeed>
     <BaseDamage>
       <Damages>
-        <Damage>81</Damage>
+        <Damage>20.8</Damage>
         <Damage_Type>Physical</Damage_Type>
       </Damages>
+      <Damages>
+        <Damage>11.2</Damage>
+        <Damage_Type>Electric</Damage_Type>
+      </Damages>
     </BaseDamage>
-    <Impact>65</Impact>
-    <StamCost>0</StamCost>
+    <Impact>16</Impact>
+    <StamCost>2.6</StamCost>
     <AutoGenerateAttackData>false</AutoGenerateAttackData>
     <Attacks>
       <AttackData>
-        <StamCost>0</StamCost>
-        <Knockback>65</Knockback>
+        <StamCost>2.6</StamCost>
+        <Knockback>16</Knockback>
         <AttackSpeed>1</AttackSpeed>
         <Damage>
-          <float>81</float>
+          <float>20.8</float>
+          <float>11.2</float>
         </Damage>
       </AttackData>
       <AttackData>
-        <StamCost>0</StamCost>
-        <Knockback>65</Knockback>
+        <StamCost>2.6</StamCost>
+        <Knockback>16</Knockback>
         <AttackSpeed>1</AttackSpeed>
         <Damage>
-          <float>81</float>
+          <float>20.8</float>
+          <float>11.2</float>
         </Damage>
       </AttackData>
       <AttackData>
-        <StamCost>0</StamCost>
-        <Knockback>65</Knockback>
-        <AttackSpeed>1</AttackSpeed>
+        <StamCost>3.38</StamCost>
+        <Knockback>20.8</Knockback>
+        <AttackSpeed>1.1</AttackSpeed>
         <Damage>
-          <float>81</float>
+          <float>27.0399971</float>
+          <float>14.5599995</float>
         </Damage>
       </AttackData>
       <AttackData>
-        <StamCost>0</StamCost>
-        <Knockback>65</Knockback>
-        <AttackSpeed>1</AttackSpeed>
+        <StamCost>3.12</StamCost>
+        <Knockback>20.8</Knockback>
+        <AttackSpeed>1.1</AttackSpeed>
         <Damage>
-          <float>81</float>
+          <float>27.0399971</float>
+          <float>14.5599995</float>
         </Damage>
       </AttackData>
       <AttackData>
-        <StamCost>0</StamCost>
-        <Knockback>65</Knockback>
-        <AttackSpeed>1</AttackSpeed>
+        <StamCost>3.12</StamCost>
+        <Knockback>20.8</Knockback>
+        <AttackSpeed>1.1</AttackSpeed>
         <Damage>
-          <float>81</float>
+          <float>27.0399971</float>
+          <float>14.5599995</float>
         </Damage>
       </AttackData>
     </Attacks>
@@ -124,23 +134,23 @@
           <Delay>0</Delay>
           <SyncType>OwnerSync</SyncType>
           <OverrideCategory>None</OverrideCategory>
-          <StatusEffect>Pain</StatusEffect>
-          <Buildup>90</Buildup>
+          <StatusEffect>Doom</StatusEffect>
+          <Buildup>30</Buildup>
         </DM_Effect>
       </Effects>
       <EffectConditions />
       <ChildEffects />
     </DM_EffectTransform>
   </EffectTransforms>
-  <EquipSlot>LeftHand</EquipSlot>
-  <TwoHandType>None</TwoHandType>
+  <EquipSlot>RightHand</EquipSlot>
+  <TwoHandType>DualWield</TwoHandType>
   <IKType>None</IKType>
   <VisualDetectabilityAdd>0</VisualDetectabilityAdd>
-  <WeaponType>Pistol_OH</WeaponType>
+  <WeaponType>FistW_2H</WeaponType>
   <Unblockable>false</Unblockable>
   <SwingSound>Default</SwingSound>
   <SpecialIsZoom>false</SpecialIsZoom>
-  <MaxProjectileShots>1</MaxProjectileShots>
+  <MaxProjectileShots>-1</MaxProjectileShots>
   <BaseHealthAbsorbRatio>0</BaseHealthAbsorbRatio>
   <BaseMaxHealthAbsorbRatio>0</BaseMaxHealthAbsorbRatio>
 </DM_Weapon>

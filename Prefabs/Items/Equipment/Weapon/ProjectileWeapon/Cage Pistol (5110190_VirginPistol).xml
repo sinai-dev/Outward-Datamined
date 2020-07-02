@@ -116,7 +116,29 @@
       </AttackData>
     </Attacks>
   </StatsHolder>
-  <EffectTransforms />
+  <EffectTransforms>
+    <DM_EffectTransform>
+      <TransformName>HitEffects</TransformName>
+      <Effects>
+        <DM_Effect xsi:type="DM_AddStatusEffectBuildUp">
+          <Delay>0</Delay>
+          <SyncType>OwnerSync</SyncType>
+          <OverrideCategory>None</OverrideCategory>
+          <StatusEffect>Weaken</StatusEffect>
+          <Buildup>90</Buildup>
+        </DM_Effect>
+        <DM_Effect xsi:type="DM_AddStatusEffectBuildUp">
+          <Delay>0</Delay>
+          <SyncType>OwnerSync</SyncType>
+          <OverrideCategory>None</OverrideCategory>
+          <StatusEffect>Sapped</StatusEffect>
+          <Buildup>100</Buildup>
+        </DM_Effect>
+      </Effects>
+      <EffectConditions />
+      <ChildEffects />
+    </DM_EffectTransform>
+  </EffectTransforms>
   <EquipSlot>LeftHand</EquipSlot>
   <TwoHandType>None</TwoHandType>
   <IKType>None</IKType>

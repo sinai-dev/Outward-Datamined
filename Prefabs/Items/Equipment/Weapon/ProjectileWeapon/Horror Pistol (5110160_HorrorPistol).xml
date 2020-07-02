@@ -134,7 +134,7 @@
           <SyncType>OwnerSync</SyncType>
           <OverrideCategory>None</OverrideCategory>
           <StatusEffect>Poisoned +</StatusEffect>
-          <Buildup>60</Buildup>
+          <Buildup>90</Buildup>
         </DM_Effect>
       </Effects>
       <EffectConditions />

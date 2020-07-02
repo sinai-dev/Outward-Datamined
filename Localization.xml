@@ -5206,7 +5206,7 @@ The coil can be swapped for a new one when the light does run out.</Desc>
     </ItemLocalizationHolder>
     <ItemLocalizationHolder>
       <KeyID>2160050</KeyID>
-      <Name>Golden Knuckles</Name>
+      <Name>Gold-Lich Knuckles</Name>
       <Desc />
     </ItemLocalizationHolder>
     <ItemLocalizationHolder>
@@ -57761,7 +57761,7 @@ One must manually refill their quiver between fights so as not to run out of arr
     </LocalizationEntryHolder>
     <LocalizationEntryHolder>
       <Key>Notification_Item_FoodRotten</Key>
-      <Value>{1} has rotten.</Value>
+      <Value>{1} has rotted.</Value>
     </LocalizationEntryHolder>
     <LocalizationEntryHolder>
       <Key>Notification_Item_OutOfFuel</Key>

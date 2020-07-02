@@ -5,8 +5,6 @@
   <Unique_ID>1</Unique_ID>
   <Locations_Found>
     <string>Antique Plateau:Antique Plateau</string>
-    <string>Antique Plateau:Ruined Warehouse</string>
-    <string>Antique Plateau:Abandoned Storage</string>
   </Locations_Found>
   <Max_Health>325</Max_Health>
   <Health_Regen_Per_Second>0</Health_Regen_Per_Second>
@@ -58,7 +56,14 @@
   </Skill_Knowledge>
   <Faction>Mercs</Faction>
   <Allied_To_Same_Faction>true</Allied_To_Same_Faction>
-  <Guaranteed_Drops />
+  <Guaranteed_Drops>
+    <DropTableEntry>
+      <Item_Name>Elemental Particle – Ether</Item_Name>
+      <Item_ID>6000150</Item_ID>
+      <Min_Quantity>1</Min_Quantity>
+      <Max_Quantity>1</Max_Quantity>
+    </DropTableEntry>
+  </Guaranteed_Drops>
   <DropTable_Names>
     <string>DropTable_ElementalEthereal_DLC1</string>
   </DropTable_Names>

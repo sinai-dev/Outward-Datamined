@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <DM_Enemy xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Name>Arcane Elemental</Name>
-  <GameObject_Name>ElementalFire</GameObject_Name>
-  <Unique_ID>13</Unique_ID>
+  <GameObject_Name>ElementalLight_01</GameObject_Name>
+  <Unique_ID>15</Unique_ID>
   <Locations_Found>
-    <string>Antique Plateau:Destroyed Test Chambers</string>
-    <string>Antique Plateau:Corrupted Cave</string>
+    <string>Antique Plateau:Compromised Mana Transfer Station</string>
+    <string>Antique Plateau:Bandit Hideout</string>
   </Locations_Found>
   <Max_Health>325</Max_Health>
   <Health_Regen_Per_Second>0</Health_Regen_Per_Second>
@@ -51,14 +51,14 @@
     <string>- (2400220)</string>
   </Starting_Equipment>
   <Skill_Knowledge>
-    <string>ElementalShot3Fire (8300375)</string>
-    <string>ElementalShot1Fire (8300370)</string>
-    <string>ElementalBuffFire (8300380)</string>
+    <string>ElementalShot3Light (8300377)</string>
+    <string>ElementalShot1Light (8300372)</string>
+    <string>ElementalBuffLight (8300382)</string>
   </Skill_Knowledge>
   <Faction>Mercs</Faction>
   <Allied_To_Same_Faction>true</Allied_To_Same_Faction>
   <Guaranteed_Drops />
   <DropTable_Names>
-    <string>DropTable_ElementalFire_DLC1</string>
+    <string>DropTable_ElementalLight_DLC1</string>
   </DropTable_Names>
 </DM_Enemy>
