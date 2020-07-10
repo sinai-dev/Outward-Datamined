@@ -37,6 +37,28 @@
       </positions>
     </DM_ItemSpawn>
     <DM_ItemSpawn>
+      <Name>Fire Stone</Name>
+      <Item_ID>6500010</Item_ID>
+      <Quantity>3</Quantity>
+      <positions>
+        <Vector3>
+          <x>1497.72</x>
+          <y>-8.628</y>
+          <z>35.554</z>
+        </Vector3>
+        <Vector3>
+          <x>1496.725</x>
+          <y>-8.721</y>
+          <z>35.698</z>
+        </Vector3>
+        <Vector3>
+          <x>1497.23</x>
+          <y>-8.623</y>
+          <z>35.543</z>
+        </Vector3>
+      </positions>
+    </DM_ItemSpawn>
+    <DM_ItemSpawn>
       <Name>Wood</Name>
       <Item_ID>6100010</Item_ID>
       <Quantity>3</Quantity>
@@ -79,28 +101,6 @@
           <x>1508.281</x>
           <y>-8.011</y>
           <z>40.348</z>
-        </Vector3>
-      </positions>
-    </DM_ItemSpawn>
-    <DM_ItemSpawn>
-      <Name>Fire Stone</Name>
-      <Item_ID>6500010</Item_ID>
-      <Quantity>3</Quantity>
-      <positions>
-        <Vector3>
-          <x>1497.72</x>
-          <y>-8.628</y>
-          <z>35.554</z>
-        </Vector3>
-        <Vector3>
-          <x>1497.23</x>
-          <y>-8.623</y>
-          <z>35.543</z>
-        </Vector3>
-        <Vector3>
-          <x>1496.725</x>
-          <y>-8.721</y>
-          <z>35.698</z>
         </Vector3>
       </positions>
     </DM_ItemSpawn>

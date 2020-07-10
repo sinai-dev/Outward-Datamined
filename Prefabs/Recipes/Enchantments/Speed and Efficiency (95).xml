@@ -60,7 +60,7 @@
     <StatModifications>
       <StatModification>
         <Name>MovementSpeed</Name>
-        <Type>Bonus</Type>
+        <Type>Modifier</Type>
         <Value>7</Value>
       </StatModification>
       <StatModification>

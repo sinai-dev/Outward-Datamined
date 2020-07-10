@@ -35,6 +35,8 @@
 541	Life Drain 1
 542	Life Drain 2
 543	Life Drain 3
+599	Wolf Fal Runes
+600	Wolf Runic Protection
 25	Confusion
 26	Pain
 27	Burn

@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <DM_StatusEffect xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <PresetID>574</PresetID>
-  <Identifier>Gift of Blood Ally</Identifier>
-  <Name>Gift of Blood</Name>
-  <Description>Recover [E1V1] Health per second.</Description>
-  <Lifespan>10</Lifespan>
+  <PresetID>600</PresetID>
+  <Identifier>Wolf Runic Protection</Identifier>
+  <Name>Runic Protection</Name>
+  <Description>Physical Resistance +[E1V1]%. Protection +[E2V1].</Description>
+  <Lifespan>180</Lifespan>
   <LengthType>Short</LengthType>
-  <RefreshRate>1</RefreshRate>
+  <RefreshRate>0.1</RefreshRate>
   <BuildupRecoverySpeed>3</BuildupRecoverySpeed>
   <IgnoreBuildupIfApplied>false</IgnoreBuildupIfApplied>
   <DisplayedInHUD>true</DisplayedInHUD>
@@ -14,29 +14,23 @@
   <Tags />
   <Effects>
     <DM_EffectTransform>
-      <TransformName>Effects</TransformName>
-      <Effects>
-        <DM_Effect xsi:type="DM_AffectHealth">
-          <Delay>0</Delay>
-          <SyncType>OwnerSync</SyncType>
-          <OverrideCategory>None</OverrideCategory>
-          <AffectQuantity>2</AffectQuantity>
-          <IsModifier>false</IsModifier>
-          <AffectQuantityAI>-99999</AffectQuantityAI>
-        </DM_Effect>
-      </Effects>
-      <EffectConditions />
-      <ChildEffects />
-    </DM_EffectTransform>
-    <DM_EffectTransform>
       <TransformName>ActivationEffects</TransformName>
       <Effects>
-        <DM_Effect xsi:type="DM_AffectCorruption">
+        <DM_Effect xsi:type="DM_AffectStat">
           <Delay>0</Delay>
           <SyncType>OwnerSync</SyncType>
           <OverrideCategory>None</OverrideCategory>
-          <AffectQuantity>60</AffectQuantity>
-          <IsRaw>false</IsRaw>
+          <Stat_Tag>PhysicalResistance</Stat_Tag>
+          <AffectQuantity>15</AffectQuantity>
+          <IsModifier>false</IsModifier>
+        </DM_Effect>
+        <DM_Effect xsi:type="DM_AffectStat">
+          <Delay>0</Delay>
+          <SyncType>OwnerSync</SyncType>
+          <OverrideCategory>None</OverrideCategory>
+          <Stat_Tag>PhysicalProtection</Stat_Tag>
+          <AffectQuantity>2</AffectQuantity>
+          <IsModifier>false</IsModifier>
         </DM_Effect>
       </Effects>
       <EffectConditions />
