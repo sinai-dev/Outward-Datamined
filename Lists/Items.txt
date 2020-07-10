@@ -1479,6 +1479,7 @@
 8100140	Mana Ward	8100140_ForceBubble	/Skill
 8100150	Conjure	8100150_ForceRaise	/Skill
 8100190	Shield Charge	8100190_ShieldCharge	/Skill/AttackSkill/MeleeSkill
+8100200	Gong Strike	8100200_GongStrike	/Skill/AttackSkill
 8100210	Rune_ Dez	8100210_DezRunes	/Skill/AttackSkill
 8100220	Rune_ Shim	8100220_ShimRunes	/Skill/AttackSkill
 8100230	Rune_ Egoth	8100230_EgothRunes	/Skill/AttackSkill
@@ -1532,6 +1533,7 @@
 8200280	Doom	8200280_AddDoom	/Skill/AttackSkill
 8200290	Curse	8200290_AddCurse	/Skill/AttackSkill
 8200300	Call to Elements	8200300_CallToElements	/Skill/AttackSkill
+8200310	Elemental Discharge	8200310_ElementalProjectile	/Skill/AttackSkill
 8200600	Fire_Reload	8200600_FireReload	/Skill/AttackSkill/PistolSkill
 8200601	Frost Bullet	8200601_LoadFrostBullet	/Skill/AttackSkill/PistolSkill
 8200602	Blood Bullet	8200602_LoadBloodBullet	/Skill/AttackSkill/PistolSkill

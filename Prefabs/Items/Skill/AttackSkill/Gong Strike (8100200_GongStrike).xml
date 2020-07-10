@@ -1,0 +1,726 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DM_AttackSkill xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <gameObjectName>8100200_GongStrike</gameObjectName>
+  <saveDir>/Skill/AttackSkill</saveDir>
+  <ItemID>8100200</ItemID>
+  <Name>Gong Strike</Name>
+  <Description>Required: Infused Weapon, Shield
+
+Strike your weapon on your shield, removing the elemental infusion to make an explosion of that element.</Description>
+  <LegacyItemID>-1</LegacyItemID>
+  <IsPickable>false</IsPickable>
+  <IsUsable>false</IsUsable>
+  <QtyRemovedOnUse>1</QtyRemovedOnUse>
+  <GroupItemInDisplay>false</GroupItemInDisplay>
+  <HasPhysicsWhenWorld>false</HasPhysicsWhenWorld>
+  <RepairedInRest>true</RepairedInRest>
+  <BehaviorOnNoDurability>NotSet</BehaviorOnNoDurability>
+  <CastType>GongStrike</CastType>
+  <CastModifier>Immobilized</CastModifier>
+  <CastLocomotionEnabled>false</CastLocomotionEnabled>
+  <MobileCastMovementMult>-1</MobileCastMovementMult>
+  <CastSheatheRequired>2</CastSheatheRequired>
+  <Tags />
+  <EffectTransforms>
+    <DM_EffectTransform>
+      <TransformName>Effects</TransformName>
+      <Effects>
+        <DM_Effect xsi:type="DM_RemoveImbueEffects">
+          <Delay>0</Delay>
+          <SyncType>OwnerSync</SyncType>
+          <OverrideCategory>None</OverrideCategory>
+          <AffectSlot>MainHand</AffectSlot>
+        </DM_Effect>
+      </Effects>
+      <EffectConditions />
+      <ChildEffects />
+    </DM_EffectTransform>
+    <DM_EffectTransform>
+      <TransformName>ElementalEffect</TransformName>
+      <Effects />
+      <EffectConditions />
+      <ChildEffects>
+        <DM_EffectTransform>
+          <TransformName>NormalFire</TransformName>
+          <Effects>
+            <DM_Effect xsi:type="DM_ShootBlast">
+              <Delay>0</Delay>
+              <SyncType>OwnerSync</SyncType>
+              <OverrideCategory>None</OverrideCategory>
+              <CastPosition>Local</CastPosition>
+              <LocalPositionAdd>
+                <x>0</x>
+                <y>1.5</y>
+                <z>0</z>
+              </LocalPositionAdd>
+              <NoAim>false</NoAim>
+              <TargetType>Enemies</TargetType>
+              <TransformName>ShooterTransform</TransformName>
+              <BaseBlast>GongStrikeFire</BaseBlast>
+              <Radius>1.25</Radius>
+              <RefreshTime>0.1</RefreshTime>
+              <BlastLifespan>0</BlastLifespan>
+              <InstantiatedAmount>1</InstantiatedAmount>
+              <Interruptible>false</Interruptible>
+              <MaxHitTargetCount>-1</MaxHitTargetCount>
+              <AffectHitTargetCenter>false</AffectHitTargetCenter>
+              <HitOnShoot>true</HitOnShoot>
+              <IgnoreShooter>false</IgnoreShooter>
+              <IgnoreStop>false</IgnoreStop>
+              <NoTargetForwardMultiplier>5</NoTargetForwardMultiplier>
+              <ParentToShootTransform>false</ParentToShootTransform>
+              <UseTargetCharacterPositionType>false</UseTargetCharacterPositionType>
+              <ImpactSoundMaterial>Fire</ImpactSoundMaterial>
+              <DontPlayHitSound>false</DontPlayHitSound>
+              <FXIsWorld>false</FXIsWorld>
+              <BlastEffects>
+                <DM_EffectTransform>
+                  <TransformName>Effects</TransformName>
+                  <Effects>
+                    <DM_Effect xsi:type="DM_WeaponDamage">
+                      <Delay>0</Delay>
+                      <SyncType>OwnerSync</SyncType>
+                      <OverrideCategory>None</OverrideCategory>
+                      <Damage />
+                      <Damages_AI />
+                      <Knockback>0</Knockback>
+                      <HitInventory>true</HitInventory>
+                      <OverrideType>Fire</OverrideType>
+                      <ForceOnlyLeftHand>true</ForceOnlyLeftHand>
+                      <Damage_Multiplier>2.2</Damage_Multiplier>
+                      <Damage_Multiplier_Kback>-1</Damage_Multiplier_Kback>
+                      <Damage_Multiplier_Kdown>-1</Damage_Multiplier_Kdown>
+                      <Impact_Multiplier>1.4</Impact_Multiplier>
+                      <Impact_Multiplier_Kback>-1</Impact_Multiplier_Kback>
+                      <Impact_Multiplier_Kdown>-1</Impact_Multiplier_Kdown>
+                    </DM_Effect>
+                    <DM_Effect xsi:type="DM_AddStatusEffect">
+                      <Delay>0</Delay>
+                      <SyncType>OwnerSync</SyncType>
+                      <OverrideCategory>None</OverrideCategory>
+                      <StatusEffect>Burning</StatusEffect>
+                      <ChanceToContract>100</ChanceToContract>
+                    </DM_Effect>
+                  </Effects>
+                  <EffectConditions />
+                  <ChildEffects />
+                </DM_EffectTransform>
+              </BlastEffects>
+            </DM_Effect>
+          </Effects>
+          <EffectConditions>
+            <DM_EffectCondition xsi:type="DM_ImbueEffectORCondition">
+              <Invert>false</Invert>
+              <ImbuePresetIDs>
+                <int>202</int>
+                <int>203</int>
+                <int>217</int>
+              </ImbuePresetIDs>
+              <AnyImbue>false</AnyImbue>
+              <WeaponToCheck>MainHand</WeaponToCheck>
+            </DM_EffectCondition>
+          </EffectConditions>
+          <ChildEffects />
+        </DM_EffectTransform>
+        <DM_EffectTransform>
+          <TransformName>NormalFrost</TransformName>
+          <Effects>
+            <DM_Effect xsi:type="DM_ShootBlast">
+              <Delay>0</Delay>
+              <SyncType>OwnerSync</SyncType>
+              <OverrideCategory>None</OverrideCategory>
+              <CastPosition>Local</CastPosition>
+              <LocalPositionAdd>
+                <x>0</x>
+                <y>1.5</y>
+                <z>0</z>
+              </LocalPositionAdd>
+              <NoAim>false</NoAim>
+              <TargetType>Enemies</TargetType>
+              <TransformName>ShooterTransform</TransformName>
+              <BaseBlast>GongStrikeFrost</BaseBlast>
+              <Radius>1.25</Radius>
+              <RefreshTime>0.1</RefreshTime>
+              <BlastLifespan>0</BlastLifespan>
+              <InstantiatedAmount>1</InstantiatedAmount>
+              <Interruptible>false</Interruptible>
+              <MaxHitTargetCount>-1</MaxHitTargetCount>
+              <AffectHitTargetCenter>false</AffectHitTargetCenter>
+              <HitOnShoot>true</HitOnShoot>
+              <IgnoreShooter>false</IgnoreShooter>
+              <IgnoreStop>false</IgnoreStop>
+              <NoTargetForwardMultiplier>5</NoTargetForwardMultiplier>
+              <ParentToShootTransform>false</ParentToShootTransform>
+              <UseTargetCharacterPositionType>false</UseTargetCharacterPositionType>
+              <ImpactSoundMaterial>Fire</ImpactSoundMaterial>
+              <DontPlayHitSound>false</DontPlayHitSound>
+              <FXIsWorld>false</FXIsWorld>
+              <BlastEffects>
+                <DM_EffectTransform>
+                  <TransformName>Effects</TransformName>
+                  <Effects>
+                    <DM_Effect xsi:type="DM_WeaponDamage">
+                      <Delay>0</Delay>
+                      <SyncType>OwnerSync</SyncType>
+                      <OverrideCategory>None</OverrideCategory>
+                      <Damage />
+                      <Damages_AI />
+                      <Knockback>0</Knockback>
+                      <HitInventory>true</HitInventory>
+                      <OverrideType>Frost</OverrideType>
+                      <ForceOnlyLeftHand>true</ForceOnlyLeftHand>
+                      <Damage_Multiplier>2.2</Damage_Multiplier>
+                      <Damage_Multiplier_Kback>-1</Damage_Multiplier_Kback>
+                      <Damage_Multiplier_Kdown>-1</Damage_Multiplier_Kdown>
+                      <Impact_Multiplier>1.4</Impact_Multiplier>
+                      <Impact_Multiplier_Kback>-1</Impact_Multiplier_Kback>
+                      <Impact_Multiplier_Kdown>-1</Impact_Multiplier_Kdown>
+                    </DM_Effect>
+                    <DM_Effect xsi:type="DM_AddStatusEffect">
+                      <Delay>0</Delay>
+                      <SyncType>OwnerSync</SyncType>
+                      <OverrideCategory>None</OverrideCategory>
+                      <StatusEffect>Slow Down</StatusEffect>
+                      <ChanceToContract>100</ChanceToContract>
+                    </DM_Effect>
+                  </Effects>
+                  <EffectConditions />
+                  <ChildEffects />
+                </DM_EffectTransform>
+              </BlastEffects>
+            </DM_Effect>
+          </Effects>
+          <EffectConditions>
+            <DM_EffectCondition xsi:type="DM_ImbueEffectORCondition">
+              <Invert>false</Invert>
+              <ImbuePresetIDs>
+                <int>204</int>
+                <int>205</int>
+                <int>218</int>
+              </ImbuePresetIDs>
+              <AnyImbue>false</AnyImbue>
+              <WeaponToCheck>MainHand</WeaponToCheck>
+            </DM_EffectCondition>
+          </EffectConditions>
+          <ChildEffects />
+        </DM_EffectTransform>
+        <DM_EffectTransform>
+          <TransformName>NormalLightning</TransformName>
+          <Effects>
+            <DM_Effect xsi:type="DM_ShootBlast">
+              <Delay>0</Delay>
+              <SyncType>OwnerSync</SyncType>
+              <OverrideCategory>None</OverrideCategory>
+              <CastPosition>Local</CastPosition>
+              <LocalPositionAdd>
+                <x>0</x>
+                <y>1.5</y>
+                <z>0</z>
+              </LocalPositionAdd>
+              <NoAim>false</NoAim>
+              <TargetType>Enemies</TargetType>
+              <TransformName>ShooterTransform</TransformName>
+              <BaseBlast>GongStrikeLightning</BaseBlast>
+              <Radius>1.25</Radius>
+              <RefreshTime>0.1</RefreshTime>
+              <BlastLifespan>0</BlastLifespan>
+              <InstantiatedAmount>1</InstantiatedAmount>
+              <Interruptible>false</Interruptible>
+              <MaxHitTargetCount>-1</MaxHitTargetCount>
+              <AffectHitTargetCenter>false</AffectHitTargetCenter>
+              <HitOnShoot>true</HitOnShoot>
+              <IgnoreShooter>false</IgnoreShooter>
+              <IgnoreStop>false</IgnoreStop>
+              <NoTargetForwardMultiplier>5</NoTargetForwardMultiplier>
+              <ParentToShootTransform>false</ParentToShootTransform>
+              <UseTargetCharacterPositionType>false</UseTargetCharacterPositionType>
+              <ImpactSoundMaterial>Fire</ImpactSoundMaterial>
+              <DontPlayHitSound>false</DontPlayHitSound>
+              <FXIsWorld>false</FXIsWorld>
+              <BlastEffects>
+                <DM_EffectTransform>
+                  <TransformName>Effects</TransformName>
+                  <Effects>
+                    <DM_Effect xsi:type="DM_WeaponDamage">
+                      <Delay>0</Delay>
+                      <SyncType>OwnerSync</SyncType>
+                      <OverrideCategory>None</OverrideCategory>
+                      <Damage />
+                      <Damages_AI />
+                      <Knockback>0</Knockback>
+                      <HitInventory>true</HitInventory>
+                      <OverrideType>Electric</OverrideType>
+                      <ForceOnlyLeftHand>true</ForceOnlyLeftHand>
+                      <Damage_Multiplier>2.3</Damage_Multiplier>
+                      <Damage_Multiplier_Kback>-1</Damage_Multiplier_Kback>
+                      <Damage_Multiplier_Kdown>-1</Damage_Multiplier_Kdown>
+                      <Impact_Multiplier>1.9</Impact_Multiplier>
+                      <Impact_Multiplier_Kback>-1</Impact_Multiplier_Kback>
+                      <Impact_Multiplier_Kdown>-1</Impact_Multiplier_Kdown>
+                    </DM_Effect>
+                  </Effects>
+                  <EffectConditions />
+                  <ChildEffects />
+                </DM_EffectTransform>
+              </BlastEffects>
+            </DM_Effect>
+          </Effects>
+          <EffectConditions>
+            <DM_EffectCondition xsi:type="DM_ImbueEffectORCondition">
+              <Invert>false</Invert>
+              <ImbuePresetIDs>
+                <int>206</int>
+                <int>207</int>
+                <int>219</int>
+              </ImbuePresetIDs>
+              <AnyImbue>false</AnyImbue>
+              <WeaponToCheck>MainHand</WeaponToCheck>
+            </DM_EffectCondition>
+          </EffectConditions>
+          <ChildEffects />
+        </DM_EffectTransform>
+        <DM_EffectTransform>
+          <TransformName>NormalDecay</TransformName>
+          <Effects>
+            <DM_Effect xsi:type="DM_ShootBlast">
+              <Delay>0</Delay>
+              <SyncType>OwnerSync</SyncType>
+              <OverrideCategory>None</OverrideCategory>
+              <CastPosition>Local</CastPosition>
+              <LocalPositionAdd>
+                <x>0</x>
+                <y>1.5</y>
+                <z>0</z>
+              </LocalPositionAdd>
+              <NoAim>false</NoAim>
+              <TargetType>Enemies</TargetType>
+              <TransformName>ShooterTransform</TransformName>
+              <BaseBlast>GongStrikeDecay</BaseBlast>
+              <Radius>1.25</Radius>
+              <RefreshTime>0.1</RefreshTime>
+              <BlastLifespan>0</BlastLifespan>
+              <InstantiatedAmount>1</InstantiatedAmount>
+              <Interruptible>false</Interruptible>
+              <MaxHitTargetCount>-1</MaxHitTargetCount>
+              <AffectHitTargetCenter>false</AffectHitTargetCenter>
+              <HitOnShoot>true</HitOnShoot>
+              <IgnoreShooter>false</IgnoreShooter>
+              <IgnoreStop>false</IgnoreStop>
+              <NoTargetForwardMultiplier>5</NoTargetForwardMultiplier>
+              <ParentToShootTransform>false</ParentToShootTransform>
+              <UseTargetCharacterPositionType>false</UseTargetCharacterPositionType>
+              <ImpactSoundMaterial>Fire</ImpactSoundMaterial>
+              <DontPlayHitSound>false</DontPlayHitSound>
+              <FXIsWorld>false</FXIsWorld>
+              <BlastEffects>
+                <DM_EffectTransform>
+                  <TransformName>Effects</TransformName>
+                  <Effects>
+                    <DM_Effect xsi:type="DM_WeaponDamage">
+                      <Delay>0</Delay>
+                      <SyncType>OwnerSync</SyncType>
+                      <OverrideCategory>None</OverrideCategory>
+                      <Damage />
+                      <Damages_AI />
+                      <Knockback>0</Knockback>
+                      <HitInventory>true</HitInventory>
+                      <OverrideType>Decay</OverrideType>
+                      <ForceOnlyLeftHand>true</ForceOnlyLeftHand>
+                      <Damage_Multiplier>2.6</Damage_Multiplier>
+                      <Damage_Multiplier_Kback>-1</Damage_Multiplier_Kback>
+                      <Damage_Multiplier_Kdown>-1</Damage_Multiplier_Kdown>
+                      <Impact_Multiplier>1.6</Impact_Multiplier>
+                      <Impact_Multiplier_Kback>-1</Impact_Multiplier_Kback>
+                      <Impact_Multiplier_Kdown>-1</Impact_Multiplier_Kdown>
+                    </DM_Effect>
+                  </Effects>
+                  <EffectConditions />
+                  <ChildEffects />
+                </DM_EffectTransform>
+              </BlastEffects>
+            </DM_Effect>
+          </Effects>
+          <EffectConditions>
+            <DM_EffectCondition xsi:type="DM_ImbueEffectORCondition">
+              <Invert>false</Invert>
+              <ImbuePresetIDs>
+                <int>211</int>
+              </ImbuePresetIDs>
+              <AnyImbue>false</AnyImbue>
+              <WeaponToCheck>MainHand</WeaponToCheck>
+            </DM_EffectCondition>
+          </EffectConditions>
+          <ChildEffects />
+        </DM_EffectTransform>
+        <DM_EffectTransform>
+          <TransformName>NormalPoison</TransformName>
+          <Effects>
+            <DM_Effect xsi:type="DM_ShootBlast">
+              <Delay>0</Delay>
+              <SyncType>OwnerSync</SyncType>
+              <OverrideCategory>None</OverrideCategory>
+              <CastPosition>Local</CastPosition>
+              <LocalPositionAdd>
+                <x>0</x>
+                <y>1.5</y>
+                <z>0</z>
+              </LocalPositionAdd>
+              <NoAim>false</NoAim>
+              <TargetType>Enemies</TargetType>
+              <TransformName>ShooterTransform</TransformName>
+              <BaseBlast>GongStrikePoison</BaseBlast>
+              <Radius>1.25</Radius>
+              <RefreshTime>0.1</RefreshTime>
+              <BlastLifespan>0</BlastLifespan>
+              <InstantiatedAmount>1</InstantiatedAmount>
+              <Interruptible>false</Interruptible>
+              <MaxHitTargetCount>-1</MaxHitTargetCount>
+              <AffectHitTargetCenter>false</AffectHitTargetCenter>
+              <HitOnShoot>true</HitOnShoot>
+              <IgnoreShooter>false</IgnoreShooter>
+              <IgnoreStop>false</IgnoreStop>
+              <NoTargetForwardMultiplier>5</NoTargetForwardMultiplier>
+              <ParentToShootTransform>false</ParentToShootTransform>
+              <UseTargetCharacterPositionType>false</UseTargetCharacterPositionType>
+              <ImpactSoundMaterial>Fire</ImpactSoundMaterial>
+              <DontPlayHitSound>false</DontPlayHitSound>
+              <FXIsWorld>false</FXIsWorld>
+              <BlastEffects>
+                <DM_EffectTransform>
+                  <TransformName>Effects</TransformName>
+                  <Effects>
+                    <DM_Effect xsi:type="DM_WeaponDamage">
+                      <Delay>0</Delay>
+                      <SyncType>OwnerSync</SyncType>
+                      <OverrideCategory>None</OverrideCategory>
+                      <Damage />
+                      <Damages_AI />
+                      <Knockback>0</Knockback>
+                      <HitInventory>true</HitInventory>
+                      <OverrideType>Decay</OverrideType>
+                      <ForceOnlyLeftHand>true</ForceOnlyLeftHand>
+                      <Damage_Multiplier>2</Damage_Multiplier>
+                      <Damage_Multiplier_Kback>-1</Damage_Multiplier_Kback>
+                      <Damage_Multiplier_Kdown>-1</Damage_Multiplier_Kdown>
+                      <Impact_Multiplier>1.2</Impact_Multiplier>
+                      <Impact_Multiplier_Kback>-1</Impact_Multiplier_Kback>
+                      <Impact_Multiplier_Kdown>-1</Impact_Multiplier_Kdown>
+                    </DM_Effect>
+                    <DM_Effect xsi:type="DM_AddStatusEffect">
+                      <Delay>0</Delay>
+                      <SyncType>OwnerSync</SyncType>
+                      <OverrideCategory>None</OverrideCategory>
+                      <StatusEffect>Poisoned +</StatusEffect>
+                      <ChanceToContract>100</ChanceToContract>
+                    </DM_Effect>
+                  </Effects>
+                  <EffectConditions />
+                  <ChildEffects />
+                </DM_EffectTransform>
+              </BlastEffects>
+            </DM_Effect>
+          </Effects>
+          <EffectConditions>
+            <DM_EffectCondition xsi:type="DM_ImbueEffectORCondition">
+              <Invert>false</Invert>
+              <ImbuePresetIDs>
+                <int>200</int>
+                <int>201</int>
+              </ImbuePresetIDs>
+              <AnyImbue>false</AnyImbue>
+              <WeaponToCheck>MainHand</WeaponToCheck>
+            </DM_EffectCondition>
+          </EffectConditions>
+          <ChildEffects />
+        </DM_EffectTransform>
+        <DM_EffectTransform>
+          <TransformName>NormalWind</TransformName>
+          <Effects>
+            <DM_Effect xsi:type="DM_ShootBlast">
+              <Delay>0</Delay>
+              <SyncType>OwnerSync</SyncType>
+              <OverrideCategory>None</OverrideCategory>
+              <CastPosition>Local</CastPosition>
+              <LocalPositionAdd>
+                <x>0</x>
+                <y>1.5</y>
+                <z>0</z>
+              </LocalPositionAdd>
+              <NoAim>false</NoAim>
+              <TargetType>Enemies</TargetType>
+              <TransformName>ShooterTransform</TransformName>
+              <BaseBlast>GongStrikeWind</BaseBlast>
+              <Radius>1.25</Radius>
+              <RefreshTime>0.1</RefreshTime>
+              <BlastLifespan>0</BlastLifespan>
+              <InstantiatedAmount>1</InstantiatedAmount>
+              <Interruptible>false</Interruptible>
+              <MaxHitTargetCount>-1</MaxHitTargetCount>
+              <AffectHitTargetCenter>false</AffectHitTargetCenter>
+              <HitOnShoot>true</HitOnShoot>
+              <IgnoreShooter>false</IgnoreShooter>
+              <IgnoreStop>false</IgnoreStop>
+              <NoTargetForwardMultiplier>5</NoTargetForwardMultiplier>
+              <ParentToShootTransform>false</ParentToShootTransform>
+              <UseTargetCharacterPositionType>false</UseTargetCharacterPositionType>
+              <ImpactSoundMaterial>Fire</ImpactSoundMaterial>
+              <DontPlayHitSound>false</DontPlayHitSound>
+              <FXIsWorld>false</FXIsWorld>
+              <BlastEffects>
+                <DM_EffectTransform>
+                  <TransformName>Effects</TransformName>
+                  <Effects>
+                    <DM_Effect xsi:type="DM_WeaponDamage">
+                      <Delay>0</Delay>
+                      <SyncType>OwnerSync</SyncType>
+                      <OverrideCategory>None</OverrideCategory>
+                      <Damage />
+                      <Damages_AI />
+                      <Knockback>0</Knockback>
+                      <HitInventory>true</HitInventory>
+                      <OverrideType>Physical</OverrideType>
+                      <ForceOnlyLeftHand>true</ForceOnlyLeftHand>
+                      <Damage_Multiplier>0</Damage_Multiplier>
+                      <Damage_Multiplier_Kback>-1</Damage_Multiplier_Kback>
+                      <Damage_Multiplier_Kdown>-1</Damage_Multiplier_Kdown>
+                      <Impact_Multiplier>99</Impact_Multiplier>
+                      <Impact_Multiplier_Kback>-1</Impact_Multiplier_Kback>
+                      <Impact_Multiplier_Kdown>-1</Impact_Multiplier_Kdown>
+                    </DM_Effect>
+                  </Effects>
+                  <EffectConditions />
+                  <ChildEffects />
+                </DM_EffectTransform>
+              </BlastEffects>
+            </DM_Effect>
+          </Effects>
+          <EffectConditions>
+            <DM_EffectCondition xsi:type="DM_ImbueEffectCondition">
+              <Invert>false</Invert>
+              <ImbuePresetID>209</ImbuePresetID>
+              <AnyImbue>false</AnyImbue>
+              <WeaponToCheck>MainHand</WeaponToCheck>
+            </DM_EffectCondition>
+          </EffectConditions>
+          <ChildEffects />
+        </DM_EffectTransform>
+        <DM_EffectTransform>
+          <TransformName>NormalEthereal</TransformName>
+          <Effects>
+            <DM_Effect xsi:type="DM_ShootBlast">
+              <Delay>0</Delay>
+              <SyncType>OwnerSync</SyncType>
+              <OverrideCategory>None</OverrideCategory>
+              <CastPosition>Local</CastPosition>
+              <LocalPositionAdd>
+                <x>0</x>
+                <y>1.5</y>
+                <z>0</z>
+              </LocalPositionAdd>
+              <NoAim>false</NoAim>
+              <TargetType>Enemies</TargetType>
+              <TransformName>ShooterTransform</TransformName>
+              <BaseBlast>GongStrikeSpiritual</BaseBlast>
+              <Radius>1.25</Radius>
+              <RefreshTime>0.1</RefreshTime>
+              <BlastLifespan>0</BlastLifespan>
+              <InstantiatedAmount>1</InstantiatedAmount>
+              <Interruptible>false</Interruptible>
+              <MaxHitTargetCount>-1</MaxHitTargetCount>
+              <AffectHitTargetCenter>false</AffectHitTargetCenter>
+              <HitOnShoot>true</HitOnShoot>
+              <IgnoreShooter>false</IgnoreShooter>
+              <IgnoreStop>false</IgnoreStop>
+              <NoTargetForwardMultiplier>5</NoTargetForwardMultiplier>
+              <ParentToShootTransform>false</ParentToShootTransform>
+              <UseTargetCharacterPositionType>false</UseTargetCharacterPositionType>
+              <ImpactSoundMaterial>Fire</ImpactSoundMaterial>
+              <DontPlayHitSound>false</DontPlayHitSound>
+              <FXIsWorld>false</FXIsWorld>
+              <BlastEffects>
+                <DM_EffectTransform>
+                  <TransformName>Effects</TransformName>
+                  <Effects>
+                    <DM_Effect xsi:type="DM_WeaponDamage">
+                      <Delay>0</Delay>
+                      <SyncType>OwnerSync</SyncType>
+                      <OverrideCategory>None</OverrideCategory>
+                      <Damage />
+                      <Damages_AI />
+                      <Knockback>0</Knockback>
+                      <HitInventory>true</HitInventory>
+                      <OverrideType>Ethereal</OverrideType>
+                      <ForceOnlyLeftHand>true</ForceOnlyLeftHand>
+                      <Damage_Multiplier>2.6</Damage_Multiplier>
+                      <Damage_Multiplier_Kback>-1</Damage_Multiplier_Kback>
+                      <Damage_Multiplier_Kdown>-1</Damage_Multiplier_Kdown>
+                      <Impact_Multiplier>1.6</Impact_Multiplier>
+                      <Impact_Multiplier_Kback>-1</Impact_Multiplier_Kback>
+                      <Impact_Multiplier_Kdown>-1</Impact_Multiplier_Kdown>
+                    </DM_Effect>
+                  </Effects>
+                  <EffectConditions />
+                  <ChildEffects />
+                </DM_EffectTransform>
+              </BlastEffects>
+            </DM_Effect>
+          </Effects>
+          <EffectConditions>
+            <DM_EffectCondition xsi:type="DM_ImbueEffectORCondition">
+              <Invert>false</Invert>
+              <ImbuePresetIDs>
+                <int>220</int>
+                <int>208</int>
+              </ImbuePresetIDs>
+              <AnyImbue>false</AnyImbue>
+              <WeaponToCheck>MainHand</WeaponToCheck>
+            </DM_EffectCondition>
+          </EffectConditions>
+          <ChildEffects />
+        </DM_EffectTransform>
+        <DM_EffectTransform>
+          <TransformName>NormalLight</TransformName>
+          <Effects>
+            <DM_Effect xsi:type="DM_ShootBlast">
+              <Delay>0</Delay>
+              <SyncType>OwnerSync</SyncType>
+              <OverrideCategory>None</OverrideCategory>
+              <CastPosition>Local</CastPosition>
+              <LocalPositionAdd>
+                <x>0</x>
+                <y>1.5</y>
+                <z>0</z>
+              </LocalPositionAdd>
+              <NoAim>false</NoAim>
+              <TargetType>Enemies</TargetType>
+              <TransformName>ShooterTransform</TransformName>
+              <BaseBlast>GongStrikeLight</BaseBlast>
+              <Radius>1.25</Radius>
+              <RefreshTime>0.1</RefreshTime>
+              <BlastLifespan>0</BlastLifespan>
+              <InstantiatedAmount>1</InstantiatedAmount>
+              <Interruptible>false</Interruptible>
+              <MaxHitTargetCount>-1</MaxHitTargetCount>
+              <AffectHitTargetCenter>false</AffectHitTargetCenter>
+              <HitOnShoot>true</HitOnShoot>
+              <IgnoreShooter>false</IgnoreShooter>
+              <IgnoreStop>false</IgnoreStop>
+              <NoTargetForwardMultiplier>5</NoTargetForwardMultiplier>
+              <ParentToShootTransform>false</ParentToShootTransform>
+              <UseTargetCharacterPositionType>false</UseTargetCharacterPositionType>
+              <ImpactSoundMaterial>Fire</ImpactSoundMaterial>
+              <DontPlayHitSound>false</DontPlayHitSound>
+              <FXIsWorld>false</FXIsWorld>
+              <BlastEffects>
+                <DM_EffectTransform>
+                  <TransformName>Effects</TransformName>
+                  <Effects>
+                    <DM_Effect xsi:type="DM_WeaponDamage">
+                      <Delay>0</Delay>
+                      <SyncType>OwnerSync</SyncType>
+                      <OverrideCategory>None</OverrideCategory>
+                      <Damage />
+                      <Damages_AI />
+                      <Knockback>0</Knockback>
+                      <HitInventory>true</HitInventory>
+                      <OverrideType>Electric</OverrideType>
+                      <ForceOnlyLeftHand>true</ForceOnlyLeftHand>
+                      <Damage_Multiplier>2.9</Damage_Multiplier>
+                      <Damage_Multiplier_Kback>-1</Damage_Multiplier_Kback>
+                      <Damage_Multiplier_Kdown>-1</Damage_Multiplier_Kdown>
+                      <Impact_Multiplier>1.3</Impact_Multiplier>
+                      <Impact_Multiplier_Kback>-1</Impact_Multiplier_Kback>
+                      <Impact_Multiplier_Kdown>-1</Impact_Multiplier_Kdown>
+                    </DM_Effect>
+                  </Effects>
+                  <EffectConditions />
+                  <ChildEffects />
+                </DM_EffectTransform>
+              </BlastEffects>
+            </DM_Effect>
+          </Effects>
+          <EffectConditions>
+            <DM_EffectCondition xsi:type="DM_ImbueEffectCondition">
+              <Invert>false</Invert>
+              <ImbuePresetID>221</ImbuePresetID>
+              <AnyImbue>false</AnyImbue>
+              <WeaponToCheck>MainHand</WeaponToCheck>
+            </DM_EffectCondition>
+          </EffectConditions>
+          <ChildEffects />
+        </DM_EffectTransform>
+      </ChildEffects>
+    </DM_EffectTransform>
+    <DM_EffectTransform>
+      <TransformName>AdditionalActivationConditions</TransformName>
+      <Effects />
+      <EffectConditions />
+      <ChildEffects>
+        <DM_EffectTransform>
+          <TransformName>Imbued</TransformName>
+          <Effects />
+          <EffectConditions>
+            <DM_EffectCondition xsi:type="DM_ImbueEffectCondition">
+              <Invert>false</Invert>
+              <ImbuePresetID>-1</ImbuePresetID>
+              <AnyImbue>true</AnyImbue>
+              <WeaponToCheck>MainHand</WeaponToCheck>
+            </DM_EffectCondition>
+          </EffectConditions>
+          <ChildEffects />
+        </DM_EffectTransform>
+      </ChildEffects>
+    </DM_EffectTransform>
+    <DM_EffectTransform>
+      <TransformName>ActivationEffects</TransformName>
+      <Effects>
+        <DM_Effect xsi:type="DM_PlaySoundEffect">
+          <Delay>0</Delay>
+          <SyncType>OwnerSync</SyncType>
+          <OverrideCategory>None</OverrideCategory>
+          <Sounds>
+            <Sounds>SFX_SKILL_ShieldAbsorb_Spell</Sounds>
+          </Sounds>
+          <Follow>false</Follow>
+          <MinPitch>1</MinPitch>
+          <MaxPitch>1</MaxPitch>
+        </DM_Effect>
+        <DM_Effect xsi:type="DM_PlaySoundEffect">
+          <Delay>0.2</Delay>
+          <SyncType>OwnerSync</SyncType>
+          <OverrideCategory>None</OverrideCategory>
+          <Sounds>
+            <Sounds>SFX_SKILL_GongStrike_Release</Sounds>
+          </Sounds>
+          <Follow>false</Follow>
+          <MinPitch>1</MinPitch>
+          <MaxPitch>1</MaxPitch>
+        </DM_Effect>
+      </Effects>
+      <EffectConditions />
+      <ChildEffects />
+    </DM_EffectTransform>
+  </EffectTransforms>
+  <Cooldown>30</Cooldown>
+  <StaminaCost>11</StaminaCost>
+  <ManaCost>0</ManaCost>
+  <DurabilityCost>6</DurabilityCost>
+  <DurabilityCostPercent>0</DurabilityCostPercent>
+  <RequiredItems />
+  <AmmunitionTypes />
+  <RequiredOffHandTypes>
+    <WeaponType>Shield</WeaponType>
+  </RequiredOffHandTypes>
+  <RequiredWeaponTypes>
+    <WeaponType>Sword_1H</WeaponType>
+    <WeaponType>Axe_1H</WeaponType>
+    <WeaponType>Mace_1H</WeaponType>
+    <WeaponType>Halberd_2H</WeaponType>
+    <WeaponType>Sword_2H</WeaponType>
+    <WeaponType>Axe_2H</WeaponType>
+    <WeaponType>Mace_2H</WeaponType>
+    <WeaponType>Spear_2H</WeaponType>
+  </RequiredWeaponTypes>
+  <RequiredWeaponTags />
+  <RequireImbue>true</RequireImbue>
+</DM_AttackSkill>
