@@ -34,7 +34,6 @@
 1000101	Looter’s Corpse	1000101_ChestHumanCorpseLooterB	/ItemContainer/SelfFilledItemContainer/TreasureChest
 1000110	Supply Cache	1000110_ChestWeaponSashA	/ItemContainer/SelfFilledItemContainer/TreasureChest
 1000120	Ornate Chest	1000120_ChestEliteA	/ItemContainer/SelfFilledItemContainer/TreasureChest
-1000130	Trunk Loot	1000130_ChestTrunkCaldera	/ItemContainer/SelfFilledItemContainer/TreasureChest
 1000200	Blood Altar	1000200_VampiricTransmuteTable	/ItemContainer/SingleItemContainer/VampiricTransmutationTable
 1000800	Corpse	1000800_Corpse	/ItemContainer/SelfFilledItemContainer/TreasureChest
 1001000	Junk Pile	1001000_JunkPileA	/ItemContainer/SelfFilledItemContainer/TreasureChest
