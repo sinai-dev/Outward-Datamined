@@ -20,6 +20,7 @@ Temporarily adds Fire damage to your melee weapon and inflicts Burning on enemie
   <CastLocomotionEnabled>false</CastLocomotionEnabled>
   <MobileCastMovementMult>-1</MobileCastMovementMult>
   <CastSheatheRequired>2</CastSheatheRequired>
+  <OverrideSellModifier>-1</OverrideSellModifier>
   <Tags />
   <EffectTransforms>
     <DM_EffectTransform>

@@ -20,6 +20,7 @@ Sleeping in this tent gives a small bonus to stamina use.</Description>
   <CastLocomotionEnabled>false</CastLocomotionEnabled>
   <MobileCastMovementMult>-1</MobileCastMovementMult>
   <CastSheatheRequired>1</CastSheatheRequired>
+  <OverrideSellModifier>-1</OverrideSellModifier>
   <Tags>
     <string>Deployable</string>
     <string>Item</string>

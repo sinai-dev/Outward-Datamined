@@ -18,6 +18,7 @@
   <CastLocomotionEnabled>true</CastLocomotionEnabled>
   <MobileCastMovementMult>-1</MobileCastMovementMult>
   <CastSheatheRequired>0</CastSheatheRequired>
+  <OverrideSellModifier>-1</OverrideSellModifier>
   <Tags />
   <EffectTransforms>
     <DM_EffectTransform>

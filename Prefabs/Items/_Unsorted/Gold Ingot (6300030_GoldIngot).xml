@@ -20,6 +20,7 @@ It has no practical use but every merchant will buy such ingots at the same fixe
   <CastLocomotionEnabled>false</CastLocomotionEnabled>
   <MobileCastMovementMult>-1</MobileCastMovementMult>
   <CastSheatheRequired>1</CastSheatheRequired>
+  <OverrideSellModifier>1</OverrideSellModifier>
   <Tags>
     <string>Misc</string>
     <string>Item</string>

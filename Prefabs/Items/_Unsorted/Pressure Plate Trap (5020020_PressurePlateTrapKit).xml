@@ -20,6 +20,7 @@ A specific passive skill must be learned in order to deploy a pressure plate.</D
   <CastLocomotionEnabled>false</CastLocomotionEnabled>
   <MobileCastMovementMult>-1</MobileCastMovementMult>
   <CastSheatheRequired>1</CastSheatheRequired>
+  <OverrideSellModifier>-1</OverrideSellModifier>
   <Tags>
     <string>Deployable</string>
     <string>Item</string>

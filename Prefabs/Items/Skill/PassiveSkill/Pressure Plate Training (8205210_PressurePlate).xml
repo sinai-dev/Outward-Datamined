@@ -20,6 +20,7 @@ These traps are primarily armed with charges, which shoot poison, fire and more.
   <CastLocomotionEnabled>false</CastLocomotionEnabled>
   <MobileCastMovementMult>-1</MobileCastMovementMult>
   <CastSheatheRequired>1</CastSheatheRequired>
+  <OverrideSellModifier>-1</OverrideSellModifier>
   <Tags />
   <EffectTransforms />
   <Cooldown>0</Cooldown>

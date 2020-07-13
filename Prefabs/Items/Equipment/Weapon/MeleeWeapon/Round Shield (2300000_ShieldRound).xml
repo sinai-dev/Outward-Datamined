@@ -20,6 +20,7 @@ Blocking with a shield is more advantageous than blocking with a weapon.</Descri
   <CastLocomotionEnabled>false</CastLocomotionEnabled>
   <MobileCastMovementMult>-1</MobileCastMovementMult>
   <CastSheatheRequired>1</CastSheatheRequired>
+  <OverrideSellModifier>-1</OverrideSellModifier>
   <Tags>
     <string>Shield</string>
     <string>Weapon</string>

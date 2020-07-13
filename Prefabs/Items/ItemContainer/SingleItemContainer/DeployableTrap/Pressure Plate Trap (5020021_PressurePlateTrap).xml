@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<DM_Item xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<DM_DeployableTrap xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <gameObjectName>5020021_PressurePlateTrap</gameObjectName>
   <saveDir>/ItemContainer/SingleItemContainer/DeployableTrap</saveDir>
   <ItemID>5020021</ItemID>
@@ -18,10 +18,12 @@
   <CastLocomotionEnabled>false</CastLocomotionEnabled>
   <MobileCastMovementMult>-1</MobileCastMovementMult>
   <CastSheatheRequired>1</CastSheatheRequired>
+  <OverrideSellModifier>-1</OverrideSellModifier>
   <Tags>
     <string>Deployable</string>
     <string>Item</string>
     <string>Trap</string>
   </Tags>
   <EffectTransforms />
-</DM_Item>
+  <TrapRecipeEffects />
+</DM_DeployableTrap>

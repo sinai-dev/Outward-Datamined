@@ -20,6 +20,7 @@ Does an extra hit for each Elemental Boon active.</Description>
   <CastLocomotionEnabled>false</CastLocomotionEnabled>
   <MobileCastMovementMult>-1</MobileCastMovementMult>
   <CastSheatheRequired>2</CastSheatheRequired>
+  <OverrideSellModifier>-1</OverrideSellModifier>
   <Tags />
   <EffectTransforms>
     <DM_EffectTransform>

@@ -20,6 +20,7 @@ Purple rune that does nothing on its own, but can produce combo effects by casti
   <CastLocomotionEnabled>false</CastLocomotionEnabled>
   <MobileCastMovementMult>-1</MobileCastMovementMult>
   <CastSheatheRequired>1</CastSheatheRequired>
+  <OverrideSellModifier>-1</OverrideSellModifier>
   <Tags />
   <EffectTransforms>
     <DM_EffectTransform>

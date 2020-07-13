@@ -20,6 +20,7 @@ Campfires are used to cook, disinfect water, brew potions and to keep warm.</Des
   <CastLocomotionEnabled>false</CastLocomotionEnabled>
   <MobileCastMovementMult>-1</MobileCastMovementMult>
   <CastSheatheRequired>1</CastSheatheRequired>
+  <OverrideSellModifier>-1</OverrideSellModifier>
   <Tags>
     <string>Deployable</string>
     <string>Item</string>

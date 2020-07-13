@@ -20,6 +20,7 @@ As a type of meat, this food restores health over time.</Description>
   <CastLocomotionEnabled>false</CastLocomotionEnabled>
   <MobileCastMovementMult>-1</MobileCastMovementMult>
   <CastSheatheRequired>1</CastSheatheRequired>
+  <OverrideSellModifier>-1</OverrideSellModifier>
   <PerishTime>2 Days, 23 Hours, 56 Minutes, 32 Seconds</PerishTime>
   <Tags>
     <string>Meat</string>

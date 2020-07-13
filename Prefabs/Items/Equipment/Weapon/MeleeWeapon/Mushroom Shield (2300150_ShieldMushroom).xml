@@ -19,6 +19,7 @@ It makes for a surprisingly usable shield. Inflicts poison on shield charge.</De
   <CastLocomotionEnabled>false</CastLocomotionEnabled>
   <MobileCastMovementMult>-1</MobileCastMovementMult>
   <CastSheatheRequired>1</CastSheatheRequired>
+  <OverrideSellModifier>-1</OverrideSellModifier>
   <Tags>
     <string>Shield</string>
     <string>Weapon</string>

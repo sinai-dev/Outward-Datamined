@@ -20,6 +20,7 @@ The statue’s underside has grooves that might fit on some device.</Description
   <CastLocomotionEnabled>false</CastLocomotionEnabled>
   <MobileCastMovementMult>-1</MobileCastMovementMult>
   <CastSheatheRequired>1</CastSheatheRequired>
+  <OverrideSellModifier>-1</OverrideSellModifier>
   <Tags>
     <string>Dungeon</string>
     <string>Item</string>

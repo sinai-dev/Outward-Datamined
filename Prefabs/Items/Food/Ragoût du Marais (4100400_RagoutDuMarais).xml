@@ -20,6 +20,7 @@ It also gives the Possessed boon.</Description>
   <CastLocomotionEnabled>false</CastLocomotionEnabled>
   <MobileCastMovementMult>-1</MobileCastMovementMult>
   <CastSheatheRequired>1</CastSheatheRequired>
+  <OverrideSellModifier>-1</OverrideSellModifier>
   <PerishTime>14 Days, 21 Hours, 8 Minutes, 34 Seconds</PerishTime>
   <Tags>
     <string>Dish</string>

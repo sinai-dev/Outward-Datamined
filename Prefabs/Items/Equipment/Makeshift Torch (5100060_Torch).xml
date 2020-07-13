@@ -20,6 +20,7 @@ It burns out quickly, but warms up the wielder.</Description>
   <CastLocomotionEnabled>false</CastLocomotionEnabled>
   <MobileCastMovementMult>-1</MobileCastMovementMult>
   <CastSheatheRequired>1</CastSheatheRequired>
+  <OverrideSellModifier>-1</OverrideSellModifier>
   <PerishTime>0 Days, 6 Hours, 40 Minutes, 0 Seconds</PerishTime>
   <Tags>
     <string>Lantern</string>

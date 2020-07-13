@@ -20,6 +20,7 @@ For example, a boon that increases your Fire Resistance by 20 would increase it 
   <CastLocomotionEnabled>false</CastLocomotionEnabled>
   <MobileCastMovementMult>-1</MobileCastMovementMult>
   <CastSheatheRequired>1</CastSheatheRequired>
+  <OverrideSellModifier>-1</OverrideSellModifier>
   <Tags />
   <EffectTransforms />
   <Cooldown>0</Cooldown>

@@ -20,6 +20,7 @@ The coil can be swapped for a new one when the light does run out.</Description>
   <CastLocomotionEnabled>false</CastLocomotionEnabled>
   <MobileCastMovementMult>-1</MobileCastMovementMult>
   <CastSheatheRequired>1</CastSheatheRequired>
+  <OverrideSellModifier>-1</OverrideSellModifier>
   <PerishTime>20 Days, 20 Hours, 0 Minutes, 0 Seconds</PerishTime>
   <Tags>
     <string>Lantern</string>
