@@ -1,17 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <DM_Enemy xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <Name>Wolfgang Veteran</Name>
-  <GameObject_Name>WolfMerceneryVeteran_MilitaryDistrict_01</GameObject_Name>
+  <Name>Wolfgang Captain</Name>
+  <GameObject_Name>WolfMerceneryCaptain_01</GameObject_Name>
   <Unique_ID>1</Unique_ID>
   <Locations_Found>
     <string>Antique Plateau:Antique Plateau</string>
-    <string>Antique Plateau:Ruined Warehouse</string>
   </Locations_Found>
   <Max_Health>175</Max_Health>
   <Health_Regen_Per_Second>0</Health_Regen_Per_Second>
-  <Impact_Resistance>44</Impact_Resistance>
+  <Impact_Resistance>32</Impact_Resistance>
   <Protection>
-    <float>7</float>
+    <float>5</float>
     <float>0</float>
     <float>0</float>
     <float>0</float>
@@ -19,7 +18,7 @@
     <float>0</float>
   </Protection>
   <Damage_Resistances>
-    <float>62</float>
+    <float>44</float>
     <float>45</float>
     <float>-40</float>
     <float>0</float>
@@ -37,23 +36,33 @@
   <Collider_Radius>0.4</Collider_Radius>
   <True_WeaponDamage>
     <Damages>
-      <Damage>39</Damage>
-      <Damage_Type>Ethereal</Damage_Type>
+      <Damage>42</Damage>
+      <Damage_Type>Physical</Damage_Type>
     </Damages>
   </True_WeaponDamage>
-  <Weapon_Impact>19</Weapon_Impact>
+  <Weapon_Impact>39</Weapon_Impact>
   <Status_Immunities />
   <Starting_Equipment>
-    <string>Great Runic Blade (2100999)</string>
+    <string>Wolf Greathammer (2120010)</string>
   </Starting_Equipment>
   <Skill_Knowledge>
     <string>WolfMerceneryRunicShield (8300340)</string>
     <string>WolfMerceneryRunicShield (8300341)</string>
+    <string>WolfMerceneryRunicProjectile (8300342)</string>
+    <string>Wolf Mercenery Fal (8300343)</string>
+    <string>WolfMerceneryFalProjectile (8300344)</string>
   </Skill_Knowledge>
   <Faction>Mercs</Faction>
   <Allied_To_Same_Faction>true</Allied_To_Same_Faction>
-  <Guaranteed_Drops />
+  <Guaranteed_Drops>
+    <DropTableEntry>
+      <Item_Name>Wolf Greathammer</Item_Name>
+      <Item_ID>2120010</Item_ID>
+      <Min_Quantity>1</Min_Quantity>
+      <Max_Quantity>1</Max_Quantity>
+    </DropTableEntry>
+  </Guaranteed_Drops>
   <DropTable_Names>
-    <string>DropTable_WolfMerc_Veteran_DLC1</string>
+    <string>DropTable_WolfMerc_Captain_DLC1</string>
   </DropTable_Names>
 </DM_Enemy>

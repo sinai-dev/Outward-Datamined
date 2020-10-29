@@ -35,6 +35,14 @@
       <Quantity>7</Quantity>
     </QuantityHolder>
     <QuantityHolder>
+      <Name>Wolfgang Captain (1)</Name>
+      <Quantity>3</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Wolfgang Mercenary (1)</Name>
+      <Quantity>9</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
       <Name>Bandit Captain (2)</Name>
       <Quantity>1</Quantity>
     </QuantityHolder>
@@ -69,6 +77,10 @@
     <QuantityHolder>
       <Name>Bandit Lieutenant (1)</Name>
       <Quantity>1</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Wolfgang Veteran (1)</Name>
+      <Quantity>8</Quantity>
     </QuantityHolder>
     <QuantityHolder>
       <Name>Bonded Beastmaster (1)</Name>
