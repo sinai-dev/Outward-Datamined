@@ -34,65 +34,60 @@
       </CompatibleItemIDs>
       <CompatibleItemTags />
       <StandardEffects>
-        <TransformName>TripwireTrap_SpikeEffectsWeak</TransformName>
-        <Effects>
-          <DM_Effect xsi:type="DM_ShootBlast">
-            <Delay>0</Delay>
-            <SyncType>MasterSync</SyncType>
-            <OverrideCategory>None</OverrideCategory>
-            <CastPosition>Local</CastPosition>
-            <LocalPositionAdd>
-              <x>0</x>
-              <y>0.1</y>
-              <z>0</z>
-            </LocalPositionAdd>
-            <NoAim>false</NoAim>
-            <TargetType>Enemies</TargetType>
-            <TransformName>ShooterTransform</TransformName>
-            <BaseBlast>SpikeblastWeak_Trap</BaseBlast>
-            <Radius>5</Radius>
-            <RefreshTime>0.1</RefreshTime>
-            <BlastLifespan>0</BlastLifespan>
-            <InstantiatedAmount>1</InstantiatedAmount>
-            <Interruptible>false</Interruptible>
-            <MaxHitTargetCount>-1</MaxHitTargetCount>
-            <AffectHitTargetCenter>false</AffectHitTargetCenter>
-            <HitOnShoot>true</HitOnShoot>
-            <IgnoreShooter>false</IgnoreShooter>
-            <IgnoreStop>false</IgnoreStop>
-            <NoTargetForwardMultiplier>5</NoTargetForwardMultiplier>
-            <ParentToShootTransform>false</ParentToShootTransform>
-            <UseTargetCharacterPositionType>false</UseTargetCharacterPositionType>
-            <ImpactSoundMaterial>Metal_Sharp</ImpactSoundMaterial>
-            <DontPlayHitSound>false</DontPlayHitSound>
-            <FXIsWorld>false</FXIsWorld>
-            <BlastEffects>
-              <DM_EffectTransform>
-                <TransformName>Effects</TransformName>
-                <Effects>
-                  <DM_Effect xsi:type="DM_PunctualDamage">
-                    <Delay>0</Delay>
-                    <SyncType>MasterSync</SyncType>
-                    <OverrideCategory>None</OverrideCategory>
-                    <Damage>
-                      <Damages>
-                        <Damage>25</Damage>
-                        <Damage_Type>Physical</Damage_Type>
-                      </Damages>
-                    </Damage>
-                    <Damages_AI />
-                    <Knockback>50</Knockback>
-                    <HitInventory>true</HitInventory>
-                  </DM_Effect>
-                </Effects>
-                <EffectConditions />
-                <ChildEffects />
-              </DM_EffectTransform>
-            </BlastEffects>
-          </DM_Effect>
-        </Effects>
-        <EffectConditions />
-        <ChildEffects />
+        <DM_Effect xsi:type="DM_ShootBlast">
+          <Delay>0</Delay>
+          <SyncType>MasterSync</SyncType>
+          <OverrideCategory>None</OverrideCategory>
+          <CastPosition>Local</CastPosition>
+          <LocalPositionAdd>
+            <x>0</x>
+            <y>0.1</y>
+            <z>0</z>
+          </LocalPositionAdd>
+          <NoAim>false</NoAim>
+          <TargetType>Enemies</TargetType>
+          <TransformName>ShooterTransform</TransformName>
+          <BaseBlast>SpikeblastWeak_Trap</BaseBlast>
+          <Radius>5</Radius>
+          <RefreshTime>0.1</RefreshTime>
+          <BlastLifespan>0</BlastLifespan>
+          <InstantiatedAmount>1</InstantiatedAmount>
+          <Interruptible>false</Interruptible>
+          <MaxHitTargetCount>-1</MaxHitTargetCount>
+          <AffectHitTargetCenter>false</AffectHitTargetCenter>
+          <HitOnShoot>true</HitOnShoot>
+          <IgnoreShooter>false</IgnoreShooter>
+          <IgnoreStop>false</IgnoreStop>
+          <NoTargetForwardMultiplier>5</NoTargetForwardMultiplier>
+          <ParentToShootTransform>false</ParentToShootTransform>
+          <UseTargetCharacterPositionType>false</UseTargetCharacterPositionType>
+          <ImpactSoundMaterial>Metal_Sharp</ImpactSoundMaterial>
+          <DontPlayHitSound>false</DontPlayHitSound>
+          <FXIsWorld>false</FXIsWorld>
+          <BlastEffects>
+            <DM_EffectTransform>
+              <TransformName>Effects</TransformName>
+              <Effects>
+                <DM_Effect xsi:type="DM_PunctualDamage">
+                  <Delay>0</Delay>
+                  <SyncType>MasterSync</SyncType>
+                  <OverrideCategory>None</OverrideCategory>
+                  <Damage>
+                    <Damages>
+                      <Damage>25</Damage>
+                      <Damage_Type>Physical</Damage_Type>
+                    </Damages>
+                  </Damage>
+                  <Damages_AI />
+                  <Knockback>50</Knockback>
+                  <HitInventory>true</HitInventory>
+                </DM_Effect>
+              </Effects>
+              <EffectConditions />
+              <ChildEffects />
+            </DM_EffectTransform>
+          </BlastEffects>
+        </DM_Effect>
       </StandardEffects>
     </DM_TrapRecipe>
     <DM_TrapRecipe>
@@ -104,72 +99,67 @@
         <string>Pole Arm</string>
       </CompatibleItemTags>
       <StandardEffects>
-        <TransformName>TripwireTrap_SpikeEffects</TransformName>
-        <Effects>
-          <DM_Effect xsi:type="DM_ShootBlast">
-            <Delay>0</Delay>
-            <SyncType>MasterSync</SyncType>
-            <OverrideCategory>None</OverrideCategory>
-            <CastPosition>Local</CastPosition>
-            <LocalPositionAdd>
-              <x>0</x>
-              <y>0.1</y>
-              <z>0</z>
-            </LocalPositionAdd>
-            <NoAim>false</NoAim>
-            <TargetType>Enemies</TargetType>
-            <TransformName>ShooterTransform</TransformName>
-            <BaseBlast>Spikeblast_Trap</BaseBlast>
-            <Radius>5</Radius>
-            <RefreshTime>0.1</RefreshTime>
-            <BlastLifespan>0</BlastLifespan>
-            <InstantiatedAmount>1</InstantiatedAmount>
-            <Interruptible>false</Interruptible>
-            <MaxHitTargetCount>-1</MaxHitTargetCount>
-            <AffectHitTargetCenter>false</AffectHitTargetCenter>
-            <HitOnShoot>true</HitOnShoot>
-            <IgnoreShooter>false</IgnoreShooter>
-            <IgnoreStop>false</IgnoreStop>
-            <NoTargetForwardMultiplier>5</NoTargetForwardMultiplier>
-            <ParentToShootTransform>false</ParentToShootTransform>
-            <UseTargetCharacterPositionType>false</UseTargetCharacterPositionType>
-            <ImpactSoundMaterial>Metal_Sharp</ImpactSoundMaterial>
-            <DontPlayHitSound>false</DontPlayHitSound>
-            <FXIsWorld>false</FXIsWorld>
-            <BlastEffects>
-              <DM_EffectTransform>
-                <TransformName>Effects</TransformName>
-                <Effects>
-                  <DM_Effect xsi:type="DM_PunctualDamage">
-                    <Delay>0</Delay>
-                    <SyncType>MasterSync</SyncType>
-                    <OverrideCategory>None</OverrideCategory>
-                    <Damage>
-                      <Damages>
-                        <Damage>50</Damage>
-                        <Damage_Type>Physical</Damage_Type>
-                      </Damages>
-                    </Damage>
-                    <Damages_AI />
-                    <Knockback>50</Knockback>
-                    <HitInventory>true</HitInventory>
-                  </DM_Effect>
-                  <DM_Effect xsi:type="DM_AddStatusEffect">
-                    <Delay>0</Delay>
-                    <SyncType>MasterSync</SyncType>
-                    <OverrideCategory>None</OverrideCategory>
-                    <StatusEffect>Pain</StatusEffect>
-                    <ChanceToContract>100</ChanceToContract>
-                  </DM_Effect>
-                </Effects>
-                <EffectConditions />
-                <ChildEffects />
-              </DM_EffectTransform>
-            </BlastEffects>
-          </DM_Effect>
-        </Effects>
-        <EffectConditions />
-        <ChildEffects />
+        <DM_Effect xsi:type="DM_ShootBlast">
+          <Delay>0</Delay>
+          <SyncType>MasterSync</SyncType>
+          <OverrideCategory>None</OverrideCategory>
+          <CastPosition>Local</CastPosition>
+          <LocalPositionAdd>
+            <x>0</x>
+            <y>0.1</y>
+            <z>0</z>
+          </LocalPositionAdd>
+          <NoAim>false</NoAim>
+          <TargetType>Enemies</TargetType>
+          <TransformName>ShooterTransform</TransformName>
+          <BaseBlast>Spikeblast_Trap</BaseBlast>
+          <Radius>5</Radius>
+          <RefreshTime>0.1</RefreshTime>
+          <BlastLifespan>0</BlastLifespan>
+          <InstantiatedAmount>1</InstantiatedAmount>
+          <Interruptible>false</Interruptible>
+          <MaxHitTargetCount>-1</MaxHitTargetCount>
+          <AffectHitTargetCenter>false</AffectHitTargetCenter>
+          <HitOnShoot>true</HitOnShoot>
+          <IgnoreShooter>false</IgnoreShooter>
+          <IgnoreStop>false</IgnoreStop>
+          <NoTargetForwardMultiplier>5</NoTargetForwardMultiplier>
+          <ParentToShootTransform>false</ParentToShootTransform>
+          <UseTargetCharacterPositionType>false</UseTargetCharacterPositionType>
+          <ImpactSoundMaterial>Metal_Sharp</ImpactSoundMaterial>
+          <DontPlayHitSound>false</DontPlayHitSound>
+          <FXIsWorld>false</FXIsWorld>
+          <BlastEffects>
+            <DM_EffectTransform>
+              <TransformName>Effects</TransformName>
+              <Effects>
+                <DM_Effect xsi:type="DM_PunctualDamage">
+                  <Delay>0</Delay>
+                  <SyncType>MasterSync</SyncType>
+                  <OverrideCategory>None</OverrideCategory>
+                  <Damage>
+                    <Damages>
+                      <Damage>50</Damage>
+                      <Damage_Type>Physical</Damage_Type>
+                    </Damages>
+                  </Damage>
+                  <Damages_AI />
+                  <Knockback>50</Knockback>
+                  <HitInventory>true</HitInventory>
+                </DM_Effect>
+                <DM_Effect xsi:type="DM_AddStatusEffect">
+                  <Delay>0</Delay>
+                  <SyncType>MasterSync</SyncType>
+                  <OverrideCategory>None</OverrideCategory>
+                  <StatusEffect>Pain</StatusEffect>
+                  <ChanceToContract>100</ChanceToContract>
+                </DM_Effect>
+              </Effects>
+              <EffectConditions />
+              <ChildEffects />
+            </DM_EffectTransform>
+          </BlastEffects>
+        </DM_Effect>
       </StandardEffects>
     </DM_TrapRecipe>
     <DM_TrapRecipe>
@@ -180,72 +170,67 @@
       </CompatibleItemIDs>
       <CompatibleItemTags />
       <StandardEffects>
-        <TransformName>TripwireTrap_SpikeEffectsImproved</TransformName>
-        <Effects>
-          <DM_Effect xsi:type="DM_ShootBlast">
-            <Delay>0</Delay>
-            <SyncType>MasterSync</SyncType>
-            <OverrideCategory>None</OverrideCategory>
-            <CastPosition>Local</CastPosition>
-            <LocalPositionAdd>
-              <x>0</x>
-              <y>0.1</y>
-              <z>0</z>
-            </LocalPositionAdd>
-            <NoAim>false</NoAim>
-            <TargetType>Enemies</TargetType>
-            <TransformName>ShooterTransform</TransformName>
-            <BaseBlast>SpikeblastImproved_Trap</BaseBlast>
-            <Radius>5</Radius>
-            <RefreshTime>0.1</RefreshTime>
-            <BlastLifespan>0</BlastLifespan>
-            <InstantiatedAmount>1</InstantiatedAmount>
-            <Interruptible>false</Interruptible>
-            <MaxHitTargetCount>-1</MaxHitTargetCount>
-            <AffectHitTargetCenter>false</AffectHitTargetCenter>
-            <HitOnShoot>true</HitOnShoot>
-            <IgnoreShooter>false</IgnoreShooter>
-            <IgnoreStop>false</IgnoreStop>
-            <NoTargetForwardMultiplier>5</NoTargetForwardMultiplier>
-            <ParentToShootTransform>false</ParentToShootTransform>
-            <UseTargetCharacterPositionType>false</UseTargetCharacterPositionType>
-            <ImpactSoundMaterial>Metal_Sharp</ImpactSoundMaterial>
-            <DontPlayHitSound>false</DontPlayHitSound>
-            <FXIsWorld>false</FXIsWorld>
-            <BlastEffects>
-              <DM_EffectTransform>
-                <TransformName>Effects</TransformName>
-                <Effects>
-                  <DM_Effect xsi:type="DM_PunctualDamage">
-                    <Delay>0</Delay>
-                    <SyncType>MasterSync</SyncType>
-                    <OverrideCategory>None</OverrideCategory>
-                    <Damage>
-                      <Damages>
-                        <Damage>75</Damage>
-                        <Damage_Type>Physical</Damage_Type>
-                      </Damages>
-                    </Damage>
-                    <Damages_AI />
-                    <Knockback>125</Knockback>
-                    <HitInventory>true</HitInventory>
-                  </DM_Effect>
-                  <DM_Effect xsi:type="DM_AddStatusEffect">
-                    <Delay>0</Delay>
-                    <SyncType>MasterSync</SyncType>
-                    <OverrideCategory>None</OverrideCategory>
-                    <StatusEffect>Pain</StatusEffect>
-                    <ChanceToContract>100</ChanceToContract>
-                  </DM_Effect>
-                </Effects>
-                <EffectConditions />
-                <ChildEffects />
-              </DM_EffectTransform>
-            </BlastEffects>
-          </DM_Effect>
-        </Effects>
-        <EffectConditions />
-        <ChildEffects />
+        <DM_Effect xsi:type="DM_ShootBlast">
+          <Delay>0</Delay>
+          <SyncType>MasterSync</SyncType>
+          <OverrideCategory>None</OverrideCategory>
+          <CastPosition>Local</CastPosition>
+          <LocalPositionAdd>
+            <x>0</x>
+            <y>0.1</y>
+            <z>0</z>
+          </LocalPositionAdd>
+          <NoAim>false</NoAim>
+          <TargetType>Enemies</TargetType>
+          <TransformName>ShooterTransform</TransformName>
+          <BaseBlast>SpikeblastImproved_Trap</BaseBlast>
+          <Radius>5</Radius>
+          <RefreshTime>0.1</RefreshTime>
+          <BlastLifespan>0</BlastLifespan>
+          <InstantiatedAmount>1</InstantiatedAmount>
+          <Interruptible>false</Interruptible>
+          <MaxHitTargetCount>-1</MaxHitTargetCount>
+          <AffectHitTargetCenter>false</AffectHitTargetCenter>
+          <HitOnShoot>true</HitOnShoot>
+          <IgnoreShooter>false</IgnoreShooter>
+          <IgnoreStop>false</IgnoreStop>
+          <NoTargetForwardMultiplier>5</NoTargetForwardMultiplier>
+          <ParentToShootTransform>false</ParentToShootTransform>
+          <UseTargetCharacterPositionType>false</UseTargetCharacterPositionType>
+          <ImpactSoundMaterial>Metal_Sharp</ImpactSoundMaterial>
+          <DontPlayHitSound>false</DontPlayHitSound>
+          <FXIsWorld>false</FXIsWorld>
+          <BlastEffects>
+            <DM_EffectTransform>
+              <TransformName>Effects</TransformName>
+              <Effects>
+                <DM_Effect xsi:type="DM_PunctualDamage">
+                  <Delay>0</Delay>
+                  <SyncType>MasterSync</SyncType>
+                  <OverrideCategory>None</OverrideCategory>
+                  <Damage>
+                    <Damages>
+                      <Damage>75</Damage>
+                      <Damage_Type>Physical</Damage_Type>
+                    </Damages>
+                  </Damage>
+                  <Damages_AI />
+                  <Knockback>125</Knockback>
+                  <HitInventory>true</HitInventory>
+                </DM_Effect>
+                <DM_Effect xsi:type="DM_AddStatusEffect">
+                  <Delay>0</Delay>
+                  <SyncType>MasterSync</SyncType>
+                  <OverrideCategory>None</OverrideCategory>
+                  <StatusEffect>Pain</StatusEffect>
+                  <ChanceToContract>100</ChanceToContract>
+                </DM_Effect>
+              </Effects>
+              <EffectConditions />
+              <ChildEffects />
+            </DM_EffectTransform>
+          </BlastEffects>
+        </DM_Effect>
       </StandardEffects>
     </DM_TrapRecipe>
     <DM_TrapRecipe>
@@ -256,72 +241,67 @@
       </CompatibleItemIDs>
       <CompatibleItemTags />
       <StandardEffects>
-        <TransformName>TripwireTrap_BleedingEffectsImproved</TransformName>
-        <Effects>
-          <DM_Effect xsi:type="DM_ShootBlast">
-            <Delay>0</Delay>
-            <SyncType>MasterSync</SyncType>
-            <OverrideCategory>None</OverrideCategory>
-            <CastPosition>Local</CastPosition>
-            <LocalPositionAdd>
-              <x>0</x>
-              <y>0.1</y>
-              <z>0</z>
-            </LocalPositionAdd>
-            <NoAim>false</NoAim>
-            <TargetType>Enemies</TargetType>
-            <TransformName>ShooterTransform</TransformName>
-            <BaseBlast>BleedblastImproved_Trap</BaseBlast>
-            <Radius>5</Radius>
-            <RefreshTime>0.1</RefreshTime>
-            <BlastLifespan>0</BlastLifespan>
-            <InstantiatedAmount>1</InstantiatedAmount>
-            <Interruptible>false</Interruptible>
-            <MaxHitTargetCount>-1</MaxHitTargetCount>
-            <AffectHitTargetCenter>false</AffectHitTargetCenter>
-            <HitOnShoot>true</HitOnShoot>
-            <IgnoreShooter>false</IgnoreShooter>
-            <IgnoreStop>false</IgnoreStop>
-            <NoTargetForwardMultiplier>5</NoTargetForwardMultiplier>
-            <ParentToShootTransform>false</ParentToShootTransform>
-            <UseTargetCharacterPositionType>false</UseTargetCharacterPositionType>
-            <ImpactSoundMaterial>Flesh</ImpactSoundMaterial>
-            <DontPlayHitSound>false</DontPlayHitSound>
-            <FXIsWorld>false</FXIsWorld>
-            <BlastEffects>
-              <DM_EffectTransform>
-                <TransformName>Effects</TransformName>
-                <Effects>
-                  <DM_Effect xsi:type="DM_PunctualDamage">
-                    <Delay>0</Delay>
-                    <SyncType>MasterSync</SyncType>
-                    <OverrideCategory>None</OverrideCategory>
-                    <Damage>
-                      <Damages>
-                        <Damage>60</Damage>
-                        <Damage_Type>Physical</Damage_Type>
-                      </Damages>
-                    </Damage>
-                    <Damages_AI />
-                    <Knockback>80</Knockback>
-                    <HitInventory>true</HitInventory>
-                  </DM_Effect>
-                  <DM_Effect xsi:type="DM_AddStatusEffect">
-                    <Delay>0</Delay>
-                    <SyncType>MasterSync</SyncType>
-                    <OverrideCategory>None</OverrideCategory>
-                    <StatusEffect>Bleeding +</StatusEffect>
-                    <ChanceToContract>100</ChanceToContract>
-                  </DM_Effect>
-                </Effects>
-                <EffectConditions />
-                <ChildEffects />
-              </DM_EffectTransform>
-            </BlastEffects>
-          </DM_Effect>
-        </Effects>
-        <EffectConditions />
-        <ChildEffects />
+        <DM_Effect xsi:type="DM_ShootBlast">
+          <Delay>0</Delay>
+          <SyncType>MasterSync</SyncType>
+          <OverrideCategory>None</OverrideCategory>
+          <CastPosition>Local</CastPosition>
+          <LocalPositionAdd>
+            <x>0</x>
+            <y>0.1</y>
+            <z>0</z>
+          </LocalPositionAdd>
+          <NoAim>false</NoAim>
+          <TargetType>Enemies</TargetType>
+          <TransformName>ShooterTransform</TransformName>
+          <BaseBlast>BleedblastImproved_Trap</BaseBlast>
+          <Radius>5</Radius>
+          <RefreshTime>0.1</RefreshTime>
+          <BlastLifespan>0</BlastLifespan>
+          <InstantiatedAmount>1</InstantiatedAmount>
+          <Interruptible>false</Interruptible>
+          <MaxHitTargetCount>-1</MaxHitTargetCount>
+          <AffectHitTargetCenter>false</AffectHitTargetCenter>
+          <HitOnShoot>true</HitOnShoot>
+          <IgnoreShooter>false</IgnoreShooter>
+          <IgnoreStop>false</IgnoreStop>
+          <NoTargetForwardMultiplier>5</NoTargetForwardMultiplier>
+          <ParentToShootTransform>false</ParentToShootTransform>
+          <UseTargetCharacterPositionType>false</UseTargetCharacterPositionType>
+          <ImpactSoundMaterial>Flesh</ImpactSoundMaterial>
+          <DontPlayHitSound>false</DontPlayHitSound>
+          <FXIsWorld>false</FXIsWorld>
+          <BlastEffects>
+            <DM_EffectTransform>
+              <TransformName>Effects</TransformName>
+              <Effects>
+                <DM_Effect xsi:type="DM_PunctualDamage">
+                  <Delay>0</Delay>
+                  <SyncType>MasterSync</SyncType>
+                  <OverrideCategory>None</OverrideCategory>
+                  <Damage>
+                    <Damages>
+                      <Damage>60</Damage>
+                      <Damage_Type>Physical</Damage_Type>
+                    </Damages>
+                  </Damage>
+                  <Damages_AI />
+                  <Knockback>80</Knockback>
+                  <HitInventory>true</HitInventory>
+                </DM_Effect>
+                <DM_Effect xsi:type="DM_AddStatusEffect">
+                  <Delay>0</Delay>
+                  <SyncType>MasterSync</SyncType>
+                  <OverrideCategory>None</OverrideCategory>
+                  <StatusEffect>Bleeding +</StatusEffect>
+                  <ChanceToContract>100</ChanceToContract>
+                </DM_Effect>
+              </Effects>
+              <EffectConditions />
+              <ChildEffects />
+            </DM_EffectTransform>
+          </BlastEffects>
+        </DM_Effect>
       </StandardEffects>
     </DM_TrapRecipe>
     <DM_TrapRecipe>
@@ -334,72 +314,67 @@
         <string>Axe</string>
       </CompatibleItemTags>
       <StandardEffects>
-        <TransformName>TripwireTrap_BleedingEffects</TransformName>
-        <Effects>
-          <DM_Effect xsi:type="DM_ShootBlast">
-            <Delay>0</Delay>
-            <SyncType>MasterSync</SyncType>
-            <OverrideCategory>None</OverrideCategory>
-            <CastPosition>Local</CastPosition>
-            <LocalPositionAdd>
-              <x>0</x>
-              <y>0.1</y>
-              <z>0</z>
-            </LocalPositionAdd>
-            <NoAim>false</NoAim>
-            <TargetType>Enemies</TargetType>
-            <TransformName>ShooterTransform</TransformName>
-            <BaseBlast>Bleedblast_Trap</BaseBlast>
-            <Radius>5</Radius>
-            <RefreshTime>0.1</RefreshTime>
-            <BlastLifespan>0</BlastLifespan>
-            <InstantiatedAmount>1</InstantiatedAmount>
-            <Interruptible>false</Interruptible>
-            <MaxHitTargetCount>-1</MaxHitTargetCount>
-            <AffectHitTargetCenter>false</AffectHitTargetCenter>
-            <HitOnShoot>true</HitOnShoot>
-            <IgnoreShooter>false</IgnoreShooter>
-            <IgnoreStop>false</IgnoreStop>
-            <NoTargetForwardMultiplier>5</NoTargetForwardMultiplier>
-            <ParentToShootTransform>false</ParentToShootTransform>
-            <UseTargetCharacterPositionType>false</UseTargetCharacterPositionType>
-            <ImpactSoundMaterial>Flesh</ImpactSoundMaterial>
-            <DontPlayHitSound>false</DontPlayHitSound>
-            <FXIsWorld>false</FXIsWorld>
-            <BlastEffects>
-              <DM_EffectTransform>
-                <TransformName>Effects</TransformName>
-                <Effects>
-                  <DM_Effect xsi:type="DM_PunctualDamage">
-                    <Delay>0</Delay>
-                    <SyncType>MasterSync</SyncType>
-                    <OverrideCategory>None</OverrideCategory>
-                    <Damage>
-                      <Damages>
-                        <Damage>35</Damage>
-                        <Damage_Type>Physical</Damage_Type>
-                      </Damages>
-                    </Damage>
-                    <Damages_AI />
-                    <Knockback>50</Knockback>
-                    <HitInventory>true</HitInventory>
-                  </DM_Effect>
-                  <DM_Effect xsi:type="DM_AddStatusEffect">
-                    <Delay>0</Delay>
-                    <SyncType>MasterSync</SyncType>
-                    <OverrideCategory>None</OverrideCategory>
-                    <StatusEffect>Bleeding</StatusEffect>
-                    <ChanceToContract>100</ChanceToContract>
-                  </DM_Effect>
-                </Effects>
-                <EffectConditions />
-                <ChildEffects />
-              </DM_EffectTransform>
-            </BlastEffects>
-          </DM_Effect>
-        </Effects>
-        <EffectConditions />
-        <ChildEffects />
+        <DM_Effect xsi:type="DM_ShootBlast">
+          <Delay>0</Delay>
+          <SyncType>MasterSync</SyncType>
+          <OverrideCategory>None</OverrideCategory>
+          <CastPosition>Local</CastPosition>
+          <LocalPositionAdd>
+            <x>0</x>
+            <y>0.1</y>
+            <z>0</z>
+          </LocalPositionAdd>
+          <NoAim>false</NoAim>
+          <TargetType>Enemies</TargetType>
+          <TransformName>ShooterTransform</TransformName>
+          <BaseBlast>Bleedblast_Trap</BaseBlast>
+          <Radius>5</Radius>
+          <RefreshTime>0.1</RefreshTime>
+          <BlastLifespan>0</BlastLifespan>
+          <InstantiatedAmount>1</InstantiatedAmount>
+          <Interruptible>false</Interruptible>
+          <MaxHitTargetCount>-1</MaxHitTargetCount>
+          <AffectHitTargetCenter>false</AffectHitTargetCenter>
+          <HitOnShoot>true</HitOnShoot>
+          <IgnoreShooter>false</IgnoreShooter>
+          <IgnoreStop>false</IgnoreStop>
+          <NoTargetForwardMultiplier>5</NoTargetForwardMultiplier>
+          <ParentToShootTransform>false</ParentToShootTransform>
+          <UseTargetCharacterPositionType>false</UseTargetCharacterPositionType>
+          <ImpactSoundMaterial>Flesh</ImpactSoundMaterial>
+          <DontPlayHitSound>false</DontPlayHitSound>
+          <FXIsWorld>false</FXIsWorld>
+          <BlastEffects>
+            <DM_EffectTransform>
+              <TransformName>Effects</TransformName>
+              <Effects>
+                <DM_Effect xsi:type="DM_PunctualDamage">
+                  <Delay>0</Delay>
+                  <SyncType>MasterSync</SyncType>
+                  <OverrideCategory>None</OverrideCategory>
+                  <Damage>
+                    <Damages>
+                      <Damage>35</Damage>
+                      <Damage_Type>Physical</Damage_Type>
+                    </Damages>
+                  </Damage>
+                  <Damages_AI />
+                  <Knockback>50</Knockback>
+                  <HitInventory>true</HitInventory>
+                </DM_Effect>
+                <DM_Effect xsi:type="DM_AddStatusEffect">
+                  <Delay>0</Delay>
+                  <SyncType>MasterSync</SyncType>
+                  <OverrideCategory>None</OverrideCategory>
+                  <StatusEffect>Bleeding</StatusEffect>
+                  <ChanceToContract>100</ChanceToContract>
+                </DM_Effect>
+              </Effects>
+              <EffectConditions />
+              <ChildEffects />
+            </DM_EffectTransform>
+          </BlastEffects>
+        </DM_Effect>
       </StandardEffects>
     </DM_TrapRecipe>
     <DM_TrapRecipe>
@@ -408,72 +383,67 @@
         <string>Bludgeon</string>
       </CompatibleItemTags>
       <StandardEffects>
-        <TransformName>TripwireTrap_BludgeonEffects</TransformName>
-        <Effects>
-          <DM_Effect xsi:type="DM_ShootBlast">
-            <Delay>0</Delay>
-            <SyncType>MasterSync</SyncType>
-            <OverrideCategory>None</OverrideCategory>
-            <CastPosition>Local</CastPosition>
-            <LocalPositionAdd>
-              <x>0</x>
-              <y>0.1</y>
-              <z>0</z>
-            </LocalPositionAdd>
-            <NoAim>false</NoAim>
-            <TargetType>Enemies</TargetType>
-            <TransformName>ShooterTransform</TransformName>
-            <BaseBlast>Bludgeonblast_Trap</BaseBlast>
-            <Radius>5</Radius>
-            <RefreshTime>0.1</RefreshTime>
-            <BlastLifespan>0</BlastLifespan>
-            <InstantiatedAmount>1</InstantiatedAmount>
-            <Interruptible>false</Interruptible>
-            <MaxHitTargetCount>-1</MaxHitTargetCount>
-            <AffectHitTargetCenter>false</AffectHitTargetCenter>
-            <HitOnShoot>true</HitOnShoot>
-            <IgnoreShooter>false</IgnoreShooter>
-            <IgnoreStop>false</IgnoreStop>
-            <NoTargetForwardMultiplier>5</NoTargetForwardMultiplier>
-            <ParentToShootTransform>false</ParentToShootTransform>
-            <UseTargetCharacterPositionType>false</UseTargetCharacterPositionType>
-            <ImpactSoundMaterial>Metal_Blunt</ImpactSoundMaterial>
-            <DontPlayHitSound>false</DontPlayHitSound>
-            <FXIsWorld>false</FXIsWorld>
-            <BlastEffects>
-              <DM_EffectTransform>
-                <TransformName>Effects</TransformName>
-                <Effects>
-                  <DM_Effect xsi:type="DM_PunctualDamage">
-                    <Delay>0</Delay>
-                    <SyncType>MasterSync</SyncType>
-                    <OverrideCategory>None</OverrideCategory>
-                    <Damage>
-                      <Damages>
-                        <Damage>35</Damage>
-                        <Damage_Type>Physical</Damage_Type>
-                      </Damages>
-                    </Damage>
-                    <Damages_AI />
-                    <Knockback>120</Knockback>
-                    <HitInventory>true</HitInventory>
-                  </DM_Effect>
-                  <DM_Effect xsi:type="DM_AddStatusEffect">
-                    <Delay>0</Delay>
-                    <SyncType>MasterSync</SyncType>
-                    <OverrideCategory>None</OverrideCategory>
-                    <StatusEffect>Confusion</StatusEffect>
-                    <ChanceToContract>100</ChanceToContract>
-                  </DM_Effect>
-                </Effects>
-                <EffectConditions />
-                <ChildEffects />
-              </DM_EffectTransform>
-            </BlastEffects>
-          </DM_Effect>
-        </Effects>
-        <EffectConditions />
-        <ChildEffects />
+        <DM_Effect xsi:type="DM_ShootBlast">
+          <Delay>0</Delay>
+          <SyncType>MasterSync</SyncType>
+          <OverrideCategory>None</OverrideCategory>
+          <CastPosition>Local</CastPosition>
+          <LocalPositionAdd>
+            <x>0</x>
+            <y>0.1</y>
+            <z>0</z>
+          </LocalPositionAdd>
+          <NoAim>false</NoAim>
+          <TargetType>Enemies</TargetType>
+          <TransformName>ShooterTransform</TransformName>
+          <BaseBlast>Bludgeonblast_Trap</BaseBlast>
+          <Radius>5</Radius>
+          <RefreshTime>0.1</RefreshTime>
+          <BlastLifespan>0</BlastLifespan>
+          <InstantiatedAmount>1</InstantiatedAmount>
+          <Interruptible>false</Interruptible>
+          <MaxHitTargetCount>-1</MaxHitTargetCount>
+          <AffectHitTargetCenter>false</AffectHitTargetCenter>
+          <HitOnShoot>true</HitOnShoot>
+          <IgnoreShooter>false</IgnoreShooter>
+          <IgnoreStop>false</IgnoreStop>
+          <NoTargetForwardMultiplier>5</NoTargetForwardMultiplier>
+          <ParentToShootTransform>false</ParentToShootTransform>
+          <UseTargetCharacterPositionType>false</UseTargetCharacterPositionType>
+          <ImpactSoundMaterial>Metal_Blunt</ImpactSoundMaterial>
+          <DontPlayHitSound>false</DontPlayHitSound>
+          <FXIsWorld>false</FXIsWorld>
+          <BlastEffects>
+            <DM_EffectTransform>
+              <TransformName>Effects</TransformName>
+              <Effects>
+                <DM_Effect xsi:type="DM_PunctualDamage">
+                  <Delay>0</Delay>
+                  <SyncType>MasterSync</SyncType>
+                  <OverrideCategory>None</OverrideCategory>
+                  <Damage>
+                    <Damages>
+                      <Damage>35</Damage>
+                      <Damage_Type>Physical</Damage_Type>
+                    </Damages>
+                  </Damage>
+                  <Damages_AI />
+                  <Knockback>120</Knockback>
+                  <HitInventory>true</HitInventory>
+                </DM_Effect>
+                <DM_Effect xsi:type="DM_AddStatusEffect">
+                  <Delay>0</Delay>
+                  <SyncType>MasterSync</SyncType>
+                  <OverrideCategory>None</OverrideCategory>
+                  <StatusEffect>Confusion</StatusEffect>
+                  <ChanceToContract>100</ChanceToContract>
+                </DM_Effect>
+              </Effects>
+              <EffectConditions />
+              <ChildEffects />
+            </DM_EffectTransform>
+          </BlastEffects>
+        </DM_Effect>
       </StandardEffects>
     </DM_TrapRecipe>
   </TrapRecipeEffects>

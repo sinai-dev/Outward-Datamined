@@ -138,6 +138,12 @@ Strong shot that goes through enemies and hits other foes behind. Inflicts Extre
             </DM_EffectTransform>
           </ProjectileEffects>
         </DM_Effect>
+        <DM_Effect xsi:type="DM_UseLoadoutAmunition">
+          <Delay>0</Delay>
+          <SyncType>OwnerSync</SyncType>
+          <OverrideCategory>None</OverrideCategory>
+          <MainHand>true</MainHand>
+        </DM_Effect>
         <DM_Effect xsi:type="DM_PlaySoundEffect">
           <Delay>0</Delay>
           <SyncType>OwnerSync</SyncType>

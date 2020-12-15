@@ -52,9 +52,20 @@
           <StatusEffect>Bleeding +</StatusEffect>
           <ChanceToContract>100</ChanceToContract>
         </DM_Effect>
+        <DM_Effect xsi:type="DM_CreateItemEffect">
+          <Delay>0</Delay>
+          <SyncType>OwnerSync</SyncType>
+          <OverrideCategory>None</OverrideCategory>
+          <ItemToCreate>6500031</ItemToCreate>
+          <Quantity>1</Quantity>
+        </DM_Effect>
       </Effects>
       <EffectConditions>
-        <DM_EffectCondition xsi:nil="true" />
+        <DM_EffectCondition xsi:type="DM_CorruptionLevelCondition">
+          <Invert>false</Invert>
+          <Value>500</Value>
+          <CompareType>GEqual</CompareType>
+        </DM_EffectCondition>
       </EffectConditions>
       <ChildEffects />
     </DM_EffectTransform>

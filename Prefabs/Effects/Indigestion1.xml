@@ -17,6 +17,18 @@
   </Tags>
   <Effects>
     <DM_EffectTransform>
+      <TransformName>Restauration</TransformName>
+      <Effects>
+        <DM_Effect xsi:type="DM_AddPukeOnEat">
+          <Delay>0</Delay>
+          <SyncType>OwnerSync</SyncType>
+          <OverrideCategory>None</OverrideCategory>
+        </DM_Effect>
+      </Effects>
+      <EffectConditions />
+      <ChildEffects />
+    </DM_EffectTransform>
+    <DM_EffectTransform>
       <TransformName>Normal</TransformName>
       <Effects>
         <DM_Effect xsi:type="DM_Puke">

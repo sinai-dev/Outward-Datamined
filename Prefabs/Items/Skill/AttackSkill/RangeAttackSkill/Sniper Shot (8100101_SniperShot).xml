@@ -113,6 +113,12 @@ Let loose a very strong arrow shot with a long windup, making it a poor option i
             </DM_EffectTransform>
           </ProjectileEffects>
         </DM_Effect>
+        <DM_Effect xsi:type="DM_UseLoadoutAmunition">
+          <Delay>0</Delay>
+          <SyncType>OwnerSync</SyncType>
+          <OverrideCategory>None</OverrideCategory>
+          <MainHand>true</MainHand>
+        </DM_Effect>
       </Effects>
       <EffectConditions />
       <ChildEffects />

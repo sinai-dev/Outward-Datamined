@@ -165,6 +165,12 @@ Some abilities load special bullets into your pistol, which are fired using this
             </DM_EffectTransform>
           </ProjectileEffects>
         </DM_Effect>
+        <DM_Effect xsi:type="DM_UseLoadoutAmunition">
+          <Delay>0</Delay>
+          <SyncType>OwnerSync</SyncType>
+          <OverrideCategory>None</OverrideCategory>
+          <MainHand>false</MainHand>
+        </DM_Effect>
         <DM_Effect xsi:type="DM_PlaySoundEffect">
           <Delay>0</Delay>
           <SyncType>OwnerSync</SyncType>
@@ -298,6 +304,12 @@ Some abilities load special bullets into your pistol, which are fired using this
               <ChildEffects />
             </DM_EffectTransform>
           </ProjectileEffects>
+        </DM_Effect>
+        <DM_Effect xsi:type="DM_UseLoadoutAmunition">
+          <Delay>0</Delay>
+          <SyncType>OwnerSync</SyncType>
+          <OverrideCategory>None</OverrideCategory>
+          <MainHand>false</MainHand>
         </DM_Effect>
         <DM_Effect xsi:type="DM_PlaySoundEffect">
           <Delay>0</Delay>
@@ -450,6 +462,12 @@ Some abilities load special bullets into your pistol, which are fired using this
           <OverrideCategory>None</OverrideCategory>
           <AffectSlot>OffHand</AffectSlot>
         </DM_Effect>
+        <DM_Effect xsi:type="DM_UseLoadoutAmunition">
+          <Delay>0</Delay>
+          <SyncType>OwnerSync</SyncType>
+          <OverrideCategory>None</OverrideCategory>
+          <MainHand>false</MainHand>
+        </DM_Effect>
         <DM_Effect xsi:type="DM_PlaySoundEffect">
           <Delay>0</Delay>
           <SyncType>OwnerSync</SyncType>
@@ -563,6 +581,12 @@ Some abilities load special bullets into your pistol, which are fired using this
           <SyncType>OwnerSync</SyncType>
           <OverrideCategory>None</OverrideCategory>
           <AffectSlot>OffHand</AffectSlot>
+        </DM_Effect>
+        <DM_Effect xsi:type="DM_UseLoadoutAmunition">
+          <Delay>0</Delay>
+          <SyncType>OwnerSync</SyncType>
+          <OverrideCategory>None</OverrideCategory>
+          <MainHand>false</MainHand>
         </DM_Effect>
         <DM_Effect xsi:type="DM_PlaySoundEffect">
           <Delay>0</Delay>

@@ -23,7 +23,16 @@
   <EffectTransforms>
     <DM_EffectTransform>
       <TransformName>Effects</TransformName>
-      <Effects />
+      <Effects>
+        <DM_Effect xsi:type="DM_ImbueProjectile">
+          <Delay>0</Delay>
+          <SyncType>OwnerSync</SyncType>
+          <OverrideCategory>None</OverrideCategory>
+          <Lifespan>180</Lifespan>
+          <ImbueEffect_Preset_ID>-1</ImbueEffect_Preset_ID>
+          <UnloadProjectile>true</UnloadProjectile>
+        </DM_Effect>
+      </Effects>
       <EffectConditions />
       <ChildEffects>
         <DM_EffectTransform>

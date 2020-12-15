@@ -28,6 +28,11 @@
           <AffectQuantity>30</AffectQuantity>
           <IsModifier>true</IsModifier>
         </DM_Effect>
+        <DM_Effect xsi:type="DM_MovementBlend">
+          <Delay>0</Delay>
+          <SyncType>Everyone</SyncType>
+          <OverrideCategory>None</OverrideCategory>
+        </DM_Effect>
       </Effects>
       <EffectConditions />
       <ChildEffects />

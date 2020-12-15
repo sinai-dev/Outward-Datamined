@@ -86,6 +86,13 @@ Using this skill destroys the lantern.</Description>
           <CollisionBehaviour>Destroyed</CollisionBehaviour>
           <ProjectileBehaviour>Physic</ProjectileBehaviour>
         </DM_Effect>
+        <DM_Effect xsi:type="DM_AchievementSetStatOnEffect">
+          <Delay>0</Delay>
+          <SyncType>OwnerSync</SyncType>
+          <OverrideCategory>None</OverrideCategory>
+          <StatToChange>LanternThrown</StatToChange>
+          <IncreaseAmount>1</IncreaseAmount>
+        </DM_Effect>
       </Effects>
       <EffectConditions />
       <ChildEffects>

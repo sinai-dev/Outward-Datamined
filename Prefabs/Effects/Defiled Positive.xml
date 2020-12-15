@@ -47,5 +47,18 @@
       <EffectConditions />
       <ChildEffects />
     </DM_EffectTransform>
+    <DM_EffectTransform>
+      <TransformName>Activation</TransformName>
+      <Effects>
+        <DM_Effect xsi:type="DM_AchievementOnEffect">
+          <Delay>0</Delay>
+          <SyncType>Everyone</SyncType>
+          <OverrideCategory>Activation</OverrideCategory>
+          <UnlockedAchievement>PleaseSeeaDoctor_56</UnlockedAchievement>
+        </DM_Effect>
+      </Effects>
+      <EffectConditions />
+      <ChildEffects />
+    </DM_EffectTransform>
   </Effects>
 </DM_StatusEffect>

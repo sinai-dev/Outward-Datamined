@@ -146,6 +146,12 @@ Locking on foes is essential with this skill.</Description>
             </DM_EffectTransform>
           </ProjectileEffects>
         </DM_Effect>
+        <DM_Effect xsi:type="DM_UseLoadoutAmunition">
+          <Delay>0</Delay>
+          <SyncType>OwnerSync</SyncType>
+          <OverrideCategory>None</OverrideCategory>
+          <MainHand>true</MainHand>
+        </DM_Effect>
       </Effects>
       <EffectConditions />
       <ChildEffects />
