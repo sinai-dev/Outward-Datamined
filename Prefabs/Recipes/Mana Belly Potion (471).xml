@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DM_Recipe xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Name>Mana Belly Potion</Name>
+  <RecipeID>471</RecipeID>
+  <UID />
+  <StationType>Alchemy</StationType>
+  <RequiredPType>None</RequiredPType>
+  <Ingredients>
+    <string>Water</string>
+    <string>Pypherfish</string>
+    <string>Funnel Beetle</string>
+    <string>Hexa Stone</string>
+  </Ingredients>
+  <Results>
+    <ItemQty>
+      <ItemName>Mana Belly Potion</ItemName>
+      <ItemID>4300410</ItemID>
+      <Quantity>1</Quantity>
+    </ItemQty>
+  </Results>
+</DM_Recipe>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DM_Recipe xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Name>Popped Maize</Name>
+  <RecipeID>424</RecipeID>
+  <UID />
+  <StationType>Cooking</StationType>
+  <RequiredPType>None</RequiredPType>
+  <Ingredients>
+    <string>Maize</string>
+  </Ingredients>
+  <Results>
+    <ItemQty>
+      <ItemName>Popped Maize</ItemName>
+      <ItemID>4100780</ItemID>
+      <Quantity>3</Quantity>
+    </ItemQty>
+  </Results>
+</DM_Recipe>

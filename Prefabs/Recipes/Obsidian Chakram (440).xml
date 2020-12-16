@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DM_Recipe xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Name>Obsidian Chakram</Name>
+  <RecipeID>440</RecipeID>
+  <UID />
+  <StationType>Survival</StationType>
+  <RequiredPType>None</RequiredPType>
+  <Ingredients>
+    <string>Obsidian Shard</string>
+    <string>Palladium Scrap</string>
+    <string>Chakram</string>
+  </Ingredients>
+  <Results>
+    <ItemQty>
+      <ItemName>Obsidian Chakram</ItemName>
+      <ItemID>5110101</ItemID>
+      <Quantity>1</Quantity>
+    </ItemQty>
+  </Results>
+</DM_Recipe>

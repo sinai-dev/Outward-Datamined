@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DM_Recipe xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Name>Holy Rage Arrow</Name>
+  <RecipeID>501</RecipeID>
+  <UID />
+  <StationType>Alchemy</StationType>
+  <RequiredPType>None</RequiredPType>
+  <Ingredients>
+    <string>Arrowhead Kit</string>
+    <string>Wood</string>
+    <string>Gold-Lich Mechanism</string>
+  </Ingredients>
+  <Results>
+    <ItemQty>
+      <ItemName>Holy Rage Arrow</ItemName>
+      <ItemID>5200009</ItemID>
+      <Quantity>3</Quantity>
+    </ItemQty>
+  </Results>
+</DM_Recipe>

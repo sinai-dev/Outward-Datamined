@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DM_Recipe xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Name>Cool Rainbow Jam</Name>
+  <RecipeID>411</RecipeID>
+  <UID />
+  <StationType>Cooking</StationType>
+  <RequiredPType>None</RequiredPType>
+  <Ingredients>
+    <string>Rainbow Peach</string>
+    <string>Rainbow Peach</string>
+    <string>Frosted Powder</string>
+  </Ingredients>
+  <Results>
+    <ItemQty>
+      <ItemName>Cool Rainbow Jam</ItemName>
+      <ItemID>4100860</ItemID>
+      <Quantity>1</Quantity>
+    </ItemQty>
+  </Results>
+</DM_Recipe>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DM_Recipe xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Name>Manticore Egg</Name>
+  <RecipeID>528</RecipeID>
+  <UID />
+  <StationType>Survival</StationType>
+  <RequiredPType>None</RequiredPType>
+  <Ingredients>
+    <string>Vendavel's Hospitality</string>
+    <string>Scourge’s Tears</string>
+    <string>Noble’s Greed</string>
+    <string>Calygrey’s Wisdom</string>
+  </Ingredients>
+  <Results>
+    <ItemQty>
+      <ItemName>Manticore Egg</ItemName>
+      <ItemID>4300490</ItemID>
+      <Quantity>1</Quantity>
+    </ItemQty>
+  </Results>
+</DM_Recipe>

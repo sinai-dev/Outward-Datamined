@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DM_Recipe xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Name>Astral Claymore</Name>
+  <RecipeID>453</RecipeID>
+  <UID />
+  <StationType>Survival</StationType>
+  <RequiredPType>None</RequiredPType>
+  <Ingredients>
+    <string>Long Handle</string>
+    <string>Blade Prism</string>
+    <string>Waning Tentacle</string>
+  </Ingredients>
+  <Results>
+    <ItemQty>
+      <ItemName>Astral Claymore</ItemName>
+      <ItemID>2100230</ItemID>
+      <Quantity>1</Quantity>
+    </ItemQty>
+  </Results>
+</DM_Recipe>

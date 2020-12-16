@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DM_Recipe xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Name>Fragment Bomb</Name>
+  <RecipeID>488</RecipeID>
+  <UID />
+  <StationType>Alchemy</StationType>
+  <RequiredPType>None</RequiredPType>
+  <Ingredients>
+    <string>Sulphuric Mushroom</string>
+    <string>Iron Scrap</string>
+    <string>Iron Scrap</string>
+  </Ingredients>
+  <Results>
+    <ItemQty>
+      <ItemName>Fragment Bomb</ItemName>
+      <ItemID>4600020</ItemID>
+      <Quantity>1</Quantity>
+    </ItemQty>
+  </Results>
+</DM_Recipe>

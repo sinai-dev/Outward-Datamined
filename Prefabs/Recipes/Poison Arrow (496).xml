@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DM_Recipe xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Name>Poison Arrow</Name>
+  <RecipeID>496</RecipeID>
+  <UID />
+  <StationType>Alchemy</StationType>
+  <RequiredPType>None</RequiredPType>
+  <Ingredients>
+    <string>Arrowhead Kit</string>
+    <string>Wood</string>
+    <string>Grilled Crabeye Seed</string>
+  </Ingredients>
+  <Results>
+    <ItemQty>
+      <ItemName>Poison Arrow</ItemName>
+      <ItemID>5200003</ItemID>
+      <Quantity>5</Quantity>
+    </ItemQty>
+  </Results>
+</DM_Recipe>

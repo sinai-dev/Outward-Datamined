@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DM_Recipe xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Name>Bracing Potion</Name>
+  <RecipeID>468</RecipeID>
+  <UID />
+  <StationType>Alchemy</StationType>
+  <RequiredPType>None</RequiredPType>
+  <Ingredients>
+    <string>Water</string>
+    <string>Ableroot</string>
+    <string>Ableroot</string>
+    <string>Peach Seeds</string>
+  </Ingredients>
+  <Results>
+    <ItemQty>
+      <ItemName>Bracing Potion</ItemName>
+      <ItemID>4300390</ItemID>
+      <Quantity>1</Quantity>
+    </ItemQty>
+  </Results>
+</DM_Recipe>

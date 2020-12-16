@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DM_Recipe xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Name>Gep’s Longblade</Name>
+  <RecipeID>476</RecipeID>
+  <UID />
+  <StationType>Survival</StationType>
+  <RequiredPType>None</RequiredPType>
+  <Ingredients>
+    <string>Gep’s Blade</string>
+    <string>Gep’s Generosity</string>
+  </Ingredients>
+  <Results>
+    <ItemQty>
+      <ItemName>Gep’s Longblade</ItemName>
+      <ItemID>2100305</ItemID>
+      <Quantity>1</Quantity>
+    </ItemQty>
+  </Results>
+</DM_Recipe>

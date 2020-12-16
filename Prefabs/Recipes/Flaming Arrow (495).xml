@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DM_Recipe xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Name>Flaming Arrow</Name>
+  <RecipeID>495</RecipeID>
+  <UID />
+  <StationType>Alchemy</StationType>
+  <RequiredPType>None</RequiredPType>
+  <Ingredients>
+    <string>Arrowhead Kit</string>
+    <string>Wood</string>
+    <string>Thick Oil</string>
+  </Ingredients>
+  <Results>
+    <ItemQty>
+      <ItemName>Flaming Arrow</ItemName>
+      <ItemID>5200002</ItemID>
+      <Quantity>5</Quantity>
+    </ItemQty>
+  </Results>
+</DM_Recipe>

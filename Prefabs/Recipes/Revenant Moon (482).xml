@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DM_Recipe xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Name>Revenant Moon</Name>
+  <RecipeID>482</RecipeID>
+  <UID />
+  <StationType>Survival</StationType>
+  <RequiredPType>None</RequiredPType>
+  <Ingredients>
+    <string>Cracked Red Moon</string>
+    <string>Scarlet Gem</string>
+  </Ingredients>
+  <Results>
+    <ItemQty>
+      <ItemName>Revenant Moon</ItemName>
+      <ItemID>2150185</ItemID>
+      <Quantity>1</Quantity>
+    </ItemQty>
+  </Results>
+</DM_Recipe>

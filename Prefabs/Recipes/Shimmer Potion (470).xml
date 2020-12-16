@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DM_Recipe xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Name>Shimmer Potion</Name>
+  <RecipeID>470</RecipeID>
+  <UID />
+  <StationType>Alchemy</StationType>
+  <RequiredPType>None</RequiredPType>
+  <Ingredients>
+    <string>Water</string>
+    <string>Peach Seeds</string>
+    <string>Peach Seeds</string>
+    <string>Crysocolla Beetle</string>
+  </Ingredients>
+  <Results>
+    <ItemQty>
+      <ItemName>Shimmer Potion</ItemName>
+      <ItemID>4300400</ItemID>
+      <Quantity>1</Quantity>
+    </ItemQty>
+  </Results>
+</DM_Recipe>

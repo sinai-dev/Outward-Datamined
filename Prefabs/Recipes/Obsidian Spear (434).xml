@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DM_Recipe xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Name>Obsidian Spear</Name>
+  <RecipeID>434</RecipeID>
+  <UID />
+  <StationType>Survival</StationType>
+  <RequiredPType>None</RequiredPType>
+  <Ingredients>
+    <string>Obsidian Shard</string>
+    <string>Obsidian Shard</string>
+    <string>Palladium Scrap</string>
+    <string>Iron Spear</string>
+  </Ingredients>
+  <Results>
+    <ItemQty>
+      <ItemName>Obsidian Spear</ItemName>
+      <ItemID>2130260</ItemID>
+      <Quantity>1</Quantity>
+    </ItemQty>
+  </Results>
+</DM_Recipe>

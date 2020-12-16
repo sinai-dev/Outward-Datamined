@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DM_Recipe xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Name>Vagabond’s Gelatin</Name>
+  <RecipeID>418</RecipeID>
+  <UID />
+  <StationType>Cooking</StationType>
+  <RequiredPType>None</RequiredPType>
+  <Ingredients>
+    <string>Cool Rainbow Jam</string>
+    <string>Golden Jam</string>
+    <string>Gaberry Jam</string>
+    <string>Marshmelon Jelly</string>
+  </Ingredients>
+  <Results>
+    <ItemQty>
+      <ItemName>Vagabond’s Gelatin</ItemName>
+      <ItemID>4100930</ItemID>
+      <Quantity>1</Quantity>
+    </ItemQty>
+  </Results>
+</DM_Recipe>

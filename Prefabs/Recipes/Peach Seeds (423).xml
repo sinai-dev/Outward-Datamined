@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DM_Recipe xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Name>Peach Seeds</Name>
+  <RecipeID>423</RecipeID>
+  <UID />
+  <StationType>Cooking</StationType>
+  <RequiredPType>None</RequiredPType>
+  <Ingredients>
+    <string>Rainbow Peach</string>
+  </Ingredients>
+  <Results>
+    <ItemQty>
+      <ItemName>Peach Seeds</ItemName>
+      <ItemID>6000330</ItemID>
+      <Quantity>1</Quantity>
+    </ItemQty>
+  </Results>
+</DM_Recipe>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DM_Recipe xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Name>Chalcedony Spear</Name>
+  <RecipeID>445</RecipeID>
+  <UID />
+  <StationType>Survival</StationType>
+  <RequiredPType>None</RequiredPType>
+  <Ingredients>
+    <string>Chalcedony</string>
+    <string>Chalcedony</string>
+    <string>Nephrite Gemstone</string>
+    <string>Militia Spear</string>
+  </Ingredients>
+  <Results>
+    <ItemQty>
+      <ItemName>Chalcedony Spear</ItemName>
+      <ItemID>2130270</ItemID>
+      <Quantity>1</Quantity>
+    </ItemQty>
+  </Results>
+</DM_Recipe>

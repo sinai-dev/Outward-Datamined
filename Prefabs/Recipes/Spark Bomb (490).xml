@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DM_Recipe xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Name>Spark Bomb</Name>
+  <RecipeID>490</RecipeID>
+  <UID />
+  <StationType>Alchemy</StationType>
+  <RequiredPType>None</RequiredPType>
+  <Ingredients>
+    <string>Bomb Kit</string>
+    <string>Calygrey Hairs</string>
+    <string>Sulphuric Mushroom</string>
+  </Ingredients>
+  <Results>
+    <ItemQty>
+      <ItemName>Spark Bomb</ItemName>
+      <ItemID>4600040</ItemID>
+      <Quantity>1</Quantity>
+    </ItemQty>
+  </Results>
+</DM_Recipe>

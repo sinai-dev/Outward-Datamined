@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DM_Recipe xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Name>Maize Mash</Name>
+  <RecipeID>416</RecipeID>
+  <UID />
+  <StationType>Cooking</StationType>
+  <RequiredPType>None</RequiredPType>
+  <Ingredients>
+    <string>Meat</string>
+    <string>Maize</string>
+    <string>Torcrab Egg</string>
+    <string>Torcrab Egg</string>
+  </Ingredients>
+  <Results>
+    <ItemQty>
+      <ItemName>Maize Mash</ItemName>
+      <ItemID>4100910</ItemID>
+      <Quantity>3</Quantity>
+    </ItemQty>
+  </Results>
+</DM_Recipe>

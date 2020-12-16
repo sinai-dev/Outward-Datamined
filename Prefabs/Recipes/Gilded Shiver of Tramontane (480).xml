@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DM_Recipe xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Name>Gilded Shiver of Tramontane</Name>
+  <RecipeID>480</RecipeID>
+  <UID />
+  <StationType>Survival</StationType>
+  <RequiredPType>None</RequiredPType>
+  <Ingredients>
+    <string>Scarred Dagger</string>
+    <string>Diamond Dust</string>
+    <string>Flash Moss</string>
+  </Ingredients>
+  <Results>
+    <ItemQty>
+      <ItemName>Gilded Shiver of Tramontane</ItemName>
+      <ItemID>5110345</ItemID>
+      <Quantity>1</Quantity>
+    </ItemQty>
+  </Results>
+</DM_Recipe>

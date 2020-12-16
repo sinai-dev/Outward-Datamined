@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DM_Recipe xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Name>Tokebakicit</Name>
+  <RecipeID>483</RecipeID>
+  <UID />
+  <StationType>Survival</StationType>
+  <RequiredPType>None</RequiredPType>
+  <Ingredients>
+    <string>Unusual Knuckles</string>
+    <string>Chromium Shards</string>
+    <string>Bloodroot</string>
+  </Ingredients>
+  <Results>
+    <ItemQty>
+      <ItemName>Tokebakicit</ItemName>
+      <ItemID>2160235</ItemID>
+      <Quantity>1</Quantity>
+    </ItemQty>
+  </Results>
+</DM_Recipe>

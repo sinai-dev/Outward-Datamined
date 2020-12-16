@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DM_Recipe xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Name>Torcrab Sandwich</Name>
+  <RecipeID>409</RecipeID>
+  <UID />
+  <StationType>Cooking</StationType>
+  <RequiredPType>None</RequiredPType>
+  <Ingredients>
+    <string>Salt</string>
+    <string>Bread</string>
+    <string>Raw Torcrab Meat</string>
+    <string>Raw Torcrab Meat</string>
+  </Ingredients>
+  <Results>
+    <ItemQty>
+      <ItemName>Torcrab Sandwich</ItemName>
+      <ItemID>4100840</ItemID>
+      <Quantity>3</Quantity>
+    </ItemQty>
+  </Results>
+</DM_Recipe>

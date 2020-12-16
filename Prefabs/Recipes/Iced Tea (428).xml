@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DM_Recipe xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Name>Iced Tea</Name>
+  <RecipeID>428</RecipeID>
+  <UID />
+  <StationType>Cooking</StationType>
+  <RequiredPType>None</RequiredPType>
+  <Ingredients>
+    <string>Water</string>
+    <string>Funnel Beetle</string>
+  </Ingredients>
+  <Results>
+    <ItemQty>
+      <ItemName>Iced Tea</ItemName>
+      <ItemID>4200100</ItemID>
+      <Quantity>1</Quantity>
+    </ItemQty>
+  </Results>
+</DM_Recipe>

@@ -308,10 +308,124 @@
 401	Survival	Slayer’s Boots (1)	Gargoyle Urn Shard,Calygrey Hairs,Palladium Scrap
 402	Survival	Fire Totemic Lodge (1)	Advanced Tent,Obsidian Shard,Seared Root,Predator Bones
 403	Survival	Ice Totemic Lodge (1)	Advanced Tent,Chalcedony,Crystal Powder,Predator Bones
-0	Survival	Lightning Totemic Lodge (1)	Advanced Tent,Calygrey Hairs,Palladium Scrap,Predator Bones
+404	Survival	Lightning Totemic Lodge (1)	Advanced Tent,Calygrey Hairs,Palladium Scrap,Predator Bones
+405	Survival	Corruption Totemic Lodge (1)	Advanced Tent,Miasmapod,Thorny Cartilage,Predator Bones
+406	Survival	Ethereal Totemic Lodge (1)	Advanced Tent,Hackmanite,Ghost's Eye,Predator Bones
 407	Cooking	Golden Jam (1)	Golden Crescent,Golden Crescent,Golden Crescent,Golden Crescent
 408	Cooking	Golden Tartine (3)	Golden Jam,Bread
+409	Cooking	Torcrab Sandwich (3)	Salt,Bread,Raw Torcrab Meat,Raw Torcrab Meat
+410	Cooking	Battered Maize (1)	Maize,Torcrab Egg,Salt
+411	Cooking	Cool Rainbow Jam (1)	Rainbow Peach,Rainbow Peach,Frosted Powder
+412	Cooking	Frosted Crescent (1)	Golden Crescent,Frosted Powder
+413	Cooking	Frosted Maize (1)	Maize,Frosted Powder
+414	Cooking	Torcrab Jerky (3)	Raw Torcrab Meat,Raw Torcrab Meat,Salt,Salt
+415	Cooking	Cured Pypherfish (3)	Vegetable,Pypherfish,Peach Seeds
+416	Cooking	Maize Mash (3)	Meat,Maize,Torcrab Egg,Torcrab Egg
+417	Cooking	Frosted Delight (3)	Golden Crescent,Cool Rainbow Jam,Frosted Powder
+418	Cooking	Vagabond’s Gelatin (1)	Cool Rainbow Jam,Golden Jam,Gaberry Jam,Marshmelon Jelly
+419	Cooking	Vagabond’s Tartine (3)	Vagabond’s Gelatin,Bread
+420	Cooking	Rainbow Tartine (3)	Cool Rainbow Jam,Bread
+421	Cooking	Able Tea (1)	Water,Ableroot
+422	Cooking	Baked Crescent (1)	Golden Crescent
+423	Cooking	Peach Seeds (1)	Rainbow Peach
+424	Cooking	Popped Maize (3)	Maize
+425	Cooking	Grilled Pypherfish (1)	Pypherfish
+426	Cooking	Cooked Torcrab Egg (1)	Torcrab Egg
+427	Cooking	Grilled Torcrab Meat (1)	Raw Torcrab Meat
+428	Cooking	Iced Tea (1)	Water,Funnel Beetle
+429	Cooking	Greasy Tea (1)	Water,Crysocolla Beetle
+430	Survival	Obsidian Sword (1)	Obsidian Shard,Palladium Scrap,Iron Sword
+431	Survival	Obsidian Claymore (1)	Obsidian Shard,Obsidian Shard,Palladium Scrap,Iron Claymore
+432	Survival	Obsidian Axe (1)	Obsidian Shard,Palladium Scrap,Iron Axe
+433	Survival	Obsidian Greataxe (1)	Obsidian Shard,Obsidian Shard,Palladium Scrap,Iron Greataxe
+434	Survival	Obsidian Spear (1)	Obsidian Shard,Obsidian Shard,Palladium Scrap,Iron Spear
+435	Survival	Obsidian Halberd (1)	Obsidian Shard,Obsidian Shard,Palladium Scrap,Iron Halberd
+436	Survival	Obsidian Bow (1)	Obsidian Shard,Obsidian Shard,Palladium Scrap,Simple Bow
+437	Survival	Obsidian Knuckles (1)	Obsidian Shard,Obsidian Shard,Palladium Scrap,Iron Knuckles
+438	Survival	REMOVED - Obsidian Shield (1)	Obsidian Shard,Obsidian Shard,Palladium Scrap,REMOVED - Obsidian Shield
+439	Survival	REMOVED – Obsidian Dagger (1)	Obsidian Shard,Palladium Scrap,REMOVED – Obsidian Dagger
+440	Survival	Obsidian Chakram (1)	Obsidian Shard,Palladium Scrap,Chakram
+441	Survival	Chalcedony Sword (1)	Chalcedony,Nephrite Gemstone,Militia Sword
+442	Survival	Chalcedony Claymore (1)	Chalcedony,Chalcedony,Nephrite Gemstone,Militia Claymore
+443	Survival	Chalcedony Axe (1)	Chalcedony,Nephrite Gemstone,Militia Axe
+444	Survival	Chalcedony Greataxe (1)	Chalcedony,Chalcedony,Nephrite Gemstone,Militia Greataxe
+445	Survival	Chalcedony Spear (1)	Chalcedony,Chalcedony,Nephrite Gemstone,Militia Spear
+446	Survival	Chalcedony Halberd (1)	Chalcedony,Chalcedony,Nephrite Gemstone,Militia Halberd
+447	Survival	Chalcedony Bow (1)	Chalcedony,Chalcedony,Nephrite Gemstone,Militia Bow
+448	Survival	Chalcedony Knuckles (1)	Chalcedony,Chalcedony,Nephrite Gemstone,Militia Knuckles
+449	Survival	REMOVED – Chalcedony Shield (1)	Chalcedony,Chalcedony,Nephrite Gemstone,REMOVED – Chalcedony Shield
+450	Survival	REMOVED – Chalcedony Dagger (1)	Chalcedony,Nephrite Gemstone,REMOVED – Chalcedony Dagger
+451	Survival	Chalcedony Chakram (1)	Chalcedony,Nephrite Gemstone,Militia Chakram
+452	Survival	Astral Sword (1)	Short Handle,Blade Prism,Waning Tentacle
+453	Survival	Astral Claymore (1)	Long Handle,Blade Prism,Waning Tentacle
+454	Survival	Astral Mace (1)	Short Handle,Blunt Prism,Waning Tentacle
+455	Survival	Astral Greatmace (1)	Long Handle,Blunt Prism,Waning Tentacle
+456	Survival	Astral Axe (1)	Short Handle,Flat Prism,Waning Tentacle
+457	Survival	Astral Greataxe (1)	Long Handle,Flat Prism,Waning Tentacle
+458	Survival	Astral Spear (1)	Shaft Handle,Spike Prism,Waning Tentacle
+459	Survival	Astral Halberd (1)	Shaft Handle,Blade Prism,Waning Tentacle
+460	Survival	Astral Bow (1)	Short Handle,Short Handle,Waning Tentacle
+461	Survival	Astral Knuckles (1)	Blunt Prism,Blunt Prism,Waning Tentacle
+462	Survival	Astral Staff (1)	Shaft Handle,Long Handle,Waning Tentacle
+463	Survival	Astral Shield (1)	Trinket Handle,Flat Prism,Waning Tentacle
+464	Survival	Astral Dagger (1)	Trinket Handle,Spike Prism,Waning Tentacle
+465	Survival	Astral Pistol (1)	Trinket Handle,Blunt Prism,Waning Tentacle
+466	Survival	Astral Chakram (1)	Trinket Handle,Blade Prism,Waning Tentacle
+467	Alchemy	Panacea (1)	Water,Sulphuric Mushroom,Ableroot,Peach Seeds
+468	Alchemy	Bracing Potion (1)	Water,Ableroot,Ableroot,Peach Seeds
+469	Alchemy	Barrier Potion (1)	Water,Peach Seeds,Crysocolla Beetle
+470	Alchemy	Shimmer Potion (1)	Water,Peach Seeds,Peach Seeds,Crysocolla Beetle
+471	Alchemy	Mana Belly Potion (1)	Water,Pypherfish,Funnel Beetle,Hexa Stone
+472	Alchemy	Marathon Potion (1)	Water,Crysocolla Beetle
+473	Survival	Mysterious Long Blade (1)	Mysterious Blade
+474	Survival	Mysterious Blade (1)	Mysterious Long Blade
+475	Survival	Gep’s Blade (1)	Gep’s Longblade,Gep’s Generosity
+476	Survival	Gep’s Longblade (1)	Gep’s Blade,Gep’s Generosity
+477	Survival	Gep’s Blade (1)	Mysterious Blade,Gep's Drink,Gep's Drink,Gep's Drink
+478	Survival	Gep’s Longblade (1)	Mysterious Long Blade,Gep's Drink,Gep's Drink,Gep's Drink
+479	Survival	Murmure (1)	Ceremonial Bow,Pearlbird Mask
+480	Survival	Gilded Shiver of Tramontane (1)	Scarred Dagger,Diamond Dust,Flash Moss
+481	Survival	Ghost Parallel (1)	De-powered Bludgeon,Ectoplasm,Digested Mana Stone
+482	Survival	Revenant Moon (1)	Cracked Red Moon,Scarlet Gem
+483	Survival	Tokebakicit (1)	Unusual Knuckles,Chromium Shards,Bloodroot
+484	Alchemy	Frosted Powder (3)	Funnel Beetle,Funnel Beetle
+485	Survival	Chalcedony Mace (1)	Chalcedony,Chalcedony,Nephrite Gemstone
+486	Survival	Chalcedony Hammer (1)	Chalcedony,Chalcedony,Nephrite Gemstone,Nephrite Gemstone
+487	Alchemy	Oil Bomb (1)	Sulphuric Mushroom,Thick Oil,Thick Oil
+488	Alchemy	Fragment Bomb (1)	Sulphuric Mushroom,Iron Scrap,Iron Scrap
+489	Alchemy	Frost Bomb (1)	Bomb Kit,Chalcedony,Sulphuric Mushroom
+490	Alchemy	Spark Bomb (1)	Bomb Kit,Calygrey Hairs,Sulphuric Mushroom
+491	Alchemy	Flaming Bomb (1)	Bomb Kit,Boreo Blubber,Charge – Incendiary
+492	Alchemy	Toxin Bomb (1)	Bomb Kit,Miasmapod,Charge – Toxic
+493	Alchemy	Nerve Bomb (1)	Bomb Kit,Ambraine,Charge – Nerve Gas
+494	Alchemy	Blazing Bomb (1)	Bomb Kit,Obsidian Shard,Oil Bomb
+495	Alchemy	Flaming Arrow (5)	Arrowhead Kit,Wood,Thick Oil
+496	Alchemy	Poison Arrow (5)	Arrowhead Kit,Wood,Grilled Crabeye Seed
+497	Alchemy	Venom Arrow (5)	Arrowhead Kit,Wood,Miasmapod
+498	Alchemy	Palladium Arrow (5)	Arrowhead Kit,Wood,Palladium Scrap
+499	Alchemy	Removed – Corrupted Arrow (1)	Removed – Corrupted Arrow
+500	Alchemy	Mana Arrow (5)	Arrowhead Kit,Wood,Ghost's Eye
+501	Alchemy	Holy Rage Arrow (3)	Arrowhead Kit,Wood,Gold-Lich Mechanism
+502	Alchemy	Soul Rupture Arrow (3)	Arrowhead Kit,Wood,Hexa Stone
+503	Survival	Chalcedony Pistol (1)	Chalcedony,Palladium Scrap,Flintlock Pistol
+504	Survival	Krypteia Mask (1)	Pearlbird’s Courage,Haunted Memory,Gep’s Generosity,Scarlet Whisper
+505	Survival	Krypteia Armor (1)	Elatt’s Relic,Leyline Figment,Vendavel's Hospitality,Noble’s Greed
+506	Survival	Krypteia Boots (1)	Scourge’s Tears,Pearlbird’s Courage,Calixa’s Relic,Calygrey’s Wisdom
+507	Survival	Frostburn Staff (1)	Leyline Figment,Scarlet Whisper,Noble’s Greed,Calygrey’s Wisdom
+508	Alchemy	Sulphur Potion (1)	Water,Sulphuric Mushroom,Crysocolla Beetle
+510	Survival	Hailfrost Claymore (1)	Hailfrost Claymore,Cold Stone
+511	Survival	Hailfrost Mace (1)	Hailfrost Mace,Cold Stone
+512	Survival	Hailfrost Hammer (1)	Hailfrost Hammer,Cold Stone
+513	Survival	Hailfrost Axe (1)	Hailfrost Axe,Cold Stone
+514	Survival	Hailfrost Greataxe (1)	Hailfrost Greataxe,Cold Stone
+515	Survival	Hailfrost Spear (1)	Hailfrost Spear,Cold Stone
+516	Survival	Hailfrost Halberd (1)	Hailfrost Halberd,Cold Stone
+517	Survival	Hailfrost Pistol (1)	Hailfrost Pistol,Cold Stone
+518	Survival	Hailfrost Knuckles (1)	Hailfrost Knuckles,Cold Stone
+519	Survival	Hailfrost Sword (1)	Hailfrost Sword,Cold Stone
 520	Survival	Djinn’s Lamp (1)	Djinn’s Lamp,Thick Oil
 521	Survival	Chalcedony (1)	DecraftChalcedony_Small
 522	Survival	Chalcedony (2)	DecraftChalcedony_Large
 523	Cooking	Thick Oil (1)	Boreo Blubber
+528	Survival	Manticore Egg (1)	Vendavel's Hospitality,Scourge’s Tears,Noble’s Greed,Calygrey’s Wisdom
+529	Survival	Hailfrost Dagger (1)	Hailfrost Dagger,Cold Stone

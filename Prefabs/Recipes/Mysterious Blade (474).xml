@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DM_Recipe xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Name>Mysterious Blade</Name>
+  <RecipeID>474</RecipeID>
+  <UID />
+  <StationType>Survival</StationType>
+  <RequiredPType>None</RequiredPType>
+  <Ingredients>
+    <string>Mysterious Long Blade</string>
+  </Ingredients>
+  <Results>
+    <ItemQty>
+      <ItemName>Mysterious Blade</ItemName>
+      <ItemID>2000320</ItemID>
+      <Quantity>1</Quantity>
+    </ItemQty>
+  </Results>
+</DM_Recipe>

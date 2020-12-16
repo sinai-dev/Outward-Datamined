@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DM_Recipe xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Name>Hailfrost Halberd</Name>
+  <RecipeID>516</RecipeID>
+  <UID />
+  <StationType>Survival</StationType>
+  <RequiredPType>None</RequiredPType>
+  <Ingredients>
+    <string>Hailfrost Halberd</string>
+    <string>Cold Stone</string>
+  </Ingredients>
+  <Results>
+    <ItemQty>
+      <ItemName>Hailfrost Halberd</ItemName>
+      <ItemID>2150110</ItemID>
+      <Quantity>1</Quantity>
+    </ItemQty>
+  </Results>
+</DM_Recipe>

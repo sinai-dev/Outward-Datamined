@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DM_Recipe xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Name>Astral Dagger</Name>
+  <RecipeID>464</RecipeID>
+  <UID />
+  <StationType>Survival</StationType>
+  <RequiredPType>None</RequiredPType>
+  <Ingredients>
+    <string>Trinket Handle</string>
+    <string>Spike Prism</string>
+    <string>Waning Tentacle</string>
+  </Ingredients>
+  <Results>
+    <ItemQty>
+      <ItemName>Astral Dagger</ItemName>
+      <ItemID>5110011</ItemID>
+      <Quantity>1</Quantity>
+    </ItemQty>
+  </Results>
+</DM_Recipe>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DM_Recipe xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Name>Ethereal Totemic Lodge</Name>
+  <RecipeID>406</RecipeID>
+  <UID />
+  <StationType>Survival</StationType>
+  <RequiredPType>None</RequiredPType>
+  <Ingredients>
+    <string>Advanced Tent</string>
+    <string>Hackmanite</string>
+    <string>Ghost's Eye</string>
+    <string>Predator Bones</string>
+  </Ingredients>
+  <Results>
+    <ItemQty>
+      <ItemName>Ethereal Totemic Lodge</ItemName>
+      <ItemID>5000220</ItemID>
+      <Quantity>1</Quantity>
+    </ItemQty>
+  </Results>
+</DM_Recipe>

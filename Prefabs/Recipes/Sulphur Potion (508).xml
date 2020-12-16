@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DM_Recipe xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Name>Sulphur Potion</Name>
+  <RecipeID>508</RecipeID>
+  <UID />
+  <StationType>Alchemy</StationType>
+  <RequiredPType>None</RequiredPType>
+  <Ingredients>
+    <string>Water</string>
+    <string>Sulphuric Mushroom</string>
+    <string>Crysocolla Beetle</string>
+  </Ingredients>
+  <Results>
+    <ItemQty>
+      <ItemName>Sulphur Potion</ItemName>
+      <ItemID>4300380</ItemID>
+      <Quantity>1</Quantity>
+    </ItemQty>
+  </Results>
+</DM_Recipe>

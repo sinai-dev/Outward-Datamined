@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DM_Recipe xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Name>REMOVED – Chalcedony Shield</Name>
+  <RecipeID>449</RecipeID>
+  <UID />
+  <StationType>Survival</StationType>
+  <RequiredPType>None</RequiredPType>
+  <Ingredients>
+    <string>Chalcedony</string>
+    <string>Chalcedony</string>
+    <string>Nephrite Gemstone</string>
+    <string>REMOVED – Chalcedony Shield</string>
+  </Ingredients>
+  <Results>
+    <ItemQty>
+      <ItemName>REMOVED – Chalcedony Shield</ItemName>
+      <ItemID>2300320</ItemID>
+      <Quantity>1</Quantity>
+    </ItemQty>
+  </Results>
+</DM_Recipe>

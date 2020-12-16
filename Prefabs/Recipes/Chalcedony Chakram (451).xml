@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DM_Recipe xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Name>Chalcedony Chakram</Name>
+  <RecipeID>451</RecipeID>
+  <UID />
+  <StationType>Survival</StationType>
+  <RequiredPType>None</RequiredPType>
+  <Ingredients>
+    <string>Chalcedony</string>
+    <string>Nephrite Gemstone</string>
+    <string>Militia Chakram</string>
+  </Ingredients>
+  <Results>
+    <ItemQty>
+      <ItemName>Chalcedony Chakram</ItemName>
+      <ItemID>5110102</ItemID>
+      <Quantity>1</Quantity>
+    </ItemQty>
+  </Results>
+</DM_Recipe>

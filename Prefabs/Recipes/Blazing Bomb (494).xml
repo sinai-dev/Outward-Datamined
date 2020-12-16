@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DM_Recipe xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Name>Blazing Bomb</Name>
+  <RecipeID>494</RecipeID>
+  <UID />
+  <StationType>Alchemy</StationType>
+  <RequiredPType>None</RequiredPType>
+  <Ingredients>
+    <string>Bomb Kit</string>
+    <string>Obsidian Shard</string>
+    <string>Oil Bomb</string>
+  </Ingredients>
+  <Results>
+    <ItemQty>
+      <ItemName>Blazing Bomb</ItemName>
+      <ItemID>4600070</ItemID>
+      <Quantity>1</Quantity>
+    </ItemQty>
+  </Results>
+</DM_Recipe>

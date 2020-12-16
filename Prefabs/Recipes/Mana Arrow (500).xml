@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DM_Recipe xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Name>Mana Arrow</Name>
+  <RecipeID>500</RecipeID>
+  <UID />
+  <StationType>Alchemy</StationType>
+  <RequiredPType>None</RequiredPType>
+  <Ingredients>
+    <string>Arrowhead Kit</string>
+    <string>Wood</string>
+    <string>Ghost's Eye</string>
+  </Ingredients>
+  <Results>
+    <ItemQty>
+      <ItemName>Mana Arrow</ItemName>
+      <ItemID>5200019</ItemID>
+      <Quantity>5</Quantity>
+    </ItemQty>
+  </Results>
+</DM_Recipe>

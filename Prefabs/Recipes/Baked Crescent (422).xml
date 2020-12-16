@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DM_Recipe xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Name>Baked Crescent</Name>
+  <RecipeID>422</RecipeID>
+  <UID />
+  <StationType>Cooking</StationType>
+  <RequiredPType>None</RequiredPType>
+  <Ingredients>
+    <string>Golden Crescent</string>
+  </Ingredients>
+  <Results>
+    <ItemQty>
+      <ItemName>Baked Crescent</ItemName>
+      <ItemID>4100790</ItemID>
+      <Quantity>1</Quantity>
+    </ItemQty>
+  </Results>
+</DM_Recipe>

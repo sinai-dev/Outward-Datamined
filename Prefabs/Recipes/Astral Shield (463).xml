@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DM_Recipe xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Name>Astral Shield</Name>
+  <RecipeID>463</RecipeID>
+  <UID />
+  <StationType>Survival</StationType>
+  <RequiredPType>None</RequiredPType>
+  <Ingredients>
+    <string>Trinket Handle</string>
+    <string>Flat Prism</string>
+    <string>Waning Tentacle</string>
+  </Ingredients>
+  <Results>
+    <ItemQty>
+      <ItemName>Astral Shield</ItemName>
+      <ItemID>2300290</ItemID>
+      <Quantity>1</Quantity>
+    </ItemQty>
+  </Results>
+</DM_Recipe>

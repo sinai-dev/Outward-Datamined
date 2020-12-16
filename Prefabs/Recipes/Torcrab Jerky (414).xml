@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DM_Recipe xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Name>Torcrab Jerky</Name>
+  <RecipeID>414</RecipeID>
+  <UID />
+  <StationType>Cooking</StationType>
+  <RequiredPType>None</RequiredPType>
+  <Ingredients>
+    <string>Raw Torcrab Meat</string>
+    <string>Raw Torcrab Meat</string>
+    <string>Salt</string>
+    <string>Salt</string>
+  </Ingredients>
+  <Results>
+    <ItemQty>
+      <ItemName>Torcrab Jerky</ItemName>
+      <ItemID>4100890</ItemID>
+      <Quantity>3</Quantity>
+    </ItemQty>
+  </Results>
+</DM_Recipe>

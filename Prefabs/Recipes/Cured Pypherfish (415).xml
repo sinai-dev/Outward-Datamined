@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DM_Recipe xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Name>Cured Pypherfish</Name>
+  <RecipeID>415</RecipeID>
+  <UID />
+  <StationType>Cooking</StationType>
+  <RequiredPType>None</RequiredPType>
+  <Ingredients>
+    <string>Vegetable</string>
+    <string>Pypherfish</string>
+    <string>Peach Seeds</string>
+  </Ingredients>
+  <Results>
+    <ItemQty>
+      <ItemName>Cured Pypherfish</ItemName>
+      <ItemID>4100900</ItemID>
+      <Quantity>3</Quantity>
+    </ItemQty>
+  </Results>
+</DM_Recipe>
