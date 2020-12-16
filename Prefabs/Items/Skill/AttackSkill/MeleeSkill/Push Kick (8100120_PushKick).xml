@@ -37,6 +37,7 @@
           <Damages_AI />
           <Knockback>65</Knockback>
           <HitInventory>true</HitInventory>
+          <IgnoreHalfResistances>false</IgnoreHalfResistances>
         </DM_Effect>
       </Effects>
       <EffectConditions />
@@ -97,6 +98,7 @@
                       <Damages_AI />
                       <Knockback>50</Knockback>
                       <HitInventory>true</HitInventory>
+                      <IgnoreHalfResistances>false</IgnoreHalfResistances>
                     </DM_Effect>
                     <DM_Effect xsi:type="DM_AddStatusEffect">
                       <Delay>0</Delay>
@@ -128,6 +130,8 @@
                 <y>-0.5</y>
                 <z>0</z>
               </Offset>
+              <ProximityAngle>-1</ProximityAngle>
+              <OrMode>false</OrMode>
             </DM_EffectCondition>
           </EffectConditions>
           <ChildEffects />
@@ -158,13 +162,17 @@
   <ManaCost>0</ManaCost>
   <DurabilityCost>0</DurabilityCost>
   <DurabilityCostPercent>0</DurabilityCostPercent>
+  <HealthCost>0</HealthCost>
+  <RequiredPType>None</RequiredPType>
   <RequiredItems />
   <AmmunitionTypes />
   <RequiredOffHandTypes />
   <RequiredWeaponTypes />
   <RequiredWeaponTags />
   <RequireImbue>false</RequireImbue>
+  <AmmunitionAmount>-1</AmmunitionAmount>
   <Blockable>true</Blockable>
+  <NoWeaponAtkTag>false</NoWeaponAtkTag>
   <Damage>-1</Damage>
   <Impact>-1</Impact>
   <LinecastCount>3</LinecastCount>

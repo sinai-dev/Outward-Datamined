@@ -39,6 +39,7 @@ Double attack that deals high damage, and that increases in power if you have th
           <Damages_AI />
           <Knockback>0</Knockback>
           <HitInventory>true</HitInventory>
+          <IgnoreHalfResistances>false</IgnoreHalfResistances>
           <OverrideType>Count</OverrideType>
           <ForceOnlyLeftHand>false</ForceOnlyLeftHand>
           <Damage_Multiplier>0.8</Damage_Multiplier>
@@ -130,6 +131,7 @@ Double attack that deals high damage, and that increases in power if you have th
           <Damages_AI />
           <Knockback>0</Knockback>
           <HitInventory>true</HitInventory>
+          <IgnoreHalfResistances>false</IgnoreHalfResistances>
           <OverrideType>Count</OverrideType>
           <ForceOnlyLeftHand>false</ForceOnlyLeftHand>
           <Damage_Multiplier>0.5</Damage_Multiplier>
@@ -167,6 +169,7 @@ Double attack that deals high damage, and that increases in power if you have th
           <Damages_AI />
           <Knockback>0</Knockback>
           <HitInventory>true</HitInventory>
+          <IgnoreHalfResistances>false</IgnoreHalfResistances>
           <OverrideType>Count</OverrideType>
           <ForceOnlyLeftHand>false</ForceOnlyLeftHand>
           <Damage_Multiplier>0.5</Damage_Multiplier>
@@ -194,6 +197,8 @@ Double attack that deals high damage, and that increases in power if you have th
   <ManaCost>0</ManaCost>
   <DurabilityCost>0</DurabilityCost>
   <DurabilityCostPercent>0</DurabilityCostPercent>
+  <HealthCost>0</HealthCost>
+  <RequiredPType>Normal</RequiredPType>
   <RequiredItems />
   <AmmunitionTypes />
   <RequiredOffHandTypes />
@@ -202,7 +207,9 @@ Double attack that deals high damage, and that increases in power if you have th
   </RequiredWeaponTypes>
   <RequiredWeaponTags />
   <RequireImbue>false</RequireImbue>
+  <AmmunitionAmount>-1</AmmunitionAmount>
   <Blockable>true</Blockable>
+  <NoWeaponAtkTag>false</NoWeaponAtkTag>
   <Damage>0</Damage>
   <Impact>0</Impact>
   <LinecastCount>0</LinecastCount>

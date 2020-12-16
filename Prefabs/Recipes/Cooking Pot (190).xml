@@ -4,6 +4,7 @@
   <RecipeID>190</RecipeID>
   <UID />
   <StationType>Survival</StationType>
+  <RequiredPType>None</RequiredPType>
   <Ingredients>
     <string>Cauldron Helm</string>
   </Ingredients>

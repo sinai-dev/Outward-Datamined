@@ -4,6 +4,7 @@
   <RecipeID>109</RecipeID>
   <UID />
   <StationType>Alchemy</StationType>
+  <RequiredPType>None</RequiredPType>
   <Ingredients>
     <string>Water</string>
     <string>Krimp Nut</string>
@@ -13,7 +14,7 @@
     <ItemQty>
       <ItemName>Endurance Potion</ItemName>
       <ItemID>4300030</ItemID>
-      <Quantity>3</Quantity>
+      <Quantity>1</Quantity>
     </ItemQty>
   </Results>
 </DM_Recipe>

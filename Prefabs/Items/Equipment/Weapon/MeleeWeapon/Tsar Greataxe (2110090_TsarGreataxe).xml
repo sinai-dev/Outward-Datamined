@@ -67,6 +67,9 @@
     <Hunger_Affect>0</Hunger_Affect>
     <Thirst_Affect>0</Thirst_Affect>
     <Fatigue_Affect>0</Fatigue_Affect>
+    <BarrierProtection>0</BarrierProtection>
+    <GlobalStatusEffectResistance>0</GlobalStatusEffectResistance>
+    <StaminaRegenModifier>0</StaminaRegenModifier>
     <AttackSpeed>0.8</AttackSpeed>
     <BaseDamage>
       <Damages>
@@ -95,7 +98,7 @@
         </Damage>
       </AttackData>
       <AttackData>
-        <StamCost>10.164</StamCost>
+        <StamCost>12.705</StamCost>
         <Knockback>71.5</Knockback>
         <AttackSpeed>0.88</AttackSpeed>
         <Damage>
@@ -103,7 +106,7 @@
         </Damage>
       </AttackData>
       <AttackData>
-        <StamCost>9.317</StamCost>
+        <StamCost>11.64625</StamCost>
         <Knockback>71.5</Knockback>
         <AttackSpeed>0.88</AttackSpeed>
         <Damage>
@@ -111,7 +114,7 @@
         </Damage>
       </AttackData>
       <AttackData>
-        <StamCost>9.317</StamCost>
+        <StamCost>11.64625</StamCost>
         <Knockback>71.5</Knockback>
         <AttackSpeed>0.88</AttackSpeed>
         <Damage>
@@ -132,4 +135,5 @@
   <MaxProjectileShots>-1</MaxProjectileShots>
   <BaseHealthAbsorbRatio>0</BaseHealthAbsorbRatio>
   <BaseMaxHealthAbsorbRatio>0</BaseMaxHealthAbsorbRatio>
+  <IgnoreHalfResistances>false</IgnoreHalfResistances>
 </DM_Weapon>

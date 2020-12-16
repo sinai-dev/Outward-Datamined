@@ -11,6 +11,9 @@
   <IgnoreBuildupIfApplied>false</IgnoreBuildupIfApplied>
   <DisplayedInHUD>false</DisplayedInHUD>
   <IsHidden>true</IsHidden>
+  <RemoveRequiredStatus>false</RemoveRequiredStatus>
+  <NormalizeDamageDisplay>false</NormalizeDamageDisplay>
+  <IgnoreBarrier>false</IgnoreBarrier>
   <Tags />
   <Effects>
     <DM_EffectTransform>

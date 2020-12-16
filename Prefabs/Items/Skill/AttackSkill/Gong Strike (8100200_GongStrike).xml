@@ -21,7 +21,11 @@ Strike your weapon on your shield, removing the elemental infusion to make an ex
   <MobileCastMovementMult>-1</MobileCastMovementMult>
   <CastSheatheRequired>2</CastSheatheRequired>
   <OverrideSellModifier>-1</OverrideSellModifier>
-  <Tags />
+  <Tags>
+    <string>WeaponSkillAttack</string>
+    <string>AttackType</string>
+    <string>Character Stats</string>
+  </Tags>
   <EffectTransforms>
     <DM_EffectTransform>
       <TransformName>Effects</TransformName>
@@ -86,6 +90,7 @@ Strike your weapon on your shield, removing the elemental infusion to make an ex
                       <Damages_AI />
                       <Knockback>0</Knockback>
                       <HitInventory>true</HitInventory>
+                      <IgnoreHalfResistances>false</IgnoreHalfResistances>
                       <OverrideType>Fire</OverrideType>
                       <ForceOnlyLeftHand>true</ForceOnlyLeftHand>
                       <Damage_Multiplier>2.2</Damage_Multiplier>
@@ -168,6 +173,7 @@ Strike your weapon on your shield, removing the elemental infusion to make an ex
                       <Damages_AI />
                       <Knockback>0</Knockback>
                       <HitInventory>true</HitInventory>
+                      <IgnoreHalfResistances>false</IgnoreHalfResistances>
                       <OverrideType>Frost</OverrideType>
                       <ForceOnlyLeftHand>true</ForceOnlyLeftHand>
                       <Damage_Multiplier>2.2</Damage_Multiplier>
@@ -250,6 +256,7 @@ Strike your weapon on your shield, removing the elemental infusion to make an ex
                       <Damages_AI />
                       <Knockback>0</Knockback>
                       <HitInventory>true</HitInventory>
+                      <IgnoreHalfResistances>false</IgnoreHalfResistances>
                       <OverrideType>Electric</OverrideType>
                       <ForceOnlyLeftHand>true</ForceOnlyLeftHand>
                       <Damage_Multiplier>2.3</Damage_Multiplier>
@@ -325,6 +332,7 @@ Strike your weapon on your shield, removing the elemental infusion to make an ex
                       <Damages_AI />
                       <Knockback>0</Knockback>
                       <HitInventory>true</HitInventory>
+                      <IgnoreHalfResistances>false</IgnoreHalfResistances>
                       <OverrideType>Decay</OverrideType>
                       <ForceOnlyLeftHand>true</ForceOnlyLeftHand>
                       <Damage_Multiplier>2.6</Damage_Multiplier>
@@ -398,6 +406,7 @@ Strike your weapon on your shield, removing the elemental infusion to make an ex
                       <Damages_AI />
                       <Knockback>0</Knockback>
                       <HitInventory>true</HitInventory>
+                      <IgnoreHalfResistances>false</IgnoreHalfResistances>
                       <OverrideType>Decay</OverrideType>
                       <ForceOnlyLeftHand>true</ForceOnlyLeftHand>
                       <Damage_Multiplier>2</Damage_Multiplier>
@@ -427,6 +436,7 @@ Strike your weapon on your shield, removing the elemental infusion to make an ex
               <ImbuePresetIDs>
                 <int>200</int>
                 <int>201</int>
+                <int>222</int>
               </ImbuePresetIDs>
               <AnyImbue>false</AnyImbue>
               <WeaponToCheck>MainHand</WeaponToCheck>
@@ -479,6 +489,7 @@ Strike your weapon on your shield, removing the elemental infusion to make an ex
                       <Damages_AI />
                       <Knockback>0</Knockback>
                       <HitInventory>true</HitInventory>
+                      <IgnoreHalfResistances>false</IgnoreHalfResistances>
                       <OverrideType>Physical</OverrideType>
                       <ForceOnlyLeftHand>true</ForceOnlyLeftHand>
                       <Damage_Multiplier>0</Damage_Multiplier>
@@ -550,6 +561,7 @@ Strike your weapon on your shield, removing the elemental infusion to make an ex
                       <Damages_AI />
                       <Knockback>0</Knockback>
                       <HitInventory>true</HitInventory>
+                      <IgnoreHalfResistances>false</IgnoreHalfResistances>
                       <OverrideType>Ethereal</OverrideType>
                       <ForceOnlyLeftHand>true</ForceOnlyLeftHand>
                       <Damage_Multiplier>2.6</Damage_Multiplier>
@@ -572,6 +584,7 @@ Strike your weapon on your shield, removing the elemental infusion to make an ex
               <ImbuePresetIDs>
                 <int>220</int>
                 <int>208</int>
+                <int>223</int>
               </ImbuePresetIDs>
               <AnyImbue>false</AnyImbue>
               <WeaponToCheck>MainHand</WeaponToCheck>
@@ -624,6 +637,7 @@ Strike your weapon on your shield, removing the elemental infusion to make an ex
                       <Damages_AI />
                       <Knockback>0</Knockback>
                       <HitInventory>true</HitInventory>
+                      <IgnoreHalfResistances>false</IgnoreHalfResistances>
                       <OverrideType>Electric</OverrideType>
                       <ForceOnlyLeftHand>true</ForceOnlyLeftHand>
                       <Damage_Multiplier>2.9</Damage_Multiplier>
@@ -707,6 +721,8 @@ Strike your weapon on your shield, removing the elemental infusion to make an ex
   <ManaCost>0</ManaCost>
   <DurabilityCost>6</DurabilityCost>
   <DurabilityCostPercent>0</DurabilityCostPercent>
+  <HealthCost>0</HealthCost>
+  <RequiredPType>Normal</RequiredPType>
   <RequiredItems />
   <AmmunitionTypes />
   <RequiredOffHandTypes>
@@ -724,4 +740,5 @@ Strike your weapon on your shield, removing the elemental infusion to make an ex
   </RequiredWeaponTypes>
   <RequiredWeaponTags />
   <RequireImbue>true</RequireImbue>
+  <AmmunitionAmount>-1</AmmunitionAmount>
 </DM_AttackSkill>

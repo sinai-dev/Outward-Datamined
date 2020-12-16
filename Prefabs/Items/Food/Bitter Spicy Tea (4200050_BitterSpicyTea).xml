@@ -23,6 +23,8 @@
     <string>Drink</string>
     <string>Consummable</string>
     <string>Item</string>
+    <string>IgnoreIndigestion</string>
+    <string>Food</string>
   </Tags>
   <StatsHolder>
     <BaseValue>8</BaseValue>

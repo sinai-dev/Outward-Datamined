@@ -11,8 +11,12 @@
   <IgnoreBuildupIfApplied>false</IgnoreBuildupIfApplied>
   <DisplayedInHUD>true</DisplayedInHUD>
   <IsHidden>false</IsHidden>
+  <RemoveRequiredStatus>false</RemoveRequiredStatus>
+  <NormalizeDamageDisplay>false</NormalizeDamageDisplay>
+  <IgnoreBarrier>true</IgnoreBarrier>
   <Tags>
     <string>Poison</string>
+    <string>DoT</string>
     <string>Status Type</string>
   </Tags>
   <Effects>
@@ -32,6 +36,7 @@
           <Damages_AI />
           <Knockback>0</Knockback>
           <HitInventory>false</HitInventory>
+          <IgnoreHalfResistances>false</IgnoreHalfResistances>
         </DM_Effect>
       </Effects>
       <EffectConditions />

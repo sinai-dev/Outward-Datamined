@@ -4,6 +4,7 @@
   <RecipeID>102</RecipeID>
   <UID />
   <StationType>Survival</StationType>
+  <RequiredPType>None</RequiredPType>
   <Ingredients>
     <string>Linen Cloth</string>
     <string>Seaweed</string>

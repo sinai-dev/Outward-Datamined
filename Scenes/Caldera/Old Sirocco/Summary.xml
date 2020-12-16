@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SceneSummary xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SceneName>Old Sirocco</SceneName>
+  <Enemies>
+    <QuantityHolder>
+      <Name>Rock Mantis (1)</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Burning Man (1)</Name>
+      <Quantity>2</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Scarlet Emissary (1)</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Torcrab (1)</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Ghost (1)</Name>
+      <Quantity>2</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Quartz Beetle (1)</Name>
+      <Quantity>2</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Ghost (5)</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+  </Enemies>
+  <Merchants>
+    <string>Dorion Dumas (H5q78X0xR0SS0hhrNRDQSA)</string>
+    <string>Josef Dumas (pzcn8joOfEizkiBA1nwc7w)</string>
+  </Merchants>
+  <Loot_Containers>
+    <QuantityHolder>
+      <Name>Junk Pile</Name>
+      <Quantity>6</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Ornate Chest</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Corpse</Name>
+      <Quantity>4</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Chest</Name>
+      <Quantity>4</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Knight’s Corpse</Name>
+      <Quantity>2</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Worker’s Corpse</Name>
+      <Quantity>2</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Adventurer’s Corpse</Name>
+      <Quantity>2</Quantity>
+    </QuantityHolder>
+  </Loot_Containers>
+  <Gatherables>
+    <QuantityHolder>
+      <Name>Iron vein</Name>
+      <Quantity>3</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Rich Iron vein</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Smoke Root</Name>
+      <Quantity>4</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Chalcedony</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Ableroot</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Unidentified Molepig den</Name>
+      <Quantity>2</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Torcrab Nest</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Unidentified Roots</Name>
+      <Quantity>2</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Unidentified Ore Vein</Name>
+      <Quantity>2</Quantity>
+    </QuantityHolder>
+  </Gatherables>
+  <Item_Spawns />
+  <UniqueContainerList>
+    <string>Junk Pile_-dEDtE1qcES6aPTci89fWg</string>
+    <string>Junk Pile_X5GB1C7_pUS92ZLLuJRnRg</string>
+    <string>Ornate Chest_9YT7epHY7UO-QdNmJjE0JQ</string>
+    <string>Corpse_zNIkKaKAmUK99hj1_fUkig</string>
+    <string>Chest_vaiqmlLsw0yRLaby8gXzNA</string>
+    <string>Chest_IcqP6RwooEKqP9Bq9ICKOw</string>
+    <string>Corpse_1QRkh542gECwbjbeV2VBHQ</string>
+    <string>Knight’s Corpse_8F_4s6RPTUS6m18qqQd8Fw</string>
+    <string>Corpse_wGt4M4JFBUO3rm23_nq4Xw</string>
+    <string>Junk Pile_NRy5D_YuZE66wXmfprkIdw</string>
+    <string>Worker’s Corpse_Qffvt6FocUS9JcUV3aOTWg</string>
+    <string>Adventurer’s Corpse_pvAsC-dRDUiXDJYori4Qaw</string>
+    <string>Worker’s Corpse_Dc6jtoNr7kGcNWc8kQlCHg</string>
+    <string>Junk Pile_XmEH9sjCx0iORcswfW-OKQ</string>
+    <string>Chest_BbR_ixGhV0exgEKIHVDNgw</string>
+    <string>Chest_ACcPK0WnmkiPTvrAj05Csg</string>
+    <string>Junk Pile_o2fDdBlbF0iR_CtY3VnACQ</string>
+    <string>Adventurer’s Corpse_ED1VqTMb-U2Zkc1biTW1ag</string>
+    <string>Knight’s Corpse_-zOJhjQQrUeSiBqHyqrQng</string>
+    <string>Corpse_sinA2FyP802-q-IwsCNJdQ</string>
+  </UniqueContainerList>
+</SceneSummary>

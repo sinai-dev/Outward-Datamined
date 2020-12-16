@@ -65,6 +65,9 @@
     <Hunger_Affect>0</Hunger_Affect>
     <Thirst_Affect>0</Thirst_Affect>
     <Fatigue_Affect>0</Fatigue_Affect>
+    <BarrierProtection>0</BarrierProtection>
+    <GlobalStatusEffectResistance>0</GlobalStatusEffectResistance>
+    <StaminaRegenModifier>0</StaminaRegenModifier>
     <AttackSpeed>15</AttackSpeed>
     <BaseDamage>
       <Damages>
@@ -127,7 +130,9 @@
           <SyncType>OwnerSync</SyncType>
           <OverrideCategory>None</OverrideCategory>
           <StatusEffect />
-          <Buildup>0</Buildup>
+          <Buildup>6.8</Buildup>
+          <BuildUpMultiplier>1</BuildUpMultiplier>
+          <BypassCounter>false</BypassCounter>
         </DM_Effect>
         <DM_Effect xsi:type="DM_AddStatusEffectBuildUp">
           <Delay>0</Delay>
@@ -135,6 +140,8 @@
           <OverrideCategory>None</OverrideCategory>
           <StatusEffect>Warm</StatusEffect>
           <Buildup>20</Buildup>
+          <BuildUpMultiplier>1</BuildUpMultiplier>
+          <BypassCounter>false</BypassCounter>
         </DM_Effect>
       </Effects>
       <EffectConditions />
@@ -152,4 +159,5 @@
   <MaxProjectileShots>-1</MaxProjectileShots>
   <BaseHealthAbsorbRatio>0</BaseHealthAbsorbRatio>
   <BaseMaxHealthAbsorbRatio>0</BaseMaxHealthAbsorbRatio>
+  <IgnoreHalfResistances>false</IgnoreHalfResistances>
 </DM_Weapon>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DM_StatusEffect xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <PresetID>619</PresetID>
+  <Identifier>Plague</Identifier>
+  <Name>Plague </Name>
+  <Description>Take [E1V1] Decay Damage per second. Contagious. </Description>
+  <Lifespan>90</Lifespan>
+  <LengthType>Short</LengthType>
+  <RefreshRate>1</RefreshRate>
+  <BuildupRecoverySpeed>3</BuildupRecoverySpeed>
+  <IgnoreBuildupIfApplied>false</IgnoreBuildupIfApplied>
+  <DisplayedInHUD>true</DisplayedInHUD>
+  <IsHidden>false</IsHidden>
+  <RemoveRequiredStatus>false</RemoveRequiredStatus>
+  <NormalizeDamageDisplay>false</NormalizeDamageDisplay>
+  <IgnoreBarrier>true</IgnoreBarrier>
+  <Tags>
+    <string>CrueltyPlague</string>
+    <string>CrueltyStatusTypes</string>
+    <string>Status Type</string>
+    <string>Poison</string>
+    <string>DoT</string>
+  </Tags>
+  <Effects>
+    <DM_EffectTransform>
+      <TransformName>Effects</TransformName>
+      <Effects>
+        <DM_Effect xsi:type="DM_PunctualDamage">
+          <Delay>0</Delay>
+          <SyncType>OwnerSync</SyncType>
+          <OverrideCategory>None</OverrideCategory>
+          <Damage>
+            <Damages>
+              <Damage>4</Damage>
+              <Damage_Type>Decay</Damage_Type>
+            </Damages>
+          </Damage>
+          <Damages_AI />
+          <Knockback>0</Knockback>
+          <HitInventory>false</HitInventory>
+          <IgnoreHalfResistances>false</IgnoreHalfResistances>
+        </DM_Effect>
+        <DM_Effect xsi:type="DM_ShootBlast">
+          <Delay>0</Delay>
+          <SyncType>OwnerSync</SyncType>
+          <OverrideCategory>None</OverrideCategory>
+          <CastPosition>Local</CastPosition>
+          <LocalPositionAdd>
+            <x>0</x>
+            <y>1.5</y>
+            <z>0</z>
+          </LocalPositionAdd>
+          <NoAim>false</NoAim>
+          <TargetType>Any</TargetType>
+          <TransformName>ShooterTransform</TransformName>
+          <BaseBlast>PlagueBlast</BaseBlast>
+          <Radius>12</Radius>
+          <RefreshTime>0.1</RefreshTime>
+          <BlastLifespan>0</BlastLifespan>
+          <InstantiatedAmount>1</InstantiatedAmount>
+          <Interruptible>false</Interruptible>
+          <MaxHitTargetCount>-1</MaxHitTargetCount>
+          <AffectHitTargetCenter>false</AffectHitTargetCenter>
+          <HitOnShoot>true</HitOnShoot>
+          <IgnoreShooter>true</IgnoreShooter>
+          <IgnoreStop>false</IgnoreStop>
+          <NoTargetForwardMultiplier>5</NoTargetForwardMultiplier>
+          <ParentToShootTransform>false</ParentToShootTransform>
+          <UseTargetCharacterPositionType>false</UseTargetCharacterPositionType>
+          <ImpactSoundMaterial>NONE</ImpactSoundMaterial>
+          <DontPlayHitSound>false</DontPlayHitSound>
+          <FXIsWorld>false</FXIsWorld>
+          <BlastEffects>
+            <DM_EffectTransform>
+              <TransformName>Effects</TransformName>
+              <Effects>
+                <DM_Effect xsi:type="DM_AddStatusEffectBuildUp">
+                  <Delay>0</Delay>
+                  <SyncType>Everyone</SyncType>
+                  <OverrideCategory>None</OverrideCategory>
+                  <StatusEffect>Plague</StatusEffect>
+                  <Buildup>10</Buildup>
+                  <BuildUpMultiplier>1</BuildUpMultiplier>
+                  <BypassCounter>false</BypassCounter>
+                </DM_Effect>
+              </Effects>
+              <EffectConditions />
+              <ChildEffects />
+            </DM_EffectTransform>
+          </BlastEffects>
+        </DM_Effect>
+      </Effects>
+      <EffectConditions />
+      <ChildEffects />
+    </DM_EffectTransform>
+  </Effects>
+</DM_StatusEffect>

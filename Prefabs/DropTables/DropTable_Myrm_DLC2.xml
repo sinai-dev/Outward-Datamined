@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DM_DropTable xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Name>DropTable_Myrm_DLC2</Name>
+  <Guaranteed_Drops>
+    <DropTableEntry>
+      <Item_Name>Myrm Tongue</Item_Name>
+      <Item_ID>6000300</Item_ID>
+      <Min_Quantity>1</Min_Quantity>
+      <Max_Quantity>1</Max_Quantity>
+    </DropTableEntry>
+  </Guaranteed_Drops>
+  <Random_Tables>
+    <DropGeneratorHolder>
+      <MinNumberOfDrops>2</MinNumberOfDrops>
+      <MaxNumberOfDrops>2</MaxNumberOfDrops>
+      <MaxDiceValue>50</MaxDiceValue>
+      <EmptyDrop>40</EmptyDrop>
+      <RegenTime>-1</RegenTime>
+      <ChanceReduction>0</ChanceReduction>
+      <ChanceRegenQty>10</ChanceRegenQty>
+      <Item_Drops>
+        <DropTableChanceEntry>
+          <Item_Name>Raw Alpha Meat</Item_Name>
+          <Item_ID>4000060</Item_ID>
+          <Min_Quantity>2</Min_Quantity>
+          <Max_Quantity>3</Max_Quantity>
+          <Drop_Chance>40</Drop_Chance>
+          <Dice_Range>19</Dice_Range>
+          <ChanceReduction>0</ChanceReduction>
+          <ChanceRegenDelay>0</ChanceRegenDelay>
+          <ChanceRegenQty>0</ChanceRegenQty>
+        </DropTableChanceEntry>
+        <DropTableChanceEntry>
+          <Item_Name>Predator Bones</Item_Name>
+          <Item_ID>6600050</Item_ID>
+          <Min_Quantity>2</Min_Quantity>
+          <Max_Quantity>3</Max_Quantity>
+          <Drop_Chance>20</Drop_Chance>
+          <Dice_Range>9</Dice_Range>
+          <ChanceReduction>0</ChanceReduction>
+          <ChanceRegenDelay>-1</ChanceRegenDelay>
+          <ChanceRegenQty>0</ChanceRegenQty>
+        </DropTableChanceEntry>
+      </Item_Drops>
+    </DropGeneratorHolder>
+  </Random_Tables>
+</DM_DropTable>

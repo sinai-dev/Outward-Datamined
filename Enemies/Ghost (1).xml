@@ -14,6 +14,7 @@
     <string>Enmerkar Forest:Dolmen Crypt</string>
     <string>Antique Plateau:Old Harmattan Basement</string>
     <string>Antique Plateau:Abandoned Storage</string>
+    <string>Caldera:Old Sirocco</string>
   </Locations_Found>
   <Max_Health>150</Max_Health>
   <Health_Regen_Per_Second>0</Health_Regen_Per_Second>
@@ -43,6 +44,9 @@
     <float>0</float>
   </Damage_Bonuses>
   <Collider_Radius>0.64</Collider_Radius>
+  <NullifyResistances>false</NullifyResistances>
+  <GlobalStatusRes>0</GlobalStatusRes>
+  <BarrierStat>0</BarrierStat>
   <True_WeaponDamage>
     <Damages>
       <Damage>20</Damage>

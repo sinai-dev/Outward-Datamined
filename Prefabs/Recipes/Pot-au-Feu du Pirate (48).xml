@@ -4,6 +4,7 @@
   <RecipeID>48</RecipeID>
   <UID />
   <StationType>Cooking</StationType>
+  <RequiredPType>None</RequiredPType>
   <Ingredients>
     <string>Fish</string>
     <string>Fish</string>

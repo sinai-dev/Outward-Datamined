@@ -4,6 +4,7 @@
   <RecipeID>163</RecipeID>
   <UID />
   <StationType>Survival</StationType>
+  <RequiredPType>None</RequiredPType>
   <Ingredients>
     <string>Flintlock Pistol</string>
     <string>Occult Remains</string>

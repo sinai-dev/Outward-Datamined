@@ -4,6 +4,7 @@
   <RecipeID>146</RecipeID>
   <UID />
   <StationType>Alchemy</StationType>
+  <RequiredPType>None</RequiredPType>
   <Ingredients>
     <string>Life Potion</string>
     <string>Greasy Fern</string>

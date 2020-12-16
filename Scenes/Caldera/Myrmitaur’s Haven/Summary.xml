@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SceneSummary xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SceneName>Myrmitaur’s Haven</SceneName>
+  <Enemies>
+    <QuantityHolder>
+      <Name>Myrmitaur (1)</Name>
+      <Quantity>2</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Rock Mantis (1)</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Matriarch Myrmitaur (1)</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Gastrocin (1)</Name>
+      <Quantity>2</Quantity>
+    </QuantityHolder>
+  </Enemies>
+  <Merchants />
+  <Loot_Containers>
+    <QuantityHolder>
+      <Name>Knight’s Corpse</Name>
+      <Quantity>4</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Worker’s Corpse</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Ornate Chest</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Scavenger’s Corpse</Name>
+      <Quantity>3</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Adventurer’s Corpse</Name>
+      <Quantity>2</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Broken Tent</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+  </Loot_Containers>
+  <Gatherables>
+    <QuantityHolder>
+      <Name>Blood Mushroom</Name>
+      <Quantity>12</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Rich Iron vein</Name>
+      <Quantity>2</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Green Mushroom</Name>
+      <Quantity>9</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Palladium vein</Name>
+      <Quantity>2</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Unidentified Molepig den</Name>
+      <Quantity>2</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Iron vein</Name>
+      <Quantity>3</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Unidentified Roots</Name>
+      <Quantity>2</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Unidentified Ore Vein</Name>
+      <Quantity>2</Quantity>
+    </QuantityHolder>
+  </Gatherables>
+  <Item_Spawns />
+  <UniqueContainerList>
+    <string>Knight’s Corpse_QcP75B68OEe-jQ7qCDxjAA</string>
+    <string>Knight’s Corpse__lng3uASSEOB7lZULeWhiA</string>
+    <string>Worker’s Corpse_XfJV7JPhuEatKgeU_rJaVA</string>
+    <string>Ornate Chest_3woUOCr1zkOX-Gu7k-5mNA</string>
+    <string>Knight’s Corpse_VmfYE9PWh0mA2M2ucwyr8Q</string>
+    <string>Scavenger’s Corpse_7E5M-Cmlp0y7CfrDZmElXg</string>
+    <string>Scavenger’s Corpse_sP1PeRyaV0eD34VtH4PWcw</string>
+    <string>Scavenger’s Corpse_eKus-HRAMEWLCijK1Uk8EA</string>
+    <string>Adventurer’s Corpse_PsHttmj-AEea-fqmEeHbGA</string>
+    <string>Adventurer’s Corpse_I23aJwU7MkGD3y9lN05sNw</string>
+    <string>Broken Tent_CsIBqC0hakSSRwkG-gaVkA</string>
+    <string>Knight’s Corpse_0YwaKX0Kb06blQzfj4uwQQ</string>
+  </UniqueContainerList>
+</SceneSummary>

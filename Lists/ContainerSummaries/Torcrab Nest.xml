@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LootContainerSummary xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Name>Torcrab Nest</Name>
+  <ItemID>0</ItemID>
+  <All_Locations>
+    <QuantityHolder>
+      <Name>Caldera:Caldera</Name>
+      <Quantity>15</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Caldera:Old Sirocco</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+  </All_Locations>
+  <DropTables>
+    <DroptableSummary>
+      <DropTableName>DropTable_TorcrabNest</DropTableName>
+      <Locations>
+        <string>Caldera</string>
+        <string>Old Sirocco</string>
+      </Locations>
+    </DroptableSummary>
+  </DropTables>
+</LootContainerSummary>

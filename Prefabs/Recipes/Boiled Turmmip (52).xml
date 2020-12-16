@@ -4,6 +4,7 @@
   <RecipeID>52</RecipeID>
   <UID />
   <StationType>Cooking</StationType>
+  <RequiredPType>None</RequiredPType>
   <Ingredients>
     <string>Turmmip</string>
   </Ingredients>

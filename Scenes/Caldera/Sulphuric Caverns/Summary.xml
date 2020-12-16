@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SceneSummary xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SceneName>Sulphuric Caverns</SceneName>
+  <Enemies>
+    <QuantityHolder>
+      <Name>Drifting Medyse (1)</Name>
+      <Quantity>6</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Boreo (5)</Name>
+      <Quantity>4</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Elder Medyse (1)</Name>
+      <Quantity>5</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Torcrab (1)</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Gastrocin (1)</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+  </Enemies>
+  <Merchants />
+  <Loot_Containers>
+    <QuantityHolder>
+      <Name>Junk Pile</Name>
+      <Quantity>6</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Worker’s Corpse</Name>
+      <Quantity>3</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Chest</Name>
+      <Quantity>3</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Knight’s Corpse</Name>
+      <Quantity>2</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Ornate Chest</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+  </Loot_Containers>
+  <Gatherables>
+    <QuantityHolder>
+      <Name>Sulphuric Mushroom</Name>
+      <Quantity>8</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Iron vein</Name>
+      <Quantity>5</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Unidentified Roots</Name>
+      <Quantity>2</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Oil</Name>
+      <Quantity>3</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Palladium vein</Name>
+      <Quantity>3</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Rich Iron vein</Name>
+      <Quantity>2</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Unidentified Molepig den</Name>
+      <Quantity>2</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Unidentified Ore Vein</Name>
+      <Quantity>2</Quantity>
+    </QuantityHolder>
+  </Gatherables>
+  <Item_Spawns />
+  <UniqueContainerList>
+    <string>Junk Pile_-dEDtE1qcES6aPTci89fWg</string>
+    <string>Worker’s Corpse_k_vxCYvXI0SZFwkO0_AxvQ</string>
+    <string>Junk Pile_X9qoTK4uAUqROb0tTcjnuw</string>
+    <string>Junk Pile_Mudn-tC3QEqy3CoJ8lUlrQ</string>
+    <string>Chest_vaiqmlLsw0yRLaby8gXzNA</string>
+    <string>Chest_64MU4m9sX0qOKAdSY8rMOQ</string>
+    <string>Chest_4ECvUcuz40mjFo6LvHiynQ</string>
+    <string>Junk Pile_73EuieHpl0K2x-90TIFrgQ</string>
+    <string>Knight’s Corpse_8F_4s6RPTUS6m18qqQd8Fw</string>
+    <string>Worker’s Corpse_M1b4-EnAKU-gSliEpAGZuQ</string>
+    <string>Ornate Chest_HC6N7DFGjEiSX33AmC-O6g</string>
+    <string>Junk Pile_ArGel4_rYk-qE1m6MNwOrg</string>
+    <string>Worker’s Corpse_0qlpMREkvUOsWaWh4h0W5g</string>
+    <string>Knight’s Corpse_qLLb73sTdUqMGP7uPnUXtQ</string>
+  </UniqueContainerList>
+</SceneSummary>

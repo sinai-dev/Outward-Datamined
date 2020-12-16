@@ -4,6 +4,7 @@
   <RecipeID>20</RecipeID>
   <UID />
   <StationType>Cooking</StationType>
+  <RequiredPType>None</RequiredPType>
   <Ingredients>
     <string>Common Mushroom</string>
     <string>Common Mushroom</string>

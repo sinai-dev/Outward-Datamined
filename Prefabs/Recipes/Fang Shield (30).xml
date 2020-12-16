@@ -4,6 +4,7 @@
   <RecipeID>30</RecipeID>
   <UID />
   <StationType>Survival</StationType>
+  <RequiredPType>None</RequiredPType>
   <Ingredients>
     <string>Round Shield</string>
     <string>Predator Bones</string>

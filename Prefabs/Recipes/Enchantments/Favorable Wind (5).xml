@@ -14,6 +14,11 @@
         <SpecificItemID>0</SpecificItemID>
         <Type>Generic</Type>
       </IngredientData>
+      <IngredientData>
+        <IngredientTag>Kazite</IngredientTag>
+        <SpecificItemID>0</SpecificItemID>
+        <Type>Generic</Type>
+      </IngredientData>
     </CompatibleEquipments>
     <EquipmentTag>Weapon</EquipmentTag>
   </CompatibleEquipment>
@@ -68,6 +73,7 @@
     <HealthAbsorbRatio>0</HealthAbsorbRatio>
     <ManaAbsorbRatio>0</ManaAbsorbRatio>
     <StaminaAbsorbRatio>0</StaminaAbsorbRatio>
+    <GlobalStatusResistance>0</GlobalStatusResistance>
     <Indescructible>false</Indescructible>
     <TrackDamageRatio>-1</TrackDamageRatio>
   </Result>

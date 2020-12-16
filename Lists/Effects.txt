@@ -35,8 +35,19 @@
 541	Life Drain 1
 542	Life Drain 2
 543	Life Drain 3
+664	Ambraine Withdrawal
+669	AmbraineWithdrawalPreEffects
 599	Wolf Fal Runes
 600	Wolf Runic Protection
+601	LionmanElderBoonLvl1
+602	LionmanElderBoonLvl2
+603	CrimsonMineLvl
+604	CrimsonSunLvl
+605	GargoyleBoonLvl
+606	ScarletEmissaryProt
+607	SlughellProt
+608	GrandmotherBoon
+625	AncientDwellerSlowing
 25	Confusion
 26	Pain
 27	Burn
@@ -118,7 +129,44 @@
 595	Scourge Tent Buff
 59	Passive Mana Regen
 5	Mana Ratio Recovery 3
+609	Petrification
+610	Petrified
+611	Aetherbomb
+612	AetherbombExplosion
+613	Blaze
+614	HolyBlaze
+615	Panic
+616	Dispirited
+617	Breathless
+618	Hampered
+619	Plague
+620	KillStreak
+621	Drawback
+622	Craze
+623	GhostRhythm
+624	SkyRhythm
+630	Fire Totem Sleep
+631	Ice Totem Sleep
+632	Light Totem Sleep
+633	Decay Totem Sleep
+634	Ethereal Totem Sleep
+640	Calygrey Sleep
+650	Caldera Inn Sleep
+651	Caldera Hall Sleep
+652	 Caldera Basic Sleep
+657	Protection 1
+658	Protection 2
+659	Barrier 1
+660	Barrier 2
+661	StatusBuildUpResUp
+662	StatusBuildUpResDown
+663	Shimmer
+665	PureWater
+666	HealingWater
+667	TempleBuff
+668	TempleBuffPlus
 66	Immolate
+670	SaunaInn
 6	Health Recovery 4
 75	Health Recovery 5
 76	Stamina Recovery 5
@@ -173,6 +221,7 @@
 1022	Hallowed Marsh Poison Lvl1
 1023	Hallowed Marsh Poison Lvl2
 1024	Pouch Over Encumbered
+1025	SulphurPoison
 200	Poison Imbue
 201	Greater Poison Imbue
 202	Fire Imbue
@@ -195,6 +244,8 @@
 219	Divine Light Imbue
 220	StatusEffect_Imbue_EtherealImbue_Name
 221	StatusEffect_Imbue_LightImbue_Name
+222	Infuse Blood
+223	Infuse Mana
 250	Frost Bullet Imbue
 251	Blood Bullet Imbue
 252	Shatter Bullet Imbue

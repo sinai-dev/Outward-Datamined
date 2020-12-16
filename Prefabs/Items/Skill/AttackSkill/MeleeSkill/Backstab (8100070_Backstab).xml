@@ -39,6 +39,7 @@ Dagger attack. If the attack hits the enemy’s back, the damage and impact are 
           <Damages_AI />
           <Knockback>0</Knockback>
           <HitInventory>true</HitInventory>
+          <IgnoreHalfResistances>false</IgnoreHalfResistances>
           <OverrideType>Count</OverrideType>
           <ForceOnlyLeftHand>false</ForceOnlyLeftHand>
           <Damage_Multiplier>1</Damage_Multiplier>
@@ -68,6 +69,7 @@ Dagger attack. If the attack hits the enemy’s back, the damage and impact are 
           <Damages_AI />
           <Knockback>0</Knockback>
           <HitInventory>true</HitInventory>
+          <IgnoreHalfResistances>false</IgnoreHalfResistances>
           <OverrideType>Count</OverrideType>
           <ForceOnlyLeftHand>false</ForceOnlyLeftHand>
           <Damage_Multiplier>3</Damage_Multiplier>
@@ -115,6 +117,8 @@ Dagger attack. If the attack hits the enemy’s back, the damage and impact are 
   <ManaCost>0</ManaCost>
   <DurabilityCost>0</DurabilityCost>
   <DurabilityCostPercent>0</DurabilityCostPercent>
+  <HealthCost>0</HealthCost>
+  <RequiredPType>Normal</RequiredPType>
   <RequiredItems />
   <AmmunitionTypes />
   <RequiredOffHandTypes>
@@ -123,7 +127,9 @@ Dagger attack. If the attack hits the enemy’s back, the damage and impact are 
   <RequiredWeaponTypes />
   <RequiredWeaponTags />
   <RequireImbue>false</RequireImbue>
+  <AmmunitionAmount>-1</AmmunitionAmount>
   <Blockable>true</Blockable>
+  <NoWeaponAtkTag>false</NoWeaponAtkTag>
   <Damage>0</Damage>
   <Impact>0</Impact>
   <LinecastCount>0</LinecastCount>

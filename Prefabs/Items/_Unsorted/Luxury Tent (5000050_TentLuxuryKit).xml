@@ -25,6 +25,8 @@ Sleeping in this tent gives a huge bonus to stamina use.</Description>
     <string>Deployable</string>
     <string>Item</string>
     <string>Kit</string>
+    <string>Advanced Tent</string>
+    <string>Tent</string>
   </Tags>
   <StatsHolder>
     <BaseValue>200</BaseValue>

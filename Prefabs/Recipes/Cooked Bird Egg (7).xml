@@ -4,6 +4,7 @@
   <RecipeID>7</RecipeID>
   <UID />
   <StationType>Cooking</StationType>
+  <RequiredPType>None</RequiredPType>
   <Ingredients>
     <string>Bird Egg</string>
   </Ingredients>

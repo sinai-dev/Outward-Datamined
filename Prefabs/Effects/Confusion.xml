@@ -11,6 +11,9 @@
   <IgnoreBuildupIfApplied>false</IgnoreBuildupIfApplied>
   <DisplayedInHUD>true</DisplayedInHUD>
   <IsHidden>false</IsHidden>
+  <RemoveRequiredStatus>false</RemoveRequiredStatus>
+  <NormalizeDamageDisplay>false</NormalizeDamageDisplay>
+  <IgnoreBarrier>false</IgnoreBarrier>
   <Tags>
     <string>Confusion</string>
     <string>Hex</string>

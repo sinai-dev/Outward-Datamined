@@ -4,6 +4,7 @@
   <RecipeID>61</RecipeID>
   <UID />
   <StationType>Cooking</StationType>
+  <RequiredPType>None</RequiredPType>
   <Ingredients>
     <string>Marshmelon Jelly</string>
     <string>Bread</string>

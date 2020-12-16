@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DM_Item xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <gameObjectName>4000480_TorcrabEgg</gameObjectName>
+  <saveDir>/Food</saveDir>
+  <ItemID>4000480</ItemID>
+  <Name>Torcrab Egg</Name>
+  <Description>A Torcrab’s Egg. Cook before eating.</Description>
+  <LegacyItemID>-1</LegacyItemID>
+  <IsPickable>true</IsPickable>
+  <IsUsable>true</IsUsable>
+  <QtyRemovedOnUse>1</QtyRemovedOnUse>
+  <GroupItemInDisplay>true</GroupItemInDisplay>
+  <HasPhysicsWhenWorld>false</HasPhysicsWhenWorld>
+  <RepairedInRest>true</RepairedInRest>
+  <BehaviorOnNoDurability>NotSet</BehaviorOnNoDurability>
+  <CastType>DrinkWater</CastType>
+  <CastModifier>Immobilized</CastModifier>
+  <CastLocomotionEnabled>false</CastLocomotionEnabled>
+  <MobileCastMovementMult>-1</MobileCastMovementMult>
+  <CastSheatheRequired>1</CastSheatheRequired>
+  <OverrideSellModifier>-1</OverrideSellModifier>
+  <PerishTime>4 Days, 0 Hours, 9 Minutes, 13 Seconds</PerishTime>
+  <Tags>
+    <string>Ingredient Cook</string>
+    <string>Ingredient</string>
+    <string>Item</string>
+    <string>Egg</string>
+    <string>Food</string>
+    <string>Consummable</string>
+  </Tags>
+  <StatsHolder>
+    <BaseValue>6</BaseValue>
+    <RawWeight>0.3</RawWeight>
+    <MaxDurability>100</MaxDurability>
+  </StatsHolder>
+  <EffectTransforms>
+    <DM_EffectTransform>
+      <TransformName>Effects</TransformName>
+      <Effects>
+        <DM_Effect xsi:type="DM_AffectFood">
+          <Delay>0</Delay>
+          <SyncType>OwnerSync</SyncType>
+          <OverrideCategory>None</OverrideCategory>
+          <AffectQuantity>80</AffectQuantity>
+        </DM_Effect>
+        <DM_Effect xsi:type="DM_AddStatusEffect">
+          <Delay>0</Delay>
+          <SyncType>OwnerSync</SyncType>
+          <OverrideCategory>None</OverrideCategory>
+          <StatusEffect>Health Recovery Small</StatusEffect>
+          <ChanceToContract>100</ChanceToContract>
+        </DM_Effect>
+        <DM_Effect xsi:type="DM_AddStatusEffect">
+          <Delay>0</Delay>
+          <SyncType>OwnerSync</SyncType>
+          <OverrideCategory>None</OverrideCategory>
+          <StatusEffect>Stamina Recovery Small</StatusEffect>
+          <ChanceToContract>100</ChanceToContract>
+        </DM_Effect>
+        <DM_Effect xsi:type="DM_AddStatusEffect">
+          <Delay>0</Delay>
+          <SyncType>OwnerSync</SyncType>
+          <OverrideCategory>None</OverrideCategory>
+          <StatusEffect>Indigestion1</StatusEffect>
+          <ChanceToContract>50</ChanceToContract>
+        </DM_Effect>
+      </Effects>
+      <EffectConditions />
+      <ChildEffects />
+    </DM_EffectTransform>
+  </EffectTransforms>
+</DM_Item>

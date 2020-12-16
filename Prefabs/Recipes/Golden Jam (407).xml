@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DM_Recipe xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Name>Golden Jam</Name>
+  <RecipeID>407</RecipeID>
+  <UID />
+  <StationType>Cooking</StationType>
+  <RequiredPType>None</RequiredPType>
+  <Ingredients>
+    <string>Golden Crescent</string>
+    <string>Golden Crescent</string>
+    <string>Golden Crescent</string>
+    <string>Golden Crescent</string>
+  </Ingredients>
+  <Results>
+    <ItemQty>
+      <ItemName>Golden Jam</ItemName>
+      <ItemID>4100800</ItemID>
+      <Quantity>1</Quantity>
+    </ItemQty>
+  </Results>
+</DM_Recipe>

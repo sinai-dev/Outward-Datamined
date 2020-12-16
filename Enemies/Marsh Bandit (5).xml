@@ -34,6 +34,9 @@
     <float>15</float>
   </Damage_Bonuses>
   <Collider_Radius>0.4</Collider_Radius>
+  <NullifyResistances>false</NullifyResistances>
+  <GlobalStatusRes>0</GlobalStatusRes>
+  <BarrierStat>0</BarrierStat>
   <True_WeaponDamage />
   <Weapon_Impact>0</Weapon_Impact>
   <Status_Immunities />

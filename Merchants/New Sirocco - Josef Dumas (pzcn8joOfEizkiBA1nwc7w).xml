@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DM_Merchant xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Name>Josef Dumas</Name>
+  <UID>pzcn8joOfEizkiBA1nwc7w</UID>
+  <DropTable>
+    <Name>New Sirocco - Josef Dumas</Name>
+    <Guaranteed_Drops>
+      <DropTableEntry>
+        <Item_Name>- House A</Item_Name>
+        <Item_ID>9400010</Item_ID>
+        <Min_Quantity>1</Min_Quantity>
+        <Max_Quantity>1</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>- House B</Item_Name>
+        <Item_ID>9400020</Item_ID>
+        <Min_Quantity>1</Min_Quantity>
+        <Max_Quantity>1</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>- House C</Item_Name>
+        <Item_ID>9400030</Item_ID>
+        <Min_Quantity>1</Min_Quantity>
+        <Max_Quantity>1</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>- Hunting Lodge</Item_Name>
+        <Item_ID>9400130</Item_ID>
+        <Min_Quantity>1</Min_Quantity>
+        <Max_Quantity>1</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>– Mason’s Workshop</Item_Name>
+        <Item_ID>9400140</Item_ID>
+        <Min_Quantity>1</Min_Quantity>
+        <Max_Quantity>1</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>- Woodcutter’s Lodge</Item_Name>
+        <Item_ID>9400150</Item_ID>
+        <Min_Quantity>1</Min_Quantity>
+        <Max_Quantity>1</Max_Quantity>
+      </DropTableEntry>
+    </Guaranteed_Drops>
+    <Random_Tables />
+  </DropTable>
+  <BuyModifiers />
+  <SellModifiers />
+</DM_Merchant>

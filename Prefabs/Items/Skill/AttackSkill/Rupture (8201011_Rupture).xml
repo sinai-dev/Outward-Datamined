@@ -126,6 +126,7 @@
                               <Damages_AI />
                               <Knockback>33</Knockback>
                               <HitInventory>true</HitInventory>
+                              <IgnoreHalfResistances>false</IgnoreHalfResistances>
                             </DM_Effect>
                           </Effects>
                           <EffectConditions />
@@ -210,6 +211,7 @@
                               <Damages_AI />
                               <Knockback>33</Knockback>
                               <HitInventory>true</HitInventory>
+                              <IgnoreHalfResistances>false</IgnoreHalfResistances>
                             </DM_Effect>
                           </Effects>
                           <EffectConditions />
@@ -294,6 +296,7 @@
                               <Damages_AI />
                               <Knockback>33</Knockback>
                               <HitInventory>true</HitInventory>
+                              <IgnoreHalfResistances>false</IgnoreHalfResistances>
                             </DM_Effect>
                           </Effects>
                           <EffectConditions />
@@ -378,6 +381,7 @@
                               <Damages_AI />
                               <Knockback>33</Knockback>
                               <HitInventory>true</HitInventory>
+                              <IgnoreHalfResistances>false</IgnoreHalfResistances>
                             </DM_Effect>
                           </Effects>
                           <EffectConditions />
@@ -462,6 +466,7 @@
                               <Damages_AI />
                               <Knockback>33</Knockback>
                               <HitInventory>true</HitInventory>
+                              <IgnoreHalfResistances>false</IgnoreHalfResistances>
                             </DM_Effect>
                           </Effects>
                           <EffectConditions />
@@ -546,6 +551,7 @@
                               <Damages_AI />
                               <Knockback>0</Knockback>
                               <HitInventory>true</HitInventory>
+                              <IgnoreHalfResistances>false</IgnoreHalfResistances>
                             </DM_Effect>
                           </Effects>
                           <EffectConditions />
@@ -625,6 +631,7 @@
                               <Damages_AI />
                               <Knockback>50</Knockback>
                               <HitInventory>true</HitInventory>
+                              <IgnoreHalfResistances>false</IgnoreHalfResistances>
                             </DM_Effect>
                           </Effects>
                           <EffectConditions />
@@ -693,6 +700,7 @@
                               <Damages_AI />
                               <Knockback>66</Knockback>
                               <HitInventory>true</HitInventory>
+                              <IgnoreHalfResistances>false</IgnoreHalfResistances>
                             </DM_Effect>
                           </Effects>
                           <EffectConditions />
@@ -736,10 +744,13 @@
   <ManaCost>10</ManaCost>
   <DurabilityCost>0</DurabilityCost>
   <DurabilityCostPercent>0</DurabilityCostPercent>
+  <HealthCost>0</HealthCost>
+  <RequiredPType>Normal</RequiredPType>
   <RequiredItems />
   <AmmunitionTypes />
   <RequiredOffHandTypes />
   <RequiredWeaponTypes />
   <RequiredWeaponTags />
   <RequireImbue>false</RequireImbue>
+  <AmmunitionAmount>-1</AmmunitionAmount>
 </DM_AttackSkill>

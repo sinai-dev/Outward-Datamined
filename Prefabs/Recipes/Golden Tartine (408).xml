@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DM_Recipe xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Name>Golden Tartine</Name>
+  <RecipeID>408</RecipeID>
+  <UID />
+  <StationType>Cooking</StationType>
+  <RequiredPType>None</RequiredPType>
+  <Ingredients>
+    <string>Golden Jam</string>
+    <string>Bread</string>
+  </Ingredients>
+  <Results>
+    <ItemQty>
+      <ItemName>Golden Tartine</ItemName>
+      <ItemID>4100810</ItemID>
+      <Quantity>3</Quantity>
+    </ItemQty>
+  </Results>
+</DM_Recipe>

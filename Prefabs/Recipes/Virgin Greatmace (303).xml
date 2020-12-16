@@ -4,6 +4,7 @@
   <RecipeID>303</RecipeID>
   <UID />
   <StationType>Survival</StationType>
+  <RequiredPType>None</RequiredPType>
   <Ingredients>
     <string>Brutal Greatmace</string>
     <string>Palladium Scrap</string>

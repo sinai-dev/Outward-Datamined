@@ -39,6 +39,7 @@ Attack twice, consuming your Rage boon in the process. Inflicts Extreme Bleeding
           <Damages_AI />
           <Knockback>0</Knockback>
           <HitInventory>true</HitInventory>
+          <IgnoreHalfResistances>false</IgnoreHalfResistances>
           <OverrideType>Count</OverrideType>
           <ForceOnlyLeftHand>false</ForceOnlyLeftHand>
           <Damage_Multiplier>1.75</Damage_Multiplier>
@@ -130,6 +131,8 @@ Attack twice, consuming your Rage boon in the process. Inflicts Extreme Bleeding
   <ManaCost>0</ManaCost>
   <DurabilityCost>0</DurabilityCost>
   <DurabilityCostPercent>0</DurabilityCostPercent>
+  <HealthCost>0</HealthCost>
+  <RequiredPType>Normal</RequiredPType>
   <RequiredItems />
   <AmmunitionTypes />
   <RequiredOffHandTypes />
@@ -146,7 +149,9 @@ Attack twice, consuming your Rage boon in the process. Inflicts Extreme Bleeding
   </RequiredWeaponTypes>
   <RequiredWeaponTags />
   <RequireImbue>false</RequireImbue>
+  <AmmunitionAmount>-1</AmmunitionAmount>
   <Blockable>false</Blockable>
+  <NoWeaponAtkTag>false</NoWeaponAtkTag>
   <Damage>0</Damage>
   <Impact>0</Impact>
   <LinecastCount>0</LinecastCount>

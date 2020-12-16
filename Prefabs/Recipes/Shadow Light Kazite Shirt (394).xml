@@ -4,6 +4,7 @@
   <RecipeID>394</RecipeID>
   <UID />
   <StationType>Survival</StationType>
+  <RequiredPType>None</RequiredPType>
   <Ingredients>
     <string>Shadow Kazite Light Armor</string>
   </Ingredients>

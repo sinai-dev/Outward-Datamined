@@ -25,10 +25,12 @@
     <string>Item</string>
     <string>DecraftPalladium_Small</string>
     <string>Decraft</string>
+    <string>Gold</string>
+    <string>Family</string>
     <string>Main Weapon</string>
   </Tags>
   <StatsHolder xsi:type="DM_WeaponStats">
-    <BaseValue>400</BaseValue>
+    <BaseValue>800</BaseValue>
     <RawWeight>6</RawWeight>
     <MaxDurability>500</MaxDurability>
     <Damage_Resistance>
@@ -66,6 +68,9 @@
     <Hunger_Affect>1</Hunger_Affect>
     <Thirst_Affect>1</Thirst_Affect>
     <Fatigue_Affect>1</Fatigue_Affect>
+    <BarrierProtection>0</BarrierProtection>
+    <GlobalStatusEffectResistance>0</GlobalStatusEffectResistance>
+    <StaminaRegenModifier>0</StaminaRegenModifier>
     <AttackSpeed>1</AttackSpeed>
     <BaseDamage>
       <Damages>
@@ -137,7 +142,9 @@
           <SyncType>OwnerSync</SyncType>
           <OverrideCategory>None</OverrideCategory>
           <StatusEffect>Doom</StatusEffect>
-          <Buildup>60</Buildup>
+          <Buildup>45</Buildup>
+          <BuildUpMultiplier>1</BuildUpMultiplier>
+          <BypassCounter>false</BypassCounter>
         </DM_Effect>
       </Effects>
       <EffectConditions />
@@ -155,4 +162,5 @@
   <MaxProjectileShots>-1</MaxProjectileShots>
   <BaseHealthAbsorbRatio>0</BaseHealthAbsorbRatio>
   <BaseMaxHealthAbsorbRatio>0</BaseMaxHealthAbsorbRatio>
+  <IgnoreHalfResistances>false</IgnoreHalfResistances>
 </DM_Weapon>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DM_Enemy xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Name>Wildlife_Torcrab</Name>
+  <GameObject_Name>TorcrabGiant</GameObject_Name>
+  <Unique_ID>1</Unique_ID>
+  <Locations_Found>
+    <string>Other:Unknown Arena</string>
+  </Locations_Found>
+  <Max_Health>1650</Max_Health>
+  <Health_Regen_Per_Second>0</Health_Regen_Per_Second>
+  <Impact_Resistance>82</Impact_Resistance>
+  <Protection>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+  </Protection>
+  <Damage_Resistances>
+    <float>70</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+    <float>-40</float>
+    <float>75</float>
+  </Damage_Resistances>
+  <Damage_Bonuses>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+  </Damage_Bonuses>
+  <Collider_Radius>0.64</Collider_Radius>
+  <NullifyResistances>false</NullifyResistances>
+  <GlobalStatusRes>0</GlobalStatusRes>
+  <BarrierStat>0</BarrierStat>
+  <True_WeaponDamage>
+    <Damages>
+      <Damage>24</Damage>
+      <Damage_Type>Physical</Damage_Type>
+    </Damages>
+    <Damages>
+      <Damage>8</Damage>
+      <Damage_Type>Fire</Damage_Type>
+    </Damages>
+    <Damages>
+      <Damage>8</Damage>
+      <Damage_Type>Electric</Damage_Type>
+    </Damages>
+    <Damages>
+      <Damage>8</Damage>
+      <Damage_Type>Frost</Damage_Type>
+    </Damages>
+  </True_WeaponDamage>
+  <Weapon_Impact>95</Weapon_Impact>
+  <Status_Immunities />
+  <Starting_Equipment>
+    <string>Torcrab Giant Beak and claw (2400411)</string>
+  </Starting_Equipment>
+  <Skill_Knowledge>
+    <string>Torcrab Bite (8300500)</string>
+    <string>TorcrabGiantSpreadShot (8300630)</string>
+    <string>Torcrab Dodge (8300502)</string>
+    <string>TorcrabGiantSpreadShot2 (8300631)</string>
+    <string>TorcrabGiantSpreadShot3 (8300632)</string>
+    <string>TorcrabGiantSpreadShot4 (8300633)</string>
+    <string>TorcrabGiantSpreadShot5 (8300634)</string>
+    <string>TorcrabGiantSpreadShot6 (8300635)</string>
+  </Skill_Knowledge>
+  <Faction>Tuanosaurs</Faction>
+  <Allied_To_Same_Faction>true</Allied_To_Same_Faction>
+  <Guaranteed_Drops />
+  <DropTable_Names />
+</DM_Enemy>

@@ -21,7 +21,11 @@ Shoot a projectile of the element that is infused on your weapon.</Description>
   <MobileCastMovementMult>-1</MobileCastMovementMult>
   <CastSheatheRequired>2</CastSheatheRequired>
   <OverrideSellModifier>-1</OverrideSellModifier>
-  <Tags />
+  <Tags>
+    <string>WeaponSkillAttack</string>
+    <string>AttackType</string>
+    <string>Character Stats</string>
+  </Tags>
   <EffectTransforms>
     <DM_EffectTransform>
       <TransformName>NormalFire</TransformName>
@@ -98,6 +102,7 @@ Shoot a projectile of the element that is infused on your weapon.</Description>
                   <Damages_AI />
                   <Knockback>60</Knockback>
                   <HitInventory>true</HitInventory>
+                  <IgnoreHalfResistances>false</IgnoreHalfResistances>
                 </DM_Effect>
               </Effects>
               <EffectConditions />
@@ -206,6 +211,7 @@ Shoot a projectile of the element that is infused on your weapon.</Description>
                   <Damages_AI />
                   <Knockback>60</Knockback>
                   <HitInventory>true</HitInventory>
+                  <IgnoreHalfResistances>false</IgnoreHalfResistances>
                 </DM_Effect>
               </Effects>
               <EffectConditions />
@@ -314,6 +320,7 @@ Shoot a projectile of the element that is infused on your weapon.</Description>
                   <Damages_AI />
                   <Knockback>60</Knockback>
                   <HitInventory>true</HitInventory>
+                  <IgnoreHalfResistances>false</IgnoreHalfResistances>
                 </DM_Effect>
               </Effects>
               <EffectConditions />
@@ -422,6 +429,7 @@ Shoot a projectile of the element that is infused on your weapon.</Description>
                   <Damages_AI />
                   <Knockback>60</Knockback>
                   <HitInventory>true</HitInventory>
+                  <IgnoreHalfResistances>false</IgnoreHalfResistances>
                 </DM_Effect>
               </Effects>
               <EffectConditions />
@@ -447,6 +455,7 @@ Shoot a projectile of the element that is infused on your weapon.</Description>
           <ImbuePresetIDs>
             <int>220</int>
             <int>208</int>
+            <int>223</int>
           </ImbuePresetIDs>
           <AnyImbue>false</AnyImbue>
           <WeaponToCheck>MainHand</WeaponToCheck>
@@ -529,6 +538,7 @@ Shoot a projectile of the element that is infused on your weapon.</Description>
                   <Damages_AI />
                   <Knockback>140</Knockback>
                   <HitInventory>true</HitInventory>
+                  <IgnoreHalfResistances>false</IgnoreHalfResistances>
                 </DM_Effect>
               </Effects>
               <EffectConditions />
@@ -633,6 +643,7 @@ Shoot a projectile of the element that is infused on your weapon.</Description>
                   <Damages_AI />
                   <Knockback>60</Knockback>
                   <HitInventory>true</HitInventory>
+                  <IgnoreHalfResistances>false</IgnoreHalfResistances>
                 </DM_Effect>
               </Effects>
               <EffectConditions />
@@ -739,6 +750,7 @@ Shoot a projectile of the element that is infused on your weapon.</Description>
                   <Damages_AI />
                   <Knockback>60</Knockback>
                   <HitInventory>true</HitInventory>
+                  <IgnoreHalfResistances>false</IgnoreHalfResistances>
                 </DM_Effect>
               </Effects>
               <EffectConditions />
@@ -764,6 +776,7 @@ Shoot a projectile of the element that is infused on your weapon.</Description>
           <ImbuePresetIDs>
             <int>200</int>
             <int>201</int>
+            <int>222</int>
           </ImbuePresetIDs>
           <AnyImbue>false</AnyImbue>
           <WeaponToCheck>MainHand</WeaponToCheck>
@@ -846,6 +859,7 @@ Shoot a projectile of the element that is infused on your weapon.</Description>
                   <Damages_AI />
                   <Knockback>60</Knockback>
                   <HitInventory>true</HitInventory>
+                  <IgnoreHalfResistances>false</IgnoreHalfResistances>
                 </DM_Effect>
               </Effects>
               <EffectConditions />
@@ -917,8 +931,10 @@ Shoot a projectile of the element that is infused on your weapon.</Description>
   <Cooldown>10</Cooldown>
   <StaminaCost>0</StaminaCost>
   <ManaCost>15</ManaCost>
-  <DurabilityCost>5</DurabilityCost>
-  <DurabilityCostPercent>0</DurabilityCostPercent>
+  <DurabilityCost>0</DurabilityCost>
+  <DurabilityCostPercent>4</DurabilityCostPercent>
+  <HealthCost>0</HealthCost>
+  <RequiredPType>Normal</RequiredPType>
   <RequiredItems />
   <AmmunitionTypes />
   <RequiredOffHandTypes />
@@ -935,4 +951,5 @@ Shoot a projectile of the element that is infused on your weapon.</Description>
   </RequiredWeaponTypes>
   <RequiredWeaponTags />
   <RequireImbue>false</RequireImbue>
+  <AmmunitionAmount>-1</AmmunitionAmount>
 </DM_AttackSkill>

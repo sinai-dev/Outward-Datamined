@@ -13,6 +13,8 @@
           <OverrideCategory>Hit</OverrideCategory>
           <StatusEffect>Burning</StatusEffect>
           <Buildup>49</Buildup>
+          <BuildUpMultiplier>1</BuildUpMultiplier>
+          <BypassCounter>false</BypassCounter>
         </DM_Effect>
         <DM_Effect xsi:type="DM_WeaponDamage">
           <Delay>0</Delay>
@@ -27,6 +29,7 @@
           <Damages_AI />
           <Knockback>0</Knockback>
           <HitInventory>true</HitInventory>
+          <IgnoreHalfResistances>false</IgnoreHalfResistances>
           <OverrideType>Fire</OverrideType>
           <ForceOnlyLeftHand>false</ForceOnlyLeftHand>
           <Damage_Multiplier>1.25</Damage_Multiplier>

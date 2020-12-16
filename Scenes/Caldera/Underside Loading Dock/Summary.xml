@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SceneSummary xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SceneName>Underside Loading Dock</SceneName>
+  <Enemies>
+    <QuantityHolder>
+      <Name>Elder Medyse (1)</Name>
+      <Quantity>3</Quantity>
+    </QuantityHolder>
+  </Enemies>
+  <Merchants />
+  <Loot_Containers>
+    <QuantityHolder>
+      <Name>Chest</Name>
+      <Quantity>2</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Knight’s Corpse</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Worker’s Corpse</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Junk Pile</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+  </Loot_Containers>
+  <Gatherables />
+  <Item_Spawns />
+  <UniqueContainerList>
+    <string>Chest_VgYp31LY1UGPKTZ5CnGHdQ</string>
+    <string>Chest_CkbpFfu4nUeQR_zyKQESJg</string>
+    <string>Knight’s Corpse_oFrFU2rCFUa9hrRf5vLF8g</string>
+    <string>Worker’s Corpse_cYJo6uzf_EySANrSdH8umQ</string>
+    <string>Junk Pile_s_0ZkUHNmEOTL9FI6DZ3EQ</string>
+  </UniqueContainerList>
+</SceneSummary>

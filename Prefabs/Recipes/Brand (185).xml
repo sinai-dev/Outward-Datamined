@@ -4,6 +4,7 @@
   <RecipeID>185</RecipeID>
   <UID />
   <StationType>Survival</StationType>
+  <RequiredPType>None</RequiredPType>
   <Ingredients>
     <string>Strange Rusted Sword</string>
     <string>Blacksmith's Vintage Hammer</string>

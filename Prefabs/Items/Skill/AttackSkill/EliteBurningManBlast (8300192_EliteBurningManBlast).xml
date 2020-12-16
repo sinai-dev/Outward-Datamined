@@ -94,6 +94,7 @@
                   <Damages_AI />
                   <Knockback>400</Knockback>
                   <HitInventory>true</HitInventory>
+                  <IgnoreHalfResistances>false</IgnoreHalfResistances>
                 </DM_Effect>
                 <DM_Effect xsi:type="DM_AddStatusEffect">
                   <Delay>0</Delay>
@@ -125,10 +126,13 @@
   <ManaCost>0</ManaCost>
   <DurabilityCost>0</DurabilityCost>
   <DurabilityCostPercent>0</DurabilityCostPercent>
+  <HealthCost>0</HealthCost>
+  <RequiredPType>Normal</RequiredPType>
   <RequiredItems />
   <AmmunitionTypes />
   <RequiredOffHandTypes />
   <RequiredWeaponTypes />
   <RequiredWeaponTags />
   <RequireImbue>false</RequireImbue>
+  <AmmunitionAmount>-1</AmmunitionAmount>
 </DM_AttackSkill>

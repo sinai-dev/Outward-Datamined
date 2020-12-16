@@ -4,6 +4,7 @@
   <RecipeID>331</RecipeID>
   <UID />
   <StationType>Survival</StationType>
+  <RequiredPType>None</RequiredPType>
   <Ingredients>
     <string>Halfplate Armor</string>
     <string>Pure Chitin</string>

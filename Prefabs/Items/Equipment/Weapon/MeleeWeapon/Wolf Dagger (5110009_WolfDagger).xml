@@ -65,6 +65,9 @@ This off-hand weapon requires Dagger Skills to be used.</Description>
     <Hunger_Affect>1</Hunger_Affect>
     <Thirst_Affect>1</Thirst_Affect>
     <Fatigue_Affect>1</Fatigue_Affect>
+    <BarrierProtection>0</BarrierProtection>
+    <GlobalStatusEffectResistance>0</GlobalStatusEffectResistance>
+    <StaminaRegenModifier>0</StaminaRegenModifier>
     <AttackSpeed>1</AttackSpeed>
     <BaseDamage>
       <Damages>
@@ -96,6 +99,8 @@ This off-hand weapon requires Dagger Skills to be used.</Description>
           <OverrideCategory>None</OverrideCategory>
           <StatusEffect>Cripple</StatusEffect>
           <Buildup>60</Buildup>
+          <BuildUpMultiplier>1</BuildUpMultiplier>
+          <BypassCounter>false</BypassCounter>
         </DM_Effect>
       </Effects>
       <EffectConditions />
@@ -113,4 +118,5 @@ This off-hand weapon requires Dagger Skills to be used.</Description>
   <MaxProjectileShots>-1</MaxProjectileShots>
   <BaseHealthAbsorbRatio>0</BaseHealthAbsorbRatio>
   <BaseMaxHealthAbsorbRatio>0</BaseMaxHealthAbsorbRatio>
+  <IgnoreHalfResistances>false</IgnoreHalfResistances>
 </DM_Weapon>

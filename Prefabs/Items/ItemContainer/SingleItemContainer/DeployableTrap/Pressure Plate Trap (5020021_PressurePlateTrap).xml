@@ -80,6 +80,7 @@
                   <Damages_AI />
                   <Knockback>75</Knockback>
                   <HitInventory>true</HitInventory>
+                  <IgnoreHalfResistances>false</IgnoreHalfResistances>
                 </DM_Effect>
                 <DM_Effect xsi:type="DM_AddStatusEffect">
                   <Delay>0</Delay>
@@ -143,6 +144,7 @@
                   <Damages_AI />
                   <Knockback>30</Knockback>
                   <HitInventory>true</HitInventory>
+                  <IgnoreHalfResistances>false</IgnoreHalfResistances>
                 </DM_Effect>
               </Effects>
               <EffectConditions />
@@ -206,6 +208,7 @@
                   <Damages_AI />
                   <Knockback>80</Knockback>
                   <HitInventory>true</HitInventory>
+                  <IgnoreHalfResistances>false</IgnoreHalfResistances>
                 </DM_Effect>
                 <DM_Effect xsi:type="DM_AddStatusEffect">
                   <Delay>0</Delay>
@@ -269,6 +272,7 @@
                   <Damages_AI />
                   <Knockback>0</Knockback>
                   <HitInventory>true</HitInventory>
+                  <IgnoreHalfResistances>false</IgnoreHalfResistances>
                 </DM_Effect>
               </Effects>
               <EffectConditions />
@@ -333,6 +337,7 @@
                   <Damages_AI />
                   <Knockback>0</Knockback>
                   <HitInventory>true</HitInventory>
+                  <IgnoreHalfResistances>false</IgnoreHalfResistances>
                 </DM_Effect>
                 <DM_Effect xsi:type="DM_AddStatusEffect">
                   <Delay>0</Delay>
@@ -396,6 +401,7 @@
                   <Damages_AI />
                   <Knockback>30</Knockback>
                   <HitInventory>true</HitInventory>
+                  <IgnoreHalfResistances>false</IgnoreHalfResistances>
                 </DM_Effect>
               </Effects>
               <EffectConditions />
@@ -461,6 +467,7 @@
                   <Damages_AI />
                   <Knockback>120</Knockback>
                   <HitInventory>true</HitInventory>
+                  <IgnoreHalfResistances>false</IgnoreHalfResistances>
                 </DM_Effect>
                 <DM_Effect xsi:type="DM_AddStatusEffect">
                   <Delay>0</Delay>
@@ -524,6 +531,7 @@
                   <Damages_AI />
                   <Knockback>30</Knockback>
                   <HitInventory>true</HitInventory>
+                  <IgnoreHalfResistances>false</IgnoreHalfResistances>
                 </DM_Effect>
               </Effects>
               <EffectConditions />
@@ -595,6 +603,7 @@
                   <Damages_AI />
                   <Knockback>0</Knockback>
                   <HitInventory>true</HitInventory>
+                  <IgnoreHalfResistances>false</IgnoreHalfResistances>
                 </DM_Effect>
               </Effects>
               <EffectConditions />
@@ -651,6 +660,7 @@
                   <Damages_AI />
                   <Knockback>30</Knockback>
                   <HitInventory>true</HitInventory>
+                  <IgnoreHalfResistances>false</IgnoreHalfResistances>
                 </DM_Effect>
               </Effects>
               <EffectConditions />
@@ -713,6 +723,7 @@
                   <Damages_AI />
                   <Knockback>1</Knockback>
                   <HitInventory>true</HitInventory>
+                  <IgnoreHalfResistances>false</IgnoreHalfResistances>
                 </DM_Effect>
                 <DM_Effect xsi:type="DM_AddStatusEffect">
                   <Delay>0</Delay>
@@ -834,6 +845,7 @@
                   <Damages_AI />
                   <Knockback>100</Knockback>
                   <HitInventory>true</HitInventory>
+                  <IgnoreHalfResistances>false</IgnoreHalfResistances>
                 </DM_Effect>
                 <DM_Effect xsi:type="DM_AddStatusEffect">
                   <Delay>0</Delay>
@@ -897,6 +909,7 @@
                   <Damages_AI />
                   <Knockback>0</Knockback>
                   <HitInventory>true</HitInventory>
+                  <IgnoreHalfResistances>false</IgnoreHalfResistances>
                 </DM_Effect>
               </Effects>
               <EffectConditions />
@@ -961,6 +974,7 @@
                   <Damages_AI />
                   <Knockback>100</Knockback>
                   <HitInventory>true</HitInventory>
+                  <IgnoreHalfResistances>false</IgnoreHalfResistances>
                 </DM_Effect>
                 <DM_Effect xsi:type="DM_AddStatusEffect">
                   <Delay>0</Delay>
@@ -1031,6 +1045,7 @@
                   <Damages_AI />
                   <Knockback>0</Knockback>
                   <HitInventory>true</HitInventory>
+                  <IgnoreHalfResistances>false</IgnoreHalfResistances>
                 </DM_Effect>
               </Effects>
               <EffectConditions />
@@ -1093,6 +1108,7 @@
                   <Damages_AI />
                   <Knockback>200</Knockback>
                   <HitInventory>true</HitInventory>
+                  <IgnoreHalfResistances>false</IgnoreHalfResistances>
                 </DM_Effect>
               </Effects>
               <EffectConditions />
@@ -1149,6 +1165,7 @@
                   <Damages_AI />
                   <Knockback>0</Knockback>
                   <HitInventory>true</HitInventory>
+                  <IgnoreHalfResistances>false</IgnoreHalfResistances>
                 </DM_Effect>
               </Effects>
               <EffectConditions />
@@ -1204,13 +1221,14 @@
                   <OverrideCategory>None</OverrideCategory>
                   <Damage>
                     <Damages>
-                      <Damage>10</Damage>
-                      <Damage_Type>Physical</Damage_Type>
+                      <Damage>90</Damage>
+                      <Damage_Type>Electric</Damage_Type>
                     </Damages>
                   </Damage>
                   <Damages_AI />
                   <Knockback>0</Knockback>
                   <HitInventory>true</HitInventory>
+                  <IgnoreHalfResistances>false</IgnoreHalfResistances>
                 </DM_Effect>
                 <DM_Effect xsi:type="DM_AddStatusEffect">
                   <Delay>0</Delay>
@@ -1274,6 +1292,7 @@
                   <Damages_AI />
                   <Knockback>0</Knockback>
                   <HitInventory>true</HitInventory>
+                  <IgnoreHalfResistances>false</IgnoreHalfResistances>
                 </DM_Effect>
               </Effects>
               <EffectConditions />

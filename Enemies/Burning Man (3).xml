@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DM_Enemy xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Name>Burning Man</Name>
+  <GameObject_Name>CrimsonAvatar</GameObject_Name>
+  <Unique_ID>3</Unique_ID>
+  <Locations_Found>
+    <string>Caldera:Scarlet Sanctuary</string>
+  </Locations_Found>
+  <Max_Health>4500</Max_Health>
+  <Health_Regen_Per_Second>0</Health_Regen_Per_Second>
+  <Impact_Resistance>88</Impact_Resistance>
+  <Protection>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+  </Protection>
+  <Damage_Resistances>
+    <float>65</float>
+    <float>0</float>
+    <float>40</float>
+    <float>30</float>
+    <float>-30</float>
+    <float>40</float>
+  </Damage_Resistances>
+  <Damage_Bonuses>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+  </Damage_Bonuses>
+  <Collider_Radius>0.4</Collider_Radius>
+  <NullifyResistances>false</NullifyResistances>
+  <GlobalStatusRes>0</GlobalStatusRes>
+  <BarrierStat>0</BarrierStat>
+  <True_WeaponDamage>
+    <Damages>
+      <Damage>50</Damage>
+      <Damage_Type>Physical</Damage_Type>
+    </Damages>
+  </True_WeaponDamage>
+  <Weapon_Impact>158</Weapon_Impact>
+  <Status_Immunities>
+    <string>Bleeding</string>
+    <string>Poison</string>
+    <string>Pain</string>
+    <string>Confusion</string>
+  </Status_Immunities>
+  <Starting_Equipment>
+    <string>CrimsonStaff (2400520)</string>
+  </Starting_Equipment>
+  <Skill_Knowledge>
+    <string>CrimsonAvatarClosingIn (8300620)</string>
+    <string>CrimsonAvatarGetingOut (8300621)</string>
+    <string>CrimsonAvatarBlast (8300622)</string>
+    <string>Chrimson Avatar Laser (8300623)</string>
+    <string>CrimsonMine (8300625)</string>
+    <string>Chrimson Avatar Laser 2 (8300624)</string>
+    <string>CrimsonMineLvl2 (8300626)</string>
+  </Skill_Knowledge>
+  <Faction>Deer</Faction>
+  <Allied_To_Same_Faction>true</Allied_To_Same_Faction>
+  <Guaranteed_Drops />
+  <DropTable_Names />
+</DM_Enemy>

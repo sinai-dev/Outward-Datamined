@@ -27,6 +27,7 @@
     <string>Basic Trog</string>
     <string>Trog</string>
     <string>Family</string>
+    <string>Staff</string>
     <string>Main Weapon</string>
   </Tags>
   <StatsHolder xsi:type="DM_WeaponStats">
@@ -68,6 +69,9 @@
     <Hunger_Affect>0</Hunger_Affect>
     <Thirst_Affect>0</Thirst_Affect>
     <Fatigue_Affect>0</Fatigue_Affect>
+    <BarrierProtection>0</BarrierProtection>
+    <GlobalStatusEffectResistance>0</GlobalStatusEffectResistance>
+    <StaminaRegenModifier>0</StaminaRegenModifier>
     <AttackSpeed>1</AttackSpeed>
     <BaseDamage>
       <Damages>
@@ -151,4 +155,5 @@
   <MaxProjectileShots>-1</MaxProjectileShots>
   <BaseHealthAbsorbRatio>0</BaseHealthAbsorbRatio>
   <BaseMaxHealthAbsorbRatio>0</BaseMaxHealthAbsorbRatio>
+  <IgnoreHalfResistances>false</IgnoreHalfResistances>
 </DM_Weapon>

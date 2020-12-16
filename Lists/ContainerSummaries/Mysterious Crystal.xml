@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LootContainerSummary xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Name>Mysterious Crystal</Name>
+  <ItemID>0</ItemID>
+  <All_Locations>
+    <QuantityHolder>
+      <Name>Caldera:The Grotto of Chalcedony</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+  </All_Locations>
+  <DropTables>
+    <DroptableSummary>
+      <DropTableName>DropTable_Caldera_ArtifactDagger</DropTableName>
+      <Locations>
+        <string>The Grotto of Chalcedony</string>
+      </Locations>
+    </DroptableSummary>
+  </DropTables>
+</LootContainerSummary>

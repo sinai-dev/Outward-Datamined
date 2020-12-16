@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DM_StatusEffect xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <PresetID>602</PresetID>
+  <Identifier>LionmanElderBoonLvl2</Identifier>
+  <Name>Elemental Resistance</Name>
+  <Description>Frost, Fire, Lightning, Decay and Ethereal Resistance +[E1V1]%.</Description>
+  <Lifespan>330</Lifespan>
+  <LengthType>Short</LengthType>
+  <RefreshRate>0.1</RefreshRate>
+  <BuildupRecoverySpeed>0.001</BuildupRecoverySpeed>
+  <IgnoreBuildupIfApplied>false</IgnoreBuildupIfApplied>
+  <DisplayedInHUD>true</DisplayedInHUD>
+  <IsHidden>false</IsHidden>
+  <RemoveRequiredStatus>false</RemoveRequiredStatus>
+  <NormalizeDamageDisplay>false</NormalizeDamageDisplay>
+  <IgnoreBarrier>false</IgnoreBarrier>
+  <Tags>
+    <string>Cool</string>
+    <string>ElementalBoon</string>
+    <string>Boon</string>
+    <string>Status Type</string>
+  </Tags>
+  <Effects>
+    <DM_EffectTransform>
+      <TransformName>ActivationEffects</TransformName>
+      <Effects>
+        <DM_Effect xsi:type="DM_AffectStat">
+          <Delay>0</Delay>
+          <SyncType>OwnerSync</SyncType>
+          <OverrideCategory>None</OverrideCategory>
+          <Stat_Tag>HealthRegen</Stat_Tag>
+          <AffectQuantity>4</AffectQuantity>
+          <IsModifier>false</IsModifier>
+        </DM_Effect>
+        <DM_Effect xsi:type="DM_AffectStat">
+          <Delay>0</Delay>
+          <SyncType>OwnerSync</SyncType>
+          <OverrideCategory>None</OverrideCategory>
+          <Stat_Tag>ElectricDamage</Stat_Tag>
+          <AffectQuantity>80</AffectQuantity>
+          <IsModifier>true</IsModifier>
+        </DM_Effect>
+      </Effects>
+      <EffectConditions />
+      <ChildEffects />
+    </DM_EffectTransform>
+  </Effects>
+</DM_StatusEffect>

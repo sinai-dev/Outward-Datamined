@@ -4,6 +4,7 @@
   <RecipeID>147</RecipeID>
   <UID />
   <StationType>Alchemy</StationType>
+  <RequiredPType>None</RequiredPType>
   <Ingredients>
     <string>Astral Potion</string>
     <string>Ghost's Eye</string>

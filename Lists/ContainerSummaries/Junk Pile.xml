@@ -239,6 +239,66 @@
       <Name>Antique Plateau:Troglodyte Warren</Name>
       <Quantity>1</Quantity>
     </QuantityHolder>
+    <QuantityHolder>
+      <Name>Caldera:Caldera</Name>
+      <Quantity>10</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Caldera:Steam Bath Tunnels</Name>
+      <Quantity>7</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Caldera:Sulphuric Caverns</Name>
+      <Quantity>6</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Caldera:The Eldest Brother</Name>
+      <Quantity>4</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Caldera:The Grotto of Chalcedony</Name>
+      <Quantity>3</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Caldera:Oil Refinery</Name>
+      <Quantity>8</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Caldera:Old Sirocco</Name>
+      <Quantity>6</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Caldera:Ark of the Exiled</Name>
+      <Quantity>4</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Caldera:Oily Cavern</Name>
+      <Quantity>2</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Caldera:Giant’s Sauna</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Caldera:Silkworm’s Refuge</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Caldera:New Sirocco Mines</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Caldera:The Tower of Regrets</Name>
+      <Quantity>2</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Caldera:Underside Loading Dock</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Caldera:Calygrey Colosseum</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
   </All_Locations>
   <DropTables>
     <DroptableSummary>
@@ -271,6 +331,12 @@
         <string>Crumbling Loading Docks</string>
         <string>Corrupted Cave</string>
         <string>Bandit Hideout</string>
+        <string>Caldera</string>
+        <string>Steam Bath Tunnels</string>
+        <string>Sulphuric Caverns</string>
+        <string>Oil Refinery</string>
+        <string>Old Sirocco</string>
+        <string>Giant’s Sauna</string>
       </Locations>
     </DroptableSummary>
     <DroptableSummary>
@@ -316,6 +382,13 @@
         <string>Compromised Mana Transfer Station</string>
         <string>Blood Mage Hideout</string>
         <string>Bandit Hideout</string>
+        <string>Caldera</string>
+        <string>Steam Bath Tunnels</string>
+        <string>Sulphuric Caverns</string>
+        <string>The Grotto of Chalcedony</string>
+        <string>Oil Refinery</string>
+        <string>Old Sirocco</string>
+        <string>Ark of the Exiled</string>
       </Locations>
     </DroptableSummary>
     <DroptableSummary>
@@ -356,6 +429,15 @@
         <string>Crumbling Loading Docks</string>
         <string>Abandoned Storage</string>
         <string>Troglodyte Warren</string>
+        <string>Caldera</string>
+        <string>Steam Bath Tunnels</string>
+        <string>Giant’s Sauna</string>
+        <string>Silkworm’s Refuge</string>
+        <string>New Sirocco Mines</string>
+        <string>The Tower of Regrets</string>
+        <string>Underside Loading Dock</string>
+        <string>Oily Cavern</string>
+        <string>Calygrey Colosseum</string>
       </Locations>
     </DroptableSummary>
     <DroptableSummary>
@@ -381,6 +463,14 @@
         <string>Abandoned Storage</string>
         <string>Troglodyte Warren</string>
         <string>Old Harmattan Basement</string>
+        <string>Steam Bath Tunnels</string>
+        <string>The Eldest Brother</string>
+        <string>The Grotto of Chalcedony</string>
+        <string>Oil Refinery</string>
+        <string>Old Sirocco</string>
+        <string>Ark of the Exiled</string>
+        <string>Oily Cavern</string>
+        <string>The Tower of Regrets</string>
       </Locations>
     </DroptableSummary>
     <DroptableSummary>
@@ -410,6 +500,12 @@
         <string>Destroyed Test Chambers</string>
         <string>Compromised Mana Transfer Station</string>
         <string>Old Harmattan Basement</string>
+        <string>Caldera</string>
+        <string>Steam Bath Tunnels</string>
+        <string>The Eldest Brother</string>
+        <string>Oil Refinery</string>
+        <string>Old Sirocco</string>
+        <string>Ark of the Exiled</string>
       </Locations>
     </DroptableSummary>
     <DroptableSummary>
@@ -425,6 +521,8 @@
         <string>Cabal of Wind Temple</string>
         <string>Face of the Ancients</string>
         <string>Ancestor’s Resting Place</string>
+        <string>Caldera</string>
+        <string>Sulphuric Caverns</string>
       </Locations>
     </DroptableSummary>
     <DroptableSummary>
@@ -468,6 +566,15 @@
         <string>Destroyed Test Chambers</string>
         <string>Corrupted Cave</string>
         <string>Abandoned Storage</string>
+        <string>Caldera</string>
+        <string>Steam Bath Tunnels</string>
+        <string>Sulphuric Caverns</string>
+        <string>The Eldest Brother</string>
+        <string>The Grotto of Chalcedony</string>
+        <string>Oil Refinery</string>
+        <string>Old Sirocco</string>
+        <string>Ark of the Exiled</string>
+        <string>Oily Cavern</string>
       </Locations>
     </DroptableSummary>
     <DroptableSummary>
@@ -507,6 +614,8 @@
         <string>Worn Hunter's Cabin</string>
         <string>Vigil Pylon</string>
         <string>Antique Plateau</string>
+        <string>Caldera</string>
+        <string>Oil Refinery</string>
       </Locations>
     </DroptableSummary>
     <DroptableSummary>
@@ -542,6 +651,8 @@
         <string>Sand Rose Cave</string>
         <string>Antique Plateau</string>
         <string>Abandoned Living Quarters</string>
+        <string>Steam Bath Tunnels</string>
+        <string>Giant’s Sauna</string>
       </Locations>
     </DroptableSummary>
     <DroptableSummary>
@@ -573,6 +684,8 @@
         <string>Worn Hunter's Cabin</string>
         <string>Ruined Warehouse</string>
         <string>Abandoned Storage</string>
+        <string>Caldera</string>
+        <string>Sulphuric Caverns</string>
       </Locations>
     </DroptableSummary>
     <DroptableSummary>
@@ -607,6 +720,12 @@
         <string>Compromised Mana Transfer Station</string>
         <string>Blood Mage Hideout</string>
         <string>Abandoned Storage</string>
+        <string>Caldera</string>
+        <string>Steam Bath Tunnels</string>
+        <string>The Eldest Brother</string>
+        <string>Oil Refinery</string>
+        <string>Old Sirocco</string>
+        <string>Ark of the Exiled</string>
       </Locations>
     </DroptableSummary>
     <DroptableSummary>
@@ -635,6 +754,17 @@
         <string>Destroyed Test Chambers</string>
         <string>Old Harmattan Basement</string>
         <string>Abandoned Storage</string>
+        <string>Caldera</string>
+        <string>Steam Bath Tunnels</string>
+        <string>Sulphuric Caverns</string>
+        <string>The Eldest Brother</string>
+        <string>Oil Refinery</string>
+        <string>Old Sirocco</string>
+        <string>Silkworm’s Refuge</string>
+        <string>New Sirocco Mines</string>
+        <string>The Tower of Regrets</string>
+        <string>Underside Loading Dock</string>
+        <string>Calygrey Colosseum</string>
       </Locations>
     </DroptableSummary>
     <DroptableSummary>
@@ -649,6 +779,17 @@
         <string>Antique Plateau</string>
         <string>Abandoned Living Quarters</string>
         <string>Troglodyte Warren</string>
+        <string>Caldera</string>
+        <string>Steam Bath Tunnels</string>
+        <string>Sulphuric Caverns</string>
+        <string>Oil Refinery</string>
+        <string>Old Sirocco</string>
+        <string>Ark of the Exiled</string>
+        <string>Silkworm’s Refuge</string>
+        <string>New Sirocco Mines</string>
+        <string>The Tower of Regrets</string>
+        <string>Underside Loading Dock</string>
+        <string>Calygrey Colosseum</string>
       </Locations>
     </DroptableSummary>
     <DroptableSummary>
@@ -733,6 +874,10 @@
       <Locations>
         <string>Cabal of Wind Temple</string>
         <string>Ruined Warehouse</string>
+        <string>Steam Bath Tunnels</string>
+        <string>Sulphuric Caverns</string>
+        <string>The Eldest Brother</string>
+        <string>Oil Refinery</string>
       </Locations>
     </DroptableSummary>
     <DroptableSummary>
@@ -828,6 +973,43 @@
       <DropTableName>DropTable_AntiqueField_Equipment_Medium_1</DropTableName>
       <Locations>
         <string>Ruined Warehouse</string>
+      </Locations>
+    </DroptableSummary>
+    <DroptableSummary>
+      <DropTableName>DropTable_Neutral_Alchemy_High_1</DropTableName>
+      <Locations>
+        <string>Caldera</string>
+      </Locations>
+    </DroptableSummary>
+    <DroptableSummary>
+      <DropTableName>DropTable_Caldera_Recipe_Basic_1</DropTableName>
+      <Locations>
+        <string>Sulphuric Caverns</string>
+        <string>The Eldest Brother</string>
+        <string>The Grotto of Chalcedony</string>
+      </Locations>
+    </DroptableSummary>
+    <DroptableSummary>
+      <DropTableName>DropTable_Caldera_Equipment_Medium_1</DropTableName>
+      <Locations>
+        <string>Sulphuric Caverns</string>
+      </Locations>
+    </DroptableSummary>
+    <DroptableSummary>
+      <DropTableName>DropTable_Caldera_Consumable_1</DropTableName>
+      <Locations>
+        <string>The Eldest Brother</string>
+        <string>Oil Refinery</string>
+        <string>Old Sirocco</string>
+        <string>Ark of the Exiled</string>
+        <string>The Tower of Regrets</string>
+      </Locations>
+    </DroptableSummary>
+    <DroptableSummary>
+      <DropTableName>DropTable_Caldera_Alchemy_1</DropTableName>
+      <Locations>
+        <string>The Eldest Brother</string>
+        <string>Oil Refinery</string>
       </Locations>
     </DroptableSummary>
   </DropTables>

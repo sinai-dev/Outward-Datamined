@@ -65,6 +65,9 @@
     <Hunger_Affect>1</Hunger_Affect>
     <Thirst_Affect>1</Thirst_Affect>
     <Fatigue_Affect>1</Fatigue_Affect>
+    <BarrierProtection>0</BarrierProtection>
+    <GlobalStatusEffectResistance>0</GlobalStatusEffectResistance>
+    <StaminaRegenModifier>0</StaminaRegenModifier>
   </StatsHolder>
   <EffectTransforms />
   <EquipSlot>Foot</EquipSlot>

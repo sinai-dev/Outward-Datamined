@@ -4,6 +4,7 @@
   <RecipeID>16</RecipeID>
   <UID />
   <StationType>Cooking</StationType>
+  <RequiredPType>None</RequiredPType>
   <Ingredients>
     <string>Egg</string>
     <string>Ochre Spice Beetle</string>

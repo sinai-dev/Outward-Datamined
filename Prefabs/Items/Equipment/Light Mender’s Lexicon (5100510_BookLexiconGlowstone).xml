@@ -27,7 +27,7 @@
     <string>Family</string>
   </Tags>
   <StatsHolder xsi:type="DM_EquipmentStats">
-    <BaseValue>300</BaseValue>
+    <BaseValue>1000</BaseValue>
     <RawWeight>0.5</RawWeight>
     <MaxDurability>-1</MaxDurability>
     <Damage_Resistance>
@@ -65,6 +65,9 @@
     <Hunger_Affect>0</Hunger_Affect>
     <Thirst_Affect>0</Thirst_Affect>
     <Fatigue_Affect>0</Fatigue_Affect>
+    <BarrierProtection>0</BarrierProtection>
+    <GlobalStatusEffectResistance>0</GlobalStatusEffectResistance>
+    <StaminaRegenModifier>0</StaminaRegenModifier>
   </StatsHolder>
   <EffectTransforms />
   <EquipSlot>LeftHand</EquipSlot>

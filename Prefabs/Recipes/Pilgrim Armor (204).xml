@@ -4,6 +4,7 @@
   <RecipeID>204</RecipeID>
   <UID />
   <StationType>Survival</StationType>
+  <RequiredPType>None</RequiredPType>
   <Ingredients>
     <string>Pearlbird’s Courage</string>
     <string>Scourge’s Tears</string>

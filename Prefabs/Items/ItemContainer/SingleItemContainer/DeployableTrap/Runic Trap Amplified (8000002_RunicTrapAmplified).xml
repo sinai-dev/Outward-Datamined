@@ -71,6 +71,7 @@
                   <Damages_AI />
                   <Knockback>100</Knockback>
                   <HitInventory>true</HitInventory>
+                  <IgnoreHalfResistances>false</IgnoreHalfResistances>
                 </DM_Effect>
                 <DM_Effect xsi:type="DM_PunctualDamage">
                   <Delay>0</Delay>
@@ -85,6 +86,7 @@
                   <Damages_AI />
                   <Knockback>0</Knockback>
                   <HitInventory>true</HitInventory>
+                  <IgnoreHalfResistances>false</IgnoreHalfResistances>
                 </DM_Effect>
               </Effects>
               <EffectConditions />

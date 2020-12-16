@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DM_EnchantmentRecipe xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <RecipeID>104</RecipeID>
+  <Name>Contagion</Name>
+  <CompatibleEquipment>
+    <CompatibleEquipments>
+      <IngredientData>
+        <IngredientTag>Militia</IngredientTag>
+        <SpecificItemID>0</SpecificItemID>
+        <Type>Generic</Type>
+      </IngredientData>
+      <IngredientData>
+        <IngredientTag>Vigilante</IngredientTag>
+        <SpecificItemID>0</SpecificItemID>
+        <Type>Generic</Type>
+      </IngredientData>
+    </CompatibleEquipments>
+    <EquipmentTag>Weapon</EquipmentTag>
+  </CompatibleEquipment>
+  <PillarDatas>
+    <PillarData>
+      <CompatibleIngredients>
+        <IngredientData>
+          <SpecificItemID>6000400</SpecificItemID>
+          <Type>Specific</Type>
+        </IngredientData>
+      </CompatibleIngredients>
+      <Direction>North</Direction>
+      <IsFar>false</IsFar>
+    </PillarData>
+  </PillarDatas>
+  <Weather />
+  <TimeOfDay />
+  <Temperatures />
+  <WindAltarActivated>false</WindAltarActivated>
+  <Regions>
+    <AreaEnum>NewSirocco</AreaEnum>
+  </Regions>
+  <Result>
+    <Name>Contagion</Name>
+    <Description />
+    <Effects>
+      <DM_Effect xsi:type="DM_AddStatusEffectBuildUp">
+        <Delay>0</Delay>
+        <SyncType>OwnerSync</SyncType>
+        <OverrideCategory>Hit</OverrideCategory>
+        <StatusEffect>Plague</StatusEffect>
+        <Buildup>20</Buildup>
+        <BuildUpMultiplier>1</BuildUpMultiplier>
+        <BypassCounter>false</BypassCounter>
+      </DM_Effect>
+    </Effects>
+    <AdditionalDamages />
+    <StatModifications />
+    <DamageBonus />
+    <DamageModifier />
+    <ElementalResistances />
+    <HealthAbsorbRatio>0</HealthAbsorbRatio>
+    <ManaAbsorbRatio>0</ManaAbsorbRatio>
+    <StaminaAbsorbRatio>0</StaminaAbsorbRatio>
+    <GlobalStatusResistance>0</GlobalStatusResistance>
+    <Indescructible>false</Indescructible>
+    <TrackDamageRatio>-1</TrackDamageRatio>
+  </Result>
+</DM_EnchantmentRecipe>

@@ -39,6 +39,7 @@ Simple attack with the dagger.</Description>
           <Damages_AI />
           <Knockback>0</Knockback>
           <HitInventory>true</HitInventory>
+          <IgnoreHalfResistances>false</IgnoreHalfResistances>
           <OverrideType>Count</OverrideType>
           <ForceOnlyLeftHand>false</ForceOnlyLeftHand>
           <Damage_Multiplier>1</Damage_Multiplier>
@@ -111,6 +112,8 @@ Simple attack with the dagger.</Description>
             <y>-0.5</y>
             <z>0</z>
           </Offset>
+          <ProximityAngle>-1</ProximityAngle>
+          <OrMode>false</OrMode>
         </DM_EffectCondition>
       </EffectConditions>
       <ChildEffects />
@@ -121,6 +124,8 @@ Simple attack with the dagger.</Description>
   <ManaCost>0</ManaCost>
   <DurabilityCost>0</DurabilityCost>
   <DurabilityCostPercent>0</DurabilityCostPercent>
+  <HealthCost>0</HealthCost>
+  <RequiredPType>Normal</RequiredPType>
   <RequiredItems />
   <AmmunitionTypes />
   <RequiredOffHandTypes>
@@ -129,7 +134,9 @@ Simple attack with the dagger.</Description>
   <RequiredWeaponTypes />
   <RequiredWeaponTags />
   <RequireImbue>false</RequireImbue>
+  <AmmunitionAmount>-1</AmmunitionAmount>
   <Blockable>true</Blockable>
+  <NoWeaponAtkTag>false</NoWeaponAtkTag>
   <Damage>0</Damage>
   <Impact>0</Impact>
   <LinecastCount>0</LinecastCount>

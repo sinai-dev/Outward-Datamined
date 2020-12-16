@@ -11,9 +11,15 @@
   <IgnoreBuildupIfApplied>false</IgnoreBuildupIfApplied>
   <DisplayedInHUD>true</DisplayedInHUD>
   <IsHidden>false</IsHidden>
+  <RemoveRequiredStatus>false</RemoveRequiredStatus>
+  <NormalizeDamageDisplay>false</NormalizeDamageDisplay>
+  <IgnoreBarrier>true</IgnoreBarrier>
   <Tags>
-    <string>Burning</string>
+    <string>CrueltyBurning</string>
+    <string>CrueltyStatusTypes</string>
     <string>Status Type</string>
+    <string>Burning</string>
+    <string>DoT</string>
   </Tags>
   <Effects>
     <DM_EffectTransform>
@@ -37,6 +43,7 @@
           </Damages_AI>
           <Knockback>0</Knockback>
           <HitInventory>false</HitInventory>
+          <IgnoreHalfResistances>false</IgnoreHalfResistances>
         </DM_Effect>
       </Effects>
       <EffectConditions />

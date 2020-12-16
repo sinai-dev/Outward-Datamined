@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DM_Recipe xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Name>Slayer’s Helmet</Name>
+  <RecipeID>399</RecipeID>
+  <UID />
+  <StationType>Survival</StationType>
+  <RequiredPType>None</RequiredPType>
+  <Ingredients>
+    <string>Dweller’s Brain</string>
+    <string>Myrm Tongue</string>
+    <string>Palladium Scrap</string>
+  </Ingredients>
+  <Results>
+    <ItemQty>
+      <ItemName>Slayer’s Helmet</ItemName>
+      <ItemID>3100411</ItemID>
+      <Quantity>1</Quantity>
+    </ItemQty>
+  </Results>
+</DM_Recipe>

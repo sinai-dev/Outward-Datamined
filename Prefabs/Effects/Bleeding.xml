@@ -11,9 +11,15 @@
   <IgnoreBuildupIfApplied>false</IgnoreBuildupIfApplied>
   <DisplayedInHUD>true</DisplayedInHUD>
   <IsHidden>false</IsHidden>
+  <RemoveRequiredStatus>false</RemoveRequiredStatus>
+  <NormalizeDamageDisplay>false</NormalizeDamageDisplay>
+  <IgnoreBarrier>false</IgnoreBarrier>
   <Tags>
-    <string>Bleeding</string>
+    <string>CrueltyBleeding</string>
+    <string>CrueltyStatusTypes</string>
     <string>Status Type</string>
+    <string>Bleeding</string>
+    <string>DoT</string>
   </Tags>
   <Effects>
     <DM_EffectTransform>

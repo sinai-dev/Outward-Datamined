@@ -4,6 +4,7 @@
   <RecipeID>362</RecipeID>
   <UID />
   <StationType>Alchemy</StationType>
+  <RequiredPType>None</RequiredPType>
   <Ingredients>
     <string>Sanctifier Potion</string>
     <string>Elemental Particle</string>

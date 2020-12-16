@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DM_LootContainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Name>Knight’s Corpse</Name>
+  <ItemID>1000095</ItemID>
+  <UID>8F_4s6RPTUS6m18qqQd8Fw</UID>
+  <DropTables>
+    <string>DropTable_Caldera_Equipment_Medium_1</string>
+    <string>DropTable_Caldera_Food_1</string>
+    <string>DropTable_Caldera_Recipe_Basic_1</string>
+    <string>DropTable_Caldera_Consumable_1</string>
+  </DropTables>
+</DM_LootContainer>

@@ -4,6 +4,7 @@
   <RecipeID>143</RecipeID>
   <UID />
   <StationType>Alchemy</StationType>
+  <RequiredPType>None</RequiredPType>
   <Ingredients>
     <string>Coralhorn Antler</string>
     <string>Woolshroom</string>

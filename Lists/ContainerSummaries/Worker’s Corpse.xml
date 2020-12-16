@@ -103,6 +103,42 @@
       <Name>Antique Plateau:Wendigo Lair</Name>
       <Quantity>1</Quantity>
     </QuantityHolder>
+    <QuantityHolder>
+      <Name>Caldera:Steam Bath Tunnels</Name>
+      <Quantity>2</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Caldera:Sulphuric Caverns</Name>
+      <Quantity>3</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Caldera:The Grotto of Chalcedony</Name>
+      <Quantity>3</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Caldera:Myrmitaur’s Haven</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Caldera:Oil Refinery</Name>
+      <Quantity>4</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Caldera:Old Sirocco</Name>
+      <Quantity>2</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Caldera:Ark of the Exiled</Name>
+      <Quantity>2</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Caldera:The Tower of Regrets</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Caldera:Underside Loading Dock</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
   </All_Locations>
   <DropTables>
     <DroptableSummary>
@@ -118,6 +154,8 @@
         <string>Crumbling Loading Docks</string>
         <string>Destroyed Test Chambers</string>
         <string>Wendigo Lair</string>
+        <string>Sulphuric Caverns</string>
+        <string>The Grotto of Chalcedony</string>
       </Locations>
     </DroptableSummary>
     <DroptableSummary>
@@ -137,6 +175,7 @@
         <string>Royal Manticore’s Lair</string>
         <string>Dolmen Crypt</string>
         <string>Ancient Foundry</string>
+        <string>Oil Refinery</string>
       </Locations>
     </DroptableSummary>
     <DroptableSummary>
@@ -169,6 +208,7 @@
         <string>Cabal of Wind Temple</string>
         <string>Forgotten Research Laboratory</string>
         <string>Destroyed Test Chambers</string>
+        <string>Oil Refinery</string>
       </Locations>
     </DroptableSummary>
     <DroptableSummary>
@@ -178,6 +218,11 @@
         <string>Enmerkar Forest</string>
         <string>Cabal of Wind Temple</string>
         <string>Worn Hunter's Cabin</string>
+        <string>Steam Bath Tunnels</string>
+        <string>Oil Refinery</string>
+        <string>Ark of the Exiled</string>
+        <string>The Tower of Regrets</string>
+        <string>Underside Loading Dock</string>
       </Locations>
     </DroptableSummary>
     <DroptableSummary>
@@ -192,6 +237,7 @@
       <Locations>
         <string>Ziggurat Passage</string>
         <string>Worn Hunter's Cabin</string>
+        <string>Ark of the Exiled</string>
       </Locations>
     </DroptableSummary>
     <DroptableSummary>
@@ -203,6 +249,11 @@
         <string>Worn Hunter's Cabin</string>
         <string>Dolmen Crypt</string>
         <string>Lost Golem Manufacturing Facility</string>
+        <string>Steam Bath Tunnels</string>
+        <string>Sulphuric Caverns</string>
+        <string>The Grotto of Chalcedony</string>
+        <string>Myrmitaur’s Haven</string>
+        <string>Oil Refinery</string>
       </Locations>
     </DroptableSummary>
     <DroptableSummary>
@@ -228,6 +279,7 @@
       <DropTableName>DropTable_Neutral_Consumable_High_1</DropTableName>
       <Locations>
         <string>Enmerkar Forest</string>
+        <string>Ark of the Exiled</string>
       </Locations>
     </DroptableSummary>
     <DroptableSummary>
@@ -262,6 +314,7 @@
       <DropTableName>DropTable_Neutral_Alchemy_Low_2</DropTableName>
       <Locations>
         <string>Forgotten Research Laboratory</string>
+        <string>The Grotto of Chalcedony</string>
       </Locations>
     </DroptableSummary>
     <DroptableSummary>
@@ -332,6 +385,47 @@
       <DropTableName>DropTable_Neutral_Recipe_Dungeon_1</DropTableName>
       <Locations>
         <string>Wendigo Lair</string>
+      </Locations>
+    </DroptableSummary>
+    <DroptableSummary>
+      <DropTableName>DropTable_Caldera_Food_1</DropTableName>
+      <Locations>
+        <string>Steam Bath Tunnels</string>
+        <string>Sulphuric Caverns</string>
+        <string>The Grotto of Chalcedony</string>
+        <string>Myrmitaur’s Haven</string>
+        <string>Oil Refinery</string>
+        <string>Old Sirocco</string>
+        <string>Ark of the Exiled</string>
+        <string>The Tower of Regrets</string>
+        <string>Underside Loading Dock</string>
+      </Locations>
+    </DroptableSummary>
+    <DroptableSummary>
+      <DropTableName>DropTable_Caldera_Recipe_Basic_1</DropTableName>
+      <Locations>
+        <string>Steam Bath Tunnels</string>
+        <string>Sulphuric Caverns</string>
+        <string>The Grotto of Chalcedony</string>
+        <string>Myrmitaur’s Haven</string>
+        <string>Oil Refinery</string>
+        <string>Old Sirocco</string>
+        <string>Ark of the Exiled</string>
+        <string>The Tower of Regrets</string>
+        <string>Underside Loading Dock</string>
+      </Locations>
+    </DroptableSummary>
+    <DroptableSummary>
+      <DropTableName>DropTable_Caldera_Consumable_1</DropTableName>
+      <Locations>
+        <string>Oil Refinery</string>
+        <string>Old Sirocco</string>
+      </Locations>
+    </DroptableSummary>
+    <DroptableSummary>
+      <DropTableName>DropTable_Caldera_Alchemy_1</DropTableName>
+      <Locations>
+        <string>Old Sirocco</string>
       </Locations>
     </DroptableSummary>
   </DropTables>

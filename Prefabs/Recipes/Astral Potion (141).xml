@@ -4,6 +4,7 @@
   <RecipeID>141</RecipeID>
   <UID />
   <StationType>Alchemy</StationType>
+  <RequiredPType>None</RequiredPType>
   <Ingredients>
     <string>Shark Cartilage</string>
     <string>Thick Oil</string>

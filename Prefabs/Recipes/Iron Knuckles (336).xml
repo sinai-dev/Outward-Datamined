@@ -4,6 +4,7 @@
   <RecipeID>336</RecipeID>
   <UID />
   <StationType>Survival</StationType>
+  <RequiredPType>None</RequiredPType>
   <Ingredients>
     <string>Iron Wristband</string>
     <string>Iron Wristband</string>

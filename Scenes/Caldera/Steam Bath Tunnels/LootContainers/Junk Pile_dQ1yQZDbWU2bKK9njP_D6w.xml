@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DM_LootContainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Name>Junk Pile</Name>
+  <ItemID>1001000</ItemID>
+  <UID>dQ1yQZDbWU2bKK9njP_D6w</UID>
+  <DropTables>
+    <string>DropTable_Neutral_Cloth_Poor_1</string>
+    <string>DropTable_Neutral_Cloth_Poor_1</string>
+    <string>DropTable_Neutral_Recipe_Dungeon_1</string>
+    <string>DropTable_Neutral_Cloth_Rich_1</string>
+  </DropTables>
+</DM_LootContainer>

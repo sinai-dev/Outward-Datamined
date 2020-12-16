@@ -49,6 +49,7 @@
                   <Damages_AI />
                   <Knockback>0</Knockback>
                   <HitInventory>true</HitInventory>
+                  <IgnoreHalfResistances>false</IgnoreHalfResistances>
                   <OverrideType>Ethereal</OverrideType>
                   <ForceOnlyLeftHand>true</ForceOnlyLeftHand>
                   <Damage_Multiplier>3.3</Damage_Multiplier>

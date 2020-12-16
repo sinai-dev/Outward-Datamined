@@ -4,6 +4,7 @@
   <RecipeID>323</RecipeID>
   <UID />
   <StationType>Survival</StationType>
+  <RequiredPType>None</RequiredPType>
   <Ingredients>
     <string>Fang Greatsword</string>
     <string>Horror Chitin</string>

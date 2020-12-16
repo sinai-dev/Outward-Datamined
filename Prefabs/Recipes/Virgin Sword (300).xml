@@ -4,6 +4,7 @@
   <RecipeID>300</RecipeID>
   <UID />
   <StationType>Survival</StationType>
+  <RequiredPType>None</RequiredPType>
   <Ingredients>
     <string>Gold Machete</string>
     <string>Pure Chitin</string>

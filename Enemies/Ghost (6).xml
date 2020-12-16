@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DM_Enemy xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Name>Ghost</Name>
+  <GameObject_Name>Grandmother</GameObject_Name>
+  <Unique_ID>6</Unique_ID>
+  <Locations_Found>
+    <string>Other:Unknown Arena</string>
+  </Locations_Found>
+  <Max_Health>500</Max_Health>
+  <Health_Regen_Per_Second>0</Health_Regen_Per_Second>
+  <Impact_Resistance>30</Impact_Resistance>
+  <Protection>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+  </Protection>
+  <Damage_Resistances>
+    <float>80</float>
+    <float>-100</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+  </Damage_Resistances>
+  <Damage_Bonuses>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+  </Damage_Bonuses>
+  <Collider_Radius>0.06</Collider_Radius>
+  <NullifyResistances>false</NullifyResistances>
+  <GlobalStatusRes>0</GlobalStatusRes>
+  <BarrierStat>0</BarrierStat>
+  <True_WeaponDamage>
+    <Damages>
+      <Damage>15.5</Damage>
+      <Damage_Type>Physical</Damage_Type>
+    </Damages>
+    <Damages>
+      <Damage>15.5</Damage>
+      <Damage_Type>Fire</Damage_Type>
+    </Damages>
+  </True_WeaponDamage>
+  <Weapon_Impact>37</Weapon_Impact>
+  <Status_Immunities>
+    <string>Bleeding</string>
+    <string>Poison</string>
+  </Status_Immunities>
+  <Starting_Equipment>
+    <string>GrandmotherReach (2400532)</string>
+  </Starting_Equipment>
+  <Skill_Knowledge>
+    <string>GrandmotherForcePush (8300680)</string>
+    <string>grandmotherBoonskill (8300681)</string>
+    <string>GrandmotherReanimate (8300682)</string>
+  </Skill_Knowledge>
+  <Faction>Bandits</Faction>
+  <Allied_To_Same_Faction>true</Allied_To_Same_Faction>
+  <Guaranteed_Drops />
+  <DropTable_Names />
+</DM_Enemy>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DM_DropTable xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Name>DropTable_Caldera_BoneTent</Name>
+  <Guaranteed_Drops />
+  <Random_Tables>
+    <DropGeneratorHolder>
+      <MinNumberOfDrops>1</MinNumberOfDrops>
+      <MaxNumberOfDrops>1</MaxNumberOfDrops>
+      <MaxDiceValue>10</MaxDiceValue>
+      <EmptyDrop>90</EmptyDrop>
+      <RegenTime>-1</RegenTime>
+      <ChanceReduction>0</ChanceReduction>
+      <ChanceRegenQty>10</ChanceRegenQty>
+      <Item_Drops>
+        <DropTableChanceEntry>
+          <Item_Name>Calygrey Bone Cage</Item_Name>
+          <Item_ID>5000210</Item_ID>
+          <Min_Quantity>1</Min_Quantity>
+          <Max_Quantity>1</Max_Quantity>
+          <Drop_Chance>10</Drop_Chance>
+          <Dice_Range>0</Dice_Range>
+          <ChanceReduction>0</ChanceReduction>
+          <ChanceRegenDelay>-1</ChanceRegenDelay>
+          <ChanceRegenQty>0</ChanceRegenQty>
+        </DropTableChanceEntry>
+      </Item_Drops>
+    </DropGeneratorHolder>
+  </Random_Tables>
+</DM_DropTable>

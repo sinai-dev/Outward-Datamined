@@ -28,7 +28,7 @@
   </Tags>
   <StatsHolder xsi:type="DM_EquipmentStats">
     <BaseValue>250</BaseValue>
-    <RawWeight>3</RawWeight>
+    <RawWeight>2</RawWeight>
     <MaxDurability>290</MaxDurability>
     <Damage_Resistance>
       <float>13</float>
@@ -65,6 +65,9 @@
     <Hunger_Affect>0</Hunger_Affect>
     <Thirst_Affect>0</Thirst_Affect>
     <Fatigue_Affect>0</Fatigue_Affect>
+    <BarrierProtection>0</BarrierProtection>
+    <GlobalStatusEffectResistance>0</GlobalStatusEffectResistance>
+    <StaminaRegenModifier>0</StaminaRegenModifier>
   </StatsHolder>
   <EffectTransforms />
   <EquipSlot>Helmet</EquipSlot>

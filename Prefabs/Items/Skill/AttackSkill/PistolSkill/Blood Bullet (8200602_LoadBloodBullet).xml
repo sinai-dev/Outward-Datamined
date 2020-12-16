@@ -104,6 +104,7 @@ Shooting it requires the use of the Fire/Reload skill.</Description>
                   <Damages_AI />
                   <Knockback>0</Knockback>
                   <HitInventory>true</HitInventory>
+                  <IgnoreHalfResistances>false</IgnoreHalfResistances>
                   <OverrideType>Decay</OverrideType>
                   <ForceOnlyLeftHand>false</ForceOnlyLeftHand>
                   <Damage_Multiplier>0</Damage_Multiplier>
@@ -284,6 +285,8 @@ Shooting it requires the use of the Fire/Reload skill.</Description>
   <ManaCost>12</ManaCost>
   <DurabilityCost>0</DurabilityCost>
   <DurabilityCostPercent>0</DurabilityCostPercent>
+  <HealthCost>0</HealthCost>
+  <RequiredPType>Normal</RequiredPType>
   <RequiredItems />
   <AmmunitionTypes />
   <RequiredOffHandTypes>
@@ -292,4 +295,5 @@ Shooting it requires the use of the Fire/Reload skill.</Description>
   <RequiredWeaponTypes />
   <RequiredWeaponTags />
   <RequireImbue>false</RequireImbue>
+  <AmmunitionAmount>-1</AmmunitionAmount>
 </DM_AttackSkill>

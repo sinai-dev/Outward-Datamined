@@ -90,5 +90,7 @@ Certain spells must be cast in proximity to a soul.</Description>
   <ManaCost>5</ManaCost>
   <DurabilityCost>0</DurabilityCost>
   <DurabilityCostPercent>0</DurabilityCostPercent>
+  <HealthCost>0</HealthCost>
+  <RequiredPType>Normal</RequiredPType>
   <RequiredItems />
 </DM_Skill>

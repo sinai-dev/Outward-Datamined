@@ -64,6 +64,9 @@
     <Hunger_Affect>1</Hunger_Affect>
     <Thirst_Affect>1</Thirst_Affect>
     <Fatigue_Affect>1</Fatigue_Affect>
+    <BarrierProtection>0</BarrierProtection>
+    <GlobalStatusEffectResistance>0</GlobalStatusEffectResistance>
+    <StaminaRegenModifier>0</StaminaRegenModifier>
     <AttackSpeed>1</AttackSpeed>
     <BaseDamage>
       <Damages>
@@ -102,8 +105,8 @@
         <Knockback>35.1</Knockback>
         <AttackSpeed>1.1</AttackSpeed>
         <Damage>
-          <float>36.0749969</float>
-          <float>12.025</float>
+          <float>41.486248</float>
+          <float>13.82875</float>
         </Damage>
       </AttackData>
       <AttackData>
@@ -111,8 +114,8 @@
         <Knockback>29.7</Knockback>
         <AttackSpeed>1.1</AttackSpeed>
         <Damage>
-          <float>30.5250015</float>
-          <float>10.175</float>
+          <float>35.1037521</float>
+          <float>11.70125</float>
         </Damage>
       </AttackData>
       <AttackData>
@@ -120,8 +123,8 @@
         <Knockback>29.7</Knockback>
         <AttackSpeed>1.1</AttackSpeed>
         <Damage>
-          <float>30.5250015</float>
-          <float>10.175</float>
+          <float>35.1037521</float>
+          <float>11.70125</float>
         </Damage>
       </AttackData>
     </Attacks>
@@ -135,7 +138,9 @@
           <SyncType>OwnerSync</SyncType>
           <OverrideCategory>None</OverrideCategory>
           <StatusEffect>Poisoned +</StatusEffect>
-          <Buildup>60</Buildup>
+          <Buildup>45</Buildup>
+          <BuildUpMultiplier>1</BuildUpMultiplier>
+          <BypassCounter>false</BypassCounter>
         </DM_Effect>
       </Effects>
       <EffectConditions />
@@ -153,4 +158,5 @@
   <MaxProjectileShots>-1</MaxProjectileShots>
   <BaseHealthAbsorbRatio>0</BaseHealthAbsorbRatio>
   <BaseMaxHealthAbsorbRatio>0</BaseMaxHealthAbsorbRatio>
+  <IgnoreHalfResistances>false</IgnoreHalfResistances>
 </DM_Weapon>

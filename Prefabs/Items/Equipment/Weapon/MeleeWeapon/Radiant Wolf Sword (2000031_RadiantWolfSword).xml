@@ -28,7 +28,7 @@
     <string>Main Weapon</string>
   </Tags>
   <StatsHolder xsi:type="DM_WeaponStats">
-    <BaseValue>900</BaseValue>
+    <BaseValue>450</BaseValue>
     <RawWeight>2</RawWeight>
     <MaxDurability>-1</MaxDurability>
     <Damage_Resistance>
@@ -66,6 +66,9 @@
     <Hunger_Affect>0</Hunger_Affect>
     <Thirst_Affect>0</Thirst_Affect>
     <Fatigue_Affect>0</Fatigue_Affect>
+    <BarrierProtection>0</BarrierProtection>
+    <GlobalStatusEffectResistance>0</GlobalStatusEffectResistance>
+    <StaminaRegenModifier>0</StaminaRegenModifier>
     <AttackSpeed>1</AttackSpeed>
     <BaseDamage>
       <Damages>
@@ -98,7 +101,7 @@
         <Knockback>32.5</Knockback>
         <AttackSpeed>1.1</AttackSpeed>
         <Damage>
-          <float>39</float>
+          <float>44.85</float>
         </Damage>
       </AttackData>
       <AttackData>
@@ -106,7 +109,7 @@
         <Knockback>27.5</Knockback>
         <AttackSpeed>1.1</AttackSpeed>
         <Damage>
-          <float>33</float>
+          <float>37.95</float>
         </Damage>
       </AttackData>
       <AttackData>
@@ -114,7 +117,7 @@
         <Knockback>27.5</Knockback>
         <AttackSpeed>1.1</AttackSpeed>
         <Damage>
-          <float>33</float>
+          <float>37.95</float>
         </Damage>
       </AttackData>
     </Attacks>
@@ -131,4 +134,5 @@
   <MaxProjectileShots>-1</MaxProjectileShots>
   <BaseHealthAbsorbRatio>0</BaseHealthAbsorbRatio>
   <BaseMaxHealthAbsorbRatio>0</BaseMaxHealthAbsorbRatio>
+  <IgnoreHalfResistances>false</IgnoreHalfResistances>
 </DM_Weapon>

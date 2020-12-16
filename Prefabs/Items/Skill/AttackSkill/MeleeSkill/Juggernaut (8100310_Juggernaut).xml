@@ -39,6 +39,7 @@ Slow but powerful melee attack that inflicts Confusion. Increases your Impact Re
           <Damages_AI />
           <Knockback>100</Knockback>
           <HitInventory>true</HitInventory>
+          <IgnoreHalfResistances>false</IgnoreHalfResistances>
           <OverrideType>Count</OverrideType>
           <ForceOnlyLeftHand>false</ForceOnlyLeftHand>
           <Damage_Multiplier>3</Damage_Multiplier>
@@ -109,6 +110,8 @@ Slow but powerful melee attack that inflicts Confusion. Increases your Impact Re
   <ManaCost>0</ManaCost>
   <DurabilityCost>0</DurabilityCost>
   <DurabilityCostPercent>0</DurabilityCostPercent>
+  <HealthCost>0</HealthCost>
+  <RequiredPType>Normal</RequiredPType>
   <RequiredItems />
   <AmmunitionTypes />
   <RequiredOffHandTypes />
@@ -117,7 +120,9 @@ Slow but powerful melee attack that inflicts Confusion. Increases your Impact Re
   </RequiredWeaponTypes>
   <RequiredWeaponTags />
   <RequireImbue>false</RequireImbue>
+  <AmmunitionAmount>-1</AmmunitionAmount>
   <Blockable>true</Blockable>
+  <NoWeaponAtkTag>false</NoWeaponAtkTag>
   <Damage>0</Damage>
   <Impact>0</Impact>
   <LinecastCount>0</LinecastCount>

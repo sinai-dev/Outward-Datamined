@@ -4,6 +4,7 @@
   <RecipeID>145</RecipeID>
   <UID />
   <StationType>Alchemy</StationType>
+  <RequiredPType>None</RequiredPType>
   <Ingredients>
     <string>Occult Remains</string>
     <string>Turmmip</string>

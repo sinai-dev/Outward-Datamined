@@ -6,7 +6,7 @@
   <Name>Travel Ration</Name>
   <Description>Bland biscuit used when traveling from one region to the next, though it can be eaten as normal food as well.
 
-This food with no properties apart from being filling, and can even be made using Survival Crafting.</Description>
+This food has no properties apart from being filling, and can even be made using Survival Crafting.</Description>
   <LegacyItemID>-1</LegacyItemID>
   <IsPickable>true</IsPickable>
   <IsUsable>true</IsUsable>

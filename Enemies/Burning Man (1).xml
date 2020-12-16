@@ -10,6 +10,9 @@
     <string>Enmerkar Forest:Face of the Ancients</string>
     <string>Enmerkar Forest:Vigil Pylon</string>
     <string>Antique Plateau:Ancient Foundry</string>
+    <string>Caldera:Scarlet Sanctuary</string>
+    <string>Caldera:Old Sirocco</string>
+    <string>Caldera:The Tower of Regrets</string>
   </Locations_Found>
   <Max_Health>250</Max_Health>
   <Health_Regen_Per_Second>0</Health_Regen_Per_Second>
@@ -39,6 +42,9 @@
     <float>0</float>
   </Damage_Bonuses>
   <Collider_Radius>0.4</Collider_Radius>
+  <NullifyResistances>false</NullifyResistances>
+  <GlobalStatusRes>0</GlobalStatusRes>
+  <BarrierStat>0</BarrierStat>
   <True_WeaponDamage>
     <Damages>
       <Damage>11.5</Damage>

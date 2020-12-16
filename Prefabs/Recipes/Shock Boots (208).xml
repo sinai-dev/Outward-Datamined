@@ -4,6 +4,7 @@
   <RecipeID>208</RecipeID>
   <UID />
   <StationType>Survival</StationType>
+  <RequiredPType>None</RequiredPType>
   <Ingredients>
     <string>Gep’s Generosity</string>
     <string>Calixa’s Relic</string>

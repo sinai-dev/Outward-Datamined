@@ -23,6 +23,10 @@
       <Name>Antique Plateau:Harmattan</Name>
       <Quantity>2</Quantity>
     </QuantityHolder>
+    <QuantityHolder>
+      <Name>Caldera:New Sirocco</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
   </All_Locations>
   <DropTables>
     <DroptableSummary>
@@ -104,6 +108,12 @@
       <DropTableName>DropTable_AntiqueField_PlayerHouse_3</DropTableName>
       <Locations>
         <string>Harmattan</string>
+      </Locations>
+    </DroptableSummary>
+    <DroptableSummary>
+      <DropTableName>DropTable_Caldera_LootingTools</DropTableName>
+      <Locations>
+        <string>New Sirocco</string>
       </Locations>
     </DroptableSummary>
   </DropTables>

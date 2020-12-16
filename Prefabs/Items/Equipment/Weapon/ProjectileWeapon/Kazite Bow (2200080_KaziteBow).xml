@@ -28,7 +28,7 @@
     <string>Main Weapon</string>
   </Tags>
   <StatsHolder xsi:type="DM_WeaponStats">
-    <BaseValue>250</BaseValue>
+    <BaseValue>200</BaseValue>
     <RawWeight>3</RawWeight>
     <MaxDurability>250</MaxDurability>
     <Damage_Resistance>
@@ -66,6 +66,9 @@
     <Hunger_Affect>1</Hunger_Affect>
     <Thirst_Affect>1</Thirst_Affect>
     <Fatigue_Affect>1</Fatigue_Affect>
+    <BarrierProtection>0</BarrierProtection>
+    <GlobalStatusEffectResistance>0</GlobalStatusEffectResistance>
+    <StaminaRegenModifier>0</StaminaRegenModifier>
     <AttackSpeed>0</AttackSpeed>
     <BaseDamage>
       <Damages>
@@ -192,6 +195,8 @@
           <OverrideCategory>None</OverrideCategory>
           <StatusEffect>Weaken</StatusEffect>
           <Buildup>60</Buildup>
+          <BuildUpMultiplier>1</BuildUpMultiplier>
+          <BypassCounter>false</BypassCounter>
         </DM_Effect>
       </Effects>
       <EffectConditions />
@@ -209,4 +214,5 @@
   <MaxProjectileShots>1</MaxProjectileShots>
   <BaseHealthAbsorbRatio>0</BaseHealthAbsorbRatio>
   <BaseMaxHealthAbsorbRatio>0</BaseMaxHealthAbsorbRatio>
+  <IgnoreHalfResistances>false</IgnoreHalfResistances>
 </DM_Weapon>

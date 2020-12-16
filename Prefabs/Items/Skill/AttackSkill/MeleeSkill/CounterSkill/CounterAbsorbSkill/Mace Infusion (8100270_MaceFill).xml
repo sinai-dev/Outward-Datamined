@@ -34,6 +34,14 @@ Block an elemental attack,  infusing your weapon with that element.</Description
           <ImbueEffect_Preset_ID>207</ImbueEffect_Preset_ID>
           <Imbue_Slot>MainHand</Imbue_Slot>
         </DM_Effect>
+        <DM_Effect xsi:type="DM_AddBoonEffect">
+          <Delay>0</Delay>
+          <SyncType>OwnerSync</SyncType>
+          <OverrideCategory>None</OverrideCategory>
+          <StatusEffect>Bless</StatusEffect>
+          <ChanceToContract>100</ChanceToContract>
+          <AmplifiedEffect>Bless Amplified</AmplifiedEffect>
+        </DM_Effect>
       </Effects>
       <EffectConditions>
         <DM_EffectCondition xsi:type="DM_BooleanCondition">
@@ -53,6 +61,14 @@ Block an elemental attack,  infusing your weapon with that element.</Description
           <Lifespan>180</Lifespan>
           <ImbueEffect_Preset_ID>217</ImbueEffect_Preset_ID>
           <Imbue_Slot>MainHand</Imbue_Slot>
+        </DM_Effect>
+        <DM_Effect xsi:type="DM_AddBoonEffect">
+          <Delay>0</Delay>
+          <SyncType>OwnerSync</SyncType>
+          <OverrideCategory>None</OverrideCategory>
+          <StatusEffect>Warm</StatusEffect>
+          <ChanceToContract>100</ChanceToContract>
+          <AmplifiedEffect>Warm Amplified</AmplifiedEffect>
         </DM_Effect>
       </Effects>
       <EffectConditions>
@@ -74,6 +90,14 @@ Block an elemental attack,  infusing your weapon with that element.</Description
           <ImbueEffect_Preset_ID>218</ImbueEffect_Preset_ID>
           <Imbue_Slot>MainHand</Imbue_Slot>
         </DM_Effect>
+        <DM_Effect xsi:type="DM_AddBoonEffect">
+          <Delay>0</Delay>
+          <SyncType>OwnerSync</SyncType>
+          <OverrideCategory>None</OverrideCategory>
+          <StatusEffect>Cool</StatusEffect>
+          <ChanceToContract>100</ChanceToContract>
+          <AmplifiedEffect>Cool Amplified</AmplifiedEffect>
+        </DM_Effect>
       </Effects>
       <EffectConditions>
         <DM_EffectCondition xsi:type="DM_BooleanCondition">
@@ -94,6 +118,14 @@ Block an elemental attack,  infusing your weapon with that element.</Description
           <ImbueEffect_Preset_ID>208</ImbueEffect_Preset_ID>
           <Imbue_Slot>MainHand</Imbue_Slot>
         </DM_Effect>
+        <DM_Effect xsi:type="DM_AddBoonEffect">
+          <Delay>0</Delay>
+          <SyncType>OwnerSync</SyncType>
+          <OverrideCategory>None</OverrideCategory>
+          <StatusEffect>Mist</StatusEffect>
+          <ChanceToContract>100</ChanceToContract>
+          <AmplifiedEffect>Mist Amplified</AmplifiedEffect>
+        </DM_Effect>
       </Effects>
       <EffectConditions>
         <DM_EffectCondition xsi:type="DM_BooleanCondition">
@@ -113,6 +145,14 @@ Block an elemental attack,  infusing your weapon with that element.</Description
           <Lifespan>180</Lifespan>
           <ImbueEffect_Preset_ID>211</ImbueEffect_Preset_ID>
           <Imbue_Slot>MainHand</Imbue_Slot>
+        </DM_Effect>
+        <DM_Effect xsi:type="DM_AddBoonEffect">
+          <Delay>0</Delay>
+          <SyncType>OwnerSync</SyncType>
+          <OverrideCategory>None</OverrideCategory>
+          <StatusEffect>Possessed</StatusEffect>
+          <ChanceToContract>100</ChanceToContract>
+          <AmplifiedEffect>Possessed Amplified</AmplifiedEffect>
         </DM_Effect>
       </Effects>
       <EffectConditions>
@@ -147,6 +187,8 @@ Block an elemental attack,  infusing your weapon with that element.</Description
   <ManaCost>0</ManaCost>
   <DurabilityCost>5</DurabilityCost>
   <DurabilityCostPercent>0</DurabilityCostPercent>
+  <HealthCost>0</HealthCost>
+  <RequiredPType>Normal</RequiredPType>
   <RequiredItems />
   <AmmunitionTypes />
   <RequiredOffHandTypes />
@@ -155,7 +197,9 @@ Block an elemental attack,  infusing your weapon with that element.</Description
   </RequiredWeaponTypes>
   <RequiredWeaponTags />
   <RequireImbue>false</RequireImbue>
+  <AmmunitionAmount>-1</AmmunitionAmount>
   <Blockable>true</Blockable>
+  <NoWeaponAtkTag>false</NoWeaponAtkTag>
   <Damage>0</Damage>
   <Impact>0</Impact>
   <LinecastCount>0</LinecastCount>

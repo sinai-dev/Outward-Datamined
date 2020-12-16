@@ -64,73 +64,76 @@
     <Hunger_Affect>0</Hunger_Affect>
     <Thirst_Affect>0</Thirst_Affect>
     <Fatigue_Affect>0</Fatigue_Affect>
+    <BarrierProtection>0</BarrierProtection>
+    <GlobalStatusEffectResistance>0</GlobalStatusEffectResistance>
+    <StaminaRegenModifier>0</StaminaRegenModifier>
     <AttackSpeed>1</AttackSpeed>
     <BaseDamage>
       <Damages>
-        <Damage>20</Damage>
+        <Damage>15</Damage>
         <Damage_Type>Physical</Damage_Type>
       </Damages>
       <Damages>
-        <Damage>15</Damage>
+        <Damage>8</Damage>
         <Damage_Type>Frost</Damage_Type>
       </Damages>
       <Damages>
-        <Damage>15</Damage>
+        <Damage>8</Damage>
         <Damage_Type>Fire</Damage_Type>
       </Damages>
     </BaseDamage>
-    <Impact>86</Impact>
+    <Impact>75</Impact>
     <StamCost>1.4</StamCost>
     <AutoGenerateAttackData>false</AutoGenerateAttackData>
     <Attacks>
       <AttackData>
         <StamCost>1.4</StamCost>
-        <Knockback>86</Knockback>
+        <Knockback>75</Knockback>
         <AttackSpeed>1</AttackSpeed>
         <Damage>
           <float>15</float>
-          <float>35</float>
+          <float>15</float>
           <float>0</float>
         </Damage>
       </AttackData>
       <AttackData>
         <StamCost>1.4</StamCost>
-        <Knockback>86</Knockback>
+        <Knockback>75</Knockback>
         <AttackSpeed>1</AttackSpeed>
         <Damage>
           <float>15</float>
           <float>0</float>
-          <float>35</float>
+          <float>15</float>
         </Damage>
       </AttackData>
       <AttackData>
         <StamCost>1.4</StamCost>
-        <Knockback>135</Knockback>
+        <Knockback>115</Knockback>
         <AttackSpeed>1</AttackSpeed>
         <Damage>
           <float>20</float>
-          <float>40</float>
+          <float>20</float>
           <float>0</float>
         </Damage>
       </AttackData>
       <AttackData>
         <StamCost>1.4</StamCost>
-        <Knockback>86</Knockback>
+        <Knockback>75</Knockback>
         <AttackSpeed>1</AttackSpeed>
         <Damage>
-          <float>36.75</float>
-          <float>12.25</float>
-          <float>-1</float>
+          <float>20</float>
+          <float>10</float>
+          <float>0</float>
         </Damage>
       </AttackData>
       <AttackData>
         <StamCost>1.4</StamCost>
-        <Knockback>86</Knockback>
+        <Knockback>75</Knockback>
         <AttackSpeed>1</AttackSpeed>
         <Damage>
-          <float>36.75</float>
-          <float>12.25</float>
-          <float>-1</float>
+          <float>20</float>
+          <float>10</float>
+          <float>0</float>
         </Damage>
       </AttackData>
     </Attacks>
@@ -145,6 +148,8 @@
           <OverrideCategory>None</OverrideCategory>
           <StatusEffect>Cripple</StatusEffect>
           <Buildup>30</Buildup>
+          <BuildUpMultiplier>1</BuildUpMultiplier>
+          <BypassCounter>false</BypassCounter>
         </DM_Effect>
       </Effects>
       <EffectConditions />
@@ -162,4 +167,5 @@
   <MaxProjectileShots>-1</MaxProjectileShots>
   <BaseHealthAbsorbRatio>0</BaseHealthAbsorbRatio>
   <BaseMaxHealthAbsorbRatio>0</BaseMaxHealthAbsorbRatio>
+  <IgnoreHalfResistances>false</IgnoreHalfResistances>
 </DM_Weapon>

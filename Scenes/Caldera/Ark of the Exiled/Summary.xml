@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SceneSummary xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SceneName>Ark of the Exiled</SceneName>
+  <Enemies>
+    <QuantityHolder>
+      <Name>Gargoyle (1)</Name>
+      <Quantity>3</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Calygrey (1)</Name>
+      <Quantity>4</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Scarlet Emissary (1)</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Elder Calygrey (1)</Name>
+      <Quantity>3</Quantity>
+    </QuantityHolder>
+  </Enemies>
+  <Merchants />
+  <Loot_Containers>
+    <QuantityHolder>
+      <Name>Hollowed Trunk</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Junk Pile</Name>
+      <Quantity>4</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Ornate Chest</Name>
+      <Quantity>3</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Calygrey Chest</Name>
+      <Quantity>7</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Scavenger’s Corpse</Name>
+      <Quantity>3</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Corpse</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Worker’s Corpse</Name>
+      <Quantity>2</Quantity>
+    </QuantityHolder>
+  </Loot_Containers>
+  <Gatherables>
+    <QuantityHolder>
+      <Name>Unidentified Ore Vein</Name>
+      <Quantity>2</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Unidentified Molepig den</Name>
+      <Quantity>2</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Unidentified Roots</Name>
+      <Quantity>2</Quantity>
+    </QuantityHolder>
+  </Gatherables>
+  <Item_Spawns />
+  <UniqueContainerList>
+    <string>Hollowed Trunk_btNOObvafEy9TkTCO6yIkA</string>
+    <string>Junk Pile_-dEDtE1qcES6aPTci89fWg</string>
+    <string>Ornate Chest_qnqUEGAJdkmqqueZgGYnIA</string>
+    <string>Calygrey Chest_NFDy-WnKpUuAPeAns80ZGA</string>
+    <string>Scavenger’s Corpse_At_060kTEE2XwvLE-WRS5g</string>
+    <string>Calygrey Chest_GV3N_C8EdEWSUwE1nPLvfg</string>
+    <string>Corpse_5plTLVpHREy8PG1fgIIdWA</string>
+    <string>Worker’s Corpse_SMNc2Gjdj0aOYEHtTkv3Vg</string>
+    <string>Calygrey Chest_btNOObvafEy9TkTCO6yIkA</string>
+    <string>Worker’s Corpse_1C5yO9oE70OCL6ykiFFQAg</string>
+    <string>Calygrey Chest_dZD4b5X1mUW0Ns0vbh53jA</string>
+    <string>Scavenger’s Corpse_wPabgF4Gy0SuVyRim77vlw</string>
+    <string>Junk Pile_clKPRuQYd0euEw3Ju4sKzQ</string>
+    <string>Scavenger’s Corpse_AEurBbRnDEm8EIhN6-Jh8w</string>
+    <string>Calygrey Chest_98r2DsgKrUSp6v3tDmJkRg</string>
+    <string>Calygrey Chest_VwGJ8Kscuku8qNnqZNQzPQ</string>
+    <string>Calygrey Chest_bYFFw61XKUuDZMtEzr_JrQ</string>
+    <string>Junk Pile_VkKVUWfkGkyvZb6xXfE3pg</string>
+  </UniqueContainerList>
+</SceneSummary>

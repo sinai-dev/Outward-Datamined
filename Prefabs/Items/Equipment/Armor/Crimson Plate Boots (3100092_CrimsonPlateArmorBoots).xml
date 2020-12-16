@@ -48,7 +48,7 @@
       <float>0</float>
       <float>0</float>
       <float>0</float>
-      <float>15</float>
+      <float>11</float>
       <float>0</float>
       <float>0</float>
       <float>0</float>
@@ -65,6 +65,9 @@
     <Hunger_Affect>0</Hunger_Affect>
     <Thirst_Affect>0</Thirst_Affect>
     <Fatigue_Affect>0</Fatigue_Affect>
+    <BarrierProtection>0</BarrierProtection>
+    <GlobalStatusEffectResistance>0</GlobalStatusEffectResistance>
+    <StaminaRegenModifier>0</StaminaRegenModifier>
   </StatsHolder>
   <EffectTransforms />
   <EquipSlot>Foot</EquipSlot>

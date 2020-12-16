@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DM_LootContainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Name>Calygrey Chest</Name>
+  <ItemID>1000140</ItemID>
+  <UID>AQRVo16QcES0riO5eCQv8Q</UID>
+  <DropTables>
+    <string>DropTable_Caldera_CustomColosseumGearB</string>
+    <string>DropTable_Neutral_Food_1</string>
+  </DropTables>
+</DM_LootContainer>

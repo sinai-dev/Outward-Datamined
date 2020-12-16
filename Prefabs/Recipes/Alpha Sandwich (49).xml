@@ -4,6 +4,7 @@
   <RecipeID>49</RecipeID>
   <UID />
   <StationType>Cooking</StationType>
+  <RequiredPType>None</RequiredPType>
   <Ingredients>
     <string>Raw Alpha Meat</string>
     <string>Bread</string>

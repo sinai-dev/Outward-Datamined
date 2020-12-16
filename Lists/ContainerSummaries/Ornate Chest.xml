@@ -45,7 +45,7 @@
     </QuantityHolder>
     <QuantityHolder>
       <Name>Other:Unknown Arena</Name>
-      <Quantity>15</Quantity>
+      <Quantity>19</Quantity>
     </QuantityHolder>
     <QuantityHolder>
       <Name>Hallowed Marsh:Jade Quarry</Name>
@@ -151,6 +151,62 @@
       <Name>Antique Plateau:Blood Mage Hideout</Name>
       <Quantity>3</Quantity>
     </QuantityHolder>
+    <QuantityHolder>
+      <Name>Caldera:Caldera</Name>
+      <Quantity>2</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Caldera:Steam Bath Tunnels</Name>
+      <Quantity>4</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Caldera:Sulphuric Caverns</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Caldera:The Eldest Brother</Name>
+      <Quantity>3</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Caldera:Scarlet Sanctuary</Name>
+      <Quantity>5</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Caldera:The Grotto of Chalcedony</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Caldera:Myrmitaur’s Haven</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Caldera:Oil Refinery</Name>
+      <Quantity>3</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Caldera:The Vault of Stone</Name>
+      <Quantity>5</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Caldera:Old Sirocco</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Caldera:Ark of the Exiled</Name>
+      <Quantity>3</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Caldera:Oily Cavern</Name>
+      <Quantity>2</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Caldera:Calygrey Colosseum</Name>
+      <Quantity>3</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Caldera:New Sirocco Mines</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
   </All_Locations>
   <DropTables>
     <DroptableSummary>
@@ -193,6 +249,17 @@
         <string>Crumbling Loading Docks</string>
         <string>Destroyed Test Chambers</string>
         <string>Compromised Mana Transfer Station</string>
+        <string>Steam Bath Tunnels</string>
+        <string>The Eldest Brother</string>
+        <string>Scarlet Sanctuary</string>
+        <string>The Grotto of Chalcedony</string>
+        <string>Myrmitaur’s Haven</string>
+        <string>Oil Refinery</string>
+        <string>The Vault of Stone</string>
+        <string>Old Sirocco</string>
+        <string>Ark of the Exiled</string>
+        <string>Calygrey Colosseum</string>
+        <string>New Sirocco Mines</string>
       </Locations>
     </DroptableSummary>
     <DroptableSummary>
@@ -221,6 +288,15 @@
         <string>Ruined Warehouse</string>
         <string>Crumbling Loading Docks</string>
         <string>Compromised Mana Transfer Station</string>
+        <string>Caldera</string>
+        <string>Steam Bath Tunnels</string>
+        <string>The Eldest Brother</string>
+        <string>Scarlet Sanctuary</string>
+        <string>The Grotto of Chalcedony</string>
+        <string>Myrmitaur’s Haven</string>
+        <string>Oil Refinery</string>
+        <string>The Vault of Stone</string>
+        <string>Calygrey Colosseum</string>
       </Locations>
     </DroptableSummary>
     <DroptableSummary>
@@ -302,6 +378,16 @@
         <string>Ruined Warehouse</string>
         <string>Crumbling Loading Docks</string>
         <string>Destroyed Test Chambers</string>
+        <string>Caldera</string>
+        <string>Steam Bath Tunnels</string>
+        <string>Sulphuric Caverns</string>
+        <string>The Eldest Brother</string>
+        <string>Scarlet Sanctuary</string>
+        <string>The Vault of Stone</string>
+        <string>Old Sirocco</string>
+        <string>Ark of the Exiled</string>
+        <string>Calygrey Colosseum</string>
+        <string>New Sirocco Mines</string>
       </Locations>
     </DroptableSummary>
     <DroptableSummary>
@@ -331,6 +417,16 @@
         <string>Destroyed Test Chambers</string>
         <string>Compromised Mana Transfer Station</string>
         <string>Blood Mage Hideout</string>
+        <string>Caldera</string>
+        <string>Steam Bath Tunnels</string>
+        <string>Sulphuric Caverns</string>
+        <string>Scarlet Sanctuary</string>
+        <string>Oil Refinery</string>
+        <string>The Vault of Stone</string>
+        <string>Old Sirocco</string>
+        <string>Ark of the Exiled</string>
+        <string>Calygrey Colosseum</string>
+        <string>New Sirocco Mines</string>
       </Locations>
     </DroptableSummary>
     <DroptableSummary>
@@ -361,6 +457,7 @@
         <string>Jade Quarry</string>
         <string>Abrassar</string>
         <string>Undercity Passage</string>
+        <string>Scarlet Sanctuary</string>
       </Locations>
     </DroptableSummary>
     <DroptableSummary>
@@ -552,6 +649,7 @@
         <string>Antique Plateau</string>
         <string>Crumbling Loading Docks</string>
         <string>Compromised Mana Transfer Station</string>
+        <string>Scarlet Sanctuary</string>
       </Locations>
     </DroptableSummary>
     <DroptableSummary>
@@ -680,6 +778,111 @@
     </DroptableSummary>
     <DroptableSummary>
       <DropTableName>DropTable_AntiqueField_Bosse_ProudBeast_2</DropTableName>
+      <Locations>
+        <string>Unknown Arena</string>
+      </Locations>
+    </DroptableSummary>
+    <DroptableSummary>
+      <DropTableName>DropTable_Caldera_Equipment_HighDungeon_1</DropTableName>
+      <Locations>
+        <string>Caldera</string>
+        <string>Steam Bath Tunnels</string>
+        <string>Sulphuric Caverns</string>
+        <string>The Eldest Brother</string>
+        <string>Scarlet Sanctuary</string>
+        <string>The Grotto of Chalcedony</string>
+        <string>Myrmitaur’s Haven</string>
+        <string>The Vault of Stone</string>
+        <string>New Sirocco Mines</string>
+      </Locations>
+    </DroptableSummary>
+    <DroptableSummary>
+      <DropTableName>DropTable_Caldera_Alchemy_1</DropTableName>
+      <Locations>
+        <string>Caldera</string>
+        <string>Steam Bath Tunnels</string>
+        <string>Sulphuric Caverns</string>
+        <string>The Eldest Brother</string>
+        <string>Scarlet Sanctuary</string>
+        <string>The Grotto of Chalcedony</string>
+        <string>Myrmitaur’s Haven</string>
+        <string>Oil Refinery</string>
+      </Locations>
+    </DroptableSummary>
+    <DroptableSummary>
+      <DropTableName>DropTable_Caldera_Consumable_1</DropTableName>
+      <Locations>
+        <string>Caldera</string>
+        <string>Steam Bath Tunnels</string>
+        <string>Sulphuric Caverns</string>
+        <string>The Eldest Brother</string>
+        <string>Scarlet Sanctuary</string>
+        <string>The Grotto of Chalcedony</string>
+        <string>Myrmitaur’s Haven</string>
+        <string>The Vault of Stone</string>
+        <string>Old Sirocco</string>
+        <string>Ark of the Exiled</string>
+        <string>Calygrey Colosseum</string>
+        <string>New Sirocco Mines</string>
+      </Locations>
+    </DroptableSummary>
+    <DroptableSummary>
+      <DropTableName>DropTable_Caldera_Recipe_Weapon_1</DropTableName>
+      <Locations>
+        <string>Caldera</string>
+        <string>Steam Bath Tunnels</string>
+        <string>Sulphuric Caverns</string>
+        <string>The Eldest Brother</string>
+        <string>Scarlet Sanctuary</string>
+        <string>The Grotto of Chalcedony</string>
+        <string>Myrmitaur’s Haven</string>
+        <string>Oil Refinery</string>
+        <string>The Vault of Stone</string>
+        <string>Old Sirocco</string>
+        <string>Ark of the Exiled</string>
+        <string>Calygrey Colosseum</string>
+        <string>New Sirocco Mines</string>
+      </Locations>
+    </DroptableSummary>
+    <DroptableSummary>
+      <DropTableName>DropTable_Caldera_Equipment_AstralPart_1</DropTableName>
+      <Locations>
+        <string>Steam Bath Tunnels</string>
+        <string>Sulphuric Caverns</string>
+        <string>The Eldest Brother</string>
+        <string>Scarlet Sanctuary</string>
+        <string>The Grotto of Chalcedony</string>
+        <string>Myrmitaur’s Haven</string>
+        <string>Oil Refinery</string>
+        <string>The Vault of Stone</string>
+        <string>Old Sirocco</string>
+        <string>Ark of the Exiled</string>
+        <string>New Sirocco Mines</string>
+        <string>Calygrey Colosseum</string>
+      </Locations>
+    </DroptableSummary>
+    <DroptableSummary>
+      <DropTableName>DropTable_Caldera_Equipment_WeaponSmoke_1</DropTableName>
+      <Locations>
+        <string>Oil Refinery</string>
+        <string>Ark of the Exiled</string>
+        <string>Calygrey Colosseum</string>
+      </Locations>
+    </DroptableSummary>
+    <DroptableSummary>
+      <DropTableName>DropTable_Caldera_Equipment_High_1</DropTableName>
+      <Locations>
+        <string>The Vault of Stone</string>
+      </Locations>
+    </DroptableSummary>
+    <DroptableSummary>
+      <DropTableName>DropTable_Caldera_Equipment_WeaponDamacean_1</DropTableName>
+      <Locations>
+        <string>Old Sirocco</string>
+      </Locations>
+    </DroptableSummary>
+    <DroptableSummary>
+      <DropTableName>DropTable_Caldera_EliteChestDroptable</DropTableName>
       <Locations>
         <string>Unknown Arena</string>
       </Locations>

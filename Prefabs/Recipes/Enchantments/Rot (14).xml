@@ -66,6 +66,8 @@
         <OverrideCategory>None</OverrideCategory>
         <StatusEffect>Poisoned</StatusEffect>
         <Buildup>55</Buildup>
+        <BuildUpMultiplier>1</BuildUpMultiplier>
+        <BypassCounter>false</BypassCounter>
       </DM_Effect>
     </Effects>
     <AdditionalDamages>
@@ -82,6 +84,7 @@
     <HealthAbsorbRatio>0</HealthAbsorbRatio>
     <ManaAbsorbRatio>0</ManaAbsorbRatio>
     <StaminaAbsorbRatio>0</StaminaAbsorbRatio>
+    <GlobalStatusResistance>0</GlobalStatusResistance>
     <Indescructible>false</Indescructible>
     <TrackDamageRatio>-1</TrackDamageRatio>
   </Result>

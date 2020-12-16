@@ -27,6 +27,46 @@
       <Name>Antique Plateau:Destroyed Test Chambers</Name>
       <Quantity>1</Quantity>
     </QuantityHolder>
+    <QuantityHolder>
+      <Name>Caldera:Caldera</Name>
+      <Quantity>20</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Caldera:Steam Bath Tunnels</Name>
+      <Quantity>2</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Caldera:Sulphuric Caverns</Name>
+      <Quantity>2</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Caldera:The Eldest Brother</Name>
+      <Quantity>2</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Caldera:The Grotto of Chalcedony</Name>
+      <Quantity>3</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Caldera:Myrmitaur’s Haven</Name>
+      <Quantity>2</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Caldera:Oil Refinery</Name>
+      <Quantity>2</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Caldera:The Vault of Stone</Name>
+      <Quantity>2</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Caldera:Old Sirocco</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Caldera:The River of Red</Name>
+      <Quantity>6</Quantity>
+    </QuantityHolder>
   </All_Locations>
   <DropTables>
     <DroptableSummary>
@@ -38,6 +78,16 @@
         <string>Abrassar</string>
         <string>Enmerkar Forest</string>
         <string>Destroyed Test Chambers</string>
+        <string>Caldera</string>
+        <string>Steam Bath Tunnels</string>
+        <string>Sulphuric Caverns</string>
+        <string>The Eldest Brother</string>
+        <string>The Grotto of Chalcedony</string>
+        <string>Myrmitaur’s Haven</string>
+        <string>Oil Refinery</string>
+        <string>The Vault of Stone</string>
+        <string>Old Sirocco</string>
+        <string>The River of Red</string>
       </Locations>
     </DroptableSummary>
   </DropTables>

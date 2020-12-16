@@ -4,6 +4,7 @@
   <RecipeID>345</RecipeID>
   <UID />
   <StationType>Survival</StationType>
+  <RequiredPType>None</RequiredPType>
   <Ingredients>
     <string>Occult Remains</string>
     <string>Horror Chitin</string>
@@ -14,7 +15,7 @@
     <ItemQty>
       <ItemName>Scourge Cocoon</ItemName>
       <ItemID>5000080</ItemID>
-      <Quantity>1</Quantity>
+      <Quantity>2</Quantity>
     </ItemQty>
   </Results>
 </DM_Recipe>

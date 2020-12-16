@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SceneSummary xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SceneName>Calygrey Colosseum</SceneName>
+  <Enemies />
+  <Merchants />
+  <Loot_Containers>
+    <QuantityHolder>
+      <Name>Ornate Chest</Name>
+      <Quantity>3</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Chest</Name>
+      <Quantity>5</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Calygrey Chest</Name>
+      <Quantity>3</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Corpse</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Junk Pile</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+  </Loot_Containers>
+  <Gatherables>
+    <QuantityHolder>
+      <Name>Green Mushroom</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+  </Gatherables>
+  <Item_Spawns />
+  <UniqueContainerList>
+    <string>Ornate Chest_lkWIbkGVSkGzprBW8-oCbg</string>
+    <string>Chest_gCLQ5_RfVUOZgJBABrRraQ</string>
+    <string>Chest_bAOetFD40keq0P2GpanHNA</string>
+    <string>Calygrey Chest_RhUhxFdhtUCtWAfd7woA_w</string>
+    <string>Calygrey Chest_AQRVo16QcES0riO5eCQv8Q</string>
+    <string>Corpse_dLDpQG2OFEGu5fTJIS3E5Q</string>
+    <string>Calygrey Chest_fbOMDsCxKk-WESBeJkCUGw</string>
+    <string>Chest_eUw537RafEeY6epvA22VTQ</string>
+    <string>Ornate Chest_rcoRP3oM6EWC_Osx6An2dA</string>
+    <string>Junk Pile_x82stZru-0OLtcovtIR4pg</string>
+    <string>Chest_zlTMMhCPXkyJqIXRTq5Ujg</string>
+    <string>Ornate Chest_qnqUEGAJdkmqqueZgGYnIA</string>
+    <string>Chest_8gyWbebSOka7pKClOYTmRA</string>
+  </UniqueContainerList>
+</SceneSummary>

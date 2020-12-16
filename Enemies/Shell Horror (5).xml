@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DM_Enemy xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Name>Shell Horror</Name>
+  <GameObject_Name>GargoyleBossMelee</GameObject_Name>
+  <Unique_ID>5</Unique_ID>
+  <Locations_Found>
+    <string>Other:Unknown Arena</string>
+  </Locations_Found>
+  <Max_Health>1700</Max_Health>
+  <Health_Regen_Per_Second>0</Health_Regen_Per_Second>
+  <Impact_Resistance>89</Impact_Resistance>
+  <Protection>
+    <float>10</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+  </Protection>
+  <Damage_Resistances>
+    <float>90</float>
+    <float>-30</float>
+    <float>15</float>
+    <float>30</float>
+    <float>0</float>
+    <float>0</float>
+  </Damage_Resistances>
+  <Damage_Bonuses>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+  </Damage_Bonuses>
+  <Collider_Radius>0.6</Collider_Radius>
+  <NullifyResistances>false</NullifyResistances>
+  <GlobalStatusRes>0</GlobalStatusRes>
+  <BarrierStat>0</BarrierStat>
+  <True_WeaponDamage>
+    <Damages>
+      <Damage>60</Damage>
+      <Damage_Type>Physical</Damage_Type>
+    </Damages>
+  </True_WeaponDamage>
+  <Weapon_Impact>115</Weapon_Impact>
+  <Status_Immunities>
+    <string>Bleeding</string>
+    <string>Poison</string>
+    <string>Confusion</string>
+  </Status_Immunities>
+  <Starting_Equipment>
+    <string>GargoyleWarriorUrn (2400491)</string>
+  </Starting_Equipment>
+  <Skill_Knowledge>
+    <string>GargoyleUrnQuake (8300580)</string>
+    <string>GargoyleSwordSide (8300581)</string>
+    <string>GargoyleToStatue (8300582)</string>
+    <string>GargoyleToAnimated (8300583)</string>
+    <string>Gargoyle Wirl (8300584)</string>
+    <string>GargoyleWirlJump (8300585)</string>
+  </Skill_Knowledge>
+  <Faction>Hounds</Faction>
+  <Allied_To_Same_Faction>true</Allied_To_Same_Faction>
+  <Guaranteed_Drops />
+  <DropTable_Names />
+</DM_Enemy>

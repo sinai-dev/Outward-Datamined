@@ -4,6 +4,7 @@
   <RecipeID>99</RecipeID>
   <UID />
   <StationType>Survival</StationType>
+  <RequiredPType>None</RequiredPType>
   <Ingredients>
     <string>Linen Cloth</string>
     <string>Grilled Crabeye Seed</string>

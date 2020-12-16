@@ -1,4 +1,22 @@
+100	Fulmination
+101	Freedom
+102	Calm Soul
+103	Sang Froid
+104	Contagion
+105	Shelter
+106	Shelter (Helm)
+107	Shelter (Boots)
+108	Etherwave
+109	Levantine Secret
 10	Specter's Wail
+110	Trauma
+111	Telekinesis
+112	Protective Presence
+113	Guided Arm
+114	Tunnel's End
+115	Midnight Dance
+116	Fechtbuch
+117	Inheritance of the Past
 11	Desert's Sun
 12	Winter's Cruelty
 13	Foggy Memories
@@ -94,5 +112,6 @@
 95	Speed and Efficiency
 96	Order and Discipline
 97	Chaos and Creativity
-999	Enchantment_999
+98	Inferno
+99	Molepig Sigh
 9	Scourge's Outbreak

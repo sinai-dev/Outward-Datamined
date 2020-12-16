@@ -146,6 +146,7 @@ Using this skill destroys the lantern.</Description>
                       <Damages_AI />
                       <Knockback>0</Knockback>
                       <HitInventory>true</HitInventory>
+                      <IgnoreHalfResistances>false</IgnoreHalfResistances>
                     </DM_Effect>
                     <DM_Effect xsi:type="DM_AddStatusEffect">
                       <Delay>0</Delay>
@@ -205,6 +206,7 @@ Using this skill destroys the lantern.</Description>
               <Damages_AI />
               <Knockback>60</Knockback>
               <HitInventory>true</HitInventory>
+              <IgnoreHalfResistances>false</IgnoreHalfResistances>
             </DM_Effect>
           </Effects>
           <EffectConditions />
@@ -236,12 +238,15 @@ Using this skill destroys the lantern.</Description>
   <ManaCost>0</ManaCost>
   <DurabilityCost>0</DurabilityCost>
   <DurabilityCostPercent>0</DurabilityCostPercent>
+  <HealthCost>0</HealthCost>
+  <RequiredPType>Normal</RequiredPType>
   <RequiredItems />
   <AmmunitionTypes />
   <RequiredOffHandTypes />
   <RequiredWeaponTypes />
   <RequiredWeaponTags />
   <RequireImbue>false</RequireImbue>
+  <AmmunitionAmount>-1</AmmunitionAmount>
   <ThrowableItemIDs>
     <int>5100000</int>
     <int>5100010</int>

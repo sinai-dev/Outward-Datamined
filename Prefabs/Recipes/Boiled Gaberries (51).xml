@@ -4,6 +4,7 @@
   <RecipeID>51</RecipeID>
   <UID />
   <StationType>Cooking</StationType>
+  <RequiredPType>None</RequiredPType>
   <Ingredients>
     <string>Gaberries</string>
   </Ingredients>

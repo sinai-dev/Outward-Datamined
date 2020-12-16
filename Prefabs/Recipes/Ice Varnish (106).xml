@@ -4,6 +4,7 @@
   <RecipeID>106</RecipeID>
   <UID />
   <StationType>Alchemy</StationType>
+  <RequiredPType>None</RequiredPType>
   <Ingredients>
     <string>Gaberry Wine</string>
     <string>Livweedi</string>

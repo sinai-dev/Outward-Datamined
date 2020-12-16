@@ -23,7 +23,11 @@ Locking on foes is essential with this skill.</Description>
   <MobileCastMovementMult>-1</MobileCastMovementMult>
   <CastSheatheRequired>2</CastSheatheRequired>
   <OverrideSellModifier>-1</OverrideSellModifier>
-  <Tags />
+  <Tags>
+    <string>WeaponSkillAttack</string>
+    <string>AttackType</string>
+    <string>Character Stats</string>
+  </Tags>
   <EffectTransforms>
     <DM_EffectTransform>
       <TransformName>ActivationEffects</TransformName>
@@ -57,7 +61,7 @@ Locking on foes is essential with this skill.</Description>
     <DM_EffectTransform>
       <TransformName>Effects</TransformName>
       <Effects>
-        <DM_Effect xsi:type="DM_ShootProjectile">
+        <DM_Effect xsi:type="DM_ShootProjectileAmmoVisuals">
           <Delay>0</Delay>
           <SyncType>OwnerSync</SyncType>
           <OverrideCategory>None</OverrideCategory>
@@ -116,7 +120,7 @@ Locking on foes is essential with this skill.</Description>
             <DM_EffectTransform>
               <TransformName>HitEffects</TransformName>
               <Effects>
-                <DM_Effect xsi:type="DM_WeaponDamage">
+                <DM_Effect xsi:type="DM_WeaponDamageProjectileWeapon">
                   <Delay>0</Delay>
                   <SyncType>OwnerSync</SyncType>
                   <OverrideCategory>None</OverrideCategory>
@@ -124,6 +128,7 @@ Locking on foes is essential with this skill.</Description>
                   <Damages_AI />
                   <Knockback>0</Knockback>
                   <HitInventory>true</HitInventory>
+                  <IgnoreHalfResistances>false</IgnoreHalfResistances>
                   <OverrideType>Count</OverrideType>
                   <ForceOnlyLeftHand>false</ForceOnlyLeftHand>
                   <Damage_Multiplier>1</Damage_Multiplier>
@@ -140,6 +145,11 @@ Locking on foes is essential with this skill.</Description>
                   <StatusEffect>Cripple</StatusEffect>
                   <ChanceToContract>100</ChanceToContract>
                 </DM_Effect>
+                <DM_Effect xsi:type="DM_PutBackItemVisual">
+                  <Delay>0</Delay>
+                  <SyncType>OwnerSync</SyncType>
+                  <OverrideCategory>None</OverrideCategory>
+                </DM_Effect>
               </Effects>
               <EffectConditions />
               <ChildEffects />
@@ -151,6 +161,8 @@ Locking on foes is essential with this skill.</Description>
           <SyncType>OwnerSync</SyncType>
           <OverrideCategory>None</OverrideCategory>
           <MainHand>true</MainHand>
+          <AutoLoad>false</AutoLoad>
+          <DestroyOnEmpty>true</DestroyOnEmpty>
         </DM_Effect>
       </Effects>
       <EffectConditions />
@@ -162,6 +174,8 @@ Locking on foes is essential with this skill.</Description>
   <ManaCost>0</ManaCost>
   <DurabilityCost>0</DurabilityCost>
   <DurabilityCostPercent>0</DurabilityCostPercent>
+  <HealthCost>0</HealthCost>
+  <RequiredPType>Normal</RequiredPType>
   <RequiredItems />
   <AmmunitionTypes>
     <WeaponType>Arrow</WeaponType>
@@ -172,6 +186,7 @@ Locking on foes is essential with this skill.</Description>
   </RequiredWeaponTypes>
   <RequiredWeaponTags />
   <RequireImbue>false</RequireImbue>
+  <AmmunitionAmount>-1</AmmunitionAmount>
   <AutoLoad>true</AutoLoad>
   <FakeShoot>true</FakeShoot>
   <OverrideAimOffset>true</OverrideAimOffset>

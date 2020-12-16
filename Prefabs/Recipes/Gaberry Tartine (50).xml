@@ -4,6 +4,7 @@
   <RecipeID>50</RecipeID>
   <UID />
   <StationType>Cooking</StationType>
+  <RequiredPType>None</RequiredPType>
   <Ingredients>
     <string>Bread</string>
     <string>Gaberry Jam</string>

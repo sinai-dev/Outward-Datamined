@@ -4,6 +4,7 @@
   <RecipeID>151</RecipeID>
   <UID />
   <StationType>Alchemy</StationType>
+  <RequiredPType>None</RequiredPType>
   <Ingredients>
     <string>Water</string>
     <string>Horror Chitin</string>

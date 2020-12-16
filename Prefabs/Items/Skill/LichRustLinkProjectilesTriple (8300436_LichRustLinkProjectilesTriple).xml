@@ -207,6 +207,7 @@
                           <Damages_AI />
                           <Knockback>40</Knockback>
                           <HitInventory>true</HitInventory>
+                          <IgnoreHalfResistances>false</IgnoreHalfResistances>
                         </DM_Effect>
                         <DM_Effect xsi:type="DM_AddStatusEffectBuildUp">
                           <Delay>0</Delay>
@@ -214,6 +215,8 @@
                           <OverrideCategory>None</OverrideCategory>
                           <StatusEffect>Elemental Vulnerability</StatusEffect>
                           <Buildup>45</Buildup>
+                          <BuildUpMultiplier>1</BuildUpMultiplier>
+                          <BypassCounter>false</BypassCounter>
                         </DM_Effect>
                       </Effects>
                       <EffectConditions />
@@ -249,5 +252,7 @@
   <ManaCost>0</ManaCost>
   <DurabilityCost>0</DurabilityCost>
   <DurabilityCostPercent>0</DurabilityCostPercent>
+  <HealthCost>0</HealthCost>
+  <RequiredPType>Normal</RequiredPType>
   <RequiredItems />
 </DM_Skill>

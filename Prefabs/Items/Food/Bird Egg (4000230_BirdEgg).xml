@@ -7,7 +7,7 @@
   <Description>Large Pearlbird egg that carries a chance of disease when eaten raw.
 
 Eggs provide both health and stamina recovery over time.</Description>
-  <LegacyItemID>-1</LegacyItemID>
+  <LegacyItemID>4300495</LegacyItemID>
   <IsPickable>true</IsPickable>
   <IsUsable>true</IsUsable>
   <QtyRemovedOnUse>1</QtyRemovedOnUse>

@@ -71,6 +71,7 @@
                   <Damages_AI />
                   <Knockback>100</Knockback>
                   <HitInventory>true</HitInventory>
+                  <IgnoreHalfResistances>false</IgnoreHalfResistances>
                 </DM_Effect>
               </Effects>
               <EffectConditions />

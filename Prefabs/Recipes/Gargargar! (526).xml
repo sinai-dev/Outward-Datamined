@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DM_Recipe xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Name>Gargargar!</Name>
+  <RecipeID>526</RecipeID>
+  <UID />
+  <StationType>Survival</StationType>
+  <RequiredPType>Trog</RequiredPType>
+  <Ingredients>
+    <string>Basic Armor</string>
+    <string>Woolshroom</string>
+  </Ingredients>
+  <Results>
+    <ItemQty>
+      <ItemName>Gargargar!</ItemName>
+      <ItemID>3900002</ItemID>
+      <Quantity>1</Quantity>
+    </ItemQty>
+  </Results>
+</DM_Recipe>

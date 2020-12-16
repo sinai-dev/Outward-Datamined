@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LootContainerSummary xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Name>Calygrey Chest</Name>
+  <ItemID>0</ItemID>
+  <All_Locations>
+    <QuantityHolder>
+      <Name>Caldera:Steam Bath Tunnels</Name>
+      <Quantity>4</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Caldera:Ark of the Exiled</Name>
+      <Quantity>7</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Caldera:Calygrey Colosseum</Name>
+      <Quantity>3</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Caldera:Oily Cavern</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+  </All_Locations>
+  <DropTables>
+    <DroptableSummary>
+      <DropTableName>DropTable_Caldera_Equipment_High_1</DropTableName>
+      <Locations>
+        <string>Steam Bath Tunnels</string>
+        <string>Ark of the Exiled</string>
+      </Locations>
+    </DroptableSummary>
+    <DroptableSummary>
+      <DropTableName>DropTable_Caldera_Alchemy_1</DropTableName>
+      <Locations>
+        <string>Steam Bath Tunnels</string>
+        <string>Ark of the Exiled</string>
+      </Locations>
+    </DroptableSummary>
+    <DroptableSummary>
+      <DropTableName>DropTable_Neutral_Magic_Low_2</DropTableName>
+      <Locations>
+        <string>Steam Bath Tunnels</string>
+        <string>Ark of the Exiled</string>
+      </Locations>
+    </DroptableSummary>
+    <DroptableSummary>
+      <DropTableName>DropTable_Caldera_Recipe_Weapon_1</DropTableName>
+      <Locations>
+        <string>Steam Bath Tunnels</string>
+        <string>Ark of the Exiled</string>
+      </Locations>
+    </DroptableSummary>
+    <DroptableSummary>
+      <DropTableName>DropTable_Caldera_BoneTent</DropTableName>
+      <Locations>
+        <string>Steam Bath Tunnels</string>
+        <string>Ark of the Exiled</string>
+        <string>Oily Cavern</string>
+      </Locations>
+    </DroptableSummary>
+    <DroptableSummary>
+      <DropTableName>DropTable_Caldera_Consumable_1</DropTableName>
+      <Locations>
+        <string>Steam Bath Tunnels</string>
+      </Locations>
+    </DroptableSummary>
+    <DroptableSummary>
+      <DropTableName>DropTable_Neutral_Consumable_Low_2</DropTableName>
+      <Locations>
+        <string>Steam Bath Tunnels</string>
+        <string>Ark of the Exiled</string>
+        <string>Oily Cavern</string>
+      </Locations>
+    </DroptableSummary>
+    <DroptableSummary>
+      <DropTableName>DropTable_Neutral_Magic_High_1</DropTableName>
+      <Locations>
+        <string>Steam Bath Tunnels</string>
+      </Locations>
+    </DroptableSummary>
+    <DroptableSummary>
+      <DropTableName>DropTable_Neutral_Alchemy_Low_2</DropTableName>
+      <Locations>
+        <string>Steam Bath Tunnels</string>
+        <string>Ark of the Exiled</string>
+      </Locations>
+    </DroptableSummary>
+    <DroptableSummary>
+      <DropTableName>DropTable_Neutral_Survival_High_1</DropTableName>
+      <Locations>
+        <string>Steam Bath Tunnels</string>
+      </Locations>
+    </DroptableSummary>
+    <DroptableSummary>
+      <DropTableName>DropTable_Neutral_Survival_Low_2</DropTableName>
+      <Locations>
+        <string>Steam Bath Tunnels</string>
+        <string>Ark of the Exiled</string>
+        <string>Oily Cavern</string>
+      </Locations>
+    </DroptableSummary>
+    <DroptableSummary>
+      <DropTableName>DropTable_AntiqueField_Alchemy_1</DropTableName>
+      <Locations>
+        <string>Ark of the Exiled</string>
+      </Locations>
+    </DroptableSummary>
+    <DroptableSummary>
+      <DropTableName>DropTable_Neutral_Alchemy_High_1</DropTableName>
+      <Locations>
+        <string>Ark of the Exiled</string>
+      </Locations>
+    </DroptableSummary>
+    <DroptableSummary>
+      <DropTableName>DropTable_Caldera_CustomColosseumGearA</DropTableName>
+      <Locations>
+        <string>Calygrey Colosseum</string>
+      </Locations>
+    </DroptableSummary>
+    <DroptableSummary>
+      <DropTableName>DropTable_Neutral_Food_1</DropTableName>
+      <Locations>
+        <string>Calygrey Colosseum</string>
+      </Locations>
+    </DroptableSummary>
+    <DroptableSummary>
+      <DropTableName>DropTable_Caldera_CustomColosseumGearB</DropTableName>
+      <Locations>
+        <string>Calygrey Colosseum</string>
+      </Locations>
+    </DroptableSummary>
+    <DroptableSummary>
+      <DropTableName>DropTable_Caldera_CustomColosseumGearC</DropTableName>
+      <Locations>
+        <string>Calygrey Colosseum</string>
+      </Locations>
+    </DroptableSummary>
+    <DroptableSummary>
+      <DropTableName>DropTable_Caldera_Equipment_Medium_1</DropTableName>
+      <Locations>
+        <string>Oily Cavern</string>
+      </Locations>
+    </DroptableSummary>
+    <DroptableSummary>
+      <DropTableName>DropTable_Caldera_Recipe_Basic_1</DropTableName>
+      <Locations>
+        <string>Oily Cavern</string>
+      </Locations>
+    </DroptableSummary>
+  </DropTables>
+</LootContainerSummary>

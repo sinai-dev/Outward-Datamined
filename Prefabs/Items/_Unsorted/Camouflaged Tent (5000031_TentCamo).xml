@@ -20,6 +20,8 @@
   <CastSheatheRequired>1</CastSheatheRequired>
   <OverrideSellModifier>-1</OverrideSellModifier>
   <Tags>
+    <string>Advanced Tent</string>
+    <string>Tent</string>
     <string>Deployable</string>
     <string>Item</string>
   </Tags>

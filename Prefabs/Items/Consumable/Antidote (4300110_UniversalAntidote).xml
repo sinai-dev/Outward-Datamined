@@ -4,9 +4,7 @@
   <saveDir>/Consumable</saveDir>
   <ItemID>4300110</ItemID>
   <Name>Antidote</Name>
-  <Description>Brew that neutralizes most poisons.
-
-Notably, the toxic effect of the Hallowed Marsh’s waters cannot be cured by this potion.</Description>
+  <Description>Brew that neutralizes most poisons.</Description>
   <LegacyItemID>-1</LegacyItemID>
   <IsPickable>true</IsPickable>
   <IsUsable>true</IsUsable>

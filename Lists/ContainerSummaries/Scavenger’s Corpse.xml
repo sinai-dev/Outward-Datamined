@@ -51,6 +51,14 @@
       <Name>Antique Plateau:Wendigo Lair</Name>
       <Quantity>1</Quantity>
     </QuantityHolder>
+    <QuantityHolder>
+      <Name>Caldera:Myrmitaur’s Haven</Name>
+      <Quantity>3</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Caldera:Ark of the Exiled</Name>
+      <Quantity>3</Quantity>
+    </QuantityHolder>
   </All_Locations>
   <DropTables>
     <DroptableSummary>
@@ -91,6 +99,8 @@
         <string>Abandoned Living Quarters</string>
         <string>Crumbling Loading Docks</string>
         <string>Compromised Mana Transfer Station</string>
+        <string>Myrmitaur’s Haven</string>
+        <string>Ark of the Exiled</string>
       </Locations>
     </DroptableSummary>
     <DroptableSummary>
@@ -126,6 +136,7 @@
       <DropTableName>DropTable_Neutral_Magic_Low_2</DropTableName>
       <Locations>
         <string>Forest Hives</string>
+        <string>Ark of the Exiled</string>
       </Locations>
     </DroptableSummary>
     <DroptableSummary>
@@ -176,6 +187,8 @@
         <string>Crumbling Loading Docks</string>
         <string>Destroyed Test Chambers</string>
         <string>Wendigo Lair</string>
+        <string>Myrmitaur’s Haven</string>
+        <string>Ark of the Exiled</string>
       </Locations>
     </DroptableSummary>
     <DroptableSummary>
@@ -189,6 +202,7 @@
       <DropTableName>DropTable_Neutral_Cloth_Rich_1</DropTableName>
       <Locations>
         <string>Ruined Warehouse</string>
+        <string>Myrmitaur’s Haven</string>
       </Locations>
     </DroptableSummary>
     <DroptableSummary>
@@ -203,6 +217,57 @@
       <DropTableName>DropTable_Neutral_Recipe_Dungeon_1</DropTableName>
       <Locations>
         <string>Destroyed Test Chambers</string>
+        <string>Myrmitaur’s Haven</string>
+      </Locations>
+    </DroptableSummary>
+    <DroptableSummary>
+      <DropTableName>DropTable_Caldera_Food_1</DropTableName>
+      <Locations>
+        <string>Myrmitaur’s Haven</string>
+        <string>Ark of the Exiled</string>
+      </Locations>
+    </DroptableSummary>
+    <DroptableSummary>
+      <DropTableName>DropTable_Caldera_Consumable_1</DropTableName>
+      <Locations>
+        <string>Myrmitaur’s Haven</string>
+      </Locations>
+    </DroptableSummary>
+    <DroptableSummary>
+      <DropTableName>DropTable_Caldera_Equipment_Medium_1</DropTableName>
+      <Locations>
+        <string>Myrmitaur’s Haven</string>
+      </Locations>
+    </DroptableSummary>
+    <DroptableSummary>
+      <DropTableName>DropTable_Caldera_Recipe_Basic_1</DropTableName>
+      <Locations>
+        <string>Myrmitaur’s Haven</string>
+        <string>Ark of the Exiled</string>
+      </Locations>
+    </DroptableSummary>
+    <DroptableSummary>
+      <DropTableName>DropTable_Caldera_Alchemy_1</DropTableName>
+      <Locations>
+        <string>Myrmitaur’s Haven</string>
+      </Locations>
+    </DroptableSummary>
+    <DroptableSummary>
+      <DropTableName>DropTable_Neutral_Alchemy_Low_2</DropTableName>
+      <Locations>
+        <string>Ark of the Exiled</string>
+      </Locations>
+    </DroptableSummary>
+    <DroptableSummary>
+      <DropTableName>DropTable_Neutral_Magic_High_1</DropTableName>
+      <Locations>
+        <string>Ark of the Exiled</string>
+      </Locations>
+    </DroptableSummary>
+    <DroptableSummary>
+      <DropTableName>DropTable_Neutral_Consumable_High_1</DropTableName>
+      <Locations>
+        <string>Ark of the Exiled</string>
       </Locations>
     </DroptableSummary>
   </DropTables>

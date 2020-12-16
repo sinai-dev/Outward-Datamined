@@ -4,6 +4,7 @@
   <RecipeID>388</RecipeID>
   <UID />
   <StationType>Alchemy</StationType>
+  <RequiredPType>None</RequiredPType>
   <Ingredients>
     <string>Purifying Quartz</string>
     <string>Tourmaline</string>

@@ -4,6 +4,7 @@
   <RecipeID>108</RecipeID>
   <UID />
   <StationType>Alchemy</StationType>
+  <RequiredPType>None</RequiredPType>
   <Ingredients>
     <string>Water</string>
     <string>Star Mushroom</string>
@@ -13,7 +14,7 @@
     <ItemQty>
       <ItemName>Astral Potion</ItemName>
       <ItemID>4300020</ItemID>
-      <Quantity>3</Quantity>
+      <Quantity>1</Quantity>
     </ItemQty>
   </Results>
 </DM_Recipe>

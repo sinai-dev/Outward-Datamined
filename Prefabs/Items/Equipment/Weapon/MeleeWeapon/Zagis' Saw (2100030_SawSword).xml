@@ -67,6 +67,9 @@ Inflicts Pain on enemies.</Description>
     <Hunger_Affect>0</Hunger_Affect>
     <Thirst_Affect>0</Thirst_Affect>
     <Fatigue_Affect>0</Fatigue_Affect>
+    <BarrierProtection>0</BarrierProtection>
+    <GlobalStatusEffectResistance>0</GlobalStatusEffectResistance>
+    <StaminaRegenModifier>0</StaminaRegenModifier>
     <AttackSpeed>0.8</AttackSpeed>
     <BaseDamage>
       <Damages>
@@ -107,7 +110,7 @@ Inflicts Pain on enemies.</Description>
         <Knockback>52.8</Knockback>
         <AttackSpeed>0.88</AttackSpeed>
         <Damage>
-          <float>44</float>
+          <float>50.6</float>
         </Damage>
       </AttackData>
       <AttackData>
@@ -115,7 +118,7 @@ Inflicts Pain on enemies.</Description>
         <Knockback>52.8</Knockback>
         <AttackSpeed>0.88</AttackSpeed>
         <Damage>
-          <float>44</float>
+          <float>50.6</float>
         </Damage>
       </AttackData>
     </Attacks>
@@ -129,7 +132,9 @@ Inflicts Pain on enemies.</Description>
           <SyncType>OwnerSync</SyncType>
           <OverrideCategory>None</OverrideCategory>
           <StatusEffect>Pain</StatusEffect>
-          <Buildup>60</Buildup>
+          <Buildup>100</Buildup>
+          <BuildUpMultiplier>1</BuildUpMultiplier>
+          <BypassCounter>false</BypassCounter>
         </DM_Effect>
       </Effects>
       <EffectConditions />
@@ -147,4 +152,5 @@ Inflicts Pain on enemies.</Description>
   <MaxProjectileShots>-1</MaxProjectileShots>
   <BaseHealthAbsorbRatio>0</BaseHealthAbsorbRatio>
   <BaseMaxHealthAbsorbRatio>0</BaseMaxHealthAbsorbRatio>
+  <IgnoreHalfResistances>false</IgnoreHalfResistances>
 </DM_Weapon>

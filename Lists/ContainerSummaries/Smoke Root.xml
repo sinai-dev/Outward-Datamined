@@ -35,6 +35,26 @@
       <Name>Enmerkar Forest:Hive Trap</Name>
       <Quantity>3</Quantity>
     </QuantityHolder>
+    <QuantityHolder>
+      <Name>Caldera:Caldera</Name>
+      <Quantity>20</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Caldera:The Eldest Brother</Name>
+      <Quantity>5</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Caldera:Old Sirocco</Name>
+      <Quantity>4</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Caldera:New Sirocco Mines</Name>
+      <Quantity>3</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Caldera:The River of Red</Name>
+      <Quantity>4</Quantity>
+    </QuantityHolder>
   </All_Locations>
   <DropTables>
     <DroptableSummary>
@@ -48,6 +68,11 @@
         <string>Face of the Ancients</string>
         <string>Ancestor’s Resting Place</string>
         <string>Hive Trap</string>
+        <string>Caldera</string>
+        <string>The Eldest Brother</string>
+        <string>Old Sirocco</string>
+        <string>New Sirocco Mines</string>
+        <string>The River of Red</string>
       </Locations>
     </DroptableSummary>
   </DropTables>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DM_Skill xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <gameObjectName>8201050_HauntingBeat</gameObjectName>
+  <saveDir>/Skill</saveDir>
+  <ItemID>8201050</ItemID>
+  <Name>Haunting Beat</Name>
+  <Description>Required: Ghost Drums in inventory.
+
+Deploys the Ghost Drum and causes Haunted in a small radius. There can't be another Totem within 30 meters.</Description>
+  <LegacyItemID>-1</LegacyItemID>
+  <IsPickable>false</IsPickable>
+  <IsUsable>true</IsUsable>
+  <QtyRemovedOnUse>0</QtyRemovedOnUse>
+  <GroupItemInDisplay>false</GroupItemInDisplay>
+  <HasPhysicsWhenWorld>false</HasPhysicsWhenWorld>
+  <RepairedInRest>true</RepairedInRest>
+  <BehaviorOnNoDurability>NotSet</BehaviorOnNoDurability>
+  <CastType>NONE</CastType>
+  <CastModifier>Immobilized</CastModifier>
+  <CastLocomotionEnabled>false</CastLocomotionEnabled>
+  <MobileCastMovementMult>-1</MobileCastMovementMult>
+  <CastSheatheRequired>1</CastSheatheRequired>
+  <OverrideSellModifier>-1</OverrideSellModifier>
+  <Tags>
+    <string>Instrument</string>
+    <string>Deployable</string>
+    <string>Item</string>
+  </Tags>
+  <EffectTransforms>
+    <DM_EffectTransform>
+      <TransformName>AdditionalConditions</TransformName>
+      <Effects />
+      <EffectConditions>
+        <DM_EffectCondition xsi:type="DM_InstrumentClose">
+          <Invert>false</Invert>
+          <MainInstrumentID>5000301</MainInstrumentID>
+          <OtherInstrumentIDs>
+            <int>5000303</int>
+          </OtherInstrumentIDs>
+          <Range>30</Range>
+        </DM_EffectCondition>
+      </EffectConditions>
+      <ChildEffects />
+    </DM_EffectTransform>
+  </EffectTransforms>
+  <Cooldown>120</Cooldown>
+  <StaminaCost>20</StaminaCost>
+  <ManaCost>0</ManaCost>
+  <DurabilityCost>0</DurabilityCost>
+  <DurabilityCostPercent>0</DurabilityCostPercent>
+  <HealthCost>0</HealthCost>
+  <RequiredPType>Normal</RequiredPType>
+  <RequiredItems>
+    <SkillItemReq>
+      <ItemID>5000300</ItemID>
+      <Quantity>1</Quantity>
+      <Consume>true</Consume>
+    </SkillItemReq>
+  </RequiredItems>
+</DM_Skill>

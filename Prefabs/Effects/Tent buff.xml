@@ -11,7 +11,13 @@
   <IgnoreBuildupIfApplied>false</IgnoreBuildupIfApplied>
   <DisplayedInHUD>true</DisplayedInHUD>
   <IsHidden>false</IsHidden>
-  <Tags />
+  <RemoveRequiredStatus>false</RemoveRequiredStatus>
+  <NormalizeDamageDisplay>false</NormalizeDamageDisplay>
+  <IgnoreBarrier>false</IgnoreBarrier>
+  <Tags>
+    <string>WellRested</string>
+    <string>Status Type</string>
+  </Tags>
   <Effects>
     <DM_EffectTransform>
       <TransformName>ActivationEffects</TransformName>

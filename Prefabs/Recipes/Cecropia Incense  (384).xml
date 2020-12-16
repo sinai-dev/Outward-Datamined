@@ -4,6 +4,7 @@
   <RecipeID>384</RecipeID>
   <UID />
   <StationType>Alchemy</StationType>
+  <RequiredPType>None</RequiredPType>
   <Ingredients>
     <string>Dreamer’s Root</string>
     <string>Dreamer’s Root</string>

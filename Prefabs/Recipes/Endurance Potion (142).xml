@@ -4,6 +4,7 @@
   <RecipeID>142</RecipeID>
   <UID />
   <StationType>Alchemy</StationType>
+  <RequiredPType>None</RequiredPType>
   <Ingredients>
     <string>Assassin Tongue</string>
     <string>Cactus Fruit</string>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SceneSummary xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SceneName>The Tower of Regrets</SceneName>
+  <Enemies>
+    <QuantityHolder>
+      <Name>Burning Man (1)</Name>
+      <Quantity>2</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Ghost (5)</Name>
+      <Quantity>3</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Ghost (4)</Name>
+      <Quantity>3</Quantity>
+    </QuantityHolder>
+  </Enemies>
+  <Merchants />
+  <Loot_Containers>
+    <QuantityHolder>
+      <Name>Worker’s Corpse</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Chest</Name>
+      <Quantity>3</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Junk Pile</Name>
+      <Quantity>2</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Knight’s Corpse</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+  </Loot_Containers>
+  <Gatherables>
+    <QuantityHolder>
+      <Name>Green Mushroom</Name>
+      <Quantity>4</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Ableroot</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Palladium vein</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Iron vein</Name>
+      <Quantity>2</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Unidentified Molepig den</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+  </Gatherables>
+  <Item_Spawns />
+  <UniqueContainerList>
+    <string>Worker’s Corpse_l02Q9cMhr0ucI7_1OUbdsA</string>
+    <string>Chest_yrHvZq3370KusmKy4CRMRA</string>
+    <string>Chest_5eJ6xbL8DEudFupJH1x9jw</string>
+    <string>Junk Pile_iBx9EAZYPkWDaJXYly63sA</string>
+    <string>Chest_m0gKmEbB_0GzoAayJ5UnDQ</string>
+    <string>Knight’s Corpse_6rrqnJ0e8E-543vCz36MBw</string>
+    <string>Junk Pile_SbVbFvQMq0KD5qWC5r1Q5Q</string>
+  </UniqueContainerList>
+</SceneSummary>

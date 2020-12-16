@@ -4,6 +4,7 @@
   <RecipeID>340</RecipeID>
   <UID />
   <StationType>Survival</StationType>
+  <RequiredPType>None</RequiredPType>
   <Ingredients>
     <string>Haunted Memory</string>
     <string>Scourge’s Tears</string>

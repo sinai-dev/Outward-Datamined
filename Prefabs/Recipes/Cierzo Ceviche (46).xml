@@ -4,6 +4,7 @@
   <RecipeID>46</RecipeID>
   <UID />
   <StationType>Cooking</StationType>
+  <RequiredPType>None</RequiredPType>
   <Ingredients>
     <string>Raw Rainbow Trout</string>
     <string>Seaweed</string>

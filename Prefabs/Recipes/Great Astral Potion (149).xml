@@ -4,6 +4,7 @@
   <RecipeID>149</RecipeID>
   <UID />
   <StationType>Alchemy</StationType>
+  <RequiredPType>None</RequiredPType>
   <Ingredients>
     <string>Water</string>
     <string>Manticore Tail</string>

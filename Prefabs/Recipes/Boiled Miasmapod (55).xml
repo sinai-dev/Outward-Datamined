@@ -4,6 +4,7 @@
   <RecipeID>55</RecipeID>
   <UID />
   <StationType>Cooking</StationType>
+  <RequiredPType>None</RequiredPType>
   <Ingredients>
     <string>Miasmapod</string>
   </Ingredients>

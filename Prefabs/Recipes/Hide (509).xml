@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DM_Recipe xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Name>Hide</Name>
+  <RecipeID>509</RecipeID>
+  <UID />
+  <StationType>Survival</StationType>
+  <RequiredPType>None</RequiredPType>
+  <Ingredients>
+    <string>Primitive Satchel</string>
+  </Ingredients>
+  <Results>
+    <ItemQty>
+      <ItemName>Hide</ItemName>
+      <ItemID>6600020</ItemID>
+      <Quantity>2</Quantity>
+    </ItemQty>
+  </Results>
+</DM_Recipe>

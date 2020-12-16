@@ -30,7 +30,7 @@
     <string>Consummable</string>
   </Tags>
   <StatsHolder>
-    <BaseValue>8</BaseValue>
+    <BaseValue>15</BaseValue>
     <RawWeight>0.5</RawWeight>
     <MaxDurability>100</MaxDurability>
   </StatsHolder>
@@ -63,7 +63,7 @@
           <SyncType>OwnerSync</SyncType>
           <OverrideCategory>None</OverrideCategory>
           <StatusEffect>Indigestion1</StatusEffect>
-          <ChanceToContract>40</ChanceToContract>
+          <ChanceToContract>100</ChanceToContract>
         </DM_Effect>
       </Effects>
       <EffectConditions />

@@ -9,6 +9,10 @@
         <SpecificItemID>0</SpecificItemID>
         <Type>Generic</Type>
       </IngredientData>
+      <IngredientData>
+        <SpecificItemID>2100030</SpecificItemID>
+        <Type>Specific</Type>
+      </IngredientData>
     </CompatibleEquipments>
     <EquipmentTag>Weapon</EquipmentTag>
   </CompatibleEquipment>
@@ -61,6 +65,8 @@
         <OverrideCategory>None</OverrideCategory>
         <StatusEffect>Burning</StatusEffect>
         <Buildup>30</Buildup>
+        <BuildUpMultiplier>1</BuildUpMultiplier>
+        <BypassCounter>false</BypassCounter>
       </DM_Effect>
       <DM_Effect xsi:type="DM_AddStatusEffectBuildUp">
         <Delay>0</Delay>
@@ -68,6 +74,8 @@
         <OverrideCategory>None</OverrideCategory>
         <StatusEffect>Poisoned</StatusEffect>
         <Buildup>35</Buildup>
+        <BuildUpMultiplier>1</BuildUpMultiplier>
+        <BypassCounter>false</BypassCounter>
       </DM_Effect>
       <DM_Effect xsi:type="DM_AddStatusEffectBuildUp">
         <Delay>0</Delay>
@@ -75,6 +83,8 @@
         <OverrideCategory>None</OverrideCategory>
         <StatusEffect>Poisoned +</StatusEffect>
         <Buildup>20</Buildup>
+        <BuildUpMultiplier>1</BuildUpMultiplier>
+        <BypassCounter>false</BypassCounter>
       </DM_Effect>
     </Effects>
     <AdditionalDamages>
@@ -91,6 +101,7 @@
     <HealthAbsorbRatio>0</HealthAbsorbRatio>
     <ManaAbsorbRatio>0</ManaAbsorbRatio>
     <StaminaAbsorbRatio>0</StaminaAbsorbRatio>
+    <GlobalStatusResistance>0</GlobalStatusResistance>
     <Indescructible>false</Indescructible>
     <TrackDamageRatio>-1</TrackDamageRatio>
   </Result>

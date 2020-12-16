@@ -4,6 +4,7 @@
   <RecipeID>114</RecipeID>
   <UID />
   <StationType>Alchemy</StationType>
+  <RequiredPType>None</RequiredPType>
   <Ingredients>
     <string>Water</string>
     <string>Thick Oil</string>
@@ -12,7 +13,7 @@
     <ItemQty>
       <ItemName>Warm Potion</ItemName>
       <ItemID>4300070</ItemID>
-      <Quantity>3</Quantity>
+      <Quantity>1</Quantity>
     </ItemQty>
   </Results>
 </DM_Recipe>

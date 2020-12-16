@@ -4,6 +4,7 @@
   <RecipeID>15</RecipeID>
   <UID />
   <StationType>Cooking</StationType>
+  <RequiredPType>None</RequiredPType>
   <Ingredients>
     <string>Egg</string>
     <string>Egg</string>

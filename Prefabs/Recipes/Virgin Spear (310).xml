@@ -4,6 +4,7 @@
   <RecipeID>310</RecipeID>
   <UID />
   <StationType>Survival</StationType>
+  <RequiredPType>None</RequiredPType>
   <Ingredients>
     <string>Gold Harpoon</string>
     <string>Palladium Scrap</string>

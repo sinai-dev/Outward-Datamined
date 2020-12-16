@@ -4,6 +4,7 @@
   <RecipeID>175</RecipeID>
   <UID />
   <StationType>Alchemy</StationType>
+  <RequiredPType>None</RequiredPType>
   <Ingredients>
     <string>Blood Mushroom</string>
     <string>Livweedi</string>

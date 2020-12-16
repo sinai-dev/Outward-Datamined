@@ -39,12 +39,13 @@ Does an extra hit for each Elemental Boon active.</Description>
           <Damages_AI />
           <Knockback>0</Knockback>
           <HitInventory>true</HitInventory>
+          <IgnoreHalfResistances>false</IgnoreHalfResistances>
           <OverrideType>Count</OverrideType>
           <ForceOnlyLeftHand>false</ForceOnlyLeftHand>
-          <Damage_Multiplier>1</Damage_Multiplier>
+          <Damage_Multiplier>0.8</Damage_Multiplier>
           <Damage_Multiplier_Kback>-1</Damage_Multiplier_Kback>
           <Damage_Multiplier_Kdown>-1</Damage_Multiplier_Kdown>
-          <Impact_Multiplier>1</Impact_Multiplier>
+          <Impact_Multiplier>0.8</Impact_Multiplier>
           <Impact_Multiplier_Kback>-1</Impact_Multiplier_Kback>
           <Impact_Multiplier_Kdown>-1</Impact_Multiplier_Kdown>
         </DM_Effect>
@@ -87,6 +88,8 @@ Does an extra hit for each Elemental Boon active.</Description>
   <ManaCost>0</ManaCost>
   <DurabilityCost>0</DurabilityCost>
   <DurabilityCostPercent>0</DurabilityCostPercent>
+  <HealthCost>0</HealthCost>
+  <RequiredPType>Normal</RequiredPType>
   <RequiredItems />
   <AmmunitionTypes />
   <RequiredOffHandTypes />
@@ -95,7 +98,9 @@ Does an extra hit for each Elemental Boon active.</Description>
   </RequiredWeaponTypes>
   <RequiredWeaponTags />
   <RequireImbue>false</RequireImbue>
+  <AmmunitionAmount>-1</AmmunitionAmount>
   <Blockable>true</Blockable>
+  <NoWeaponAtkTag>false</NoWeaponAtkTag>
   <Damage>0</Damage>
   <Impact>0</Impact>
   <LinecastCount>0</LinecastCount>

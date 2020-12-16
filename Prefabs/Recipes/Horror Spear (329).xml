@@ -4,6 +4,7 @@
   <RecipeID>329</RecipeID>
   <UID />
   <StationType>Survival</StationType>
+  <RequiredPType>None</RequiredPType>
   <Ingredients>
     <string>Fang Trident</string>
     <string>Horror Chitin</string>

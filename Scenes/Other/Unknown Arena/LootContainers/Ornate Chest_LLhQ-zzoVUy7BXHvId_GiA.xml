@@ -4,6 +4,6 @@
   <ItemID>1000120</ItemID>
   <UID>LLhQ-zzoVUy7BXHvId_GiA</UID>
   <DropTables>
-    <string>DropTable_Neutral_Bosse_TrogQueen_1</string>
+    <string>DropTable_Caldera_EliteChestDroptable</string>
   </DropTables>
 </DM_LootContainer>

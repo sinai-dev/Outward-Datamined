@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LootContainerSummary xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Name>Ambraine</Name>
+  <ItemID>0</ItemID>
+  <All_Locations>
+    <QuantityHolder>
+      <Name>Caldera:Caldera</Name>
+      <Quantity>28</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Caldera:Steam Bath Tunnels</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+  </All_Locations>
+  <DropTables>
+    <DroptableSummary>
+      <DropTableName>DropTable_CalderaPlantCommonAmbraine</DropTableName>
+      <Locations>
+        <string>Caldera</string>
+        <string>Steam Bath Tunnels</string>
+      </Locations>
+    </DroptableSummary>
+  </DropTables>
+</LootContainerSummary>

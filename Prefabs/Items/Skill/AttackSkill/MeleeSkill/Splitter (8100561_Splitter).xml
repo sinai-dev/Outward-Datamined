@@ -1,0 +1,379 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DM_MeleeSkill xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <gameObjectName>8100561_Splitter</gameObjectName>
+  <saveDir>/Skill/AttackSkill/MeleeSkill</saveDir>
+  <ItemID>8100561</ItemID>
+  <Name>Splitter</Name>
+  <Description>Required: Polearm
+
+A leaping strike that increases in power as the enemy's life % decreases, and uses the element infused on the weapon. You will evade all enemy attacks while performing this move.</Description>
+  <LegacyItemID>-1</LegacyItemID>
+  <IsPickable>false</IsPickable>
+  <IsUsable>false</IsUsable>
+  <QtyRemovedOnUse>1</QtyRemovedOnUse>
+  <GroupItemInDisplay>false</GroupItemInDisplay>
+  <HasPhysicsWhenWorld>false</HasPhysicsWhenWorld>
+  <RepairedInRest>true</RepairedInRest>
+  <BehaviorOnNoDurability>NotSet</BehaviorOnNoDurability>
+  <CastType>WeaponSkill2</CastType>
+  <CastModifier>Attack</CastModifier>
+  <CastLocomotionEnabled>false</CastLocomotionEnabled>
+  <MobileCastMovementMult>-1</MobileCastMovementMult>
+  <CastSheatheRequired>2</CastSheatheRequired>
+  <OverrideSellModifier>-1</OverrideSellModifier>
+  <Tags />
+  <EffectTransforms>
+    <DM_EffectTransform>
+      <TransformName>HitEffects</TransformName>
+      <Effects>
+        <DM_Effect xsi:type="DM_WeaponDamageTargetHealth">
+          <Delay>0</Delay>
+          <SyncType>OwnerSync</SyncType>
+          <OverrideCategory>None</OverrideCategory>
+          <Damage>
+            <Damages>
+              <Damage>0</Damage>
+              <Damage_Type>Physical</Damage_Type>
+            </Damages>
+          </Damage>
+          <Damages_AI />
+          <Knockback>0</Knockback>
+          <HitInventory>true</HitInventory>
+          <IgnoreHalfResistances>false</IgnoreHalfResistances>
+          <OverrideType>Count</OverrideType>
+          <ForceOnlyLeftHand>false</ForceOnlyLeftHand>
+          <Damage_Multiplier>1</Damage_Multiplier>
+          <Damage_Multiplier_Kback>-1</Damage_Multiplier_Kback>
+          <Damage_Multiplier_Kdown>-1</Damage_Multiplier_Kdown>
+          <Impact_Multiplier>1.5</Impact_Multiplier>
+          <Impact_Multiplier_Kback>-1</Impact_Multiplier_Kback>
+          <Impact_Multiplier_Kdown>-1</Impact_Multiplier_Kdown>
+          <MultiplierHighLowHP>
+            <x>1</x>
+            <y>6</y>
+          </MultiplierHighLowHP>
+        </DM_Effect>
+      </Effects>
+      <EffectConditions />
+      <ChildEffects />
+    </DM_EffectTransform>
+    <DM_EffectTransform>
+      <TransformName>ActivationEffects</TransformName>
+      <Effects>
+        <DM_Effect xsi:type="DM_PlaySoundEffect">
+          <Delay>0</Delay>
+          <SyncType>OwnerSync</SyncType>
+          <OverrideCategory>None</OverrideCategory>
+          <Sounds>
+            <Sounds>SFX_SKILL_FinishingBlow</Sounds>
+          </Sounds>
+          <Follow>false</Follow>
+          <MinPitch>1</MinPitch>
+          <MaxPitch>1</MaxPitch>
+        </DM_Effect>
+        <DM_Effect xsi:type="DM_PlaySoundEffect">
+          <Delay>0.4</Delay>
+          <SyncType>OwnerSync</SyncType>
+          <OverrideCategory>None</OverrideCategory>
+          <Sounds>
+            <Sounds>SFX_SKILL_SavageStrike</Sounds>
+          </Sounds>
+          <Follow>false</Follow>
+          <MinPitch>1</MinPitch>
+          <MaxPitch>1</MaxPitch>
+        </DM_Effect>
+        <DM_Effect xsi:type="DM_AffectBurntHealth">
+          <Delay>0</Delay>
+          <SyncType>OwnerSync</SyncType>
+          <OverrideCategory>None</OverrideCategory>
+          <AffectQuantity>-5</AffectQuantity>
+          <IsModifier>false</IsModifier>
+        </DM_Effect>
+        <DM_Effect xsi:type="DM_AffectBurntStamina">
+          <Delay>0</Delay>
+          <SyncType>OwnerSync</SyncType>
+          <OverrideCategory>None</OverrideCategory>
+          <AffectQuantity>-5</AffectQuantity>
+          <IsModifier>false</IsModifier>
+        </DM_Effect>
+      </Effects>
+      <EffectConditions />
+      <ChildEffects />
+    </DM_EffectTransform>
+    <DM_EffectTransform>
+      <TransformName>HitEffectsFire</TransformName>
+      <Effects>
+        <DM_Effect xsi:type="DM_PunctualDamage">
+          <Delay>0</Delay>
+          <SyncType>OwnerSync</SyncType>
+          <OverrideCategory>None</OverrideCategory>
+          <Damage>
+            <Damages>
+              <Damage>15</Damage>
+              <Damage_Type>Fire</Damage_Type>
+            </Damages>
+          </Damage>
+          <Damages_AI />
+          <Knockback>0</Knockback>
+          <HitInventory>true</HitInventory>
+          <IgnoreHalfResistances>false</IgnoreHalfResistances>
+        </DM_Effect>
+      </Effects>
+      <EffectConditions>
+        <DM_EffectCondition xsi:type="DM_ImbueEffectORCondition">
+          <Invert>false</Invert>
+          <ImbuePresetIDs>
+            <int>217</int>
+            <int>203</int>
+            <int>202</int>
+          </ImbuePresetIDs>
+          <AnyImbue>false</AnyImbue>
+          <WeaponToCheck>MainHand</WeaponToCheck>
+        </DM_EffectCondition>
+      </EffectConditions>
+      <ChildEffects />
+    </DM_EffectTransform>
+    <DM_EffectTransform>
+      <TransformName>HitEffectsFrost</TransformName>
+      <Effects>
+        <DM_Effect xsi:type="DM_PunctualDamage">
+          <Delay>0</Delay>
+          <SyncType>OwnerSync</SyncType>
+          <OverrideCategory>None</OverrideCategory>
+          <Damage>
+            <Damages>
+              <Damage>15</Damage>
+              <Damage_Type>Frost</Damage_Type>
+            </Damages>
+          </Damage>
+          <Damages_AI />
+          <Knockback>0</Knockback>
+          <HitInventory>true</HitInventory>
+          <IgnoreHalfResistances>false</IgnoreHalfResistances>
+        </DM_Effect>
+      </Effects>
+      <EffectConditions>
+        <DM_EffectCondition xsi:type="DM_ImbueEffectORCondition">
+          <Invert>false</Invert>
+          <ImbuePresetIDs>
+            <int>204</int>
+            <int>205</int>
+            <int>218</int>
+          </ImbuePresetIDs>
+          <AnyImbue>false</AnyImbue>
+          <WeaponToCheck>MainHand</WeaponToCheck>
+        </DM_EffectCondition>
+      </EffectConditions>
+      <ChildEffects />
+    </DM_EffectTransform>
+    <DM_EffectTransform>
+      <TransformName>HitEffectsBolt</TransformName>
+      <Effects>
+        <DM_Effect xsi:type="DM_PunctualDamage">
+          <Delay>0</Delay>
+          <SyncType>OwnerSync</SyncType>
+          <OverrideCategory>None</OverrideCategory>
+          <Damage>
+            <Damages>
+              <Damage>15</Damage>
+              <Damage_Type>Electric</Damage_Type>
+            </Damages>
+          </Damage>
+          <Damages_AI />
+          <Knockback>0</Knockback>
+          <HitInventory>true</HitInventory>
+          <IgnoreHalfResistances>false</IgnoreHalfResistances>
+        </DM_Effect>
+      </Effects>
+      <EffectConditions>
+        <DM_EffectCondition xsi:type="DM_ImbueEffectORCondition">
+          <Invert>false</Invert>
+          <ImbuePresetIDs>
+            <int>219</int>
+            <int>207</int>
+            <int>206</int>
+          </ImbuePresetIDs>
+          <AnyImbue>false</AnyImbue>
+          <WeaponToCheck>MainHand</WeaponToCheck>
+        </DM_EffectCondition>
+      </EffectConditions>
+      <ChildEffects />
+    </DM_EffectTransform>
+    <DM_EffectTransform>
+      <TransformName>HitEffectsEthereal</TransformName>
+      <Effects>
+        <DM_Effect xsi:type="DM_PunctualDamage">
+          <Delay>0</Delay>
+          <SyncType>OwnerSync</SyncType>
+          <OverrideCategory>None</OverrideCategory>
+          <Damage>
+            <Damages>
+              <Damage>15</Damage>
+              <Damage_Type>Ethereal</Damage_Type>
+            </Damages>
+          </Damage>
+          <Damages_AI />
+          <Knockback>0</Knockback>
+          <HitInventory>true</HitInventory>
+          <IgnoreHalfResistances>false</IgnoreHalfResistances>
+        </DM_Effect>
+      </Effects>
+      <EffectConditions>
+        <DM_EffectCondition xsi:type="DM_ImbueEffectORCondition">
+          <Invert>false</Invert>
+          <ImbuePresetIDs>
+            <int>220</int>
+            <int>208</int>
+          </ImbuePresetIDs>
+          <AnyImbue>false</AnyImbue>
+          <WeaponToCheck>MainHand</WeaponToCheck>
+        </DM_EffectCondition>
+      </EffectConditions>
+      <ChildEffects />
+    </DM_EffectTransform>
+    <DM_EffectTransform>
+      <TransformName>HitEffectsWind</TransformName>
+      <Effects>
+        <DM_Effect xsi:type="DM_PunctualDamage">
+          <Delay>0</Delay>
+          <SyncType>OwnerSync</SyncType>
+          <OverrideCategory>None</OverrideCategory>
+          <Damage>
+            <Damages>
+              <Damage>15</Damage>
+              <Damage_Type>Ethereal</Damage_Type>
+            </Damages>
+          </Damage>
+          <Damages_AI />
+          <Knockback>0</Knockback>
+          <HitInventory>true</HitInventory>
+          <IgnoreHalfResistances>false</IgnoreHalfResistances>
+        </DM_Effect>
+      </Effects>
+      <EffectConditions>
+        <DM_EffectCondition xsi:type="DM_ImbueEffectCondition">
+          <Invert>false</Invert>
+          <ImbuePresetID>209</ImbuePresetID>
+          <AnyImbue>false</AnyImbue>
+          <WeaponToCheck>MainHand</WeaponToCheck>
+        </DM_EffectCondition>
+      </EffectConditions>
+      <ChildEffects />
+    </DM_EffectTransform>
+    <DM_EffectTransform>
+      <TransformName>HitEffectsDecay</TransformName>
+      <Effects>
+        <DM_Effect xsi:type="DM_PunctualDamage">
+          <Delay>0</Delay>
+          <SyncType>OwnerSync</SyncType>
+          <OverrideCategory>None</OverrideCategory>
+          <Damage>
+            <Damages>
+              <Damage>15</Damage>
+              <Damage_Type>Decay</Damage_Type>
+            </Damages>
+          </Damage>
+          <Damages_AI />
+          <Knockback>0</Knockback>
+          <HitInventory>true</HitInventory>
+          <IgnoreHalfResistances>false</IgnoreHalfResistances>
+        </DM_Effect>
+      </Effects>
+      <EffectConditions>
+        <DM_EffectCondition xsi:type="DM_ImbueEffectORCondition">
+          <Invert>false</Invert>
+          <ImbuePresetIDs>
+            <int>211</int>
+          </ImbuePresetIDs>
+          <AnyImbue>false</AnyImbue>
+          <WeaponToCheck>MainHand</WeaponToCheck>
+        </DM_EffectCondition>
+      </EffectConditions>
+      <ChildEffects />
+    </DM_EffectTransform>
+    <DM_EffectTransform>
+      <TransformName>HitEffectsPoison</TransformName>
+      <Effects>
+        <DM_Effect xsi:type="DM_PunctualDamage">
+          <Delay>0</Delay>
+          <SyncType>OwnerSync</SyncType>
+          <OverrideCategory>None</OverrideCategory>
+          <Damage>
+            <Damages>
+              <Damage>15</Damage>
+              <Damage_Type>Decay</Damage_Type>
+            </Damages>
+          </Damage>
+          <Damages_AI />
+          <Knockback>0</Knockback>
+          <HitInventory>true</HitInventory>
+          <IgnoreHalfResistances>false</IgnoreHalfResistances>
+        </DM_Effect>
+      </Effects>
+      <EffectConditions>
+        <DM_EffectCondition xsi:type="DM_ImbueEffectORCondition">
+          <Invert>false</Invert>
+          <ImbuePresetIDs>
+            <int>200</int>
+            <int>201</int>
+          </ImbuePresetIDs>
+          <AnyImbue>false</AnyImbue>
+          <WeaponToCheck>MainHand</WeaponToCheck>
+        </DM_EffectCondition>
+      </EffectConditions>
+      <ChildEffects />
+    </DM_EffectTransform>
+    <DM_EffectTransform>
+      <TransformName>HitEffectsLight</TransformName>
+      <Effects>
+        <DM_Effect xsi:type="DM_PunctualDamage">
+          <Delay>0</Delay>
+          <SyncType>OwnerSync</SyncType>
+          <OverrideCategory>None</OverrideCategory>
+          <Damage>
+            <Damages>
+              <Damage>15</Damage>
+              <Damage_Type>Electric</Damage_Type>
+            </Damages>
+          </Damage>
+          <Damages_AI />
+          <Knockback>0</Knockback>
+          <HitInventory>true</HitInventory>
+          <IgnoreHalfResistances>false</IgnoreHalfResistances>
+        </DM_Effect>
+      </Effects>
+      <EffectConditions>
+        <DM_EffectCondition xsi:type="DM_ImbueEffectCondition">
+          <Invert>false</Invert>
+          <ImbuePresetID>221</ImbuePresetID>
+          <AnyImbue>false</AnyImbue>
+          <WeaponToCheck>MainHand</WeaponToCheck>
+        </DM_EffectCondition>
+      </EffectConditions>
+      <ChildEffects />
+    </DM_EffectTransform>
+  </EffectTransforms>
+  <Cooldown>45</Cooldown>
+  <StaminaCost>15</StaminaCost>
+  <ManaCost>0</ManaCost>
+  <DurabilityCost>0</DurabilityCost>
+  <DurabilityCostPercent>10</DurabilityCostPercent>
+  <HealthCost>0</HealthCost>
+  <RequiredPType>Normal</RequiredPType>
+  <RequiredItems />
+  <AmmunitionTypes />
+  <RequiredOffHandTypes />
+  <RequiredWeaponTypes>
+    <WeaponType>Halberd_2H</WeaponType>
+  </RequiredWeaponTypes>
+  <RequiredWeaponTags />
+  <RequireImbue>false</RequireImbue>
+  <AmmunitionAmount>-1</AmmunitionAmount>
+  <Blockable>true</Blockable>
+  <NoWeaponAtkTag>false</NoWeaponAtkTag>
+  <Damage>0</Damage>
+  <Impact>0</Impact>
+  <LinecastCount>0</LinecastCount>
+  <Radius>0</Radius>
+  <Unblockable>false</Unblockable>
+</DM_MeleeSkill>

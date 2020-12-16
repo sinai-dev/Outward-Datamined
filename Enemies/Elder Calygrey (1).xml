@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DM_Enemy xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Name>Elder Calygrey</Name>
+  <GameObject_Name>LionmanHelder</GameObject_Name>
+  <Unique_ID>1</Unique_ID>
+  <Locations_Found>
+    <string>Caldera:Caldera</string>
+    <string>Caldera:Steam Bath Tunnels</string>
+    <string>Caldera:The Grotto of Chalcedony</string>
+    <string>Caldera:Oil Refinery</string>
+    <string>Caldera:Ark of the Exiled</string>
+    <string>Caldera:Oily Cavern</string>
+  </Locations_Found>
+  <Max_Health>550</Max_Health>
+  <Health_Regen_Per_Second>0</Health_Regen_Per_Second>
+  <Impact_Resistance>60</Impact_Resistance>
+  <Protection>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+  </Protection>
+  <Damage_Resistances>
+    <float>25</float>
+    <float>45</float>
+    <float>-30</float>
+    <float>40</float>
+    <float>40</float>
+    <float>0</float>
+  </Damage_Resistances>
+  <Damage_Bonuses>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+  </Damage_Bonuses>
+  <Collider_Radius>0.57</Collider_Radius>
+  <NullifyResistances>false</NullifyResistances>
+  <GlobalStatusRes>0</GlobalStatusRes>
+  <BarrierStat>0</BarrierStat>
+  <True_WeaponDamage>
+    <Damages>
+      <Damage>11</Damage>
+      <Damage_Type>Frost</Damage_Type>
+    </Damages>
+    <Damages>
+      <Damage>11</Damage>
+      <Damage_Type>Electric</Damage_Type>
+    </Damages>
+    <Damages>
+      <Damage>33</Damage>
+      <Damage_Type>Physical</Damage_Type>
+    </Damages>
+  </True_WeaponDamage>
+  <Weapon_Impact>100</Weapon_Impact>
+  <Status_Immunities />
+  <Starting_Equipment>
+    <string>Lionman Frost Staff (2400461)</string>
+  </Starting_Equipment>
+  <Skill_Knowledge>
+    <string>Lion ElderBolt (8300552)</string>
+    <string>LionmanElderBoon (8300551)</string>
+  </Skill_Knowledge>
+  <Faction>Hounds</Faction>
+  <Allied_To_Same_Faction>true</Allied_To_Same_Faction>
+  <Guaranteed_Drops />
+  <DropTable_Names>
+    <string>DropTable_LionmanElder_DLC2</string>
+  </DropTable_Names>
+</DM_Enemy>

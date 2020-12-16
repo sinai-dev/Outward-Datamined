@@ -4,6 +4,7 @@
   <RecipeID>26</RecipeID>
   <UID />
   <StationType>Survival</StationType>
+  <RequiredPType>None</RequiredPType>
   <Ingredients>
     <string>Iron Greataxe</string>
     <string>Predator Bones</string>

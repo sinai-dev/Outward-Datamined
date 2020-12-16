@@ -4,6 +4,7 @@
   <RecipeID>138</RecipeID>
   <UID />
   <StationType>Survival</StationType>
+  <RequiredPType>None</RequiredPType>
   <Ingredients>
     <string>Broken Golem Rapier</string>
     <string>Broken Golem Rapier</string>

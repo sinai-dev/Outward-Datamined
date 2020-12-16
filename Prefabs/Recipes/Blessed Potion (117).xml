@@ -4,6 +4,7 @@
   <RecipeID>117</RecipeID>
   <UID />
   <StationType>Alchemy</StationType>
+  <RequiredPType>None</RequiredPType>
   <Ingredients>
     <string>Water</string>
     <string>Firefly powder</string>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DM_Enemy xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Name>Quartz Beetle</Name>
+  <GameObject_Name>BeetleFrost</GameObject_Name>
+  <Unique_ID>1</Unique_ID>
+  <Locations_Found>
+    <string>Caldera:The Grotto of Chalcedony</string>
+    <string>Caldera:Old Sirocco</string>
+    <string>Caldera:Oily Cavern</string>
+  </Locations_Found>
+  <Max_Health>450</Max_Health>
+  <Health_Regen_Per_Second>0</Health_Regen_Per_Second>
+  <Impact_Resistance>45</Impact_Resistance>
+  <Protection>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+  </Protection>
+  <Damage_Resistances>
+    <float>30</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+    <float>80</float>
+    <float>0</float>
+  </Damage_Resistances>
+  <Damage_Bonuses>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+  </Damage_Bonuses>
+  <Collider_Radius>0.8</Collider_Radius>
+  <NullifyResistances>false</NullifyResistances>
+  <GlobalStatusRes>0</GlobalStatusRes>
+  <BarrierStat>0</BarrierStat>
+  <True_WeaponDamage>
+    <Damages>
+      <Damage>15</Damage>
+      <Damage_Type>Physical</Damage_Type>
+    </Damages>
+    <Damages>
+      <Damage>25</Damage>
+      <Damage_Type>Frost</Damage_Type>
+    </Damages>
+  </True_WeaponDamage>
+  <Weapon_Impact>45</Weapon_Impact>
+  <Status_Immunities />
+  <Starting_Equipment>
+    <string>BeetleFrost Horn (2400450)</string>
+  </Starting_Equipment>
+  <Skill_Knowledge>
+    <string>BeetleFrostCloseSpread (8300540)</string>
+    <string>BeetleFrost Heavy Shot (8300541)</string>
+  </Skill_Knowledge>
+  <Faction>Mercs</Faction>
+  <Allied_To_Same_Faction>true</Allied_To_Same_Faction>
+  <Guaranteed_Drops />
+  <DropTable_Names>
+    <string>DropTable_FrostBeetle_DLC2</string>
+  </DropTable_Names>
+</DM_Enemy>

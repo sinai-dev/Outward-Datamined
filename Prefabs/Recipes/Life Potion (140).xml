@@ -4,6 +4,7 @@
   <RecipeID>140</RecipeID>
   <UID />
   <StationType>Alchemy</StationType>
+  <RequiredPType>None</RequiredPType>
   <Ingredients>
     <string>Phytosaur Horn</string>
     <string>Marshmelon</string>

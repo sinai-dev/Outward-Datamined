@@ -115,6 +115,22 @@
       <Name>Antique Plateau:Troglodyte Warren</Name>
       <Quantity>4</Quantity>
     </QuantityHolder>
+    <QuantityHolder>
+      <Name>Caldera:Steam Bath Tunnels</Name>
+      <Quantity>3</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Caldera:The Grotto of Chalcedony</Name>
+      <Quantity>7</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Caldera:The Vault of Stone</Name>
+      <Quantity>9</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Caldera:The River of Red</Name>
+      <Quantity>3</Quantity>
+    </QuantityHolder>
   </All_Locations>
   <DropTables>
     <DroptableSummary>
@@ -148,6 +164,10 @@
         <string>Abandoned Living Quarters</string>
         <string>Bandit Hideout</string>
         <string>Troglodyte Warren</string>
+        <string>Steam Bath Tunnels</string>
+        <string>The Grotto of Chalcedony</string>
+        <string>The Vault of Stone</string>
+        <string>The River of Red</string>
       </Locations>
     </DroptableSummary>
   </DropTables>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DM_Armor xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <gameObjectName>3100412_MixedMonsterArmorBoot</gameObjectName>
+  <saveDir>/Equipment/Armor</saveDir>
+  <ItemID>3100412</ItemID>
+  <Name>Slayer’s Boots</Name>
+  <Description />
+  <LegacyItemID>-1</LegacyItemID>
+  <IsPickable>true</IsPickable>
+  <IsUsable>false</IsUsable>
+  <QtyRemovedOnUse>1</QtyRemovedOnUse>
+  <GroupItemInDisplay>false</GroupItemInDisplay>
+  <HasPhysicsWhenWorld>false</HasPhysicsWhenWorld>
+  <RepairedInRest>true</RepairedInRest>
+  <BehaviorOnNoDurability>NotSet</BehaviorOnNoDurability>
+  <CastType>NONE</CastType>
+  <CastModifier>Immobilized</CastModifier>
+  <CastLocomotionEnabled>false</CastLocomotionEnabled>
+  <MobileCastMovementMult>-1</MobileCastMovementMult>
+  <CastSheatheRequired>1</CastSheatheRequired>
+  <OverrideSellModifier>-1</OverrideSellModifier>
+  <Tags>
+    <string>Boots</string>
+    <string>Equipment</string>
+    <string>Item</string>
+  </Tags>
+  <StatsHolder xsi:type="DM_EquipmentStats">
+    <BaseValue>250</BaseValue>
+    <RawWeight>4</RawWeight>
+    <MaxDurability>250</MaxDurability>
+    <Damage_Resistance>
+      <float>14</float>
+      <float>0</float>
+      <float>0</float>
+      <float>10</float>
+      <float>0</float>
+      <float>0</float>
+      <float>0</float>
+      <float>0</float>
+      <float>0</float>
+    </Damage_Resistance>
+    <Impact_Resistance>7</Impact_Resistance>
+    <Damage_Protection>0</Damage_Protection>
+    <Damage_Bonus>
+      <float>7</float>
+      <float>0</float>
+      <float>0</float>
+      <float>0</float>
+      <float>0</float>
+      <float>0</float>
+      <float>0</float>
+      <float>0</float>
+      <float>0</float>
+    </Damage_Bonus>
+    <Stamina_Use_Penalty>0</Stamina_Use_Penalty>
+    <Mana_Use_Modifier>0</Mana_Use_Modifier>
+    <Movement_Penalty>0</Movement_Penalty>
+    <Pouch_Bonus>0</Pouch_Bonus>
+    <Heat_Protection>4</Heat_Protection>
+    <Cold_Protection>4</Cold_Protection>
+    <Corruption_Protection>0</Corruption_Protection>
+    <Cooldown_Reduction>-0</Cooldown_Reduction>
+    <Hunger_Affect>0</Hunger_Affect>
+    <Thirst_Affect>0</Thirst_Affect>
+    <Fatigue_Affect>0</Fatigue_Affect>
+    <BarrierProtection>0</BarrierProtection>
+    <GlobalStatusEffectResistance>0</GlobalStatusEffectResistance>
+    <StaminaRegenModifier>0</StaminaRegenModifier>
+  </StatsHolder>
+  <EffectTransforms />
+  <EquipSlot>Foot</EquipSlot>
+  <TwoHandType>None</TwoHandType>
+  <IKType>None</IKType>
+  <VisualDetectabilityAdd>0</VisualDetectabilityAdd>
+  <Class>Light</Class>
+  <GearSoundMaterial>Metal_Armor</GearSoundMaterial>
+  <ImpactSoundMaterial>Metal_Armor</ImpactSoundMaterial>
+</DM_Armor>

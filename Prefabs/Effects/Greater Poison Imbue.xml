@@ -13,6 +13,8 @@
           <OverrideCategory>Hit</OverrideCategory>
           <StatusEffect>Poisoned +</StatusEffect>
           <Buildup>40</Buildup>
+          <BuildUpMultiplier>1</BuildUpMultiplier>
+          <BypassCounter>false</BypassCounter>
         </DM_Effect>
       </Effects>
       <EffectConditions />

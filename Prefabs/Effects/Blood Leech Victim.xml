@@ -11,6 +11,9 @@
   <IgnoreBuildupIfApplied>false</IgnoreBuildupIfApplied>
   <DisplayedInHUD>true</DisplayedInHUD>
   <IsHidden>false</IsHidden>
+  <RemoveRequiredStatus>false</RemoveRequiredStatus>
+  <NormalizeDamageDisplay>false</NormalizeDamageDisplay>
+  <IgnoreBarrier>false</IgnoreBarrier>
   <Tags />
   <Effects>
     <DM_EffectTransform>
@@ -20,9 +23,9 @@
           <Delay>0</Delay>
           <SyncType>OwnerSync</SyncType>
           <OverrideCategory>None</OverrideCategory>
-          <AffectQuantity>-0.5</AffectQuantity>
+          <AffectQuantity>-1</AffectQuantity>
           <IsModifier>true</IsModifier>
-          <AffectQuantityAI>-0.29167</AffectQuantityAI>
+          <AffectQuantityAI>-0.4167</AffectQuantityAI>
         </DM_Effect>
       </Effects>
       <EffectConditions />

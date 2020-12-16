@@ -4,7 +4,7 @@
   <saveDir>/Equipment/Bag</saveDir>
   <ItemID>5300130</ItemID>
   <Name>Strongbox Backpack</Name>
-  <Description>Tough box that protects both the wearer and what’s in carried in it.
+  <Description>Tough box that protects both the wearer and what’s carried in it.
 
 &lt;color=#ff5043&gt;Equipping this backpack slows your dodge.&lt;/color&gt;</Description>
   <LegacyItemID>-1</LegacyItemID>
@@ -64,6 +64,9 @@
     <Hunger_Affect>0</Hunger_Affect>
     <Thirst_Affect>0</Thirst_Affect>
     <Fatigue_Affect>0</Fatigue_Affect>
+    <BarrierProtection>0</BarrierProtection>
+    <GlobalStatusEffectResistance>0</GlobalStatusEffectResistance>
+    <StaminaRegenModifier>0</StaminaRegenModifier>
   </StatsHolder>
   <EffectTransforms />
   <EquipSlot>Back</EquipSlot>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DM_Enemy xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Name>Gastrocin</Name>
+  <GameObject_Name>Slughell</GameObject_Name>
+  <Unique_ID>1</Unique_ID>
+  <Locations_Found>
+    <string>Caldera:Caldera</string>
+    <string>Caldera:Sulphuric Caverns</string>
+    <string>Caldera:The Eldest Brother</string>
+    <string>Caldera:Myrmitaur’s Haven</string>
+  </Locations_Found>
+  <Max_Health>850</Max_Health>
+  <Health_Regen_Per_Second>0</Health_Regen_Per_Second>
+  <Impact_Resistance>80</Impact_Resistance>
+  <Protection>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+  </Protection>
+  <Damage_Resistances>
+    <float>50</float>
+    <float>0</float>
+    <float>80</float>
+    <float>0</float>
+    <float>0</float>
+    <float>40</float>
+  </Damage_Resistances>
+  <Damage_Bonuses>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+  </Damage_Bonuses>
+  <Collider_Radius>0.5</Collider_Radius>
+  <NullifyResistances>false</NullifyResistances>
+  <GlobalStatusRes>0</GlobalStatusRes>
+  <BarrierStat>0</BarrierStat>
+  <True_WeaponDamage />
+  <Weapon_Impact>0</Weapon_Impact>
+  <Status_Immunities />
+  <Starting_Equipment>
+    <string>slugHellShell (2400550)</string>
+  </Starting_Equipment>
+  <Skill_Knowledge>
+    <string>Slughell SpreadShot (8300520)</string>
+    <string>Slughell Hide (8300521)</string>
+    <string>Slughell Hide Close (8300522)</string>
+  </Skill_Knowledge>
+  <Faction>Golden</Faction>
+  <Allied_To_Same_Faction>true</Allied_To_Same_Faction>
+  <Guaranteed_Drops />
+  <DropTable_Names>
+    <string>DropTable_Slughell_DLC2</string>
+  </DropTable_Names>
+</DM_Enemy>

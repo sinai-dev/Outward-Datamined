@@ -4,6 +4,7 @@
   <RecipeID>60</RecipeID>
   <UID />
   <StationType>Cooking</StationType>
+  <RequiredPType>None</RequiredPType>
   <Ingredients>
     <string>Marshmelon</string>
     <string>Marshmelon</string>

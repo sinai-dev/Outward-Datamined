@@ -4,6 +4,7 @@
   <RecipeID>70</RecipeID>
   <UID />
   <StationType>Cooking</StationType>
+  <RequiredPType>None</RequiredPType>
   <Ingredients>
     <string>Woolshroom</string>
     <string>Woolshroom</string>

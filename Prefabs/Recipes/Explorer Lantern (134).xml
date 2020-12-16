@@ -4,6 +4,7 @@
   <RecipeID>134</RecipeID>
   <UID />
   <StationType>Survival</StationType>
+  <RequiredPType>None</RequiredPType>
   <Ingredients>
     <string>Explorer Lantern</string>
     <string>Thick Oil</string>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DM_LootContainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Name>Corpse</Name>
+  <ItemID>1000800</ItemID>
+  <UID>xZMpmw1smUemq-Hqdpx9cg</UID>
+  <DropTables>
+    <string>DropTable_Caldera_Consumable_1</string>
+    <string>DropTable_Neutral_Alchemy_High_1</string>
+    <string>DropTable_Neutral_Magic_Low_2</string>
+    <string>DropTable_Neutral_Valuable_Low_1</string>
+  </DropTables>
+</DM_LootContainer>

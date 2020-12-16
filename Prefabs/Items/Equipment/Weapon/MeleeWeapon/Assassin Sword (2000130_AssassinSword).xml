@@ -28,7 +28,7 @@
     <string>Main Weapon</string>
   </Tags>
   <StatsHolder xsi:type="DM_WeaponStats">
-    <BaseValue>100</BaseValue>
+    <BaseValue>200</BaseValue>
     <RawWeight>2</RawWeight>
     <MaxDurability>125</MaxDurability>
     <Damage_Resistance>
@@ -66,6 +66,9 @@
     <Hunger_Affect>0</Hunger_Affect>
     <Thirst_Affect>0</Thirst_Affect>
     <Fatigue_Affect>0</Fatigue_Affect>
+    <BarrierProtection>0</BarrierProtection>
+    <GlobalStatusEffectResistance>0</GlobalStatusEffectResistance>
+    <StaminaRegenModifier>0</StaminaRegenModifier>
     <AttackSpeed>1</AttackSpeed>
     <BaseDamage>
       <Damages>
@@ -104,8 +107,8 @@
         <Knockback>24.7</Knockback>
         <AttackSpeed>1.1</AttackSpeed>
         <Damage>
-          <float>22.425</float>
-          <float>7.475</float>
+          <float>25.78875</float>
+          <float>8.59625</float>
         </Damage>
       </AttackData>
       <AttackData>
@@ -113,8 +116,8 @@
         <Knockback>20.9</Knockback>
         <AttackSpeed>1.1</AttackSpeed>
         <Damage>
-          <float>18.9749985</float>
-          <float>6.325</float>
+          <float>21.821249</float>
+          <float>7.27375</float>
         </Damage>
       </AttackData>
       <AttackData>
@@ -122,8 +125,8 @@
         <Knockback>20.9</Knockback>
         <AttackSpeed>1.1</AttackSpeed>
         <Damage>
-          <float>18.9749985</float>
-          <float>6.325</float>
+          <float>21.821249</float>
+          <float>7.27375</float>
         </Damage>
       </AttackData>
     </Attacks>
@@ -137,14 +140,18 @@
           <SyncType>OwnerSync</SyncType>
           <OverrideCategory>None</OverrideCategory>
           <StatusEffect>Slow Down</StatusEffect>
-          <Buildup>60</Buildup>
+          <Buildup>45</Buildup>
+          <BuildUpMultiplier>1</BuildUpMultiplier>
+          <BypassCounter>false</BypassCounter>
         </DM_Effect>
         <DM_Effect xsi:type="DM_AddStatusEffectBuildUp">
           <Delay>0</Delay>
           <SyncType>OwnerSync</SyncType>
           <OverrideCategory>None</OverrideCategory>
           <StatusEffect>Bleeding</StatusEffect>
-          <Buildup>45</Buildup>
+          <Buildup>33</Buildup>
+          <BuildUpMultiplier>1</BuildUpMultiplier>
+          <BypassCounter>false</BypassCounter>
         </DM_Effect>
       </Effects>
       <EffectConditions />
@@ -162,4 +169,5 @@
   <MaxProjectileShots>-1</MaxProjectileShots>
   <BaseHealthAbsorbRatio>0</BaseHealthAbsorbRatio>
   <BaseMaxHealthAbsorbRatio>0</BaseMaxHealthAbsorbRatio>
+  <IgnoreHalfResistances>false</IgnoreHalfResistances>
 </DM_Weapon>

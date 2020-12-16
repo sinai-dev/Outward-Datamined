@@ -283,6 +283,66 @@
       <Name>Antique Plateau:Old Harmattan Basement</Name>
       <Quantity>1</Quantity>
     </QuantityHolder>
+    <QuantityHolder>
+      <Name>Caldera:Caldera</Name>
+      <Quantity>5</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Caldera:Steam Bath Tunnels</Name>
+      <Quantity>3</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Caldera:Sulphuric Caverns</Name>
+      <Quantity>3</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Caldera:The Eldest Brother</Name>
+      <Quantity>3</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Caldera:Scarlet Sanctuary</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Caldera:The Grotto of Chalcedony</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Caldera:Oil Refinery</Name>
+      <Quantity>3</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Caldera:The Vault of Stone</Name>
+      <Quantity>6</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Caldera:Old Sirocco</Name>
+      <Quantity>4</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Caldera:Giant’s Sauna</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Caldera:Underside Loading Dock</Name>
+      <Quantity>2</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Caldera:The Tower of Regrets</Name>
+      <Quantity>3</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Caldera:Immaculate’s Refuge</Name>
+      <Quantity>2</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Caldera:Calygrey Colosseum</Name>
+      <Quantity>5</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Caldera:Silkworm’s Refuge</Name>
+      <Quantity>2</Quantity>
+    </QuantityHolder>
   </All_Locations>
   <DropTables>
     <DroptableSummary>
@@ -296,6 +356,7 @@
         <string>Abandoned Living Quarters</string>
         <string>Forgotten Research Laboratory</string>
         <string>Bandit Hideout</string>
+        <string>The Vault of Stone</string>
       </Locations>
     </DroptableSummary>
     <DroptableSummary>
@@ -338,6 +399,13 @@
         <string>Destroyed Test Chambers</string>
         <string>Compromised Mana Transfer Station</string>
         <string>Bandit Hideout</string>
+        <string>Steam Bath Tunnels</string>
+        <string>Sulphuric Caverns</string>
+        <string>Oil Refinery</string>
+        <string>The Vault of Stone</string>
+        <string>Old Sirocco</string>
+        <string>Giant’s Sauna</string>
+        <string>Immaculate’s Refuge</string>
       </Locations>
     </DroptableSummary>
     <DroptableSummary>
@@ -407,6 +475,9 @@
         <string>Compromised Mana Transfer Station</string>
         <string>Abandoned Storage</string>
         <string>Old Harmattan Basement</string>
+        <string>Scarlet Sanctuary</string>
+        <string>Oil Refinery</string>
+        <string>The Vault of Stone</string>
       </Locations>
     </DroptableSummary>
     <DroptableSummary>
@@ -416,6 +487,12 @@
         <string>Forgotten Research Laboratory</string>
         <string>Crumbling Loading Docks</string>
         <string>Bandit Hideout</string>
+        <string>Caldera</string>
+        <string>The Eldest Brother</string>
+        <string>The Grotto of Chalcedony</string>
+        <string>Oil Refinery</string>
+        <string>The Vault of Stone</string>
+        <string>Old Sirocco</string>
       </Locations>
     </DroptableSummary>
     <DroptableSummary>
@@ -454,6 +531,14 @@
         <string>Crumbling Loading Docks</string>
         <string>Destroyed Test Chambers</string>
         <string>Compromised Mana Transfer Station</string>
+        <string>Steam Bath Tunnels</string>
+        <string>Sulphuric Caverns</string>
+        <string>Oil Refinery</string>
+        <string>Underside Loading Dock</string>
+        <string>Calygrey Colosseum</string>
+        <string>The Tower of Regrets</string>
+        <string>Silkworm’s Refuge</string>
+        <string>Immaculate’s Refuge</string>
       </Locations>
     </DroptableSummary>
     <DroptableSummary>
@@ -500,6 +585,7 @@
         <string>Forgotten Research Laboratory</string>
         <string>Destroyed Test Chambers</string>
         <string>Bandit Hideout</string>
+        <string>Oil Refinery</string>
       </Locations>
     </DroptableSummary>
     <DroptableSummary>
@@ -558,6 +644,11 @@
         <string>Ancient Foundry</string>
         <string>Destroyed Test Chambers</string>
         <string>Bandit Hideout</string>
+        <string>Steam Bath Tunnels</string>
+        <string>Sulphuric Caverns</string>
+        <string>The Eldest Brother</string>
+        <string>The Vault of Stone</string>
+        <string>Old Sirocco</string>
       </Locations>
     </DroptableSummary>
     <DroptableSummary>
@@ -576,6 +667,8 @@
         <string>Destroyed Test Chambers</string>
         <string>Bandit Hideout</string>
         <string>Corrupted Cave</string>
+        <string>The Vault of Stone</string>
+        <string>Old Sirocco</string>
       </Locations>
     </DroptableSummary>
     <DroptableSummary>
@@ -634,6 +727,11 @@
         <string>Lost Golem Manufacturing Facility</string>
         <string>Crumbling Loading Docks</string>
         <string>Destroyed Test Chambers</string>
+        <string>Caldera</string>
+        <string>The Vault of Stone</string>
+        <string>Old Sirocco</string>
+        <string>The Tower of Regrets</string>
+        <string>Immaculate’s Refuge</string>
       </Locations>
     </DroptableSummary>
     <DroptableSummary>
@@ -666,6 +764,7 @@
         <string>Destroyed Test Chambers</string>
         <string>Bandit Hideout</string>
         <string>Corrupted Cave</string>
+        <string>The Tower of Regrets</string>
       </Locations>
     </DroptableSummary>
     <DroptableSummary>
@@ -674,6 +773,9 @@
         <string>Heroic Kingdom’s Conflux Path</string>
         <string>Lost Golem Manufacturing Facility</string>
         <string>Old Harmattan Basement</string>
+        <string>Steam Bath Tunnels</string>
+        <string>Old Sirocco</string>
+        <string>The Tower of Regrets</string>
       </Locations>
     </DroptableSummary>
     <DroptableSummary>
@@ -751,6 +853,19 @@
         <string>Lost Golem Manufacturing Facility</string>
         <string>Crumbling Loading Docks</string>
         <string>Compromised Mana Transfer Station</string>
+        <string>Caldera</string>
+        <string>Steam Bath Tunnels</string>
+        <string>Sulphuric Caverns</string>
+        <string>The Eldest Brother</string>
+        <string>The Grotto of Chalcedony</string>
+        <string>Oil Refinery</string>
+        <string>The Vault of Stone</string>
+        <string>Old Sirocco</string>
+        <string>Underside Loading Dock</string>
+        <string>Immaculate’s Refuge</string>
+        <string>Calygrey Colosseum</string>
+        <string>Silkworm’s Refuge</string>
+        <string>The Tower of Regrets</string>
       </Locations>
     </DroptableSummary>
     <DroptableSummary>
@@ -1014,6 +1129,90 @@
       <DropTableName>DropTable_AntiqueField_Dungeon2C</DropTableName>
       <Locations>
         <string>Forgotten Research Laboratory</string>
+      </Locations>
+    </DroptableSummary>
+    <DroptableSummary>
+      <DropTableName>DropTable_Caldera_Equipment_Medium_1</DropTableName>
+      <Locations>
+        <string>Caldera</string>
+        <string>Giant’s Sauna</string>
+      </Locations>
+    </DroptableSummary>
+    <DroptableSummary>
+      <DropTableName>DropTable_Caldera_Consumable_1</DropTableName>
+      <Locations>
+        <string>Caldera</string>
+        <string>Steam Bath Tunnels</string>
+        <string>Sulphuric Caverns</string>
+        <string>The Eldest Brother</string>
+        <string>Scarlet Sanctuary</string>
+        <string>The Grotto of Chalcedony</string>
+        <string>Oil Refinery</string>
+        <string>The Vault of Stone</string>
+        <string>Old Sirocco</string>
+        <string>Giant’s Sauna</string>
+        <string>Underside Loading Dock</string>
+        <string>The Tower of Regrets</string>
+        <string>Immaculate’s Refuge</string>
+        <string>Calygrey Colosseum</string>
+        <string>Silkworm’s Refuge</string>
+      </Locations>
+    </DroptableSummary>
+    <DroptableSummary>
+      <DropTableName>DropTable_Caldera_Alchemy_1</DropTableName>
+      <Locations>
+        <string>Caldera</string>
+        <string>Steam Bath Tunnels</string>
+        <string>Sulphuric Caverns</string>
+        <string>The Eldest Brother</string>
+        <string>Scarlet Sanctuary</string>
+        <string>The Grotto of Chalcedony</string>
+        <string>Oil Refinery</string>
+        <string>The Vault of Stone</string>
+        <string>Old Sirocco</string>
+      </Locations>
+    </DroptableSummary>
+    <DroptableSummary>
+      <DropTableName>DropTable_Caldera_Recipe_Weapon_1</DropTableName>
+      <Locations>
+        <string>Caldera</string>
+        <string>Steam Bath Tunnels</string>
+        <string>Sulphuric Caverns</string>
+        <string>The Eldest Brother</string>
+        <string>Scarlet Sanctuary</string>
+        <string>The Grotto of Chalcedony</string>
+        <string>Oil Refinery</string>
+        <string>The Vault of Stone</string>
+        <string>Old Sirocco</string>
+        <string>Underside Loading Dock</string>
+        <string>The Tower of Regrets</string>
+        <string>Immaculate’s Refuge</string>
+        <string>Calygrey Colosseum</string>
+        <string>Silkworm’s Refuge</string>
+      </Locations>
+    </DroptableSummary>
+    <DroptableSummary>
+      <DropTableName>DropTable_Caldera_Equipment_High_1</DropTableName>
+      <Locations>
+        <string>Steam Bath Tunnels</string>
+        <string>Sulphuric Caverns</string>
+        <string>The Eldest Brother</string>
+        <string>Scarlet Sanctuary</string>
+        <string>The Grotto of Chalcedony</string>
+        <string>Oil Refinery</string>
+        <string>The Vault of Stone</string>
+        <string>Old Sirocco</string>
+        <string>Underside Loading Dock</string>
+        <string>The Tower of Regrets</string>
+        <string>Immaculate’s Refuge</string>
+        <string>Calygrey Colosseum</string>
+        <string>Silkworm’s Refuge</string>
+      </Locations>
+    </DroptableSummary>
+    <DroptableSummary>
+      <DropTableName>DropTable_Caldera_Recipe_Basic_1</DropTableName>
+      <Locations>
+        <string>Giant’s Sauna</string>
       </Locations>
     </DroptableSummary>
   </DropTables>

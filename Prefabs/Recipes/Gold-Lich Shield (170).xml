@@ -4,6 +4,7 @@
   <RecipeID>170</RecipeID>
   <UID />
   <StationType>Survival</StationType>
+  <RequiredPType>None</RequiredPType>
   <Ingredients>
     <string>Gold-Lich Mechanism</string>
     <string>Round Shield</string>

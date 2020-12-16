@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DM_Armor xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <gameObjectName>3100466_MilitiaHelmet_Legacy</gameObjectName>
+  <saveDir>/Equipment/Armor</saveDir>
+  <ItemID>3100466</ItemID>
+  <Name>Vigilante Helm</Name>
+  <Description>A bloody Militia Helm passed down by your ancestors.</Description>
+  <LegacyItemID>-1</LegacyItemID>
+  <IsPickable>true</IsPickable>
+  <IsUsable>false</IsUsable>
+  <QtyRemovedOnUse>1</QtyRemovedOnUse>
+  <GroupItemInDisplay>false</GroupItemInDisplay>
+  <HasPhysicsWhenWorld>false</HasPhysicsWhenWorld>
+  <RepairedInRest>true</RepairedInRest>
+  <BehaviorOnNoDurability>NotSet</BehaviorOnNoDurability>
+  <CastType>NONE</CastType>
+  <CastModifier>Immobilized</CastModifier>
+  <CastLocomotionEnabled>false</CastLocomotionEnabled>
+  <MobileCastMovementMult>-1</MobileCastMovementMult>
+  <CastSheatheRequired>1</CastSheatheRequired>
+  <OverrideSellModifier>-1</OverrideSellModifier>
+  <Tags>
+    <string>Helmet</string>
+    <string>Equipment</string>
+    <string>Item</string>
+    <string>Militia</string>
+    <string>Family</string>
+  </Tags>
+  <StatsHolder xsi:type="DM_EquipmentStats">
+    <BaseValue>450</BaseValue>
+    <RawWeight>5</RawWeight>
+    <MaxDurability>340</MaxDurability>
+    <Damage_Resistance>
+      <float>14</float>
+      <float>0</float>
+      <float>0</float>
+      <float>0</float>
+      <float>0</float>
+      <float>0</float>
+      <float>0</float>
+      <float>0</float>
+      <float>0</float>
+    </Damage_Resistance>
+    <Impact_Resistance>10</Impact_Resistance>
+    <Damage_Protection>1</Damage_Protection>
+    <Damage_Bonus>
+      <float>0</float>
+      <float>0</float>
+      <float>0</float>
+      <float>0</float>
+      <float>0</float>
+      <float>0</float>
+      <float>0</float>
+      <float>0</float>
+      <float>0</float>
+    </Damage_Bonus>
+    <Stamina_Use_Penalty>5</Stamina_Use_Penalty>
+    <Mana_Use_Modifier>5</Mana_Use_Modifier>
+    <Movement_Penalty>2</Movement_Penalty>
+    <Pouch_Bonus>0</Pouch_Bonus>
+    <Heat_Protection>5</Heat_Protection>
+    <Cold_Protection>0</Cold_Protection>
+    <Corruption_Protection>0</Corruption_Protection>
+    <Cooldown_Reduction>-0</Cooldown_Reduction>
+    <Hunger_Affect>0</Hunger_Affect>
+    <Thirst_Affect>0</Thirst_Affect>
+    <Fatigue_Affect>0</Fatigue_Affect>
+    <BarrierProtection>0</BarrierProtection>
+    <GlobalStatusEffectResistance>0</GlobalStatusEffectResistance>
+    <StaminaRegenModifier>0</StaminaRegenModifier>
+  </StatsHolder>
+  <EffectTransforms>
+    <DM_EffectTransform>
+      <TransformName>Effect</TransformName>
+      <Effects>
+        <DM_Effect xsi:type="DM_AffectStatusEffectBuildUpResistance">
+          <Delay>0</Delay>
+          <SyncType>Everyone</SyncType>
+          <OverrideCategory>None</OverrideCategory>
+          <StatusEffectIdentifier>Confusion</StatusEffectIdentifier>
+          <Value>100</Value>
+          <Duration>-1</Duration>
+        </DM_Effect>
+      </Effects>
+      <EffectConditions />
+      <ChildEffects />
+    </DM_EffectTransform>
+  </EffectTransforms>
+  <EquipSlot>Helmet</EquipSlot>
+  <TwoHandType>None</TwoHandType>
+  <IKType>None</IKType>
+  <VisualDetectabilityAdd>0</VisualDetectabilityAdd>
+  <Class>Medium</Class>
+  <GearSoundMaterial>Metal_Armor</GearSoundMaterial>
+  <ImpactSoundMaterial>Metal_Armor</ImpactSoundMaterial>
+</DM_Armor>

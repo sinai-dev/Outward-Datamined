@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DM_DropTable xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Name>DropTable_Caldera_LootingTools</Name>
+  <Guaranteed_Drops>
+    <DropTableEntry>
+      <Item_Name>Mining Pick</Item_Name>
+      <Item_ID>2120050</Item_ID>
+      <Min_Quantity>1</Min_Quantity>
+      <Max_Quantity>1</Max_Quantity>
+    </DropTableEntry>
+    <DropTableEntry>
+      <Item_Name>Fishing Harpoon</Item_Name>
+      <Item_ID>2130130</Item_ID>
+      <Min_Quantity>1</Min_Quantity>
+      <Max_Quantity>1</Max_Quantity>
+    </DropTableEntry>
+    <DropTableEntry>
+      <Item_Name>Improvised Bedroll</Item_Name>
+      <Item_ID>5000020</Item_ID>
+      <Min_Quantity>1</Min_Quantity>
+      <Max_Quantity>1</Max_Quantity>
+    </DropTableEntry>
+  </Guaranteed_Drops>
+  <Random_Tables />
+</DM_DropTable>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DM_Enemy xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Name>Ancient Dweller</Name>
+  <GameObject_Name>AncientDweller</GameObject_Name>
+  <Unique_ID>1</Unique_ID>
+  <Locations_Found>
+    <string>Caldera:Caldera</string>
+    <string>Caldera:The Vault of Stone</string>
+  </Locations_Found>
+  <Max_Health>1200</Max_Health>
+  <Health_Regen_Per_Second>0</Health_Regen_Per_Second>
+  <Impact_Resistance>70</Impact_Resistance>
+  <Protection>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+  </Protection>
+  <Damage_Resistances>
+    <float>35</float>
+    <float>70</float>
+    <float>20</float>
+    <float>-50</float>
+    <float>0</float>
+    <float>0</float>
+  </Damage_Resistances>
+  <Damage_Bonuses>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+  </Damage_Bonuses>
+  <Collider_Radius>0.4</Collider_Radius>
+  <NullifyResistances>false</NullifyResistances>
+  <GlobalStatusRes>0</GlobalStatusRes>
+  <BarrierStat>0</BarrierStat>
+  <True_WeaponDamage>
+    <Damages>
+      <Damage>40</Damage>
+      <Damage_Type>Physical</Damage_Type>
+    </Damages>
+    <Damages>
+      <Damage>0</Damage>
+      <Damage_Type>Ethereal</Damage_Type>
+    </Damages>
+  </True_WeaponDamage>
+  <Weapon_Impact>75</Weapon_Impact>
+  <Status_Immunities>
+    <string>Bleeding</string>
+    <string>Poison</string>
+  </Status_Immunities>
+  <Starting_Equipment>
+    <string>AncientDwellerHook (2400500)</string>
+  </Starting_Equipment>
+  <Skill_Knowledge>
+    <string>AncientDwellerWaile (8300590)</string>
+    <string>AncientDwellerPortal (8300591)</string>
+    <string>AncientDwellerSong (8300592)</string>
+  </Skill_Knowledge>
+  <Faction>Deer</Faction>
+  <Allied_To_Same_Faction>true</Allied_To_Same_Faction>
+  <Guaranteed_Drops />
+  <DropTable_Names>
+    <string>DropTable_AncientDweller_DLC2</string>
+  </DropTable_Names>
+</DM_Enemy>

@@ -39,6 +39,30 @@
       <Name>Antique Plateau:Antique Plateau</Name>
       <Quantity>13</Quantity>
     </QuantityHolder>
+    <QuantityHolder>
+      <Name>Caldera:Caldera</Name>
+      <Quantity>17</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Caldera:Sulphuric Caverns</Name>
+      <Quantity>3</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Caldera:The Eldest Brother</Name>
+      <Quantity>2</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Caldera:Oil Refinery</Name>
+      <Quantity>12</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Caldera:Oily Cavern</Name>
+      <Quantity>3</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Caldera:The River of Red</Name>
+      <Quantity>3</Quantity>
+    </QuantityHolder>
   </All_Locations>
   <DropTables>
     <DroptableSummary>
@@ -53,6 +77,17 @@
         <string>Steakosaur's Burrow</string>
         <string>Abrassar</string>
         <string>Antique Plateau</string>
+      </Locations>
+    </DroptableSummary>
+    <DroptableSummary>
+      <DropTableName>DropTable_OilCaldera</DropTableName>
+      <Locations>
+        <string>Caldera</string>
+        <string>Sulphuric Caverns</string>
+        <string>The Eldest Brother</string>
+        <string>Oil Refinery</string>
+        <string>Oily Cavern</string>
+        <string>The River of Red</string>
       </Locations>
     </DroptableSummary>
   </DropTables>

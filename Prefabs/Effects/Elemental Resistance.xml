@@ -11,6 +11,9 @@
   <IgnoreBuildupIfApplied>false</IgnoreBuildupIfApplied>
   <DisplayedInHUD>true</DisplayedInHUD>
   <IsHidden>false</IsHidden>
+  <RemoveRequiredStatus>false</RemoveRequiredStatus>
+  <NormalizeDamageDisplay>false</NormalizeDamageDisplay>
+  <IgnoreBarrier>false</IgnoreBarrier>
   <Tags />
   <Effects>
     <DM_EffectTransform>
@@ -21,7 +24,7 @@
           <SyncType>OwnerSync</SyncType>
           <OverrideCategory>None</OverrideCategory>
           <Stat_Tag>FrostResistance</Stat_Tag>
-          <AffectQuantity>25</AffectQuantity>
+          <AffectQuantity>20</AffectQuantity>
           <IsModifier>false</IsModifier>
         </DM_Effect>
         <DM_Effect xsi:type="DM_AffectStat">
@@ -29,7 +32,7 @@
           <SyncType>OwnerSync</SyncType>
           <OverrideCategory>None</OverrideCategory>
           <Stat_Tag>FireResistance</Stat_Tag>
-          <AffectQuantity>25</AffectQuantity>
+          <AffectQuantity>20</AffectQuantity>
           <IsModifier>false</IsModifier>
         </DM_Effect>
         <DM_Effect xsi:type="DM_AffectStat">
@@ -37,7 +40,7 @@
           <SyncType>OwnerSync</SyncType>
           <OverrideCategory>None</OverrideCategory>
           <Stat_Tag>ElectricResistance</Stat_Tag>
-          <AffectQuantity>25</AffectQuantity>
+          <AffectQuantity>20</AffectQuantity>
           <IsModifier>false</IsModifier>
         </DM_Effect>
         <DM_Effect xsi:type="DM_AffectStat">
@@ -45,7 +48,7 @@
           <SyncType>OwnerSync</SyncType>
           <OverrideCategory>None</OverrideCategory>
           <Stat_Tag>DecayResistance</Stat_Tag>
-          <AffectQuantity>25</AffectQuantity>
+          <AffectQuantity>20</AffectQuantity>
           <IsModifier>false</IsModifier>
         </DM_Effect>
         <DM_Effect xsi:type="DM_AffectStat">
@@ -53,7 +56,7 @@
           <SyncType>OwnerSync</SyncType>
           <OverrideCategory>None</OverrideCategory>
           <Stat_Tag>EtherealResistance</Stat_Tag>
-          <AffectQuantity>25</AffectQuantity>
+          <AffectQuantity>20</AffectQuantity>
           <IsModifier>false</IsModifier>
         </DM_Effect>
       </Effects>

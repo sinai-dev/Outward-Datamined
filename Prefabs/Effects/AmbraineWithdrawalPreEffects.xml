@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DM_Disease xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <PresetID>669</PresetID>
+  <Identifier>AmbraineWithdrawalPreEffects</Identifier>
+  <Name>Disease: Ambraine Withdrawal</Name>
+  <Description>Stamina Regen [E1V1]%, Status resist [E2V1]%.</Description>
+  <Lifespan>-1</Lifespan>
+  <LengthType>Long</LengthType>
+  <RefreshRate>1</RefreshRate>
+  <BuildupRecoverySpeed>3</BuildupRecoverySpeed>
+  <IgnoreBuildupIfApplied>false</IgnoreBuildupIfApplied>
+  <DisplayedInHUD>false</DisplayedInHUD>
+  <IsHidden>true</IsHidden>
+  <RemoveRequiredStatus>false</RemoveRequiredStatus>
+  <NormalizeDamageDisplay>false</NormalizeDamageDisplay>
+  <IgnoreBarrier>false</IgnoreBarrier>
+  <Tags />
+  <Effects />
+  <DiseaseType>AmbraineWithdrawal</DiseaseType>
+  <AutoHealTime>-1</AutoHealTime>
+  <CanDegenerate>false</CanDegenerate>
+  <DegenerateTime>6</DegenerateTime>
+  <StraightSleepHealTime>-1</StraightSleepHealTime>
+  <CanBeHealedBySleeping>false</CanBeHealedBySleeping>
+</DM_Disease>

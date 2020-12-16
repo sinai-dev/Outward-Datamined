@@ -4,6 +4,7 @@
   <RecipeID>1</RecipeID>
   <UID />
   <StationType>Cooking</StationType>
+  <RequiredPType>None</RequiredPType>
   <Ingredients>
     <string>Salt Water</string>
   </Ingredients>

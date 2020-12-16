@@ -4,6 +4,7 @@
   <RecipeID>174</RecipeID>
   <UID />
   <StationType>Alchemy</StationType>
+  <RequiredPType>None</RequiredPType>
   <Ingredients>
     <string>Grilled Crabeye Seed</string>
     <string>Grilled Crabeye Seed</string>

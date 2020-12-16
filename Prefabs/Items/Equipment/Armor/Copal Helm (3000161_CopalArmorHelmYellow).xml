@@ -40,7 +40,7 @@
       <float>0</float>
     </Damage_Resistance>
     <Impact_Resistance>6</Impact_Resistance>
-    <Damage_Protection>1</Damage_Protection>
+    <Damage_Protection>2</Damage_Protection>
     <Damage_Bonus>
       <float>0</float>
       <float>0</float>
@@ -63,6 +63,9 @@
     <Hunger_Affect>0</Hunger_Affect>
     <Thirst_Affect>0</Thirst_Affect>
     <Fatigue_Affect>0</Fatigue_Affect>
+    <BarrierProtection>0</BarrierProtection>
+    <GlobalStatusEffectResistance>0</GlobalStatusEffectResistance>
+    <StaminaRegenModifier>0</StaminaRegenModifier>
   </StatsHolder>
   <EffectTransforms />
   <EquipSlot>Helmet</EquipSlot>

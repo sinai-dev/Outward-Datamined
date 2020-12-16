@@ -4,6 +4,7 @@
   <RecipeID>376</RecipeID>
   <UID />
   <StationType>Cooking</StationType>
+  <RequiredPType>None</RequiredPType>
   <Ingredients>
     <string>Crawlberry Jam</string>
     <string>Crawlberry Jam</string>

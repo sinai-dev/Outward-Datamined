@@ -21,11 +21,10 @@
   <OverrideSellModifier>-1</OverrideSellModifier>
   <PerishTime>9 Days, 22 Hours, 5 Minutes, 42 Seconds</PerishTime>
   <Tags>
-    <string>Fish</string>
+    <string>Dish</string>
     <string>Food</string>
     <string>Consummable</string>
     <string>Item</string>
-    <string>Dish</string>
     <string>Ration Ingredient</string>
     <string>Ingredient Cook</string>
     <string>Ingredient</string>

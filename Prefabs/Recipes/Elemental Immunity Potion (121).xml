@@ -4,6 +4,7 @@
   <RecipeID>121</RecipeID>
   <UID />
   <StationType>Alchemy</StationType>
+  <RequiredPType>None</RequiredPType>
   <Ingredients>
     <string>Thick Oil</string>
     <string>Azure Shrimp</string>

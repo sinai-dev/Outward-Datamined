@@ -119,6 +119,26 @@
       <Name>Antique Plateau:Bandit Hideout</Name>
       <Quantity>1</Quantity>
     </QuantityHolder>
+    <QuantityHolder>
+      <Name>Caldera:Steam Bath Tunnels</Name>
+      <Quantity>5</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Caldera:Myrmitaur’s Haven</Name>
+      <Quantity>12</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Caldera:The Vault of Stone</Name>
+      <Quantity>3</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Caldera:Oily Cavern</Name>
+      <Quantity>2</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Caldera:The River of Red</Name>
+      <Quantity>2</Quantity>
+    </QuantityHolder>
   </All_Locations>
   <DropTables>
     <DroptableSummary>
@@ -153,6 +173,11 @@
         <string>Troglodyte Warren</string>
         <string>Blood Mage Hideout</string>
         <string>Bandit Hideout</string>
+        <string>Steam Bath Tunnels</string>
+        <string>Myrmitaur’s Haven</string>
+        <string>The Vault of Stone</string>
+        <string>Oily Cavern</string>
+        <string>The River of Red</string>
       </Locations>
     </DroptableSummary>
   </DropTables>

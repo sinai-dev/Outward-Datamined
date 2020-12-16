@@ -4,6 +4,7 @@
   <RecipeID>125</RecipeID>
   <UID />
   <StationType>Alchemy</StationType>
+  <RequiredPType>None</RequiredPType>
   <Ingredients>
     <string>Water</string>
     <string>Raw Jewel Meat</string>

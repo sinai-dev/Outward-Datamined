@@ -28,5 +28,7 @@ Allows the reuse of Pressure Plates after they have been triggered, though they 
   <ManaCost>0</ManaCost>
   <DurabilityCost>0</DurabilityCost>
   <DurabilityCostPercent>0</DurabilityCostPercent>
+  <HealthCost>0</HealthCost>
+  <RequiredPType>Normal</RequiredPType>
   <RequiredItems />
 </DM_Skill>

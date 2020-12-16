@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DM_Blueprint xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <gameObjectName>9400150_WoodCutterLodge_Blueprint</gameObjectName>
+  <saveDir>/Blueprint</saveDir>
+  <ItemID>9400150</ItemID>
+  <Name>Blueprint: - Woodcutter’s Lodge </Name>
+  <Description>A basic Woodcutter’s Lodge.  Provides 4 Wood for the settlement each day.
+----
+Construction requirements
+Funds: 2500
+Stone: 20
+Timber: 50
+Housing: 1
+Funds upkeep: 40 / Day
+Construction:  3 Weeks</Description>
+  <LegacyItemID>-1</LegacyItemID>
+  <IsPickable>true</IsPickable>
+  <IsUsable>true</IsUsable>
+  <QtyRemovedOnUse>1</QtyRemovedOnUse>
+  <GroupItemInDisplay>false</GroupItemInDisplay>
+  <HasPhysicsWhenWorld>false</HasPhysicsWhenWorld>
+  <RepairedInRest>true</RepairedInRest>
+  <BehaviorOnNoDurability>NotSet</BehaviorOnNoDurability>
+  <CastType>NONE</CastType>
+  <CastModifier>Immobilized</CastModifier>
+  <CastLocomotionEnabled>false</CastLocomotionEnabled>
+  <MobileCastMovementMult>-1</MobileCastMovementMult>
+  <CastSheatheRequired>1</CastSheatheRequired>
+  <OverrideSellModifier>-1</OverrideSellModifier>
+  <Tags>
+    <string>Deployable</string>
+    <string>Item</string>
+  </Tags>
+  <StatsHolder>
+    <BaseValue>25</BaseValue>
+    <RawWeight>0.1</RawWeight>
+    <MaxDurability>-1</MaxDurability>
+  </StatsHolder>
+  <EffectTransforms />
+  <DeployableItemID>-1</DeployableItemID>
+  <IsUpgrade>false</IsUpgrade>
+</DM_Blueprint>

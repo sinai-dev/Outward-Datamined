@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SceneSummary xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SceneName>Giant’s Sauna</SceneName>
+  <Enemies />
+  <Merchants>
+    <string>Dolar (YMvgNzX7JEG6PnQdK1Z-Dg)</string>
+  </Merchants>
+  <Loot_Containers>
+    <QuantityHolder>
+      <Name>Chest</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Junk Pile</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+  </Loot_Containers>
+  <Gatherables />
+  <Item_Spawns>
+    <DM_ItemSpawn>
+      <Name>Bed</Name>
+      <Item_ID>5000001</Item_ID>
+      <Quantity>2</Quantity>
+      <positions>
+        <Vector3>
+          <x>1485.058</x>
+          <y>0.288</y>
+          <z>11.122</z>
+        </Vector3>
+        <Vector3>
+          <x>1485.074</x>
+          <y>0.288</y>
+          <z>13.609</z>
+        </Vector3>
+      </positions>
+    </DM_ItemSpawn>
+  </Item_Spawns>
+  <UniqueContainerList>
+    <string>Chest_TkY1azVzTEOeXCPQwD4cRg</string>
+    <string>Junk Pile_Gad5ig_ViEyXDJXxGXo-nA</string>
+  </UniqueContainerList>
+</SceneSummary>

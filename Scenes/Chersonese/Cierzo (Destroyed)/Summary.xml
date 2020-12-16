@@ -4,7 +4,7 @@
   <Enemies>
     <QuantityHolder>
       <Name>Kazite Archer (1)</Name>
-      <Quantity>3</Quantity>
+      <Quantity>2</Quantity>
     </QuantityHolder>
     <QuantityHolder>
       <Name>Kazite Lieutenant (1)</Name>
@@ -30,6 +30,10 @@
       <Name>Rospa the Conqueror (1)</Name>
       <Quantity>1</Quantity>
     </QuantityHolder>
+    <QuantityHolder>
+      <Name>Kazite Archer (2)</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
   </Enemies>
   <Merchants />
   <Loot_Containers>
@@ -49,7 +53,7 @@
   <Gatherables>
     <QuantityHolder>
       <Name>Wood</Name>
-      <Quantity>3</Quantity>
+      <Quantity>1</Quantity>
     </QuantityHolder>
     <QuantityHolder>
       <Name>Gaberries</Name>

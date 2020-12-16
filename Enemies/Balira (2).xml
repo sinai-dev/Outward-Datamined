@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DM_Enemy xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Name>Balira</Name>
+  <GameObject_Name>KrypteiaGuard</GameObject_Name>
+  <Unique_ID>2</Unique_ID>
+  <Locations_Found>
+    <string>Other:Unknown Arena</string>
+  </Locations_Found>
+  <Max_Health>700</Max_Health>
+  <Health_Regen_Per_Second>0</Health_Regen_Per_Second>
+  <Impact_Resistance>50</Impact_Resistance>
+  <Protection>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+  </Protection>
+  <Damage_Resistances>
+    <float>35</float>
+    <float>0</float>
+    <float>-20</float>
+    <float>0</float>
+    <float>40</float>
+    <float>-20</float>
+  </Damage_Resistances>
+  <Damage_Bonuses>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+  </Damage_Bonuses>
+  <Collider_Radius>0.4</Collider_Radius>
+  <NullifyResistances>false</NullifyResistances>
+  <GlobalStatusRes>0</GlobalStatusRes>
+  <BarrierStat>0</BarrierStat>
+  <True_WeaponDamage>
+    <Damages>
+      <Damage>35</Damage>
+      <Damage_Type>Physical</Damage_Type>
+    </Damages>
+  </True_WeaponDamage>
+  <Weapon_Impact>45</Weapon_Impact>
+  <Status_Immunities />
+  <Starting_Equipment>
+    <string>Krypteia Giantkind Halberd (2400530)</string>
+  </Starting_Equipment>
+  <Skill_Knowledge>
+    <string>KrypteiaGuardMoonS (8300670)</string>
+    <string>KrypteiaGuardMine (8300671)</string>
+    <string>Krypteia Grenade (8300672)</string>
+  </Skill_Knowledge>
+  <Faction>Bandits</Faction>
+  <Allied_To_Same_Faction>true</Allied_To_Same_Faction>
+  <Guaranteed_Drops />
+  <DropTable_Names />
+</DM_Enemy>

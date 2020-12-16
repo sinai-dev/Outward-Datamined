@@ -4,6 +4,7 @@
   <RecipeID>189</RecipeID>
   <UID />
   <StationType>Survival</StationType>
+  <RequiredPType>None</RequiredPType>
   <Ingredients>
     <string>Desert Tunic</string>
     <string>Insect Husk</string>

@@ -7,12 +7,17 @@
       <Name>Enmerkar Forest:Enmerkar Forest</Name>
       <Quantity>5</Quantity>
     </QuantityHolder>
+    <QuantityHolder>
+      <Name>Caldera:Caldera</Name>
+      <Quantity>10</Quantity>
+    </QuantityHolder>
   </All_Locations>
   <DropTables>
     <DroptableSummary>
       <DropTableName>DropTable_PetrifiedWood</DropTableName>
       <Locations>
         <string>Enmerkar Forest</string>
+        <string>Caldera</string>
       </Locations>
     </DroptableSummary>
   </DropTables>

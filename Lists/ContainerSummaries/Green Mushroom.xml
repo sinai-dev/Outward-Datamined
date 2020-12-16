@@ -131,6 +131,34 @@
       <Name>Antique Plateau:Immaculate's Camp</Name>
       <Quantity>2</Quantity>
     </QuantityHolder>
+    <QuantityHolder>
+      <Name>Caldera:Steam Bath Tunnels</Name>
+      <Quantity>6</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Caldera:The Grotto of Chalcedony</Name>
+      <Quantity>5</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Caldera:Myrmitaur’s Haven</Name>
+      <Quantity>9</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Caldera:The River of Red</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Caldera:The Tower of Regrets</Name>
+      <Quantity>4</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Caldera:Oily Cavern</Name>
+      <Quantity>4</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Caldera:Calygrey Colosseum</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
   </All_Locations>
   <DropTables>
     <DroptableSummary>
@@ -168,6 +196,13 @@
         <string>Wendigo Lair</string>
         <string>Troglodyte Warren</string>
         <string>Immaculate's Camp</string>
+        <string>Steam Bath Tunnels</string>
+        <string>The Grotto of Chalcedony</string>
+        <string>Myrmitaur’s Haven</string>
+        <string>The River of Red</string>
+        <string>The Tower of Regrets</string>
+        <string>Oily Cavern</string>
+        <string>Calygrey Colosseum</string>
       </Locations>
     </DroptableSummary>
   </DropTables>

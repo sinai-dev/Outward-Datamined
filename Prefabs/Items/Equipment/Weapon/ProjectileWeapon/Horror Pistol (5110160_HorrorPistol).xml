@@ -64,64 +64,67 @@
     <Hunger_Affect>1</Hunger_Affect>
     <Thirst_Affect>1</Thirst_Affect>
     <Fatigue_Affect>1</Fatigue_Affect>
+    <BarrierProtection>0</BarrierProtection>
+    <GlobalStatusEffectResistance>0</GlobalStatusEffectResistance>
+    <StaminaRegenModifier>0</StaminaRegenModifier>
     <AttackSpeed>1</AttackSpeed>
     <BaseDamage>
       <Damages>
-        <Damage>73.5</Damage>
+        <Damage>60.01</Damage>
         <Damage_Type>Physical</Damage_Type>
       </Damages>
       <Damages>
-        <Damage>24.5</Damage>
+        <Damage>24.99</Damage>
         <Damage_Type>Decay</Damage_Type>
       </Damages>
     </BaseDamage>
-    <Impact>67</Impact>
+    <Impact>45</Impact>
     <StamCost>0</StamCost>
     <AutoGenerateAttackData>false</AutoGenerateAttackData>
     <Attacks>
       <AttackData>
         <StamCost>0</StamCost>
-        <Knockback>67</Knockback>
+        <Knockback>45</Knockback>
         <AttackSpeed>1</AttackSpeed>
         <Damage>
-          <float>73.5</float>
-          <float>24.5</float>
+          <float>60.01</float>
+          <float>24.99</float>
         </Damage>
       </AttackData>
       <AttackData>
         <StamCost>0</StamCost>
-        <Knockback>67</Knockback>
+        <Knockback>45</Knockback>
         <AttackSpeed>1</AttackSpeed>
         <Damage>
-          <float>73.5</float>
-          <float>24.5</float>
+          <float>60.01</float>
+          <float>24.99</float>
         </Damage>
       </AttackData>
       <AttackData>
         <StamCost>0</StamCost>
-        <Knockback>67</Knockback>
+        <Knockback>45</Knockback>
         <AttackSpeed>1</AttackSpeed>
         <Damage>
-          <float>73.5</float>
-          <float>24.5</float>
+          <float>60.01</float>
+          <float>24.99</float>
         </Damage>
       </AttackData>
       <AttackData>
         <StamCost>0</StamCost>
-        <Knockback>67</Knockback>
+        <Knockback>45</Knockback>
         <AttackSpeed>1</AttackSpeed>
         <Damage>
-          <float>73.5</float>
-          <float>24.5</float>
+          <float>60.01</float>
+          <float>24.99</float>
         </Damage>
       </AttackData>
       <AttackData>
         <StamCost>0</StamCost>
-        <Knockback>67</Knockback>
+        <Knockback>45</Knockback>
         <AttackSpeed>1</AttackSpeed>
         <Damage>
-          <float>73.5</float>
-          <float>24.5</float>
+          <float>60.01</float>
+          <float>24.99</float>
         </Damage>
       </AttackData>
     </Attacks>
@@ -136,6 +139,8 @@
           <OverrideCategory>None</OverrideCategory>
           <StatusEffect>Poisoned +</StatusEffect>
           <Buildup>90</Buildup>
+          <BuildUpMultiplier>1</BuildUpMultiplier>
+          <BypassCounter>false</BypassCounter>
         </DM_Effect>
       </Effects>
       <EffectConditions />
@@ -153,4 +158,5 @@
   <MaxProjectileShots>1</MaxProjectileShots>
   <BaseHealthAbsorbRatio>0</BaseHealthAbsorbRatio>
   <BaseMaxHealthAbsorbRatio>0</BaseMaxHealthAbsorbRatio>
+  <IgnoreHalfResistances>false</IgnoreHalfResistances>
 </DM_Weapon>

@@ -4,6 +4,7 @@
   <RecipeID>363</RecipeID>
   <UID />
   <StationType>Alchemy</StationType>
+  <RequiredPType>None</RequiredPType>
   <Ingredients>
     <string>Water</string>
     <string>Boozu’s Hide</string>

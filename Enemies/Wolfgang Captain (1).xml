@@ -34,6 +34,9 @@
     <float>0</float>
   </Damage_Bonuses>
   <Collider_Radius>0.4</Collider_Radius>
+  <NullifyResistances>false</NullifyResistances>
+  <GlobalStatusRes>0</GlobalStatusRes>
+  <BarrierStat>0</BarrierStat>
   <True_WeaponDamage>
     <Damages>
       <Damage>42</Damage>
@@ -47,7 +50,7 @@
   </Starting_Equipment>
   <Skill_Knowledge>
     <string>WolfMerceneryRunicShield (8300340)</string>
-    <string>WolfMerceneryRunicShield (8300341)</string>
+    <string>WolfMerceneryRunicHeal (8300341)</string>
     <string>WolfMerceneryRunicProjectile (8300342)</string>
     <string>Wolf Mercenery Fal (8300343)</string>
     <string>WolfMerceneryFalProjectile (8300344)</string>

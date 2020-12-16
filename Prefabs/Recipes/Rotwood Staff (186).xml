@@ -4,6 +4,7 @@
   <RecipeID>186</RecipeID>
   <UID />
   <StationType>Survival</StationType>
+  <RequiredPType>None</RequiredPType>
   <Ingredients>
     <string>Compasswood Staff</string>
     <string>Blue Sand</string>

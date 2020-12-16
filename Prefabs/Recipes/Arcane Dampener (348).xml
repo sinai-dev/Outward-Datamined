@@ -4,6 +4,7 @@
   <RecipeID>348</RecipeID>
   <UID />
   <StationType>Survival</StationType>
+  <RequiredPType>None</RequiredPType>
   <Ingredients>
     <string>Dreamer’s Root</string>
     <string>Crystal Powder</string>

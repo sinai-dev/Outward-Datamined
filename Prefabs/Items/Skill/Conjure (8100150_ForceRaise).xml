@@ -76,6 +76,7 @@
                       <Damages_AI />
                       <Knockback>200</Knockback>
                       <HitInventory>true</HitInventory>
+                      <IgnoreHalfResistances>false</IgnoreHalfResistances>
                     </DM_Effect>
                   </Effects>
                   <EffectConditions />
@@ -111,6 +112,8 @@
                 <y>0</y>
                 <z>0</z>
               </Offset>
+              <ProximityAngle>-1</ProximityAngle>
+              <OrMode>false</OrMode>
             </DM_EffectCondition>
           </EffectConditions>
           <ChildEffects />
@@ -184,6 +187,8 @@
                 <y>0</y>
                 <z>0</z>
               </Offset>
+              <ProximityAngle>-1</ProximityAngle>
+              <OrMode>false</OrMode>
             </DM_EffectCondition>
           </EffectConditions>
           <ChildEffects />
@@ -364,6 +369,7 @@
                               <Damages_AI />
                               <Knockback>10</Knockback>
                               <HitInventory>true</HitInventory>
+                              <IgnoreHalfResistances>false</IgnoreHalfResistances>
                             </DM_Effect>
                           </Effects>
                           <EffectConditions />
@@ -401,6 +407,8 @@
                 <y>0</y>
                 <z>0</z>
               </Offset>
+              <ProximityAngle>-1</ProximityAngle>
+              <OrMode>false</OrMode>
             </DM_EffectCondition>
           </EffectConditions>
           <ChildEffects />
@@ -413,5 +421,7 @@
   <ManaCost>10</ManaCost>
   <DurabilityCost>0</DurabilityCost>
   <DurabilityCostPercent>0</DurabilityCostPercent>
+  <HealthCost>0</HealthCost>
+  <RequiredPType>Normal</RequiredPType>
   <RequiredItems />
 </DM_Skill>

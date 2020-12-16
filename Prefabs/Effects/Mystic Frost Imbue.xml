@@ -20,6 +20,7 @@
           <Damages_AI />
           <Knockback>0</Knockback>
           <HitInventory>true</HitInventory>
+          <IgnoreHalfResistances>false</IgnoreHalfResistances>
           <OverrideType>Frost</OverrideType>
           <ForceOnlyLeftHand>false</ForceOnlyLeftHand>
           <Damage_Multiplier>1.25</Damage_Multiplier>
@@ -35,6 +36,8 @@
           <OverrideCategory>Hit</OverrideCategory>
           <StatusEffect>Slow Down</StatusEffect>
           <Buildup>49</Buildup>
+          <BuildUpMultiplier>1</BuildUpMultiplier>
+          <BypassCounter>false</BypassCounter>
         </DM_Effect>
       </Effects>
       <EffectConditions />

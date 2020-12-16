@@ -4,6 +4,7 @@
   <RecipeID>66</RecipeID>
   <UID />
   <StationType>Cooking</StationType>
+  <RequiredPType>None</RequiredPType>
   <Ingredients>
     <string>Cactus Fruit</string>
     <string>Cactus Fruit</string>

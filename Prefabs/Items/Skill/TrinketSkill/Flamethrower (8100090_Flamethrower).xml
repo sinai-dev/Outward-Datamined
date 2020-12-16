@@ -75,6 +75,7 @@ This skill lowers the durability of the torch or lantern used.</Description>
                   <Damages_AI />
                   <Knockback>2.65</Knockback>
                   <HitInventory>true</HitInventory>
+                  <IgnoreHalfResistances>false</IgnoreHalfResistances>
                 </DM_Effect>
                 <DM_Effect xsi:type="DM_AddStatusEffectBuildUp">
                   <Delay>0</Delay>
@@ -82,6 +83,8 @@ This skill lowers the durability of the torch or lantern used.</Description>
                   <OverrideCategory>None</OverrideCategory>
                   <StatusEffect>Burning</StatusEffect>
                   <Buildup>15</Buildup>
+                  <BuildUpMultiplier>1</BuildUpMultiplier>
+                  <BypassCounter>false</BypassCounter>
                 </DM_Effect>
               </Effects>
               <EffectConditions />
@@ -103,6 +106,7 @@ This skill lowers the durability of the torch or lantern used.</Description>
                   <Damages_AI />
                   <Knockback>2.65</Knockback>
                   <HitInventory>true</HitInventory>
+                  <IgnoreHalfResistances>false</IgnoreHalfResistances>
                 </DM_Effect>
                 <DM_Effect xsi:type="DM_AddStatusEffectBuildUp">
                   <Delay>0</Delay>
@@ -110,6 +114,8 @@ This skill lowers the durability of the torch or lantern used.</Description>
                   <OverrideCategory>None</OverrideCategory>
                   <StatusEffect>Sapped</StatusEffect>
                   <Buildup>15</Buildup>
+                  <BuildUpMultiplier>1</BuildUpMultiplier>
+                  <BypassCounter>false</BypassCounter>
                 </DM_Effect>
               </Effects>
               <EffectConditions />
@@ -131,6 +137,7 @@ This skill lowers the durability of the torch or lantern used.</Description>
                   <Damages_AI />
                   <Knockback>2.65</Knockback>
                   <HitInventory>true</HitInventory>
+                  <IgnoreHalfResistances>false</IgnoreHalfResistances>
                 </DM_Effect>
                 <DM_Effect xsi:type="DM_AddStatusEffectBuildUp">
                   <Delay>0</Delay>
@@ -138,6 +145,8 @@ This skill lowers the durability of the torch or lantern used.</Description>
                   <OverrideCategory>None</OverrideCategory>
                   <StatusEffect>Haunted</StatusEffect>
                   <Buildup>15</Buildup>
+                  <BuildUpMultiplier>1</BuildUpMultiplier>
+                  <BypassCounter>false</BypassCounter>
                 </DM_Effect>
               </Effects>
               <EffectConditions />
@@ -159,6 +168,7 @@ This skill lowers the durability of the torch or lantern used.</Description>
                   <Damages_AI />
                   <Knockback>2.65</Knockback>
                   <HitInventory>true</HitInventory>
+                  <IgnoreHalfResistances>false</IgnoreHalfResistances>
                 </DM_Effect>
                 <DM_Effect xsi:type="DM_AddStatusEffectBuildUp">
                   <Delay>0</Delay>
@@ -166,6 +176,8 @@ This skill lowers the durability of the torch or lantern used.</Description>
                   <OverrideCategory>None</OverrideCategory>
                   <StatusEffect>Slow Down</StatusEffect>
                   <Buildup>15</Buildup>
+                  <BuildUpMultiplier>1</BuildUpMultiplier>
+                  <BypassCounter>false</BypassCounter>
                 </DM_Effect>
               </Effects>
               <EffectConditions />
@@ -187,6 +199,7 @@ This skill lowers the durability of the torch or lantern used.</Description>
                   <Damages_AI />
                   <Knockback>2.65</Knockback>
                   <HitInventory>true</HitInventory>
+                  <IgnoreHalfResistances>false</IgnoreHalfResistances>
                 </DM_Effect>
                 <DM_Effect xsi:type="DM_AddStatusEffectBuildUp">
                   <Delay>0</Delay>
@@ -194,6 +207,8 @@ This skill lowers the durability of the torch or lantern used.</Description>
                   <OverrideCategory>None</OverrideCategory>
                   <StatusEffect>Bleeding</StatusEffect>
                   <Buildup>15</Buildup>
+                  <BuildUpMultiplier>1</BuildUpMultiplier>
+                  <BypassCounter>false</BypassCounter>
                 </DM_Effect>
               </Effects>
               <EffectConditions />
@@ -208,6 +223,8 @@ This skill lowers the durability of the torch or lantern used.</Description>
                   <OverrideCategory>None</OverrideCategory>
                   <StatusEffect>Poisoned</StatusEffect>
                   <Buildup>15</Buildup>
+                  <BuildUpMultiplier>1</BuildUpMultiplier>
+                  <BypassCounter>false</BypassCounter>
                 </DM_Effect>
                 <DM_Effect xsi:type="DM_AddStatusEffectBuildUp">
                   <Delay>0</Delay>
@@ -215,6 +232,8 @@ This skill lowers the durability of the torch or lantern used.</Description>
                   <OverrideCategory>None</OverrideCategory>
                   <StatusEffect>Weaken</StatusEffect>
                   <Buildup>15</Buildup>
+                  <BuildUpMultiplier>1</BuildUpMultiplier>
+                  <BypassCounter>false</BypassCounter>
                 </DM_Effect>
                 <DM_Effect xsi:type="DM_AddStatusEffectBuildUp">
                   <Delay>0</Delay>
@@ -222,6 +241,8 @@ This skill lowers the durability of the torch or lantern used.</Description>
                   <OverrideCategory>None</OverrideCategory>
                   <StatusEffect>Curse</StatusEffect>
                   <Buildup>15</Buildup>
+                  <BuildUpMultiplier>1</BuildUpMultiplier>
+                  <BypassCounter>false</BypassCounter>
                 </DM_Effect>
               </Effects>
               <EffectConditions />
@@ -241,6 +262,7 @@ This skill lowers the durability of the torch or lantern used.</Description>
           <OverrideCategory>None</OverrideCategory>
           <Durability>20</Durability>
           <EquipmentSlot>LeftHand</EquipmentSlot>
+          <Percentage>false</Percentage>
         </DM_Effect>
       </Effects>
       <EffectConditions />
@@ -300,6 +322,8 @@ This skill lowers the durability of the torch or lantern used.</Description>
   <ManaCost>15</ManaCost>
   <DurabilityCost>20</DurabilityCost>
   <DurabilityCostPercent>20</DurabilityCostPercent>
+  <HealthCost>0</HealthCost>
+  <RequiredPType>Normal</RequiredPType>
   <RequiredItems />
   <CompatibleItemIDs>
     <int>5100000</int>
@@ -311,5 +335,6 @@ This skill lowers the durability of the torch or lantern used.</Description>
     <int>5100080</int>
     <int>5100090</int>
     <int>5100100</int>
+    <int>5100110</int>
   </CompatibleItemIDs>
 </DM_TrinketSkill>

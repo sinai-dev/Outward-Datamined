@@ -5,87 +5,95 @@
   <All_Locations>
     <QuantityHolder>
       <Name>Chersonese:Shipwreck Beach</Name>
-      <Quantity>3</Quantity>
+      <Quantity>1</Quantity>
     </QuantityHolder>
     <QuantityHolder>
       <Name>Chersonese:Cierzo</Name>
-      <Quantity>3</Quantity>
+      <Quantity>1</Quantity>
     </QuantityHolder>
     <QuantityHolder>
       <Name>Chersonese:Cierzo (Destroyed)</Name>
-      <Quantity>3</Quantity>
+      <Quantity>1</Quantity>
     </QuantityHolder>
     <QuantityHolder>
       <Name>Chersonese:Chersonese</Name>
-      <Quantity>3</Quantity>
+      <Quantity>1</Quantity>
     </QuantityHolder>
     <QuantityHolder>
       <Name>Chersonese:Corrupted Tombs</Name>
-      <Quantity>3</Quantity>
+      <Quantity>1</Quantity>
     </QuantityHolder>
     <QuantityHolder>
       <Name>Chersonese:Montcalm Clan Fort</Name>
-      <Quantity>3</Quantity>
+      <Quantity>1</Quantity>
     </QuantityHolder>
     <QuantityHolder>
       <Name>Hallowed Marsh:Monsoon</Name>
-      <Quantity>3</Quantity>
+      <Quantity>1</Quantity>
     </QuantityHolder>
     <QuantityHolder>
       <Name>Hallowed Marsh:Hallowed Marsh</Name>
-      <Quantity>3</Quantity>
+      <Quantity>1</Quantity>
     </QuantityHolder>
     <QuantityHolder>
       <Name>Hallowed Marsh:Giants’ Village</Name>
-      <Quantity>3</Quantity>
+      <Quantity>1</Quantity>
     </QuantityHolder>
     <QuantityHolder>
       <Name>Abrassar:Levant</Name>
-      <Quantity>3</Quantity>
+      <Quantity>1</Quantity>
     </QuantityHolder>
     <QuantityHolder>
       <Name>Abrassar:Abrassar</Name>
-      <Quantity>3</Quantity>
+      <Quantity>1</Quantity>
     </QuantityHolder>
     <QuantityHolder>
       <Name>Abrassar:Ancient Hive</Name>
-      <Quantity>3</Quantity>
+      <Quantity>1</Quantity>
     </QuantityHolder>
     <QuantityHolder>
       <Name>Enmerkar Forest:Berg</Name>
-      <Quantity>3</Quantity>
+      <Quantity>1</Quantity>
     </QuantityHolder>
     <QuantityHolder>
       <Name>Enmerkar Forest:Enmerkar Forest</Name>
-      <Quantity>3</Quantity>
+      <Quantity>1</Quantity>
     </QuantityHolder>
     <QuantityHolder>
       <Name>Enmerkar Forest:Royal Manticore’s Lair</Name>
-      <Quantity>3</Quantity>
+      <Quantity>1</Quantity>
     </QuantityHolder>
     <QuantityHolder>
       <Name>Enmerkar Forest:Forest Hives</Name>
-      <Quantity>3</Quantity>
+      <Quantity>1</Quantity>
     </QuantityHolder>
     <QuantityHolder>
       <Name>Enmerkar Forest:Damp Hunter's Cabin</Name>
-      <Quantity>3</Quantity>
+      <Quantity>1</Quantity>
     </QuantityHolder>
     <QuantityHolder>
       <Name>Other:Unknown Arena</Name>
-      <Quantity>6</Quantity>
+      <Quantity>3</Quantity>
     </QuantityHolder>
     <QuantityHolder>
       <Name>Antique Plateau:Harmattan</Name>
-      <Quantity>3</Quantity>
+      <Quantity>1</Quantity>
     </QuantityHolder>
     <QuantityHolder>
       <Name>Antique Plateau:Antique Plateau</Name>
-      <Quantity>3</Quantity>
+      <Quantity>1</Quantity>
     </QuantityHolder>
     <QuantityHolder>
       <Name>Antique Plateau:Old Harmattan</Name>
-      <Quantity>3</Quantity>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Caldera:New Sirocco</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Caldera:Caldera</Name>
+      <Quantity>1</Quantity>
     </QuantityHolder>
   </All_Locations>
   <DropTables>
@@ -113,6 +121,8 @@
         <string>Harmattan</string>
         <string>Antique Plateau</string>
         <string>Old Harmattan</string>
+        <string>New Sirocco</string>
+        <string>Caldera</string>
       </Locations>
     </DroptableSummary>
   </DropTables>

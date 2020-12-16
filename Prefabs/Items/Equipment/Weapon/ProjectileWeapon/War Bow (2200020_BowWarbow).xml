@@ -64,6 +64,9 @@
     <Hunger_Affect>0</Hunger_Affect>
     <Thirst_Affect>0</Thirst_Affect>
     <Fatigue_Affect>0</Fatigue_Affect>
+    <BarrierProtection>0</BarrierProtection>
+    <GlobalStatusEffectResistance>0</GlobalStatusEffectResistance>
+    <StaminaRegenModifier>0</StaminaRegenModifier>
     <AttackSpeed>0</AttackSpeed>
     <BaseDamage>
       <Damages>
@@ -71,13 +74,13 @@
         <Damage_Type>Physical</Damage_Type>
       </Damages>
     </BaseDamage>
-    <Impact>30</Impact>
+    <Impact>25</Impact>
     <StamCost>4.99</StamCost>
     <AutoGenerateAttackData>false</AutoGenerateAttackData>
     <Attacks>
       <AttackData>
         <StamCost>4.99</StamCost>
-        <Knockback>30</Knockback>
+        <Knockback>25</Knockback>
         <AttackSpeed>0</AttackSpeed>
         <Damage>
           <float>37</float>
@@ -85,7 +88,7 @@
       </AttackData>
       <AttackData>
         <StamCost>4.99</StamCost>
-        <Knockback>30</Knockback>
+        <Knockback>25</Knockback>
         <AttackSpeed>0</AttackSpeed>
         <Damage>
           <float>37</float>
@@ -93,7 +96,7 @@
       </AttackData>
       <AttackData>
         <StamCost>4.99</StamCost>
-        <Knockback>30</Knockback>
+        <Knockback>25</Knockback>
         <AttackSpeed>0</AttackSpeed>
         <Damage>
           <float>37</float>
@@ -101,7 +104,7 @@
       </AttackData>
       <AttackData>
         <StamCost>4.99</StamCost>
-        <Knockback>30</Knockback>
+        <Knockback>25</Knockback>
         <AttackSpeed>0</AttackSpeed>
         <Damage>
           <float>37</float>
@@ -109,7 +112,7 @@
       </AttackData>
       <AttackData>
         <StamCost>4.99</StamCost>
-        <Knockback>30</Knockback>
+        <Knockback>25</Knockback>
         <AttackSpeed>0</AttackSpeed>
         <Damage>
           <float>37</float>
@@ -189,7 +192,9 @@
           <SyncType>OwnerSync</SyncType>
           <OverrideCategory>None</OverrideCategory>
           <StatusEffect>Confusion</StatusEffect>
-          <Buildup>60</Buildup>
+          <Buildup>45</Buildup>
+          <BuildUpMultiplier>1</BuildUpMultiplier>
+          <BypassCounter>false</BypassCounter>
         </DM_Effect>
       </Effects>
       <EffectConditions />
@@ -207,4 +212,5 @@
   <MaxProjectileShots>1</MaxProjectileShots>
   <BaseHealthAbsorbRatio>0</BaseHealthAbsorbRatio>
   <BaseMaxHealthAbsorbRatio>0</BaseMaxHealthAbsorbRatio>
+  <IgnoreHalfResistances>false</IgnoreHalfResistances>
 </DM_Weapon>

@@ -95,6 +95,7 @@
     <HealthAbsorbRatio>0</HealthAbsorbRatio>
     <ManaAbsorbRatio>0</ManaAbsorbRatio>
     <StaminaAbsorbRatio>0</StaminaAbsorbRatio>
+    <GlobalStatusResistance>0</GlobalStatusResistance>
     <Indescructible>false</Indescructible>
     <TrackDamageRatio>-1</TrackDamageRatio>
   </Result>

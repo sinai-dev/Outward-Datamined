@@ -4,6 +4,7 @@
   <RecipeID>205</RecipeID>
   <UID />
   <StationType>Survival</StationType>
+  <RequiredPType>None</RequiredPType>
   <Ingredients>
     <string>Elatt’s Relic</string>
     <string>Haunted Memory</string>

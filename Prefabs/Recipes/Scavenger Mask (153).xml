@@ -4,6 +4,7 @@
   <RecipeID>153</RecipeID>
   <UID />
   <StationType>Survival</StationType>
+  <RequiredPType>None</RequiredPType>
   <Ingredients>
     <string>Scavenger Scarf</string>
     <string>Scavenger Hood</string>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LootContainerSummary xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Name>Chalcedony</Name>
+  <ItemID>0</ItemID>
+  <All_Locations>
+    <QuantityHolder>
+      <Name>Caldera:Caldera</Name>
+      <Quantity>6</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Caldera:Steam Bath Tunnels</Name>
+      <Quantity>2</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Caldera:The Grotto of Chalcedony</Name>
+      <Quantity>9</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Caldera:The Vault of Stone</Name>
+      <Quantity>3</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Caldera:Old Sirocco</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Caldera:The River of Red</Name>
+      <Quantity>4</Quantity>
+    </QuantityHolder>
+  </All_Locations>
+  <DropTables>
+    <DroptableSummary>
+      <DropTableName>DropTable_ChalcedonyOre</DropTableName>
+      <Locations>
+        <string>Caldera</string>
+        <string>Steam Bath Tunnels</string>
+        <string>The Grotto of Chalcedony</string>
+        <string>The Vault of Stone</string>
+        <string>Old Sirocco</string>
+        <string>The River of Red</string>
+      </Locations>
+    </DroptableSummary>
+  </DropTables>
+</LootContainerSummary>

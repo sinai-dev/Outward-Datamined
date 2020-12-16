@@ -4,6 +4,7 @@
   <RecipeID>156</RecipeID>
   <UID />
   <StationType>Survival</StationType>
+  <RequiredPType>None</RequiredPType>
   <Ingredients>
     <string>Basic Boots</string>
   </Ingredients>

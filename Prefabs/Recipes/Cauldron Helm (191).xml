@@ -4,6 +4,7 @@
   <RecipeID>191</RecipeID>
   <UID />
   <StationType>Survival</StationType>
+  <RequiredPType>None</RequiredPType>
   <Ingredients>
     <string>Cooking Pot</string>
   </Ingredients>

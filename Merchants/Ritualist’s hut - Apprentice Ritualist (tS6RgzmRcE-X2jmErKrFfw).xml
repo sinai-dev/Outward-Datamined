@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DM_Merchant xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Name>Apprentice Ritualist</Name>
+  <UID>tS6RgzmRcE-X2jmErKrFfw</UID>
+  <DropTable>
+    <Name>Ritualist’s hut - Apprentice Ritualist</Name>
+    <Guaranteed_Drops>
+      <DropTableEntry>
+        <Item_Name>Gold Ingot</Item_Name>
+        <Item_ID>6300030</Item_ID>
+        <Min_Quantity>3</Min_Quantity>
+        <Max_Quantity>5</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Bread</Item_Name>
+        <Item_ID>4100170</Item_ID>
+        <Min_Quantity>3</Min_Quantity>
+        <Max_Quantity>5</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Jerky</Item_Name>
+        <Item_ID>4100012</Item_ID>
+        <Min_Quantity>2</Min_Quantity>
+        <Max_Quantity>3</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Maize</Item_Name>
+        <Item_ID>4000410</Item_ID>
+        <Min_Quantity>1</Min_Quantity>
+        <Max_Quantity>3</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Ableroot</Item_Name>
+        <Item_ID>4000440</Item_ID>
+        <Min_Quantity>1</Min_Quantity>
+        <Max_Quantity>2</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Ambraine</Item_Name>
+        <Item_ID>4000430</Item_ID>
+        <Min_Quantity>1</Min_Quantity>
+        <Max_Quantity>2</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Life Potion</Item_Name>
+        <Item_ID>4300010</Item_ID>
+        <Min_Quantity>2</Min_Quantity>
+        <Max_Quantity>3</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Endurance Potion</Item_Name>
+        <Item_ID>4300030</Item_ID>
+        <Min_Quantity>1</Min_Quantity>
+        <Max_Quantity>2</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Astral Potion</Item_Name>
+        <Item_ID>4300020</Item_ID>
+        <Min_Quantity>1</Min_Quantity>
+        <Max_Quantity>2</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Antidote</Item_Name>
+        <Item_ID>4300110</Item_ID>
+        <Min_Quantity>1</Min_Quantity>
+        <Max_Quantity>2</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Panacea</Item_Name>
+        <Item_ID>4300370</Item_ID>
+        <Min_Quantity>1</Min_Quantity>
+        <Max_Quantity>2</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Weather Defense Potion</Item_Name>
+        <Item_ID>4300160</Item_ID>
+        <Min_Quantity>1</Min_Quantity>
+        <Max_Quantity>2</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Bandages</Item_Name>
+        <Item_ID>4400010</Item_ID>
+        <Min_Quantity>3</Min_Quantity>
+        <Max_Quantity>5</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Mana Stone</Item_Name>
+        <Item_ID>6400130</Item_ID>
+        <Min_Quantity>2</Min_Quantity>
+        <Max_Quantity>4</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Travel Ration</Item_Name>
+        <Item_ID>4100550</Item_ID>
+        <Min_Quantity>4</Min_Quantity>
+        <Max_Quantity>5</Max_Quantity>
+      </DropTableEntry>
+    </Guaranteed_Drops>
+    <Random_Tables>
+      <DropGeneratorHolder>
+        <MinNumberOfDrops>3</MinNumberOfDrops>
+        <MaxNumberOfDrops>3</MaxNumberOfDrops>
+        <MaxDiceValue>5</MaxDiceValue>
+        <EmptyDrop>0</EmptyDrop>
+        <RegenTime>-1</RegenTime>
+        <ChanceReduction>10</ChanceReduction>
+        <ChanceRegenQty>10</ChanceRegenQty>
+        <Item_Drops>
+          <DropTableChanceEntry>
+            <Item_Name>Crafting: Fire totemic Lodge</Item_Name>
+            <Item_ID>5700401</Item_ID>
+            <Min_Quantity>1</Min_Quantity>
+            <Max_Quantity>1</Max_Quantity>
+            <Drop_Chance>20</Drop_Chance>
+            <Dice_Range>0</Dice_Range>
+            <ChanceReduction>0</ChanceReduction>
+            <ChanceRegenDelay>-1</ChanceRegenDelay>
+            <ChanceRegenQty>0</ChanceRegenQty>
+          </DropTableChanceEntry>
+          <DropTableChanceEntry>
+            <Item_Name>Crafting: Ice totemic Lodge</Item_Name>
+            <Item_ID>5700402</Item_ID>
+            <Min_Quantity>1</Min_Quantity>
+            <Max_Quantity>1</Max_Quantity>
+            <Drop_Chance>20</Drop_Chance>
+            <Dice_Range>0</Dice_Range>
+            <ChanceReduction>0</ChanceReduction>
+            <ChanceRegenDelay>-1</ChanceRegenDelay>
+            <ChanceRegenQty>0</ChanceRegenQty>
+          </DropTableChanceEntry>
+          <DropTableChanceEntry>
+            <Item_Name>Crafting: Lightning totemic Lodge</Item_Name>
+            <Item_ID>5700403</Item_ID>
+            <Min_Quantity>1</Min_Quantity>
+            <Max_Quantity>1</Max_Quantity>
+            <Drop_Chance>20</Drop_Chance>
+            <Dice_Range>0</Dice_Range>
+            <ChanceReduction>0</ChanceReduction>
+            <ChanceRegenDelay>-1</ChanceRegenDelay>
+            <ChanceRegenQty>0</ChanceRegenQty>
+          </DropTableChanceEntry>
+          <DropTableChanceEntry>
+            <Item_Name>Crafting: Corruption totemic Lodge</Item_Name>
+            <Item_ID>5700404</Item_ID>
+            <Min_Quantity>1</Min_Quantity>
+            <Max_Quantity>1</Max_Quantity>
+            <Drop_Chance>20</Drop_Chance>
+            <Dice_Range>0</Dice_Range>
+            <ChanceReduction>0</ChanceReduction>
+            <ChanceRegenDelay>-1</ChanceRegenDelay>
+            <ChanceRegenQty>0</ChanceRegenQty>
+          </DropTableChanceEntry>
+          <DropTableChanceEntry>
+            <Item_Name>Crafting: Ethereal totemic Lodge</Item_Name>
+            <Item_ID>5700405</Item_ID>
+            <Min_Quantity>1</Min_Quantity>
+            <Max_Quantity>1</Max_Quantity>
+            <Drop_Chance>20</Drop_Chance>
+            <Dice_Range>0</Dice_Range>
+            <ChanceReduction>0</ChanceReduction>
+            <ChanceRegenDelay>-1</ChanceRegenDelay>
+            <ChanceRegenQty>0</ChanceRegenQty>
+          </DropTableChanceEntry>
+        </Item_Drops>
+      </DropGeneratorHolder>
+    </Random_Tables>
+  </DropTable>
+  <BuyModifiers />
+  <SellModifiers />
+</DM_Merchant>

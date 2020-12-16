@@ -4,6 +4,7 @@
   <RecipeID>45</RecipeID>
   <UID />
   <StationType>Alchemy</StationType>
+  <RequiredPType>None</RequiredPType>
   <Ingredients>
     <string>Mana Stone</string>
     <string>Mana Stone</string>

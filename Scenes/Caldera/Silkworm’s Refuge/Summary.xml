@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SceneSummary xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SceneName>Silkworm’s Refuge</SceneName>
+  <Enemies />
+  <Merchants>
+    <string>Silver Tooth (W1TeRCeXOE-E5J_dHYVOjw)</string>
+  </Merchants>
+  <Loot_Containers>
+    <QuantityHolder>
+      <Name>Junk Pile</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Chest</Name>
+      <Quantity>2</Quantity>
+    </QuantityHolder>
+  </Loot_Containers>
+  <Gatherables />
+  <Item_Spawns />
+  <UniqueContainerList>
+    <string>Junk Pile_TvcYv4dL-kqPP8p6uPdwCA</string>
+    <string>Chest_NdICNLZtUUKP999H2zI6vA</string>
+    <string>Chest_gggj5-4h8UqP_5lesImA7g</string>
+  </UniqueContainerList>
+</SceneSummary>

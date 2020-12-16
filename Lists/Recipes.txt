@@ -6,13 +6,13 @@
 105	Alchemy	Fire Varnish (1)	Gaberry Wine,Seared Root,Fire Stone
 106	Alchemy	Ice Varnish (1)	Gaberry Wine,Livweedi,Cold Stone
 107	Alchemy	Spiritual Varnish (1)	Gaberry Wine,Ghost's Eye,Mana Stone
-108	Alchemy	Astral Potion (3)	Water,Star Mushroom,Turmmip
-109	Alchemy	Endurance Potion (3)	Water,Krimp Nut,Egg
-110	Alchemy	Life Potion (3)	Water,Blood Mushroom,Gravel Beetle
+108	Alchemy	Astral Potion (1)	Water,Star Mushroom,Turmmip
+109	Alchemy	Endurance Potion (1)	Water,Krimp Nut,Egg
+110	Alchemy	Life Potion (1)	Water,Blood Mushroom,Gravel Beetle
 111	Alchemy	Antidote (1)	Water,Common Mushroom,Thick Oil
 112	Alchemy	Rage Potion (3)	Water,Gravel Beetle,Smoke Root
 113	Alchemy	Discipline Potion (3)	Water,Ochre Spice Beetle,Livweedi
-114	Alchemy	Warm Potion (3)	Water,Thick Oil
+114	Alchemy	Warm Potion (1)	Water,Thick Oil
 115	Alchemy	Cool Potion (3)	Water,Gravel Beetle
 116	Alchemy	Mist Potion (3)	Water,Ghost's Eye
 117	Alchemy	Blessed Potion (3)	Water,Firefly powder
@@ -67,7 +67,6 @@
 161	Survival	Manticore Dagger (1)	Manticore Tail,Palladium Scrap
 162	Survival	Shiv Dagger (1)	Iron Scrap,Linen Cloth
 163	Survival	Bone Pistol (1)	Flintlock Pistol,Occult Remains,Occult Remains,Crystal Powder
-164	Alchemy	Antidote (5)	Firefly powder,Marshmelon,Ochre Spice Beetle,Water
 165	Survival	Palladium Scrap (5)	Beast Golem Scraps,Beast Golem Scraps,Beast Golem Scraps,Beast Golem Scraps
 166	Survival	Gold-Lich Claymore (1)	Gold-Lich Mechanism,Gold-Lich Mechanism,Iron Claymore,Firefly powder
 167	Survival	Gold-Lich Spear (1)	Gold-Lich Mechanism,Gold-Lich Mechanism,Iron Spear,Firefly powder
@@ -178,7 +177,7 @@
 342	Survival	Enchanting Pedestal (1)	Enchanting Table Shield
 343	Survival	Kazite Light Armor (1)	Light Kazite Shirt,Linen Cloth
 344	Survival	Light Kazite Shirt (1),Linen Cloth (1)	Kazite Light Armor
-345	Survival	Scourge Cocoon (1)	Occult Remains,Horror Chitin,Veaber’s Egg,Veaber’s Egg
+345	Survival	Scourge Cocoon (2)	Occult Remains,Horror Chitin,Veaber’s Egg,Veaber’s Egg
 346	Survival	Boozu Hide Backpack (1)	Scaled Satchel,Boozu’s Hide,Boozu’s Hide,Boozu’s Hide
 347	Survival	Virgin Lantern (1)	Virgin Lantern,Crystal Powder
 348	Survival	Arcane Dampener (1)	Dreamer’s Root,Crystal Powder,Boozu’s Hide
@@ -233,7 +232,6 @@
 394	Survival	Shadow Light Kazite Shirt (1),Linen Cloth (1)	Shadow Kazite Light Armor
 395	Survival	Great Life Potion (1),Linen Cloth (1)	DecraftGreaterHealth_Small
 396	Survival	Great Life Potion (2)	DecraftGreaterHealth_Large
-397	Survival	Gold-Lich Knuckles (1)	Gold-Lich Mechanism,Gold-Lich Mechanism,Iron Knuckles,Firefly powder
 39	Survival	Iron Scrap (1)	DecraftIron_Small
 3	Cooking	Cooked Meat (1)	Raw Meat
 40	Survival	Iron Scrap (2)	DecraftIron_Large
@@ -247,8 +245,13 @@
 48	Cooking	Pot-au-Feu du Pirate (3)	Fish,Fish,Fish,Salt
 49	Cooking	Alpha Sandwich (3)	Raw Alpha Meat,Bread
 4	Cooking	Cooked Alpha Meat (1)	Raw Alpha Meat
+509	Survival	Hide (2)	Primitive Satchel
 50	Cooking	Gaberry Tartine (3)	Bread,Gaberry Jam
 51	Cooking	Boiled Gaberries (1)	Gaberries
+524	Survival	Ergagr'Uk! (1)	Basic Armor,Star Mushroom
+525	Survival	GorkKrog! (1)	Basic Armor,Blood Mushroom
+526	Survival	Gargargar! (1)	Basic Armor,Woolshroom
+527	Survival	GoulgGalog! (1)	Basic Armor,Grilled Mushroom
 52	Cooking	Boiled Turmmip (1)	Turmmip
 53	Cooking	Grilled Mushroom (1)	Common Mushroom
 54	Cooking	Cooked Jewel Meat (1)	Raw Jewel Meat
@@ -300,3 +303,15 @@
 97	Survival	Scaled Leather Attire (1)	Basic Armor,Scaled Leather,Scaled Leather,Predator Bones
 98	Survival	Scaled Leather Boots (1)	Basic Boots,Scaled Leather,Scaled Leather,Predator Bones
 99	Survival	Poison Rag (1)	Linen Cloth,Grilled Crabeye Seed
+399	Survival	Slayer’s Helmet (1)	Dweller’s Brain,Myrm Tongue,Palladium Scrap
+400	Survival	Slayer’s Armor (1)	Myrm Tongue,Gargoyle Urn Shard,Palladium Scrap,Palladium Scrap
+401	Survival	Slayer’s Boots (1)	Gargoyle Urn Shard,Calygrey Hairs,Palladium Scrap
+402	Survival	Fire Totemic Lodge (1)	Advanced Tent,Obsidian Shard,Seared Root,Predator Bones
+403	Survival	Ice Totemic Lodge (1)	Advanced Tent,Chalcedony,Crystal Powder,Predator Bones
+0	Survival	Lightning Totemic Lodge (1)	Advanced Tent,Calygrey Hairs,Palladium Scrap,Predator Bones
+407	Cooking	Golden Jam (1)	Golden Crescent,Golden Crescent,Golden Crescent,Golden Crescent
+408	Cooking	Golden Tartine (3)	Golden Jam,Bread
+520	Survival	Djinn’s Lamp (1)	Djinn’s Lamp,Thick Oil
+521	Survival	Chalcedony (1)	DecraftChalcedony_Small
+522	Survival	Chalcedony (2)	DecraftChalcedony_Large
+523	Cooking	Thick Oil (1)	Boreo Blubber

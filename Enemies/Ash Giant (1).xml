@@ -6,6 +6,7 @@
   <Locations_Found>
     <string>Hallowed Marsh:Hallowed Marsh</string>
     <string>Enmerkar Forest:Enmerkar Forest</string>
+    <string>Caldera:Steam Bath Tunnels</string>
   </Locations_Found>
   <Max_Health>700</Max_Health>
   <Health_Regen_Per_Second>1.5</Health_Regen_Per_Second>
@@ -35,6 +36,9 @@
     <float>0</float>
   </Damage_Bonuses>
   <Collider_Radius>0.4</Collider_Radius>
+  <NullifyResistances>false</NullifyResistances>
+  <GlobalStatusRes>0</GlobalStatusRes>
+  <BarrierStat>0</BarrierStat>
   <True_WeaponDamage>
     <Damages>
       <Damage>45</Damage>

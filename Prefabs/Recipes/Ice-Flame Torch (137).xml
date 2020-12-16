@@ -4,6 +4,7 @@
   <RecipeID>137</RecipeID>
   <UID />
   <StationType>Survival</StationType>
+  <RequiredPType>None</RequiredPType>
   <Ingredients>
     <string>Makeshift Torch</string>
     <string>Cold Stone</string>

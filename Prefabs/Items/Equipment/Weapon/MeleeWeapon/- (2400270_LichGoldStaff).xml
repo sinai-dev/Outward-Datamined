@@ -23,6 +23,8 @@
     <string>MonsterWeapon</string>
     <string>Weapon</string>
     <string>Item</string>
+    <string>Staff</string>
+    <string>Family</string>
     <string>Main Weapon</string>
   </Tags>
   <StatsHolder xsi:type="DM_WeaponStats">
@@ -64,6 +66,9 @@
     <Hunger_Affect>1</Hunger_Affect>
     <Thirst_Affect>1</Thirst_Affect>
     <Fatigue_Affect>1</Fatigue_Affect>
+    <BarrierProtection>0</BarrierProtection>
+    <GlobalStatusEffectResistance>0</GlobalStatusEffectResistance>
+    <StaminaRegenModifier>0</StaminaRegenModifier>
     <AttackSpeed>1</AttackSpeed>
     <BaseDamage>
       <Damages>
@@ -102,8 +107,8 @@
         <Knockback>126.1</Knockback>
         <AttackSpeed>1.1</AttackSpeed>
         <Damage>
-          <float>19.305</float>
-          <float>39.195</float>
+          <float>22.2007523</float>
+          <float>45.0742531</float>
         </Damage>
       </AttackData>
       <AttackData>
@@ -111,8 +116,8 @@
         <Knockback>106.7</Knockback>
         <AttackSpeed>1.1</AttackSpeed>
         <Damage>
-          <float>16.335001</float>
-          <float>33.165</float>
+          <float>18.78525</float>
+          <float>38.13975</float>
         </Damage>
       </AttackData>
       <AttackData>
@@ -120,8 +125,8 @@
         <Knockback>106.7</Knockback>
         <AttackSpeed>1.1</AttackSpeed>
         <Damage>
-          <float>16.335001</float>
-          <float>33.165</float>
+          <float>18.78525</float>
+          <float>38.13975</float>
         </Damage>
       </AttackData>
       <AttackData>
@@ -147,4 +152,5 @@
   <MaxProjectileShots>-1</MaxProjectileShots>
   <BaseHealthAbsorbRatio>0</BaseHealthAbsorbRatio>
   <BaseMaxHealthAbsorbRatio>0</BaseMaxHealthAbsorbRatio>
+  <IgnoreHalfResistances>false</IgnoreHalfResistances>
 </DM_Weapon>

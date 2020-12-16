@@ -4,6 +4,7 @@
   <RecipeID>337</RecipeID>
   <UID />
   <StationType>Survival</StationType>
+  <RequiredPType>None</RequiredPType>
   <Ingredients>
     <string>Gep’s Generosity</string>
     <string>Vendavel's Hospitality</string>

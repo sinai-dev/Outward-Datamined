@@ -4,6 +4,7 @@
   <RecipeID>309</RecipeID>
   <UID />
   <StationType>Survival</StationType>
+  <RequiredPType>None</RequiredPType>
   <Ingredients>
     <string>Gold Guisarme</string>
     <string>Palladium Scrap</string>

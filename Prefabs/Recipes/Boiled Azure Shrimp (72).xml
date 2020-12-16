@@ -4,6 +4,7 @@
   <RecipeID>72</RecipeID>
   <UID />
   <StationType>Cooking</StationType>
+  <RequiredPType>None</RequiredPType>
   <Ingredients>
     <string>Azure Shrimp</string>
   </Ingredients>

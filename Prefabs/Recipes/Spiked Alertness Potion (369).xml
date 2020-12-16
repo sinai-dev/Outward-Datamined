@@ -4,6 +4,7 @@
   <RecipeID>369</RecipeID>
   <UID />
   <StationType>Alchemy</StationType>
+  <RequiredPType>None</RequiredPType>
   <Ingredients>
     <string>Alertness Potion</string>
     <string>Stingleaf</string>

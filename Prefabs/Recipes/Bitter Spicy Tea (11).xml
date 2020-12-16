@@ -4,6 +4,7 @@
   <RecipeID>11</RecipeID>
   <UID />
   <StationType>Cooking</StationType>
+  <RequiredPType>None</RequiredPType>
   <Ingredients>
     <string>Water</string>
     <string>Ochre Spice Beetle</string>

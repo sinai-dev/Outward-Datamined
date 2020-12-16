@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DM_Enemy xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Name>Calygrey Hero</Name>
+  <GameObject_Name>LionmanElite</GameObject_Name>
+  <Unique_ID>1</Unique_ID>
+  <Locations_Found>
+    <string>Caldera:Steam Bath Tunnels</string>
+  </Locations_Found>
+  <Max_Health>700</Max_Health>
+  <Health_Regen_Per_Second>6</Health_Regen_Per_Second>
+  <Impact_Resistance>73</Impact_Resistance>
+  <Protection>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+  </Protection>
+  <Damage_Resistances>
+    <float>35</float>
+    <float>30</float>
+    <float>-30</float>
+    <float>45</float>
+    <float>45</float>
+    <float>10</float>
+  </Damage_Resistances>
+  <Damage_Bonuses>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+  </Damage_Bonuses>
+  <Collider_Radius>0.5</Collider_Radius>
+  <NullifyResistances>false</NullifyResistances>
+  <GlobalStatusRes>0</GlobalStatusRes>
+  <BarrierStat>0</BarrierStat>
+  <True_WeaponDamage>
+    <Damages>
+      <Damage>27</Damage>
+      <Damage_Type>Physical</Damage_Type>
+    </Damages>
+  </True_WeaponDamage>
+  <Weapon_Impact>45</Weapon_Impact>
+  <Status_Immunities />
+  <Starting_Equipment>
+    <string>Fossilized Greataxe (2110260)</string>
+  </Starting_Equipment>
+  <Skill_Knowledge>
+    <string>Lion ElderBolt (8300552)</string>
+    <string>LionmanElderBoon (8300551)</string>
+  </Skill_Knowledge>
+  <Faction>Hounds</Faction>
+  <Allied_To_Same_Faction>true</Allied_To_Same_Faction>
+  <Guaranteed_Drops>
+    <DropTableEntry>
+      <Item_Name>Fossilized Greataxe</Item_Name>
+      <Item_ID>2110260</Item_ID>
+      <Min_Quantity>1</Min_Quantity>
+      <Max_Quantity>1</Max_Quantity>
+    </DropTableEntry>
+  </Guaranteed_Drops>
+  <DropTable_Names>
+    <string>DropTable_Lionman_DLC2</string>
+  </DropTable_Names>
+</DM_Enemy>

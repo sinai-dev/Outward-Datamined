@@ -19,7 +19,7 @@
       <Quantity>7</Quantity>
     </QuantityHolder>
     <QuantityHolder>
-      <Name>Kazite Archer (2)</Name>
+      <Name>Kazite Archer (3)</Name>
       <Quantity>5</Quantity>
     </QuantityHolder>
     <QuantityHolder>
@@ -187,7 +187,7 @@
   <Gatherables>
     <QuantityHolder>
       <Name>Wood</Name>
-      <Quantity>3</Quantity>
+      <Quantity>1</Quantity>
     </QuantityHolder>
     <QuantityHolder>
       <Name>Iron vein (Tourmaline)</Name>

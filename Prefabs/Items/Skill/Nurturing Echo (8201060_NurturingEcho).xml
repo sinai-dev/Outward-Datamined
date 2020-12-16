@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DM_Skill xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <gameObjectName>8201060_NurturingEcho</gameObjectName>
+  <saveDir>/Skill</saveDir>
+  <ItemID>8201060</ItemID>
+  <Name>Nurturing Echo</Name>
+  <Description>Required: At least one deployed Totem within 15 meters.
+
+Generates a bubble around nearby Totems that provide restoration of some kind. Lasts longer depending on how many Charges the Totem has built up.</Description>
+  <LegacyItemID>-1</LegacyItemID>
+  <IsPickable>false</IsPickable>
+  <IsUsable>false</IsUsable>
+  <QtyRemovedOnUse>0</QtyRemovedOnUse>
+  <GroupItemInDisplay>false</GroupItemInDisplay>
+  <HasPhysicsWhenWorld>false</HasPhysicsWhenWorld>
+  <RepairedInRest>true</RepairedInRest>
+  <BehaviorOnNoDurability>NotSet</BehaviorOnNoDurability>
+  <CastType>NurturingEcho</CastType>
+  <CastModifier>Immobilized</CastModifier>
+  <CastLocomotionEnabled>false</CastLocomotionEnabled>
+  <MobileCastMovementMult>-1</MobileCastMovementMult>
+  <CastSheatheRequired>1</CastSheatheRequired>
+  <OverrideSellModifier>-1</OverrideSellModifier>
+  <Tags />
+  <EffectTransforms>
+    <DM_EffectTransform>
+      <TransformName>AdditionalConditions</TransformName>
+      <Effects />
+      <EffectConditions>
+        <DM_EffectCondition xsi:type="DM_ProximityCondition">
+          <Invert>false</Invert>
+          <RequiredItems>
+            <SkillItemReq>
+              <ItemID>5000301</ItemID>
+              <Quantity>1</Quantity>
+              <Consume>false</Consume>
+            </SkillItemReq>
+            <SkillItemReq>
+              <ItemID>5000303</ItemID>
+              <Quantity>1</Quantity>
+              <Consume>false</Consume>
+            </SkillItemReq>
+          </RequiredItems>
+          <MaxDistance>15</MaxDistance>
+          <Offset>
+            <x>0</x>
+            <y>0</y>
+            <z>0</z>
+          </Offset>
+          <ProximityAngle>-1</ProximityAngle>
+          <OrMode>true</OrMode>
+        </DM_EffectCondition>
+      </EffectConditions>
+      <ChildEffects />
+    </DM_EffectTransform>
+    <DM_EffectTransform>
+      <TransformName>Effects</TransformName>
+      <Effects>
+        <DM_Effect xsi:type="DM_InstrumentTriggerBubble">
+          <Delay>0</Delay>
+          <SyncType>OwnerSync</SyncType>
+          <OverrideCategory>None</OverrideCategory>
+          <Range>15</Range>
+        </DM_Effect>
+      </Effects>
+      <EffectConditions />
+      <ChildEffects />
+    </DM_EffectTransform>
+    <DM_EffectTransform>
+      <TransformName>ActivationEffects</TransformName>
+      <Effects>
+        <DM_Effect xsi:type="DM_PlaySoundEffect">
+          <Delay>0.15</Delay>
+          <SyncType>OwnerSync</SyncType>
+          <OverrideCategory>None</OverrideCategory>
+          <Sounds>
+            <Sounds>SFX_SKILL_DrumSkill_NurturingEcho_Dance</Sounds>
+          </Sounds>
+          <Follow>false</Follow>
+          <MinPitch>1</MinPitch>
+          <MaxPitch>1</MaxPitch>
+        </DM_Effect>
+        <DM_Effect xsi:type="DM_PlaySoundEffect">
+          <Delay>0.15</Delay>
+          <SyncType>OwnerSync</SyncType>
+          <OverrideCategory>None</OverrideCategory>
+          <Sounds>
+            <Sounds>CS_LichGold_StaffBolt_Whoosh2</Sounds>
+          </Sounds>
+          <Follow>false</Follow>
+          <MinPitch>1</MinPitch>
+          <MaxPitch>1</MaxPitch>
+        </DM_Effect>
+      </Effects>
+      <EffectConditions />
+      <ChildEffects />
+    </DM_EffectTransform>
+  </EffectTransforms>
+  <Cooldown>240</Cooldown>
+  <StaminaCost>20</StaminaCost>
+  <ManaCost>0</ManaCost>
+  <DurabilityCost>0</DurabilityCost>
+  <DurabilityCostPercent>0</DurabilityCostPercent>
+  <HealthCost>0</HealthCost>
+  <RequiredPType>Normal</RequiredPType>
+  <RequiredItems />
+</DM_Skill>

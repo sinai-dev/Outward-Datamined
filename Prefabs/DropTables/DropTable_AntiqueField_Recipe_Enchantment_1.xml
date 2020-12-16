@@ -662,17 +662,6 @@
           <ChanceRegenQty>0</ChanceRegenQty>
         </DropTableChanceEntry>
         <DropTableChanceEntry>
-          <Item_Name>Enchanting: Snow</Item_Name>
-          <Item_ID>5800060</Item_ID>
-          <Min_Quantity>1</Min_Quantity>
-          <Max_Quantity>1</Max_Quantity>
-          <Drop_Chance>0.59</Drop_Chance>
-          <Dice_Range>9</Dice_Range>
-          <ChanceReduction>0</ChanceReduction>
-          <ChanceRegenDelay>-1</ChanceRegenDelay>
-          <ChanceRegenQty>0</ChanceRegenQty>
-        </DropTableChanceEntry>
-        <DropTableChanceEntry>
           <Item_Name>Enchanting: Rainbow Hex</Item_Name>
           <Item_ID>5800061</Item_ID>
           <Min_Quantity>1</Min_Quantity>
@@ -763,6 +752,17 @@
         <DropTableChanceEntry>
           <Item_Name>Enchanting: Chaos and Creativity</Item_Name>
           <Item_ID>5800069</Item_ID>
+          <Min_Quantity>1</Min_Quantity>
+          <Max_Quantity>1</Max_Quantity>
+          <Drop_Chance>0.59</Drop_Chance>
+          <Dice_Range>9</Dice_Range>
+          <ChanceReduction>0</ChanceReduction>
+          <ChanceRegenDelay>-1</ChanceRegenDelay>
+          <ChanceRegenQty>0</ChanceRegenQty>
+        </DropTableChanceEntry>
+        <DropTableChanceEntry>
+          <Item_Name>Enchanting: Snow</Item_Name>
+          <Item_ID>5800060</Item_ID>
           <Min_Quantity>1</Min_Quantity>
           <Max_Quantity>1</Max_Quantity>
           <Drop_Chance>0.59</Drop_Chance>

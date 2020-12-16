@@ -4,6 +4,7 @@
   <RecipeID>370</RecipeID>
   <UID />
   <StationType>Cooking</StationType>
+  <RequiredPType>None</RequiredPType>
   <Ingredients>
     <string>Wheat</string>
     <string>Wheat</string>

@@ -121,6 +121,7 @@ It might have other uses, however.</Description>
                   <Damages_AI />
                   <Knockback>0</Knockback>
                   <HitInventory>true</HitInventory>
+                  <IgnoreHalfResistances>false</IgnoreHalfResistances>
                 </DM_Effect>
                 <DM_Effect xsi:type="DM_AddStatusEffect">
                   <Delay>0</Delay>
@@ -152,6 +153,8 @@ It might have other uses, however.</Description>
             <y>-0.5</y>
             <z>0</z>
           </Offset>
+          <ProximityAngle>-1</ProximityAngle>
+          <OrMode>false</OrMode>
         </DM_EffectCondition>
       </EffectConditions>
       <ChildEffects />

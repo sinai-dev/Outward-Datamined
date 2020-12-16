@@ -63,6 +63,18 @@
       <Name>Antique Plateau:Troglodyte Warren</Name>
       <Quantity>1</Quantity>
     </QuantityHolder>
+    <QuantityHolder>
+      <Name>Caldera:Caldera</Name>
+      <Quantity>10</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Caldera:The Grotto of Chalcedony</Name>
+      <Quantity>4</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Caldera:The Vault of Stone</Name>
+      <Quantity>6</Quantity>
+    </QuantityHolder>
   </All_Locations>
   <DropTables>
     <DroptableSummary>
@@ -83,6 +95,9 @@
         <string>Antique Plateau</string>
         <string>Wendigo Lair</string>
         <string>Troglodyte Warren</string>
+        <string>Caldera</string>
+        <string>The Grotto of Chalcedony</string>
+        <string>The Vault of Stone</string>
       </Locations>
     </DroptableSummary>
     <DroptableSummary>

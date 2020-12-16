@@ -73,6 +73,7 @@ Jumping attack that creates a shockwave upon landing, with high Impact and Damag
                   <Damages_AI />
                   <Knockback>30</Knockback>
                   <HitInventory>true</HitInventory>
+                  <IgnoreHalfResistances>false</IgnoreHalfResistances>
                   <OverrideType>Count</OverrideType>
                   <ForceOnlyLeftHand>false</ForceOnlyLeftHand>
                   <Damage_Multiplier>1.5</Damage_Multiplier>
@@ -148,6 +149,8 @@ Jumping attack that creates a shockwave upon landing, with high Impact and Damag
   <ManaCost>0</ManaCost>
   <DurabilityCost>0</DurabilityCost>
   <DurabilityCostPercent>5</DurabilityCostPercent>
+  <HealthCost>0</HealthCost>
+  <RequiredPType>Normal</RequiredPType>
   <RequiredItems />
   <AmmunitionTypes />
   <RequiredOffHandTypes />
@@ -164,7 +167,9 @@ Jumping attack that creates a shockwave upon landing, with high Impact and Damag
   </RequiredWeaponTypes>
   <RequiredWeaponTags />
   <RequireImbue>false</RequireImbue>
+  <AmmunitionAmount>-1</AmmunitionAmount>
   <Blockable>true</Blockable>
+  <NoWeaponAtkTag>false</NoWeaponAtkTag>
   <Damage>0</Damage>
   <Impact>0</Impact>
   <LinecastCount>0</LinecastCount>

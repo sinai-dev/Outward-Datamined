@@ -4,6 +4,7 @@
   <RecipeID>83</RecipeID>
   <UID />
   <StationType>Survival</StationType>
+  <RequiredPType>None</RequiredPType>
   <Ingredients>
     <string>Mantis Granite</string>
     <string>Mantis Granite</string>

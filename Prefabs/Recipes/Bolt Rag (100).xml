@@ -4,6 +4,7 @@
   <RecipeID>100</RecipeID>
   <UID />
   <StationType>Survival</StationType>
+  <RequiredPType>None</RequiredPType>
   <Ingredients>
     <string>Linen Cloth</string>
     <string>Larva Egg</string>

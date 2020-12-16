@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SceneSummary xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SceneName>Scarlet Sanctuary</SceneName>
+  <Enemies>
+    <QuantityHolder>
+      <Name>Burning Man (1)</Name>
+      <Quantity>8</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Obsidian Elemental (3)</Name>
+      <Quantity>6</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Burning Man (3)</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Ghost (4)</Name>
+      <Quantity>2</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Scarlet Emissary (1)</Name>
+      <Quantity>2</Quantity>
+    </QuantityHolder>
+  </Enemies>
+  <Merchants />
+  <Loot_Containers>
+    <QuantityHolder>
+      <Name>Ornate Chest</Name>
+      <Quantity>5</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Corpse</Name>
+      <Quantity>6</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Chest</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+  </Loot_Containers>
+  <Gatherables>
+    <QuantityHolder>
+      <Name>Unidentified Ore Vein</Name>
+      <Quantity>2</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Unidentified Roots</Name>
+      <Quantity>2</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Unidentified Molepig den</Name>
+      <Quantity>2</Quantity>
+    </QuantityHolder>
+  </Gatherables>
+  <Item_Spawns />
+  <UniqueContainerList>
+    <string>Ornate Chest_qnqUEGAJdkmqqueZgGYnIA</string>
+    <string>Corpse_2E47cqW8xUaIXzMF9FTjAw</string>
+    <string>Corpse_Fc8Q2m4dsU2sEO7PJIGaOA</string>
+    <string>Corpse_h2uaL_hgVkWjX6XogSLe4g</string>
+    <string>Corpse_0RrKulLwjU-p21L1r3TSHg</string>
+    <string>Corpse_NXnp3ZvEik2Q1WwfSnOFuA</string>
+    <string>Corpse_9FAcRrKNL0C-NBtI-wjzww</string>
+    <string>Ornate Chest_Q-FSlE46eEuyOfLiXfqY9w</string>
+    <string>Chest_nX6bJ1x-iUWJDiwQybe-8Q</string>
+    <string>Ornate Chest_Gs8fWsGsFUe9KWcds0STWQ</string>
+  </UniqueContainerList>
+</SceneSummary>

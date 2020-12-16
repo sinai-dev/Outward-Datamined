@@ -4,6 +4,7 @@
   <RecipeID>160</RecipeID>
   <UID />
   <StationType>Alchemy</StationType>
+  <RequiredPType>None</RequiredPType>
   <Ingredients>
     <string>Obsidian Shard</string>
     <string>Common Mushroom</string>

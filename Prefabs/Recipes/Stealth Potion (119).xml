@@ -4,6 +4,7 @@
   <RecipeID>119</RecipeID>
   <UID />
   <StationType>Alchemy</StationType>
+  <RequiredPType>None</RequiredPType>
   <Ingredients>
     <string>Water</string>
     <string>Woolshroom</string>

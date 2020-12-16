@@ -64,6 +64,9 @@
     <Hunger_Affect>1</Hunger_Affect>
     <Thirst_Affect>1</Thirst_Affect>
     <Fatigue_Affect>1</Fatigue_Affect>
+    <BarrierProtection>0</BarrierProtection>
+    <GlobalStatusEffectResistance>0</GlobalStatusEffectResistance>
+    <StaminaRegenModifier>0</StaminaRegenModifier>
     <AttackSpeed>0</AttackSpeed>
     <BaseDamage>
       <Damages>
@@ -71,13 +74,13 @@
         <Damage_Type>Physical</Damage_Type>
       </Damages>
     </BaseDamage>
-    <Impact>21</Impact>
+    <Impact>30</Impact>
     <StamCost>3.22</StamCost>
     <AutoGenerateAttackData>false</AutoGenerateAttackData>
     <Attacks>
       <AttackData>
         <StamCost>3.22</StamCost>
-        <Knockback>21</Knockback>
+        <Knockback>30</Knockback>
         <AttackSpeed>0</AttackSpeed>
         <Damage>
           <float>50</float>
@@ -85,7 +88,7 @@
       </AttackData>
       <AttackData>
         <StamCost>3.22</StamCost>
-        <Knockback>21</Knockback>
+        <Knockback>30</Knockback>
         <AttackSpeed>0</AttackSpeed>
         <Damage>
           <float>50</float>
@@ -93,7 +96,7 @@
       </AttackData>
       <AttackData>
         <StamCost>3.22</StamCost>
-        <Knockback>21</Knockback>
+        <Knockback>30</Knockback>
         <AttackSpeed>0</AttackSpeed>
         <Damage>
           <float>50</float>
@@ -101,7 +104,7 @@
       </AttackData>
       <AttackData>
         <StamCost>3.22</StamCost>
-        <Knockback>21</Knockback>
+        <Knockback>30</Knockback>
         <AttackSpeed>0</AttackSpeed>
         <Damage>
           <float>50</float>
@@ -109,7 +112,7 @@
       </AttackData>
       <AttackData>
         <StamCost>3.22</StamCost>
-        <Knockback>21</Knockback>
+        <Knockback>30</Knockback>
         <AttackSpeed>0</AttackSpeed>
         <Damage>
           <float>50</float>
@@ -193,4 +196,5 @@
   <MaxProjectileShots>1</MaxProjectileShots>
   <BaseHealthAbsorbRatio>0</BaseHealthAbsorbRatio>
   <BaseMaxHealthAbsorbRatio>0</BaseMaxHealthAbsorbRatio>
+  <IgnoreHalfResistances>false</IgnoreHalfResistances>
 </DM_Weapon>

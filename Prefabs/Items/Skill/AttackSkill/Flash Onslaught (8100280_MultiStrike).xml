@@ -21,7 +21,11 @@ Attack all enemies within a close distance with increased Damage and Impact. Usi
   <MobileCastMovementMult>-1</MobileCastMovementMult>
   <CastSheatheRequired>2</CastSheatheRequired>
   <OverrideSellModifier>-1</OverrideSellModifier>
-  <Tags />
+  <Tags>
+    <string>WeaponSkillAttack</string>
+    <string>AttackType</string>
+    <string>Character Stats</string>
+  </Tags>
   <EffectTransforms>
     <DM_EffectTransform>
       <TransformName>Effects</TransformName>
@@ -118,6 +122,7 @@ Attack all enemies within a close distance with increased Damage and Impact. Usi
                   <Damages_AI />
                   <Knockback>0</Knockback>
                   <HitInventory>true</HitInventory>
+                  <IgnoreHalfResistances>false</IgnoreHalfResistances>
                   <OverrideType>Count</OverrideType>
                   <ForceOnlyLeftHand>false</ForceOnlyLeftHand>
                   <Damage_Multiplier>1.65</Damage_Multiplier>
@@ -208,6 +213,8 @@ Attack all enemies within a close distance with increased Damage and Impact. Usi
   <ManaCost>0</ManaCost>
   <DurabilityCost>0</DurabilityCost>
   <DurabilityCostPercent>0</DurabilityCostPercent>
+  <HealthCost>0</HealthCost>
+  <RequiredPType>Normal</RequiredPType>
   <RequiredItems />
   <AmmunitionTypes />
   <RequiredOffHandTypes />
@@ -224,4 +231,5 @@ Attack all enemies within a close distance with increased Damage and Impact. Usi
   </RequiredWeaponTypes>
   <RequiredWeaponTags />
   <RequireImbue>false</RequireImbue>
+  <AmmunitionAmount>-1</AmmunitionAmount>
 </DM_AttackSkill>

@@ -46,7 +46,7 @@ All nearby enemies are knocked back.</Description>
           <SyncType>OwnerSync</SyncType>
           <OverrideCategory>None</OverrideCategory>
           <AffectQuantity>100</AffectQuantity>
-          <IsModifier>false</IsModifier>
+          <SetStability>false</SetStability>
         </DM_Effect>
       </Effects>
       <EffectConditions />
@@ -89,6 +89,8 @@ All nearby enemies are knocked back.</Description>
   <ManaCost>0</ManaCost>
   <DurabilityCost>0</DurabilityCost>
   <DurabilityCostPercent>0</DurabilityCostPercent>
+  <HealthCost>0</HealthCost>
+  <RequiredPType>Normal</RequiredPType>
   <RequiredItems />
   <AmmunitionTypes />
   <RequiredOffHandTypes />
@@ -105,7 +107,9 @@ All nearby enemies are knocked back.</Description>
   </RequiredWeaponTypes>
   <RequiredWeaponTags />
   <RequireImbue>false</RequireImbue>
+  <AmmunitionAmount>-1</AmmunitionAmount>
   <Blockable>false</Blockable>
+  <NoWeaponAtkTag>false</NoWeaponAtkTag>
   <Damage>0</Damage>
   <Impact>0</Impact>
   <LinecastCount>0</LinecastCount>

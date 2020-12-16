@@ -23,6 +23,8 @@
     <string>Deployable</string>
     <string>Item</string>
     <string>Kit</string>
+    <string>Advanced Tent</string>
+    <string>Tent</string>
   </Tags>
   <StatsHolder>
     <BaseValue>100</BaseValue>

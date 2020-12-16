@@ -31,6 +31,34 @@
       <Name>Antique Plateau:Blood Mage Hideout</Name>
       <Quantity>1</Quantity>
     </QuantityHolder>
+    <QuantityHolder>
+      <Name>Caldera:Caldera</Name>
+      <Quantity>5</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Caldera:The Eldest Brother</Name>
+      <Quantity>4</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Caldera:Scarlet Sanctuary</Name>
+      <Quantity>6</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Caldera:Old Sirocco</Name>
+      <Quantity>4</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Caldera:Ark of the Exiled</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Caldera:Calygrey Colosseum</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Caldera:New Sirocco Mines</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
   </All_Locations>
   <DropTables>
     <DroptableSummary>
@@ -42,6 +70,11 @@
         <string>Forgotten Research Laboratory</string>
         <string>Destroyed Test Chambers</string>
         <string>Blood Mage Hideout</string>
+        <string>Caldera</string>
+        <string>The Eldest Brother</string>
+        <string>Old Sirocco</string>
+        <string>Ark of the Exiled</string>
+        <string>Calygrey Colosseum</string>
       </Locations>
     </DroptableSummary>
     <DroptableSummary>
@@ -50,6 +83,9 @@
         <string>Blister Burrow</string>
         <string>Trog Infiltration</string>
         <string>Abrassar</string>
+        <string>Caldera</string>
+        <string>The Eldest Brother</string>
+        <string>Calygrey Colosseum</string>
       </Locations>
     </DroptableSummary>
     <DroptableSummary>
@@ -71,6 +107,11 @@
         <string>Forgotten Research Laboratory</string>
         <string>Destroyed Test Chambers</string>
         <string>Blood Mage Hideout</string>
+        <string>Caldera</string>
+        <string>The Eldest Brother</string>
+        <string>Scarlet Sanctuary</string>
+        <string>Old Sirocco</string>
+        <string>Ark of the Exiled</string>
       </Locations>
     </DroptableSummary>
     <DroptableSummary>
@@ -85,6 +126,8 @@
       <Locations>
         <string>Abrassar</string>
         <string>Forgotten Research Laboratory</string>
+        <string>Caldera</string>
+        <string>New Sirocco Mines</string>
       </Locations>
     </DroptableSummary>
     <DroptableSummary>
@@ -93,12 +136,16 @@
         <string>Abrassar</string>
         <string>Hive Prison</string>
         <string>Forgotten Research Laboratory</string>
+        <string>Caldera</string>
+        <string>The Eldest Brother</string>
+        <string>Ark of the Exiled</string>
       </Locations>
     </DroptableSummary>
     <DroptableSummary>
       <DropTableName>DropTable_Neutral_Survival_High_1</DropTableName>
       <Locations>
         <string>Hive Prison</string>
+        <string>Scarlet Sanctuary</string>
       </Locations>
     </DroptableSummary>
     <DroptableSummary>
@@ -111,12 +158,50 @@
       <DropTableName>DropTable_Neutral_Consumable_High_1</DropTableName>
       <Locations>
         <string>Destroyed Test Chambers</string>
+        <string>Caldera</string>
+        <string>The Eldest Brother</string>
+        <string>Scarlet Sanctuary</string>
+        <string>Old Sirocco</string>
       </Locations>
     </DroptableSummary>
     <DroptableSummary>
       <DropTableName>DropTable_AntiqueField_Alchemy_1</DropTableName>
       <Locations>
         <string>Destroyed Test Chambers</string>
+      </Locations>
+    </DroptableSummary>
+    <DroptableSummary>
+      <DropTableName>DropTable_Caldera_Alchemy_1</DropTableName>
+      <Locations>
+        <string>Caldera</string>
+        <string>The Eldest Brother</string>
+        <string>Scarlet Sanctuary</string>
+        <string>Old Sirocco</string>
+        <string>New Sirocco Mines</string>
+      </Locations>
+    </DroptableSummary>
+    <DroptableSummary>
+      <DropTableName>DropTable_Caldera_Consumable_1</DropTableName>
+      <Locations>
+        <string>Caldera</string>
+        <string>The Eldest Brother</string>
+        <string>Scarlet Sanctuary</string>
+        <string>Old Sirocco</string>
+        <string>New Sirocco Mines</string>
+      </Locations>
+    </DroptableSummary>
+    <DroptableSummary>
+      <DropTableName>DropTable_Neutral_Alchemy_High_1</DropTableName>
+      <Locations>
+        <string>Caldera</string>
+        <string>Scarlet Sanctuary</string>
+        <string>Old Sirocco</string>
+      </Locations>
+    </DroptableSummary>
+    <DroptableSummary>
+      <DropTableName>DropTable_Neutral_Valuable_High_1</DropTableName>
+      <Locations>
+        <string>Scarlet Sanctuary</string>
       </Locations>
     </DroptableSummary>
   </DropTables>

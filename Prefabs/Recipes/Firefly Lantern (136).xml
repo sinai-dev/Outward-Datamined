@@ -4,6 +4,7 @@
   <RecipeID>136</RecipeID>
   <UID />
   <StationType>Survival</StationType>
+  <RequiredPType>None</RequiredPType>
   <Ingredients>
     <string>Firefly Lantern</string>
     <string>Firefly powder</string>

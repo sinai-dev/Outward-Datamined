@@ -4,6 +4,7 @@
   <RecipeID>64</RecipeID>
   <UID />
   <StationType>Cooking</StationType>
+  <RequiredPType>None</RequiredPType>
   <Ingredients>
     <string>Bread</string>
   </Ingredients>

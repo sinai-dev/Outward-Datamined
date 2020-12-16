@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DM_Throwable xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <gameObjectName>4600050_ToxinGrenade</gameObjectName>
+  <saveDir>/Throwable</saveDir>
+  <ItemID>4600050</ItemID>
+  <Name>Toxin Bomb</Name>
+  <Description>Explodes after a moment, dealing Decay Damage and the Plague Status.</Description>
+  <LegacyItemID>-1</LegacyItemID>
+  <IsPickable>true</IsPickable>
+  <IsUsable>true</IsUsable>
+  <QtyRemovedOnUse>1</QtyRemovedOnUse>
+  <GroupItemInDisplay>false</GroupItemInDisplay>
+  <HasPhysicsWhenWorld>false</HasPhysicsWhenWorld>
+  <RepairedInRest>true</RepairedInRest>
+  <BehaviorOnNoDurability>NotSet</BehaviorOnNoDurability>
+  <CastType>ThrowGrenade</CastType>
+  <CastModifier>Mobile</CastModifier>
+  <CastLocomotionEnabled>false</CastLocomotionEnabled>
+  <MobileCastMovementMult>-1</MobileCastMovementMult>
+  <CastSheatheRequired>1</CastSheatheRequired>
+  <OverrideSellModifier>-1</OverrideSellModifier>
+  <Tags>
+    <string>Throwable</string>
+    <string>Item</string>
+  </Tags>
+  <StatsHolder>
+    <BaseValue>25</BaseValue>
+    <RawWeight>0.5</RawWeight>
+    <MaxDurability>-1</MaxDurability>
+  </StatsHolder>
+  <EffectTransforms>
+    <DM_EffectTransform>
+      <TransformName>Effects</TransformName>
+      <Effects>
+        <DM_Effect xsi:type="DM_ShootProjectile">
+          <Delay>0</Delay>
+          <SyncType>OwnerSync</SyncType>
+          <OverrideCategory>None</OverrideCategory>
+          <CastPosition>TransformCharForward</CastPosition>
+          <LocalPositionAdd>
+            <x>0</x>
+            <y>0</y>
+            <z>0</z>
+          </LocalPositionAdd>
+          <NoAim>false</NoAim>
+          <TargetType>Enemies</TargetType>
+          <TransformName>HandRShooter</TransformName>
+          <BaseProjectile>GrenadeToxin</BaseProjectile>
+          <ProjectileShots />
+          <Lifespan>3</Lifespan>
+          <LateShootTime>0.01</LateShootTime>
+          <Unblockable>false</Unblockable>
+          <EffectsOnlyIfHitCharacter>false</EffectsOnlyIfHitCharacter>
+          <EndMode>Normal</EndMode>
+          <DisableOnHit>false</DisableOnHit>
+          <IgnoreShooterCollision>true</IgnoreShooterCollision>
+          <TargetingMode>NONE</TargetingMode>
+          <TargetCountPerProjectile>1</TargetCountPerProjectile>
+          <TargetRange>0</TargetRange>
+          <AutoTarget>false</AutoTarget>
+          <AutoTargetMaxAngle>360</AutoTargetMaxAngle>
+          <AutoTargetRange>5</AutoTargetRange>
+          <ProjectileForce>10</ProjectileForce>
+          <AddDirection>
+            <x>0</x>
+            <y>0.3</y>
+            <z>0</z>
+          </AddDirection>
+          <AddRotationForce>
+            <x>-0.5</x>
+            <y>0.1</y>
+            <z>-0.1</z>
+          </AddRotationForce>
+          <YMagnitudeAffect>0.04</YMagnitudeAffect>
+          <YMagnitudeForce>0</YMagnitudeForce>
+          <DefenseLength>3</DefenseLength>
+          <DefenseRange>6</DefenseRange>
+          <ImpactSoundMaterial>Fire</ImpactSoundMaterial>
+          <LightIntensityFade>
+            <x>3</x>
+            <y>3</y>
+          </LightIntensityFade>
+          <PointOffset>
+            <x>0</x>
+            <y>0</y>
+            <z>0</z>
+          </PointOffset>
+          <TrailEnabled>false</TrailEnabled>
+          <TrailTime>0.075</TrailTime>
+          <ProjectileEffects>
+            <DM_EffectTransform>
+              <TransformName>HitEffects</TransformName>
+              <Effects>
+                <DM_Effect xsi:type="DM_ShootBlast">
+                  <Delay>0</Delay>
+                  <SyncType>MasterSync</SyncType>
+                  <OverrideCategory>None</OverrideCategory>
+                  <CastPosition>Local</CastPosition>
+                  <LocalPositionAdd>
+                    <x>0</x>
+                    <y>0</y>
+                    <z>0</z>
+                  </LocalPositionAdd>
+                  <NoAim>false</NoAim>
+                  <TargetType>Enemies</TargetType>
+                  <TransformName>ShooterTransform</TransformName>
+                  <BaseBlast>GrenadeToxinBlast</BaseBlast>
+                  <Radius>4</Radius>
+                  <RefreshTime>0.1</RefreshTime>
+                  <BlastLifespan>0.01</BlastLifespan>
+                  <InstantiatedAmount>1</InstantiatedAmount>
+                  <Interruptible>false</Interruptible>
+                  <MaxHitTargetCount>-1</MaxHitTargetCount>
+                  <AffectHitTargetCenter>false</AffectHitTargetCenter>
+                  <HitOnShoot>true</HitOnShoot>
+                  <IgnoreShooter>false</IgnoreShooter>
+                  <IgnoreStop>false</IgnoreStop>
+                  <NoTargetForwardMultiplier>5</NoTargetForwardMultiplier>
+                  <ParentToShootTransform>false</ParentToShootTransform>
+                  <UseTargetCharacterPositionType>false</UseTargetCharacterPositionType>
+                  <ImpactSoundMaterial>Fire</ImpactSoundMaterial>
+                  <DontPlayHitSound>false</DontPlayHitSound>
+                  <FXIsWorld>false</FXIsWorld>
+                  <BlastEffects>
+                    <DM_EffectTransform>
+                      <TransformName>Effects</TransformName>
+                      <Effects>
+                        <DM_Effect xsi:type="DM_PunctualDamage">
+                          <Delay>0</Delay>
+                          <SyncType>OwnerSync</SyncType>
+                          <OverrideCategory>None</OverrideCategory>
+                          <Damage>
+                            <Damages>
+                              <Damage>90</Damage>
+                              <Damage_Type>Decay</Damage_Type>
+                            </Damages>
+                          </Damage>
+                          <Damages_AI />
+                          <Knockback>15</Knockback>
+                          <HitInventory>true</HitInventory>
+                          <IgnoreHalfResistances>false</IgnoreHalfResistances>
+                        </DM_Effect>
+                        <DM_Effect xsi:type="DM_AddStatusEffect">
+                          <Delay>0</Delay>
+                          <SyncType>OwnerSync</SyncType>
+                          <OverrideCategory>None</OverrideCategory>
+                          <StatusEffect>Plague</StatusEffect>
+                          <ChanceToContract>100</ChanceToContract>
+                        </DM_Effect>
+                      </Effects>
+                      <EffectConditions />
+                      <ChildEffects />
+                    </DM_EffectTransform>
+                  </BlastEffects>
+                </DM_Effect>
+              </Effects>
+              <EffectConditions />
+              <ChildEffects />
+            </DM_EffectTransform>
+          </ProjectileEffects>
+        </DM_Effect>
+      </Effects>
+      <EffectConditions />
+      <ChildEffects />
+    </DM_EffectTransform>
+  </EffectTransforms>
+  <DestroyDelay>6</DestroyDelay>
+</DM_Throwable>

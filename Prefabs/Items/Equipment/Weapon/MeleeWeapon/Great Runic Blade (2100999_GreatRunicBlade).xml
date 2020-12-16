@@ -30,7 +30,7 @@
     <string>Main Weapon</string>
   </Tags>
   <StatsHolder xsi:type="DM_WeaponStats">
-    <BaseValue>0</BaseValue>
+    <BaseValue>1000</BaseValue>
     <RawWeight>0</RawWeight>
     <MaxDurability>-1</MaxDurability>
     <Damage_Resistance>
@@ -68,6 +68,9 @@
     <Hunger_Affect>0</Hunger_Affect>
     <Thirst_Affect>0</Thirst_Affect>
     <Fatigue_Affect>0</Fatigue_Affect>
+    <BarrierProtection>0</BarrierProtection>
+    <GlobalStatusEffectResistance>0</GlobalStatusEffectResistance>
+    <StaminaRegenModifier>0</StaminaRegenModifier>
     <AttackSpeed>1</AttackSpeed>
     <BaseDamage>
       <Damages>
@@ -76,11 +79,11 @@
       </Damages>
     </BaseDamage>
     <Impact>19</Impact>
-    <StamCost>7.15</StamCost>
+    <StamCost>6.29915</StamCost>
     <AutoGenerateAttackData>false</AutoGenerateAttackData>
     <Attacks>
       <AttackData>
-        <StamCost>7.15</StamCost>
+        <StamCost>6.29915</StamCost>
         <Knockback>19</Knockback>
         <AttackSpeed>1</AttackSpeed>
         <Damage>
@@ -88,7 +91,7 @@
         </Damage>
       </AttackData>
       <AttackData>
-        <StamCost>7.15</StamCost>
+        <StamCost>6.29915</StamCost>
         <Knockback>19</Knockback>
         <AttackSpeed>1</AttackSpeed>
         <Damage>
@@ -96,7 +99,7 @@
         </Damage>
       </AttackData>
       <AttackData>
-        <StamCost>9.295</StamCost>
+        <StamCost>8.188895</StamCost>
         <Knockback>28.5</Knockback>
         <AttackSpeed>1.3</AttackSpeed>
         <Damage>
@@ -104,19 +107,19 @@
         </Damage>
       </AttackData>
       <AttackData>
-        <StamCost>7.865</StamCost>
+        <StamCost>6.929065</StamCost>
         <Knockback>20.9</Knockback>
         <AttackSpeed>1.1</AttackSpeed>
         <Damage>
-          <float>42.9</float>
+          <float>49.335</float>
         </Damage>
       </AttackData>
       <AttackData>
-        <StamCost>7.865</StamCost>
+        <StamCost>6.929065</StamCost>
         <Knockback>20.9</Knockback>
         <AttackSpeed>1.1</AttackSpeed>
         <Damage>
-          <float>42.9</float>
+          <float>49.335</float>
         </Damage>
       </AttackData>
     </Attacks>
@@ -133,4 +136,5 @@
   <MaxProjectileShots>-1</MaxProjectileShots>
   <BaseHealthAbsorbRatio>0</BaseHealthAbsorbRatio>
   <BaseMaxHealthAbsorbRatio>0</BaseMaxHealthAbsorbRatio>
+  <IgnoreHalfResistances>false</IgnoreHalfResistances>
 </DM_Weapon>

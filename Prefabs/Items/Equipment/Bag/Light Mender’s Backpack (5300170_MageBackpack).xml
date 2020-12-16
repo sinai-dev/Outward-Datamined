@@ -64,6 +64,9 @@
     <Hunger_Affect>0</Hunger_Affect>
     <Thirst_Affect>0</Thirst_Affect>
     <Fatigue_Affect>0</Fatigue_Affect>
+    <BarrierProtection>0</BarrierProtection>
+    <GlobalStatusEffectResistance>0</GlobalStatusEffectResistance>
+    <StaminaRegenModifier>0</StaminaRegenModifier>
   </StatsHolder>
   <EffectTransforms />
   <EquipSlot>Back</EquipSlot>
@@ -73,6 +76,6 @@
   <Capacity>75</Capacity>
   <Restrict_Dodge>true</Restrict_Dodge>
   <InventoryProtection>2</InventoryProtection>
-  <Preserver_Amount>75</Preserver_Amount>
+  <Preserver_Amount>25</Preserver_Amount>
   <Nullify_Perish>false</Nullify_Perish>
 </DM_Bag>

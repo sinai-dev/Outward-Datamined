@@ -4,6 +4,7 @@
   <RecipeID>68</RecipeID>
   <UID />
   <StationType>Cooking</StationType>
+  <RequiredPType>None</RequiredPType>
   <Ingredients>
     <string>Smoke Root</string>
     <string>Raw Alpha Meat</string>

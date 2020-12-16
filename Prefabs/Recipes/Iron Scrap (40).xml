@@ -4,6 +4,7 @@
   <RecipeID>40</RecipeID>
   <UID />
   <StationType>Survival</StationType>
+  <RequiredPType>None</RequiredPType>
   <Ingredients>
     <string>DecraftIron_Large</string>
   </Ingredients>

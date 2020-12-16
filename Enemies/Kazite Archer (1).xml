@@ -34,13 +34,16 @@
     <float>30</float>
   </Damage_Bonuses>
   <Collider_Radius>0.4</Collider_Radius>
+  <NullifyResistances>false</NullifyResistances>
+  <GlobalStatusRes>0</GlobalStatusRes>
+  <BarrierStat>0</BarrierStat>
   <True_WeaponDamage>
     <Damages>
       <Damage>85.1</Damage>
       <Damage_Type>Physical</Damage_Type>
     </Damages>
   </True_WeaponDamage>
-  <Weapon_Impact>30</Weapon_Impact>
+  <Weapon_Impact>25</Weapon_Impact>
   <Status_Immunities />
   <Starting_Equipment>
     <string>Black Plate Helm (3100094)</string>

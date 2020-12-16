@@ -95,6 +95,7 @@
                 <Damages_AI />
                 <Knockback>5</Knockback>
                 <HitInventory>true</HitInventory>
+                <IgnoreHalfResistances>false</IgnoreHalfResistances>
                 <OverrideType>Frost</OverrideType>
                 <ForceOnlyLeftHand>false</ForceOnlyLeftHand>
                 <Damage_Multiplier>0</Damage_Multiplier>
@@ -120,6 +121,7 @@
     <HealthAbsorbRatio>0</HealthAbsorbRatio>
     <ManaAbsorbRatio>0</ManaAbsorbRatio>
     <StaminaAbsorbRatio>0</StaminaAbsorbRatio>
+    <GlobalStatusResistance>0</GlobalStatusResistance>
     <Indescructible>false</Indescructible>
     <TrackDamageRatio>-1</TrackDamageRatio>
   </Result>

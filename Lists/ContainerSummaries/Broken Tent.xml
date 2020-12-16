@@ -19,6 +19,10 @@
       <Name>Antique Plateau:Antique Plateau</Name>
       <Quantity>1</Quantity>
     </QuantityHolder>
+    <QuantityHolder>
+      <Name>Caldera:Myrmitaur’s Haven</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
   </All_Locations>
   <DropTables>
     <DroptableSummary>
@@ -68,6 +72,24 @@
       <DropTableName>DropTable_HallowedMarshChest_B_6</DropTableName>
       <Locations>
         <string>Hallowed Marsh</string>
+      </Locations>
+    </DroptableSummary>
+    <DroptableSummary>
+      <DropTableName>DropTable_Caldera_Food_1</DropTableName>
+      <Locations>
+        <string>Myrmitaur’s Haven</string>
+      </Locations>
+    </DroptableSummary>
+    <DroptableSummary>
+      <DropTableName>DropTable_Neutral_Food_1</DropTableName>
+      <Locations>
+        <string>Myrmitaur’s Haven</string>
+      </Locations>
+    </DroptableSummary>
+    <DroptableSummary>
+      <DropTableName>DropTable_Caldera_Recipe_Basic_1</DropTableName>
+      <Locations>
+        <string>Myrmitaur’s Haven</string>
       </Locations>
     </DroptableSummary>
   </DropTables>

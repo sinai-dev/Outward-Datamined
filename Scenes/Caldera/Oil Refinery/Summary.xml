@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SceneSummary xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SceneName>Oil Refinery</SceneName>
+  <Enemies>
+    <QuantityHolder>
+      <Name>Elder Medyse (1)</Name>
+      <Quantity>3</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Calygrey (1)</Name>
+      <Quantity>4</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Drifting Medyse (1)</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Gargoyle (1)</Name>
+      <Quantity>3</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Elder Calygrey (1)</Name>
+      <Quantity>2</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Torcrab (1)</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Boreo (3)</Name>
+      <Quantity>2</Quantity>
+    </QuantityHolder>
+  </Enemies>
+  <Merchants />
+  <Loot_Containers>
+    <QuantityHolder>
+      <Name>Junk Pile</Name>
+      <Quantity>8</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Ornate Chest</Name>
+      <Quantity>3</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Worker’s Corpse</Name>
+      <Quantity>4</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Chest</Name>
+      <Quantity>3</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Knight’s Corpse</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+  </Loot_Containers>
+  <Gatherables>
+    <QuantityHolder>
+      <Name>Oil</Name>
+      <Quantity>12</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Palladium vein</Name>
+      <Quantity>3</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Iron vein</Name>
+      <Quantity>4</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Unidentified Ore Vein</Name>
+      <Quantity>2</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Rich Iron vein</Name>
+      <Quantity>2</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Unidentified Molepig den</Name>
+      <Quantity>2</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Unidentified Roots</Name>
+      <Quantity>2</Quantity>
+    </QuantityHolder>
+  </Gatherables>
+  <Item_Spawns>
+    <DM_ItemSpawn>
+      <Name>Refinery Key: Upper</Name>
+      <Item_ID>5600173</Item_ID>
+      <Quantity>1</Quantity>
+      <positions>
+        <Vector3>
+          <x>-166.003</x>
+          <y>-17.966</y>
+          <z>43.3739</z>
+        </Vector3>
+      </positions>
+    </DM_ItemSpawn>
+    <DM_ItemSpawn>
+      <Name>Refinery Key: Depths</Name>
+      <Item_ID>5600172</Item_ID>
+      <Quantity>1</Quantity>
+      <positions>
+        <Vector3>
+          <x>-191.033</x>
+          <y>-20.5137</y>
+          <z>24.5499916</z>
+        </Vector3>
+      </positions>
+    </DM_ItemSpawn>
+  </Item_Spawns>
+  <UniqueContainerList>
+    <string>Junk Pile_-dEDtE1qcES6aPTci89fWg</string>
+    <string>Ornate Chest_qnqUEGAJdkmqqueZgGYnIA</string>
+    <string>Junk Pile_jLcu8kpwxkCYOpgxjfuqLw</string>
+    <string>Worker’s Corpse_XfJV7JPhuEatKgeU_rJaVA</string>
+    <string>Chest_AJcAeo1NPU-SvR1QDFDZOQ</string>
+    <string>Knight’s Corpse__lng3uASSEOB7lZULeWhiA</string>
+    <string>Worker’s Corpse_N-LO6vsIdkW90vCl1txCcQ</string>
+    <string>Chest_ZoR0dmZIQki0gB5vKn9pVg</string>
+    <string>Junk Pile_RfWcFt28qkOowmgDMux1bw</string>
+    <string>Worker’s Corpse_UUnCqf94s0qSV0Mjogkqxg</string>
+    <string>Worker’s Corpse_-eSAHoUboU69Wj9aRh12lA</string>
+    <string>Junk Pile_KQIOEosnY0ym7ANy2g5ScA</string>
+    <string>Junk Pile_6Gue--nIq0iGuIQamBFmKg</string>
+    <string>Junk Pile_Tl9i7Iu1B0WHYCeBtDv94A</string>
+    <string>Chest_bu8in5ZrJESSIta-LgqPtg</string>
+    <string>Junk Pile_DCgFPtR9jkCBx3IBcSfvNg</string>
+  </UniqueContainerList>
+</SceneSummary>

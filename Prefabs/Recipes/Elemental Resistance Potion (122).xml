@@ -4,6 +4,7 @@
   <RecipeID>122</RecipeID>
   <UID />
   <StationType>Alchemy</StationType>
+  <RequiredPType>None</RequiredPType>
   <Ingredients>
     <string>Smoke Root</string>
     <string>Occult Remains</string>

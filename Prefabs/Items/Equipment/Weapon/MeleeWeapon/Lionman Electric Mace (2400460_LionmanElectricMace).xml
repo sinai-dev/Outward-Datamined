@@ -64,14 +64,17 @@
     <Hunger_Affect>0</Hunger_Affect>
     <Thirst_Affect>0</Thirst_Affect>
     <Fatigue_Affect>0</Fatigue_Affect>
-    <AttackSpeed>1</AttackSpeed>
+    <BarrierProtection>0</BarrierProtection>
+    <GlobalStatusEffectResistance>0</GlobalStatusEffectResistance>
+    <StaminaRegenModifier>0</StaminaRegenModifier>
+    <AttackSpeed>0.75</AttackSpeed>
     <BaseDamage>
       <Damages>
-        <Damage>22</Damage>
+        <Damage>33</Damage>
         <Damage_Type>Physical</Damage_Type>
       </Damages>
       <Damages>
-        <Damage>22</Damage>
+        <Damage>11</Damage>
         <Damage_Type>Electric</Damage_Type>
       </Damages>
     </BaseDamage>
@@ -84,8 +87,8 @@
         <Knockback>85</Knockback>
         <AttackSpeed>1</AttackSpeed>
         <Damage>
-          <float>22</float>
-          <float>22</float>
+          <float>33</float>
+          <float>11</float>
         </Damage>
       </AttackData>
       <AttackData>
@@ -93,8 +96,8 @@
         <Knockback>115</Knockback>
         <AttackSpeed>1</AttackSpeed>
         <Damage>
-          <float>22</float>
-          <float>22</float>
+          <float>33</float>
+          <float>11</float>
         </Damage>
       </AttackData>
     </Attacks>
@@ -109,6 +112,8 @@
           <OverrideCategory>None</OverrideCategory>
           <StatusEffect>Confusion</StatusEffect>
           <Buildup>75</Buildup>
+          <BuildUpMultiplier>1</BuildUpMultiplier>
+          <BypassCounter>false</BypassCounter>
         </DM_Effect>
         <DM_Effect xsi:type="DM_AddStatusEffectBuildUp">
           <Delay>0</Delay>
@@ -116,6 +121,8 @@
           <OverrideCategory>None</OverrideCategory>
           <StatusEffect>Doom</StatusEffect>
           <Buildup>60</Buildup>
+          <BuildUpMultiplier>1</BuildUpMultiplier>
+          <BypassCounter>false</BypassCounter>
         </DM_Effect>
       </Effects>
       <EffectConditions />
@@ -123,14 +130,15 @@
     </DM_EffectTransform>
   </EffectTransforms>
   <EquipSlot>RightHand</EquipSlot>
-  <TwoHandType>TwoHandedRight</TwoHandType>
+  <TwoHandType>None</TwoHandType>
   <IKType>None</IKType>
   <VisualDetectabilityAdd>0</VisualDetectabilityAdd>
-  <WeaponType>Sword_1H</WeaponType>
+  <WeaponType>Mace_1H</WeaponType>
   <Unblockable>false</Unblockable>
   <SwingSound>Default</SwingSound>
   <SpecialIsZoom>false</SpecialIsZoom>
   <MaxProjectileShots>-1</MaxProjectileShots>
   <BaseHealthAbsorbRatio>0</BaseHealthAbsorbRatio>
   <BaseMaxHealthAbsorbRatio>0</BaseMaxHealthAbsorbRatio>
+  <IgnoreHalfResistances>false</IgnoreHalfResistances>
 </DM_Weapon>

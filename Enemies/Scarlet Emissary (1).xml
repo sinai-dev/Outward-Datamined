@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DM_Enemy xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Name>Scarlet Emissary</Name>
+  <GameObject_Name>ScarletEmissary</GameObject_Name>
+  <Unique_ID>1</Unique_ID>
+  <Locations_Found>
+    <string>Caldera:Caldera</string>
+    <string>Caldera:Scarlet Sanctuary</string>
+    <string>Caldera:Old Sirocco</string>
+    <string>Caldera:Ark of the Exiled</string>
+    <string>Caldera:New Sirocco Mines</string>
+  </Locations_Found>
+  <Max_Health>1200</Max_Health>
+  <Health_Regen_Per_Second>0</Health_Regen_Per_Second>
+  <Impact_Resistance>65</Impact_Resistance>
+  <Protection>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+  </Protection>
+  <Damage_Resistances>
+    <float>65</float>
+    <float>-20</float>
+    <float>0</float>
+    <float>35</float>
+    <float>0</float>
+    <float>100</float>
+  </Damage_Resistances>
+  <Damage_Bonuses>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+  </Damage_Bonuses>
+  <Collider_Radius>0.4</Collider_Radius>
+  <NullifyResistances>false</NullifyResistances>
+  <GlobalStatusRes>0</GlobalStatusRes>
+  <BarrierStat>0</BarrierStat>
+  <True_WeaponDamage>
+    <Damages>
+      <Damage>6</Damage>
+      <Damage_Type>Physical</Damage_Type>
+    </Damages>
+    <Damages>
+      <Damage>15</Damage>
+      <Damage_Type>Fire</Damage_Type>
+    </Damages>
+    <Damages>
+      <Damage>15</Damage>
+      <Damage_Type>Electric</Damage_Type>
+    </Damages>
+  </True_WeaponDamage>
+  <Weapon_Impact>65</Weapon_Impact>
+  <Status_Immunities>
+    <string>Bleeding</string>
+    <string>Poison</string>
+  </Status_Immunities>
+  <Starting_Equipment>
+    <string>EmberManClaw (2400430)</string>
+  </Starting_Equipment>
+  <Skill_Knowledge>
+    <string>ScarletteCombust (8300532)</string>
+    <string>ScarletEmissaryBlast (8300530)</string>
+    <string>ScarletEmissaryEnrage (8300531)</string>
+  </Skill_Knowledge>
+  <Faction>Deer</Faction>
+  <Allied_To_Same_Faction>true</Allied_To_Same_Faction>
+  <Guaranteed_Drops />
+  <DropTable_Names>
+    <string>DropTable_ScarletEmissary_DLC2</string>
+  </DropTable_Names>
+</DM_Enemy>

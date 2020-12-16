@@ -4,6 +4,7 @@
   <RecipeID>172</RecipeID>
   <UID />
   <StationType>Survival</StationType>
+  <RequiredPType>None</RequiredPType>
   <Ingredients>
     <string>Palladium Scrap</string>
     <string>Palladium Scrap</string>

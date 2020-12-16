@@ -4,6 +4,7 @@
   <RecipeID>321</RecipeID>
   <UID />
   <StationType>Survival</StationType>
+  <RequiredPType>None</RequiredPType>
   <Ingredients>
     <string>Beast Golem Scraps</string>
     <string>Shield Golem Scraps</string>

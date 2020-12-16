@@ -73,6 +73,7 @@ Can be combined with other spells for powerful effects.</Description>
                   <Damages_AI />
                   <Knockback>100</Knockback>
                   <HitInventory>true</HitInventory>
+                  <IgnoreHalfResistances>false</IgnoreHalfResistances>
                 </DM_Effect>
               </Effects>
               <EffectConditions />
@@ -195,6 +196,7 @@ Can be combined with other spells for powerful effects.</Description>
                       <Damages_AI />
                       <Knockback>60</Knockback>
                       <HitInventory>true</HitInventory>
+                      <IgnoreHalfResistances>false</IgnoreHalfResistances>
                     </DM_Effect>
                     <DM_Effect xsi:type="DM_AddStatusEffect">
                       <Delay>0</Delay>
@@ -237,6 +239,8 @@ Can be combined with other spells for powerful effects.</Description>
                 <y>-0.5</y>
                 <z>0</z>
               </Offset>
+              <ProximityAngle>-1</ProximityAngle>
+              <OrMode>false</OrMode>
             </DM_EffectCondition>
           </EffectConditions>
           <ChildEffects />
@@ -323,6 +327,7 @@ Can be combined with other spells for powerful effects.</Description>
                       <Damages_AI />
                       <Knockback>100</Knockback>
                       <HitInventory>true</HitInventory>
+                      <IgnoreHalfResistances>false</IgnoreHalfResistances>
                     </DM_Effect>
                   </Effects>
                   <EffectConditions />
@@ -358,6 +363,8 @@ Can be combined with other spells for powerful effects.</Description>
                 <y>-0.5</y>
                 <z>0</z>
               </Offset>
+              <ProximityAngle>-1</ProximityAngle>
+              <OrMode>false</OrMode>
             </DM_EffectCondition>
           </EffectConditions>
           <ChildEffects />
@@ -448,6 +455,7 @@ Can be combined with other spells for powerful effects.</Description>
                       <Damages_AI />
                       <Knockback>25</Knockback>
                       <HitInventory>false</HitInventory>
+                      <IgnoreHalfResistances>false</IgnoreHalfResistances>
                     </DM_Effect>
                   </Effects>
                   <EffectConditions />
@@ -490,6 +498,8 @@ Can be combined with other spells for powerful effects.</Description>
                 <y>-0.5</y>
                 <z>0</z>
               </Offset>
+              <ProximityAngle>-1</ProximityAngle>
+              <OrMode>false</OrMode>
             </DM_EffectCondition>
           </EffectConditions>
           <ChildEffects />
@@ -502,10 +512,13 @@ Can be combined with other spells for powerful effects.</Description>
   <ManaCost>5</ManaCost>
   <DurabilityCost>0</DurabilityCost>
   <DurabilityCostPercent>0</DurabilityCostPercent>
+  <HealthCost>0</HealthCost>
+  <RequiredPType>Normal</RequiredPType>
   <RequiredItems />
   <AmmunitionTypes />
   <RequiredOffHandTypes />
   <RequiredWeaponTypes />
   <RequiredWeaponTags />
   <RequireImbue>false</RequireImbue>
+  <AmmunitionAmount>-1</AmmunitionAmount>
 </DM_AttackSkill>

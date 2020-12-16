@@ -6,7 +6,7 @@
   <Locations_Found>
     <string>Abrassar:Abrassar</string>
   </Locations_Found>
-  <Max_Health>800</Max_Health>
+  <Max_Health>2500</Max_Health>
   <Health_Regen_Per_Second>0</Health_Regen_Per_Second>
   <Impact_Resistance>65</Impact_Resistance>
   <Protection>
@@ -26,7 +26,7 @@
     <float>0</float>
   </Damage_Resistances>
   <Damage_Bonuses>
-    <float>0</float>
+    <float>200</float>
     <float>0</float>
     <float>0</float>
     <float>0</float>
@@ -34,9 +34,12 @@
     <float>0</float>
   </Damage_Bonuses>
   <Collider_Radius>0.8</Collider_Radius>
+  <NullifyResistances>false</NullifyResistances>
+  <GlobalStatusRes>0</GlobalStatusRes>
+  <BarrierStat>0</BarrierStat>
   <True_WeaponDamage>
     <Damages>
-      <Damage>25</Damage>
+      <Damage>75</Damage>
       <Damage_Type>Physical</Damage_Type>
     </Damages>
   </True_WeaponDamage>

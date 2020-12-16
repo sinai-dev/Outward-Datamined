@@ -73,6 +73,7 @@ This spell can light campfires.</Description>
                   <Damages_AI />
                   <Knockback>40</Knockback>
                   <HitInventory>true</HitInventory>
+                  <IgnoreHalfResistances>false</IgnoreHalfResistances>
                 </DM_Effect>
               </Effects>
               <EffectConditions />
@@ -230,6 +231,7 @@ This spell can light campfires.</Description>
                               <Damages_AI />
                               <Knockback>60</Knockback>
                               <HitInventory>true</HitInventory>
+                              <IgnoreHalfResistances>false</IgnoreHalfResistances>
                             </DM_Effect>
                             <DM_Effect xsi:type="DM_AddStatusEffect">
                               <Delay>0</Delay>
@@ -317,6 +319,8 @@ This spell can light campfires.</Description>
                 <y>-0.5</y>
                 <z>0</z>
               </Offset>
+              <ProximityAngle>-1</ProximityAngle>
+              <OrMode>false</OrMode>
             </DM_EffectCondition>
           </EffectConditions>
           <ChildEffects />
@@ -378,6 +382,7 @@ This spell can light campfires.</Description>
                       <Damages_AI />
                       <Knockback>75</Knockback>
                       <HitInventory>true</HitInventory>
+                      <IgnoreHalfResistances>false</IgnoreHalfResistances>
                     </DM_Effect>
                   </Effects>
                   <EffectConditions />
@@ -424,6 +429,8 @@ This spell can light campfires.</Description>
                 <y>-0.5</y>
                 <z>0</z>
               </Offset>
+              <ProximityAngle>-1</ProximityAngle>
+              <OrMode>false</OrMode>
             </DM_EffectCondition>
           </EffectConditions>
           <ChildEffects />
@@ -505,6 +512,8 @@ This spell can light campfires.</Description>
                 <y>-0.5</y>
                 <z>0</z>
               </Offset>
+              <ProximityAngle>-1</ProximityAngle>
+              <OrMode>false</OrMode>
             </DM_EffectCondition>
           </EffectConditions>
           <ChildEffects />
@@ -535,10 +544,13 @@ This spell can light campfires.</Description>
   <ManaCost>5</ManaCost>
   <DurabilityCost>0</DurabilityCost>
   <DurabilityCostPercent>0</DurabilityCostPercent>
+  <HealthCost>0</HealthCost>
+  <RequiredPType>Normal</RequiredPType>
   <RequiredItems />
   <AmmunitionTypes />
   <RequiredOffHandTypes />
   <RequiredWeaponTypes />
   <RequiredWeaponTags />
   <RequireImbue>false</RequireImbue>
+  <AmmunitionAmount>-1</AmmunitionAmount>
 </DM_AttackSkill>

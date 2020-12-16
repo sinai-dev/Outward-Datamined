@@ -304,6 +304,8 @@ Purple rune that does nothing on its own, but can produce combo effects by casti
   <ManaCost>8</ManaCost>
   <DurabilityCost>0</DurabilityCost>
   <DurabilityCostPercent>0</DurabilityCostPercent>
+  <HealthCost>0</HealthCost>
+  <RequiredPType>Normal</RequiredPType>
   <RequiredItems />
   <AmmunitionTypes />
   <RequiredOffHandTypes />
@@ -312,4 +314,5 @@ Purple rune that does nothing on its own, but can produce combo effects by casti
     <string>Lexicon</string>
   </RequiredWeaponTags>
   <RequireImbue>false</RequireImbue>
+  <AmmunitionAmount>-1</AmmunitionAmount>
 </DM_AttackSkill>

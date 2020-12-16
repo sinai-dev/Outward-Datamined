@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DM_Enemy xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Name>Giant Hunter</Name>
+  <GameObject_Name>AshGiantHunter</GameObject_Name>
+  <Unique_ID>1</Unique_ID>
+  <Locations_Found>
+    <string>Caldera:Caldera</string>
+    <string>Caldera:Steam Bath Tunnels</string>
+  </Locations_Found>
+  <Max_Health>900</Max_Health>
+  <Health_Regen_Per_Second>1.5</Health_Regen_Per_Second>
+  <Impact_Resistance>75</Impact_Resistance>
+  <Protection>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+  </Protection>
+  <Damage_Resistances>
+    <float>25</float>
+    <float>0</float>
+    <float>20</float>
+    <float>0</float>
+    <float>-30</float>
+    <float>0</float>
+  </Damage_Resistances>
+  <Damage_Bonuses>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+  </Damage_Bonuses>
+  <Collider_Radius>0.4</Collider_Radius>
+  <NullifyResistances>false</NullifyResistances>
+  <GlobalStatusRes>0</GlobalStatusRes>
+  <BarrierStat>0</BarrierStat>
+  <True_WeaponDamage>
+    <Damages>
+      <Damage>50</Damage>
+      <Damage_Type>Physical</Damage_Type>
+    </Damages>
+  </True_WeaponDamage>
+  <Weapon_Impact>158</Weapon_Impact>
+  <Status_Immunities />
+  <Starting_Equipment>
+    <string>Giant Crossbow (2400510)</string>
+  </Starting_Equipment>
+  <Skill_Knowledge>
+    <string>AshGianthunterAsh (8300611)</string>
+    <string>GianHunter Bolt Shot (8300600)</string>
+    <string>GianHunter Bolt Long Shot (8300601)</string>
+  </Skill_Knowledge>
+  <Faction>Merchants</Faction>
+  <Allied_To_Same_Faction>true</Allied_To_Same_Faction>
+  <Guaranteed_Drops />
+  <DropTable_Names>
+    <string>DropTable_GiantHunter_DLC2</string>
+  </DropTable_Names>
+</DM_Enemy>

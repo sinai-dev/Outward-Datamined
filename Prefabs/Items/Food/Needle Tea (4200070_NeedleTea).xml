@@ -25,6 +25,8 @@ It takes hours, after drinking this, to fully recover from an indigestion.</Desc
     <string>Drink</string>
     <string>Consummable</string>
     <string>Item</string>
+    <string>IgnoreIndigestion</string>
+    <string>Food</string>
   </Tags>
   <StatsHolder>
     <BaseValue>8</BaseValue>

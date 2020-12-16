@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SceneSummary xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SceneName>Ritualist’s hut</SceneName>
+  <Enemies />
+  <Merchants>
+    <string>Apprentice Ritualist (tS6RgzmRcE-X2jmErKrFfw)</string>
+  </Merchants>
+  <Loot_Containers />
+  <Gatherables />
+  <Item_Spawns />
+  <UniqueContainerList />
+</SceneSummary>

@@ -4,6 +4,7 @@
   <RecipeID>12</RecipeID>
   <UID />
   <StationType>Cooking</StationType>
+  <RequiredPType>None</RequiredPType>
   <Ingredients>
     <string>Rancid Water</string>
   </Ingredients>

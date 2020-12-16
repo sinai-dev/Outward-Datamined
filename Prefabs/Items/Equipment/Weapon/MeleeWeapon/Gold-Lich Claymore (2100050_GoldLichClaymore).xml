@@ -26,6 +26,8 @@
     <string>Blade</string>
     <string>DecraftPalladium_Small</string>
     <string>Decraft</string>
+    <string>Gold</string>
+    <string>Family</string>
     <string>Main Weapon</string>
   </Tags>
   <StatsHolder xsi:type="DM_WeaponStats">
@@ -67,6 +69,9 @@
     <Hunger_Affect>1</Hunger_Affect>
     <Thirst_Affect>1</Thirst_Affect>
     <Fatigue_Affect>1</Fatigue_Affect>
+    <BarrierProtection>0</BarrierProtection>
+    <GlobalStatusEffectResistance>0</GlobalStatusEffectResistance>
+    <StaminaRegenModifier>0</StaminaRegenModifier>
     <AttackSpeed>1</AttackSpeed>
     <BaseDamage>
       <Damages>
@@ -114,8 +119,8 @@
         <Knockback>42.9</Knockback>
         <AttackSpeed>1.1</AttackSpeed>
         <Damage>
-          <float>33.8249969</float>
-          <float>11.275</float>
+          <float>38.89875</float>
+          <float>12.96625</float>
         </Damage>
       </AttackData>
       <AttackData>
@@ -123,8 +128,8 @@
         <Knockback>42.9</Knockback>
         <AttackSpeed>1.1</AttackSpeed>
         <Damage>
-          <float>33.8249969</float>
-          <float>11.275</float>
+          <float>38.89875</float>
+          <float>12.96625</float>
         </Damage>
       </AttackData>
     </Attacks>
@@ -138,7 +143,9 @@
           <SyncType>OwnerSync</SyncType>
           <OverrideCategory>None</OverrideCategory>
           <StatusEffect>Doom</StatusEffect>
-          <Buildup>60</Buildup>
+          <Buildup>45</Buildup>
+          <BuildUpMultiplier>1</BuildUpMultiplier>
+          <BypassCounter>false</BypassCounter>
         </DM_Effect>
       </Effects>
       <EffectConditions />
@@ -156,4 +163,5 @@
   <MaxProjectileShots>-1</MaxProjectileShots>
   <BaseHealthAbsorbRatio>0</BaseHealthAbsorbRatio>
   <BaseMaxHealthAbsorbRatio>0</BaseMaxHealthAbsorbRatio>
+  <IgnoreHalfResistances>false</IgnoreHalfResistances>
 </DM_Weapon>

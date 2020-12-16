@@ -174,12 +174,6 @@
         <Max_Quantity>3</Max_Quantity>
       </DropTableEntry>
       <DropTableEntry>
-        <Item_Name>Hallowed Marsh Antidote</Item_Name>
-        <Item_ID>4300111</Item_ID>
-        <Min_Quantity>1</Min_Quantity>
-        <Max_Quantity>1</Max_Quantity>
-      </DropTableEntry>
-      <DropTableEntry>
         <Item_Name>Clansage Robe</Item_Name>
         <Item_ID>3000270</Item_ID>
         <Min_Quantity>1</Min_Quantity>

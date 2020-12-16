@@ -4,6 +4,7 @@
   <RecipeID>90</RecipeID>
   <UID />
   <StationType>Survival</StationType>
+  <RequiredPType>None</RequiredPType>
   <Ingredients>
     <string>Alpha Tuanosaur Tail</string>
     <string>Brutal Axe</string>

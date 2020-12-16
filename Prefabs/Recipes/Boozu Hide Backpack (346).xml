@@ -4,6 +4,7 @@
   <RecipeID>346</RecipeID>
   <UID />
   <StationType>Survival</StationType>
+  <RequiredPType>None</RequiredPType>
   <Ingredients>
     <string>Scaled Satchel</string>
     <string>Boozu’s Hide</string>

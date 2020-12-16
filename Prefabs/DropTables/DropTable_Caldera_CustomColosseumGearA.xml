@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DM_DropTable xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Name>DropTable_Caldera_CustomColosseumGearA</Name>
+  <Guaranteed_Drops>
+    <DropTableEntry>
+      <Item_Name>Militia Axe</Item_Name>
+      <Item_ID>2010270</Item_ID>
+      <Min_Quantity>1</Min_Quantity>
+      <Max_Quantity>1</Max_Quantity>
+    </DropTableEntry>
+    <DropTableEntry>
+      <Item_Name>Militia Hammer</Item_Name>
+      <Item_ID>2120260</Item_ID>
+      <Min_Quantity>1</Min_Quantity>
+      <Max_Quantity>1</Max_Quantity>
+    </DropTableEntry>
+    <DropTableEntry>
+      <Item_Name>Militia Dagger</Item_Name>
+      <Item_ID>5110017</Item_ID>
+      <Min_Quantity>1</Min_Quantity>
+      <Max_Quantity>1</Max_Quantity>
+    </DropTableEntry>
+    <DropTableEntry>
+      <Item_Name>Arcane Hood</Item_Name>
+      <Item_ID>3000261</Item_ID>
+      <Min_Quantity>1</Min_Quantity>
+      <Max_Quantity>1</Max_Quantity>
+    </DropTableEntry>
+    <DropTableEntry>
+      <Item_Name>Black Plate Armor</Item_Name>
+      <Item_ID>3100093</Item_ID>
+      <Min_Quantity>1</Min_Quantity>
+      <Max_Quantity>1</Max_Quantity>
+    </DropTableEntry>
+    <DropTableEntry>
+      <Item_Name>Scavenger Boots</Item_Name>
+      <Item_ID>3000034</Item_ID>
+      <Min_Quantity>1</Min_Quantity>
+      <Max_Quantity>1</Max_Quantity>
+    </DropTableEntry>
+    <DropTableEntry>
+      <Item_Name>Rage Potion</Item_Name>
+      <Item_ID>4300050</Item_ID>
+      <Min_Quantity>3</Min_Quantity>
+      <Max_Quantity>3</Max_Quantity>
+    </DropTableEntry>
+  </Guaranteed_Drops>
+  <Random_Tables />
+</DM_DropTable>

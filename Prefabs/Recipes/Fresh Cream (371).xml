@@ -4,6 +4,7 @@
   <RecipeID>371</RecipeID>
   <UID />
   <StationType>Cooking</StationType>
+  <RequiredPType>None</RequiredPType>
   <Ingredients>
     <string>Boozu’s Milk</string>
     <string>Boozu’s Milk</string>
