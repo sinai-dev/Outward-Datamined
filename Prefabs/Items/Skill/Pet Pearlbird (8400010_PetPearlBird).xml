@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DM_Skill xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <gameObjectName>8400010_PetPearlBird</gameObjectName>
+  <saveDir>/Skill</saveDir>
+  <ItemID>8400010</ItemID>
+  <Name>Pet Pearlbird</Name>
+  <Description />
+  <LegacyItemID>-1</LegacyItemID>
+  <IsPickable>false</IsPickable>
+  <IsUsable>false</IsUsable>
+  <QtyRemovedOnUse>1</QtyRemovedOnUse>
+  <GroupItemInDisplay>false</GroupItemInDisplay>
+  <HasPhysicsWhenWorld>false</HasPhysicsWhenWorld>
+  <RepairedInRest>true</RepairedInRest>
+  <BehaviorOnNoDurability>NotSet</BehaviorOnNoDurability>
+  <CastType>CallElements</CastType>
+  <CastModifier>Immobilized</CastModifier>
+  <CastLocomotionEnabled>false</CastLocomotionEnabled>
+  <MobileCastMovementMult>-1</MobileCastMovementMult>
+  <CastSheatheRequired>1</CastSheatheRequired>
+  <OverrideSellModifier>-1</OverrideSellModifier>
+  <Tags />
+  <EffectTransforms>
+    <DM_EffectTransform>
+      <TransformName>ActivationEffects</TransformName>
+      <Effects>
+        <DM_Effect xsi:type="DM_PlaySoundEffect">
+          <Delay>2.6</Delay>
+          <SyncType>OwnerSync</SyncType>
+          <OverrideCategory>None</OverrideCategory>
+          <Sounds>
+            <Sounds>CS_PearlBird_Idle_Call1</Sounds>
+          </Sounds>
+          <Follow>false</Follow>
+          <MinPitch>1</MinPitch>
+          <MaxPitch>1</MaxPitch>
+        </DM_Effect>
+      </Effects>
+      <EffectConditions />
+      <ChildEffects />
+    </DM_EffectTransform>
+    <DM_EffectTransform>
+      <TransformName>Effects</TransformName>
+      <Effects>
+        <DM_Effect xsi:type="DM_Summon">
+          <Delay>0</Delay>
+          <SyncType>Everyone</SyncType>
+          <OverrideCategory>None</OverrideCategory>
+          <Prefab>pet_PearlBird</Prefab>
+          <SummonPrefabType>Item</SummonPrefabType>
+          <BufferSize>1</BufferSize>
+          <LimitOfOne>false</LimitOfOne>
+          <SummonMode>CreateNew</SummonMode>
+          <PositionType>InFrontOfTarget</PositionType>
+          <MinDistance>1.5</MinDistance>
+          <MaxDistance>1.5</MaxDistance>
+          <SameDirectionAsSummoner>false</SameDirectionAsSummoner>
+          <SummonLocalForward>
+            <x>0</x>
+            <y>0</y>
+            <z>-1</z>
+          </SummonLocalForward>
+          <IgnoreOnDestroy>false</IgnoreOnDestroy>
+        </DM_Effect>
+      </Effects>
+      <EffectConditions />
+      <ChildEffects />
+    </DM_EffectTransform>
+  </EffectTransforms>
+  <Cooldown>5</Cooldown>
+  <StaminaCost>0</StaminaCost>
+  <ManaCost>0</ManaCost>
+  <DurabilityCost>0</DurabilityCost>
+  <DurabilityCostPercent>0</DurabilityCostPercent>
+  <HealthCost>0</HealthCost>
+  <RequiredPType>None</RequiredPType>
+  <RequiredItems />
+</DM_Skill>

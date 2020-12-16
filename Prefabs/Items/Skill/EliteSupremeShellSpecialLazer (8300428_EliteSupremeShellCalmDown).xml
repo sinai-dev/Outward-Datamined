@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DM_Skill xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <gameObjectName>8300428_EliteSupremeShellCalmDown</gameObjectName>
+  <saveDir>/Skill</saveDir>
+  <ItemID>8300428</ItemID>
+  <Name>EliteSupremeShellSpecialLazer</Name>
+  <Description />
+  <LegacyItemID>-1</LegacyItemID>
+  <IsPickable>false</IsPickable>
+  <IsUsable>false</IsUsable>
+  <QtyRemovedOnUse>0</QtyRemovedOnUse>
+  <GroupItemInDisplay>false</GroupItemInDisplay>
+  <HasPhysicsWhenWorld>false</HasPhysicsWhenWorld>
+  <RepairedInRest>true</RepairedInRest>
+  <BehaviorOnNoDurability>NotSet</BehaviorOnNoDurability>
+  <CastType>GongStrike</CastType>
+  <CastModifier>Immobilized</CastModifier>
+  <CastLocomotionEnabled>false</CastLocomotionEnabled>
+  <MobileCastMovementMult>-1</MobileCastMovementMult>
+  <CastSheatheRequired>0</CastSheatheRequired>
+  <OverrideSellModifier>-1</OverrideSellModifier>
+  <Tags />
+  <EffectTransforms>
+    <DM_EffectTransform>
+      <TransformName>Effects</TransformName>
+      <Effects>
+        <DM_Effect xsi:type="DM_AddBoonEffect">
+          <Delay>0</Delay>
+          <SyncType>OwnerSync</SyncType>
+          <OverrideCategory>None</OverrideCategory>
+          <StatusEffect>EliteSupremeShellDiscipline</StatusEffect>
+          <ChanceToContract>100</ChanceToContract>
+        </DM_Effect>
+        <DM_Effect xsi:type="DM_AddBoonEffect">
+          <Delay>0</Delay>
+          <SyncType>OwnerSync</SyncType>
+          <OverrideCategory>None</OverrideCategory>
+          <StatusEffect>Discipline Amplified</StatusEffect>
+          <ChanceToContract>100</ChanceToContract>
+        </DM_Effect>
+      </Effects>
+      <EffectConditions />
+      <ChildEffects />
+    </DM_EffectTransform>
+    <DM_EffectTransform>
+      <TransformName>ActivationEffects</TransformName>
+      <Effects>
+        <DM_Effect xsi:type="DM_PlaySoundEffect">
+          <Delay>0</Delay>
+          <SyncType>OwnerSync</SyncType>
+          <OverrideCategory>None</OverrideCategory>
+          <Sounds>
+            <Sounds>CS_SupremeShell_Raise_03</Sounds>
+          </Sounds>
+          <Follow>false</Follow>
+          <MinPitch>1</MinPitch>
+          <MaxPitch>1</MaxPitch>
+        </DM_Effect>
+      </Effects>
+      <EffectConditions />
+      <ChildEffects />
+    </DM_EffectTransform>
+    <DM_EffectTransform>
+      <TransformName>AdditionalActivationConditions</TransformName>
+      <Effects />
+      <EffectConditions />
+      <ChildEffects>
+        <DM_EffectTransform>
+          <TransformName>NoRage</TransformName>
+          <Effects />
+          <EffectConditions>
+            <DM_EffectCondition xsi:type="DM_StatusEffectCondition">
+              <Invert>false</Invert>
+              <StatusIdentifier>EliteSupremeShellRage</StatusIdentifier>
+            </DM_EffectCondition>
+          </EffectConditions>
+          <ChildEffects />
+        </DM_EffectTransform>
+      </ChildEffects>
+    </DM_EffectTransform>
+  </EffectTransforms>
+  <Cooldown>4.5</Cooldown>
+  <StaminaCost>0</StaminaCost>
+  <ManaCost>0</ManaCost>
+  <DurabilityCost>0</DurabilityCost>
+  <DurabilityCostPercent>0</DurabilityCostPercent>
+  <HealthCost>0</HealthCost>
+  <RequiredPType>Normal</RequiredPType>
+  <RequiredItems />
+</DM_Skill>

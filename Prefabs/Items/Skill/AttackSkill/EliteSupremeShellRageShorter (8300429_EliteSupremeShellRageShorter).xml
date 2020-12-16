@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DM_AttackSkill xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <gameObjectName>8300429_EliteSupremeShellRageShorter</gameObjectName>
+  <saveDir>/Skill/AttackSkill</saveDir>
+  <ItemID>8300429</ItemID>
+  <Name>EliteSupremeShellRageShorter</Name>
+  <Description />
+  <LegacyItemID>-1</LegacyItemID>
+  <IsPickable>false</IsPickable>
+  <IsUsable>false</IsUsable>
+  <QtyRemovedOnUse>0</QtyRemovedOnUse>
+  <GroupItemInDisplay>false</GroupItemInDisplay>
+  <HasPhysicsWhenWorld>false</HasPhysicsWhenWorld>
+  <RepairedInRest>true</RepairedInRest>
+  <BehaviorOnNoDurability>NotSet</BehaviorOnNoDurability>
+  <CastType>Potion</CastType>
+  <CastModifier>Immobilized</CastModifier>
+  <CastLocomotionEnabled>false</CastLocomotionEnabled>
+  <MobileCastMovementMult>-1</MobileCastMovementMult>
+  <CastSheatheRequired>0</CastSheatheRequired>
+  <OverrideSellModifier>-1</OverrideSellModifier>
+  <Tags />
+  <EffectTransforms>
+    <DM_EffectTransform>
+      <TransformName>ActivationEffects</TransformName>
+      <Effects>
+        <DM_Effect xsi:type="DM_PlaySoundEffect">
+          <Delay>0</Delay>
+          <SyncType>OwnerSync</SyncType>
+          <OverrideCategory>None</OverrideCategory>
+          <Sounds>
+            <Sounds>CS_SupremeShell_Attack_Grunt_02</Sounds>
+            <Sounds>CS_SupremeShell_Rage_Scream_02</Sounds>
+          </Sounds>
+          <Follow>true</Follow>
+          <MinPitch>1</MinPitch>
+          <MaxPitch>1</MaxPitch>
+        </DM_Effect>
+      </Effects>
+      <EffectConditions />
+      <ChildEffects />
+    </DM_EffectTransform>
+    <DM_EffectTransform>
+      <TransformName>Effects</TransformName>
+      <Effects>
+        <DM_Effect xsi:type="DM_ShootBlast">
+          <Delay>0</Delay>
+          <SyncType>OwnerSync</SyncType>
+          <OverrideCategory>None</OverrideCategory>
+          <CastPosition>Local</CastPosition>
+          <LocalPositionAdd>
+            <x>0</x>
+            <y>1</y>
+            <z>0</z>
+          </LocalPositionAdd>
+          <NoAim>false</NoAim>
+          <TargetType>Enemies</TargetType>
+          <TransformName>ShooterTransform</TransformName>
+          <BaseBlast>SupremeShellRageBlast</BaseBlast>
+          <Radius>3</Radius>
+          <RefreshTime>0.1</RefreshTime>
+          <BlastLifespan>0</BlastLifespan>
+          <InstantiatedAmount>4</InstantiatedAmount>
+          <Interruptible>false</Interruptible>
+          <MaxHitTargetCount>-1</MaxHitTargetCount>
+          <AffectHitTargetCenter>false</AffectHitTargetCenter>
+          <HitOnShoot>true</HitOnShoot>
+          <IgnoreShooter>false</IgnoreShooter>
+          <IgnoreStop>false</IgnoreStop>
+          <NoTargetForwardMultiplier>5</NoTargetForwardMultiplier>
+          <ParentToShootTransform>false</ParentToShootTransform>
+          <UseTargetCharacterPositionType>false</UseTargetCharacterPositionType>
+          <ImpactSoundMaterial>Metal_Blunt</ImpactSoundMaterial>
+          <DontPlayHitSound>false</DontPlayHitSound>
+          <FXIsWorld>false</FXIsWorld>
+          <BlastEffects>
+            <DM_EffectTransform>
+              <TransformName>Effects</TransformName>
+              <Effects>
+                <DM_Effect xsi:type="DM_WeaponDamage">
+                  <Delay>0</Delay>
+                  <SyncType>OwnerSync</SyncType>
+                  <OverrideCategory>None</OverrideCategory>
+                  <Damage>
+                    <Damages>
+                      <Damage>0</Damage>
+                      <Damage_Type>Physical</Damage_Type>
+                    </Damages>
+                  </Damage>
+                  <Damages_AI />
+                  <Knockback>1000000</Knockback>
+                  <HitInventory>true</HitInventory>
+                  <IgnoreHalfResistances>false</IgnoreHalfResistances>
+                  <OverrideType>Count</OverrideType>
+                  <ForceOnlyLeftHand>false</ForceOnlyLeftHand>
+                  <Damage_Multiplier>0</Damage_Multiplier>
+                  <Damage_Multiplier_Kback>-1</Damage_Multiplier_Kback>
+                  <Damage_Multiplier_Kdown>-1</Damage_Multiplier_Kdown>
+                  <Impact_Multiplier>0</Impact_Multiplier>
+                  <Impact_Multiplier_Kback>-1</Impact_Multiplier_Kback>
+                  <Impact_Multiplier_Kdown>-1</Impact_Multiplier_Kdown>
+                </DM_Effect>
+              </Effects>
+              <EffectConditions />
+              <ChildEffects />
+            </DM_EffectTransform>
+          </BlastEffects>
+        </DM_Effect>
+        <DM_Effect xsi:type="DM_PlaySoundEffect">
+          <Delay>0</Delay>
+          <SyncType>OwnerSync</SyncType>
+          <OverrideCategory>None</OverrideCategory>
+          <Sounds>
+            <Sounds>SFX_SKILL_LeapAttack_Impact</Sounds>
+          </Sounds>
+          <Follow>false</Follow>
+          <MinPitch>1</MinPitch>
+          <MaxPitch>1</MaxPitch>
+        </DM_Effect>
+        <DM_Effect xsi:type="DM_AddBoonEffect">
+          <Delay>0</Delay>
+          <SyncType>OwnerSync</SyncType>
+          <OverrideCategory>None</OverrideCategory>
+          <StatusEffect>EliteSupremeShellRage</StatusEffect>
+          <ChanceToContract>100</ChanceToContract>
+        </DM_Effect>
+      </Effects>
+      <EffectConditions />
+      <ChildEffects />
+    </DM_EffectTransform>
+    <DM_EffectTransform>
+      <TransformName>AdditionalActivationConditions</TransformName>
+      <Effects />
+      <EffectConditions />
+      <ChildEffects>
+        <DM_EffectTransform>
+          <TransformName>NoRage</TransformName>
+          <Effects />
+          <EffectConditions>
+            <DM_EffectCondition xsi:type="DM_StatusEffectCondition">
+              <Invert>false</Invert>
+              <StatusIdentifier>EliteSupremeShellRage</StatusIdentifier>
+            </DM_EffectCondition>
+          </EffectConditions>
+          <ChildEffects />
+        </DM_EffectTransform>
+      </ChildEffects>
+    </DM_EffectTransform>
+  </EffectTransforms>
+  <Cooldown>1</Cooldown>
+  <StaminaCost>0</StaminaCost>
+  <ManaCost>0</ManaCost>
+  <DurabilityCost>0</DurabilityCost>
+  <DurabilityCostPercent>0</DurabilityCostPercent>
+  <HealthCost>0</HealthCost>
+  <RequiredPType>Normal</RequiredPType>
+  <RequiredItems />
+  <AmmunitionTypes />
+  <RequiredOffHandTypes />
+  <RequiredWeaponTypes />
+  <RequiredWeaponTags />
+  <RequireImbue>false</RequireImbue>
+  <AmmunitionAmount>-1</AmmunitionAmount>
+</DM_AttackSkill>

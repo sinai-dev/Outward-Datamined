@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DM_Skill xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <gameObjectName>8200020_SummonGhost</gameObjectName>
+  <saveDir>/Skill</saveDir>
+  <ItemID>8200020</ItemID>
+  <Name>-</Name>
+  <Description>-</Description>
+  <LegacyItemID>-1</LegacyItemID>
+  <IsPickable>false</IsPickable>
+  <IsUsable>false</IsUsable>
+  <QtyRemovedOnUse>1</QtyRemovedOnUse>
+  <GroupItemInDisplay>false</GroupItemInDisplay>
+  <HasPhysicsWhenWorld>false</HasPhysicsWhenWorld>
+  <RepairedInRest>true</RepairedInRest>
+  <BehaviorOnNoDurability>NotSet</BehaviorOnNoDurability>
+  <CastType>SummonGhost</CastType>
+  <CastModifier>Immobilized</CastModifier>
+  <CastLocomotionEnabled>false</CastLocomotionEnabled>
+  <MobileCastMovementMult>-1</MobileCastMovementMult>
+  <CastSheatheRequired>1</CastSheatheRequired>
+  <OverrideSellModifier>-1</OverrideSellModifier>
+  <Tags />
+  <EffectTransforms>
+    <DM_EffectTransform>
+      <TransformName>Effects</TransformName>
+      <Effects>
+        <DM_Effect xsi:type="DM_Summon">
+          <Delay>0</Delay>
+          <SyncType>OwnerSync</SyncType>
+          <OverrideCategory>None</OverrideCategory>
+          <Prefab>8000020</Prefab>
+          <SummonPrefabType>Item</SummonPrefabType>
+          <BufferSize>1</BufferSize>
+          <LimitOfOne>false</LimitOfOne>
+          <SummonMode>CreateNew</SummonMode>
+          <PositionType>InFrontOfTarget</PositionType>
+          <MinDistance>0</MinDistance>
+          <MaxDistance>0.2</MaxDistance>
+          <SameDirectionAsSummoner>false</SameDirectionAsSummoner>
+          <SummonLocalForward>
+            <x>0</x>
+            <y>0</y>
+            <z>0</z>
+          </SummonLocalForward>
+          <IgnoreOnDestroy>false</IgnoreOnDestroy>
+        </DM_Effect>
+      </Effects>
+      <EffectConditions />
+      <ChildEffects />
+    </DM_EffectTransform>
+    <DM_EffectTransform>
+      <TransformName>ExtraEffects</TransformName>
+      <Effects>
+        <DM_Effect xsi:type="DM_SummonAI">
+          <Delay>0</Delay>
+          <SyncType>OwnerSync</SyncType>
+          <OverrideCategory>None</OverrideCategory>
+          <SummonPrefabType>Resource</SummonPrefabType>
+          <BufferSize>1</BufferSize>
+          <LimitOfOne>false</LimitOfOne>
+          <SummonMode>SameObject</SummonMode>
+          <PositionType>ProximitySkillItem</PositionType>
+          <MinDistance>0</MinDistance>
+          <MaxDistance>0</MaxDistance>
+          <SameDirectionAsSummoner>false</SameDirectionAsSummoner>
+          <SummonLocalForward>
+            <x>0</x>
+            <y>0</y>
+            <z>0</z>
+          </SummonLocalForward>
+          <IgnoreOnDestroy>false</IgnoreOnDestroy>
+        </DM_Effect>
+      </Effects>
+      <EffectConditions>
+        <DM_EffectCondition xsi:type="DM_ProximityCondition">
+          <Invert>false</Invert>
+          <RequiredItems>
+            <SkillItemReq>
+              <ItemID>8000000</ItemID>
+              <Quantity>1</Quantity>
+              <Consume>true</Consume>
+            </SkillItemReq>
+          </RequiredItems>
+          <MaxDistance>2</MaxDistance>
+          <Offset>
+            <x>0</x>
+            <y>-0.5</y>
+            <z>0</z>
+          </Offset>
+          <ProximityAngle>-1</ProximityAngle>
+          <OrMode>false</OrMode>
+        </DM_EffectCondition>
+      </EffectConditions>
+      <ChildEffects />
+    </DM_EffectTransform>
+  </EffectTransforms>
+  <Cooldown>1</Cooldown>
+  <StaminaCost>0</StaminaCost>
+  <ManaCost>25</ManaCost>
+  <DurabilityCost>0</DurabilityCost>
+  <DurabilityCostPercent>0</DurabilityCostPercent>
+  <HealthCost>0</HealthCost>
+  <RequiredPType>Normal</RequiredPType>
+  <RequiredItems />
+</DM_Skill>
