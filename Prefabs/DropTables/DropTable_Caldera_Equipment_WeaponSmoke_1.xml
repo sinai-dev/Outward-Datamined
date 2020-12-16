@@ -2,8 +2,7 @@
 <DM_DropTable xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Name>DropTable_Caldera_Equipment_WeaponSmoke_1</Name>
   <Guaranteed_Drops />
-  <Random_Tables />
-  <Conditional_Tables>
+  <Random_Tables>
     <DropGeneratorHolder>
       <MinNumberOfDrops>1</MinNumberOfDrops>
       <MaxNumberOfDrops>1</MaxNumberOfDrops>
@@ -391,5 +390,5 @@
       </Item_Drops>
       <DropConditionType>HasDLCDropCondition</DropConditionType>
     </DropGeneratorHolder>
-  </Conditional_Tables>
+  </Random_Tables>
 </DM_DropTable>

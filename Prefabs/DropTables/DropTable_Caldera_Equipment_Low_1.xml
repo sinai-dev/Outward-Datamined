@@ -36,8 +36,6 @@
         </DropTableChanceEntry>
       </Item_Drops>
     </DropGeneratorHolder>
-  </Random_Tables>
-  <Conditional_Tables>
     <DropGeneratorHolder>
       <MinNumberOfDrops>1</MinNumberOfDrops>
       <MaxNumberOfDrops>1</MaxNumberOfDrops>
@@ -425,5 +423,5 @@
       </Item_Drops>
       <DropConditionType>HasDLCDropCondition</DropConditionType>
     </DropGeneratorHolder>
-  </Conditional_Tables>
+  </Random_Tables>
 </DM_DropTable>
