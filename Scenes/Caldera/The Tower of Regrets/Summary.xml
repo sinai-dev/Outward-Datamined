@@ -51,10 +51,6 @@
       <Name>Iron vein</Name>
       <Quantity>2</Quantity>
     </QuantityHolder>
-    <QuantityHolder>
-      <Name>Unidentified Molepig den</Name>
-      <Quantity>1</Quantity>
-    </QuantityHolder>
   </Gatherables>
   <Item_Spawns />
   <UniqueContainerList>

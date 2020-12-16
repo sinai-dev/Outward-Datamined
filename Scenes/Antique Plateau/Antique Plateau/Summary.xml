@@ -19,7 +19,7 @@
       <Quantity>7</Quantity>
     </QuantityHolder>
     <QuantityHolder>
-      <Name>Kazite Archer (3)</Name>
+      <Name>Kazite Archer (2)</Name>
       <Quantity>5</Quantity>
     </QuantityHolder>
     <QuantityHolder>
@@ -33,14 +33,6 @@
     <QuantityHolder>
       <Name>Kazite Bandit (4)</Name>
       <Quantity>7</Quantity>
-    </QuantityHolder>
-    <QuantityHolder>
-      <Name>Wolfgang Captain (1)</Name>
-      <Quantity>3</Quantity>
-    </QuantityHolder>
-    <QuantityHolder>
-      <Name>Wolfgang Mercenary (1)</Name>
-      <Quantity>9</Quantity>
     </QuantityHolder>
     <QuantityHolder>
       <Name>Bandit Captain (2)</Name>
@@ -77,10 +69,6 @@
     <QuantityHolder>
       <Name>Bandit Lieutenant (1)</Name>
       <Quantity>1</Quantity>
-    </QuantityHolder>
-    <QuantityHolder>
-      <Name>Wolfgang Veteran (1)</Name>
-      <Quantity>8</Quantity>
     </QuantityHolder>
     <QuantityHolder>
       <Name>Bonded Beastmaster (1)</Name>

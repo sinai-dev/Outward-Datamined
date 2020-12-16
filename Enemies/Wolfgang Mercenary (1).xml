@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <DM_Enemy xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Name>Wolfgang Mercenary</Name>
-  <GameObject_Name>WolfMerceneryRecruit_01</GameObject_Name>
+  <GameObject_Name>WolfMerceneryRecruit_02A</GameObject_Name>
   <Unique_ID>1</Unique_ID>
   <Locations_Found>
-    <string>Antique Plateau:Antique Plateau</string>
     <string>Antique Plateau:Ruined Warehouse</string>
   </Locations_Found>
   <Max_Health>175</Max_Health>
@@ -52,7 +51,7 @@
   <Skill_Knowledge>
     <string>WolfMerceneryRunicShield (8300340)</string>
   </Skill_Knowledge>
-  <Faction>Mercs</Faction>
+  <Faction>Bandits</Faction>
   <Allied_To_Same_Faction>true</Allied_To_Same_Faction>
   <Guaranteed_Drops />
   <DropTable_Names>

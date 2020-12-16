@@ -118,16 +118,16 @@
 124-EnvHeatProtection	
 125-CorruptionResistance	
 126-Waterproof	
-127-Status Type	
+127-Status Type	Rage,Discipline,Warm,Cool,Mist,Blessed,Possessed,Warm,Cool,Mist,Blessed,Possessed,Discipline,Rage Amplified,Discipline Amplified,Warm Amplified,Cool Amplified,Mist Amplified,Bless Amplified,Possessed Amplified,Rage,Rage,Discipline,Disease: Cold,Disease: Acute Cold,Disease: Infection,Disease: Acute Infection,Disease: Extreme Infection,Disease: Indigestion,Disease: Acute Indigestion,Rage,Elemental Resistance,Confusion,Pain,Scorched,Chill,Haunted,Doomed,Curse,Health Recovery 2,Poisoned,Extreme Poison,Bleeding,Extreme Bleeding,Burning,Wet,Health Recovery 3,Health Recovery 1,Sleep: Camo Tent,Sleep: Fur Tent,Sleep: Luxury Tent,Sleep: Simple Tent,Sleep: Cierzo,Sleep: Monsoon,Sleep: Berg,Sleep: Levant,Poison,Extreme Poison,Bandages,Sleep: Mage Tent,Sleep: Plant Tent,Sleep: Harmattan+,Stunned,Sleep: Harmattan,Sleep: Scourge Cocoon,Blaze ,Holy Blaze,Plague ,Sleep: Fire Lodge,Sleep: Ice Lodge,Sleep: Light Lodge,Sleep: Decay Lodge,Sleep: Ethereal Lodge,Sleep: Calygrey Bone Cage,Sleep: New Sirocco,Sleep: Embassy,Sleep: City Hall,Immolate,Sleep: Giants,Health Recovery 4,Health Recovery 5,Tainted,Corrupted,Corrupted,Defiled,Defiled,Marsh Poison,Marsh High Poison,Sulphur Poisoning
 128-Heatstroke	
-129-Poison	
-130-Wet	
-131-Bleeding	
-132-Disease	
-133-Boon	
-134-Hex	
-135-Healing	
-136-Needs	
+129-Poison	Poisoned,Extreme Poison,Poison,Extreme Poison,Plague ,Marsh Poison,Marsh High Poison,Sulphur Poisoning
+130-Wet	Wet
+131-Bleeding	Bleeding,Extreme Bleeding
+132-Disease	Disease: Cold,Disease: Acute Cold,Disease: Infection,Disease: Acute Infection,Disease: Extreme Infection,Disease: Indigestion,Disease: Acute Indigestion
+133-Boon	Rage,Discipline,Warm,Cool,Mist,Blessed,Possessed,Warm,Cool,Mist,Blessed,Possessed,Discipline,Rage Amplified,Discipline Amplified,Warm Amplified,Cool Amplified,Mist Amplified,Bless Amplified,Possessed Amplified,Rage,Rage,Discipline,Rage,Elemental Resistance
+134-Hex	Confusion,Pain,Scorched,Chill,Haunted,Doomed,Curse
+135-Healing	Health Recovery 2,Health Recovery 3,Health Recovery 1,Bandages,Health Recovery 4,Health Recovery 5
+136-Needs	Tainted,Corrupted,Corrupted,Defiled,Defiled
 137-TemperatureModifier	
 138-Debug	
 140-NPC	Summoned Ghost Armor,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-
@@ -157,8 +157,8 @@
 164-ManaBurn	
 165-TripWireTrapComponent	Spikes – Iron,Spikes – Palladium,Spikes – Wood,Predator Bones,Coralhorn Antler,Insect Husk,Beast Golem Scraps,Thorny Cartilage,Shark Cartilage,Assassin Tongue
 166-PressurePlateTrapComponent	Miasmapod,Boiled Miasmapod,Poison Varnish,Bolt Varnish,Fire Varnish,Ice Varnish,Spiritual Varnish,Dark Varnish,Explorer Lantern,Old Lantern,Virgin Lantern,Firefly powder,Ghost's Eye,Blue Sand,Fire Stone,Cold Stone,Charge – Incendiary,Charge – Toxic,Charge – Nerve Gas,Arcane Dampener,Occult Remains,Phytosaur Horn,Shark Cartilage,Obsidian Shard,Gold-Lich Mechanism
-167-Stun	
-168-Burning	
+167-Stun	Stunned
+168-Burning	Burning,Immolate
 169-DecraftIron_Small	Duel Baton,Iron Sword,Steel Sabre,Cerulean Saber,Fang Sword,Savage Sword,Machete,Gold Machete,Old Legion Gladius,Desert Khopesh,Iron Axe,Fang Axe,Savage Axe,Hatchet,Gold Hatchet,Iron Mace,Brutal Club,Fang Club,Savage Club,Merton’s Firepoker,Giant Iron Key,Blacksmith's Hammer,Blacksmith's Vintage Hammer,Brutal Spear,Worn Guisarme,Gold Guisarme,Fang Trident,Savage Trident,Pitchfork,Gold Pitchfork,Old Legion Spear,Troglodyte Pole Mace,Withering Pole Mace,Iron Spear,Fishing Harpoon,Gold Harpoon,BloodSpear,Iron Halberd,Cleaver Halberd,Sanguine Cleaver,Fang Halberd,Savage Halberd,Round Shield,Fang Shield,Steel Shield,Savage Shield,Damascene Sword,Masterpiece Sword,Militia Sword,Vigilante Sword,Damascene Axe,Masterpiece Axe,Militia Axe,Militia Axe Josef,Vigilante Axe,Sandrose,Damascene Mace,Masterpiece Mace,Militia Mace,Vigilante Mace,Calygrey Mace,Ancient Calygrey Mace,Damascene Spear,Masterpiece Spear,Militia Spear,Militia Spear,Vigilante Spear,Damascene Halberd,Masterpiece Halberd,Militia Knuckles,Plate Helm,Plate Boots,Halfplate Helm,Halfplate Boots,Zagis' Mask,Blue Sand Helm,Blue Sand Boots,Runic Helm,Runic Boots,Explorer Lantern,Old Lantern,Virgin Lantern,Rondel Dagger,Shiv Dagger,Militia Chakram,Iron Scrap,Shield Golem Scraps,Spikes – Iron
 170-DecraftIron_Large	Brutal Axe,Prayer Claymore,Sinner Claymore,Fang Greatsword,Savage Greatsword,Iron Claymore,Pathfinder Claymore,Brutal Greataxe,Fang Greataxe,Savage Greataxe,Iron Greataxe,Felling Greataxe,Gold Greataxe,Brutal Greatmace,Fang Greatclub,Savage Greatclub,Mining Pick,Gold Mining Pick,Pyrite Greathammer,Iron Greathammer,Tower Shield,Old Legion Shield,Hailfrost Claymore,Militia Claymore,Militia Claymore,Vigilante Claymore,Damascene Greataxe,Masterpiece Greataxe,Militia Greataxe,Vigilante Greataxe,Damascene Hammer,Masterpiece Hammer,Militia Hammer,Vigilante Hammer,Militia Halberd,Vigilante Halberd,Militia Bow,Militia Shield,Vigilante Shield,Plate Armor,Halfplate Armor,Zagis' Armor,Blue Sand Armor,Runic Armor,Rissa Armor,Olielle Armor,Calixa Armor,Yzan Armor,Evangeline Armor,Militia Pistol
 171-DecraftPalladium_Small	Wolf Sword,Radiant Wolf Sword,Marble Sword,Gold-Lich Sword,Assassin Sword,Palladium Sword,Palladium Sword,Tsar Sword,Marble Axe,Beast Golem Axe,Tuanosaur Axe,Horror Axe,Palladium Axe,Tsar Axe,Marble Morningstar,Gold-Lich Mace,Palladium Mace,Obsidian Mace,Tsar Mace,CalixaMaceGun,Wolf Claymore,Marble Claymore,Gold-Lich Claymore,Golem Rapier,Thorny Claymore,Assassin Claymore,Palladium Claymore,Tsar Claymore,Royal Great-Kopesh,Marble Greataxe,Crescent Greataxe,Tuanosaur Greataxe,Giantkind Greataxe,Palladium Greataxe,Tsar Greataxe,Wolf Greathammer,Marble Greathammer,Mantis Greatpick,Manticore Greatmace,Obsidian Greatmace,Marble Spear,Gold-Lich Spear,Thorny Spear,Phytosaur Spear,Palladium Spear,Tsar Spear,Marble Halberd,Crescent Scythe,Beast Golem Halberd,Giantkind Halberd,Palladium Halberd,Tsar Halberd,Wolf Shield,Marble Shield,Inner Marble Shield,Gold-Lich Shield,Crimson Shield,Horror Shield,Fabulous Palladium Shield,Enchanting Table Shield,Obsidian Sword,Meteoric Sword,Obsidian Axe,Meteoric Axe,Meteoric Mace,Obsidian Spear,Meteoric Spear,Obsidian Knuckles,Meteoric Knuckles,Obsidian Bow,Meteoric Bow,Removed - Damascene Shield,Removed – Masterpiece Shield,REMOVED - Obsidian Shield,Removed – Meteoric Shield,Krypteia Giantkind Halberd,Krypteia Palladium Mace,GrandmotherReach,Elite Plate Helm,Elite Plate Boots,Wolf Plate Helm,Wolf Plate Full-Helm,Wolf Plate Boots,Palladium Helm,Palladium Boots,Crimson Plate Mask,Crimson Plate Boots,Black Plate Helm,Black Plate Boots,Orichalcum Helmet,Orichalcum Boots,Broad Dagger,Removed – Damascene Dagger,Removed – Masterpiece Dagger,Removed – Damascene Chakram,Removed – Masterpiece Chakram,Removed – Damascene Pistol,Removed – Masterpiece Pistol,Spikes – Palladium,Beast Golem Scraps
@@ -215,13 +215,13 @@
 222-news	
 223-female	
 224-male	
-225-Rage	
-226-Discipline	
-227-Warm	
-228-Cool	
-229-Mist	
-230-Bless	
-231-Possess	
+225-Rage	Rage,Rage Amplified,Rage,Rage,Rage
+226-Discipline	Discipline,Discipline,Discipline Amplified,Discipline
+227-Warm	Warm,Warm,Warm Amplified
+228-Cool	Cool,Cool,Cool Amplified,Elemental Resistance
+229-Mist	Mist,Mist,Mist Amplified
+230-Bless	Blessed,Blessed,Bless Amplified
+231-Possess	Possessed,Possessed,Possessed Amplified
 232-AttackSpeed	
 233-Rissa	
 234-hail	
@@ -298,13 +298,13 @@
 305-Salaberry	
 306-Turnbull	
 307-Victor	
-308-Scorch	
-309-Chill	
-310-Doom	
-311-Curse	
-312-Haunt	
-314-Pain	
-315-Confusion	
+308-Scorch	Scorched
+309-Chill	Chill
+310-Doom	Doomed
+311-Curse	Curse
+312-Haunt	Haunted
+314-Pain	Pain
+315-Confusion	Confusion
 316-Ash	Ash Armor,Ash-Filter Mask,Ash Boots,Pathfinder Armor,Pathfinder Mask,Pathfinder Boots
 317-Pathfinder	Pathfinder Armor,Pathfinder Mask,Pathfinder Boots
 318-Antique Plate	
@@ -335,27 +335,27 @@
 343-Arcane	Arcane Robe,Arcane Hood,White Arcane Robe,White Arcane Hood
 344-Clansage	Clansage Robe,Red Clansage Robe
 345-White Priest	White Priest Robes,White Priest Mitre,White Priest Boots,White Priest Hood,Novice Robe,Novice Hat
-346-ElementalBoon	
+346-ElementalBoon	Warm,Cool,Mist,Blessed,Possessed,Warm,Cool,Mist,Blessed,Possessed,Warm Amplified,Cool Amplified,Mist Amplified,Bless Amplified,Possessed Amplified,Elemental Resistance
 347-Main Weapon	Duel Baton,Standard Axe,Standard Axe 2H,Standard Sword,Standard Sword 2H,Standard Bludgeon,Standard Bludgeon 2H,Standard Pole Arm,Standard Spear,Iron Sword,Steel Sabre,Cerulean Saber,Wolf Sword,Radiant Wolf Sword,-,Fang Sword,Savage Sword,Machete,Gold Machete,Marble Sword,Gold-Lich Sword,Old Legion Gladius,Runic Blade,Desert Khopesh,Jade Scimitar,Assassin Sword,Palladium Sword,Palladium Sword,Brand,Strange Rusted Sword,Tsar Sword,Maelstrom Blade,Horror Sword,Vampiric Sword,Virgin Sword,Kazite Blade,Kazite Blade Boss,Blood Sword,Iron Axe,Etheral Axe,Living Wood Axe,Brutal Axe,Fang Axe,Savage Axe,Hatchet,Gold Hatchet,Marble Axe,Sunfall Axe,Beast Golem Axe,Tuanosaur Axe,Horror Axe,Palladium Axe,Tsar Axe,Pain in the Axe,Butcher Cleaver,Galvanic Axe,Vampiric Axe,Virgin Axe,Kazite Cleaver,Kazite Axe Boss,Wolf Axe,Iron Mace,Brutal Club,Jade-Lich Mace,Marble Morningstar,Fang Club,Savage Club,Gold-Lich Mace,Merton’s Firepoker,Giant Iron Key,Blacksmith's Hammer,Blacksmith's Vintage Hammer,Palladium Mace,Obsidian Mace,Tsar Mace,Primitive Club,Gold Club,Skycrown Mace,Mace of Seasons,CalixaMaceGun,Horror Mace,Vampiric Mace,Galvanic Mace,Virgin Mace,Kazite Hammer,Kazite Mace Boss,Wolf Mace,Prayer Claymore,Sinner Claymore,Wolf Claymore,Fang Greatsword,Savage Greatsword,Zagis' Saw,Marble Claymore,Gold-Lich Claymore,Golem Rapier,Broken Golem Rapier,Thorny Claymore,Iron Claymore,-,Starchild Claymore,Assassin Claymore,Palladium Claymore,Pathfinder Claymore,Tsar Claymore,Royal Great-Kopesh,Thermal Claymore,Horror Greatsword,Vampiric Greatsword,Virgin Greatsword,Kazite Greatblade,Junk Claymore,Golden Junk Claymore,Great BloodSword,Great Runic Blade,Brutal Greataxe,-,Fang Greataxe,Savage Greataxe,Marble Greataxe,Marble Greataxe,Marble Greataxe,Iron Greataxe,Felling Greataxe,Gold Greataxe,Crescent Greataxe,Tuanosaur Greataxe,Giantkind Greataxe,Palladium Greataxe,Tsar Greataxe,Worldedge Greataxe,Kelvin’s Greataxe,Horror Greataxe,Vampiric Greataxe,Galvanic Greataxe,Virgin Greataxe,Kazite Greatcleaver,Wolf Greataxe,Brutal Greatmace,Wolf Greathammer,Fang Greatclub,Savage Greatclub,Marble Greathammer,Mantis Greatpick,Mining Pick,Gold Mining Pick,Pyrite Greathammer,Pillar Greathammer,Iron Greathammer,Manticore Greatmace,Palladium Greathammer,Obsidian Greatmace,Tsar Greathammer,Challenger Greathammer,Horror Greatmace,Vampiric Greatmace,Galvanic Greatmace,Virgin Greatmace,Kazite Greathammer,Brutal Spear,Worn Guisarme,Gold Guisarme,Fang Trident,Werlig Spear,Savage Trident,Quarterstaff,Gold Quarterstaff,Pitchfork,Gold Pitchfork,Marble Spear,Gold-Lich Spear,Old Legion Spear,Troglodyte Trident,Troglodyte Pole Mace,Troglodyte Halberd,Withering Trident,Withering Pole Mace,Thorny Spear,Iron Spear,Phytosaur Spear,Fishing Harpoon,Gold Harpoon,Palladium Spear,Tsar Spear,Griigmerk kÄramerk,Horror Spear,Vampiric Spear,Galvanic Spear,Virgin Spear,Kazite Lance,Wolf Spear,BloodSpear,Iron Halberd,Cleaver Halberd,Sanguine Cleaver,Fang Halberd,Savage Halberd,Marble Halberd,Mushroom Halberd,Spore Halberd,Thrice-Wrought Halberd,Crescent Scythe,Beast Golem Halberd,Giantkind Halberd,Palladium Halberd,Tsar Halberd,Dreamer Halberd,Ghost Reaper,Horror Halberd,Vampiric Halberd,Galvanic Halberd,Virgin Halberd,Kazite Partizan,Wolf Halberd,Scholar’s Staff,Mage’s Poking Stick,Jade-Lich Staff,Compasswood Staff,Rotwood Staff,Troglodyte Staff,Crystal Staff,Elite Queen Trog Mana Staff,Master’s Staff,Ivory Master’s Staff,Iron Knuckles,Brutal Knuckles,Cloth Knuckles,Golden Iron Knuckles,Fang Knuckles,Savage Fang Knuckles,Galvanic Fists,Gold-Lich Knuckles,Horror Fists,Marble Fists,Palladium Knuckles,Porcelain Fists,Tsar Fists,Wolf Knuckles,Kazite Cestus,Virgin Knuckles,Vampiric Knuckles,Simple Bow,Gold Bow,Recurve Bow,War Bow,Horror Bow,Coralhorn Bow,Vampiric Bow,Galvanic Bow,Virgin Bow,Kazite Bow,Wolf Bow,Tsar Bow,-,-,-,-,-,-,Steko Runic Beast Teethz,-,-,-,-,-,-,-,Mantis Claws,-,-,-,-,Giant Arch Priest Blade Guandao,-,ShellHorrorClawWeak,-,GolemBrokenRapier,-,ObsidianElementalRedRock,-,-,-,-,-,-,Forge Golem Red Hot Beak,-,-,EliteCrescentShark Jaw,-,-,EliteBeastGolemBeak,-,ImmaculateBlade,ImmaculateBlade,ImmaculateBlade,-,-,-,-,NewGhostOneHandedSword_LowLvl,NewGhostRedLadyTwoHandedMace,NewGhostRedLadyOneHandedSword,Lich Gold TwoHanded Spear,PiplatTeethAndTail,Boozu Horn,Boozu Proud Beast Horn,Grotesque,SupremeShellFist,EliteSupremeShellFist,PureIlluminatorHand,Giant horror,ElementalParasiteEye,TitanGolemHammer,TitanGolemHalberd,TitanGolemSword,CageArmorFist,Test weapon of Dooooom,Damascene Sword,Masterpiece Sword,Astral Sword,Forged Glass Sword,Obsidian Sword,Meteoric Sword,Chalcedony Sword,Hailfrost Sword,Smoke Sword,Militia Sword,Vigilante Sword,Gep’s Blade,Mysterious Blade,Damascene Axe,Masterpiece Axe,Astral Axe,Forged Glass Axe,Obsidian Axe,Meteoric Axe,Chalcedony Axe,Hailfrost Axe,Smoke Axe,Militia Axe,Militia Axe Josef,Vigilante Axe,Warm Axe,Sandrose,Meteoric Mace,Damascene Mace,Masterpiece Mace,Astral Mace,Forged Glass Mace,Chalcedony Mace,Hailfrost Mace,Smoke Mace,Militia Mace,Vigilante Mace,Calygrey Mace,Ancient Calygrey Mace,Sealed Mace,Scepter of the Cruel Priest,Damascene Claymore,Masterpiece Claymore,Astral Claymore,Forged Glass Claymore,Obsidian Claymore,Meteoric Claymore,Chalcedony Claymore,Hailfrost Claymore,Smoke Claymore,Militia Claymore,Militia Claymore,Vigilante Claymore,Mysterious Long Blade,Gep’s Longblade,Damascene Greataxe,Masterpiece Greataxe,Astral Greataxe,Forged Glass Greataxe,Obsidian Greataxe,Meteoric Greataxe,Chalcedony Greataxe,Hailfrost Greataxe,Smoke Greataxe,Militia Greataxe,Vigilante Greataxe,Fossilized Greataxe,Grind,Meteoric Hammer,Damascene Hammer,Masterpiece Hammer,Astral Greatmace,Forged Glass Greatmace,Chalcedony Hammer,Hailfrost Hammer,Smoke Hammer,Militia Hammer,Vigilante Hammer,De-powered Bludgeon,Ghost Parallel,Damascene Spear,Masterpiece Spear,Astral Spear,Forged Glass Spear,Obsidian Spear,Meteoric Spear,Chalcedony Spear,Hailfrost Spear,Smoke Spear,Militia Spear,Militia Spear,Vigilante Spear,Rusted Spear,Shriek,Damascene Halberd,Masterpiece Halberd,Astral Halberd,Forged Glass Halberd,Obsidian Halberd,Meteoric Halberd,Chalcedony Halberd,Hailfrost Halberd,Smoke Halberd,Militia Halberd,Vigilante Halberd,Astral Staff,Frostburn Staff,Calygrey Staff,Ancient Calygrey Staff,Ruined Halberd,Duty,Cracked Red Moon,Revenant Moon,Damascene Knuckles,Masterpiece Knuckles,Astral Knuckles,Forged Glass Knuckles,Obsidian Knuckles,Meteoric Knuckles,Chalcedony Knuckles,Hailfrost Knuckles,Smoke Knuckles,Militia Knuckles,Vigilante Knuckles,Unusual Knuckles,Tokebakicit,Astral Bow,Forged Glass Bow,Damascene Bow,Masterpiece Bow,Smoke Bow,Militia Bow,Vigilante Bow,Hailfrost Bow,Chalcedony Bow,Obsidian Bow,Meteoric Bow,Ceremonial Bow,Murmure,Torcrab Beak and claw,Torcrab Giant Beak and claw,HyppoJaw,EmberManClaw,MyrmClawTongue,MyrmClawTongueElite,BeetleFrost Horn,Lionman Electric Mace,Lionman Frost Staff,DjinFist,DjinBigFist,JellyFishStinger,JellyFishGreenStinger,GargoyleUrn,GargoyleWarriorUrn,AncientDwellerHook,AncientDwellerDarkHook,Giant Crossbow,CrimsonStaff,CrimsonEliteStaff,Krypteia Giantkind Halberd,Krypteia Palladium Mace,GrandmotherReach,WolfgangRunicSword
 348-Building	- House A,- House B,- House C,Stockpile,City Hall,- Hunting Lodge,– Mason’s Workshop,- Woodcutter’s Lodge,Blacksmith shop,Alchemist shop,Enchanting Guild,Food Store,Gladiator’s Arena,Chapel,General Store,Water Purifier
 349-Throwable	Grenade,Oil Bomb,Fragment Bomb,Frost Bomb,Spark Bomb,Toxin Bomb,Nerve Bomb,Blazing Bomb,Flaming Bomb
 350-NullifyResistances	
 352-Barrier	
 353-StatusEffectBuildUpResistance	
-354-WellRested	
+354-WellRested	Sleep: Camo Tent,Sleep: Fur Tent,Sleep: Luxury Tent,Sleep: Simple Tent,Sleep: Cierzo,Sleep: Monsoon,Sleep: Berg,Sleep: Levant,Sleep: Mage Tent,Sleep: Plant Tent,Sleep: Harmattan+,Sleep: Harmattan,Sleep: Scourge Cocoon,Sleep: Fire Lodge,Sleep: Ice Lodge,Sleep: Light Lodge,Sleep: Decay Lodge,Sleep: Ethereal Lodge,Sleep: Calygrey Bone Cage,Sleep: New Sirocco,Sleep: Embassy,Sleep: City Hall,Sleep: Giants
 355-ElementalDmgModifier	
 356-AttackType	Evasion Shot,Sniper Shot,Piercing Shot,Gong Strike,Flash Onslaught,Elemental Discharge
 357-NormalAttack	
 358-SpecialAttack	
 359-WeaponSkillAttack	Evasion Shot,Sniper Shot,Piercing Shot,Gong Strike,Flash Onslaught,Elemental Discharge
-360-DoT	
+360-DoT	Poisoned,Extreme Poison,Bleeding,Extreme Bleeding,Burning,Poison,Extreme Poison,Plague ,Immolate,Marsh Poison,Marsh High Poison,Sulphur Poisoning
 361-Plague	
-362-CrueltyStatusTypes	
-363-CrueltyPoison	
-364-CrueltyBleeding	
-365-CrueltyPlague	
-366-CrueltyBurning	
-367-CrueltyBlaze	
+362-CrueltyStatusTypes	Poisoned,Extreme Poison,Bleeding,Extreme Bleeding,Burning,Blaze ,Holy Blaze,Plague 
+363-CrueltyPoison	Poisoned,Extreme Poison
+364-CrueltyBleeding	Bleeding,Extreme Bleeding
+365-CrueltyPlague	Plague 
+366-CrueltyBurning	Burning
+367-CrueltyBlaze	Blaze ,Holy Blaze
 368-Advanced Tent	Camouflaged Tent,Camouflaged Tent,Fur Tent,Fur Tent,Luxury Tent,Luxury Tent,Mage Tent,Mage Tent,Calygrey Bone Cage,Calygrey Bone Cage,Ethereal Totemic Lodge,Ethereal Totemic Lodge,Corruption Totemic Lodge,Corruption Totemic Lodge,Lightning Totemic Lodge,Lightning Totemic Lodge,Fire Totemic Lodge,Fire Totemic Lodge,Ice Totemic Lodge,Ice Totemic Lodge
 369-Artifact	Gep’s Blade,Scepter of the Cruel Priest,Gep’s Longblade,Grind,Ghost Parallel,Shriek,Duty,Revenant Moon,Tokebakicit,Murmure,Angler Shield,Distorted Experiment,Gilded Shiver of Tramontane
 370-Awaken Artifact	Gep’s Blade,Scepter of the Cruel Priest,Gep’s Longblade,Grind,Ghost Parallel,Shriek,Duty,Revenant Moon,Tokebakicit,Murmure,Angler Shield,Distorted Experiment,Gilded Shiver of Tramontane

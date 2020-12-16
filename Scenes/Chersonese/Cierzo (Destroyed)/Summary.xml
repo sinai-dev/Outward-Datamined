@@ -4,7 +4,7 @@
   <Enemies>
     <QuantityHolder>
       <Name>Kazite Archer (1)</Name>
-      <Quantity>2</Quantity>
+      <Quantity>3</Quantity>
     </QuantityHolder>
     <QuantityHolder>
       <Name>Kazite Lieutenant (1)</Name>
@@ -28,10 +28,6 @@
     </QuantityHolder>
     <QuantityHolder>
       <Name>Rospa the Conqueror (1)</Name>
-      <Quantity>1</Quantity>
-    </QuantityHolder>
-    <QuantityHolder>
-      <Name>Kazite Archer (2)</Name>
       <Quantity>1</Quantity>
     </QuantityHolder>
   </Enemies>

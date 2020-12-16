@@ -3,4 +3,5 @@
   <Name>DropTable_Caldera_Equipment_Medium_1</Name>
   <Guaranteed_Drops />
   <Random_Tables />
+  <Conditional_Tables />
 </DM_DropTable>

@@ -61,4 +61,5 @@
       </Item_Drops>
     </DropGeneratorHolder>
   </Random_Tables>
+  <Conditional_Tables />
 </DM_DropTable>
