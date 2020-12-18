@@ -232,6 +232,7 @@
 394	Survival	Shadow Light Kazite Shirt (1),Linen Cloth (1)	Shadow Kazite Light Armor
 395	Survival	Great Life Potion (1),Linen Cloth (1)	DecraftGreaterHealth_Small
 396	Survival	Great Life Potion (2)	DecraftGreaterHealth_Large
+397	Survival	Gold-Lich Knuckles (1)	Gold-Lich Mechanism,Gold-Lich Mechanism,Iron Knuckles,Firefly powder
 39	Survival	Iron Scrap (1)	DecraftIron_Small
 3	Cooking	Cooked Meat (1)	Raw Meat
 40	Survival	Iron Scrap (2)	DecraftIron_Large

@@ -2009,7 +2009,9 @@
 8100370	Feral Strikes	8100370_SavageStrikes	/Skill/AttackSkill/MeleeSkill
 8100380	Talus Cleaver	8100380_AnkleBlow	/Skill/AttackSkill/MeleeSkill
 8200010	Reveal Soul	8200010_DetectSoul	/Skill
+8200020	-	8200020_SummonGhost	/Skill
 8200021	-	8200021_SummonGhostNew	/Skill
+8200030	Sigil of Wind	8200030_AirSigil	/Skill
 8200031	Sigil of Fire	8200031_FireSigil	/Skill
 8200032	Sigil of Ice	8200032_FrostSigil	/Skill
 8200033	Blood Sigil	8200033_BloodSigil	/Skill
@@ -2024,6 +2026,7 @@
 8200180	Blessed	8200180_AddBless	/Skill/AttackSkill
 8200190	Possessed	8200190_AddPossessed	/Skill/AttackSkill
 8200100	Infuse Light	8200100_SpellBindLight	/Skill/AttackSkill/MeleeSkill
+8200101	Infuse Wind	8200101_SpellBindWind	/Skill/AttackSkill/MeleeSkill
 8200102	Infuse Frost	8200102_SpellBindIce	/Skill/AttackSkill/MeleeSkill
 8200103	Infuse Fire	8200103_SpellBindFire	/Skill/AttackSkill/MeleeSkill
 8200104	Infuse Mana	8200104_SpellBindMana	/Skill/AttackSkill/MeleeSkill
@@ -2224,8 +2227,10 @@
 8300345	WolfMerceneryRunicHealStrong	8300345_WolfMerceneryRunicHealStrong	/Skill/AttackSkill
 8300350	SupremeShellBash	8300350_SupremeShellSlap	/Skill/AttackSkill
 8300351	SupremeShellLazer	8300351_SupremeShellLaser	/Skill
+8300352	SupremeShellRage	8300352_SupremeShellRage	/Skill/AttackSkill
 8300353	SupremeShellGroundPound	8300353_SupremeShellGroundPound	/Skill/AttackSkill
 8300354	SupremeShellLeap	8300354_SupremeShellLeap	/Skill/AttackSkill
+8300360	PureIlluminatorAllieBuff	8300360_PureIlluminatorAllieBuff	/Skill/AttackSkill
 8300361	PureIlluminatorForwardHomming	8300361_PureIlluminatorForwardHoming	/Skill/AttackSkill
 8300362	PureIlluminatorExplosion	8300362_PureIlluminatorExplosion	/Skill/AttackSkill
 8300363	PureIlluminatorMelee	8300363_PureIlluminatorMelee	/Skill/AttackSkill
@@ -2253,11 +2258,14 @@
 8300412	GiantHorror Detach	8300412_GiantHorrorDetach	/Skill
 8300420	EliteSupremeShellBash	8300420_EliteSupremeShellSlap	/Skill/AttackSkill
 8300421	EliteSupremeShellLazer	8300421_EliteSupremeShellLaser	/Skill
+8300422	EliteSupremeShellRage	8300422_EliteSupremeShellRage	/Skill/AttackSkill
 8300423	EliteSupremeShellGroundPound	8300423_EliteSupremeShellGroundPound	/Skill/AttackSkill
 8300424	EliteSupremeShellLeap	8300424_EliteSupremeShellLeap	/Skill/AttackSkill
 8300425	EliteSupremeShellSpecialLazer	8300425_EliteSupremeShellSpecialLaser	/Skill
 8300426	EliteSupremeShellNormalLazer	8300426_EliteSupremeShellNormalLaser	/Skill
 8300427	EliteSupremeShellRageNormalLaser	8300427_EliteSupremeShellRageNormalLaser	/Skill/AttackSkill
+8300428	EliteSupremeShellSpecialLazer	8300428_EliteSupremeShellCalmDown	/Skill
+8300429	EliteSupremeShellRageShorter	8300429_EliteSupremeShellRageShorter	/Skill/AttackSkill
 8300430	LichRustDashAttack	8300430_LichRustDashAttack	/Skill/AttackSkill
 8300431	LichRustProjectile	8300431_LichRustProjectile	/Skill
 8300432	LichRustFlameThrower	8300432_LichRustFlameThrower	/Skill
@@ -2281,11 +2289,22 @@
 8300462	Boozu ProudBeast Special1	8300462_BoozuProudBeastSpecial1	/Skill/AttackSkill
 8300463	Boozu ProudBeast Run Double	8300463_BoozuProudBeastRunDouble	/Skill/AttackSkill
 8300470	BeastBuff	8300470_BeastMasterBuff	/Skill/AttackSkill
+8300480	Runic Beast Buff Rage	8300480_RunicBeastBuffRage	/Skill/AttackSkill
+8300481	Runic Beast Buff Focus	8300481_RunicBeastBuffFocus	/Skill/AttackSkill
 8300482	Runic Beast Weaken Shout	8300482_RunicBeastFireImbueBlast	/Skill/AttackSkill
 8300490	CageFlurry	8300490_CageBossFlurry	/Skill/AttackSkill
 8300491	Cage Blast	8300491_CageBossBlast	/Skill/AttackSkill
 8300492	Cage Boss Teleport	8300492_CageBossTeleport	/Skill/AttackSkill
 8300493	Cage Boss Buff	8300493_CageBossBuff	/Skill/AttackSkill
+8400010	Pet Pearlbird	8400010_PetPearlBird	/Skill
+8400011	Pet Crescent Shark	8400011_PetShark	/Skill
+8400012	Summon Veaber	8400012_PetPypla	/Skill
+8400013	Daughter Medyse	8400013_PetJellyBaby	/Skill
+8400014	Kid Calygrey	8400014_PetLionmanCub	/Skill
+8400015	House Hippo	8400015_PetHyppoDesFamilles	/Skill
+8400016	Cutthroat Pearlbird Pet	8400016_PetPearlBirdBlack	/Skill
+8400017	Mini Manticore	8400017_PetManticub	/Skill
+8400018	Severed Obsidian	8400018_PetObsidianEle	/Skill
 8400020	Fireworks	8400020_Fireworks	/Skill
 8100500	Warrior's Vein	8100500_WarriorVeinIdle	/Skill/AttackSkill/MeleeSkill/CounterSkill
 8100510	Dispersion	8100510_Dispersion	/Skill/AttackSkill/MeleeSkill
@@ -2329,6 +2348,7 @@
 8300525	SlughellCrystal Hide Close	8300525_SlughellCrystalHideClose	/Skill/AttackSkill
 8300530	ScarletEmissaryBlast	8300530_ScarletEmissaryBlast	/Skill/AttackSkill
 8300531	ScarletEmissaryEnrage	8300531_ScarletEmissaryEnrage	/Skill/AttackSkill
+8300532	ScarletteCombust	8300532_ScarletEmissaryCombust	/Skill/AttackSkill
 8300540	BeetleFrostCloseSpread	8300540_BeetleFrostCloseSpread	/Skill/AttackSkill
 8300541	BeetleFrost Heavy Shot	8300541_BeetleFrostHeavyShot	/Skill/AttackSkill
 8300550	Lion LightningBolt	8300550_LionLightningBolt	/Skill/AttackSkill
