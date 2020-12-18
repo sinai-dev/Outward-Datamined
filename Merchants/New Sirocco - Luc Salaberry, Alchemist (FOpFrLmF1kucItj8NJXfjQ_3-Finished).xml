@@ -1,0 +1,1235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DM_Merchant xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Name>Luc Salaberry, Alchemist</Name>
+  <UID>FOpFrLmF1kucItj8NJXfjQ_3-Finished</UID>
+  <DropTable>
+    <Name>New Sirocco - Luc Salaberry, Alchemist</Name>
+    <Guaranteed_Drops>
+      <DropTableEntry>
+        <Item_Name>Gold Ingot</Item_Name>
+        <Item_ID>6300030</Item_ID>
+        <Min_Quantity>3</Min_Quantity>
+        <Max_Quantity>5</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Crafting: Fire Rag</Item_Name>
+        <Item_ID>5700101</Item_ID>
+        <Min_Quantity>1</Min_Quantity>
+        <Max_Quantity>1</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Alchemy: Charge – Incendiary</Item_Name>
+        <Item_ID>5700173</Item_ID>
+        <Min_Quantity>1</Min_Quantity>
+        <Max_Quantity>1</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Alchemy: Charge – Toxic</Item_Name>
+        <Item_ID>5700174</Item_ID>
+        <Min_Quantity>1</Min_Quantity>
+        <Max_Quantity>1</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Alchemy: Charge – Nerve Gas</Item_Name>
+        <Item_ID>5700175</Item_ID>
+        <Min_Quantity>1</Min_Quantity>
+        <Max_Quantity>1</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Alchemy: Astral Potion</Item_Name>
+        <Item_ID>5700108</Item_ID>
+        <Min_Quantity>1</Min_Quantity>
+        <Max_Quantity>1</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Alchemy: Life Potion</Item_Name>
+        <Item_ID>5700110</Item_ID>
+        <Min_Quantity>1</Min_Quantity>
+        <Max_Quantity>1</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Alchemy: Endurance Potion</Item_Name>
+        <Item_ID>5700109</Item_ID>
+        <Min_Quantity>1</Min_Quantity>
+        <Max_Quantity>1</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Alchemy: Spiritual Varnish</Item_Name>
+        <Item_ID>5700107</Item_ID>
+        <Min_Quantity>1</Min_Quantity>
+        <Max_Quantity>1</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Alchemy: Mist Potion</Item_Name>
+        <Item_ID>5700116</Item_ID>
+        <Min_Quantity>1</Min_Quantity>
+        <Max_Quantity>1</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Alchemy: Great Astral Potion</Item_Name>
+        <Item_ID>5700147</Item_ID>
+        <Min_Quantity>1</Min_Quantity>
+        <Max_Quantity>1</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Alchemy: Hex Cleaner</Item_Name>
+        <Item_ID>5700126</Item_ID>
+        <Min_Quantity>1</Min_Quantity>
+        <Max_Quantity>1</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Alchemy: Fire Stone</Item_Name>
+        <Item_ID>5700076</Item_ID>
+        <Min_Quantity>1</Min_Quantity>
+        <Max_Quantity>1</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Alchemy: Cold Stone</Item_Name>
+        <Item_ID>5700178</Item_ID>
+        <Min_Quantity>1</Min_Quantity>
+        <Max_Quantity>1</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Panacea</Item_Name>
+        <Item_ID>4300370</Item_ID>
+        <Min_Quantity>1</Min_Quantity>
+        <Max_Quantity>2</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Bracing Potion</Item_Name>
+        <Item_ID>4300390</Item_ID>
+        <Min_Quantity>2</Min_Quantity>
+        <Max_Quantity>3</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Barrier Potion</Item_Name>
+        <Item_ID>4300430</Item_ID>
+        <Min_Quantity>2</Min_Quantity>
+        <Max_Quantity>3</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Bandages</Item_Name>
+        <Item_ID>4400010</Item_ID>
+        <Min_Quantity>2</Min_Quantity>
+        <Max_Quantity>4</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Astral Potion</Item_Name>
+        <Item_ID>4300020</Item_ID>
+        <Min_Quantity>1</Min_Quantity>
+        <Max_Quantity>3</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Life Potion</Item_Name>
+        <Item_ID>4300010</Item_ID>
+        <Min_Quantity>1</Min_Quantity>
+        <Max_Quantity>5</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Endurance Potion</Item_Name>
+        <Item_ID>4300030</Item_ID>
+        <Min_Quantity>1</Min_Quantity>
+        <Max_Quantity>5</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Linen Cloth</Item_Name>
+        <Item_ID>6500090</Item_ID>
+        <Min_Quantity>1</Min_Quantity>
+        <Max_Quantity>3</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Alchemy Kit</Item_Name>
+        <Item_ID>5010200</Item_ID>
+        <Min_Quantity>1</Min_Quantity>
+        <Max_Quantity>1</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Antidote</Item_Name>
+        <Item_ID>4300110</Item_ID>
+        <Min_Quantity>1</Min_Quantity>
+        <Max_Quantity>2</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Greasy Fern</Item_Name>
+        <Item_ID>6000020</Item_ID>
+        <Min_Quantity>3</Min_Quantity>
+        <Max_Quantity>3</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Fire Rag</Item_Name>
+        <Item_ID>4400040</Item_ID>
+        <Min_Quantity>1</Min_Quantity>
+        <Max_Quantity>2</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Lexicon</Item_Name>
+        <Item_ID>5100500</Item_ID>
+        <Min_Quantity>1</Min_Quantity>
+        <Max_Quantity>1</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Turmmip</Item_Name>
+        <Item_ID>4000030</Item_ID>
+        <Min_Quantity>3</Min_Quantity>
+        <Max_Quantity>6</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Mana Stone</Item_Name>
+        <Item_ID>6400130</Item_ID>
+        <Min_Quantity>1</Min_Quantity>
+        <Max_Quantity>1</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Blood Mushroom</Item_Name>
+        <Item_ID>4000150</Item_ID>
+        <Min_Quantity>4</Min_Quantity>
+        <Max_Quantity>4</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Star Mushroom</Item_Name>
+        <Item_ID>4000180</Item_ID>
+        <Min_Quantity>3</Min_Quantity>
+        <Max_Quantity>3</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Pressure Plate Trap</Item_Name>
+        <Item_ID>5020020</Item_ID>
+        <Min_Quantity>6</Min_Quantity>
+        <Max_Quantity>10</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Charge – Incendiary</Item_Name>
+        <Item_ID>6500120</Item_ID>
+        <Min_Quantity>2</Min_Quantity>
+        <Max_Quantity>5</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Charge – Toxic</Item_Name>
+        <Item_ID>6500130</Item_ID>
+        <Min_Quantity>2</Min_Quantity>
+        <Max_Quantity>5</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Charge – Nerve Gas</Item_Name>
+        <Item_ID>6500140</Item_ID>
+        <Min_Quantity>2</Min_Quantity>
+        <Max_Quantity>5</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Clansage Robe</Item_Name>
+        <Item_ID>3000270</Item_ID>
+        <Min_Quantity>1</Min_Quantity>
+        <Max_Quantity>1</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Wide Blue Hat</Item_Name>
+        <Item_ID>3000300</Item_ID>
+        <Min_Quantity>1</Min_Quantity>
+        <Max_Quantity>1</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Wide Black Hat</Item_Name>
+        <Item_ID>3000301</Item_ID>
+        <Min_Quantity>1</Min_Quantity>
+        <Max_Quantity>1</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Scholar’s Staff</Item_Name>
+        <Item_ID>2150000</Item_ID>
+        <Min_Quantity>1</Min_Quantity>
+        <Max_Quantity>1</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Master’s Staff</Item_Name>
+        <Item_ID>2150050</Item_ID>
+        <Min_Quantity>1</Min_Quantity>
+        <Max_Quantity>1</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Chakram</Item_Name>
+        <Item_ID>5110030</Item_ID>
+        <Min_Quantity>1</Min_Quantity>
+        <Max_Quantity>1</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Rage Potion</Item_Name>
+        <Item_ID>4300050</Item_ID>
+        <Min_Quantity>3</Min_Quantity>
+        <Max_Quantity>3</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Discipline Potion</Item_Name>
+        <Item_ID>4300060</Item_ID>
+        <Min_Quantity>3</Min_Quantity>
+        <Max_Quantity>3</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Possessed Potion</Item_Name>
+        <Item_ID>4300120</Item_ID>
+        <Min_Quantity>3</Min_Quantity>
+        <Max_Quantity>3</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Cool Potion</Item_Name>
+        <Item_ID>4300080</Item_ID>
+        <Min_Quantity>3</Min_Quantity>
+        <Max_Quantity>3</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Warm Potion</Item_Name>
+        <Item_ID>4300070</Item_ID>
+        <Min_Quantity>3</Min_Quantity>
+        <Max_Quantity>3</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Blessed Potion</Item_Name>
+        <Item_ID>4300100</Item_ID>
+        <Min_Quantity>3</Min_Quantity>
+        <Max_Quantity>3</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Mist Potion</Item_Name>
+        <Item_ID>4300090</Item_ID>
+        <Min_Quantity>3</Min_Quantity>
+        <Max_Quantity>3</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Soothing Tea</Item_Name>
+        <Item_ID>4200060</Item_ID>
+        <Min_Quantity>6</Min_Quantity>
+        <Max_Quantity>6</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Bitter Spicy Tea</Item_Name>
+        <Item_ID>4200050</Item_ID>
+        <Min_Quantity>6</Min_Quantity>
+        <Max_Quantity>6</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Mineral Tea</Item_Name>
+        <Item_ID>4200080</Item_ID>
+        <Min_Quantity>6</Min_Quantity>
+        <Max_Quantity>6</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Ambraine</Item_Name>
+        <Item_ID>4000430</Item_ID>
+        <Min_Quantity>2</Min_Quantity>
+        <Max_Quantity>5</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Oil Bomb</Item_Name>
+        <Item_ID>4600010</Item_ID>
+        <Min_Quantity>6</Min_Quantity>
+        <Max_Quantity>8</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Fragment Bomb</Item_Name>
+        <Item_ID>4600020</Item_ID>
+        <Min_Quantity>6</Min_Quantity>
+        <Max_Quantity>8</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Bomb Kit</Item_Name>
+        <Item_ID>4400090</Item_ID>
+        <Min_Quantity>12</Min_Quantity>
+        <Max_Quantity>20</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Alchemy: Oil Bomb</Item_Name>
+        <Item_ID>5700470</Item_ID>
+        <Min_Quantity>1</Min_Quantity>
+        <Max_Quantity>1</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Alchemy: Fragment Bomb</Item_Name>
+        <Item_ID>5700471</Item_ID>
+        <Min_Quantity>1</Min_Quantity>
+        <Max_Quantity>1</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Frost Bomb</Item_Name>
+        <Item_ID>4600030</Item_ID>
+        <Min_Quantity>6</Min_Quantity>
+        <Max_Quantity>8</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Spark Bomb</Item_Name>
+        <Item_ID>4600040</Item_ID>
+        <Min_Quantity>6</Min_Quantity>
+        <Max_Quantity>8</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Toxin Bomb</Item_Name>
+        <Item_ID>4600050</Item_ID>
+        <Min_Quantity>6</Min_Quantity>
+        <Max_Quantity>8</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Nerve Bomb</Item_Name>
+        <Item_ID>4600060</Item_ID>
+        <Min_Quantity>6</Min_Quantity>
+        <Max_Quantity>8</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Blazing Bomb</Item_Name>
+        <Item_ID>4600070</Item_ID>
+        <Min_Quantity>6</Min_Quantity>
+        <Max_Quantity>8</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Flaming Bomb</Item_Name>
+        <Item_ID>4600080</Item_ID>
+        <Min_Quantity>6</Min_Quantity>
+        <Max_Quantity>8</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Arrowhead Kit</Item_Name>
+        <Item_ID>4400100</Item_ID>
+        <Min_Quantity>10</Min_Quantity>
+        <Max_Quantity>15</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Flaming Arrow</Item_Name>
+        <Item_ID>5200002</Item_ID>
+        <Min_Quantity>10</Min_Quantity>
+        <Max_Quantity>15</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Poison Arrow</Item_Name>
+        <Item_ID>5200003</Item_ID>
+        <Min_Quantity>10</Min_Quantity>
+        <Max_Quantity>15</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Venom Arrow</Item_Name>
+        <Item_ID>5200004</Item_ID>
+        <Min_Quantity>10</Min_Quantity>
+        <Max_Quantity>15</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Palladium Arrow</Item_Name>
+        <Item_ID>5200005</Item_ID>
+        <Min_Quantity>10</Min_Quantity>
+        <Max_Quantity>15</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Explosive Arrow</Item_Name>
+        <Item_ID>5200007</Item_ID>
+        <Min_Quantity>10</Min_Quantity>
+        <Max_Quantity>15</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Holy Rage Arrow</Item_Name>
+        <Item_ID>5200009</Item_ID>
+        <Min_Quantity>10</Min_Quantity>
+        <Max_Quantity>15</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Soul Rupture Arrow</Item_Name>
+        <Item_ID>5200010</Item_ID>
+        <Min_Quantity>10</Min_Quantity>
+        <Max_Quantity>15</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Mana Arrow</Item_Name>
+        <Item_ID>5200019</Item_ID>
+        <Min_Quantity>10</Min_Quantity>
+        <Max_Quantity>15</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Sanctifier Potion</Item_Name>
+        <Item_ID>4300310</Item_ID>
+        <Min_Quantity>1</Min_Quantity>
+        <Max_Quantity>2</Max_Quantity>
+      </DropTableEntry>
+    </Guaranteed_Drops>
+    <Random_Tables>
+      <DropGeneratorHolder>
+        <MinNumberOfDrops>4</MinNumberOfDrops>
+        <MaxNumberOfDrops>6</MaxNumberOfDrops>
+        <MaxDiceValue>110</MaxDiceValue>
+        <EmptyDrop>0</EmptyDrop>
+        <RegenTime>-1</RegenTime>
+        <ChanceReduction>0</ChanceReduction>
+        <ChanceRegenQty>10</ChanceRegenQty>
+        <Item_Drops>
+          <DropTableChanceEntry>
+            <Item_Name>Firefly powder</Item_Name>
+            <Item_ID>6000010</Item_ID>
+            <Min_Quantity>1</Min_Quantity>
+            <Max_Quantity>1</Max_Quantity>
+            <Drop_Chance>9.09</Drop_Chance>
+            <Dice_Range>9</Dice_Range>
+            <ChanceReduction>0</ChanceReduction>
+            <ChanceRegenDelay>-1</ChanceRegenDelay>
+            <ChanceRegenQty>0</ChanceRegenQty>
+          </DropTableChanceEntry>
+          <DropTableChanceEntry>
+            <Item_Name>Linen Cloth</Item_Name>
+            <Item_ID>6500090</Item_ID>
+            <Min_Quantity>1</Min_Quantity>
+            <Max_Quantity>2</Max_Quantity>
+            <Drop_Chance>9.09</Drop_Chance>
+            <Dice_Range>9</Dice_Range>
+            <ChanceReduction>0</ChanceReduction>
+            <ChanceRegenDelay>-1</ChanceRegenDelay>
+            <ChanceRegenQty>0</ChanceRegenQty>
+          </DropTableChanceEntry>
+          <DropTableChanceEntry>
+            <Item_Name>Occult Remains</Item_Name>
+            <Item_ID>6600110</Item_ID>
+            <Min_Quantity>1</Min_Quantity>
+            <Max_Quantity>1</Max_Quantity>
+            <Drop_Chance>4.55</Drop_Chance>
+            <Dice_Range>4</Dice_Range>
+            <ChanceReduction>0</ChanceReduction>
+            <ChanceRegenDelay>-1</ChanceRegenDelay>
+            <ChanceRegenQty>0</ChanceRegenQty>
+          </DropTableChanceEntry>
+          <DropTableChanceEntry>
+            <Item_Name>Ghost's Eye</Item_Name>
+            <Item_ID>6000040</Item_ID>
+            <Min_Quantity>1</Min_Quantity>
+            <Max_Quantity>1</Max_Quantity>
+            <Drop_Chance>4.55</Drop_Chance>
+            <Dice_Range>4</Dice_Range>
+            <ChanceReduction>0</ChanceReduction>
+            <ChanceRegenDelay>-1</ChanceRegenDelay>
+            <ChanceRegenQty>0</ChanceRegenQty>
+          </DropTableChanceEntry>
+          <DropTableChanceEntry>
+            <Item_Name>Smoke Root</Item_Name>
+            <Item_ID>4000270</Item_ID>
+            <Min_Quantity>1</Min_Quantity>
+            <Max_Quantity>3</Max_Quantity>
+            <Drop_Chance>4.55</Drop_Chance>
+            <Dice_Range>4</Dice_Range>
+            <ChanceReduction>0</ChanceReduction>
+            <ChanceRegenDelay>-1</ChanceRegenDelay>
+            <ChanceRegenQty>0</ChanceRegenQty>
+          </DropTableChanceEntry>
+          <DropTableChanceEntry>
+            <Item_Name>Marshmelon</Item_Name>
+            <Item_ID>4000190</Item_ID>
+            <Min_Quantity>1</Min_Quantity>
+            <Max_Quantity>1</Max_Quantity>
+            <Drop_Chance>4.55</Drop_Chance>
+            <Dice_Range>4</Dice_Range>
+            <ChanceReduction>0</ChanceReduction>
+            <ChanceRegenDelay>-1</ChanceRegenDelay>
+            <ChanceRegenQty>0</ChanceRegenQty>
+          </DropTableChanceEntry>
+          <DropTableChanceEntry>
+            <Item_Name>Krimp Nut</Item_Name>
+            <Item_ID>4000280</Item_ID>
+            <Min_Quantity>1</Min_Quantity>
+            <Max_Quantity>3</Max_Quantity>
+            <Drop_Chance>9.09</Drop_Chance>
+            <Dice_Range>9</Dice_Range>
+            <ChanceReduction>0</ChanceReduction>
+            <ChanceRegenDelay>-1</ChanceRegenDelay>
+            <ChanceRegenQty>0</ChanceRegenQty>
+          </DropTableChanceEntry>
+          <DropTableChanceEntry>
+            <Item_Name>Salt</Item_Name>
+            <Item_ID>6000070</Item_ID>
+            <Min_Quantity>2</Min_Quantity>
+            <Max_Quantity>4</Max_Quantity>
+            <Drop_Chance>9.09</Drop_Chance>
+            <Dice_Range>9</Dice_Range>
+            <ChanceReduction>0</ChanceReduction>
+            <ChanceRegenDelay>-1</ChanceRegenDelay>
+            <ChanceRegenQty>0</ChanceRegenQty>
+          </DropTableChanceEntry>
+          <DropTableChanceEntry>
+            <Item_Name>Gaberry Wine</Item_Name>
+            <Item_ID>4100590</Item_ID>
+            <Min_Quantity>1</Min_Quantity>
+            <Max_Quantity>3</Max_Quantity>
+            <Drop_Chance>9.09</Drop_Chance>
+            <Dice_Range>9</Dice_Range>
+            <ChanceReduction>0</ChanceReduction>
+            <ChanceRegenDelay>-1</ChanceRegenDelay>
+            <ChanceRegenQty>0</ChanceRegenQty>
+          </DropTableChanceEntry>
+          <DropTableChanceEntry>
+            <Item_Name>Mist Potion</Item_Name>
+            <Item_ID>4300090</Item_ID>
+            <Min_Quantity>1</Min_Quantity>
+            <Max_Quantity>2</Max_Quantity>
+            <Drop_Chance>9.09</Drop_Chance>
+            <Dice_Range>9</Dice_Range>
+            <ChanceReduction>0</ChanceReduction>
+            <ChanceRegenDelay>-1</ChanceRegenDelay>
+            <ChanceRegenQty>0</ChanceRegenQty>
+          </DropTableChanceEntry>
+          <DropTableChanceEntry>
+            <Item_Name>Discipline Potion</Item_Name>
+            <Item_ID>4300060</Item_ID>
+            <Min_Quantity>1</Min_Quantity>
+            <Max_Quantity>2</Max_Quantity>
+            <Drop_Chance>9.09</Drop_Chance>
+            <Dice_Range>9</Dice_Range>
+            <ChanceReduction>0</ChanceReduction>
+            <ChanceRegenDelay>-1</ChanceRegenDelay>
+            <ChanceRegenQty>0</ChanceRegenQty>
+          </DropTableChanceEntry>
+          <DropTableChanceEntry>
+            <Item_Name>Cool Potion</Item_Name>
+            <Item_ID>4300080</Item_ID>
+            <Min_Quantity>1</Min_Quantity>
+            <Max_Quantity>1</Max_Quantity>
+            <Drop_Chance>9.09</Drop_Chance>
+            <Dice_Range>9</Dice_Range>
+            <ChanceReduction>0</ChanceReduction>
+            <ChanceRegenDelay>-1</ChanceRegenDelay>
+            <ChanceRegenQty>0</ChanceRegenQty>
+          </DropTableChanceEntry>
+          <DropTableChanceEntry>
+            <Item_Name>Warm Potion</Item_Name>
+            <Item_ID>4300070</Item_ID>
+            <Min_Quantity>1</Min_Quantity>
+            <Max_Quantity>1</Max_Quantity>
+            <Drop_Chance>9.09</Drop_Chance>
+            <Dice_Range>9</Dice_Range>
+            <ChanceReduction>0</ChanceReduction>
+            <ChanceRegenDelay>-1</ChanceRegenDelay>
+            <ChanceRegenQty>0</ChanceRegenQty>
+          </DropTableChanceEntry>
+        </Item_Drops>
+      </DropGeneratorHolder>
+      <DropGeneratorHolder>
+        <MinNumberOfDrops>3</MinNumberOfDrops>
+        <MaxNumberOfDrops>5</MaxNumberOfDrops>
+        <MaxDiceValue>100</MaxDiceValue>
+        <EmptyDrop>0</EmptyDrop>
+        <RegenTime>-1</RegenTime>
+        <ChanceReduction>0</ChanceReduction>
+        <ChanceRegenQty>10</ChanceRegenQty>
+        <Item_Drops>
+          <DropTableChanceEntry>
+            <Item_Name>Fire Rag</Item_Name>
+            <Item_ID>4400040</Item_ID>
+            <Min_Quantity>1</Min_Quantity>
+            <Max_Quantity>1</Max_Quantity>
+            <Drop_Chance>10</Drop_Chance>
+            <Dice_Range>9</Dice_Range>
+            <ChanceReduction>0</ChanceReduction>
+            <ChanceRegenDelay>-1</ChanceRegenDelay>
+            <ChanceRegenQty>0</ChanceRegenQty>
+          </DropTableChanceEntry>
+          <DropTableChanceEntry>
+            <Item_Name>Fire Varnish</Item_Name>
+            <Item_ID>4400041</Item_ID>
+            <Min_Quantity>1</Min_Quantity>
+            <Max_Quantity>1</Max_Quantity>
+            <Drop_Chance>10</Drop_Chance>
+            <Dice_Range>9</Dice_Range>
+            <ChanceReduction>0</ChanceReduction>
+            <ChanceRegenDelay>-1</ChanceRegenDelay>
+            <ChanceRegenQty>0</ChanceRegenQty>
+          </DropTableChanceEntry>
+          <DropTableChanceEntry>
+            <Item_Name>Ice Rag</Item_Name>
+            <Item_ID>4400050</Item_ID>
+            <Min_Quantity>1</Min_Quantity>
+            <Max_Quantity>1</Max_Quantity>
+            <Drop_Chance>10</Drop_Chance>
+            <Dice_Range>9</Dice_Range>
+            <ChanceReduction>0</ChanceReduction>
+            <ChanceRegenDelay>-1</ChanceRegenDelay>
+            <ChanceRegenQty>0</ChanceRegenQty>
+          </DropTableChanceEntry>
+          <DropTableChanceEntry>
+            <Item_Name>Ice Varnish</Item_Name>
+            <Item_ID>4400051</Item_ID>
+            <Min_Quantity>1</Min_Quantity>
+            <Max_Quantity>1</Max_Quantity>
+            <Drop_Chance>10</Drop_Chance>
+            <Dice_Range>9</Dice_Range>
+            <ChanceReduction>0</ChanceReduction>
+            <ChanceRegenDelay>-1</ChanceRegenDelay>
+            <ChanceRegenQty>0</ChanceRegenQty>
+          </DropTableChanceEntry>
+          <DropTableChanceEntry>
+            <Item_Name>Spiritual Varnish</Item_Name>
+            <Item_ID>4400060</Item_ID>
+            <Min_Quantity>1</Min_Quantity>
+            <Max_Quantity>1</Max_Quantity>
+            <Drop_Chance>10</Drop_Chance>
+            <Dice_Range>9</Dice_Range>
+            <ChanceReduction>0</ChanceReduction>
+            <ChanceRegenDelay>-1</ChanceRegenDelay>
+            <ChanceRegenQty>0</ChanceRegenQty>
+          </DropTableChanceEntry>
+          <DropTableChanceEntry>
+            <Item_Name>Dark Varnish</Item_Name>
+            <Item_ID>4400070</Item_ID>
+            <Min_Quantity>1</Min_Quantity>
+            <Max_Quantity>1</Max_Quantity>
+            <Drop_Chance>10</Drop_Chance>
+            <Dice_Range>9</Dice_Range>
+            <ChanceReduction>0</ChanceReduction>
+            <ChanceRegenDelay>-1</ChanceRegenDelay>
+            <ChanceRegenQty>0</ChanceRegenQty>
+          </DropTableChanceEntry>
+          <DropTableChanceEntry>
+            <Item_Name>Bolt Rag</Item_Name>
+            <Item_ID>4400030</Item_ID>
+            <Min_Quantity>1</Min_Quantity>
+            <Max_Quantity>1</Max_Quantity>
+            <Drop_Chance>10</Drop_Chance>
+            <Dice_Range>9</Dice_Range>
+            <ChanceReduction>0</ChanceReduction>
+            <ChanceRegenDelay>-1</ChanceRegenDelay>
+            <ChanceRegenQty>0</ChanceRegenQty>
+          </DropTableChanceEntry>
+          <DropTableChanceEntry>
+            <Item_Name>Bolt Varnish</Item_Name>
+            <Item_ID>4400031</Item_ID>
+            <Min_Quantity>1</Min_Quantity>
+            <Max_Quantity>1</Max_Quantity>
+            <Drop_Chance>10</Drop_Chance>
+            <Dice_Range>9</Dice_Range>
+            <ChanceReduction>0</ChanceReduction>
+            <ChanceRegenDelay>-1</ChanceRegenDelay>
+            <ChanceRegenQty>0</ChanceRegenQty>
+          </DropTableChanceEntry>
+          <DropTableChanceEntry>
+            <Item_Name>Poison Varnish</Item_Name>
+            <Item_ID>4400021</Item_ID>
+            <Min_Quantity>1</Min_Quantity>
+            <Max_Quantity>1</Max_Quantity>
+            <Drop_Chance>10</Drop_Chance>
+            <Dice_Range>9</Dice_Range>
+            <ChanceReduction>0</ChanceReduction>
+            <ChanceRegenDelay>-1</ChanceRegenDelay>
+            <ChanceRegenQty>0</ChanceRegenQty>
+          </DropTableChanceEntry>
+          <DropTableChanceEntry>
+            <Item_Name>Poison Rag</Item_Name>
+            <Item_ID>4400020</Item_ID>
+            <Min_Quantity>1</Min_Quantity>
+            <Max_Quantity>1</Max_Quantity>
+            <Drop_Chance>10</Drop_Chance>
+            <Dice_Range>9</Dice_Range>
+            <ChanceReduction>0</ChanceReduction>
+            <ChanceRegenDelay>-1</ChanceRegenDelay>
+            <ChanceRegenQty>0</ChanceRegenQty>
+          </DropTableChanceEntry>
+        </Item_Drops>
+      </DropGeneratorHolder>
+      <DropGeneratorHolder>
+        <MinNumberOfDrops>7</MinNumberOfDrops>
+        <MaxNumberOfDrops>10</MaxNumberOfDrops>
+        <MaxDiceValue>125</MaxDiceValue>
+        <EmptyDrop>0</EmptyDrop>
+        <RegenTime>-1</RegenTime>
+        <ChanceReduction>0</ChanceReduction>
+        <ChanceRegenQty>10</ChanceRegenQty>
+        <Item_Drops>
+          <DropTableChanceEntry>
+            <Item_Name>Panacea</Item_Name>
+            <Item_ID>4300370</Item_ID>
+            <Min_Quantity>2</Min_Quantity>
+            <Max_Quantity>4</Max_Quantity>
+            <Drop_Chance>8</Drop_Chance>
+            <Dice_Range>9</Dice_Range>
+            <ChanceReduction>0</ChanceReduction>
+            <ChanceRegenDelay>-1</ChanceRegenDelay>
+            <ChanceRegenQty>0</ChanceRegenQty>
+          </DropTableChanceEntry>
+          <DropTableChanceEntry>
+            <Item_Name>Sulphur Potion</Item_Name>
+            <Item_ID>4300380</Item_ID>
+            <Min_Quantity>2</Min_Quantity>
+            <Max_Quantity>4</Max_Quantity>
+            <Drop_Chance>8</Drop_Chance>
+            <Dice_Range>9</Dice_Range>
+            <ChanceReduction>0</ChanceReduction>
+            <ChanceRegenDelay>-1</ChanceRegenDelay>
+            <ChanceRegenQty>0</ChanceRegenQty>
+          </DropTableChanceEntry>
+          <DropTableChanceEntry>
+            <Item_Name>Bracing Potion</Item_Name>
+            <Item_ID>4300390</Item_ID>
+            <Min_Quantity>2</Min_Quantity>
+            <Max_Quantity>4</Max_Quantity>
+            <Drop_Chance>8</Drop_Chance>
+            <Dice_Range>9</Dice_Range>
+            <ChanceReduction>0</ChanceReduction>
+            <ChanceRegenDelay>-1</ChanceRegenDelay>
+            <ChanceRegenQty>0</ChanceRegenQty>
+          </DropTableChanceEntry>
+          <DropTableChanceEntry>
+            <Item_Name>Shimmer Potion</Item_Name>
+            <Item_ID>4300400</Item_ID>
+            <Min_Quantity>2</Min_Quantity>
+            <Max_Quantity>4</Max_Quantity>
+            <Drop_Chance>8</Drop_Chance>
+            <Dice_Range>9</Dice_Range>
+            <ChanceReduction>0</ChanceReduction>
+            <ChanceRegenDelay>-1</ChanceRegenDelay>
+            <ChanceRegenQty>0</ChanceRegenQty>
+          </DropTableChanceEntry>
+          <DropTableChanceEntry>
+            <Item_Name>Mana Belly Potion</Item_Name>
+            <Item_ID>4300410</Item_ID>
+            <Min_Quantity>2</Min_Quantity>
+            <Max_Quantity>4</Max_Quantity>
+            <Drop_Chance>8</Drop_Chance>
+            <Dice_Range>9</Dice_Range>
+            <ChanceReduction>0</ChanceReduction>
+            <ChanceRegenDelay>-1</ChanceRegenDelay>
+            <ChanceRegenQty>0</ChanceRegenQty>
+          </DropTableChanceEntry>
+          <DropTableChanceEntry>
+            <Item_Name>Marathon Potion</Item_Name>
+            <Item_ID>4300420</Item_ID>
+            <Min_Quantity>2</Min_Quantity>
+            <Max_Quantity>4</Max_Quantity>
+            <Drop_Chance>8</Drop_Chance>
+            <Dice_Range>9</Dice_Range>
+            <ChanceReduction>0</ChanceReduction>
+            <ChanceRegenDelay>-1</ChanceRegenDelay>
+            <ChanceRegenQty>0</ChanceRegenQty>
+          </DropTableChanceEntry>
+          <DropTableChanceEntry>
+            <Item_Name>Barrier Potion</Item_Name>
+            <Item_ID>4300430</Item_ID>
+            <Min_Quantity>2</Min_Quantity>
+            <Max_Quantity>4</Max_Quantity>
+            <Drop_Chance>8</Drop_Chance>
+            <Dice_Range>9</Dice_Range>
+            <ChanceReduction>0</ChanceReduction>
+            <ChanceRegenDelay>-1</ChanceRegenDelay>
+            <ChanceRegenQty>0</ChanceRegenQty>
+          </DropTableChanceEntry>
+          <DropTableChanceEntry>
+            <Item_Name>Frosted Powder</Item_Name>
+            <Item_ID>4300440</Item_ID>
+            <Min_Quantity>2</Min_Quantity>
+            <Max_Quantity>4</Max_Quantity>
+            <Drop_Chance>8</Drop_Chance>
+            <Dice_Range>9</Dice_Range>
+            <ChanceReduction>0</ChanceReduction>
+            <ChanceRegenDelay>-1</ChanceRegenDelay>
+            <ChanceRegenQty>0</ChanceRegenQty>
+          </DropTableChanceEntry>
+          <DropTableChanceEntry>
+            <Item_Name>Peach Seeds</Item_Name>
+            <Item_ID>6000330</Item_ID>
+            <Min_Quantity>1</Min_Quantity>
+            <Max_Quantity>3</Max_Quantity>
+            <Drop_Chance>4</Drop_Chance>
+            <Dice_Range>4</Dice_Range>
+            <ChanceReduction>0</ChanceReduction>
+            <ChanceRegenDelay>-1</ChanceRegenDelay>
+            <ChanceRegenQty>0</ChanceRegenQty>
+          </DropTableChanceEntry>
+          <DropTableChanceEntry>
+            <Item_Name>Ambraine</Item_Name>
+            <Item_ID>4000430</Item_ID>
+            <Min_Quantity>2</Min_Quantity>
+            <Max_Quantity>5</Max_Quantity>
+            <Drop_Chance>8</Drop_Chance>
+            <Dice_Range>9</Dice_Range>
+            <ChanceReduction>0</ChanceReduction>
+            <ChanceRegenDelay>-1</ChanceRegenDelay>
+            <ChanceRegenQty>0</ChanceRegenQty>
+          </DropTableChanceEntry>
+          <DropTableChanceEntry>
+            <Item_Name>Ableroot</Item_Name>
+            <Item_ID>4000440</Item_ID>
+            <Min_Quantity>2</Min_Quantity>
+            <Max_Quantity>5</Max_Quantity>
+            <Drop_Chance>8</Drop_Chance>
+            <Dice_Range>9</Dice_Range>
+            <ChanceReduction>0</ChanceReduction>
+            <ChanceRegenDelay>-1</ChanceRegenDelay>
+            <ChanceRegenQty>0</ChanceRegenQty>
+          </DropTableChanceEntry>
+          <DropTableChanceEntry>
+            <Item_Name>Sulphuric Mushroom</Item_Name>
+            <Item_ID>6000280</Item_ID>
+            <Min_Quantity>2</Min_Quantity>
+            <Max_Quantity>4</Max_Quantity>
+            <Drop_Chance>8</Drop_Chance>
+            <Dice_Range>9</Dice_Range>
+            <ChanceReduction>0</ChanceReduction>
+            <ChanceRegenDelay>-1</ChanceRegenDelay>
+            <ChanceRegenQty>0</ChanceRegenQty>
+          </DropTableChanceEntry>
+          <DropTableChanceEntry>
+            <Item_Name>Hexa Stone</Item_Name>
+            <Item_ID>6400170</Item_ID>
+            <Min_Quantity>1</Min_Quantity>
+            <Max_Quantity>1</Max_Quantity>
+            <Drop_Chance>8</Drop_Chance>
+            <Dice_Range>9</Dice_Range>
+            <ChanceReduction>0</ChanceReduction>
+            <ChanceRegenDelay>-1</ChanceRegenDelay>
+            <ChanceRegenQty>0</ChanceRegenQty>
+          </DropTableChanceEntry>
+        </Item_Drops>
+      </DropGeneratorHolder>
+      <DropGeneratorHolder>
+        <MinNumberOfDrops>2</MinNumberOfDrops>
+        <MaxNumberOfDrops>4</MaxNumberOfDrops>
+        <MaxDiceValue>130</MaxDiceValue>
+        <EmptyDrop>0</EmptyDrop>
+        <RegenTime>-1</RegenTime>
+        <ChanceReduction>0</ChanceReduction>
+        <ChanceRegenQty>10</ChanceRegenQty>
+        <Item_Drops>
+          <DropTableChanceEntry>
+            <Item_Name>Alchemy: Frost Bomb</Item_Name>
+            <Item_ID>5700472</Item_ID>
+            <Min_Quantity>1</Min_Quantity>
+            <Max_Quantity>1</Max_Quantity>
+            <Drop_Chance>7.69</Drop_Chance>
+            <Dice_Range>9</Dice_Range>
+            <ChanceReduction>0</ChanceReduction>
+            <ChanceRegenDelay>-1</ChanceRegenDelay>
+            <ChanceRegenQty>0</ChanceRegenQty>
+          </DropTableChanceEntry>
+          <DropTableChanceEntry>
+            <Item_Name>Alchemy: Spark Bomb</Item_Name>
+            <Item_ID>5700473</Item_ID>
+            <Min_Quantity>1</Min_Quantity>
+            <Max_Quantity>1</Max_Quantity>
+            <Drop_Chance>7.69</Drop_Chance>
+            <Dice_Range>9</Dice_Range>
+            <ChanceReduction>0</ChanceReduction>
+            <ChanceRegenDelay>-1</ChanceRegenDelay>
+            <ChanceRegenQty>0</ChanceRegenQty>
+          </DropTableChanceEntry>
+          <DropTableChanceEntry>
+            <Item_Name>Alchemy: Flaming Bomb</Item_Name>
+            <Item_ID>5700474</Item_ID>
+            <Min_Quantity>1</Min_Quantity>
+            <Max_Quantity>1</Max_Quantity>
+            <Drop_Chance>7.69</Drop_Chance>
+            <Dice_Range>9</Dice_Range>
+            <ChanceReduction>0</ChanceReduction>
+            <ChanceRegenDelay>-1</ChanceRegenDelay>
+            <ChanceRegenQty>0</ChanceRegenQty>
+          </DropTableChanceEntry>
+          <DropTableChanceEntry>
+            <Item_Name>Alchemy: Toxin Bomb</Item_Name>
+            <Item_ID>5700475</Item_ID>
+            <Min_Quantity>1</Min_Quantity>
+            <Max_Quantity>1</Max_Quantity>
+            <Drop_Chance>7.69</Drop_Chance>
+            <Dice_Range>9</Dice_Range>
+            <ChanceReduction>0</ChanceReduction>
+            <ChanceRegenDelay>-1</ChanceRegenDelay>
+            <ChanceRegenQty>0</ChanceRegenQty>
+          </DropTableChanceEntry>
+          <DropTableChanceEntry>
+            <Item_Name>Alchemy: Nerve Bomb</Item_Name>
+            <Item_ID>5700476</Item_ID>
+            <Min_Quantity>1</Min_Quantity>
+            <Max_Quantity>1</Max_Quantity>
+            <Drop_Chance>7.69</Drop_Chance>
+            <Dice_Range>9</Dice_Range>
+            <ChanceReduction>0</ChanceReduction>
+            <ChanceRegenDelay>-1</ChanceRegenDelay>
+            <ChanceRegenQty>0</ChanceRegenQty>
+          </DropTableChanceEntry>
+          <DropTableChanceEntry>
+            <Item_Name>Alchemy: Blazing Bomb</Item_Name>
+            <Item_ID>5700477</Item_ID>
+            <Min_Quantity>1</Min_Quantity>
+            <Max_Quantity>1</Max_Quantity>
+            <Drop_Chance>7.69</Drop_Chance>
+            <Dice_Range>9</Dice_Range>
+            <ChanceReduction>0</ChanceReduction>
+            <ChanceRegenDelay>-1</ChanceRegenDelay>
+            <ChanceRegenQty>0</ChanceRegenQty>
+          </DropTableChanceEntry>
+          <DropTableChanceEntry>
+            <Item_Name>Alchemy: Frosted Powder</Item_Name>
+            <Item_ID>5700467</Item_ID>
+            <Min_Quantity>1</Min_Quantity>
+            <Max_Quantity>1</Max_Quantity>
+            <Drop_Chance>7.69</Drop_Chance>
+            <Dice_Range>9</Dice_Range>
+            <ChanceReduction>0</ChanceReduction>
+            <ChanceRegenDelay>-1</ChanceRegenDelay>
+            <ChanceRegenQty>0</ChanceRegenQty>
+          </DropTableChanceEntry>
+          <DropTableChanceEntry>
+            <Item_Name>Alchemy: Marathon Potion</Item_Name>
+            <Item_ID>5700466</Item_ID>
+            <Min_Quantity>1</Min_Quantity>
+            <Max_Quantity>1</Max_Quantity>
+            <Drop_Chance>7.69</Drop_Chance>
+            <Dice_Range>9</Dice_Range>
+            <ChanceReduction>0</ChanceReduction>
+            <ChanceRegenDelay>-1</ChanceRegenDelay>
+            <ChanceRegenQty>0</ChanceRegenQty>
+          </DropTableChanceEntry>
+          <DropTableChanceEntry>
+            <Item_Name>Alchemy: Mana Belly Potion</Item_Name>
+            <Item_ID>5700465</Item_ID>
+            <Min_Quantity>1</Min_Quantity>
+            <Max_Quantity>1</Max_Quantity>
+            <Drop_Chance>7.69</Drop_Chance>
+            <Dice_Range>9</Dice_Range>
+            <ChanceReduction>0</ChanceReduction>
+            <ChanceRegenDelay>-1</ChanceRegenDelay>
+            <ChanceRegenQty>0</ChanceRegenQty>
+          </DropTableChanceEntry>
+          <DropTableChanceEntry>
+            <Item_Name>Alchemy: Shimmer Potion</Item_Name>
+            <Item_ID>5700464</Item_ID>
+            <Min_Quantity>1</Min_Quantity>
+            <Max_Quantity>1</Max_Quantity>
+            <Drop_Chance>7.69</Drop_Chance>
+            <Dice_Range>9</Dice_Range>
+            <ChanceReduction>0</ChanceReduction>
+            <ChanceRegenDelay>-1</ChanceRegenDelay>
+            <ChanceRegenQty>0</ChanceRegenQty>
+          </DropTableChanceEntry>
+          <DropTableChanceEntry>
+            <Item_Name>Alchemy: Barrier Potion</Item_Name>
+            <Item_ID>5700463</Item_ID>
+            <Min_Quantity>1</Min_Quantity>
+            <Max_Quantity>1</Max_Quantity>
+            <Drop_Chance>7.69</Drop_Chance>
+            <Dice_Range>9</Dice_Range>
+            <ChanceReduction>0</ChanceReduction>
+            <ChanceRegenDelay>-1</ChanceRegenDelay>
+            <ChanceRegenQty>0</ChanceRegenQty>
+          </DropTableChanceEntry>
+          <DropTableChanceEntry>
+            <Item_Name>Alchemy: Bracing Potion</Item_Name>
+            <Item_ID>5700462</Item_ID>
+            <Min_Quantity>1</Min_Quantity>
+            <Max_Quantity>1</Max_Quantity>
+            <Drop_Chance>7.69</Drop_Chance>
+            <Dice_Range>9</Dice_Range>
+            <ChanceReduction>0</ChanceReduction>
+            <ChanceRegenDelay>-1</ChanceRegenDelay>
+            <ChanceRegenQty>0</ChanceRegenQty>
+          </DropTableChanceEntry>
+          <DropTableChanceEntry>
+            <Item_Name>Alchemy: Panacea</Item_Name>
+            <Item_ID>5700461</Item_ID>
+            <Min_Quantity>1</Min_Quantity>
+            <Max_Quantity>1</Max_Quantity>
+            <Drop_Chance>7.69</Drop_Chance>
+            <Dice_Range>9</Dice_Range>
+            <ChanceReduction>0</ChanceReduction>
+            <ChanceRegenDelay>-1</ChanceRegenDelay>
+            <ChanceRegenQty>0</ChanceRegenQty>
+          </DropTableChanceEntry>
+        </Item_Drops>
+      </DropGeneratorHolder>
+      <DropGeneratorHolder>
+        <MinNumberOfDrops>2</MinNumberOfDrops>
+        <MaxNumberOfDrops>3</MaxNumberOfDrops>
+        <MaxDiceValue>10</MaxDiceValue>
+        <EmptyDrop>100</EmptyDrop>
+        <RegenTime>-1</RegenTime>
+        <ChanceReduction>0</ChanceReduction>
+        <ChanceRegenQty>10</ChanceRegenQty>
+        <Item_Drops>
+          <DropTableChanceEntry>
+            <Item_Name>Flaming Arrow</Item_Name>
+            <Item_ID>5200002</Item_ID>
+            <Min_Quantity>15</Min_Quantity>
+            <Max_Quantity>30</Max_Quantity>
+            <Drop_Chance>0</Drop_Chance>
+            <Dice_Range>0</Dice_Range>
+            <ChanceReduction>0</ChanceReduction>
+            <ChanceRegenDelay>-1</ChanceRegenDelay>
+            <ChanceRegenQty>0</ChanceRegenQty>
+          </DropTableChanceEntry>
+          <DropTableChanceEntry>
+            <Item_Name>Poison Arrow</Item_Name>
+            <Item_ID>5200003</Item_ID>
+            <Min_Quantity>15</Min_Quantity>
+            <Max_Quantity>30</Max_Quantity>
+            <Drop_Chance>0</Drop_Chance>
+            <Dice_Range>0</Dice_Range>
+            <ChanceReduction>0</ChanceReduction>
+            <ChanceRegenDelay>-1</ChanceRegenDelay>
+            <ChanceRegenQty>0</ChanceRegenQty>
+          </DropTableChanceEntry>
+          <DropTableChanceEntry>
+            <Item_Name>Venom Arrow</Item_Name>
+            <Item_ID>5200004</Item_ID>
+            <Min_Quantity>15</Min_Quantity>
+            <Max_Quantity>30</Max_Quantity>
+            <Drop_Chance>0</Drop_Chance>
+            <Dice_Range>0</Dice_Range>
+            <ChanceReduction>0</ChanceReduction>
+            <ChanceRegenDelay>-1</ChanceRegenDelay>
+            <ChanceRegenQty>0</ChanceRegenQty>
+          </DropTableChanceEntry>
+          <DropTableChanceEntry>
+            <Item_Name>Palladium Arrow</Item_Name>
+            <Item_ID>5200005</Item_ID>
+            <Min_Quantity>15</Min_Quantity>
+            <Max_Quantity>30</Max_Quantity>
+            <Drop_Chance>0</Drop_Chance>
+            <Dice_Range>0</Dice_Range>
+            <ChanceReduction>0</ChanceReduction>
+            <ChanceRegenDelay>-1</ChanceRegenDelay>
+            <ChanceRegenQty>0</ChanceRegenQty>
+          </DropTableChanceEntry>
+          <DropTableChanceEntry>
+            <Item_Name>Explosive Arrow</Item_Name>
+            <Item_ID>5200007</Item_ID>
+            <Min_Quantity>5</Min_Quantity>
+            <Max_Quantity>20</Max_Quantity>
+            <Drop_Chance>0</Drop_Chance>
+            <Dice_Range>0</Dice_Range>
+            <ChanceReduction>0</ChanceReduction>
+            <ChanceRegenDelay>-1</ChanceRegenDelay>
+            <ChanceRegenQty>0</ChanceRegenQty>
+          </DropTableChanceEntry>
+          <DropTableChanceEntry>
+            <Item_Name>Forged Arrow</Item_Name>
+            <Item_ID>5200008</Item_ID>
+            <Min_Quantity>15</Min_Quantity>
+            <Max_Quantity>30</Max_Quantity>
+            <Drop_Chance>0</Drop_Chance>
+            <Dice_Range>0</Dice_Range>
+            <ChanceReduction>0</ChanceReduction>
+            <ChanceRegenDelay>-1</ChanceRegenDelay>
+            <ChanceRegenQty>0</ChanceRegenQty>
+          </DropTableChanceEntry>
+          <DropTableChanceEntry>
+            <Item_Name>Holy Rage Arrow</Item_Name>
+            <Item_ID>5200009</Item_ID>
+            <Min_Quantity>5</Min_Quantity>
+            <Max_Quantity>20</Max_Quantity>
+            <Drop_Chance>0</Drop_Chance>
+            <Dice_Range>0</Dice_Range>
+            <ChanceReduction>0</ChanceReduction>
+            <ChanceRegenDelay>-1</ChanceRegenDelay>
+            <ChanceRegenQty>0</ChanceRegenQty>
+          </DropTableChanceEntry>
+          <DropTableChanceEntry>
+            <Item_Name>Soul Rupture Arrow</Item_Name>
+            <Item_ID>5200010</Item_ID>
+            <Min_Quantity>5</Min_Quantity>
+            <Max_Quantity>20</Max_Quantity>
+            <Drop_Chance>0</Drop_Chance>
+            <Dice_Range>0</Dice_Range>
+            <ChanceReduction>0</ChanceReduction>
+            <ChanceRegenDelay>-1</ChanceRegenDelay>
+            <ChanceRegenQty>0</ChanceRegenQty>
+          </DropTableChanceEntry>
+          <DropTableChanceEntry>
+            <Item_Name>Mana Arrow</Item_Name>
+            <Item_ID>5200019</Item_ID>
+            <Min_Quantity>15</Min_Quantity>
+            <Max_Quantity>30</Max_Quantity>
+            <Drop_Chance>0</Drop_Chance>
+            <Dice_Range>0</Dice_Range>
+            <ChanceReduction>0</ChanceReduction>
+            <ChanceRegenDelay>-1</ChanceRegenDelay>
+            <ChanceRegenQty>0</ChanceRegenQty>
+          </DropTableChanceEntry>
+        </Item_Drops>
+        <DropConditionType>BuildingIsCompletedDropCondition</DropConditionType>
+      </DropGeneratorHolder>
+      <DropGeneratorHolder>
+        <MinNumberOfDrops>2</MinNumberOfDrops>
+        <MaxNumberOfDrops>2</MaxNumberOfDrops>
+        <MaxDiceValue>70</MaxDiceValue>
+        <EmptyDrop>0</EmptyDrop>
+        <RegenTime>-1</RegenTime>
+        <ChanceReduction>0</ChanceReduction>
+        <ChanceRegenQty>10</ChanceRegenQty>
+        <Item_Drops>
+          <DropTableChanceEntry>
+            <Item_Name>Alchemy: Venom Arrow</Item_Name>
+            <Item_ID>5700480</Item_ID>
+            <Min_Quantity>1</Min_Quantity>
+            <Max_Quantity>1</Max_Quantity>
+            <Drop_Chance>14.29</Drop_Chance>
+            <Dice_Range>9</Dice_Range>
+            <ChanceReduction>0</ChanceReduction>
+            <ChanceRegenDelay>-1</ChanceRegenDelay>
+            <ChanceRegenQty>0</ChanceRegenQty>
+          </DropTableChanceEntry>
+          <DropTableChanceEntry>
+            <Item_Name>Alchemy: Palladium Arrow</Item_Name>
+            <Item_ID>5700481</Item_ID>
+            <Min_Quantity>1</Min_Quantity>
+            <Max_Quantity>1</Max_Quantity>
+            <Drop_Chance>14.29</Drop_Chance>
+            <Dice_Range>9</Dice_Range>
+            <ChanceReduction>0</ChanceReduction>
+            <ChanceRegenDelay>-1</ChanceRegenDelay>
+            <ChanceRegenQty>0</ChanceRegenQty>
+          </DropTableChanceEntry>
+          <DropTableChanceEntry>
+            <Item_Name>Alchemy: Mana Arrow</Item_Name>
+            <Item_ID>5700483</Item_ID>
+            <Min_Quantity>1</Min_Quantity>
+            <Max_Quantity>1</Max_Quantity>
+            <Drop_Chance>14.29</Drop_Chance>
+            <Dice_Range>9</Dice_Range>
+            <ChanceReduction>0</ChanceReduction>
+            <ChanceRegenDelay>-1</ChanceRegenDelay>
+            <ChanceRegenQty>0</ChanceRegenQty>
+          </DropTableChanceEntry>
+          <DropTableChanceEntry>
+            <Item_Name>Alchemy: Holy Rage Arrow</Item_Name>
+            <Item_ID>5700484</Item_ID>
+            <Min_Quantity>1</Min_Quantity>
+            <Max_Quantity>1</Max_Quantity>
+            <Drop_Chance>14.29</Drop_Chance>
+            <Dice_Range>9</Dice_Range>
+            <ChanceReduction>0</ChanceReduction>
+            <ChanceRegenDelay>-1</ChanceRegenDelay>
+            <ChanceRegenQty>0</ChanceRegenQty>
+          </DropTableChanceEntry>
+          <DropTableChanceEntry>
+            <Item_Name>Alchemy: Soul Rupture Arrow</Item_Name>
+            <Item_ID>5700485</Item_ID>
+            <Min_Quantity>1</Min_Quantity>
+            <Max_Quantity>1</Max_Quantity>
+            <Drop_Chance>14.29</Drop_Chance>
+            <Dice_Range>9</Dice_Range>
+            <ChanceReduction>0</ChanceReduction>
+            <ChanceRegenDelay>-1</ChanceRegenDelay>
+            <ChanceRegenQty>0</ChanceRegenQty>
+          </DropTableChanceEntry>
+          <DropTableChanceEntry>
+            <Item_Name>Alchemy: Flaming Arrow</Item_Name>
+            <Item_ID>5700478</Item_ID>
+            <Min_Quantity>1</Min_Quantity>
+            <Max_Quantity>1</Max_Quantity>
+            <Drop_Chance>14.29</Drop_Chance>
+            <Dice_Range>9</Dice_Range>
+            <ChanceReduction>0</ChanceReduction>
+            <ChanceRegenDelay>-1</ChanceRegenDelay>
+            <ChanceRegenQty>0</ChanceRegenQty>
+          </DropTableChanceEntry>
+          <DropTableChanceEntry>
+            <Item_Name>Alchemy: Poison Arrow</Item_Name>
+            <Item_ID>5700479</Item_ID>
+            <Min_Quantity>1</Min_Quantity>
+            <Max_Quantity>1</Max_Quantity>
+            <Drop_Chance>14.29</Drop_Chance>
+            <Dice_Range>9</Dice_Range>
+            <ChanceReduction>0</ChanceReduction>
+            <ChanceRegenDelay>-1</ChanceRegenDelay>
+            <ChanceRegenQty>0</ChanceRegenQty>
+          </DropTableChanceEntry>
+        </Item_Drops>
+        <DropConditionType>BuildingIsCompletedDropCondition</DropConditionType>
+      </DropGeneratorHolder>
+    </Random_Tables>
+  </DropTable>
+  <BuyModifiers />
+  <SellModifiers />
+</DM_Merchant>
