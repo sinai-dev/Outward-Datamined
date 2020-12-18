@@ -25,7 +25,7 @@
     <string>Item</string>
   </Tags>
   <StatsHolder xsi:type="DM_WeaponStats">
-    <BaseValue>0</BaseValue>
+    <BaseValue>50</BaseValue>
     <RawWeight>3</RawWeight>
     <MaxDurability>150</MaxDurability>
     <Damage_Resistance>
@@ -137,7 +137,7 @@
           <SyncType>OwnerSync</SyncType>
           <OverrideCategory>None</OverrideCategory>
           <StatusEffect>Poisoned +</StatusEffect>
-          <Buildup>45</Buildup>
+          <Buildup>60</Buildup>
           <BuildUpMultiplier>1</BuildUpMultiplier>
           <BypassCounter>false</BypassCounter>
         </DM_Effect>

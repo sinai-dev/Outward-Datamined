@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DM_Recipe xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Name>Gold-Lich Knuckles</Name>
+  <RecipeID>397</RecipeID>
+  <UID />
+  <StationType>Survival</StationType>
+  <RequiredPType>None</RequiredPType>
+  <Ingredients>
+    <string>Gold-Lich Mechanism</string>
+    <string>Gold-Lich Mechanism</string>
+    <string>Iron Knuckles</string>
+    <string>Firefly powder</string>
+  </Ingredients>
+  <Results>
+    <ItemQty>
+      <ItemName>Gold-Lich Knuckles</ItemName>
+      <ItemID>2160050</ItemID>
+      <Quantity>1</Quantity>
+    </ItemQty>
+  </Results>
+</DM_Recipe>

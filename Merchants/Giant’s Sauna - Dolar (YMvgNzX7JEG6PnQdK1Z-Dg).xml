@@ -328,7 +328,6 @@
         </Item_Drops>
       </DropGeneratorHolder>
     </Random_Tables>
-    <Conditional_Tables />
   </DropTable>
   <BuyModifiers>
     <float>-0.3</float>

@@ -4,7 +4,7 @@
   <saveDir>/Skill/PassiveSkill</saveDir>
   <ItemID>8205030</ItemID>
   <Name>Steady Arm</Name>
-  <Description>Increases Impact Resistance by 15 while your are blocking.</Description>
+  <Description>Increases Impact Resistance by 10 while your are blocking.</Description>
   <LegacyItemID>-1</LegacyItemID>
   <IsPickable>false</IsPickable>
   <IsUsable>false</IsUsable>

@@ -137,7 +137,7 @@
           <SyncType>OwnerSync</SyncType>
           <OverrideCategory>None</OverrideCategory>
           <StatusEffect>Haunted</StatusEffect>
-          <Buildup>45</Buildup>
+          <Buildup>60</Buildup>
           <BuildUpMultiplier>1</BuildUpMultiplier>
           <BypassCounter>false</BypassCounter>
         </DM_Effect>

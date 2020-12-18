@@ -56,7 +56,7 @@
       <Quantity>1</Quantity>
     </QuantityHolder>
     <QuantityHolder>
-      <Name>Caldera:New Sirocco Mines</Name>
+      <Name>Caldera:The River of Red</Name>
       <Quantity>1</Quantity>
     </QuantityHolder>
   </All_Locations>
@@ -127,7 +127,7 @@
         <string>Abrassar</string>
         <string>Forgotten Research Laboratory</string>
         <string>Caldera</string>
-        <string>New Sirocco Mines</string>
+        <string>The River of Red</string>
       </Locations>
     </DroptableSummary>
     <DroptableSummary>
@@ -177,7 +177,7 @@
         <string>The Eldest Brother</string>
         <string>Scarlet Sanctuary</string>
         <string>Old Sirocco</string>
-        <string>New Sirocco Mines</string>
+        <string>The River of Red</string>
       </Locations>
     </DroptableSummary>
     <DroptableSummary>
@@ -187,7 +187,7 @@
         <string>The Eldest Brother</string>
         <string>Scarlet Sanctuary</string>
         <string>Old Sirocco</string>
-        <string>New Sirocco Mines</string>
+        <string>The River of Red</string>
       </Locations>
     </DroptableSummary>
     <DroptableSummary>

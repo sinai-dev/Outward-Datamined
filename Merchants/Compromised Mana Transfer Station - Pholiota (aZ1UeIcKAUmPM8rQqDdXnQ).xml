@@ -425,7 +425,6 @@
         </Item_Drops>
       </DropGeneratorHolder>
     </Random_Tables>
-    <Conditional_Tables />
   </DropTable>
   <BuyModifiers />
   <SellModifiers />

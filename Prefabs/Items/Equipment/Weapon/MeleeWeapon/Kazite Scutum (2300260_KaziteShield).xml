@@ -27,7 +27,7 @@
     <string>Family</string>
   </Tags>
   <StatsHolder xsi:type="DM_WeaponStats">
-    <BaseValue>160</BaseValue>
+    <BaseValue>200</BaseValue>
     <RawWeight>5</RawWeight>
     <MaxDurability>175</MaxDurability>
     <Damage_Resistance>

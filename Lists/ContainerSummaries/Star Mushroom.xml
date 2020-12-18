@@ -128,7 +128,7 @@
       <Quantity>9</Quantity>
     </QuantityHolder>
     <QuantityHolder>
-      <Name>Caldera:The River of Red</Name>
+      <Name>Caldera:New Sirocco Mines</Name>
       <Quantity>3</Quantity>
     </QuantityHolder>
   </All_Locations>
@@ -167,7 +167,7 @@
         <string>Steam Bath Tunnels</string>
         <string>The Grotto of Chalcedony</string>
         <string>The Vault of Stone</string>
-        <string>The River of Red</string>
+        <string>New Sirocco Mines</string>
       </Locations>
     </DroptableSummary>
   </DropTables>

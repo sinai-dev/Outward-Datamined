@@ -145,7 +145,6 @@
       </DropTableEntry>
     </Guaranteed_Drops>
     <Random_Tables />
-    <Conditional_Tables />
   </DropTable>
   <BuyModifiers>
     <float>0</float>

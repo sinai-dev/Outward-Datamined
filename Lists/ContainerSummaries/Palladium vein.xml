@@ -120,7 +120,7 @@
       <Quantity>2</Quantity>
     </QuantityHolder>
     <QuantityHolder>
-      <Name>Caldera:The River of Red</Name>
+      <Name>Caldera:New Sirocco Mines</Name>
       <Quantity>3</Quantity>
     </QuantityHolder>
     <QuantityHolder>
@@ -163,7 +163,7 @@
         <string>Myrmitaur’s Haven</string>
         <string>Oil Refinery</string>
         <string>The Vault of Stone</string>
-        <string>The River of Red</string>
+        <string>New Sirocco Mines</string>
         <string>The Tower of Regrets</string>
         <string>Oily Cavern</string>
       </Locations>

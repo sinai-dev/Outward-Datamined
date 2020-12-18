@@ -204,7 +204,7 @@
       <Quantity>3</Quantity>
     </QuantityHolder>
     <QuantityHolder>
-      <Name>Caldera:New Sirocco Mines</Name>
+      <Name>Caldera:The River of Red</Name>
       <Quantity>1</Quantity>
     </QuantityHolder>
   </All_Locations>
@@ -259,7 +259,7 @@
         <string>Old Sirocco</string>
         <string>Ark of the Exiled</string>
         <string>Calygrey Colosseum</string>
-        <string>New Sirocco Mines</string>
+        <string>The River of Red</string>
       </Locations>
     </DroptableSummary>
     <DroptableSummary>
@@ -387,7 +387,7 @@
         <string>Old Sirocco</string>
         <string>Ark of the Exiled</string>
         <string>Calygrey Colosseum</string>
-        <string>New Sirocco Mines</string>
+        <string>The River of Red</string>
       </Locations>
     </DroptableSummary>
     <DroptableSummary>
@@ -426,7 +426,7 @@
         <string>Old Sirocco</string>
         <string>Ark of the Exiled</string>
         <string>Calygrey Colosseum</string>
-        <string>New Sirocco Mines</string>
+        <string>The River of Red</string>
       </Locations>
     </DroptableSummary>
     <DroptableSummary>
@@ -793,7 +793,7 @@
         <string>The Grotto of Chalcedony</string>
         <string>Myrmitaur’s Haven</string>
         <string>The Vault of Stone</string>
-        <string>New Sirocco Mines</string>
+        <string>The River of Red</string>
       </Locations>
     </DroptableSummary>
     <DroptableSummary>
@@ -823,7 +823,7 @@
         <string>Old Sirocco</string>
         <string>Ark of the Exiled</string>
         <string>Calygrey Colosseum</string>
-        <string>New Sirocco Mines</string>
+        <string>The River of Red</string>
       </Locations>
     </DroptableSummary>
     <DroptableSummary>
@@ -841,7 +841,7 @@
         <string>Old Sirocco</string>
         <string>Ark of the Exiled</string>
         <string>Calygrey Colosseum</string>
-        <string>New Sirocco Mines</string>
+        <string>The River of Red</string>
       </Locations>
     </DroptableSummary>
     <DroptableSummary>
@@ -857,7 +857,7 @@
         <string>The Vault of Stone</string>
         <string>Old Sirocco</string>
         <string>Ark of the Exiled</string>
-        <string>New Sirocco Mines</string>
+        <string>The River of Red</string>
         <string>Calygrey Colosseum</string>
       </Locations>
     </DroptableSummary>

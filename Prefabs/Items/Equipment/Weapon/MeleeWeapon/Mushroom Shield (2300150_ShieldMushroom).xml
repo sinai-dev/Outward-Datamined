@@ -138,7 +138,7 @@ It makes for a surprisingly usable shield. Inflicts poison on shield charge.</De
           <SyncType>OwnerSync</SyncType>
           <OverrideCategory>None</OverrideCategory>
           <StatusEffect>Poisoned</StatusEffect>
-          <Buildup>45</Buildup>
+          <Buildup>60</Buildup>
           <BuildUpMultiplier>1</BuildUpMultiplier>
           <BypassCounter>false</BypassCounter>
         </DM_Effect>

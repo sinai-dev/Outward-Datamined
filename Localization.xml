@@ -5407,6 +5407,7 @@ Construction requirements
 Funds:  9000
 Stone: 100
 Timber: 200
+Housing: 5
 Material:  Petrified Organs
 Funds upkeep: 100 / Day
 Construction:  4 Weeks</Desc>
@@ -10054,7 +10055,7 @@ Increases your Decay Resistance by  5.</Desc>
     <ItemLocalizationHolder>
       <KeyID>8205030</KeyID>
       <Name>Steady Arm</Name>
-      <Desc>Increases Impact Resistance by 15 while your are blocking.</Desc>
+      <Desc>Increases Impact Resistance by 10 while your are blocking.</Desc>
     </ItemLocalizationHolder>
     <ItemLocalizationHolder>
       <KeyID>8205040</KeyID>
@@ -21777,7 +21778,7 @@ Does an extra hit for each Elemental Boon active.</Desc>
     </DialogueLocalizationHolder>
     <DialogueLocalizationHolder>
       <Key>Evangeline_CA_Side_11</Key>
-      <General>It kills me to know that we could have avoided this if we overthrew them sooner... *sigh* But it makes sense...People are easily cowed until their lives on on the line.</General>
+      <General>It kills me to know that we could have avoided this if we overthrew them sooner... *sigh* But it makes sense...People are easily cowed until their lives are on the line.</General>
       <Female />
       <UniqueAudioName>X</UniqueAudioName>
       <AnimTags />

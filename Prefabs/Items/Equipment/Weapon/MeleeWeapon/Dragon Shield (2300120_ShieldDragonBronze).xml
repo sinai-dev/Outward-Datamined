@@ -25,7 +25,7 @@
     <string>Item</string>
   </Tags>
   <StatsHolder xsi:type="DM_WeaponStats">
-    <BaseValue>100</BaseValue>
+    <BaseValue>200</BaseValue>
     <RawWeight>8</RawWeight>
     <MaxDurability>175</MaxDurability>
     <Damage_Resistance>
@@ -137,7 +137,7 @@
           <SyncType>OwnerSync</SyncType>
           <OverrideCategory>None</OverrideCategory>
           <StatusEffect>Burning</StatusEffect>
-          <Buildup>45</Buildup>
+          <Buildup>60</Buildup>
           <BuildUpMultiplier>1</BuildUpMultiplier>
           <BypassCounter>false</BypassCounter>
         </DM_Effect>

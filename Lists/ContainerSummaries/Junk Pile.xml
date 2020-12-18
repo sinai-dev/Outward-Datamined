@@ -284,7 +284,7 @@
       <Quantity>1</Quantity>
     </QuantityHolder>
     <QuantityHolder>
-      <Name>Caldera:New Sirocco Mines</Name>
+      <Name>Caldera:The River of Red</Name>
       <Quantity>1</Quantity>
     </QuantityHolder>
     <QuantityHolder>
@@ -433,7 +433,7 @@
         <string>Steam Bath Tunnels</string>
         <string>Giant’s Sauna</string>
         <string>Silkworm’s Refuge</string>
-        <string>New Sirocco Mines</string>
+        <string>The River of Red</string>
         <string>The Tower of Regrets</string>
         <string>Underside Loading Dock</string>
         <string>Oily Cavern</string>
@@ -761,7 +761,7 @@
         <string>Oil Refinery</string>
         <string>Old Sirocco</string>
         <string>Silkworm’s Refuge</string>
-        <string>New Sirocco Mines</string>
+        <string>The River of Red</string>
         <string>The Tower of Regrets</string>
         <string>Underside Loading Dock</string>
         <string>Calygrey Colosseum</string>
@@ -786,7 +786,7 @@
         <string>Old Sirocco</string>
         <string>Ark of the Exiled</string>
         <string>Silkworm’s Refuge</string>
-        <string>New Sirocco Mines</string>
+        <string>The River of Red</string>
         <string>The Tower of Regrets</string>
         <string>Underside Loading Dock</string>
         <string>Calygrey Colosseum</string>
