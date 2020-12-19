@@ -48,6 +48,10 @@
   </Loot_Containers>
   <Gatherables>
     <QuantityHolder>
+      <Name>Ambraine</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
       <Name>Sulphuric Mushroom</Name>
       <Quantity>8</Quantity>
     </QuantityHolder>

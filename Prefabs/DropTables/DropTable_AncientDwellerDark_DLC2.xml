@@ -64,7 +64,7 @@
       <ChanceRegenQty>10</ChanceRegenQty>
       <Item_Drops>
         <DropTableChanceEntry>
-          <Item_Name>Ore Sample</Item_Name>
+          <Item_Name>Ore Sample (1000 Funds)</Item_Name>
           <Item_ID>6000340</Item_ID>
           <Min_Quantity>1</Min_Quantity>
           <Max_Quantity>1</Max_Quantity>
@@ -75,7 +75,7 @@
           <ChanceRegenQty>0</ChanceRegenQty>
         </DropTableChanceEntry>
         <DropTableChanceEntry>
-          <Item_Name>Plant Sample</Item_Name>
+          <Item_Name>Plant Sample (1000 Funds)</Item_Name>
           <Item_ID>6000380</Item_ID>
           <Min_Quantity>1</Min_Quantity>
           <Max_Quantity>1</Max_Quantity>
@@ -86,7 +86,7 @@
           <ChanceRegenQty>0</ChanceRegenQty>
         </DropTableChanceEntry>
         <DropTableChanceEntry>
-          <Item_Name>Molepig Specimen</Item_Name>
+          <Item_Name>Molepig Specimen (1000 Funds)</Item_Name>
           <Item_ID>6000420</Item_ID>
           <Min_Quantity>1</Min_Quantity>
           <Max_Quantity>1</Max_Quantity>

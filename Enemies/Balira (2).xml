@@ -4,7 +4,7 @@
   <GameObject_Name>KrypteiaGuard</GameObject_Name>
   <Unique_ID>2</Unique_ID>
   <Locations_Found>
-    <string>Other:Unknown Arena</string>
+    <string>Caldera:Caldera Arena</string>
   </Locations_Found>
   <Max_Health>700</Max_Health>
   <Health_Regen_Per_Second>0</Health_Regen_Per_Second>

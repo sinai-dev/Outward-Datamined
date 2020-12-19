@@ -5,10 +5,18 @@
   <All_Locations>
     <QuantityHolder>
       <Name>Caldera:Caldera</Name>
-      <Quantity>28</Quantity>
+      <Quantity>29</Quantity>
     </QuantityHolder>
     <QuantityHolder>
       <Name>Caldera:Steam Bath Tunnels</Name>
+      <Quantity>2</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Caldera:Sulphuric Caverns</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Caldera:Oily Cavern</Name>
       <Quantity>1</Quantity>
     </QuantityHolder>
   </All_Locations>

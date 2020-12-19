@@ -49,7 +49,9 @@ Your stamina burn increases more quickly, however.</Description>
           <TransformName>WindAltarAtivatedInRegion</TransformName>
           <Effects />
           <EffectConditions>
-            <DM_EffectCondition xsi:nil="true" />
+            <DM_EffectCondition xsi:type="DM_WindAltarActivatedCondition">
+              <Invert>false</Invert>
+            </DM_EffectCondition>
           </EffectConditions>
           <ChildEffects />
         </DM_EffectTransform>

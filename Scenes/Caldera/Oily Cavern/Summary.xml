@@ -64,12 +64,20 @@
   </Loot_Containers>
   <Gatherables>
     <QuantityHolder>
-      <Name>Oil</Name>
-      <Quantity>3</Quantity>
+      <Name>Smoke Root</Name>
+      <Quantity>1</Quantity>
     </QuantityHolder>
     <QuantityHolder>
       <Name>Ableroot</Name>
-      <Quantity>2</Quantity>
+      <Quantity>3</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Ambraine</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Oil</Name>
+      <Quantity>3</Quantity>
     </QuantityHolder>
     <QuantityHolder>
       <Name>Iron vein</Name>

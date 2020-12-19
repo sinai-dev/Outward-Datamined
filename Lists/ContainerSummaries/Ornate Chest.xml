@@ -45,7 +45,7 @@
     </QuantityHolder>
     <QuantityHolder>
       <Name>Other:Unknown Arena</Name>
-      <Quantity>19</Quantity>
+      <Quantity>15</Quantity>
     </QuantityHolder>
     <QuantityHolder>
       <Name>Hallowed Marsh:Jade Quarry</Name>
@@ -152,6 +152,10 @@
       <Quantity>3</Quantity>
     </QuantityHolder>
     <QuantityHolder>
+      <Name>Caldera:New Sirocco</Name>
+      <Quantity>26</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
       <Name>Caldera:Caldera</Name>
       <Quantity>2</Quantity>
     </QuantityHolder>
@@ -194,6 +198,10 @@
     <QuantityHolder>
       <Name>Caldera:Ark of the Exiled</Name>
       <Quantity>3</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Caldera:Caldera Arena</Name>
+      <Quantity>4</Quantity>
     </QuantityHolder>
     <QuantityHolder>
       <Name>Caldera:Oily Cavern</Name>
@@ -783,6 +791,12 @@
       </Locations>
     </DroptableSummary>
     <DroptableSummary>
+      <DropTableName>DropTable_Caldera_ArenaRandomChest</DropTableName>
+      <Locations>
+        <string>New Sirocco</string>
+      </Locations>
+    </DroptableSummary>
+    <DroptableSummary>
       <DropTableName>DropTable_Caldera_Equipment_HighDungeon_1</DropTableName>
       <Locations>
         <string>Caldera</string>
@@ -884,7 +898,7 @@
     <DroptableSummary>
       <DropTableName>DropTable_Caldera_EliteChestDroptable</DropTableName>
       <Locations>
-        <string>Unknown Arena</string>
+        <string>Caldera Arena</string>
       </Locations>
     </DroptableSummary>
   </DropTables>

@@ -58,13 +58,13 @@ Veaber Eggs
 Fishing Spot (DropTable_FishingSpotAntiquePlateau)
 Rich Iron vein (Tourmaline)
 Nightmare Mushrooms
+Ambraine
 Hollowed Trunk 
 Sulphuric Mushroom
 Golden Crescent
 Maize
 Hexa Stone
 Unidentified Ore Vein
-Ambraine
 Fishing Spot (DropTable_FishingSpotCaldera)
 Unidentified Roots
 Chalcedony

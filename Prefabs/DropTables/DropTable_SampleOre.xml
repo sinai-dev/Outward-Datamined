@@ -13,7 +13,7 @@
       <ChanceRegenQty>10</ChanceRegenQty>
       <Item_Drops>
         <DropTableChanceEntry>
-          <Item_Name>Ore Sample</Item_Name>
+          <Item_Name>Ore Sample (1000 Funds)</Item_Name>
           <Item_ID>6000340</Item_ID>
           <Min_Quantity>1</Min_Quantity>
           <Max_Quantity>1</Max_Quantity>
@@ -24,7 +24,7 @@
           <ChanceRegenQty>1</ChanceRegenQty>
         </DropTableChanceEntry>
         <DropTableChanceEntry>
-          <Item_Name>Ore Sample</Item_Name>
+          <Item_Name>Ore Sample (40 Stones)</Item_Name>
           <Item_ID>6000341</Item_ID>
           <Min_Quantity>1</Min_Quantity>
           <Max_Quantity>1</Max_Quantity>
@@ -35,7 +35,7 @@
           <ChanceRegenQty>0</ChanceRegenQty>
         </DropTableChanceEntry>
         <DropTableChanceEntry>
-          <Item_Name>Ore Sample</Item_Name>
+          <Item_Name>Ore Sample (80 Stones)</Item_Name>
           <Item_ID>6000342</Item_ID>
           <Min_Quantity>1</Min_Quantity>
           <Max_Quantity>1</Max_Quantity>
@@ -46,7 +46,7 @@
           <ChanceRegenQty>0</ChanceRegenQty>
         </DropTableChanceEntry>
         <DropTableChanceEntry>
-          <Item_Name>Ore Sample</Item_Name>
+          <Item_Name>Ore Sample (Diamond Dust)</Item_Name>
           <Item_ID>6000343</Item_ID>
           <Min_Quantity>1</Min_Quantity>
           <Max_Quantity>1</Max_Quantity>
@@ -57,7 +57,7 @@
           <ChanceRegenQty>0</ChanceRegenQty>
         </DropTableChanceEntry>
         <DropTableChanceEntry>
-          <Item_Name>Ore Sample</Item_Name>
+          <Item_Name>Ore Sample (Chromium Shards)</Item_Name>
           <Item_ID>6000344</Item_ID>
           <Min_Quantity>1</Min_Quantity>
           <Max_Quantity>1</Max_Quantity>
@@ -68,7 +68,7 @@
           <ChanceRegenQty>0</ChanceRegenQty>
         </DropTableChanceEntry>
         <DropTableChanceEntry>
-          <Item_Name>Ore Sample</Item_Name>
+          <Item_Name>Ore Sample (Amethyst Geode)</Item_Name>
           <Item_ID>6000345</Item_ID>
           <Min_Quantity>1</Min_Quantity>
           <Max_Quantity>1</Max_Quantity>

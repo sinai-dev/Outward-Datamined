@@ -126,6 +126,14 @@
       <Quantity>1</Quantity>
     </QuantityHolder>
     <QuantityHolder>
+      <Name>Smoke Root</Name>
+      <Quantity>21</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Ambraine</Name>
+      <Quantity>29</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
       <Name>Mana Stone</Name>
       <Quantity>10</Quantity>
     </QuantityHolder>
@@ -142,10 +150,6 @@
       <Quantity>24</Quantity>
     </QuantityHolder>
     <QuantityHolder>
-      <Name>Smoke Root</Name>
-      <Quantity>20</Quantity>
-    </QuantityHolder>
-    <QuantityHolder>
       <Name>Maize</Name>
       <Quantity>26</Quantity>
     </QuantityHolder>
@@ -160,10 +164,6 @@
     <QuantityHolder>
       <Name>Unidentified Ore Vein</Name>
       <Quantity>5</Quantity>
-    </QuantityHolder>
-    <QuantityHolder>
-      <Name>Ambraine</Name>
-      <Quantity>28</Quantity>
     </QuantityHolder>
     <QuantityHolder>
       <Name>Palladium vein</Name>

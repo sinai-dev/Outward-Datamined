@@ -323,6 +323,12 @@
         <Min_Quantity>6</Min_Quantity>
         <Max_Quantity>6</Max_Quantity>
       </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Sanctifier Potion</Item_Name>
+        <Item_ID>4300310</Item_ID>
+        <Min_Quantity>1</Min_Quantity>
+        <Max_Quantity>2</Max_Quantity>
+      </DropTableEntry>
     </Guaranteed_Drops>
     <Random_Tables>
       <DropGeneratorHolder>

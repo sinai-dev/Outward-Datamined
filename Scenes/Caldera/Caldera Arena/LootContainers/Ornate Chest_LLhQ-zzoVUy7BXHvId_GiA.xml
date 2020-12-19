@@ -2,8 +2,8 @@
 <DM_LootContainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Name>Ornate Chest</Name>
   <ItemID>1000120</ItemID>
-  <UID>SGpCloS6pU2DHlaD_ECgqQ</UID>
+  <UID>LLhQ-zzoVUy7BXHvId_GiA</UID>
   <DropTables>
-    <string>DropTable_Neutral_Bosse_Shrimp_1</string>
+    <string>DropTable_Caldera_EliteChestDroptable</string>
   </DropTables>
 </DM_LootContainer>

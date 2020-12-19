@@ -41,6 +41,210 @@
         <Min_Quantity>1</Min_Quantity>
         <Max_Quantity>1</Max_Quantity>
       </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>City Hall</Item_Name>
+        <Item_ID>9400120</Item_ID>
+        <Min_Quantity>1</Min_Quantity>
+        <Max_Quantity>1</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Blacksmith shop</Item_Name>
+        <Item_ID>9400160</Item_ID>
+        <Min_Quantity>1</Min_Quantity>
+        <Max_Quantity>1</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Alchemist shop</Item_Name>
+        <Item_ID>9400170</Item_ID>
+        <Min_Quantity>1</Min_Quantity>
+        <Max_Quantity>1</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>General Store</Item_Name>
+        <Item_ID>9400220</Item_ID>
+        <Min_Quantity>1</Min_Quantity>
+        <Max_Quantity>1</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>V2 - Hunting Guild</Item_Name>
+        <Item_ID>9400132</Item_ID>
+        <Min_Quantity>1</Min_Quantity>
+        <Max_Quantity>1</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>V2 – Mason‘s Guild</Item_Name>
+        <Item_ID>9400142</Item_ID>
+        <Min_Quantity>1</Min_Quantity>
+        <Max_Quantity>1</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>V2 - Woodcutter’s Guild</Item_Name>
+        <Item_ID>9400152</Item_ID>
+        <Min_Quantity>1</Min_Quantity>
+        <Max_Quantity>1</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Food Store</Item_Name>
+        <Item_ID>9400190</Item_ID>
+        <Min_Quantity>1</Min_Quantity>
+        <Max_Quantity>1</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Enchanting Guild</Item_Name>
+        <Item_ID>9400180</Item_ID>
+        <Min_Quantity>1</Min_Quantity>
+        <Max_Quantity>1</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Gladiator’s Arena</Item_Name>
+        <Item_ID>9400200</Item_ID>
+        <Min_Quantity>1</Min_Quantity>
+        <Max_Quantity>1</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Chapel</Item_Name>
+        <Item_ID>9400210</Item_ID>
+        <Min_Quantity>1</Min_Quantity>
+        <Max_Quantity>1</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Water Purifier</Item_Name>
+        <Item_ID>9400230</Item_ID>
+        <Min_Quantity>1</Min_Quantity>
+        <Max_Quantity>1</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>V3 - Hunting Hall</Item_Name>
+        <Item_ID>9400133</Item_ID>
+        <Min_Quantity>1</Min_Quantity>
+        <Max_Quantity>1</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>V3 – Mason’s Hall</Item_Name>
+        <Item_ID>9400143</Item_ID>
+        <Min_Quantity>1</Min_Quantity>
+        <Max_Quantity>1</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>V3 - Woodcutter’s Hall</Item_Name>
+        <Item_ID>9400153</Item_ID>
+        <Min_Quantity>1</Min_Quantity>
+        <Max_Quantity>1</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Blacksmith shop – Weapon Forge</Item_Name>
+        <Item_ID>9400162</Item_ID>
+        <Min_Quantity>1</Min_Quantity>
+        <Max_Quantity>1</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Blacksmith shop – Armor Forge</Item_Name>
+        <Item_ID>9400163</Item_ID>
+        <Min_Quantity>1</Min_Quantity>
+        <Max_Quantity>1</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Alchemist shop – Fletcher’s Workshop</Item_Name>
+        <Item_ID>9400172</Item_ID>
+        <Min_Quantity>1</Min_Quantity>
+        <Max_Quantity>1</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>General Store – Courier</Item_Name>
+        <Item_ID>9400222</Item_ID>
+        <Min_Quantity>1</Min_Quantity>
+        <Max_Quantity>1</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>General Store – Caravan</Item_Name>
+        <Item_ID>9400223</Item_ID>
+        <Min_Quantity>1</Min_Quantity>
+        <Max_Quantity>1</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>City Hall – Embassy</Item_Name>
+        <Item_ID>9400122</Item_ID>
+        <Min_Quantity>1</Min_Quantity>
+        <Max_Quantity>1</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Enchanting Guild – Arcane Library</Item_Name>
+        <Item_ID>9400182</Item_ID>
+        <Min_Quantity>1</Min_Quantity>
+        <Max_Quantity>1</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Water Purifier – Distillery</Item_Name>
+        <Item_ID>9400232</Item_ID>
+        <Min_Quantity>1</Min_Quantity>
+        <Max_Quantity>1</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Water Purifier – Fountain of Life</Item_Name>
+        <Item_ID>9400233</Item_ID>
+        <Min_Quantity>1</Min_Quantity>
+        <Max_Quantity>1</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Arena – Training Ground</Item_Name>
+        <Item_ID>9400202</Item_ID>
+        <Min_Quantity>1</Min_Quantity>
+        <Max_Quantity>1</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Arena – Combat Academy</Item_Name>
+        <Item_ID>9400203</Item_ID>
+        <Min_Quantity>1</Min_Quantity>
+        <Max_Quantity>1</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Food Store – Inn</Item_Name>
+        <Item_ID>9400192</Item_ID>
+        <Min_Quantity>1</Min_Quantity>
+        <Max_Quantity>1</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Food Store – Communal Garden</Item_Name>
+        <Item_ID>9400193</Item_ID>
+        <Min_Quantity>1</Min_Quantity>
+        <Max_Quantity>1</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Chapel – Temple</Item_Name>
+        <Item_ID>9400212</Item_ID>
+        <Min_Quantity>1</Min_Quantity>
+        <Max_Quantity>1</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Stockpile – Warehouse</Item_Name>
+        <Item_ID>9400102</Item_ID>
+        <Min_Quantity>1</Min_Quantity>
+        <Max_Quantity>1</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Chapel – Monument to Elatt</Item_Name>
+        <Item_ID>9400213</Item_ID>
+        <Min_Quantity>1</Min_Quantity>
+        <Max_Quantity>1</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>City Hall – Krypteia Hideout</Item_Name>
+        <Item_ID>9400123</Item_ID>
+        <Min_Quantity>1</Min_Quantity>
+        <Max_Quantity>1</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Alchemist shop – Military Lab</Item_Name>
+        <Item_ID>9400173</Item_ID>
+        <Min_Quantity>1</Min_Quantity>
+        <Max_Quantity>1</Max_Quantity>
+      </DropTableEntry>
+      <DropTableEntry>
+        <Item_Name>Enchanting Guild – Mana Chambers</Item_Name>
+        <Item_ID>9400183</Item_ID>
+        <Min_Quantity>1</Min_Quantity>
+        <Max_Quantity>1</Max_Quantity>
+      </DropTableEntry>
     </Guaranteed_Drops>
     <Random_Tables />
   </DropTable>

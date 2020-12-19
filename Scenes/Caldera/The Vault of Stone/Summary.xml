@@ -32,12 +32,12 @@
   </Loot_Containers>
   <Gatherables>
     <QuantityHolder>
-      <Name>Blood Mushroom</Name>
-      <Quantity>3</Quantity>
+      <Name>Ableroot</Name>
+      <Quantity>6</Quantity>
     </QuantityHolder>
     <QuantityHolder>
-      <Name>Ableroot</Name>
-      <Quantity>5</Quantity>
+      <Name>Blood Mushroom</Name>
+      <Quantity>3</Quantity>
     </QuantityHolder>
     <QuantityHolder>
       <Name>Iron vein</Name>

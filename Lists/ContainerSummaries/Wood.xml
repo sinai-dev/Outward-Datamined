@@ -73,7 +73,7 @@
     </QuantityHolder>
     <QuantityHolder>
       <Name>Other:Unknown Arena</Name>
-      <Quantity>3</Quantity>
+      <Quantity>2</Quantity>
     </QuantityHolder>
     <QuantityHolder>
       <Name>Antique Plateau:Harmattan</Name>
@@ -89,10 +89,14 @@
     </QuantityHolder>
     <QuantityHolder>
       <Name>Caldera:New Sirocco</Name>
-      <Quantity>1</Quantity>
+      <Quantity>42</Quantity>
     </QuantityHolder>
     <QuantityHolder>
       <Name>Caldera:Caldera</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Caldera:Caldera Arena</Name>
       <Quantity>1</Quantity>
     </QuantityHolder>
   </All_Locations>
@@ -123,6 +127,7 @@
         <string>Old Harmattan</string>
         <string>New Sirocco</string>
         <string>Caldera</string>
+        <string>Caldera Arena</string>
       </Locations>
     </DroptableSummary>
   </DropTables>

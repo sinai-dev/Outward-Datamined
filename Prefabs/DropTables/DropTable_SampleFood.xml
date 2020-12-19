@@ -13,7 +13,7 @@
       <ChanceRegenQty>10</ChanceRegenQty>
       <Item_Drops>
         <DropTableChanceEntry>
-          <Item_Name>Molepig Specimen</Item_Name>
+          <Item_Name>Molepig Specimen (1000 Funds)</Item_Name>
           <Item_ID>6000420</Item_ID>
           <Min_Quantity>1</Min_Quantity>
           <Max_Quantity>1</Max_Quantity>
@@ -24,7 +24,7 @@
           <ChanceRegenQty>1</ChanceRegenQty>
         </DropTableChanceEntry>
         <DropTableChanceEntry>
-          <Item_Name>Molepig Specimen</Item_Name>
+          <Item_Name>Molepig Specimen (200 Food)</Item_Name>
           <Item_ID>6000421</Item_ID>
           <Min_Quantity>1</Min_Quantity>
           <Max_Quantity>1</Max_Quantity>
@@ -35,7 +35,7 @@
           <ChanceRegenQty>0</ChanceRegenQty>
         </DropTableChanceEntry>
         <DropTableChanceEntry>
-          <Item_Name>Molepig Specimen</Item_Name>
+          <Item_Name>Molepig Specimen (300 Food)</Item_Name>
           <Item_ID>6000422</Item_ID>
           <Min_Quantity>1</Min_Quantity>
           <Max_Quantity>1</Max_Quantity>
@@ -46,7 +46,7 @@
           <ChanceRegenQty>0</ChanceRegenQty>
         </DropTableChanceEntry>
         <DropTableChanceEntry>
-          <Item_Name>Molepig Specimen</Item_Name>
+          <Item_Name>Molepig Specimen (Ectoplasm)</Item_Name>
           <Item_ID>6000423</Item_ID>
           <Min_Quantity>1</Min_Quantity>
           <Max_Quantity>1</Max_Quantity>
@@ -57,7 +57,7 @@
           <ChanceRegenQty>0</ChanceRegenQty>
         </DropTableChanceEntry>
         <DropTableChanceEntry>
-          <Item_Name>Molepig Specimen</Item_Name>
+          <Item_Name>Molepig Specimen (Digested Mana Stone)</Item_Name>
           <Item_ID>6000424</Item_ID>
           <Min_Quantity>1</Min_Quantity>
           <Max_Quantity>1</Max_Quantity>
@@ -68,7 +68,7 @@
           <ChanceRegenQty>0</ChanceRegenQty>
         </DropTableChanceEntry>
         <DropTableChanceEntry>
-          <Item_Name>Molepig Specimen</Item_Name>
+          <Item_Name>Molepig Specimen (Petrified Organs)</Item_Name>
           <Item_ID>6000425</Item_ID>
           <Min_Quantity>1</Min_Quantity>
           <Max_Quantity>1</Max_Quantity>

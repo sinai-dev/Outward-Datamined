@@ -13,7 +13,7 @@
       <ChanceRegenQty>10</ChanceRegenQty>
       <Item_Drops>
         <DropTableChanceEntry>
-          <Item_Name>Plant Sample</Item_Name>
+          <Item_Name>Plant Sample (1000 Funds)</Item_Name>
           <Item_ID>6000380</Item_ID>
           <Min_Quantity>1</Min_Quantity>
           <Max_Quantity>1</Max_Quantity>
@@ -24,7 +24,7 @@
           <ChanceRegenQty>1</ChanceRegenQty>
         </DropTableChanceEntry>
         <DropTableChanceEntry>
-          <Item_Name>Plant Sample</Item_Name>
+          <Item_Name>Plant Sample (40 Timber)</Item_Name>
           <Item_ID>6000381</Item_ID>
           <Min_Quantity>1</Min_Quantity>
           <Max_Quantity>1</Max_Quantity>
@@ -35,7 +35,7 @@
           <ChanceRegenQty>0</ChanceRegenQty>
         </DropTableChanceEntry>
         <DropTableChanceEntry>
-          <Item_Name>Plant Sample</Item_Name>
+          <Item_Name>Plant Sample (80 Timber)</Item_Name>
           <Item_ID>6000382</Item_ID>
           <Min_Quantity>1</Min_Quantity>
           <Max_Quantity>1</Max_Quantity>
@@ -46,7 +46,7 @@
           <ChanceRegenQty>0</ChanceRegenQty>
         </DropTableChanceEntry>
         <DropTableChanceEntry>
-          <Item_Name>Plant Sample</Item_Name>
+          <Item_Name>Plant Sample (Flash Moss)</Item_Name>
           <Item_ID>6000383</Item_ID>
           <Min_Quantity>1</Min_Quantity>
           <Max_Quantity>1</Max_Quantity>
@@ -57,7 +57,7 @@
           <ChanceRegenQty>0</ChanceRegenQty>
         </DropTableChanceEntry>
         <DropTableChanceEntry>
-          <Item_Name>Plant Sample</Item_Name>
+          <Item_Name>Plant Sample (Bloodroot)</Item_Name>
           <Item_ID>6000384</Item_ID>
           <Min_Quantity>1</Min_Quantity>
           <Max_Quantity>1</Max_Quantity>
@@ -68,7 +68,7 @@
           <ChanceRegenQty>0</ChanceRegenQty>
         </DropTableChanceEntry>
         <DropTableChanceEntry>
-          <Item_Name>Plant Sample</Item_Name>
+          <Item_Name>Plant Sample (Voltaic Vines)</Item_Name>
           <Item_ID>6000385</Item_ID>
           <Min_Quantity>1</Min_Quantity>
           <Max_Quantity>1</Max_Quantity>

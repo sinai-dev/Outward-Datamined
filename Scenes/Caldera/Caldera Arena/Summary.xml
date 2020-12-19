@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SceneSummary xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SceneName>Caldera Arena</SceneName>
+  <Enemies>
+    <QuantityHolder>
+      <Name>Shell Horror (4)</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Shell Horror (5)</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Wildlife_Torcrab (1)</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Shell Horror (6)</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Burning Man (4)</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Balira (2)</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Balira (3)</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Ghost (6)</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+  </Enemies>
+  <Merchants />
+  <Loot_Containers>
+    <QuantityHolder>
+      <Name>Ornate Chest</Name>
+      <Quantity>4</Quantity>
+    </QuantityHolder>
+  </Loot_Containers>
+  <Gatherables>
+    <QuantityHolder>
+      <Name>Wood</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+  </Gatherables>
+  <Item_Spawns />
+  <UniqueContainerList>
+    <string>Ornate Chest_2LWgJ8W7HEKkpulQ8dBVdg</string>
+    <string>Ornate Chest_riHfSZ6JkE6wrtxXVUD1OQ</string>
+    <string>Ornate Chest_SGpCloS6pU2DHlaD_ECgqQ</string>
+    <string>Ornate Chest_LLhQ-zzoVUy7BXHvId_GiA</string>
+  </UniqueContainerList>
+</SceneSummary>

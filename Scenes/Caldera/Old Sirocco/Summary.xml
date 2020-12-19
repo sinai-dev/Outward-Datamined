@@ -67,6 +67,14 @@
   </Loot_Containers>
   <Gatherables>
     <QuantityHolder>
+      <Name>Smoke Root</Name>
+      <Quantity>5</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Ableroot</Name>
+      <Quantity>2</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
       <Name>Iron vein</Name>
       <Quantity>3</Quantity>
     </QuantityHolder>
@@ -75,15 +83,7 @@
       <Quantity>1</Quantity>
     </QuantityHolder>
     <QuantityHolder>
-      <Name>Smoke Root</Name>
-      <Quantity>4</Quantity>
-    </QuantityHolder>
-    <QuantityHolder>
       <Name>Chalcedony</Name>
-      <Quantity>1</Quantity>
-    </QuantityHolder>
-    <QuantityHolder>
-      <Name>Ableroot</Name>
       <Quantity>1</Quantity>
     </QuantityHolder>
     <QuantityHolder>
