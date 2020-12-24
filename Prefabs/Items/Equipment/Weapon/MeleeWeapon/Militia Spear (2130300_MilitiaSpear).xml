@@ -5,7 +5,7 @@
   <ItemID>2130300</ItemID>
   <Name>Militia Spear</Name>
   <Description />
-  <LegacyItemID>-1</LegacyItemID>
+  <LegacyItemID>2130305</LegacyItemID>
   <IsPickable>true</IsPickable>
   <IsUsable>false</IsUsable>
   <QtyRemovedOnUse>1</QtyRemovedOnUse>
@@ -26,8 +26,9 @@
     <string>Spear</string>
     <string>DecraftIron_Small</string>
     <string>Decraft</string>
-    <string>Militia</string>
+    <string>Brutal</string>
     <string>Family</string>
+    <string>Militia</string>
     <string>Main Weapon</string>
   </Tags>
   <StatsHolder xsi:type="DM_WeaponStats">

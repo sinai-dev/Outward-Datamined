@@ -5,7 +5,7 @@
   <ItemID>2160150</ItemID>
   <Name>Damascene Knuckles</Name>
   <Description>Increases the power of Weapon Skills.</Description>
-  <LegacyItemID>2160021</LegacyItemID>
+  <LegacyItemID>2160155</LegacyItemID>
   <IsPickable>true</IsPickable>
   <IsUsable>false</IsUsable>
   <QtyRemovedOnUse>1</QtyRemovedOnUse>

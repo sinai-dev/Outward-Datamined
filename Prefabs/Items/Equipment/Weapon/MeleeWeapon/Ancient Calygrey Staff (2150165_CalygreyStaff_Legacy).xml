@@ -5,7 +5,7 @@
   <ItemID>2150165</ItemID>
   <Name>Ancient Calygrey Staff</Name>
   <Description>The Staff of an ancient Calygrey passed down by their ancestors.</Description>
-  <LegacyItemID>2150051</LegacyItemID>
+  <LegacyItemID>-1</LegacyItemID>
   <IsPickable>true</IsPickable>
   <IsUsable>false</IsUsable>
   <QtyRemovedOnUse>1</QtyRemovedOnUse>

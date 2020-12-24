@@ -23,7 +23,7 @@
     <string>Shield</string>
     <string>Weapon</string>
     <string>Item</string>
-    <string>DecraftChalcedony_Small</string>
+    <string>DecraftPalladium_Small</string>
     <string>Decraft</string>
   </Tags>
   <StatsHolder xsi:type="DM_WeaponStats">

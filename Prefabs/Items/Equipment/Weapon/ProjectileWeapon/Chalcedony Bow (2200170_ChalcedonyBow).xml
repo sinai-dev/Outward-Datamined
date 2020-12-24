@@ -4,7 +4,7 @@
   <saveDir>/Equipment/Weapon/ProjectileWeapon</saveDir>
   <ItemID>2200170</ItemID>
   <Name>Chalcedony Bow</Name>
-  <Description>Inflicts Slow Down.</Description>
+  <Description>Inflicts Chill Hex.</Description>
   <LegacyItemID>-1</LegacyItemID>
   <IsPickable>true</IsPickable>
   <IsUsable>false</IsUsable>
@@ -20,11 +20,6 @@
   <CastSheatheRequired>1</CastSheatheRequired>
   <OverrideSellModifier>-1</OverrideSellModifier>
   <Tags>
-    <string>Item</string>
-    <string>DecraftChalcedony_Small</string>
-    <string>Decraft</string>
-    <string>Bow</string>
-    <string>Weapon</string>
     <string>Main Weapon</string>
   </Tags>
   <StatsHolder xsi:type="DM_WeaponStats">

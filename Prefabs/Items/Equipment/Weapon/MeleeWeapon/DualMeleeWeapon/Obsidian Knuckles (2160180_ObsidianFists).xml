@@ -5,7 +5,7 @@
   <ItemID>2160180</ItemID>
   <Name>Obsidian Knuckles</Name>
   <Description>Inflicts Burning on enemies.</Description>
-  <LegacyItemID>2160021</LegacyItemID>
+  <LegacyItemID>2160185</LegacyItemID>
   <IsPickable>true</IsPickable>
   <IsUsable>false</IsUsable>
   <QtyRemovedOnUse>1</QtyRemovedOnUse>
@@ -24,10 +24,9 @@
     <string>Weapon</string>
     <string>Item</string>
     <string>Bludgeon</string>
-    <string>DecraftPalladium_Small</string>
-    <string>Decraft</string>
-    <string>Obsidian</string>
+    <string>Iron</string>
     <string>Family</string>
+    <string>Obsidian</string>
     <string>Main Weapon</string>
   </Tags>
   <StatsHolder xsi:type="DM_WeaponStats">

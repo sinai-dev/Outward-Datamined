@@ -31,7 +31,7 @@ Equipment: Lexicon
     <string>Recipe</string>
   </Tags>
   <StatsHolder>
-    <BaseValue>1</BaseValue>
+    <BaseValue>50</BaseValue>
     <RawWeight>0</RawWeight>
     <MaxDurability>-1</MaxDurability>
   </StatsHolder>

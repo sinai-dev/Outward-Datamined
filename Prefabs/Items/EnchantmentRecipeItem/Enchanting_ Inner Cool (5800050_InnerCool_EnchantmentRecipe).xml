@@ -11,7 +11,7 @@ Pillar Placement: NC, EC, WF
 Equipment: Armor, Helmet, Boots
 Virgin, Desert
 
-Conditions: EnchantmentCondition_Enchant_Guild
+Conditions: Cold Weather
 </Description>
   <LegacyItemID>-1</LegacyItemID>
   <IsPickable>true</IsPickable>
@@ -33,7 +33,7 @@ Conditions: EnchantmentCondition_Enchant_Guild
     <string>Recipe</string>
   </Tags>
   <StatsHolder>
-    <BaseValue>1</BaseValue>
+    <BaseValue>25</BaseValue>
     <RawWeight>0</RawWeight>
     <MaxDurability>-1</MaxDurability>
   </StatsHolder>

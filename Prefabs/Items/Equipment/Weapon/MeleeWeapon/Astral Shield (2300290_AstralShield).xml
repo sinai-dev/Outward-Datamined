@@ -23,6 +23,8 @@
     <string>Shield</string>
     <string>Weapon</string>
     <string>Item</string>
+    <string>DecraftPalladium_Small</string>
+    <string>Decraft</string>
   </Tags>
   <StatsHolder xsi:type="DM_WeaponStats">
     <BaseValue>2000</BaseValue>
@@ -137,7 +139,7 @@
           <SyncType>OwnerSync</SyncType>
           <OverrideCategory>None</OverrideCategory>
           <StatusEffect>Burn</StatusEffect>
-          <Buildup>45</Buildup>
+          <Buildup>60</Buildup>
           <BuildUpMultiplier>1</BuildUpMultiplier>
           <BypassCounter>false</BypassCounter>
         </DM_Effect>
@@ -146,7 +148,7 @@
           <SyncType>OwnerSync</SyncType>
           <OverrideCategory>None</OverrideCategory>
           <StatusEffect>Curse</StatusEffect>
-          <Buildup>45</Buildup>
+          <Buildup>60</Buildup>
           <BuildUpMultiplier>1</BuildUpMultiplier>
           <BypassCounter>false</BypassCounter>
         </DM_Effect>

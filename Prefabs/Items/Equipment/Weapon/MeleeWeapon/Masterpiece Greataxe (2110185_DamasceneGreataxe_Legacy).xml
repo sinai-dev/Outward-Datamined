@@ -101,7 +101,7 @@
         </Damage>
       </AttackData>
       <AttackData>
-        <StamCost>9.24</StamCost>
+        <StamCost>11.55</StamCost>
         <Knockback>58.5</Knockback>
         <AttackSpeed>1.1</AttackSpeed>
         <Damage>
@@ -109,7 +109,7 @@
         </Damage>
       </AttackData>
       <AttackData>
-        <StamCost>8.47</StamCost>
+        <StamCost>10.5875</StamCost>
         <Knockback>58.5</Knockback>
         <AttackSpeed>1.1</AttackSpeed>
         <Damage>
@@ -117,7 +117,7 @@
         </Damage>
       </AttackData>
       <AttackData>
-        <StamCost>8.47</StamCost>
+        <StamCost>10.5875</StamCost>
         <Knockback>58.5</Knockback>
         <AttackSpeed>1.1</AttackSpeed>
         <Damage>

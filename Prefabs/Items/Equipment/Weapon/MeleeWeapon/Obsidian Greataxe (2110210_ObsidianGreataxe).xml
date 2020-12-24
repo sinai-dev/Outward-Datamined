@@ -5,7 +5,7 @@
   <ItemID>2110210</ItemID>
   <Name>Obsidian Greataxe</Name>
   <Description>Inflicts Burning on enemies.</Description>
-  <LegacyItemID>-1</LegacyItemID>
+  <LegacyItemID>2110215</LegacyItemID>
   <IsPickable>true</IsPickable>
   <IsUsable>false</IsUsable>
   <QtyRemovedOnUse>1</QtyRemovedOnUse>
@@ -24,10 +24,11 @@
     <string>Weapon</string>
     <string>Item</string>
     <string>Axe</string>
-    <string>DecraftPalladium_Large</string>
+    <string>DecraftIron_Large</string>
     <string>Decraft</string>
-    <string>Obsidian</string>
+    <string>Brutal</string>
     <string>Family</string>
+    <string>Obsidian</string>
     <string>Main Weapon</string>
   </Tags>
   <StatsHolder xsi:type="DM_WeaponStats">
@@ -106,7 +107,7 @@
         </Damage>
       </AttackData>
       <AttackData>
-        <StamCost>8.25</StamCost>
+        <StamCost>10.3125</StamCost>
         <Knockback>42.9</Knockback>
         <AttackSpeed>1.1</AttackSpeed>
         <Damage>
@@ -115,7 +116,7 @@
         </Damage>
       </AttackData>
       <AttackData>
-        <StamCost>7.5625</StamCost>
+        <StamCost>9.453125</StamCost>
         <Knockback>42.9</Knockback>
         <AttackSpeed>1.1</AttackSpeed>
         <Damage>
@@ -124,7 +125,7 @@
         </Damage>
       </AttackData>
       <AttackData>
-        <StamCost>7.5625</StamCost>
+        <StamCost>9.453125</StamCost>
         <Knockback>42.9</Knockback>
         <AttackSpeed>1.1</AttackSpeed>
         <Damage>

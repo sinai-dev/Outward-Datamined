@@ -69,7 +69,7 @@ Chakram spells are necessary to use this off-hand weapon.</Description>
     <Thirst_Affect>1</Thirst_Affect>
     <Fatigue_Affect>1</Fatigue_Affect>
     <BarrierProtection>0</BarrierProtection>
-    <GlobalStatusEffectResistance>0</GlobalStatusEffectResistance>
+    <GlobalStatusEffectResistance>-10</GlobalStatusEffectResistance>
     <StaminaRegenModifier>0</StaminaRegenModifier>
     <AttackSpeed>1</AttackSpeed>
     <BaseDamage>

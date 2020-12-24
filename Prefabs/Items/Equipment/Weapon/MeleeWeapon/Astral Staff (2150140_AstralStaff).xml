@@ -5,7 +5,7 @@
   <ItemID>2150140</ItemID>
   <Name>Astral Staff</Name>
   <Description>Inflicts Doomed.</Description>
-  <LegacyItemID>2150051</LegacyItemID>
+  <LegacyItemID>-1</LegacyItemID>
   <IsPickable>true</IsPickable>
   <IsUsable>false</IsUsable>
   <QtyRemovedOnUse>1</QtyRemovedOnUse>

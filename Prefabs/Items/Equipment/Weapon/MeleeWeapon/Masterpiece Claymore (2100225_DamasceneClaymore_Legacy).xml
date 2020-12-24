@@ -112,7 +112,7 @@
         <Knockback>55</Knockback>
         <AttackSpeed>1.1</AttackSpeed>
         <Damage>
-          <float>62.7</float>
+          <float>72.105</float>
         </Damage>
       </AttackData>
       <AttackData>
@@ -120,7 +120,7 @@
         <Knockback>55</Knockback>
         <AttackSpeed>1.1</AttackSpeed>
         <Damage>
-          <float>62.7</float>
+          <float>72.105</float>
         </Damage>
       </AttackData>
     </Attacks>

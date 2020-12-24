@@ -5,7 +5,7 @@
   <ItemID>2100255</ItemID>
   <Name>Meteoric Claymore</Name>
   <Description>A glowing Obsidian Claymore passed down by your ancestors. Inflicts Holy Blaze on burning foes.</Description>
-  <LegacyItemID>2100001</LegacyItemID>
+  <LegacyItemID>-1</LegacyItemID>
   <IsPickable>true</IsPickable>
   <IsUsable>false</IsUsable>
   <QtyRemovedOnUse>1</QtyRemovedOnUse>
@@ -24,7 +24,7 @@
     <string>Weapon</string>
     <string>Item</string>
     <string>Blade</string>
-    <string>DecraftPalladium_Large</string>
+    <string>DecraftIron_Large</string>
     <string>Decraft</string>
     <string>Obsidian</string>
     <string>Family</string>
@@ -119,8 +119,8 @@
         <Knockback>50.6</Knockback>
         <AttackSpeed>1.1</AttackSpeed>
         <Damage>
-          <float>26.4</float>
-          <float>26.4</float>
+          <float>30.36</float>
+          <float>30.36</float>
         </Damage>
       </AttackData>
       <AttackData>
@@ -128,8 +128,8 @@
         <Knockback>50.6</Knockback>
         <AttackSpeed>1.1</AttackSpeed>
         <Damage>
-          <float>26.4</float>
-          <float>26.4</float>
+          <float>30.36</float>
+          <float>30.36</float>
         </Damage>
       </AttackData>
     </Attacks>

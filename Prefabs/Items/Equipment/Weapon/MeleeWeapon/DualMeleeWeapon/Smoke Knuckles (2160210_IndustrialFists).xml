@@ -5,7 +5,7 @@
   <ItemID>2160210</ItemID>
   <Name>Smoke Knuckles</Name>
   <Description>Inflicts Blaze on Burning foes.</Description>
-  <LegacyItemID>2160021</LegacyItemID>
+  <LegacyItemID>-1</LegacyItemID>
   <IsPickable>true</IsPickable>
   <IsUsable>false</IsUsable>
   <QtyRemovedOnUse>1</QtyRemovedOnUse>
@@ -24,6 +24,8 @@
     <string>Weapon</string>
     <string>Item</string>
     <string>Bludgeon</string>
+    <string>Iron</string>
+    <string>Family</string>
     <string>Main Weapon</string>
   </Tags>
   <StatsHolder xsi:type="DM_WeaponStats">

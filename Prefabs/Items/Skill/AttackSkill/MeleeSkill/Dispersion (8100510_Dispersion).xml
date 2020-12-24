@@ -149,7 +149,7 @@ Create a highly damaging shockwave that destabilizes you. If your Weapon has an 
                   <Delay>0</Delay>
                   <SyncType>OwnerSync</SyncType>
                   <OverrideCategory>None</OverrideCategory>
-                  <StatusEffect />
+                  <StatusEffect>Burn</StatusEffect>
                   <Buildup>115</Buildup>
                   <BuildUpMultiplier>1</BuildUpMultiplier>
                   <BypassCounter>false</BypassCounter>

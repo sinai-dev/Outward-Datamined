@@ -64,7 +64,7 @@
     <Thirst_Affect>0</Thirst_Affect>
     <Fatigue_Affect>0</Fatigue_Affect>
     <BarrierProtection>0</BarrierProtection>
-    <GlobalStatusEffectResistance>0</GlobalStatusEffectResistance>
+    <GlobalStatusEffectResistance>15</GlobalStatusEffectResistance>
     <StaminaRegenModifier>0</StaminaRegenModifier>
   </StatsHolder>
   <EffectTransforms />

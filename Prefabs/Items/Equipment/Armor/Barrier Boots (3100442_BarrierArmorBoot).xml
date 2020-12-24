@@ -5,7 +5,7 @@
   <ItemID>3100442</ItemID>
   <Name>Barrier Boots</Name>
   <Description />
-  <LegacyItemID>-1</LegacyItemID>
+  <LegacyItemID>3100447</LegacyItemID>
   <IsPickable>true</IsPickable>
   <IsUsable>false</IsUsable>
   <QtyRemovedOnUse>1</QtyRemovedOnUse>

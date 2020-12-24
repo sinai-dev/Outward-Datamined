@@ -5,7 +5,7 @@
   <ItemID>2200150</ItemID>
   <Name>Militia Bow</Name>
   <Description />
-  <LegacyItemID>-1</LegacyItemID>
+  <LegacyItemID>2200155</LegacyItemID>
   <IsPickable>true</IsPickable>
   <IsUsable>false</IsUsable>
   <QtyRemovedOnUse>1</QtyRemovedOnUse>
@@ -25,8 +25,6 @@
     <string>Item</string>
     <string>Militia</string>
     <string>Family</string>
-    <string>DecraftIron_Large</string>
-    <string>Decraft</string>
     <string>Main Weapon</string>
   </Tags>
   <StatsHolder xsi:type="DM_WeaponStats">

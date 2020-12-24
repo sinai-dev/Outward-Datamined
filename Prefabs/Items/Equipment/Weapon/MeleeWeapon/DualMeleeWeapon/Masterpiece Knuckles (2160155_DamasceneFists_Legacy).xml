@@ -5,7 +5,7 @@
   <ItemID>2160155</ItemID>
   <Name>Masterpiece Knuckles</Name>
   <Description>A magnificent Damascene Gauntlet passed down by your ancestors. Increases the power of Weapon Skills.</Description>
-  <LegacyItemID>2160021</LegacyItemID>
+  <LegacyItemID>-1</LegacyItemID>
   <IsPickable>true</IsPickable>
   <IsUsable>false</IsUsable>
   <QtyRemovedOnUse>1</QtyRemovedOnUse>

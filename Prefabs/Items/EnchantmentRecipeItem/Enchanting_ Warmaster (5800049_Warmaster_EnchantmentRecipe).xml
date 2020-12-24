@@ -32,7 +32,7 @@ Plate Armor, Elite Plate Armor, Virgin, Plate Helm, Elite Plate Helm, Plate Boot
     <string>Recipe</string>
   </Tags>
   <StatsHolder>
-    <BaseValue>1</BaseValue>
+    <BaseValue>25</BaseValue>
     <RawWeight>0</RawWeight>
     <MaxDurability>-1</MaxDurability>
   </StatsHolder>

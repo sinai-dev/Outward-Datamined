@@ -26,8 +26,6 @@ Chakram spells are necessary to use this off-hand weapon.</Description>
     <string>Item</string>
     <string>Chakram</string>
     <string>Trinket</string>
-    <string>DecraftChalcedony_Small</string>
-    <string>Decraft</string>
   </Tags>
   <StatsHolder xsi:type="DM_WeaponStats">
     <BaseValue>300</BaseValue>

@@ -5,7 +5,7 @@
   <ItemID>2100220</ItemID>
   <Name>Damascene Claymore</Name>
   <Description>Increases the power of Weapon Skills.</Description>
-  <LegacyItemID>-1</LegacyItemID>
+  <LegacyItemID>2100225</LegacyItemID>
   <IsPickable>true</IsPickable>
   <IsUsable>false</IsUsable>
   <QtyRemovedOnUse>1</QtyRemovedOnUse>
@@ -112,7 +112,7 @@
         <Knockback>46.2</Knockback>
         <AttackSpeed>1.1</AttackSpeed>
         <Damage>
-          <float>52.8</float>
+          <float>60.72</float>
         </Damage>
       </AttackData>
       <AttackData>
@@ -120,7 +120,7 @@
         <Knockback>46.2</Knockback>
         <AttackSpeed>1.1</AttackSpeed>
         <Damage>
-          <float>52.8</float>
+          <float>60.72</float>
         </Damage>
       </AttackData>
     </Attacks>

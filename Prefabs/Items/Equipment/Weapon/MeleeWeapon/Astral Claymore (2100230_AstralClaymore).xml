@@ -5,7 +5,7 @@
   <ItemID>2100230</ItemID>
   <Name>Astral Claymore</Name>
   <Description>Inflicts Haunted and Scorched.</Description>
-  <LegacyItemID>2100001</LegacyItemID>
+  <LegacyItemID>-1</LegacyItemID>
   <IsPickable>true</IsPickable>
   <IsUsable>false</IsUsable>
   <QtyRemovedOnUse>1</QtyRemovedOnUse>
@@ -115,8 +115,8 @@
         <Knockback>16.5</Knockback>
         <AttackSpeed>1.32</AttackSpeed>
         <Damage>
-          <float>39.6000023</float>
-          <float>9.900001</float>
+          <float>45.54</float>
+          <float>11.385</float>
         </Damage>
       </AttackData>
       <AttackData>
@@ -124,8 +124,8 @@
         <Knockback>16.5</Knockback>
         <AttackSpeed>1.32</AttackSpeed>
         <Damage>
-          <float>39.6000023</float>
-          <float>9.900001</float>
+          <float>45.54</float>
+          <float>11.385</float>
         </Damage>
       </AttackData>
     </Attacks>

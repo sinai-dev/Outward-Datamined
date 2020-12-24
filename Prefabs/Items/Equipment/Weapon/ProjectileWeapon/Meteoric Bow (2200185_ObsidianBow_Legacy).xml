@@ -25,8 +25,6 @@
     <string>Item</string>
     <string>Obsidian</string>
     <string>Family</string>
-    <string>DecraftPalladium_Small</string>
-    <string>Decraft</string>
     <string>Main Weapon</string>
   </Tags>
   <StatsHolder xsi:type="DM_WeaponStats">
