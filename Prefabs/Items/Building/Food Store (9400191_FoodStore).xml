@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<DM_Item xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<DM_Building xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <gameObjectName>9400191_FoodStore</gameObjectName>
   <saveDir>/Building</saveDir>
   <ItemID>9400191</ItemID>
@@ -24,4 +24,182 @@
     <string>Item</string>
   </Tags>
   <EffectTransforms />
-</DM_Item>
+  <BuildingType>Basic</BuildingType>
+  <ConstructionPhases>
+    <DM_ConstructionPhase>
+      <PhaseType>WIP</PhaseType>
+      <ConstructionCosts>
+        <Funds>0</Funds>
+        <Food>0</Food>
+        <Timber>0</Timber>
+        <Stone>0</Stone>
+      </ConstructionCosts>
+      <ConstructionTime>0</ConstructionTime>
+      <BuildingRequirements />
+      <HouseCountRequirement>3</HouseCountRequirement>
+      <HousingValue>0</HousingValue>
+      <MultiplyProductionPerHouse>false</MultiplyProductionPerHouse>
+      <CapacityBonus>
+        <Funds>0</Funds>
+        <Food>0</Food>
+        <Timber>0</Timber>
+        <Stone>0</Stone>
+      </CapacityBonus>
+      <UpkeepCosts>
+        <Funds>0</Funds>
+        <Food>0</Food>
+        <Timber>0</Timber>
+        <Stone>0</Stone>
+      </UpkeepCosts>
+      <UpkeepProductions>
+        <Funds>0</Funds>
+        <Food>0</Food>
+        <Timber>0</Timber>
+        <Stone>0</Stone>
+      </UpkeepProductions>
+    </DM_ConstructionPhase>
+    <DM_ConstructionPhase>
+      <PhaseType>WIP</PhaseType>
+      <ConstructionCosts>
+        <Funds>1500</Funds>
+        <Food>0</Food>
+        <Timber>40</Timber>
+        <Stone>40</Stone>
+      </ConstructionCosts>
+      <ConstructionTime>10</ConstructionTime>
+      <RareMaterial>Digested Mana Stone</RareMaterial>
+      <BuildingRequirements />
+      <HouseCountRequirement>0</HouseCountRequirement>
+      <HousingValue>0</HousingValue>
+      <MultiplyProductionPerHouse>false</MultiplyProductionPerHouse>
+      <CapacityBonus>
+        <Funds>0</Funds>
+        <Food>0</Food>
+        <Timber>0</Timber>
+        <Stone>0</Stone>
+      </CapacityBonus>
+      <UpkeepCosts>
+        <Funds>0</Funds>
+        <Food>0</Food>
+        <Timber>0</Timber>
+        <Stone>0</Stone>
+      </UpkeepCosts>
+      <UpkeepProductions>
+        <Funds>0</Funds>
+        <Food>0</Food>
+        <Timber>0</Timber>
+        <Stone>0</Stone>
+      </UpkeepProductions>
+    </DM_ConstructionPhase>
+    <DM_ConstructionPhase>
+      <PhaseType>Finished</PhaseType>
+      <ConstructionCosts>
+        <Funds>1500</Funds>
+        <Food>0</Food>
+        <Timber>40</Timber>
+        <Stone>40</Stone>
+      </ConstructionCosts>
+      <ConstructionTime>10</ConstructionTime>
+      <BuildingRequirements />
+      <HouseCountRequirement>0</HouseCountRequirement>
+      <HousingValue>1</HousingValue>
+      <MultiplyProductionPerHouse>false</MultiplyProductionPerHouse>
+      <CapacityBonus>
+        <Funds>0</Funds>
+        <Food>0</Food>
+        <Timber>0</Timber>
+        <Stone>0</Stone>
+      </CapacityBonus>
+      <UpkeepCosts>
+        <Funds>0</Funds>
+        <Food>5</Food>
+        <Timber>0</Timber>
+        <Stone>0</Stone>
+      </UpkeepCosts>
+      <UpkeepProductions>
+        <Funds>100</Funds>
+        <Food>40</Food>
+        <Timber>0</Timber>
+        <Stone>0</Stone>
+      </UpkeepProductions>
+    </DM_ConstructionPhase>
+  </ConstructionPhases>
+  <UpgradePhases>
+    <DM_ConstructionPhase>
+      <PhaseType>Upgrade</PhaseType>
+      <ConstructionCosts>
+        <Funds>6000</Funds>
+        <Food>0</Food>
+        <Timber>200</Timber>
+        <Stone>160</Stone>
+      </ConstructionCosts>
+      <ConstructionTime>30</ConstructionTime>
+      <RareMaterial>Amethyst Geode</RareMaterial>
+      <BuildingRequirements>
+        <DM_BuildingRequirement>
+          <ReqBuildingName>City Hall</ReqBuildingName>
+          <ReqUpgradeIndex>-1</ReqUpgradeIndex>
+        </DM_BuildingRequirement>
+      </BuildingRequirements>
+      <HouseCountRequirement>0</HouseCountRequirement>
+      <HousingValue>3</HousingValue>
+      <MultiplyProductionPerHouse>false</MultiplyProductionPerHouse>
+      <CapacityBonus>
+        <Funds>0</Funds>
+        <Food>0</Food>
+        <Timber>0</Timber>
+        <Stone>0</Stone>
+      </CapacityBonus>
+      <UpkeepCosts>
+        <Funds>0</Funds>
+        <Food>15</Food>
+        <Timber>0</Timber>
+        <Stone>0</Stone>
+      </UpkeepCosts>
+      <UpkeepProductions>
+        <Funds>150</Funds>
+        <Food>40</Food>
+        <Timber>0</Timber>
+        <Stone>0</Stone>
+      </UpkeepProductions>
+    </DM_ConstructionPhase>
+    <DM_ConstructionPhase>
+      <PhaseType>Upgrade</PhaseType>
+      <ConstructionCosts>
+        <Funds>4500</Funds>
+        <Food>0</Food>
+        <Timber>300</Timber>
+        <Stone>120</Stone>
+      </ConstructionCosts>
+      <ConstructionTime>20</ConstructionTime>
+      <RareMaterial>Digested Mana Stone</RareMaterial>
+      <BuildingRequirements>
+        <DM_BuildingRequirement>
+          <ReqBuildingName>City Hall</ReqBuildingName>
+          <ReqUpgradeIndex>-1</ReqUpgradeIndex>
+        </DM_BuildingRequirement>
+      </BuildingRequirements>
+      <HouseCountRequirement>0</HouseCountRequirement>
+      <HousingValue>1</HousingValue>
+      <MultiplyProductionPerHouse>false</MultiplyProductionPerHouse>
+      <CapacityBonus>
+        <Funds>0</Funds>
+        <Food>0</Food>
+        <Timber>0</Timber>
+        <Stone>0</Stone>
+      </CapacityBonus>
+      <UpkeepCosts>
+        <Funds>0</Funds>
+        <Food>5</Food>
+        <Timber>0</Timber>
+        <Stone>0</Stone>
+      </UpkeepCosts>
+      <UpkeepProductions>
+        <Funds>100</Funds>
+        <Food>65</Food>
+        <Timber>0</Timber>
+        <Stone>0</Stone>
+      </UpkeepProductions>
+    </DM_ConstructionPhase>
+  </UpgradePhases>
+</DM_Building>

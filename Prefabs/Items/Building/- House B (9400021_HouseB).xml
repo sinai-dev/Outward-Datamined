@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<DM_Item xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<DM_Building xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <gameObjectName>9400021_HouseB</gameObjectName>
   <saveDir>/Building</saveDir>
   <ItemID>9400021</ItemID>
@@ -24,4 +24,104 @@
     <string>Item</string>
   </Tags>
   <EffectTransforms />
-</DM_Item>
+  <BuildingType>Basic</BuildingType>
+  <ConstructionPhases>
+    <DM_ConstructionPhase>
+      <PhaseType>WIP</PhaseType>
+      <ConstructionCosts>
+        <Funds>0</Funds>
+        <Food>0</Food>
+        <Timber>0</Timber>
+        <Stone>0</Stone>
+      </ConstructionCosts>
+      <ConstructionTime>0</ConstructionTime>
+      <BuildingRequirements />
+      <HouseCountRequirement>0</HouseCountRequirement>
+      <HousingValue>0</HousingValue>
+      <MultiplyProductionPerHouse>false</MultiplyProductionPerHouse>
+      <CapacityBonus>
+        <Funds>0</Funds>
+        <Food>0</Food>
+        <Timber>0</Timber>
+        <Stone>0</Stone>
+      </CapacityBonus>
+      <UpkeepCosts>
+        <Funds>0</Funds>
+        <Food>0</Food>
+        <Timber>0</Timber>
+        <Stone>0</Stone>
+      </UpkeepCosts>
+      <UpkeepProductions>
+        <Funds>0</Funds>
+        <Food>0</Food>
+        <Timber>0</Timber>
+        <Stone>0</Stone>
+      </UpkeepProductions>
+    </DM_ConstructionPhase>
+    <DM_ConstructionPhase>
+      <PhaseType>WIP</PhaseType>
+      <ConstructionCosts>
+        <Funds>1000</Funds>
+        <Food>0</Food>
+        <Timber>10</Timber>
+        <Stone>30</Stone>
+      </ConstructionCosts>
+      <ConstructionTime>5</ConstructionTime>
+      <BuildingRequirements />
+      <HouseCountRequirement>0</HouseCountRequirement>
+      <HousingValue>1</HousingValue>
+      <MultiplyProductionPerHouse>false</MultiplyProductionPerHouse>
+      <CapacityBonus>
+        <Funds>0</Funds>
+        <Food>0</Food>
+        <Timber>0</Timber>
+        <Stone>0</Stone>
+      </CapacityBonus>
+      <UpkeepCosts>
+        <Funds>0</Funds>
+        <Food>0</Food>
+        <Timber>0</Timber>
+        <Stone>0</Stone>
+      </UpkeepCosts>
+      <UpkeepProductions>
+        <Funds>0</Funds>
+        <Food>0</Food>
+        <Timber>0</Timber>
+        <Stone>0</Stone>
+      </UpkeepProductions>
+    </DM_ConstructionPhase>
+    <DM_ConstructionPhase>
+      <PhaseType>Finished</PhaseType>
+      <ConstructionCosts>
+        <Funds>1000</Funds>
+        <Food>0</Food>
+        <Timber>10</Timber>
+        <Stone>30</Stone>
+      </ConstructionCosts>
+      <ConstructionTime>5</ConstructionTime>
+      <BuildingRequirements />
+      <HouseCountRequirement>0</HouseCountRequirement>
+      <HousingValue>1</HousingValue>
+      <MultiplyProductionPerHouse>false</MultiplyProductionPerHouse>
+      <CapacityBonus>
+        <Funds>0</Funds>
+        <Food>0</Food>
+        <Timber>0</Timber>
+        <Stone>0</Stone>
+      </CapacityBonus>
+      <UpkeepCosts>
+        <Funds>0</Funds>
+        <Food>5</Food>
+        <Timber>0</Timber>
+        <Stone>0</Stone>
+      </UpkeepCosts>
+      <UpkeepProductions>
+        <Funds>0</Funds>
+        <Food>0</Food>
+        <Timber>0</Timber>
+        <Stone>0</Stone>
+      </UpkeepProductions>
+    </DM_ConstructionPhase>
+  </ConstructionPhases>
+  <UpgradePhases />
+</DM_Building>
