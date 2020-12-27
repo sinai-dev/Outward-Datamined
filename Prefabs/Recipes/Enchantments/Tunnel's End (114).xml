@@ -30,6 +30,7 @@
   <Regions>
     <AreaEnum>NewSirocco</AreaEnum>
   </Regions>
+  <QuestEvent>Caldera_Enchanter_UpgradeToLibrary (Player has upgraded to Library)</QuestEvent>
   <Result>
     <Name>Tunnel's End</Name>
     <Description />
