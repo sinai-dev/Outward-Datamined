@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <DM_Enemy xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Name>Burning Man</Name>
-  <GameObject_Name>DjinBig</GameObject_Name>
-  <Unique_ID>4</Unique_ID>
+  <GameObject_Name>CrimsonAvatarElite</GameObject_Name>
+  <Unique_ID>6</Unique_ID>
   <Locations_Found>
-    <string>Caldera:Oil Refinery</string>
+    <string>Caldera:Caldera Arena</string>
   </Locations_Found>
-  <Max_Health>2400</Max_Health>
+  <Max_Health>6000</Max_Health>
   <Health_Regen_Per_Second>0</Health_Regen_Per_Second>
-  <Impact_Resistance>85</Impact_Resistance>
+  <Impact_Resistance>83</Impact_Resistance>
   <Protection>
     <float>0</float>
     <float>0</float>
@@ -18,12 +18,12 @@
     <float>0</float>
   </Protection>
   <Damage_Resistances>
-    <float>55</float>
     <float>75</float>
+    <float>0</float>
+    <float>60</float>
     <float>-20</float>
-    <float>25</float>
+    <float>0</float>
     <float>-20</float>
-    <float>100</float>
   </Damage_Resistances>
   <Damage_Bonuses>
     <float>0</float>
@@ -39,24 +39,34 @@
   <BarrierStat>0</BarrierStat>
   <True_WeaponDamage>
     <Damages>
-      <Damage>50</Damage>
+      <Damage>35</Damage>
       <Damage_Type>Physical</Damage_Type>
     </Damages>
+    <Damages>
+      <Damage>35</Damage>
+      <Damage_Type>Ethereal</Damage_Type>
+    </Damages>
   </True_WeaponDamage>
-  <Weapon_Impact>120</Weapon_Impact>
+  <Weapon_Impact>158</Weapon_Impact>
   <Status_Immunities>
+    <string>Bleeding</string>
+    <string>Poison</string>
+    <string>Pain</string>
     <string>Confusion</string>
   </Status_Immunities>
   <Starting_Equipment>
-    <string>DjinBigFist (2400471)</string>
+    <string>CrimsonEliteStaff (2400521)</string>
   </Starting_Equipment>
   <Skill_Knowledge>
-    <string>DjinBigMeleeBlast (8300563)</string>
-    <string>DjinBigChakram (8300565)</string>
-    <string>DjinBigRangeBlast (8300566)</string>
-    <string>DjinBigRangeBlastClose (8300567)</string>
+    <string>CrimsonAvatarEliteClosingIn (8300650)</string>
+    <string>CrimsonAvatarEliteGetingOut (8300651)</string>
+    <string>CrimsonAvatarEliteBlast (8300652)</string>
+    <string>Chrimson Avatar Elite Laser (8300653)</string>
+    <string>CrimsonEliteMine (8300655)</string>
+    <string>Chrimson Avatar Elite Laser 2 (8300654)</string>
+    <string>CrimsonEliteMineLvl2 (8300656)</string>
   </Skill_Knowledge>
-  <Faction>Player</Faction>
+  <Faction>Deer</Faction>
   <Allied_To_Same_Faction>true</Allied_To_Same_Faction>
   <Guaranteed_Drops />
   <DropTable_Names />

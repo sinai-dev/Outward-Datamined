@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <DM_Enemy xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Name>Burning Man</Name>
-  <GameObject_Name>DjinBig</GameObject_Name>
-  <Unique_ID>4</Unique_ID>
+  <GameObject_Name>Djin</GameObject_Name>
+  <Unique_ID>5</Unique_ID>
   <Locations_Found>
     <string>Caldera:Oil Refinery</string>
   </Locations_Found>
-  <Max_Health>2400</Max_Health>
+  <Max_Health>1200</Max_Health>
   <Health_Regen_Per_Second>0</Health_Regen_Per_Second>
-  <Impact_Resistance>85</Impact_Resistance>
+  <Impact_Resistance>55</Impact_Resistance>
   <Protection>
     <float>0</float>
     <float>0</float>
@@ -39,22 +39,21 @@
   <BarrierStat>0</BarrierStat>
   <True_WeaponDamage>
     <Damages>
-      <Damage>50</Damage>
+      <Damage>80</Damage>
       <Damage_Type>Physical</Damage_Type>
     </Damages>
   </True_WeaponDamage>
   <Weapon_Impact>120</Weapon_Impact>
   <Status_Immunities>
-    <string>Confusion</string>
+    <string>Bleeding</string>
   </Status_Immunities>
   <Starting_Equipment>
-    <string>DjinBigFist (2400471)</string>
+    <string>DjinFist (2400470)</string>
   </Starting_Equipment>
   <Skill_Knowledge>
-    <string>DjinBigMeleeBlast (8300563)</string>
-    <string>DjinBigChakram (8300565)</string>
-    <string>DjinBigRangeBlast (8300566)</string>
-    <string>DjinBigRangeBlastClose (8300567)</string>
+    <string>DjinBlast (8300560)</string>
+    <string>DjinWave (8300561)</string>
+    <string>Djin Homing (8300562)</string>
   </Skill_Knowledge>
   <Faction>Player</Faction>
   <Allied_To_Same_Faction>true</Allied_To_Same_Faction>
