@@ -3,39 +3,15 @@
   <SceneName>Oily Cavern</SceneName>
   <Enemies>
     <QuantityHolder>
-      <Name>Boreo (3)</Name>
-      <Quantity>1</Quantity>
-    </QuantityHolder>
-    <QuantityHolder>
-      <Name>Calygrey (1)</Name>
-      <Quantity>4</Quantity>
-    </QuantityHolder>
-    <QuantityHolder>
       <Name>Elder Calygrey (1)</Name>
       <Quantity>1</Quantity>
     </QuantityHolder>
     <QuantityHolder>
-      <Name>Quartz Gastrocin (1)</Name>
-      <Quantity>1</Quantity>
-    </QuantityHolder>
-    <QuantityHolder>
-      <Name>Gargoyle (1)</Name>
-      <Quantity>1</Quantity>
-    </QuantityHolder>
-    <QuantityHolder>
-      <Name>Obsidian Elemental (3)</Name>
-      <Quantity>1</Quantity>
-    </QuantityHolder>
-    <QuantityHolder>
-      <Name>Myrmitaur (1)</Name>
+      <Name>Calygrey (1)</Name>
       <Quantity>2</Quantity>
     </QuantityHolder>
     <QuantityHolder>
-      <Name>Quartz Beetle (1)</Name>
-      <Quantity>1</Quantity>
-    </QuantityHolder>
-    <QuantityHolder>
-      <Name>Torcrab (1)</Name>
+      <Name>Myrmitaur (1)</Name>
       <Quantity>1</Quantity>
     </QuantityHolder>
   </Enemies>
@@ -93,10 +69,6 @@
     </QuantityHolder>
     <QuantityHolder>
       <Name>Palladium vein</Name>
-      <Quantity>1</Quantity>
-    </QuantityHolder>
-    <QuantityHolder>
-      <Name>Unidentified Roots</Name>
       <Quantity>1</Quantity>
     </QuantityHolder>
   </Gatherables>

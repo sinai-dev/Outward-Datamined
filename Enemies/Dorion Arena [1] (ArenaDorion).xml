@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <DM_Enemy xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <Name>Balira</Name>
-  <GameObject_Name>VendavelWitch</GameObject_Name>
-  <Unique_ID>2</Unique_ID>
+  <Name>Dorion Arena</Name>
+  <GameObject_Name>ArenaDorion</GameObject_Name>
+  <Unique_ID>1</Unique_ID>
   <Locations_Found>
-    <string>Chersonese:Vendavel Fortress</string>
+    <string>Caldera:New Sirocco</string>
   </Locations_Found>
-  <Max_Health>100</Max_Health>
+  <Max_Health>625</Max_Health>
   <Health_Regen_Per_Second>0</Health_Regen_Per_Second>
-  <Impact_Resistance>40</Impact_Resistance>
+  <Impact_Resistance>52</Impact_Resistance>
   <Protection>
-    <float>0</float>
+    <float>8</float>
     <float>0</float>
     <float>0</float>
     <float>0</float>
@@ -18,12 +18,12 @@
     <float>0</float>
   </Protection>
   <Damage_Resistances>
-    <float>20</float>
-    <float>0</float>
-    <float>-40</float>
-    <float>0</float>
-    <float>40</float>
-    <float>-40</float>
+    <float>59</float>
+    <float>10</float>
+    <float>-5</float>
+    <float>10</float>
+    <float>10</float>
+    <float>10</float>
   </Damage_Resistances>
   <Damage_Bonuses>
     <float>0</float>
@@ -39,24 +39,32 @@
   <BarrierStat>0</BarrierStat>
   <True_WeaponDamage>
     <Damages>
-      <Damage>22</Damage>
+      <Damage>28</Damage>
       <Damage_Type>Physical</Damage_Type>
     </Damages>
+    <Damages>
+      <Damage>10</Damage>
+      <Damage_Type>Electric</Damage_Type>
+    </Damages>
   </True_WeaponDamage>
-  <Weapon_Impact>25</Weapon_Impact>
+  <Weapon_Impact>40</Weapon_Impact>
   <Status_Immunities />
   <Starting_Equipment>
-    <string>Iron Mace (2020010)</string>
+    <string>Pathfinder Boots (3000226)</string>
+    <string>Militia Claymore (2100291)</string>
   </Starting_Equipment>
   <Skill_Knowledge>
-    <string>VendavelWitchKick (8300242)</string>
-    <string>VendavelWitchIceBolt (8300240)</string>
-    <string>VendavelWitchExplosion (8300241)</string>
+    <string>DorionMomentOfTruth (8300740)</string>
   </Skill_Knowledge>
-  <Faction>Bandits</Faction>
+  <Faction>Player</Faction>
   <Allied_To_Same_Faction>true</Allied_To_Same_Faction>
-  <Guaranteed_Drops />
-  <DropTable_Names>
-    <string>DropTable_VendavelWitch</string>
-  </DropTable_Names>
+  <Guaranteed_Drops>
+    <DropTableEntry>
+      <Item_Name>Militia Claymore</Item_Name>
+      <Item_ID>2100291</Item_ID>
+      <Min_Quantity>1</Min_Quantity>
+      <Max_Quantity>1</Max_Quantity>
+    </DropTableEntry>
+  </Guaranteed_Drops>
+  <DropTable_Names />
 </DM_Enemy>

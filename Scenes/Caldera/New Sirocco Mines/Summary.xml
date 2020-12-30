@@ -41,10 +41,6 @@
       <Name>Blood Mushroom</Name>
       <Quantity>2</Quantity>
     </QuantityHolder>
-    <QuantityHolder>
-      <Name>Unidentified Ore Vein</Name>
-      <Quantity>1</Quantity>
-    </QuantityHolder>
   </Gatherables>
   <Item_Spawns />
   <UniqueContainerList />

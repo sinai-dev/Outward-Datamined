@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <DM_Enemy xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <Name>Wolfgang Captain</Name>
-  <GameObject_Name>WolfMerceneryCaptain_01</GameObject_Name>
-  <Unique_ID>1</Unique_ID>
+  <Name>Blood Sorcerer</Name>
+  <GameObject_Name>ArenaWolfgangDuelist</GameObject_Name>
+  <Unique_ID>2</Unique_ID>
   <Locations_Found>
-    <string>Antique Plateau:Antique Plateau</string>
+    <string>Caldera:New Sirocco</string>
   </Locations_Found>
-  <Max_Health>175</Max_Health>
+  <Max_Health>2200</Max_Health>
   <Health_Regen_Per_Second>0</Health_Regen_Per_Second>
-  <Impact_Resistance>32</Impact_Resistance>
+  <Impact_Resistance>59</Impact_Resistance>
   <Protection>
     <float>5</float>
     <float>0</float>
@@ -18,12 +18,12 @@
     <float>0</float>
   </Protection>
   <Damage_Resistances>
-    <float>44</float>
-    <float>45</float>
-    <float>-40</float>
-    <float>0</float>
-    <float>0</float>
-    <float>0</float>
+    <float>67</float>
+    <float>10</float>
+    <float>-20</float>
+    <float>10</float>
+    <float>10</float>
+    <float>10</float>
   </Damage_Resistances>
   <Damage_Bonuses>
     <float>0</float>
@@ -39,33 +39,33 @@
   <BarrierStat>0</BarrierStat>
   <True_WeaponDamage>
     <Damages>
-      <Damage>42</Damage>
+      <Damage>38</Damage>
+      <Damage_Type>Ethereal</Damage_Type>
+    </Damages>
+    <Damages>
+      <Damage>0</Damage>
       <Damage_Type>Physical</Damage_Type>
     </Damages>
   </True_WeaponDamage>
-  <Weapon_Impact>39</Weapon_Impact>
+  <Weapon_Impact>45</Weapon_Impact>
   <Status_Immunities />
   <Starting_Equipment>
-    <string>Wolf Greathammer (2120010)</string>
+    <string>Pilgrim Armor (3100160)</string>
+    <string>Pilgrim Boots (3100162)</string>
+    <string>WolfgangRunicSword (2400540)</string>
+    <string>Wolf Chakram (5110096)</string>
   </Starting_Equipment>
   <Skill_Knowledge>
+    <string>WolfMerceneryRunicHealStrong (8300345)</string>
+    <string>WolfgangDuelistChakramPierce (8300700)</string>
+    <string>WolfgangDuelistChakramArc (8300701)</string>
     <string>WolfMerceneryRunicShield (8300340)</string>
-    <string>WolfMerceneryRunicHeal (8300341)</string>
     <string>WolfMerceneryRunicProjectile (8300342)</string>
     <string>Wolf Mercenery Fal (8300343)</string>
     <string>WolfMerceneryFalProjectile (8300344)</string>
   </Skill_Knowledge>
-  <Faction>Mercs</Faction>
+  <Faction>Player</Faction>
   <Allied_To_Same_Faction>true</Allied_To_Same_Faction>
-  <Guaranteed_Drops>
-    <DropTableEntry>
-      <Item_Name>Wolf Greathammer</Item_Name>
-      <Item_ID>2120010</Item_ID>
-      <Min_Quantity>1</Min_Quantity>
-      <Max_Quantity>1</Max_Quantity>
-    </DropTableEntry>
-  </Guaranteed_Drops>
-  <DropTable_Names>
-    <string>DropTable_WolfMerc_Captain_DLC1</string>
-  </DropTable_Names>
+  <Guaranteed_Drops />
+  <DropTable_Names />
 </DM_Enemy>

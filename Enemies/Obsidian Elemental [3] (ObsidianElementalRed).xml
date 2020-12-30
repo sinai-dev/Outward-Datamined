@@ -1,19 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <DM_Enemy xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <Name>Torcrab</Name>
-  <GameObject_Name>Torcrab</GameObject_Name>
-  <Unique_ID>1</Unique_ID>
+  <Name>Obsidian Elemental</Name>
+  <GameObject_Name>ObsidianElementalRed</GameObject_Name>
+  <Unique_ID>3</Unique_ID>
   <Locations_Found>
     <string>Caldera:Caldera</string>
-    <string>Caldera:Sulphuric Caverns</string>
     <string>Caldera:The Eldest Brother</string>
-    <string>Caldera:Oil Refinery</string>
-    <string>Caldera:Old Sirocco</string>
-    <string>Caldera:Oily Cavern</string>
+    <string>Caldera:Scarlet Sanctuary</string>
+    <string>Caldera:Calygrey Colosseum</string>
   </Locations_Found>
-  <Max_Health>500</Max_Health>
-  <Health_Regen_Per_Second>0</Health_Regen_Per_Second>
-  <Impact_Resistance>71</Impact_Resistance>
+  <Max_Health>400</Max_Health>
+  <Health_Regen_Per_Second>1</Health_Regen_Per_Second>
+  <Impact_Resistance>30</Impact_Resistance>
   <Protection>
     <float>0</float>
     <float>0</float>
@@ -23,12 +21,12 @@
     <float>0</float>
   </Protection>
   <Damage_Resistances>
-    <float>70</float>
+    <float>30</float>
     <float>0</float>
-    <float>-15</float>
+    <float>0</float>
     <float>0</float>
     <float>-40</float>
-    <float>75</float>
+    <float>100</float>
   </Damage_Resistances>
   <Damage_Bonuses>
     <float>0</float>
@@ -38,38 +36,40 @@
     <float>0</float>
     <float>0</float>
   </Damage_Bonuses>
-  <Collider_Radius>0.64</Collider_Radius>
+  <Collider_Radius>0.8</Collider_Radius>
   <NullifyResistances>false</NullifyResistances>
   <GlobalStatusRes>0</GlobalStatusRes>
   <BarrierStat>0</BarrierStat>
   <True_WeaponDamage>
     <Damages>
-      <Damage>24</Damage>
+      <Damage>12</Damage>
       <Damage_Type>Physical</Damage_Type>
     </Damages>
     <Damages>
-      <Damage>8</Damage>
+      <Damage>12</Damage>
       <Damage_Type>Fire</Damage_Type>
     </Damages>
     <Damages>
-      <Damage>6</Damage>
+      <Damage>10</Damage>
       <Damage_Type>Electric</Damage_Type>
     </Damages>
   </True_WeaponDamage>
-  <Weapon_Impact>95</Weapon_Impact>
-  <Status_Immunities />
+  <Weapon_Impact>98</Weapon_Impact>
+  <Status_Immunities>
+    <string>Burning</string>
+    <string>Bleeding</string>
+    <string>Poison</string>
+  </Status_Immunities>
   <Starting_Equipment>
-    <string>Torcrab Beak and claw (2400410)</string>
+    <string>ObsidianElementalRedRock (2400151)</string>
   </Starting_Equipment>
   <Skill_Knowledge>
-    <string>Torcrab Bite (8300500)</string>
-    <string>Torcrab Mortar Shot (8300501)</string>
-    <string>Torcrab Dodge (8300502)</string>
+    <string>LichJadeHoming (8300220)</string>
   </Skill_Knowledge>
-  <Faction>Tuanosaurs</Faction>
+  <Faction>Deer</Faction>
   <Allied_To_Same_Faction>true</Allied_To_Same_Faction>
   <Guaranteed_Drops />
   <DropTable_Names>
-    <string>DropTable_Torcrab_DLC2</string>
+    <string>DropTable_ObsidianElemental</string>
   </DropTable_Names>
 </DM_Enemy>

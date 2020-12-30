@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <DM_Enemy xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <Name>Myrmitaur</Name>
-  <GameObject_Name>Myrm</GameObject_Name>
+  <Name>Quartz Beetle</Name>
+  <GameObject_Name>BeetleFrost</GameObject_Name>
   <Unique_ID>1</Unique_ID>
   <Locations_Found>
-    <string>Caldera:Caldera</string>
-    <string>Caldera:Myrmitaur’s Haven</string>
-    <string>Caldera:Oily Cavern</string>
+    <string>Caldera:The Grotto of Chalcedony</string>
+    <string>Caldera:Old Sirocco</string>
+    <string>Caldera:Calygrey Colosseum</string>
   </Locations_Found>
-  <Max_Health>750</Max_Health>
-  <Health_Regen_Per_Second>0.5</Health_Regen_Per_Second>
-  <Impact_Resistance>69</Impact_Resistance>
+  <Max_Health>450</Max_Health>
+  <Health_Regen_Per_Second>0</Health_Regen_Per_Second>
+  <Impact_Resistance>45</Impact_Resistance>
   <Protection>
     <float>0</float>
     <float>0</float>
@@ -20,12 +20,12 @@
     <float>0</float>
   </Protection>
   <Damage_Resistances>
-    <float>20</float>
+    <float>30</float>
     <float>0</float>
-    <float>-50</float>
     <float>0</float>
-    <float>90</float>
-    <float>90</float>
+    <float>0</float>
+    <float>80</float>
+    <float>0</float>
   </Damage_Resistances>
   <Damage_Bonuses>
     <float>0</float>
@@ -45,26 +45,23 @@
       <Damage_Type>Physical</Damage_Type>
     </Damages>
     <Damages>
-      <Damage>8</Damage>
+      <Damage>25</Damage>
       <Damage_Type>Frost</Damage_Type>
     </Damages>
-    <Damages>
-      <Damage>8</Damage>
-      <Damage_Type>Fire</Damage_Type>
-    </Damages>
   </True_WeaponDamage>
-  <Weapon_Impact>75</Weapon_Impact>
+  <Weapon_Impact>45</Weapon_Impact>
   <Status_Immunities />
   <Starting_Equipment>
-    <string>MyrmClawTongue (2400440)</string>
+    <string>BeetleFrost Horn (2400450)</string>
   </Starting_Equipment>
   <Skill_Knowledge>
-    <string>MyrmQuake (8300640)</string>
+    <string>BeetleFrostCloseSpread (8300540)</string>
+    <string>BeetleFrost Heavy Shot (8300541)</string>
   </Skill_Knowledge>
-  <Faction>Hounds</Faction>
+  <Faction>Mercs</Faction>
   <Allied_To_Same_Faction>true</Allied_To_Same_Faction>
   <Guaranteed_Drops />
   <DropTable_Names>
-    <string>DropTable_Myrm_DLC2</string>
+    <string>DropTable_FrostBeetle_DLC2</string>
   </DropTable_Names>
 </DM_Enemy>

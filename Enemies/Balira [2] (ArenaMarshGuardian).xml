@@ -1,19 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <DM_Enemy xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <Name>Obsidian Elemental</Name>
-  <GameObject_Name>ObsidianElementalRed</GameObject_Name>
-  <Unique_ID>3</Unique_ID>
+  <Name>Balira</Name>
+  <GameObject_Name>ArenaMarshGuardian</GameObject_Name>
+  <Unique_ID>2</Unique_ID>
   <Locations_Found>
-    <string>Caldera:Caldera</string>
-    <string>Caldera:The Eldest Brother</string>
-    <string>Caldera:Scarlet Sanctuary</string>
-    <string>Caldera:Oily Cavern</string>
+    <string>Caldera:New Sirocco</string>
   </Locations_Found>
-  <Max_Health>400</Max_Health>
-  <Health_Regen_Per_Second>1</Health_Regen_Per_Second>
-  <Impact_Resistance>30</Impact_Resistance>
+  <Max_Health>1400</Max_Health>
+  <Health_Regen_Per_Second>0</Health_Regen_Per_Second>
+  <Impact_Resistance>59</Impact_Resistance>
   <Protection>
-    <float>0</float>
+    <float>7</float>
     <float>0</float>
     <float>0</float>
     <float>0</float>
@@ -21,12 +18,12 @@
     <float>0</float>
   </Protection>
   <Damage_Resistances>
-    <float>30</float>
+    <float>62</float>
+    <float>3</float>
+    <float>60</float>
     <float>0</float>
     <float>0</float>
     <float>0</float>
-    <float>-40</float>
-    <float>100</float>
   </Damage_Resistances>
   <Damage_Bonuses>
     <float>0</float>
@@ -36,40 +33,34 @@
     <float>0</float>
     <float>0</float>
   </Damage_Bonuses>
-  <Collider_Radius>0.8</Collider_Radius>
+  <Collider_Radius>0.33</Collider_Radius>
   <NullifyResistances>false</NullifyResistances>
   <GlobalStatusRes>0</GlobalStatusRes>
   <BarrierStat>0</BarrierStat>
   <True_WeaponDamage>
     <Damages>
-      <Damage>12</Damage>
+      <Damage>25.5</Damage>
       <Damage_Type>Physical</Damage_Type>
     </Damages>
     <Damages>
-      <Damage>12</Damage>
-      <Damage_Type>Fire</Damage_Type>
-    </Damages>
-    <Damages>
-      <Damage>10</Damage>
+      <Damage>8.5</Damage>
       <Damage_Type>Electric</Damage_Type>
     </Damages>
   </True_WeaponDamage>
-  <Weapon_Impact>98</Weapon_Impact>
-  <Status_Immunities>
-    <string>Burning</string>
-    <string>Bleeding</string>
-    <string>Poison</string>
-  </Status_Immunities>
+  <Weapon_Impact>41</Weapon_Impact>
+  <Status_Immunities />
   <Starting_Equipment>
-    <string>ObsidianElementalRedRock (2400151)</string>
+    <string>Palladium Helm (3100061)</string>
+    <string>Palladium Armor (3100060)</string>
+    <string>Palladium Boots (3100062)</string>
+    <string>Palladium Halberd (2140100)</string>
   </Starting_Equipment>
   <Skill_Knowledge>
-    <string>LichJadeHoming (8300220)</string>
+    <string>MarchGuardianCircle2 (8300711)</string>
+    <string>MarchGuardianCircle (8300710)</string>
   </Skill_Knowledge>
-  <Faction>Deer</Faction>
+  <Faction>Player</Faction>
   <Allied_To_Same_Faction>true</Allied_To_Same_Faction>
   <Guaranteed_Drops />
-  <DropTable_Names>
-    <string>DropTable_ObsidianElemental</string>
-  </DropTable_Names>
+  <DropTable_Names />
 </DM_Enemy>

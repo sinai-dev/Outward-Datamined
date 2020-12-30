@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DM_Enemy xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Name>Desert Bandit</Name>
+  <GameObject_Name>ArenaOceanPrince</GameObject_Name>
+  <Unique_ID>11</Unique_ID>
+  <Locations_Found>
+    <string>Caldera:New Sirocco</string>
+  </Locations_Found>
+  <Max_Health>450</Max_Health>
+  <Health_Regen_Per_Second>0</Health_Regen_Per_Second>
+  <Impact_Resistance>23</Impact_Resistance>
+  <Protection>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+  </Protection>
+  <Damage_Resistances>
+    <float>50</float>
+    <float>0</float>
+    <float>25</float>
+    <float>10</float>
+    <float>10</float>
+    <float>10</float>
+  </Damage_Resistances>
+  <Damage_Bonuses>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+  </Damage_Bonuses>
+  <Collider_Radius>0.4</Collider_Radius>
+  <NullifyResistances>false</NullifyResistances>
+  <GlobalStatusRes>0</GlobalStatusRes>
+  <BarrierStat>0</BarrierStat>
+  <True_WeaponDamage>
+    <Damages>
+      <Damage>24</Damage>
+      <Damage_Type>Physical</Damage_Type>
+    </Damages>
+    <Damages>
+      <Damage>12</Damage>
+      <Damage_Type>Decay</Damage_Type>
+    </Damages>
+  </True_WeaponDamage>
+  <Weapon_Impact>22</Weapon_Impact>
+  <Status_Immunities />
+  <Starting_Equipment>
+    <string>Kazite Cat Mask (3100112)</string>
+    <string>Kazite Armor (3100110)</string>
+    <string>Kazite Boots (3100114)</string>
+    <string>Kazite Blade Boss (2000211)</string>
+  </Starting_Equipment>
+  <Skill_Knowledge>
+    <string>ocean precise Strike (8300770)</string>
+  </Skill_Knowledge>
+  <Faction>Player</Faction>
+  <Allied_To_Same_Faction>true</Allied_To_Same_Faction>
+  <Guaranteed_Drops />
+  <DropTable_Names />
+</DM_Enemy>

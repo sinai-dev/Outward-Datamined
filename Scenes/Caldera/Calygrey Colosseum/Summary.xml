@@ -1,7 +1,40 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SceneSummary xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <SceneName>Calygrey Colosseum</SceneName>
-  <Enemies />
+  <Enemies>
+    <QuantityHolder>
+      <Name>Boreo (3)</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Calygrey (1)</Name>
+      <Quantity>2</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Quartz Gastrocin (1)</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Gargoyle (1)</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Obsidian Elemental (3)</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Myrmitaur (1)</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Quartz Beetle (1)</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Torcrab (1)</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+  </Enemies>
   <Merchants />
   <Loot_Containers>
     <QuantityHolder>
@@ -28,6 +61,10 @@
   <Gatherables>
     <QuantityHolder>
       <Name>Green Mushroom</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Unidentified Molepig den</Name>
       <Quantity>1</Quantity>
     </QuantityHolder>
   </Gatherables>
