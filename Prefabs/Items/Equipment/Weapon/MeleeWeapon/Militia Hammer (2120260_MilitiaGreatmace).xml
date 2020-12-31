@@ -5,7 +5,7 @@
   <ItemID>2120260</ItemID>
   <Name>Militia Hammer</Name>
   <Description />
-  <LegacyItemID>2120265</LegacyItemID>
+  <LegacyItemID>-1</LegacyItemID>
   <IsPickable>true</IsPickable>
   <IsUsable>false</IsUsable>
   <QtyRemovedOnUse>1</QtyRemovedOnUse>

@@ -48,6 +48,7 @@
           <Stat_Tag>StaminaCostReduction</Stat_Tag>
           <AffectQuantity>20</AffectQuantity>
           <IsModifier>true</IsModifier>
+          <Tags />
         </DM_Effect>
         <DM_Effect xsi:type="DM_AffectStat">
           <Delay>0</Delay>
@@ -56,6 +57,7 @@
           <Stat_Tag>ImpactResistance</Stat_Tag>
           <AffectQuantity>5</AffectQuantity>
           <IsModifier>false</IsModifier>
+          <Tags />
         </DM_Effect>
       </Effects>
       <EffectConditions />

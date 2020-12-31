@@ -31,6 +31,7 @@
           <Stat_Tag>MaxHealth</Stat_Tag>
           <AffectQuantity>20</AffectQuantity>
           <IsModifier>false</IsModifier>
+          <Tags />
         </DM_Effect>
         <DM_Effect xsi:type="DM_AffectStat">
           <Delay>0</Delay>
@@ -39,6 +40,7 @@
           <Stat_Tag>MaxStamina</Stat_Tag>
           <AffectQuantity>20</AffectQuantity>
           <IsModifier>false</IsModifier>
+          <Tags />
         </DM_Effect>
         <DM_Effect xsi:type="DM_AffectStat">
           <Delay>0</Delay>
@@ -47,6 +49,7 @@
           <Stat_Tag>MaxMana</Stat_Tag>
           <AffectQuantity>20</AffectQuantity>
           <IsModifier>false</IsModifier>
+          <Tags />
         </DM_Effect>
       </Effects>
       <EffectConditions />

@@ -24,11 +24,7 @@
       <Quantity>3</Quantity>
     </QuantityHolder>
     <QuantityHolder>
-      <Name>Unidentified Ore Vein</Name>
-      <Quantity>1</Quantity>
-    </QuantityHolder>
-    <QuantityHolder>
-      <Name>Unidentified Roots</Name>
+      <Name>Unidentified Molepig den</Name>
       <Quantity>1</Quantity>
     </QuantityHolder>
   </Gatherables>

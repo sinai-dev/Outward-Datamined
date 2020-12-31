@@ -24,11 +24,10 @@
     <string>Weapon</string>
     <string>Item</string>
     <string>Axe</string>
-    <string>DecraftIron_Large</string>
+    <string>DecraftPalladium_Large</string>
     <string>Decraft</string>
-    <string>Brutal</string>
-    <string>Family</string>
     <string>Obsidian</string>
+    <string>Family</string>
     <string>Main Weapon</string>
   </Tags>
   <StatsHolder xsi:type="DM_WeaponStats">
@@ -107,7 +106,7 @@
         </Damage>
       </AttackData>
       <AttackData>
-        <StamCost>11.55</StamCost>
+        <StamCost>9.24</StamCost>
         <Knockback>59.8</Knockback>
         <AttackSpeed>1.1</AttackSpeed>
         <Damage>
@@ -116,7 +115,7 @@
         </Damage>
       </AttackData>
       <AttackData>
-        <StamCost>10.5875</StamCost>
+        <StamCost>8.47</StamCost>
         <Knockback>59.8</Knockback>
         <AttackSpeed>1.1</AttackSpeed>
         <Damage>
@@ -125,7 +124,7 @@
         </Damage>
       </AttackData>
       <AttackData>
-        <StamCost>10.5875</StamCost>
+        <StamCost>8.47</StamCost>
         <Knockback>59.8</Knockback>
         <AttackSpeed>1.1</AttackSpeed>
         <Damage>

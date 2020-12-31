@@ -31,6 +31,7 @@
           <Stat_Tag>None</Stat_Tag>
           <AffectQuantity>0</AffectQuantity>
           <IsModifier>true</IsModifier>
+          <Tags />
         </DM_Effect>
       </Effects>
       <EffectConditions />

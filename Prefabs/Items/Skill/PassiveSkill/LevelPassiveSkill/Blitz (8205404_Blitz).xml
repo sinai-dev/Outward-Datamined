@@ -31,6 +31,9 @@
           <Stat_Tag>MovementSpeed</Stat_Tag>
           <AffectQuantity>5</AffectQuantity>
           <IsModifier>true</IsModifier>
+          <Tags>
+            <string>Sprint</string>
+          </Tags>
         </DM_Effect>
         <DM_Effect xsi:type="DM_AffectStat">
           <Delay>0</Delay>
@@ -39,6 +42,9 @@
           <Stat_Tag>AllDamages</Stat_Tag>
           <AffectQuantity>10</AffectQuantity>
           <IsModifier>true</IsModifier>
+          <Tags>
+            <string>Sprint</string>
+          </Tags>
         </DM_Effect>
       </Effects>
       <EffectConditions />

@@ -2,7 +2,7 @@
 <DM_Enemy xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Name>Balira</Name>
   <GameObject_Name>ArenaMarshGuardian</GameObject_Name>
-  <Unique_ID>2</Unique_ID>
+  <Unique_ID>3</Unique_ID>
   <Locations_Found>
     <string>Caldera:New Sirocco</string>
   </Locations_Found>

@@ -7,7 +7,7 @@
   <Description>Inflicts Burning on enemies.
 
 This off-hand weapon requires Dagger Skills to be used.</Description>
-  <LegacyItemID>5110019</LegacyItemID>
+  <LegacyItemID>-1</LegacyItemID>
   <IsPickable>true</IsPickable>
   <IsUsable>false</IsUsable>
   <QtyRemovedOnUse>1</QtyRemovedOnUse>

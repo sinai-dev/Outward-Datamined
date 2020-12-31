@@ -5,7 +5,7 @@
   <ItemID>2110180</ItemID>
   <Name>Damascene Greataxe</Name>
   <Description>Increases the power of Weapon Skills.</Description>
-  <LegacyItemID>2110185</LegacyItemID>
+  <LegacyItemID>-1</LegacyItemID>
   <IsPickable>true</IsPickable>
   <IsUsable>false</IsUsable>
   <QtyRemovedOnUse>1</QtyRemovedOnUse>
@@ -101,7 +101,7 @@
         </Damage>
       </AttackData>
       <AttackData>
-        <StamCost>11.1375</StamCost>
+        <StamCost>8.91</StamCost>
         <Knockback>54.6</Knockback>
         <AttackSpeed>1.1</AttackSpeed>
         <Damage>
@@ -109,7 +109,7 @@
         </Damage>
       </AttackData>
       <AttackData>
-        <StamCost>10.2093754</StamCost>
+        <StamCost>8.1675</StamCost>
         <Knockback>54.6</Knockback>
         <AttackSpeed>1.1</AttackSpeed>
         <Damage>
@@ -117,7 +117,7 @@
         </Damage>
       </AttackData>
       <AttackData>
-        <StamCost>10.2093754</StamCost>
+        <StamCost>8.1675</StamCost>
         <Knockback>54.6</Knockback>
         <AttackSpeed>1.1</AttackSpeed>
         <Damage>
@@ -137,6 +137,9 @@
           <Stat_Tag>AllDamages</Stat_Tag>
           <AffectQuantity>25</AffectQuantity>
           <IsModifier>true</IsModifier>
+          <Tags>
+            <string>WeaponSkillAttack</string>
+          </Tags>
         </DM_Effect>
       </Effects>
       <EffectConditions />

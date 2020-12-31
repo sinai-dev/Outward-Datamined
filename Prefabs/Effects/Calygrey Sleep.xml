@@ -29,6 +29,7 @@
           <Stat_Tag>PhysicalDamage</Stat_Tag>
           <AffectQuantity>10</AffectQuantity>
           <IsModifier>true</IsModifier>
+          <Tags />
         </DM_Effect>
       </Effects>
       <EffectConditions />

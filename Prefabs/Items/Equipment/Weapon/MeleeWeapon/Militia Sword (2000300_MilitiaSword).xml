@@ -5,7 +5,7 @@
   <ItemID>2000300</ItemID>
   <Name>Militia Sword</Name>
   <Description />
-  <LegacyItemID>2000305</LegacyItemID>
+  <LegacyItemID>-1</LegacyItemID>
   <IsPickable>true</IsPickable>
   <IsUsable>false</IsUsable>
   <QtyRemovedOnUse>1</QtyRemovedOnUse>
@@ -25,9 +25,8 @@
     <string>Item</string>
     <string>DecraftIron_Small</string>
     <string>Decraft</string>
-    <string>Iron</string>
-    <string>Family</string>
     <string>Militia</string>
+    <string>Family</string>
     <string>Main Weapon</string>
   </Tags>
   <StatsHolder xsi:type="DM_WeaponStats">
@@ -104,7 +103,7 @@
         <Knockback>42.9</Knockback>
         <AttackSpeed>0.99</AttackSpeed>
         <Damage>
-          <float>38.87</float>
+          <float>33.8</float>
         </Damage>
       </AttackData>
       <AttackData>
@@ -112,7 +111,7 @@
         <Knockback>36.3</Knockback>
         <AttackSpeed>0.99</AttackSpeed>
         <Damage>
-          <float>32.89</float>
+          <float>28.6</float>
         </Damage>
       </AttackData>
       <AttackData>
@@ -120,7 +119,7 @@
         <Knockback>36.3</Knockback>
         <AttackSpeed>0.99</AttackSpeed>
         <Damage>
-          <float>32.89</float>
+          <float>28.6</float>
         </Damage>
       </AttackData>
     </Attacks>

@@ -31,6 +31,9 @@
           <Stat_Tag>StaminaUse</Stat_Tag>
           <AffectQuantity>-40</AffectQuantity>
           <IsModifier>true</IsModifier>
+          <Tags>
+            <string>Sprint</string>
+          </Tags>
         </DM_Effect>
       </Effects>
       <EffectConditions />

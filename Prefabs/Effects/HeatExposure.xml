@@ -26,6 +26,7 @@
           <Stat_Tag>StaminaUse</Stat_Tag>
           <AffectQuantity>50</AffectQuantity>
           <IsModifier>true</IsModifier>
+          <Tags />
         </DM_Effect>
       </Effects>
       <EffectConditions />

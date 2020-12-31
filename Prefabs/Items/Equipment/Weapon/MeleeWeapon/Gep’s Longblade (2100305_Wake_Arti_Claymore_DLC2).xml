@@ -5,7 +5,7 @@
   <ItemID>2100305</ItemID>
   <Name>Gep’s Longblade</Name>
   <Description>A long blade left behind by Gep for a worthy adventurer. Unleashes powerful Ethereal Blasts, but reduces your Ethereal resistance. Craft it with Gep’s Generosity to change its shape.</Description>
-  <LegacyItemID>-1</LegacyItemID>
+  <LegacyItemID>2100001</LegacyItemID>
   <IsPickable>true</IsPickable>
   <IsUsable>false</IsUsable>
   <QtyRemovedOnUse>1</QtyRemovedOnUse>
@@ -110,7 +110,7 @@
         <Knockback>37.4</Knockback>
         <AttackSpeed>1.32</AttackSpeed>
         <Damage>
-          <float>31.625</float>
+          <float>27.5</float>
         </Damage>
       </AttackData>
       <AttackData>
@@ -118,7 +118,7 @@
         <Knockback>37.4</Knockback>
         <AttackSpeed>1.32</AttackSpeed>
         <Damage>
-          <float>31.625</float>
+          <float>27.5</float>
         </Damage>
       </AttackData>
     </Attacks>
@@ -150,13 +150,6 @@
           <AffectHitTargetCenter>false</AffectHitTargetCenter>
           <HitOnShoot>true</HitOnShoot>
           <IgnoreShooter>false</IgnoreShooter>
-          <IgnoreStop>false</IgnoreStop>
-          <NoTargetForwardMultiplier>5</NoTargetForwardMultiplier>
-          <ParentToShootTransform>false</ParentToShootTransform>
-          <UseTargetCharacterPositionType>false</UseTargetCharacterPositionType>
-          <ImpactSoundMaterial>Fire</ImpactSoundMaterial>
-          <DontPlayHitSound>false</DontPlayHitSound>
-          <FXIsWorld>false</FXIsWorld>
           <BlastEffects>
             <DM_EffectTransform>
               <TransformName>Effects</TransformName>

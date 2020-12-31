@@ -57,13 +57,6 @@
           <AffectHitTargetCenter>false</AffectHitTargetCenter>
           <HitOnShoot>true</HitOnShoot>
           <IgnoreShooter>false</IgnoreShooter>
-          <IgnoreStop>false</IgnoreStop>
-          <NoTargetForwardMultiplier>5</NoTargetForwardMultiplier>
-          <ParentToShootTransform>false</ParentToShootTransform>
-          <UseTargetCharacterPositionType>false</UseTargetCharacterPositionType>
-          <ImpactSoundMaterial>Metal_Sharp</ImpactSoundMaterial>
-          <DontPlayHitSound>false</DontPlayHitSound>
-          <FXIsWorld>false</FXIsWorld>
           <BlastEffects>
             <DM_EffectTransform>
               <TransformName>Effects</TransformName>
@@ -123,13 +116,6 @@
           <AffectHitTargetCenter>false</AffectHitTargetCenter>
           <HitOnShoot>true</HitOnShoot>
           <IgnoreShooter>false</IgnoreShooter>
-          <IgnoreStop>false</IgnoreStop>
-          <NoTargetForwardMultiplier>5</NoTargetForwardMultiplier>
-          <ParentToShootTransform>false</ParentToShootTransform>
-          <UseTargetCharacterPositionType>false</UseTargetCharacterPositionType>
-          <ImpactSoundMaterial>Metal_Sharp</ImpactSoundMaterial>
-          <DontPlayHitSound>false</DontPlayHitSound>
-          <FXIsWorld>false</FXIsWorld>
           <BlastEffects>
             <DM_EffectTransform>
               <TransformName>Effects</TransformName>
@@ -195,13 +181,6 @@
           <AffectHitTargetCenter>false</AffectHitTargetCenter>
           <HitOnShoot>true</HitOnShoot>
           <IgnoreShooter>false</IgnoreShooter>
-          <IgnoreStop>false</IgnoreStop>
-          <NoTargetForwardMultiplier>5</NoTargetForwardMultiplier>
-          <ParentToShootTransform>false</ParentToShootTransform>
-          <UseTargetCharacterPositionType>false</UseTargetCharacterPositionType>
-          <ImpactSoundMaterial>Metal_Sharp</ImpactSoundMaterial>
-          <DontPlayHitSound>false</DontPlayHitSound>
-          <FXIsWorld>false</FXIsWorld>
           <BlastEffects>
             <DM_EffectTransform>
               <TransformName>Effects</TransformName>
@@ -267,13 +246,6 @@
           <AffectHitTargetCenter>false</AffectHitTargetCenter>
           <HitOnShoot>true</HitOnShoot>
           <IgnoreShooter>false</IgnoreShooter>
-          <IgnoreStop>false</IgnoreStop>
-          <NoTargetForwardMultiplier>5</NoTargetForwardMultiplier>
-          <ParentToShootTransform>false</ParentToShootTransform>
-          <UseTargetCharacterPositionType>false</UseTargetCharacterPositionType>
-          <ImpactSoundMaterial>Flesh</ImpactSoundMaterial>
-          <DontPlayHitSound>false</DontPlayHitSound>
-          <FXIsWorld>false</FXIsWorld>
           <BlastEffects>
             <DM_EffectTransform>
               <TransformName>Effects</TransformName>
@@ -341,13 +313,6 @@
           <AffectHitTargetCenter>false</AffectHitTargetCenter>
           <HitOnShoot>true</HitOnShoot>
           <IgnoreShooter>false</IgnoreShooter>
-          <IgnoreStop>false</IgnoreStop>
-          <NoTargetForwardMultiplier>5</NoTargetForwardMultiplier>
-          <ParentToShootTransform>false</ParentToShootTransform>
-          <UseTargetCharacterPositionType>false</UseTargetCharacterPositionType>
-          <ImpactSoundMaterial>Flesh</ImpactSoundMaterial>
-          <DontPlayHitSound>false</DontPlayHitSound>
-          <FXIsWorld>false</FXIsWorld>
           <BlastEffects>
             <DM_EffectTransform>
               <TransformName>Effects</TransformName>
@@ -411,13 +376,6 @@
           <AffectHitTargetCenter>false</AffectHitTargetCenter>
           <HitOnShoot>true</HitOnShoot>
           <IgnoreShooter>false</IgnoreShooter>
-          <IgnoreStop>false</IgnoreStop>
-          <NoTargetForwardMultiplier>5</NoTargetForwardMultiplier>
-          <ParentToShootTransform>false</ParentToShootTransform>
-          <UseTargetCharacterPositionType>false</UseTargetCharacterPositionType>
-          <ImpactSoundMaterial>Metal_Blunt</ImpactSoundMaterial>
-          <DontPlayHitSound>false</DontPlayHitSound>
-          <FXIsWorld>false</FXIsWorld>
           <BlastEffects>
             <DM_EffectTransform>
               <TransformName>Effects</TransformName>

@@ -20,12 +20,14 @@
   <CastSheatheRequired>1</CastSheatheRequired>
   <OverrideSellModifier>-1</OverrideSellModifier>
   <Tags>
-    <string>Weapon</string>
-    <string>Item</string>
     <string>Pistol</string>
     <string>Trinket</string>
+    <string>Item</string>
+    <string>Weapon</string>
     <string>Militia</string>
     <string>Family</string>
+    <string>DecraftIron_Large</string>
+    <string>Decraft</string>
   </Tags>
   <StatsHolder xsi:type="DM_WeaponStats">
     <BaseValue>300</BaseValue>

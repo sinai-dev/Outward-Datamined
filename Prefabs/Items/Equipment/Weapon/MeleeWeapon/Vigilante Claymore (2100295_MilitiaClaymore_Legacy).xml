@@ -5,7 +5,7 @@
   <ItemID>2100295</ItemID>
   <Name>Vigilante Claymore</Name>
   <Description>A bloody Militia Claymore passed down by your ancestors.</Description>
-  <LegacyItemID>-1</LegacyItemID>
+  <LegacyItemID>2100001</LegacyItemID>
   <IsPickable>true</IsPickable>
   <IsUsable>false</IsUsable>
   <QtyRemovedOnUse>1</QtyRemovedOnUse>
@@ -112,7 +112,7 @@
         <Knockback>46.2</Knockback>
         <AttackSpeed>0.99</AttackSpeed>
         <Damage>
-          <float>65.78</float>
+          <float>57.2</float>
         </Damage>
       </AttackData>
       <AttackData>
@@ -120,7 +120,7 @@
         <Knockback>46.2</Knockback>
         <AttackSpeed>0.99</AttackSpeed>
         <Damage>
-          <float>65.78</float>
+          <float>57.2</float>
         </Damage>
       </AttackData>
     </Attacks>

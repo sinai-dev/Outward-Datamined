@@ -33,6 +33,9 @@ Sprinting and having a light source will still easily alert them, though.</Descr
           <Stat_Tag>Detectability</Stat_Tag>
           <AffectQuantity>-20</AffectQuantity>
           <IsModifier>true</IsModifier>
+          <Tags>
+            <string>None</string>
+          </Tags>
         </DM_Effect>
         <DM_Effect xsi:type="DM_AffectStat">
           <Delay>0</Delay>
@@ -41,6 +44,7 @@ Sprinting and having a light source will still easily alert them, though.</Descr
           <Stat_Tag>VisualDetectability</Stat_Tag>
           <AffectQuantity>-18</AffectQuantity>
           <IsModifier>true</IsModifier>
+          <Tags />
         </DM_Effect>
       </Effects>
       <EffectConditions />

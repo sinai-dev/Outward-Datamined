@@ -4,8 +4,8 @@
   <saveDir>/Equipment/Weapon/ProjectileWeapon</saveDir>
   <ItemID>2200180</ItemID>
   <Name>Obsidian Bow</Name>
-  <Description>Inflicts Scorched Hex on enemies.</Description>
-  <LegacyItemID>2200185</LegacyItemID>
+  <Description>Inflicts Burning on enemies.</Description>
+  <LegacyItemID>-1</LegacyItemID>
   <IsPickable>true</IsPickable>
   <IsUsable>false</IsUsable>
   <QtyRemovedOnUse>1</QtyRemovedOnUse>
@@ -25,6 +25,8 @@
     <string>Item</string>
     <string>Obsidian</string>
     <string>Family</string>
+    <string>DecraftPalladium_Small</string>
+    <string>Decraft</string>
     <string>Main Weapon</string>
   </Tags>
   <StatsHolder xsi:type="DM_WeaponStats">
@@ -148,8 +150,9 @@
           <NoAim>false</NoAim>
           <TargetType>Enemies</TargetType>
           <TransformName>ShooterTransform</TransformName>
-          <ProjectileShots />
+          <ProjectileShots>0</ProjectileShots>
           <Lifespan>0</Lifespan>
+          <InstantiatedAmount>0</InstantiatedAmount>
           <LateShootTime>0</LateShootTime>
           <Unblockable>false</Unblockable>
           <EffectsOnlyIfHitCharacter>false</EffectsOnlyIfHitCharacter>
@@ -162,33 +165,6 @@
           <AutoTarget>false</AutoTarget>
           <AutoTargetMaxAngle>0</AutoTargetMaxAngle>
           <AutoTargetRange>0</AutoTargetRange>
-          <ProjectileForce>0</ProjectileForce>
-          <AddDirection>
-            <x>0</x>
-            <y>0</y>
-            <z>0</z>
-          </AddDirection>
-          <AddRotationForce>
-            <x>0</x>
-            <y>0</y>
-            <z>0</z>
-          </AddRotationForce>
-          <YMagnitudeAffect>0</YMagnitudeAffect>
-          <YMagnitudeForce>0</YMagnitudeForce>
-          <DefenseLength>0</DefenseLength>
-          <DefenseRange>0</DefenseRange>
-          <ImpactSoundMaterial>Goo</ImpactSoundMaterial>
-          <LightIntensityFade>
-            <x>0</x>
-            <y>0</y>
-          </LightIntensityFade>
-          <PointOffset>
-            <x>0</x>
-            <y>0</y>
-            <z>0</z>
-          </PointOffset>
-          <TrailEnabled>false</TrailEnabled>
-          <TrailTime>0</TrailTime>
           <ProjectileEffects />
         </DM_Effect>
       </Effects>

@@ -31,6 +31,7 @@
           <Stat_Tag>FoodDepleteRate</Stat_Tag>
           <AffectQuantity>-2.084</AffectQuantity>
           <IsModifier>false</IsModifier>
+          <Tags />
         </DM_Effect>
         <DM_Effect xsi:type="DM_AffectStat">
           <Delay>0</Delay>
@@ -39,6 +40,7 @@
           <Stat_Tag>DrinkDepleteRate</Stat_Tag>
           <AffectQuantity>-5.554</AffectQuantity>
           <IsModifier>false</IsModifier>
+          <Tags />
         </DM_Effect>
         <DM_Effect xsi:type="DM_AffectStat">
           <Delay>0</Delay>
@@ -47,6 +49,7 @@
           <Stat_Tag>SleepDepleteRate</Stat_Tag>
           <AffectQuantity>-2.778</AffectQuantity>
           <IsModifier>false</IsModifier>
+          <Tags />
         </DM_Effect>
       </Effects>
       <EffectConditions />

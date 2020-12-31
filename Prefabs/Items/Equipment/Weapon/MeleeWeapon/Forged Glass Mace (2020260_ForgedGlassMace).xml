@@ -23,10 +23,6 @@
     <string>Bludgeon</string>
     <string>Weapon</string>
     <string>Item</string>
-    <string>DecraftIron_Small</string>
-    <string>Decraft</string>
-    <string>Iron</string>
-    <string>Family</string>
     <string>Main Weapon</string>
   </Tags>
   <StatsHolder xsi:type="DM_WeaponStats">

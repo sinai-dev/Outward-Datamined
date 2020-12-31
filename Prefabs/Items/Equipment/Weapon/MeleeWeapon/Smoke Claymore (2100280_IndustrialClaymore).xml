@@ -5,7 +5,7 @@
   <ItemID>2100280</ItemID>
   <Name>Smoke Claymore</Name>
   <Description>Inflicts Blaze on Burning foes.</Description>
-  <LegacyItemID>-1</LegacyItemID>
+  <LegacyItemID>2100001</LegacyItemID>
   <IsPickable>true</IsPickable>
   <IsUsable>false</IsUsable>
   <QtyRemovedOnUse>1</QtyRemovedOnUse>
@@ -24,8 +24,6 @@
     <string>Weapon</string>
     <string>Item</string>
     <string>Blade</string>
-    <string>DecraftIron_Large</string>
-    <string>Decraft</string>
     <string>Main Weapon</string>
   </Tags>
   <StatsHolder xsi:type="DM_WeaponStats">
@@ -110,7 +108,7 @@
         <Knockback>51.7</Knockback>
         <AttackSpeed>1.1</AttackSpeed>
         <Damage>
-          <float>59.455</float>
+          <float>51.7</float>
         </Damage>
       </AttackData>
       <AttackData>
@@ -118,7 +116,7 @@
         <Knockback>51.7</Knockback>
         <AttackSpeed>1.1</AttackSpeed>
         <Damage>
-          <float>59.455</float>
+          <float>51.7</float>
         </Damage>
       </AttackData>
     </Attacks>

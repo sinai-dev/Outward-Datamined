@@ -29,6 +29,7 @@
           <Stat_Tag>ElectricResistance</Stat_Tag>
           <AffectQuantity>-50</AffectQuantity>
           <IsModifier>false</IsModifier>
+          <Tags />
         </DM_Effect>
         <DM_Effect xsi:type="DM_AffectStat">
           <Delay>0</Delay>
@@ -37,6 +38,7 @@
           <Stat_Tag>FoodDepleteRate</Stat_Tag>
           <AffectQuantity>100</AffectQuantity>
           <IsModifier>true</IsModifier>
+          <Tags />
         </DM_Effect>
         <DM_Effect xsi:type="DM_AffectStat">
           <Delay>0</Delay>
@@ -45,6 +47,7 @@
           <Stat_Tag>ElectricDamage</Stat_Tag>
           <AffectQuantity>-50</AffectQuantity>
           <IsModifier>true</IsModifier>
+          <Tags />
         </DM_Effect>
         <DM_Effect xsi:type="DM_AffectStat">
           <Delay>0</Delay>
@@ -53,6 +56,7 @@
           <Stat_Tag>AttackSpeed</Stat_Tag>
           <AffectQuantity>-10</AffectQuantity>
           <IsModifier>true</IsModifier>
+          <Tags />
         </DM_Effect>
         <DM_Effect xsi:type="DM_AffectStat">
           <Delay>0</Delay>
@@ -61,6 +65,7 @@
           <Stat_Tag>PhysicalResistance</Stat_Tag>
           <AffectQuantity>-30</AffectQuantity>
           <IsModifier>false</IsModifier>
+          <Tags />
         </DM_Effect>
         <DM_Effect xsi:type="DM_AffectStat">
           <Delay>0</Delay>
@@ -69,6 +74,7 @@
           <Stat_Tag>ImpactResistance</Stat_Tag>
           <AffectQuantity>-30</AffectQuantity>
           <IsModifier>true</IsModifier>
+          <Tags />
         </DM_Effect>
         <DM_Effect xsi:type="DM_AchievementOnEffect">
           <Delay>0</Delay>

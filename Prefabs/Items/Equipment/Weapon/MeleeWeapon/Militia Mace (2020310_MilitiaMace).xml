@@ -5,7 +5,7 @@
   <ItemID>2020310</ItemID>
   <Name>Militia Mace</Name>
   <Description />
-  <LegacyItemID>2020315</LegacyItemID>
+  <LegacyItemID>-1</LegacyItemID>
   <IsPickable>true</IsPickable>
   <IsUsable>false</IsUsable>
   <QtyRemovedOnUse>1</QtyRemovedOnUse>
@@ -25,9 +25,8 @@
     <string>Item</string>
     <string>DecraftIron_Small</string>
     <string>Decraft</string>
-    <string>Iron</string>
-    <string>Family</string>
     <string>Militia</string>
+    <string>Family</string>
     <string>Main Weapon</string>
   </Tags>
   <StatsHolder xsi:type="DM_WeaponStats">

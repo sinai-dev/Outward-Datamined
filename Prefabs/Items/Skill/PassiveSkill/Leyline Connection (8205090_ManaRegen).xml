@@ -33,6 +33,7 @@ This is a constant effect.</Description>
           <Stat_Tag>ManaRegen</Stat_Tag>
           <AffectQuantity>0.34</AffectQuantity>
           <IsModifier>false</IsModifier>
+          <Tags />
         </DM_Effect>
       </Effects>
       <EffectConditions />

@@ -84,13 +84,6 @@ Recalls a deployed totem to your inventory, and generates a zone of recurring da
           <AffectHitTargetCenter>false</AffectHitTargetCenter>
           <HitOnShoot>true</HitOnShoot>
           <IgnoreShooter>false</IgnoreShooter>
-          <IgnoreStop>false</IgnoreStop>
-          <NoTargetForwardMultiplier>5</NoTargetForwardMultiplier>
-          <ParentToShootTransform>false</ParentToShootTransform>
-          <UseTargetCharacterPositionType>false</UseTargetCharacterPositionType>
-          <ImpactSoundMaterial>NONE</ImpactSoundMaterial>
-          <DontPlayHitSound>false</DontPlayHitSound>
-          <FXIsWorld>false</FXIsWorld>
           <BlastEffects>
             <DM_EffectTransform>
               <TransformName>Effects</TransformName>
@@ -156,13 +149,6 @@ Recalls a deployed totem to your inventory, and generates a zone of recurring da
           <AffectHitTargetCenter>false</AffectHitTargetCenter>
           <HitOnShoot>true</HitOnShoot>
           <IgnoreShooter>false</IgnoreShooter>
-          <IgnoreStop>false</IgnoreStop>
-          <NoTargetForwardMultiplier>5</NoTargetForwardMultiplier>
-          <ParentToShootTransform>false</ParentToShootTransform>
-          <UseTargetCharacterPositionType>false</UseTargetCharacterPositionType>
-          <ImpactSoundMaterial>NONE</ImpactSoundMaterial>
-          <DontPlayHitSound>false</DontPlayHitSound>
-          <FXIsWorld>false</FXIsWorld>
           <BlastEffects>
             <DM_EffectTransform>
               <TransformName>Effects</TransformName>
@@ -336,13 +322,6 @@ Recalls a deployed totem to your inventory, and generates a zone of recurring da
           <AffectHitTargetCenter>false</AffectHitTargetCenter>
           <HitOnShoot>true</HitOnShoot>
           <IgnoreShooter>false</IgnoreShooter>
-          <IgnoreStop>false</IgnoreStop>
-          <NoTargetForwardMultiplier>5</NoTargetForwardMultiplier>
-          <ParentToShootTransform>false</ParentToShootTransform>
-          <UseTargetCharacterPositionType>false</UseTargetCharacterPositionType>
-          <ImpactSoundMaterial>NONE</ImpactSoundMaterial>
-          <DontPlayHitSound>false</DontPlayHitSound>
-          <FXIsWorld>false</FXIsWorld>
           <BlastEffects>
             <DM_EffectTransform>
               <TransformName>Effects</TransformName>
@@ -571,13 +550,6 @@ Recalls a deployed totem to your inventory, and generates a zone of recurring da
           <AffectHitTargetCenter>false</AffectHitTargetCenter>
           <HitOnShoot>true</HitOnShoot>
           <IgnoreShooter>false</IgnoreShooter>
-          <IgnoreStop>false</IgnoreStop>
-          <NoTargetForwardMultiplier>5</NoTargetForwardMultiplier>
-          <ParentToShootTransform>false</ParentToShootTransform>
-          <UseTargetCharacterPositionType>false</UseTargetCharacterPositionType>
-          <ImpactSoundMaterial>NONE</ImpactSoundMaterial>
-          <DontPlayHitSound>false</DontPlayHitSound>
-          <FXIsWorld>false</FXIsWorld>
           <BlastEffects>
             <DM_EffectTransform>
               <TransformName>Effects</TransformName>
@@ -806,13 +778,6 @@ Recalls a deployed totem to your inventory, and generates a zone of recurring da
           <AffectHitTargetCenter>false</AffectHitTargetCenter>
           <HitOnShoot>true</HitOnShoot>
           <IgnoreShooter>false</IgnoreShooter>
-          <IgnoreStop>false</IgnoreStop>
-          <NoTargetForwardMultiplier>5</NoTargetForwardMultiplier>
-          <ParentToShootTransform>false</ParentToShootTransform>
-          <UseTargetCharacterPositionType>false</UseTargetCharacterPositionType>
-          <ImpactSoundMaterial>NONE</ImpactSoundMaterial>
-          <DontPlayHitSound>false</DontPlayHitSound>
-          <FXIsWorld>false</FXIsWorld>
           <BlastEffects>
             <DM_EffectTransform>
               <TransformName>Effects</TransformName>
@@ -986,13 +951,6 @@ Recalls a deployed totem to your inventory, and generates a zone of recurring da
           <AffectHitTargetCenter>false</AffectHitTargetCenter>
           <HitOnShoot>true</HitOnShoot>
           <IgnoreShooter>false</IgnoreShooter>
-          <IgnoreStop>false</IgnoreStop>
-          <NoTargetForwardMultiplier>5</NoTargetForwardMultiplier>
-          <ParentToShootTransform>false</ParentToShootTransform>
-          <UseTargetCharacterPositionType>false</UseTargetCharacterPositionType>
-          <ImpactSoundMaterial>NONE</ImpactSoundMaterial>
-          <DontPlayHitSound>false</DontPlayHitSound>
-          <FXIsWorld>false</FXIsWorld>
           <BlastEffects>
             <DM_EffectTransform>
               <TransformName>Effects</TransformName>
@@ -1221,13 +1179,6 @@ Recalls a deployed totem to your inventory, and generates a zone of recurring da
           <AffectHitTargetCenter>false</AffectHitTargetCenter>
           <HitOnShoot>true</HitOnShoot>
           <IgnoreShooter>false</IgnoreShooter>
-          <IgnoreStop>false</IgnoreStop>
-          <NoTargetForwardMultiplier>5</NoTargetForwardMultiplier>
-          <ParentToShootTransform>false</ParentToShootTransform>
-          <UseTargetCharacterPositionType>false</UseTargetCharacterPositionType>
-          <ImpactSoundMaterial>NONE</ImpactSoundMaterial>
-          <DontPlayHitSound>false</DontPlayHitSound>
-          <FXIsWorld>false</FXIsWorld>
           <BlastEffects>
             <DM_EffectTransform>
               <TransformName>Effects</TransformName>

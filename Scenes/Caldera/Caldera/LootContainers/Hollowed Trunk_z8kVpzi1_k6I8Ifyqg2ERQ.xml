@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <DM_LootContainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <Name>Hollowed Trunk </Name>
+  <Name>Hollowed Trunk</Name>
   <ItemID>1000130</ItemID>
   <UID>z8kVpzi1_k6I8Ifyqg2ERQ</UID>
   <DropTables>

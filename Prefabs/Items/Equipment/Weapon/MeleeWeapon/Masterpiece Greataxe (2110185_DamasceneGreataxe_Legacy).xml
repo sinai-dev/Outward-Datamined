@@ -101,7 +101,7 @@
         </Damage>
       </AttackData>
       <AttackData>
-        <StamCost>11.55</StamCost>
+        <StamCost>9.24</StamCost>
         <Knockback>58.5</Knockback>
         <AttackSpeed>1.1</AttackSpeed>
         <Damage>
@@ -109,7 +109,7 @@
         </Damage>
       </AttackData>
       <AttackData>
-        <StamCost>10.5875</StamCost>
+        <StamCost>8.47</StamCost>
         <Knockback>58.5</Knockback>
         <AttackSpeed>1.1</AttackSpeed>
         <Damage>
@@ -117,7 +117,7 @@
         </Damage>
       </AttackData>
       <AttackData>
-        <StamCost>10.5875</StamCost>
+        <StamCost>8.47</StamCost>
         <Knockback>58.5</Knockback>
         <AttackSpeed>1.1</AttackSpeed>
         <Damage>
@@ -137,6 +137,9 @@
           <Stat_Tag>AllDamages</Stat_Tag>
           <AffectQuantity>25</AffectQuantity>
           <IsModifier>true</IsModifier>
+          <Tags>
+            <string>WeaponSkillAttack</string>
+          </Tags>
         </DM_Effect>
       </Effects>
       <EffectConditions />

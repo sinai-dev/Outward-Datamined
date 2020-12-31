@@ -5,7 +5,7 @@
   <ItemID>3100462</ItemID>
   <Name>Militia Boots</Name>
   <Description>Worker’s clothes, reinforced for battle. Completely resists Hamper.</Description>
-  <LegacyItemID>3100467</LegacyItemID>
+  <LegacyItemID>-1</LegacyItemID>
   <IsPickable>true</IsPickable>
   <IsUsable>false</IsUsable>
   <QtyRemovedOnUse>1</QtyRemovedOnUse>

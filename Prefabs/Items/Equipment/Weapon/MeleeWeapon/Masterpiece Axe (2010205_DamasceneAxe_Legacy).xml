@@ -136,6 +136,9 @@
           <Stat_Tag>AllDamages</Stat_Tag>
           <AffectQuantity>25</AffectQuantity>
           <IsModifier>true</IsModifier>
+          <Tags>
+            <string>WeaponSkillAttack</string>
+          </Tags>
         </DM_Effect>
       </Effects>
       <EffectConditions />

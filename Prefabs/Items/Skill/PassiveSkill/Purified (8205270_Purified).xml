@@ -31,6 +31,7 @@
           <Stat_Tag>DecayResistance</Stat_Tag>
           <AffectQuantity>20</AffectQuantity>
           <IsModifier>false</IsModifier>
+          <Tags />
         </DM_Effect>
       </Effects>
       <EffectConditions />

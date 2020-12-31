@@ -2,9 +2,9 @@
 <DM_Enemy xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Name>Balira</Name>
   <GameObject_Name>VendavelWitch</GameObject_Name>
-  <Unique_ID>1</Unique_ID>
+  <Unique_ID>2</Unique_ID>
   <Locations_Found>
-    <string>Chersonese:Cierzo (Destroyed)</string>
+    <string>Chersonese:Vendavel Fortress</string>
   </Locations_Found>
   <Max_Health>100</Max_Health>
   <Health_Regen_Per_Second>0</Health_Regen_Per_Second>
@@ -55,32 +55,7 @@
   </Skill_Knowledge>
   <Faction>Bandits</Faction>
   <Allied_To_Same_Faction>true</Allied_To_Same_Faction>
-  <Guaranteed_Drops>
-    <DropTableEntry>
-      <Item_Name>Vendavel Key</Item_Name>
-      <Item_ID>5600027</Item_ID>
-      <Min_Quantity>1</Min_Quantity>
-      <Max_Quantity>1</Max_Quantity>
-    </DropTableEntry>
-    <DropTableEntry>
-      <Item_Name>Vendavel Prison Key</Item_Name>
-      <Item_ID>5600028</Item_ID>
-      <Min_Quantity>1</Min_Quantity>
-      <Max_Quantity>1</Max_Quantity>
-    </DropTableEntry>
-    <DropTableEntry>
-      <Item_Name>Arcane Robe</Item_Name>
-      <Item_ID>3000260</Item_ID>
-      <Min_Quantity>1</Min_Quantity>
-      <Max_Quantity>1</Max_Quantity>
-    </DropTableEntry>
-    <DropTableEntry>
-      <Item_Name>Astral Potion</Item_Name>
-      <Item_ID>4300020</Item_ID>
-      <Min_Quantity>2</Min_Quantity>
-      <Max_Quantity>2</Max_Quantity>
-    </DropTableEntry>
-  </Guaranteed_Drops>
+  <Guaranteed_Drops />
   <DropTable_Names>
     <string>DropTable_VendavelWitch</string>
   </DropTable_Names>

@@ -102,7 +102,7 @@
           <SyncType>OwnerSync</SyncType>
           <OverrideCategory>None</OverrideCategory>
           <StatusEffect>Elemental Vulnerability</StatusEffect>
-          <Buildup>40</Buildup>
+          <Buildup>100</Buildup>
           <BuildUpMultiplier>1</BuildUpMultiplier>
           <BypassCounter>false</BypassCounter>
         </DM_Effect>

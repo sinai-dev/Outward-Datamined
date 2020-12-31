@@ -45,6 +45,7 @@
           <Stat_Tag>FireDamage</Stat_Tag>
           <AffectQuantity>30</AffectQuantity>
           <IsModifier>true</IsModifier>
+          <Tags />
         </DM_Effect>
       </Effects>
       <EffectConditions />

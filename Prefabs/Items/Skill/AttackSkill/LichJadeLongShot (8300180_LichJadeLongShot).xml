@@ -47,13 +47,6 @@
           <AffectHitTargetCenter>false</AffectHitTargetCenter>
           <HitOnShoot>false</HitOnShoot>
           <IgnoreShooter>false</IgnoreShooter>
-          <IgnoreStop>false</IgnoreStop>
-          <NoTargetForwardMultiplier>5</NoTargetForwardMultiplier>
-          <ParentToShootTransform>false</ParentToShootTransform>
-          <UseTargetCharacterPositionType>true</UseTargetCharacterPositionType>
-          <ImpactSoundMaterial>Fire</ImpactSoundMaterial>
-          <DontPlayHitSound>false</DontPlayHitSound>
-          <FXIsWorld>false</FXIsWorld>
           <BlastEffects>
             <DM_EffectTransform>
               <TransformName>Effects</TransformName>

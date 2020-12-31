@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <DM_Enemy xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Name>Balira</Name>
-  <GameObject_Name>KrypteiaMage</GameObject_Name>
+  <GameObject_Name>KrypteiaGuard</GameObject_Name>
   <Unique_ID>4</Unique_ID>
   <Locations_Found>
     <string>Caldera:Caldera Arena</string>
@@ -39,33 +39,22 @@
   <BarrierStat>0</BarrierStat>
   <True_WeaponDamage>
     <Damages>
-      <Damage>20</Damage>
+      <Damage>35</Damage>
       <Damage_Type>Physical</Damage_Type>
     </Damages>
-    <Damages>
-      <Damage>20</Damage>
-      <Damage_Type>Frost</Damage_Type>
-    </Damages>
   </True_WeaponDamage>
-  <Weapon_Impact>65</Weapon_Impact>
+  <Weapon_Impact>45</Weapon_Impact>
   <Status_Immunities />
   <Starting_Equipment>
-    <string>Krypteia Palladium Mace (2400531)</string>
+    <string>Krypteia Giantkind Halberd (2400530)</string>
   </Starting_Equipment>
   <Skill_Knowledge>
-    <string>KrypteiaMageThunder (8300660)</string>
-    <string>Krypteia (8300661)</string>
-    <string>KrypteiaMageDispertion (8300662)</string>
+    <string>KrypteiaGuardMoonS (8300670)</string>
+    <string>KrypteiaGuardMine (8300671)</string>
+    <string>Krypteia Grenade (8300672)</string>
   </Skill_Knowledge>
   <Faction>Bandits</Faction>
   <Allied_To_Same_Faction>true</Allied_To_Same_Faction>
-  <Guaranteed_Drops>
-    <DropTableEntry>
-      <Item_Name>Krypteia Palladium Mace</Item_Name>
-      <Item_ID>2400531</Item_ID>
-      <Min_Quantity>1</Min_Quantity>
-      <Max_Quantity>1</Max_Quantity>
-    </DropTableEntry>
-  </Guaranteed_Drops>
+  <Guaranteed_Drops />
   <DropTable_Names />
 </DM_Enemy>

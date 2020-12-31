@@ -26,6 +26,7 @@
           <Stat_Tag>SkillCooldownModifier</Stat_Tag>
           <AffectQuantity>150</AffectQuantity>
           <IsModifier>true</IsModifier>
+          <Tags />
         </DM_Effect>
       </Effects>
       <EffectConditions />

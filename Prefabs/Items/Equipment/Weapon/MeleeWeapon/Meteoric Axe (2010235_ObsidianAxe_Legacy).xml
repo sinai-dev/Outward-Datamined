@@ -23,11 +23,10 @@
     <string>Axe</string>
     <string>Weapon</string>
     <string>Item</string>
-    <string>DecraftIron_Small</string>
-    <string>Decraft</string>
-    <string>Iron</string>
-    <string>Family</string>
     <string>Obsidian</string>
+    <string>Family</string>
+    <string>DecraftPalladium_Small</string>
+    <string>Decraft</string>
     <string>Main Weapon</string>
   </Tags>
   <StatsHolder xsi:type="DM_WeaponStats">

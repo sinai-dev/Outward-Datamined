@@ -11,7 +11,7 @@
       <Quantity>1</Quantity>
     </QuantityHolder>
     <QuantityHolder>
-      <Name>Balira (2)</Name>
+      <Name>Balira (3)</Name>
       <Quantity>1</Quantity>
     </QuantityHolder>
     <QuantityHolder>
@@ -47,13 +47,6 @@
     <string>Soroborean Caravanner (-MSrkT502k63y3CV2j98TQ)</string>
     <string>Dorion Dumas (H5q78X0xR0SS0hhrNRDQSA)</string>
     <string>Josef Dumas (pzcn8joOfEizkiBA1nwc7w)</string>
-    <string>Josef Dumas (pzcn8joOfEizkiBA1nwc7w_3-Finished)</string>
-    <string>Dorion Dumas (H5q78X0xR0SS0hhrNRDQSA_3-Finished)</string>
-    <string>Sal Dumas, Blacksmith (QyJwLKySB0epxpEG3EBICQ_3-Finished)</string>
-    <string>Luc Salaberry, Alchemist (FOpFrLmF1kucItj8NJXfjQ_3-Finished)</string>
-    <string>Brad Aberdeen, Chef (LfgxRx6-dkKEUTdxntBEgQ_3-Finished)</string>
-    <string>Patrick Arago, General Store (BRCtlrBzR06zQ55BOmWT2Q_3-Finished)</string>
-    <string>Patrick Arago, General Store (9AIXwwQGCkuX3T0ZOCSbfQ_3-Finished)</string>
   </Merchants>
   <Loot_Containers>
     <QuantityHolder>

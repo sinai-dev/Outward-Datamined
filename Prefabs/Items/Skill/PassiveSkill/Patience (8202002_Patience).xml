@@ -31,6 +31,9 @@
           <Stat_Tag>AllDamages</Stat_Tag>
           <AffectQuantity>30</AffectQuantity>
           <IsModifier>true</IsModifier>
+          <Tags>
+            <string>WeaponSkillAttack</string>
+          </Tags>
         </DM_Effect>
         <DM_Effect xsi:type="DM_AffectStat">
           <Delay>0</Delay>
@@ -39,6 +42,9 @@
           <Stat_Tag>AllDamages</Stat_Tag>
           <AffectQuantity>-20</AffectQuantity>
           <IsModifier>true</IsModifier>
+          <Tags>
+            <string>NormalAttack</string>
+          </Tags>
         </DM_Effect>
         <DM_Effect xsi:type="DM_AffectStat">
           <Delay>0</Delay>
@@ -47,6 +53,9 @@
           <Stat_Tag>AllDamages</Stat_Tag>
           <AffectQuantity>-20</AffectQuantity>
           <IsModifier>true</IsModifier>
+          <Tags>
+            <string>SpecialAttack</string>
+          </Tags>
         </DM_Effect>
       </Effects>
       <EffectConditions />

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <DM_StatusEffect xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <PresetID>652</PresetID>
-  <Identifier> Caldera Basic Sleep</Identifier>
+  <Identifier>Caldera Basic Sleep</Identifier>
   <Name>Sleep: City Hall</Name>
   <Description>Stamina Cost of actions -[E1V1]%.</Description>
   <Lifespan>2400</Lifespan>
@@ -29,6 +29,7 @@
           <Stat_Tag>StaminaRegen</Stat_Tag>
           <AffectQuantity>20</AffectQuantity>
           <IsModifier>true</IsModifier>
+          <Tags />
         </DM_Effect>
       </Effects>
       <EffectConditions />

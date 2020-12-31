@@ -26,6 +26,7 @@
           <Stat_Tag>HealthBurn</Stat_Tag>
           <AffectQuantity>0.01</AffectQuantity>
           <IsModifier>true</IsModifier>
+          <Tags />
         </DM_Effect>
       </Effects>
       <EffectConditions />

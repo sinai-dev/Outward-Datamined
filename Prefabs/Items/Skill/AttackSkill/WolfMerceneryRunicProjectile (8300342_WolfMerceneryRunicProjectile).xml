@@ -38,8 +38,9 @@
           <TargetType>Enemies</TargetType>
           <TransformName>ShooterTransform</TransformName>
           <BaseProjectile>RunicRayProjectile</BaseProjectile>
-          <ProjectileShots />
+          <ProjectileShots>0</ProjectileShots>
           <Lifespan>1</Lifespan>
+          <InstantiatedAmount>1</InstantiatedAmount>
           <LateShootTime>0.0625</LateShootTime>
           <Unblockable>false</Unblockable>
           <EffectsOnlyIfHitCharacter>false</EffectsOnlyIfHitCharacter>
@@ -52,33 +53,6 @@
           <AutoTarget>true</AutoTarget>
           <AutoTargetMaxAngle>360</AutoTargetMaxAngle>
           <AutoTargetRange>10</AutoTargetRange>
-          <ProjectileForce>60</ProjectileForce>
-          <AddDirection>
-            <x>0</x>
-            <y>0</y>
-            <z>0</z>
-          </AddDirection>
-          <AddRotationForce>
-            <x>0</x>
-            <y>0</y>
-            <z>0</z>
-          </AddRotationForce>
-          <YMagnitudeAffect>0</YMagnitudeAffect>
-          <YMagnitudeForce>0</YMagnitudeForce>
-          <DefenseLength>10</DefenseLength>
-          <DefenseRange>3</DefenseRange>
-          <ImpactSoundMaterial>Metal_Sharp</ImpactSoundMaterial>
-          <LightIntensityFade>
-            <x>10</x>
-            <y>2</y>
-          </LightIntensityFade>
-          <PointOffset>
-            <x>0</x>
-            <y>0</y>
-            <z>0.7</z>
-          </PointOffset>
-          <TrailEnabled>true</TrailEnabled>
-          <TrailTime>0.2</TrailTime>
           <ProjectileEffects>
             <DM_EffectTransform>
               <TransformName>HitEffects</TransformName>
@@ -121,13 +95,6 @@
                   <AffectHitTargetCenter>false</AffectHitTargetCenter>
                   <HitOnShoot>true</HitOnShoot>
                   <IgnoreShooter>false</IgnoreShooter>
-                  <IgnoreStop>false</IgnoreStop>
-                  <NoTargetForwardMultiplier>5</NoTargetForwardMultiplier>
-                  <ParentToShootTransform>false</ParentToShootTransform>
-                  <UseTargetCharacterPositionType>false</UseTargetCharacterPositionType>
-                  <ImpactSoundMaterial>Fire</ImpactSoundMaterial>
-                  <DontPlayHitSound>false</DontPlayHitSound>
-                  <FXIsWorld>false</FXIsWorld>
                   <BlastEffects>
                     <DM_EffectTransform>
                       <TransformName>Effects</TransformName>

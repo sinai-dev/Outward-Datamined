@@ -5,7 +5,7 @@
   <ItemID>5110150</ItemID>
   <Name>Obsidian Pistol</Name>
   <Description>Gun that needs the Fire/Reload skill to shoot a fiery bullet, inflicting Burning on enemies.</Description>
-  <LegacyItemID>5110310</LegacyItemID>
+  <LegacyItemID>-1</LegacyItemID>
   <IsPickable>true</IsPickable>
   <IsUsable>false</IsUsable>
   <QtyRemovedOnUse>1</QtyRemovedOnUse>

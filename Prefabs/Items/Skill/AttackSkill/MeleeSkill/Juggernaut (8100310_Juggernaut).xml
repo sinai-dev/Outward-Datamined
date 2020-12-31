@@ -99,6 +99,7 @@ Slow but powerful melee attack that inflicts Confusion. Increases your Impact Re
           <Stat_Tag>ImpactResistance</Stat_Tag>
           <AffectQuantity>50</AffectQuantity>
           <IsModifier>true</IsModifier>
+          <Tags />
         </DM_Effect>
       </Effects>
       <EffectConditions />

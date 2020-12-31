@@ -26,6 +26,7 @@
           <Stat_Tag>MovementSpeed</Stat_Tag>
           <AffectQuantity>-60</AffectQuantity>
           <IsModifier>true</IsModifier>
+          <Tags />
         </DM_Effect>
       </Effects>
       <EffectConditions />

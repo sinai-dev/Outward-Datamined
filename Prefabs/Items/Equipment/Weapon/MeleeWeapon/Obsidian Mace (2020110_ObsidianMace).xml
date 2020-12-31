@@ -5,7 +5,7 @@
   <ItemID>2020110</ItemID>
   <Name>Obsidian Mace</Name>
   <Description>Inflicts Burning on enemies.</Description>
-  <LegacyItemID>2020115</LegacyItemID>
+  <LegacyItemID>-1</LegacyItemID>
   <IsPickable>true</IsPickable>
   <IsUsable>false</IsUsable>
   <QtyRemovedOnUse>1</QtyRemovedOnUse>

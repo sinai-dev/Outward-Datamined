@@ -66,13 +66,6 @@
           <AffectHitTargetCenter>true</AffectHitTargetCenter>
           <HitOnShoot>true</HitOnShoot>
           <IgnoreShooter>false</IgnoreShooter>
-          <IgnoreStop>false</IgnoreStop>
-          <NoTargetForwardMultiplier>5</NoTargetForwardMultiplier>
-          <ParentToShootTransform>false</ParentToShootTransform>
-          <UseTargetCharacterPositionType>false</UseTargetCharacterPositionType>
-          <ImpactSoundMaterial>Fire</ImpactSoundMaterial>
-          <DontPlayHitSound>false</DontPlayHitSound>
-          <FXIsWorld>false</FXIsWorld>
           <BlastEffects>
             <DM_EffectTransform>
               <TransformName>Effects</TransformName>
@@ -110,28 +103,9 @@
                   <TargetType>Enemies</TargetType>
                   <TransformName>ShooterTransform</TransformName>
                   <BaseProjectile>CrimsonBoonSun</BaseProjectile>
-                  <ProjectileShots>
-                    <DM_ProjectileShot>
-                      <LocalDirectionOffset>
-                        <x>0</x>
-                        <y>0.8</y>
-                        <z>0</z>
-                      </LocalDirectionOffset>
-                      <LockDirection>
-                        <x>-999</x>
-                        <y>-999</y>
-                        <z>-999</z>
-                      </LockDirection>
-                      <MustShoot>false</MustShoot>
-                      <NoBaseDir>false</NoBaseDir>
-                      <RandomLocalDirectionAdd>
-                        <x>0</x>
-                        <y>0</y>
-                        <z>0</z>
-                      </RandomLocalDirectionAdd>
-                    </DM_ProjectileShot>
-                  </ProjectileShots>
+                  <ProjectileShots>1</ProjectileShots>
                   <Lifespan>12</Lifespan>
+                  <InstantiatedAmount>8</InstantiatedAmount>
                   <LateShootTime>0.1</LateShootTime>
                   <Unblockable>false</Unblockable>
                   <EffectsOnlyIfHitCharacter>false</EffectsOnlyIfHitCharacter>
@@ -144,33 +118,6 @@
                   <AutoTarget>false</AutoTarget>
                   <AutoTargetMaxAngle>360</AutoTargetMaxAngle>
                   <AutoTargetRange>5</AutoTargetRange>
-                  <ProjectileForce>0</ProjectileForce>
-                  <AddDirection>
-                    <x>0</x>
-                    <y>0</y>
-                    <z>0</z>
-                  </AddDirection>
-                  <AddRotationForce>
-                    <x>0</x>
-                    <y>0</y>
-                    <z>0</z>
-                  </AddRotationForce>
-                  <YMagnitudeAffect>0</YMagnitudeAffect>
-                  <YMagnitudeForce>0</YMagnitudeForce>
-                  <DefenseLength>0</DefenseLength>
-                  <DefenseRange>0</DefenseRange>
-                  <ImpactSoundMaterial>NONE</ImpactSoundMaterial>
-                  <LightIntensityFade>
-                    <x>10</x>
-                    <y>2</y>
-                  </LightIntensityFade>
-                  <PointOffset>
-                    <x>0</x>
-                    <y>0</y>
-                    <z>0</z>
-                  </PointOffset>
-                  <TrailEnabled>false</TrailEnabled>
-                  <TrailTime>0.075</TrailTime>
                   <ProjectileEffects>
                     <DM_EffectTransform>
                       <TransformName>HitEffects</TransformName>
@@ -208,8 +155,9 @@
           <TargetType>Enemies</TargetType>
           <TransformName>hand_right</TransformName>
           <BaseProjectile>CrimsonPreSun</BaseProjectile>
-          <ProjectileShots />
+          <ProjectileShots>0</ProjectileShots>
           <Lifespan>3</Lifespan>
+          <InstantiatedAmount>2</InstantiatedAmount>
           <LateShootTime>0.1</LateShootTime>
           <Unblockable>false</Unblockable>
           <EffectsOnlyIfHitCharacter>false</EffectsOnlyIfHitCharacter>
@@ -222,33 +170,6 @@
           <AutoTarget>false</AutoTarget>
           <AutoTargetMaxAngle>360</AutoTargetMaxAngle>
           <AutoTargetRange>5</AutoTargetRange>
-          <ProjectileForce>0</ProjectileForce>
-          <AddDirection>
-            <x>0</x>
-            <y>0</y>
-            <z>0</z>
-          </AddDirection>
-          <AddRotationForce>
-            <x>0</x>
-            <y>0</y>
-            <z>0</z>
-          </AddRotationForce>
-          <YMagnitudeAffect>0</YMagnitudeAffect>
-          <YMagnitudeForce>0</YMagnitudeForce>
-          <DefenseLength>3</DefenseLength>
-          <DefenseRange>3</DefenseRange>
-          <ImpactSoundMaterial>Fire</ImpactSoundMaterial>
-          <LightIntensityFade>
-            <x>10</x>
-            <y>2</y>
-          </LightIntensityFade>
-          <PointOffset>
-            <x>0</x>
-            <y>0</y>
-            <z>0</z>
-          </PointOffset>
-          <TrailEnabled>false</TrailEnabled>
-          <TrailTime>0.075</TrailTime>
           <ProjectileEffects>
             <DM_EffectTransform>
               <TransformName>HitEffects</TransformName>
@@ -267,28 +188,9 @@
                   <TargetType>Enemies</TargetType>
                   <TransformName>ShooterTransform</TransformName>
                   <BaseProjectile>CrimsonSunProjectil</BaseProjectile>
-                  <ProjectileShots>
-                    <DM_ProjectileShot>
-                      <LocalDirectionOffset>
-                        <x>0</x>
-                        <y>0</y>
-                        <z>0</z>
-                      </LocalDirectionOffset>
-                      <LockDirection>
-                        <x>-999</x>
-                        <y>-999</y>
-                        <z>-999</z>
-                      </LockDirection>
-                      <MustShoot>false</MustShoot>
-                      <NoBaseDir>false</NoBaseDir>
-                      <RandomLocalDirectionAdd>
-                        <x>0</x>
-                        <y>0</y>
-                        <z>0</z>
-                      </RandomLocalDirectionAdd>
-                    </DM_ProjectileShot>
-                  </ProjectileShots>
+                  <ProjectileShots>1</ProjectileShots>
                   <Lifespan>5</Lifespan>
+                  <InstantiatedAmount>2</InstantiatedAmount>
                   <LateShootTime>0.1</LateShootTime>
                   <Unblockable>false</Unblockable>
                   <EffectsOnlyIfHitCharacter>true</EffectsOnlyIfHitCharacter>
@@ -301,33 +203,6 @@
                   <AutoTarget>false</AutoTarget>
                   <AutoTargetMaxAngle>360</AutoTargetMaxAngle>
                   <AutoTargetRange>40</AutoTargetRange>
-                  <ProjectileForce>4</ProjectileForce>
-                  <AddDirection>
-                    <x>0</x>
-                    <y>0</y>
-                    <z>0</z>
-                  </AddDirection>
-                  <AddRotationForce>
-                    <x>0</x>
-                    <y>0</y>
-                    <z>0</z>
-                  </AddRotationForce>
-                  <YMagnitudeAffect>0</YMagnitudeAffect>
-                  <YMagnitudeForce>0</YMagnitudeForce>
-                  <DefenseLength>0</DefenseLength>
-                  <DefenseRange>0</DefenseRange>
-                  <ImpactSoundMaterial>NONE</ImpactSoundMaterial>
-                  <LightIntensityFade>
-                    <x>10</x>
-                    <y>2</y>
-                  </LightIntensityFade>
-                  <PointOffset>
-                    <x>0</x>
-                    <y>0</y>
-                    <z>0</z>
-                  </PointOffset>
-                  <TrailEnabled>false</TrailEnabled>
-                  <TrailTime>0.075</TrailTime>
                   <ProjectileEffects>
                     <DM_EffectTransform>
                       <TransformName>HitEffects</TransformName>
@@ -385,28 +260,9 @@
                           <TargetType>Enemies</TargetType>
                           <TransformName>ShooterTransform</TransformName>
                           <BaseProjectile>CrimsonBoonSun</BaseProjectile>
-                          <ProjectileShots>
-                            <DM_ProjectileShot>
-                              <LocalDirectionOffset>
-                                <x>0.2</x>
-                                <y>0.8</y>
-                                <z>0</z>
-                              </LocalDirectionOffset>
-                              <LockDirection>
-                                <x>-999</x>
-                                <y>-999</y>
-                                <z>-999</z>
-                              </LockDirection>
-                              <MustShoot>false</MustShoot>
-                              <NoBaseDir>false</NoBaseDir>
-                              <RandomLocalDirectionAdd>
-                                <x>0</x>
-                                <y>0</y>
-                                <z>0</z>
-                              </RandomLocalDirectionAdd>
-                            </DM_ProjectileShot>
-                          </ProjectileShots>
+                          <ProjectileShots>1</ProjectileShots>
                           <Lifespan>12</Lifespan>
+                          <InstantiatedAmount>8</InstantiatedAmount>
                           <LateShootTime>0.1</LateShootTime>
                           <Unblockable>false</Unblockable>
                           <EffectsOnlyIfHitCharacter>false</EffectsOnlyIfHitCharacter>
@@ -419,33 +275,6 @@
                           <AutoTarget>false</AutoTarget>
                           <AutoTargetMaxAngle>360</AutoTargetMaxAngle>
                           <AutoTargetRange>5</AutoTargetRange>
-                          <ProjectileForce>4</ProjectileForce>
-                          <AddDirection>
-                            <x>0</x>
-                            <y>0</y>
-                            <z>0</z>
-                          </AddDirection>
-                          <AddRotationForce>
-                            <x>0</x>
-                            <y>0</y>
-                            <z>0</z>
-                          </AddRotationForce>
-                          <YMagnitudeAffect>0</YMagnitudeAffect>
-                          <YMagnitudeForce>0</YMagnitudeForce>
-                          <DefenseLength>0</DefenseLength>
-                          <DefenseRange>0</DefenseRange>
-                          <ImpactSoundMaterial>NONE</ImpactSoundMaterial>
-                          <LightIntensityFade>
-                            <x>10</x>
-                            <y>2</y>
-                          </LightIntensityFade>
-                          <PointOffset>
-                            <x>0</x>
-                            <y>0</y>
-                            <z>0</z>
-                          </PointOffset>
-                          <TrailEnabled>false</TrailEnabled>
-                          <TrailTime>0.075</TrailTime>
                           <ProjectileEffects>
                             <DM_EffectTransform>
                               <TransformName>HitEffects</TransformName>
@@ -529,13 +358,6 @@
           <AffectHitTargetCenter>false</AffectHitTargetCenter>
           <HitOnShoot>true</HitOnShoot>
           <IgnoreShooter>false</IgnoreShooter>
-          <IgnoreStop>false</IgnoreStop>
-          <NoTargetForwardMultiplier>5</NoTargetForwardMultiplier>
-          <ParentToShootTransform>false</ParentToShootTransform>
-          <UseTargetCharacterPositionType>false</UseTargetCharacterPositionType>
-          <ImpactSoundMaterial>Fire</ImpactSoundMaterial>
-          <DontPlayHitSound>false</DontPlayHitSound>
-          <FXIsWorld>false</FXIsWorld>
           <BlastEffects>
             <DM_EffectTransform>
               <TransformName>Effects</TransformName>
@@ -588,8 +410,9 @@
           <TargetType>Enemies</TargetType>
           <TransformName>hand_right</TransformName>
           <BaseProjectile>CrimsonPreSunPowered</BaseProjectile>
-          <ProjectileShots />
+          <ProjectileShots>0</ProjectileShots>
           <Lifespan>3</Lifespan>
+          <InstantiatedAmount>2</InstantiatedAmount>
           <LateShootTime>0.1</LateShootTime>
           <Unblockable>false</Unblockable>
           <EffectsOnlyIfHitCharacter>false</EffectsOnlyIfHitCharacter>
@@ -602,33 +425,6 @@
           <AutoTarget>false</AutoTarget>
           <AutoTargetMaxAngle>360</AutoTargetMaxAngle>
           <AutoTargetRange>5</AutoTargetRange>
-          <ProjectileForce>0</ProjectileForce>
-          <AddDirection>
-            <x>0</x>
-            <y>0</y>
-            <z>0</z>
-          </AddDirection>
-          <AddRotationForce>
-            <x>0</x>
-            <y>0</y>
-            <z>0</z>
-          </AddRotationForce>
-          <YMagnitudeAffect>0</YMagnitudeAffect>
-          <YMagnitudeForce>0</YMagnitudeForce>
-          <DefenseLength>3</DefenseLength>
-          <DefenseRange>3</DefenseRange>
-          <ImpactSoundMaterial>Fire</ImpactSoundMaterial>
-          <LightIntensityFade>
-            <x>10</x>
-            <y>2</y>
-          </LightIntensityFade>
-          <PointOffset>
-            <x>0</x>
-            <y>0</y>
-            <z>0</z>
-          </PointOffset>
-          <TrailEnabled>false</TrailEnabled>
-          <TrailTime>0.075</TrailTime>
           <ProjectileEffects>
             <DM_EffectTransform>
               <TransformName>HitEffects</TransformName>
@@ -647,28 +443,9 @@
                   <TargetType>Enemies</TargetType>
                   <TransformName>ShooterTransform</TransformName>
                   <BaseProjectile>CrimsonSunProjectilPowered</BaseProjectile>
-                  <ProjectileShots>
-                    <DM_ProjectileShot>
-                      <LocalDirectionOffset>
-                        <x>0</x>
-                        <y>0</y>
-                        <z>0</z>
-                      </LocalDirectionOffset>
-                      <LockDirection>
-                        <x>-999</x>
-                        <y>-999</y>
-                        <z>-999</z>
-                      </LockDirection>
-                      <MustShoot>false</MustShoot>
-                      <NoBaseDir>false</NoBaseDir>
-                      <RandomLocalDirectionAdd>
-                        <x>0</x>
-                        <y>0</y>
-                        <z>0</z>
-                      </RandomLocalDirectionAdd>
-                    </DM_ProjectileShot>
-                  </ProjectileShots>
+                  <ProjectileShots>1</ProjectileShots>
                   <Lifespan>5</Lifespan>
+                  <InstantiatedAmount>2</InstantiatedAmount>
                   <LateShootTime>0.1</LateShootTime>
                   <Unblockable>false</Unblockable>
                   <EffectsOnlyIfHitCharacter>true</EffectsOnlyIfHitCharacter>
@@ -681,33 +458,6 @@
                   <AutoTarget>false</AutoTarget>
                   <AutoTargetMaxAngle>360</AutoTargetMaxAngle>
                   <AutoTargetRange>40</AutoTargetRange>
-                  <ProjectileForce>4</ProjectileForce>
-                  <AddDirection>
-                    <x>0</x>
-                    <y>0</y>
-                    <z>0</z>
-                  </AddDirection>
-                  <AddRotationForce>
-                    <x>0</x>
-                    <y>0</y>
-                    <z>0</z>
-                  </AddRotationForce>
-                  <YMagnitudeAffect>0</YMagnitudeAffect>
-                  <YMagnitudeForce>0</YMagnitudeForce>
-                  <DefenseLength>0</DefenseLength>
-                  <DefenseRange>0</DefenseRange>
-                  <ImpactSoundMaterial>NONE</ImpactSoundMaterial>
-                  <LightIntensityFade>
-                    <x>10</x>
-                    <y>2</y>
-                  </LightIntensityFade>
-                  <PointOffset>
-                    <x>0</x>
-                    <y>0</y>
-                    <z>0</z>
-                  </PointOffset>
-                  <TrailEnabled>false</TrailEnabled>
-                  <TrailTime>0.075</TrailTime>
                   <ProjectileEffects>
                     <DM_EffectTransform>
                       <TransformName>HitEffects</TransformName>
@@ -777,8 +527,9 @@
           <TargetType>Enemies</TargetType>
           <TransformName>hand_right</TransformName>
           <BaseProjectile>CrimsonPreSunPowered</BaseProjectile>
-          <ProjectileShots />
+          <ProjectileShots>0</ProjectileShots>
           <Lifespan>3</Lifespan>
+          <InstantiatedAmount>2</InstantiatedAmount>
           <LateShootTime>0.1</LateShootTime>
           <Unblockable>false</Unblockable>
           <EffectsOnlyIfHitCharacter>false</EffectsOnlyIfHitCharacter>
@@ -791,33 +542,6 @@
           <AutoTarget>false</AutoTarget>
           <AutoTargetMaxAngle>360</AutoTargetMaxAngle>
           <AutoTargetRange>5</AutoTargetRange>
-          <ProjectileForce>0</ProjectileForce>
-          <AddDirection>
-            <x>0</x>
-            <y>0</y>
-            <z>0</z>
-          </AddDirection>
-          <AddRotationForce>
-            <x>0</x>
-            <y>0</y>
-            <z>0</z>
-          </AddRotationForce>
-          <YMagnitudeAffect>0</YMagnitudeAffect>
-          <YMagnitudeForce>0</YMagnitudeForce>
-          <DefenseLength>3</DefenseLength>
-          <DefenseRange>3</DefenseRange>
-          <ImpactSoundMaterial>Fire</ImpactSoundMaterial>
-          <LightIntensityFade>
-            <x>10</x>
-            <y>2</y>
-          </LightIntensityFade>
-          <PointOffset>
-            <x>0</x>
-            <y>0</y>
-            <z>0</z>
-          </PointOffset>
-          <TrailEnabled>false</TrailEnabled>
-          <TrailTime>0.075</TrailTime>
           <ProjectileEffects>
             <DM_EffectTransform>
               <TransformName>HitEffects</TransformName>
@@ -836,28 +560,9 @@
                   <TargetType>Enemies</TargetType>
                   <TransformName>ShooterTransform</TransformName>
                   <BaseProjectile>CrimsonSunProjectilPowered</BaseProjectile>
-                  <ProjectileShots>
-                    <DM_ProjectileShot>
-                      <LocalDirectionOffset>
-                        <x>0</x>
-                        <y>0</y>
-                        <z>0</z>
-                      </LocalDirectionOffset>
-                      <LockDirection>
-                        <x>-999</x>
-                        <y>-999</y>
-                        <z>-999</z>
-                      </LockDirection>
-                      <MustShoot>false</MustShoot>
-                      <NoBaseDir>false</NoBaseDir>
-                      <RandomLocalDirectionAdd>
-                        <x>0</x>
-                        <y>0</y>
-                        <z>0</z>
-                      </RandomLocalDirectionAdd>
-                    </DM_ProjectileShot>
-                  </ProjectileShots>
+                  <ProjectileShots>1</ProjectileShots>
                   <Lifespan>5</Lifespan>
+                  <InstantiatedAmount>2</InstantiatedAmount>
                   <LateShootTime>0.1</LateShootTime>
                   <Unblockable>false</Unblockable>
                   <EffectsOnlyIfHitCharacter>true</EffectsOnlyIfHitCharacter>
@@ -870,33 +575,6 @@
                   <AutoTarget>false</AutoTarget>
                   <AutoTargetMaxAngle>360</AutoTargetMaxAngle>
                   <AutoTargetRange>40</AutoTargetRange>
-                  <ProjectileForce>4</ProjectileForce>
-                  <AddDirection>
-                    <x>0</x>
-                    <y>0</y>
-                    <z>0</z>
-                  </AddDirection>
-                  <AddRotationForce>
-                    <x>0</x>
-                    <y>0</y>
-                    <z>0</z>
-                  </AddRotationForce>
-                  <YMagnitudeAffect>0</YMagnitudeAffect>
-                  <YMagnitudeForce>0</YMagnitudeForce>
-                  <DefenseLength>0</DefenseLength>
-                  <DefenseRange>0</DefenseRange>
-                  <ImpactSoundMaterial>NONE</ImpactSoundMaterial>
-                  <LightIntensityFade>
-                    <x>10</x>
-                    <y>2</y>
-                  </LightIntensityFade>
-                  <PointOffset>
-                    <x>0</x>
-                    <y>0</y>
-                    <z>0</z>
-                  </PointOffset>
-                  <TrailEnabled>false</TrailEnabled>
-                  <TrailTime>0.075</TrailTime>
                   <ProjectileEffects>
                     <DM_EffectTransform>
                       <TransformName>HitEffects</TransformName>

@@ -7,7 +7,7 @@
   <Description>Inflicts Burning on enemies.
 
 Chakram spells are necessary to use this off-hand weapon.</Description>
-  <LegacyItemID>5110108</LegacyItemID>
+  <LegacyItemID>-1</LegacyItemID>
   <IsPickable>true</IsPickable>
   <IsUsable>false</IsUsable>
   <QtyRemovedOnUse>1</QtyRemovedOnUse>

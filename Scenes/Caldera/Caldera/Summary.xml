@@ -89,7 +89,7 @@
   <Loot_Containers>
     <QuantityHolder>
       <Name>Hollowed Trunk</Name>
-      <Quantity>1</Quantity>
+      <Quantity>11</Quantity>
     </QuantityHolder>
     <QuantityHolder>
       <Name>Junk Pile</Name>
@@ -110,10 +110,6 @@
     <QuantityHolder>
       <Name>Ornate Chest</Name>
       <Quantity>2</Quantity>
-    </QuantityHolder>
-    <QuantityHolder>
-      <Name>Hollowed Trunk </Name>
-      <Quantity>10</Quantity>
     </QuantityHolder>
     <QuantityHolder>
       <Name>Chest</Name>
@@ -282,11 +278,11 @@
     <string>Junk Pile_Y8pe6SsgMkuOuZ7JqLVxqA</string>
     <string>Corpse_4eWzJ_q2w06t4mTd1jvLMQ</string>
     <string>Ornate Chest_X48jvkyC_0S3f40LuPsY1Q</string>
-    <string>Hollowed Trunk _MdYyBqMxj0OTWXYhy580Nw</string>
+    <string>Hollowed Trunk_MdYyBqMxj0OTWXYhy580Nw</string>
     <string>Chest_6d1I9LOn0U2QnesyLs1zMw</string>
-    <string>Hollowed Trunk _bAp38KTvXEKA-STqyhtP9w</string>
+    <string>Hollowed Trunk_bAp38KTvXEKA-STqyhtP9w</string>
     <string>Corpse_xZMpmw1smUemq-Hqdpx9cg</string>
-    <string>Hollowed Trunk _MeRzq_vsski7lExYe1RSzw</string>
+    <string>Hollowed Trunk_MeRzq_vsski7lExYe1RSzw</string>
     <string>Supply Cache_Cs0vxqKq7EyWQP6JxE3uYw</string>
     <string>Supply Cache_myRQNkKWPEG04Pkc_A6zNg</string>
     <string>Adventurer’s Corpse_VbxMGfKTGkSgGzNaq0DvUA</string>
@@ -301,7 +297,7 @@
     <string>Adventurer’s Corpse_yA-rcIW8bkOCLcBYeJRmXA</string>
     <string>Supply Cache_82H_sxHMCkuWgw-vsx5uSQ</string>
     <string>Junk Pile_D9xQsgA340mwoDzLe3iJvg</string>
-    <string>Hollowed Trunk _DKkuMt3OCEu6ujQtnz6arA</string>
+    <string>Hollowed Trunk_DKkuMt3OCEu6ujQtnz6arA</string>
     <string>Supply Cache_t9-3vrso5kqpt-6nHDApyg</string>
     <string>Junk Pile_jRlTGcmYn0iq4RWV1z9jnQ</string>
     <string>Chest_5VbR2DDawE-QncEv5ZGM6A</string>
@@ -311,7 +307,6 @@
     <string>Chest_e3DngHsMWEyuxV2spKid4g</string>
     <string>Supply Cache_oQjeaum8QEKGuJKYtouPvQ</string>
     <string>Junk Pile_dxF53WD_p0aIs3950a-GvQ</string>
-    <string>Hollowed Trunk _btNOObvafEy9TkTCO6yIkA</string>
     <string>Chest_fDRFHjeUmEqubxNd9DgQeA</string>
     <string>Junk Pile_5wQjRbk8pUStTnkx5RYCyA</string>
     <string>Adventurer’s Corpse_flBTlc2mNECHdL7XcfTVuA</string>
@@ -320,19 +315,19 @@
     <string>Supply Cache_ZZlubOOwaEuGJp899HQ05w</string>
     <string>Supply Cache_Xwy6Yf96SkC1RyOvW5ez5Q</string>
     <string>Adventurer’s Corpse_ieats7D9YkG37KHQjFmb6Q</string>
-    <string>Hollowed Trunk _9sRsLBHJa0K-dQQGtRIKAw</string>
+    <string>Hollowed Trunk_9sRsLBHJa0K-dQQGtRIKAw</string>
     <string>Supply Cache_B78Wi5nuo0asFE6aVxHBVA</string>
-    <string>Hollowed Trunk _SRqV9g-tyUiBIT-w6LEoOA</string>
+    <string>Hollowed Trunk_SRqV9g-tyUiBIT-w6LEoOA</string>
     <string>Supply Cache_fw0_-3loGkm2FqbEIO0O0A</string>
     <string>Ornate Chest_4xrrzILR4kSDyaXbJ-Y4Cg</string>
     <string>Junk Pile_PYkC7JPMoUmx1LruH7p5eA</string>
     <string>Corpse_nX2yf_cKzUeB4wbPsENeIg</string>
     <string>Supply Cache_gjvmit542E6OAy71bXBQyQ</string>
-    <string>Hollowed Trunk __DQYPZ34zEyVwsTR5_RUqg</string>
-    <string>Hollowed Trunk _e0FeF6JGLUmQjAj3OYRLUg</string>
+    <string>Hollowed Trunk__DQYPZ34zEyVwsTR5_RUqg</string>
+    <string>Hollowed Trunk_e0FeF6JGLUmQjAj3OYRLUg</string>
     <string>Chest_9lg7nWMUw0yzSLvQVjK8HQ</string>
     <string>Corpse_-9-CW9ouv0yNsKaZYj4-_Q</string>
     <string>Supply Cache_GLUE7nyzEkCpaHp5vfmHhQ</string>
-    <string>Hollowed Trunk _z8kVpzi1_k6I8Ifyqg2ERQ</string>
+    <string>Hollowed Trunk_z8kVpzi1_k6I8Ifyqg2ERQ</string>
   </UniqueContainerList>
 </SceneSummary>

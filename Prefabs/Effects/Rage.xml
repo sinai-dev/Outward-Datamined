@@ -30,6 +30,7 @@
           <Stat_Tag>Impact</Stat_Tag>
           <AffectQuantity>25</AffectQuantity>
           <IsModifier>true</IsModifier>
+          <Tags />
         </DM_Effect>
       </Effects>
       <EffectConditions />

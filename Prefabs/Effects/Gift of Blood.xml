@@ -41,6 +41,7 @@
           <Stat_Tag>DecayDamage</Stat_Tag>
           <AffectQuantity>15</AffectQuantity>
           <IsModifier>true</IsModifier>
+          <Tags />
         </DM_Effect>
         <DM_Effect xsi:type="DM_AffectStat">
           <Delay>0</Delay>
@@ -49,6 +50,7 @@
           <Stat_Tag>FrostDamage</Stat_Tag>
           <AffectQuantity>15</AffectQuantity>
           <IsModifier>true</IsModifier>
+          <Tags />
         </DM_Effect>
         <DM_Effect xsi:type="DM_AffectStat">
           <Delay>0</Delay>
@@ -57,6 +59,7 @@
           <Stat_Tag>PhysicalDamage</Stat_Tag>
           <AffectQuantity>15</AffectQuantity>
           <IsModifier>true</IsModifier>
+          <Tags />
         </DM_Effect>
       </Effects>
       <EffectConditions />

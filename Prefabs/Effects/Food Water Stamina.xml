@@ -32,6 +32,7 @@
           <Stat_Tag>EnvHeatProtection</Stat_Tag>
           <AffectQuantity>10</AffectQuantity>
           <IsModifier>false</IsModifier>
+          <Tags />
         </DM_Effect>
       </Effects>
       <EffectConditions />

@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <DM_LootContainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Name>Hollowed Trunk</Name>
-  <ItemID>1000070</ItemID>
+  <ItemID>1000130</ItemID>
   <UID>btNOObvafEy9TkTCO6yIkA</UID>
-  <DropTables />
+  <DropTables>
+    <string>DropTable_Neutral_Valuable_High_1</string>
+    <string>DropTable_Caldera_Equipment_Low_1</string>
+    <string>DropTable_Neutral_Recipe_Dungeon_1</string>
+  </DropTables>
 </DM_LootContainer>

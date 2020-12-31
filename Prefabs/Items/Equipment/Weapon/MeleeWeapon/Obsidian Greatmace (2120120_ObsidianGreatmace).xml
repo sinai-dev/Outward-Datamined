@@ -5,7 +5,7 @@
   <ItemID>2120120</ItemID>
   <Name>Obsidian Greatmace</Name>
   <Description>Inflicts Burning on enemies.</Description>
-  <LegacyItemID>2120125</LegacyItemID>
+  <LegacyItemID>-1</LegacyItemID>
   <IsPickable>true</IsPickable>
   <IsUsable>false</IsUsable>
   <QtyRemovedOnUse>1</QtyRemovedOnUse>

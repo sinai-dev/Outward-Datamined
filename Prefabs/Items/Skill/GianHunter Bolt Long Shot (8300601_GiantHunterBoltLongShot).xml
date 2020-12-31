@@ -38,28 +38,9 @@
           <TargetType>Enemies</TargetType>
           <TransformName>ShooterTransform</TransformName>
           <BaseProjectile>GiantHunterBolt</BaseProjectile>
-          <ProjectileShots>
-            <DM_ProjectileShot>
-              <LocalDirectionOffset>
-                <x>0</x>
-                <y>0</y>
-                <z>0.1</z>
-              </LocalDirectionOffset>
-              <LockDirection>
-                <x>-999</x>
-                <y>-999</y>
-                <z>-999</z>
-              </LockDirection>
-              <MustShoot>true</MustShoot>
-              <NoBaseDir>false</NoBaseDir>
-              <RandomLocalDirectionAdd>
-                <x>0</x>
-                <y>0</y>
-                <z>0</z>
-              </RandomLocalDirectionAdd>
-            </DM_ProjectileShot>
-          </ProjectileShots>
+          <ProjectileShots>1</ProjectileShots>
           <Lifespan>3</Lifespan>
+          <InstantiatedAmount>1</InstantiatedAmount>
           <LateShootTime>0.1</LateShootTime>
           <Unblockable>false</Unblockable>
           <EffectsOnlyIfHitCharacter>false</EffectsOnlyIfHitCharacter>
@@ -72,33 +53,6 @@
           <AutoTarget>false</AutoTarget>
           <AutoTargetMaxAngle>360</AutoTargetMaxAngle>
           <AutoTargetRange>3</AutoTargetRange>
-          <ProjectileForce>30</ProjectileForce>
-          <AddDirection>
-            <x>0</x>
-            <y>0</y>
-            <z>0</z>
-          </AddDirection>
-          <AddRotationForce>
-            <x>0</x>
-            <y>0</y>
-            <z>0</z>
-          </AddRotationForce>
-          <YMagnitudeAffect>0</YMagnitudeAffect>
-          <YMagnitudeForce>1.6</YMagnitudeForce>
-          <DefenseLength>3</DefenseLength>
-          <DefenseRange>3</DefenseRange>
-          <ImpactSoundMaterial>Metal_Sharp</ImpactSoundMaterial>
-          <LightIntensityFade>
-            <x>10</x>
-            <y>2</y>
-          </LightIntensityFade>
-          <PointOffset>
-            <x>0</x>
-            <y>0</y>
-            <z>0</z>
-          </PointOffset>
-          <TrailEnabled>false</TrailEnabled>
-          <TrailTime>0.075</TrailTime>
           <ProjectileEffects>
             <DM_EffectTransform>
               <TransformName>HitEffects</TransformName>

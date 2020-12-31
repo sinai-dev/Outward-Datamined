@@ -24,10 +24,8 @@
     <string>Weapon</string>
     <string>Item</string>
     <string>Axe</string>
-    <string>DecraftIron_Large</string>
+    <string>DecraftChalcedony_Large</string>
     <string>Decraft</string>
-    <string>Brutal</string>
-    <string>Family</string>
     <string>Main Weapon</string>
   </Tags>
   <StatsHolder xsi:type="DM_WeaponStats">
@@ -106,7 +104,7 @@
         </Damage>
       </AttackData>
       <AttackData>
-        <StamCost>10.3125</StamCost>
+        <StamCost>8.25</StamCost>
         <Knockback>42.9</Knockback>
         <AttackSpeed>1.1</AttackSpeed>
         <Damage>
@@ -115,7 +113,7 @@
         </Damage>
       </AttackData>
       <AttackData>
-        <StamCost>9.453125</StamCost>
+        <StamCost>7.5625</StamCost>
         <Knockback>42.9</Knockback>
         <AttackSpeed>1.1</AttackSpeed>
         <Damage>
@@ -124,7 +122,7 @@
         </Damage>
       </AttackData>
       <AttackData>
-        <StamCost>9.453125</StamCost>
+        <StamCost>7.5625</StamCost>
         <Knockback>42.9</Knockback>
         <AttackSpeed>1.1</AttackSpeed>
         <Damage>

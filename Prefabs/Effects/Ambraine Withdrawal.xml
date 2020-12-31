@@ -26,6 +26,7 @@
           <Stat_Tag>StaminaRegen</Stat_Tag>
           <AffectQuantity>-5</AffectQuantity>
           <IsModifier>true</IsModifier>
+          <Tags />
         </DM_Effect>
         <DM_Effect xsi:type="DM_AffectStat">
           <Delay>0</Delay>
@@ -34,6 +35,7 @@
           <Stat_Tag>StatusEffectBuildUpResistance</Stat_Tag>
           <AffectQuantity>-25</AffectQuantity>
           <IsModifier>true</IsModifier>
+          <Tags />
         </DM_Effect>
       </Effects>
       <EffectConditions />

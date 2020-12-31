@@ -5,7 +5,7 @@
   <ItemID>2160150</ItemID>
   <Name>Damascene Knuckles</Name>
   <Description>Increases the power of Weapon Skills.</Description>
-  <LegacyItemID>2160155</LegacyItemID>
+  <LegacyItemID>2160021</LegacyItemID>
   <IsPickable>true</IsPickable>
   <IsUsable>false</IsUsable>
   <QtyRemovedOnUse>1</QtyRemovedOnUse>
@@ -135,6 +135,9 @@
           <Stat_Tag>AllDamages</Stat_Tag>
           <AffectQuantity>25</AffectQuantity>
           <IsModifier>true</IsModifier>
+          <Tags>
+            <string>WeaponSkillAttack</string>
+          </Tags>
         </DM_Effect>
       </Effects>
       <EffectConditions />

@@ -5,7 +5,7 @@
   <ItemID>2160235</ItemID>
   <Name>Tokebakicit</Name>
   <Description>Sti, this thing is cold! Better bundle up before wearing it! Inflicts Chill and Slow, but reduces your Fire Resistance and lowers the temperature around you.</Description>
-  <LegacyItemID>-1</LegacyItemID>
+  <LegacyItemID>2160021</LegacyItemID>
   <IsPickable>true</IsPickable>
   <IsUsable>false</IsUsable>
   <QtyRemovedOnUse>1</QtyRemovedOnUse>

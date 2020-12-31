@@ -5,7 +5,7 @@
   <ItemID>3100461</ItemID>
   <Name>Militia Helm</Name>
   <Description>Worker’s clothes, reinforced for battle. Completely resists Confusion.</Description>
-  <LegacyItemID>3100466</LegacyItemID>
+  <LegacyItemID>-1</LegacyItemID>
   <IsPickable>true</IsPickable>
   <IsUsable>false</IsUsable>
   <QtyRemovedOnUse>1</QtyRemovedOnUse>

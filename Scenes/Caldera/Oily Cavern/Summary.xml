@@ -71,6 +71,10 @@
       <Name>Palladium vein</Name>
       <Quantity>1</Quantity>
     </QuantityHolder>
+    <QuantityHolder>
+      <Name>Unidentified Roots</Name>
+      <Quantity>1</Quantity>
+    </QuantityHolder>
   </Gatherables>
   <Item_Spawns>
     <DM_ItemSpawn>

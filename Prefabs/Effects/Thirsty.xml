@@ -26,6 +26,7 @@
           <Stat_Tag>StaminaBurn</Stat_Tag>
           <AffectQuantity>200</AffectQuantity>
           <IsModifier>true</IsModifier>
+          <Tags />
         </DM_Effect>
       </Effects>
       <EffectConditions />

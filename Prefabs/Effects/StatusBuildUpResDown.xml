@@ -26,6 +26,7 @@
           <Stat_Tag>StatusEffectBuildUpResistance</Stat_Tag>
           <AffectQuantity>-30</AffectQuantity>
           <IsModifier>false</IsModifier>
+          <Tags />
         </DM_Effect>
       </Effects>
       <EffectConditions />

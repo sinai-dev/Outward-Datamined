@@ -68,47 +68,9 @@
           <TargetType>Enemies</TargetType>
           <TransformName>ShooterTransform</TransformName>
           <BaseProjectile>EliteBurningManHoming</BaseProjectile>
-          <ProjectileShots>
-            <DM_ProjectileShot>
-              <LocalDirectionOffset>
-                <x>0</x>
-                <y>0</y>
-                <z>1.7</z>
-              </LocalDirectionOffset>
-              <LockDirection>
-                <x>-999</x>
-                <y>-999</y>
-                <z>-999</z>
-              </LockDirection>
-              <MustShoot>false</MustShoot>
-              <NoBaseDir>false</NoBaseDir>
-              <RandomLocalDirectionAdd>
-                <x>3</x>
-                <y>0</y>
-                <z>0</z>
-              </RandomLocalDirectionAdd>
-            </DM_ProjectileShot>
-            <DM_ProjectileShot>
-              <LocalDirectionOffset>
-                <x>0</x>
-                <y>0</y>
-                <z>1.7</z>
-              </LocalDirectionOffset>
-              <LockDirection>
-                <x>-999</x>
-                <y>-999</y>
-                <z>-999</z>
-              </LockDirection>
-              <MustShoot>false</MustShoot>
-              <NoBaseDir>false</NoBaseDir>
-              <RandomLocalDirectionAdd>
-                <x>3</x>
-                <y>0</y>
-                <z>0</z>
-              </RandomLocalDirectionAdd>
-            </DM_ProjectileShot>
-          </ProjectileShots>
+          <ProjectileShots>2</ProjectileShots>
           <Lifespan>3.5</Lifespan>
+          <InstantiatedAmount>16</InstantiatedAmount>
           <LateShootTime>0.1</LateShootTime>
           <Unblockable>false</Unblockable>
           <EffectsOnlyIfHitCharacter>false</EffectsOnlyIfHitCharacter>
@@ -121,33 +83,6 @@
           <AutoTarget>false</AutoTarget>
           <AutoTargetMaxAngle>360</AutoTargetMaxAngle>
           <AutoTargetRange>5</AutoTargetRange>
-          <ProjectileForce>7.5</ProjectileForce>
-          <AddDirection>
-            <x>0</x>
-            <y>0</y>
-            <z>0</z>
-          </AddDirection>
-          <AddRotationForce>
-            <x>0</x>
-            <y>0</y>
-            <z>0</z>
-          </AddRotationForce>
-          <YMagnitudeAffect>0</YMagnitudeAffect>
-          <YMagnitudeForce>0</YMagnitudeForce>
-          <DefenseLength>0</DefenseLength>
-          <DefenseRange>0</DefenseRange>
-          <ImpactSoundMaterial>Fire</ImpactSoundMaterial>
-          <LightIntensityFade>
-            <x>10</x>
-            <y>2</y>
-          </LightIntensityFade>
-          <PointOffset>
-            <x>0</x>
-            <y>0</y>
-            <z>0</z>
-          </PointOffset>
-          <TrailEnabled>false</TrailEnabled>
-          <TrailTime>0.075</TrailTime>
           <ProjectileEffects>
             <DM_EffectTransform>
               <TransformName>HitEffects</TransformName>
@@ -194,13 +129,6 @@
                   <AffectHitTargetCenter>false</AffectHitTargetCenter>
                   <HitOnShoot>true</HitOnShoot>
                   <IgnoreShooter>false</IgnoreShooter>
-                  <IgnoreStop>false</IgnoreStop>
-                  <NoTargetForwardMultiplier>5</NoTargetForwardMultiplier>
-                  <ParentToShootTransform>false</ParentToShootTransform>
-                  <UseTargetCharacterPositionType>false</UseTargetCharacterPositionType>
-                  <ImpactSoundMaterial>Fire</ImpactSoundMaterial>
-                  <DontPlayHitSound>false</DontPlayHitSound>
-                  <FXIsWorld>false</FXIsWorld>
                   <BlastEffects>
                     <DM_EffectTransform>
                       <TransformName>Effects</TransformName>
@@ -253,47 +181,9 @@
           <TargetType>Enemies</TargetType>
           <TransformName>ShooterTransform1</TransformName>
           <BaseProjectile>EliteBurningManHoming</BaseProjectile>
-          <ProjectileShots>
-            <DM_ProjectileShot>
-              <LocalDirectionOffset>
-                <x>0</x>
-                <y>0</y>
-                <z>1.7</z>
-              </LocalDirectionOffset>
-              <LockDirection>
-                <x>-999</x>
-                <y>-999</y>
-                <z>-999</z>
-              </LockDirection>
-              <MustShoot>false</MustShoot>
-              <NoBaseDir>false</NoBaseDir>
-              <RandomLocalDirectionAdd>
-                <x>3</x>
-                <y>0</y>
-                <z>0</z>
-              </RandomLocalDirectionAdd>
-            </DM_ProjectileShot>
-            <DM_ProjectileShot>
-              <LocalDirectionOffset>
-                <x>0</x>
-                <y>0</y>
-                <z>1.7</z>
-              </LocalDirectionOffset>
-              <LockDirection>
-                <x>-999</x>
-                <y>-999</y>
-                <z>-999</z>
-              </LockDirection>
-              <MustShoot>false</MustShoot>
-              <NoBaseDir>false</NoBaseDir>
-              <RandomLocalDirectionAdd>
-                <x>3</x>
-                <y>0</y>
-                <z>0</z>
-              </RandomLocalDirectionAdd>
-            </DM_ProjectileShot>
-          </ProjectileShots>
+          <ProjectileShots>2</ProjectileShots>
           <Lifespan>3.5</Lifespan>
+          <InstantiatedAmount>16</InstantiatedAmount>
           <LateShootTime>0.1</LateShootTime>
           <Unblockable>false</Unblockable>
           <EffectsOnlyIfHitCharacter>false</EffectsOnlyIfHitCharacter>
@@ -306,33 +196,6 @@
           <AutoTarget>false</AutoTarget>
           <AutoTargetMaxAngle>360</AutoTargetMaxAngle>
           <AutoTargetRange>5</AutoTargetRange>
-          <ProjectileForce>7.5</ProjectileForce>
-          <AddDirection>
-            <x>0</x>
-            <y>0</y>
-            <z>0</z>
-          </AddDirection>
-          <AddRotationForce>
-            <x>0</x>
-            <y>0</y>
-            <z>0</z>
-          </AddRotationForce>
-          <YMagnitudeAffect>0</YMagnitudeAffect>
-          <YMagnitudeForce>0</YMagnitudeForce>
-          <DefenseLength>0</DefenseLength>
-          <DefenseRange>0</DefenseRange>
-          <ImpactSoundMaterial>Fire</ImpactSoundMaterial>
-          <LightIntensityFade>
-            <x>10</x>
-            <y>2</y>
-          </LightIntensityFade>
-          <PointOffset>
-            <x>0</x>
-            <y>0</y>
-            <z>0</z>
-          </PointOffset>
-          <TrailEnabled>false</TrailEnabled>
-          <TrailTime>0.075</TrailTime>
           <ProjectileEffects>
             <DM_EffectTransform>
               <TransformName>HitEffects</TransformName>
@@ -379,13 +242,6 @@
                   <AffectHitTargetCenter>false</AffectHitTargetCenter>
                   <HitOnShoot>true</HitOnShoot>
                   <IgnoreShooter>false</IgnoreShooter>
-                  <IgnoreStop>false</IgnoreStop>
-                  <NoTargetForwardMultiplier>5</NoTargetForwardMultiplier>
-                  <ParentToShootTransform>false</ParentToShootTransform>
-                  <UseTargetCharacterPositionType>false</UseTargetCharacterPositionType>
-                  <ImpactSoundMaterial>Fire</ImpactSoundMaterial>
-                  <DontPlayHitSound>false</DontPlayHitSound>
-                  <FXIsWorld>false</FXIsWorld>
                   <BlastEffects>
                     <DM_EffectTransform>
                       <TransformName>Effects</TransformName>

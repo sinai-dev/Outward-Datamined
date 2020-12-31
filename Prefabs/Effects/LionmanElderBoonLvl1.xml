@@ -30,6 +30,7 @@
           <Stat_Tag>ElectricDamage</Stat_Tag>
           <AffectQuantity>80</AffectQuantity>
           <IsModifier>true</IsModifier>
+          <Tags />
         </DM_Effect>
         <DM_Effect xsi:type="DM_AffectStat">
           <Delay>0</Delay>
@@ -38,6 +39,7 @@
           <Stat_Tag>FrostDamage</Stat_Tag>
           <AffectQuantity>80</AffectQuantity>
           <IsModifier>true</IsModifier>
+          <Tags />
         </DM_Effect>
         <DM_Effect xsi:type="DM_AffectStat">
           <Delay>0</Delay>
@@ -46,6 +48,7 @@
           <Stat_Tag>Impact</Stat_Tag>
           <AffectQuantity>60</AffectQuantity>
           <IsModifier>true</IsModifier>
+          <Tags />
         </DM_Effect>
       </Effects>
       <EffectConditions />

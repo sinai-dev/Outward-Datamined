@@ -33,6 +33,7 @@ Increases your Decay Resistance by  5.</Description>
           <Stat_Tag>EnvColdProtection</Stat_Tag>
           <AffectQuantity>8</AffectQuantity>
           <IsModifier>false</IsModifier>
+          <Tags />
         </DM_Effect>
         <DM_Effect xsi:type="DM_AffectStat">
           <Delay>0</Delay>
@@ -41,6 +42,7 @@ Increases your Decay Resistance by  5.</Description>
           <Stat_Tag>EnvHeatProtection</Stat_Tag>
           <AffectQuantity>8</AffectQuantity>
           <IsModifier>false</IsModifier>
+          <Tags />
         </DM_Effect>
         <DM_Effect xsi:type="DM_AffectStat">
           <Delay>0</Delay>
@@ -49,6 +51,7 @@ Increases your Decay Resistance by  5.</Description>
           <Stat_Tag>DecayResistance</Stat_Tag>
           <AffectQuantity>5</AffectQuantity>
           <IsModifier>false</IsModifier>
+          <Tags />
         </DM_Effect>
       </Effects>
       <EffectConditions />

@@ -29,6 +29,7 @@
           <Stat_Tag>StaminaCostReduction</Stat_Tag>
           <AffectQuantity>20</AffectQuantity>
           <IsModifier>true</IsModifier>
+          <Tags />
         </DM_Effect>
       </Effects>
       <EffectConditions />

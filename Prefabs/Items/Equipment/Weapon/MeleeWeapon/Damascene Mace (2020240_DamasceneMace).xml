@@ -5,7 +5,7 @@
   <ItemID>2020240</ItemID>
   <Name>Damascene Mace</Name>
   <Description>Increases the power of Weapon Skills.</Description>
-  <LegacyItemID>2020245</LegacyItemID>
+  <LegacyItemID>-1</LegacyItemID>
   <IsPickable>true</IsPickable>
   <IsUsable>false</IsUsable>
   <QtyRemovedOnUse>1</QtyRemovedOnUse>
@@ -136,6 +136,9 @@
           <Stat_Tag>AllDamages</Stat_Tag>
           <AffectQuantity>25</AffectQuantity>
           <IsModifier>true</IsModifier>
+          <Tags>
+            <string>WeaponSkillAttack</string>
+          </Tags>
         </DM_Effect>
       </Effects>
       <EffectConditions />

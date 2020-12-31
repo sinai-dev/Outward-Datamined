@@ -30,6 +30,7 @@
           <Stat_Tag>Impact</Stat_Tag>
           <AffectQuantity>30</AffectQuantity>
           <IsModifier>true</IsModifier>
+          <Tags />
         </DM_Effect>
         <DM_Effect xsi:type="DM_MovementBlend">
           <Delay>0</Delay>

@@ -26,6 +26,7 @@
           <Stat_Tag>None</Stat_Tag>
           <AffectQuantity>20</AffectQuantity>
           <IsModifier>true</IsModifier>
+          <Tags />
         </DM_Effect>
         <DM_Effect xsi:type="DM_AffectStat">
           <Delay>0</Delay>
@@ -34,6 +35,7 @@
           <Stat_Tag>None</Stat_Tag>
           <AffectQuantity>100</AffectQuantity>
           <IsModifier>false</IsModifier>
+          <Tags />
         </DM_Effect>
         <DM_Effect xsi:type="DM_AffectStat">
           <Delay>0</Delay>
@@ -42,6 +44,7 @@
           <Stat_Tag>None</Stat_Tag>
           <AffectQuantity>50</AffectQuantity>
           <IsModifier>false</IsModifier>
+          <Tags />
         </DM_Effect>
       </Effects>
       <EffectConditions />

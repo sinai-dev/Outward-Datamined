@@ -26,6 +26,7 @@
           <Stat_Tag>CorruptionResistance</Stat_Tag>
           <AffectQuantity>50</AffectQuantity>
           <IsModifier>false</IsModifier>
+          <Tags />
         </DM_Effect>
       </Effects>
       <EffectConditions />

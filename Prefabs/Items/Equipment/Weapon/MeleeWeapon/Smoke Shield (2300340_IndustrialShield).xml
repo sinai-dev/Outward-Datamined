@@ -23,8 +23,6 @@
     <string>Shield</string>
     <string>Weapon</string>
     <string>Item</string>
-    <string>DecraftPalladium_Small</string>
-    <string>Decraft</string>
   </Tags>
   <StatsHolder xsi:type="DM_WeaponStats">
     <BaseValue>900</BaseValue>
@@ -130,7 +128,7 @@
           <SyncType>OwnerSync</SyncType>
           <OverrideCategory>None</OverrideCategory>
           <StatusEffect>Blaze</StatusEffect>
-          <Buildup>60</Buildup>
+          <Buildup>45</Buildup>
           <BuildUpMultiplier>1</BuildUpMultiplier>
           <BypassCounter>false</BypassCounter>
         </DM_Effect>

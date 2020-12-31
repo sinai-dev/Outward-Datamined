@@ -5,7 +5,7 @@
   <ItemID>2100300</ItemID>
   <Name>Mysterious Long Blade</Name>
   <Description>A cracked ancient blade that appears wherever it is needed... Could these 3 cracks be healed?</Description>
-  <LegacyItemID>-1</LegacyItemID>
+  <LegacyItemID>2100001</LegacyItemID>
   <IsPickable>true</IsPickable>
   <IsUsable>false</IsUsable>
   <QtyRemovedOnUse>1</QtyRemovedOnUse>
@@ -24,8 +24,6 @@
     <string>Weapon</string>
     <string>Item</string>
     <string>Blade</string>
-    <string>DecraftIron_Large</string>
-    <string>Decraft</string>
     <string>Main Weapon</string>
   </Tags>
   <StatsHolder xsi:type="DM_WeaponStats">
@@ -117,8 +115,8 @@
         <Knockback>27.5</Knockback>
         <AttackSpeed>1.32</AttackSpeed>
         <Damage>
-          <float>18.975</float>
-          <float>12.6500006</float>
+          <float>16.5</float>
+          <float>11</float>
         </Damage>
       </AttackData>
       <AttackData>
@@ -126,8 +124,8 @@
         <Knockback>27.5</Knockback>
         <AttackSpeed>1.32</AttackSpeed>
         <Damage>
-          <float>18.975</float>
-          <float>12.6500006</float>
+          <float>16.5</float>
+          <float>11</float>
         </Damage>
       </AttackData>
     </Attacks>

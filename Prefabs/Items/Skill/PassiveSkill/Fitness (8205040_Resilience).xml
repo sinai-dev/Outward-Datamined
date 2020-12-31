@@ -31,6 +31,7 @@
           <Stat_Tag>MaxHealth</Stat_Tag>
           <AffectQuantity>25</AffectQuantity>
           <IsModifier>false</IsModifier>
+          <Tags />
         </DM_Effect>
       </Effects>
       <EffectConditions />

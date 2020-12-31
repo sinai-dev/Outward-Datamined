@@ -5,7 +5,7 @@
   <ItemID>2160230</ItemID>
   <Name>Unusual Knuckles</Name>
   <Description>These cracked chromium knuckles are ruined by dried blood that can’t be just washed off...</Description>
-  <LegacyItemID>-1</LegacyItemID>
+  <LegacyItemID>2160021</LegacyItemID>
   <IsPickable>true</IsPickable>
   <IsUsable>false</IsUsable>
   <QtyRemovedOnUse>1</QtyRemovedOnUse>

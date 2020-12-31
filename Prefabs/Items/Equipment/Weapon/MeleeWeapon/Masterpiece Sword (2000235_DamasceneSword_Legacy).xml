@@ -104,7 +104,7 @@
         <Knockback>37.7</Knockback>
         <AttackSpeed>1.1</AttackSpeed>
         <Damage>
-          <float>62.79</float>
+          <float>54.6</float>
         </Damage>
       </AttackData>
       <AttackData>
@@ -112,7 +112,7 @@
         <Knockback>31.9</Knockback>
         <AttackSpeed>1.1</AttackSpeed>
         <Damage>
-          <float>53.13</float>
+          <float>46.2</float>
         </Damage>
       </AttackData>
       <AttackData>
@@ -120,7 +120,7 @@
         <Knockback>31.9</Knockback>
         <AttackSpeed>1.1</AttackSpeed>
         <Damage>
-          <float>53.13</float>
+          <float>46.2</float>
         </Damage>
       </AttackData>
     </Attacks>
@@ -136,6 +136,9 @@
           <Stat_Tag>AllDamages</Stat_Tag>
           <AffectQuantity>25</AffectQuantity>
           <IsModifier>true</IsModifier>
+          <Tags>
+            <string>WeaponSkillAttack</string>
+          </Tags>
         </DM_Effect>
       </Effects>
       <EffectConditions />

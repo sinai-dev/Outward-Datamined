@@ -71,13 +71,6 @@ Strike your weapon on your shield, removing the elemental infusion to make an ex
               <AffectHitTargetCenter>false</AffectHitTargetCenter>
               <HitOnShoot>true</HitOnShoot>
               <IgnoreShooter>false</IgnoreShooter>
-              <IgnoreStop>false</IgnoreStop>
-              <NoTargetForwardMultiplier>5</NoTargetForwardMultiplier>
-              <ParentToShootTransform>false</ParentToShootTransform>
-              <UseTargetCharacterPositionType>false</UseTargetCharacterPositionType>
-              <ImpactSoundMaterial>Fire</ImpactSoundMaterial>
-              <DontPlayHitSound>false</DontPlayHitSound>
-              <FXIsWorld>false</FXIsWorld>
               <BlastEffects>
                 <DM_EffectTransform>
                   <TransformName>Effects</TransformName>
@@ -154,13 +147,6 @@ Strike your weapon on your shield, removing the elemental infusion to make an ex
               <AffectHitTargetCenter>false</AffectHitTargetCenter>
               <HitOnShoot>true</HitOnShoot>
               <IgnoreShooter>false</IgnoreShooter>
-              <IgnoreStop>false</IgnoreStop>
-              <NoTargetForwardMultiplier>5</NoTargetForwardMultiplier>
-              <ParentToShootTransform>false</ParentToShootTransform>
-              <UseTargetCharacterPositionType>false</UseTargetCharacterPositionType>
-              <ImpactSoundMaterial>Fire</ImpactSoundMaterial>
-              <DontPlayHitSound>false</DontPlayHitSound>
-              <FXIsWorld>false</FXIsWorld>
               <BlastEffects>
                 <DM_EffectTransform>
                   <TransformName>Effects</TransformName>
@@ -237,13 +223,6 @@ Strike your weapon on your shield, removing the elemental infusion to make an ex
               <AffectHitTargetCenter>false</AffectHitTargetCenter>
               <HitOnShoot>true</HitOnShoot>
               <IgnoreShooter>false</IgnoreShooter>
-              <IgnoreStop>false</IgnoreStop>
-              <NoTargetForwardMultiplier>5</NoTargetForwardMultiplier>
-              <ParentToShootTransform>false</ParentToShootTransform>
-              <UseTargetCharacterPositionType>false</UseTargetCharacterPositionType>
-              <ImpactSoundMaterial>Fire</ImpactSoundMaterial>
-              <DontPlayHitSound>false</DontPlayHitSound>
-              <FXIsWorld>false</FXIsWorld>
               <BlastEffects>
                 <DM_EffectTransform>
                   <TransformName>Effects</TransformName>
@@ -313,13 +292,6 @@ Strike your weapon on your shield, removing the elemental infusion to make an ex
               <AffectHitTargetCenter>false</AffectHitTargetCenter>
               <HitOnShoot>true</HitOnShoot>
               <IgnoreShooter>false</IgnoreShooter>
-              <IgnoreStop>false</IgnoreStop>
-              <NoTargetForwardMultiplier>5</NoTargetForwardMultiplier>
-              <ParentToShootTransform>false</ParentToShootTransform>
-              <UseTargetCharacterPositionType>false</UseTargetCharacterPositionType>
-              <ImpactSoundMaterial>Fire</ImpactSoundMaterial>
-              <DontPlayHitSound>false</DontPlayHitSound>
-              <FXIsWorld>false</FXIsWorld>
               <BlastEffects>
                 <DM_EffectTransform>
                   <TransformName>Effects</TransformName>
@@ -387,13 +359,6 @@ Strike your weapon on your shield, removing the elemental infusion to make an ex
               <AffectHitTargetCenter>false</AffectHitTargetCenter>
               <HitOnShoot>true</HitOnShoot>
               <IgnoreShooter>false</IgnoreShooter>
-              <IgnoreStop>false</IgnoreStop>
-              <NoTargetForwardMultiplier>5</NoTargetForwardMultiplier>
-              <ParentToShootTransform>false</ParentToShootTransform>
-              <UseTargetCharacterPositionType>false</UseTargetCharacterPositionType>
-              <ImpactSoundMaterial>Fire</ImpactSoundMaterial>
-              <DontPlayHitSound>false</DontPlayHitSound>
-              <FXIsWorld>false</FXIsWorld>
               <BlastEffects>
                 <DM_EffectTransform>
                   <TransformName>Effects</TransformName>
@@ -470,13 +435,6 @@ Strike your weapon on your shield, removing the elemental infusion to make an ex
               <AffectHitTargetCenter>false</AffectHitTargetCenter>
               <HitOnShoot>true</HitOnShoot>
               <IgnoreShooter>false</IgnoreShooter>
-              <IgnoreStop>false</IgnoreStop>
-              <NoTargetForwardMultiplier>5</NoTargetForwardMultiplier>
-              <ParentToShootTransform>false</ParentToShootTransform>
-              <UseTargetCharacterPositionType>false</UseTargetCharacterPositionType>
-              <ImpactSoundMaterial>Fire</ImpactSoundMaterial>
-              <DontPlayHitSound>false</DontPlayHitSound>
-              <FXIsWorld>false</FXIsWorld>
               <BlastEffects>
                 <DM_EffectTransform>
                   <TransformName>Effects</TransformName>
@@ -542,13 +500,6 @@ Strike your weapon on your shield, removing the elemental infusion to make an ex
               <AffectHitTargetCenter>false</AffectHitTargetCenter>
               <HitOnShoot>true</HitOnShoot>
               <IgnoreShooter>false</IgnoreShooter>
-              <IgnoreStop>false</IgnoreStop>
-              <NoTargetForwardMultiplier>5</NoTargetForwardMultiplier>
-              <ParentToShootTransform>false</ParentToShootTransform>
-              <UseTargetCharacterPositionType>false</UseTargetCharacterPositionType>
-              <ImpactSoundMaterial>Fire</ImpactSoundMaterial>
-              <DontPlayHitSound>false</DontPlayHitSound>
-              <FXIsWorld>false</FXIsWorld>
               <BlastEffects>
                 <DM_EffectTransform>
                   <TransformName>Effects</TransformName>
@@ -618,13 +569,6 @@ Strike your weapon on your shield, removing the elemental infusion to make an ex
               <AffectHitTargetCenter>false</AffectHitTargetCenter>
               <HitOnShoot>true</HitOnShoot>
               <IgnoreShooter>false</IgnoreShooter>
-              <IgnoreStop>false</IgnoreStop>
-              <NoTargetForwardMultiplier>5</NoTargetForwardMultiplier>
-              <ParentToShootTransform>false</ParentToShootTransform>
-              <UseTargetCharacterPositionType>false</UseTargetCharacterPositionType>
-              <ImpactSoundMaterial>Fire</ImpactSoundMaterial>
-              <DontPlayHitSound>false</DontPlayHitSound>
-              <FXIsWorld>false</FXIsWorld>
               <BlastEffects>
                 <DM_EffectTransform>
                   <TransformName>Effects</TransformName>

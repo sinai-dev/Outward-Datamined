@@ -48,7 +48,7 @@
       <Quantity>2</Quantity>
     </QuantityHolder>
     <QuantityHolder>
-      <Name>Caldera:Immaculate’s Refuge</Name>
+      <Name>Caldera:New Sirocco Mines</Name>
       <Quantity>1</Quantity>
     </QuantityHolder>
   </All_Locations>
@@ -67,7 +67,7 @@
         <string>The Vault of Stone</string>
         <string>Old Sirocco</string>
         <string>Ark of the Exiled</string>
-        <string>Immaculate’s Refuge</string>
+        <string>New Sirocco Mines</string>
       </Locations>
     </DroptableSummary>
   </DropTables>

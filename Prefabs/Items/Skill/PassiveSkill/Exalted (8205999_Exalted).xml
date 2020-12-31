@@ -33,6 +33,7 @@ You are inflicted with the incurable “Life Drain” sickness.</Description>
           <Stat_Tag>AllDamages</Stat_Tag>
           <AffectQuantity>100</AffectQuantity>
           <IsModifier>true</IsModifier>
+          <Tags />
         </DM_Effect>
         <DM_Effect xsi:type="DM_AffectStat">
           <Delay>0</Delay>
@@ -41,6 +42,7 @@ You are inflicted with the incurable “Life Drain” sickness.</Description>
           <Stat_Tag>StaminaUse</Stat_Tag>
           <AffectQuantity>-30</AffectQuantity>
           <IsModifier>true</IsModifier>
+          <Tags />
         </DM_Effect>
         <DM_Effect xsi:type="DM_AffectStat">
           <Delay>0</Delay>
@@ -49,6 +51,7 @@ You are inflicted with the incurable “Life Drain” sickness.</Description>
           <Stat_Tag>ManaUse</Stat_Tag>
           <AffectQuantity>-30</AffectQuantity>
           <IsModifier>true</IsModifier>
+          <Tags />
         </DM_Effect>
         <DM_Effect xsi:type="DM_AffectStat">
           <Delay>0</Delay>
@@ -57,6 +60,7 @@ You are inflicted with the incurable “Life Drain” sickness.</Description>
           <Stat_Tag>AllResistances</Stat_Tag>
           <AffectQuantity>10</AffectQuantity>
           <IsModifier>false</IsModifier>
+          <Tags />
         </DM_Effect>
       </Effects>
       <EffectConditions>

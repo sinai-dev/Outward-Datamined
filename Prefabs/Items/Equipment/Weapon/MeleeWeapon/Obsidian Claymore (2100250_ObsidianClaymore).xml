@@ -5,7 +5,7 @@
   <ItemID>2100250</ItemID>
   <Name>Obsidian Claymore</Name>
   <Description>Inflicts Burning on enemies.</Description>
-  <LegacyItemID>2100255</LegacyItemID>
+  <LegacyItemID>2100001</LegacyItemID>
   <IsPickable>true</IsPickable>
   <IsUsable>false</IsUsable>
   <QtyRemovedOnUse>1</QtyRemovedOnUse>
@@ -24,10 +24,10 @@
     <string>Weapon</string>
     <string>Item</string>
     <string>Blade</string>
-    <string>DecraftIron_Large</string>
-    <string>Decraft</string>
     <string>Obsidian</string>
     <string>Family</string>
+    <string>DecraftPalladium_Large</string>
+    <string>Decraft</string>
     <string>Main Weapon</string>
   </Tags>
   <StatsHolder xsi:type="DM_WeaponStats">
@@ -119,8 +119,8 @@
         <Knockback>38.5</Knockback>
         <AttackSpeed>1.1</AttackSpeed>
         <Damage>
-          <float>22.77</float>
-          <float>22.77</float>
+          <float>19.8</float>
+          <float>19.8</float>
         </Damage>
       </AttackData>
       <AttackData>
@@ -128,8 +128,8 @@
         <Knockback>38.5</Knockback>
         <AttackSpeed>1.1</AttackSpeed>
         <Damage>
-          <float>22.77</float>
-          <float>22.77</float>
+          <float>19.8</float>
+          <float>19.8</float>
         </Damage>
       </AttackData>
     </Attacks>

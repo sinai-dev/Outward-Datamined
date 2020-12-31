@@ -5,7 +5,7 @@
   <ItemID>2100290</ItemID>
   <Name>Militia Claymore</Name>
   <Description />
-  <LegacyItemID>2100295</LegacyItemID>
+  <LegacyItemID>2100001</LegacyItemID>
   <IsPickable>true</IsPickable>
   <IsUsable>false</IsUsable>
   <QtyRemovedOnUse>1</QtyRemovedOnUse>
@@ -112,7 +112,7 @@
         <Knockback>44</Knockback>
         <AttackSpeed>0.99</AttackSpeed>
         <Damage>
-          <float>49.335</float>
+          <float>42.9</float>
         </Damage>
       </AttackData>
       <AttackData>
@@ -120,7 +120,7 @@
         <Knockback>44</Knockback>
         <AttackSpeed>0.99</AttackSpeed>
         <Damage>
-          <float>49.335</float>
+          <float>42.9</float>
         </Damage>
       </AttackData>
     </Attacks>
