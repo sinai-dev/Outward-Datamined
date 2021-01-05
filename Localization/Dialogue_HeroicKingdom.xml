@@ -1,0 +1,2331 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfDialogue xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Dialogue>
+    <Key>Calixia_TendFlame_01</Key>
+    <Value>Why would Old Levant make a claim to the region now? They’ve rejected our open door for years on end... This must be connected to my son’s murder. It has to be. The timing is too convenient.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Calixia_TendFlame_02</Key>
+    <Value>Oh, [PlayerName]. &lt;color=#00CCFF&gt;&lt;b&gt;Cyrene was looking for you out in front of the palace&lt;/b&gt;&lt;/color&gt;. She said it was important.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Calixia_TendFlame_03</Key>
+    <Value>Kirouac told me what you did for him. I’ve informed Cyrene that you should be well rewarded.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Calixia_TendFlame_04</Key>
+    <Value>Now, to figure out who could have infiltrated us and sparked this war. The Sand Corsairs? Old Levant causing a false flag attack? People within the Blue Chamber itself? Gah, we need more leads.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Calixia_TendFlame_05</Key>
+    <Value />
+  </Dialogue>
+  <Dialogue>
+    <Key>Calixia_TendFlame_06</Key>
+    <Value />
+  </Dialogue>
+  <Dialogue>
+    <Key>Calixia_TendFlame_07</Key>
+    <Value />
+  </Dialogue>
+  <Dialogue>
+    <Key>Simeon_TendFlame_01</Key>
+    <Value>Calixa’s worrying too much. Kirouac will make sure that Old Levant doesn't get the better of us at the council meeting. He’s good at politics. And even if the Council sides with Old Levant... I’d like to see them even try to kick us out of here.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Simeon_TendFlame_02</Key>
+    <Value>So, you’re the one who saved Kirouac, huh? You’re tougher than I thought. I'm glad you're on our side!</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Simeon_TendFlame_03</Key>
+    <Value>Our main concern should be tracking down our son’s killer. I heard it was a missionary from the Holy Mission, but I seriously doubt that. If Elatt wanted us out of Abrassar, he’d handle it with words and not murder.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Simeon_TendFlame_04</Key>
+    <Value />
+  </Dialogue>
+  <Dialogue>
+    <Key>Simeon_TendFlame_05</Key>
+    <Value />
+  </Dialogue>
+  <Dialogue>
+    <Key>Simeon_TendFlame_06</Key>
+    <Value />
+  </Dialogue>
+  <Dialogue>
+    <Key>Simeon_TendFlame_07</Key>
+    <Value />
+  </Dialogue>
+  <Dialogue>
+    <Key>Cyrene_TendFlame_01</Key>
+    <Value>[PlayerName], right? I’ve got some work for you. I need you to run bodyguard duty for one of our ambassadors, Kirouac. He’s on a diplomatic mission &lt;color=#00CCFF&gt;&lt;b&gt;to the city of Berg, in Enmerkar&lt;/b&gt;&lt;/color&gt;.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Cyrene_TendFlame_02</Key>
+    <Value>The Blue Chamber Collective is set to meet, and one of the issues being discussed could strike a fatal blow to our kingdom if it goes poorly. We need to make sure that doesn’t happen.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Player_Cyrene_TendFlame_a_02</Key>
+    <Value>What’s the issue?</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Player_Cyrene_TendFlame_b_02</Key>
+    <Value>Skip the details and just tell me what I need to do.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Cyrene_TendFlame_03</Key>
+    <Value>I’ll try to keep this brief. Abrassar used to be a lush and fertile region with several powerful tribes living here. Then the Scourge happened. Between every major river being diverted, and the Scourge swarming the region, well... Look outside, you can see the results.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Cyrene_TendFlame_04</Key>
+    <Value>To make things worse, one of the beasts that attacked the desert grew to near-gigantic size. The Devourer, we called it. The old tribes that lived here before us abandoned the region in fear of the thing.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Cyrene_TendFlame_05</Key>
+    <Value>It was only about 24 years ago when Calixa and Simeon led an army into the desert to retake it. I was just a fresh recruit at the time. It was an impossible feat, but we managed to bring down the Devourer, and then purge Abrassar of the rest of the Scourge.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Cyrene_TendFlame_06</Key>
+    <Value>Elatt, the god of discipline himself, granted the Abrassar desert to Simeon and Calixa to rule as a reward. As such, the Heroic Kingdom has operated outside the Blue Chamber's laws since the beginning.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Cyrene_TendFlame_07</Key>
+    <Value>The old tribes that fled the region have a problem with that. Now that the region is safe enough to live in, they want control of it again. They refuse to recognize both Elatt's decision and the Royal Family's rule. They've been attacking our scouts and soldiers for years now.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Cyrene_TendFlame_08</Key>
+    <Value>Since force failed, they've switched to demanding the Blue Chamber overturn Elatt's decision and return the region to their control. If they get their way, we'll be thrown out.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Cyrene_TendFlame_08-b</Key>
+    <Value>The old tribes of Abrassar are claiming that the region belongs to them, and that our Kingdom has no right to rule. If this meeting goes badly, Old Levant may overthrow us completely.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Player_Cyrene_TendFlame_a_08</Key>
+    <Value>I can’t let that happen. What can I do to help?</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Player_Cyrene_TendFlame_b_08</Key>
+    <Value>I’m busy with something right now. I’ll come back later if I need the money.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Cyrene_TendFlame_10</Key>
+    <Value>We've sent Kirouac to Berg to attend the Council Meeting and hopefully appeal to the sanity of the Collective. If you're among his protectors, I'll sleep better at night.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Cyrene_TendFlame_11</Key>
+    <Value>I need you to &lt;color=#00CCFF&gt;&lt;b&gt;journey to Enmerkar Forest, get to Berg, and make sure nothing happens to Kirouac&lt;/b&gt;&lt;/color&gt; while you're there. You'll find him in the biggest building in the north of the city, the Blue Chamber itself.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Cyrene_TendFlame_12</Key>
+    <Value>Now, I have to be off. I have to go check on my informants to see if any new information has come in. </Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Cyrene_TendFlame_13</Key>
+    <Value>Well, looks like you made it, [PlayerName]. Good to see you.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Cyrene_TendFlame_14</Key>
+    <Value>Cyrene? What are you doing here?</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Cyrene_TendFlame_15</Key>
+    <Value>One of our agents intercepted information that Old Levant has a major plot in motion here today. Given the circumstances, I had to come in person, just in case.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Cyrene_TendFlame_16</Key>
+    <Value>So what's the plan?</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Cyrene_TendFlame_17</Key>
+    <Value>Keep an ear out for trouble. See that &lt;color=#00CCFF&gt;&lt;b&gt;man over there by the stairs&lt;/b&gt;&lt;/color&gt;? He's the one who brought me this information. If there's anything you can do to make sure Old Levant's claims are crushed, &lt;color=#00CCFF&gt;&lt;b&gt;help him with it&lt;/b&gt;&lt;/color&gt;.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Cyrene_TendFlame_15-b</Key>
+    <Value>Oy, you! [PlayerName]! I need a report on what happened in Berg!</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Cyrene_TendFlame_16-b</Key>
+    <Value>Cyrene, where were you?! Someone attacked the Blue Chamber mid-session!</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Cyrene_TendFlame_17-b</Key>
+    <Value>I know. One of my agents tipped me off before the attack, and I tried to intercept their leader. It was a trap. I barely got out with my life. And to make matters worse, I've been framed for ordering the murder of Old Levant’s ambassador!</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Cyrene_TendFlame_17-c</Key>
+    <Value>The Blue Chamber has put a bounty on my head, and has already sent us a declaration of war because of this mess.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Player_Cyrene_TendFlame_a_17</Key>
+    <Value>They think I'm responsible for the attack as well. Whoever organized this was a professional.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Player_Cyrene_TendFlame_b_17</Key>
+    <Value>Someone went to a lot of trouble to make it look like Levant is responsible for all this.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Player_Cyrene_TendFlame_c_17</Key>
+    <Value>Even though I almost prevented the entire attack? It’s clear that Levant is not responsible!</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Cyrene_TendFlame_18</Key>
+    <Value>You too? Our enemy is very thorough indeed. It might not be safe to return to Berg until the war has ended.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Cyrene_TendFlame_19</Key>
+    <Value>There’s people in the Blue Chamber Collective who have wanted to “put us in our place” for a long time now. I’m not surprised they’re being unreasonable. They could even be behind the attack...</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Player_Cyrene_TendFlame_a_19</Key>
+    <Value>I managed to save Kirouac from the attackers. He's shaken, but he's alright.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Cyrene_TendFlame_20</Key>
+    <Value>Yes, he got back here shortly before you did. You did a good job rescuing him, [PlayerName].</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Player_Cyrene_TendFlame_a_20</Key>
+    <Value>I was able to find the attacker's base of operations. The people inside seem to have been soldiers from Levant. We may have been infiltrated.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Player_Cyrene_TendFlame_b_20</Key>
+    <Value>I found the leader of the attack at his hidden camp in Enmerkar. He was definitely one of our commanders. We've been infiltrated for sure.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Cyrene_TendFlame_21</Key>
+    <Value>Elatt damn it all. I'm getting to the bottom of this! Could Old Levant have planned so far ahead? Do they have help from outside Abrassar? I have nothing but questions!</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Cyrene_TendFlame_22</Key>
+    <Value>You did good work out there, [PlayerName]. Here, your payment.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Cyrene_TendFlame_23</Key>
+    <Value>You're far craftier than you look, [PlayerName]. You were a great help out there. Here, your pay with a small bonus on top.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Cyrene_TendFlame_24</Key>
+    <Value>I have to take stock of the situation. Come back in a few days and I'm sure I'll have another assignment for you. The desert rumbles with the sound of war…</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Cyrene_TendFlame_25</Key>
+    <Value />
+  </Dialogue>
+  <Dialogue>
+    <Key>Cyrene_TendFlame_26</Key>
+    <Value>[PlayerName], you’re back already? We have a major problem. Someone attacked the Council meeting in Berg, and &lt;color=#00CCFF&gt;&lt;b&gt;Kirouac has been kidnapped&lt;/b&gt;&lt;/color&gt;. As far as we know, it’s possible he was taken &lt;color=#00CCFF&gt;&lt;b&gt;somewhere in the South of Enmerkar Forest&lt;/b&gt;&lt;/color&gt;. Please, bring him back safely!</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Cyrene_TendFlame_27</Key>
+    <Value>I don’t have any work for you yet, [PlayerName]. Check back in a few days. In the meantime, take your time getting used to life in Abrassar. It’s a dangerous region.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Player_Cyrene_TendFlame_a_27</Key>
+    <Value>Wait, what do you mean the murder of Old Levant’s ambassador?</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Cyrene_TendFlame_28</Key>
+    <Value>Their ambassador was found strangled in her bed after the declaration of war was made. The Chamberlords are accusing Levant of planning the attempted bombing and me for the murder! I wasn’t even in Berg that night!</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Cyrene_TendFlame_29</Key>
+    <Value />
+  </Dialogue>
+  <Dialogue>
+    <Key>Cyrene_TendFlame_30</Key>
+    <Value />
+  </Dialogue>
+  <Dialogue>
+    <Key>Cyrene_TendFlame_31</Key>
+    <Value />
+  </Dialogue>
+  <Dialogue>
+    <Key>Cyrene_TendFlame_32</Key>
+    <Value />
+  </Dialogue>
+  <Dialogue>
+    <Key>Cyrene_TendFlame_33</Key>
+    <Value />
+  </Dialogue>
+  <Dialogue>
+    <Key>ShadyGuy_TendFlame_01</Key>
+    <Value>You're one of the mercenaries Cyrene hired, right? Listen, I have some juicy information. Old Levant claims there's something in the archives that will convince the rest of the Chamberlords in a heartbeat.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>ShadyGuy_TendFlame_02</Key>
+    <Value>I think our best chance at preventing that from happening is to get in there and find the information first! If we know what to expect, we can counter their point before they even make it.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Player_ShadyGuy_TendFlame_a_02</Key>
+    <Value>And how do you plan on getting in without anyone noticing?</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>ShadyGuy_TendFlame_03</Key>
+    <Value>The only one watching the place is that Holy Mission Champion, and I can see him leaving to take care of something outside the city as we speak. &lt;color=#00CCFF&gt;&lt;b&gt;No one will notice us if we poke around the archives and get a head start&lt;/b&gt;&lt;/color&gt;.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Player_ShadyGuy_TendFlame_a_03</Key>
+    <Value>What do you mean "we"? This sounds like a terrible idea. I'm not going to be part of this.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>ShadyGuy_TendFlame_04</Key>
+    <Value>And here I thought you actually cared about Levant. Fine, I'll go by myself, then. If you're not going to help, then get out of our way. Why don’t you just &lt;color=#00CCFF&gt;&lt;b&gt;get yourself a drink at the inn&lt;/b&gt;&lt;/color&gt;, on me.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Player_ShadyGuy_TendFlame_b_03</Key>
+    <Value>Alright, I'm in. What's the plan?</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>ShadyGuy_TendFlame_05</Key>
+    <Value>There's some &lt;color=#00CCFF&gt;&lt;b&gt;stairs that lead down below, behind the central platform&lt;/b&gt;&lt;/color&gt;. Head down there, try not to attract too much attention, and I'll meet you there in a bit. It'll look too suspicious if we both go at the same time.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>ShadyGuy_TendFlame_06</Key>
+    <Value>What are you looking at? I'm here on behalf of the Kingdom of Levant to protect our ambassador.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>BombSquad_TendFlame_01</Key>
+    <Value>Oh, good, the patsy's here. Shank him and light the fuse!</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Kaboom_TendFlame_01</Key>
+    <Value>(The sound of an explosion rocks the air and makes the ground tremble beneath your feet. It came from the Blue Chamber! &lt;color=#00CCFF&gt;&lt;b&gt;Kirouac might be in terrible danger&lt;/b&gt;&lt;/color&gt;!)</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>BombNote_TendFlame_01</Key>
+    <Value>"Remember, the bomb must be blown at precisely the time that the miners signal from the other side of the tunnel. If not, the troops hiding in the &lt;color=#00CCFF&gt;&lt;b&gt;Ancient Burial Ground&lt;/b&gt;&lt;/color&gt; ruins will not be able to launch the attack."</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>BombNote_TendFlame_02</Key>
+    <Value>"If the plan goes well, don't forget that warriors from Berg may swarm the burial ground. Just be absolutely sure to burn this note, Paul."</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Gabriella_TendFlame_01</Key>
+    <Value>You! You’re from Levant, right? What in Elatt’s name is the meaning of this?</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Player_Gabriella_TendFlame_a_01</Key>
+    <Value>You tell me! I just stepped outside for a breath of air and I heard an explosion!</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Gabriella_TendFlame_02</Key>
+    <Value>Mercenaries attacked the Council meeting. They shot the ambassador from Old Levant, and then took hostages into the Archives below the Blue Chamber. I think they took your Ambassador Kirouac too. You might want to &lt;color=#00CCFF&gt;&lt;b&gt;follow them&lt;/b&gt;&lt;/color&gt; if you want to save him..</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Player_Gabriella_TendFlame_a_02</Key>
+    <Value>I’m getting to the bottom of this. I’m going after them.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Player_Gabriella_TendFlame_b_02</Key>
+    <Value>They took Kirouac? Dammit, there goes my payday!</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Gabriella_TendFlame_03</Key>
+    <Value>I hope you find these attackers, Levantin. Everything points to your kingdom executing the attack. I would rather avoid being dragged into open war.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Gabriella_TendFlame_04</Key>
+    <Value>You’re [PlayerName], right? Rissa told me about you. Just behave yourself and we won’t have a problem.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Gabriella_TendFlame_05</Key>
+    <Value>How goes the search?</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Player_Gabriella_TendFlame_a_05</Key>
+    <Value>I’m still looking for Kirouac.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Gabriella_TendFlame_06</Key>
+    <Value>Have you &lt;color=#00CCFF&gt;&lt;b&gt;searched the tunnel the attackers used&lt;/b&gt;&lt;/color&gt; to get under Berg? If he’s not there, it’s possible they took him to an outpost somewhere. I remember hearing about suspicious people gathering at &lt;color=#00CCFF&gt;&lt;b&gt;a cabin somewhere in the south&lt;/b&gt;&lt;/color&gt;…It could be a lead.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Player_Gabriella_TendFlame_b_05</Key>
+    <Value>Have you seen Cyrene since the attack?</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Gabriella_TendFlame_07</Key>
+    <Value>Cyrene has a bounty for her arrest. We believe she ordered the assassination of Old Levant’s ambassador. If the woman had any sense she’d have &lt;color=#00CCFF&gt;&lt;b&gt;run back to Levant by now&lt;/b&gt;&lt;/color&gt;.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Kirouac_TendFlame_01</Key>
+    <Value>Oh thank the winds, rescue! Thanks for coming!</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Player_Kirouac_TendFlame_a_01</Key>
+    <Value>Kirouac! What happened?</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Kirouac_TendFlame_02</Key>
+    <Value>I don't know. There was an explosion, and then thugs armed to the teeth came pouring out from under the Blue Chamber. They shot the Old Levant ambassador and then grabbed me and stuffed me in a sack!</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Kirouac_TendFlame_03</Key>
+    <Value>Someone's trying to frame us for killing Old Levant’s Ambassador, I’m sure of it. There's no way Calixa or Simeon would have authorized something like this. We need to do something before the Blue Chamber takes this as an act of war!</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Kirouac_TendFlame_04</Key>
+    <Value>I can get back to Berg from here. I need to try to smooth this over before it’s too late!</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Player_Kirouac_TendFlame_a_04</Key>
+    <Value>I’m sure the one who organized the attack is still out there.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Player_Kirouac_TendFlame_b_04</Key>
+    <Value>Whoever organized this must be long gone by now…</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Kirouac_TendFlame_05</Key>
+    <Value>&lt;color=#00CCFF&gt;&lt;b&gt;Investigate further if you feel you need to&lt;/b&gt;&lt;/color&gt;. As soon as you’re done though, &lt;color=#00CCFF&gt;&lt;b&gt;report back to Cyrene in Levant&lt;/b&gt;&lt;/color&gt;. I get the feeling Enmerkar might not be safe for any of us…</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Kirouac_TendFlame_06</Key>
+    <Value>That was too much excitement for one lifetime. I'm not going anywhere outside this city ever again, mark my words!</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Player_Kirouac_TendFlame_a_06</Key>
+    <Value>Did you manage to convince the Chamberlords that we aren't responsible for the attack?</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Kirouac_TendFlame_07</Key>
+    <Value>I was barely able to get my entourage out of Berg before they declared war on us. There was nothing I could do.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Kirouac_TendFlame_08</Key>
+    <Value>Hey, [PlayerName], I think Cyrene’s gone. We need her here in case something happens. Can you check Berg’s Inn real quick for her?</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Kirouac_TendFlame_09</Key>
+    <Value>Oh, hello, [PlayerName]. How are you doing?</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Kirouac_TendFlame_10</Key>
+    <Value>The doors of the Heroic Kingdom are open to them. They’re welcome to come join us! And yet they spit in our outstretched hand again and again. I don’t understand why they cling to the ghost of their past pride.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Kirouac_TendFlame_11</Key>
+    <Value>I heard a fight coming from under the Blue Chamber! What happened?</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Player_Kirouac_TendFlame_a_11</Key>
+    <Value>There were some mercenaries down there with a bomb. I managed to stop them.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Kirouac_TendFlame_12</Key>
+    <Value>Oh Elatt’s breath, this is the last thing we need. This could cause a major diplomatic incident! Alright, you go and try to track down where they came from, I’ll try to handle the diplomatic side of things.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Kirouac_TendFlame_13</Key>
+    <Value>If you don’t have any leads, double check downstairs for evidence, in case you missed something.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Kirouac_TendFlame_14</Key>
+    <Value />
+  </Dialogue>
+  <Dialogue>
+    <Key>ExilerGuard_HK_TendFlame_01</Key>
+    <Value>Halt right there, [PlayerName]! We saw you go into the archives shortly before it exploded and mercenaries from Levant came charging out! You’re coming with us!</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Player_ExilerGuard_HK_TendFlame_a_01</Key>
+    <Value>It wasn’t me! They’re just using me as a puppet!</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Player_ExilerGuard_HK_TendFlame_b_01</Key>
+    <Value>Wait, what do you mean mercenaries from Levant came charging out?!</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Player_ExilerGuard_HK_TendFlame_c_01</Key>
+    <Value>Wait, wait, bring Rissa over here, I’m sure we can work something out!</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>ExilerGuard_HK_TendFlame_02</Key>
+    <Value>Don’t play dumb with us! After the bomb went off, those mercenaries &lt;color=#00CCFF&gt;&lt;b&gt;kidnapped Rissa and ambassador Kirouac, and took off with them to somewhere to the South of the forest&lt;/b&gt;&lt;/color&gt;! Tell me where their hideout is and maybe I won’t hurt you!</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Player_ExilerGuard_HK_TendFlame_a_02</Key>
+    <Value>Wait, Rissa’s been taken too?!</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>ExilerGuard_HK_TendFlame_03</Key>
+    <Value>Enough of this! Get down on your knees, criminal! You’re coming with us! Do not resist!</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Player_ExilerGuard_HK_TendFlame_a_03</Key>
+    <Value>(Run away) I’m getting out of here!</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>ExilerGuard_HK_TendFlame_04</Key>
+    <Value>Hey! HEY! HALT! Get back here, you Levantin scum!</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>ExilerGuard_HK_TendFlame_05</Key>
+    <Value />
+  </Dialogue>
+  <Dialogue>
+    <Key>ExilerGuard_HK_TendFlame_06</Key>
+    <Value />
+  </Dialogue>
+  <Dialogue>
+    <Key>ExilerGuard_HK_TendFlame_07</Key>
+    <Value />
+  </Dialogue>
+  <Dialogue>
+    <Key>ExilerGuard_HK_TendFlame_08</Key>
+    <Value />
+  </Dialogue>
+  <Dialogue>
+    <Key>Yzan_HK_TendFlame_01</Key>
+    <Value>How’ve you been, [PlayerName]? My crew and I are working on protecting travelers coming and going from the city. I want to tackle larger threats, but the rest of my people assure me that the animals here in Abrassar need to be treated with fear and respect.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Yzan_HK_TendFlame_02</Key>
+    <Value>Maybe at some point we’ll be enough to clear out the old Sand Rose mine, or the Assassin Bug hive, but until then we’ll have to take what jobs we can.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Yzan_HK_TendFlame_03</Key>
+    <Value />
+  </Dialogue>
+  <Dialogue>
+    <Key>Yzan_HK_TendFlame_04</Key>
+    <Value />
+  </Dialogue>
+  <Dialogue>
+    <Key>Cyrene_HK_Corsairs_01</Key>
+    <Value>[PlayerName], good timing, I have work for you. The war is going well, but Levant itself is facing a crisis.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Cyrene_HK_Corsairs_02</Key>
+    <Value>Our situation is getting desperate. The war has cut us off from our usual trade routes, and the few that remain are being plundered by bandits. If things don't change soon, we’ll face a famine!</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Cyrene_HK_Corsairs_03</Key>
+    <Value>The worst are the "&lt;color=#00CCFF&gt;&lt;b&gt;Sand Corsairs&lt;/b&gt;&lt;/color&gt;", as they call themselves. They make no demands, refuse all negotiations, and leave no survivors in their raids. Then even ransacked one of our cactus farms yesterday!</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Cyrene_HK_Corsairs_04</Key>
+    <Value>Our troops can at least resupply in the field by looting and pillaging the land they take. Our city is not so lucky. If these Sand Corsairs are not dealt with, we may win the war only to come home to a city of corpses.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Cyrene_HK_Corsairs_05</Key>
+    <Value>The Corsairs are extremely crafty. None of my agents can locate their headquarters. If you can help us take them down, there will be a handsome reward.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Player_Cyrene_HK_Corsairs_a_05</Key>
+    <Value>Do you have any leads I can use?</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Player_Cyrene_HK_Corsairs_b_05</Key>
+    <Value>I’ll look into it if I have time. I can’t make promises.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Cyrene_HK_Corsairs_06</Key>
+    <Value>You're a somewhat recent addition to the city. It's possible the people in the slums might open up to you. I do know that &lt;color=#00CCFF&gt;&lt;b&gt;small amounts of food are being smuggled into the slums&lt;/b&gt;&lt;/color&gt; . That might be an angle you can exploit.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Cyrene_HK_Corsairs_07</Key>
+    <Value>I don't care how you &lt;color=#00CCFF&gt;&lt;b&gt;get information from the slums&lt;/b&gt;&lt;/color&gt;, so long as you get it done.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Cyrene_HK_Corsairs_08</Key>
+    <Value>Do you have any new information about the Sand Corsairs?</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Player_Cyrene_HK_Corsairs_a_08</Key>
+    <Value>There’s a group in an old tower in the west that are supplying the food to the slums.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Cyrene_HK_Corsairs_09</Key>
+    <Value>That’s not enough evidence for me to call in reinforcements. Check it out yourself and let me know if you find more. You said it’s in that “canyon” west of that big sea of sand to the south of Levant, right?</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Player_Cyrene_HK_Corsairs_a_09</Key>
+    <Value>I found out where the Sand Corsairs are hiding. They’re in the Old Levant Ruins. Some Soroboreans are protecting them. I need Yzan’s help. Where is he?</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Cyrene_HK_Corsairs_10</Key>
+    <Value>Of course Old Levant has to be connected to this... I think I have an idea what you’re planning. &lt;color=#00CCFF&gt;&lt;b&gt;Yzan is by the fountain in the South-East district of Levant&lt;/b&gt;&lt;/color&gt;. Good luck.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Cyrene_HK_Corsairs_11</Key>
+    <Value>If you need something, bother Yzan. I’m coordinating the troops right now!</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Cyrene_HK_Corsairs_12</Key>
+    <Value>I'm amazed you got their leader to surrender. He confessed everything and his troops disbanded. I don't like leaving these Old Levant troublemakers alive... but I'm not willing to slaughter a surrendering enemy.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Player_Cyrene_HK_Corsairs_a_12</Key>
+    <Value>What will you do with him now?</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Cyrene_HK_Corsairs_13</Key>
+    <Value>Put him on trial, I suppose. It’s barely a formality at this point, though. After all he’s done, he’ll either get the firing squad or be locked in the Hive Prison for the rest of his very short life.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Cyrene_HK_Corsairs_14</Key>
+    <Value>Good work, [PlayerName]. With their leader dead, the Sand Corsairs are nothing more than disorganized rabble. We'll have the last of them put down by the end of the week. And most of them are Old Levant too. Two birds, one bullet!</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Cyrene_HK_Corsairs_15</Key>
+    <Value>Queen Calixa will no doubt recognize what you did for Levant. Here, your reward for a job well done.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Player_Cyrene_HK_Corsairs_b_08</Key>
+    <Value>No new information yet. I’ll let you know if I find some.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Cyrene_HK_Corsairs_16</Key>
+    <Value>The ruins in the west... That’s &lt;color=#00CCFF&gt;&lt;b&gt;the ruins in the small canyon west of that sand sea&lt;/b&gt;&lt;/color&gt;, I think...Hmm...</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Cyrene_HK_Corsairs_17</Key>
+    <Value>The leader of these bandits has long since flown the coop. Dammit, we should have moved faster. We may have struck a serious blow to the Corsairs, but as long as their leader is alive, they could rally…</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Cyrene_HK_Corsairs_18</Key>
+    <Value>Well, you still helped bring the Corsairs down. You’re entitled to your pay. Queen Calixa will no doubt be pleased with your work here, [PlayerName].</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Cyrene_HK_Corsairs_19</Key>
+    <Value>Things are still hectic after the declaration of war, [PlayerName]. I’ll let you know if I need you on the front lines, or on home defense soon enough. Give me a few days to sort out this mess.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Cyrene_HK_Corsairs_20</Key>
+    <Value />
+  </Dialogue>
+  <Dialogue>
+    <Key>Cyrene_HK_Corsairs_21</Key>
+    <Value />
+  </Dialogue>
+  <Dialogue>
+    <Key>Cyrene_HK_Corsairs_22</Key>
+    <Value />
+  </Dialogue>
+  <Dialogue>
+    <Key>Cyrene_HK_Corsairs_23</Key>
+    <Value />
+  </Dialogue>
+  <Dialogue>
+    <Key>Cyrene_HK_Corsairs_24</Key>
+    <Value />
+  </Dialogue>
+  <Dialogue>
+    <Key>PigeonEye_HK_Corsairs_01</Key>
+    <Value>I see it all from up here. The good, the bad... The Levant dream is barely holding together.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>PigeonEye_HK_Corsairs_02</Key>
+    <Value>What can a poor man like me do for a mercenary like you?</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Player_PigeonEye_HK_Corsairs_a_02</Key>
+    <Value>You have a good view from up here. You must have seen something about the Sand Corsairs from up here.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>PigeonEye_HK_Corsairs_03</Key>
+    <Value>I've seen smugglers from the tunnel hand out food down here. That's more than the army or nobles have done for us in ages. That’s all I’m willing to say about that. Torture me if you want, I’m not condemning these slums to more starvation.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Player_PigeonEye_HK_Corsairs_a_03</Key>
+    <Value>What if I was able to get someone else to bring more food down here?</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>PigeonEye_HK_Corsairs_04</Key>
+    <Value>The only people who can operate in Abrassar with the Corsairs around are &lt;color=#00CCFF&gt;&lt;b&gt;Soroboreans, and as far as their merchant in the slums is concerned, they have no interest in helping us&lt;/b&gt;&lt;/color&gt; unless there’s a massive sack of silver involved. Good luck.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>PigeonEye_HK_Corsairs_05</Key>
+    <Value>I saw that Soroborean Merchant start handing out food. I don’t know how you did it, and I don’t care. I’m just glad we won’t go hungry tonight.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>PigeonEye_HK_Corsairs_06</Key>
+    <Value>Alright, I’ll talk. I don’t know where the Corsairs operate from, but I know that the food they’re smuggling to us first goes through an old ruined tower in the desert first.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>PigeonEye_HK_Corsairs_07</Key>
+    <Value>It's not far from the city. Head &lt;color=#00CCFF&gt;&lt;b&gt;south of Levant. West of that sea of sand, there's a little canyon entrance along the mountain walls&lt;/b&gt;&lt;/color&gt;. The ruined tower is at the end of it.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>PigeonEye_HK_Corsairs_08</Key>
+    <Value>So, the Corsairs were destroyed. I sure hope it was worth it to you, because no one else has pretended to care about the slums before or since.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Player_PigeonEye_HK_Corsairs_c_02</Key>
+    <Value>I have to go.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>PigeonEye_HK_Corsairs_09</Key>
+    <Value>Well, I’ll be. Food in the slums again. Things are looking up for the first time in months. Maybe there’s hope for Levant after all.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>PigeonEye_HK_Corsairs_10</Key>
+    <Value>I don’t believe it. Our own goddess! It’ll be a while before things get better down here in the slums, but change is already beginning…</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>PigeonEye_HK_Corsairs_11</Key>
+    <Value />
+  </Dialogue>
+  <Dialogue>
+    <Key>PigeonEye_HK_Corsairs_12</Key>
+    <Value />
+  </Dialogue>
+  <Dialogue>
+    <Key>SoroborMerchant_HK_Corsairs_01</Key>
+    <Value>What’s on your mind?</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Player_SoroborMerchant_HK_Corsairs_a_01</Key>
+    <Value>I need you to stop extorting the people of the slums for food.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>SoroborMerchant_HK_Corsairs_02</Key>
+    <Value>Extort? That’s a nasty word. It’s simple supply and demand, my good customer. It costs a lot of money to bring food through a desert before it goes bad!</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Player_SoroborMerchant_HK_Corsairs_a_02</Key>
+    <Value>I’m sure we can find an arrangement fair for everyone. That’s what Soroboreans do, right?</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>SoroborMerchant_HK_Corsairs_03</Key>
+    <Value>Alright, If you'll eat half my costs for the next trip here, I'll halve my prices for the people of the slums. Let's say 200 silver upfront.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Player_SoroborMerchant_HK_Corsairs_b_02</Key>
+    <Value>The Sand Corsairs hit every caravan except Soroborean ones. Your prices shoot up in response. Don't you see how that looks suspicious?</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>SoroborMerchant_HK_Corsairs_04</Key>
+    <Value>How dare you! Still, you have a point, the coincidence does make us look bad. Hmm... I’ll give you a discount. 100 Silvers upfront and I'll lower my prices for the people of the slums.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Player_SoroborMerchant_HK_Corsairs_a_04</Key>
+    <Value>Deal. Feed these people.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>SoroborMerchant_HK_Corsairs_05</Key>
+    <Value>Done. I’ll hand out rations right away.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Player_SoroborMerchant_HK_Corsairs_b_04</Key>
+    <Value>No deal.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>SoroborMerchant_HK_Corsairs_06</Key>
+    <Value>No deal then. I’m sorry neither of us can’t afford to help them.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Player_SoroborMerchant_HK_Corsairs_b_01</Key>
+    <Value>Nothing in particular</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>SoroborMerchant_HK_Corsairs_07</Key>
+    <Value>Then stay safe. That’s an order! I don’t like losing customers!</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>SoroborMerchant_HK_Corsairs_08</Key>
+    <Value />
+  </Dialogue>
+  <Dialogue>
+    <Key>SoroborMerchant_HK_Corsairs_09</Key>
+    <Value />
+  </Dialogue>
+  <Dialogue>
+    <Key>SoroborMerchant_HK_Corsairs_10</Key>
+    <Value />
+  </Dialogue>
+  <Dialogue>
+    <Key>SoroborMerchant_HK_Corsairs_11</Key>
+    <Value />
+  </Dialogue>
+  <Dialogue>
+    <Key>Dawne_HK_Corsairs_01</Key>
+    <Value>Hmm? What do you want? You look like you can take care of yourself, so no handouts for you. This food goes only to the starving.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Dawne_HK_Corsairs_02</Key>
+    <Value>In fact... someone strong like you should be on our side. These New Levant tyrants running the city clearly don't care about the people. We should be working to overthrow them and bring back the rightful heirs to the region.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Player_Dawne_HK_Corsairs_a_02</Key>
+    <Value>You're from Old Levant, I take it?</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Dawne_HK_Corsairs_03</Key>
+    <Value>And proud of it. We may have been reduced to scavengers picking at bones, but we have never forgotten our Abrassar Plains Pride.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Player_Dawne_HK_Corsairs_b_02</Key>
+    <Value>Where did you get that food?</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Dawne_HK_Corsairs_04</Key>
+    <Value>If I’m feeding people with it, does it matter where I got it?</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Player_Dawne_HK_Corsairs_a_04</Key>
+    <Value>How does some silver for that &lt;color=#00CCFF&gt;&lt;b&gt;information&lt;/b&gt;&lt;/color&gt; sound? That could buy some of the people here a decent meal.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Dawne_HK_Corsairs_05</Key>
+    <Value>How much silver are we talking about, here?</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Player_Dawne_HK_Corsairs_a_05</Key>
+    <Value>10 silvers, start talking.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Player_Dawne_HK_Corsairs_b_05</Key>
+    <Value>50 silvers. Where do you get the food?</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Player_Dawne_HK_Corsairs_c_05</Key>
+    <Value>100 silvers. It’ll be our secret.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Player_Dawne_HK_Corsairs_d_05</Key>
+    <Value>I don’t think I have enough to convince you. Sorry that I asked.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Dawne_HK_Corsairs_06</Key>
+    <Value>That could buy a lot of people things they need... Alright, you don’t seem like a bad person, I’ll talk. I get the food from some &lt;color=#00CCFF&gt;&lt;b&gt;Blue Chamber guys holed up in some old ruins&lt;/b&gt;&lt;/color&gt;.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Dawne_HK_Corsairs_07</Key>
+    <Value>Here, in case you end up in trouble, use this. I’d hate for my new friend to get killed before we meet again.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Dawne_HK_Corsairs_08</Key>
+    <Value>50? Alright, fair is fair. There’s some guys squatting in some &lt;color=#00CCFF&gt;&lt;b&gt;ruins&lt;/b&gt;&lt;/color&gt; not far from the city. I don’t know how they get it and I don’t care.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Dawne_HK_Corsairs_09</Key>
+    <Value>Eh, there’s some ruins out there in the desert I get ‘em from, that’s pretty much it.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Dawne_HK_Corsairs_10</Key>
+    <Value>I know about you. You’re the one who got most of my friends killed. You watch your back in the night. Someone might stick a dagger in it.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Dawne_HK_Corsairs_11</Key>
+    <Value>You’re the one who arrested Zagis... I’m not sure I can forgive you, but I’m glad you spared the rest of Old Levant. Maybe we’ll have our day in the sun again because of you.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Dawne_HK_Corsairs_12</Key>
+    <Value>So you beat the Corsairs, good for you. But if you think Old Levant is dead, you’re wrong. We’ll return to our rightful place in the sun before long, you’ll see.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Dawne_HK_Corsairs_13</Key>
+    <Value>You look tough, but unless you’re opposed to those glorified troglodytes in the palace, I don’t much care for you.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Duelguy_HK_Corsairs_01</Key>
+    <Value>Sorry, I’ve got nothing for you right now. If you’re in the mood for a little blood sport, come around in a bit, I might have room for ya.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Duelguy_HK_Corsairs_02</Key>
+    <Value>Ooh, you look tough. Looking to wager some silver on a fight? I’ve got an opening I need to fill. One of my usual guys got eaten by a bug out there.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Player_Duelguy_HK_Corsairs_a_02</Key>
+    <Value>You seem shady enough. I'm looking for some information.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Duelguy_HK_Corsairs_03</Key>
+    <Value>&lt;color=#00CCFF&gt;&lt;b&gt;If you want something from me, you'll earn it in the ring&lt;/b&gt;&lt;/color&gt;. I run a fight club under the city. Entry fee for one round is 50 silver. If you can beat me, I'll consider talking.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Duelguy_HK_Corsairs_04</Key>
+    <Value>Ouch. You don't pull your punches, do you? Alright, a deal is a deal. What did you want to know?</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Player_Duelguy_HK_Corsairs_a_04</Key>
+    <Value>Tell me where I can find the Sand Corsairs.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Duelguy_HK_Corsairs_05</Key>
+    <Value>Whoa whoa whoa, no deal. They'd slit my throat in my sleep if I ratted on them!</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Player_Duelguy_HK_Corsairs_a_05</Key>
+    <Value>Tell me or I’ll be the one slitting your throat. Cyrene will pardon me for anything I have to do to get this information.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Player_Duelguy_HK_Corsairs_b_05</Key>
+    <Value>Maybe I should ask Cyrene to interrogate you, then.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Player_Duelguy_HK_Corsairs_c_05</Key>
+    <Value>I could just spread the word that you leaked their location, and they’d kill you anyway.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Duelguy_HK_Corsairs_06</Key>
+    <Value>They're bad people, so I'll just tell you. They keep their operations really tight, so I don't know where they operate from. But I do know that the food the Corsairs are drip-feeding into the slums comes from an &lt;color=#00CCFF&gt;&lt;b&gt;old ruined tower&lt;/b&gt;&lt;/color&gt;.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Duelguy_HK_Corsairs_07</Key>
+    <Value>And get this, those guys are from the Blue Chamber Collective. One of those guys fought here the other day and I swear, clear as day, he had the Sutherland Family Crest tattooed on his shoulder.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Duelguy_HK_Corsairs_08</Key>
+    <Value>So, uhh... good luck with that. I’m getting out of here before someone comes to find me.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Duelguy_HK_Corsairs_09</Key>
+    <Value>You want a rematch, pal?</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Player_Duelguy_HK_Corsairs_b_02</Key>
+    <Value>Not interested, sorry.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Player_Duelguy_HK_Corsairs_a_03</Key>
+    <Value>Ok, let’s do it.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Duelguy_HK_Corsairs_10</Key>
+    <Value>Alright, come find me down there, and put on a good show, eh?</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Duelguy_HK_Corsairs_11</Key>
+    <Value>If you’re looking for the old fight club, it’s been closed down. Cyrene got wind of it. I’ve gone legit now, honest! I’m just a simple cactus farmer these days, I swear!</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Scout_HK_Corsairs_01</Key>
+    <Value>Halt! State your business... here? I remember you. That trog spawn from Cierzo with the Blood Price. What are you doing here?</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Player_Scout_HK_Corsairs_a_01</Key>
+    <Value>I should be asking that. What's a Blue Chamber tribesman doing working with the Sand Corsairs?</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Scout_HK_Corsairs_02</Key>
+    <Value>None of your business. Now, you will turn around and walk away. We have orders to kill anyone who interferes with our operation, and I'd rather not spill the blood of someone from my old hometown.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Player_Scout_HK_Corsairs_a_02</Key>
+    <Value>You WILL tell me where the Sand Corsairs operate from, or things will get violent.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Scout_HK_Corsairs_03</Key>
+    <Value>They’re hiding in the &lt;color=#00CCFF&gt;&lt;b&gt;Old Levant ruins&lt;/b&gt;&lt;/color&gt;, with an army of warriors. &lt;color=#00CCFF&gt;&lt;b&gt;You can’t possibly stop them alone&lt;/b&gt;&lt;/color&gt;. And now, we have to kill you. May your ancestors forgive us.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Player_Scout_HK_Corsairs_b_02</Key>
+    <Value>I'm invoking a Tribal Favor. Tell me what I need to know. People are starving to death.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Scout_HK_Corsairs_04</Key>
+    <Value>I may be on an unsanctioned mission behind enemy lines, but I remember my duty to the Collective. A Tribal Favor must always be recognized. Fine. Even someone like Sagard should be able to understand.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Player_Scout_HK_Corsairs_c_02</Key>
+    <Value>Oh look, 100 silver just fell out of my pockets. Enough to buy you a place away from this awful desert.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Scout_HK_Corsairs_05</Key>
+    <Value>This could buy our troops a lot of much-needed weapons... fine. I don't like what the Corsairs are doing, so I'll trade your silver for what I know. Sagard won't be happy, but he'll understand.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Scout_HK_Corsairs_06</Key>
+    <Value>The Corsairs loot incoming food caravans, and then give us some of the food to deliver to the Slums. The idea was to starve Levant, and use offers of food to try to push the slum people into open revolt.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Scout_HK_Corsairs_07</Key>
+    <Value>The Sand Corsairs are operating out of the ruins of Old Levant. &lt;color=#00CCFF&gt;&lt;b&gt;It's that old ruined city under Abrassar's Vigil crystal&lt;/b&gt;&lt;/color&gt;. Not that it'll do you any good, &lt;color=#00CCFF&gt;&lt;b&gt;you could never take the place on your own&lt;/b&gt;&lt;/color&gt;.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Scout_HK_Corsairs_08</Key>
+    <Value>There are dozens of men there, and it's been camouflaged by some Soroboreans as an archaeology site. Even if you could get past them, the Corsairs have an army in there. It's a deathtrap if anyone goes in alone.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Player_Scout_HK_Corsairs_a_08</Key>
+    <Value>Sounds like I need backup then. Thank you for the information.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Scout_HK_Corsairs_09</Key>
+    <Value>Don’t thank me. We may have found an arrangement, but until the boss calls us off, we’re enemies.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Scout_HK_Corsairs_10</Key>
+    <Value />
+  </Dialogue>
+  <Dialogue>
+    <Key>Scout_HK_Corsairs_11</Key>
+    <Value />
+  </Dialogue>
+  <Dialogue>
+    <Key>Scout_HK_Corsairs_12</Key>
+    <Value />
+  </Dialogue>
+  <Dialogue>
+    <Key>Scout_HK_Corsairs_13</Key>
+    <Value />
+  </Dialogue>
+  <Dialogue>
+    <Key>Yzan_HK_Corsairs_01</Key>
+    <Value>I don’t believe this. I come home after a string of victories against the Blue Chamber Collective, only to find Levant besieged by bandits! I’m not leaving here until these Sand Corsairs are in a nice sandy grave!</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Player_Yzan_HK_Corsairs_a_01</Key>
+    <Value>The Sand Corsairs are hiding in the Old Levant Ruins. Some Soroboreans are camouflaging the whole thing as an archaeology expedition.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Yzan_HK_Corsairs_02</Key>
+    <Value>What?! Why in Elatt’s name would Sorobor be helping them? Great, how do we raid the place without triggering a diplomatic incident?</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Player_Yzan_HK_Corsairs_a_02</Key>
+    <Value>You still have some merchant contacts, right? We need camouflage of our own to get inside...</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Yzan_HK_Corsairs_03</Key>
+    <Value>Aha! I see your plan. You want me to dress some troops up as merchants and weasel in with no one the wiser!</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Player_Yzan_HK_Corsairs_a_03</Key>
+    <Value>Yup, that's the plan. Can you do it?</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Yzan_HK_Corsairs_04</Key>
+    <Value>Not a bad plan... There’s one problem. Cyrene told me that Old Levant is connected to an old cave system. &lt;color=#00CCFF&gt;&lt;b&gt;"The Slide"&lt;/b&gt;&lt;/color&gt;, she called it. If we go in the front, it's possible that the Corsairs will sneak out back using the tunnel.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Player_Yzan_HK_Corsairs_a_04</Key>
+    <Value>I can try going in from the tunnel to cut them off.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Player_Yzan_HK_Corsairs_b_04</Key>
+    <Value>Easy, you go in the front, I'll take the tunnel. Divide and conquer.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Yzan_HK_Corsairs_05</Key>
+    <Value>That should work. If they try to escape, the Slide is narrow enough that one or two warriors would be more than enough to hold it. I’ll gather some troops and put the plan into motion.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Yzan_HK_Corsairs_06</Key>
+    <Value>One entrance is a cave near some marooned ships not far from &lt;color=#00CCFF&gt;&lt;b&gt;Abrassar's Vigil crystal&lt;/b&gt;&lt;/color&gt;. Here, I took this &lt;color=#00CCFF&gt;&lt;b&gt;key&lt;/b&gt;&lt;/color&gt; from a Corsair I killed the other day. I think it might be for &lt;color=#00CCFF&gt;&lt;b&gt;one of the doors inside the Slide&lt;/b&gt;&lt;/color&gt;. You may need it.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Yzan_HK_Corsairs_07</Key>
+    <Value>I can’t believe you got that bastard to surrender. You must have a silver tongue, [PlayerName]!</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Yzan_HK_Corsairs_08</Key>
+    <Value>Excellent work today, [PlayerName]. With their leader dead, it’s only a matter of time before we’ve cleaned out the rest of these criminals. The Sand Corsairs and Old Levant will be a distant memory before long.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Yzan_HK_Corsairs_12</Key>
+    <Value>I don’t believe this! The leader of these murderous criminals got away before we even got here! We may have crushed the Corsairs here today, but with that bastard still alive, they'll be back!</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Yzan_HK_Corsairs_09</Key>
+    <Value>The question remains, what do we do about this man? He’s a Soroborean banker who was funding the entire operation. He could easily be the brains behind it all.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Yzan_HK_Corsairs_10</Key>
+    <Value>You still went along with their unhinged plans. You’re still a war criminal as far as I’m concerned. I think we ought to make an example of you. Cyrene, do we give him the firing squad or hanging?</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Yzan_HK_Corsairs_11</Key>
+    <Value>Well, I guess that wraps this mission up. Report to Cyrene over there and we can call it a day.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Yzan_HK_Corsairs_13</Key>
+    <Value />
+  </Dialogue>
+  <Dialogue>
+    <Key>Yzan_HK_Corsairs_14</Key>
+    <Value />
+  </Dialogue>
+  <Dialogue>
+    <Key>Clayton_HK_Corsairs_01</Key>
+    <Value>If you want the real culprits, point your fingers at Sagard Battleborn of the Blue Chamber, and at Zagis himself. All I did was keep things running smoothly.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Clayton_HK_Corsairs_02</Key>
+    <Value />
+  </Dialogue>
+  <Dialogue>
+    <Key>Clayton_HK_Corsairs_03</Key>
+    <Value>Hold up there a minute! Do you think Sorobor will take the execution of one of their most rich and reputable bankers lightly? We’re the only way to get supplies through the desert. Kill me, and you kill Levant itself.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Player_Clayton_HK_Corsairs_a_03</Key>
+    <Value>I don't think Sorobor would be happy if this scandal went public, though. They might arrange for you to disappear to save their reputation.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Clayton_HK_Corsairs_04</Key>
+    <Value>Ah, I see. You want a &lt;color=#00CCFF&gt;&lt;b&gt;personal favor&lt;/b&gt;&lt;/color&gt; in exchange for your silence. Very well, you’re not the first to blackmail me. What kind of favor are we talking about?</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Player_Clayton_HK_Corsairs_a_04</Key>
+    <Value>Double your food deliveries to Levant, at a quarter of the price. People are starving to death.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Clayton_HK_Corsairs_05</Key>
+    <Value>Ouch. You drive a hard bargain, but I don't really have a choice, do I? I'll see that it's done. At least, until the war is over.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Player_Clayton_HK_Corsairs_b_04</Key>
+    <Value>The best kind of favor. The kind we get to decide on whenever we need it.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Clayton_HK_Corsairs_06</Key>
+    <Value>Very well. &lt;color=#00CCFF&gt;&lt;b&gt;If you need my extensive finances, just drop my name, and I'll handle it for you&lt;/b&gt;&lt;/color&gt;. As long as you don't tell Sorobor what I was doing, my word is gold.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Clayton_HK_Corsairs_07</Key>
+    <Value>Alright, alright. Stop waving that weapon around, I’ll come quietly!</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Clayton_HK_Corsairs_08</Key>
+    <Value>What’s with the look? I always keep up my end of a bargain, you have nothing to worry about.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Zagis_HK_Corsairs_01</Key>
+    <Value>Bow, Levantine rat. For you stand before the rightful king of Abrassar! I am Zagis, Chamberlord of Old Levant, lord of the Sand Corsairs.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Player_Zagis_HK_Corsairs_a_01</Key>
+    <Value>So you're the leader of these murderous thugs.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Zagis_HK_Corsairs_02</Key>
+    <Value>I do what I must in order to restore the rightful legacy of the Abrassar plains. Elatt gave away what he had no right to! Just because Calixa and Simeon slew the Devourer does not mean my people should surrender what is ours by right!</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Player_Zagis_HK_Corsairs_a_02</Key>
+    <Value>Your people abandoned Abrassar to the Scourge. Maybe it’s someone else’s turn to run things.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Player_Zagis_HK_Corsairs_b_02</Key>
+    <Value>Being recognized as the rulers of Abrassar means so much to you, that you’ll turn your people into bandits and murderers?</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Zagis_HK_Corsairs_03</Key>
+    <Value>They don’t even recognize the laws of the Blue Chamber! Without rigid tribal law, there is no hope for survival! </Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Player_Zagis_HK_Corsairs_a_03</Key>
+    <Value>Levant seems to have survived pretty well without them, before you started trying to starve them to death and murdering traders.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Player_Zagis_HK_Corsairs_b_03</Key>
+    <Value>You’re just scared of change. So scared you turned Old Levant from tribes to be respected into a band of murdering bandits.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Zagis_HK_Corsairs_04</Key>
+    <Value>That may be true. But it was all I could do to keep the flame of Old Levant alive. I will not be the one to extinguish that legacy! I would rather die than let Old Levant be destroyed!</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Player_Zagis_HK_Corsairs_a_04</Key>
+    <Value>Then surrender honorably. Take responsibility for your actions, and end this conflict before your people end up slaughtered!</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Zagis_HK_Corsairs_05</Key>
+    <Value>... You’re right. I don’t want to admit it, but you’re right. There is no point in championing the ideals of Old Levant if there is no one left to look up to them. &lt;color=#00CCFF&gt;&lt;b&gt;I will surrender. I will call off my warriors&lt;/b&gt;&lt;/color&gt;.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Player_Zagis_HK_Corsairs_b_04</Key>
+    <Value>Then the only way my people will be safe is to kill you. Defend yourself, Zagis!</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Zagis_HK_Corsairs_06</Key>
+    <Value />
+  </Dialogue>
+  <Dialogue>
+    <Key>Zagis_HK_Corsairs_07</Key>
+    <Value />
+  </Dialogue>
+  <Dialogue>
+    <Key>Calixia_HK_Corsairs_01</Key>
+    <Value>Ah, you. Levant needs your help. Cyrene will have all the details for you. Until these Sand Corsairs are dealt with, the fate of Levant is balanced on a knife’s edge. If Sirocco were to stop sending us food...</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Simeon_HK_Corsairs_01</Key>
+    <Value>If Calixa and I weren’t tied up with royal duties or the war, we’d deal with those damned brigands ourselves. I miss being out in the field, making a difference. I haven’t had a good fight since we killed the Devourer, and that was decades ago!</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>SoroborGuard_HK_Corsairs_01</Key>
+    <Value>Sorry, no visitors around the excavation site! There are delicate historical artifacts being unearthed, and we can’t risk theft or damage. Please, wait for us to complete our work.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Player_SoroborGuard_HK_Corsairs_a_01</Key>
+    <Value>What exactly are you excavating?</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>SoroborGuard_HK_Corsairs_02</Key>
+    <Value>These are the remains of the old capital of Abrassar, before the Scourge erupted. They’re full of ancient history that we’re working to preserve. The bandits that used to hide out here have already ruined a great deal of it.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>SoroborGuard_HK_Corsairs_03</Key>
+    <Value />
+  </Dialogue>
+  <Dialogue>
+    <Key>SoroborGuard_HK_Corsairs_04</Key>
+    <Value />
+  </Dialogue>
+  <Dialogue>
+    <Key>SoroborGuard_HK_Corsairs_05</Key>
+    <Value />
+  </Dialogue>
+  <Dialogue>
+    <Key>SoroborGuard_HK_Corsairs_06</Key>
+    <Value />
+  </Dialogue>
+  <Dialogue>
+    <Key>SoroborGuard_HK_Corsairs_07</Key>
+    <Value />
+  </Dialogue>
+  <Dialogue>
+    <Key>SoroborGuard_HK_Corsairs_08</Key>
+    <Value />
+  </Dialogue>
+  <Dialogue>
+    <Key>SoroborGuard_HK_Corsairs_09</Key>
+    <Value />
+  </Dialogue>
+  <Dialogue>
+    <Key>Cyrene_MouthFeed_01</Key>
+    <Value>You've made an impression on Simeon and Calixa, [PlayerName]. They’ve expressed an interest in sponsoring you personally. You’ll be getting your &lt;color=#00CCFF&gt;&lt;b&gt;jobs from them from now on&lt;/b&gt;&lt;/color&gt;. Congratulations.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Cyrene_MouthFeed_02</Key>
+    <Value>You’re off to the Hallowed Marsh are you? Best of luck. We’re counting on you and Kirouac, [PlayerName]. We’ll handle the war on our end.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Player_Cyrene_MouthFeed_a_02</Key>
+    <Value>How goes the war?</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Cyrene_MouthFeed_03</Key>
+    <Value>Badly. We were crushing the Blue Chamber before, but now... they’ve doubled their army’s size! We’re being forced back by sheer numbers. An attack on Abrassar could come at any time…</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Cyrene_MouthFeed_04</Key>
+    <Value>I’m impressed. Kirouac came home and was singing your praises. Levant lives to fight another day. Now, it’s time to truly take the fight to the Blue Chamber.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Cyrene_MouthFeed_05</Key>
+    <Value>Dammit, dammit, dammit. Bad enough we have to fight the Blue Chamber tribes, but to have to put down a slum revolt... Because of them, we were forced to spill our own people’s blood. I will never forgive them for this.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Calixia_MouthFeed_01</Key>
+    <Value>Thank you for coming, [PlayerName]. Levant is in grave danger. Not only has the war turned against us, but we face imminent famine. We need a mercenary who can get things done.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Calixia_MouthFeed_02</Key>
+    <Value>Disaster has struck Sirocco. They can no longer send food to Levant. Without the steady supply of goods from their region, &lt;color=#00CCFF&gt;&lt;b&gt;it's only a matter of time before starvation begins&lt;/b&gt;&lt;/color&gt;. We need a new food source.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Calixia_MouthFeed_03</Key>
+    <Value>&lt;color=#00CCFF&gt;&lt;b&gt;The city of Monsoon in the Hallowed Marsh&lt;/b&gt;&lt;/color&gt; has offered to supply us, but the small amount of bread and dried meat isn't enough. Yet, everything else perishes on the desert journey...</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Calixia_MouthFeed_04</Key>
+    <Value>Kirouac has gone to Monsoon to &lt;color=#00CCFF&gt;&lt;b&gt;work with their alchemist, Laine Aberforth&lt;/b&gt;&lt;/color&gt; to find some kind of food that might last long enough to survive the journey. Do anything you can to make this work.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Calixia_MouthFeed_05</Key>
+    <Value>We have enough food to last about a month. After that, there won't be enough to keep everyone in the slums fed.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Calixia_MouthFeed_06</Key>
+    <Value>I've heard you've done a lot to help the slums! Right now they have a steady food supply, and enough rations to last about a month and a half before our shortages become extreme.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Calixia_MouthFeed_07</Key>
+    <Value>Levant's survival is on the line. Make it happen. &lt;color=#00CCFF&gt;&lt;b&gt;Find Kirouac and Laine in Monsoon&lt;/b&gt;&lt;/color&gt; as soon as you can.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Player_Calixia_MouthFeed_a_07</Key>
+    <Value>I’ll do it. Take care of Levant while I’m gone.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Player_Calixia_MouthFeed_b_07</Key>
+    <Value>Can you do anything to help me?</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Calixia_MouthFeed_08</Key>
+    <Value>Unfortunately, the war has ravaged our treasury. We cannot afford to give you any support. I'm sorry.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Calixia_MouthFeed_09</Key>
+    <Value>[PlayerName]! You're a miracle worker! The first shipment of Marshmelons showed up right before you did!</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Calixia_MouthFeed_10</Key>
+    <Value>We managed to avert disaster completely because of your efforts. As far as I'm concerned, you have more than risen to the ideals of the Heroic Kingdom.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Calixia_MouthFeed_11</Key>
+    <Value>Sadly, it comes too late for many people. Our supplies of food were so depleted that they had to be severely rationed while you were gone. The slums went into open revolt. There's... no one left.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Calixia_MouthFeed_12</Key>
+    <Value>Dammit... I should have done something more... Sent more people, more money, something. I've failed my people.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Calixia_MouthFeed_13</Key>
+    <Value>We will call on you again when we have a task that needs your talents. In the meantime, we have a war to deal with.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Player_Calixia_MouthFeed_a_13</Key>
+    <Value>The moment Levant needs me, send word.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Calixia_MouthFeed_14</Key>
+    <Value>That we shall, [PlayerName]. You have earned our trust.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Player_Calixia_MouthFeed_b_13</Key>
+    <Value>I want to fight on the front lines too!</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Calixia_MouthFeed_15</Key>
+    <Value>Talent such as yours would be wasted out there. Canon fodder rarely makes a difference. But here, you’ve proven you can do more than five men. </Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Calixia_MouthFeed_16</Key>
+    <Value>We may have a task for you in the near future, [PlayerName]. One of our allies is teetering on the brink of ruin. If they fall, we will be in dire need of your service!</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Calixia_MouthFeed_17</Key>
+    <Value>I’m sorry, [PlayerName], but a lot of things weigh on my mind. &lt;color=#00CCFF&gt;&lt;b&gt;The murder of my youngest son remains unsolved&lt;/b&gt;&lt;/color&gt;, and I fear that the one responsible will strike again. I cannot rest until the one responsible is &lt;color=#00CCFF&gt;&lt;b&gt;brought to justice&lt;/b&gt;&lt;/color&gt;.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Player_Calixia_MouthFeed_a_17</Key>
+    <Value>I’ll look into it, your highness.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Player_Calixia_MouthFeed_b_17</Key>
+    <Value>I’m sure Cyrene will catch the culprit. Is there anything else that I can do to help Levant?</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Calixia_MouthFeed_18</Key>
+    <Value>Oh, by the way, Kirouac told me that during his experimentation he created a mixture that seems to permanently increase one's strength. He wanted you to have it. He also said to drink it straight away before it spoiled.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Calixia_MouthFeed_19</Key>
+    <Value />
+  </Dialogue>
+  <Dialogue>
+    <Key>Calixia_MouthFeed_20</Key>
+    <Value />
+  </Dialogue>
+  <Dialogue>
+    <Key>Simeon_MouthFeed_01</Key>
+    <Value>I've just returned from a sortie with our troops fighting the Blue Chamber Collective. We’re taking a pounding out there. Their army has nearly doubled in size over the past month. I don't understand how they did it.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Simeon_MouthFeed_02</Key>
+    <Value>And now Sirocco can't supply us any more. This is a horrendous one-two punch to the Heroic Kingdom!</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Simeon_MouthFeed_03</Key>
+    <Value>Hey! If it isn't [PlayerName]! Bringer of Marshmelons! We should make that your official title!</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Player_Simeon_MouthFeed_a_03</Key>
+    <Value>Please don't.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Player_Simeon_MouthFeed_b_03</Key>
+    <Value>Not bad. I want it printed on my tunic.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Simeon_MouthFeed_04</Key>
+    <Value>Hey now, I’m just joking!</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Simeon_MouthFeed_05</Key>
+    <Value>Ugh. Nothing is worse than having to fight your own people. But they didn't really leave me much of a choice.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Simeon_MouthFeed_06</Key>
+    <Value>I'll second that. Slaying some massive beast is always impressive to talk about, but saving so many lives from famine is a much nobler deed.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Simeon_MouthFeed_07</Key>
+    <Value>Thank you for your efforts. As king of Levant, I have a gift from our armory. You have more than earned it for your hard work, [PlayerName].</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Simeon_MouthFeed_08</Key>
+    <Value>We did the best we could, Calixa. If I didn't put down the slum revolt, they would have sacked and burned the city. It's a tragedy, but there's nothing more we could have done.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Simeon_MouthFeed_09</Key>
+    <Value>Either way, Levant lives to fight another day because of your help, [PlayerName]. You deserve a reward.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Simeon_MouthFeed_10</Key>
+    <Value />
+  </Dialogue>
+  <Dialogue>
+    <Key>Kirouac_MouthFeed_01</Key>
+    <Value>Ah, [PlayerName]! My hero! Good to see you again! I'm glad Calixa sent you to help.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Kirouac_MouthFeed_02</Key>
+    <Value>Ah, [PlayerName]! I was expecting you.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Kirouac_MouthFeed_03</Key>
+    <Value>Laine and I have begun our work. So far, it's not promising. The best option we have is the Marshmelon. If we could transport these to Levant, we would solve our famine overnight. But they dont last long enough to survive the trip.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Kirouac_MouthFeed_04</Key>
+    <Value>&lt;color=#00CCFF&gt;&lt;b&gt;Speak with Laine&lt;/b&gt;&lt;/color&gt;, he'll tell you what we need in order to continue our work.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Playe_Kirouac_MouthFeed_a_04</Key>
+    <Value>So, you're an alchemist, Kirouac?</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Kirouac_MouthFeed_05</Key>
+    <Value>Yes. But this is proving to be a very tricky problem. Nothing seems to work. Salt is useless, drying Marshmelons just makes them rot faster, cold flames ruin it... I'm at my wit's end, [PlayerName].</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Kirouac_MouthFeed_06</Key>
+    <Value>Let me know &lt;color=#00CCFF&gt;&lt;b&gt;how it goes with the Soroborean merchant&lt;/b&gt;&lt;/color&gt;, eh, [PlayerName]? I won’t get my hopes up. Laine’s plan is beyond the realm of practicality…</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Kirouac_MouthFeed_07</Key>
+    <Value>I can’t believe you made this work. I’ll &lt;color=#00CCFF&gt;&lt;b&gt;go home&lt;/b&gt;&lt;/color&gt; with the first Marshmelon delivery. I want to personally make sure your hard work pans out.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Kirouac_MouthFeed_08</Key>
+    <Value />
+  </Dialogue>
+  <Dialogue>
+    <Key>Kirouac_MouthFeed_09</Key>
+    <Value />
+  </Dialogue>
+  <Dialogue>
+    <Key>Kirouac_MouthFeed_10</Key>
+    <Value />
+  </Dialogue>
+  <Dialogue>
+    <Key>Player_LaineAberforth_MouthFeed_a_00</Key>
+    <Value>I’m here to talk about Levant’s food shortage.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>LaineAberforth_MouthFeed_01</Key>
+    <Value>You're the one Levant sent to help us? Good, I could use a hand. I’ve almost used my entire stock of Marshmelons in my experiments, and there’s a really tricky ingredient that I need brought in.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>LaineAberforth_MouthFeed_01b</Key>
+    <Value>Did you bring the ingredients I need? &lt;color=#00CCFF&gt;&lt;b&gt;I need 5 raw Marshmelons and a Phytosaur’s Horn&lt;/b&gt;&lt;/color&gt;.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Player_LaineAberforth_MouthFeed_a_01</Key>
+    <Value>I’ve got your ingredients. Elatt’s breath, they’re heavy.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Player_LaineAberforth_MouthFeed_b_01</Key>
+    <Value>I’m still looking for them.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>LaineAberforth_MouthFeed_02</Key>
+    <Value>I've got about one possible solution left, and to test it, &lt;color=#00CCFF&gt;&lt;b&gt;I’m going to need 5 marshmelons and 1 Phytosaur horn&lt;/b&gt;&lt;/color&gt;. You’ll recognize them by their 4 legs and the ferns on their back.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>LaineAberforth_MouthFeed_02b</Key>
+    <Value>The Marshmelons shouldn’t be too hard to find, although they’re pretty heavy. As for the Phytosaur horn, if you can’t find one out in the swamp, you may have better luck underground.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>LaineAberforth_MouthFeed_03</Key>
+    <Value>A Phytosaur horn! Yes, perfect, thank you! Now, I just need to soak the plant in a mixture with this overnight and hope for the best. If I'm right, this should fool the Marshmelon plant into thinking it's still growing in the swamp.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>LaineAberforth_MouthFeed_04</Key>
+    <Value>&lt;color=#00CCFF&gt;&lt;b&gt;Come back in about 12 hours&lt;/b&gt;&lt;/color&gt;, alright? In the meantime, I’ll work on a few other ideas Kirouac had, although I have my doubts about them.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>LaineAberforth_MouthFeed_04-b</Key>
+    <Value>If my hunch is right, &lt;color=#00CCFF&gt;&lt;b&gt;we may need to ask the Soroboreans for help&lt;/b&gt;&lt;/color&gt; and it can’t be cheap... Try to &lt;color=#00CCFF&gt;&lt;b&gt;scrounge up some extra coin in the meantime&lt;/b&gt;&lt;/color&gt; .</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>LaineAberforth_MouthFeed_05</Key>
+    <Value>Success. That Phytosaur horn’s toxin was the key. I finally found one viable option to bring Marshmelons to Levant, but it's downright crazy.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>LaineAberforth_MouthFeed_06</Key>
+    <Value>If we manage to uproot entire Marshmelon plants, and keep them submerged in marsh dirt and a mixture of water and boiled Phytosaur horn toxin all the way to Levant, we might be able to bring them before they spoil.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Player_LaineAberforth_MouthFeed_a_06</Key>
+    <Value>Do you have any idea how heavy and large those plants are? How can we move entire Marshmelon plants as far as Levant?</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>LaineAberforth_MouthFeed_07</Key>
+    <Value>We'll have to &lt;color=#00CCFF&gt;&lt;b&gt;ask a Soroborean merchant&lt;/b&gt;&lt;/color&gt;. They're the only ones with the resources to haul something so gigantic. I hope your pockets are deep, my friend, this won’t run you cheap.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>LaineAberforth_MouthFeed_08</Key>
+    <Value>I’ve done all I can, &lt;color=#00CCFF&gt;&lt;b&gt;you’ll need to speak with a Soroborean to handle the rest&lt;/b&gt;&lt;/color&gt;. I’ll keep improving the Phytosaur Horn preservation formula.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>LaineAberforth_MouthFeed_09</Key>
+    <Value>Well, we did the best we could. This should work, although I’m still crossing my fingers that it holds out for the whole trip. It’s a long, long &lt;color=#00CCFF&gt;&lt;b&gt;journey to Levant&lt;/b&gt;&lt;/color&gt;.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>LaineAberforth_MouthFeed_10</Key>
+    <Value>I’m still working on it, [PlayerName]. Come back later.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>LaineAberforth_MouthFeed_11</Key>
+    <Value />
+  </Dialogue>
+  <Dialogue>
+    <Key>LaineAberforth_MouthFeed_12</Key>
+    <Value />
+  </Dialogue>
+  <Dialogue>
+    <Key>LaineAberforth_MouthFeed_13</Key>
+    <Value />
+  </Dialogue>
+  <Dialogue>
+    <Key>LaineAberforth_MouthFeed_14</Key>
+    <Value />
+  </Dialogue>
+  <Dialogue>
+    <Key>LaineAberforth_MouthFeed_15</Key>
+    <Value />
+  </Dialogue>
+  <Dialogue>
+    <Key>Soroborean_MouthFeed_00</Key>
+    <Value>Yes, I heard about that. Sadly, I don’t think there’s much more we can do. The journey there is much too long to bring the amount of food they need.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Player_Soroborean_MouthFeed_a_00</Key>
+    <Value>I need Sorobor to deliver entire Marshmelon plants to Levant.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Soroborean_MouthFeed_01</Key>
+    <Value>Ahahaha! Ahahaha, I'm sorry, for a second I thought you just asked me if we could deliver entire Marshmelon plants to Levant! That's a good one!</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Soroborean_MouthFeed_02</Key>
+    <Value>Elatt's name you're not joking... Give me a minute, I need to speak with some people about this.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Soroborean_MouthFeed_03</Key>
+    <Value>Listen, [PlayerName], I've spoken with my contacts about this and we all agree, this is insanity. Do you have any idea how hard it is to dig up massive swamp plants, plus keep them alive crossing a desert?! Have you lost your mind?</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Player_Soroborean_MouthFeed_a_03</Key>
+    <Value>Levant's survival depends on it.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Soroborean_MouthFeed_04</Key>
+    <Value>I had a feeling that was the case, but the price to set this up is out of your range. That said, you're the adventurous type, aren't you? There is something you can do that we'd consider a fair trade.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Soroborean_MouthFeed_05</Key>
+    <Value>There's an &lt;color=#00CCFF&gt;&lt;b&gt;ancient peace treaty that was written on a stone tablet&lt;/b&gt;&lt;/color&gt; shortly after the scourge. Old Language on one side, New Language on the other. It could effectively be used to translate things written in the Old Language.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Soroborean_MouthFeed_06</Key>
+    <Value>A "Rosetta Stone", if you know Aurai's ancient history. That would be an incredible boon to Sorobor's interests. &lt;color=#00CCFF&gt;&lt;b&gt;Bring it to us, and we'll help you&lt;/b&gt;&lt;/color&gt; with your Marshmelon business.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Player_Soroborean_MouthFeed_a_06</Key>
+    <Value>And what's the catch?</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Soroborean_MouthFeed_07</Key>
+    <Value>The catch is that the Tablet is in the possession of the Light Mender. That Lich who lives in the &lt;color=#00CCFF&gt;&lt;b&gt;Spire in the South-West of the swamp&lt;/b&gt;&lt;/color&gt;. And he doesn't want to share it.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Player_Soroborean_MouthFeed_a_07</Key>
+    <Value>You want me to steal from a Lich? That's the only way?</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Soroborean_MouthFeed_08</Key>
+    <Value>Yes. Arm yourself well, the Light Mender is especially hostile. His spire is guarded with minions made of light and specters... and they spit lightning! Be wary, and avoid a fight with him.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Player_Soroborean_MouthFeed_b_07</Key>
+    <Value>A Lich's stone tablet. Steal it. No problem.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Soroborean_MouthFeed_09</Key>
+    <Value>I can't tell how much of that is bravado and how much is your ignorance. Risking the fury of an immortal Lich is nothing like bopping a troglodyte on the head. Avoid fighting him if you can.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Soroborean_MouthFeed_10</Key>
+    <Value>You got it. I don't know how you did it, but you got it. Well done. I've spoken with Laine about what we need to do, and it seems feasible, but barely. I've got just about everything set up.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Soroborean_MouthFeed_11</Key>
+    <Value>Unfortunately my contacts and favors are all tapped out. &lt;color=#00CCFF&gt;&lt;b&gt;I need another investment of 300 silver&lt;/b&gt;&lt;/color&gt; to wrap this up and get started, but I'm out of places to borrow the money. A lot of people went all in on this plan.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Player_Soroborean_MouthFeed_a_11</Key>
+    <Value>Here’s your 300 silver. Make it happen.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Soroborean_MouthFeed_12</Key>
+    <Value>Thank you! Alright, with this I can finance the last step of the process! Your first shipment of Marshmelon plants &lt;color=#00CCFF&gt;&lt;b&gt;will be in Levant&lt;/b&gt;&lt;/color&gt; in a matter of days!</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Soroborean_MouthFeed_13</Key>
+    <Value>I'll send a courier to Levant to let them know they no longer need to worry about the famine and can stop rationing their food.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Player_Soroborean_MouthFeed_b_11</Key>
+    <Value>Tell Clayton that [PlayerName] is calling in a favor. I think you'll find that he will be willing to help finance this little business venture.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Soroborean_MouthFeed_14</Key>
+    <Value>Ahhhh, yes, he told me about you. He said to give you the preferential treatment if you needed anything big. Heh, you must have something really good on him. I'll send him the bill.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Player_Soroborean_MouthFeed_c_11</Key>
+    <Value>I'll go find the money, I'll be back.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Soroborean_MouthFeed_15</Key>
+    <Value>Good, let me know as soon as you have enough. The containers and specialized wagon are ready, the preservation solution is good, I just need to hire some men to dig up the plants and bring them in and I can roll out to Levant with them.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Soroborean_MouthFeed_16</Key>
+    <Value>If you want Sorobor Academy’s help with this insane Marshmelon transportation plan, you’ll need to &lt;color=#00CCFF&gt;&lt;b&gt;bring me the Stone Tablet that the Lich in the South-West spire is keeping&lt;/b&gt;&lt;/color&gt;. Good luck.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Player_Soroborean_MouthFeed_c_16</Key>
+    <Value>I need to talk to you about ending the famine in Levant.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Soroborean_MouthFeed_17</Key>
+    <Value>Don’t worry, everything is going fine on this end. Go &lt;color=#00CCFF&gt;&lt;b&gt;report back to Levant&lt;/b&gt;&lt;/color&gt;, we’ll handle the rest from here.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Soroborean_MouthFeed_18</Key>
+    <Value />
+  </Dialogue>
+  <Dialogue>
+    <Key>Yzan_MouthFeed_01</Key>
+    <Value>My troops have been recalled. The armies of the Collective demolished them in the field. Half of them are dead.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Yzan_MouthFeed_02</Key>
+    <Value>So much for the Blue Chamber’s policy of unnecessary killing. Their troops have been slaughtering our people. They don’t even try to take prisoners anymore.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Yzan_MouthFeed_03</Key>
+    <Value>Their true evil is laid bare now. I can never forgive them for what they’ve done to Levant.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Yzan_MouthFeed_04</Key>
+    <Value>I hear you secured a new source of food for the Kingdom. Well done. My men and I are in your debt, [PlayerName].</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Yzan_MouthFeed_05</Key>
+    <Value>Because those damn Blues tried to starve us out, the slums went into open revolt... I had to kill my own starving countrymen to save the city. Dammit. I can never forgive them for this.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Yzan_MouthFeed_06</Key>
+    <Value />
+  </Dialogue>
+  <Dialogue>
+    <Key>Yzan_MouthFeed_07</Key>
+    <Value />
+  </Dialogue>
+  <Dialogue>
+    <Key>Yzan_MouthFeed_08</Key>
+    <Value />
+  </Dialogue>
+  <Dialogue>
+    <Key>Yzan_MouthFeed_09</Key>
+    <Value />
+  </Dialogue>
+  <Dialogue>
+    <Key>Calixia_HK_HeroPeace_01</Key>
+    <Value>[PlayerName] urgent news has arrived. Messengers from the Hallowed Marsh have come. Elatt demands peace. Quite insistently. The Holy Mission is willing to handle negotiations to ensure that the peace is fair to us.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Calixia_HK_HeroPeace_02</Key>
+    <Value>The Blue Chamber's armies have grown too strong, too quickly. This is the best hope we have of getting a fair deal. If we turn this down, we risk losing the war entirely, or risk them being able to make truly obscene demands of us.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Player_Calixia_HK_HeroPeace_a_02</Key>
+    <Value>The war has been devastating to all of us, I'm glad to see it end.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Player_Calixia_HK_HeroPeace_b_02</Key>
+    <Value>After everything the Blue Chamber Collective has done to Levant? We're just going to let them off that easily?</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Player_Calixia_HK_HeroPeace_c_02</Key>
+    <Value>At least the Holy Mission and Elatt are known for being fair. If they're overseeing the peace negotiations, I can live with it.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Calixia_HK_HeroPeace_03</Key>
+    <Value>Something has me on edge, though. As soon as this news arrived, &lt;color=#00CCFF&gt;&lt;b&gt;Cyrene and Yzan disappeared&lt;/b&gt;&lt;/color&gt;, and some of our troops have vanished along with them. I suspect they mean to betray us to prevent these talks from happening.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Player_Calixia_HK_HeroPeace_a_03</Key>
+    <Value>You think they've taken the war too personally and would resort to treason?</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Player_Calixia_HK_HeroPeace_b_03</Key>
+    <Value>I trust Cyrene and Yzan, they wouldn't do something like that.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Player_Calixia_HK_HeroPeace_c_03</Key>
+    <Value>Considering what's happened, I wouldn't be surprised if they're that desperate to avoid peace.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Calixia_HK_HeroPeace_04</Key>
+    <Value>War does things to people's minds. Yzan can't forgive their support of the Sand Corsairs and Cyrene has taken the loss of so many of our troops very personally. I want to believe in them, but I can't ignore this possibility.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Calixia_HK_HeroPeace_05</Key>
+    <Value>You have given us every reason to trust you, [PlayerName]. I need another encore performance of your talent. &lt;color=#00CCFF&gt;&lt;b&gt;I need you to find Cyrene and Yzan, and if they are preparing to betray Levant, stop them however you can&lt;/b&gt;&lt;/color&gt;.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Player_Calixia_HK_HeroPeace_a_05</Key>
+    <Value>I'll find them, believe me.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Calixia_HK_HeroPeace_06</Key>
+    <Value>I have no doubt. I just hope you&lt;color=#00CCFF&gt;&lt;b&gt; find them&lt;/b&gt;&lt;/color&gt; before they do something all of us will regret.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Player_Calixia_HK_HeroPeace_b_05</Key>
+    <Value>You trust me with this? You don't think I'd side against you?</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Calixia_HK_HeroPeace_07</Key>
+    <Value>I know that you understand that prolonging this war will lead to the destruction of Levant. Yes, I trust you.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Calixia_HK_HeroPeace_08</Key>
+    <Value>Until the situation is dealt with, we will have to shut down all access to the Palace, even for you. We can't take any chances. Best of luck.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Calixia_HK_HeroPeace_09</Key>
+    <Value>(A wave of heat fills you, like the rays of the sun. Calixa speaks to you in your mind)</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Calixia_HK_HeroPeace_10</Key>
+    <Value>I’m... adjusting. I won’t lie, this is a bizarre state of existence. I’m not sure I’ll ever get used to it. Still, I persist. It’s an improvement over death.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Calixia_HK_HeroPeace_11</Key>
+    <Value>I too, have a gift for you, for all you’ve done for Levant.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Calixia_HK_HeroPeace_12</Key>
+    <Value>(A cool breath of wind flows through you, like a breeze at an Oasis. Calixa has blessed you with new strength)</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Calixia_HK_HeroPeace_13</Key>
+    <Value>I name you Champion of the Heroic Kingdom of Levant, and give you freedom to pursue whatever desire you have. You have proven your skill and commitment to Levant, and I trust in your judgment.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Calixia_HK_HeroPeace_14</Key>
+    <Value>Once Simeon is ready to return to Levant, I will as well. There is much to do if I’m going to live up to the title of goddess. Our kingdom needs people like you.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Calixia_HK_HeroPeace_15</Key>
+    <Value>The world is yours, [PlayerName]. Follow your heart, and nothing will stand in your way.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Calixia_HK_HeroPeace_16</Key>
+    <Value>The home front is quiet... for now. The fighting on the front lines of the war goes poorly. If it keeps going the way it is now, the war may come to Abrassar directly If that happens, be ready. </Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Calixia_HK_HeroPeace_17</Key>
+    <Value>The Blue Chamber has entered a cease-fire until the negotiations happen, but who knows how long it will hold?</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Calixia_HK_HeroPeace_18</Key>
+    <Value>Oh, that reminds me, under the terms of the cease-fire, &lt;color=#00CCFF&gt;&lt;b&gt;your banishment from Berg has been lifted&lt;/b&gt;&lt;/color&gt;. If you return to Enmerkar in the future, you will be allowed to enter the city once more.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Calixia_HK_HeroPeace_19</Key>
+    <Value />
+  </Dialogue>
+  <Dialogue>
+    <Key>ThirstyGuard_HK_HeroPeace_01</Key>
+    <Value>I've been standing watch for so long, I don't feel my throat anymore. Why can’t they issue &lt;color=#00CCFF&gt;&lt;b&gt;a few extra waterskins to us grunts&lt;/b&gt;&lt;/color&gt;? Gah, I’d kill for some water right about now!</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>ThirstyGuard_HK_HeroPeace_02</Key>
+    <Value>Stop! The smuggler’s tunnel is beyond this point, you don’t have permission to access it! No matter who you are! Turn around and leave!</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Player_ThirstyGuard_HK_HeroPeace_a_02</Key>
+    <Value>(Give Waterskin) Here, you wanted water? Take it and let me pass.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>ThirstyGuard_HK_HeroPeace_03</Key>
+    <Value>... Gah! Fine! I’m pretty sure you’re not a bad person after all you’ve done, and it’s not like you can get into the palace without a key anyway. &lt;color=#00CCFF&gt;&lt;b&gt;Fine, go ahead, you can use the tunnel&lt;/b&gt;&lt;/color&gt;!</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Simeon_HK_HeroPeace_01</Key>
+    <Value>Oh, I agree that the war needs to end too, for everyone's sake, but I'm just not comfortable making ourselves vulnerable like this. If it were anyone but Elatt asking us to make peace, I wouldn't even consider it.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Simeon_HK_HeroPeace_02</Key>
+    <Value>Trust me, I'm not pleased about this either. As long as the Blue Chamber negotiates in good faith, I'm willing to listen. But if they're unreasonable, my fists will do the talking.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Simeon_HK_HeroPeace_03</Key>
+    <Value>That's the only reason I'm giving Elatt's demand any consideration. After what the Blue Chamber did to us, the famine, everything, it'll take a god mediating these talks to get me to show up.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Simeon_HK_HeroPeace_04</Key>
+    <Value>Likewise. They're good soldiers, but they and their troops have seen too much conflict. I have no doubt they believe continuing the war is the only acceptable course of action.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Simeon_HK_HeroPeace_05</Key>
+    <Value>They can't have left Abrassar. If the pair of them are plotting treason, they're likely hiding someplace nearby. Likely somewhere man-made.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Simeon_HK_HeroPeace_06</Key>
+    <Value>We found a strange message in Yzan’s home, by the way. "&lt;color=#00CCFF&gt;&lt;b&gt;Meet me where the boats used to be tied, high and dry. Come soon&lt;/b&gt;&lt;/color&gt;." Make of that what you will, it means little to me.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Simeon_HK_HeroPeace_07</Key>
+    <Value>Elatt damn it all... I got careless. Cyrene shot Calixa from the balcony, and when I charged her, her goons fired a barrage of lead at me.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Simeon_HK_HeroPeace_08</Key>
+    <Value>That voice in my head just now... Was that Elatt? Is what he says true? Can he really save Calixa?</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Simeon_HK_HeroPeace_09</Key>
+    <Value>I'll organize a convoy to Monsoon immediately. [PlayerName], I need you to &lt;color=#00CCFF&gt;&lt;b&gt;come to Monsoon&lt;/b&gt;&lt;/color&gt; as swiftly as possible.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Player_Simeon_HK_HeroPeace_a_09</Key>
+    <Value>I’ll come with you on the convoy.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Player_Simeon_HK_HeroPeace_b_09</Key>
+    <Value>I have something to do first. I’ll make my own way to Monsoon. I’ll meet you there.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Simeon_HK_HeroPeace_10</Key>
+    <Value>Fine. But &lt;color=#00CCFF&gt;&lt;b&gt;come to Monsoon as swiftly as possible&lt;/b&gt;&lt;/color&gt;. The longer we wait, the worse it will be for us.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Simeon_HK_HeroPeace_11</Key>
+    <Value>I hear you defended your front of the battle with style, [PlayerName]. You should be proud. Even that bastard Sagard was impressed.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Player_Simeon_HK_HeroPeace_a_11</Key>
+    <Value>What happened with Calixa? How is she doing?</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Simeon_HK_HeroPeace_12</Key>
+    <Value>It’s strange to have her present in my mind like this, but I’m sure we’ll make it work. She’s already blessed me with great power. I feel like she’s always watching my back now.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Simeon_HK_HeroPeace_13</Key>
+    <Value>I hear you let those Scourge Beasts get the better of you. Well, no shame in that. Not everyone is cut out to be a hero. You did your best and casualties were kept to a minimum. That’s all that matters, really.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Simeon_HK_HeroPeace_14</Key>
+    <Value>You’ve earned this reward, [PlayerName]. May you wear it well.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Simeon_HK_HeroPeace_15</Key>
+    <Value>It’s a good thing you’re here, [PlayerName]. We’re going to bring the war to an end, but... I’ll let Calixa explain. She’s better with words than me.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Simeon_HK_HeroPeace_16</Key>
+    <Value>I hope you can find Cyrene and Yzan before they turn on us, [PlayerName]. We've sent most of the guards from the palace to join the war. I'm pretty much the only one left to protect the palace if they start a civil war.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Simeon_HK_HeroPeace_17</Key>
+    <Value>Hey, [PlayerName]. Good to see you in one piece, how go your adventures?</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Simeon_HK_HeroPeace_18</Key>
+    <Value>(Simeon is injured, but alive.)</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Simeon_HK_HeroPeace_19</Key>
+    <Value />
+  </Dialogue>
+  <Dialogue>
+    <Key>Simeon_HK_HeroPeace_20</Key>
+    <Value />
+  </Dialogue>
+  <Dialogue>
+    <Key>Simeon_HK_HeroPeace_21</Key>
+    <Value />
+  </Dialogue>
+  <Dialogue>
+    <Key>Clue_HK_HeroPeace_01</Key>
+    <Value>I’ve heard about where “the boats used to be tied, high and dry." It’s a nursery rhyme about the region, before the Scourge. The boats were kept at the docks, to the north of Abrassar.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Clue_HK_HeroPeace_02</Key>
+    <Value>(These footprints are easy to identify. It’s Yzan’s prosthetic leg! They are pointing north, to the old docks on top of the cliffs.)</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Yzan_HK_HeroPeace_01</Key>
+    <Value>[PlayerName], I take it you got my message? I’m glad you made it.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Yzan_HK_HeroPeace_02</Key>
+    <Value>[PlayerName], how did you find me here? We camouflaged ourselves as best we could!</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Yzan_HK_HeroPeace_03</Key>
+    <Value>Well, now that you're here, I may as well ask. Cyrene and I could use your help. We need to move against Calixa and Simeon before they agree to this ridiculous peace and doom us all.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Player_Yzan_HK_HeroPeace_a_03</Key>
+    <Value>You'd betray Levant, Yzan?</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Yzan_HK_HeroPeace_04</Key>
+    <Value>No, it's Simeon and Calixa who are betraying Levant. They want to make peace with an enemy that has committed unforgivable crimes against us. It shames the dead!</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Yzan_HK_HeroPeace_05</Key>
+    <Value>Why are you hesitating? The head that wears the crown doesn't matter, it's what they stand for. Simeon and Calixa didn't stop the Sand Corsairs or brought food to Levant. We did that. You and me.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Player_Yzan_HK_HeroPeace_a_05</Key>
+    <Value>You think that the people who founded the Heroic Kingdom have forgotten what it's about?</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Yzan_HK_HeroPeace_06</Key>
+    <Value>Power corrupts the mind. They have held power for too long and grown complacent! I see no other reason why they'd accept peace talks! </Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Player_Yzan_HK_HeroPeace_b_05</Key>
+    <Value>They could have done more if they weren't forced to pour so many resources and people into this losing war!</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Yzan_HK_HeroPeace_07</Key>
+    <Value>I... I know that's right. I know how badly the war depleted our treasury. But still! They should have done more! Simeon should have been on the front lines with us!</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Player_Yzan_HK_HeroPeace_c_05</Key>
+    <Value>Maybe they just aren't blinded by rage like you and Cyrene. You've both been on the front lines too much to see the bigger picture.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Yzan_HK_HeroPeace_08</Key>
+    <Value>You're telling me that I should just let go of what happened to our troops? To our people? Rage is the only appropriate response!</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Yzan_HK_HeroPeace_09</Key>
+    <Value>Why are you arguing to spare the Blue Chamber from our justice? This war has only proven that the ideals of Levant are better for everyone than what the Blue Chamber believes in!</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Player_Yzan_HK_HeroPeace_a_09</Key>
+    <Value>Don't pretend to be so self-righteous. You just still hold a grudge against the Blue Chamber Collective for what happened with Roland!</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Yzan_HK_HeroPeace_11</Key>
+    <Value>And haven't they proven me right? For all their talk about how "the tribe is family", they will destroy anyone who doesn't bow to their oppressive tribal laws!</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Yzan_HK_HeroPeace_12</Key>
+    <Value>The Blue Chamber has committed atrocities against us, they've let people like Sagard Battleborn run loose and support bandits that wanted only our complete destruction! How can you expect me to forgive them for that?</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Player_Yzan_HK_HeroPeace_a_12</Key>
+    <Value>So you'll become as bad as Sagard in order to take revenge on him?</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Yzan_HK_HeroPeace_13</Key>
+    <Value>You and I both know that's a load of crap! Sagard tried to starve us to death the moment the war began. Innocent children would have died because of him. This isn't the same at all!</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Player_Yzan_HK_HeroPeace_b_12</Key>
+    <Value>So, you want to keep throwing our people into a war we can't win until we have no one left?</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Yzan_HK_HeroPeace_14</Key>
+    <Value>We have to take that chance. To agree to negotiations now would be nothing less than total surrender. I can't put my faith in the Holy Mission to protect us from the Blue Chamber's obscene demands.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Player_Yzan_HK_HeroPeace_c_12</Key>
+    <Value>Yzan, Levant is barely surviving. One more crisis will kill us all. Is this war more important than our survival?</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Yzan_HK_HeroPeace_15</Key>
+    <Value>Yes! ... No. But... the war is the only way we can survive... Dammit! Either way, I risk dooming my city to destruction! But which option gives us the best odds of survival?</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Yzan_HK_HeroPeace_16</Key>
+    <Value>If you're not with me, you're against all of Levant. I'm sorry, [PlayerName], but this is for the good of the kingdom! Put 'em down, boys!</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Yzan_HK_HeroPeace_17</Key>
+    <Value>Elatt damn it all, you're right, [PlayerName]. If Levant is to survive, we can't continue on our present course. We have to stop Cyrene before it's too late. She's planning to use-</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Yzan_HK_HeroPeace_18</Key>
+    <Value>My loyalty is to Levant and its ideals, not to any individual person. That's the entire reason I agreed to betray Calixa and Simeon in the first place.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Yzan_HK_HeroPeace_19</Key>
+    <Value>Dammit, what a mess. &lt;color=#00CCFF&gt;&lt;b&gt;We need to stop Cyrene&lt;/b&gt;&lt;/color&gt;. She told me she has a bullet loaded with an incurable poison, designed to pierce any armor. She's going to use it on Calixa, then order the army to go into open revolt.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Player_Yzan_HK_HeroPeace_a_19</Key>
+    <Value>But what about Simeon? How will she get past him?</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Yzan_HK_HeroPeace_20</Key>
+    <Value>Simeon may be a great fighter, but he's often careless. With Calixa taken down, Cyrene will be more than a match for him if she takes any backup with her. She's been planning for this possibility ever since the attack on Berg.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Yzan_HK_HeroPeace_21</Key>
+    <Value>We don't have much time, [PlayerName]. I'm going to take my personal troops and turn them back around to defend the city. &lt;color=#00CCFF&gt;&lt;b&gt;You go warn Calixa&lt;/b&gt;&lt;/color&gt;, I'll meet you there!</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Yzan_HK_HeroPeace_22</Key>
+    <Value>Cyrene, stop this now! If we don't stop this war, all we do is damn Levant to destruction!</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Yzan_HK_HeroPeace_23</Key>
+    <Value>I'm sorry it had to come to this. If you won't stand aside, then I will make you stand aside! Defend yourself!</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Yzan_HK_HeroPeace_25</Key>
+    <Value>I'm sorry, [PlayerName], but if you're not with us, you are against Levant itself!</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Yzan_HK_HeroPeace_26</Key>
+    <Value>That hurt to do. But I'm convinced now, it was the right thing for Levant. Thank you for pulling me back from that abyss, [PlayerName]. Levant and I are in your debt.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Yzan_HK_HeroPeace_27</Key>
+    <Value>&lt;color=#00CCFF&gt;&lt;b&gt;Go, hurry to Monsoon&lt;/b&gt;&lt;/color&gt;. I'll look after the city while all of you are gone. You can trust me, [PlayerName].</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Yzan_HK_HeroPeace_28</Key>
+    <Value>Simeon made me his top general. Honestly, considering how close I was to turning on them both... I don’t really feel like I deserve it. Thank you for everything, [PlayerName]. I wouldn’t be here without you. I’m glad you came to Levant.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Yzan_HK_HeroPeace_29</Key>
+    <Value>Even if I did turn against this coup, it’s too late. It’s already begun. I’m already a traitor. They’d line me up against a wall and shoot me even if I changed sides again. I’m committed now.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Player_Yzan_HK_HeroPeace_a_30</Key>
+    <Value>You could just play it like you were a double agent. You’re good at that.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Player_Yzan_HK_HeroPeace_b_30</Key>
+    <Value>Some things are worth risking dying for. That’s why you joined Levant, right?</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Player_Yzan_HK_HeroPeace_c_30</Key>
+    <Value>Simeon and Calixa don’t know you’re a traitor. That’s why we aren’t fighting each other right now.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Player_Yzan_HK_HeroPeace_c_31</Key>
+    <Value>Right on time, [PlayerName]. Let’s put an end to this coup, together.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Player_Yzan_HK_HeroPeace_c_32</Key>
+    <Value>You’re too late, [PlayerName]. You’ve lost. Calixa is doomed, and Simeon is defeated. Nothing stands between Cyrene and the throne!</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Yzan_HK_HeroPeace_31</Key>
+    <Value>Huh. I hate to admit it, but you’re right on that point. The question is, have I become the mask I hide behind, or not?</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Yzan_HK_HeroPeace_32</Key>
+    <Value>You’re asking me to put my life on the line on just a hope and a rumor, [PlayerName]. What kind of risks do you think I’m willing to take?</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Solider_HK_HeroPeace_01</Key>
+    <Value>You'd betray Cyrene, Yzan? Your new queen, who you pledged fealty to?</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Solider_HK_HeroPeace_02</Key>
+    <Value>Then we have no choice. In Cyrene's name, we will put you both down!</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Cyrene_HK_HeroPeace_01</Key>
+    <Value>Yzan, how could you turn on us? I thought you understood! This peace must not be allowed to happen, or Levant has no future!</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Cyrene_HK_HeroPeace_02</Key>
+    <Value>Never. I will not let the slaughter of my troops go unanswered, and I will never forgive those damn Blues for the famine they caused. Besides, it's too late. I've already shot Calixa with a Scourge Venom Bullet.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Cyrene_HK_HeroPeace_03</Key>
+    <Value>There is no cure. Nothing can save her. I am your only hope for victory now. We will not make peace, not until the Blue Chamber knows the suffering they've wrought...until the very gates of Berg are aflame!</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Cyrene_HK_HeroPeace_04</Key>
+    <Value>You're too late, [PlayerName]. It's over. Your king and queen are broken…</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Player_Cyrene_HK_HeroPeace_a_04</Key>
+    <Value>What have you done to them?!</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Cyrene_HK_HeroPeace_05</Key>
+    <Value>I shot Calixa with a bullet containing an incurable poison. If a champion of Elatt could not survive it, I don't see how a mere mortal can. And without her watching his back, Simeon's recklessness was easy to exploit.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Cyrene_HK_HeroPeace_06</Key>
+    <Value>As the new queen of Levant, I will not abide traitors like you. Prepare to meet your ancestors, [PlayerName]!</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Cyrene_HK_HeroPeace_07</Key>
+    <Value>I knew Yzan was a fool to ever trust in you. He's dead because of you, isn't he? No matter. I have no need of him. I can rule as queen alone, now that our tyrants are broken!</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Cyrene_HK_HeroPeace_08</Key>
+    <Value />
+  </Dialogue>
+  <Dialogue>
+    <Key>Cyrene_HK_HeroPeace_09</Key>
+    <Value />
+  </Dialogue>
+  <Dialogue>
+    <Key>Missionary_HK_HeroPeace_01</Key>
+    <Value>The bullet managed to penetrate her armor, the poison has gotten into her. There's nothing I can do. Even if I purge the paralyzing effects from her body, this poison is filled with Corruption that I can’t cleanse without fatal results.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Missionary_HK_HeroPeace_02</Key>
+    <Value>Yes. If Elatt says it, I believe him. We must bring Calixa to Monsoon as swiftly as possible!</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Missionary_HK_HeroPeace_03</Key>
+    <Value>I will do what I can for your queen. But in all honesty... she’s in Elatt’s hands now. There’s not much I can do to help.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Missionary_HK_HeroPeace_04</Key>
+    <Value />
+  </Dialogue>
+  <Dialogue>
+    <Key>Elatt_HK_HeroPeace_01</Key>
+    <Value>(The warmth of a campfire fills your body. A strange voice speaks in the minds of everyone present)</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Elatt_HK_HeroPeace_02</Key>
+    <Value />
+  </Dialogue>
+  <Dialogue>
+    <Key>Sagard_HK_HeroPeace_01</Key>
+    <Value>Of all the people I have to work with, it’s a desert rat. Wonderful.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Player_Sagard_HK_HeroPeace_a_01</Key>
+    <Value>I ain’t too pleased with this arrangement either, Sagard.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Player_Sagard_HK_HeroPeace_b_01</Key>
+    <Value>Oh, so you don’t want me watching your back?</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Sagard_HK_HeroPeace_02</Key>
+    <Value>I’m not stupid enough to take on an army of Scourge Beasts alone, so I’ll take what help I can gete. Even from a Kingdom I have no trust in.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Sagard_HK_HeroPeace_03</Key>
+    <Value>About the Corsairs... I didn’t intend for it to get as bad as it did. I know it’s no excuse, but there you are. I won’t beg for forgiveness. You just think what you want to think.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Player_Sagard_HK_HeroPeace_a_03</Key>
+    <Value>We all did things we regret. Let’s not let it get in the way of the future.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Player_Sagard_HK_HeroPeace_b_03</Key>
+    <Value>I won’t forgive you. But if you’re who I have to rely on to protect my people right now, I’ll work with you.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Sagard_HK_HeroPeace_04</Key>
+    <Value>Careful now, if you keep that up I might have to respect you.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Sagard_HK_HeroPeace_05</Key>
+    <Value>Likewise. Just stay out of my way and we’ll get along fine.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Sagard_HK_HeroPeace_06</Key>
+    <Value>Here they come! Get ready for a fight and try not to die, would ya?</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Sagard_HK_HeroPeace_07</Key>
+    <Value />
+  </Dialogue>
+  <Dialogue>
+    <Key>Cardinal_HK_HeroPeace_01</Key>
+    <Value>You’re from Levant, aren’t you? I’ve heard that your army is bordering on open revolt. All I can do is pray for the safety of the messenger we sent there.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Negotiations_HK_HaPeace_01</Key>
+    <Value>What about the accusation that a faction of your own government collaborated with bandits to blockade Levant and cause a famine?</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Negotiations_HK_HaPeace_02</Key>
+    <Value>I've spoken with several scouts who can confirm this is true. The guilty parties will be stripped of their rank, and their tribes will decide if they are to be exiled or not.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Negotiations_HK_HaPeace_03</Key>
+    <Value>I'm afraid we have not been able to find any ironclad proof that this was the case. We can ask that their tribes consider punishing them, but I doubt anything will come of it.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Negotiations_HK_HaPeace_04</Key>
+    <Value>Yes. We investigated the attack the moment it was carried out, and we brought justice to the splinter faction that caused it.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Negotiations_HK_HaPeace_05</Key>
+    <Value>We put the treasonous mastermind of the attack, our own flesh and blood, to death for his actions. You cannot ask for us to have done more than what we did.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Negotiations_HK_HaPeace_06</Key>
+    <Value>We are no longer in desperate need of food, but your demands for reparations may push us into crisis once more. We will need you to offer supplies in exchange if this is going to be fair.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Negotiations_HK_HaPeace_07</Key>
+    <Value>You were the one who held up the proceedings, Simeon. I sincerely hope there’s no ulterior motive at play here.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Negotiations_HK_HaPeace_08</Key>
+    <Value>[PlayerName], I don’t know if we’d have made it this far without your help. I think you should take the Peacemaker’s Elixir.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Negotiations_HK_HaPeace_09</Key>
+    <Value>We have no choice, we accept. But I have no doubt that factions within the Heroic Kingdom won’t see these terms as fair. There will be infighting for quite a while.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Negotiations_HK_HaPeace_10</Key>
+    <Value />
+  </Dialogue>
+  <Dialogue>
+    <Key>Negotiations_HK_HaPeace_11</Key>
+    <Value />
+  </Dialogue>
+  <Dialogue>
+    <Key>Negotiations_HK_HaPeace_12</Key>
+    <Value />
+  </Dialogue>
+  <Dialogue>
+    <Key>Negotiations_HK_HaPeace_13</Key>
+    <Value />
+  </Dialogue>
+  <Dialogue>
+    <Key>Pigeoneye_HK_HaPeace_01</Key>
+    <Value>You shouldn’t be outside. There’s a coup in progress, and it’s likely to become an open civil war. If you cause any trouble, you’re going to get lined up against a wall and shot. </Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Pigeoneye_HK_HaPeace_02</Key>
+    <Value>I take it you want to &lt;color=#00CCFF&gt;&lt;b&gt;get into the palace and help the King and Queen&lt;/b&gt;&lt;/color&gt;, right? You can’t get in by the front, it’s under siege. But I’ve heard tell &lt;color=#00CCFF&gt;&lt;b&gt;there might be a way in through the smuggler’s tunnel under the slums&lt;/b&gt;&lt;/color&gt;. But it’s too well guarded for you to get in, trust me.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Player_Pigeoneye_HK_HaPeace_a_02</Key>
+    <Value>I need to get into the palace. We have to think of something.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Pigeoneye_HK_HaPeace_03</Key>
+    <Value>I haven’t forgotten how you helped us out. Alright, I’ll get some people together to pull off a diversion. &lt;color=#00CCFF&gt;&lt;b&gt;You just get yourself into that tunnel&lt;/b&gt;&lt;/color&gt;, get into the palace and bring this mess to an end, alright?</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Pigeoneye_HK_HaPeace_04</Key>
+    <Value>Alright, I know your reputation. You’re no villain. I’ll help you and cause a diversion. But I’m on my own here. If you want me to help, &lt;color=#00CCFF&gt;&lt;b&gt;I’m going to need a tripwire trap and some iron spikes&lt;/b&gt;&lt;/color&gt; to cover my escape.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Player_Pigeoneye_HK_HaPeace_a_04</Key>
+    <Value>I’ve got your trap and spikes, is this enough?</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Pigeoneye_HK_HaPeace_05</Key>
+    <Value>Yup, it’s enough. Even a single trap can work wonders if you’re smart about it. I’ll get those guards away from the tunnel entrance. &lt;color=#00CCFF&gt;&lt;b&gt;You just worry about getting in there&lt;/b&gt;&lt;/color&gt;, and getting into the palace from there.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Pigeoneye_HK_HaPeace_06</Key>
+    <Value />
+  </Dialogue>
+  <Dialogue>
+    <Key>Pigeoneye_HK_HaPeace_07</Key>
+    <Value />
+  </Dialogue>
+  <Dialogue>
+    <Key>Pigeoneye_HK_HaPeace_08</Key>
+    <Value />
+  </Dialogue>
+  <Dialogue>
+    <Key>Markus_HK_HaPeace_01</Key>
+    <Value>No one gets into Levant without Cyrene’s approval, and you’re on the blacklist, pal. You ain’t &lt;color=#00CCFF&gt;&lt;b&gt;getting into the slums&lt;/b&gt;&lt;/color&gt;, not unless you want me to call in a dozen reinforcements!</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Markus_HK_HaPeace_02</Key>
+    <Value>...Ah, who am I kidding. You’re quick enough that you’d shank me before I put the damn whistle to my lips. I didn’t want to get conscripted into this damn coup anyway. Get in there and stop this damn mess would you, [PlayerName]?</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Player_Markus_HK_HaPeace_a_02</Key>
+    <Value>I need to stop this damn coup. Let me in, or else!</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Markus_HK_HaPeace_03</Key>
+    <Value>Yeah, as much as I hate being conscripted into this coup, there’s no way I’m betraying it &lt;color=#00CCFF&gt;&lt;b&gt;while my boss and his reserve troops are around&lt;/b&gt;&lt;/color&gt;. If they came back and found out I let you through, I'm finished.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Markus_HK_HaPeace_04</Key>
+    <Value>...Tell you what. They’ve set up camp inside the old Sand Rose Quarry to the East. It’s that sunken valley with the wooden elevator. &lt;color=#00CCFF&gt;&lt;b&gt;You make sure they’re never a problem to me again&lt;/b&gt;&lt;/color&gt;, and I’ll let you into the slums.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Player_Markus_HK_HaPeace_a_04</Key>
+    <Value>I took out those reserve toops and your boss. Let me in.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Player_Markus_HK_HaPeace_b_04</Key>
+    <Value>Alright, I’ll do it.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Markus_HK_HaPeace_05</Key>
+    <Value>Hot damn, you’re a lifesaver. Alright, I didn’t see you. Go in and out as you please. Good luck getting into the palace. You’ll need it.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Markus_HK_HaPeace_06</Key>
+    <Value>I didn’t see you. Go ahead, pal.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Markus_HK_HaPeace_07</Key>
+    <Value />
+  </Dialogue>
+  <Dialogue>
+    <Key>Markus_HK_HaPeace_08</Key>
+    <Value />
+  </Dialogue>
+  <Dialogue>
+    <Key>Dawne_HK_HaPeace_01</Key>
+    <Value>Well, well, I know you. You want to get into the Palace to stop this coup, and save the royal family, don’t you? &lt;color=#00CCFF&gt;&lt;b&gt;I know how to get you inside&lt;/b&gt;&lt;/color&gt;.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Player_Dawne_HK_HaPeace_a_01</Key>
+    <Value>Perfect, how do I do it?</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Dawne_HK_HaPeace_02</Key>
+    <Value>Just around this passage is a backdoor to the palace library. I’ll go pop it open for you. I may not like Calixa and Simeon, but I outright hate that bigoted army woman. Take her out. I have no doubt she’ll continue to go after my people.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Dawne_HK_HaPeace_03</Key>
+    <Value>Not so fast. My people, the Old Levant people, are in danger here. The army’s killing any Old Levantins they find. I need to get them to safety. And for that, I need money. &lt;color=#00CCFF&gt;&lt;b&gt;Give me 50 silvers&lt;/b&gt;&lt;/color&gt;, and I’ll get you into the palace, deal?</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Dawne_HK_HaPeace_04</Key>
+    <Value>The way is open, friend. Kill Cyrene! Not just for Old Levant’s sake, but for everyone’s.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Dawne_HK_HaPeace_05</Key>
+    <Value />
+  </Dialogue>
+  <Dialogue>
+    <Key>Dawne_HK_HaPeace_06</Key>
+    <Value />
+  </Dialogue>
+</ArrayOfDialogue>

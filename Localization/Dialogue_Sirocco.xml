@@ -1,0 +1,2315 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfDialogue xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Dialogue>
+    <Key>Guard_CA_Prequest_01</Key>
+    <Value>You there! [PlayerName]! There is a &lt;color=#00CCFF&gt;&lt;b&gt;messenger waiting for you at the Inn&lt;/b&gt;&lt;/color&gt;! They said their message was urgent!</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Messenger_CA_Prequest_01</Key>
+    <Value>Greetings [PlayerName] Aberdeen. This letter is for your eyes only, Rissa’s orders.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Messenger_CA_Prequest_02</Key>
+    <Value>Greetings, Templar. Lockwell sent a letter for you. </Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Messenger_CA_Prequest_03</Key>
+    <Value>Greetings, Champion! Lockwell sent a letter for you. </Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Messenger_CA_Prequest_04</Key>
+    <Value>Ah, there you are, [PlayerName]! There is an urgent letter from Kirouac for you!</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Messenger_CA_Prequest_05</Key>
+    <Value>Ah, you! Sekiguchi Meiko has an urgent job for you! I have a letter here, for your eyes only.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Player_Messenger_CA_Prequest_01_a</Key>
+    <Value>Why’s Rissa sending a messenger and not talking to me in person?</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Player_Messenger_CA_Prequest_01_b</Key>
+    <Value>Lockwell?! What in Elatt’s name does he want me for?</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Player_Messenger_CA_Prequest_01_c</Key>
+    <Value>Hand it over, then! What’s this about?</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Messenger_CA_Prequest_06</Key>
+    <Value>I don’t know. She said to say that “the eyes of our great enemy are on us. We must act with great caution”, and told me you’d know what that meant.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Messenger_CA_Prequest_07</Key>
+    <Value>He didn’t look happy about it. But apparently someone convinced him you were the best one for this job.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Messenger_CA_Prequest_08</Key>
+    <Value>There’s two letters for you, here’s the first one. I’ll be over here if you need anything.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Rissa_Letter_CA_Prequest_01</Key>
+    <Value>[PlayerName], I hope this letter finds you well. I apologize for this secrecy, but a recent incident reeks of the fiery influence of the Scarlet Lady. The less openly we speak of the details, the safer I believe we will be.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Lockwell_Letter_CA_Prequest_01</Key>
+    <Value>I am less than pleased to assign this task to a member of the Holy Mission, least of all you in particular, but I require someone with both status and strength. After much discussion, I have been convinced that you are our best option.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Kirouac_Letter_CA_Prequest_01</Key>
+    <Value>[PlayerName], our goddess has need of you. Our old ally, Sirocco, is in dire peril and requires our immediate aid!</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Meiko_Letter_CA_Prequest_01</Key>
+    <Value>I’ll get right to the point, [PlayerName]. An enormous opportunity for Sorobor Academy has presented itself, one we cannot afford to let slip through our fingers.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Rissa_Letter_CA_Prequest_02</Key>
+    <Value>I have convinced the other Chamberlords that immediate action must be taken to aid the city, and they have contributed the resources they can afford to spare. For the duration of your mission, you represent the Blue Chamber Collective. Act accordingly.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Letter_CA_Prequest_02</Key>
+    <Value>During the end of the war between the Collective and Levant, the Three Brothers, the three volcanoes near the city of Sirocco, suffered a tremendous seismic shift that caused grave damage to the city.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Letter_CA_Prequest_03</Key>
+    <Value>The damage to Sirocco is far worse than initially suspected. There are reports that the city itself has collapsed into the ground. A total reconstruction may be needed for civilization in the region to survive.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Letter_CA_Prequest_04</Key>
+    <Value>Worse still, we have not received word from their Chamberlord and his Nobles since the incident. I fear the worst for them. If any of the city’s leadership has survived, give them the second letter the messenger has for you.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Letter_CA_Prequest_05</Key>
+    <Value>Several wagons of food and construction materials are being prepared to make the journey to the Caldera. Inform the leaders of the city as soon as possible that aid is on the way. From there, manage the situation as best you can.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Letter_CA_Prequest_06</Key>
+    <Value>Sirocco is an incredibly valuable city, regardless of their isolation. Do anything it takes to ensure the future of its people and the stability of the region.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Rissa_Letter_CA_Prequest_06</Key>
+    <Value>The Ancestral Memories predict that the Caldera region is about to endure extreme unrest and danger. Be prepared for anything, [PlayerName]. May your ancestors guide you.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Lockwell_Letter_CA_Prequest_07</Key>
+    <Value>For the duration of this mission you will answer directly to me, not to Elatt. He has agreed to this condition, and will leave this in our hands. Sirocco must remain an independent tribe in the Blue Chamber Collective, not become subservient to the Holy Mission.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Lockwell_Letter_CA_Prequest_08</Key>
+    <Value>Taleron has urged me to trust your capability and your judgment in this matter. Do not make him a liar.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Kirouac_Letter_CA_Prequest_08</Key>
+    <Value>Sirocco has been a valued ally to us ever since our kingdom was founded. The time has come to return the favor. Calixa has her plate full just dealing with Levant right now, so this task falls to you.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Kirouac_Letter_CA_Prequest_09</Key>
+    <Value>I trust that you will be able to handle this, [PlayerName]. Do Levant proud!</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Meiko_Letter_CA_Prequest_10</Key>
+    <Value>You’ve proven you’ve got grit and cleverness, [PlayerName]. Succeed here and not only will you bring wealth and prosperity to Sorobor, but you may also secure much of both for yourself. Do not disappoint us.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Player_Letter_CA_Prequest_11</Key>
+    <Value>Looks like I’m headed for the Caldera region. Apparently there’s a second letter?</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Messenger_CA_Prequest_12</Key>
+    <Value>Yes, right here. I was told you would know who it’s for. Ensure it gets to them safely, [PlayerName].</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Messenger_CA_Prequest_13</Key>
+    <Value>If you’re headed into the Caldera...Prepare yourself as best you can. It’s an incredibly hostile region. I’ve encountered &lt;color=#00CCFF&gt;&lt;b&gt;several creatures there that have learned how to penetrate even the most resistant armor&lt;/b&gt;&lt;/color&gt;. </Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Messenger_CA_Prequest_14</Key>
+    <Value>In fact, just about everything out there is capable of inflicting some kind of horrible affliction that you won’t have ever seen before.  &lt;color=#00CCFF&gt;&lt;b&gt;Be ready for anything&lt;/b&gt;&lt;/color&gt;.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Evangeline_CA_Prequest_City_01</Key>
+    <Value>Well, well, another snake for the pit! Hmm...Wait, you don’t look familiar...</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Josef_CA_Prequest_City_02</Key>
+    <Value>Stand down, Evangeline. This one’s clearly not one of the Nobles.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Dorion_CA_Prequest_City_03</Key>
+    <Value>Ah! A visitor? Apologies, my friend, you haven’t exactly come at the best of times...</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Player_CA_Prequest_City_03_a</Key>
+    <Value>Don’t tell me that was your city’s leadership you just dropped into the magma...?</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Player_CA_Prequest_City_03_b</Key>
+    <Value>I’m going to assume Sirocco is...Under new management?</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Evangeline_CA_Prequest_City_04</Key>
+    <Value>That’s right. We put an end to the tyranny of the Nobility and gave them exactly what they deserved!</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Dorion_CA_Prequest_City_05</Key>
+    <Value>I would not put it so crassly. When the city collapsed, tensions that had been simmering for years finally boiled over. We were driven to violence as the utmost final resort.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Evangeline_CA_Prequest_City_06</Key>
+    <Value>You’re leaving out the bit where the Chamberlord had the lower districts sealed off. If it wasn’t for your smuggler’s tunnel, and the merchants finally taking our side, the magma would have taken us all. I’d argue that the nobles attacked first!</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Josef_CA_Prequest_City_07</Key>
+    <Value>*Sigh* There was no controlling or distracting the angry mob this time. The people wanted blood, and they got it. I don’t like the rampant bloodshed, but... There was no preventing it. Not after nearly half the city lost their lives to the collapse.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Evangeline_CA_Prequest_City_08</Key>
+    <Value>Honestly, this was a long time coming. We warned them for YEARS that the city was going to collapse! They had plenty of opportunity to prepare. Or at least they could have chosen to NOT prevent us from taking action ourselves!</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Player_CA_Prequest_City_08_a</Key>
+    <Value>Well, I’m supposed to negotiate with the leaders of Sirocco. I guess that’s you, now.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Dorion_CA_Prequest_City_09</Key>
+    <Value>Negotiate? On whose behalf, traveller?</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Player_CA_Prequest_City_09_a</Key>
+    <Value>I’m here on behalf of the other tribes of Blue Chamber Collective. We’re sending wagons of food as we speak.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Player_CA_Prequest_City_09_b</Key>
+    <Value>Your ally, the Heroic Kingdom, offers food and building supplies. Wagons full of them.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Player_CA_Prequest_City_09_c</Key>
+    <Value>I represent the city of Monsoon. We have food and supplies on route here, courtesy of...Ugh, Chamberlord Damian Lockwell.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Player_CA_Prequest_City_09_d</Key>
+    <Value>Where’s there’s a crisis, Sorobor Academy is there to help! We have wagons of food on their way here!</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Player_CA_Prequest_City_08_b</Key>
+    <Value>Nothing could have justified this slaughter! No one has the right to do this!</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Josef_CA_Prequest_City_10</Key>
+    <Value>We warned them. Time and again we warned them about the city’s collapse. Time and again we did whatever we could to get them to move to a new settlement, or at least reinforce the foundations...</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Dorion_CA_Prequest_City_11</Key>
+    <Value>They refused to consider action until it was far too late. And when the collapse was clearly imminent, they barricaded the doors to the lower districts, fearing what would happen if we came pouring into their upper districts...</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Dorion_CA_Prequest_City_12</Key>
+    <Value>If it weren’t for that smuggler’s tunnel I maintained, and the merchants finally being sympathetic enough to help us... Most of us would have been swallowed by the rising magma.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Evangeline_CA_Prequest_City_13</Key>
+    <Value>What were we supposed to do? Let the nobles kill us? Should we have allowed them to keep their power after they tried to kill us? At what point are we ALLOWED to defend our lives, oh “righteous and moral” outsider?!</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Dorion_CA_Prequest_City_14</Key>
+    <Value>Revolution is justified by the consent of the people. When those with power no longer have our consent to rule us, and they keep hold of their power with violence...It is only natural to defend ourselves as we did.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Evangeline_CA_Prequest_City_15</Key>
+    <Value>So help me, outsider, one more ignorant statement from those lips, and I’ll feed you to the magma like the other snakes!</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Player_CA_Prequest_City_14_a</Key>
+    <Value>Fine, I guess you don't want the wagons full of food that we're sending your way.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Dorion_CA_Prequest_City_15</Key>
+    <Value>Wagons of food, you say...Let me see that letter!</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Dorion_CA_Prequest_City_16</Key>
+    <Value>Hmph...I see. The food and initial resources is conditional on accepting [PlayerName] as overseer of the new settlement, at least during the initial construction. To “ensure a stable and smooth transition”.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Evangeline_CA_Prequest_City_17</Key>
+    <Value>Scourge take you, we didn't just cast off our chains to wear a new set!</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Dorion_CA_Prequest_City_18</Key>
+    <Value>Evangeline, enough! Without that food, our people will starve. We must find some arrangement that all of us can at least tolerate.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Josef_CA_Prequest_City_19</Key>
+    <Value>Besides, we NEED legitimacy among the other tribes. I did not lend my support to this revolution just to end up becoming a bandit again!</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Evangeline_CA_Prequest_City_20</Key>
+    <Value>*sigh* Fine. You’re twisting my arm, but fine. I won’t make a fuss. Your supplies had better be real, visitor.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Player_CA_Prequest_City_20_a</Key>
+    <Value>So, what’s the state of the city? Can it be saved?</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Dorion_CA_Prequest_City_21</Key>
+    <Value>The city’s a lost cause, [PlayerName]. It’s collapsing into a magma fissure. More than half of it has already been submerged or broken apart by the seismic shift. We need to seek refuge somewhere else entirely.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Josef_CA_Prequest_City_22</Key>
+    <Value>With that promise of an initial batch of resources, though...We could rebuild in this region. It would be difficult, but we wouldn’t have to beg for scraps in another city. All we need is a place stable enough to start working.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Dorion_CA_Prequest_City_23</Key>
+    <Value>I was hoping we could pressure Monsoon to give us back some of the land that the Nobles sold to them...But we can’t move all of our people there in the state we’re in. I agree, we’ll have to rebuild here in the Caldera.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Evangeline_CA_Prequest_City_24</Key>
+    <Value>&lt;color=#00CCFF&gt;&lt;b&gt;I suggest the old Stone Quarry&lt;/b&gt;&lt;/color&gt;. It’s far enough from the Eldest Brother that it should be safe from further seismic shifts, and we’d have ready access to stone for construction.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Dorion_CA_Prequest_City_25</Key>
+    <Value>I concur. It’s the safest option we have. I’d still prefer we left the region entirely but...We can’t start over from nothing so far away. The old quarry it is.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Dorion_CA_Prequest_City_26</Key>
+    <Value>It’s in the &lt;color=#00CCFF&gt;&lt;b&gt;South East&lt;/b&gt;&lt;/color&gt; of the Caldera, [PlayerName]. Look for a large stone gate, past a natural rock bridge that passes a little to the east of the huge Chalcedony crystals. Go ahead, we’ll meet you there with the rest of the survivors!</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Josef_CA_Prequest_Settlement_01</Key>
+    <Value>Huh. This terrain looks...Usable. And those supplies are exactly what we need. We have a chance at making this work, if we’re careful and clever.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Dorion_CA_Prequest_Settlement_02</Key>
+    <Value>We need the essentials up and running, quick as we can. Food, then Lumber and Stone and Funds for construction. Everyone, name your tasks!</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Josef_CA_Prequest_Settlement_03</Key>
+    <Value>I’ll get to work on preparing blueprints and schematics for essential buildings, and organize construction, Dorion!</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Evangeline_CA_Prequest_Settlement_04</Key>
+    <Value>I’ve got experience with prospecting, I’ll examine any samples [PlayerName] brings in, and I’ll direct any gatherers we have.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Dorion_CA_Prequest_Settlement_05</Key>
+    <Value>Good. I’ve still got connections with a few other tribes, so I should be able to handle our treasury, as well as any essential purchases we will need to make.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Josef_CA_Prequest_Settlement_06</Key>
+    <Value>&lt;color=#00CCFF&gt;&lt;b&gt;Come see me as soon as you can&lt;/b&gt;&lt;/color&gt;, [PlayerName]. We’ve got building plans to lay!</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>LockedQuarry_CA_Prequest_01</Key>
+    <Value>(The access to the old quarry appears to be padlocked...You’d need to find someone who had permission to be in here.)</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>NobleGateBlocker_CA_Prequest_01</Key>
+    <Value>Halt, trespasser! There is severe unrest in Sirocco! &lt;color=#00CCFF&gt;&lt;b&gt;No outsiders are permitted until further notice&lt;/b&gt;&lt;/color&gt;! We have our hands full with just those damnable rioting commoners right now!</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Josef_CA_Fertilizer_Setup_01</Key>
+    <Value>Alright, [PlayerName], we need the bare necessities set up as swiftly as possible. Food, Stone, Lumber, and Funds. Without those, we’re up a river without a paddle.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Josef_CA_Fertilizer_Setup_02</Key>
+    <Value>Once we’ve got &lt;color=#00CCFF&gt;&lt;b&gt;at least two resource production facilities and 1 home set up&lt;/b&gt;&lt;/color&gt;, we can start planning for the extended future. By then, I’m sure Dorion will have something for you to do.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Josef_CA_Fertilizer_Setup_03</Key>
+    <Value>The initial batch of supplies that our backers have provided will keep us stable for about...&lt;color=#00CCFF&gt;&lt;b&gt;150 days&lt;/b&gt;&lt;/color&gt;, I’d reckon. If we don’t have all our Pearlbirds in a row by then, &lt;color=#00CCFF&gt;&lt;b&gt;things could get very bad&lt;/b&gt;&lt;/color&gt;.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Dorion_CA_Fertilizer_Start_01</Key>
+    <Value>Ah, there you are. We’ve got the essentials for construction set up, but we’ve hit a serious snag. It’s...About Ambraine herbs.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Dorion_CA_Fertilizer_Start_02</Key>
+    <Value>Our workers are going into Ambraine withdrawal. Our scouts and hunters can’t gather enough for everyone just by foraging. Some of our people have set up an improvised growing operation just over the hill...But the terrain is, understandably, rather sterile.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Dorion_CA_Fertilizer_Start_03</Key>
+    <Value>We need a fertilizer, something to give our Ambraine crops enough nutrition to survive until our first real harvest. If not...&lt;color=#00CCFF&gt;&lt;b&gt;Many of our people are planning to abandon the settlement&lt;/b&gt;&lt;/color&gt; and try to seek permanent refuge in Monsoon.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Player_CA_Fertilizer_Start_03_a</Key>
+    <Value>They’d abandon the settlement because they can’t get enough of that herb? Why?</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Dorion_CA_Fertilizer_Start_04</Key>
+    <Value>Ambraine has been part of our culture in Sirocco since long before the Scourge. It helps regulate body heat, and protects the lungs against the ash and soot in the air. We’ve depended on it in order to survive our work for generations.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Dorion_CA_Fertilizer_Start_05</Key>
+    <Value>Unfortunately, ceasing to smoke it comes with awful side effects. The Nobles knew, of course. It’s why almost none of them smoked it. By controlling the supply, they used its addictive nature to control us, to keep us in our place.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Dorion_CA_Fertilizer_Start_06</Key>
+    <Value>If we don’t solve this problem, we stand to lose a considerable amount of manpower. &lt;color=#00CCFF&gt;&lt;b&gt;Our construction operations would slow down significantly if so many people left&lt;/b&gt;&lt;/color&gt;. That fertilizer is now priority one, [PlayerName].</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Player_CA_Fertilizer_Start_06_a</Key>
+    <Value>A fertilizer, huh? Sounds like you have an idea of what would work.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Dorion_CA_Fertilizer_Start_07</Key>
+    <Value>I need you to &lt;color=#00CCFF&gt;&lt;b&gt;find a freshly-laid Myrmitaur egg in the Hives near the coast&lt;/b&gt;&lt;/color&gt;, then, &lt;color=#00CCFF&gt;&lt;b&gt;take it to the Sulfuric Caverns&lt;/b&gt;&lt;/color&gt;. A scout said he’d found &lt;color=#00CCFF&gt;&lt;b&gt;a Blue-ish pool of Sulphur&lt;/b&gt;&lt;/color&gt; in there. A fertile Medyse must have died in it, releasing a ton of nutrients.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Dorion_CA_Fertilizer_Start_08</Key>
+    <Value>Sink the Myrmitaur egg into it for a few minutes, and the stuff inside the egg should become exceptionally good fertilizer. One just good enough to get that first Ambraine harvest in and ensure the farms are off to a good start.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Player_CA_Fertilizer_Start_08_a</Key>
+    <Value>If those people can’t handle it here, why not let them leave for a safer region, then?</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Dorion_CA_Fertilizer_Start_09</Key>
+    <Value>Because almost none of them have been “outside the walls” even a single time, aside from moving to this quarry. Honestly, I’m shocked we all made even that short trip with only a few serious injuries.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Dorion_CA_Fertilizer_Start_10</Key>
+    <Value>You remember your first steps out in the wild, don’t you [PlayerName]? Do you think a gaggle of inexperienced laborers who have never swung a weapon in combat in their lives, leading their children by the hand, would survive the journey to Monsoon?</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Player_CA_Fertilizer_Start_10_a</Key>
+    <Value>...I see your point, Dorion. No, I don’t think many of them would make it.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Dorion_CA_Fertilizer_Start_11</Key>
+    <Value>Indeed. Now you understand the stakes, as well as the level of control that Ambraine gave the Nobility over us.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Player_CA_Fertilizer_Start_08_b</Key>
+    <Value>I’ll be back with it as soon as I can! Hold tight until then!</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>MyrmEggs_CA_Fertilizer_01</Key>
+    <Value>(There is a very large stack of Myrmitaur eggs in this nest...Taking a few shouldn’t unbalance their ecosystem. &lt;color=#00CCFF&gt;&lt;b&gt;You pack one up very gently&lt;/b&gt;&lt;/color&gt;.)</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Noble_CA_Fertilizer_ambush_01</Key>
+    <Value>Halt! I don’t recognize you! Identify yourself, brigand!</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Player_CA_Fertilizer_ambush_01_a</Key>
+    <Value>Whoa, easy there! I’m just gathering fertilizer for the refugees in New Sirocco. No need to get violent!</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Player_CA_Fertilizer_ambush_01_b</Key>
+    <Value>Well, looks like a few “snakes” escaped! Let’s fix that!</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Noble_CA_Fertilizer_ambush_02</Key>
+    <Value>You’re with those treasonous wretches! How dare you aid those murderous thugs!</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Player_CA_Fertilizer_ambush_02_a</Key>
+    <Value>I’m just helping their settlement stay alive! I don’t want any needless bloodshed!</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Noble_CA_Fertilizer_ambush_03</Key>
+    <Value>Anyone allying themselves with that lynch mob is just as guilty as them! Make this thug bleed!</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>SulphurPool_CA_Fertilizer_01</Key>
+    <Value>(You gently dip the Myrmitaur Egg into the Blue Sulphur.  To your surprise, the chemical reaction is almost immediate.  A rotten smell fills your nostrils and little spots cover the shell.  &lt;color=#00CCFF&gt;&lt;b&gt;This should satisfy Dorion&lt;/b&gt;&lt;/color&gt;.)</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Dorion_CA_Fertilizer_End_01</Key>
+    <Value>Ugh! I can smell that Myrmitaur Egg fertilizer from here. Yes, that’ll do for our Ambraine farms.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Dorion_CA_Fertilizer_End_02</Key>
+    <Value>It’s a shame that &lt;color=#00CCFF&gt;&lt;b&gt;it’s too late&lt;/b&gt;&lt;/color&gt;. &lt;color=#00CCFF&gt;&lt;b&gt;Several of our construction crews have packed up and left&lt;/b&gt;&lt;/color&gt; already. All we can do for them now is hope even a few of them survive the journey. *sigh* Well, at least the rest of us won’t go wanting for Ambraine...</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Dorion_CA_Fertilizer_End_03</Key>
+    <Value>I’ll spread the word, and have this thing delivered to the farms immediately. I think &lt;color=#00CCFF&gt;&lt;b&gt;this will be enough to keep anyone from choosing to flee the settlement&lt;/b&gt;&lt;/color&gt;. You’ve done a great service for us, [PlayerName]. Thank you!</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Player_CA_Fertilizer_End_03_a</Key>
+    <Value>There were some Nobles there too. I thought they were all killed in the revolt!</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Dorion_CA_Fertilizer_End_04</Key>
+    <Value>Some were close enough to the exits that their Warriors were able to cut a path through us. The Chamberlord and a small handful of others are still alive out there.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Josef_CA_Fertilizer_End_05</Key>
+    <Value>Why would they keep fighting us? Surely they know that they’re outnumbered and will flee to Berg or Monsoon, right? They have nothing to gain by staying in the Caldera!</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Evangeline_CA_Fertilizer_End_06</Key>
+    <Value>They’re Sirocco Nobles, Josef. They believe that they own the region and everything in it, by the right of their blood. They preferred to stay in a dying city than move for safety’s sake. I’m not even slightly surprised they haven’t moved on.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Dorion_CA_Fertilizer_End_07</Key>
+    <Value>Even so, we should focus our efforts on what we need to do to survive, not pursuing revenge, Evangeline. The settlement must come first.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Evangeline_CA_Fertilizer_End_08</Key>
+    <Value>*sigh* I know, Dorion. Fine. We’ll keep our focus on the city for now.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Josef_CA_Fertilizer_End_09</Key>
+    <Value>In better news, now that the essentials of life are in place, we can start work on the more specialized buildings that a town needs. &lt;color=#00CCFF&gt;&lt;b&gt;I’ve got a stack of blueprints waiting for your selection&lt;/b&gt;&lt;/color&gt;, Overseer [PlayerName].</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Josef_CA_Fertilizer_End_10</Key>
+    <Value>Ah, and Evangeline led a raid on Old Sirocco while you were out. They broke into the few remaining manors of the nobles, and brought in any gold or trinkets they could find. Use these funds wisely, I think this is the last lucky windfall we’ll be getting.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Leader_CA_Quest_AskForQuest</Key>
+    <Value>Is there something I can do to help the Settlement?</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Player_Josef_CA_Quest_Normal_Options</Key>
+    <Value>I have some construction I need done first.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Josef_CA_Volcano_Setup_01</Key>
+    <Value>Alright, let’s get the next set of tasks queued up!</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Josef_CA_Volcano_Setup_02</Key>
+    <Value>We’re working on nailing down our construction process, making it as streamlined and efficient as possible. Once we’ve got it up and running, we should be able to process more advanced materials, and create improvements to our buildings.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Josef_CA_Volcano_Setup_03</Key>
+    <Value>Evangeline and Dorion are both planning to set up some traditional Magma Forges to better forge complex construction materials, but...I’m sure there’s a better way. I know that a Levant engineer made an furnace that outperforms our traditional design...</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Josef_CA_Volcano_Setup_04</Key>
+    <Value>We’ve set a timetable of about &lt;color=#00CCFF&gt;&lt;b&gt;150 days&lt;/b&gt;&lt;/color&gt; before we settle on a solution. &lt;color=#00CCFF&gt;&lt;b&gt;Once my work orders are cleared up&lt;/b&gt;&lt;/color&gt;, I should have the free time to come up with something more efficient. If you could help me clean my plate, I’d appreciate it.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Josef_CA_Volcano_Setup_05</Key>
+    <Value>We’ll need at least a total of &lt;color=#00CCFF&gt;&lt;b&gt;3 homes, and 2 specialized buildings&lt;/b&gt;&lt;/color&gt; completed before I can get on that task. I’m counting on you, [PlayerName]!</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Josef_CA_Volcano_Start_01</Key>
+    <Value>Whew! Now that I’ve got a little bit less work to handle, I’ve been able to plan out a more effective furnace design. It should vastly improve the smelting of new bricks and other materials. &lt;color=#00CCFF&gt;&lt;b&gt;Our workers would be able to do more with less resources&lt;/b&gt;&lt;/color&gt;.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Josef_CA_Volcano_Start_02</Key>
+    <Value>The problem is, I’ll need a Volcanic Forge Stone to make it work, and our entire supply fell into the magma when the Three Brothers had that massive quake. I’ll need you to prepare a new one for us to use.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Josef_CA_Volcano_Start_03</Key>
+    <Value>Some of our Miners have dug out a big chunk of Chalcedony Crystal that will serve as the raw material for the Forge Stone. &lt;color=#00CCFF&gt;&lt;b&gt;Bring it into the belly of the Eldest Brother, the Volcano behind Old Sirocco&lt;/b&gt;&lt;/color&gt;. </Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Josef_CA_Volcano_Start_04</Key>
+    <Value>We have a site set up deep in the crater, where you can &lt;color=#00CCFF&gt;&lt;b&gt;convert the Crystal into a Forge Stone&lt;/b&gt;&lt;/color&gt;. &lt;color=#00CCFF&gt;&lt;b&gt;Once you’ve gotten it charged up, bring it home and the job’s done&lt;/b&gt;&lt;/color&gt;!</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Player_CA_Volcano_Start_04_a</Key>
+    <Value>Won’t I...You know, catch fire, going into an active volcano?</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Player_CA_Volcano_Start_04_b</Key>
+    <Value>I’ve actually been in there already. I’m shocked I didn’t drop dead of heat stroke!</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Josef_CA_Volcano_Start_05</Key>
+    <Value>Heh, do you think we’d live in a city with a volcano in our literal backyard and not have found a solution for the heat? We lined the lower levels with specially-prepared Chalcedony. They absorb heat from the nearby environment, and make it safe to traverse.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Josef_CA_Volcano_Start_06</Key>
+    <Value>In fact, when you visit the Eldest Brother, take a look near the bottom and you’ll see something we call the &lt;color=#00CCFF&gt;&lt;b&gt;Emberheart&lt;/b&gt;&lt;/color&gt;. With a little coaxing from a mage, it can keep our living areas cool, while also redirecting that heat to charge our Forge Stones for us.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Josef_CA_Volcano_Start_07</Key>
+    <Value>Ever wonder why being near open magma outside doesn’t give you heat stroke on the spot, [PlayerName]? You can thank the Emberheart for that. That’s the level of power it has. Its protection blankets the entire region.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Josef_CA_Volcano_Start_08</Key>
+    <Value>It’ll still be hot in there like nothing you’ve ever experienced, but you won’t catch fire just by being in there.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Player_CA_Volcano_Start_08_a</Key>
+    <Value>And how do you expect me to carry such a huge chunk of Chalcedony? Do we have a wagon or something?</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Josef_CA_Volcano_Start_09</Key>
+    <Value>I’ve got one of our old harnesses meant for carrying ore on your back. Of course, this does mean &lt;color=#00CCFF&gt;&lt;b&gt;you can’t carry the Chaldedony and a backpack at the same time&lt;/b&gt;&lt;/color&gt;, [PlayerName].</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Josef_CA_Volcano_Start_10</Key>
+    <Value>&lt;color=#00CCFF&gt;&lt;b&gt;You should leave your backpack here in the settlement&lt;/b&gt;&lt;/color&gt;, [PlayerName], we’ll look after it in the meantime. Prepare yourself as best you can with what space you have in your pockets.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Josef_CA_Volcano_Start_11</Key>
+    <Value>Oh, and &lt;color=#00CCFF&gt;&lt;b&gt;if you happen to lose the Chalcedony Crystal, let me know&lt;/b&gt;&lt;/color&gt; immediately. It will cost you if you want a replacement, but it’s not the end of the world.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Player_CA_Volcano_Start_11_a</Key>
+    <Value>How do I even get into the volcano in the first place?</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Josef_CA_Volcano_Start_12</Key>
+    <Value>There’s a large brass door in the back of Old Sirocco’s upper district. The route there was closed during the city’s collapse, but you should be able to reopen it. There’s a lever on a lower level of the city.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Player_CA_Volcano_Start_11_b</Key>
+    <Value>Right, looks like I’m headed back through Old Sirocco’s back door, then.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>ChargeStation_CA_Volcano_Start_01</Key>
+    <Value>(This is clearly the place used for charging up Forge Stones. You place down your Chalcedony Crystal and pull the switch)</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>ChargeStation_CA_Volcano_Start_02</Key>
+    <Value>(To your astonishment, you feel a tightly controlled ray of searing heat blast down from the Emberheart directly into the Chalcedony, making it glow an aggressive orange color...)</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>ChargeStation_CA_Volcano_Start_03</Key>
+    <Value>(A few minutes later, the switch flips back to normal, the process finished. The Forge Stone clearly contains extreme heat, but does not burn at the touch. It should be safe to &lt;color=#00CCFF&gt;&lt;b&gt;return with it to Josef back at the settlement&lt;/b&gt;&lt;/color&gt;)</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Josef_CA_Volcano_End_01</Key>
+    <Value>Ah. There you are. Unfortunately, the Forge Stone came &lt;color=#00CCFF&gt;&lt;b&gt;a little too late&lt;/b&gt;&lt;/color&gt; for me to finish up my improved furnace design. We wound up installing the more traditional Magma Furnace design instead. </Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Josef_CA_Volcano_End_02</Key>
+    <Value>Well, thanks anyway.  We’ll find a use for the Forge Stone you brought in regardless, and reward you for your work.  Still, shame about the loss of efficiency...</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Josef_CA_Volcano_End_03</Key>
+    <Value>Hah! You did it! Well, my improved furnace design is ready and waiting for this! &lt;color=#00CCFF&gt;&lt;b&gt;Our efficiency with building materials is about to get a noticeable boost&lt;/b&gt;&lt;/color&gt;. Thanks as always, [PlayerName]!</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Josef_CA_Volcano_End_04</Key>
+    <Value>In any case, we can process advanced building materials with those furnaces. I’ve cooked up a number of &lt;color=#00CCFF&gt;&lt;b&gt;improvements we can make to our specialized buildings&lt;/b&gt;&lt;/color&gt; with them. Let me know what we need, and we’ll get it built!</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Josef_CA_Volcano_End_05</Key>
+    <Value>Oh, and while you were away, we managed to find a few rare materials in the quarry. Put them to good use, eh?</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Josef_CA_Volcano_MidQuest_01</Key>
+    <Value>So, how’s the Forge Stone coming along?</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Player_CA_Volcano_MidQuest_01_a</Key>
+    <Value>This is impossible! How can I make such a dangerous journey with so few supplies?</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Josef_CA_Volcano_MidQuest_02</Key>
+    <Value>Hmm...I’d advice you to scout the route out ahead of time if you can’t handle it in one shot. You might be able to either clear a path, or at least get a better sense of what you’ll need.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Player_CA_Volcano_MidQuest_01_b</Key>
+    <Value>I...Lost the large Chalcedony Crystal you gave me...</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Josef_CA_Volcano_MidQuest_03</Key>
+    <Value>What?! *sigh* I’m quite disappointed in you. Fine. &lt;color=#00CCFF&gt;&lt;b&gt;A replacement is 100 silver&lt;/b&gt;&lt;/color&gt;. Maybe that’ll teach you not to waste valuable material!</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Josef_CA_Volcano_MidQuest_04</Key>
+    <Value>Alright, give me a moment...I’m going to go see if one of our miners has a chunk we can borrow...</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Josef_CA_Volcano_MidQuest_05</Key>
+    <Value>Phew, there you are! Now don’t lose this one, you hear?</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Player_CA_Volcano_MidQuest_03_a</Key>
+    <Value>I'll buy a new one.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Evangeline_CA_DjinnQuest_Setup_01</Key>
+    <Value>We’re working on the last really big improvements to our construction. With this next task done, I think we’ll finally be able to build the last of the essentials for the settlement.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Evangeline_CA_DjinnQuest_Setup_02</Key>
+    <Value>If we want to be able to maintain any more specialized buildings, we’ll need total temperature control in here. Josef’s working on a solution, but...I’m worried that planting a bunch of pipes into the ground may weaken the integrity of the soil.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Evangeline_CA_DjinnQuest_Setup_03</Key>
+    <Value>For now, focus on getting us what we need for the next phase of construction. We’ll deal with the temperature issue once that’s cleared up. It’ll take at least &lt;color=#00CCFF&gt;&lt;b&gt;150 days&lt;/b&gt;&lt;/color&gt; before Josef starts drilling holes for his ventilation system, so we have time to think.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Evangeline_CA_DjinnQuest_Start_01</Key>
+    <Value>Good timing! I’ve thought our temperature control problem through and there’s only one option better than Josef’s. You’ve seen the &lt;color=#00CCFF&gt;&lt;b&gt;Emberheart&lt;/b&gt;&lt;/color&gt; in the Eldest Brother’s basin, right?</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Player_CA_DjinnQuest_Start_01_a</Key>
+    <Value>Oh, you mean that gigantic weird rock down near the bottom? Yeah, I’ve seen it.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Evangeline_CA_DjinnQuest_Start_02</Key>
+    <Value>It’s the reason we’ve been able to make such effective use of the volcano over the centuries. If we could somehow bring the Emberheart here to New Sirocco...That would solve our temperature control problems completely.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Evangeline_CA_DjinnQuest_Start_03</Key>
+    <Value>Even from down there, its magical effects extend across the entire region, making it habitable despite the open magma and intense heat. I think you can see why we want control of it again.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Player_CA_DjinnQuest_Start_03_a</Key>
+    <Value>Moving it would take a whole lot of workers, and some kind of metal wagon...</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Evangeline_CA_DjinnQuest_Start_04</Key>
+    <Value>We don’t have the time or resources to put something like that together...And I don’t want to owe Sorobor Academy any more than I need to. I have a different proposal...&lt;color=#00CCFF&gt;&lt;b&gt;We can try asking the Djinn&lt;/b&gt;&lt;/color&gt;.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Evangeline_CA_DjinnQuest_Start_05</Key>
+    <Value>About 40 or so years back, when that moving metal Ark crawled onto our shores with a hold full of Calygreys, there was a creature that called itself a Djinn at the helm. I still don’t know where they all came from, it’s no country I’ve ever heard of.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Evangeline_CA_DjinnQuest_Start_06</Key>
+    <Value>The Djinn is a strange creature, endowed with great strength and magic, as well as near-total immunity to heat and smoke. If anyone can move the Emberheart in a pinch like this, it’s him.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Player_CA_DjinnQuest_Start_06_a</Key>
+    <Value>I‘ve fought him before. He just wants to be left alone. He definitely won’t help.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Player_CA_DjinnQuest_Start_06_b</Key>
+    <Value>If he’s the only shot we have, we’ve got to at least try, right?</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Josef_CA_DjinnQuest_Start_07</Key>
+    <Value>Oh, I don’t know how I feel about this...He gets real ornery any time we’ve had to work anywhere near his &lt;color=#00CCFF&gt;&lt;b&gt;oil refinery&lt;/b&gt;&lt;/color&gt;... I doubt he’ll cooperate. He only ever listened to the Nobles and the Calygreys.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Evangeline_CA_DjinnQuest_Start_08</Key>
+    <Value>I agree that just demanding his help is likely to go poorly. He is close with the Calygreys. And our Nobles captured and abused them the moment their vessel landed on our shores. He’s got no love for humans.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Evangeline_CA_DjinnQuest_Start_09</Key>
+    <Value>I know the Nobles had an “arrangement” with the Djinn. He supposedly feels at home with oil and smoke, so they gave him run of the refinery in exchange for access to the oil.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Player_CA_DjinnQuest_Start_09_a</Key>
+    <Value>He worked with them even after they abused his allies like that?</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Evangeline_CA_DjinnQuest_Start_10</Key>
+    <Value>They must have had some way to ensure he wouldn’t go back on their deal...Finding out what that is might give you some leverage against him. If you can &lt;color=#00CCFF&gt;&lt;b&gt;find a noble and make him talk&lt;/b&gt;&lt;/color&gt;...That might improve your chances.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Player_CA_DjinnQuest_Start_10_a</Key>
+    <Value>Where on Aurai am I going to just scrounge up a Noble?</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Evangeline_CA_DjinnQuest_Start_11</Key>
+    <Value>The Calygreys. They’ve made a sport of capturing any humans they come across and having them fight in their arena. And they have an especially great hatred for the Nobles in particular. Now that those bastards have been flushed out into the wild...</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Evangeline_CA_DjinnQuest_Start_12</Key>
+    <Value>&lt;color=#00CCFF&gt;&lt;b&gt;Try any place where the Calygreys could hold prisoners&lt;/b&gt;&lt;/color&gt;. &lt;color=#00CCFF&gt;&lt;b&gt;Their arena, the mobile Ark, anywhere they gather&lt;/b&gt;&lt;/color&gt;. With any luck, they’ll have a Noble somewhere. I wish I could be more specific, but this is all we’ve got to go on.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Noble_CA_DjinnQuest_Ark_01</Key>
+    <Value>You! Explorer! Let me out of here this instant! Before these primitive animals return!</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Player_CA_DjinnQuest_Ark_01_a</Key>
+    <Value>Well, you’re clearly a Sirocco Noble. We have something to talk about.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Player_CA_DjinnQuest_Ark_01_b</Key>
+    <Value>We just met and I already dislike your attitude.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Player_CA_DjinnQuest_Ark_01_c</Key>
+    <Value>Not until you do something for me first.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Noble_CA_DjinnQuest_Ark_02</Key>
+    <Value>Ugh, another ingrate who doesn’t respect authority. Perhaps we can make an exchange? My riches for my freedom? Would that please you, brute?</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Player_CA_DjinnQuest_Ark_02_a</Key>
+    <Value>I want something from the Djinn. How did you enforce your deal with him?</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Noble_CA_DjinnQuest_Ark_03</Key>
+    <Value>The Djinn? You want to use it for something? Why should I tell you such a valuable secret?</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Player_CA_DjinnQuest_Ark_03_a</Key>
+    <Value>So you don’t want me to free you? You’d rather stay at the mercy of the Calygreys?</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Noble_CA_DjinnQuest_Ark_04</Key>
+    <Value>Ugh, you thug... When those Calygrey savages and this Ark first landed in the Caldera, we captured some of them. One of their elders was wearing a strange &lt;color=#00CCFF&gt;&lt;b&gt;amulet&lt;/b&gt;&lt;/color&gt;. But no matter how hard we questioned them, we could extract no information.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Player_CA_DjinnQuest_Ark_04_a</Key>
+    <Value>I mean...They don’t speak our language. Of course that wouldn’t work.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Noble_CA_DjinnQuest_Ark_05</Key>
+    <Value>After much effort, one of our mages determined that the amulet holds an anchoring spell. Even a non-mage holding it aloft and invoking it will prevent the Djinn from fleeing or turning invisible. &lt;color=#00CCFF&gt;&lt;b&gt;It can be used to hold him in place&lt;/b&gt;&lt;/color&gt; so he can be... Disciplined.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Noble_CA_DjinnQuest_Ark_06</Key>
+    <Value>We made a deal. The Djinn was gifted the refinery, and the Calygreys he swore brotherhood to were set free. In exchange, he extracts oil for us. Any attempt to betray that deal would result in us using the amulet against him.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Player_CA_DjinnQuest_Ark_06_a</Key>
+    <Value>And you’re sure that it works? Have you ever tried to use it?</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Noble_CA_DjinnQuest_Ark_07</Key>
+    <Value>Of course we did. Regretfully, &lt;color=#00CCFF&gt;&lt;b&gt;none of our people were strong enough to bring him to heel in an environment where he naturally thrives&lt;/b&gt;&lt;/color&gt;. So, we were at a stalemate. All we can do is irritate him with the amulet. Our agreement holds, but just barely.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Player_CA_DjinnQuest_Ark_07_a</Key>
+    <Value>And where’s the amulet now?</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Noble_CA_DjinnQuest_Ark_08</Key>
+    <Value>*sigh* &lt;color=#00CCFF&gt;&lt;b&gt;I’m wearing it&lt;/b&gt;&lt;/color&gt;. I was on my way to try to speak with the Djinn before I was ambushed. I was informed that we should make use of him. Having the Djinn at our command would turn our desperate situation around and let us bring those spoiled rebels to heel!</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Player_CA_DjinnQuest_Ark_08_a</Key>
+    <Value>I’ll be taking it then. I need the Djinn to move the Emberheart to the new settlement.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Noble_CA_DjinnQuest_Ark_09</Key>
+    <Value>You want to use it to move the Emberheart to that quarry where those murderers are squatting?! How could you side with THEM?! They’re murderers and thugs, the whole lot of them! If they had just done as they were told, none of this would have happened!</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Player_CA_DjinnQuest_Ark_09_a</Key>
+    <Value>Uh huh. And you guys bear no responsibility at all, I’m certain.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Player_CA_DjinnQuest_Ark_09_b</Key>
+    <Value>You know, I REALLY wanted to be sympathetic, but you’re making it REAL hard.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Player_CA_DjinnQuest_Ark_09_c</Key>
+    <Value>I don’t know what to say. You guys have no one to blame but yourselves for all of this.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Noble_CA_DjinnQuest_Ark_10</Key>
+    <Value>Just wait until I get out of these chains! Father and I will see to it that your head rolls along with those three murderous insurgents!</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Player_CA_DjinnQuest_Ark_10_a</Key>
+    <Value>(Grab the Amulet from the Noble’s neck)</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Noble_CA_DjinnQuest_Ark_11</Key>
+    <Value>W-wait! Mistress! I’m sorry! Don’t-</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Djinn_CA_DjinnQuest_Dungeon_01</Key>
+    <Value>Ugh, another human. I’m not in the mood for guests. Out with you!</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Player_CA_DjinnQuest_Dungeon_01_a</Key>
+    <Value>Relax, I just want to talk.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Djinn_CA_DjinnQuest_Dungeon_02</Key>
+    <Value>...Fine. Talk is easy. Then, leave me be!</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Player_CA_DjinnQuest_Dungeon_02_a</Key>
+    <Value>I’ve never seen someone like you. Where did you come from?</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Djinn_CA_DjinnQuest_Dungeon_03</Key>
+    <Value>A bunch of whip-crackers captured me in my homeland, and bound me with a spell. Then, they loaded me up with a bunch of Calygreys and went off to sea with us to sell us in a far off country for labor.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Djinn_CA_DjinnQuest_Dungeon_04</Key>
+    <Value>The Calygreys helped me escape my captivity. Together we slaughtered our slavers and took control of the vessel. I managed to figure out how to steer it and land us somewhere far, FAR away from home.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Djinn_CA_DjinnQuest_Dungeon_05</Key>
+    <Value>The Calygreys and I owe each other a great debt. Without them, I’d still be a slave. Without me, they’d have starved at sea. Setting their Ark on a course around the region, and filling the fuel tank when it passes by is the least I can do for them.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Player_CA_DjinnQuest_Dungeon_05_a</Key>
+    <Value>You know how to speak Calygrey?</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Djinn_CA_DjinnQuest_Dungeon_06</Key>
+    <Value>They’re more of a visual species, but we were able to reach an understanding that’s healthy for us all. Now I hope you understand me. And. Get. Lost.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Player_CA_DjinnQuest_Dungeon_01_b</Key>
+    <Value>I’m just looking for treasure, don’t mind me.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Djinn_CA_DjinnQuest_Dungeon_07</Key>
+    <Value>You think you can just walk into my home and take what you please? No. I’m going to teach you some manners, trespasser!</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Djinn_CA_DjinnQuest_Dungeon_08</Key>
+    <Value>Enough! I refuse to tolerate this! What part of “retired” don’t you understand?! I’m GONE!</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Djinn_CA_DjinnQuest_Dungeon_07_Again</Key>
+    <Value>Fine! Go ahead! I hope you find a quick death while you’re at it!</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Player_CA_DjinnQuest_Dungeon_01_c</Key>
+    <Value>I need your help. We need you to move the Emberheart to the new settlement!</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Djinn_CA_DjinnQuest_Dungeon_09</Key>
+    <Value>Move the Emberheart? That sounds an awful lot like work! I’ve worked hard enough already! Let me enjoy my retirement in peace!</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Player_CA_DjinnQuest_Dungeon_09_a</Key>
+    <Value>You help the Calygreys, don’t you?  Why not us too?</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Djinn_CA_DjinnQuest_Dungeon_10</Key>
+    <Value>Those Calygreys and I escaped enslavement together. Don’t you dare put yourself on their level, human. You’re no friend of mine, you’re just another human demanding something from me!</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Player_CA_DjinnQuest_Dungeon_09_b</Key>
+    <Value>Our people will suffer without your help! Do you want that on your conscience?</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Djinn_CA_DjinnQuest_Dungeon_11</Key>
+    <Value>I’m not going to help you! And if you won’t leave, then I’ll MAKE you leave!</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Player_CA_DjinnQuest_Dungeon_11_a</Key>
+    <Value>No. I’m holding an Anchoring Amulet. You can’t turn into smoke and flee. You’re staying right here until I’m done with you!</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Djinn_CA_DjinnQuest_Dungeon_12</Key>
+    <Value>Oh, and you’ve got the stupid amulet too. Now I’m actually mad. You have no right to keep me against my will! Fine, you want me to do some work? I’ll show you work!</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Djinn_CA_DjinnQuest_Dungeon_13</Key>
+    <Value>Well, how do you like me NOW, puny human? Get OUT, or I’ll break every bone in your fragile little body!</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Player_CA_DjinnQuest_Dungeon_13_a</Key>
+    <Value>Come on, just move the rock and I’ll leave you alone!</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Player_CA_DjinnQuest_Dungeon_13_b</Key>
+    <Value>Wait, what if I offer to destroy the Amulet in exchange for moving the Emberheart?</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Djinn_CA_DjinnQuest_Dungeon_14</Key>
+    <Value>Really? I’ve heard that one before. Destroy it first, if you’re serious!</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Player_CA_DjinnQuest_Dungeon_14_b</Key>
+    <Value>Then I’ll lose my leverage and you can ignore our request. No, I’ll do it after.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Djinn_CA_DjinnQuest_Dungeon_15</Key>
+    <Value>No, you’ll do it NOW! And if you won’t, then I’m going to MAKE you!</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Player_CA_DjinnQuest_Dungeon_13_c</Key>
+    <Value>Alright, I’m ready. Round 2, let’s go!</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Djinn_CA_DjinnQuest_Dungeon_16</Key>
+    <Value>I warned you. You’ve made the wrong choice today, little twig!</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Player_CA_DjinnQuest_Dungeon_13_d</Key>
+    <Value>(Slowly back away)</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Djinn_CA_DjinnQuest_Dungeon_17</Key>
+    <Value>Alright, alright! You win! Stop already! Tell you what, &lt;color=#00CCFF&gt;&lt;b&gt;I’ll move your stupid burning rock&lt;/b&gt;&lt;/color&gt; if you promise you’ll break the Amulet when I’m done! NOW will you leave me alone?</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Player_CA_DjinnQuest_Dungeon_17_a</Key>
+    <Value>That’s all I actually wanted from you. So yeah.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Player_CA_DjinnQuest_Dungeon_17_b</Key>
+    <Value>I have you at my mercy now. Maybe I want more from you!</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Djinn_CA_DjinnQuest_Dungeon_18</Key>
+    <Value>In fact, you know what, take this lamp too. Consider it a bribe never to bother me EVER again!</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Djinn_CA_DjinnQuest_Dungeon_19</Key>
+    <Value>Fine, FINE! I’ll go move that stupid heavy thing for you. &lt;color=#00CCFF&gt;&lt;b&gt;I’ll meet you back at your settlement&lt;/b&gt;&lt;/color&gt;, human. *sigh*</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Djinn_CA_DjinnQuest_Dungeon_20</Key>
+    <Value>Out! I! SAID! OUT!</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Evangeline_CA_DjinnQuest_End_01</Key>
+    <Value>Well, you did it. The Djinn just planted the Emberheart down for us, cursing us all the while. Be honest with me, just how badly did you savage the poor thing?</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Player_CA_DjinnQuest_End_01_a</Key>
+    <Value>It was a pretty even fight, all things considered.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Player_CA_DjinnQuest_End_01_b</Key>
+    <Value>I think I got off worse than him. He’s vicious when he’s mad!</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Player_CA_DjinnQuest_End_01_c</Key>
+    <Value>He was nothing I couldn’t handle.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Evangeline_CA_DjinnQuest_End_02</Key>
+    <Value>Well, it’s a good thing you managed to bring the Emberheart here...Turns out I was right. Josef’s solution failed entirely. There’s considerable cracking of the ground here. &lt;color=#00CCFF&gt;&lt;b&gt;We can’t support as many large buildings as we were hoping&lt;/b&gt;&lt;/color&gt;.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Evangeline_CA_DjinnQuest_End_03</Key>
+    <Value>&lt;color=#00CCFF&gt;&lt;b&gt;We can handle 5 Specialized buildings in total from this point forward&lt;/b&gt;&lt;/color&gt;. Go see Josef about setting them up, like you’re used to.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Evangeline_CA_DjinnQuest_End_04</Key>
+    <Value>The Djinn showed up right on time with the Emberheart. With total temperature control, we can increase the heat of our furnaces, while keeping our living quarters a bearable temperature.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Evangeline_CA_DjinnQuest_End_05</Key>
+    <Value>&lt;color=#00CCFF&gt;&lt;b&gt;We can handle 6 Specialized buildings in total from this point forward&lt;/b&gt;&lt;/color&gt;. Go see Josef about setting them up, like you’re used to.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Djinn_CA_DjinnQuest_End_06</Key>
+    <Value>Yes, yes, good for you. I’ve done my part! Now, do as you promised and free me from the Amulet!</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Evangeline_CA_DjinnQuest_End_07</Key>
+    <Value>It’s alright, friend. I’ll take care of it right now. The magma below the town ought to do just fine.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Djinn_CA_DjinnQuest_End_08</Key>
+    <Value>Ahh...Sweet release. A two centuries long migraine, lifted. I thank you, humans. Now, never ask anything of me ever again. Let me enjoy my peace and quiet!</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Player_CA_DjinnQuest_End_09_a</Key>
+    <Value>I’m glad we set him free. The poor thing sounds like he’s suffered enough already.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Player_CA_DjinnQuest_End_09_b</Key>
+    <Value>It’s a shame we had to let him go. He could have been quite helpful.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Evangeline_CA_DjinnQuest_End_10</Key>
+    <Value>I won’t let us walk the same path our Nobles did. We need to work together out of solidarity, not fear. Cooperation for mutual benefit is the most effective way to accomplish long-term success.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Djinn_CA_DjinnQuest_AfterQuest_01</Key>
+    <Value>What part of “never bother me again” don’t you humans understand?!</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Player_CA_DjinnQuest_AfterQuest_01_b</Key>
+    <Value>I was thinking you could-</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Djinn_CA_DjinnQuest_AfterQuest_02</Key>
+    <Value>Nope! Not interested! Get lost, human!</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Evangeline_CA_ScarletFinal_Setup_01</Key>
+    <Value>I think we’ve finally got some breathing room. New Sirocco should be stable for a while. We’ve all done some excellent work, you included, [PlayerName].</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Dorion_CA_ScarletFinal_Setup_02</Key>
+    <Value>I’m really not so certain about our situation. &lt;color=#00CCFF&gt;&lt;b&gt;I think the magma level rose&lt;/b&gt;&lt;/color&gt; by an inch last night, Evangeline. The change was visible. &lt;color=#00CCFF&gt;&lt;b&gt;This could put the entire lower basin of the settlement at risk&lt;/b&gt;&lt;/color&gt;!</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Evangeline_CA_ScarletFinal_Setup_03</Key>
+    <Value>The magma flow shifts all the time Dorion, you know that. Our priority should be finishing the last of the important construction projects, and ensure we’re truly self-sufficient.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Josef_CA_ScarletFinal_Setup_04</Key>
+    <Value>I agree with Evangeline, there’s no natural reason why the magma would suddenly rise on its own, and the terrain here isn’t unstable like Old Sirocco was. I inspected the tunnels myself when we arrived here.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Josef_CA_ScarletFinal_Setup_05</Key>
+    <Value>Look, if you’re that concerned, I’ll start inspecting it again once this last batch of essential construction is finished. Otherwise, it’ll take at least &lt;color=#00CCFF&gt;&lt;b&gt;150 days&lt;/b&gt;&lt;/color&gt; before I actually have time to get around to your concerns.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Player_CA_ScarletFinal_Setup_05_a</Key>
+    <Value>So, what do we need done?</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Josef_CA_ScarletFinal_Setup_06</Key>
+    <Value>We need &lt;color=#00CCFF&gt;&lt;b&gt;4 Specialized Buildings in total, with 2 in total improved upon&lt;/b&gt;&lt;/color&gt;. That should be the last of the bare necessities for the settlement. Help me get this done so I can get Dorion off my back, would you?</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Evangeline_CA_ScarletFinal_Start_01</Key>
+    <Value>Ah, good timing. We have a serious problem, [PlayerName]. Dorion was right about the Magma rising!</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Josef_CA_ScarletFinal_Start_02</Key>
+    <Value>It’s proven beyond a doubt now, the flow of Magma has risen an inch every night for the past 3 nights, and has not gone back down since. I suspect it’s picking up speed too. &lt;color=#00CCFF&gt;&lt;b&gt;It WILL flood the lower levels of the town if we don’t do something&lt;/b&gt;&lt;/color&gt;!</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Player_CA_ScarletFinal_Start_01_a</Key>
+    <Value>What’s causing this? I thought you said you inspected the tunnels!</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Josef_CA_ScarletFinal_Start_03</Key>
+    <Value>I have no idea what could be causing this. It’s flowing in ways that are...Unusual. There’s no natural phenomenon that can explain this! It’s like something is...Pulling the magma upwards. Like, some kind of reverse gravity.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Player_CA_ScarletFinal_Start_03_a</Key>
+    <Value>Like a tide? When the moons pull the water up the shoreline?</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Josef_CA_ScarletFinal_Start_04</Key>
+    <Value>That’s...Not a bad analogy. But to pull up something as dense as magma, from below the ground...No, our moons wouldn’t be able to do that naturally. There’s some kind of magic at play here.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Avatar_CA_ScarletFinal_Start_05</Key>
+    <Value>Hear me, ungrateful wretches and murderous criminals! Your cruel and childish insurgency is at an end!</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Evangeline_CA_ScarletFinal_Start_06</Key>
+    <Value>What in Elatt’s name...Wait...I know that voice...&lt;color=#00CCFF&gt;&lt;b&gt;Chamberlord Orville&lt;/b&gt;&lt;/color&gt;! I...What in Elatt’s name...What ARE you?!</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Avatar_CA_ScarletFinal_Start_07</Key>
+    <Value>You will IMMEDIATELY abandon this worthless outpost, and return the Emberheart to its rightful place and then return to your posts in Sirocco! Or, you can stay here in this dust bowl and be consumed by the rising magma I command!</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Avatar_CA_ScarletFinal_Start_08</Key>
+    <Value>Surrender the traitors Evangeline, Josef and Dorion to face their rightful executions by fire, and agree to return to your rightful place as our property, and you shall not be harmed. Any who dare refuse will be punished by fire and death!</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Dorion_CA_ScarletFinal_Start_09</Key>
+    <Value>You madman! Old Sirocco is lost and destroyed! Our settlement is finally stable, and you would destroy it to chase this fantasy?!</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Avatar_CA_ScarletFinal_Start_10</Key>
+    <Value>Silence, old worm. We WILL restore the natural order of society. We WILL return to the deserved golden age you stole from us! Sirocco will once again be the most glorious city in Aurai!</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Avatar_CA_ScarletFinal_Start_11</Key>
+    <Value>You will abandon this foolish rebellion, and return to your appointed place, or you will be treated as the beasts of burden you are! Consider yourselves blessed that I even afford you this mercy after the death of my son!</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Josef_CA_ScarletFinal_Start_12</Key>
+    <Value>...Why. Why do they refuse to understand their culpability in what happened? After all they did to us, after all the deaths in the collapse, they still think they’re righteous and innocent! How is he STILL so blind?!</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Evangeline_CA_ScarletFinal_Start_13</Key>
+    <Value>I don’t understand. He was a mere dabbler in the magical arts, how did he attain this level of power? Someone must be helping him...But who? Who would have this kind of raw magical force, and be willing to aid him when the Nobles are so disadvantaged?</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Dorion_CA_ScarletFinal_Start_14</Key>
+    <Value>Not to derail your musings, but we need to act on this! Immediately! If that madman isn’t stopped...</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Player_CA_ScarletFinal_Start_14_a</Key>
+    <Value>Leave that to me. I can take him on. Buy me as much time as you can!</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Evangeline_CA_ScarletFinal_Start_15</Key>
+    <Value>Agreed, [PlayerName]. We’ll need all hands on deck for this. Josef! You’re with me! We need to get work teams to divert the incoming magma into as many side tunnels and cracks as possible. Any time we can buy is precious!</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Josef_CA_ScarletFinal_Start_16</Key>
+    <Value>Got it! Dorion! Put our mage to work on controlling the Emberheart. Have him cool off the town’s magma flow as much as he can manage! The slower that magma flows, the more time we’ll have!</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Evangeline_CA_ScarletFinal_Start_17</Key>
+    <Value>&lt;color=#00CCFF&gt;&lt;b&gt;We don’t have any leads for you, [PlayerName]. &lt;/b&gt;&lt;/color&gt;You’ll have to find where those bastards are hiding on your own. We’re counting on you!</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Avatar_CA_ScarletFinal_Dungeon_01</Key>
+    <Value>You have no place here, interloper. Begone, this conflict does not concern you! You have no right to interfere in our affairs! I WILL restore proper law and order, and punish these wicked commoners as they deserve!</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Player_CA_ScarletFinal_Dungeon_01_a</Key>
+    <Value>I made a vow to protect Aurai with my life. Backing down is not an option!</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Avatar_CA_ScarletFinal_Dungeon_02</Key>
+    <Value>Did Elatt protect us from the mob? Did he prevent our city from collapsing? No! In fact, you’ve sided with those who dared use violence against us! Why should we recognize Elatt’s authority when he clearly aids the wicked and the evil?</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Avatar_CA_ScarletFinal_Dungeon_03</Key>
+    <Value>One of those rebels arranged the murder of your champion Zephyrien, even though his family was one of their own kind! Did they not tell you?</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Player_CA_ScarletFinal_Dungeon_03_a</Key>
+    <Value>They did. Even so, the First Pillar of the Holy Mission calls us to protect those in need. New Sirocco is full of innocent people. I can’t let you enslave them all on pain of death, just for the actions of a few!</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Player_CA_ScarletFinal_Dungeon_03_b</Key>
+    <Value>They...Didn’t. Even so, the First Pillar of the Holy Mission calls us to protect those in need. New Sirocco is full of innocent people. I can’t let you enslave them all on pain of death, just for the actions of a few!</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Avatar_CA_ScarletFinal_Dungeon_04</Key>
+    <Value>Then you and Elatt are fools. Fools who would support murderers just because they put on a sympathetic face! We punished the criminal who killed Zephyrien, and yet it is us you accuse of being the enemy of justice!</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Player_CA_ScarletFinal_Dungeon_01_b</Key>
+    <Value>For the sake of all the tribes, I can't let you do that. I won’t let your mistress win.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Avatar_CA_ScarletFinal_Dungeon_05</Key>
+    <Value>How can you not understand? Our city, our civilization, our bloodlines, they would be snuffed out without a trace without her help! The status quo MUST be restored! Begging for the aid of the Scarlet Lady was the only way to save our city!</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Player_CA_ScarletFinal_Dungeon_05_a</Key>
+    <Value>So your solution to this situation was to sell yourself to a lich known for ritually sacrificing her closest family, just so she could become immortal? Look what she’s done to you!</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Avatar_CA_ScarletFinal_Dungeon_06</Key>
+    <Value>...You must be with the Krypteia. You oppose our Mistress’ goals, killing innocents in the night! I should not be surprised that you support those monstrous commoners, instead of the rightful rulers of the Caldera! Our Mistress is merciful and her cause is just!</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Player_CA_ScarletFinal_Dungeon_01_c</Key>
+    <Value>In the name of Calixa, Goddess of Progress, I will cut you down and forge a better future! One where we are judged for our actions, not our birthright!</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Avatar_CA_ScarletFinal_Dungeon_07</Key>
+    <Value>Levant’s riches were a great boon to us in years past...But it was poison in disguise! Your Queen’s insistence on progress for progress’ sake...It pushed our workers to demand more than they deserved, and gave them these...Childish rebellious ideas!</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Avatar_CA_ScarletFinal_Dungeon_08</Key>
+    <Value>And then, while under martial law imposed to protect the order of the city from their scheming, the Workers organized an attack on Berg with those Levantine bastards. And for what?! In hopes they might somehow be able to snatch some stolen territory?!</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Avatar_CA_ScarletFinal_Dungeon_09</Key>
+    <Value>The Workers were fools to think that our society can survive outside of our great city! Without our great Magma Forges, our famous smiths cannot work their art!</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Player_CA_ScarletFinal_Dungeon_09_a</Key>
+    <Value>They can’t work their art if they’re dead. They can’t put their hearts into their work if they’re your slaves!</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Avatar_CA_ScarletFinal_Dungeon_10</Key>
+    <Value>They have proven that they are not deserving of freedom. They took the freedoms we saw fit to bestow on them, and they turned in violence upon us. No more. They will be treated as they always should have been!</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Player_CA_ScarletFinal_Dungeon_01_d</Key>
+    <Value>Your vision of the world is bad for business. On behalf of Sorobor, I’m ending it!</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Avatar_CA_ScarletFinal_Dungeon_11</Key>
+    <Value>Ah, Sorobor Academy, as inscrutable as ever. You believe that selling to a mob of rabble and thugs is better for you than allying with the true Nobility? Fools! When the wealthy and powerful thrive, trade thrives! All the poor want are handouts!</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Avatar_CA_ScarletFinal_Dungeon_12</Key>
+    <Value>Then again, what should I expect from Sorobor? Your academy sided with the ignorant masses during the Scourge Oubreak, leaving your Nobility to die in their self-imposed exile!</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Player_CA_ScarletFinal_Dungeon_12_a</Key>
+    <Value>Our Nobles abandoned the city, and left the common people to die. And yet now, our power rivals that of the Collective itself! We’re proof that people are worth more than what family’s blood flows in our veins.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Avatar_CA_ScarletFinal_Dungeon_13</Key>
+    <Value>More like proof that commoners suffer delusions of grandeur the moment they’re no longer supervised! Perhaps once these rioting animals are properly leashed, we should restore the lost nobility of Harmattan, and put you back in line!</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Player_CA_ScarletFinal_Dungeon_13_a</Key>
+    <Value>That sounds like a declaration of war against us. Not a wise move on your part.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Avatar_CA_ScarletFinal_Dungeon_14</Key>
+    <Value>The right to rule...It’s innate, something we were born with. Something that mob of ingrate Workers and foolish Merchants could never possibly understand. If only they had known their place and obeyed, none of this would have happened!</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Player_CA_ScarletFinal_Dungeon_14_a</Key>
+    <Value>You can’t possibly be this delusional! You still can’t see what you’ve done wrong?!</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Player_CA_ScarletFinal_Dungeon_14_b</Key>
+    <Value>Shut up old-timer, you’re done. Surrender, or I’ll put you in the ground!</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Player_CA_ScarletFinal_Dungeon_14_c</Key>
+    <Value>I didn’t want to do this. But you’re leaving me no choice. I’m going to put you down!</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Avatar_CA_ScarletFinal_Dungeon_15</Key>
+    <Value>Silence! You know nothing! Nothing! You cannot conceive of how heavy the burden of Nobility is! Only we can guide the city to its destiny! Commoners have no vision, no ambition, no right to rule!</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Avatar_CA_ScarletFinal_Dungeon_16</Key>
+    <Value>This is the natural order of the world! The elite and the powerful rule, and those beneath us bring our vision into reality! They exist solely to lift us up! If it weren’t for us, they’d all be nothing more than animals, or worthless, lazy sacks of flesh!</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Avatar_CA_ScarletFinal_Dungeon_17</Key>
+    <Value>This is your final chance. Leave now, or be punished with flame and death!</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>RemoveEndStaff_CA_00</Key>
+    <Value>The air is thick with intense magical warmth around the staff, as it channels the Scarlet Lady’s power. You reach through the scorching heat, and with a yell, manage to yank it free, severing the connection! New Sirocco is safe!</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>ScarletLady_CA_ScarletFinal_Dungeon_18</Key>
+    <Value>Hmph. After all my work of adding the bloodline of Sirocco’s Chamberlords to my own, they disappoint me and die. Again, it seems the only true power is in the blood of the oldest families.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>ScarletLady_CA_ScarletFinal_Dungeon_19</Key>
+    <Value>Very well, my plans will be adjusted. I suppose I should thank you for revealing my weaknesses to me, [PlayerName]. It makes my eventual victory all the more certain.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>ScarletLady_CA_ScarletFinal_Dungeon_19_a</Key>
+    <Value>Underestimate humanity at your peril, Scarlet Lady. We can clearly match you!</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>ScarletLady_CA_ScarletFinal_Dungeon_20</Key>
+    <Value>How quaint. People die, systems collapse, societies crumble. The only constant is the power of the blood, the power of wisdom and nobility, passed down through generations. Go on, treasure your victory today. It, like all mortal things, is transitory.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>ScarletLady_CA_ScarletFinal_Dungeon_21</Key>
+    <Value>Know this, human, my exile is temporary as well. Someday Aurai will witness my presence again, and I will cease to be a mere myth. Someday, I will return to the throne I deserve, and bring my ideals into reality.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Josef_CA_ScarletFinal_End_01</Key>
+    <Value>Well, I’ve got good news and bad news. The bad news is that the lava level surged the other night. &lt;color=#00CCFF&gt;&lt;b&gt;The entire lower district has been destroyed&lt;/b&gt;&lt;/color&gt;, and the magma there will take years to flow out. *sigh*</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Josef_CA_ScarletFinal_End_02</Key>
+    <Value>The good news is that we’ve managed to excavate a tunnel for the incoming magma into a relatively large chasm. We shouldn’t have to worry about any further damage for quite some time. Still...We’ve lost a considerable chunk of the settlement...</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Evangeline_CA_ScarletFinal_End_03</Key>
+    <Value>We’ve bought you all the time we can [PlayerName]. Kill the bastard.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Josef_CA_ScarletFinal_End_04</Key>
+    <Value>Well, the damage could have been far, FAR worse. Losing an entire district is terrible...But life will go on.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Josef_CA_ScarletFinal_End_05</Key>
+    <Value>You killed the bastard in the nick of time, friend. A few more days and it would have been too little, too late. &lt;color=#00CCFF&gt;&lt;b&gt;The Magma flow has stabilized again. We’re safe.&lt;/b&gt;&lt;/color&gt;</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Evangeline_CA_ScarletFinal_End_06</Key>
+    <Value>I had my doubts about you, [PlayerName], but you’ve more than carried your weight. We couldn’t have made it this far without you. So...Thank you. For everything.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Dorion_CA_ScarletFinal_End_07</Key>
+    <Value>I didn’t think we could start over after Old Sirocco fell. But we did it. We actually have a chance to make something of this place.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Player_CA_ScarletFinal_End_07_a</Key>
+    <Value>What happens now? Does the settlement still need me at this point?</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Josef_CA_ScarletFinal_End_08</Key>
+    <Value>You’re welcome to stay, you know. You’re kind of a fixture around these parts now, [PlayerName]. Our people have come to depend on you.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Player_CA_ScarletFinal_End_08_a</Key>
+    <Value>So...How are we going to organize things, going forward?</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Evangeline_CA_ScarletFinal_End_09</Key>
+    <Value>We’re going to do things a little differently than our forebears. Once things settle, we’ll hold frequent elections to choose our Chamberlord and head officials. We’ll find some way to ensure a smooth and frequent rotation of power.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Josef_CA_ScarletFinal_End_10</Key>
+    <Value>Power must change hands frequently. Hold it for too long and it’s guaranteed to lead to stagnation and corruption. Already, some of us prioritized construction over a possible threat to the entire settlement. We should have been more vigilant.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Dorion_CA_ScarletFinal_End_11</Key>
+    <Value>Until we settle on a more permanent form of governance, you’re free to keep your position as overseer of construction. You’ve done well by us so far, and I doubt our people would object.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Messenger_CA_ScarletFinal_01</Key>
+    <Value>It’s been some time, [PlayerName], how’ve you been? I’ve got another letter for you! Here you go!</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Messenger_CA_ScarletFinal_RissaLetter01</Key>
+    <Value>Dear [PlayerName], I am most impressed with your efforts. You helped renew civilization in the Caldera, and put an end to another of our great enemy’s plots. I couldn’t be more proud of who you have become.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Messenger_CA_ScarletFinal_RissaLetter02</Key>
+    <Value>You have come far from your humble origins, and have proved yourself worthy of the Aberdeen name. If you wish to remain in New Sirocco for now, please do so. I trust you will continue to lead it to great success.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Messenger_CA_ScarletFinal_MonsoonLetter01</Key>
+    <Value>[PlayerName], consider yourself fortunate that my initial letter and your replacement was delayed. I asked you to assist the leadership of Sirocco, not the Workers. And yet...Against all odds, this appears to have been the correct course of action.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Messenger_CA_ScarletFinal_MonsoonLetter02</Key>
+    <Value>Not only did you manage to secure a new settlement for the citizens without them taking over our rightful land, but you exposed the absolute depravity of their Nobles and ensured they faced proper justice for their crimes.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Messenger_CA_ScarletFinal_MonsoonLetter03</Key>
+    <Value>While perhaps this is not the result I wished for, it is one I am quite content to accept. Taleron and Elatt were right, you may indeed have been the best choice for this mission. Don’t let that go to your head.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Messenger_CA_ScarletFinal_LevantLetter01</Key>
+    <Value>[PlayerName], Calixa just gave us the news. Your actions in the Caldera were indeed nothing less than heroic. I find myself ashamed that we did not realize the severity of the situation sooner. This should have been done years ago.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Messenger_CA_ScarletFinal_LevantLetter02</Key>
+    <Value>Calixa bids me tell you that you are free to remain in New Sirocco if you wish. You have more than earned your rest, and your presence there may help us mend the harm that Levant’s inaction has caused to both of our cities.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Messenger_CA_ScarletFinal_SoroborLetter01</Key>
+    <Value>Well done, [PlayerName]! I wholeheartedly approve of your course of actions. Choosing to support the Workers over the fractured but powerful Nobles was a VERY bold move.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Messenger_CA_ScarletFinal_SoroborLetter02</Key>
+    <Value>I believe you have just secured us a great deal of loyalty in New Sirocco, loyalty we can leverage. And frankly, while the loss of the Noble’s deep pockets does sting, I find myself considerably more comfortable with this new status quo.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Messenger_CA_ScarletFinal_SoroborLetter03</Key>
+    <Value>Feel free to remain in New Sirocco if it pleases you. I trust you will be able to lead it to even loftier heights.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Evangeline_CA_Basebuilding_01</Key>
+    <Value>If we’re going to make this settlement work in the long term, we need specialized resources. When you’re out gathering, bring back samples of anything interesting you find, so I can identify them for you and send out work crews to examine the site.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Evangeline_CA_Basebuilding_02</Key>
+    <Value>If the sample leads us to something special, you can hold onto it until it’s needed. If not, well, it’s off to the resource pile with it. It’s a win for us either way, so don’t neglect to bring stuff in, got it?</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Evangeline_CA_Basebuilding_03</Key>
+    <Value>Well, [PlayerName], what do you need?</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Player_Evangeline_CA_Basebuilding_03_a</Key>
+    <Value>I’ve got samples I want to turn in for appraisal.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Evangeline_CA_Basebuilding_04</Key>
+    <Value>Good, show me what you’ve got, then....</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Evangeline_CA_Basebuilding_05</Key>
+    <Value>Let’s see about those mineral samples...</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Evangeline_CA_Basebuilding_06</Key>
+    <Value>Oho! What do we have in here? There’s traces of some very rare minerals here!</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Evangeline_CA_Basebuilding_07</Key>
+    <Value>Hmm...And a bunch of clay and gravel here. Excellent building material, but not much else of note.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Evangeline_CA_Basebuilding_08</Key>
+    <Value>So, there’s some plant samples to look at, I see...</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Evangeline_CA_Basebuilding_09</Key>
+    <Value>Well! A pleasant surprise, there’s some special materials growing in those spots! Where’d you find these?</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Evangeline_CA_Basebuilding_10</Key>
+    <Value>The samples you brought back hint that there’s a huge root network in that area! Several trees worth, I think!</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Evangeline_CA_Basebuilding_11</Key>
+    <Value>Now, what critters did you scrounge up for us...</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Evangeline_CA_Basebuilding_12</Key>
+    <Value>Very nice! There’s some rare finds in your haul! We’ll send our hunters to go see if there’s any more out there!</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Evangeline_CA_Basebuilding_13</Key>
+    <Value>Hmm, just a bunch of common Mole Pigs, but they seem to have bred recently. We’ll send our hunters to check those spots, and bring home a feast tonight!</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Evangeline_CA_Basebuilding_14</Key>
+    <Value>It seems like a Gargoyle got to those Mole Pigs, some of their organs are petrified...We can’t eat them, but those stone organs will still come in handy!</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Evangeline_CA_Basebuilding_15</Key>
+    <Value>One poor runt was horribly sick and had to be put down...But it half-turned into a ghost when I did! I’m sure Josef will have some idea what to do with this...Ectoplasm.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Evangeline_CA_Basebuilding_16</Key>
+    <Value>That litter of Mole Pigs seems to have swallowed some Mana Stones. The animals will be inedible...But digested Mana Stone makes for a very useful oil!</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Evangeline_CA_Basebuilding_17</Key>
+    <Value>Come back when you have something worth identifying, would you?</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Evangeline_CA_Basebuilding_18</Key>
+    <Value>Oho! Looks you’ve struck gold! That’s definitely worth sending a work crew out for!</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Evangeline_CA_Basebuilding_19</Key>
+    <Value>Oho! Some of these roots are known aphrodisiacs...I know someone in Sorobor Academy who will pay VERY nicely if we bring him the entire root network...</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Evangeline_CA_Basebuilding_20</Key>
+    <Value>Ooh! This runt is a Silverback Molepig! I’ll tell our hunters to check that place for more of them! A whole warren’s worth of their fur will fetch us a small fortune!</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Josef_CA_Basebuilding_00</Key>
+    <Value>Alright, [PlayerName], listen up. Once you’ve decided where a building needs to go, or a phase of construction is complete, be sure to &lt;color=#00CCFF&gt;&lt;b&gt;leave a mark on the ledger&lt;/b&gt;&lt;/color&gt; out front of the construction site. If we have enough materials, we’ll get right to work on it!</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Josef_CA_Basebuilding_01</Key>
+    <Value>To get construction done, we’ll need Stones and Lumber for building material, and we need Funds to purchase the more delicate things we can’t just scrounge up.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Josef_CA_Basebuilding_02</Key>
+    <Value>We have to keep Food coming too. If we start running critically low, we’ll need to have all hands on deck foraging and hunting just to avoid starvation. Construction will halt completely.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Josef_CA_Basebuilding_03</Key>
+    <Value>Also, do bear in mind that our resource stockpile has a limit. We can only hold so much of everything before we can’t store any more.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Josef_CA_Basebuilding_04</Key>
+    <Value>So, what are we working on today?</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Player_Josef_CA_Basebuilding_04_a</Key>
+    <Value>I want to build something.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Player_Josef_CA_Basebuilding_04_b</Key>
+    <Value>I want to build a basic building.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Player_Josef_CA_Basebuilding_04_c</Key>
+    <Value>I want to build a specialized building.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Player_Josef_CA_Basebuilding_04_d</Key>
+    <Value>I want to build something decorative.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Player_Josef_CA_Basebuilding_04_e</Key>
+    <Value>I want to upgrade a building.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Player_Josef_CA_Basebuilding_04_f</Key>
+    <Value>I want to upgrade a specialized building.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Player_Josef_CA_Basebuilding_04_g</Key>
+    <Value>I want to move a building.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Josef_CA_Basebuilding_05</Key>
+    <Value>For specialized buildings and upgrades to existing ones, you might need specific kinds of rare resources. Evangeline should be able to help you find those.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Josef_CA_Basebuilding_06</Key>
+    <Value>Be careful about planning a specialized building, friend. These will swiftly become relied upon by the community. We can’t go around tearing them down once they’re up. Not to mention, we only have so much space and people to run them.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Josef_CA_Basebuilding_07</Key>
+    <Value>I’m trusting you to make the right calls about what this settlement really needs, [PlayerName]. For now, we can only support 3 specialized buildings...But I’m working on what we’ll need to support more later.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Josef_CA_Basebuilding_08</Key>
+    <Value>Improvements provide a huge boon to one of our Specialized Buildings, providing new and helpful services. But be warned. There are 2 possible improvements, and once you’ve built one, you can never change your mind. Choose wisely.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Player_Josef_CA_Basebuilding_04_Skip_a</Key>
+    <Value>I’d like to spend a week helping with the construction tasks.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Player_Josef_CA_Basebuilding_04_Skip_01</Key>
+    <Value>Really? You’re fine with spending 7 days helping us out? It’s much appreciated, [PlayerName]. Are you sure?</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Dorion_CA_Basebuilding_01</Key>
+    <Value>Funds are essential to the running of a city. We’ll need money to handle the construction of more delicate items. We can start by levying a tax on those with homes, as well as businesses.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Dorion_CA_Basebuilding_02</Key>
+    <Value>Of course, if you’d like to donate your own silver or gold, we’d be happy to take it!</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Dorion_CA_Basebuilding_03</Key>
+    <Value>If we have a critical need for a certain kind of basic resource, let me know, and I can spend some of our funds in order to purchase some from another tribe.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Dorion_CA_Basebuilding_04</Key>
+    <Value>What’s on the agenda today, [PlayerName]?</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Player_Dorion_CA_Basebuilding_04_a</Key>
+    <Value>We need to buy some resources for the settlement.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Player_Dorion_CA_Basebuilding_04_b</Key>
+    <Value>I want to donate some funds to the city treasury.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>General_CA_Basebuilding_01</Key>
+    <Value>Oy, it’s you! What can I get you?</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Player_General_CA_Basebuilding_01_a</Key>
+    <Value>I want to see your exotic goods.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Player_General_CA_Basebuilding_01_b</Key>
+    <Value>I want to travel somewhere. - 300 Silver</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>General_CA_Basebuilding_02</Key>
+    <Value>Sure thing, where do you want to go?</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Player_General_CA_Basebuilding_02_a</Key>
+    <Value>Take me to Cierzo.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Player_General_CA_Basebuilding_02_b</Key>
+    <Value>Take me to Berg.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Player_General_CA_Basebuilding_02_c</Key>
+    <Value>Take me to Monsoon.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Player_General_CA_Basebuilding_02_d</Key>
+    <Value>Take me to Levant.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Player_General_CA_Basebuilding_02_e</Key>
+    <Value>Take me to Harmattan.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>General_CA_Basebuilding_Cierzo</Key>
+    <Value>Cierzo’s sent along their catch of the day, get ‘em while they’re still fresh!</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>General_CA_Basebuilding_Berg</Key>
+    <Value>We’ve brought in some of the best that Berg has to offer this time!</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>General_CA_Basebuilding_Monsoon</Key>
+    <Value>Monsoon sent us some goods this time, in one of those fancy new Soroborean preservation wagons! Enjoy!</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>General_CA_Basebuilding_Levant</Key>
+    <Value>Levant’s sent along some of their finest luxuries this time, friend! Get them while you can!</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>General_CA_Basebuilding_Harmattan</Key>
+    <Value>We’ve got some finely crafted goods from Harmattan this time around! Take a look!</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Blacksmith_CA_Basebuilding_01</Key>
+    <Value>This may not be as impressive as my old Magma forge in Old Sirocco, but I’ll make do. What do you need worked on?</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Player_Blacksmith_CA_Basebuilding_01_a</Key>
+    <Value>Craft me a weapon.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Player_Blacksmith_CA_Basebuilding_01_b</Key>
+    <Value>Craft me some armor.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Blacksmith_CA_Basebuilding_01_CustomWeapon</Key>
+    <Value>Ah, want some experimental weaponry, eh? What do you need?</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Blacksmith_CA_Basebuilding_01_CustomArmor</Key>
+    <Value>I have a set of Chalcedony Armor in mind for you. Interested?</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Player_Blacksmith_CA_Basebuilding_02_a</Key>
+    <Value>Chalcedony Helmet – Nephrite Gemstone + 3 Chalcedony + 400 Silver</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Player_Blacksmith_CA_Basebuilding_02_b</Key>
+    <Value>Chalcedony Armor – 2 Nephrite Gemstones + 5 Chalcedony + 600 Silver</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Player_Blacksmith_CA_Basebuilding_02_c</Key>
+    <Value>Chalcedony Boots – Nephrite Gemstone + 3 Chalcedony + 300 Silver</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Player_Blacksmith_CA_Basebuilding_01_OneHand1</Key>
+    <Value>Hailfrost Sword – Militia Sword + Cold Stone + 200 Silver</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Player_Blacksmith_CA_Basebuilding_01_OneHand2</Key>
+    <Value>Hailfrost Mace – Militia Mace + Cold Stone + 200 Silver</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Player_Blacksmith_CA_Basebuilding_01_OneHand3</Key>
+    <Value>Hailfrost Axe – Militia Axe + Cold Stone + 200 Silver</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Player_Blacksmith_CA_Basebuilding_01_TwoHand1</Key>
+    <Value>Hailfrost Claymore – Militia Claymore + Cold Stone + 300 Silver</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Player_Blacksmith_CA_Basebuilding_01_TwoHand2</Key>
+    <Value>Hailfrost Hammer – Militia Hammer + Cold Stone + 300 Silver</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Player_Blacksmith_CA_Basebuilding_01_TwoHand3</Key>
+    <Value>Hailfrost Greataxe – Militia Greataxe + Cold Stone + 300 Silver</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Player_Blacksmith_CA_Basebuilding_01_TwoHand4</Key>
+    <Value>Hailfrost Spear – Militia Spear + Cold Stone + 300 Silver</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Player_Blacksmith_CA_Basebuilding_01_TwoHand5</Key>
+    <Value>Hailfrost Halberd – Militia Halberd + Cold Stone + 300 Silver</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Player_Blacksmith_CA_Basebuilding_01_TwoHand6</Key>
+    <Value>Hailfrost Knuckles – Militia Knuckles + Cold Stone + 300 Silver</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Player_Blacksmith_CA_Basebuilding_01_Trinket1</Key>
+    <Value>(DELETED)</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Player_Blacksmith_CA_Basebuilding_01_Trinket2</Key>
+    <Value>Hailfrost Dagger – Militia Dagger + Cold Stone + 150 Silver</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Player_Blacksmith_CA_Basebuilding_01_Trinket3</Key>
+    <Value>Hailfrost Pistol – Militia Pistol + Cold Stone + 150 Silver</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Player_Blacksmith_CA_Basebuilding_01_Trinket4</Key>
+    <Value>(DELETED)</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Player_Blacksmith_CA_Basebuilding_01_WeaponMenu1</Key>
+    <Value>I want a one-handed weapon.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Player_Blacksmith_CA_Basebuilding_01_WeaponMenu2</Key>
+    <Value>I want a two-handed weapon.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Player_Blacksmith_CA_Basebuilding_01_WeaponMenu3</Key>
+    <Value>I want an off-hand weapon.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Player_Blacksmith_CA_Basebuilding_01_WeaponMenu4</Key>
+    <Value>(Next set)</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Alchemist_CA_Basebuilding_01</Key>
+    <Value>Experimental alchemy, at your service, [PlayerName]! Whether you need medicine, or want something to explode in your enemy’s face, I’ve got a remedy for what ails you!</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Enchanter_CA_Basebuilding_01</Key>
+    <Value>Ah, there you are, [PlayerName]! I think you’ll enjoy our new permanent enchanting setup! There’s no fiddling with incense pillars required for this one!</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Enchanter_CA_Basebuilding_02</Key>
+    <Value>Place a rare material from the Caldera in the incense pot, place the gear you’d like to enchant on the stone tablet, and we’ll take care of the rest for you!</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Enchanter_CA_Basebuilding_03</Key>
+    <Value>And with that expanded library, now you’ll be able to enchant your off-hand weapons like dagger and shield and so on, as well!</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Food_CA_Basebuilding_01</Key>
+    <Value>Ah, my favourite customer! What do you want to treat yourself to?</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Caraveneer_CA_Basebuilding_01</Key>
+    <Value>Where’s there’s people in need, Sorobor visits with goods and supplies in hand! What do you need, my friend?</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Inn_CA_Basebuilding_01</Key>
+    <Value>Welcome to the Raging Myrm! Pull up a seat and make yourself at home!</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Inn_CA_Basebuilding_02</Key>
+    <Value>Want to stay the night? Then put 25 Silver on the counter!</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Inn_CA_Basebuilding_03</Key>
+    <Value>Enjoy your stay!</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Arena_CA_Basebuilding_01</Key>
+    <Value>Welcome to the Crucible of Fire! Wager some Silver, earn Conqueror Medals and exchange them for glorious prizes! Oh and we’re not responsible for your safety, if you get killed in there, that’s on you.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Player_Arena_CA_Basebuilding_01_a</Key>
+    <Value>Sign me up for a fight!</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Player_Arena_CA_Basebuilding_01_b</Key>
+    <Value>I want to exchange my Conqueror Medals for a prize.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Arena_CA_Basebuilding_02</Key>
+    <Value>So, who do I sign you up to fight?</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Player_Arena_CA_Basebuilding_02_a</Key>
+    <Value>The Knights of Calixa.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Player_Arena_CA_Basebuilding_02_b</Key>
+    <Value>The Masters of the Ocean.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Player_Arena_CA_Basebuilding_02_c</Key>
+    <Value>The Guardians of the Marsh.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Player_Arena_CA_Basebuilding_02_d</Key>
+    <Value>The Wolfgang Warriors.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Player_Arena_CA_Basebuilding_02_e</Key>
+    <Value>The Champions of New Sirocco.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Arena_CA_Basebuilding_03</Key>
+    <Value>Hand over two Medals, and I’ll fill the Chest of Plenty over there for you. You might find almost anything in there, from the rarest treasure, to the lowliest scrap! Are you in?</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Arena_CA_Basebuilding_04</Key>
+    <Value>I’ve filled the Chest for you, go take your reward!</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Arena_CA_Basebuilding_05</Key>
+    <Value>You’re on [PlayerName]! Go get ‘em!</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Arena_CA_Basebuilding_06</Key>
+    <Value>That opponent is recovering from the last fight. They’ll be up for another round sometime tomorrow.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Arena_CA_Basebuilding_07</Key>
+    <Value>Good fight! You’ve earned this!</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>WeaponTrainer_CA_Basebuilding_01</Key>
+    <Value>I’ve mastered every kind of weapon worth using. If you want to unlock the ultimate secrets of war, you will find no better teacher.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>PassiveTrainer_CA_Basebuilding_01</Key>
+    <Value>If you’re here, it must mean you are considering specializing your talents. You can only go so far while keeping all options open. Sooner or later, you will need to commit to a style, and hone yourself to a razor’s edge!</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>PassiveTrainer_CA_Basebuilding_02</Key>
+    <Value>Remember, once you have chosen a specialization, you cannot change your mind. Choose your training wisely, for each path comes with a drawback.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Temple_CA_Basebuilding_01</Key>
+    <Value>Elatt welcomes you, [PlayerName]. If you make a donation of 100 Silver for those in need, I will happily provide you with a boon of protection against all elements, that &lt;color=#00CCFF&gt;&lt;b&gt;will last for two full days&lt;/b&gt;&lt;/color&gt;.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Temple_CA_Basebuilding_02</Key>
+    <Value>Elatt welcomes you, [PlayerName]. If you make a donation of 125 Silver for those in need, I will happily provide you with a boon of protection against all elements and further protection against negative statuses. The protection &lt;color=#00CCFF&gt;&lt;b&gt;will last for two full days&lt;/b&gt;&lt;/color&gt;.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Temple_CA_Basebuilding_03</Key>
+    <Value>Elatt’s eye is on you, [PlayerName]. May he keep you safe in your travels! Feel free to return whenever you wish for Elatt’s protection to be extended.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Krypteia_CA_Basebuilding_01</Key>
+    <Value>Ancestors guide you, [PlayerName]. Thank you for setting up an outpost for the Krypteia out here. It will be a great boon to us.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Krypteia_CA_Basebuilding_02</Key>
+    <Value>Gabriella told me that you never had a chance to learn any of the abilities and skills the Krypteia have kept secret all these years. I think this one is a good place to start, it’s bailed me out of many close calls.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Player_Krypteia_CA_Basebuilding_02_a</Key>
+    <Value>What are you doing out here?</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Krypteia_CA_Basebuilding_03</Key>
+    <Value>I’ve been trying to track down a descendant of the Scarlet Lady that we uncovered through meticulous study of the Memories. There was a descendant that we killed decades ago, that the Memories suggest may have had an illegitimate child in Sirocco.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Krypteia_CA_Basebuilding_04</Key>
+    <Value>The trail stops dead there, though. I don’t know if he had a child with a Worker, or with one of the Nobles. And with the revolution that happened...Untangling that thread will be much harder than usual. Who knows, maybe my job was done for me.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Krypteia_CA_Basebuilding_05</Key>
+    <Value>I may be here for a few years. I want to be absolutely sure I eliminate the right people and ONLY the right people. Our job is to put an end to the Scarlet Lady, not to assassinate people for political reasons. We must be thorough, but merciful.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Player_Krypteia_CA_Basebuilding_05_a</Key>
+    <Value>You feel pity for her descendants?</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Krypteia_CA_Basebuilding_06</Key>
+    <Value>Absolutely. They didn’t ask to be born into the bloodline of a monster. But we can’t let them live. The Lady can speak into their minds, drive them to do things that benefit her. The only thing we can do is end their lives quickly and mercifully.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Player_Krypteia_CA_Basebuilding_06_a</Key>
+    <Value>Is all this really necessary? There’s no way to make peace with her?</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Krypteia_CA_Basebuilding_07</Key>
+    <Value>How does one make peace with an enemy who would only use that peace to prepare for further conflict? You cannot show mercy to a foe who has no intention of doing the same for you.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Krypteia_CA_Basebuilding_08</Key>
+    <Value>I’ve looked into the Memories, I’ve seen through their eyes what she is capable of. As much as these eliminations cause my heart to ache, I’ll do it if it’s the only way to stop her.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>ElattBuffer_CA_Basebuilding_01</Key>
+    <Value>Ah, [PlayerName]! It’s good to see you!</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>ElattBuffer_CA_Basebuilding_02</Key>
+    <Value>Thanks to your help...Elatt’s will much more easily be able to focus on the Caldera region. I have no doubt he will reward you with a blessing in exchange for your continued hard work.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Player_ElattBuffer_CA_Basebuilding_02_a</Key>
+    <Value>How’s Monsoon?</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>ElattBuffer_CA_Basebuilding_03</Key>
+    <Value>The Scourge did a considerable amount of damage...But repairs are coming along very nicely. The loss of the Cardinal, though... At least I know that his sacrifice was of critical importance, but it still stings terribly.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>LevantBuffer_CA_Basebuilding_01</Key>
+    <Value>Kirouac said he had a little alchemy experiment for you to try out. He told me it’s perfectly safe, and should be of great use to you out here!</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Player_LevantBuffer_CA_Basebuilding_01_a</Key>
+    <Value>How are Calixa and Simeon holding up?</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>LevantBuffer_CA_Basebuilding_02</Key>
+    <Value>Calixa’s doing quite alright. She’s adjusting quite well to her new state. Simeon...He’s hurting. While having his wife present inside his head whenever he wishes is comforting, it’s no proper substitute for having her in his arms.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>LevantBuffer_CA_Basebuilding_03</Key>
+    <Value>They’ll figure something out eventually, I’m certain. Love like theirs won’t be so easily broken.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>SoroborBuffer_CA_Basebuilding_01</Key>
+    <Value>Those Mana Chambers will be very useful to our research. In exchange, we’ll happily lace a unique enchantment into your body for free. Favors for favors!</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>SoroborBuffer_CA_Basebuilding_02</Key>
+    <Value>How does that feel? Old Gregory said it would feel like a considerable improvement... By the way...There are a LOT of eyes on what you’re doing out here. Don’t let the Academy down, you hear?</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>WineDispenser_CA_Basebuilding_01</Key>
+    <Value>(You have already taken your weekly share from this reservoir.)</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Immaculate_CA_Side_01</Key>
+    <Value>Ahh, the Caldera. When my urges for violence become too much to bear, this region’s hostility is a safe outlet for them. Don’t fear for your safety, friend. My need is quite sated today.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Immaculate_CA_Side_02</Key>
+    <Value>You have found me at a time of plenty, friend. Take this little gift. I insist. You’ll find it more useful than I would.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Immaculate_CA_Side_02_b</Key>
+    <Value>I’m hungry.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>NobleNote_CA_Side_00</Key>
+    <Value>We MUST have law and order in Sirocco once more! We cannot allow our pride and culture to be corrupted and abused by these petulant labourers! Our goods must continue to be made, trade must continue to flow!</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>NobleNote_CA_Side_01</Key>
+    <Value>Remember, the only reason you were elected to supervise those peasants is because we willed it so. Get this unrest under control, NOW! If they continue to undermine us, it could have dire ramifications on our reputation in the Blue Chamber!</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>NobleNote_CA_Side_02</Key>
+    <Value>You over-worry. No one could possibly know what you did with that crate of ballots. Magma tells no tales. And your Ambraine herb giveaway easily blunted the outrage when we announced the indefinite postponing of further elections. You’re in the clear, my friend.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>NobleNote_CA_Side_03</Key>
+    <Value>I think that class traitor knows about our stockpile of Ambraine. She stalked me most of the way home. Destroy all of it, to be safe! If they realize we’re controlling the supply to keep them all in line, those ungrateful addicted parasites would riot!</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>NobleNote_CA_Side_04</Key>
+    <Value>You should have suppressed that Levant Engineer’s discovery. If any other city becomes capable of forging Tsar Stone or Damascene Steel without the use of Magma, our greatest advantage will be stolen from us! This is exactly WHY we can’t “move” our population!</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>NobleNote_CA_Side_05</Key>
+    <Value>I warned the Chamberlord. I told him that the hierarchy was fragile, and if the Merchants ever chose to side with the Workers, we would lose our hold over the city. I told him that even those who benefit from the way things are inevitably have a breaking point.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>NobleNote_CA_Side_06</Key>
+    <Value>And now look where we are. Huddled in a twisted temple, serving the whims of a lich, our class outcast and our society overturned. Perhaps we deserve it, too. Our job was to ensure the city operated efficiently, and we allowed it to be destroyed by-</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>NobleNote_CA_Side_07</Key>
+    <Value>(The remainder of the page has been scorched by fire...)</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>NobleNote_CA_Side_08</Key>
+    <Value>I understand that we no longer need our Warriors to protect us, and that the Chamberlord fears they will betray us next. But killing them and replacing them by these monstrous minions of the Scarlet Lady? I worry...Will she deem us Nobles expendable nex-</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Player_Josef_CA_Side_00_a</Key>
+    <Value>You’re a pretty good engineer! Where did you learn all this?</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Josef_CA_Side_01</Key>
+    <Value>Back when I was a bandit, I was the one who kept our essentials working. I made a primitive water filter and everything when I was a youth. After Dorion adopted me, he and Evangeline made sure I got the training I needed to refine my talents.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Player_Josef_CA_Side_01_a</Key>
+    <Value>You used to be a bandit? You don’t seem like the type!</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Josef_CA_Side_02</Key>
+    <Value>Outside of those fools who mistakenly think robbery is “easy money”, most “Bandits” reject that label. Anything larger than a small pack of people would likely call themselves “Independents”.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Josef_CA_Side_03</Key>
+    <Value>I was born into a nomadic clan whose primary hunting grounds was just beyond the edges of the Caldera, barely within the protective radius of the Vigil Pylon.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Player_Josef_CA_Side_03_a</Key>
+    <Value>How did you end up engineer in a major city, then?</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Josef_CA_Side_04</Key>
+    <Value>Our clan ran into disaster about 5 years ago. Disease. Our clan leader succumbed, and her replacement...She was cruel. Anyone displaying symptoms was cut down immediately. The group largely collapsed soon after.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Josef_CA_Side_05</Key>
+    <Value>And then, on a foraging trip, one of us accidentally woke a Gargoyle. As we tried to flee, I fell down a small ridge and broke my leg. My fellows left me behind, knowing that I would only slow them down.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Josef_CA_Side_06</Key>
+    <Value>If a forager from Sirocco hadn’t found me, a Torcrab likely would have put me out of my misery, and a Medyse would have used my corpse to incubate its eggs.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Josef_CA_Side_07</Key>
+    <Value>I am beyond thankful one of Dorion’s men rescued me. Despite their initial mistrust, I was happy to do whatever I could to repay these people. Dorion offering to make me his adopted son last year was an honor I still don’t feel worthy of.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Player_Josef_CA_Side_07_a</Key>
+    <Value>So, how does civilization compare to the bandit life?</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Josef_CA_Side_08</Key>
+    <Value>It’s nice not having to fear for my life every waking moment. It’s nice knowing that we all count on one another, and keep everyone alive. Even being a refugee trying to start over like this...It’s an improvement to life outside the walls.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Josef_CA_Side_09</Key>
+    <Value>Of course, I could do without the rigid class system the Nobility saddled us with. And I do miss many of my former companions. But overall, this life is much more stable.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Josef_CA_Side_10</Key>
+    <Value>I don’t blame many for choosing the life of an outlaw. Being true only to yourself and your crew, unbound by Blood Prices and restriction...It’s appealing to many. But the dangers are great. Not just to us, but those who we often have to prey upon just to survive.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Player_Evangeline_CA_Side_01_00</Key>
+    <Value>Where’d you learn how to identify geological samples? That takes an education.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Evangeline_CA_Side_01</Key>
+    <Value>It does. My family was part of the Noble class when I was a child. As a result, I was fortunate enough to receive a comprehensive education, including natural sciences like medicine, botany and geology.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Player_Evangeline_CA_Side_01_a</Key>
+    <Value>How’d you end up leading a revolt if you were a noble?!</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Evangeline_CA_Side_02</Key>
+    <Value>My family used to own this quarry. One day when my parents were down one of the tunnels urging the workers to pick up the pace to meet quota...Someone accidentally made a hole into a magma flow. Only two people made it out alive. Father, and one of the workers.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Evangeline_CA_Side_03</Key>
+    <Value>The incident woke my father up. He realized most of Sirocco’s mining operations were unsafe, and pushed for ways to improve worker safety. The other Nobles, however, did not approve. No one would do business with us anymore.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Evangeline_CA_Side_04</Key>
+    <Value>Two years later, with no buyers for our goods, and immense pressure from up on high...Father sold the quarry and that was that. I may have spent my childhood as a noble, but as a young woman, I learned the plight of the workers firsthand.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Evangeline_CA_Side_05</Key>
+    <Value>Even so, Father was able to keep most of our old books, so I never stopped educating myself. Not only natural sciences, but politics and public speaking. Having seen both sides of our society, the injustice of it all was plain as day, and I wanted to change it.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Evangeline_CA_Side_06</Key>
+    <Value>The rise of Levant certainly helped. For generations, the Nobles told us that it was impossible to have better standards for the working class in a region so hostile. Seeing Levant succeed inspired us to demand more.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Player_Evangeline_CA_Side_06_a</Key>
+    <Value>Levant didn’t win their freedom through bloody revolution, though.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Evangeline_CA_Side_07</Key>
+    <Value>I didn’t WANT a bloody coup, [PlayerName]. I helped Dorion try to start a worker’s union, and that was taken over by the nobles. I tried to get the Ambraine supply put in the hands of the Workers, I was accused of wanting to give drugs to children...</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Evangeline_CA_AmbraineQuestion_01</Key>
+    <Value>Amraine helps regulate body heat, and protects the lungs from the ash and soot in the air. It’s been an essential tool for anyone working in the Caldera for ages. Without it...We’d collapse in a matter of hours, doing the intense work that we do.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Evangeline_CA_AmbraineQuestion_02</Key>
+    <Value>Of course, the Nobles knew that. They also knew about how if you become dependent on Ambraine and stop taking it...You’ll suffer from debilitating withdrawal symptoms. They leveraged their exclusive hold on the supply to try to keep us in line.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Evangeline_CA_Side_08</Key>
+    <Value>It wasn’t until the impending collapse of the city that Dorion, Josef and I started to get seriously aggressive about our demands. And even then, everything we did was denounced as dangerous and forcibly silenced under the martial law that the Nobles had imposed.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Evangeline_CA_Side_09</Key>
+    <Value>Fortunately, by the time of the collapse and the Nobles barred the doors to the worker’s district, leaving us to die...I’d managed to assemble a healthy supply of Pressure Plate Traps and Levantine Pistols for our mob of finally roused people.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Player_Evangeline_CA_Side_09_a</Key>
+    <Value>How’d you manage to assemble an arsenal like that during martial law?!</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Evangeline_CA_Side_10</Key>
+    <Value>I...I’ll be honest, [PlayerName], Father and I had been planning for this possibility for several years. But I refused to fire the first shot until I was sure we would win...Until at least the Merchants supported us...And well...We waited too long.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Evangeline_CA_Side_11</Key>
+    <Value>It kills me to know that we could have avoided this if we overthrew them sooner... *sigh* But it makes sense...People are easily cowed until their lives are on the line.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Tombstone_CA_Side_01</Key>
+    <Value>Here sleeps Big Al, father and guardian.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Player_Dorion_CA_Side_01_a</Key>
+    <Value>The others respect you quite a bit. How did you end up becoming their supplier?</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Dorion_CA_Side_01</Key>
+    <Value>I used to be a miner in my younger years. I only got where I am through mutual cooperation, daring to try new things, and more than a few very lucky breaks with a patron in the Merchant class. I’ve made certain to never forget my roots in manual labor.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Dorion_CA_Side_02</Key>
+    <Value>For quite a while, I’ve been sort of the unofficial voice between the other Workers and the Nobility. I never wanted things to turn to violence, but they used every method imaginable to protect their control over the Ambraine and property from peaceful change.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Player_Dorion_CA_Side_02_a</Key>
+    <Value>So, what did you try to do?</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Dorion_CA_Side_03</Key>
+    <Value>Among other things, we tried to institute a Worker’s union, overseen by an official elected every year. I actually ran for the position myself, you know. I didn’t even ask for much, just some common-sense protections for the Workers.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Player_Dorion_CA_Side_03_a</Key>
+    <Value>I take it you didn’t win, then?</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Dorion_CA_Side_04</Key>
+    <Value>Any degree of change frightened the Nobles. I was labelled a radical, a madman. The nobles split the city against one another, twisted rules to suit them, and possibly even stole ballots...In the end, a Noble was elected to the position. He changed nothing.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Dorion_CA_Side_05</Key>
+    <Value>The other Nobles decided that, as he was doing such a good job in their eyes, no further elections needed to be held. That was nearly 5 years ago. And then, even when we discovered the danger Old Sirocco was in, he refused to take action.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Dorion_CA_Side_06</Key>
+    <Value>So, we held demonstrations. Nothing violent. We just did enough to slow all work to a crawl. We thought this would be enough to get their attention... Instead, it drove the Nobles into a fury.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Dorion_CA_Side_07</Key>
+    <Value>They imposed martial law, confining our people to the lower districts, and unleashed their warriors on any who would not work or obey the curfew...And still, they refused to move the population from our doomed city.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Dorion_CA_Side_08</Key>
+    <Value>In the end, the old saying was proven true. “Those who make peaceful change impossible, will find violent revolution inevitable”. This could have been prevented...But the Nobles refused to change course.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Dorion_CA_Side_09</Key>
+    <Value>They were so afraid to lose even just some of their wealth and privilege, that they preferred to do nothing, and lost all of it anyway.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>TowerOfRegrets_CA_Side_01</Key>
+    <Value>Only someone who has reached the pinnacle of their life may face the shadows of their past, and find peace and reflection within.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>MemoryNote_CA_Side_00</Key>
+    <Value>The people of Cierzo demand my exile. I do not blame them. My rigid faith in the Five Winds caused this disaster. My pride caused this slaughter. I should have opened my mind and heart to this new god and let him help us.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>MemoryNote_CA_Side_01</Key>
+    <Value>Leadership of what is left of Cierzo is being turned over to the Aberdeen family. They are worthy successors. Natasha Aberdeen is a prudent woman, and a dedicated member of the Krypteia. I can put my faith in her.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>MemoryNote_CA_Side_02</Key>
+    <Value>My heart aches for my daughter. With the rest of my bloodline slaughtered by the Scourge, she and her descendants will bear the full weight of my crimes for generations to come.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>MemoryNote_CA_Side_03</Key>
+    <Value>It is unfair to her that she must bear this Blood Price alone...But I know that without it, she would not live to see the next season. As much as it harms her, it also protects her from the vengeance of all those who have lost family.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>MemoryNote_CA_Side_04</Key>
+    <Value>As an exiled Chamberlady, I understand that I should not seek refuge within another tribe, nor seek a life of comfort. After what I did, there is only one possible redemption for me, one way I can ease the burden on my bloodline.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>MemoryNote_CA_Side_05</Key>
+    <Value>This...Elatt...He told me that the Scourge are not infinite. If we can slay even a few, then we will have saved many lives. I will take my two guards with me, and we will find the source of the Scourge hordes. And we will fight them to our last breath. </Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>MemoryNote_CA_Side_06</Key>
+    <Value>We will find their source, and we will establish a line of defense that can help us contain the threat. I can only hope this lessens our bloodline’s shame and the Blood Price my actions have shackled them with...</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Player_EvangelineConfession_CA_Side_00_a</Key>
+    <Value>I heard from Zephyrien's killer in Levant, that Sirocco arranged for his death. Which of the Nobles was responsible?</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Player_EvangelineConfession_CA_Side_00_b</Key>
+    <Value>I heard from your former Chamberlord that your people were responsible for Zephyrien’s murder. I want the truth, Evangeline.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>EvangelineConfession_CA_Side_01</Key>
+    <Value>I...I have to come clean, [PlayerName]. Zephyrien's death...It was my Father's fault. My fault. I should have stopped him, but...We were in an impossible situation, and he believed it was the only way out...</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>EvangelineConfession_CA_Side_02</Key>
+    <Value>Our Nobles sold much of our territory to the Chamberlord of Monsoon. Territory we knew that we desperately needed in order to resettle our people before the city collapsed. But Damian Lockwell refused to come to a reasonable arrangement.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>EvangelineConfession_CA_Side_03</Key>
+    <Value>So we reached out to Zephyrien. He came from a worker family, did you know? We’d been proud to see one of us join the Holy Mission, and then rise to the rank of Champion. We thought that if anyone would be willing to help, it would be him.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>EvangelineConfession_CA_Side_04</Key>
+    <Value>Zephyrien told us that he could not compromise the neutrality of the Holy Mission. Several times we wrote to him, begging his aid, but all he could do was promise that he would come help us himself “someday”.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>EvangelineConfession_CA_Side_05</Key>
+    <Value>As the collapse of the city became imminent, Father warned him that if nothing changed, we might soon have no choice but to use force to overthrow the Nobles in order to save our city, or take some other drastic action to secure new lands.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>EvangelineConfession_CA_Side_06</Key>
+    <Value>Zephyrien wrote back that any form of violent uprising was unjustifiable, and that if we dared to try, he would come bring us to justice. He brushed aside our desperation and imminent doom and threatened us, the victims.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>EvangelineConfession_CA_Side_07</Key>
+    <Value>The bastard also warned the Nobles, who immediately imposed martial law. The few rights we still had were violently ripped away. Any possibility of revolt was squashed. And still, they would not do anything about the impending collapse.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>EvangelineConfession_CA_Side_08</Key>
+    <Value>With the city on the verge of destruction and the Nobles making escape impossible, we could not wait any longer. So...Father made a deal with Prince Pietro of Levant.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>EvangelineConfession_CA_Side_09</Key>
+    <Value>The Prince wanted a war with the Blue Chamber, and the crown of Levant for himself. In exchange for our help, he offered half the territory taken in the war, as well as the ousting of our Nobles as soon as he could spare the troops for it.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>EvangelineConfession_CA_Side_10</Key>
+    <Value>But Father knew that if we assisted the Prince’s plan to commit cold-blooded murder at a council meeting, in the Blue Chamber itself...Zephyrien would realize what we had done, and would bring down the wrath of a god on us.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>EvangelineConfession_CA_Side_11</Key>
+    <Value>Father spent the last of our money to hire a Dean from Sorobor Academy to arrange for two Tsar Bullets to be loaded with the strongest distilled Scourge Blood he could acquire, then deliver it to the Prince.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>EvangelineConfession_CA_Side_12</Key>
+    <Value>With his help, Father arranged for a Council Meeting under the false pretense that the Sirocco Chamberlord would be there to negotiate for Monsoon’s land, knowing Zephyrien would absolutely want to be there to put an end to this mess.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>EvangelineConfession_CA_Side_13</Key>
+    <Value>Father isolated him by having a message slipped to him, claiming to have taken our Chamberlord and his entourage hostage in a cave in Enmerkar. And Levant...Took care of the rest.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>EvangelineConfession_CA_Side_14</Key>
+    <Value>I didn’t want us to go ahead with this plan... But with Zephyrien threatening us, and our city about to crumble... It seemed to be the only way to save our city. In the end... The collapse and revolution happened anyway, and Father paid the price for it.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Player_EvangelineConfession_CA_Side_14_d</Key>
+    <Value>Where’s your father now?</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>EvangelineConfession_CA_Side_15</Key>
+    <Value>He’s dead. The nobles convicted him of treason and murder, then exiled him into the Caldera as punishment. And then, they shackled my bloodline with a thousand silver Blood Price and chained me to my post in the forges.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>EvangelineConfession_CA_Side_16</Key>
+    <Value>I...Found what was left of Father on our migration to this quarry. A Gargoyle petrified him months ago. By then, the spell had fully turned his internal organs to stone. There's...No coming back from that.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>EvangelineConfession_CA_Side_17</Key>
+    <Value>I know that I can’t ever make up for what my Father did. I know I should have done more to stop him...But...We were desperate for any way out of our situation. Any price felt worth it at the time.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Player_EvangelineConfession_CA_Side_17_a</Key>
+    <Value>You're lucky I swore to live by our 3 Pillars. Otherwise, this would be the end of our help for your people.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Player_EvangelineConfession_CA_Side_17_b</Key>
+    <Value>I understand. I hate this, and I hate him. But I understand why he did it. We should have helped you before things got that desperate.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Player_EvangelineConfession_CA_Side_17_c</Key>
+    <Value>(Say nothing and walk away)</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Player_EvangelineConfession_CA_Side_00_c</Key>
+    <Value>I heard from your former Chamberlord that your father was responsible for pushing Levant into war. Care to explain?</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>EvangelineConfession_CA_Side_18</Key>
+    <Value>I...I have to come clean, [PlayerName]. The war that Prince Pietro and Cyrene started...It was my father's fault. My fault. I should have stopped him, but...I believed it was our only leverage.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Player_EvangelineConfession_CA_Side_18_a</Key>
+    <Value>If Calixa had died and Levant had fallen, this would be the end of our help towards your people.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Player_EvangelineConfession_CA_Side_18_b</Key>
+    <Value>...I understand. Some of our own people were driven to terrible things too. Pietro bears a lot of the blame for this as well.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>EvangelineConfession_CA_Side_19</Key>
+    <Value>I...Thank you, [PlayerName]. I won’t forget your forgiveness.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>ArenaCalygry_CA_Side_01</Key>
+    <Value>(The Calygrey growls and pounds his fists, then points excitedly at the arena. He doesn’t appear immediately hostile.)</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>ArenaCalygry_CA_Side_02</Key>
+    <Value>(The paintings on the wall show images of Calygreys fighting...Perhaps if you fight here, they will offer you a reward?)</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Player_ArenaCalygry_CA_Side_02_a</Key>
+    <Value>(Gesture that you want to fight!)</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>ArenaCalygry_CA_Side_03</Key>
+    <Value>(The Calygrey thuds his staff on the ground, and soft magical flames appear at the center of the arena, marking the zone of combat. Your foes are ready...Are you?)</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>ArenaCalygry_CA_Side_04</Key>
+    <Value>(The Calygrey lets out a loud purr, and playfully shoves you. It would seem that there are no more foes left to fight. Perhaps you should return at a later time...)</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Totemancer_CA_01</Key>
+    <Value>If you wish to study a form of magic that does not ask you to sacrifice your very essence to a Ley Line...Sit down, and listen well, traveller. Open your mind to the primal beating heart of the wilds!</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Player_Totemancer_CA_01_a</Key>
+    <Value>Make me a Ghost Drum.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Player_Totemancer_CA_01_b</Key>
+    <Value>Make me Sky Chimes.</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Totemancer_CA_02</Key>
+    <Value>Have you brought me a Hexa Stone, a Ghost’s Eye and two pieces of Palladium to make one?</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Totemancer_CA_03</Key>
+    <Value>Have you brought me a Rainbow Peach Seed, an Occult Remains and two pieces of Palladium to make one?</Value>
+  </Dialogue>
+  <Dialogue>
+    <Key>Totemancer_CA_04</Key>
+    <Value>May it guard your life, and bring low your foes!</Value>
+  </Dialogue>
+</ArrayOfDialogue>

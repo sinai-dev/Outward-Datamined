@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfBasicLoc xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <BasicLoc>
+    <Key>Test_Tip1</Key>
+    <Value>Your body has needs. Eat food, drink water and sleep in a tent or inn to satisfy them. You receive penalties if your needs are not met. Inns will take care of all your needs for you.</Value>
+  </BasicLoc>
+  <BasicLoc>
+    <Key>Test_Tip2</Key>
+    <Value>Blocking prevents all damage from melee attacks, but costs stamina. Shields can block arrows and the like, but you cannot block magical blasts.</Value>
+  </BasicLoc>
+  <BasicLoc>
+    <Key>Test_Tip3</Key>
+    <Value>Dodging allows you to temporarily evade any type of attack. Note that most backpacks, when equipped, slow down your dodge.</Value>
+  </BasicLoc>
+  <BasicLoc>
+    <Key>Test_Tip4</Key>
+    <Value>You can drop and pick up backpacks with a button or by using the inventory menu. Your compass will point to your last-used backpack, making it easier to find back. </Value>
+  </BasicLoc>
+  <BasicLoc>
+    <Key>Test_Tip5</Key>
+    <Value>You can hang a lantern from most backpacks, providing light while freeing your hands. Simply place a lantern in your backpack inventory, lighting the lantern if it is not lit already.</Value>
+  </BasicLoc>
+  <BasicLoc>
+    <Key>Test_Tip6</Key>
+    <Value>Equipment loses durability with use, becoming weaker. Items can be repaired while you rest in a tent. “Broken” items can still be used.</Value>
+  </BasicLoc>
+  <BasicLoc>
+    <Key>Test_Tip7</Key>
+    <Value>Waterskins are the only way to store water. They are essential for explorers, and having multiple waterskins may be useful.</Value>
+  </BasicLoc>
+  <BasicLoc>
+    <Key>Test_Tip8</Key>
+    <Value>Quickslotting your items, weapons and skills is the best way to use them quickly in combat. You only have 8 quickslots, so choose wisely.</Value>
+  </BasicLoc>
+  <BasicLoc>
+    <Key>Test_Tip9</Key>
+    <Value>Eating raw food and drinking unboiled water can give you diseases. Certain potions and teas can cure diseases, though recovering from a disease takes time.</Value>
+  </BasicLoc>
+  <BasicLoc>
+    <Key>Test_Tip10</Key>
+    <Value>You can light a campfire with a Flint and Steel or certain fire spells. Note that campfires don’t run out of fuel, so they don’t go out.</Value>
+  </BasicLoc>
+  <BasicLoc>
+    <Key>Test_Tip11</Key>
+    <Value>You have very limited inventory space, even with a backpack. Drop less useful items and don’t pick up everything you find, as too much weight will slow you down.</Value>
+  </BasicLoc>
+  <BasicLoc>
+    <Key>Test_Tip12</Key>
+    <Value>Food rots with time. Eat or cook your food before it goes to waste!</Value>
+  </BasicLoc>
+  <BasicLoc>
+    <Key>Test_Tip13</Key>
+    <Value>You can be attacked while you rest in a tent. Either find a safe spot or spend time on guard duty to lower the chances of ambush.</Value>
+  </BasicLoc>
+  <BasicLoc>
+    <Key>Test_Tip14</Key>
+    <Value>You can craft many useful items with just your hands. This survival crafting menu is available at all times in your player menu. </Value>
+  </BasicLoc>
+  <BasicLoc>
+    <Key>Test_Tip15</Key>
+    <Value>When your health or stamina decreases (e.g. during combat), your max health or stamina decreases. Sleep in a tent or an inn to recover your maximum health and stamina. </Value>
+  </BasicLoc>
+  <BasicLoc>
+    <Key>Test_Tip16</Key>
+    <Value>You can move stealthily by crouching. Having a lit torch or lantern will make you very visible nonetheless. Put out your light when sneaking!</Value>
+  </BasicLoc>
+  <BasicLoc>
+    <Key>Test_Tip17</Key>
+    <Value>You can learn new crafting recipes by finding a recipe scroll. Or you could experiment in Manual Recipe mode, where you can use any ingredients together.</Value>
+  </BasicLoc>
+  <BasicLoc>
+    <Key>Test_Tip18</Key>
+    <Value>You need a cooking pot deployed on a lit campfire to cook recipes with more than one ingredient. Boiling water or grilling raw meat only needs a lit campfire.</Value>
+  </BasicLoc>
+  <BasicLoc>
+    <Key>Test_Tip19</Key>
+    <Value>To travel from one exterior region to another, you must use Travel Rations. They can be bought from merchants or crafted, with a cooking pot, from salt and various food types.</Value>
+  </BasicLoc>
+  <BasicLoc>
+    <Key>Test_Tip20</Key>
+    <Value>The weather often gets dangerously cold or hot. Keep your temperature neutral with appropriate clothes, certain types of food or campfires.</Value>
+  </BasicLoc>
+  <BasicLoc>
+    <Key>Test_Tip21</Key>
+    <Value>Bows are the most basic way to make ranged attacks. You can zoom in and shoot at distant foes. Note that arrows must be equipped before they can be shot.</Value>
+  </BasicLoc>
+  <BasicLoc>
+    <Key>Test_Tip22</Key>
+    <Value>In addition to finding better equipment, you get stronger by using Trainers found in each city. There, you can buy active skills and passive buffs. </Value>
+  </BasicLoc>
+  <BasicLoc>
+    <Key>Test_Tip23</Key>
+    <Value>You can store any item you don’t want in the Stash chests found in homes. Note that the currency, silver coins, have weight!</Value>
+  </BasicLoc>
+  <BasicLoc>
+    <Key>Test_Tip24</Key>
+    <Value>Starting characters can’t use magic. Mana must first be unlocked at a Ley Line.</Value>
+  </BasicLoc>
+  <BasicLoc>
+    <Key>Test_Tip25</Key>
+    <Value>Wild beasts drop body parts. Powerful weapons and potions can be crafted from these, or can be used to arm powerful traps.</Value>
+  </BasicLoc>
+  <BasicLoc>
+    <Key>Test_Tip26</Key>
+    <Value>Each tree has an unlimited amount of wood that can be gathered. Wood is commonly used in survival crafting, notably to make campfires.</Value>
+  </BasicLoc>
+  <BasicLoc>
+    <Key>Test_Tip27</Key>
+    <Value>Gathering plants and mushrooms is the most basic way to find food. They will rot more slowly after being cooked.</Value>
+  </BasicLoc>
+  <BasicLoc>
+    <Key>Test_Tip28</Key>
+    <Value>The Journal is a menu tab used to track your next tasks.</Value>
+  </BasicLoc>
+  <BasicLoc>
+    <Key>Test_Tip29</Key>
+    <Value>Pay close attention to the alerts displayed on the bottom left. They will warn you when you’re hungry, your weapon is damaged, etc.</Value>
+  </BasicLoc>
+  <BasicLoc>
+    <Key>Test_Tip30</Key>
+    <Value>The status menu shows details related to your equipment or what effects are currently affecting you.</Value>
+  </BasicLoc>
+  <BasicLoc>
+    <Key>Test_Tip31</Key>
+    <Value>Many places are very dark, requiring lanterns or torches to light your way. Such objects burn out over time. Use the survival crafting menu to combine the oil item and a lantern to refill it.</Value>
+  </BasicLoc>
+  <BasicLoc>
+    <Key>Test_Tip32</Key>
+    <Value>You can play along with people in your friend list! Try the multiplayer, either in split screen or online.</Value>
+  </BasicLoc>
+  <BasicLoc>
+    <Key>Test_Tip33</Key>
+    <Value>You can lock on enemies. You will then be able to better target that enemy, especially with ranged weapons or skills.</Value>
+  </BasicLoc>
+  <BasicLoc>
+    <Key>Test_Tip34</Key>
+    <Value>Hitting enemies, especially with heavier weapons, will knock them back and cancel their attacks. However, they can knock you down too.</Value>
+  </BasicLoc>
+  <BasicLoc>
+    <Key>Test_Tip35</Key>
+    <Value>To save fuel, you can close and light lanterns or torches. Note that light sources make you more visible to enemies while they are lit.</Value>
+  </BasicLoc>
+  <BasicLoc>
+    <Key>Test_Tip36</Key>
+    <Value>Look at the Maps, as exterior regions are huge. Important landmarks have icons, and hovering your cursor on them will show their names.</Value>
+  </BasicLoc>
+  <BasicLoc>
+    <Key>Test_Tip38</Key>
+    <Value>Melee weapons can make normal attacks and special attacks. Which special attack will be made depends on the number of normal attacks you just performed.</Value>
+  </BasicLoc>
+  <BasicLoc>
+    <Key>Test_Tip39</Key>
+    <Value>Specific tools are needed to gather some resources. Mineral ores require a mining pick and fishing spots need a fishing harpoon.</Value>
+  </BasicLoc>
+  <BasicLoc>
+    <Key>Test_Tip40</Key>
+    <Value>Two-handed weapons deal more damage and have more reach than smaller weapons. However, you won’t be able to wield a shield, a lantern or a special trinket in your off-hand.</Value>
+  </BasicLoc>
+  <BasicLoc>
+    <Key>Test_Tip41</Key>
+    <Value>You start the game with a few skills, like the Kick. You also know several useful survival crafting recipes.</Value>
+  </BasicLoc>
+  <BasicLoc>
+    <Key>Test_Tip42</Key>
+    <Value>You can de-craft most weapons and armors. Place only that item in Manual Recipe (of survival crafting) and accept, turning the item into basic resources like iron or palladium scraps.</Value>
+  </BasicLoc>
+  <BasicLoc>
+    <Key>Test_Tip43</Key>
+    <Value>Traps are very useful. You must deploy a trap trigger (like a Tripwire Trap) on the ground, then place a compatible object in it (like spikes or weapons).</Value>
+  </BasicLoc>
+  <BasicLoc>
+    <Key>Test_Tip44</Key>
+    <Value>Heavier armor offers greater protection from physical damage, but slows down your movement and makes every action consume more stamina.</Value>
+  </BasicLoc>
+  <BasicLoc>
+    <Key>Test_Tip45</Key>
+    <Value>Each city has several merchants, either directly outside or inside buildings. They will sell food, equipment and crafting recipes, in addition to selling goods related to their city’s specialties.</Value>
+  </BasicLoc>
+  <BasicLoc>
+    <Key>Test_Tip46</Key>
+    <Value>The absolute basic gear for an explorer is a backpack containing a waterskin, food, bandages, antidotes, a tent, and firewood. Things like cooking pots and traps help greatly too.</Value>
+  </BasicLoc>
+  <BasicLoc>
+    <Key>Test_Tip47</Key>
+    <Value>Ask innkeepers found in each city for information or directions. Guards can also provide advice.</Value>
+  </BasicLoc>
+</ArrayOfBasicLoc>
