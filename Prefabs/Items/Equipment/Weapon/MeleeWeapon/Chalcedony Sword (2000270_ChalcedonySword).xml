@@ -23,8 +23,10 @@
     <string>Blade</string>
     <string>Weapon</string>
     <string>Item</string>
-    <string>DecraftChalcedony_Small</string>
+    <string>DecraftIron_Small</string>
     <string>Decraft</string>
+    <string>Iron</string>
+    <string>Family</string>
     <string>Main Weapon</string>
   </Tags>
   <StatsHolder xsi:type="DM_WeaponStats">
@@ -107,8 +109,8 @@
         <Knockback>32.5</Knockback>
         <AttackSpeed>1.1</AttackSpeed>
         <Damage>
-          <float>18.2</float>
-          <float>18.2</float>
+          <float>20.93</float>
+          <float>20.93</float>
         </Damage>
       </AttackData>
       <AttackData>
@@ -116,8 +118,8 @@
         <Knockback>27.5</Knockback>
         <AttackSpeed>1.1</AttackSpeed>
         <Damage>
-          <float>15.4</float>
-          <float>15.4</float>
+          <float>17.71</float>
+          <float>17.71</float>
         </Damage>
       </AttackData>
       <AttackData>
@@ -125,8 +127,8 @@
         <Knockback>27.5</Knockback>
         <AttackSpeed>1.1</AttackSpeed>
         <Damage>
-          <float>15.4</float>
-          <float>15.4</float>
+          <float>17.71</float>
+          <float>17.71</float>
         </Damage>
       </AttackData>
     </Attacks>

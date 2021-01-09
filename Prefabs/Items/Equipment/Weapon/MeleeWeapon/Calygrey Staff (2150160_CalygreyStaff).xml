@@ -5,7 +5,7 @@
   <ItemID>2150160</ItemID>
   <Name>Calygrey Staff</Name>
   <Description />
-  <LegacyItemID>2150051</LegacyItemID>
+  <LegacyItemID>2150165</LegacyItemID>
   <IsPickable>true</IsPickable>
   <IsUsable>false</IsUsable>
   <QtyRemovedOnUse>1</QtyRemovedOnUse>
@@ -117,8 +117,8 @@
         <Knockback>44</Knockback>
         <AttackSpeed>1.1</AttackSpeed>
         <Damage>
-          <float>29.6999989</float>
-          <float>3.3</float>
+          <float>34.155</float>
+          <float>3.795</float>
         </Damage>
       </AttackData>
       <AttackData>
@@ -126,8 +126,8 @@
         <Knockback>44</Knockback>
         <AttackSpeed>1.1</AttackSpeed>
         <Damage>
-          <float>29.6999989</float>
-          <float>3.3</float>
+          <float>34.155</float>
+          <float>3.795</float>
         </Damage>
       </AttackData>
     </Attacks>

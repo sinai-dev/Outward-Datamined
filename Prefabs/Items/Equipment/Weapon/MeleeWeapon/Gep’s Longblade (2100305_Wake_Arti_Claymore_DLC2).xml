@@ -5,7 +5,7 @@
   <ItemID>2100305</ItemID>
   <Name>Gep’s Longblade</Name>
   <Description>A long blade left behind by Gep for a worthy adventurer. Unleashes powerful Ethereal Blasts, but reduces your Ethereal resistance. Craft it with Gep’s Generosity to change its shape.</Description>
-  <LegacyItemID>2100001</LegacyItemID>
+  <LegacyItemID>-1</LegacyItemID>
   <IsPickable>true</IsPickable>
   <IsUsable>false</IsUsable>
   <QtyRemovedOnUse>1</QtyRemovedOnUse>
@@ -110,7 +110,7 @@
         <Knockback>37.4</Knockback>
         <AttackSpeed>1.32</AttackSpeed>
         <Damage>
-          <float>27.5</float>
+          <float>31.625</float>
         </Damage>
       </AttackData>
       <AttackData>
@@ -118,7 +118,7 @@
         <Knockback>37.4</Knockback>
         <AttackSpeed>1.32</AttackSpeed>
         <Damage>
-          <float>27.5</float>
+          <float>31.625</float>
         </Damage>
       </AttackData>
     </Attacks>

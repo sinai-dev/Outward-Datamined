@@ -5,7 +5,7 @@
   <ItemID>2130235</ItemID>
   <Name>Damascene Spear</Name>
   <Description>Increases the power of Weapon Skills.</Description>
-  <LegacyItemID>-1</LegacyItemID>
+  <LegacyItemID>2130237</LegacyItemID>
   <IsPickable>true</IsPickable>
   <IsUsable>false</IsUsable>
   <QtyRemovedOnUse>1</QtyRemovedOnUse>

@@ -5,7 +5,7 @@
   <ItemID>2150090</ItemID>
   <Name>Obsidian Halberd</Name>
   <Description>Inflicts Burning on enemies.</Description>
-  <LegacyItemID>-1</LegacyItemID>
+  <LegacyItemID>2150095</LegacyItemID>
   <IsPickable>true</IsPickable>
   <IsUsable>false</IsUsable>
   <QtyRemovedOnUse>1</QtyRemovedOnUse>
@@ -24,10 +24,11 @@
     <string>Weapon</string>
     <string>Item</string>
     <string>Pole Arm</string>
-    <string>DecraftPalladium_Large</string>
+    <string>DecraftIron_Small</string>
     <string>Decraft</string>
-    <string>Obsidian</string>
+    <string>Iron</string>
     <string>Family</string>
+    <string>Obsidian</string>
     <string>Main Weapon</string>
   </Tags>
   <StatsHolder xsi:type="DM_WeaponStats">

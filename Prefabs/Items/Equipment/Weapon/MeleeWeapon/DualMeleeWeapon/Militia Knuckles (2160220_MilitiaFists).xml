@@ -5,7 +5,7 @@
   <ItemID>2160220</ItemID>
   <Name>Militia Knuckles</Name>
   <Description />
-  <LegacyItemID>2160021</LegacyItemID>
+  <LegacyItemID>2160225</LegacyItemID>
   <IsPickable>true</IsPickable>
   <IsUsable>false</IsUsable>
   <QtyRemovedOnUse>1</QtyRemovedOnUse>
@@ -24,10 +24,9 @@
     <string>Weapon</string>
     <string>Item</string>
     <string>Bludgeon</string>
-    <string>Militia</string>
+    <string>Iron</string>
     <string>Family</string>
-    <string>DecraftIron_Small</string>
-    <string>Decraft</string>
+    <string>Militia</string>
     <string>Main Weapon</string>
   </Tags>
   <StatsHolder xsi:type="DM_WeaponStats">

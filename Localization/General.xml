@@ -10979,8 +10979,16 @@ This license is available with a FAQ at: http://scripts.sil.org/OFL
     <Value>To Caldera</Value>
   </BasicLoc>
   <BasicLoc>
-    <Key>EnchantmentCondition_ColdWeather</Key>
-    <Value>EnchantmentCondition_Enchant_Guild</Value>
+    <Key>EnchantmentCondition_Enchant_Guild</Key>
+    <Value>Enchanting Guild</Value>
+  </BasicLoc>
+  <BasicLoc>
+    <Key>EnchantmentCondition_Arcane_Library</Key>
+    <Value>Enchanting Guild + Arcane Library</Value>
+  </BasicLoc>
+  <BasicLoc>
+    <Key>EnchantmentCondition_Rare_Samples</Key>
+    <Value>Rare Materials</Value>
   </BasicLoc>
   <BasicLoc>
     <Key>MessageBox_Network_JoinDLCRequired</Key>
@@ -11809,6 +11817,10 @@ This license is available with a FAQ at: http://scripts.sil.org/OFL
   <BasicLoc>
     <Key>Marker_Warehouse</Key>
     <Value>Sealed Warehouse</Value>
+  </BasicLoc>
+  <BasicLoc>
+    <Key>EnchantmentCondition_ColdWeather</Key>
+    <Value>Cold Weather</Value>
   </BasicLoc>
   <BasicLoc>
     <Key>EnchantmentCondition_HotWeather</Key>
@@ -14006,11 +14018,11 @@ That city is in the Abrassar desert, accessible by passing through the Enmerkar 
   </BasicLoc>
   <BasicLoc>
     <Key>Cal_Quest1_03</Key>
-    <Value>- At least two resource production buildings.</Value>
+    <Value>At least two resource production buildings.</Value>
   </BasicLoc>
   <BasicLoc>
     <Key>Cal_Quest1_04</Key>
-    <Value>- At least 1 House.</Value>
+    <Value>At least 1 House.</Value>
   </BasicLoc>
   <BasicLoc>
     <Key>Cal_Quest1_05</Key>
@@ -14046,11 +14058,11 @@ That city is in the Abrassar desert, accessible by passing through the Enmerkar 
   </BasicLoc>
   <BasicLoc>
     <Key>Cal_Quest2_03</Key>
-    <Value>- At least 2 specialized buildings.</Value>
+    <Value>At least 2 specialized buildings.</Value>
   </BasicLoc>
   <BasicLoc>
     <Key>Cal_Quest2_04</Key>
-    <Value>- At least 3 houses.</Value>
+    <Value>At least 3 houses.</Value>
   </BasicLoc>
   <BasicLoc>
     <Key>Cal_Quest2_05</Key>
@@ -14082,11 +14094,11 @@ Then, bring the Charged Forge Stone back to Josef in New Sirocco.
   </BasicLoc>
   <BasicLoc>
     <Key>Cal_Quest3_03</Key>
-    <Value>- At least 3 Specialized buildings</Value>
+    <Value>At least 3 Specialized buildings</Value>
   </BasicLoc>
   <BasicLoc>
     <Key>Cal_Quest3_04</Key>
-    <Value>- At least 1 Upgraded Specialized Building</Value>
+    <Value>At least 1 Upgraded Specialized Building</Value>
   </BasicLoc>
   <BasicLoc>
     <Key>Cal_Quest3_05</Key>
@@ -14126,11 +14138,11 @@ Then, bring the Charged Forge Stone back to Josef in New Sirocco.
   </BasicLoc>
   <BasicLoc>
     <Key>Cal_Quest4_03</Key>
-    <Value>- At least 4 Specialized Buildings</Value>
+    <Value>At least 4 Specialized Buildings</Value>
   </BasicLoc>
   <BasicLoc>
     <Key>Cal_Quest4_04</Key>
-    <Value>- At least 2 Upgraded Specialized Buildings.</Value>
+    <Value>At least 2 Upgraded Specialized Buildings.</Value>
   </BasicLoc>
   <BasicLoc>
     <Key>Cal_Quest4_05</Key>

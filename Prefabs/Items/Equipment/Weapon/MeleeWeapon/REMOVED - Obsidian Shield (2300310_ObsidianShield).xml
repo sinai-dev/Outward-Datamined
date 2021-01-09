@@ -5,7 +5,7 @@
   <ItemID>2300310</ItemID>
   <Name>REMOVED - Obsidian Shield</Name>
   <Description>Inflicts Burning on enemies on Shield Charge.</Description>
-  <LegacyItemID>-1</LegacyItemID>
+  <LegacyItemID>2300315</LegacyItemID>
   <IsPickable>true</IsPickable>
   <IsUsable>false</IsUsable>
   <QtyRemovedOnUse>1</QtyRemovedOnUse>

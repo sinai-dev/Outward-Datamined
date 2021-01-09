@@ -5,7 +5,7 @@
   <ItemID>2300350</ItemID>
   <Name>Militia Shield</Name>
   <Description />
-  <LegacyItemID>-1</LegacyItemID>
+  <LegacyItemID>2300355</LegacyItemID>
   <IsPickable>true</IsPickable>
   <IsUsable>false</IsUsable>
   <QtyRemovedOnUse>1</QtyRemovedOnUse>

@@ -5,7 +5,7 @@
   <ItemID>2100240</ItemID>
   <Name>Forged Glass Claymore</Name>
   <Description />
-  <LegacyItemID>2100001</LegacyItemID>
+  <LegacyItemID>-1</LegacyItemID>
   <IsPickable>true</IsPickable>
   <IsUsable>false</IsUsable>
   <QtyRemovedOnUse>1</QtyRemovedOnUse>
@@ -24,6 +24,8 @@
     <string>Weapon</string>
     <string>Item</string>
     <string>Blade</string>
+    <string>DecraftIron_Large</string>
+    <string>Decraft</string>
     <string>Main Weapon</string>
   </Tags>
   <StatsHolder xsi:type="DM_WeaponStats">
@@ -108,7 +110,7 @@
         <Knockback>44</Knockback>
         <AttackSpeed>1.1</AttackSpeed>
         <Damage>
-          <float>58.3</float>
+          <float>67.045</float>
         </Damage>
       </AttackData>
       <AttackData>
@@ -116,7 +118,7 @@
         <Knockback>44</Knockback>
         <AttackSpeed>1.1</AttackSpeed>
         <Damage>
-          <float>58.3</float>
+          <float>67.045</float>
         </Damage>
       </AttackData>
     </Attacks>

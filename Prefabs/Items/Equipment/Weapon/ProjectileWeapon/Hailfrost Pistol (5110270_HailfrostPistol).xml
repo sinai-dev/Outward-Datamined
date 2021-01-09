@@ -27,6 +27,7 @@ Gun that needs the Fire/Reload skill to shoot.</Description>
     <string>Trinket</string>
     <string>Item</string>
     <string>Weapon</string>
+    <string>Non Enchantable</string>
   </Tags>
   <StatsHolder xsi:type="DM_WeaponStats">
     <BaseValue>2000</BaseValue>

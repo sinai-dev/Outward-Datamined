@@ -26,8 +26,6 @@
     <string>Trinket</string>
     <string>Militia</string>
     <string>Family</string>
-    <string>DecraftIron_Small</string>
-    <string>Decraft</string>
   </Tags>
   <StatsHolder xsi:type="DM_WeaponStats">
     <BaseValue>300</BaseValue>

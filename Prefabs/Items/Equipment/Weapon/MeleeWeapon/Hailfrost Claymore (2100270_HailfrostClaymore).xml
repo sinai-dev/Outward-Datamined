@@ -5,7 +5,7 @@
   <ItemID>2100270</ItemID>
   <Name>Hailfrost Claymore</Name>
   <Description>Not enchantable and loses Durability over time. Can be repaired by crafting it with a Cold Stone.</Description>
-  <LegacyItemID>2100001</LegacyItemID>
+  <LegacyItemID>-1</LegacyItemID>
   <IsPickable>true</IsPickable>
   <IsUsable>false</IsUsable>
   <QtyRemovedOnUse>1</QtyRemovedOnUse>
@@ -119,8 +119,8 @@
         <Knockback>50.6</Knockback>
         <AttackSpeed>1.1</AttackSpeed>
         <Damage>
-          <float>28.6</float>
-          <float>28.6</float>
+          <float>32.89</float>
+          <float>32.89</float>
         </Damage>
       </AttackData>
       <AttackData>
@@ -128,8 +128,8 @@
         <Knockback>50.6</Knockback>
         <AttackSpeed>1.1</AttackSpeed>
         <Damage>
-          <float>28.6</float>
-          <float>28.6</float>
+          <float>32.89</float>
+          <float>32.89</float>
         </Damage>
       </AttackData>
     </Attacks>

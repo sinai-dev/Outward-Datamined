@@ -24,10 +24,11 @@
     <string>Weapon</string>
     <string>Item</string>
     <string>Spear</string>
-    <string>DecraftPalladium_Small</string>
+    <string>DecraftIron_Small</string>
     <string>Decraft</string>
-    <string>Obsidian</string>
+    <string>Brutal</string>
     <string>Family</string>
+    <string>Obsidian</string>
     <string>Main Weapon</string>
   </Tags>
   <StatsHolder xsi:type="DM_WeaponStats">

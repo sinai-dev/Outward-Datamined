@@ -5,7 +5,7 @@
   <ItemID>2020320</ItemID>
   <Name>Calygrey Mace</Name>
   <Description />
-  <LegacyItemID>-1</LegacyItemID>
+  <LegacyItemID>2020325</LegacyItemID>
   <IsPickable>true</IsPickable>
   <IsUsable>false</IsUsable>
   <QtyRemovedOnUse>1</QtyRemovedOnUse>
@@ -116,8 +116,8 @@
         <Knockback>46.2</Knockback>
         <AttackSpeed>0.99</AttackSpeed>
         <Damage>
-          <float>25.0580025</float>
-          <float>12.342001</float>
+          <float>28.8167</float>
+          <float>14.1933</float>
         </Damage>
       </AttackData>
       <AttackData>
@@ -125,8 +125,8 @@
         <Knockback>46.2</Knockback>
         <AttackSpeed>0.99</AttackSpeed>
         <Damage>
-          <float>25.0580025</float>
-          <float>12.342001</float>
+          <float>28.8167</float>
+          <float>14.1933</float>
         </Damage>
       </AttackData>
     </Attacks>

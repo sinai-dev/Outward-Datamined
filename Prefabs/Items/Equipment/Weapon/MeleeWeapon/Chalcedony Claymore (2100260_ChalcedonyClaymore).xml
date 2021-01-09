@@ -5,7 +5,7 @@
   <ItemID>2100260</ItemID>
   <Name>Chalcedony Claymore</Name>
   <Description>Inflicts Slow Down.</Description>
-  <LegacyItemID>2100001</LegacyItemID>
+  <LegacyItemID>-1</LegacyItemID>
   <IsPickable>true</IsPickable>
   <IsUsable>false</IsUsable>
   <QtyRemovedOnUse>1</QtyRemovedOnUse>
@@ -24,7 +24,7 @@
     <string>Weapon</string>
     <string>Item</string>
     <string>Blade</string>
-    <string>DecraftChalcedony_Large</string>
+    <string>DecraftIron_Large</string>
     <string>Decraft</string>
     <string>Main Weapon</string>
   </Tags>
@@ -117,8 +117,8 @@
         <Knockback>38.5</Knockback>
         <AttackSpeed>1.1</AttackSpeed>
         <Damage>
-          <float>21.45</float>
-          <float>21.45</float>
+          <float>24.6675</float>
+          <float>24.6675</float>
         </Damage>
       </AttackData>
       <AttackData>
@@ -126,8 +126,8 @@
         <Knockback>38.5</Knockback>
         <AttackSpeed>1.1</AttackSpeed>
         <Damage>
-          <float>21.45</float>
-          <float>21.45</float>
+          <float>24.6675</float>
+          <float>24.6675</float>
         </Damage>
       </AttackData>
     </Attacks>

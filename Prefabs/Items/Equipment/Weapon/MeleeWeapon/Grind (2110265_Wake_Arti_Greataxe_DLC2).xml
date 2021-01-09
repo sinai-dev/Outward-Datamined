@@ -43,7 +43,7 @@
       <float>0</float>
       <float>0</float>
     </Damage_Resistance>
-    <Impact_Resistance>-25</Impact_Resistance>
+    <Impact_Resistance>9.6</Impact_Resistance>
     <Damage_Protection>0</Damage_Protection>
     <Damage_Bonus>
       <float>0</float>
@@ -98,7 +98,7 @@
         </Damage>
       </AttackData>
       <AttackData>
-        <StamCost>9.24</StamCost>
+        <StamCost>11.55</StamCost>
         <Knockback>65</Knockback>
         <AttackSpeed>1.21</AttackSpeed>
         <Damage>
@@ -106,7 +106,7 @@
         </Damage>
       </AttackData>
       <AttackData>
-        <StamCost>8.47</StamCost>
+        <StamCost>10.5875</StamCost>
         <Knockback>65</Knockback>
         <AttackSpeed>1.21</AttackSpeed>
         <Damage>
@@ -114,7 +114,7 @@
         </Damage>
       </AttackData>
       <AttackData>
-        <StamCost>8.47</StamCost>
+        <StamCost>10.5875</StamCost>
         <Knockback>65</Knockback>
         <AttackSpeed>1.21</AttackSpeed>
         <Damage>

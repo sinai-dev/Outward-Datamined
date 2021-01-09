@@ -6373,7 +6373,7 @@ Chakram spells are necessary to use this off-hand weapon.</Desc>
   <ItemLoc>
     <KeyID>2200180</KeyID>
     <Name>Obsidian Bow</Name>
-    <Desc>Inflicts Burning on enemies.</Desc>
+    <Desc>Inflicts Scorched Hex on enemies.</Desc>
   </ItemLoc>
   <ItemLoc>
     <KeyID>2000270</KeyID>
@@ -6449,7 +6449,7 @@ Chakram spells are necessary to use this off-hand weapon.</Desc>
   <ItemLoc>
     <KeyID>2200170</KeyID>
     <Name>Chalcedony Bow</Name>
-    <Desc>Inflicts Slow Down.</Desc>
+    <Desc>Inflicts Chill Hex.</Desc>
   </ItemLoc>
   <ItemLoc>
     <KeyID>2000280</KeyID>
@@ -10495,7 +10495,7 @@ Recalls a deployed totem to your inventory, and generates a zone of recurring da
   <ItemLoc>
     <KeyID>8202004</KeyID>
     <Name>Elatt's Intervention</Name>
-    <Desc>Increases Barrier by 2 and Protection by 2</Desc>
+    <Desc>Increases Barrier by 2 and Protection by 5.</Desc>
   </ItemLoc>
   <ItemLoc>
     <KeyID>8200105</KeyID>

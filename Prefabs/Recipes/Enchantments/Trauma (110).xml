@@ -39,7 +39,7 @@
         <Delay>0</Delay>
         <SyncType>OwnerSync</SyncType>
         <OverrideCategory>None</OverrideCategory>
-        <CastPosition>Local</CastPosition>
+        <CastPosition>Given</CastPosition>
         <LocalPositionAdd>
           <x>0</x>
           <y>1.5</y>

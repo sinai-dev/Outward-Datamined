@@ -5,7 +5,7 @@
   <ItemID>2010200</ItemID>
   <Name>Damascene Axe</Name>
   <Description>Increases the power of Weapon Skills.</Description>
-  <LegacyItemID>-1</LegacyItemID>
+  <LegacyItemID>2010205</LegacyItemID>
   <IsPickable>true</IsPickable>
   <IsUsable>false</IsUsable>
   <QtyRemovedOnUse>1</QtyRemovedOnUse>

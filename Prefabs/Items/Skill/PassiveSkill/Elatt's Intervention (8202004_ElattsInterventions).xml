@@ -4,7 +4,7 @@
   <saveDir>/Skill/PassiveSkill</saveDir>
   <ItemID>8202004</ItemID>
   <Name>Elatt's Intervention</Name>
-  <Description>Increases Barrier by 2 and Protection by 2</Description>
+  <Description>Increases Barrier by 2 and Protection by 5.</Description>
   <LegacyItemID>-1</LegacyItemID>
   <IsPickable>false</IsPickable>
   <IsUsable>false</IsUsable>
@@ -29,7 +29,7 @@
           <SyncType>OwnerSync</SyncType>
           <OverrideCategory>None</OverrideCategory>
           <Stat_Tag>PhysicalProtection</Stat_Tag>
-          <AffectQuantity>2</AffectQuantity>
+          <AffectQuantity>5</AffectQuantity>
           <IsModifier>false</IsModifier>
           <Tags />
         </DM_Effect>

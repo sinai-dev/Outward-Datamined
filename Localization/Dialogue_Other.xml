@@ -1192,7 +1192,7 @@ South road: Old Sirocco Ruins</Value>
   </Dialogue>
   <Dialogue>
     <Key>Trainer_Micro_WarmBoon_03</Key>
-    <Value>And with that, you'll have a Boon of Warmth. It's very helpful while exploring the desert during daylight.</Value>
+    <Value>And with that, you'll have a Boon of Warmth. It may be helpful to ward off the winter cold, but it's no substitute for warm clothes and a campfire.</Value>
   </Dialogue>
   <Dialogue>
     <Key>Trainer_Micro_WarmBoon_04</Key>
@@ -1208,7 +1208,7 @@ South road: Old Sirocco Ruins</Value>
   </Dialogue>
   <Dialogue>
     <Key>Trainer_Micro_ColdBoon_03</Key>
-    <Value>And that's how you generate the Boon. It may be helpful to ward off the winter cold, but it's no substitute for warm clothes and a campfire.</Value>
+    <Value>And that's how you generate the Boon. It's very helpful while exploring the desert during daylight.</Value>
   </Dialogue>
   <Dialogue>
     <Key>Trainer_Micro_ColdBoon_04</Key>

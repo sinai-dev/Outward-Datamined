@@ -68,13 +68,13 @@
       </StatModification>
     </StatModifications>
     <DamageBonus />
-    <DamageModifier />
-    <ElementalResistances>
+    <DamageModifier>
       <Damages>
         <Damage>25</Damage>
         <Damage_Type>Electric</Damage_Type>
       </Damages>
-    </ElementalResistances>
+    </DamageModifier>
+    <ElementalResistances />
     <HealthAbsorbRatio>0</HealthAbsorbRatio>
     <ManaAbsorbRatio>0</ManaAbsorbRatio>
     <StaminaAbsorbRatio>0</StaminaAbsorbRatio>

@@ -5,7 +5,7 @@
   <ItemID>2150150</ItemID>
   <Name>Frostburn Staff</Name>
   <Description />
-  <LegacyItemID>2150051</LegacyItemID>
+  <LegacyItemID>-1</LegacyItemID>
   <IsPickable>true</IsPickable>
   <IsUsable>false</IsUsable>
   <QtyRemovedOnUse>1</QtyRemovedOnUse>
@@ -110,7 +110,7 @@
         <Knockback>44</Knockback>
         <AttackSpeed>1.21</AttackSpeed>
         <Damage>
-          <float>44</float>
+          <float>50.6</float>
         </Damage>
       </AttackData>
       <AttackData>
@@ -118,7 +118,7 @@
         <Knockback>44</Knockback>
         <AttackSpeed>1.21</AttackSpeed>
         <Damage>
-          <float>44</float>
+          <float>50.6</float>
         </Damage>
       </AttackData>
     </Attacks>

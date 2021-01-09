@@ -101,7 +101,7 @@
         <Knockback>32.5</Knockback>
         <AttackSpeed>1.32</AttackSpeed>
         <Damage>
-          <float>23.4</float>
+          <float>26.91</float>
         </Damage>
       </AttackData>
       <AttackData>
@@ -109,7 +109,7 @@
         <Knockback>27.5</Knockback>
         <AttackSpeed>1.32</AttackSpeed>
         <Damage>
-          <float>19.8</float>
+          <float>22.77</float>
         </Damage>
       </AttackData>
       <AttackData>
@@ -117,7 +117,7 @@
         <Knockback>27.5</Knockback>
         <AttackSpeed>1.32</AttackSpeed>
         <Damage>
-          <float>19.8</float>
+          <float>22.77</float>
         </Damage>
       </AttackData>
     </Attacks>

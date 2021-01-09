@@ -24,7 +24,7 @@
     <string>Item</string>
   </Tags>
   <StatsHolder>
-    <BaseValue>400</BaseValue>
+    <BaseValue>700</BaseValue>
     <RawWeight>0.5</RawWeight>
     <MaxDurability>-1</MaxDurability>
   </StatsHolder>
