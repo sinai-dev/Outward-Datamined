@@ -52,7 +52,7 @@
       <float>0</float>
       <float>0</float>
     </Damage_Bonus>
-    <Impact_Bonus>0</Impact_Bonus>
+    <Impact_Bonus>10</Impact_Bonus>
     <Stamina_Use_Penalty>4</Stamina_Use_Penalty>
     <Mana_Use_Modifier>15</Mana_Use_Modifier>
     <Mana_Regen>0</Mana_Regen>
