@@ -37,6 +37,7 @@
           <StatusEffect>Slow Down</StatusEffect>
           <Buildup>40</Buildup>
           <BuildUpMultiplier>1</BuildUpMultiplier>
+          <AffectController>false</AffectController>
           <BypassCounter>false</BypassCounter>
         </DM_Effect>
       </Effects>

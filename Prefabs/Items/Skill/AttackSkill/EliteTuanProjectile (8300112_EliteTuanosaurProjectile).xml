@@ -121,6 +121,7 @@
                           <StatusEffect>Burning</StatusEffect>
                           <Buildup>66</Buildup>
                           <BuildUpMultiplier>1</BuildUpMultiplier>
+                          <AffectController>false</AffectController>
                           <BypassCounter>false</BypassCounter>
                         </DM_Effect>
                       </Effects>

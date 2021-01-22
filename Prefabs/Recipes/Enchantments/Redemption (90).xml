@@ -78,6 +78,7 @@
         <StatusEffect>Doom</StatusEffect>
         <Buildup>35</Buildup>
         <BuildUpMultiplier>1</BuildUpMultiplier>
+        <AffectController>false</AffectController>
         <BypassCounter>false</BypassCounter>
       </DM_Effect>
       <DM_Effect xsi:type="DM_AddStatusEffectBuildUp">
@@ -87,6 +88,7 @@
         <StatusEffect>Elemental Vulnerability</StatusEffect>
         <Buildup>25</Buildup>
         <BuildUpMultiplier>1</BuildUpMultiplier>
+        <AffectController>false</AffectController>
         <BypassCounter>false</BypassCounter>
       </DM_Effect>
     </Effects>

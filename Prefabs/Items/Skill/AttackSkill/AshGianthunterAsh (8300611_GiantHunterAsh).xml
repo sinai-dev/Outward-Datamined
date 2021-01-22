@@ -92,6 +92,7 @@
                   <StatusEffect>Breathless</StatusEffect>
                   <Buildup>16</Buildup>
                   <BuildUpMultiplier>1</BuildUpMultiplier>
+                  <AffectController>false</AffectController>
                   <BypassCounter>false</BypassCounter>
                 </DM_Effect>
               </Effects>

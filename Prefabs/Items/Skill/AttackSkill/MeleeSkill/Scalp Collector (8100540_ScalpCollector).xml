@@ -56,6 +56,7 @@ Inflicts Bleeding on hit. Finish off an enemy with this skill to gain the Kill S
           <StatusEffect>Bleeding</StatusEffect>
           <Buildup>100</Buildup>
           <BuildUpMultiplier>1</BuildUpMultiplier>
+          <AffectController>false</AffectController>
           <BypassCounter>false</BypassCounter>
         </DM_Effect>
         <DM_Effect xsi:type="DM_AddStatusEffectIfDead">

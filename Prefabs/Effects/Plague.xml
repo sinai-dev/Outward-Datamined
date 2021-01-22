@@ -74,6 +74,7 @@
                   <StatusEffect>Plague</StatusEffect>
                   <Buildup>10</Buildup>
                   <BuildUpMultiplier>1</BuildUpMultiplier>
+                  <AffectController>false</AffectController>
                   <BypassCounter>false</BypassCounter>
                 </DM_Effect>
               </Effects>

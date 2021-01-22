@@ -74,6 +74,7 @@
           <StatusEffect>GargoyleBoonLvl</StatusEffect>
           <Buildup>100</Buildup>
           <BuildUpMultiplier>1</BuildUpMultiplier>
+          <AffectController>false</AffectController>
           <BypassCounter>false</BypassCounter>
         </DM_Effect>
         <DM_Effect xsi:type="DM_AffectHealth">
@@ -91,6 +92,7 @@
           <StatusEffect>GargoyleBoonLvl</StatusEffect>
           <Buildup>100</Buildup>
           <BuildUpMultiplier>1</BuildUpMultiplier>
+          <AffectController>false</AffectController>
           <BypassCounter>false</BypassCounter>
         </DM_Effect>
         <DM_Effect xsi:type="DM_AddStatusEffectBuildUp">
@@ -100,6 +102,7 @@
           <StatusEffect>GargoyleBoonLvl</StatusEffect>
           <Buildup>100</Buildup>
           <BuildUpMultiplier>1</BuildUpMultiplier>
+          <AffectController>false</AffectController>
           <BypassCounter>false</BypassCounter>
         </DM_Effect>
         <DM_Effect xsi:type="DM_AddStatusEffectBuildUp">
@@ -109,6 +112,7 @@
           <StatusEffect>GargoyleBoonLvl</StatusEffect>
           <Buildup>100</Buildup>
           <BuildUpMultiplier>1</BuildUpMultiplier>
+          <AffectController>false</AffectController>
           <BypassCounter>false</BypassCounter>
         </DM_Effect>
         <DM_Effect xsi:type="DM_AddStatusEffectBuildUp">
@@ -118,6 +122,7 @@
           <StatusEffect>GargoyleBoonLvl</StatusEffect>
           <Buildup>100</Buildup>
           <BuildUpMultiplier>1</BuildUpMultiplier>
+          <AffectController>false</AffectController>
           <BypassCounter>false</BypassCounter>
         </DM_Effect>
       </Effects>

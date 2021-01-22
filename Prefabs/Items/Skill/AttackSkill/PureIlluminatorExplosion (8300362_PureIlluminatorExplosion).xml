@@ -80,6 +80,7 @@
                   <StatusEffect>Weaken</StatusEffect>
                   <Buildup>60</Buildup>
                   <BuildUpMultiplier>1</BuildUpMultiplier>
+                  <AffectController>false</AffectController>
                   <BypassCounter>false</BypassCounter>
                 </DM_Effect>
               </Effects>
@@ -144,6 +145,7 @@
                   <StatusEffect>Weaken</StatusEffect>
                   <Buildup>60</Buildup>
                   <BuildUpMultiplier>1</BuildUpMultiplier>
+                  <AffectController>false</AffectController>
                   <BypassCounter>false</BypassCounter>
                 </DM_Effect>
               </Effects>
@@ -208,6 +210,7 @@
                   <StatusEffect>Weaken</StatusEffect>
                   <Buildup>60</Buildup>
                   <BuildUpMultiplier>1</BuildUpMultiplier>
+                  <AffectController>false</AffectController>
                   <BypassCounter>false</BypassCounter>
                 </DM_Effect>
               </Effects>

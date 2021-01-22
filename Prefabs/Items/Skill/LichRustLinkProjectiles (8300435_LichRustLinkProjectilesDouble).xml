@@ -125,6 +125,7 @@
                           <StatusEffect>Elemental Vulnerability</StatusEffect>
                           <Buildup>45</Buildup>
                           <BuildUpMultiplier>1</BuildUpMultiplier>
+                          <AffectController>false</AffectController>
                           <BypassCounter>false</BypassCounter>
                         </DM_Effect>
                       </Effects>

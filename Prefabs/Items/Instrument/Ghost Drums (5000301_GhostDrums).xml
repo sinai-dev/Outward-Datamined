@@ -128,6 +128,11 @@
                   <Delay>0</Delay>
                   <SyncType>OwnerSync</SyncType>
                   <OverrideCategory>None</OverrideCategory>
+                  <StatusEffect>Aetherbomb</StatusEffect>
+                  <Buildup>10</Buildup>
+                  <BuildUpMultiplier>2</BuildUpMultiplier>
+                  <AffectController>false</AffectController>
+                  <BypassCounter>false</BypassCounter>
                   <ChancesPerCharge>3</ChancesPerCharge>
                 </DM_Effect>
                 <DM_Effect xsi:type="DM_AddChargeInstrument">

@@ -55,8 +55,10 @@ Chakram spells are necessary to use this off-hand weapon.</Description>
       <float>0</float>
       <float>0</float>
     </Damage_Bonus>
+    <Impact_Bonus>0</Impact_Bonus>
     <Stamina_Use_Penalty>0</Stamina_Use_Penalty>
     <Mana_Use_Modifier>0</Mana_Use_Modifier>
+    <Mana_Regen>0</Mana_Regen>
     <Movement_Penalty>0</Movement_Penalty>
     <Pouch_Bonus>0</Pouch_Bonus>
     <Heat_Protection>0</Heat_Protection>
@@ -101,6 +103,7 @@ Chakram spells are necessary to use this off-hand weapon.</Description>
           <StatusEffect>Blaze</StatusEffect>
           <Buildup>33</Buildup>
           <BuildUpMultiplier>1</BuildUpMultiplier>
+          <AffectController>false</AffectController>
           <BypassCounter>false</BypassCounter>
         </DM_Effect>
       </Effects>

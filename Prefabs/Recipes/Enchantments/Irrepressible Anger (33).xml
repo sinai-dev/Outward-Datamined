@@ -49,6 +49,7 @@
         <StatusEffect>Poisoned +</StatusEffect>
         <Buildup>21</Buildup>
         <BuildUpMultiplier>1</BuildUpMultiplier>
+        <AffectController>false</AffectController>
         <BypassCounter>false</BypassCounter>
       </DM_Effect>
     </Effects>

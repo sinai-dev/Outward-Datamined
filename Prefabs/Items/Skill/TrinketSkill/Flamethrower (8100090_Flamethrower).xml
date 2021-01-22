@@ -77,6 +77,7 @@ This skill lowers the durability of the torch or lantern used.</Description>
                   <StatusEffect>Burning</StatusEffect>
                   <Buildup>15</Buildup>
                   <BuildUpMultiplier>1</BuildUpMultiplier>
+                  <AffectController>false</AffectController>
                   <BypassCounter>false</BypassCounter>
                 </DM_Effect>
               </Effects>
@@ -108,6 +109,7 @@ This skill lowers the durability of the torch or lantern used.</Description>
                   <StatusEffect>Sapped</StatusEffect>
                   <Buildup>15</Buildup>
                   <BuildUpMultiplier>1</BuildUpMultiplier>
+                  <AffectController>false</AffectController>
                   <BypassCounter>false</BypassCounter>
                 </DM_Effect>
               </Effects>
@@ -139,6 +141,7 @@ This skill lowers the durability of the torch or lantern used.</Description>
                   <StatusEffect>Haunted</StatusEffect>
                   <Buildup>15</Buildup>
                   <BuildUpMultiplier>1</BuildUpMultiplier>
+                  <AffectController>false</AffectController>
                   <BypassCounter>false</BypassCounter>
                 </DM_Effect>
               </Effects>
@@ -170,6 +173,7 @@ This skill lowers the durability of the torch or lantern used.</Description>
                   <StatusEffect>Slow Down</StatusEffect>
                   <Buildup>15</Buildup>
                   <BuildUpMultiplier>1</BuildUpMultiplier>
+                  <AffectController>false</AffectController>
                   <BypassCounter>false</BypassCounter>
                 </DM_Effect>
               </Effects>
@@ -201,6 +205,7 @@ This skill lowers the durability of the torch or lantern used.</Description>
                   <StatusEffect>Bleeding</StatusEffect>
                   <Buildup>15</Buildup>
                   <BuildUpMultiplier>1</BuildUpMultiplier>
+                  <AffectController>false</AffectController>
                   <BypassCounter>false</BypassCounter>
                 </DM_Effect>
               </Effects>
@@ -217,6 +222,7 @@ This skill lowers the durability of the torch or lantern used.</Description>
                   <StatusEffect>Poisoned</StatusEffect>
                   <Buildup>15</Buildup>
                   <BuildUpMultiplier>1</BuildUpMultiplier>
+                  <AffectController>false</AffectController>
                   <BypassCounter>false</BypassCounter>
                 </DM_Effect>
                 <DM_Effect xsi:type="DM_AddStatusEffectBuildUp">
@@ -226,6 +232,7 @@ This skill lowers the durability of the torch or lantern used.</Description>
                   <StatusEffect>Weaken</StatusEffect>
                   <Buildup>15</Buildup>
                   <BuildUpMultiplier>1</BuildUpMultiplier>
+                  <AffectController>false</AffectController>
                   <BypassCounter>false</BypassCounter>
                 </DM_Effect>
                 <DM_Effect xsi:type="DM_AddStatusEffectBuildUp">
@@ -235,6 +242,7 @@ This skill lowers the durability of the torch or lantern used.</Description>
                   <StatusEffect>Curse</StatusEffect>
                   <Buildup>15</Buildup>
                   <BuildUpMultiplier>1</BuildUpMultiplier>
+                  <AffectController>false</AffectController>
                   <BypassCounter>false</BypassCounter>
                 </DM_Effect>
               </Effects>

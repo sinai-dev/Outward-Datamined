@@ -78,6 +78,7 @@
         <StatusEffect>Curse</StatusEffect>
         <Buildup>35</Buildup>
         <BuildUpMultiplier>1</BuildUpMultiplier>
+        <AffectController>false</AffectController>
         <BypassCounter>false</BypassCounter>
       </DM_Effect>
     </Effects>

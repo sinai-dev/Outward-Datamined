@@ -85,6 +85,7 @@ A long distance running tackle that does more damage the more Health % you have 
           <StatusEffect>Pain</StatusEffect>
           <Buildup>115</Buildup>
           <BuildUpMultiplier>1</BuildUpMultiplier>
+          <AffectController>true</AffectController>
           <BypassCounter>false</BypassCounter>
         </DM_Effect>
         <DM_Effect xsi:type="DM_AddStatusEffectBuildUp">
@@ -94,6 +95,7 @@ A long distance running tackle that does more damage the more Health % you have 
           <StatusEffect>Confusion</StatusEffect>
           <Buildup>115</Buildup>
           <BuildUpMultiplier>1</BuildUpMultiplier>
+          <AffectController>true</AffectController>
           <BypassCounter>false</BypassCounter>
         </DM_Effect>
       </Effects>

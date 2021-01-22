@@ -97,6 +97,7 @@
                   <StatusEffect>Cripple</StatusEffect>
                   <Buildup>90</Buildup>
                   <BuildUpMultiplier>1</BuildUpMultiplier>
+                  <AffectController>false</AffectController>
                   <BypassCounter>false</BypassCounter>
                 </DM_Effect>
               </Effects>

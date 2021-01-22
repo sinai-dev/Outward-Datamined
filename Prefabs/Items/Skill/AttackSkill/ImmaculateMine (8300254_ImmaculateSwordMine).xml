@@ -130,6 +130,7 @@
                           <StatusEffect>Sapped</StatusEffect>
                           <Buildup>85</Buildup>
                           <BuildUpMultiplier>1</BuildUpMultiplier>
+                          <AffectController>false</AffectController>
                           <BypassCounter>false</BypassCounter>
                         </DM_Effect>
                       </Effects>

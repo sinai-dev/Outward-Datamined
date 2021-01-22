@@ -145,6 +145,7 @@ Create a highly damaging shockwave that destabilizes you. If your Weapon has an 
                   <StatusEffect>Burn</StatusEffect>
                   <Buildup>115</Buildup>
                   <BuildUpMultiplier>1</BuildUpMultiplier>
+                  <AffectController>false</AffectController>
                   <BypassCounter>false</BypassCounter>
                 </DM_Effect>
               </Effects>
@@ -239,6 +240,7 @@ Create a highly damaging shockwave that destabilizes you. If your Weapon has an 
                   <StatusEffect>Chill</StatusEffect>
                   <Buildup>115</Buildup>
                   <BuildUpMultiplier>1</BuildUpMultiplier>
+                  <AffectController>false</AffectController>
                   <BypassCounter>false</BypassCounter>
                 </DM_Effect>
               </Effects>
@@ -333,6 +335,7 @@ Create a highly damaging shockwave that destabilizes you. If your Weapon has an 
                   <StatusEffect>Doom</StatusEffect>
                   <Buildup>115</Buildup>
                   <BuildUpMultiplier>1</BuildUpMultiplier>
+                  <AffectController>false</AffectController>
                   <BypassCounter>false</BypassCounter>
                 </DM_Effect>
               </Effects>
@@ -427,6 +430,7 @@ Create a highly damaging shockwave that destabilizes you. If your Weapon has an 
                   <StatusEffect>Haunted</StatusEffect>
                   <Buildup>115</Buildup>
                   <BuildUpMultiplier>1</BuildUpMultiplier>
+                  <AffectController>false</AffectController>
                   <BypassCounter>false</BypassCounter>
                 </DM_Effect>
               </Effects>
@@ -521,6 +525,7 @@ Create a highly damaging shockwave that destabilizes you. If your Weapon has an 
                   <StatusEffect>Haunted</StatusEffect>
                   <Buildup>115</Buildup>
                   <BuildUpMultiplier>1</BuildUpMultiplier>
+                  <AffectController>false</AffectController>
                   <BypassCounter>false</BypassCounter>
                 </DM_Effect>
               </Effects>
@@ -611,6 +616,7 @@ Create a highly damaging shockwave that destabilizes you. If your Weapon has an 
                   <StatusEffect>Curse</StatusEffect>
                   <Buildup>115</Buildup>
                   <BuildUpMultiplier>1</BuildUpMultiplier>
+                  <AffectController>false</AffectController>
                   <BypassCounter>false</BypassCounter>
                 </DM_Effect>
               </Effects>
@@ -703,6 +709,7 @@ Create a highly damaging shockwave that destabilizes you. If your Weapon has an 
                   <StatusEffect>Curse</StatusEffect>
                   <Buildup>115</Buildup>
                   <BuildUpMultiplier>1</BuildUpMultiplier>
+                  <AffectController>false</AffectController>
                   <BypassCounter>false</BypassCounter>
                 </DM_Effect>
               </Effects>
@@ -797,6 +804,7 @@ Create a highly damaging shockwave that destabilizes you. If your Weapon has an 
                   <StatusEffect>Doom</StatusEffect>
                   <Buildup>115</Buildup>
                   <BuildUpMultiplier>1</BuildUpMultiplier>
+                  <AffectController>false</AffectController>
                   <BypassCounter>false</BypassCounter>
                 </DM_Effect>
               </Effects>
@@ -887,6 +895,7 @@ Create a highly damaging shockwave that destabilizes you. If your Weapon has an 
                   <StatusEffect />
                   <Buildup>115</Buildup>
                   <BuildUpMultiplier>1</BuildUpMultiplier>
+                  <AffectController>false</AffectController>
                   <BypassCounter>false</BypassCounter>
                 </DM_Effect>
               </Effects>

@@ -244,6 +244,7 @@
                           <StatusEffect>Burning</StatusEffect>
                           <Buildup>125</Buildup>
                           <BuildUpMultiplier>1</BuildUpMultiplier>
+                          <AffectController>false</AffectController>
                           <BypassCounter>false</BypassCounter>
                         </DM_Effect>
                         <DM_Effect xsi:type="DM_ShootProjectile">
@@ -299,6 +300,7 @@
                           <StatusEffect>HolyBlaze</StatusEffect>
                           <Buildup>100</Buildup>
                           <BuildUpMultiplier>1</BuildUpMultiplier>
+                          <AffectController>false</AffectController>
                           <BypassCounter>false</BypassCounter>
                         </DM_Effect>
                       </Effects>
@@ -388,6 +390,7 @@
                   <StatusEffect>Cripple</StatusEffect>
                   <Buildup>100</Buildup>
                   <BuildUpMultiplier>1</BuildUpMultiplier>
+                  <AffectController>false</AffectController>
                   <BypassCounter>false</BypassCounter>
                 </DM_Effect>
               </Effects>
@@ -499,6 +502,7 @@
                           <StatusEffect>Burning</StatusEffect>
                           <Buildup>75</Buildup>
                           <BuildUpMultiplier>1</BuildUpMultiplier>
+                          <AffectController>false</AffectController>
                           <BypassCounter>false</BypassCounter>
                         </DM_Effect>
                       </Effects>
@@ -616,6 +620,7 @@
                           <StatusEffect>Burning</StatusEffect>
                           <Buildup>75</Buildup>
                           <BuildUpMultiplier>1</BuildUpMultiplier>
+                          <AffectController>false</AffectController>
                           <BypassCounter>false</BypassCounter>
                         </DM_Effect>
                       </Effects>
