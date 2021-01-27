@@ -108,7 +108,7 @@ This off-hand weapon requires Dagger Skills to be used.</Description>
           <SyncType>OwnerSync</SyncType>
           <OverrideCategory>None</OverrideCategory>
           <StatusEffect>HolyBlaze</StatusEffect>
-          <Buildup>12.5</Buildup>
+          <Buildup>35</Buildup>
           <BuildUpMultiplier>1</BuildUpMultiplier>
           <AffectController>false</AffectController>
           <BypassCounter>false</BypassCounter>

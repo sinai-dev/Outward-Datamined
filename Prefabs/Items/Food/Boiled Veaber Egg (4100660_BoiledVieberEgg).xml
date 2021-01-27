@@ -23,6 +23,8 @@
   <Tags>
     <string>Consummable</string>
     <string>Item</string>
+    <string>Egg</string>
+    <string>Food</string>
   </Tags>
   <StatsHolder>
     <BaseValue>3</BaseValue>

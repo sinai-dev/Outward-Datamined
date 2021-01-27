@@ -76,11 +76,11 @@ Chakram spells are necessary to use this off-hand weapon.</Description>
     <AttackSpeed>1</AttackSpeed>
     <BaseDamage>
       <Damages>
-        <Damage>17.5</Damage>
+        <Damage>21</Damage>
         <Damage_Type>Physical</Damage_Type>
       </Damages>
       <Damages>
-        <Damage>7.50000048</Damage>
+        <Damage>9</Damage>
         <Damage_Type>Fire</Damage_Type>
       </Damages>
     </BaseDamage>
@@ -93,8 +93,8 @@ Chakram spells are necessary to use this off-hand weapon.</Description>
         <Knockback>27</Knockback>
         <AttackSpeed>1</AttackSpeed>
         <Damage>
-          <float>17.5</float>
-          <float>7.50000048</float>
+          <float>21</float>
+          <float>9</float>
         </Damage>
       </AttackData>
     </Attacks>

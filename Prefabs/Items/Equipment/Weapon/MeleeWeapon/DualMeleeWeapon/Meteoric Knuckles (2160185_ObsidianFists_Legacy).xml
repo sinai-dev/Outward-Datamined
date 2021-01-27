@@ -24,9 +24,8 @@
     <string>Weapon</string>
     <string>Item</string>
     <string>Bludgeon</string>
-    <string>Iron</string>
-    <string>Family</string>
     <string>Obsidian</string>
+    <string>Family</string>
     <string>Main Weapon</string>
   </Tags>
   <StatsHolder xsi:type="DM_WeaponStats">
@@ -144,7 +143,7 @@
           <SyncType>OwnerSync</SyncType>
           <OverrideCategory>None</OverrideCategory>
           <StatusEffect>HolyBlaze</StatusEffect>
-          <Buildup>12.5</Buildup>
+          <Buildup>17.5</Buildup>
           <BuildUpMultiplier>1</BuildUpMultiplier>
           <AffectController>false</AffectController>
           <BypassCounter>false</BypassCounter>

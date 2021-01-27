@@ -26,9 +26,8 @@
     <string>Spear</string>
     <string>DecraftIron_Small</string>
     <string>Decraft</string>
-    <string>Brutal</string>
-    <string>Family</string>
     <string>Obsidian</string>
+    <string>Family</string>
     <string>Main Weapon</string>
   </Tags>
   <StatsHolder xsi:type="DM_WeaponStats">
@@ -146,7 +145,7 @@
           <SyncType>OwnerSync</SyncType>
           <OverrideCategory>None</OverrideCategory>
           <StatusEffect>HolyBlaze</StatusEffect>
-          <Buildup>12.5</Buildup>
+          <Buildup>35</Buildup>
           <BuildUpMultiplier>1</BuildUpMultiplier>
           <AffectController>false</AffectController>
           <BypassCounter>false</BypassCounter>

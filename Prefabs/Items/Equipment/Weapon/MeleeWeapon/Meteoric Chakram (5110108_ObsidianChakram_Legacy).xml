@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <DM_Weapon xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <gameObjectName>2020300_IndustrialMace</gameObjectName>
+  <gameObjectName>5110108_ObsidianChakram_Legacy</gameObjectName>
   <saveDir>/Equipment/Weapon/MeleeWeapon</saveDir>
-  <ItemID>2020300</ItemID>
-  <Name>Smoke Mace</Name>
-  <Description>Inflicts Blaze on Burning foes.</Description>
+  <ItemID>5110108</ItemID>
+  <Name>Meteoric Chakram</Name>
+  <Description>A glowing Obsidian Chakram passed down by your ancestors. Inflicts Holy Blaze on burning foes.
+
+Chakram spells are necessary to use this off-hand weapon.</Description>
   <LegacyItemID>-1</LegacyItemID>
   <IsPickable>true</IsPickable>
   <IsUsable>false</IsUsable>
@@ -20,17 +22,17 @@
   <CastSheatheRequired>1</CastSheatheRequired>
   <OverrideSellModifier>-1</OverrideSellModifier>
   <Tags>
-    <string>Bludgeon</string>
     <string>Weapon</string>
     <string>Item</string>
-    <string>DecraftIron_Small</string>
-    <string>Decraft</string>
-    <string>Main Weapon</string>
+    <string>Chakram</string>
+    <string>Trinket</string>
+    <string>Obsidian</string>
+    <string>Family</string>
   </Tags>
   <StatsHolder xsi:type="DM_WeaponStats">
-    <BaseValue>900</BaseValue>
-    <RawWeight>5</RawWeight>
-    <MaxDurability>425</MaxDurability>
+    <BaseValue>2000</BaseValue>
+    <RawWeight>1</RawWeight>
+    <MaxDurability>400</MaxDurability>
     <Damage_Resistance>
       <float>0</float>
       <float>0</float>
@@ -74,52 +76,25 @@
     <AttackSpeed>1</AttackSpeed>
     <BaseDamage>
       <Damages>
-        <Damage>43</Damage>
+        <Damage>21</Damage>
         <Damage_Type>Physical</Damage_Type>
       </Damages>
+      <Damages>
+        <Damage>21</Damage>
+        <Damage_Type>Fire</Damage_Type>
+      </Damages>
     </BaseDamage>
-    <Impact>45</Impact>
-    <StamCost>5.4</StamCost>
+    <Impact>35</Impact>
+    <StamCost>0</StamCost>
     <AutoGenerateAttackData>false</AutoGenerateAttackData>
     <Attacks>
       <AttackData>
-        <StamCost>5.4</StamCost>
-        <Knockback>45</Knockback>
+        <StamCost>0</StamCost>
+        <Knockback>35</Knockback>
         <AttackSpeed>1</AttackSpeed>
         <Damage>
-          <float>43</float>
-        </Damage>
-      </AttackData>
-      <AttackData>
-        <StamCost>5.4</StamCost>
-        <Knockback>45</Knockback>
-        <AttackSpeed>1</AttackSpeed>
-        <Damage>
-          <float>43</float>
-        </Damage>
-      </AttackData>
-      <AttackData>
-        <StamCost>7.02</StamCost>
-        <Knockback>112.5</Knockback>
-        <AttackSpeed>1.3</AttackSpeed>
-        <Damage>
-          <float>55.9</float>
-        </Damage>
-      </AttackData>
-      <AttackData>
-        <StamCost>7.02</StamCost>
-        <Knockback>58.5</Knockback>
-        <AttackSpeed>1.1</AttackSpeed>
-        <Damage>
-          <float>55.9</float>
-        </Damage>
-      </AttackData>
-      <AttackData>
-        <StamCost>7.02</StamCost>
-        <Knockback>58.5</Knockback>
-        <AttackSpeed>1.1</AttackSpeed>
-        <Damage>
-          <float>55.9</float>
+          <float>21</float>
+          <float>21</float>
         </Damage>
       </AttackData>
     </Attacks>
@@ -132,8 +107,8 @@
           <Delay>0</Delay>
           <SyncType>OwnerSync</SyncType>
           <OverrideCategory>None</OverrideCategory>
-          <StatusEffect>Blaze</StatusEffect>
-          <Buildup>33</Buildup>
+          <StatusEffect>HolyBlaze</StatusEffect>
+          <Buildup>35</Buildup>
           <BuildUpMultiplier>1</BuildUpMultiplier>
           <AffectController>false</AffectController>
           <BypassCounter>false</BypassCounter>
@@ -143,11 +118,11 @@
       <ChildEffects />
     </DM_EffectTransform>
   </EffectTransforms>
-  <EquipSlot>RightHand</EquipSlot>
+  <EquipSlot>LeftHand</EquipSlot>
   <TwoHandType>None</TwoHandType>
   <IKType>None</IKType>
   <VisualDetectabilityAdd>0</VisualDetectabilityAdd>
-  <WeaponType>Mace_1H</WeaponType>
+  <WeaponType>Chakram_OH</WeaponType>
   <Unblockable>false</Unblockable>
   <SwingSound>Default</SwingSound>
   <SpecialIsZoom>false</SpecialIsZoom>

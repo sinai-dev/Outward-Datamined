@@ -1,22 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<DM_Blueprint xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <gameObjectName>9400183_EnchantingGuild_ManaChambers_Blueprint</gameObjectName>
-  <saveDir>/Blueprint</saveDir>
-  <ItemID>9400183</ItemID>
-  <Name>Blueprint: Enchanting Guild Upgrade – Soroborean Laboratory </Name>
-  <Description>The Head Enchanter will freely teach you to infuse your weapon with the Ethereal element.
-----
-Construction requirements
-Joined Sorobor
-Funds:  8000
-Stone: 200
-Timber: 100
-Material:  Digested Mana Stone
-Funds upkeep: 50 / Day
-Construction:  5 Weeks</Description>
+<DM_RecipeItem xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <gameObjectName>5700397_GoldLichKnuckles_Recipe</gameObjectName>
+  <saveDir>/RecipeItem</saveDir>
+  <ItemID>5700397</ItemID>
+  <Name>Crafting: Gold-Lich Knuckles</Name>
+  <Description>Teaches how to craft a weapon, requiring no crafting station.</Description>
   <LegacyItemID>-1</LegacyItemID>
   <IsPickable>true</IsPickable>
-  <IsUsable>true</IsUsable>
+  <IsUsable>false</IsUsable>
   <QtyRemovedOnUse>1</QtyRemovedOnUse>
   <GroupItemInDisplay>false</GroupItemInDisplay>
   <HasPhysicsWhenWorld>false</HasPhysicsWhenWorld>
@@ -29,15 +20,15 @@ Construction:  5 Weeks</Description>
   <CastSheatheRequired>1</CastSheatheRequired>
   <OverrideSellModifier>-1</OverrideSellModifier>
   <Tags>
-    <string>Deployable</string>
+    <string>Recipe</string>
     <string>Item</string>
+    <string>Misc</string>
   </Tags>
   <StatsHolder>
-    <BaseValue>50</BaseValue>
+    <BaseValue>70</BaseValue>
     <RawWeight>0.1</RawWeight>
     <MaxDurability>-1</MaxDurability>
   </StatsHolder>
   <EffectTransforms />
-  <DeployableItemID>-1</DeployableItemID>
-  <IsUpgrade>true</IsUpgrade>
-</DM_Blueprint>
+  <RecipeUID>pswDREFGtUiezW-KHo1GOA</RecipeUID>
+</DM_RecipeItem>

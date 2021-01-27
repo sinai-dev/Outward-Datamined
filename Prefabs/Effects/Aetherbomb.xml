@@ -3,7 +3,7 @@
   <PresetID>611</PresetID>
   <Identifier>Aetherbomb</Identifier>
   <Name>Aetherbomb</Name>
-  <Description>You will take severe Ethereal Damage after 30 seconds.</Description>
+  <Description>You will take severe Ethereal Damage after 15 seconds.</Description>
   <Lifespan>15</Lifespan>
   <LengthType>Short</LengthType>
   <RefreshRate>0.1</RefreshRate>

@@ -4,7 +4,7 @@
   <saveDir>/Consumable</saveDir>
   <ItemID>4300050</ItemID>
   <Name>Rage Potion</Name>
-  <Description>Concoction that temporarily increases your weapon’s Impact.
+  <Description>Concoction that temporarily increases your Impact.
 </Description>
   <LegacyItemID>-1</LegacyItemID>
   <IsPickable>true</IsPickable>

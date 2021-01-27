@@ -139,6 +139,7 @@
         <Stone>100</Stone>
       </ConstructionCosts>
       <ConstructionTime>25</ConstructionTime>
+      <RareMaterial>Ectoplasm</RareMaterial>
       <BuildingRequirements />
       <HouseCountRequirement>0</HouseCountRequirement>
       <HousingValue>0</HousingValue>

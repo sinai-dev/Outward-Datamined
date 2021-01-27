@@ -3,7 +3,7 @@
   <PresetID>596</PresetID>
   <Identifier>EliteSupremeShellRage</Identifier>
   <Name>Rage</Name>
-  <Description>Weapon Impact +[E1V1]%.</Description>
+  <Description>Impact +[E1V1]%.</Description>
   <Lifespan>30</Lifespan>
   <LengthType>Short</LengthType>
   <RefreshRate>0.1</RefreshRate>

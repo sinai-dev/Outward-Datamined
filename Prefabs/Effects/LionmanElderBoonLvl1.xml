@@ -3,7 +3,7 @@
   <PresetID>601</PresetID>
   <Identifier>LionmanElderBoonLvl1</Identifier>
   <Name>Rage</Name>
-  <Description>Weapon Impact +[E1V1]%.</Description>
+  <Description>Impact +[E1V1]%.</Description>
   <Lifespan>360</Lifespan>
   <LengthType>Short</LengthType>
   <RefreshRate>0.1</RefreshRate>

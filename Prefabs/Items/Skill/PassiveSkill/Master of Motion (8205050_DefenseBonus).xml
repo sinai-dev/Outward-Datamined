@@ -4,7 +4,7 @@
   <saveDir>/Skill/PassiveSkill</saveDir>
   <ItemID>8205050</ItemID>
   <Name>Master of Motion</Name>
-  <Description>While under the effect of the Discipline boon, Impact Resistance and all damage resistances are increased by 15.</Description>
+  <Description>While under the effect of the Discipline boon, Impact Resistance and all damage resistances are increased by 10.</Description>
   <LegacyItemID>-1</LegacyItemID>
   <IsPickable>false</IsPickable>
   <IsUsable>false</IsUsable>
