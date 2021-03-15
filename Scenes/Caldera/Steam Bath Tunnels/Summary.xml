@@ -64,10 +64,6 @@
   </Loot_Containers>
   <Gatherables>
     <QuantityHolder>
-      <Name>Ambraine</Name>
-      <Quantity>2</Quantity>
-    </QuantityHolder>
-    <QuantityHolder>
       <Name>Rich Iron vein</Name>
       <Quantity>2</Quantity>
     </QuantityHolder>
@@ -98,6 +94,10 @@
     <QuantityHolder>
       <Name>Iron vein</Name>
       <Quantity>4</Quantity>
+    </QuantityHolder>
+    <QuantityHolder>
+      <Name>Ambraine</Name>
+      <Quantity>1</Quantity>
     </QuantityHolder>
     <QuantityHolder>
       <Name>Palladium vein</Name>

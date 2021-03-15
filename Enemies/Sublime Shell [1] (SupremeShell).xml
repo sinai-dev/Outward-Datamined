@@ -65,6 +65,6 @@
   <Allied_To_Same_Faction>true</Allied_To_Same_Faction>
   <Guaranteed_Drops />
   <DropTable_Names>
-    <string>DropTable_ImmaculateHorror</string>
+    <string>DropTable_SpremeShell_DLC1</string>
   </DropTable_Names>
 </DM_Enemy>

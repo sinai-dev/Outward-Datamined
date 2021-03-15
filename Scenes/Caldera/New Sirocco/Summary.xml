@@ -3,7 +3,7 @@
   <SceneName>New Sirocco</SceneName>
   <Enemies>
     <QuantityHolder>
-      <Name>Joseph Arena (1)</Name>
+      <Name>Dorion Arena (1)</Name>
       <Quantity>1</Quantity>
     </QuantityHolder>
     <QuantityHolder>
@@ -11,7 +11,7 @@
       <Quantity>1</Quantity>
     </QuantityHolder>
     <QuantityHolder>
-      <Name>Balira (3)</Name>
+      <Name>Balira (2)</Name>
       <Quantity>1</Quantity>
     </QuantityHolder>
     <QuantityHolder>
@@ -39,7 +39,7 @@
       <Quantity>1</Quantity>
     </QuantityHolder>
     <QuantityHolder>
-      <Name>Dorion Arena (1)</Name>
+      <Name>Dorion Arena (2)</Name>
       <Quantity>1</Quantity>
     </QuantityHolder>
   </Enemies>
@@ -55,7 +55,7 @@
     </QuantityHolder>
     <QuantityHolder>
       <Name>Ornate Chest</Name>
-      <Quantity>2</Quantity>
+      <Quantity>1</Quantity>
     </QuantityHolder>
   </Loot_Containers>
   <Gatherables>
@@ -72,13 +72,13 @@
       <positions>
         <Vector3>
           <x>8.220001</x>
-          <y>6.950489</y>
-          <z>-1.45000076</z>
+          <y>-4993.04932</y>
+          <z>-1.45000124</z>
         </Vector3>
         <Vector3>
-          <x>0.02999878</x>
-          <y>6.950489</y>
-          <z>-1.44999981</z>
+          <x>0.0299998838</x>
+          <y>-4993.04932</y>
+          <z>-1.45000017</z>
         </Vector3>
       </positions>
     </DM_ItemSpawn>
@@ -88,9 +88,9 @@
       <Quantity>1</Quantity>
       <positions>
         <Vector3>
-          <x>5.223999</x>
-          <y>0.299504519</y>
-          <z>-6.78700161</z>
+          <x>5.2239995</x>
+          <y>-4999.70068</y>
+          <z>59.113</z>
         </Vector3>
       </positions>
     </DM_ItemSpawn>

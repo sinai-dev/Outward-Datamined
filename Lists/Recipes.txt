@@ -254,6 +254,7 @@
 526	Survival	Gargargar! (1)	Basic Armor,Woolshroom
 527	Survival	GoulgGalog! (1)	Basic Armor,Grilled Mushroom
 52	Cooking	Boiled Turmmip (1)	Turmmip
+530	Cooking	Roasted Krimp Nut (1)	Krimp Nut
 53	Cooking	Grilled Mushroom (1)	Common Mushroom
 54	Cooking	Cooked Jewel Meat (1)	Raw Jewel Meat
 55	Cooking	Boiled Miasmapod (1)	Miasmapod

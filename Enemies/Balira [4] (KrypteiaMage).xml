@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <DM_Enemy xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <Name>Sublime Shell</Name>
-  <GameObject_Name>SupremeShell_Key</GameObject_Name>
-  <Unique_ID>2</Unique_ID>
+  <Name>Balira</Name>
+  <GameObject_Name>KrypteiaMage</GameObject_Name>
+  <Unique_ID>4</Unique_ID>
   <Locations_Found>
-    <string>Antique Plateau:Forgotten Research Laboratory</string>
+    <string>Caldera:Caldera Arena</string>
   </Locations_Found>
-  <Max_Health>775</Max_Health>
-  <Health_Regen_Per_Second>1.5</Health_Regen_Per_Second>
-  <Impact_Resistance>78</Impact_Resistance>
+  <Max_Health>700</Max_Health>
+  <Health_Regen_Per_Second>0</Health_Regen_Per_Second>
+  <Impact_Resistance>50</Impact_Resistance>
   <Protection>
     <float>0</float>
     <float>0</float>
@@ -18,12 +18,12 @@
     <float>0</float>
   </Protection>
   <Damage_Resistances>
-    <float>20</float>
+    <float>35</float>
     <float>0</float>
+    <float>-20</float>
     <float>0</float>
-    <float>-50</float>
-    <float>0</float>
-    <float>0</float>
+    <float>40</float>
+    <float>-20</float>
   </Damage_Resistances>
   <Damage_Bonuses>
     <float>0</float>
@@ -33,43 +33,39 @@
     <float>0</float>
     <float>0</float>
   </Damage_Bonuses>
-  <Collider_Radius>0.7</Collider_Radius>
+  <Collider_Radius>0.4</Collider_Radius>
   <NullifyResistances>false</NullifyResistances>
   <GlobalStatusRes>0</GlobalStatusRes>
   <BarrierStat>0</BarrierStat>
   <True_WeaponDamage>
     <Damages>
-      <Damage>22.5</Damage>
+      <Damage>20</Damage>
       <Damage_Type>Physical</Damage_Type>
     </Damages>
     <Damages>
-      <Damage>7.5</Damage>
-      <Damage_Type>Decay</Damage_Type>
+      <Damage>20</Damage>
+      <Damage_Type>Frost</Damage_Type>
     </Damages>
   </True_WeaponDamage>
-  <Weapon_Impact>85</Weapon_Impact>
+  <Weapon_Impact>65</Weapon_Impact>
   <Status_Immunities />
   <Starting_Equipment>
-    <string>SupremeShellFist (2400330)</string>
+    <string>Krypteia Palladium Mace (2400531)</string>
   </Starting_Equipment>
   <Skill_Knowledge>
-    <string>SupremeShellBash (8300350)</string>
-    <string>SupremeShellLazer (8300351)</string>
-    <string>SupremeShellRage (8300352)</string>
-    <string>SupremeShellGroundPound (8300353)</string>
-    <string>SupremeShellLeap (8300354)</string>
+    <string>KrypteiaMageThunder (8300660)</string>
+    <string>Krypteia (8300661)</string>
+    <string>KrypteiaMageDispertion (8300662)</string>
   </Skill_Knowledge>
-  <Faction>Hounds</Faction>
+  <Faction>Bandits</Faction>
   <Allied_To_Same_Faction>true</Allied_To_Same_Faction>
   <Guaranteed_Drops>
     <DropTableEntry>
-      <Item_Name>Lower Laboratory Key</Item_Name>
-      <Item_ID>5600130</Item_ID>
+      <Item_Name>Krypteia Palladium Mace</Item_Name>
+      <Item_ID>2400531</Item_ID>
       <Min_Quantity>1</Min_Quantity>
       <Max_Quantity>1</Max_Quantity>
     </DropTableEntry>
   </Guaranteed_Drops>
-  <DropTable_Names>
-    <string>DropTable_SpremeShell_DLC1</string>
-  </DropTable_Names>
+  <DropTable_Names />
 </DM_Enemy>

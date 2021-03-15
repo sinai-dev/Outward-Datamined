@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <DM_Enemy xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <Name>Sublime Shell</Name>
-  <GameObject_Name>SupremeShell_Key</GameObject_Name>
-  <Unique_ID>2</Unique_ID>
+  <Name>Dorion Arena</Name>
+  <GameObject_Name>ArenaJosef</GameObject_Name>
+  <Unique_ID>1</Unique_ID>
   <Locations_Found>
-    <string>Antique Plateau:Forgotten Research Laboratory</string>
+    <string>Caldera:New Sirocco</string>
   </Locations_Found>
-  <Max_Health>775</Max_Health>
-  <Health_Regen_Per_Second>1.5</Health_Regen_Per_Second>
-  <Impact_Resistance>78</Impact_Resistance>
+  <Max_Health>575</Max_Health>
+  <Health_Regen_Per_Second>0</Health_Regen_Per_Second>
+  <Impact_Resistance>35</Impact_Resistance>
   <Protection>
-    <float>0</float>
+    <float>6</float>
     <float>0</float>
     <float>0</float>
     <float>0</float>
@@ -18,12 +18,12 @@
     <float>0</float>
   </Protection>
   <Damage_Resistances>
-    <float>20</float>
-    <float>0</float>
-    <float>0</float>
-    <float>-50</float>
-    <float>0</float>
-    <float>0</float>
+    <float>46</float>
+    <float>10</float>
+    <float>-20</float>
+    <float>10</float>
+    <float>10</float>
+    <float>10</float>
   </Damage_Resistances>
   <Damage_Bonuses>
     <float>0</float>
@@ -33,43 +33,38 @@
     <float>0</float>
     <float>0</float>
   </Damage_Bonuses>
-  <Collider_Radius>0.7</Collider_Radius>
+  <Collider_Radius>0.4</Collider_Radius>
   <NullifyResistances>false</NullifyResistances>
   <GlobalStatusRes>0</GlobalStatusRes>
   <BarrierStat>0</BarrierStat>
   <True_WeaponDamage>
     <Damages>
-      <Damage>22.5</Damage>
+      <Damage>18</Damage>
       <Damage_Type>Physical</Damage_Type>
     </Damages>
     <Damages>
-      <Damage>7.5</Damage>
-      <Damage_Type>Decay</Damage_Type>
+      <Damage>6</Damage>
+      <Damage_Type>Fire</Damage_Type>
     </Damages>
   </True_WeaponDamage>
-  <Weapon_Impact>85</Weapon_Impact>
+  <Weapon_Impact>30</Weapon_Impact>
   <Status_Immunities />
   <Starting_Equipment>
-    <string>SupremeShellFist (2400330)</string>
+    <string>Militia Axe Josef (2010271)</string>
+    <string>Cannon Pistol (5110110)</string>
   </Starting_Equipment>
   <Skill_Knowledge>
-    <string>SupremeShellBash (8300350)</string>
-    <string>SupremeShellLazer (8300351)</string>
-    <string>SupremeShellRage (8300352)</string>
-    <string>SupremeShellGroundPound (8300353)</string>
-    <string>SupremeShellLeap (8300354)</string>
+    <string>JosefShot (8300760)</string>
   </Skill_Knowledge>
-  <Faction>Hounds</Faction>
+  <Faction>Bandits</Faction>
   <Allied_To_Same_Faction>true</Allied_To_Same_Faction>
   <Guaranteed_Drops>
     <DropTableEntry>
-      <Item_Name>Lower Laboratory Key</Item_Name>
-      <Item_ID>5600130</Item_ID>
+      <Item_Name>Cannon Pistol</Item_Name>
+      <Item_ID>5110110</Item_ID>
       <Min_Quantity>1</Min_Quantity>
       <Max_Quantity>1</Max_Quantity>
     </DropTableEntry>
   </Guaranteed_Drops>
-  <DropTable_Names>
-    <string>DropTable_SpremeShell_DLC1</string>
-  </DropTable_Names>
+  <DropTable_Names />
 </DM_Enemy>

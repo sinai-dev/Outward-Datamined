@@ -5,6 +5,7 @@
   <Unique_ID>1</Unique_ID>
   <Locations_Found>
     <string>Chersonese:Cierzo (Destroyed)</string>
+    <string>Chersonese:Vendavel Fortress</string>
   </Locations_Found>
   <Max_Health>100</Max_Health>
   <Health_Regen_Per_Second>0</Health_Regen_Per_Second>

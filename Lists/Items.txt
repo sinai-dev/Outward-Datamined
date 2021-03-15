@@ -1224,7 +1224,7 @@
 5110105	Forged Glass Chakram	5110105_ForgedGlassChakram	/Equipment/Weapon/MeleeWeapon
 5110106	Militia Chakram	5110106_MilitiaChakram	/Equipment/Weapon/MeleeWeapon
 5110107	Vigilante Chakram	5110107_MilitiaChakram_Legacy	/Equipment/Weapon/MeleeWeapon
-5110108	Removed – Meteoric Chakram	5110108_ObsidianChakram_Legacy	/Equipment/Weapon/MeleeWeapon
+5110108	Meteoric Chakram	5110108_ObsidianChakram_Legacy	/Equipment/Weapon/MeleeWeapon
 5110109	Removed – Masterpiece Chakram	5110109_DamasceneChakram_Legacy	/Equipment/Weapon/MeleeWeapon
 5110111	Distorted Experiment	5110111_Wake_Arti_Chakram_DLC2	/Equipment/Weapon/MeleeWeapon
 5110112	Experimental Chakram	5110112_Arti_Chakram_DLC2	/Equipment/Weapon/MeleeWeapon
@@ -1530,7 +1530,7 @@
 5700351	Cooking_ Bread	5700351_Bread_Recipe	/RecipeItem
 5700352	Cooking_ Crawlberry Tartine	5700352_CrawlberryTartine_Recipe	/RecipeItem
 5700353	Alchemy_ Alpha Meat	5700353_AlphaMeat_Recipe	/RecipeItem
-5700397	Crafting_ Golden Knuckles	5700397_GoldLichKnuckles_Recipe	/RecipeItem
+5700397	Crafting_ Gold-Lich Knuckles	5700397_GoldLichKnuckles_Recipe	/RecipeItem
 5700398	Crafting_ Slayer’s Helm	5700398_SlayerHelm_Recipe	/RecipeItem
 5700399	Crafting_ Slayer’s Armor	5700399_SlayerArmor_Recipe	/RecipeItem
 5700400	Crafting_ Slayer’s Boots	5700400_SlayerBoots_Recipe	/RecipeItem

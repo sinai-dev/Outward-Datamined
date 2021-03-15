@@ -37,7 +37,7 @@
     </QuantityHolder>
     <QuantityHolder>
       <Name>Caldera:Caldera</Name>
-      <Quantity>21</Quantity>
+      <Quantity>20</Quantity>
     </QuantityHolder>
     <QuantityHolder>
       <Name>Caldera:The Eldest Brother</Name>
@@ -45,11 +45,7 @@
     </QuantityHolder>
     <QuantityHolder>
       <Name>Caldera:Old Sirocco</Name>
-      <Quantity>5</Quantity>
-    </QuantityHolder>
-    <QuantityHolder>
-      <Name>Caldera:Oily Cavern</Name>
-      <Quantity>1</Quantity>
+      <Quantity>4</Quantity>
     </QuantityHolder>
     <QuantityHolder>
       <Name>Caldera:The River of Red</Name>

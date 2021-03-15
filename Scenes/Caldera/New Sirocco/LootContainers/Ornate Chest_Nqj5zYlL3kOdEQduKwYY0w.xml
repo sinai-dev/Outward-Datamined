@@ -3,5 +3,7 @@
   <Name>Ornate Chest</Name>
   <ItemID>1000040</ItemID>
   <UID>Nqj5zYlL3kOdEQduKwYY0w</UID>
-  <DropTables />
+  <DropTables>
+    <string>DropTable_Caldera_ArenaRandomChest</string>
+  </DropTables>
 </DM_LootContainer>

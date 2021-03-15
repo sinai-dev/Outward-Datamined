@@ -99,12 +99,6 @@
       </Locations>
     </DroptableSummary>
     <DroptableSummary>
-      <DropTableName>DropTable_AntiqueField_Alchemy_1</DropTableName>
-      <Locations>
-        <string>Ark of the Exiled</string>
-      </Locations>
-    </DroptableSummary>
-    <DroptableSummary>
       <DropTableName>DropTable_Neutral_Alchemy_High_1</DropTableName>
       <Locations>
         <string>Ark of the Exiled</string>
