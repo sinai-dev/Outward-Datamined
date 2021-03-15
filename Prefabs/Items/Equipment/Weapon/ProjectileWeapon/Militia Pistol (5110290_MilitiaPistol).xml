@@ -5,7 +5,7 @@
   <ItemID>5110290</ItemID>
   <Name>Militia Pistol</Name>
   <Description>Gun that needs the Fire/Reload skill to shoot.</Description>
-  <LegacyItemID>-1</LegacyItemID>
+  <LegacyItemID>5110300</LegacyItemID>
   <IsPickable>true</IsPickable>
   <IsUsable>false</IsUsable>
   <QtyRemovedOnUse>1</QtyRemovedOnUse>

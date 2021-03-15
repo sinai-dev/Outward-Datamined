@@ -23,8 +23,8 @@
     <string>Axe</string>
     <string>Weapon</string>
     <string>Item</string>
-    <string>DecraftIron_Small</string>
-    <string>Decraft</string>
+    <string>Awaken Artifact</string>
+    <string>Artifact</string>
     <string>Main Weapon</string>
   </Tags>
   <StatsHolder xsi:type="DM_WeaponStats">

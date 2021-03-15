@@ -5,7 +5,7 @@
   <ItemID>5110106</ItemID>
   <Name>Militia Chakram</Name>
   <Description>Chakram spells are necessary to use this off-hand weapon.</Description>
-  <LegacyItemID>-1</LegacyItemID>
+  <LegacyItemID>5110107</LegacyItemID>
   <IsPickable>true</IsPickable>
   <IsUsable>false</IsUsable>
   <QtyRemovedOnUse>1</QtyRemovedOnUse>

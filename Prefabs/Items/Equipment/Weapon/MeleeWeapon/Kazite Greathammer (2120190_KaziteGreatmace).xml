@@ -26,6 +26,8 @@
     <string>Bludgeon</string>
     <string>Kazite</string>
     <string>Family</string>
+    <string>DecraftIron_Large</string>
+    <string>Decraft</string>
     <string>Main Weapon</string>
   </Tags>
   <StatsHolder xsi:type="DM_WeaponStats">

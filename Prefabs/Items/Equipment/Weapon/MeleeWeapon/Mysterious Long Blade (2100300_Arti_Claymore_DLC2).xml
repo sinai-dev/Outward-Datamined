@@ -24,8 +24,6 @@
     <string>Weapon</string>
     <string>Item</string>
     <string>Blade</string>
-    <string>DecraftIron_Large</string>
-    <string>Decraft</string>
     <string>Main Weapon</string>
   </Tags>
   <StatsHolder xsi:type="DM_WeaponStats">

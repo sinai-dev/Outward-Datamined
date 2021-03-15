@@ -32,7 +32,7 @@
     <RawWeight>3</RawWeight>
     <MaxDurability>300</MaxDurability>
     <Damage_Resistance>
-      <float>0</float>
+      <float>-15</float>
       <float>0</float>
       <float>0</float>
       <float>0</float>

@@ -28,7 +28,6 @@
     <string>Ration Ingredient</string>
     <string>Ingredient Cook</string>
     <string>Ingredient</string>
-    <string>Meat</string>
   </Tags>
   <StatsHolder>
     <BaseValue>10</BaseValue>

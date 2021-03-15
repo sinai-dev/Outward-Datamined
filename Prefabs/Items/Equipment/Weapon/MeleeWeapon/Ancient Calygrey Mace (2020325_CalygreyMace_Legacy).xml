@@ -23,14 +23,12 @@
     <string>Bludgeon</string>
     <string>Weapon</string>
     <string>Item</string>
-    <string>DecraftIron_Small</string>
-    <string>Decraft</string>
     <string>Main Weapon</string>
   </Tags>
   <StatsHolder xsi:type="DM_WeaponStats">
-    <BaseValue>20</BaseValue>
-    <RawWeight>5</RawWeight>
-    <MaxDurability>350</MaxDurability>
+    <BaseValue>2000</BaseValue>
+    <RawWeight>6</RawWeight>
+    <MaxDurability>375</MaxDurability>
     <Damage_Resistance>
       <float>0</float>
       <float>0</float>
@@ -71,15 +69,19 @@
     <BarrierProtection>0</BarrierProtection>
     <GlobalStatusEffectResistance>0</GlobalStatusEffectResistance>
     <StaminaRegenModifier>0</StaminaRegenModifier>
-    <AttackSpeed>1</AttackSpeed>
+    <AttackSpeed>0.9</AttackSpeed>
     <BaseDamage>
       <Damages>
-        <Damage>22</Damage>
+        <Damage>23</Damage>
         <Damage_Type>Physical</Damage_Type>
       </Damages>
+      <Damages>
+        <Damage>23</Damage>
+        <Damage_Type>Electric</Damage_Type>
+      </Damages>
     </BaseDamage>
-    <Impact>25</Impact>
-    <StamCost>4.4</StamCost>
+    <Impact>50</Impact>
+    <StamCost>6</StamCost>
     <AutoGenerateAttackData>false</AutoGenerateAttackData>
     <Attacks>
       <AttackData>
@@ -88,6 +90,7 @@
         <AttackSpeed>1</AttackSpeed>
         <Damage>
           <float>22</float>
+          <float>-1</float>
         </Damage>
       </AttackData>
       <AttackData>
@@ -96,6 +99,7 @@
         <AttackSpeed>1</AttackSpeed>
         <Damage>
           <float>22</float>
+          <float>-1</float>
         </Damage>
       </AttackData>
       <AttackData>
@@ -104,6 +108,7 @@
         <AttackSpeed>1.3</AttackSpeed>
         <Damage>
           <float>28.6</float>
+          <float>-1</float>
         </Damage>
       </AttackData>
       <AttackData>
@@ -112,6 +117,7 @@
         <AttackSpeed>1.1</AttackSpeed>
         <Damage>
           <float>28.6</float>
+          <float>-1</float>
         </Damage>
       </AttackData>
       <AttackData>
@@ -120,6 +126,7 @@
         <AttackSpeed>1.1</AttackSpeed>
         <Damage>
           <float>28.6</float>
+          <float>-1</float>
         </Damage>
       </AttackData>
     </Attacks>

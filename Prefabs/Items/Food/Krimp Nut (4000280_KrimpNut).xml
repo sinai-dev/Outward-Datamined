@@ -48,7 +48,7 @@
           <Delay>0</Delay>
           <SyncType>OwnerSync</SyncType>
           <OverrideCategory>None</OverrideCategory>
-          <StatusEffect>Stamina Recovery 3</StatusEffect>
+          <StatusEffect>Stamina Recovery 2</StatusEffect>
           <ChanceToContract>100</ChanceToContract>
         </DM_Effect>
       </Effects>
