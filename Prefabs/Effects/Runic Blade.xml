@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <DM_StatusEffect xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <PresetID>1013</PresetID>
+  <PresetID>1007</PresetID>
   <Identifier>Runic Blade</Identifier>
   <Name>Runic Blade</Name>
   <Description>Magical summoned sword. Can be combined with more runes.</Description>

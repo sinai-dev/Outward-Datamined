@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <DM_StatusEffect xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <PresetID>1018</PresetID>
+  <PresetID>1004</PresetID>
   <Identifier>Runic Protection Amplified</Identifier>
   <Name>Runic Protection Amplified</Name>
   <Description>Physical Resistance +[E1V1]%. Physical Protection +[E2V1]. Other Resistances +[E3V1]%.</Description>

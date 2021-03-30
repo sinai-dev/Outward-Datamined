@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <DM_StatusEffect xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <PresetID>1010</PresetID>
+  <PresetID>1005</PresetID>
   <Identifier>Dez Runes</Identifier>
   <Name>Dez Runes</Name>
   <Description>Rune with no effect but can be combined with other runes in the correct order.</Description>

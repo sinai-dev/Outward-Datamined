@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <DM_StatusEffect xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <PresetID>1004</PresetID>
+  <PresetID>1014</PresetID>
   <Identifier>Defiled Positive</Identifier>
   <Name>Defiled</Name>
   <Description>Decay Resistance +[E1V1]%. Decay Damage +[E2V1]%. Frost Damage [E3V1]%. </Description>

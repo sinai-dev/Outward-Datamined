@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <DM_StatusEffect xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <PresetID>1014</PresetID>
+  <PresetID>1008</PresetID>
   <Identifier>Runic Heal Amplified</Identifier>
   <Name>Runic Heal Amplified</Name>
   <Description>Recover [E1V1] Health per second.</Description>

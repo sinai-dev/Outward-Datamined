@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <DM_StatusEffect xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <PresetID>1002</PresetID>
+  <PresetID>1012</PresetID>
   <Identifier>Corrupt Positive</Identifier>
   <Name>Corrupted</Name>
   <Description>Decay Resistance +[E1V1]%. Decay and Frost Damage +[E2V1]%.</Description>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <DM_StatusEffect xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <PresetID>1001</PresetID>
+  <PresetID>1011</PresetID>
   <Identifier>Tainted</Identifier>
   <Name>Tainted</Name>
   <Description>Hunger rate +[E2V1]%. Lightning Resistance [E1V1]%.</Description>
