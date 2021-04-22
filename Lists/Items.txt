@@ -39,6 +39,9 @@
 1001000	Junk Pile	1001000_JunkPileA	/ItemContainer/SelfFilledItemContainer/TreasureChest
 1900000	Stack	1900000_GroupContainer	/ItemContainer/GroupContainer
 1900001	Kitchen	1900001_StaticCookingStation	/CraftingStation
+1900002	Campfire Kit	1900002_StaticFirePit	/ItemContainer/FueledContainer
+1900003	Alchemy Kit	1900003_StaticFirePitAlchemy	/ItemContainer/FueledContainer
+1900004	Cooking Pot	1900004_StaticFirePitCooking	/ItemContainer/FueledContainer
 100001	Standard Axe	100001_StandardAxe	/Equipment/Weapon/MeleeWeapon
 100002	Standard Axe 2H	100002_StandardAxe2H	/Equipment/Weapon/MeleeWeapon
 100003	Standard Sword	100003_StandardSword	/Equipment/Weapon/MeleeWeapon

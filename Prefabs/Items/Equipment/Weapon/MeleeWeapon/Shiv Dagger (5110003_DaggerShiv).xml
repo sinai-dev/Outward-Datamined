@@ -30,7 +30,7 @@ This off-hand weapon requires Dagger Skills to be used.</Description>
     <string>Decraft</string>
   </Tags>
   <StatsHolder xsi:type="DM_WeaponStats">
-    <BaseValue>10</BaseValue>
+    <BaseValue>20</BaseValue>
     <RawWeight>1</RawWeight>
     <MaxDurability>100</MaxDurability>
     <Damage_Resistance>

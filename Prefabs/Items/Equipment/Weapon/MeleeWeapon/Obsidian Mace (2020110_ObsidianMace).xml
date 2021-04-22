@@ -30,7 +30,7 @@
     <string>Main Weapon</string>
   </Tags>
   <StatsHolder xsi:type="DM_WeaponStats">
-    <BaseValue>150</BaseValue>
+    <BaseValue>200</BaseValue>
     <RawWeight>6</RawWeight>
     <MaxDurability>300</MaxDurability>
     <Damage_Resistance>

@@ -8080,7 +8080,7 @@ One must manually refill their quiver between fights so as not to run out of arr
   </BasicLoc>
   <BasicLoc>
     <Key>StatusEffect_RageBoon_Desc</Key>
-    <Value>Weapon Impact +[E1V1]%.</Value>
+    <Value>Impact +[E1V1]%.</Value>
   </BasicLoc>
   <BasicLoc>
     <Key>StatusEffect_RageBoon_Name</Key>
@@ -11136,7 +11136,7 @@ This license is available with a FAQ at: http://scripts.sil.org/OFL
   </BasicLoc>
   <BasicLoc>
     <Key>StatusEffect_Aetherbomb_Desc</Key>
-    <Value>You will take severe Ethereal Damage after 30 seconds.</Value>
+    <Value>You will take severe Ethereal Damage after 15 seconds.</Value>
   </BasicLoc>
   <BasicLoc>
     <Key>TentEffect_CalygreyTent_Name</Key>

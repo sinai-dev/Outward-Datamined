@@ -20,13 +20,12 @@
   <CastSheatheRequired>1</CastSheatheRequired>
   <OverrideSellModifier>-1</OverrideSellModifier>
   <Tags>
-    <string>Blade</string>
+    <string>2 Handed</string>
     <string>Weapon</string>
     <string>Item</string>
-    <string>2 Handed</string>
+    <string>Blade</string>
     <string>Lexicon</string>
     <string>Family</string>
-    <string>Runic</string>
     <string>Main Weapon</string>
   </Tags>
   <StatsHolder xsi:type="DM_WeaponStats">

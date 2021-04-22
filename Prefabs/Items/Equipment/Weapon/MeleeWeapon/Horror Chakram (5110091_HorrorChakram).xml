@@ -26,7 +26,7 @@
     <string>Trinket</string>
   </Tags>
   <StatsHolder xsi:type="DM_WeaponStats">
-    <BaseValue>2000</BaseValue>
+    <BaseValue>1600</BaseValue>
     <RawWeight>1</RawWeight>
     <MaxDurability>375</MaxDurability>
     <Damage_Resistance>

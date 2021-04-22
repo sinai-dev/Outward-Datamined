@@ -22,10 +22,10 @@ Locking on enemies is vital to hit with pistols.</Description>
   <CastSheatheRequired>1</CastSheatheRequired>
   <OverrideSellModifier>-1</OverrideSellModifier>
   <Tags>
-    <string>Pistol</string>
-    <string>Trinket</string>
-    <string>Item</string>
     <string>Weapon</string>
+    <string>Item</string>
+    <string>Chakram</string>
+    <string>Trinket</string>
   </Tags>
   <StatsHolder xsi:type="DM_WeaponStats">
     <BaseValue>50</BaseValue>

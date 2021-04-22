@@ -29,7 +29,7 @@ Inflicts Pain on enemies.</Description>
     <string>Main Weapon</string>
   </Tags>
   <StatsHolder xsi:type="DM_WeaponStats">
-    <BaseValue>250</BaseValue>
+    <BaseValue>1000</BaseValue>
     <RawWeight>11</RawWeight>
     <MaxDurability>400</MaxDurability>
     <Damage_Resistance>

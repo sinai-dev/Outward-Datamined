@@ -1,252 +1,252 @@
-18	Rage
-19	Discipline
-20	Warm
-21	Cool
-22	Mist
-23	Bless
-24	Possessed
-534	Food Warm
-545	Food Cool
-546	Food Mist
-547	Food Bless
-548	Food Possessed
-549	Food Discipline
-68	Rage Amplified
-69	Discipline Amplified
-70	Warm Amplified
-71	Cool Amplified
-72	Mist Amplified
-73	Bless Amplified
-74	Possessed Amplified
-577	Titanic Golem 1
-578	Titanic Golem 2
-579	Titanic Golem 3
-596	EliteSupremeShellRage
-597	SupremeShellRage
-598	EliteSupremeShellDiscipline
+526	Tent buff
 500	Cold1
-501	Cold2
-510	Infection1
-511	Infection2
-512	Infection3
-520	Indigestion1
-521	Indigestion2
-540	Exalted
+32	Poisoned
+597	SupremeShellRage
+588	Corruption Resistance 2
+634	Ethereal Totem Sleep
+659	Barrier 1
+42	Slow Down
+598	EliteSupremeShellDiscipline
+35	Bleeding +
+52	Stability Up
+550	Food Slow Down
+603	CrimsonMineLvl
+667	TempleBuff
+630	Fire Totem Sleep
+579	Titanic Golem 3
+612	AetherbombExplosion
+51	Environment Resistance
+410	Parched
+30	Doom
+33	Poisoned +
+529	Berg Inns
+56	Stun
+27	Burn
+583	Corruption Recovery 2
+5	Mana Ratio Recovery 3
+539	Gaberry Wine
+93	Armor Penalties Reduction
+561	Alert
+625	AncientDwellerSlowing
+562	Unerring Read
+57	Force Bubble
+569	Harmattant Inn A
 541	Life Drain 1
-542	Life Drain 2
-543	Life Drain 3
-664	Ambraine Withdrawal
+421	Tired
+401	Hungry
+50	Elemental Immunity
+29	Haunted
+552	Food Impact Up
+592	ExtremeManaRegen1
+533	Food Environment Cold Resistance
+28	Chill
+74	Possessed Amplified
+554	Bandage
+85	Stealth Up
+420	Drowsy
+511	Infection2
+609	Petrification
+25	Confusion
+18	Rage
+564	ElemFireBuff
+604	CrimsonSunLvl
+534	Food Warm
+501	Cold2
+7	Stamina Recovery 4
+601	LionmanElderBoonLvl1
+73	Bless Amplified
+668	TempleBuffPlus
+666	HealingWater
+575	Blood Leech Victim
+651	Caldera Hall Sleep
+650	Caldera Inn Sleep
+568	ElemEtherealBuff
+614	HolyBlaze
+404	Bloated
+631	Ice Totem Sleep
+22	Mist
+37	Wet
+77	Mana Ratio Recovery 5
 669	AmbraineWithdrawalPreEffects
+87	Attack Up
+664	Ambraine Withdrawal
+538	Food Water Stamina
+546	Food Mist
+606	ScarletEmissaryProt
+570	Harmattant Inn B
+0	Health Recovery 2
+565	ElemFrostBuff
+574	Gift of Blood Ally
+567	ElemLightBuff
+660	Barrier 2
+24	Possessed
+607	SlughellProt
+622	Craze
+582	Corruption Recovery 1
+532	Food Environment Heat Resistance
 599	Wolf Fal Runes
 600	Wolf Runic Protection
-601	LionmanElderBoonLvl1
-602	LionmanElderBoonLvl2
-603	CrimsonMineLvl
-604	CrimsonSunLvl
-605	GargoyleBoonLvl
-606	ScarletEmissaryProt
-607	SlughellProt
-608	GrandmotherBoon
-625	AncientDwellerSlowing
-25	Confusion
-26	Pain
-27	Burn
-28	Chill
-29	Haunted
-30	Doom
-31	Curse
-0	Health Recovery 2
-1	Stamina Recovery 2
-2	Mana Ratio Recovery 2
-32	Poisoned
-33	Poisoned +
-34	Bleeding
-35	Bleeding +
-36	Burning
-37	Wet
-38	Environment Cold Resistance
-39	Stamina Cost Reduction
-3	Health Recovery 3
-40	Mana Cost Reduction
-41	Drunk
-42	Slow Down
-43	Dizzy
-44	Speed Up
-45	Health Recovery Small
-46	Stamina Recovery Small
-47	Mana Ratio Recovery Small
-49	Elemental Resistance
-4	Stamina Recovery 3
-50	Elemental Immunity
-51	Environment Resistance
-523	Camo Tent buff
-524	Fur Tent buff
-525	Luxurious Tent buff
-526	Tent buff
-527	Cierzo Inns
-528	Monsoon Inns
-529	Berg Inns
-52	Stability Up
-530	Levant Inns
-531	Food Dizzy
-532	Food Environment Heat Resistance
-533	Food Environment Cold Resistance
-535	Food Poisoned
-536	Food Poisoned +
-537	Food Speed Up
-538	Food Water Stamina
-539	Gaberry Wine
-544	Food Stability Up
-550	Food Slow Down
-551	Food Attack Up
-552	Food Impact Up
-554	Bandage
-555	Mage Tent buff
-556	Plant Tent Buff
-558	Weaken
-559	Sapped
 55	Defense Bonus
-560	Energized
-561	Alert
-562	Unerring Read
-563	Prime
-569	Harmattant Inn A
-56	Stun
-570	Harmattant Inn B
-571	Lockwell's Revelation Tired
-572	Lockwell's Revelation Very Tired
-573	Gift of Blood
-574	Gift of Blood Ally
-575	Blood Leech Victim
-576	Blood Leech
-57	Force Bubble
-582	Corruption Recovery 1
-583	Corruption Recovery 2
-587	Corruption Resistance 1
-588	Corruption Resistance 2
-58	Wind Imbue Stats
-592	ExtremeManaRegen1
-595	Scourge Tent Buff
-59	Passive Mana Regen
-5	Mana Ratio Recovery 3
-609	Petrification
-610	Petrified
-611	Aetherbomb
-612	AetherbombExplosion
-613	Blaze
-614	HolyBlaze
-615	Panic
-616	Dispirited
-617	Breathless
-618	Hampered
-619	Plague
-620	KillStreak
-621	Drawback
-622	Craze
-623	GhostRhythm
-624	SkyRhythm
-630	Fire Totem Sleep
-631	Ice Totem Sleep
-632	Light Totem Sleep
-633	Decay Totem Sleep
-634	Ethereal Totem Sleep
-640	Calygrey Sleep
-650	Caldera Inn Sleep
-651	Caldera Hall Sleep
-652	Caldera Basic Sleep
-657	Protection 1
-658	Protection 2
-659	Barrier 1
-660	Barrier 2
 661	StatusBuildUpResUp
-662	StatusBuildUpResDown
-663	Shimmer
+540	Exalted
+413	Refreshed
+71	Cool Amplified
+95	Cripple
+8	Mana Ratio Recovery 4
+43	Dizzy
+576	Blood Leech
+531	Food Dizzy
 665	PureWater
-666	HealingWater
-667	TempleBuff
-668	TempleBuffPlus
+527	Cierzo Inns
+26	Pain
+602	LionmanElderBoonLvl2
+528	Monsoon Inns
+555	Mage Tent buff
+610	Petrified
+572	Lockwell's Revelation Very Tired
+548	Food Possessed
+59	Passive Mana Regen
+3	Health Recovery 3
+560	Energized
+623	GhostRhythm
+44	Speed Up
+510	Infection1
+68	Rage Amplified
+566	ElemDecayBuff
+45	Health Recovery Small
+94	Elemental Vulnerability
+46	Stamina Recovery Small
+615	Panic
+411	Thirsty
+596	EliteSupremeShellRage
+6	Health Recovery 4
+573	Gift of Blood
+632	Light Totem Sleep
+530	Levant Inns
+605	GargoyleBoonLvl
+558	Weaken
+535	Food Poisoned
+577	Titanic Golem 1
+578	Titanic Golem 2
+571	Lockwell's Revelation Tired
+611	Aetherbomb
+23	Bless
 66	Immolate
 670	SaunaInn
-6	Health Recovery 4
-75	Health Recovery 5
-76	Stamina Recovery 5
-77	Mana Ratio Recovery 5
-7	Stamina Recovery 4
 84	Environment Heat Resistance
-85	Stealth Up
-86	Stability Up 2
-87	Attack Up
-88	Impact Up
-8	Mana Ratio Recovery 4
-93	Armor Penalties Reduction
-94	Elemental Vulnerability
-95	Cripple
-96	Elemental Resistance 2
-400	Starving
-401	Hungry
+58	Wind Imbue Stats
+620	KillStreak
+536	Food Poisoned +
+19	Discipline
+41	Drunk
+595	Scourge Tent Buff
+537	Food Speed Up
 403	Full
-404	Bloated
-410	Parched
-411	Thirsty
-413	Refreshed
-420	Drowsy
-421	Tired
+39	Stamina Cost Reduction
+76	Stamina Recovery 5
+47	Mana Ratio Recovery Small
+523	Camo Tent buff
+400	Starving
+2	Mana Ratio Recovery 2
+663	Shimmer
+521	Indigestion2
+512	Infection3
+545	Food Cool
+652	Caldera Basic Sleep
+75	Health Recovery 5
+20	Warm
+618	Hampered
+608	GrandmotherBoon
+524	Fur Tent buff
+547	Food Bless
+657	Protection 1
+86	Stability Up 2
+587	Corruption Resistance 1
+34	Bleeding
+556	Plant Tent Buff
+613	Blaze
+551	Food Attack Up
+525	Luxurious Tent buff
+520	Indigestion1
+616	Dispirited
+633	Decay Totem Sleep
+640	Calygrey Sleep
+38	Environment Cold Resistance
+31	Curse
+544	Food Stability Up
+88	Impact Up
+621	Drawback
+543	Life Drain 3
+658	Protection 2
+21	Cool
+549	Food Discipline
+72	Mist Amplified
+662	StatusBuildUpResDown
+49	Elemental Resistance
+619	Plague
+4	Stamina Recovery 3
+69	Discipline Amplified
+36	Burning
+1	Stamina Recovery 2
+96	Elemental Resistance 2
 424	DEPRECATED_Energized
-566	ElemDecayBuff
-568	ElemEtherealBuff
-564	ElemFireBuff
-565	ElemFrostBuff
-567	ElemLightBuff
-1001	Tainted
-1002	Corrupt Positive
-1003	Corrupt Negative
-1004	Defiled Positive
-1005	Defiled Negative
-1006	ColdExposure
-1007	Freezing
-1008	HeatExposure
-1009	Temperature Burning
-1010	Dez Runes
-1011	Egoth Runes
-1012	Fal Runes
-1013	Runic Blade
-1014	Runic Heal Amplified
-1015	Runic Lantern
-1016	Runic Lantern Amplified
-1017	Runic Protection
-1018	Runic Protection Amplified
-1019	Shim Runes
+563	Prime
+624	SkyRhythm
+559	Sapped
+40	Mana Cost Reduction
+70	Warm Amplified
+617	Breathless
+542	Life Drain 2
+1001	Runic Lantern
+1002	Runic Lantern Amplified
+1003	Shim Runes
+1004	Runic Protection Amplified
+1005	Dez Runes
+1006	Fal Runes
+1007	Runic Blade
+1008	Runic Heal Amplified
+1009	Egoth Runes
+1010	Runic Protection
+1011	Tainted
+1012	Corrupt Positive
+1013	Corrupt Negative
+1014	Defiled Positive
+1015	Defiled Negative
+1016	ColdExposure
+1017	Freezing
+1018	HeatExposure
+1019	Temperature Burning
 1020	Bag Over Encumbered
 1021	Fireflies
 1022	Hallowed Marsh Poison Lvl1
 1023	Hallowed Marsh Poison Lvl2
 1024	Pouch Over Encumbered
 1025	SulphurPoison
+222	Infuse Blood
 200	Poison Imbue
-201	Greater Poison Imbue
+999	StatusEffect_Imbue_BlessedWeaponTest_Name
 202	Fire Imbue
-203	Greater Fire Imbue
-204	Frost Imbue
+207	Greater Lightning Imbue
+218	Mystic Frost Imbue
 205	Greater Frost Imbue
 206	Lightning Imbue
-207	Greater Lightning Imbue
-208	Greater Ethereal Imbue
-209	Wind Imbue
 210	StatusEffect_Imbue_ReflectionlImbue_Name
-211	Greater Decay Imbue
 212	Decay Shield Imbue
-213	Ethereal Shield Imbue
-214	Fire Shield Imbue
-215	Frost Shield Imbue
-216	Lightning Shield Imbue
-217	Mystic Fire Imbue
-218	Mystic Frost Imbue
-219	Divine Light Imbue
-220	StatusEffect_Imbue_EtherealImbue_Name
-221	StatusEffect_Imbue_LightImbue_Name
-222	Infuse Blood
-223	Infuse Mana
-250	Frost Bullet Imbue
 251	Blood Bullet Imbue
+216	Lightning Shield Imbue
+211	Greater Decay Imbue
+213	Ethereal Shield Imbue
+209	Wind Imbue
+208	Greater Ethereal Imbue
+201	Greater Poison Imbue
+220	StatusEffect_Imbue_EtherealImbue_Name
+214	Fire Shield Imbue
+221	StatusEffect_Imbue_LightImbue_Name
 252	Shatter Bullet Imbue
-999	StatusEffect_Imbue_BlessedWeaponTest_Name
+215	Frost Shield Imbue
+250	Frost Bullet Imbue
+223	Infuse Mana
+203	Greater Fire Imbue
+204	Frost Imbue
+219	Divine Light Imbue
+217	Mystic Fire Imbue

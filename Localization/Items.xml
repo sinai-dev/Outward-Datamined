@@ -2520,7 +2520,7 @@ It restores a bit of max stamina.</Desc>
   <ItemLoc>
     <KeyID>4300050</KeyID>
     <Name>Rage Potion</Name>
-    <Desc>Concoction that temporarily increases your weapon’s Impact.
+    <Desc>Concoction that temporarily increases your Impact.
 </Desc>
   </ItemLoc>
   <ItemLoc>
@@ -5361,7 +5361,7 @@ Joined Sorobor
 Funds:  8000
 Stone: 200
 Timber: 100
-Material:  Diamond Dust
+Material:  Digested Mana Stone
 Funds upkeep: 50 / Day
 Construction:  5 Weeks</Desc>
   </ItemLoc>
@@ -6820,7 +6820,7 @@ Gun that needs the Fire/Reload skill to shoot.</Desc>
   </ItemLoc>
   <ItemLoc>
     <KeyID>5110108</KeyID>
-    <Name>Removed – Meteoric Chakram</Name>
+    <Name>Meteoric Chakram</Name>
     <Desc>A glowing Obsidian Chakram passed down by your ancestors. Inflicts Holy Blaze on burning foes.
 
 Chakram spells are necessary to use this off-hand weapon.</Desc>
@@ -9605,7 +9605,7 @@ This off-hand weapon requires Dagger Skills to be used.</Desc>
   </ItemLoc>
   <ItemLoc>
     <KeyID>5700397</KeyID>
-    <Name>Crafting: Golden Knuckles</Name>
+    <Name>Crafting: Gold-Lich Knuckles</Name>
     <Desc>Teaches how to craft a weapon, requiring no crafting station.</Desc>
   </ItemLoc>
   <ItemLoc>
@@ -10062,7 +10062,7 @@ Increases your Decay Resistance by  5.</Desc>
   <ItemLoc>
     <KeyID>8205050</KeyID>
     <Name>Master of Motion</Name>
-    <Desc>While under the effect of the Discipline boon, Impact Resistance and all damage resistances are increased by 15.</Desc>
+    <Desc>While under the effect of the Discipline boon, Impact Resistance and all damage resistances are increased by 10.</Desc>
   </ItemLoc>
   <ItemLoc>
     <KeyID>8205060</KeyID>

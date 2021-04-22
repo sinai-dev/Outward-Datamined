@@ -633,7 +633,7 @@
             <ChanceRegenQty>0</ChanceRegenQty>
           </DropTableChanceEntry>
           <DropTableChanceEntry>
-            <Item_Name>Crafting: Golden Knuckles</Item_Name>
+            <Item_Name>Crafting: Gold-Lich Knuckles</Item_Name>
             <Item_ID>5700397</Item_ID>
             <Min_Quantity>1</Min_Quantity>
             <Max_Quantity>1</Max_Quantity>

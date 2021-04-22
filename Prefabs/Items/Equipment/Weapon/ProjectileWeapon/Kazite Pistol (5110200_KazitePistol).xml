@@ -20,10 +20,12 @@
   <CastSheatheRequired>1</CastSheatheRequired>
   <OverrideSellModifier>-1</OverrideSellModifier>
   <Tags>
+    <string>Weapon</string>
+    <string>Item</string>
     <string>Pistol</string>
     <string>Trinket</string>
-    <string>Item</string>
-    <string>Weapon</string>
+    <string>DecraftIron_Small</string>
+    <string>Decraft</string>
     <string>Kazite</string>
     <string>Family</string>
   </Tags>
