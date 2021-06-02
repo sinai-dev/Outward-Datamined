@@ -13,7 +13,7 @@
   <IsHidden>false</IsHidden>
   <RemoveRequiredStatus>false</RemoveRequiredStatus>
   <NormalizeDamageDisplay>false</NormalizeDamageDisplay>
-  <IgnoreBarrier>false</IgnoreBarrier>
+  <IgnoreBarrier>true</IgnoreBarrier>
   <Tags />
   <Effects>
     <DM_EffectTransform>

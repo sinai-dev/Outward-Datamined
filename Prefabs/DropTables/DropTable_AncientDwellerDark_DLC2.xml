@@ -57,7 +57,7 @@
     <DropGeneratorHolder>
       <MinNumberOfDrops>5</MinNumberOfDrops>
       <MaxNumberOfDrops>5</MaxNumberOfDrops>
-      <MaxDiceValue>30</MaxDiceValue>
+      <MaxDiceValue>180</MaxDiceValue>
       <EmptyDrop>0</EmptyDrop>
       <RegenTime>-1</RegenTime>
       <ChanceReduction>0</ChanceReduction>
@@ -68,7 +68,7 @@
           <Item_ID>6000340</Item_ID>
           <Min_Quantity>1</Min_Quantity>
           <Max_Quantity>1</Max_Quantity>
-          <Drop_Chance>33.33</Drop_Chance>
+          <Drop_Chance>5.56</Drop_Chance>
           <Dice_Range>9</Dice_Range>
           <ChanceReduction>0</ChanceReduction>
           <ChanceRegenDelay>-1</ChanceRegenDelay>
@@ -79,7 +79,7 @@
           <Item_ID>6000380</Item_ID>
           <Min_Quantity>1</Min_Quantity>
           <Max_Quantity>1</Max_Quantity>
-          <Drop_Chance>33.33</Drop_Chance>
+          <Drop_Chance>5.56</Drop_Chance>
           <Dice_Range>9</Dice_Range>
           <ChanceReduction>0</ChanceReduction>
           <ChanceRegenDelay>-1</ChanceRegenDelay>
@@ -90,7 +90,172 @@
           <Item_ID>6000420</Item_ID>
           <Min_Quantity>1</Min_Quantity>
           <Max_Quantity>1</Max_Quantity>
-          <Drop_Chance>33.33</Drop_Chance>
+          <Drop_Chance>5.56</Drop_Chance>
+          <Dice_Range>9</Dice_Range>
+          <ChanceReduction>0</ChanceReduction>
+          <ChanceRegenDelay>-1</ChanceRegenDelay>
+          <ChanceRegenQty>0</ChanceRegenQty>
+        </DropTableChanceEntry>
+        <DropTableChanceEntry>
+          <Item_Name>Ore Sample (40 Stones)</Item_Name>
+          <Item_ID>6000341</Item_ID>
+          <Min_Quantity>1</Min_Quantity>
+          <Max_Quantity>1</Max_Quantity>
+          <Drop_Chance>5.56</Drop_Chance>
+          <Dice_Range>9</Dice_Range>
+          <ChanceReduction>0</ChanceReduction>
+          <ChanceRegenDelay>-1</ChanceRegenDelay>
+          <ChanceRegenQty>0</ChanceRegenQty>
+        </DropTableChanceEntry>
+        <DropTableChanceEntry>
+          <Item_Name>Ore Sample (80 Stones)</Item_Name>
+          <Item_ID>6000342</Item_ID>
+          <Min_Quantity>1</Min_Quantity>
+          <Max_Quantity>1</Max_Quantity>
+          <Drop_Chance>5.56</Drop_Chance>
+          <Dice_Range>9</Dice_Range>
+          <ChanceReduction>0</ChanceReduction>
+          <ChanceRegenDelay>-1</ChanceRegenDelay>
+          <ChanceRegenQty>0</ChanceRegenQty>
+        </DropTableChanceEntry>
+        <DropTableChanceEntry>
+          <Item_Name>Ore Sample (Diamond Dust)</Item_Name>
+          <Item_ID>6000343</Item_ID>
+          <Min_Quantity>1</Min_Quantity>
+          <Max_Quantity>1</Max_Quantity>
+          <Drop_Chance>5.56</Drop_Chance>
+          <Dice_Range>9</Dice_Range>
+          <ChanceReduction>0</ChanceReduction>
+          <ChanceRegenDelay>-1</ChanceRegenDelay>
+          <ChanceRegenQty>0</ChanceRegenQty>
+        </DropTableChanceEntry>
+        <DropTableChanceEntry>
+          <Item_Name>Ore Sample (Chromium Shards)</Item_Name>
+          <Item_ID>6000344</Item_ID>
+          <Min_Quantity>1</Min_Quantity>
+          <Max_Quantity>1</Max_Quantity>
+          <Drop_Chance>5.56</Drop_Chance>
+          <Dice_Range>9</Dice_Range>
+          <ChanceReduction>0</ChanceReduction>
+          <ChanceRegenDelay>-1</ChanceRegenDelay>
+          <ChanceRegenQty>0</ChanceRegenQty>
+        </DropTableChanceEntry>
+        <DropTableChanceEntry>
+          <Item_Name>Ore Sample (Amethyst Geode)</Item_Name>
+          <Item_ID>6000345</Item_ID>
+          <Min_Quantity>1</Min_Quantity>
+          <Max_Quantity>1</Max_Quantity>
+          <Drop_Chance>5.56</Drop_Chance>
+          <Dice_Range>9</Dice_Range>
+          <ChanceReduction>0</ChanceReduction>
+          <ChanceRegenDelay>-1</ChanceRegenDelay>
+          <ChanceRegenQty>0</ChanceRegenQty>
+        </DropTableChanceEntry>
+        <DropTableChanceEntry>
+          <Item_Name>Plant Sample (40 Timber)</Item_Name>
+          <Item_ID>6000381</Item_ID>
+          <Min_Quantity>1</Min_Quantity>
+          <Max_Quantity>1</Max_Quantity>
+          <Drop_Chance>5.56</Drop_Chance>
+          <Dice_Range>9</Dice_Range>
+          <ChanceReduction>0</ChanceReduction>
+          <ChanceRegenDelay>-1</ChanceRegenDelay>
+          <ChanceRegenQty>0</ChanceRegenQty>
+        </DropTableChanceEntry>
+        <DropTableChanceEntry>
+          <Item_Name>Plant Sample (80 Timber)</Item_Name>
+          <Item_ID>6000382</Item_ID>
+          <Min_Quantity>1</Min_Quantity>
+          <Max_Quantity>1</Max_Quantity>
+          <Drop_Chance>5.56</Drop_Chance>
+          <Dice_Range>9</Dice_Range>
+          <ChanceReduction>0</ChanceReduction>
+          <ChanceRegenDelay>-1</ChanceRegenDelay>
+          <ChanceRegenQty>0</ChanceRegenQty>
+        </DropTableChanceEntry>
+        <DropTableChanceEntry>
+          <Item_Name>Plant Sample (Flash Moss)</Item_Name>
+          <Item_ID>6000383</Item_ID>
+          <Min_Quantity>1</Min_Quantity>
+          <Max_Quantity>1</Max_Quantity>
+          <Drop_Chance>5.56</Drop_Chance>
+          <Dice_Range>9</Dice_Range>
+          <ChanceReduction>0</ChanceReduction>
+          <ChanceRegenDelay>-1</ChanceRegenDelay>
+          <ChanceRegenQty>0</ChanceRegenQty>
+        </DropTableChanceEntry>
+        <DropTableChanceEntry>
+          <Item_Name>Plant Sample (Bloodroot)</Item_Name>
+          <Item_ID>6000384</Item_ID>
+          <Min_Quantity>1</Min_Quantity>
+          <Max_Quantity>1</Max_Quantity>
+          <Drop_Chance>5.56</Drop_Chance>
+          <Dice_Range>9</Dice_Range>
+          <ChanceReduction>0</ChanceReduction>
+          <ChanceRegenDelay>-1</ChanceRegenDelay>
+          <ChanceRegenQty>0</ChanceRegenQty>
+        </DropTableChanceEntry>
+        <DropTableChanceEntry>
+          <Item_Name>Plant Sample (Voltaic Vines)</Item_Name>
+          <Item_ID>6000385</Item_ID>
+          <Min_Quantity>1</Min_Quantity>
+          <Max_Quantity>1</Max_Quantity>
+          <Drop_Chance>5.56</Drop_Chance>
+          <Dice_Range>9</Dice_Range>
+          <ChanceReduction>0</ChanceReduction>
+          <ChanceRegenDelay>-1</ChanceRegenDelay>
+          <ChanceRegenQty>0</ChanceRegenQty>
+        </DropTableChanceEntry>
+        <DropTableChanceEntry>
+          <Item_Name>Molepig Specimen (200 Food)</Item_Name>
+          <Item_ID>6000421</Item_ID>
+          <Min_Quantity>1</Min_Quantity>
+          <Max_Quantity>1</Max_Quantity>
+          <Drop_Chance>5.56</Drop_Chance>
+          <Dice_Range>9</Dice_Range>
+          <ChanceReduction>0</ChanceReduction>
+          <ChanceRegenDelay>-1</ChanceRegenDelay>
+          <ChanceRegenQty>0</ChanceRegenQty>
+        </DropTableChanceEntry>
+        <DropTableChanceEntry>
+          <Item_Name>Molepig Specimen (300 Food)</Item_Name>
+          <Item_ID>6000422</Item_ID>
+          <Min_Quantity>1</Min_Quantity>
+          <Max_Quantity>1</Max_Quantity>
+          <Drop_Chance>5.56</Drop_Chance>
+          <Dice_Range>9</Dice_Range>
+          <ChanceReduction>0</ChanceReduction>
+          <ChanceRegenDelay>-1</ChanceRegenDelay>
+          <ChanceRegenQty>0</ChanceRegenQty>
+        </DropTableChanceEntry>
+        <DropTableChanceEntry>
+          <Item_Name>Molepig Specimen (Ectoplasm)</Item_Name>
+          <Item_ID>6000423</Item_ID>
+          <Min_Quantity>1</Min_Quantity>
+          <Max_Quantity>1</Max_Quantity>
+          <Drop_Chance>5.56</Drop_Chance>
+          <Dice_Range>9</Dice_Range>
+          <ChanceReduction>0</ChanceReduction>
+          <ChanceRegenDelay>-1</ChanceRegenDelay>
+          <ChanceRegenQty>0</ChanceRegenQty>
+        </DropTableChanceEntry>
+        <DropTableChanceEntry>
+          <Item_Name>Molepig Specimen (Digested Mana Stone)</Item_Name>
+          <Item_ID>6000424</Item_ID>
+          <Min_Quantity>1</Min_Quantity>
+          <Max_Quantity>1</Max_Quantity>
+          <Drop_Chance>5.56</Drop_Chance>
+          <Dice_Range>9</Dice_Range>
+          <ChanceReduction>0</ChanceReduction>
+          <ChanceRegenDelay>-1</ChanceRegenDelay>
+          <ChanceRegenQty>0</ChanceRegenQty>
+        </DropTableChanceEntry>
+        <DropTableChanceEntry>
+          <Item_Name>Molepig Specimen (Petrified Organs)</Item_Name>
+          <Item_ID>6000425</Item_ID>
+          <Min_Quantity>1</Min_Quantity>
+          <Max_Quantity>1</Max_Quantity>
+          <Drop_Chance>5.56</Drop_Chance>
           <Dice_Range>9</Dice_Range>
           <ChanceReduction>0</ChanceReduction>
           <ChanceRegenDelay>-1</ChanceRegenDelay>

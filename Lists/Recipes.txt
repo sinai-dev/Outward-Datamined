@@ -391,8 +391,8 @@
 482	Survival	Revenant Moon (1)	Cracked Red Moon,Scarlet Gem
 483	Survival	Tokebakicit (1)	Unusual Knuckles,Chromium Shards,Bloodroot
 484	Alchemy	Frosted Powder (3)	Funnel Beetle,Funnel Beetle
-485	Survival	Chalcedony Mace (1)	Chalcedony,Chalcedony,Nephrite Gemstone
-486	Survival	Chalcedony Hammer (1)	Chalcedony,Chalcedony,Nephrite Gemstone,Nephrite Gemstone
+485	Survival	Chalcedony Mace (1)	Chalcedony,Chalcedony,Militia Mace,Nephrite Gemstone
+486	Survival	Chalcedony Hammer (1)	Chalcedony,Chalcedony,Militia Hammer,Nephrite Gemstone
 487	Alchemy	Oil Bomb (1)	Sulphuric Mushroom,Thick Oil,Thick Oil
 488	Alchemy	Fragment Bomb (1)	Sulphuric Mushroom,Iron Scrap,Iron Scrap
 489	Alchemy	Frost Bomb (1)	Bomb Kit,Chalcedony,Sulphuric Mushroom

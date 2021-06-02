@@ -33,7 +33,7 @@
               <Delay>0.4</Delay>
               <SyncType>OwnerSync</SyncType>
               <OverrideCategory>None</OverrideCategory>
-              <CastPosition>Local</CastPosition>
+              <CastPosition>ProximitySkillItem</CastPosition>
               <LocalPositionAdd>
                 <x>0</x>
                 <y>1</y>
@@ -46,7 +46,7 @@
               <Radius>2.8</Radius>
               <RefreshTime>0.1</RefreshTime>
               <BlastLifespan>0</BlastLifespan>
-              <InstantiatedAmount>5</InstantiatedAmount>
+              <InstantiatedAmount>2</InstantiatedAmount>
               <Interruptible>false</Interruptible>
               <MaxHitTargetCount>-1</MaxHitTargetCount>
               <AffectHitTargetCenter>false</AffectHitTargetCenter>
